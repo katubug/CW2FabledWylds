@@ -1,0 +1,93 @@
+{
+  "log_spawn_positions": {
+    "//": "When enabled, the mod will log all spawn positions to the console.",
+    "//default": false,
+    "value": false
+  },
+  "remains": {
+    "//": [
+      "The remains sherd can be found in suspicious gravel that has been inserted into ",
+      "the floor of vanilla skeleton dungeons.                                         "
+    ],
+    "value": {
+      "enable_generation": {
+        "//": [
+          "When enabled the mod will try to spawn suspicious gravel in dungeons with a     ",
+          "skeleton spawner.                                                               "
+        ],
+        "//default": true,
+        "value": true
+      },
+      "under_spawner": {
+        "//": [
+          "When enabled the mod will always try to place a suspicious gravel under the     ",
+          "spawner block.                                                                  "
+        ],
+        "//default": true,
+        "value": true
+      },
+      "floor_attempts": {
+        "//": "The number of additional suspicious gravel the mod should attempt to generate.",
+        "//range": ">=0",
+        "//default": 5,
+        "value": 5
+      },
+      "floor_range": {
+        "//": [
+          "The maximum distance away from the spawner that suspicious gravel should        ",
+          "generate.                                                                       "
+        ],
+        "//range": ">=1 AND <=8",
+        "//default": 4,
+        "value": 4
+      }
+    }
+  },
+  "snip": {
+    "//": "Drowned can spawn holding the snip sherd on rare occasions.",
+    "value": {
+      "spawn_chance": {
+        "//": [
+          "The percent chance that a drowned will spawn with a snip sherd in the offhand   ",
+          "slot. The default is 3%.                                                        "
+        ],
+        "//range": ">=0.0 AND <=1.0",
+        "//default": 0.03,
+        "value": 0.03
+      },
+      "only_natural_spawns": {
+        "//": [
+          "When enabled, only naturally spawned drowned have a chance to spawn holding the ",
+          "sherd. Unnatural spawn methods like commands, spawners, and spawn eggs will not."
+        ],
+        "//default": true,
+        "value": true
+      }
+    }
+  },
+  "invader": {
+    "//": [
+      "The invader sherd can be found in suspicious sand that generates inside of a    ",
+      "vanilla dessert pyramid.                                                        "
+    ],
+    "value": {
+      "enable_generation": {
+        "//": [
+          "When enabled te mod will try to spawn suspicious sand with the invader sherd    ",
+          "inside of pyramids.                                                             "
+        ],
+        "//default": true,
+        "value": true
+      },
+      "generation_chance": {
+        "//": [
+          "The percent chance that a suspicious sand will have the invader loot table. The ",
+          "default is 10%.                                                                 "
+        ],
+        "//range": ">=0.0 AND <=1.0",
+        "//default": 0.1,
+        "value": 0.1
+      }
+    }
+  }
+}

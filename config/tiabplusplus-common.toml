@@ -1,0 +1,75 @@
+#Debug items can be consumed
+debugItemConsume = false
+#Chance of success 1/X
+# Default: 1000
+# Range: > 1
+chance = 1000
+#Show Toast
+Toast = true
+#Show on Chat
+Chat = false
+#Show on ActionBar
+ActionBar = false
+#Play sound on event triggered
+Sound = true
+#Show an alert when TIAB still missing
+Alert = true
+#Min value of ticks of rewarding
+# Default: 1000
+# Range: 1 ~ 2147483646
+min = 1000
+#Max value of ticks of rewarding
+# Default: 10000
+# Range: > 2
+max = 10000
+#Show toast to inform that was configured an unbalanced chance rate
+chance_warning = true
+#Enable/Disable clicker spam proof at many of events
+#Events related:
+#-AttackEntity
+#-Bonemeal
+#-Fishing
+#-ItemUseBlock
+#-EntityInteract
+#-LeftClickBlock
+#-LeftClickEmpty
+#-RightClickBlock
+#-RightClickEmpty
+#-RightClickItem
+#-ItemCrafted
+safe_click = true
+#Tick of delay before to accept the action as valid
+#Too low will be unsafe for spam-clicking
+# Default: 4
+# Range: > 0
+safe_tick_delay = 4
+#Anvil Repairing: This event could generate time
+event_anvil = true
+#Attack Entity: This event could generate time
+event_attack_entity = false
+#Bonemeal: This event could generate time
+event_bonemeal = true
+#Critic Hit: This event could generate time
+event_critic_attack = true
+#Fishing: This event could generate time
+event_fishing = true
+#Item Enchanting: This event could generate time
+event_enchanting = true
+#Item use on block: This event could generate time
+event_item_use_block = true
+#Entity Interact: This event could generate time
+event_entity_interact = false
+#Left Click Block: This event could generate time
+event_left_click_block = false
+#Left Click Empty: This event could generate time
+event_left_click_empty = false
+#Right Click Block: This event could generate time
+event_right_click_block = false
+#Right Click Empty: This event could generate time
+event_right_click_empty = false
+#Right Click Item: This event could generate time
+event_right_click_item = false
+#Crafting Items: This event could generate time
+event_crafting = true
+#Smelting Items: This event could generate time
+event_smelting = true
