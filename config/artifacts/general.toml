@@ -28,6 +28,9 @@ entityEquipmentChance = 0.0015
 	#The minimum height campsites can spawn at
 	#Range: -2147483648 ~ 2147483647
 	minY = -60
+	#Replaces campsites with a single chest/mimic
+	#Allowed Values: true, false
+	minimalistCampsites = false
 	#Whether to use wooden chests from other mods when generating campsites
 	#Allowed Values: true, false
 	useModdedChests = true

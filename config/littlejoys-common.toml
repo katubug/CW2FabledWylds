@@ -37,3 +37,11 @@
 [goldRush]
 	#The base chance for a gold rush to occur.
 	baseChance = 0.019999999552965164
+
+[stardewFishing]
+	#The treasure chest chance bonus applied when fishing at a fishing spot.
+	fishingSpotTreasureChestChanceBonus = 0.0
+	#The golden chest chance bonus applied when fishing at a fishing spot.
+	fishingSpotGoldenChestChanceBonus = 0.0
+	#If enabled, Little Joy's own fishing spot rewards will be skipped when Stardew Fishing minigames take over.
+	skipFishingSpotRewards = false

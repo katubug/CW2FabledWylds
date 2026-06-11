@@ -1,0 +1,169 @@
+LootJS.modifiers((event) => {
+    //event.enableLogging();
+    /*const modifiers = event.getGlobalModifiers();
+    modifiers.forEach((modifier) => {
+        console.log(modifier)
+    });*/
+    
+    //Remove Junk from Abandoned Mineshafts
+	event.addLootTableModifier('minecraft:chests/abandoned_mineshaft').removeLoot('farmersdelight:skillet')
+	event.addLootTableModifier('minecraft:chests/abandoned_mineshaft').removeLoot('supplementaries:rope')
+	event.addLootTableModifier('minecraft:chests/abandoned_mineshaft').removeLoot('farmersdelight:rope')
+	event.addLootTableModifier('minecraft:chests/abandoned_mineshaft').removeLoot('farmersdelight:cooking_pot')
+    event.addLootTableModifier('minecraft:chests/abandoned_mineshaft').removeLoot('farmersdelight:rice')
+
+    //Remove Junk from Ancient Cities
+    event.addLootTableModifier('minecraft:chests/ancient_city').removeLoot('minecraft:lead')
+
+    //Remove Junk from Buried Treasure
+    event.addLootTableModifier('minecraft:chests/buried_treasure').removeLoot('minecraft:iron_sword')
+    event.addLootTableModifier('minecraft:chests/buried_treasure').removeLoot('minecraft:tnt')
+
+    //Desert Pyramids
+    event.addLootTableModifier('minecraft:chests/desert_pyramid').removeLoot('minecraft:string')
+    event.addLootTableModifier('minecraft:chests/desert_pyramid').removeLoot('minecraft:iron_horse_armor')
+
+    //End City Treasure
+    event.addLootTableModifier('minecraft:chests/end_city_treasure').removeLoot('farmersdelight:iron_knife')
+    event.addLootTableModifier('minecraft:chests/end_city_treasure').removeLoot('farmersdelight:diamond_knife')
+    event.addLootTableModifier('minecraft:chests/end_city_treasure').removeLoot('minecraft:golden_horse_armor')
+
+    //Igloo
+    event.addLootTableModifier('minecraft:chests/igloo_chest').removeLoot('minecraft:stone_axe')
+
+    //Simple Dungeon
+    event.addLootTableModifier('minecraft:chests/simple_dungeon').removeLoot('supplementaries:flax_seeds')
+    event.addLootTableModifier('minecraft:chests/simple_dungeon').removeLoot('minecraft:bread')
+    
+
+    //Jungle Temple
+    event.addLootTableModifier('minecraft:chests/jungle_temple').removeLoot('supplementaries:bamboo_spikes')
+    event.addLootTableModifier('minecraft:chests/jungle_temple').removeLoot('supplementaries:bamboo_spikes_tipped')
+
+    //Nether Fortress Bridge
+    event.addLootTableModifier('minecraft:chests/nether_bridge').removeLoot('minecraft:golden_horse_armor')
+    event.addLootTableModifier('minecraft:chests/nether_bridge').removeLoot('minecraft:iron_horse_armor')
+
+    //Pillager Outpost
+    event.addLootTableModifier('minecraft:chests/pillager_outpost').removeLoot('supplementaries:flax_seeds')
+    event.addLootTableModifier('minecraft:chests/pillager_outpost').removeLoot('minecraft:dark_oak_log')
+
+    //Ruined Portal
+    event.addLootTableModifier('minecraft:chests/ruined_portal').removeLoot('minecraft:fire_charge')
+    event.addLootTableModifier('minecraft:chests/ruined_portal').removeLoot('minecraft:light_weighted_pressure_plate')
+    event.addLootTableModifier('minecraft:chests/ruined_portal').removeLoot('farmersdelight:golden_knife')
+    event.addLootTableModifier('minecraft:chests/ruined_portal').removeLoot('minecraft:golden_hoe')
+
+    //Shipwreck Supply
+    event.addLootTableModifier('minecraft:chests/shipwreck_supply').removeLoot('minecraft:bamboo')
+    event.addLootTableModifier('minecraft:chests/shipwreck_supply').removeLoot('supplementaries:flax_seeds')
+    event.addLootTableModifier('minecraft:chests/shipwreck_supply').removeLoot('minecraft:tnt')
+    event.addLootTableModifier('minecraft:chests/shipwreck_supply').removeLoot('farmersdelight:tomato_seeds')
+    event.addLootTableModifier('minecraft:chests/shipwreck_supply').removeLoot('farmersdelight:cabbage_seeds')
+    event.addLootTableModifier('minecraft:chests/shipwreck_supply').removeLoot('farmersdelight:tomato_seeds')
+    event.addLootTableModifier('minecraft:chests/shipwreck_supply').removeLoot('minecraft:leather_leggings')
+    event.addLootTableModifier('minecraft:chests/shipwreck_supply').removeLoot('minecraft:rotten_flesh')
+
+    //Underwater Ruin
+    event.addLootTableModifier('minecraft:chests/underwater_ruin_small').removeLoot('minecraft:stone_axe')
+
+    //Remove Junk from Woodland Mansions
+    event.addLootTableModifier('minecraft:chests/woodland_mansion').removeLoot('minecraft:beetroot_seeds')
+
+    //Remove all Plushies from Chests
+    event.removeGlobalModifier('@perfectplushies')
+
+    //Remove all Photographs from Chests
+    event.removeGlobalModifier('@exposure')
+
+    event.addLootTypeModifier(LootType.CHEST).removeLoot([
+        'farmersdelight:rope',
+        'supplementaries:rope',
+        'create:dough',
+        'farm_and_charm:bacon',
+        'farm_and_charm:beetroot_bag',
+        'farm_and_charm:carrot_bag',
+        'farm_and_charm:chicken_parts',
+        'farm_and_charm:dough',
+        'farm_and_charm:fertilized_farmland',
+        'farm_and_charm:fertilized_soil',
+        'farm_and_charm:lamb_ham',
+        'farm_and_charm:minced_beef',
+        'farm_and_charm:nettle_tea_cup',
+        'farm_and_charm:onion',
+        'farm_and_charm:onion_bag',
+        'farm_and_charm:plow',
+        'farm_and_charm:potato_bag',
+        'farm_and_charm:raw_pasta',
+        'farm_and_charm:ribwort_tea_cup',
+        'farm_and_charm:rotten_tomato',
+        'farm_and_charm:strawberry_tea_cup',
+        'farm_and_charm:supply_cart',
+        'farm_and_charm:tomato',
+        'farm_and_charm:tomato_bag',
+        'farm_and_charm:tomato_seeds',
+        'farm_and_charm:wild_onions',
+        'farm_and_charm:wild_tomatoes',
+        'tarotcards:the_emperor', 
+        'tarotcards:the_empress', 
+        'tarotcards:the_high_priestess', 
+        'tarotcards:the_world',
+        'reliquary:midas_touchstone',
+        'reliquary:pyromancer_staff',
+        'reliquary:rending_gale',
+        'reliquary:rod_of_lyssa',
+        'reliquary:zombie_heart',
+        'supplementaries:rope',
+        'minecraft:flint', 
+        'minecraft:honey_bottle', 
+        'minecraft:dead_bush', 
+        'minecraft:cake', 
+        'quark:seed_pouch', 
+        'quark:dirty_shard', 
+        'supplementaries:soap', 
+        'create:experience_nugget', 
+        'minecraft:wheat_seeds',
+        'minecraft:cactus', 
+        'supplementaries:candle_holder', 
+        'create:crafting_blueprint', 
+        'minecraft:tripwire_hook', 
+        'supplementaries:slingshot', 
+        'minecraft:beetroot_seeds',
+        'supplementaries:goblet',
+        'minecraft:stone_hoe', 
+        'minecraft:snowball', 
+        'minecraft:leather_helmet', 
+        'create:builders_tea',
+        'minecraft:potion',
+        'supplementaries:bomb', 
+        'minecraft:grass', 
+        'supplementaries:candle_holder_black', 
+        'create:clipboard', 
+        'minecraft:lily_pad', 
+        'minecraft:furnace', 
+        'minecraft:leather_chestplate',
+        'minecraft:iron_hoe',
+        'minecraft:activator_rail',
+        'minecraft:carrot_on_a_stick',
+        'minecraft:poisonous_potato',
+        'minecraft:flint_and_steel',
+        'minecraft:saddle',
+        'reliquary:witch_hat',
+        'supplementaries:ash',
+        'supplementaries:antique_ink',
+        'quark:dirty_shard',
+        'perfectplushies:sirjain_plushie',
+        'perfectplushies:sirjain_plushie_rare',
+        'perfectplushies:gamerpotion_plushie',
+        'perfectplushies:gamerpotion_plushie_rare',
+        'perfectplushies:sizableshrimp_plushie',
+        'perfectplushies:daniel_plushie',
+        'perfectplushies:silk_plushie',
+        'perfectplushies:rocris_plushie',
+        'perfectplushies:joosh_plushie',
+        'perfectplushies:june_plushie',
+        'perfectplushies:nyf_plushie',
+        'perfectplushies:tslat_plushie',
+        'supplementaries:quiver'
+      ])
+})

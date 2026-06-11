@@ -1,5 +1,5 @@
 {
-  "create_version": "21.0.19",
+  "create_version": "21.0.21",
   "structure": {
     "generate_central_island": true,
     "generate_obsidian_platform": true,
@@ -53,5 +53,5 @@
   "cosmetic": {
     "change_chorus_plant": true
   },
-  "modify_version": "21.0.19"
+  "modify_version": "21.0.21"
 }

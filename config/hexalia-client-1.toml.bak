@@ -1,0 +1,9 @@
+#Client-side Visual Settings
+[plants]
+	#If true, Ghost Fern blocks emit ambient particles client-side. Default: true
+	ghostFernEmitsParticles = true
+
+	#Client-side Visual Settings
+	[plants.plants]
+		#If true, Celestial Blooms blocks emit ambient particles client-side. Default: true
+		celestialBloomEmitsParticles = true

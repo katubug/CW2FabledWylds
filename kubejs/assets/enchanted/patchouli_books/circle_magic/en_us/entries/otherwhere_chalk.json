@@ -1,0 +1,12 @@
+{
+  "name": "Otherwhere Chalk",
+  "icon": "enchanted:otherwhere_chalk",
+  "category": "enchanted:performing_rites",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Otherwhere chalk is a rich purple chalk, typically used for rites involving teleportation/transposition, relocation or the End."
+    }
+  ],
+  "read_by_default": true
+}

@@ -1,4 +1,8 @@
 {
+  "adorablehamsterpets:hamster_bed_info": null,
+  "adorablehamsterpets:hamster_debug_info": null,
+  "adorablehamsterpets:hamster_genetics": null,
+  "adorablehamsterpets:wild_bush_tooltips": null,
   "ae2:base_cablebusblockentity": null,
   "ae2:charger": null,
   "ae2:crafting_monitor": null,
@@ -12,6 +16,9 @@
   "ae2:pattern_provider": null,
   "ae2:power_storage": null,
   "balm:jade": null,
+  "betterend:plant_growth": null,
+  "betternether:plant_growth": null,
+  "contactquests:mailbox_team_info": null,
   "easy_villagers:breeder": null,
   "easy_villagers:converter": null,
   "easy_villagers:villager": null,

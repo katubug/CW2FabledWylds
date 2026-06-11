@@ -11,8 +11,8 @@
     "animal_owner": true,
     "harvest_tool.effective_tool": true,
     "energy_storage.style": "PROGRESS_BAR",
-    "item_storage.normal_amount": 9,
     "item_storage": true,
+    "item_storage.normal_amount": 9,
     "harvest_tool": true,
     "armor_stand": true,
     "fluid_storage.detailed": false,
@@ -78,6 +78,12 @@
     "block_properties": false,
     "mod_name": true
   },
+  "adorablehamsterpets": {
+    "hamster_debug_info": true,
+    "hamster_bed_info": true,
+    "wild_bush_tooltips": true,
+    "hamster_genetics": true
+  },
   "balm": {
     "jade": true
   },
@@ -101,21 +107,30 @@
     "lightroom": true,
     "photograph_frame": true
   },
+  "betternether": {
+    "plant_growth": true
+  },
+  "contactquests": {
+    "mailbox_team_info": true
+  },
   "easy_villagers": {
     "villager": true,
     "converter": true,
     "breeder": true
+  },
+  "betterend": {
+    "plant_growth": true
+  },
+  "twilightforest": {
+    "drying_rack": true,
+    "chiseled_bookshelf_spawner": true,
+    "quest_ram_wool": true
   },
   "reliquary": {
     "pedestal": true,
     "altar": true,
     "mortar": true,
     "cauldron": true
-  },
-  "twilightforest": {
-    "drying_rack": true,
-    "chiseled_bookshelf_spawner": true,
-    "quest_ram_wool": true
   },
   "supplementaries": {
     "hat_stand": true

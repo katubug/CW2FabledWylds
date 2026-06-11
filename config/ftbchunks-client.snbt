@@ -55,6 +55,11 @@
 		# Default: false
 		chunk_grid: false
 		
+		# Claim mode for the chunk claiming screen
+		# Default: "freehand"
+		# Valid values: "freehand", "rectangle", "circle"
+		claim_mode: "freehand"
+		
 		# Show claimed chunks on the map
 		# Default: true
 		claimed_chunks_on_map: true
@@ -132,7 +137,27 @@
 		# Show entity heads on minimap
 		# Default: true
 		entity_heads: true
-		entity_icon: { }
+		entity_icon: {
+			"minecraft:spider": true
+			"minecraft:zombie": true
+			"tide:anchovy": true
+			"artifacts:mimic": true
+			"tide:red_snapper": true
+			"minecraft:enderman": true
+			"reanimal:jellyfish": true
+			"minecraft:pig": true
+			"minecraft:creeper": true
+			"tide:flounder": true
+			"minecraft:chicken": true
+			"minecraft:salmon": false
+			"creeperoverhaul:cave_creeper": true
+			"minecraft:cow": true
+			"quark:toretoise": true
+			"minecraft:glow_squid": true
+			"minecraft:bat": true
+			"quark:stoneling": true
+			"minecraft:skeleton": true
+		}
 		
 		# Minimap font scaling (values not a multiple of 0.5 may look bad)
 		# Default: 0.5
@@ -251,11 +276,11 @@
 		
 		# Enables creation of death waypoints
 		# Default: true
-		death_waypoints: true
+		death_waypoints: false
 		
 		# Show waypoints in world
 		# Default: true
-		in_world_waypoints: true
+		in_world_waypoints: false
 		
 		# Minimum distance before waypoint dots start to fade
 		# Default: 1.0

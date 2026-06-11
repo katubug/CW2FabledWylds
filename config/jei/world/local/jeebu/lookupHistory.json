@@ -1,0 +1,11 @@
+[
+  {"version":1},
+  {"ingredient":{"id":"alchimiae:stone_mortar_and_pestle"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"alchimiae:gold_mortar_and_pestle"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"cropcritters:strange_fertilizer"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"kubejs:carved_dark_oak_8"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"kubejs:carved_crimson_6"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"tide:fishing_journal"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"starcatcher:waterlogged_satchel"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"starcatcher:fish_radar"},"type":"item_stack","bookmarkType":"INGREDIENT"}
+]
