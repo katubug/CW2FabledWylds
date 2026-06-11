@@ -1,6 +1,6 @@
 {
   "active": true,
-  "showOnlyOneTime": true,
+  "showOnlyOneTime": false,
   "chatMessage": false,
   "showCreator": true,
   "customStructureName": {
@@ -11,15 +11,5 @@
     "dimdungeons:"
   ],
   "dontShow": [
-    "minecraft:plains_village",
-    "minecraft:desert_village",
-    "ctov:medium/village_taiga_fortified",
-    "hearthandharvest:corn_maze",
-    "ae2:meteorite",
-    "wetland_whimsy:wall",
-    "epic:witch_hut",
-    "idas:ruined_church",
-    "idas:abandoned_lighthouse",
-    "hexalia:herbalist_hut"
   ]
 }

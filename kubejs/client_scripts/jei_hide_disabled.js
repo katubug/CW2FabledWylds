@@ -3,6 +3,14 @@
 RecipeViewerEvents.removeEntries('item',event => {
     // Disabled Items Removal
     let toHide = [
+      'unusual_furniture:decorative_toolbox', 
+      'unusual_furniture:warning_barrier', 
+      'unusual_furniture:road_works_barrier', 
+      'unusual_furniture:danger_barrier', 
+      'unusual_furniture:wooden_barrier', 
+      'unusual_furniture:trash', 
+      'unusual_furniture:fire_hydrant', 
+      'unusual_furniture:emergency_fire_hydrant',
       'tide:fishing_journal',
       'candlelight:beetroot_crate',
       'candlelight:carrot_crate',

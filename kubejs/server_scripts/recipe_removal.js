@@ -3,7 +3,15 @@ ServerEvents.recipes(event => {
     // All Recipe Removal
     let toRemove = [
         //Removed Recipes
-        {output:'tide:fishing_journal'},
+        {output:'unusual_furniture:decorative_toolbox'},
+        {output:'unusual_furniture:warning_barrier'},
+        {output:'unusual_furniture:road_works_barrier'},
+        {output:'unusual_furniture:danger_barrier'},
+        {output:'unusual_furniture:wooden_barrier'},
+        {output:'unusual_furniture:trash'},
+        {output:'unusual_furniture:fire_hydrant'},
+        {output:'unusual_furniture:emergency_fire_hydrant'},
+        {output: 'tide:fishing_journal'},
         {output: 'nameless_trinkets:missing_page'}, 
         {output: 'nameless_trinkets:what_magnet'}, 
         {output: 'nameless_trinkets:explosion_proof_jacket'}, 

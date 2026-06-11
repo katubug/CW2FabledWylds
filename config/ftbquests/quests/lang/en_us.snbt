@@ -1,6 +1,7 @@
 {
 	chapter.23E8B59B6CD79A23.title: "Fishing"
 	chapter.61D5456BCFC8615A.title: "Alchemy"
+	chapter.6D161680F9560DBA.title: "Beginnings"
 	chapter.793B373E456D5A96.title: "Agriculture"
 	chapter_group.7137019B15419178.title: "Witchery"
 	quest.05EFC8F18818E8DD.quest_desc: [
@@ -9,13 +10,32 @@
 		"Let me introduce the humble &bSelling Bin&r. Placing your fish in this bin will &aallow you to sell them&r one-by-one, or toggle \"Autosell\" to sell them in bulk."
 	]
 	quest.05EFC8F18818E8DD.quest_subtitle: "become a sellout!"
-	quest.18ABAAF33544CBF8.quest_desc: [
-		"Each time you defeat an &eundead&r, you have a chance at obtaining a &bLost Soul&r, which can be used to tame &eCrop Critters&r!"
+	quest.0DCDAC4C7D4F9F0B.quest_desc: [
+		"Welcome to Cottage Witch 2!"
 		""
-		"But what's that? Well..."
+		"As you enter the overworld, you may be in want of some creature comforts - namely, a good book, and a safe haven."
+		""
+		"The &bEccentric Tome&r contains guidebooks (and some other goodies) from this modpack, to be perused at your leisure, whether that's all at once, or bit by bit. The controls will be explained in a future quest."
+		""
+		"The &bSoul Key&r will allow you to perform your first bit of magic, by bringing you into yourself! Let me explain - actually, no, there is too much. Let me sum up: &6pressing and holding the right mouse button with the key in your hand&r will bring you to a pocket dimension in the safest place: your soul. In your &bSoulHome&r, it is always sunny, no matter the time of day, and no creatures will spawn."
+		""
+		"Be aware that &devery creature within a 2.5 block radius around you will teleport as well&r."
 	]
+	quest.0DCDAC4C7D4F9F0B.quest_subtitle: "we're back, witches"
 	quest.18E1F3797BC552D0.quest_desc: ["Every time you go Starcatching, there is a 1% chance that you will catch a &bGolden variant&r of the fish you're reeling in! Equip the &bGold Hook&r to increase those chances ever so slightly."]
 	quest.18E1F3797BC552D0.title: "Golden Fish"
+	quest.293AFFA188D96753.quest_desc: [
+		"Once you have &abound your &cSoulhome&r, it's a good idea to set up a &bMailbox&r. Many quest rewards in this modpack will be &adelivered to your mailbox&r rather than clutter up your inventory."
+		""
+		"You can tell which way a reward will be delivered by &aviewing the reward's icon&r. If the icon shows a sub-icon like a &bRed Packet&r or a &bParcel&r, it will arrive to your &bMailbox&r."
+		""
+		"This quest's reward allows you to choose the mailbox in the color of your dreams~! Once you place the mailbox, &6crouch right click with empty hands&r to claim it."
+		""
+		"&dPlaying on a multiplayer team?&r &6Check your mail&r! Inside is a &bTeam Binding Card&r which you can &6crouch-click onto your mailbox&r to have your team's winnings sent there!"
+		""
+		"&dWant to invite others to your &bSoulHome&r? Craft a &bBound Soul Key&r and gift it to them (perhaps via mailbox)!"
+	]
+	quest.293AFFA188D96753.title: "Soul Searching"
 	quest.4904301C662B9A5B.quest_desc: [
 		"You can &aupgrade your rods&r by &aadding attachments&r such as &bFishing Line&r, &bBait&r, and &bHooks&r. Although you can &ause most attachments regardless of rod&r, be aware that &dnot all attachments work the same in both rods&r."
 		""
@@ -50,11 +70,6 @@
 		"And in that menu, you can also &6adjust the difficulty of the minigame&r. If you have slow reflexes or are easily frustrated, don't be afraid to make the minigame a little bit easier. :)"
 	]
 	quest.62F2784763AD1938.title: "More about Starcatching"
-	quest.71BB2D37A88EA25C.quest_desc: [
-		"Once you have a &bLost Soul&r of your very own, you can &6right click it onto a Fully Grown Crop&r to turn that crop into a &eCritter&r!"
-		""
-		"Other ways of obtaining &eCritters&r include tilling some &bSoul Soil&r and planting a crop on it. When you harvest, there is a &achance of it turning into a &eCritter&r."
-	]
-	task.298BBD26A5CDD683.title: "Click the Lost Soul onto a Crop"
-	task.47584EDCD2F24EDD.title: "Defeat the Undead"
+	reward_table.3CDC3F477C949E04.title: "Mailboxes"
+	task.4B1CE4FEE799E300.title: "Enter the Overworld"
 }
