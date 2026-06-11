@@ -1,6 +1,10 @@
 {
     "probejs.classScanning": false,
-    "probejs.complete": false,
+    "probejs.complete": true,
     "probejs.modHash": -7732770407472997379,
-    "probejs.newGame": false
+    "probejs.newGame": false,
+    "probejs.hintsForLLM": true,
+    "probejs.fullScanMods": [
+        "hexerei"
+    ]
 }
