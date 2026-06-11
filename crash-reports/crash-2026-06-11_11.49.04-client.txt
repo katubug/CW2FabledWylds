@@ -1,24 +1,24 @@
 ---- Minecraft Crash Report ----
-// Hey, that tickles! Hehehe!
+// Don't be sad, have a hug! <3
 
-Time: 2026-06-10 17:12:11
+Time: 2026-06-11 11:49:04
 Description: Unexpected error
 
 java.lang.IllegalStateException: Cannot get config value before config is loaded.
 	at MC-BOOTSTRAP/com.google.common@32.1.2-jre/com.google.common.base.Preconditions.checkState(Preconditions.java:512) ~[guava-32.1.2-jre.jar%23135!/:?] {re:mixin}
-	at TRANSFORMER/neoforge@21.1.232/net.neoforged.neoforge.common.ModConfigSpec$ConfigValue.getRaw(ModConfigSpec.java:1235) ~[neoforge-21.1.232-universal.jar%23491!/:?] {re:mixin,re:classloading}
-	at TRANSFORMER/neoforge@21.1.232/net.neoforged.neoforge.common.ModConfigSpec$ConfigValue.get(ModConfigSpec.java:1222) ~[neoforge-21.1.232-universal.jar%23491!/:?] {re:mixin,re:classloading}
-	at TRANSFORMER/hexerei@0.5/net.joefoxe.hexerei.event.ClientEvents.clientTickEvent(ClientEvents.java:69) ~[hexerei-0.5.0.3.jar%23624!/:?] {re:classloading}
+	at TRANSFORMER/neoforge@21.1.230/net.neoforged.neoforge.common.ModConfigSpec$ConfigValue.getRaw(ModConfigSpec.java:1235) ~[neoforge-21.1.230-universal.jar%23497!/:?] {re:mixin,re:classloading}
+	at TRANSFORMER/neoforge@21.1.230/net.neoforged.neoforge.common.ModConfigSpec$ConfigValue.get(ModConfigSpec.java:1222) ~[neoforge-21.1.230-universal.jar%23497!/:?] {re:mixin,re:classloading}
+	at TRANSFORMER/hexerei@0.5/net.joefoxe.hexerei.event.ClientEvents.clientTickEvent(ClientEvents.java:69) ~[hexerei-0.5.0.3.jar%23630!/:?] {re:classloading}
 	at MC-BOOTSTRAP/net.neoforged.bus/net.neoforged.bus.ConsumerEventHandler.invoke(ConsumerEventHandler.java:27) ~[bus-8.0.5.jar%23110!/:?] {}
 	at MC-BOOTSTRAP/net.neoforged.bus/net.neoforged.bus.EventBus.post(EventBus.java:360) ~[bus-8.0.5.jar%23110!/:?] {}
 	at MC-BOOTSTRAP/net.neoforged.bus/net.neoforged.bus.EventBus.post(EventBus.java:328) ~[bus-8.0.5.jar%23110!/:?] {}
-	at TRANSFORMER/neoforge@21.1.232/net.neoforged.neoforge.client.ClientHooks.fireClientTickPre(ClientHooks.java:1070) ~[neoforge-21.1.232-universal.jar%23491!/:?] {re:mixin,re:classloading,pl:mixin:A}
-	at TRANSFORMER/minecraft@1.21.1/net.minecraft.client.Minecraft.tick(Minecraft.java:1787) ~[client-1.21.1-20240808.144430-srg.jar%23490!/:?] {re:mixin,pl:accesstransformer:B,pl:runtimedistcleaner:A,re:classloading,pl:accesstransformer:B,pl:mixin:A,pl:runtimedistcleaner:A}
-	at TRANSFORMER/minecraft@1.21.1/net.minecraft.client.Minecraft.runTick(Minecraft.java:1161) ~[client-1.21.1-20240808.144430-srg.jar%23490!/:?] {re:mixin,pl:accesstransformer:B,pl:runtimedistcleaner:A,re:classloading,pl:accesstransformer:B,pl:mixin:A,pl:runtimedistcleaner:A}
-	at TRANSFORMER/minecraft@1.21.1/net.minecraft.client.Minecraft.run(Minecraft.java:807) ~[client-1.21.1-20240808.144430-srg.jar%23490!/:?] {re:mixin,pl:accesstransformer:B,pl:runtimedistcleaner:A,re:classloading,pl:accesstransformer:B,pl:mixin:A,pl:runtimedistcleaner:A}
-	at TRANSFORMER/minecraft@1.21.1/net.minecraft.client.main.Main.main(Main.java:230) ~[client-1.21.1-20240808.144430-srg.jar%23490!/:?] {re:classloading,pl:runtimedistcleaner:A}
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(Unknown Source) ~[?:?] {}
-	at java.base/java.lang.reflect.Method.invoke(Unknown Source) ~[?:?] {re:mixin}
+	at TRANSFORMER/neoforge@21.1.230/net.neoforged.neoforge.client.ClientHooks.fireClientTickPre(ClientHooks.java:1070) ~[neoforge-21.1.230-universal.jar%23497!/:?] {re:mixin,re:classloading,pl:mixin:A}
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.client.Minecraft.tick(Minecraft.java:1787) ~[client-1.21.1-20240808.144430-srg.jar%23496!/:?] {re:mixin,pl:accesstransformer:B,pl:runtimedistcleaner:A,re:classloading,pl:accesstransformer:B,pl:mixin:A,pl:runtimedistcleaner:A}
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.client.Minecraft.runTick(Minecraft.java:1161) ~[client-1.21.1-20240808.144430-srg.jar%23496!/:?] {re:mixin,pl:accesstransformer:B,pl:runtimedistcleaner:A,re:classloading,pl:accesstransformer:B,pl:mixin:A,pl:runtimedistcleaner:A}
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.client.Minecraft.run(Minecraft.java:807) ~[client-1.21.1-20240808.144430-srg.jar%23496!/:?] {re:mixin,pl:accesstransformer:B,pl:runtimedistcleaner:A,re:classloading,pl:accesstransformer:B,pl:mixin:A,pl:runtimedistcleaner:A}
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.client.main.Main.main(Main.java:230) ~[client-1.21.1-20240808.144430-srg.jar%23496!/:?] {re:classloading,pl:runtimedistcleaner:A}
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?] {}
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?] {re:mixin}
 	at MC-BOOTSTRAP/fml_loader@4.0.42/net.neoforged.fml.loading.targets.CommonLaunchHandler.runTarget(CommonLaunchHandler.java:136) ~[loader-4.0.42.jar%23107!/:4.0] {}
 	at MC-BOOTSTRAP/fml_loader@4.0.42/net.neoforged.fml.loading.targets.CommonLaunchHandler.clientService(CommonLaunchHandler.java:124) ~[loader-4.0.42.jar%23107!/:4.0] {}
 	at MC-BOOTSTRAP/fml_loader@4.0.42/net.neoforged.fml.loading.targets.CommonClientLaunchHandler.runService(CommonClientLaunchHandler.java:32) ~[loader-4.0.42.jar%23107!/:4.0] {}
@@ -41,26 +41,26 @@ A detailed walkthrough of the error, its code path and all known details is as f
 Thread: Render thread
 Stacktrace:
 	at MC-BOOTSTRAP/com.google.common@32.1.2-jre/com.google.common.base.Preconditions.checkState(Preconditions.java:512) ~[guava-32.1.2-jre.jar%23135!/:?] {re:mixin}
-	at TRANSFORMER/neoforge@21.1.232/net.neoforged.neoforge.common.ModConfigSpec$ConfigValue.getRaw(ModConfigSpec.java:1235) ~[neoforge-21.1.232-universal.jar%23491!/:?] {re:mixin,re:classloading}
-	at TRANSFORMER/neoforge@21.1.232/net.neoforged.neoforge.common.ModConfigSpec$ConfigValue.get(ModConfigSpec.java:1222) ~[neoforge-21.1.232-universal.jar%23491!/:?] {re:mixin,re:classloading}
-	at TRANSFORMER/hexerei@0.5/net.joefoxe.hexerei.event.ClientEvents.clientTickEvent(ClientEvents.java:69) ~[hexerei-0.5.0.3.jar%23624!/:?] {re:classloading}
+	at TRANSFORMER/neoforge@21.1.230/net.neoforged.neoforge.common.ModConfigSpec$ConfigValue.getRaw(ModConfigSpec.java:1235) ~[neoforge-21.1.230-universal.jar%23497!/:?] {re:mixin,re:classloading}
+	at TRANSFORMER/neoforge@21.1.230/net.neoforged.neoforge.common.ModConfigSpec$ConfigValue.get(ModConfigSpec.java:1222) ~[neoforge-21.1.230-universal.jar%23497!/:?] {re:mixin,re:classloading}
+	at TRANSFORMER/hexerei@0.5/net.joefoxe.hexerei.event.ClientEvents.clientTickEvent(ClientEvents.java:69) ~[hexerei-0.5.0.3.jar%23630!/:?] {re:classloading}
 	at MC-BOOTSTRAP/net.neoforged.bus/net.neoforged.bus.ConsumerEventHandler.invoke(ConsumerEventHandler.java:27) ~[bus-8.0.5.jar%23110!/:?] {}
 	at MC-BOOTSTRAP/net.neoforged.bus/net.neoforged.bus.EventBus.post(EventBus.java:360) ~[bus-8.0.5.jar%23110!/:?] {}
 	at MC-BOOTSTRAP/net.neoforged.bus/net.neoforged.bus.EventBus.post(EventBus.java:328) ~[bus-8.0.5.jar%23110!/:?] {}
-	at TRANSFORMER/neoforge@21.1.232/net.neoforged.neoforge.client.ClientHooks.fireClientTickPre(ClientHooks.java:1070) ~[neoforge-21.1.232-universal.jar%23491!/:?] {re:mixin,re:classloading,pl:mixin:A}
+	at TRANSFORMER/neoforge@21.1.230/net.neoforged.neoforge.client.ClientHooks.fireClientTickPre(ClientHooks.java:1070) ~[neoforge-21.1.230-universal.jar%23497!/:?] {re:mixin,re:classloading,pl:mixin:A}
 -- Uptime --
 Details:
-	JVM uptime: 54.668s
-	Wall uptime: 19.095s
-	High-res time: 51.415s
+	JVM uptime: 46.954s
+	Wall uptime: 15.066s
+	High-res time: 43.877s
 	Client ticks: 1 ticks / 0.050s
 Stacktrace:
-	at TRANSFORMER/minecraft@1.21.1/net.minecraft.client.Minecraft.fillReport(Minecraft.java:2395) ~[client-1.21.1-20240808.144430-srg.jar%23490!/:?] {re:mixin,pl:accesstransformer:B,pl:runtimedistcleaner:A,re:classloading,pl:accesstransformer:B,pl:mixin:A,pl:runtimedistcleaner:A}
-	at TRANSFORMER/minecraft@1.21.1/net.minecraft.client.Minecraft.emergencySaveAndCrash(Minecraft.java:868) ~[client-1.21.1-20240808.144430-srg.jar%23490!/:?] {re:mixin,pl:accesstransformer:B,pl:runtimedistcleaner:A,re:classloading,pl:accesstransformer:B,pl:mixin:A,pl:runtimedistcleaner:A}
-	at TRANSFORMER/minecraft@1.21.1/net.minecraft.client.Minecraft.run(Minecraft.java:828) ~[client-1.21.1-20240808.144430-srg.jar%23490!/:?] {re:mixin,pl:accesstransformer:B,pl:runtimedistcleaner:A,re:classloading,pl:accesstransformer:B,pl:mixin:A,pl:runtimedistcleaner:A}
-	at TRANSFORMER/minecraft@1.21.1/net.minecraft.client.main.Main.main(Main.java:230) ~[client-1.21.1-20240808.144430-srg.jar%23490!/:?] {re:classloading,pl:runtimedistcleaner:A}
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(Unknown Source) ~[?:?] {}
-	at java.base/java.lang.reflect.Method.invoke(Unknown Source) ~[?:?] {re:mixin}
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.client.Minecraft.fillReport(Minecraft.java:2395) ~[client-1.21.1-20240808.144430-srg.jar%23496!/:?] {re:mixin,pl:accesstransformer:B,pl:runtimedistcleaner:A,re:classloading,pl:accesstransformer:B,pl:mixin:A,pl:runtimedistcleaner:A}
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.client.Minecraft.emergencySaveAndCrash(Minecraft.java:868) ~[client-1.21.1-20240808.144430-srg.jar%23496!/:?] {re:mixin,pl:accesstransformer:B,pl:runtimedistcleaner:A,re:classloading,pl:accesstransformer:B,pl:mixin:A,pl:runtimedistcleaner:A}
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.client.Minecraft.run(Minecraft.java:828) ~[client-1.21.1-20240808.144430-srg.jar%23496!/:?] {re:mixin,pl:accesstransformer:B,pl:runtimedistcleaner:A,re:classloading,pl:accesstransformer:B,pl:mixin:A,pl:runtimedistcleaner:A}
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.client.main.Main.main(Main.java:230) ~[client-1.21.1-20240808.144430-srg.jar%23496!/:?] {re:classloading,pl:runtimedistcleaner:A}
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?] {}
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?] {re:mixin}
 	at MC-BOOTSTRAP/fml_loader@4.0.42/net.neoforged.fml.loading.targets.CommonLaunchHandler.runTarget(CommonLaunchHandler.java:136) ~[loader-4.0.42.jar%23107!/:4.0] {}
 	at MC-BOOTSTRAP/fml_loader@4.0.42/net.neoforged.fml.loading.targets.CommonLaunchHandler.clientService(CommonLaunchHandler.java:124) ~[loader-4.0.42.jar%23107!/:4.0] {}
 	at MC-BOOTSTRAP/fml_loader@4.0.42/net.neoforged.fml.loading.targets.CommonClientLaunchHandler.runService(CommonClientLaunchHandler.java:32) ~[loader-4.0.42.jar%23107!/:4.0] {}
@@ -81,16 +81,16 @@ Details:
 	Reload number: 1
 	Reload reason: initial
 	Finished: No
-	Packs: vanilla, KubeJS Virtual Resource Pack [Before Mods, assets], fabric, generated/fragmentum_layer, KubeJS Virtual Resource Pack [Internal, assets], KubeJS Virtual Resource Pack [After Mods, assets], 1-21-viavens-paintings KatuEdit.zip, 3d-blast-furnace.zip, 3d-woodfire-furnace.zip, better-cobblestone.zip, cherryhearts.zip, chiseled-prismarine-pack.zip, clovers.zip, coral-cobblestone.zip, corality-1-0-3.zip, cutepumpkins.zip, floweryladder.zip, hearty-harvest KatuEdit.zip, ikuyuks hats v.1.zip, Kubban's Saplings New KatuEdit.zip, Kubban's Saplings Old KatuEdit.zip, Lectern Overhaul (Resource Pack) (Legacy).zip, newdiorite-granite KatuEdit.zip, Os' 3D Iron Bars.zip, Os' Cleaner Signs.zip, Os' Colorful Grasses (Short).zip, Overgrown Moss Carpet 2.0.zip, PeculiarPaintings KatuEdit.zip, Pluvia's Iron Door.zip, prettier-glowstone KatuEdit.zip, rainbow-quartz-v2.zip, sugrcube-s-paintings KatuEdit.zip, xksp lush plants KatuEdit.zip, §eFunky§0_§eFences§0_§8v1.10§0 KatuEdit.zip, KubeJS File Resource Pack [assets], quark-emote-pack, KubeJS Virtual Resource Pack [Last, assets]
+	Packs: vanilla, KubeJS Virtual Resource Pack [Before Mods, assets], fabric, generated/fragmentum_layer, KubeJS Virtual Resource Pack [Internal, assets], KubeJS Virtual Resource Pack [After Mods, assets], 1-21-viavens-paintings KatuEdit.zip, 3d-blast-furnace.zip, 3d-woodfire-furnace.zip, better-cobblestone.zip, cherryhearts.zip, chiseled-prismarine-pack.zip, clovers.zip, coral-cobblestone.zip, corality-1-0-3.zip, cutepumpkins.zip, floweryladder.zip, hearty-harvest KatuEdit.zip, ikuyuks hats v.1.zip, Kubban's Saplings New KatuEdit.zip, Kubban's Saplings Old KatuEdit.zip, Lectern Overhaul (Resource Pack) (Legacy).zip, newdiorite-granite KatuEdit.zip, Os' 3D Iron Bars.zip, Os' Cleaner Signs.zip, Os' Colorful Grasses (Short).zip, Overgrown Moss Carpet 2.0.zip, PeculiarPaintings KatuEdit.zip, Pluvia's Iron Door.zip, prettier-glowstone KatuEdit.zip, rainbow-quartz-v2.zip, sugrcube-s-paintings KatuEdit.zip, xksp lush plants KatuEdit.zip, §eFunky§0_§eFences§0_§8v1.10§0 KatuEdit.zip, KubeJS File Resource Pack [assets], file/Refined Cats Lithe v1.0.0.zip, quark-emote-pack, KubeJS Virtual Resource Pack [Last, assets]
 
 -- System Details --
 Details:
 	Minecraft Version: 1.21.1
 	Minecraft Version ID: 1.21.1
 	Operating System: Windows 11 (amd64) version 10.0
-	Java Version: 21.0.11, Eclipse Adoptium
-	Java VM Version: OpenJDK 64-Bit Server VM (mixed mode, sharing), Eclipse Adoptium
-	Memory: 786262528 bytes (749 MiB) / 1753219072 bytes (1672 MiB) up to 8489271296 bytes (8096 MiB)
+	Java Version: 21.0.7, Microsoft
+	Java VM Version: OpenJDK 64-Bit Server VM (mixed mode), Microsoft
+	Memory: 902650496 bytes (860 MiB) / 1904214016 bytes (1816 MiB) up to 8489271296 bytes (8096 MiB)
 	CPUs: 20
 	Processor Vendor: GenuineIntel
 	Processor Name: 12th Gen Intel(R) Core(TM) i7-12700H
@@ -117,18 +117,18 @@ Details:
 	Memory slot #1 clockSpeed (GHz): 4.80
 	Memory slot #1 type: Unknown
 	Virtual memory max (MiB): 35531.19
-	Virtual memory used (MiB): 26067.70
+	Virtual memory used (MiB): 22936.53
 	Swap memory total (MiB): 19456.00
-	Swap memory used (MiB): 2069.44
-	Space in storage for jna.tmpdir (MiB): available: 63624.07, total: 462299.31
-	Space in storage for org.lwjgl.system.SharedLibraryExtractPath (MiB): available: 63624.07, total: 462299.31
-	Space in storage for io.netty.native.workdir (MiB): available: 63624.07, total: 462299.31
-	Space in storage for java.io.tmpdir (MiB): available: 63624.07, total: 462299.31
-	Space in storage for workdir (MiB): available: 63624.07, total: 462299.31
+	Swap memory used (MiB): 1675.75
+	Space in storage for jna.tmpdir (MiB): available: 57255.82, total: 462299.31
+	Space in storage for org.lwjgl.system.SharedLibraryExtractPath (MiB): available: 57255.82, total: 462299.31
+	Space in storage for io.netty.native.workdir (MiB): available: 57255.82, total: 462299.31
+	Space in storage for java.io.tmpdir (MiB): available: 57255.82, total: 462299.31
+	Space in storage for workdir (MiB): available: 57255.82, total: 462299.31
 	JVM Flags: 4 total; -XX:HeapDumpPath=MojangTricksIntelDriversForPerformance_javaw.exe_minecraft.exe.heapdump -Xss1M -Xmx8096m -Xms256m
 	Loaded Shaderpack: (off)
-	Launched Version: neoforge-21.1.232
-	Launcher name: CurseForge
+	Launched Version: neoforge-21.1.230
+	Launcher name: minecraft-launcher
 	Backend library: LWJGL version 3.3.3+5
 	Backend API: NVIDIA GeForce RTX 3060 Laptop GPU/PCIe/SSE2 GL version 4.6.0 NVIDIA 565.90, NVIDIA Corporation
 	Window size: 1400x900
@@ -138,9 +138,9 @@ Details:
 	Is Modded: Definitely; Client brand changed to 'neoforge'
 	Universe: 400921fb54442d18
 	Type: Client (map_client.txt)
-	Graphics mode: fancy
-	Render Distance: 12/12 chunks
-	Resource Packs: vanilla, fabric, generated/fragmentum_layer, quark-emote-pack (incompatible)
+	Graphics mode: fast
+	Render Distance: 10/10 chunks
+	Resource Packs: vanilla, fabric, generated/fragmentum_layer, file/Refined Cats Lithe v1.0.0.zip (incompatible), quark-emote-pack (incompatible)
 	Current Language: en_us
 	Locale: en_US
 	System encoding: Cp1252
@@ -157,8 +157,8 @@ Details:
 		modlauncher-11.0.5.jar mixin TRANSFORMATIONSERVICE 
 		modlauncher-11.0.5.jar fml TRANSFORMATIONSERVICE 
 	FML Language Providers: 
-		kotlinforforge@5.11.0
 		__fabric_loader_bootstrap@2.5.29+0.16.0+1.21
+		kotlinforforge@5.11.0
 		javafml@4.0
 		lowcodefml@4.0
 		minecraft@4.0
@@ -167,11 +167,13 @@ Details:
 		letsdo-farm_and_charm-neoforge-1.1.21.jar         |[Let's Do] Farm & Charm       |farm_and_charm                |1.1.21              |Manifest: NOSIGNATURE
 		letsdo-meadow-neoforge-1.4.8.jar                  |[Let's Do] Meadow             |meadow                        |1.4.8               |Manifest: NOSIGNATURE
 		accessories-neoforge-1.1.0-beta.53+1.21.1.jar     |Accessories                   |accessories                   |1.1.0-beta.53+1.21.1|Manifest: NOSIGNATURE
+		adorablehamsterpets-3.6.0-1.21.1+neoforge.jar     |Adorable Hamster Pets         |adorablehamsterpets           |3.6.0-1.21.1+neoforg|Manifest: NOSIGNATURE
 		alchimiae-neoforge-0.3.10-1.21.1-sgd.jar          |Alchimiae Magicae             |alchimiae                     |0.3.10-1.21.1       |Manifest: 39:49:de:71:aa:93:11:75:fb:fa:30:e9:21:25:1c:45:a4:3c:1d:d8:d3:0c:26:bb:e0:ec:51:db:73:82:7e:d0
 		Alexandria-1.0.3.3.2+1.21.1-neoforge.jar          |Alexandria                    |alexandria                    |1.0.3.3.2           |Manifest: NOSIGNATURE
 		alltheleaks-1.1.9+1.21.1-neoforge.jar             |All The Leaks                 |alltheleaks                   |1.1.9+1.21.1-neoforg|Manifest: NOSIGNATURE
 		amendments-1.21-2.0.15-neoforge.jar               |Amendments                    |amendments                    |1.21-2.0.15         |Manifest: NOSIGNATURE
 		animalbrush-neoforge-1.21.1-1.0.0.jar             |Animal Brush                  |animalbrush                   |1.0.0               |Manifest: NOSIGNATURE
+		animal_pen-neoforge-1.21-2.4.0.jar                |Animal Pen                    |animal_pen                    |2.4.0               |Manifest: NOSIGNATURE
 		another_furniture-neoforge-4.0.2.jar              |Another Furniture             |another_furniture             |4.0.2               |Manifest: NOSIGNATURE
 		appleskin-neoforge-mc1.21-3.0.9.jar               |AppleSkin                     |appleskin                     |3.0.9+mc1.21        |Manifest: NOSIGNATURE
 		appliedenergistics2-19.2.17.jar                   |Applied Energistics 2         |ae2                           |19.2.17             |Manifest: NOSIGNATURE
@@ -215,6 +217,7 @@ Details:
 		colorfulazaleas-neoforge-1.21.1.jar               |ColorfulAzaleas               |colorfulazaleas               |3                   |Manifest: NOSIGNATURE
 		comforts-neoforge-9.0.5+1.21.1.jar                |Comforts                      |comforts                      |9.0.5+1.21.1        |Manifest: NOSIGNATURE
 		common-networking-neoforge-1.0.21-1.21.1.jar      |Common Networking             |commonnetworking              |1.0.21-1.21.1       |Manifest: NOSIGNATURE
+		companions-neoforge-1.21.1-1.2.3.jar              |Companions!                   |companions                    |1.2.3               |Manifest: NOSIGNATURE
 		connectivity-1.21.1-7.6.jar                       |Connectivity Mod              |connectivity                  |7.6                 |Manifest: NOSIGNATURE
 		Contact-neoforge-1.21.1-1.2.3.jar                 |Contact                       |contact                       |1.2.3               |Manifest: NOSIGNATURE
 		contactquests-2.1.4-1.21.1.jar                    |ContactQuests                 |contactquests                 |2.1.4-1.21.1        |Manifest: NOSIGNATURE
@@ -228,6 +231,7 @@ Details:
 		CNB-1.21.1-neoforge-1.7.17.jar                    |Creatures and Beasts: Unoffici|cnb                           |1.7.17              |Manifest: NOSIGNATURE
 		CreeperOverhaul-neoforge-1.21.1-4.0.6.jar         |Creeper Overhaul              |creeperoverhaul               |4.0.6               |Manifest: NOSIGNATURE
 		crittersandcompanions-neoforge-1.21.1-2.3.4.jar   |Critters and Companions       |crittersandcompanions         |1.21.1-2.3.4        |Manifest: NOSIGNATURE
+		cropcritters-neoforge-1.21.1-1.4.1.jar            |Crop Critters                 |cropcritters                  |1.4.1               |Manifest: NOSIGNATURE
 		cupboard-1.21-3.7.jar                             |Cupboard mod                  |cupboard                      |3.7                 |Manifest: NOSIGNATURE
 		curios-neoforge-9.5.1+1.21.1.jar                  |Curios API                    |curios                        |9.5.1+1.21.1        |Manifest: NOSIGNATURE
 		DecorativeBlocks-Reborn-neoforge-1.21.1-6.0.2.jar |Decorative Blocks Reborn      |decorative_blocks             |6.0.2               |Manifest: NOSIGNATURE
@@ -239,7 +243,6 @@ Details:
 		dismountentity-1.21.1-3.6.jar                     |Dismount Entity               |dismountentity                |3.6                 |Manifest: NOSIGNATURE
 		DramaticDoors-NeoQuiFab-1.21.1-3.3.2.jar          |Dramatic Doors                |dramaticdoors                 |1.21.1-3.3.2        |Manifest: NOSIGNATURE
 		EasyAnvils-v21.1.0-1.21.1-NeoForge.jar            |Easy Anvils                   |easyanvils                    |21.1.0              |Manifest: NOSIGNATURE
-		easy_mob_farm-neoforge-1.21.1-10.9.0.jar          |Easy Mob Farm                 |easy_mob_farm                 |0.0NONE             |Manifest: NOSIGNATURE
 		easy-villagers-neoforge-1.21.1-1.1.42.jar         |Easy Villagers                |easy_villagers                |1.21.1-1.1.42       |Manifest: NOSIGNATURE
 		eccentrictome-1.21.1-1.2.0.jar                    |Eccentric Tome                |eccentrictome                 |1.21.1-1.2.0        |Manifest: NOSIGNATURE
 		elytraslot-neoforge-9.0.2+1.21.1.jar              |Elytra Slot                   |elytraslot                    |9.0.2+1.21.1        |Manifest: NOSIGNATURE
@@ -257,12 +260,14 @@ Details:
 		ExplorersCompass-1.21.1-3.4.0-neoforge.jar        |Explorer's Compass            |explorerscompass              |1.21.1-3.4.0-neoforg|Manifest: NOSIGNATURE
 		exposure-neoforge-1.21.1-1.9.18.jar               |Exposure                      |exposure                      |1.9.18              |Manifest: NOSIGNATURE
 		exposure_polaroid-neoforge-1.21.1-1.1.5.jar       |Exposure Polaroid             |exposure_polaroid             |1.1.5               |Manifest: NOSIGNATURE
-		ExtraLib-3.0.5-1.21.1-NeoForge.jar                |ExtraLib                      |extralib                      |3.0.5               |Manifest: NOSIGNATURE
+		ExtraLib-3.0.6-1.21.1-NeoForge.jar                |ExtraLib                      |extralib                      |3.0.6               |Manifest: NOSIGNATURE
 		ExtraQuests-1.7.0-1.21.1-NeoForge.jar             |ExtraQuests [FTB Quests]      |extraquests                   |1.7.0               |Manifest: NOSIGNATURE
 		ExtremeSoundMuffler-3.56_NeoForge-1.21.jar        |Extreme Sound Muffler         |extremesoundmuffler           |3.56                |Manifest: NOSIGNATURE
 		fallingleaves-1.21.1-2.5.1.jar                    |Fallingleaves                 |fallingleaves                 |2.5.1               |Manifest: NOSIGNATURE
+		fancytabsections-2.0-NEOFORGE-1.21.1.jar          |Fancy Tab Sections            |fancytabsections              |2.0-NEOFORGE-1.21.1 |Manifest: NOSIGNATURE
 		fwa+1.21.1-neoforge-1.2.31.jar                    |Fancy World Animations        |fwa                           |1.2.31              |Manifest: NOSIGNATURE
 		FarmersDelight-1.21.1-1.3.2.jar                   |Farmer's Delight              |farmersdelight                |1.3.2               |Manifest: NOSIGNATURE
+		farmersrespite-1.21.1-3.0.0.jar                   |Farmer's Respite              |farmersrespite                |3.0.0               |Manifest: NOSIGNATURE
 		farmingforblockheads-neoforge-1.21.1-21.1.13.jar  |Farming for Blockheads        |farmingforblockheads          |21.1.13             |Manifest: NOSIGNATURE
 		farsight-1.21.1-5.1.jar                           |Farsight mod                  |farsight_view                 |5.1                 |Manifest: NOSIGNATURE
 		FastItemFrames-v21.1.6-1.21.1-NeoForge.jar        |Fast Item Frames              |fastitemframes                |21.1.6              |Manifest: NOSIGNATURE
@@ -271,12 +276,12 @@ Details:
 		findme-3.3.3-neoforge.jar                         |FindMe                        |findme                        |3.3.3               |Manifest: NOSIGNATURE
 		flywheel-neoforge-1.21.1-1.0.6.jar                |Flywheel                      |flywheel                      |1.0.6               |Manifest: NOSIGNATURE
 		forgified-fabric-api-0.115.6+2.1.0+1.21.1.jar     |Forgified Fabric API          |fabric_api                    |0.115.6+2.1.0+1.21.1|Manifest: NOSIGNATURE
-		fabric-api-base-0.4.42+d1308ded19.jar             |Forgified Fabric API Base     |fabric_api_base               |0.4.42+d1308ded19   |Manifest: NOSIGNATURE
+		fabric-api-base-0.4.42+d1308dedd1.jar             |Forgified Fabric API Base     |fabric_api_base               |0.4.42+d1308dedd1   |Manifest: NOSIGNATURE
 		fabric-api-lookup-api-v1-1.6.70+c21168c319.jar    |Forgified Fabric API Lookup AP|fabric_api_lookup_api_v1      |1.6.70+c21168c319   |Manifest: NOSIGNATURE
 		fabric-biome-api-v1-13.0.31+1e62d33c19.jar        |Forgified Fabric Biome API (v1|fabric_biome_api_v1           |13.0.31+1e62d33c19  |Manifest: NOSIGNATURE
 		fabric-block-api-v1-1.0.22+a6e994cd19.jar         |Forgified Fabric Block API (v1|fabric_block_api_v1           |1.0.22+a6e994cd19   |Manifest: NOSIGNATURE
 		fabric-blockrenderlayer-v1-1.1.52+b089b4bd19.jar  |Forgified Fabric BlockRenderLa|fabric_blockrenderlayer_v1    |1.1.52+b089b4bd19   |Manifest: NOSIGNATURE
-		fabric-block-view-api-v2-1.0.10+9afaaf8c19.jar    |Forgified Fabric BlockView API|fabric_block_view_api_v2      |1.0.10+9afaaf8c19   |Manifest: NOSIGNATURE
+		fabric-block-view-api-v2-1.0.11+e9036fd419.jar    |Forgified Fabric BlockView API|fabric_block_view_api_v2      |1.0.11+e9036fd419   |Manifest: NOSIGNATURE
 		fabric-client-tags-api-v1-1.1.15+e053909619.jar   |Forgified Fabric Client Tags  |fabric_client_tags_api_v1     |1.1.15+e053909619   |Manifest: NOSIGNATURE
 		fabric-command-api-v2-2.2.28+36d727be19.jar       |Forgified Fabric Command API (|fabric_command_api_v2         |2.2.28+36d727be19   |Manifest: NOSIGNATURE
 		fabric-content-registries-v0-8.0.18+0a0c14ff19.jar|Forgified Fabric Content Regis|fabric_content_registries_v0  |8.0.18+0a0c14ff19   |Manifest: NOSIGNATURE
@@ -302,9 +307,9 @@ Details:
 		fabric-recipe-api-v1-5.0.14+59440bcc19.jar        |Forgified Fabric Recipe API (v|fabric_recipe_api_v1          |5.0.14+59440bcc19   |Manifest: NOSIGNATURE
 		fabric-registry-sync-v0-5.2.0+867470b919.jar      |Forgified Fabric Registry Sync|fabric_registry_sync_v0       |5.2.0+867470b919    |Manifest: NOSIGNATURE
 		fabric-renderer-indigo-1.7.0+4198af7119.jar       |Forgified Fabric Renderer - In|fabric_renderer_indigo        |1.7.0+4198af7119    |Manifest: NOSIGNATURE
-		fabric-renderer-api-v1-3.4.1+9125b6dc19.jar       |Forgified Fabric Renderer API |fabric_renderer_api_v1        |3.4.1+9125b6dc19    |Manifest: NOSIGNATURE
+		fabric-renderer-api-v1-3.4.0+acb05a3919.jar       |Forgified Fabric Renderer API |fabric_renderer_api_v1        |3.4.0+acb05a3919    |Manifest: NOSIGNATURE
 		fabric-rendering-v1-5.0.5+077ba95f19.jar          |Forgified Fabric Rendering (v1|fabric_rendering_v1           |5.0.5+077ba95f19    |Manifest: NOSIGNATURE
-		fabric-rendering-data-attachment-v1-0.3.48+73761d2|Forgified Fabric Rendering Dat|fabric_rendering_data_attachme|0.3.48+73761d2e19   |Manifest: NOSIGNATURE
+		fabric-rendering-data-attachment-v1-0.3.49+73761d2|Forgified Fabric Rendering Dat|fabric_rendering_data_attachme|0.3.49+73761d2e19   |Manifest: NOSIGNATURE
 		fabric-rendering-fluids-v1-3.1.6+857185bc19.jar   |Forgified Fabric Rendering Flu|fabric_rendering_fluids_v1    |3.1.6+857185bc19    |Manifest: NOSIGNATURE
 		fabric-resource-conditions-api-v1-4.3.0+5bdd099819|Forgified Fabric Resource Cond|fabric_resource_conditions_api|4.3.0+5bdd099819    |Manifest: NOSIGNATURE
 		fabric-resource-loader-v0-1.3.1+4ea8954419.jar    |Forgified Fabric Resource Load|fabric_resource_loader_v0     |1.3.1+4ea8954419    |Manifest: NOSIGNATURE
@@ -328,7 +333,7 @@ Details:
 		ftb-quests-entity-vis-1.3.0-1.21.1-neoforge.jar   |FTB Quests Entity Visualizatio|ftbquestsentityvis            |1.3.0-1.21.1-neoforg|Manifest: NOSIGNATURE
 		ftb-ranks-neoforge-2101.1.3.jar                   |FTB Ranks                     |ftbranks                      |2101.1.3            |Manifest: NOSIGNATURE
 		ftb-teams-neoforge-2101.1.10.jar                  |FTB Teams                     |ftbteams                      |2101.1.10           |Manifest: NOSIGNATURE
-		ftb-ultimine-neoforge-2101.1.14.jar               |FTB Ultimine                  |ftbultimine                   |2101.1.14           |Manifest: NOSIGNATURE
+		ftb-ultimine-neoforge-2101.1.15.jar               |FTB Ultimine                  |ftbultimine                   |2101.1.15           |Manifest: NOSIGNATURE
 		ftb-xmod-compat-neoforge-21.1.8.jar               |FTB XMod Compat               |ftbxmodcompat                 |21.1.8              |Manifest: NOSIGNATURE
 		functionalstorage-1.21.1-1.5.7.jar                |Functional Storage            |functionalstorage             |1.21.1-1.5.7        |Manifest: NOSIGNATURE
 		fusion-1.2.12-neoforge-mc1.21.1.jar               |Fusion                        |fusion                        |1.2.12              |Manifest: NOSIGNATURE
@@ -336,6 +341,7 @@ Details:
 		geckolib-neoforge-1.21.1-4.8.4.jar                |GeckoLib 4                    |geckolib                      |4.8.4               |Manifest: NOSIGNATURE
 		Glassential-renewed-1.21.1-3.4.4.jar              |Glassential-renewed           |glassential                   |3.4.4               |Manifest: NOSIGNATURE
 		goblintraders-neoforge-1.21.1-1.11.2.jar          |Goblin Traders                |goblintraders                 |1.11.2              |Manifest: NOSIGNATURE
+		golemoverhaul-neoforge-1.21.1-1.1.0.jar           |Golem Overhaul                |golemoverhaul                 |1.1.0               |Manifest: NOSIGNATURE
 		gpumemleakfix-1.21-1.8.jar                        |Gpu memory leak fix           |gpumemleakfix                 |1.8                 |Manifest: NOSIGNATURE
 		guideme-21.1.16.jar                               |GuideME                       |guideme                       |21.1.16             |Manifest: NOSIGNATURE
 		handcrafted-neoforge-1.21.1-4.0.3.jar             |Handcrafted                   |handcrafted                   |4.0.3               |Manifest: NOSIGNATURE
@@ -356,8 +362,6 @@ Details:
 		integrated_villages-1.3.3+1.21.1-neoforge.jar     |Integrated Villages           |integrated_villages           |1.3.3+1.21.1-neoforg|Manifest: NOSIGNATURE
 		inventoryessentials-neoforge-1.21.1-21.1.15.jar   |Inventory Essentials          |inventoryessentials           |21.1.15             |Manifest: NOSIGNATURE
 		iris-neoforge-1.8.12+mc1.21.1.jar                 |Iris                          |iris                          |1.8.12-snapshot+mc1.|Manifest: NOSIGNATURE
-		irons_lib-1.21.1-1.1.0.jar                        |Iron's Lib                    |irons_lib                     |1.21.1-1.1.0        |Manifest: NOSIGNATURE
-		irons_rpg_tweaks-2.2.2.1.jar                      |Iron's RPG Tweaks             |irons_rpg_tweaks              |2.2.2.1             |Manifest: NOSIGNATURE
 		ItemBorders-1.21-neoforge-1.2.5.jar               |Item Borders                  |itemborders                   |1.2.5               |Manifest: NOSIGNATURE
 		itemzoom-1.21-3.0.0.jar                           |Item Zoom                     |itemzoom                      |3.0.0               |Manifest: NOSIGNATURE
 		Jade-1.21.1-NeoForge-15.10.5.jar                  |Jade                          |jade                          |15.10.5+neoforge    |Manifest: NOSIGNATURE
@@ -368,6 +372,7 @@ Details:
 		jeed-1.21-2.3.2.jar                               |Just Enough Effects Descriptio|jeed                          |1.21-2.3.2          |Manifest: NOSIGNATURE
 		jei-1.21.1-neoforge-19.27.0.340.jar               |Just Enough Items             |jei                           |19.27.0.340         |Manifest: NOSIGNATURE
 		JustEnoughResources-NeoForge-1.21.1-1.6.0.17.jar  |Just Enough Resources         |jeresources                   |1.6.0.17            |Manifest: NOSIGNATURE
+		knightlib-neoforge-1.21.1-1.5.1.jar               |Knight Lib                    |knightlib                     |1.5.1               |Manifest: NOSIGNATURE
 		konkrete_neoforge_1.9.9_MC_1.21.jar               |Konkrete                      |konkrete                      |1.9.9               |Manifest: NOSIGNATURE
 		thedarkcolour.kffmod-5.11.0.jar                   |Kotlin For Forge              |kotlinforforge                |5.11.0              |Manifest: NOSIGNATURE
 		kubejs-neoforge-2101.7.2-build.368.jar            |KubeJS                        |kubejs                        |2101.7.2-build.368  |Manifest: NOSIGNATURE
@@ -401,13 +406,13 @@ Details:
 		mcw-mcwfences-1.2.1-mc1.21.1neoforge.jar          |Macaw's Fences and Walls      |mcwfences                     |1.2.1               |Manifest: NOSIGNATURE
 		mcw-paintings-1.1.0-mc1.21.1neoforge.jar          |Macaw's Paintings             |mcwpaintings                  |1.1.0               |Manifest: NOSIGNATURE
 		mcw-mcwwindows-2.4.2-mc1.21.1neoforge.jar         |Macaw's Windows               |mcwwindows                    |2.4.2               |Manifest: NOSIGNATURE
-		melody_neoforge_1.0.10_MC_1.21.jar                |Melody                        |melody                        |1.0.10              |Manifest: NOSIGNATURE
 		mermod-neoforge-3.3.2+1.21.1.jar                  |Mermod                        |mermod                        |3.3.2               |Manifest: NOSIGNATURE
 		midnightthoughts-1.4.05.jar                       |Midnight Thoughts             |midnightthoughts              |1.4.05              |Manifest: NOSIGNATURE
 		client-1.21.1-20240808.144430-srg.jar             |Minecraft                     |minecraft                     |1.21.1              |Manifest: a1:d4:5e:04:4f:d3:d6:e0:7b:37:97:cf:77:b0:de:ad:4a:47:ce:8c:96:49:5f:0a:cf:8c:ae:b2:6d:4b:8a:3f
 		mint_lib-0.4.0-1.21.1.jar                         |MINT Lib                      |mint_lib                      |0.4.0-1.21.1        |Manifest: NOSIGNATURE
 		MobLassos-v21.1.1-1.21.1-NeoForge.jar             |Mob Lassos                    |moblassos                     |21.1.1              |Manifest: NOSIGNATURE
 		MEED-1.21.1-7.9.1.jar                             |Moderately Enough Effect Descr|meed                          |7.2.0               |Manifest: NOSIGNATURE
+		modernfix-neoforge-5.27.12+mc1.21.1.jar           |ModernFix                     |modernfix                     |5.27.12+mc1.21.1    |Manifest: NOSIGNATURE
 		modopedia-neoforge-1.21.1-1.1.11.jar              |Modopedia                     |modopedia                     |1.1.11              |Manifest: NOSIGNATURE
 		moonlight-neoforge-1.21.1-3.0.17.jar              |Moonlight Lib                 |moonlight                     |1.21.1-3.0.17       |Manifest: NOSIGNATURE
 		MoreSnifferFlowers-1.21.1-neo-6.6.6.jar           |More Sniffer Flowers          |moresnifferflowers            |6.6.6               |Manifest: NOSIGNATURE
@@ -415,7 +420,7 @@ Details:
 		mysticsbiomes-neoforge-1.21.1-3.5.3.jar           |Mystic's Biomes               |mysticsbiomes                 |3.5.3               |Manifest: NOSIGNATURE
 		NaturesCompass-1.21.1-3.4.0-neoforge.jar          |Nature's Compass              |naturescompass                |1.21.1-3.4.0-neoforg|Manifest: NOSIGNATURE
 		neobeefix-1.21.1-2.0.0.jar                        |Neo Bee Fix                   |neobeefix                     |2.0.0               |Manifest: NOSIGNATURE
-		neoforge-21.1.232-universal.jar                   |NeoForge                      |neoforge                      |21.1.232            |Manifest: NOSIGNATURE
+		neoforge-21.1.230-universal.jar                   |NeoForge                      |neoforge                      |21.1.230            |Manifest: NOSIGNATURE
 		netherdepthsupgrade-3.1.8-1.21.jar                |Nether Depths Upgrade         |netherdepthsupgrade           |3.1.8               |Manifest: NOSIGNATURE
 		New Visual Keybing-neoforge-1.21.1-0.6.3.jar      |NewVisualKeybing              |newvisualkeybing              |0.6.3               |Manifest: NOSIGNATURE
 		Nirvana Lib-neoforge-1.21.1-2.2.0.jar             |Nirvana Lib                   |nirvana_lib                   |2.2.0               |Manifest: NOSIGNATURE
@@ -433,6 +438,7 @@ Details:
 		ohmysherd-neoforge-1.21.1-21.1.4.jar              |OhMySherd                     |ohmysherd                     |21.1.4              |Manifest: NOSIGNATURE
 		owo-lib-neoforge-0.12.15.5-beta.1+1.21.jar        |oωo                           |owo                           |0.12.15.5-beta.1+1.2|Manifest: NOSIGNATURE
 		particular-1.21.1-NeoForge-1.5.3.jar              |Particular Reforged           |particular                    |1.5.3               |Manifest: NOSIGNATURE
+		Patchouli-1.21.1-93-NEOFORGE.jar                  |Patchouli                     |patchouli                     |1.21.1-93-NEOFORGE  |Manifest: NOSIGNATURE
 		PickablePets-2.0.3.2+1.21.1-neoforge.jar          |Pickable Pets                 |pickablepets                  |2.0.3.2             |Manifest: NOSIGNATURE
 		Placebo-1.21.1-9.9.1.jar                          |Placebo                       |placebo                       |9.9.1               |Manifest: NOSIGNATURE
 		player-animation-lib-forge-2.0.4+1.21.1.jar       |Player Animator               |playeranimator                |2.0.4+1.21.1        |Manifest: NOSIGNATURE
@@ -458,7 +464,6 @@ Details:
 		reliable_advancements-neoforge-1.21.1-4.0.0.jar   |Reliable Advancements         |reliable_advancements         |4.0.0               |Manifest: NOSIGNATURE
 		relics-1.21.1-0.12.8.jar                          |Relics                        |relics                        |0.12.8              |Manifest: NOSIGNATURE
 		reliquary-1.21.1-2.0.74.1509.jar                  |Reliquary Reincarnations      |reliquary                     |2.0.74              |Manifest: NOSIGNATURE
-		research_station-1.21.1-1.0.6.jar                 |Research Station              |research_station              |1.0.6               |Manifest: NOSIGNATURE
 		ResourcePackOverrides-v21.1.0-1.21.1-NeoForge.jar |Resource Pack Overrides       |resourcepackoverrides         |21.1.0              |Manifest: NOSIGNATURE
 		resourcefullib-neoforge-1.21-3.0.12.jar           |Resourceful Lib               |resourcefullib                |3.0.12              |Manifest: NOSIGNATURE
 		resourcefulconfig-neoforge-1.21-3.0.11.jar        |Resourcefulconfig             |resourcefulconfig             |3.0.11              |Manifest: NOSIGNATURE
@@ -468,13 +473,14 @@ Details:
 		sable-companion-common-1.21.1-1.6.0.jar           |Sable Companion               |sablecompanion                |1.6.0               |Manifest: NOSIGNATURE
 		scaffoldingdropsnearby-1.21.1-3.4.jar             |Scaffolding Drops Nearby      |scaffoldingdropsnearby        |3.4                 |Manifest: NOSIGNATURE
 		Searchables-neoforge-1.21.1-1.0.2.jar             |Searchables                   |searchables                   |1.0.2               |Manifest: NOSIGNATURE
+		SereneShrubbery-NeoForge-1.21.1-v2.4.0.jar        |Serene Shrubbery              |serene_shrubbery              |2.4.0               |Manifest: NOSIGNATURE
 		servercore-neoforge-1.5.17+1.21.1.jar             |ServerCore                    |servercore                    |1.5.17+1.21.1       |Manifest: NOSIGNATURE
 		inventorysorter-1.21.1-24.0.24.jar                |Simple Inventory Sorter       |inventorysorter               |24.0.24             |Manifest: NOSIGNATURE
 		snuffles-1.1.2.jar                                |Snuffles                      |snuffles                      |1.1.2               |Manifest: NOSIGNATURE
-		net.caffeinemc.sodium-neoforge-0.8.12-alpha.4+mc1.|Sodium                        |sodium                        |0.8.12-alpha.4+mc1.2|Manifest: NOSIGNATURE
+		sodium-neoforge-0.6.13+mc1.21.1.jar               |Sodium                        |sodium                        |0.6.13+mc1.21.1     |Manifest: NOSIGNATURE
 		sootychimneys-neoforge-1.3.5.jar                  |Sooty Chimneys                |sootychimneys                 |1.3.5               |Manifest: NOSIGNATURE
-		sophisticatedbackpacks-1.21.1-3.25.55.1852.jar    |Sophisticated Backpacks       |sophisticatedbackpacks        |3.25.55             |Manifest: NOSIGNATURE
-		sophisticatedcore-1.21.1-1.4.51.1992.jar          |Sophisticated Core            |sophisticatedcore             |1.4.51              |Manifest: NOSIGNATURE
+		sophisticatedbackpacks-1.21.1-3.25.57.1871.jar    |Sophisticated Backpacks       |sophisticatedbackpacks        |3.25.57             |Manifest: NOSIGNATURE
+		sophisticatedcore-1.21.1-1.4.53.2003.jar          |Sophisticated Core            |sophisticatedcore             |1.4.53              |Manifest: NOSIGNATURE
 		sophisticatedstorage-1.21.1-1.5.57.1814.jar       |Sophisticated Storage         |sophisticatedstorage          |1.5.57              |Manifest: NOSIGNATURE
 		sophisticatedsorter-1.0.6-hotfix.jar              |SophisticatedSorter           |sophisticatedsorter           |1.0.6               |Manifest: NOSIGNATURE
 		SoulHome-Mod-1.21.1-21.1.172-b14.jar              |SoulHome                      |soulhome                      |1.21.1-21.1.172-b14 |Manifest: NOSIGNATURE
@@ -483,6 +489,7 @@ Details:
 		spectrelib-neoforge-0.17.2+1.21.jar               |SpectreLib                    |spectrelib                    |0.17.2+1.21         |Manifest: NOSIGNATURE
 		Spice of Life Onion_NEOFORGE_v1.5.6_mc1.21.1.jar  |Spice of Life Onion           |solonion                      |1.5.6               |Manifest: NOSIGNATURE
 		starcatcher-2.3.14-NEOFORGE-1.21.1.jar            |Starcatcher                   |starcatcher                   |2.3.14-NEOFORGE-1.21|Manifest: NOSIGNATURE
+		starcatcher_delight-1.0-NEOFORGE-1.21.1.jar       |Starcatcher's Delight         |starcatcher_delight           |1.0-NEOFORGE-1.21.1 |Manifest: NOSIGNATURE
 		stateobserver-neoforge-1.21.1-1.6.4.jar           |StateObserver                 |stateobserver                 |1.6.4               |Manifest: NOSIGNATURE
 		structurecredits-1.21.1-3.0.jar                   |Structure Credits             |structurecredits              |1.21.1-3.0          |Manifest: NOSIGNATURE
 		SubtleEffects-neoforge-1.21.1-1.14.3.jar          |Subtle Effects                |subtle_effects                |1.14.3              |Manifest: NOSIGNATURE
@@ -519,6 +526,7 @@ Details:
 		txnilib-neoforge-1.0.24-1.21.1.jar                |TxniLib                       |txnilib                       |1.0.24              |Manifest: NOSIGNATURE
 		UIQuest-neoforge-1.21.1-1.0.4.jar                 |UIQuest                       |uiquest                       |1.0.4               |Manifest: NOSIGNATURE
 		unfocused-neoforge-0.3.2-1.21.1-sgd.jar           |Unfocused                     |unfocused                     |0.3.2-1.21.1        |Manifest: 39:49:de:71:aa:93:11:75:fb:fa:30:e9:21:25:1c:45:a4:3c:1d:d8:d3:0c:26:bb:e0:ec:51:db:73:82:7e:d0
+		unusual_furniture-1.1.2c-neoforge-1.21.1.jar      |Unusual Furniture             |unusual_furniture             |1.1.2               |Manifest: NOSIGNATURE
 		UsefulSlime-neoforge-1.21-1.12.1.jar              |UsefulSlime                   |usefulslime                   |1.12.1              |Manifest: NOSIGNATURE
 		utilitarian-1.21.1-0.19.2.jar                     |Utilitarian                   |utilitarian                   |1.21.1-0.19.2       |Manifest: NOSIGNATURE
 		wab-1.21.1-1.3.2.jar                              |Wan's Ancient Beasts          |wan_ancient_beasts            |1.3.2               |Manifest: NOSIGNATURE
@@ -527,12 +535,12 @@ Details:
 		libtooltips-1.7-NEOFORGE-1.21.1.jar               |wd's Tooltips Library         |libtooltips                   |1.7-NEOFORGE-1.21.1 |Manifest: NOSIGNATURE
 		wetland_whimsy-2.0.3-1.21.1.jar                   |Wetland Whimsy                |wetland_whimsy                |2.0.3-1.21.1        |Manifest: NOSIGNATURE
 		watut-neoforge-1.21.0-1.2.7.jar                   |What Are They Up To           |watut                         |1.21.0-1.2.7        |Manifest: NOSIGNATURE
+		wilderflowers-1.1.0+1.21.1-neoforge.jar           |Wilder Flowers                |wilderflowers                 |1.1.0+1.21.1        |Manifest: NOSIGNATURE
 		wits-1.3.0+1.21-neoforge.jar                      |WITS                          |wits                          |1.3.0+1.21-neoforge |Manifest: NOSIGNATURE
 		worldweaver-21.0.21.jar                           |WorldWeaver                   |wover                         |21.0.21             |Manifest: NOSIGNATURE
 		wunderlib-21.0.10.jar                             |WunderLib                     |wunderlib                     |21.0.10             |Manifest: NOSIGNATURE
-		xmxw-2.10.1+1.21.1-neoforge.jar                   |Xaero's Maps x Waystones      |xmxw                          |2.10.1+1.21.1-neofor|Manifest: NOSIGNATURE
-		xaerominimap-neoforge-1.21.1-25.3.13.jar          |Xaero's Minimap               |xaerominimap                  |25.3.13             |Manifest: NOSIGNATURE
-		xaeroworldmap-neoforge-1.21.1-1.40.16.jar         |Xaero's World Map             |xaeroworldmap                 |1.40.16             |Manifest: NOSIGNATURE
+		xaerominimap-neoforge-1.21.1-26.1.0.jar           |Xaero's Minimap               |xaerominimap                  |26.1.0              |Manifest: NOSIGNATURE
+		xaeroworldmap-neoforge-1.21.1-1.41.0.jar          |Xaero's World Map             |xaeroworldmap                 |1.41.0              |Manifest: NOSIGNATURE
 		xaerolib-neoforge-1.21.1-1.1.15.jar               |XaeroLib                      |xaerolib                      |1.1.15              |Manifest: NOSIGNATURE
 		xaerowaystonescompatibility-neoforge-1.21-[1-10]-1|XaeroWaystonesCompatibility   |xaerowaystonescompatibility   |1.0.1               |Manifest: NOSIGNATURE
 		yet_another_config_lib_v3-3.8.2+1.21.1-neoforge.ja|YetAnotherConfigLib           |yet_another_config_lib_v3     |3.8.2+1.21.1-neoforg|Manifest: NOSIGNATURE
@@ -540,7 +548,7 @@ Details:
 		YungsBetterDungeons-1.21.1-NeoForge-5.1.4.jar     |YUNG's Better Dungeons        |betterdungeons                |1.21.1-NeoForge-5.1.|Manifest: NOSIGNATURE
 		YungsBetterMineshafts-1.21.1-NeoForge-5.1.1.jar   |YUNG's Better Mineshafts      |bettermineshafts              |1.21.1-NeoForge-5.1.|Manifest: NOSIGNATURE
 		Zeta-1.1-40.jar                                   |Zeta                          |zeta                          |1.1-40              |Manifest: NOSIGNATURE
-	Crash Report UUID: f6d4a4b6-cd08-4954-b3e0-ba4edced9b64
+	Crash Report UUID: a081bd80-3634-4a5f-afcf-3d17d9b286cc
 	FML: 4.0.42
-	NeoForge: 21.1.232
+	NeoForge: 21.1.230
 	Flywheel Backend: flywheel:off
