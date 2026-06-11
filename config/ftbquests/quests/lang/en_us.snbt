@@ -3,20 +3,53 @@
 	chapter.61D5456BCFC8615A.title: "Alchemy"
 	chapter.793B373E456D5A96.title: "Agriculture"
 	chapter_group.7137019B15419178.title: "Witchery"
+	quest.05EFC8F18818E8DD.quest_desc: [
+		"So you've caught like 4,000+ fish trying to catch a &bMending Book&r, huh? And now you want to know what to do with all the fish?"
+		""
+		"Let me introduce the humble &bSelling Bin&r. Placing your fish in this bin will &aallow you to sell them&r one-by-one, or toggle \"Autosell\" to sell them in bulk."
+	]
+	quest.05EFC8F18818E8DD.quest_subtitle: "become a sellout!"
 	quest.18ABAAF33544CBF8.quest_desc: [
 		"Each time you defeat an &eundead&r, you have a chance at obtaining a &bLost Soul&r, which can be used to tame &eCrop Critters&r!"
 		""
 		"But what's that? Well..."
 	]
+	quest.18E1F3797BC552D0.quest_desc: ["Every time you go Starcatching, there is a 1% chance that you will catch a &bGolden variant&r of the fish you're reeling in! Equip the &bGold Hook&r to increase those chances ever so slightly."]
+	quest.18E1F3797BC552D0.title: "Golden Fish"
+	quest.4904301C662B9A5B.quest_desc: [
+		"You can &aupgrade your rods&r by &aadding attachments&r such as &bFishing Line&r, &bBait&r, and &bHooks&r. Although you can &ause most attachments regardless of rod&r, be aware that &dnot all attachments work the same in both rods&r."
+		""
+		"For example, if you use a &bFrozen Hook&r in a &bStarcatcher Rod&r, it will prevent your reel from freezing. However, use that hook in a &bDiamond Fishing Rod&r, and it won't have any special effect, because the &lTide&r rods can't freeze in the first place. So pay close attention!"
+		""
+		"Attachments will &ashow you their properties&r if you &6hover over them&r in JEI. Some effects may require you to hold shift."
+		""
+		"To &ainstall attachments&r, you'll need a &bTackle Box&r (for your Starcatcher Rod) or an &bAngling Table&r (for your fishing rod). The &bTackle Box&r will allow you to &6attach Bobbers, Bait, and Hooks&r, whereas the &bAngling Table&r will allow you to &6attach Bobbers, Line, and Hooks&r, but Bait needs to be &6right clicked onto the rod&r."
+	]
+	quest.4904301C662B9A5B.quest_subtitle: "hook, line, and...bobber"
+	quest.4904301C662B9A5B.title: "Piecemeal Upgrades"
 	quest.4B26B50D268DBA07.quest_desc: [
 		"It's important for us to make the distinction between simply &ofishing&r and &ostarcatching&r. You see, while both are important, one is significantly harder - and sometimes more rewarding - than the other."
 		""
-		"To go fishing, you'll need a &bFishing Rod&r. This can be &aupgraded&r into better rods - Stone, Iron, Gold, and so on. Each rod upgrade grants different effects, from making fish easier to catch, to providing extra xp from fishing. You can also &aattach new hook"
+		"To go fishing, you'll need a &bFishing Rod&r. This can be &aupgraded&r into better rods - Stone, Iron, Gold, and so on. Each rod upgrade grants different effects, from making fish easier to catch, to providing extra xp from fishing. You can also &aattach new hooks&r to them to give them special effects."
 		""
-		"To go &ostarcatching&r (and don't ask me why it's called that - I'm a witch, not a fisherman), you'll need a &bStarcatcher's Rod&r. This can also be upgraded, by using "
+		"To go &ostarcatching&r (and don't ask me why it's called that - I'm a witch, not a fisherman), you'll need a &bStarcatcher's Rod&r. You can &aalso add attachments&r to this rod, but it cannot be otherwise upgraded, &aonly sidegraded&r, by &6using templates to change its appearance&r."
+		""
+		"&dSimply put - Starcatching allows you to catch unique fish&r. You go fishing for food, you go starcatching for fun."
+		""
+		"&lOh, and before I go&r, the fishing minigame is slightly more involved than you may be used to. When using a &bFishing Rod&r, you'll now need to &6right click when the cursor is in the center of the bar onscreen&r (or as close as you can get). Starcatching's a different story - but we'll get into that soon."
 	]
 	quest.4B26B50D268DBA07.quest_subtitle: "for different, uh, bods?"
 	quest.4B26B50D268DBA07.title: "Different Rods"
+	quest.62F2784763AD1938.quest_desc: [
+		"Now that you've got your &bStarcatcher's Rod&r, you're ready to revolutionize the fishing industry. Put Big Fish to rights! Or something."
+		""
+		"Anyway, the minigame is different! When a fish bites and your bobber dunks, &6right click to open the Starcatching minigame&r. This features your reel, with the handle spinning around. &6Click or press space&r when the handle passes over the &bSweet Spots&r to reel in your fish. Miss, and your fish begins to escape. Wait too long, and the same thing happens. When the fish gets pulled to the top of the line, you win!"
+		""
+		"&dYou can read more about the minigame in your &bFishing Grimoire&r - er, &bGuide&r. Make sure to read it carefully, as there is more to know than what this quest suggests."
+		""
+		"And in that menu, you can also &6adjust the difficulty of the minigame&r. If you have slow reflexes or are easily frustrated, don't be afraid to make the minigame a little bit easier. :)"
+	]
+	quest.62F2784763AD1938.title: "More about Starcatching"
 	quest.71BB2D37A88EA25C.quest_desc: [
 		"Once you have a &bLost Soul&r of your very own, you can &6right click it onto a Fully Grown Crop&r to turn that crop into a &eCritter&r!"
 		""

@@ -9,8 +9,18 @@
 	quest_links: [ ]
 	quests: [
 		{
+			dependencies: ["4B26B50D268DBA07"]
 			entity_vis_size: 1.0f
 			id: "05EFC8F18818E8DD"
+			rewards: [{
+				count: 5
+				id: "248C41C6FB91143F"
+				item: {
+					count: 1
+					id: "minecraft:cod"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "3D0DA06485460761"
 				item: { count: 1, id: "selling_bin:selling_bin" }
@@ -30,13 +40,75 @@
 				}
 				type: "item"
 			}]
+			shape: "rsquare"
+			size: 1.5d
 			tasks: [{
 				id: "0E99E2EBD7ECCBC3"
 				item: { count: 1, id: "minecraft:fishing_rod" }
 				type: "item"
 			}]
-			x: -1.5d
+			x: -3.0d
+			y: -4.8d
+		}
+		{
+			dependencies: ["4B26B50D268DBA07"]
+			entity_vis_size: 1.0f
+			id: "4904301C662B9A5B"
+			rewards: [{
+				id: "418E51871BAAF4F5"
+				item: {
+					count: 1
+					id: "starcatcher:almighty_worm"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "31C0E2D79BFDF837"
+				item: { count: 1, id: "tide:iron_fishing_hook" }
+				type: "item"
+			}]
+			x: 0.5d
 			y: -4.5d
+		}
+		{
+			dependencies: ["4B26B50D268DBA07"]
+			entity_vis_size: 1.0f
+			id: "62F2784763AD1938"
+			rewards: [{
+				id: "3DDAE6064C2F761D"
+				item: {
+					count: 1
+					id: "starcatcher:stone_hook"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "718922CA4F7192FF"
+				item: { count: 1, id: "starcatcher:starcatcher_rod" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["62F2784763AD1938"]
+			entity_vis_size: 1.0f
+			id: "18E1F3797BC552D0"
+			rewards: [{
+				id: "443026796A777A0D"
+				item: {
+					count: 1
+					id: "minecraft:golden_apple"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "155971534A3ACDCD"
+				item: { count: 1, id: "starcatcher:gold_hook" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: -7.0d
 		}
 	]
 }
