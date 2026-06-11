@@ -1,0 +1,13 @@
+{
+  "type": "hexerei:pestle_and_mortar",
+  "ingredients": [
+    {
+      "item": "hexalia:dreamshroom"
+    }
+  ],
+  "output": {
+    "id": "hexalia:dream_paste",
+    "count": 1
+  },
+  "grindingTime": 100
+}

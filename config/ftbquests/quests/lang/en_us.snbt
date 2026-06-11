@@ -1,4 +1,11 @@
 {
 	chapter.61D5456BCFC8615A.title: "Alchemy"
+	chapter.793B373E456D5A96.title: "Agriculture"
 	chapter_group.7137019B15419178.title: "Witchery"
+	quest.18ABAAF33544CBF8.quest_desc: [
+		"Each time you defeat an &eundead&r, you have a chance at obtaining a &bLost Soul&r, which can be used to tame &eCrop Critters&r!"
+		""
+		"But what's that? Well..."
+	]
+	task.47584EDCD2F24EDD.title: "Defeat the Undead"
 }

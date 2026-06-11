@@ -1,0 +1,19 @@
+{
+  "type": "hexerei:pestle_and_mortar",
+  "ingredients": [
+    {
+      "item": "hexalia:tree_resin"
+    },
+    {
+      "item": "minecraft:slime_ball"
+    },
+    {
+      "tag": "hexalia:crushed_herbs"
+    }
+  ],
+  "output": {
+    "id": "hexalia:mutavis",
+    "count": 1
+  },
+  "grindingTime": 200
+}

@@ -1,0 +1,19 @@
+{
+  "type": "hexerei:pestle_and_mortar",
+  "ingredients": [
+    {
+      "item": "minecraft:poppy"
+    },
+    {
+      "item": "hexalia:rabbage"
+    },
+    {
+      "item": "minecraft:azure_bluet"
+    }
+  ],
+  "output": {
+    "id": "hexalia:brambleguard_salve",
+    "count": 1
+  },
+  "grindingTime": 200
+}
