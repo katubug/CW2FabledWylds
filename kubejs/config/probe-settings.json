@@ -5,6 +5,7 @@
     "probejs.newGame": false,
     "probejs.hintsForLLM": true,
     "probejs.fullScanMods": [
-        "hexerei"
+        "tide",
+        "starcatcher"
     ]
 }

@@ -7,40 +7,66 @@
 	id: "793B373E456D5A96"
 	order_index: 0
 	quest_links: [ ]
-	quests: [{
-		entity_vis_size: 1.0f
-		id: "18ABAAF33544CBF8"
-		rewards: [{
-			id: "6AE7FC703B4DAF84"
-			item: {
-				count: 1
-				id: "cropcritters:lost_soul"
-			}
-			type: "item"
-		}]
-		tasks: [{
-			entity: "minecraft:zombie"
-			entity_vis_idle_mode: "USE_GLOBAL"
-			entity_vis_offset_x: 0.0f
-			entity_vis_offset_y: 0.0f
-			entity_vis_rotation: 0.0f
-			entity_vis_silhouette_mode: "NONE"
+	quests: [
+		{
 			entity_vis_size: 1.0f
-			entity_vis_spin_mode: "USE_GLOBAL"
-			entity_vis_use_as_quest_icon: false
-			entity_vis_walk_mode: "USE_GLOBAL"
-			icon: {
-				components: {
-					"!ftbquests:icon": { }
-					"ftbquests:entity_face": "minecraft:zombie"
+			id: "18ABAAF33544CBF8"
+			rewards: [{
+				id: "6AE7FC703B4DAF84"
+				item: {
+					count: 1
+					id: "cropcritters:lost_soul"
 				}
-				id: "ftbquests:custom_icon"
-			}
-			id: "47584EDCD2F24EDD"
-			type: "kill"
-			value: 1L
-		}]
-		x: -1.0d
-		y: -3.0d
-	}]
+				type: "item"
+			}]
+			tasks: [{
+				entity: "minecraft:zombie"
+				entity_vis_idle_mode: "USE_GLOBAL"
+				entity_vis_offset_x: 0.0f
+				entity_vis_offset_y: 0.0f
+				entity_vis_rotation: 0.0f
+				entity_vis_silhouette_mode: "NONE"
+				entity_vis_size: 1.0f
+				entity_vis_spin_mode: "USE_GLOBAL"
+				entity_vis_use_as_quest_icon: false
+				entity_vis_walk_mode: "USE_GLOBAL"
+				icon: {
+					components: {
+						"!ftbquests:icon": { }
+						"ftbquests:entity_face": "minecraft:zombie"
+					}
+					id: "ftbquests:custom_icon"
+				}
+				id: "47584EDCD2F24EDD"
+				type: "kill"
+				value: 1L
+			}]
+			x: -1.0d
+			y: -3.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "71BB2D37A88EA25C"
+			rewards: [{
+				id: "1C21C1CFA090BE89"
+				item: {
+					count: 1
+					id: "cropcritters:wheat_critter_spawn_egg"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				hand_mode: "ANY"
+				icon: {
+					id: "cropcritters:lost_soul"
+				}
+				id: "298BBD26A5CDD683"
+				item: { count: 1, id: "cropcritters:lost_soul" }
+				type: "use_item"
+				value: 1L
+			}]
+			x: -1.0d
+			y: -1.5d
+		}
+	]
 }

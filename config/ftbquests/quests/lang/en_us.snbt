@@ -1,4 +1,5 @@
 {
+	chapter.23E8B59B6CD79A23.title: "Fishing"
 	chapter.61D5456BCFC8615A.title: "Alchemy"
 	chapter.793B373E456D5A96.title: "Agriculture"
 	chapter_group.7137019B15419178.title: "Witchery"
@@ -7,5 +8,20 @@
 		""
 		"But what's that? Well..."
 	]
+	quest.4B26B50D268DBA07.quest_desc: [
+		"It's important for us to make the distinction between simply &ofishing&r and &ostarcatching&r. You see, while both are important, one is significantly harder - and sometimes more rewarding - than the other."
+		""
+		"To go fishing, you'll need a &bFishing Rod&r. This can be &aupgraded&r into better rods - Stone, Iron, Gold, and so on. Each rod upgrade grants different effects, from making fish easier to catch, to providing extra xp from fishing. You can also &aattach new hook"
+		""
+		"To go &ostarcatching&r (and don't ask me why it's called that - I'm a witch, not a fisherman), you'll need a &bStarcatcher's Rod&r. This can also be upgraded, by using "
+	]
+	quest.4B26B50D268DBA07.quest_subtitle: "for different, uh, bods?"
+	quest.4B26B50D268DBA07.title: "Different Rods"
+	quest.71BB2D37A88EA25C.quest_desc: [
+		"Once you have a &bLost Soul&r of your very own, you can &6right click it onto a Fully Grown Crop&r to turn that crop into a &eCritter&r!"
+		""
+		"Other ways of obtaining &eCritters&r include tilling some &bSoul Soil&r and planting a crop on it. When you harvest, there is a &achance of it turning into a &eCritter&r."
+	]
+	task.298BBD26A5CDD683.title: "Click the Lost Soul onto a Crop"
 	task.47584EDCD2F24EDD.title: "Defeat the Undead"
 }

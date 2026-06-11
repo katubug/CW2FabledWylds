@@ -1,0 +1,42 @@
+{
+	default_hide_dependency_lines: false
+	default_min_width: 350
+	default_quest_shape: ""
+	filename: "fishing"
+	group: ""
+	id: "23E8B59B6CD79A23"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			entity_vis_size: 1.0f
+			id: "05EFC8F18818E8DD"
+			tasks: [{
+				id: "3D0DA06485460761"
+				item: { count: 1, id: "selling_bin:selling_bin" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: -2.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "4B26B50D268DBA07"
+			rewards: [{
+				id: "63D695E3CE2809E2"
+				item: {
+					count: 1
+					id: "starcatcher:starcatcher_twine"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "0E99E2EBD7ECCBC3"
+				item: { count: 1, id: "minecraft:fishing_rod" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: -4.5d
+		}
+	]
+}

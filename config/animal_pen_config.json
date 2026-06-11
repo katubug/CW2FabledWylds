@@ -46,6 +46,9 @@
   // above animal pen or aquarium
   // Default value = false
   "show_all_interactions_above": false,
+  // Allows to toggle if dispensers should be block from interacting with animal pens, aviaries, and aquariums
+  // Default value = false
+  "block_dispenser_interaction": false,
   // Debug code to indicate problems.
   "debug": false
 }
