@@ -397,6 +397,7 @@
 	quest.028D829A373FE838.quest_subtitle: "{count:1,id:\"ae2:annihilation_plane\"}"
 	quest.02903195D5FA16EB.quest_subtitle: "{count:1,id:\"another_furniture:jungle_bench\"}"
 	quest.0290A852EC0548DE.quest_subtitle: "{count:1,id:\"betterend:sulphuric_rock_polished\"}"
+	quest.0291249FFD51DD05.quest_desc: ["&lIf you ever lose your Eccentric Tome&r, you can easily &6craft a new one&r with a &bBook&r and a &bStick&r."]
 	quest.02922F717AFECD29.quest_subtitle: "{components:{\"ae2:facade_item\":\"betternether:cincinnasite_block\"},count:1,id:\"ae2:facade\"}"
 	quest.029456883C2EEDAB.quest_subtitle: "{count:1,id:\"kubejs:carved_birch_7\"}"
 	quest.029554406AE66DC6.quest_subtitle: "{components:{\"minecraft:potion_contents\":{potion:\"minecraft:oozing\"}},count:1,id:\"minecraft:potion\"}"
@@ -6617,6 +6618,15 @@
 	quest.289125FDE803F274.quest_subtitle: "{count:1,id:\"arts_and_crafts:beige_pietraforte_brick_wall\"}"
 	quest.2894AC5FBEADA688.quest_subtitle: "{components:{\"quark:item_count\":640,\"quark:stored_item\":{stack:{count:1,id:\"betternether:soul_lily_sapling\"}}},count:1,id:\"quark:seed_pouch\"}"
 	quest.28974989B87529DB.quest_subtitle: "{count:1,id:\"hexalia:willow_log\"}"
+	quest.289832F0B384ABA7.quest_desc: [
+		"Once you have &abound your &cSoulhome&r, it's a good idea to set up a &bMailbox&r. Many quest rewards in this modpack will be &adelivered to your mailbox&r rather than clutter up your inventory."
+		""
+		"You can tell which way a reward will be delivered by &aviewing the reward's icon&r. If the icon shows a sub-icon like a &bRed Packet&r or a &bParcel&r, it will arrive to your &bMailbox&r."
+		""
+		"This quest's reward allows you to choose the mailbox in the color of your dreams~! Once you place the mailbox, &6crouch right click with empty hands&r to claim it."
+		""
+		"&dPlaying on a multiplayer team?&r &6Check your mail&r! Inside is a &bTeam Binding Card&r which you can &6crouch-click onto your mailbox&r to have your team's winnings sent there!"
+	]
 	quest.2898AD515E55B91C.quest_subtitle: "{count:1,id:\"betterend:violecite_stairs\"}"
 	quest.289B0FDF1D641BC5.quest_subtitle: "{count:1,id:\"tflostblocks:thorncutter_axe\"}"
 	quest.289E47AB7CCC0C58.quest_subtitle: "{count:1,id:\"cluttered:willow_fence_gate\"}"
@@ -6735,16 +6745,17 @@
 	quest.2934E2E216F710FD.quest_subtitle: "{count:1,id:\"waystones:yellow_sharestone\"}"
 	quest.293666221080D296.quest_subtitle: "{count:1,id:\"wan_ancient_beasts:glider_feather\"}"
 	quest.293AFFA188D96753.quest_desc: [
-		"Once you have &abound your &cSoulhome&r, it's a good idea to set up a &bMailbox&r. Many quest rewards in this modpack will be &adelivered to your mailbox&r rather than clutter up your inventory."
+		"Introspection is a good thing - why not &ado some Soul searching&r? Literally. Use the &bSoul Key&r to enter a tiny pocket dimension &ainside yourself&r."
 		""
-		"You can tell which way a reward will be delivered by &aviewing the reward's icon&r. If the icon shows a sub-icon like a &bRed Packet&r or a &bParcel&r, it will arrive to your &bMailbox&r."
+		"With the &bSoulKey&r in your main hand, &6hold down right click&r for a few seconds to open a portal to your innermost being."
 		""
-		"This quest's reward allows you to choose the mailbox in the color of your dreams~! Once you place the mailbox, &6crouch right click with empty hands&r to claim it."
+		"It's a surprisingly pleasant place! Some sunshine, grass, flowers, and even a small pond. It's an excellent place to &abegin a garden&r or &borganize your goods&r as you explore. And you can easily put down a &bCrafting Table&r and a &bFurnace&r without the need to pick them back up when it's time to move on!"
 		""
-		"&dPlaying on a multiplayer team?&r &6Check your mail&r! Inside is a &bTeam Binding Card&r which you can &6crouch-click onto your mailbox&r to have your team's winnings sent there!"
+		"Don't forget to check out the quest on &dLoading Chunks&r to keep your garden and furnace active while you're away!"
 		""
 		"&dWant to invite others to your &bSoulHome&r? Craft a &bBound Soul Key&r and gift it to them (perhaps via mailbox)!"
 	]
+	quest.293AFFA188D96753.quest_subtitle: "i found myself inside myself"
 	quest.293AFFA188D96753.title: "Soul Searching"
 	quest.293B81EBE90DDFC9.quest_subtitle: "{count:1,id:\"heads:cat_siamese_head\"}"
 	quest.293CC915ADB3AFF3.quest_subtitle: "{count:1,id:\"hearthandharvest:sugar_bag\"}"
@@ -7622,6 +7633,13 @@
 	quest.2E75FB85CA72BB02.quest_subtitle: "{components:{\"tide:fish_length\":50.0d},count:1,id:\"tide:crimson_fangjaw\"}"
 	quest.2E790302489F4F02.quest_subtitle: "{count:1,id:\"cluttered:poplar_fence\"}"
 	quest.2E79B630D321549D.quest_subtitle: "{components:{\"ae2:facade_item\":\"cluttered:floral_berry_wallpaper_bottom\"},count:1,id:\"ae2:facade\"}"
+	quest.2E7AB20A3044F795.quest_desc: [
+		"An important part of &aDeath&r is to share it with others.* Now that you've dealt an obscene amount of damage, probably at least some of those things have died."
+		""
+		""
+		"* for legal reasons, this is a joke"
+	]
+	quest.2E7AB20A3044F795.title: "Doling Death to Others"
 	quest.2E7C19352D4C2977.quest_subtitle: "{count:1,id:\"meadow:reclaimed_pine_slab\"}"
 	quest.2E7E1CEE0F00578B.quest_subtitle: "{count:1,id:\"quark:purple_stool\"}"
 	quest.2E7E8571C759EF60.quest_subtitle: "{count:1,id:\"betterend:virid_jadestone_polished\"}"
@@ -12364,6 +12382,8 @@
 	quest.4AB8E42464B2DEEF.quest_subtitle: "{components:{\"ae2:facade_item\":\"ae2:crafting_monitor\"},count:1,id:\"ae2:facade\"}"
 	quest.4ABB38E4DF6B0CF5.quest_subtitle: "{count:1,id:\"create:cut_granite_brick_slab\"}"
 	quest.4ABC10F20DD67742.quest_subtitle: "{components:{\"ae2:facade_item\":\"minecraft:light_blue_wool\"},count:1,id:\"ae2:facade\"}"
+	quest.4ABFB1778565B4B7.quest_desc: ["By the time you make yourself some &bstarting tools&r, you may already be hoping for some more storage. Take this &bBackpack&r to start you out!"]
+	quest.4ABFB1778565B4B7.title: "Obtain Stone Tools"
 	quest.4AC0E83748A984FE.quest_subtitle: "{count:1,id:\"contact:green_mailbox\"}"
 	quest.4AC3992812608BE3.quest_subtitle: "{count:1,id:\"quark:raw_iron_bricks\"}"
 	quest.4AC57F7B8DA7A603.quest_subtitle: "{count:1,id:\"goblintraders:vein_goblin_trader_spawn_egg\"}"
@@ -16077,6 +16097,13 @@
 	quest.60CFAC6F9DD294A1.quest_subtitle: "{count:1,id:\"quark:blossom_boat\"}"
 	quest.60D78EFB8CD3CD61.quest_subtitle: "{count:1,id:\"thaumon:eldritch_stone_capstone\"}"
 	quest.60D869BDF900E912.quest_subtitle: "{components:{\"ae2:facade_item\":\"colorfulazaleas:black_flowering_azalea_leaves\"},count:1,id:\"ae2:facade\"}"
+	quest.60D87516A5C5DDF5.quest_desc: [
+		"&bWaystones&r allow you to quickly traverse your world along a network of invisible &aleylines&r. You can find more information about &athe different kinds of Waystones&r in the &dGlobetrotting&r quest category. But here's some basic info:"
+		""
+		"- It costs xp to travel to Waystones using a &bWarp Stone&r or &bWarp Scroll&r."
+		""
+		"- Traveling &afrom one Waystone to another&r costs no exp."
+	]
 	quest.60DCE47F536384EC.quest_subtitle: "{count:1,id:\"the_bumblezone:luminescent_wax_channel\"}"
 	quest.60DDE6B1023B9A8E.quest_subtitle: "{components:{\"ae2:facade_item\":\"hexerei:waxed_willow_connected\"},count:1,id:\"ae2:facade\"}"
 	quest.60DF5998FD1BFB59.quest_subtitle: "{count:1,id:\"minecraft:packed_ice\"}"
@@ -17095,6 +17122,8 @@
 	quest.66A9BE00BB874994.quest_subtitle: "{count:1,id:\"decorativerailings:iron_railing_10\"}"
 	quest.66AB01E6DD22C0CE.quest_subtitle: "{count:1,id:\"crittersandcompanions:sea_bunny_bucket\"}"
 	quest.66AC2A5690F56B73.quest_subtitle: "{components:{\"minecraft:potion_contents\":{potion:\"minecraft:strong_leaping\"}},count:1,id:\"minecraft:tipped_arrow\"}"
+	quest.66B094500E40DA3D.quest_desc: ["So, you died. It happens to us all, eventually! Don't worry, all your items are safe in a &agrave&r marking your last resting place."]
+	quest.66B094500E40DA3D.quest_subtitle: "handbook for the recently deceased"
 	quest.66B117992FE21C52.quest_subtitle: "{components:{\"minecraft:potion_contents\":{potion:\"hearthandharvest:bad_omen_potion\"}},count:1,id:\"supplementaries:bamboo_spikes_tipped\"}"
 	quest.66B13E9EDA1C8902.quest_subtitle: "{count:1,id:\"framedblocks:framed_vertical_sloped_double_stairs\"}"
 	quest.66B4A556664CD400.quest_subtitle: "{count:1,id:\"plushie_buddies:plushie_squid\"}"
@@ -20230,6 +20259,12 @@
 	quest.7A00CCFA0BFC42F8.quest_subtitle: "{components:{\"ae2:facade_item\":\"cluttered:tiles_pink\"},count:1,id:\"ae2:facade\"}"
 	quest.7A04D40ED43E5761.quest_subtitle: "{count:1,id:\"cluttered:diamond_wallpaper_lemon_top_color\"}"
 	quest.7A04E3374C504DB5.quest_subtitle: "{components:{\"minecraft:potion_contents\":{potion:\"minecraft:mundane\"}},count:1,id:\"minecraft:tipped_arrow\"}"
+	quest.7A060F5C254439BC.quest_desc: [
+		"Hungry? Take this &bLunch Bag&r. &6Hold right click&r to eat from it, and &6shift right click&r to access its inventory."
+		""
+		"Items eaten from this bag will &acontribute towards your diet diversity&r."
+	]
+	quest.7A060F5C254439BC.quest_subtitle: "witches can have a lil snack"
 	quest.7A0850D5C57BAC06.quest_subtitle: "{count:1,id:\"tide:magma_mackerel_bucket\"}"
 	quest.7A09B8C62FC0149D.quest_subtitle: "{components:{\"quark:tome_enchantments\":{levels:{\"minecraft:feather_falling\":4}}},count:1,id:\"quark:ancient_tome\"}"
 	quest.7A0D003375839B75.quest_subtitle: "{count:1,id:\"enchanted:poppet_shelf\"}"
@@ -21195,6 +21230,11 @@
 	quest.7FFDA39C1402BC68.quest_subtitle: "{count:1,id:\"thaumon:retort\"}"
 	quest.7FFF48FB8390DDEF.quest_subtitle: "{count:1,id:\"create:small_limestone_brick_slab\"}"
 	quest.7FFFE1D5050097E8.quest_subtitle: "{count:1,id:\"betterend:sulphuric_rock_lantern\"}"
+	reward.4F8E2D6AA2C12E7B.title: "Receive Backpack"
 	reward_table.3CDC3F477C949E04.title: "Mailboxes"
+	task.136E69B7BC1A6A0A.title: "Obtain a Mailbox"
+	task.16EAB0998323565B.title: "Activate a Waystone"
+	task.35D1EC16F3A74C57.title: "Free Lunch"
+	task.48389846ACBF5E2F.title: "Baby's First Death"
 	task.4B1CE4FEE799E300.title: "Enter the Overworld"
 }

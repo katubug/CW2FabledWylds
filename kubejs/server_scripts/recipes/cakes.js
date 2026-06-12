@@ -220,7 +220,7 @@ ServerEvents.recipes(event => {
 		[	
 			'C',
 			'D',
-			'A '
+			'A'
 		], {
 			A: 'farmersdelight:pie_crust',
 			C: 'minecraft:wheat',
@@ -231,8 +231,8 @@ ServerEvents.recipes(event => {
 	event.shaped(
 		Item.of('mysticsbiomes:peach_pie'),
 		[
-			'C',
-			'D',
+			' C ',
+			' D ',
 			'BAB'
 		], {
 			A: 'farmersdelight:pie_crust',
@@ -251,18 +251,6 @@ ServerEvents.recipes(event => {
 		], {
 			A: 'farmersdelight:honey_cookie',
 			B: 'bakery:sweetberry_jam'
-		}
-	)
-	//Lemon Cookie
-	event.shaped(
-		Item.of('fruitsdelight:lemon_cookie', 8),
-		[
-			'BA',
-			'BC'
-		], {
-			A: 'minecraft:wheat',
-			B: 'fruitsdelight:lemon',
-			C: '#c:milk/milk_bottle'
 		}
 	)
 	//Chocolate Glazed Cookie
@@ -285,39 +273,6 @@ ServerEvents.recipes(event => {
 			B: 'bakery:strawberry_jam'
 		}
 	)
-	//Moonberry Cookie
-	event.shaped(
-		Item.of('hexalia:moon_berry_cookie', 8),
-		[
-			'BA',
-			'AB'
-		], {
-			A: 'minecraft:wheat',
-			B: 'hexalia:moon_berries'
-		}
-	)
-	//Cranberry Cookie
-	event.shaped(
-		Item.of('fruitsdelight:cranberry_cookie', 8),
-		[
-			'BA',
-			'A '
-		], {
-			A: 'minecraft:wheat',
-			B: 'fruitsdelight:cranberry'
-		}
-	)
-	//Bayberry Cookie
-	event.shaped(
-		Item.of('fruitsdelight:bayberry_cookie', 8),
-		[
-			'BA',
-			'A '
-		], {
-			A: 'minecraft:wheat',
-			B: 'fruitsdelight:bayberry'
-		}
-	)
 	//Torchberry Cookie
 	event.shaped(
 		Item.of('twilightdelight:torchberry_cookie', 8),
@@ -338,17 +293,6 @@ ServerEvents.recipes(event => {
 		], {
 			A: 'minecraft:wheat',
 			B: 'hearthandharvest:peanut_butter'
-		}
-	)
-	//Persimmon Cookie
-	event.shaped(
-		Item.of('fruitsdelight:persimmon_cookie', 8),
-		[
-			'BA',
-			'A '
-		], {
-			A: 'minecraft:wheat',
-			B: 'fruitsdelight:dried_persimmon'
 		}
 	)
 	//Sweet Berry Cookie

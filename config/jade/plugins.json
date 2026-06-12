@@ -84,6 +84,9 @@
     "wild_bush_tooltips": true,
     "hamster_genetics": true
   },
+  "delighto_flight": {
+    "crop_progress": true
+  },
   "balm": {
     "jade": true
   },

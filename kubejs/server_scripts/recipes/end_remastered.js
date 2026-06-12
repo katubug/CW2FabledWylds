@@ -4,7 +4,7 @@ ServerEvents.recipes(event => {
 	event.shapeless(
 		Item.of('minecraft:ender_pearl', 4),
 		[
-			'#forge:eyes'
+			'#c:eyes'
 		]
 	)
 

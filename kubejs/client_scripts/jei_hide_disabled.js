@@ -3,6 +3,7 @@
 RecipeViewerEvents.removeEntries('item',event => {
     // Disabled Items Removal
     let toHide = [
+      'architects_palette:hazard_wall', 'architects_palette:hazard_slab', 'architects_palette:hazard_sign', 'architects_palette:hazard_vertical_slab', 'architects_palette:hazard_block',
       'unusual_furniture:decorative_toolbox', 
       'unusual_furniture:warning_barrier', 
       'unusual_furniture:road_works_barrier', 

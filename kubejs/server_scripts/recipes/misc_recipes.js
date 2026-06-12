@@ -10,19 +10,6 @@ ServerEvents.recipes(event => {
 		]
 	)
 
-	// Cheaper Mermaid Pearl
-	event.shaped(
-		Item.of('luphieclutteredmod:luphie_mermaid_pearl'),
-		[
-			' A ',
-			'BCB'
-		], {
-			A: '#forge:pearls',
-			B: 'minecraft:gold_nugget',
-			C: 'minecraft:gold_ingot'
-		}
-	)
-
 	//Hanging Pot uses rope tag
 	event.shaped(
 		Item.of('beautify:hanging_pot'),
@@ -138,36 +125,6 @@ ServerEvents.recipes(event => {
 	        }
 	    )
 	        */
-
-	
-	//Epiphany Table Craftable
-	event.shaped(
-	    Item.of('orpheus:epiphany_table'),
-	    [
-	        ' A ',
-	        'BBB',
-	        'CCC'
-	    ], {
-	        A: 'supplementaries:gold_trapdoor',
-	        B: 'excessive_building:marble',
-	        C: 'minecraft:glowstone_dust'
-	    }
-	)
-
-	//Apollo's Son Requires End
-	event.shaped(
-	    Item.of('orpheus:apollos_son'),
-	    [
-	        ' A ',
-	        'BCD',
-	        ' A '
-	    ], {
-	        A: 'minecraft:shulker_shell',
-	        B: 'orpheus:tears_bow',
-	        C: 'orpheus:lyre',
-	        D: 'orpheus:calliopes_love'
-	    }
-	)
 	
 	// Blast 1 iron ingot into 10 nuggets in a Blast Furnace: 
 	event.blasting('create:zinc_block', 'create:raw_zinc_block')
@@ -203,56 +160,6 @@ ServerEvents.recipes(event => {
 	event.smoking('herbalbrews:dried_oolong_tea', 'farmersrespite:yellow_tea_leaves')
 	event.smoking('herbalbrews:dried_black_tea', 'farmersrespite:black_tea_leaves')
 
-	//Coffee Recipes
-	event.shapeless(
-		Item.of('herbalbrews:coffee'),
-		[
-			'farmersrespite:coffee'
-		]
-	)
-	event.shapeless(
-		Item.of('herbalbrews:milk_coffee'),
-		[
-			'herbalbrews:coffee',
-			'farmersdelight:milk_bottle'
-		]
-	)
-
-	//Blueberry crate uses correct blueberries
-	event.shapeless(
-		Item.of('hearthandharvest:blueberry_crate'),
-		[
-			'fruitsdelight:blueberry',
-			'fruitsdelight:blueberry',
-			'fruitsdelight:blueberry',
-			'fruitsdelight:blueberry',
-			'fruitsdelight:blueberry',
-			'fruitsdelight:blueberry',
-			'fruitsdelight:blueberry',
-			'fruitsdelight:blueberry',
-			'fruitsdelight:blueberry'
-		]
-	)
-
-	event.shapeless(
-		Item.of('fruitsdelight:blueberry', 9),
-		[
-			'hearthandharvest:blueberry_crate'
-		]
-	)
-
-	event.shaped(
-		Item.of('hexerei:pestle_and_mortar'),
-		[
-			'  A',
-			'BCB',
-			' B '
-		], {
-			A: '#forge:rods',
-			B: '#forge:stone',
-			C: 'spelunkery:stone_pebble'
-		}
-	)
 
 	event.shaped(
 		Item.of('4x wardrobe:silk'),

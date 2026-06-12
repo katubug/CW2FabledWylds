@@ -28,8 +28,8 @@ ServerEvents.recipes(event => {
 	event.shapeless(
 		Item.of('farmersdelight:wheat_dough', 3),
 		[
-			'#c:flour',
-			'#c:flour',
+			'#c:flours/wheat',
+			'#c:flours/wheat',
 			'minecraft:water_bucket',
 			'farm_and_charm:yeast'
 		]
@@ -52,14 +52,6 @@ ServerEvents.recipes(event => {
 		Item.of('farmersdelight:wheat_dough'),
 		[
 			'create:dough'
-		]
-	)
-
-	//Dough conversion 3
-	event.shapeless(
-		Item.of('farmersdelight:wheat_dough'),
-		[
-			'cornexpansion:corn_dough'
 		]
 	)
 

@@ -5,6 +5,33 @@
 	filename: "beginnings"
 	group: ""
 	id: "6D161680F9560DBA"
+	images: [
+		{
+			height: 12.0d
+			image: "enchanted_wilds:textures/questui/welcomebanner.png"
+			rotation: 0.0d
+			width: 20.0d
+			x: -1.0d
+			y: -7.0d
+		}
+		{
+			height: 10.0d
+			image: "enchanted_wilds:textures/questui/logo.png"
+			rotation: 0.0d
+			width: 10.0d
+			x: -1.0d
+			y: -16.0d
+		}
+		{
+			click: "https://www.akliz.net/cottagewitch"
+			height: 3.0d
+			image: "enchanted_wilds:textures/questui/aklizbanner.png"
+			rotation: 0.0d
+			width: 12.0d
+			x: -0.5d
+			y: 6.0d
+		}
+	]
 	order_index: 0
 	quest_links: [ ]
 	quests: [
@@ -331,7 +358,7 @@
 				}
 			]
 			shape: "heart"
-			size: 2.0d
+			size: 4.0d
 			tasks: [{
 				dimension: "minecraft:overworld"
 				icon: {
@@ -343,42 +370,229 @@
 				id: "4B1CE4FEE799E300"
 				type: "dimension"
 			}]
-			x: -0.5d
-			y: -0.5d
+			x: -5.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["0DCDAC4C7D4F9F0B"]
 			entity_vis_size: 1.0f
 			id: "293AFFA188D96753"
-			rewards: [
-				{
-					exclude_from_claim_all: true
-					id: "3E3409867078F388"
-					table_id: 4385449713417362948L
-					type: "choice"
-				}
-				{
-					blessing: "恭喜发财"
-					exclude_from_claim_all: true
-					id: "6A6715BE00512292"
-					is_ender: false
-					is_team_reward: false
-					item: {
-						count: 1
-						id: "contactquests:team_binding_card"
-					}
-					target_addressee: "QuestNPC"
-					team_reward_multiplier: 1.0f
-					type: "contactquests:red_packet"
-				}
-			]
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3E3409867078F388"
+				table_id: 4385449713417362948L
+				type: "choice"
+			}]
 			tasks: [{
 				id: "6750182952F3BB45"
 				item: { count: 1, id: "soulhome:soulkey" }
 				type: "item"
 			}]
-			x: -0.5d
+			x: 0.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["0DCDAC4C7D4F9F0B"]
+			entity_vis_size: 1.0f
+			id: "0291249FFD51DD05"
+			tasks: [{
+				id: "427F9D89912BC6DC"
+				item: { count: 1, id: "eccentrictome:tome" }
+				type: "item"
+			}]
+			x: 0.0d
 			y: 2.0d
+		}
+		{
+			dependencies: ["293AFFA188D96753"]
+			entity_vis_size: 1.0f
+			id: "289832F0B384ABA7"
+			rewards: [{
+				blessing: "恭喜发财"
+				exclude_from_claim_all: true
+				id: "70784A4BE7A68771"
+				is_ender: false
+				is_team_reward: false
+				item: {
+					count: 1
+					id: "contactquests:team_binding_card"
+				}
+				target_addressee: "QuestNPC"
+				team_reward_multiplier: 1.0f
+				type: "contactquests:red_packet"
+			}]
+			tasks: [{
+				id: "136E69B7BC1A6A0A"
+				item: { components: { "ftbfiltersystem:filter": "or(item(contact:white_mailbox)item(contact:orange_mailbox)item(contact:magenta_mailbox)item(contact:light_blue_mailbox)item(contact:yellow_mailbox)item(contact:lime_mailbox)item(contact:pink_mailbox)item(contact:light_gray_mailbox)item(contact:gray_mailbox)item(contact:cyan_mailbox)item(contact:purple_mailbox)item(contact:blue_mailbox)item(contact:brown_mailbox)item(contact:green_mailbox)item(contact:red_mailbox)item(contact:black_mailbox))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["0DCDAC4C7D4F9F0B"]
+			entity_vis_size: 1.0f
+			id: "4ABFB1778565B4B7"
+			rewards: [{
+				command: "/give @p sophisticatedbackpacks:backpack"
+				icon: {
+					id: "sophisticatedbackpacks:backpack"
+				}
+				id: "4F8E2D6AA2C12E7B"
+				permission_level: 4
+				type: "command"
+			}]
+			tasks: [
+				{
+					id: "0F24BB50E9049C4B"
+					item: { count: 1, id: "minecraft:stone_pickaxe" }
+					type: "item"
+				}
+				{
+					id: "01E5FA189EB19F74"
+					item: { count: 1, id: "minecraft:stone_axe" }
+					type: "item"
+				}
+				{
+					id: "3B9129A845461925"
+					item: { count: 1, id: "minecraft:stone_sword" }
+					type: "item"
+				}
+			]
+			x: -8.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["0DCDAC4C7D4F9F0B"]
+			entity_vis_size: 1.0f
+			id: "60D87516A5C5DDF5"
+			rewards: [{
+				id: "4C9E7D096894F666"
+				item: {
+					count: 1
+					id: "waystones:warp_scroll"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				icon: {
+					id: "waystones:waystone"
+				}
+				id: "16EAB0998323565B"
+				stat: "waystones:waystone_activated"
+				type: "stat"
+				value: 1
+			}]
+			x: -2.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["0DCDAC4C7D4F9F0B"]
+			entity_vis_size: 1.0f
+			id: "66B094500E40DA3D"
+			tasks: [{
+				icon: {
+					id: "unusual_furniture:grave_broken"
+				}
+				id: "48389846ACBF5E2F"
+				stat: "minecraft:deaths"
+				type: "stat"
+				value: 1
+			}]
+			x: 2.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["0DCDAC4C7D4F9F0B"]
+			entity_vis_size: 1.0f
+			id: "7A060F5C254439BC"
+			rewards: [
+				{
+					id: "4C57C860CB79123E"
+					item: {
+						components: {
+							"minecraft:container": [
+								{
+									item: {
+										count: 1
+										id: "hexalia:mandrake_stew"
+									}
+									slot: 0
+								}
+								{
+									item: {
+										count: 1
+										id: "hexalia:chillberry_pie"
+									}
+									slot: 1
+								}
+								{
+									item: {
+										count: 1
+										id: "hexalia:galeberries_cookie"
+									}
+									slot: 2
+								}
+								{
+									item: {
+										count: 1
+										id: "farmersdelight:egg_sandwich"
+									}
+									slot: 3
+								}
+								{
+									item: {
+										count: 1
+										id: "delighto_flight:cloud_berry_steamed_bun"
+									}
+									slot: 4
+								}
+							]
+						}
+						count: 1
+						id: "solonion:lunchbag"
+					}
+					type: "item"
+				}
+				{
+					id: "64F215562F3CF1CA"
+					item: {
+						count: 1
+						id: "farmersrespite:coffee_with_milk"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "35D1EC16F3A74C57"
+				type: "checkmark"
+			}]
+			x: -8.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["66B094500E40DA3D"]
+			entity_vis_size: 1.0f
+			id: "2E7AB20A3044F795"
+			rewards: [{
+				id: "3170218A04DEC076"
+				item: {
+					count: 1
+					id: "minecraft:totem_of_undying"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				icon: {
+					id: "minecraft:diamond_sword"
+				}
+				id: "71DF4B465944FB43"
+				stat: "minecraft:damage_dealt"
+				type: "stat"
+				value: 999
+			}]
+			x: 4.5d
+			y: 1.0d
 		}
 	]
 }
