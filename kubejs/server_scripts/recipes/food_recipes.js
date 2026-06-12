@@ -4,22 +4,22 @@ ServerEvents.recipes(event => {
 	event.shapeless(
 		Item.of('farmersdelight:organic_compost', 2),
 		[
-			'#forge:dirt',
+			'#c:dirt',
 			'#supplementaries:straw',
 			'#supplementaries:straw',
 			'minecraft:bone_meal',
 			'minecraft:bone_meal',
-			'#forge:compost',
-			'#forge:compost',
-			'#forge:compost',
-			'#forge:compost'
+			'#c:compost',
+			'#c:compost',
+			'#c:compost',
+			'#c:compost'
 		]
 	)
 
 	//Slime Balls
 	event.shapeless(
 		Item.of('minecraft:slime_ball'),
-		['#forge:dyes/lime',
+		['#c:dyes/lime',
 			'farmersdelight:wheat_dough'
 		]
 	)
@@ -28,62 +28,15 @@ ServerEvents.recipes(event => {
 	event.shapeless(
 		Item.of('farmersdelight:wheat_dough', 3),
 		[
-			'#forge:flour',
-			'#forge:flour',
+			'#c:flour',
+			'#c:flour',
 			'minecraft:water_bucket',
 			'farm_and_charm:yeast'
 		]
 	)
 
 	//Recipes Use Cheese ======================================================
-	//Cheeseburger from Scratch
-	event.shapeless(
-		Item.of('delightful:cheeseburger'),
-		[
-			'#forge:bread_or_bun',
-			'#forge:cooked_beef',
-			'#forge:crops/cabbage',
-			'#forge:cheese_slices',
-			'farmersdelight:tomato',
-			'farmersdelight:onion'
-		]
-	)
-
-	//Cheeseburger from burger
-	event.shapeless(
-		Item.of('delightful:cheeseburger'),
-		[
-			'farmersdelight:hamburger',
-			'#forge:cheese_slices',
-		]
-	)
-
-	//Deluxe Cheeseburger from Cheeseburger
-	event.shapeless(
-		Item.of('delightful:deluxe_cheeseburger'),
-		[
-			'delightful:cheeseburger',
-			'#forge:cheese_slices',
-			'#forge:cooked_beef',
-			'#forge:cooked_bacon'
-		]
-	)
-
-	//Deluxe Cheeseburger from Scratch
-	event.shapeless(
-		Item.of('delightful:deluxe_cheeseburger'),
-		[
-			'#forge:bread_or_bun',
-			'#forge:cooked_beef',
-			'#forge:cooked_beef',
-			'#forge:crops/cabbage',
-			'#forge:cheese_slices',
-			'#forge:cheese_slices',
-			'farmersdelight:tomato',
-			'farmersdelight:onion',
-			'#forge:cooked_bacon'
-		]
-	)
+	
 	//==================================================================
 
 	//Dough conversion

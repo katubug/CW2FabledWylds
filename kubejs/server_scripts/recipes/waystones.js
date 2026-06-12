@@ -2,9 +2,9 @@ ServerEvents.recipes(event => {
 
 	// Waystones to Sharestones
 	event.shapeless(
-		Item.of('waystones:sharestone'),
+		Item.of('waystones:purple_sharestone'),
 		[
-			'#forge:waystones'
+			'#waystones:waystones'
 		]
 	)
 	// Warp Scrolls to Warp Stones

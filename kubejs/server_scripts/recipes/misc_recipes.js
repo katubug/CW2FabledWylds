@@ -1,23 +1,12 @@
 ServerEvents.recipes(event => {
 	// Filled Eccentric tome
 	//TODO: fix this!!
-	let tome = Item.of('eccentrictome:tome', '{"eccentrictome:mods":{buildinggadgets2:{0:{Count:1b,id:"patchouli:guide_book",tag:{"patchouli:book":"buildinggadgets2:buildinggadgets2book"}}},create_central_kitchen:{0:{Count:1b,ForgeCaps:{Parent:{}},id:"create_central_kitchen:cooking_guide"}},enchanted:{0:{Count:1b,id:"patchouli:guide_book",tag:{"patchouli:book":"enchanted:herbology"}},1:{Count:1b,id:"patchouli:guide_book",tag:{"patchouli:book":"enchanted:brewing"}},2:{Count:1b,id:"patchouli:guide_book",tag:{"patchouli:book":"enchanted:circle_magic"}},3:{Count:1b,id:"patchouli:guide_book",tag:{"patchouli:book":"enchanted:getting_started"}},4:{Count:1b,id:"patchouli:guide_book",tag:{"patchouli:book":"enchanted:extraction"}},5:{Count:1b,id:"patchouli:guide_book",tag:{"patchouli:book":"enchanted:poppetry"}}},ftbquests:{0:{Count:1b,id:"ftbquests:book"}},hexerei:{0:{Count:1b,id:"hexerei:book_of_shadows",tag:{bookmarks:{},chapter:0,opened:0b,page:0}}},numismatics:{0:{Count:1b,id:"numismatics:banking_guide"}},solonion:{0:{Count:1b,id:"solonion:food_book"}},soulhome:{0:{Count:1b,id:"soulhome:guide"}},tide:{0:{Count:1b,id:"tide:fishing_journal"}},twilightdelight:{0:{Count:1b,id:"patchouli:guide_book",tag:{"patchouli:book":"twilightdelight:twilight_guide"}}}}}')
+	let tome = Item.of('eccentrictome:tome[eccentrictome:tome_data={books:{adorablehamsterpets:[{components:{"patchouli:book":"adorablehamsterpets:hamster_tips_guide_book"},count:1,id:"adorablehamsterpets:hamster_guide_book"}],ae2:[{count:1,id:"ae2:guide"}],animal_pen:[{components:{"patchouli:book":"animal_pen:guide_book"},count:1,id:"patchouli:guide_book"}],betterfishtanks:[{count:1,id:"betterfishtanks:guide_book"}],enchanted:[{components:{"modopedia:book":"enchanted:art_of_witchcraft"},count:1,id:"modopedia:book"}],ftbquests:[{count:1,id:"ftbquests:book"}],hexerei:[{components:{"hexerei:book":{book:"hexerei:book_of_shadows",bookmarks:[{color:"white",id:"",index:0},{color:"white",id:"",index:1},{color:"white",id:"",index:2},{color:"white",id:"",index:3},{color:"white",id:"",index:4},{color:"white",id:"",index:5},{color:"white",id:"",index:6},{color:"white",id:"",index:7},{color:"white",id:"",index:8},{color:"white",id:"",index:9},{color:"white",id:"",index:10},{color:"white",id:"",index:11},{color:"white",id:"",index:12},{color:"white",id:"",index:13},{color:"white",id:"",index:14},{color:"white",id:"",index:15},{color:"white",id:"",index:16},{color:"white",id:"",index:17},{color:"white",id:"",index:18},{color:"white",id:"",index:19}],chapter:0,opened:0b,page:0,uuid:[I;1646542990,-1228977079,-1949683201,-693716329]}},count:1,id:"hexerei:book_of_shadows"},{components:{"hexerei:book":{book:"hexerei:notebook",bookmarks:[{color:"white",id:"",index:0},{color:"white",id:"",index:1},{color:"white",id:"",index:2},{color:"white",id:"",index:3},{color:"white",id:"",index:4},{color:"white",id:"",index:5},{color:"white",id:"",index:6},{color:"white",id:"",index:7},{color:"white",id:"",index:8},{color:"white",id:"",index:9},{color:"white",id:"",index:10},{color:"white",id:"",index:11},{color:"white",id:"",index:12},{color:"white",id:"",index:13},{color:"white",id:"",index:14},{color:"white",id:"",index:15},{color:"white",id:"",index:16},{color:"white",id:"",index:17},{color:"white",id:"",index:18},{color:"white",id:"",index:19}],chapter:0,opened:0b,page:0,uuid:[I;1542975633,866796975,-1405809966,-67927855]}},count:1,id:"hexerei:notebook"}],solonion:[{count:1,id:"solonion:food_book"}],soulhome:[{count:1,id:"soulhome:guide"}],starcatcher:[{count:1,id:"starcatcher:starcatcher_guide"}],twilightdelight:[{components:{"patchouli:book":"twilightdelight:twilight_guide"},count:1,id:"patchouli:guide_book"}]},tome_id:"c2563271-c69f-4471-9a8e-aef43c5689af"}]')
 	event.shapeless(
 		Item.of(tome),
 		[
 			'minecraft:book',
 			'minecraft:stick'
-		]
-	)
-
-	//Matcha Berry Latte
-
-	event.shapeless(Item.of('delightful:berry_matcha_latte'),
-		[
-			'#betterbeekeeping:honey_bottles', 
-			'delightful:matcha_latte', 
-			'minecraft:ice', 
-			'#forge:berries'
 		]
 	)
 
@@ -273,17 +262,6 @@ ServerEvents.recipes(event => {
 		], {
 			A: 'crittersandcompanions:silk'
 		}
-	)
-
-	//Smores use better marshmallows
-	event.shapeless(
-		Item.of('delightful:smore'),
-		[
-			'farmersdelight:honey_cookie',
-			'#forge:chocolate',
-			'hearthandharvest:roasted_marshmallow_stick',
-			'farmersdelight:honey_cookie'
-		]
 	)
 
 	event.smelting('hearthandharvest:syrup_bottle', 'autumnity:sap_bottle')

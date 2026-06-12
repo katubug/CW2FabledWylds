@@ -2,20 +2,16 @@ ServerEvents.tags('item', event => {
 
 	//Souls for Soul Receptacle
 	event.add(
-		'forge:souls',
-		'forbidden_arcanus:enchanted_soul',
-		'forbidden_arcanus:corrupt_soul',
-		'forbidden_arcanus:soul',
-		'nameless_trinkets:miners_soul',
+		'c:souls',
 		'endrem:undead_soul'
 	)
 
 	//Cherry for Mystic's Biomes Recipes
-	event.add('forge:fruits/cherry',
+	event.add('c:fruits/cherry',
 		'vinery:cherry')
 
 	// Pearls for Pearl Necklaces etc
-	event.add('forge:pearls',
+	event.add('c:pearls',
 		'unusualprehistory:opalescent_pearl',
 		'abyssal_decor:white_pearl',
 		'crabbersdelight:pearl',
@@ -23,7 +19,7 @@ ServerEvents.tags('item', event => {
 	)
 
 	// Eyes tags for Enderman Overhaul recipes plus an FTB Filter system quest
-	event.add('forge:eyes',
+	event.add('c:eyes',
 		'endrem:evil_eye',
 		'endrem:cursed_eye',
 		'endrem:rogue_eye',
@@ -42,12 +38,12 @@ ServerEvents.tags('item', event => {
 	)
 
 	//Strawberry tagging for Bakery Recipes
-	event.add('forge:fruits/strawberries',
+	event.add('c:fruits/strawberries',
 		'mysticsbiomes:sweet_strawberry')
 
 	//Vinery Grapes for Dawn of Time stuff
 	event.add(
-		'forge:grapes',
+		'c:grapes',
 		'vinery:taiga_grapes_white',
 		'vinery:taiga_grapes_red',
 		'vinery:savanna_grapes_white',
@@ -59,7 +55,9 @@ ServerEvents.tags('item', event => {
 	)
 
 	// Organic materials for Compost Recipe
-	event.add('forge:compost',
+	event.add('c:compost',
+		'farmersdelight:organic_compost', 
+		'farm_and_charm:compost',
 		'farmersdelight:tree_bark',
 		'minecraft:rotten_flesh',
 		'mysticsbiomes:maple_leaf_pile',
@@ -74,23 +72,23 @@ ServerEvents.tags('item', event => {
 	)
 
 	// Dirt for Compost Recipe
-	event.add('forge:dirt',
+	event.add('c:dirt',
 		'minecraft:dirt',
 		'minecraft:coarse_dirt',
 		'minecraft:rooted_dirt',
 		'minecraft:podzol')
 
 	//Tropical Ball is Slime for Unusual Prehistory
-	event.add('forge:slimeballs',
+	event.add('c:slimeballs',
 		'earthmobsmod:tropical_ball')
 
 	//Salmonberries
-	event.add('forge:fruits/salmonberries',
+	event.add('c:fruits/salmonberries',
 		'regions_unexplored:salmonberry'
 	)
 
 	//Jam Tagging
-	event.add('forge:jams',
+	event.add('c:jams',
 		'fruitsdelight:apple_jelly',
 		'fruitsdelight:blueberry_jelly',
 		'fruitsdelight:glowberry_jelly',
@@ -116,12 +114,12 @@ ServerEvents.tags('item', event => {
 	)
 
 	//Barley
-	event.add('forge:crops/barley',
+	event.add('c:crops/barley',
 		'regions_unexplored:barley'
 	)
 
 	//Sea Crystals
-	event.add('forge:sea_crystals',
+	event.add('c:sea_crystals',
 		'mermod:sea_crystal',
 		'mermod:deep_sea_crystal_modifier',
 		'minecraft:prismarine_crystals',
@@ -129,7 +127,7 @@ ServerEvents.tags('item', event => {
 	)
 
 	//Terrestrial Crystals
-	event.add('forge:terrestrial_crystals',
+	event.add('c:terrestrial_crystals',
 		'phantasm:void_crystal_shard',
 		'forbidden_arcanus:corrupted_arcane_crystal',
 		'forbidden_arcanus:arcane_crystal',
@@ -138,12 +136,12 @@ ServerEvents.tags('item', event => {
 	)
 
 	//Raw Bacon
-	event.add('forge:bacon',
+	event.add('c:bacon',
 		'rainbowreef:hogfish_bacon'
 	)
 
 	//Tea Leaves
-	event.add('forge:dried_teas',
+	event.add('c:dried_teas',
 		'herbalbrews:dried_oolong_tea',
 		'herbalbrews:dried_green_tea',
 		'herbalbrews:dried_black_tea'
@@ -155,31 +153,31 @@ ServerEvents.tags('item', event => {
 	)
 
 	//Glowberry jams
-	event.add('forge:glowberry_jam',
+	event.add('c:glowberry_jam',
 		'bakery:glowberry_jam',
 		'fruitsdelight:glowberry_jelly')
 
 	//strawberries
-	event.add('forge:strawberries',
+	event.add('c:strawberries',
 		'mysticsbiomes:sweet_strawberry'
 	)
 
-	event.add('forge:fruits/strawberries',
+	event.add('c:fruits/strawberries',
 		'farm_and_charm:strawberry'
 	)
 
 	//bun tag to bun
 
-	event.add('forge:bread_or_bun',
+	event.add('c:bread_or_bun',
 		'bakery:bun'
 	)
 
-	event.add('forge:cheese',
+	event.add('c:cheese',
 		'hearthandharvest:cheddar_cheese_slice',
 		'hearthandharvest:goat_cheese_slice'
 	)
 
-	event.add('forge:cheese_slices',
+	event.add('c:cheese_slices',
 		'hearthandharvest:cheddar_cheese_slice',
 		'hearthandharvest:goat_cheese_slice',
 		'meadow:piece_of_sheep_cheese',
@@ -202,7 +200,7 @@ ServerEvents.tags('item', event => {
 		'paleo_flora_return:sporous_reed_bread'
 	)
 
-	event.add('forge:bread_or_bun',
+	event.add('c:bread_or_bun',
 		'bakery:braided_bread',
 		'bakery:crusty_bread',
 		'bakery:toast',
@@ -210,7 +208,7 @@ ServerEvents.tags('item', event => {
 		'bakery:bread',
 	)
 
-	event.add('forge:cooking_eggs',
+	event.add('c:cooking_eggs',
 		'minecraft:egg',
 		'mysticsbiomes:pink_egg',
 		'mysticsbiomes:orange_egg',
@@ -225,19 +223,19 @@ ServerEvents.tags('item', event => {
 	)
 
 	//Clovers
-	event.add('forge:clover',
+	event.add('c:clover',
 		'regions_unexplored:clover', 
 		'twilightforest:clover_patch'
 	)
 
 	//Nut Butters
-	event.add('forge:nut_butter',
+	event.add('c:nut_butter',
 		'hearthandharvest:peanut_butter', 
 		'delightful:nut_butter_bottle'
 	)
 
 	//H&H Jelly to Tag
-	event.add('forge:jams',
+	event.add('c:jams',
 		'hearthandharvest:grape_jam', 
 		'hearthandharvest:blueberry_jam', 
 		'hearthandharvest:raspberry_jam'

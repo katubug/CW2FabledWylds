@@ -6,7 +6,7 @@ StartupEvents.registry('item', event => {
 
 StartupEvents.registry('block', event => {
 	//Cheeses?
-	/*
+	
 	event.create('sheep_cheese_unripe')
 		.hardness(1)
 		.displayName('Unripe Sheep Cheese')
@@ -41,7 +41,7 @@ StartupEvents.registry('block', event => {
 		.fullBlock(false)
 		.notSolid()
 		.box(5, 0, 5, 11, 6, 11)
-		*/
+		
 
 	//Emmu Blocks
 	event.create('bat_wallpaper', 'cardinal')

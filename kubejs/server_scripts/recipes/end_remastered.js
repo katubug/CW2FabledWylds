@@ -76,7 +76,7 @@ ServerEvents.recipes(event => {
 			' A '
 		], {
 			A: 'minecraft:ender_eye',
-			B: 'forbidden_arcanus:corrupti_dust',
+			B: 'minecraft:glowstone_dust',
 			C: 'endermanoverhaul:corrupted_pearl'
 		}
 	)

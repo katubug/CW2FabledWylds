@@ -12,15 +12,22 @@
 	fallback_locale: "en_us"
 	grid_scale: 0.5d
 	hide_excluded_quests: false
+	icon: {
+		components: {
+			"!ftbquests:icon": { }
+			"ftbquests:entity_face": "autumnity:snail"
+		}
+		id: "ftbquests:custom_icon"
+	}
 	lock_message: ""
 	loot_crate_no_drop: {
 		boss: 0
 		monster: 600
 		passive: 4000
 	}
-	pause_game: false
-	progression_mode: "linear"
-	show_lock_icons: false
+	pause_game: true
+	progression_mode: "flexible"
+	show_lock_icons: true
 	verify_on_load: false
 	version: 13
 }

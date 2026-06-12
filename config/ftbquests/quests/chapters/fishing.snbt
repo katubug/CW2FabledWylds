@@ -3,7 +3,7 @@
 	default_min_width: 350
 	default_quest_shape: ""
 	filename: "fishing"
-	group: ""
+	group: "5B30D61C193DFE3F"
 	id: "23E8B59B6CD79A23"
 	order_index: 1
 	quest_links: [ ]

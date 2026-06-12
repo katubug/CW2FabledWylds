@@ -18,7 +18,7 @@
         "inner_layer_provider": {
           "type": "minecraft:simple_state_provider",
           "state": {
-            "Name": "ae2:quartz_block"
+            "Name": "ae2:smooth_quartz_block"
           }
         },
         "inner_placements": [

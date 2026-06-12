@@ -9,10 +9,10 @@ ServerEvents.recipes(event => {
 			'BCB',
 			'DDD'
 		], {
-			A: '#forge:milk/milk_bottle',
-			B: '#forge:sugar',
-			C: '#forge:cooking_eggs',
-			D: '#forge:wheat'
+			A: '#c:milk/milk_bottle',
+			B: '#c:sugar',
+			C: '#c:cooking_eggs',
+			D: '#c:wheat'
 		}
 	)
 	//Basic Cake
@@ -22,10 +22,10 @@ ServerEvents.recipes(event => {
 			'B D',
 			'ACA'
 		], {
-			A: '#forge:milk/milk_bottle',
-			B: '#forge:sugar',
+			A: '#c:milk/milk_bottle',
+			B: '#c:sugar',
 			C: 'bakery:cake_dough',
-			D: '#forge:wheat'
+			D: '#c:wheat'
 		}
 	)
 	//Coffee Cake
@@ -36,41 +36,11 @@ ServerEvents.recipes(event => {
 			'BED',
 			'ACA'
 		], {
-			A: '#forge:milk/milk_bottle',
-			B: '#forge:sugar',
+			A: '#c:milk/milk_bottle',
+			B: '#c:sugar',
 			C: 'bakery:cake_dough',
-			D: '#forge:wheat',
+			D: '#c:wheat',
 			E: 'farmersrespite:coffee_beans'
-		}
-	)
-	//Angelfish Cake
-	event.shaped(
-		Item.of('rainbowreef:angelfish_cake'),
-		[
-			'E E',
-			'BED',
-			'ACA'
-		], {
-			A: '#forge:milk/milk_bottle',
-			B: '#forge:sugar',
-			C: 'bakery:cake_dough',
-			D: '#forge:wheat',
-			E: 'rainbowreef:raw_angelfish'
-		}
-	)
-	//Sakura Cheesecake
-	event.shaped(
-		Item.of('trailandtales_delight:cherry_cake'),
-		[
-			'E E',
-			'BED',
-			'ACA'
-		], {
-			A: '#forge:milk/milk_bottle',
-			B: 'trailandtales_delight:cherry_cheese_slice',
-			C: 'bakery:cake_dough',
-			D: 'trailandtales_delight:cherry_cheese_slice',
-			E: 'trailandtales_delight:cherry_petal'
 		}
 	)
 	//Carrot Cake
@@ -81,10 +51,10 @@ ServerEvents.recipes(event => {
 			'BED',
 			'ACA'
 		], {
-			A: '#forge:milk/milk_bottle',
-			B: '#forge:sugar',
+			A: '#c:milk/milk_bottle',
+			B: '#c:sugar',
 			C: 'bakery:cake_dough',
-			D: '#forge:wheat',
+			D: '#c:wheat',
 			E: 'minecraft:carrot'
 		}
 	)
@@ -97,9 +67,9 @@ ServerEvents.recipes(event => {
 			'ACA'
 		], {
 			A: 'mysticsbiomes:vanilla_milk_bucket',
-			B: '#forge:sugar',
+			B: '#c:sugar',
 			C: 'bakery:cake_dough',
-			D: '#forge:wheat',
+			D: '#c:wheat',
 			E: 'mysticsbiomes:vanilla_beans'
 		}
 	)
@@ -112,9 +82,9 @@ ServerEvents.recipes(event => {
 			'ACA'
 		], {
 			A: 'mysticsbiomes:strawberry_milk_bucket',
-			B: '#forge:sugar',
+			B: '#c:sugar',
 			C: 'bakery:cake_dough',
-			D: '#forge:wheat',
+			D: '#c:wheat',
 			E: 'mysticsbiomes:sweet_strawberry'
 		}
 	)
@@ -126,9 +96,9 @@ ServerEvents.recipes(event => {
 			'ACA'
 		], {
 			A: 'mysticsbiomes:chocolate_milk_bucket',
-			B: '#forge:sugar',
+			B: '#c:sugar',
 			C: 'bakery:cake_dough',
-			D: '#forge:wheat'
+			D: '#c:wheat'
 		}
 	)
 	//pink Cake
@@ -138,10 +108,10 @@ ServerEvents.recipes(event => {
 			'BED',
 			'ACA'
 		], {
-			A: '#forge:milk/milk_bottle',
-			B: '#forge:sugar',
+			A: '#c:milk/milk_bottle',
+			B: '#c:sugar',
 			C: 'bakery:cake_dough',
-			D: '#forge:wheat',
+			D: '#c:wheat',
 			E: 'mysticsbiomes:pink_egg'
 		}
 	)
@@ -152,10 +122,10 @@ ServerEvents.recipes(event => {
 			'BED',
 			'ACA'
 		], {
-			A: '#forge:milk/milk_bottle',
-			B: '#forge:sugar',
+			A: '#c:milk/milk_bottle',
+			B: '#c:sugar',
 			C: 'bakery:cake_dough',
-			D: '#forge:wheat',
+			D: '#c:wheat',
 			E: 'mysticsbiomes:orange_egg'
 		}
 	)
@@ -166,10 +136,10 @@ ServerEvents.recipes(event => {
 			'BED',
 			'ACA'
 		], {
-			A: '#forge:milk/milk_bottle',
-			B: '#forge:sugar',
+			A: '#c:milk/milk_bottle',
+			B: '#c:sugar',
 			C: 'bakery:cake_dough',
-			D: '#forge:wheat',
+			D: '#c:wheat',
 			E: 'mysticsbiomes:yellow_egg'
 		}
 	)
@@ -180,10 +150,10 @@ ServerEvents.recipes(event => {
 			'BED',
 			'ACA'
 		], {
-			A: '#forge:milk/milk_bottle',
-			B: '#forge:sugar',
+			A: '#c:milk/milk_bottle',
+			B: '#c:sugar',
 			C: 'bakery:cake_dough',
-			D: '#forge:wheat',
+			D: '#c:wheat',
 			E: 'mysticsbiomes:lime_egg'
 		}
 	)
@@ -194,10 +164,10 @@ ServerEvents.recipes(event => {
 			'BED',
 			'ACA'
 		], {
-			A: '#forge:milk/milk_bottle',
-			B: '#forge:sugar',
+			A: '#c:milk/milk_bottle',
+			B: '#c:sugar',
 			C: 'bakery:cake_dough',
-			D: '#forge:wheat',
+			D: '#c:wheat',
 			E: 'mysticsbiomes:cyan_egg'
 		}
 	)
@@ -208,10 +178,10 @@ ServerEvents.recipes(event => {
 			'BED',
 			'ACA'
 		], {
-			A: '#forge:milk/milk_bottle',
-			B: '#forge:sugar',
+			A: '#c:milk/milk_bottle',
+			B: '#c:sugar',
 			C: 'bakery:cake_dough',
-			D: '#forge:wheat',
+			D: '#c:wheat',
 			E: 'mysticsbiomes:purple_egg'
 		}
 	)
@@ -226,9 +196,9 @@ ServerEvents.recipes(event => {
 			'BAB'
 		], {
 			A: 'farmersdelight:pie_crust',
-			B: '#forge:sugar',
-			C: '#forge:milk/milk_bottle',
-			D: '#forge:chocolate'
+			B: '#c:sugar',
+			C: '#c:milk/milk_bottle',
+			D: '#c:chocolate'
 		}
 	)
 	//Chillberry Pie
@@ -239,22 +209,9 @@ ServerEvents.recipes(event => {
 			'BAB'
 		], {
 			A: 'farmersdelight:pie_crust',
-			B: '#forge:sugar',
-			C: '#forge:cooking_eggs',
+			B: '#c:sugar',
+			C: '#c:cooking_eggs',
 			D: 'hexalia:chillberries'
-		}
-	)
-	//Angel Tart
-	event.shaped(
-		Item.of('rainbowreef:dwarf_angelfish_tarts'),
-		[
-			'DC ',
-			'BA '
-		], {
-			A: 'farmersdelight:pie_crust',
-			B: '#forge:sugar',
-			C: '#forge:cooking_eggs',
-			D: 'rainbowreef:raw_dwarf_angelfish'
 		}
 	)
 	//Cherry Pie
@@ -267,7 +224,7 @@ ServerEvents.recipes(event => {
 		], {
 			A: 'farmersdelight:pie_crust',
 			C: 'minecraft:wheat',
-			D: 'mysticsbiomes:cherry_jam'
+			D: 'hearthandharvest:cherry_jam'
 		}
 	)
 	//Peach Pie
@@ -276,11 +233,12 @@ ServerEvents.recipes(event => {
 		[
 			'C',
 			'D',
-			'A '
+			'BAB'
 		], {
 			A: 'farmersdelight:pie_crust',
 			C: 'minecraft:wheat',
-			D: 'mysticsbiomes:peach_jam'
+			D: 'mysticsbiomes:peach',
+			B: 'minecraft:sugar'
 		}
 	)
 
@@ -304,7 +262,7 @@ ServerEvents.recipes(event => {
 		], {
 			A: 'minecraft:wheat',
 			B: 'fruitsdelight:lemon',
-			C: '#forge:milk/milk_bottle'
+			C: '#c:milk/milk_bottle'
 		}
 	)
 	//Chocolate Glazed Cookie
@@ -336,28 +294,6 @@ ServerEvents.recipes(event => {
 		], {
 			A: 'minecraft:wheat',
 			B: 'hexalia:moon_berries'
-		}
-	)
-	//Basslet Cookie
-	event.shaped(
-		Item.of('rainbowreef:basslet_cookie', 8),
-		[
-			'BA',
-			'A '
-		], {
-			A: 'minecraft:wheat',
-			B: 'rainbowreef:raw_basslet'
-		}
-	)
-	//Idol Cookie
-	event.shaped(
-		Item.of('rainbowreef:idol_cookie', 8),
-		[
-			'BA',
-			'A '
-		], {
-			A: 'minecraft:wheat',
-			B: 'rainbowreef:raw_moorish_idol'
 		}
 	)
 	//Cranberry Cookie

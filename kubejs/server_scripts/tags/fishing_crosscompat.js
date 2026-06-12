@@ -2,7 +2,7 @@
 
 ServerEvents.tags('item', event => {
 
-	// ── Starcatcher hooks → Tide hook tag ──
+	// ── Starcatcher hooks to Tide hook tag ──
 	event.add('tide:hooks', [
 		'starcatcher:hook',
 		'starcatcher:vanilla_hook',
@@ -21,7 +21,7 @@ ServerEvents.tags('item', event => {
 		'starcatcher:amethyst_hook'
 	])
 
-	// ── Starcatcher bobbers → Tide bobber tag ──
+	// ── Starcatcher bobbers to Tide bobber tag ──
 	event.add('tide:bobbers', [
 		'starcatcher:bobber',
 		'starcatcher:vanilla_bobber',
@@ -32,7 +32,7 @@ ServerEvents.tags('item', event => {
 		'starcatcher:leaf_bobber'
 	])
 
-	// ── Starcatcher bait → Tide bait tag ──
+	// ── Starcatcher bait to Tide bait tag ──
 	event.add('tide:bait', [
 		'starcatcher:worm',
 		'starcatcher:almighty_worm',
@@ -47,7 +47,7 @@ ServerEvents.tags('item', event => {
 		'starcatcher:seeking_worm'
 	])
 
-	// ── Tide hooks → Starcatcher hook tag ──
+	// ── Tide hooks to Starcatcher hook tag ──
 	event.add('starcatcher:hooks', [
 		'tide:fishing_hook',
 		'tide:iron_fishing_hook',
@@ -55,7 +55,7 @@ ServerEvents.tags('item', event => {
 		'tide:void_fishing_hook'
 	])
 
-	// ── Tide bobbers → Starcatcher bobber tag ──
+	// ── Tide bobbers to Starcatcher bobber tag ──
 	event.add('starcatcher:bobbers', [
 		'tide:red_fishing_bobber',
 		'tide:orange_fishing_bobber',
@@ -92,7 +92,7 @@ ServerEvents.tags('item', event => {
 		'tide:duck_fishing_bobber'
 	])
 
-	// ── Tide bait → Starcatcher bait tag ──
+	// ── Tide bait to Starcatcher bait tag ──
 	event.add('starcatcher:baits', [
 		'tide:bait',
 		'tide:lucky_bait',
