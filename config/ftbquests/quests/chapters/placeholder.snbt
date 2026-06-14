@@ -1,0 +1,140 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "placeholder"
+	group: ""
+	id: "62C1B682C3F424A3"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			entity_vis_size: 1.0f
+			id: "7AD175287E3F0B68"
+			rewards: [{
+				id: "647BD7A181C2E88D"
+				item: {
+					count: 1
+					id: "waystones:warp_scroll"
+				}
+				type: "item"
+			}]
+			shape: "gear"
+			size: 1.0d
+			tasks: [{
+				icon: {
+					id: "waystones:sandy_waystone"
+				}
+				id: "0897C669F0BCBDB8"
+				stat: "waystones:waystone_activated"
+				type: "stat"
+				value: 1
+			}]
+			x: -1.5d
+			y: 5.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "21AD64E594528F4D"
+			rewards: [{
+				id: "2843D4CF59F20071"
+				item: {
+					components: {
+						"ftbquests:missing_item": "prefab:item_house"
+					}
+					count: 1
+					id: "ftbquests:missing_item"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "76B325FD29C28A89"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "065DC59360A84A58"
+			rewards: [{
+				count: 3
+				id: "217A27BE7B881243"
+				item: {
+					components: {
+						"ftbquests:missing_item": "irons_rpg_tweaks:identification_scroll"
+					}
+					count: 1
+					id: "ftbquests:missing_item"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "7E81775B3B389373"
+				type: "checkmark"
+			}]
+			x: 2.0d
+			y: 4.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "3DFB7EF14F053582"
+			rewards: [
+				{
+					command: "/give @p carved_pumpkin{CustomModelData:1,display:{Name:'[{\"text\":\"Mushroom Hat\",\"italic\":false,\"color\":\"yellow\"}]',Lore:['[{\"text\":\"A sweet lil mushroom hat.\",\"italic\":false}]']}} 1"
+					icon: {
+						components: {
+							"ftbquests:missing_item": "minecraft:carved_pumpkin"
+						}
+						id: "ftbquests:missing_item"
+					}
+					id: "66564731E9B2D42D"
+					permission_level: 4
+					type: "command"
+				}
+				{
+					id: "2137F6EA098AA944"
+					item: {
+						count: 1
+						id: "minecraft:carved_pumpkin"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "5D42AEB901AE8033"
+				type: "checkmark"
+			}]
+			x: -1.0d
+			y: -2.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "2E4D1699E2A7876B"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "5733FE4FC03C948A"
+					table_id: 7707783220386620668L
+					type: "choice"
+				}
+				{
+					id: "3A0C38A5244D788B"
+					item: {
+						count: 1
+						id: "minecraft:apple"
+					}
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 2.0d
+			tasks: [{
+				id: "12209A4177B4DF50"
+				item: { components: { "ftbquests:missing_item": "itemfilters:tag" }, count: 1, id: "ftbquests:missing_item" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: -13.0d
+		}
+	]
+}

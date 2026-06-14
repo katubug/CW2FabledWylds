@@ -1,0 +1,272 @@
+{
+	default_hide_dependency_lines: false
+	default_min_width: 350
+	default_quest_shape: ""
+	filename: "zephyrs_adds"
+	group: "691BD44222F33F05"
+	id: "0C0A5FA20E63A7C0"
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			entity_vis_size: 1.0f
+			id: "36CB25FF340BC15E"
+			rewards: [{
+				count: 5
+				id: "63E8DB7C081A6BE1"
+				item: {
+					count: 1
+					id: "minecraft:potato"
+				}
+				type: "item"
+			}]
+			shape: "heart"
+			tasks: [{
+				entity_vis_idle_mode: "USE_GLOBAL"
+				entity_vis_offset_x: 0.0f
+				entity_vis_offset_y: 0.0f
+				entity_vis_rotation: 0.0f
+				entity_vis_silhouette_mode: "NONE"
+				entity_vis_size: 1.0f
+				entity_vis_spin_mode: "USE_GLOBAL"
+				entity_vis_use_as_quest_icon: false
+				entity_vis_walk_mode: "USE_GLOBAL"
+				icon: {
+					components: {
+						"ftbquests:missing_item": "tameablebeasts:chikote_egg"
+					}
+					id: "ftbquests:missing_item"
+				}
+				id: "6580ED2A951E9CD5"
+				observation_type: "entity_type"
+				observe_type: 5
+				timer: 0L
+				to_observe: "tameablebeasts:tameable_chikote"
+				type: "observation"
+			}]
+			x: -3.5d
+			y: -4.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "1A282F382F741DEB"
+			rewards: [{
+				id: "1DA8E109AAB89AAB"
+				item: {
+					count: 1
+					id: "minecraft:apple"
+				}
+				type: "item"
+			}]
+			shape: "heart"
+			tasks: [{
+				entity_vis_idle_mode: "USE_GLOBAL"
+				entity_vis_offset_x: 0.0f
+				entity_vis_offset_y: 0.0f
+				entity_vis_rotation: 0.0f
+				entity_vis_silhouette_mode: "NONE"
+				entity_vis_size: 1.0f
+				entity_vis_spin_mode: "USE_GLOBAL"
+				entity_vis_use_as_quest_icon: false
+				entity_vis_walk_mode: "USE_GLOBAL"
+				icon: {
+					components: {
+						"ftbquests:missing_item": "tameablebeasts:racoon_hat"
+					}
+					id: "ftbquests:missing_item"
+				}
+				id: "0CD9D114593C636D"
+				observation_type: "entity_type"
+				observe_type: 5
+				timer: 0L
+				to_observe: "tameablebeasts:tameable_racoon"
+				type: "observation"
+			}]
+			x: -1.5d
+			y: -5.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "0AED644C74078332"
+			rewards: [{
+				count: 5
+				id: "36D9BB6F92065117"
+				item: {
+					components: {
+						"ftbquests:missing_item": "tameablebeasts:egg_rests"
+					}
+					count: 1
+					id: "ftbquests:missing_item"
+				}
+				type: "item"
+			}]
+			shape: "heart"
+			tasks: [{
+				entity_vis_idle_mode: "USE_GLOBAL"
+				entity_vis_offset_x: 0.0f
+				entity_vis_offset_y: 0.0f
+				entity_vis_rotation: 0.0f
+				entity_vis_silhouette_mode: "NONE"
+				entity_vis_size: 1.0f
+				entity_vis_spin_mode: "USE_GLOBAL"
+				entity_vis_use_as_quest_icon: false
+				entity_vis_walk_mode: "USE_GLOBAL"
+				icon: {
+					components: {
+						"ftbquests:missing_item": "tameablebeasts:roly_poly_egg"
+					}
+					id: "ftbquests:missing_item"
+				}
+				id: "20EEDA4226D4DBD5"
+				observation_type: "entity_type"
+				observe_type: 5
+				timer: 0L
+				to_observe: "tameablebeasts:giant_roly_poly"
+				type: "observation"
+			}]
+			x: -2.5d
+			y: -4.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "76BB244A3C2988B0"
+			rewards: [{
+				count: 5
+				id: "59C9AD4CBE3D2005"
+				item: {
+					components: {
+						"ftbquests:missing_item": "tameablebeasts:big_bird_meat"
+					}
+					count: 1
+					id: "ftbquests:missing_item"
+				}
+				type: "item"
+			}]
+			shape: "heart"
+			tasks: [{
+				entity_vis_idle_mode: "USE_GLOBAL"
+				entity_vis_offset_x: 0.0f
+				entity_vis_offset_y: 0.0f
+				entity_vis_rotation: 0.0f
+				entity_vis_silhouette_mode: "NONE"
+				entity_vis_size: 1.0f
+				entity_vis_spin_mode: "USE_GLOBAL"
+				entity_vis_use_as_quest_icon: false
+				entity_vis_walk_mode: "USE_GLOBAL"
+				icon: {
+					components: {
+						"ftbquests:missing_item": "tameablebeasts:quetzalcoatlus_egg"
+					}
+					id: "ftbquests:missing_item"
+				}
+				id: "475B39689F1DFBB5"
+				observation_type: "entity_type"
+				observe_type: 5
+				timer: 0L
+				to_observe: "tameablebeasts:quetzalcoatlus"
+				type: "observation"
+			}]
+			x: -5.5d
+			y: -4.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "5667BB6E35E4AEE7"
+			rewards: [{
+				count: 5
+				id: "0AA4B9E2B37DA7B9"
+				item: {
+					components: {
+						"ftbquests:missing_item": "tameablebeasts:quetzal_meat"
+					}
+					count: 1
+					id: "ftbquests:missing_item"
+				}
+				type: "item"
+			}]
+			shape: "heart"
+			tasks: [{
+				entity_vis_idle_mode: "USE_GLOBAL"
+				entity_vis_offset_x: 0.0f
+				entity_vis_offset_y: 0.0f
+				entity_vis_rotation: 0.0f
+				entity_vis_silhouette_mode: "NONE"
+				entity_vis_size: 1.0f
+				entity_vis_spin_mode: "USE_GLOBAL"
+				entity_vis_use_as_quest_icon: false
+				entity_vis_walk_mode: "USE_GLOBAL"
+				icon: {
+					components: {
+						"ftbquests:missing_item": "tameablebeasts:argentavis_egg"
+					}
+					id: "ftbquests:missing_item"
+				}
+				id: "6E32A320768021C8"
+				observation_type: "entity_type"
+				observe_type: 5
+				timer: 0L
+				to_observe: "tameablebeasts:argentavis"
+				type: "observation"
+			}]
+			x: -7.0d
+			y: -3.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "73D546D548DC5356"
+			rewards: [{
+				id: "53ACE1AC3E523769"
+				item: {
+					components: {
+						"ftbquests:missing_item": "mcwholidays:scarecrow"
+					}
+					count: 1
+					id: "ftbquests:missing_item"
+				}
+				type: "item"
+			}]
+			shape: "heart"
+			tasks: [{
+				entity_vis_idle_mode: "USE_GLOBAL"
+				entity_vis_offset_x: 0.0f
+				entity_vis_offset_y: 0.0f
+				entity_vis_rotation: 0.0f
+				entity_vis_silhouette_mode: "NONE"
+				entity_vis_size: 1.0f
+				entity_vis_spin_mode: "USE_GLOBAL"
+				entity_vis_use_as_quest_icon: false
+				entity_vis_walk_mode: "USE_GLOBAL"
+				icon: {
+					components: {
+						"ftbquests:missing_item": "tameablebeasts:purple_allay"
+					}
+					id: "ftbquests:missing_item"
+				}
+				id: "20B713643347B368"
+				observation_type: "entity_type"
+				observe_type: 5
+				timer: 0L
+				to_observe: "tameablebeasts:scarecrowallay"
+				type: "observation"
+			}]
+			x: -5.5d
+			y: -2.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "598D07A8C3ED765A"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5A6458979F8FE84D"
+				table_id: 7049021818423122779L
+				type: "choice"
+			}]
+			tasks: [{
+				id: "2A8566938ACB7B7B"
+				type: "checkmark"
+			}]
+			x: -4.5d
+			y: -7.0d
+		}
+	]
+}

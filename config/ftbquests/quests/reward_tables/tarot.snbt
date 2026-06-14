@@ -1,0 +1,27 @@
+{
+	id: "0FD7EA5F255F8D85"
+	loot_size: 2
+	order_index: 24
+	rewards: [
+		{ id: "255BE41ACD9A251E", item: { count: 1, id: "tarotcards:death" } }
+		{ id: "058E65DA67483B54", item: { count: 1, id: "tarotcards:wheel_of_fortune" } }
+		{ id: "3A0843067AC9AEAA", item: { count: 1, id: "tarotcards:the_world" } }
+		{ id: "590A84AA36DDA803", item: { count: 1, id: "tarotcards:the_tower" } }
+		{ id: "752794ADEDBBD167", item: { count: 1, id: "tarotcards:the_sun" } }
+		{ id: "3A40EE8AF9A618DD", item: { count: 1, id: "tarotcards:the_star" } }
+		{ id: "66964AC54AAE83D8", item: { count: 1, id: "tarotcards:the_fool" } }
+		{ id: "41678E8DB44F166F", item: { count: 1, id: "tarotcards:the_hanged_man" } }
+		{ id: "20F973125E4060E9", item: { count: 1, id: "tarotcards:the_hermit" } }
+		{ id: "0897EBEDBE67BD55", item: { count: 1, id: "tarotcards:the_hierophant" } }
+		{ id: "45ADA4571D070227", item: { count: 1, id: "tarotcards:the_high_priestess" } }
+		{ id: "04F8B2E53A284CA4", item: { count: 1, id: "tarotcards:the_lovers" } }
+		{ id: "0F77CF962429FACC", item: { count: 1, id: "tarotcards:the_magician" } }
+		{ id: "625D2C67067A0010", item: { count: 1, id: "tarotcards:the_moon" } }
+		{ id: "5423F817196E3BB2", item: { count: 1, id: "tarotcards:the_emperor" } }
+		{ id: "493B67C01DE757F0", item: { count: 1, id: "tarotcards:the_devil" } }
+		{ id: "592FB7887B68489A", item: { count: 1, id: "tarotcards:the_chariot" } }
+		{ id: "596430A9BF4FEE31", item: { count: 1, id: "tarotcards:temperance" } }
+		{ id: "034845874DAC22CD", item: { count: 1, id: "tarotcards:strength" } }
+		{ id: "01220ABEEA9F5CC0", item: { count: 1, id: "tarotcards:judgement" } }
+	]
+}

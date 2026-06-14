@@ -1,0 +1,135 @@
+{
+	id: "5A75A7BF51091F2A"
+	loot_size: 1
+	order_index: 22
+	rewards: [
+		{
+			count: 6
+			id: "4357F582791D5C92"
+			item: {
+				count: 1
+				id: "minecraft:wheat_seeds"
+			}
+		}
+		{
+			count: 3
+			id: "2899EC83BF020FBF"
+			item: {
+				count: 1
+				id: "minecraft:pumpkin_seeds"
+			}
+		}
+		{
+			count: 3
+			id: "123FBA42705A489D"
+			item: {
+				count: 1
+				id: "minecraft:melon_seeds"
+			}
+		}
+		{
+			count: 6
+			id: "530413C892942310"
+			item: {
+				count: 1
+				id: "minecraft:beetroot_seeds"
+			}
+		}
+		{
+			count: 6
+			id: "005AE6593D5C31D5"
+			item: {
+				count: 1
+				id: "minecraft:red_mushroom"
+			}
+		}
+		{
+			count: 6
+			id: "3DECF055DE5C3229"
+			item: {
+				count: 1
+				id: "minecraft:brown_mushroom"
+			}
+		}
+		{
+			count: 6
+			id: "68B22F2AAF74947E"
+			item: {
+				count: 1
+				id: "minecraft:carrot"
+			}
+		}
+		{
+			count: 6
+			id: "5BF6499231F72262"
+			item: {
+				count: 1
+				id: "minecraft:potato"
+			}
+		}
+		{
+			count: 6
+			id: "116EBAC1194D924F"
+			item: {
+				count: 1
+				id: "minecraft:sweet_berries"
+			}
+		}
+		{
+			count: 6
+			id: "496708EAB54DAFBF"
+			item: {
+				count: 1
+				id: "minecraft:glow_berries"
+			}
+		}
+		{
+			count: 6
+			id: "1E4DD1B2022C7097"
+			item: {
+				count: 1
+				id: "farmersdelight:cabbage_seeds"
+			}
+		}
+		{
+			count: 6
+			id: "72796A3A006511EB"
+			item: {
+				count: 1
+				id: "farmersdelight:tomato_seeds"
+			}
+		}
+		{
+			count: 6
+			id: "181C08C8944DE2D0"
+			item: {
+				count: 1
+				id: "supplementaries:flax_seeds"
+			}
+		}
+		{
+			count: 3
+			id: "5A81D83F40B001A7"
+			item: {
+				count: 1
+				id: "farm_and_charm:strawberry_seeds"
+			}
+		}
+		{
+			count: 3
+			id: "13E90911E7733314"
+			item: {
+				count: 1
+				id: "farm_and_charm:oat_seeds"
+			}
+		}
+		{
+			count: 3
+			id: "43F116EBD186EBD7"
+			item: {
+				count: 1
+				id: "farm_and_charm:kernels"
+			}
+		}
+	]
+}

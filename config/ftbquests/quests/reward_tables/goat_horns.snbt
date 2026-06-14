@@ -1,0 +1,15 @@
+{
+	id: "14F5FB461C686385"
+	loot_size: 1
+	order_index: 19
+	rewards: [
+		{ id: "4474404D206F2FA4", item: { components: { "minecraft:instrument": "minecraft:ponder_goat_horn" }, count: 1, id: "minecraft:goat_horn" } }
+		{ id: "447ED0FE4351805A", item: { components: { "minecraft:instrument": "minecraft:sing_goat_horn" }, count: 1, id: "minecraft:goat_horn" } }
+		{ id: "21C31A3168023DC4", item: { components: { "minecraft:instrument": "minecraft:seek_goat_horn" }, count: 1, id: "minecraft:goat_horn" } }
+		{ id: "0BA894118B4B67FC", item: { components: { "minecraft:instrument": "minecraft:feel_goat_horn" }, count: 1, id: "minecraft:goat_horn" } }
+		{ id: "1052F2AE3A50A69A", item: { components: { "minecraft:instrument": "minecraft:admire_goat_horn" }, count: 1, id: "minecraft:goat_horn" } }
+		{ id: "45BD7F9A30B27B87", item: { components: { "minecraft:instrument": "minecraft:call_goat_horn" }, count: 1, id: "minecraft:goat_horn" } }
+		{ id: "561DA697B44480DD", item: { components: { "minecraft:instrument": "minecraft:yearn_goat_horn" }, count: 1, id: "minecraft:goat_horn" } }
+		{ id: "2FF2294412878E26", item: { components: { "minecraft:instrument": "minecraft:dream_goat_horn" }, count: 1, id: "minecraft:goat_horn" } }
+	]
+}

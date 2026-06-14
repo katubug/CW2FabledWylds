@@ -1,0 +1,32 @@
+{
+	id: "4972AA871F691F6C"
+	loot_size: 1
+	order_index: 30
+	rewards: [
+		{ id: "11DFD8242D46B8E9", item: { count: 1, id: "minecraft:netherite_upgrade_smithing_template" } }
+		{ id: "64CDE82D00F42F74", item: { count: 1, id: "minecraft:sentry_armor_trim_smithing_template" } }
+		{ id: "080FF6482E529D99", item: { count: 1, id: "minecraft:vex_armor_trim_smithing_template" } }
+		{ id: "542925703F043E0B", item: { count: 1, id: "minecraft:wild_armor_trim_smithing_template" } }
+		{ id: "71FD9EF998A88D5F", item: { count: 1, id: "minecraft:coast_armor_trim_smithing_template" } }
+		{ id: "0E0623E983D78E3C", item: { count: 1, id: "minecraft:dune_armor_trim_smithing_template" } }
+		{ id: "5631755435D23914", item: { count: 1, id: "minecraft:wayfinder_armor_trim_smithing_template" } }
+		{ id: "54DA6B66CAF1C2F3", item: { count: 1, id: "minecraft:raiser_armor_trim_smithing_template" } }
+		{ id: "09813B4268CEE107", item: { count: 1, id: "minecraft:shaper_armor_trim_smithing_template" } }
+		{ id: "2667EB6B2D4D23BE", item: { count: 1, id: "minecraft:host_armor_trim_smithing_template" } }
+		{ id: "50A441AD5CE3CCC2", item: { count: 1, id: "minecraft:ward_armor_trim_smithing_template" } }
+		{ id: "46039A93650D70D5", item: { count: 1, id: "minecraft:silence_armor_trim_smithing_template" } }
+		{ id: "439BA5AF30028173", item: { count: 1, id: "minecraft:tide_armor_trim_smithing_template" } }
+		{ id: "59E47B863CA4F503", item: { count: 1, id: "minecraft:snout_armor_trim_smithing_template" } }
+		{ id: "01C12047F0434416", item: { count: 1, id: "minecraft:rib_armor_trim_smithing_template" } }
+		{ id: "37230F9674FE37B6", item: { count: 1, id: "minecraft:eye_armor_trim_smithing_template" } }
+		{ id: "5B6BAA171D0A6E80", item: { count: 1, id: "minecraft:spire_armor_trim_smithing_template" } }
+		{ id: "5C4847EA968E2DD9", item: { count: 1, id: "moresnifferflowers:grain_armor_trim_smithing_template" } }
+		{ id: "1EFEFB577227C44A", item: { count: 1, id: "moresnifferflowers:beat_armor_trim_smithing_template" } }
+		{ id: "6BDABA637FF8616A", item: { count: 1, id: "moresnifferflowers:nether_wart_armor_trim_smithing_template" } }
+		{ id: "0F2FB5EF793FB9A1", item: { count: 1, id: "quark:smithing_template_rune" } }
+		{ id: "7A382A0ACDC843FD", item: { count: 1, id: "moresnifferflowers:aroma_armor_trim_smithing_template" } }
+		{ id: "582F059612B69DF0", item: { count: 1, id: "moresnifferflowers:carnage_armor_trim_smithing_template" } }
+		{ id: "46D37E4385ECF961", item: { count: 1, id: "moresnifferflowers:carotene_armor_trim_smithing_template" } }
+		{ id: "1DA36D40C25DCA67", item: { count: 1, id: "moresnifferflowers:tater_armor_trim_smithing_template" } }
+	]
+}

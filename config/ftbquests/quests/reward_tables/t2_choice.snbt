@@ -1,0 +1,43 @@
+{
+	id: "45E5DFB80FA259A8"
+	loot_size: 1
+	order_index: 11
+	rewards: [
+		{
+			count: 8
+			id: "686F317E4FDF6713"
+			item: {
+				count: 1
+				id: "minecraft:emerald"
+			}
+		}
+		{
+			id: "63AAD51267EEDCB7"
+			item: {
+				count: 1
+				id: "minecraft:diamond"
+			}
+			weight: 4.0f
+		}
+		{
+			count: 2
+			id: "3F285602B39AC11E"
+			item: {
+				count: 1
+				id: "minecraft:phantom_membrane"
+			}
+		}
+		{ id: "04E8DE14A6042E93", item: { count: 1, id: "minecraft:nautilus_shell" } }
+		{ id: "62783C487D805F86", item: { count: 1, id: "minecraft:heart_of_the_sea" } }
+		{ id: "26B9D4D1251518E4", item: { count: 1, id: "waystones:warp_stone" } }
+		{
+			count: 5
+			id: "793F028EEFBFF05B"
+			item: {
+				count: 1
+				id: "minecraft:echo_shard"
+			}
+		}
+		{ id: "7DC2120352FC6DFF", item: { count: 1, id: "moblassos:golden_lasso" } }
+	]
+}

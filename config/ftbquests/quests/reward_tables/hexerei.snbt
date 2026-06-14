@@ -1,0 +1,62 @@
+{
+	id: "080797145F203F85"
+	loot_size: 3
+	order_index: 20
+	rewards: [
+		{
+			count: 5
+			id: "384DAA5207EBC0E6"
+			item: {
+				count: 1
+				id: "hexerei:seed_mixture"
+			}
+			weight: 8.0f
+		}
+		{
+			count: 3
+			id: "7DDDB65A6994F16A"
+			item: {
+				count: 1
+				id: "hexerei:tallow_impurity"
+			}
+			weight: 8.0f
+		}
+		{
+			count: 5
+			id: "1D8C5DBAAB536EB9"
+			item: {
+				count: 1
+				id: "hexerei:animal_fat"
+			}
+			weight: 10.0f
+		}
+		{ id: "5A5DE0CC10E21EC0", item: { count: 1, id: "hexerei:infused_fabric" } }
+		{ id: "52BC5670449AC991", item: { count: 1, id: "hexerei:budding_selenite" } }
+		{
+			count: 4
+			id: "5CA90277368B2709"
+			item: {
+				count: 1
+				id: "hexerei:willow_sapling"
+			}
+			weight: 8.0f
+		}
+		{
+			count: 4
+			id: "2FA4C23D0F168ED9"
+			item: {
+				count: 1
+				id: "hexerei:witch_hazel_sapling"
+			}
+			weight: 5.0f
+		}
+		{
+			count: 4
+			id: "4149A36062F5DA37"
+			item: {
+				count: 1
+				id: "hexerei:mahogany_sapling"
+			}
+		}
+	]
+}

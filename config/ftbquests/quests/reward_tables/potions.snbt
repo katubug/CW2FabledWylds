@@ -1,0 +1,21 @@
+{
+	id: "74C9E7BFF8F97FAD"
+	loot_size: 3
+	order_index: 26
+	rewards: [
+		{ id: "1F3D228FF0D89BCF", item: { count: 1, id: "minecraft:potion" } }
+		{ id: "2ED209CE500A1304", item: { count: 1, id: "minecraft:potion" } }
+		{ id: "06466665183B290C", item: { count: 1, id: "minecraft:potion" } }
+		{ id: "35A9F3BDCCF98DD9", item: { count: 1, id: "minecraft:potion" } }
+		{ id: "48B77C73FDF555BF", item: { count: 1, id: "minecraft:potion" } }
+		{ id: "7E9EB4CA906AAFC5", item: { count: 1, id: "minecraft:potion" } }
+		{ id: "7ED061A206B6DFA2", item: { count: 1, id: "minecraft:potion" } }
+		{ id: "52A9C7BFFFBE1EE7", item: { count: 1, id: "minecraft:potion" } }
+		{ id: "604E09674BB4FEA2", item: { count: 1, id: "minecraft:potion" } }
+		{ id: "1D8116AC1C2B3E14", item: { count: 1, id: "minecraft:potion" } }
+		{ id: "680C69D35A334327", item: { count: 1, id: "minecraft:potion" } }
+		{ id: "73EC911F1E5855CB", item: { count: 1, id: "minecraft:potion" } }
+		{ id: "68423FAF1F639EB5", item: { count: 1, id: "minecraft:potion" } }
+		{ id: "31D6D357DE9BD765", item: { count: 1, id: "minecraft:potion" } }
+	]
+}

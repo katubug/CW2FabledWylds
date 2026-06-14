@@ -1,0 +1,12 @@
+{
+	id: "7B63ED97CCD936C8"
+	loot_size: 1
+	order_index: 16
+	rewards: [
+		{ id: "259DD58F7737CB94", item: { count: 1, id: "quark:ancient_tome" } }
+		{ id: "53E0E70B3CE395C5", item: { count: 1, id: "quark:ancient_tome" } }
+		{ id: "367AC13D2EEC4D79", item: { count: 1, id: "quark:ancient_tome" } }
+		{ id: "15EA52E9F3FAFFE8", item: { count: 1, id: "quark:ancient_tome" } }
+		{ id: "1E0ED9B043D3CAA6", item: { count: 1, id: "quark:ancient_tome" } }
+	]
+}

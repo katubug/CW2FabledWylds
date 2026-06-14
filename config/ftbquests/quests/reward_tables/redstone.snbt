@@ -1,0 +1,71 @@
+{
+	id: "37071950A2B77FCE"
+	loot_size: 3
+	order_index: 10
+	rewards: [
+		{
+			count: 2
+			id: "1004885BC4ECA015"
+			item: {
+				count: 1
+				id: "minecraft:dropper"
+			}
+		}
+		{
+			count: 2
+			id: "2F4D842C2FC8DA85"
+			item: {
+				count: 1
+				id: "minecraft:observer"
+			}
+		}
+		{
+			count: 2
+			id: "67F2F76417DFCDCF"
+			item: {
+				count: 1
+				id: "minecraft:dispenser"
+			}
+		}
+		{
+			count: 2
+			id: "1629632A7AC7D0FF"
+			item: {
+				count: 1
+				id: "minecraft:repeater"
+			}
+		}
+		{
+			count: 2
+			id: "04BD85939584DE77"
+			item: {
+				count: 1
+				id: "minecraft:comparator"
+			}
+		}
+		{
+			count: 2
+			id: "288D3DDD4667A60E"
+			item: {
+				count: 1
+				id: "minecraft:piston"
+			}
+		}
+		{
+			count: 2
+			id: "636BEBBDFF1D0F45"
+			item: {
+				count: 1
+				id: "minecraft:sticky_piston"
+			}
+		}
+		{
+			count: 2
+			id: "7AF9F372BA3DEAA8"
+			item: {
+				count: 1
+				id: "quark:redstone_randomizer"
+			}
+		}
+	]
+}

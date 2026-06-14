@@ -1,0 +1,161 @@
+{
+	id: "60565C961FA658E1"
+	loot_size: 10
+	order_index: 4
+	rewards: [
+		{
+			count: 5
+			id: "390AF0BBE0E2DDDA"
+			item: {
+				count: 1
+				id: "minecraft:iron_ingot"
+			}
+			weight: 10.0f
+		}
+		{
+			count: 3
+			id: "56BA6CBCF44D959E"
+			item: {
+				count: 1
+				id: "minecraft:prismarine_shard"
+			}
+			only_one: true
+			weight: 5.0f
+		}
+		{
+			id: "51CD0FFD5FF810E6"
+			item: {
+				count: 1
+				id: "farmersdelight:organic_compost"
+			}
+			weight: 10.0f
+		}
+		{
+			id: "1DC1BBBF5DE6D574"
+			item: {
+				count: 1
+				id: "waystones:warp_scroll"
+			}
+			weight: 13.0f
+		}
+		{
+			id: "13D79C947C1DAB31"
+			item: {
+				components: {
+					"ftbquests:missing_item": "delightful:cheeseburger"
+				}
+				count: 1
+				id: "ftbquests:missing_item"
+			}
+			weight: 15.0f
+		}
+		{
+			id: "3FF515384D0CE0FA"
+			item: {
+				count: 1
+				id: "minecraft:quartz"
+			}
+			weight: 15.0f
+		}
+		{
+			id: "20D75F15C865C98A"
+			item: {
+				count: 1
+				id: "minecraft:amethyst_shard"
+			}
+			weight: 8.0f
+		}
+		{
+			id: "796E288F32B62E28"
+			item: {
+				count: 1
+				id: "minecraft:nautilus_shell"
+			}
+			weight: 5.0f
+		}
+		{
+			count: 4
+			id: "44C7E8F80A07CC96"
+			item: {
+				count: 1
+				id: "create:rose_quartz"
+			}
+			weight: 10.0f
+		}
+		{
+			count: 5
+			id: "18FA0AEBCFF66357"
+			item: {
+				count: 1
+				id: "minecraft:firework_rocket"
+			}
+			weight: 7.0f
+		}
+		{ id: "1D431CFB1098157A", item: { components: { "ftbquests:missing_item": "candlelight:note_paper_writeable" }, count: 1, id: "ftbquests:missing_item" } }
+		{
+			count: 2
+			id: "30ED650BA6A9D79E"
+			item: {
+				components: {
+					"ftbquests:missing_item": "species:birt_egg"
+				}
+				count: 1
+				id: "ftbquests:missing_item"
+			}
+		}
+		{
+			id: "16B5846C24505E22"
+			item: {
+				components: {
+					"ftbquests:missing_item": "irons_rpg_tweaks:identification_scroll"
+				}
+				count: 1
+				id: "ftbquests:missing_item"
+			}
+			weight: 5.0f
+		}
+		{
+			count: 5
+			id: "73F8DCEC5F9A014C"
+			item: {
+				count: 1
+				id: "farmersdelight:ham"
+			}
+			weight: 10.0f
+		}
+		{
+			count: 5
+			id: "1B4A8EA9792F9630"
+			item: {
+				count: 1
+				id: "meadow:alpine_salt"
+			}
+			weight: 10.0f
+		}
+		{ id: "3EF32822E761E7A3", item: { components: { "ftbquests:missing_item": "bountiful:decree" }, count: 1, id: "ftbquests:missing_item" } }
+		{
+			count: 3
+			id: "6F14B58A7B732A04"
+			item: {
+				count: 1
+				id: "farm_and_charm:yeast"
+			}
+		}
+		{
+			count: 3
+			id: "4C33E27E52DB5BED"
+			item: {
+				count: 1
+				id: "farm_and_charm:butter"
+			}
+		}
+		{
+			count: 3
+			id: "3E6941F69C708824"
+			item: {
+				count: 1
+				id: "supplementaries:confetti_popper"
+			}
+		}
+	]
+}

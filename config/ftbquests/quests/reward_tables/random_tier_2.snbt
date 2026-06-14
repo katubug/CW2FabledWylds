@@ -1,0 +1,189 @@
+{
+	id: "7A3E0F5EB3354A41"
+	loot_size: 5
+	order_index: 5
+	rewards: [
+		{
+			id: "6220AB0604CDB8FF"
+			item: {
+				components: {
+					"ftbquests:missing_item": "nethersdelight:stuffed_hoglin"
+				}
+				count: 1
+				id: "ftbquests:missing_item"
+			}
+			weight: 10.0f
+		}
+		{
+			id: "54DD0283AC028C6B"
+			item: {
+				count: 1
+				id: "minecraft:heart_of_the_sea"
+			}
+			weight: 10.0f
+		}
+		{
+			id: "34BA7FC6DCD31913"
+			item: {
+				count: 1
+				id: "minecraft:name_tag"
+			}
+			weight: 45.0f
+		}
+		{
+			id: "73F835FDD985762B"
+			item: {
+				count: 1
+				id: "minecraft:phantom_membrane"
+			}
+			weight: 30.0f
+		}
+		{
+			id: "3F6C9956D89287A6"
+			item: {
+				count: 1
+				id: "minecraft:ender_pearl"
+			}
+			weight: 20.0f
+		}
+		{
+			count: 3
+			id: "7F3CF7ABA066BC1D"
+			item: {
+				count: 1
+				id: "minecraft:diamond"
+			}
+			weight: 5.0f
+		}
+		{
+			count: 5
+			id: "0046516C2F898F8F"
+			item: {
+				count: 1
+				id: "minecraft:emerald"
+			}
+			weight: 5.0f
+		}
+		{
+			id: "73FBE39BFA8942B1"
+			item: {
+				components: {
+					"ftbquests:missing_item": "minecraft:scute"
+				}
+				count: 1
+				id: "ftbquests:missing_item"
+			}
+			weight: 30.0f
+		}
+		{
+			id: "07607B6380AE3B47"
+			item: {
+				count: 1
+				id: "minecraft:golden_apple"
+			}
+			weight: 10.0f
+		}
+		{
+			id: "3F7F3B1990D059C5"
+			item: {
+				count: 1
+				id: "create:blaze_cake"
+			}
+			weight: 30.0f
+		}
+		{
+			id: "349BB3E7F9674AC0"
+			item: {
+				count: 1
+				id: "waystones:warp_stone"
+			}
+			weight: 5.0f
+		}
+		{
+			id: "0F5F5046EBC5DB0D"
+			item: {
+				components: {
+					"ftbquests:missing_item": "nethersdelight:nether_skewer"
+				}
+				count: 1
+				id: "ftbquests:missing_item"
+			}
+			weight: 10.0f
+		}
+		{
+			count: 2
+			id: "0491E064D696BFCF"
+			item: {
+				count: 1
+				id: "glassential:glass_ethereal"
+			}
+			weight: 6.0f
+		}
+		{
+			id: "2851826CE18D2B97"
+			item: {
+				count: 1
+				id: "moblassos:golden_lasso"
+			}
+			weight: 10.0f
+		}
+		{
+			id: "0EBABAA7107360DD"
+			item: {
+				count: 1
+				id: "minecraft:conduit"
+			}
+			weight: 5.0f
+		}
+		{
+			id: "5490D5FDDD5229D3"
+			item: {
+				count: 1
+				id: "minecraft:coast_armor_trim_smithing_template"
+			}
+			weight: 5.0f
+		}
+		{
+			id: "0FD635383CB94655"
+			item: {
+				count: 1
+				id: "minecraft:dune_armor_trim_smithing_template"
+			}
+			weight: 5.0f
+		}
+		{
+			id: "390D796DDDC062F8"
+			item: {
+				count: 1
+				id: "minecraft:wild_armor_trim_smithing_template"
+			}
+			weight: 5.0f
+		}
+		{
+			id: "4B561E999D149111"
+			item: {
+				count: 1
+				id: "minecraft:vex_armor_trim_smithing_template"
+			}
+			weight: 5.0f
+		}
+		{
+			id: "3EE2BDF3A549513B"
+			item: {
+				count: 1
+				id: "minecraft:sentry_armor_trim_smithing_template"
+			}
+			weight: 5.0f
+		}
+		{ id: "2E8B15F575F41B51", item: { count: 1, id: "minecraft:spire_armor_trim_smithing_template" } }
+		{ id: "577077C48CAA3E85", item: { count: 1, id: "minecraft:eye_armor_trim_smithing_template" } }
+		{
+			id: "771DC56D77B195AA"
+			item: {
+				count: 1
+				id: "minecraft:rib_armor_trim_smithing_template"
+			}
+			weight: 5.0f
+		}
+	]
+}

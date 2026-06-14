@@ -1,0 +1,114 @@
+{
+	id: "0E5322C3053EB983"
+	loot_size: 4
+	order_index: 15
+	rewards: [
+		{ id: "17E4ED67542372F9", item: { count: 1, id: "create:electron_tube" } }
+		{
+			count: 3
+			id: "7674A6893318858F"
+			item: {
+				count: 1
+				id: "create:brass_ingot"
+			}
+			weight: 5.0f
+		}
+		{
+			count: 5
+			id: "0FA95409DB75F7DD"
+			item: {
+				count: 1
+				id: "create:rose_quartz"
+			}
+			weight: 15.0f
+		}
+		{
+			id: "448C5991CF2AE0C2"
+			item: {
+				count: 1
+				id: "create:sand_paper"
+			}
+			weight: 10.0f
+		}
+		{
+			count: 5
+			id: "1892F63F44D87E31"
+			item: {
+				count: 1
+				id: "create:cogwheel"
+			}
+			weight: 20.0f
+		}
+		{
+			count: 3
+			id: "298BC4DDA3D6C7E0"
+			item: {
+				count: 1
+				id: "create:large_cogwheel"
+			}
+			weight: 20.0f
+		}
+		{
+			id: "0A58C61F2D4FA789"
+			item: {
+				count: 1
+				id: "create:gearbox"
+			}
+			weight: 10.0f
+		}
+		{
+			id: "7A8D591237E95A01"
+			item: {
+				count: 1
+				id: "create:builders_tea"
+			}
+			weight: 5.0f
+		}
+		{ id: "48BA67FC69EB04BE", item: { count: 1, id: "create:blaze_cake_base" } }
+		{
+			count: 10
+			id: "593E91C378D2A22C"
+			item: {
+				count: 1
+				id: "create:cinder_flour"
+			}
+			weight: 10.0f
+		}
+		{
+			count: 6
+			id: "1A34661F28D7D978"
+			item: {
+				count: 1
+				id: "create:andesite_casing"
+			}
+			weight: 15.0f
+		}
+		{
+			count: 3
+			id: "3304453D7764EC61"
+			item: {
+				count: 1
+				id: "create:brass_casing"
+			}
+			weight: 15.0f
+		}
+		{
+			count: 3
+			id: "2ACDF181D9C2C1F4"
+			item: {
+				count: 1
+				id: "create:copper_casing"
+			}
+			weight: 10.0f
+		}
+		{
+			count: 10
+			id: "2973F8E4E7761924"
+			item: {
+				count: 1
+				id: "create:raw_zinc"
+			}
+			weight: 5.0f
+		}
+	]
+}

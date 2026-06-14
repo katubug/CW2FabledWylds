@@ -1,0 +1,192 @@
+{
+	id: "6B5FAFF8A2051C55"
+	loot_size: 4
+	order_index: 23
+	rewards: [
+		{
+			count: 5
+			id: "18F6DDAFA82691F1"
+			item: {
+				count: 1
+				id: "minecraft:tube_coral_block"
+			}
+			weight: 5.0f
+		}
+		{
+			count: 5
+			id: "60B9AD417889DB08"
+			item: {
+				count: 1
+				id: "minecraft:brain_coral_block"
+			}
+			weight: 5.0f
+		}
+		{
+			count: 5
+			id: "62DF381D19D43AC8"
+			item: {
+				count: 1
+				id: "minecraft:bubble_coral_block"
+			}
+			weight: 5.0f
+		}
+		{
+			count: 5
+			id: "2AFE06C327B13811"
+			item: {
+				count: 1
+				id: "minecraft:fire_coral_block"
+			}
+			weight: 5.0f
+		}
+		{
+			count: 5
+			id: "4E529323199C16AA"
+			item: {
+				count: 1
+				id: "minecraft:horn_coral_block"
+			}
+			weight: 5.0f
+		}
+		{
+			count: 5
+			id: "1C70205AED8B17E6"
+			item: {
+				count: 1
+				id: "netherdepthsupgrade:warped_kelp"
+			}
+		}
+		{
+			count: 5
+			id: "28DE0010CA0DBEA6"
+			item: {
+				count: 1
+				id: "netherdepthsupgrade:crimson_kelp"
+			}
+		}
+		{
+			count: 5
+			id: "4DEC67B841DFB5BE"
+			item: {
+				count: 1
+				id: "minecraft:horn_coral_fan"
+			}
+			weight: 5.0f
+		}
+		{
+			count: 5
+			id: "4D87A8A295189C8E"
+			item: {
+				count: 1
+				id: "minecraft:tube_coral"
+			}
+			weight: 5.0f
+		}
+		{
+			count: 5
+			id: "7ED72F1B1E08DEFE"
+			item: {
+				count: 1
+				id: "minecraft:brain_coral"
+			}
+			weight: 5.0f
+		}
+		{
+			count: 5
+			id: "012561905D7AFA4A"
+			item: {
+				count: 1
+				id: "minecraft:bubble_coral"
+			}
+			weight: 5.0f
+		}
+		{
+			count: 5
+			id: "033A9A678F600FE0"
+			item: {
+				count: 1
+				id: "minecraft:fire_coral"
+			}
+			weight: 5.0f
+		}
+		{
+			count: 5
+			id: "74E1F9DD58AFC187"
+			item: {
+				count: 1
+				id: "minecraft:horn_coral"
+			}
+			weight: 5.0f
+		}
+		{
+			count: 5
+			id: "0E6EB96C586AD269"
+			item: {
+				count: 1
+				id: "minecraft:tube_coral_fan"
+			}
+			weight: 5.0f
+		}
+		{
+			count: 5
+			id: "78C90F75D5F62A6F"
+			item: {
+				count: 1
+				id: "minecraft:brain_coral_fan"
+			}
+			weight: 5.0f
+		}
+		{
+			count: 5
+			id: "7DDB665D873F815F"
+			item: {
+				count: 1
+				id: "minecraft:bubble_coral_fan"
+			}
+			weight: 5.0f
+		}
+		{
+			count: 5
+			id: "1FD4805158CF2A3A"
+			item: {
+				count: 1
+				id: "minecraft:fire_coral_fan"
+			}
+			weight: 5.0f
+		}
+		{
+			count: 5
+			id: "3261DF3240E97DC0"
+			item: {
+				count: 1
+				id: "minecraft:kelp"
+			}
+			weight: 10.0f
+		}
+		{
+			count: 5
+			id: "6A88DCC1177C8BD6"
+			item: {
+				count: 1
+				id: "minecraft:seagrass"
+			}
+			weight: 10.0f
+		}
+		{
+			count: 5
+			id: "37D59558B3BFCA95"
+			item: {
+				count: 1
+				id: "netherdepthsupgrade:warped_seagrass"
+			}
+		}
+		{
+			count: 5
+			id: "50BD557BF74C1D08"
+			item: {
+				count: 1
+				id: "netherdepthsupgrade:crimson_seagrass"
+			}
+		}
+	]
+}

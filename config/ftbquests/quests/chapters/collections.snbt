@@ -1,0 +1,1512 @@
+{
+	default_hide_dependency_lines: false
+	default_min_width: 350
+	default_quest_shape: ""
+	filename: "collections"
+	group: "691BD44222F33F05"
+	id: "5A00BD04AD81F733"
+	images: [{
+		height: 7.0d
+		image: "enchanted_wilds:textures/questui/bgcollections.png"
+		rotation: 0.0d
+		width: 11.0d
+		x: 0.0d
+		y: 0.0d
+	}]
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			entity_vis_size: 1.0f
+			id: "7C3C2D24D60C6C1F"
+			rewards: [
+				{
+					id: "7C6BCDA400B6A367"
+					table_id: 5036677739913042344L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "630A1F56825F3D91"
+					table_id: 987967038148964353L
+					type: "choice"
+				}
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "31BF06E67E3BAE92"
+					item: { count: 1, id: "minecraft:poppy" }
+					type: "item"
+				}
+				{
+					id: "225189C7EA42C086"
+					item: { count: 1, id: "minecraft:red_tulip" }
+					type: "item"
+				}
+				{
+					id: "655ECA3272A6D8A8"
+					item: { count: 1, id: "minecraft:rose_bush" }
+					type: "item"
+				}
+				{
+					id: "2FB8522D22913DCB"
+					item: { count: 1, id: "regions_unexplored:alpha_rose" }
+					type: "item"
+				}
+				{
+					id: "7233190C45E365BD"
+					item: { components: { "ftbquests:missing_item": "candlelight:rose" }, count: 1, id: "ftbquests:missing_item" }
+					type: "item"
+				}
+				{
+					id: "03E6C6361CA78F6F"
+					item: { count: 1, id: "regions_unexplored:tsubaki" }
+					type: "item"
+				}
+				{
+					id: "6BCC0C240BB78C72"
+					item: { count: 1, id: "regions_unexplored:poppy_bush" }
+					type: "item"
+				}
+				{
+					id: "56152CB323F0B746"
+					item: { count: 1, id: "regions_unexplored:salmon_poppy_bush" }
+					type: "item"
+				}
+				{
+					id: "692FBE3275F81C34"
+					item: { count: 1, id: "regions_unexplored:waratah" }
+					type: "item"
+				}
+				{
+					id: "5DF69717C88047EA"
+					item: { count: 1, id: "regions_unexplored:cave_hyssop" }
+					type: "item"
+				}
+				{
+					id: "147B9E9F2C1669F6"
+					item: { count: 1, id: "regions_unexplored:red_lupine" }
+					type: "item"
+				}
+				{
+					id: "5B9F50A3407C7FCE"
+					item: { count: 1, id: "regions_unexplored:fireweed" }
+					type: "item"
+				}
+				{
+					id: "2F94A68DBD098349"
+					item: { count: 1, id: "regions_unexplored:bleeding_heart" }
+					type: "item"
+				}
+				{
+					id: "3F58121AB13134CF"
+					item: { count: 1, id: "regions_unexplored:red_snowbelle" }
+					type: "item"
+				}
+				{
+					id: "11ACC8CB0AEAD1BC"
+					item: { count: 1, id: "serene_shrubbery:red_hydrangea" }
+					type: "item"
+				}
+				{
+					id: "2F96317A52E64013"
+					item: { count: 1, id: "serene_shrubbery:red_pansies" }
+					type: "item"
+				}
+			]
+			x: -3.0d
+			y: -1.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "7E9C70F7B0CFD820"
+			rewards: [{
+				id: "4F13530A54DDB6CB"
+				table_id: 2068679807827730220L
+				type: "choice"
+			}]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "46FCC8FE2D20AB1D"
+					item: { count: 1, id: "minecraft:orange_tulip" }
+					type: "item"
+				}
+				{
+					id: "132DDB4805F52414"
+					item: { count: 1, id: "regions_unexplored:orange_coneflower" }
+					type: "item"
+				}
+				{
+					id: "74874B35911D5AE0"
+					item: { count: 1, id: "regions_unexplored:orange_snowbelle" }
+					type: "item"
+				}
+				{
+					id: "33397D50E4F85487"
+					item: { count: 1, id: "regions_unexplored:day_lily" }
+					type: "item"
+				}
+				{
+					id: "61CDD0F3FBAF80A5"
+					item: { count: 1, id: "regions_unexplored:mallow" }
+					type: "item"
+				}
+				{
+					id: "0B36914E8D0584AD"
+					item: { count: 1, id: "regions_unexplored:hibiscus" }
+					type: "item"
+				}
+				{
+					id: "32BBD7CA6C249C5D"
+					item: { count: 1, id: "meadow:fire_lily" }
+					type: "item"
+				}
+				{
+					id: "56CE3A6E8B713809"
+					item: { count: 1, id: "serene_shrubbery:orange_pansies" }
+					type: "item"
+				}
+				{
+					id: "1AC5065BC14A9F38"
+					item: { count: 1, id: "serene_shrubbery:orange_crown_cactus" }
+					type: "item"
+				}
+				{
+					id: "4C4796268A2C2373"
+					item: { count: 1, id: "serene_shrubbery:sunset_foxglove" }
+					type: "item"
+				}
+			]
+			x: -2.5d
+			y: 0.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "1FD157BDA5AF3BE9"
+			rewards: [
+				{
+					id: "43F9EA89E7A7A7CA"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7DCECB41814CB556"
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2FC02539F2767A59"
+					table_id: 1739670786502713488L
+					type: "loot"
+				}
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "7451BF72E73B7EF1"
+					item: { count: 1, id: "minecraft:music_disc_13" }
+					type: "item"
+				}
+				{
+					id: "0DD2F00DD2DA22DF"
+					item: { count: 1, id: "minecraft:music_disc_cat" }
+					type: "item"
+				}
+				{
+					id: "29CC947706C42B91"
+					item: { count: 1, id: "minecraft:music_disc_blocks" }
+					type: "item"
+				}
+				{
+					id: "232F0635D295BB59"
+					item: { count: 1, id: "minecraft:music_disc_chirp" }
+					type: "item"
+				}
+				{
+					id: "054726DD1632BE72"
+					item: { count: 1, id: "minecraft:music_disc_far" }
+					type: "item"
+				}
+				{
+					id: "2B927ED082CDC5B4"
+					item: { count: 1, id: "minecraft:music_disc_mall" }
+					type: "item"
+				}
+				{
+					id: "7DF3CBCB3158C521"
+					item: { count: 1, id: "minecraft:music_disc_mellohi" }
+					type: "item"
+				}
+				{
+					id: "607EF5FD9E38DD88"
+					item: { count: 1, id: "minecraft:music_disc_stal" }
+					type: "item"
+				}
+				{
+					id: "549BAF833D83722E"
+					item: { count: 1, id: "minecraft:music_disc_strad" }
+					type: "item"
+				}
+				{
+					id: "7257AA73407C892D"
+					item: { count: 1, id: "minecraft:music_disc_ward" }
+					type: "item"
+				}
+				{
+					id: "2D8EE5FCDDD7C6C2"
+					item: { count: 1, id: "minecraft:music_disc_11" }
+					type: "item"
+				}
+				{
+					id: "5F167A27EAFBC280"
+					item: { count: 1, id: "minecraft:music_disc_wait" }
+					type: "item"
+				}
+				{
+					id: "6E384131D10A0C1E"
+					item: { count: 1, id: "minecraft:music_disc_otherside" }
+					type: "item"
+				}
+				{
+					id: "51FAD651FF5E59E6"
+					item: { }
+					type: "item"
+				}
+			]
+			x: 3.5d
+			y: 0.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "40BBDD8D814A55C1"
+			rewards: [
+				{
+					id: "157334951D384948"
+					table_id: 2068679807827730220L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6B64AD45AF355360"
+					table_id: 987967038148964353L
+					type: "choice"
+				}
+			]
+			tasks: [
+				{
+					id: "6646480A0586896C"
+					item: { count: 1, id: "minecraft:dandelion" }
+					type: "item"
+				}
+				{
+					id: "2B70F689F53FA27E"
+					item: { count: 1, id: "meadow:alpine_poppy" }
+					type: "item"
+				}
+				{
+					id: "558A1B62B3C51C86"
+					item: { count: 1, id: "regions_unexplored:mycotoxic_daisy" }
+					type: "item"
+				}
+				{
+					id: "3653CF7CC56D9FB6"
+					item: { count: 1, id: "regions_unexplored:yellow_lupine" }
+					type: "item"
+				}
+				{
+					id: "0C8B02BF0A58DB81"
+					item: { count: 1, id: "regions_unexplored:alpha_dandelion" }
+					type: "item"
+				}
+				{
+					id: "334DDF41A25EDF8E"
+					item: { count: 1, id: "regions_unexplored:yellow_snowbelle" }
+					type: "item"
+				}
+				{
+					id: "10F4FE139F5B3116"
+					item: { components: { "ftbquests:missing_item": "spawn:sunflower" }, count: 1, id: "ftbquests:missing_item" }
+					type: "item"
+				}
+				{
+					id: "41269A24FBC2120F"
+					item: { count: 1, id: "serene_shrubbery:yellow_pansies" }
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "56F3B965C1198BE9"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "42BF5C8C6250FDD8"
+				table_id: 987967038148964353L
+				type: "choice"
+			}]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "015A59006DC6016D"
+					item: { count: 1, id: "regions_unexplored:green_snowbelle" }
+					type: "item"
+				}
+				{
+					id: "66A84F1EC4C1C037"
+					item: { count: 1, id: "regions_unexplored:lime_snowbelle" }
+					type: "item"
+				}
+				{
+					id: "35FFD1D149C9A9C2"
+					item: { count: 1, id: "regions_unexplored:brown_snowbelle" }
+					type: "item"
+				}
+			]
+			x: -1.5d
+			y: 0.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "5435D7182F5A0C8D"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3DFED648E3730DCF"
+				table_id: 987967038148964353L
+				type: "choice"
+			}]
+			tasks: [
+				{
+					id: "6206FC8A6F656A11"
+					item: { count: 1, id: "minecraft:blue_orchid" }
+					type: "item"
+				}
+				{
+					id: "4635551D704B51AE"
+					item: { count: 1, id: "minecraft:cornflower" }
+					type: "item"
+				}
+				{
+					id: "5AC5F24C29015AFE"
+					item: { count: 1, id: "regions_unexplored:felicia_daisy" }
+					type: "item"
+				}
+				{
+					id: "7E006AEDC7B28731"
+					item: { count: 1, id: "regions_unexplored:cyan_snowbelle" }
+					type: "item"
+				}
+				{
+					id: "343FF5334FC39731"
+					item: { count: 1, id: "regions_unexplored:hyacinth_flowers" }
+					type: "item"
+				}
+				{
+					id: "6D368E0951EA9BF1"
+					item: { count: 1, id: "regions_unexplored:blue_magnolia_shrub" }
+					type: "item"
+				}
+				{
+					id: "3F8B6A07FC91F6C2"
+					item: { count: 1, id: "regions_unexplored:light_blue_snowbelle" }
+					type: "item"
+				}
+				{
+					id: "3D2229BF243C6AA7"
+					item: { count: 1, id: "regions_unexplored:meadow_sage" }
+					type: "item"
+				}
+				{
+					id: "1CECC70EB76A77CB"
+					item: { count: 1, id: "regions_unexplored:blue_snowbelle" }
+					type: "item"
+				}
+				{
+					id: "0BD05F5C83ACCF45"
+					item: { count: 1, id: "regions_unexplored:blue_lupine" }
+					type: "item"
+				}
+				{
+					id: "2F60C2D1C13BF1DF"
+					item: { components: { "ftbquests:missing_item": "verdantvibes:lobelia" }, count: 1, id: "ftbquests:missing_item" }
+					type: "item"
+				}
+				{
+					id: "47B9B90CB9F18473"
+					item: { count: 1, id: "meadow:enzian" }
+					type: "item"
+				}
+				{
+					id: "0A075B5A07B6DB0C"
+					item: { count: 1, id: "meadow:tall_eriophorum" }
+					type: "item"
+				}
+				{
+					id: "65DA7D9570E051B4"
+					item: { count: 1, id: "regions_unexplored:tall_cobalt_earlight" }
+					type: "item"
+				}
+				{
+					id: "59CB2F84C58E6115"
+					item: { count: 1, id: "regions_unexplored:cobalt_earlight" }
+					type: "item"
+				}
+				{
+					id: "00CE89FE851D8B26"
+					item: { count: 1, id: "serene_shrubbery:blue_liverwort" }
+					type: "item"
+				}
+				{
+					id: "57B171C17D65F372"
+					item: { count: 1, id: "serene_shrubbery:hydrangea" }
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "290D8441BBC918A1"
+			rewards: [
+				{
+					id: "7DA76ECFC213F2E1"
+					table_id: 5036677739913042344L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4FF4BB30501FCB3D"
+					table_id: 987967038148964353L
+					type: "choice"
+				}
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "0361CBC524FFB587"
+					item: { count: 1, id: "minecraft:allium" }
+					type: "item"
+				}
+				{
+					id: "18E8294D90AD5799"
+					item: { count: 1, id: "regions_unexplored:lavender_wisteria_shrub" }
+					type: "item"
+				}
+				{
+					id: "1C142155A0B58334"
+					item: { count: 1, id: "regions_unexplored:magenta_snowbelle" }
+					type: "item"
+				}
+				{
+					id: "0344E43C9F078D4B"
+					item: { count: 1, id: "regions_unexplored:hyssop" }
+					type: "item"
+				}
+				{
+					id: "0123CFEE9619464C"
+					item: { count: 1, id: "meadow:delphinium" }
+					type: "item"
+				}
+				{
+					id: "112D90B30A37C028"
+					item: { count: 1, id: "regions_unexplored:purple_coneflower" }
+					type: "item"
+				}
+				{
+					id: "2DEA6874F2309A9C"
+					item: { components: { "ftbquests:missing_item": "verdantvibes:periwinkle" }, count: 1, id: "ftbquests:missing_item" }
+					type: "item"
+				}
+				{
+					id: "7B760446A32DEBE6"
+					item: { count: 1, id: "regions_unexplored:purple_lupine" }
+					type: "item"
+				}
+				{
+					id: "40FA7958C2257744"
+					item: { count: 1, id: "mysticsbiomes:lavender" }
+					type: "item"
+				}
+				{
+					id: "6928CCC10528EC31"
+					item: { }
+					type: "item"
+				}
+				{
+					id: "7C26E64891CFC6B2"
+					item: { count: 1, id: "regions_unexplored:glister_spire" }
+					type: "item"
+				}
+				{
+					id: "33D81E17546768C2"
+					item: { count: 1, id: "regions_unexplored:glistering_bloom" }
+					type: "item"
+				}
+				{
+					id: "3AB870AB35FBD003"
+					item: { count: 1, id: "regions_unexplored:glister_bulb" }
+					type: "item"
+				}
+				{
+					id: "7A7BA2E2840347B1"
+					item: { count: 1, id: "serene_shrubbery:purple_pansies" }
+					type: "item"
+				}
+				{
+					id: "5D129E847F9CA4C2"
+					item: { count: 1, id: "serene_shrubbery:purple_liverwort" }
+					type: "item"
+				}
+				{
+					id: "391D60E6AE804D7E"
+					item: { count: 1, id: "serene_shrubbery:purple_foxglove" }
+					type: "item"
+				}
+				{
+					id: "0001118F5F59B0DE"
+					item: { count: 1, id: "serene_shrubbery:purple_lupine" }
+					type: "item"
+				}
+				{
+					id: "41975DEA1B9E4E58"
+					item: { count: 1, id: "serene_shrubbery:purple_hydrangea" }
+					type: "item"
+				}
+				{
+					id: "1C087537799BBDF6"
+					item: { count: 1, id: "serene_shrubbery:butterfly_bush" }
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: -1.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "692725454B955B4C"
+			rewards: [
+				{
+					id: "74684E8AE902E936"
+					table_id: 5036677739913042344L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "699D75572A615EA1"
+					table_id: 987967038148964353L
+					type: "choice"
+				}
+			]
+			tasks: [
+				{
+					id: "654EEEC582199E27"
+					item: { count: 1, id: "minecraft:lilac" }
+					type: "item"
+				}
+				{
+					id: "43C291F48780210F"
+					item: { count: 1, id: "minecraft:pink_tulip" }
+					type: "item"
+				}
+				{
+					id: "1DC4AAC16780AB9E"
+					item: { count: 1, id: "regions_unexplored:cherry_shrub" }
+					type: "item"
+				}
+				{
+					id: "1C7079D225B49C5C"
+					item: { count: 1, id: "regions_unexplored:pink_lupine" }
+					type: "item"
+				}
+				{
+					id: "6A9B986163DF9024"
+					item: { count: 1, id: "regions_unexplored:saguaro_cactus_flower" }
+					type: "item"
+				}
+				{
+					id: "1265D8047393187D"
+					item: { count: 1, id: "regions_unexplored:corpse_flower" }
+					type: "item"
+				}
+				{
+					id: "5384D3F9B529226C"
+					item: { count: 1, id: "moresnifferflowers:dyespria" }
+					type: "item"
+				}
+				{
+					id: "165D64A105C1039B"
+					item: { count: 1, id: "regions_unexplored:pink_snowbelle" }
+					type: "item"
+				}
+				{
+					id: "24FE61D5260575A4"
+					item: { count: 1, id: "meadow:saxifrage" }
+					type: "item"
+				}
+				{
+					id: "7B7F0AC5D964158C"
+					item: { count: 1, id: "regions_unexplored:pink_magnolia_shrub" }
+					type: "item"
+				}
+				{
+					id: "707CF5EF847B3749"
+					item: { count: 1, id: "minecraft:pink_petals" }
+					type: "item"
+				}
+				{
+					id: "4EB9C0CECEAFCEDD"
+					item: { count: 1, id: "minecraft:peony" }
+					type: "item"
+				}
+				{
+					id: "63D113D0F0A5F032"
+					item: { count: 1, id: "serene_shrubbery:peach_foxglove" }
+					type: "item"
+				}
+				{
+					id: "31C33119BCA13AD4"
+					item: { count: 1, id: "serene_shrubbery:pink_crown_cactus" }
+					type: "item"
+				}
+				{
+					id: "24EFC34166C92118"
+					item: { count: 1, id: "serene_shrubbery:twinflower" }
+					type: "item"
+				}
+				{
+					id: "77719FBF8423E0A7"
+					item: { count: 1, id: "serene_shrubbery:pink_pansies" }
+					type: "item"
+				}
+				{
+					id: "225E7B7A4DCA312B"
+					item: { count: 1, id: "serene_shrubbery:fireweed" }
+					type: "item"
+				}
+				{
+					id: "00AB39DE3DEC210C"
+					item: { count: 1, id: "serene_shrubbery:lupine_pink" }
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "04973320B5F27BD7"
+			rewards: [
+				{
+					id: "181F0311EA162994"
+					table_id: 5036677739913042344L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "406DB8401AF9656E"
+					table_id: 987967038148964353L
+					type: "choice"
+				}
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "14648360B86631F2"
+					item: { count: 1, id: "minecraft:azure_bluet" }
+					type: "item"
+				}
+				{
+					id: "6ABD1F0EBFFB02D1"
+					item: { count: 1, id: "minecraft:lily_of_the_valley" }
+					type: "item"
+				}
+				{
+					id: "7D920FE9DCE5E998"
+					item: { count: 1, id: "minecraft:oxeye_daisy" }
+					type: "item"
+				}
+				{
+					id: "4CB1F5A8218028DB"
+					item: { count: 1, id: "minecraft:white_tulip" }
+					type: "item"
+				}
+				{
+					id: "11C675E4973F1879"
+					item: { count: 1, id: "minecraft:wither_rose" }
+					type: "item"
+				}
+				{
+					id: "1DE5BCFE27761046"
+					item: { components: { "ftbquests:missing_item": "verdantvibes:burnweed" }, count: 1, id: "ftbquests:missing_item" }
+					type: "item"
+				}
+				{
+					id: "4A98CC2DB7BAAF7B"
+					item: { }
+					type: "item"
+				}
+				{
+					id: "1E2FAF204994050B"
+					item: { count: 1, id: "regions_unexplored:light_gray_snowbelle" }
+					type: "item"
+				}
+				{
+					id: "447C7B4E7CDD1FCA"
+					item: { count: 1, id: "regions_unexplored:gray_snowbelle" }
+					type: "item"
+				}
+				{
+					id: "37719DD2AC6B0990"
+					item: { components: { "ftbquests:missing_item": "verdantvibes:candy_tuft" }, count: 1, id: "ftbquests:missing_item" }
+					type: "item"
+				}
+				{
+					id: "4307E743A5B057CE"
+					item: { count: 1, id: "regions_unexplored:aster" }
+					type: "item"
+				}
+				{
+					id: "04AA1A5232B686B0"
+					item: { count: 1, id: "regions_unexplored:daisy" }
+					type: "item"
+				}
+				{
+					id: "4549013378CA45AE"
+					item: { count: 1, id: "regions_unexplored:white_magnolia_shrub" }
+					type: "item"
+				}
+				{
+					id: "635E6990A0AAA181"
+					item: { count: 1, id: "meadow:eriophorum" }
+					type: "item"
+				}
+				{
+					id: "2E297E7C555C9C66"
+					item: { }
+					type: "item"
+				}
+				{
+					id: "69B8FBFF15E62FE3"
+					item: { count: 1, id: "regions_unexplored:black_snowbelle" }
+					type: "item"
+				}
+				{
+					id: "55FFAC0F82A1BC25"
+					item: { count: 1, id: "regions_unexplored:white_snowbelle" }
+					type: "item"
+				}
+				{
+					id: "2675014B26F01FC7"
+					item: { count: 1, id: "regions_unexplored:tassel" }
+					type: "item"
+				}
+				{
+					id: "3CCB48F09152C18D"
+					item: { }
+					type: "item"
+				}
+				{
+					id: "3587784969A66134"
+					item: { count: 1, id: "serene_shrubbery:white_liverwort" }
+					type: "item"
+				}
+				{
+					id: "5D39D04EC233782B"
+					item: { count: 1, id: "serene_shrubbery:white_foxglove" }
+					type: "item"
+				}
+				{
+					id: "2B702663F7B3C744"
+					item: { count: 1, id: "serene_shrubbery:white_hydrangea" }
+					type: "item"
+				}
+				{
+					id: "41292D29CA32E751"
+					item: { count: 1, id: "serene_shrubbery:lupine_white" }
+					type: "item"
+				}
+			]
+			x: -1.0d
+			y: 1.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "6B3AD3CDE8EC90F1"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "54B1D653EA769025"
+					table_id: 5036677739913042344L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "31595828405A7D60"
+					table_id: 1739670786502713488L
+					type: "choice"
+				}
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "28CD84F7B5274FFD"
+					item: { count: 1, id: "minecraft:crimson_fungus" }
+					type: "item"
+				}
+				{
+					id: "6920EAFA142964D9"
+					item: { count: 1, id: "minecraft:red_mushroom" }
+					type: "item"
+				}
+				{
+					id: "76971068BECCB289"
+					item: { count: 1, id: "minecraft:brown_mushroom" }
+					type: "item"
+				}
+				{
+					id: "61FE2D33E4980C7C"
+					item: { count: 1, id: "minecraft:warped_fungus" }
+					type: "item"
+				}
+				{
+					id: "321FA8F645D70B59"
+					item: { }
+					type: "item"
+				}
+				{
+					id: "6DA6621F55E6D6D1"
+					item: { count: 1, id: "regions_unexplored:blue_bioshroom" }
+					type: "item"
+				}
+				{
+					id: "45B5D21F4D268499"
+					item: { count: 1, id: "regions_unexplored:green_bioshroom" }
+					type: "item"
+				}
+				{
+					id: "3A912525499C8B60"
+					item: { count: 1, id: "regions_unexplored:pink_bioshroom" }
+					type: "item"
+				}
+				{
+					id: "599717B406730BDB"
+					item: { count: 1, id: "regions_unexplored:yellow_bioshroom" }
+					type: "item"
+				}
+				{
+					id: "5C658455DF6FC666"
+					item: { count: 1, id: "regions_unexplored:tall_blue_bioshroom" }
+					type: "item"
+				}
+				{
+					id: "4180D4A07E418D98"
+					item: { }
+					type: "item"
+				}
+				{
+					id: "228323C1B2E2D939"
+					item: { }
+					type: "item"
+				}
+				{
+					id: "4DBCD65800C2F11B"
+					item: { components: { "ftbquests:missing_item": "gardens_of_the_dead:soulblight_fungus" }, count: 1, id: "ftbquests:missing_item" }
+					type: "item"
+				}
+			]
+			x: 3.0d
+			y: -0.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "3F5F93D7191952F9"
+			rewards: [
+				{
+					count: 3
+					id: "2095F78EF4981D37"
+					item: {
+						count: 1
+						id: "minecraft:player_head"
+					}
+					type: "item"
+				}
+				{
+					count: 3
+					id: "08A2D19DD8BCF367"
+					item: {
+						count: 1
+						id: "minecraft:player_head"
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "77B2E3B1C1FEEA55"
+					table_id: 987967038148964353L
+					type: "choice"
+				}
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "7DACF9E88A51EED7"
+					item: { count: 1, id: "minecraft:white_wool" }
+					type: "item"
+				}
+				{
+					id: "7C2DCF5E681C6244"
+					item: { count: 1, id: "minecraft:orange_wool" }
+					type: "item"
+				}
+				{
+					id: "1B23280837B05A61"
+					item: { count: 1, id: "minecraft:magenta_wool" }
+					type: "item"
+				}
+				{
+					id: "28E786F2551BE366"
+					item: { count: 1, id: "minecraft:light_blue_wool" }
+					type: "item"
+				}
+				{
+					id: "7C569F29B9F45CD4"
+					item: { count: 1, id: "minecraft:yellow_wool" }
+					type: "item"
+				}
+				{
+					id: "2F47C82EFB191D96"
+					item: { count: 1, id: "minecraft:lime_wool" }
+					type: "item"
+				}
+				{
+					id: "7C4ED20EF9E45D9B"
+					item: { count: 1, id: "minecraft:pink_wool" }
+					type: "item"
+				}
+				{
+					id: "425A4C25FC7D2008"
+					item: { count: 1, id: "minecraft:gray_wool" }
+					type: "item"
+				}
+				{
+					id: "7EE83753D0DF410E"
+					item: { count: 1, id: "minecraft:light_gray_wool" }
+					type: "item"
+				}
+				{
+					id: "7041C2F0A1554B3E"
+					item: { count: 1, id: "minecraft:cyan_wool" }
+					type: "item"
+				}
+				{
+					id: "648BB08B605292FD"
+					item: { count: 1, id: "minecraft:purple_wool" }
+					type: "item"
+				}
+				{
+					id: "524A5B9BD335CD0D"
+					item: { count: 1, id: "minecraft:blue_wool" }
+					type: "item"
+				}
+				{
+					id: "71CEDB260E3EEC0D"
+					item: { count: 1, id: "minecraft:brown_wool" }
+					type: "item"
+				}
+				{
+					id: "54E6F17508D346AD"
+					item: { count: 1, id: "minecraft:green_wool" }
+					type: "item"
+				}
+				{
+					id: "1DB5520705342CE8"
+					item: { count: 1, id: "minecraft:black_wool" }
+					type: "item"
+				}
+				{
+					id: "5C1DE7C0D3631526"
+					item: { count: 1, id: "meadow:warped_wool" }
+					type: "item"
+				}
+			]
+			x: 2.5d
+			y: 0.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "75AD4BD901CEA061"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "15E9D9471927E0F8"
+					table_id: 7049021818423122779L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "78D88788724EB26F"
+					table_id: 5161092699925703455L
+					type: "choice"
+				}
+				{
+					id: "5597B980A8925A17"
+					item: {
+						components: {
+							"ftbquests:missing_item": "perfectplushies:cat_plushie"
+						}
+						count: 1
+						id: "ftbquests:missing_item"
+					}
+					type: "item"
+				}
+				{
+					id: "1907D6F1B05B4AE8"
+					item: {
+						count: 1
+						id: "plushie_buddies:plushie_cat"
+					}
+					type: "item"
+				}
+			]
+			shape: "octagon"
+			tasks: [{
+				advancement: "minecraft:husbandry/complete_catalogue"
+				criterion: ""
+				id: "1FA9C71585BE62EF"
+				type: "advancement"
+			}]
+			x: 2.0d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"7C3C2D24D60C6C1F"
+				"40BBDD8D814A55C1"
+				"5435D7182F5A0C8D"
+				"290D8441BBC918A1"
+				"7E9C70F7B0CFD820"
+				"56F3B965C1198BE9"
+				"04973320B5F27BD7"
+				"692725454B955B4C"
+			]
+			entity_vis_size: 1.0f
+			hide_dependency_lines: true
+			id: "2DDA757CE80078C3"
+			invisible: true
+			progression_mode: "linear"
+			rewards: [
+				{
+					id: "6D05B3B2A8A464A0"
+					item: {
+						count: 1
+						id: "minecraft:player_head"
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4177C6F44B86C87A"
+					table_id: 5525848455660196930L
+					type: "choice"
+				}
+			]
+			shape: "gear"
+			tasks: [{
+				id: "3B66FE756544A418"
+				type: "checkmark"
+			}]
+			x: -2.0d
+			y: 1.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "401E8078C11F8919"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "714631CAD91913B0"
+					table_id: 7049021818423122779L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2D9A605A8DF2FC96"
+					table_id: 7049021818423122779L
+					type: "choice"
+				}
+			]
+			shape: "octagon"
+			tasks: [{
+				advancement: "minecraft:husbandry/bred_all_animals"
+				criterion: ""
+				id: "4BF8DEAE7CD5ADB6"
+				type: "advancement"
+			}]
+			x: 1.0d
+			y: 1.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "3ADA19F1E7F84DD6"
+			invisible: true
+			tasks: [{
+				id: "338162A77BEB9EA3"
+				item: { count: 1, id: "ftbquests:barrier" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "7DB8FFF48188EC9C"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "50E36D0699A97EFC"
+				table_id: 8808494820591225409L
+				type: "loot"
+			}]
+			tasks: [
+				{
+					id: "50C4BBE7A037617A"
+					item: { count: 1, id: "supplementaries:candy" }
+					type: "item"
+				}
+				{
+					id: "20A182052B09A121"
+					item: { components: { "ftbquests:missing_item": "delightful:rock_candy" }, count: 1, id: "ftbquests:missing_item" }
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "0191F41344B7250D"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "43914AF24173E53D"
+					table_id: 1465218687757294420L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2DB6DBE89F9D92F9"
+					table_id: 1465218687757294420L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3B1A5ED949B876CF"
+					table_id: 1465218687757294420L
+					type: "choice"
+				}
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "022372E038E7680B"
+					item: { count: 1, id: "minecraft:candle" }
+					type: "item"
+				}
+				{
+					id: "4D48BBB8E9120645"
+					item: { count: 1, id: "minecraft:white_candle" }
+					type: "item"
+				}
+				{
+					id: "1E4F8343D0851534"
+					item: { count: 1, id: "minecraft:light_gray_candle" }
+					type: "item"
+				}
+				{
+					id: "019EA117E6A9B328"
+					item: { count: 1, id: "minecraft:gray_candle" }
+					type: "item"
+				}
+				{
+					id: "35500AD21909D229"
+					item: { count: 1, id: "minecraft:black_candle" }
+					type: "item"
+				}
+				{
+					id: "7C91AF037A6E61DD"
+					item: { count: 1, id: "minecraft:brown_candle" }
+					type: "item"
+				}
+				{
+					id: "1A88D0AF8A835DFC"
+					item: { count: 1, id: "minecraft:red_candle" }
+					type: "item"
+				}
+				{
+					id: "55F12273A12CB092"
+					item: { count: 1, id: "minecraft:orange_candle" }
+					type: "item"
+				}
+				{
+					id: "40A0EEFFC8CE2E18"
+					item: { count: 1, id: "minecraft:yellow_candle" }
+					type: "item"
+				}
+				{
+					id: "536E7FC65EF4CA49"
+					item: { count: 1, id: "minecraft:pink_candle" }
+					type: "item"
+				}
+				{
+					id: "1D96D7BC1BF8C3FA"
+					item: { count: 1, id: "minecraft:magenta_candle" }
+					type: "item"
+				}
+				{
+					id: "7E6D031B1ED5068A"
+					item: { count: 1, id: "minecraft:purple_candle" }
+					type: "item"
+				}
+				{
+					id: "76958EC26D9D81C3"
+					item: { count: 1, id: "minecraft:blue_candle" }
+					type: "item"
+				}
+				{
+					id: "6247FDD515F116D6"
+					item: { count: 1, id: "minecraft:light_blue_candle" }
+					type: "item"
+				}
+				{
+					id: "40057A4399D028F9"
+					item: { count: 1, id: "minecraft:cyan_candle" }
+					type: "item"
+				}
+				{
+					id: "026057263B4F4DC8"
+					item: { count: 1, id: "minecraft:green_candle" }
+					type: "item"
+				}
+				{
+					id: "3FD6E3E45C92039A"
+					item: { count: 1, id: "minecraft:lime_candle" }
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: -0.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "755902F379AFB989"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "200D6AD7AD4C585A"
+				table_id: 5036677739913042344L
+				type: "choice"
+			}]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "3CF1FC94488992EC"
+					item: { count: 1, id: "quark:forgotten_hat" }
+					type: "item"
+				}
+				{
+					id: "2A6EACC152673AB4"
+					item: { components: { "ftbquests:missing_item": "herbalbrews:witch_hat" }, count: 1, id: "ftbquests:missing_item" }
+					type: "item"
+				}
+				{
+					id: "6258AED11AE43ECF"
+					item: { components: { "ftbquests:missing_item": "herbalbrews:top_hat" }, count: 1, id: "ftbquests:missing_item" }
+					type: "item"
+				}
+				{
+					id: "32C727D2D399D60B"
+					item: { components: { "ftbquests:missing_item": "candlelight:cooking_hat" }, count: 1, id: "ftbquests:missing_item" }
+					type: "item"
+				}
+				{
+					id: "7273E1A2935D8663"
+					item: { components: { "ftbquests:missing_item": "wardrobe:cake_hat_helmet" }, count: 1, id: "ftbquests:missing_item" }
+					type: "item"
+				}
+				{
+					id: "100718F1E87582E4"
+					item: { components: { "ftbquests:missing_item": "wardrobe:book_hat" }, count: 1, id: "ftbquests:missing_item" }
+					type: "item"
+				}
+				{
+					id: "0BAF83AF31803B07"
+					item: { components: { "ftbquests:missing_item": "wardrobe:fletchers_hat_helmet" }, count: 1, id: "ftbquests:missing_item" }
+					type: "item"
+				}
+				{
+					id: "1E413E94F4097B83"
+					item: { components: { "ftbquests:missing_item": "wardrobe:farmers_hat_helmet" }, count: 1, id: "ftbquests:missing_item" }
+					type: "item"
+				}
+				{
+					id: "5C432E5D038015F1"
+					item: { components: { "ftbquests:missing_item": "wardrobe:hat_helmet" }, count: 1, id: "ftbquests:missing_item" }
+					type: "item"
+				}
+				{
+					id: "62C048A393916216"
+					item: { components: { "ftbquests:missing_item": "wardrobe:leather_top_hat_helmet" }, count: 1, id: "ftbquests:missing_item" }
+					type: "item"
+				}
+				{
+					id: "54FBADC4E2F64D42"
+					item: { components: { "ftbquests:missing_item": "wardrobe:fox_hat_helmet" }, count: 1, id: "ftbquests:missing_item" }
+					type: "item"
+				}
+				{
+					id: "54C44C09827B39E3"
+					item: { components: { "ftbquests:missing_item": "wardrobe:snow_fox_hat_helmet" }, count: 1, id: "ftbquests:missing_item" }
+					type: "item"
+				}
+			]
+			x: 2.5d
+			y: -1.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "0DC28A267878E6E1"
+			rewards: [
+				{
+					id: "73556AE457A60D3C"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					exclude_from_claim_all: true
+					id: "620EFA2C0BB17916"
+					table_id: 1739670786502713488L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5901CB2EC9189419"
+					table_id: 1739670786502713488L
+					type: "choice"
+				}
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "44A9DA6FC08868F9"
+					item: { count: 1, id: "quark:music_disc_endermosh" }
+					type: "item"
+				}
+				{
+					id: "7AFB79C86043C75D"
+					item: { count: 1, id: "quark:music_disc_chatter" }
+					type: "item"
+				}
+				{
+					id: "00CD3FD26D800768"
+					item: { count: 1, id: "quark:music_disc_crickets" }
+					type: "item"
+				}
+				{
+					id: "7C6467F3DFC30F15"
+					item: { }
+					type: "item"
+				}
+				{
+					id: "1FD3A364E7D3CC06"
+					item: { count: 1, id: "quark:music_disc_fire" }
+					type: "item"
+				}
+				{
+					id: "64C53EFDB88B0D16"
+					item: { count: 1, id: "quark:music_disc_wind" }
+					type: "item"
+				}
+				{
+					id: "19F9D0B48C8F027C"
+					item: { count: 1, id: "quark:music_disc_rain" }
+					type: "item"
+				}
+				{
+					id: "59802081AD965FF6"
+					item: { count: 1, id: "quark:music_disc_ocean" }
+					type: "item"
+				}
+				{
+					id: "3AF596835CA72256"
+					item: { count: 1, id: "quark:music_disc_drips" }
+					type: "item"
+				}
+				{
+					id: "67A220EF7CDC3823"
+					item: { components: { "ftbquests:missing_item": "spawn:music_disc_rot" }, count: 1, id: "ftbquests:missing_item" }
+					type: "item"
+				}
+				{
+					id: "42780A0AAEA9DD54"
+					item: { components: { "ftbquests:missing_item": "species:music_disc_dial" }, count: 1, id: "ftbquests:missing_item" }
+					type: "item"
+				}
+				{
+					id: "7DCD1C4C15C15C36"
+					item: { count: 1, id: "the_bumblezone:music_disc_flight_of_the_bumblebee_rimsky_korsakov" }
+					type: "item"
+				}
+				{
+					id: "3271F2F5E8D19DDB"
+					item: { count: 1, id: "the_bumblezone:music_disc_honey_bee_rat_faced_boy" }
+					type: "item"
+				}
+				{
+					id: "59411B51FAA5E320"
+					item: { count: 1, id: "the_bumblezone:music_disc_la_bee_da_loca" }
+					type: "item"
+				}
+				{
+					id: "5B811222265AAFBF"
+					item: { }
+					type: "item"
+				}
+				{
+					id: "7F771D68E5677120"
+					item: { count: 1, id: "the_bumblezone:music_disc_bee_ware_of_the_temple" }
+					type: "item"
+				}
+				{
+					id: "7D212E2C9EEADA6A"
+					item: { count: 1, id: "the_bumblezone:music_disc_knowing_renren" }
+					type: "item"
+				}
+				{
+					id: "1EA2A9F9474A58E5"
+					item: { count: 1, id: "the_bumblezone:music_disc_radiance_renren" }
+					type: "item"
+				}
+				{
+					id: "3E5E87A55052E1B4"
+					item: { count: 1, id: "the_bumblezone:music_disc_life_renren" }
+					type: "item"
+				}
+				{
+					id: "0EB802157CB56777"
+					item: { count: 1, id: "the_bumblezone:music_disc_drowning_in_despair" }
+					type: "item"
+				}
+				{
+					id: "603C69670D4BA191"
+					item: { count: 1, id: "the_bumblezone:music_disc_a_last_first_last" }
+					type: "item"
+				}
+			]
+			x: 3.0d
+			y: 1.5d
+		}
+	]
+}

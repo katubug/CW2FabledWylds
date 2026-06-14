@@ -1,0 +1,2972 @@
+{
+	default_hide_dependency_lines: false
+	default_min_width: 350
+	default_quest_shape: ""
+	filename: "wildlife"
+	group: "4E9968A53CD6CA57"
+	id: "4DB925317B421272"
+	images: [
+		{
+			height: 15.0d
+			image: "enchanted_wilds:textures/questui/bgtameable.png"
+			rotation: 0.0d
+			width: 15.0d
+			x: -6.5d
+			y: -1.0d
+		}
+		{
+			height: 10.0d
+			image: "enchanted_wilds:textures/questui/bgneutral.png"
+			rotation: 0.0d
+			width: 10.0d
+			x: -4.0d
+			y: 10.5d
+		}
+		{
+			height: 15.0d
+			image: "enchanted_wilds:textures/questui/bgwyldhunts.png"
+			rotation: 0.0d
+			width: 15.0d
+			x: 7.0d
+			y: 5.5d
+		}
+		{
+			height: 10.0d
+			image: "enchanted_wilds:textures/questui/bgpetslivestock.png"
+			rotation: 0.0d
+			width: 10.0d
+			x: 4.5d
+			y: -5.5d
+		}
+	]
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			entity_vis_size: 1.0f
+			id: "33F3FB13A3EAEF94"
+			rewards: [
+				{
+					id: "4B95E1660ED6D5E6"
+					table_id: 6941837675484043489L
+					type: "choice"
+				}
+				{
+					count: 5
+					id: "17B298443F339A99"
+					item: {
+						count: 1
+						id: "minecraft:potato"
+					}
+					type: "item"
+				}
+			]
+			shape: "heart"
+			tasks: [{
+				entity_vis_idle_mode: "USE_GLOBAL"
+				entity_vis_offset_x: 0.0f
+				entity_vis_offset_y: 0.0f
+				entity_vis_rotation: 0.0f
+				entity_vis_silhouette_mode: "NONE"
+				entity_vis_size: 1.0f
+				entity_vis_spin_mode: "USE_GLOBAL"
+				entity_vis_use_as_quest_icon: false
+				entity_vis_walk_mode: "USE_GLOBAL"
+				icon: {
+					id: "snuffles:snuffle_fluff"
+				}
+				id: "1B7ACAD09345E758"
+				observation_type: "entity_type"
+				observe_type: 5
+				timer: 0L
+				to_observe: "snuffles:snuffle"
+				type: "observation"
+			}]
+			x: -2.5d
+			y: 12.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "20BAF307F1556BC5"
+			rewards: [
+				{
+					count: 10
+					id: "2C6E2768C2989D2B"
+					item: {
+						count: 1
+						id: "minecraft:bone"
+					}
+					type: "item"
+				}
+				{
+					count: 10
+					id: "66B484F644D229FD"
+					item: {
+						count: 1
+						id: "minecraft:cod"
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "784E27A136920288"
+				item: { count: 1, id: "supplementaries:flute" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: -7.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "52BC8196E858B238"
+			rewards: [
+				{
+					id: "15995D321F1A2FA3"
+					item: {
+						count: 1
+						id: "minecraft:player_head"
+					}
+					type: "item"
+				}
+				{
+					id: "65E313A1D617E96C"
+					item: {
+						count: 1
+						id: "supplementaries:cage"
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "32818194460DA541"
+					table_id: 2534339319169675056L
+					type: "choice"
+				}
+				{
+					id: "5D25B7D734E61892"
+					item: {
+						count: 1
+						id: "minecraft:apple"
+					}
+					type: "item"
+				}
+			]
+			shape: "octagon"
+			tasks: [{
+				advancement: "minecraft:husbandry/tame_an_animal"
+				criterion: ""
+				id: "650E23F990D62E75"
+				type: "advancement"
+			}]
+			x: 7.0d
+			y: -4.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "3C87581273ACB6A0"
+			rewards: [
+				{
+					id: "6D4990F08A4D5483"
+					table_id: 7049021818423122779L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5CA33382BFD28B72"
+					table_id: 2534339319169675056L
+					type: "choice"
+				}
+				{
+					id: "67BDC665D33CD841"
+					item: {
+						components: {
+							"ftbquests:missing_item": "plushies:bat_plushie"
+						}
+						count: 1
+						id: "ftbquests:missing_item"
+					}
+					type: "item"
+				}
+				{
+					id: "1F4C7CAC08EA3307"
+					item: {
+						count: 1
+						id: "plushie_buddies:plushie_parrot"
+					}
+					type: "item"
+				}
+			]
+			shape: "octagon"
+			tasks: [{
+				advancement: "minecraft:husbandry/breed_an_animal"
+				criterion: ""
+				id: "24EAA163CD45072E"
+				type: "advancement"
+			}]
+			x: 2.0d
+			y: -4.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "1661059D340835FC"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "592BB1DBA9CED058"
+					table_id: 223398162038636868L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "24209FAB82F2AEA3"
+					table_id: 7049021818423122779L
+					type: "choice"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "09F430BB3D8CD3C1"
+				item: { components: { "ftbquests:missing_item": "domesticationinnovation:drum" }, count: 1, id: "ftbquests:missing_item" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: -7.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "6B0E280BDBD4ACF5"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1B08F0B25F6A4FBF"
+				table_id: 7049021818423122779L
+				type: "choice"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "647132F04CCA0F76"
+				item: { components: { "ftbfiltersystem:filter": "or(item_tag(domesticationinnovation:pet_beds))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: -7.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "09827E9E92823643"
+			rewards: [
+				{
+					id: "6802714240042850"
+					item: {
+						count: 1
+						id: "minecraft:enchanted_book"
+					}
+					type: "item"
+				}
+				{
+					id: "626B1BFDBE5A0252"
+					item: {
+						count: 1
+						id: "plushie_buddies:plushie_chicken"
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "50B6AC73D9257351"
+				item: { components: { "ftbquests:missing_item": "domesticationinnovation:collar_tag" }, count: 1, id: "ftbquests:missing_item" }
+				type: "item"
+			}]
+			x: 3.5d
+			y: -6.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "1C37EDEA99A890EF"
+			rewards: [{
+				id: "7D8FC845A86B5AF0"
+				item: {
+					count: 1
+					id: "moblassos:golden_lasso"
+				}
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "47B6BA7F65A9904A"
+				item: { }
+				type: "item"
+			}]
+			x: 4.5d
+			y: -6.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "5DB08A394A7B8122"
+			rewards: [{
+				id: "378CD636A77C1440"
+				item: {
+					count: 1
+					id: "minecraft:name_tag"
+				}
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "4FEF850143E6C25D"
+				item: { components: { "ftbquests:missing_item": "domesticationinnovation:wayward_lantern" }, count: 1, id: "ftbquests:missing_item" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: -6.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "61F03A15727266F2"
+			invisible: true
+			tasks: [{
+				id: "17716842171DA01E"
+				item: { count: 1, id: "ftbquests:barrier" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: 2.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "23D702F268464D8E"
+			rewards: [{
+				id: "1E553A6C8557B05F"
+				item: {
+					count: 1
+					id: "reliquary:ice_magus_rod"
+				}
+				type: "item"
+			}]
+			shape: "octagon"
+			tasks: [{
+				advancement: "friendsandfoes:adventure/kill_iceologer"
+				criterion: ""
+				id: "016BADEBDA25900E"
+				type: "advancement"
+			}]
+			x: 2.5d
+			y: 6.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["43B3A6804B59565E"]
+			entity_vis_size: 1.0f
+			icon: {
+				id: "minecraft:skeleton_skull"
+			}
+			id: "13DCE1539EEE07B8"
+			rewards: [
+				{
+					count: 20
+					id: "6CB1348126BAA2EA"
+					item: {
+						count: 1
+						id: "minecraft:bone"
+					}
+					type: "item"
+				}
+				{
+					count: 5
+					id: "29E7968B7BD4F920"
+					item: {
+						count: 1
+						id: "minecraft:skeleton_skull"
+					}
+					type: "item"
+				}
+				{
+					id: "2B8B87F20448CF1A"
+					item: {
+						count: 1
+						id: "minecraft:skeleton_spawn_egg"
+					}
+					type: "item"
+				}
+				{
+					id: "08998E9D0A6BEEC4"
+					item: {
+						count: 1
+						id: "minecraft:apple"
+					}
+					type: "item"
+				}
+			]
+			shape: "square"
+			tasks: [{
+				entity: "minecraft:skeleton"
+				entity_vis_idle_mode: "USE_GLOBAL"
+				entity_vis_offset_x: 0.0f
+				entity_vis_offset_y: 0.0f
+				entity_vis_rotation: 0.0f
+				entity_vis_silhouette_mode: "NONE"
+				entity_vis_size: 1.0f
+				entity_vis_spin_mode: "USE_GLOBAL"
+				entity_vis_use_as_quest_icon: false
+				entity_vis_walk_mode: "USE_GLOBAL"
+				id: "2B089937DE3D191B"
+				type: "kill"
+				value: 100L
+			}]
+			x: 4.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["43B3A6804B59565E"]
+			entity_vis_size: 1.0f
+			icon: {
+				id: "handcrafted:creeper_trophy"
+			}
+			id: "5F03012DC9E38D8D"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "402204927BD6B243"
+					table_id: 5036677739913042344L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0D9F58F6BCEF3611"
+					table_id: 7049021818423122779L
+					type: "choice"
+				}
+				{
+					id: "70F5F4DE60AE7AD5"
+					item: {
+						components: {
+							"ftbquests:missing_item": "plushies:creeper_plushie"
+						}
+						count: 1
+						id: "ftbquests:missing_item"
+					}
+					type: "item"
+				}
+			]
+			shape: "square"
+			tasks: [
+				{
+					entity: "creeperoverhaul:badlands_creeper"
+					entity_vis_idle_mode: "USE_GLOBAL"
+					entity_vis_offset_x: 0.0f
+					entity_vis_offset_y: 0.0f
+					entity_vis_rotation: 0.0f
+					entity_vis_silhouette_mode: "NONE"
+					entity_vis_size: 1.0f
+					entity_vis_spin_mode: "USE_GLOBAL"
+					entity_vis_use_as_quest_icon: false
+					entity_vis_walk_mode: "USE_GLOBAL"
+					id: "148B4231D30E2A9C"
+					type: "kill"
+					value: 1L
+				}
+				{
+					entity: "creeperoverhaul:bamboo_creeper"
+					entity_vis_idle_mode: "USE_GLOBAL"
+					entity_vis_offset_x: 0.0f
+					entity_vis_offset_y: 0.0f
+					entity_vis_rotation: 0.0f
+					entity_vis_silhouette_mode: "NONE"
+					entity_vis_size: 1.0f
+					entity_vis_spin_mode: "USE_GLOBAL"
+					entity_vis_use_as_quest_icon: false
+					entity_vis_walk_mode: "USE_GLOBAL"
+					id: "2F57370380F6849F"
+					type: "kill"
+					value: 1L
+				}
+				{
+					entity: "creeperoverhaul:beach_creeper"
+					entity_vis_idle_mode: "USE_GLOBAL"
+					entity_vis_offset_x: 0.0f
+					entity_vis_offset_y: 0.0f
+					entity_vis_rotation: 0.0f
+					entity_vis_silhouette_mode: "NONE"
+					entity_vis_size: 1.0f
+					entity_vis_spin_mode: "USE_GLOBAL"
+					entity_vis_use_as_quest_icon: false
+					entity_vis_walk_mode: "USE_GLOBAL"
+					id: "498342403CB4E17A"
+					type: "kill"
+					value: 1L
+				}
+				{
+					entity: "creeperoverhaul:cave_creeper"
+					entity_vis_idle_mode: "USE_GLOBAL"
+					entity_vis_offset_x: 0.0f
+					entity_vis_offset_y: 0.0f
+					entity_vis_rotation: 0.0f
+					entity_vis_silhouette_mode: "NONE"
+					entity_vis_size: 1.0f
+					entity_vis_spin_mode: "USE_GLOBAL"
+					entity_vis_use_as_quest_icon: false
+					entity_vis_walk_mode: "USE_GLOBAL"
+					id: "247406896BFA2CBF"
+					type: "kill"
+					value: 1L
+				}
+				{
+					entity: "creeperoverhaul:dark_oak_creeper"
+					entity_vis_idle_mode: "USE_GLOBAL"
+					entity_vis_offset_x: 0.0f
+					entity_vis_offset_y: 0.0f
+					entity_vis_rotation: 0.0f
+					entity_vis_silhouette_mode: "NONE"
+					entity_vis_size: 1.0f
+					entity_vis_spin_mode: "USE_GLOBAL"
+					entity_vis_use_as_quest_icon: false
+					entity_vis_walk_mode: "USE_GLOBAL"
+					id: "4FCFFF2423D597EA"
+					type: "kill"
+					value: 1L
+				}
+				{
+					entity: "creeperoverhaul:desert_creeper"
+					entity_vis_idle_mode: "USE_GLOBAL"
+					entity_vis_offset_x: 0.0f
+					entity_vis_offset_y: 0.0f
+					entity_vis_rotation: 0.0f
+					entity_vis_silhouette_mode: "NONE"
+					entity_vis_size: 1.0f
+					entity_vis_spin_mode: "USE_GLOBAL"
+					entity_vis_use_as_quest_icon: false
+					entity_vis_walk_mode: "USE_GLOBAL"
+					id: "27CFF5A89E252A25"
+					type: "kill"
+					value: 1L
+				}
+				{
+					entity: "creeperoverhaul:dripstone_creeper"
+					entity_vis_idle_mode: "USE_GLOBAL"
+					entity_vis_offset_x: 0.0f
+					entity_vis_offset_y: 0.0f
+					entity_vis_rotation: 0.0f
+					entity_vis_silhouette_mode: "NONE"
+					entity_vis_size: 1.0f
+					entity_vis_spin_mode: "USE_GLOBAL"
+					entity_vis_use_as_quest_icon: false
+					entity_vis_walk_mode: "USE_GLOBAL"
+					id: "6BE030760A82D760"
+					type: "kill"
+					value: 1L
+				}
+				{
+					entity: "creeperoverhaul:hills_creeper"
+					entity_vis_idle_mode: "USE_GLOBAL"
+					entity_vis_offset_x: 0.0f
+					entity_vis_offset_y: 0.0f
+					entity_vis_rotation: 0.0f
+					entity_vis_silhouette_mode: "NONE"
+					entity_vis_size: 1.0f
+					entity_vis_spin_mode: "USE_GLOBAL"
+					entity_vis_use_as_quest_icon: false
+					entity_vis_walk_mode: "USE_GLOBAL"
+					id: "3E4A28D5B5A84819"
+					type: "kill"
+					value: 1L
+				}
+				{
+					entity: "creeperoverhaul:jungle_creeper"
+					entity_vis_idle_mode: "USE_GLOBAL"
+					entity_vis_offset_x: 0.0f
+					entity_vis_offset_y: 0.0f
+					entity_vis_rotation: 0.0f
+					entity_vis_silhouette_mode: "NONE"
+					entity_vis_size: 1.0f
+					entity_vis_spin_mode: "USE_GLOBAL"
+					entity_vis_use_as_quest_icon: false
+					entity_vis_walk_mode: "USE_GLOBAL"
+					id: "31AD3B6DD0B0D2E1"
+					type: "kill"
+					value: 1L
+				}
+				{
+					entity: "creeperoverhaul:mushroom_creeper"
+					entity_vis_idle_mode: "USE_GLOBAL"
+					entity_vis_offset_x: 0.0f
+					entity_vis_offset_y: 0.0f
+					entity_vis_rotation: 0.0f
+					entity_vis_silhouette_mode: "NONE"
+					entity_vis_size: 1.0f
+					entity_vis_spin_mode: "USE_GLOBAL"
+					entity_vis_use_as_quest_icon: false
+					entity_vis_walk_mode: "USE_GLOBAL"
+					id: "6688C85A7EA1707D"
+					type: "kill"
+					value: 1L
+				}
+				{
+					entity: "creeperoverhaul:savannah_creeper"
+					entity_vis_idle_mode: "USE_GLOBAL"
+					entity_vis_offset_x: 0.0f
+					entity_vis_offset_y: 0.0f
+					entity_vis_rotation: 0.0f
+					entity_vis_silhouette_mode: "NONE"
+					entity_vis_size: 1.0f
+					entity_vis_spin_mode: "USE_GLOBAL"
+					entity_vis_use_as_quest_icon: false
+					entity_vis_walk_mode: "USE_GLOBAL"
+					id: "77736E3FD3B0C165"
+					type: "kill"
+					value: 1L
+				}
+				{
+					entity: "creeperoverhaul:snowy_creeper"
+					entity_vis_idle_mode: "USE_GLOBAL"
+					entity_vis_offset_x: 0.0f
+					entity_vis_offset_y: 0.0f
+					entity_vis_rotation: 0.0f
+					entity_vis_silhouette_mode: "NONE"
+					entity_vis_size: 1.0f
+					entity_vis_spin_mode: "USE_GLOBAL"
+					entity_vis_use_as_quest_icon: false
+					entity_vis_walk_mode: "USE_GLOBAL"
+					id: "158183796F59B405"
+					type: "kill"
+					value: 1L
+				}
+				{
+					entity: "creeperoverhaul:spruce_creeper"
+					entity_vis_idle_mode: "USE_GLOBAL"
+					entity_vis_offset_x: 0.0f
+					entity_vis_offset_y: 0.0f
+					entity_vis_rotation: 0.0f
+					entity_vis_silhouette_mode: "NONE"
+					entity_vis_size: 1.0f
+					entity_vis_spin_mode: "USE_GLOBAL"
+					entity_vis_use_as_quest_icon: false
+					entity_vis_walk_mode: "USE_GLOBAL"
+					id: "3E78F3F494221E8B"
+					type: "kill"
+					value: 1L
+				}
+				{
+					entity: "creeperoverhaul:swamp_creeper"
+					entity_vis_idle_mode: "USE_GLOBAL"
+					entity_vis_offset_x: 0.0f
+					entity_vis_offset_y: 0.0f
+					entity_vis_rotation: 0.0f
+					entity_vis_silhouette_mode: "NONE"
+					entity_vis_size: 1.0f
+					entity_vis_spin_mode: "USE_GLOBAL"
+					entity_vis_use_as_quest_icon: false
+					entity_vis_walk_mode: "USE_GLOBAL"
+					id: "2673798B82CD0866"
+					type: "kill"
+					value: 1L
+				}
+				{
+					entity: "minecraft:creeper"
+					entity_vis_idle_mode: "USE_GLOBAL"
+					entity_vis_offset_x: 0.0f
+					entity_vis_offset_y: 0.0f
+					entity_vis_rotation: 0.0f
+					entity_vis_silhouette_mode: "NONE"
+					entity_vis_size: 1.0f
+					entity_vis_spin_mode: "USE_GLOBAL"
+					entity_vis_use_as_quest_icon: false
+					entity_vis_walk_mode: "USE_GLOBAL"
+					id: "50BCCA198B6D6B98"
+					type: "kill"
+					value: 1L
+				}
+			]
+			x: 4.0d
+			y: 4.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "7E36FAC9107093C2"
+			rewards: [
+				{
+					id: "064F74E6565B4859"
+					item: {
+						count: 1
+						id: "minecraft:apple"
+					}
+					type: "item"
+				}
+				{
+					count: 20
+					id: "24D4F5F119DC1A39"
+					item: {
+						count: 1
+						id: "minecraft:gunpowder"
+					}
+					type: "item"
+				}
+				{
+					id: "703E28C622BE435F"
+					item: {
+						count: 1
+						id: "handcrafted:creeper_trophy"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "minecraft:creeper"
+				entity_vis_idle_mode: "USE_GLOBAL"
+				entity_vis_offset_x: 0.0f
+				entity_vis_offset_y: 0.0f
+				entity_vis_rotation: 0.0f
+				entity_vis_silhouette_mode: "NONE"
+				entity_vis_size: 1.0f
+				entity_vis_spin_mode: "USE_GLOBAL"
+				entity_vis_use_as_quest_icon: false
+				entity_vis_walk_mode: "USE_GLOBAL"
+				id: "4765ECB455E0F3A3"
+				type: "kill"
+				value: 100L
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7E36FAC9107093C2"]
+			dependency_requirement: "all_started"
+			entity_vis_size: 1.0f
+			icon: {
+				id: "minecraft:creeper_head"
+			}
+			id: "2A61057B25357F37"
+			rewards: [
+				{
+					id: "1330C0871BA69A9A"
+					item: {
+						count: 1
+						id: "minecraft:creeper_spawn_egg"
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2F85A96668CE761D"
+					table_id: 5161092699925703455L
+					type: "loot"
+				}
+				{
+					id: "6C40DE6A97CD8CE1"
+					item: {
+						components: {
+							"ftbquests:missing_item": "plushies:creeper_plushie"
+						}
+						count: 1
+						id: "ftbquests:missing_item"
+					}
+					type: "item"
+				}
+			]
+			shape: "square"
+			tasks: [{
+				entity: "minecraft:creeper"
+				entity_vis_idle_mode: "USE_GLOBAL"
+				entity_vis_offset_x: 0.0f
+				entity_vis_offset_y: 0.0f
+				entity_vis_rotation: 0.0f
+				entity_vis_silhouette_mode: "NONE"
+				entity_vis_size: 1.0f
+				entity_vis_spin_mode: "USE_GLOBAL"
+				entity_vis_use_as_quest_icon: false
+				entity_vis_walk_mode: "USE_GLOBAL"
+				id: "7472B97EC9584AF7"
+				type: "kill"
+				value: 500L
+			}]
+			x: 5.0d
+			y: 7.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "05C2A9D00C440EAC"
+			rewards: [
+				{
+					count: 5
+					id: "6E063F9F8ACEC220"
+					item: {
+						count: 1
+						id: "minecraft:zombie_head"
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1DF4D16D3FBA0AAD"
+					table_id: 8808494820591225409L
+					type: "loot"
+				}
+				{
+					id: "46F7C59C3BD0BCBA"
+					item: {
+						count: 1
+						id: "minecraft:zombie_spawn_egg"
+					}
+					type: "item"
+				}
+				{
+					id: "19DC5E00A3D1108C"
+					item: {
+						count: 1
+						id: "minecraft:apple"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "minecraft:zombie"
+				entity_vis_idle_mode: "USE_GLOBAL"
+				entity_vis_offset_x: 0.0f
+				entity_vis_offset_y: 0.0f
+				entity_vis_rotation: 0.0f
+				entity_vis_silhouette_mode: "NONE"
+				entity_vis_size: 1.0f
+				entity_vis_spin_mode: "USE_GLOBAL"
+				entity_vis_use_as_quest_icon: false
+				entity_vis_walk_mode: "USE_GLOBAL"
+				id: "23C2CC9FC18828AB"
+				type: "kill"
+				value: 100L
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "61E2531671CC8118"
+			rewards: [
+				{
+					id: "4C326A6B45BB6BF4"
+					item: {
+						count: 1
+						id: "minecraft:emerald_block"
+					}
+					type: "item"
+				}
+				{
+					id: "3C6FB31AEA61131F"
+					item: {
+						components: {
+							"ftbquests:missing_item": "plushies:illusioner_plushie"
+						}
+						count: 1
+						id: "ftbquests:missing_item"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				advancement: "friendsandfoes:adventure/kill_illusioner"
+				criterion: ""
+				id: "1BBF8996270374EB"
+				type: "advancement"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["43B3A6804B59565E"]
+			entity_vis_size: 1.0f
+			icon: {
+				id: "supplementaries:enderman_head"
+			}
+			id: "3EBAD94D079ACDD8"
+			rewards: [
+				{
+					id: "5CF1D8687CF1180D"
+					item: {
+						count: 1
+						id: "minecraft:enderman_spawn_egg"
+					}
+					type: "item"
+				}
+				{
+					id: "08825BC926858558"
+					item: {
+						count: 1
+						id: "supplementaries:enderman_head"
+					}
+					type: "item"
+				}
+				{
+					id: "544D5B4855A2F126"
+					item: {
+						components: {
+							"ftbquests:missing_item": "plushies:enderman_plushie"
+						}
+						count: 1
+						id: "ftbquests:missing_item"
+					}
+					type: "item"
+				}
+			]
+			shape: "square"
+			tasks: [{
+				entity: "minecraft:enderman"
+				entity_vis_idle_mode: "USE_GLOBAL"
+				entity_vis_offset_x: 0.0f
+				entity_vis_offset_y: 0.0f
+				entity_vis_rotation: 0.0f
+				entity_vis_silhouette_mode: "NONE"
+				entity_vis_size: 1.0f
+				entity_vis_spin_mode: "USE_GLOBAL"
+				entity_vis_use_as_quest_icon: false
+				entity_vis_walk_mode: "USE_GLOBAL"
+				id: "1C574797484F95E7"
+				type: "kill"
+				value: 100L
+			}]
+			x: 8.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["43B3A6804B59565E"]
+			dependency_requirement: "one_started"
+			entity_vis_size: 1.0f
+			hide_dependency_lines: true
+			icon: {
+				id: "minecraft:wither_skeleton_skull"
+			}
+			id: "26E8A9DFDC4C1635"
+			rewards: [
+				{
+					id: "059E3E20350E1BC0"
+					item: {
+						count: 1
+						id: "minecraft:spawner"
+					}
+					type: "item"
+				}
+				{
+					id: "6588523AD85BBFF1"
+					item: {
+						count: 1
+						id: "minecraft:wither_skeleton_spawn_egg"
+					}
+					type: "item"
+				}
+				{
+					id: "09A2A23CF71FFE73"
+					item: {
+						components: {
+							"ftbquests:missing_item": "plushies:wither_skeleton_plushie"
+						}
+						count: 1
+						id: "ftbquests:missing_item"
+					}
+					type: "item"
+				}
+			]
+			shape: "square"
+			tasks: [{
+				entity: "minecraft:wither_skeleton"
+				entity_vis_idle_mode: "USE_GLOBAL"
+				entity_vis_offset_x: 0.0f
+				entity_vis_offset_y: 0.0f
+				entity_vis_rotation: 0.0f
+				entity_vis_silhouette_mode: "NONE"
+				entity_vis_size: 1.0f
+				entity_vis_spin_mode: "USE_GLOBAL"
+				entity_vis_use_as_quest_icon: false
+				entity_vis_walk_mode: "USE_GLOBAL"
+				id: "04B537DE779D8CE4"
+				type: "kill"
+				value: 500L
+			}]
+			x: 9.0d
+			y: 7.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["43B3A6804B59565E"]
+			entity_vis_size: 1.0f
+			icon: {
+				id: "minecraft:wither_skeleton_skull"
+			}
+			id: "12CC2182B839D954"
+			optional: true
+			progression_mode: "flexible"
+			rewards: [
+				{
+					id: "58BF5A5E17BB8A83"
+					item: {
+						count: 1
+						id: "minecraft:wither_skeleton_skull"
+					}
+					type: "item"
+				}
+				{
+					id: "3506C0BD5CA7D0C5"
+					item: {
+						count: 1
+						id: "minecraft:wither_rose"
+					}
+					type: "item"
+				}
+				{
+					id: "2114E44A8D9C11AC"
+					item: {
+						components: {
+							"ftbquests:missing_item": "plushies:wither_skeleton_plushie"
+						}
+						count: 1
+						id: "ftbquests:missing_item"
+					}
+					type: "item"
+				}
+			]
+			shape: "square"
+			tasks: [{
+				entity: "minecraft:wither_skeleton"
+				entity_vis_idle_mode: "USE_GLOBAL"
+				entity_vis_offset_x: 0.0f
+				entity_vis_offset_y: 0.0f
+				entity_vis_rotation: 0.0f
+				entity_vis_silhouette_mode: "NONE"
+				entity_vis_size: 1.0f
+				entity_vis_spin_mode: "USE_GLOBAL"
+				entity_vis_use_as_quest_icon: false
+				entity_vis_walk_mode: "USE_GLOBAL"
+				id: "0A6E74616F39F811"
+				type: "kill"
+				value: 15L
+			}]
+			x: 9.0d
+			y: 6.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["43B3A6804B59565E"]
+			entity_vis_size: 1.0f
+			icon: {
+				id: "handcrafted:pillager_trophy"
+			}
+			id: "53D63982971E2F60"
+			rewards: [
+				{
+					count: 20
+					id: "6AD16E5C15BCE1BC"
+					item: {
+						count: 1
+						id: "minecraft:emerald"
+					}
+					type: "item"
+				}
+				{
+					id: "7DFBD293FDD356EA"
+					item: {
+						count: 1
+						id: "minecraft:totem_of_undying"
+					}
+					type: "item"
+				}
+				{
+					id: "3941A25EC22A5857"
+					item: {
+						count: 1
+						id: "minecraft:apple"
+					}
+					type: "item"
+				}
+			]
+			shape: "square"
+			tasks: [{
+				entity: "minecraft:pillager"
+				entity_vis_idle_mode: "USE_GLOBAL"
+				entity_vis_offset_x: 0.0f
+				entity_vis_offset_y: 0.0f
+				entity_vis_rotation: 0.0f
+				entity_vis_silhouette_mode: "NONE"
+				entity_vis_size: 1.0f
+				entity_vis_spin_mode: "USE_GLOBAL"
+				entity_vis_use_as_quest_icon: false
+				entity_vis_walk_mode: "USE_GLOBAL"
+				id: "5DA4D69DEC4C8437"
+				type: "kill"
+				value: 100L
+			}]
+			x: 10.0d
+			y: 4.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["43B3A6804B59565E"]
+			entity_vis_size: 1.0f
+			icon: {
+				id: "minecraft:trident"
+			}
+			id: "714C8AC1434688EF"
+			rewards: [
+				{
+					count: 3
+					id: "71D83A4349AE8785"
+					item: {
+						count: 1
+						id: "minecraft:nautilus_shell"
+					}
+					type: "item"
+				}
+				{
+					id: "36D89FBD81444CE5"
+					item: {
+						count: 1
+						id: "minecraft:drowned_spawn_egg"
+					}
+					type: "item"
+				}
+				{
+					id: "6651C84DD9677838"
+					item: {
+						count: 1
+						id: "minecraft:apple"
+					}
+					type: "item"
+				}
+				{
+					id: "54A27E9947A9F12D"
+					item: {
+						components: {
+							"ftbquests:missing_item": "bettertridents:trident_fragment"
+						}
+						count: 1
+						id: "ftbquests:missing_item"
+					}
+					type: "item"
+				}
+			]
+			shape: "square"
+			tasks: [{
+				entity: "minecraft:zombie"
+				entity_vis_idle_mode: "USE_GLOBAL"
+				entity_vis_offset_x: 0.0f
+				entity_vis_offset_y: 0.0f
+				entity_vis_rotation: 0.0f
+				entity_vis_silhouette_mode: "NONE"
+				entity_vis_size: 1.0f
+				entity_vis_spin_mode: "USE_GLOBAL"
+				entity_vis_use_as_quest_icon: false
+				entity_vis_walk_mode: "USE_GLOBAL"
+				id: "34FD1291BA7CEDB0"
+				type: "kill"
+				value: 100L
+			}]
+			x: 10.0d
+			y: 3.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "077E56B6A68AB3AC"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "4271070CEB49F7C0"
+					table_id: 8415512190420352941L
+					type: "loot"
+				}
+				{
+					id: "2ABB95BC3E06E88A"
+					item: {
+						count: 1
+						id: "minecraft:apple"
+					}
+					type: "item"
+				}
+			]
+			shape: "octagon"
+			tasks: [{
+				advancement: "friendsandfoes:adventure/the_magicians"
+				criterion: ""
+				id: "39A1B59A1F5CD337"
+				type: "advancement"
+			}]
+			x: 12.0d
+			y: 6.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "43B3A6804B59565E"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1330C08C04945E39"
+				table_id: 6941837675484043489L
+				type: "choice"
+			}]
+			shape: "rsquare"
+			size: 2.0d
+			tasks: [
+				{
+					entity: "minecraft:zombie"
+					entity_vis_idle_mode: "USE_GLOBAL"
+					entity_vis_offset_x: 0.0f
+					entity_vis_offset_y: 0.0f
+					entity_vis_rotation: 0.0f
+					entity_vis_silhouette_mode: "NONE"
+					entity_vis_size: 1.0f
+					entity_vis_spin_mode: "USE_GLOBAL"
+					entity_vis_use_as_quest_icon: false
+					entity_vis_walk_mode: "USE_GLOBAL"
+					id: "407518B5BB4A56A4"
+					type: "kill"
+					value: 100L
+				}
+				{
+					entity: "minecraft:skeleton"
+					entity_vis_idle_mode: "USE_GLOBAL"
+					entity_vis_offset_x: 0.0f
+					entity_vis_offset_y: 0.0f
+					entity_vis_rotation: 0.0f
+					entity_vis_silhouette_mode: "NONE"
+					entity_vis_size: 1.0f
+					entity_vis_spin_mode: "USE_GLOBAL"
+					entity_vis_use_as_quest_icon: false
+					entity_vis_walk_mode: "USE_GLOBAL"
+					id: "0A45057771B77CE0"
+					type: "kill"
+					value: 1L
+				}
+			]
+			x: 7.0d
+			y: 3.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["43B3A6804B59565E"]
+			entity_vis_size: 1.0f
+			id: "3057155A3A2B5F47"
+			rewards: [
+				{
+					id: "57AEF83E18326ED4"
+					item: {
+						count: 1
+						id: "endrem:guardian_eye"
+					}
+					type: "item"
+				}
+				{
+					count: 10
+					id: "26C21B65560BD25A"
+					item: {
+						count: 1
+						id: "minecraft:sponge"
+					}
+					type: "item"
+				}
+				{
+					id: "3E0F231A89CC5797"
+					item: {
+						components: {
+							"ftbquests:missing_item": "plushies:elder_guardian_plushie"
+						}
+						count: 1
+						id: "ftbquests:missing_item"
+					}
+					type: "item"
+				}
+			]
+			shape: "square"
+			tasks: [{
+				entity: "minecraft:guardian"
+				entity_vis_idle_mode: "USE_GLOBAL"
+				entity_vis_offset_x: 0.0f
+				entity_vis_offset_y: 0.0f
+				entity_vis_rotation: 0.0f
+				entity_vis_silhouette_mode: "NONE"
+				entity_vis_size: 1.0f
+				entity_vis_spin_mode: "USE_GLOBAL"
+				entity_vis_use_as_quest_icon: false
+				entity_vis_walk_mode: "USE_GLOBAL"
+				icon: {
+					id: "minecraft:prismarine_shard"
+				}
+				id: "35A42B6209CA1D8C"
+				type: "kill"
+				value: 30L
+			}]
+			x: 10.0d
+			y: 7.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "6CD4F0A4650CBA2F"
+			rewards: [
+				{
+					id: "3A5546869704A4FE"
+					item: {
+						count: 1
+						id: "minecraft:powder_snow_bucket"
+					}
+					type: "item"
+				}
+				{
+					count: 5
+					id: "41813A712049D48B"
+					item: {
+						count: 1
+						id: "minecraft:snow_block"
+					}
+					type: "item"
+				}
+				{
+					id: "60AF85F5AFCDACD4"
+					item: {
+						components: {
+							"ftbquests:missing_item": "plushies:snow_golem_plushie"
+						}
+						count: 1
+						id: "ftbquests:missing_item"
+					}
+					type: "item"
+				}
+			]
+			shape: "heart"
+			tasks: [{
+				entity_vis_idle_mode: "USE_GLOBAL"
+				entity_vis_offset_x: 0.0f
+				entity_vis_offset_y: 0.0f
+				entity_vis_rotation: 0.0f
+				entity_vis_silhouette_mode: "NONE"
+				entity_vis_size: 1.0f
+				entity_vis_spin_mode: "USE_GLOBAL"
+				entity_vis_use_as_quest_icon: false
+				entity_vis_walk_mode: "USE_GLOBAL"
+				icon: {
+					id: "minecraft:snowball"
+				}
+				id: "7DDD21C495EF730D"
+				observation_type: "entity_type"
+				observe_type: 5
+				timer: 0L
+				to_observe: "minecraft:snow_golem"
+				type: "observation"
+			}]
+			x: -3.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["43B3A6804B59565E"]
+			entity_vis_size: 1.0f
+			id: "22628C8DC1BB807F"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "5DAF095C74889CDE"
+					table_id: 8096229411196850122L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "582FB1CD7EEA24F4"
+					table_id: 8808494820591225409L
+					type: "choice"
+				}
+				{
+					id: "11BA7BD84D12269E"
+					item: {
+						components: {
+							"ftbquests:missing_item": "plushies:spider_plushie"
+						}
+						count: 1
+						id: "ftbquests:missing_item"
+					}
+					type: "item"
+				}
+				{
+					id: "7DCDEAAD5461FF83"
+					item: {
+						components: {
+							"ftbquests:missing_item": "plushies:cave_spider_plushie"
+						}
+						count: 1
+						id: "ftbquests:missing_item"
+					}
+					type: "item"
+				}
+				{
+					id: "4E20F05931DA961F"
+					item: {
+						count: 1
+						id: "plushie_buddies:plushie_spider"
+					}
+					type: "item"
+				}
+			]
+			shape: "square"
+			tasks: [{
+				entity: "minecraft:zombie"
+				entity_vis_idle_mode: "USE_GLOBAL"
+				entity_vis_offset_x: 0.0f
+				entity_vis_offset_y: 0.0f
+				entity_vis_rotation: 0.0f
+				entity_vis_silhouette_mode: "NONE"
+				entity_vis_size: 1.0f
+				entity_vis_spin_mode: "USE_GLOBAL"
+				entity_vis_use_as_quest_icon: false
+				entity_vis_walk_mode: "USE_GLOBAL"
+				id: "593E0D6FD65220E2"
+				type: "kill"
+				value: 100L
+			}]
+			x: 7.0d
+			y: 7.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "114EFE7EF75B22F3"
+			rewards: [
+				{
+					id: "3350AB70B6803167"
+					item: {
+						components: {
+							"ftbquests:missing_item": "plushies:goat_plushie"
+						}
+						count: 1
+						id: "ftbquests:missing_item"
+					}
+					type: "item"
+				}
+				{
+					id: "1BC05D53D242E426"
+					item: {
+						count: 1
+						id: "plushie_buddies:plushie_goat"
+					}
+					type: "item"
+				}
+			]
+			shape: "octagon"
+			tasks: [{
+				advancement: "minecraft:husbandry/ride_a_boat_with_a_goat"
+				criterion: ""
+				id: "5A01D74D65A58962"
+				type: "advancement"
+			}]
+			x: 5.5d
+			y: -6.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "232A8F9F6388C377"
+			rewards: [
+				{
+					id: "1F8B8C29CCFA1F21"
+					item: {
+						components: {
+							"ftbquests:missing_item": "plushies:axolotl_plushie"
+						}
+						count: 1
+						id: "ftbquests:missing_item"
+					}
+					type: "item"
+				}
+				{
+					id: "360E9B2A1CF33049"
+					item: {
+						count: 1
+						id: "minecraft:axolotl_bucket"
+					}
+					type: "item"
+				}
+				{
+					id: "1972967C68DF49D6"
+					item: {
+						count: 1
+						id: "plushie_buddies:plushie_axolotl"
+					}
+					type: "item"
+				}
+			]
+			shape: "octagon"
+			tasks: [{
+				advancement: "minecraft:husbandry/kill_axolotl_target"
+				criterion: ""
+				id: "66A0BD4051C658F5"
+				type: "advancement"
+			}]
+			x: 6.0d
+			y: -7.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "2FC0EAD96E3C41D4"
+			rewards: [
+				{
+					id: "557522426CDED42B"
+					item: {
+						count: 1
+						id: "minecraft:apple"
+					}
+					type: "item"
+				}
+				{
+					id: "0D0DD755731F3665"
+					item: {
+						components: {
+							"ftbquests:missing_item": "plushies:tadpole_plushie"
+						}
+						count: 1
+						id: "ftbquests:missing_item"
+					}
+					type: "item"
+				}
+			]
+			shape: "octagon"
+			tasks: [{
+				advancement: "minecraft:husbandry/tadpole_in_a_bucket"
+				criterion: ""
+				id: "7A90C9C915A28458"
+				type: "advancement"
+			}]
+			x: 4.5d
+			y: -3.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "3556685D896ADA7C"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1711429F0EE0C533"
+				table_id: 1510389528595555205L
+				type: "choice"
+			}]
+			shape: "heart"
+			tasks: [{
+				entity_vis_idle_mode: "USE_GLOBAL"
+				entity_vis_offset_x: 0.0f
+				entity_vis_offset_y: 0.0f
+				entity_vis_rotation: 0.0f
+				entity_vis_silhouette_mode: "NONE"
+				entity_vis_size: 1.0f
+				entity_vis_spin_mode: "USE_GLOBAL"
+				entity_vis_use_as_quest_icon: false
+				entity_vis_walk_mode: "USE_GLOBAL"
+				icon: {
+					components: {
+						"minecraft:instrument": "minecraft:ponder_goat_horn"
+					}
+					id: "minecraft:goat_horn"
+				}
+				id: "5BB9CB6527E6EF77"
+				observation_type: "entity_type"
+				observe_type: 5
+				timer: 0L
+				to_observe: "minecraft:goat"
+				type: "observation"
+			}]
+			x: -5.5d
+			y: 10.0d
+		}
+		{
+			dependencies: ["43B3A6804B59565E"]
+			entity_vis_size: 1.0f
+			id: "2A930C9591A317A3"
+			rewards: [{
+				id: "5DC83818918FD852"
+				item: {
+					count: 1
+					id: "endrem:undead_soul"
+				}
+				type: "item"
+			}]
+			shape: "square"
+			tasks: [{
+				entity: "quark:wraith"
+				entity_vis_idle_mode: "USE_GLOBAL"
+				entity_vis_offset_x: 0.0f
+				entity_vis_offset_y: 0.0f
+				entity_vis_rotation: 0.0f
+				entity_vis_silhouette_mode: "NONE"
+				entity_vis_size: 1.0f
+				entity_vis_spin_mode: "USE_GLOBAL"
+				entity_vis_use_as_quest_icon: false
+				entity_vis_walk_mode: "USE_GLOBAL"
+				id: "686E1C8662679767"
+				type: "kill"
+				value: 50L
+			}]
+			x: 4.0d
+			y: 7.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["43B3A6804B59565E"]
+			entity_vis_size: 1.0f
+			id: "376F0C3219E696C9"
+			rewards: [
+				{
+					count: 4
+					id: "06F77BA8B0FA6B73"
+					item: {
+						count: 1
+						id: "minecraft:sponge"
+					}
+					type: "item"
+				}
+				{
+					id: "78A79D6E76E54CDE"
+					item: {
+						components: {
+							"ftbquests:missing_item": "plushies:guardian_plushie"
+						}
+						count: 1
+						id: "ftbquests:missing_item"
+					}
+					type: "item"
+				}
+			]
+			shape: "square"
+			tasks: [{
+				entity: "minecraft:guardian"
+				entity_vis_idle_mode: "USE_GLOBAL"
+				entity_vis_offset_x: 0.0f
+				entity_vis_offset_y: 0.0f
+				entity_vis_rotation: 0.0f
+				entity_vis_silhouette_mode: "NONE"
+				entity_vis_size: 1.0f
+				entity_vis_spin_mode: "USE_GLOBAL"
+				entity_vis_use_as_quest_icon: false
+				entity_vis_walk_mode: "USE_GLOBAL"
+				icon: {
+					id: "minecraft:sponge"
+				}
+				id: "65777A88B18EE777"
+				type: "kill"
+				value: 10L
+			}]
+			x: 10.0d
+			y: 6.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "7E2641B15D6AF49E"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6660D36094752F9E"
+				type: "choice"
+			}]
+			tasks: [
+				{
+					id: "16CAC410F6BBE772"
+					stat: "minecraft:pig_one_cm"
+					type: "stat"
+					value: 10000
+				}
+				{
+					id: "4F6C803E22B3FF71"
+					item: { count: 1, id: "minecraft:carrot_on_a_stick" }
+					type: "item"
+				}
+			]
+			x: 3.0d
+			y: -3.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "4D6A9260EB896658"
+			rewards: [{
+				id: "2AABFB5AC66E2263"
+				item: {
+					components: {
+						"ftbquests:missing_item": "spawn:snail_shell"
+					}
+					count: 1
+					id: "ftbquests:missing_item"
+				}
+				type: "item"
+			}]
+			shape: "heart"
+			tasks: [{
+				entity_vis_idle_mode: "USE_GLOBAL"
+				entity_vis_offset_x: 0.0f
+				entity_vis_offset_y: 0.0f
+				entity_vis_rotation: 0.0f
+				entity_vis_silhouette_mode: "NONE"
+				entity_vis_size: 1.0f
+				entity_vis_spin_mode: "USE_GLOBAL"
+				entity_vis_use_as_quest_icon: false
+				entity_vis_walk_mode: "USE_GLOBAL"
+				icon: {
+					components: {
+						"ftbquests:missing_item": "spawn:snail_shell"
+					}
+					id: "ftbquests:missing_item"
+				}
+				id: "15AF02F3CCD91E50"
+				observation_type: "entity_type"
+				observe_type: 5
+				timer: 0L
+				to_observe: "spawn:snail"
+				type: "observation"
+			}]
+			x: -2.5d
+			y: 10.0d
+		}
+		{
+			dependencies: ["407BBCE05BCE9039"]
+			entity_vis_size: 1.0f
+			id: "001588EAB32E428A"
+			rewards: [{
+				id: "29F76971A0043F27"
+				item: {
+					components: {
+						"ftbquests:missing_item": "plushies:sniffer_plushie"
+					}
+					count: 1
+					id: "ftbquests:missing_item"
+				}
+				type: "item"
+			}]
+			shape: "octagon"
+			tasks: [{
+				advancement: "minecraft:husbandry/feed_snifflet"
+				criterion: ""
+				id: "729D77D2C5B6DF21"
+				type: "advancement"
+			}]
+			x: 7.0d
+			y: -2.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "407BBCE05BCE9039"
+			rewards: [{
+				count: 5
+				id: "1D2F770EF519FA37"
+				item: {
+					count: 1
+					id: "minecraft:moss_block"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				advancement: "minecraft:husbandry/obtain_sniffer_egg"
+				criterion: ""
+				id: "45106B8C35A3B6D9"
+				type: "advancement"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "4CFBA6535773FE66"
+			rewards: [{
+				count: 5
+				id: "7CBD9A0B16235E83"
+				item: {
+					count: 1
+					id: "minecraft:cod"
+				}
+				type: "item"
+			}]
+			shape: "heart"
+			tasks: [{
+				entity_vis_idle_mode: "USE_GLOBAL"
+				entity_vis_offset_x: 0.0f
+				entity_vis_offset_y: 0.0f
+				entity_vis_rotation: 0.0f
+				entity_vis_silhouette_mode: "NONE"
+				entity_vis_size: 1.0f
+				entity_vis_spin_mode: "USE_GLOBAL"
+				entity_vis_use_as_quest_icon: false
+				entity_vis_walk_mode: "USE_GLOBAL"
+				icon: {
+					components: {
+						"ftbquests:missing_item": "spawn:tuna_chunk"
+					}
+					id: "ftbquests:missing_item"
+				}
+				id: "7071EAE34E9A7483"
+				observation_type: "entity_type"
+				observe_type: 5
+				timer: 0L
+				to_observe: "spawn:tuna"
+				type: "observation"
+			}]
+			x: 2.0d
+			y: -2.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "56497A1094C28B5F"
+			rewards: [{
+				count: 4
+				id: "657F9980DF37A974"
+				item: {
+					count: 1
+					id: "minecraft:raw_gold"
+				}
+				type: "item"
+			}]
+			shape: "heart"
+			tasks: [{
+				entity_vis_idle_mode: "USE_GLOBAL"
+				entity_vis_offset_x: 0.0f
+				entity_vis_offset_y: 0.0f
+				entity_vis_rotation: 0.0f
+				entity_vis_silhouette_mode: "NONE"
+				entity_vis_size: 1.0f
+				entity_vis_spin_mode: "USE_GLOBAL"
+				entity_vis_use_as_quest_icon: false
+				entity_vis_walk_mode: "USE_GLOBAL"
+				icon: {
+					components: {
+						"ftbquests:missing_item": "spawn:angler_fish"
+					}
+					id: "ftbquests:missing_item"
+				}
+				id: "4C434405B56764B9"
+				observation_type: "entity_type"
+				observe_type: 5
+				timer: 0L
+				to_observe: "spawn:angler_fish"
+				type: "observation"
+			}]
+			x: -5.5d
+			y: 12.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "104737784582F996"
+			rewards: [{
+				count: 5
+				id: "41B36E8FE27BCEEA"
+				item: {
+					components: {
+						"ftbquests:missing_item": "spawn:sunflower_seeds"
+					}
+					count: 1
+					id: "ftbquests:missing_item"
+				}
+				type: "item"
+			}]
+			shape: "heart"
+			tasks: [{
+				entity_vis_idle_mode: "USE_GLOBAL"
+				entity_vis_offset_x: 0.0f
+				entity_vis_offset_y: 0.0f
+				entity_vis_rotation: 0.0f
+				entity_vis_silhouette_mode: "NONE"
+				entity_vis_size: 1.0f
+				entity_vis_spin_mode: "USE_GLOBAL"
+				entity_vis_use_as_quest_icon: false
+				entity_vis_walk_mode: "USE_GLOBAL"
+				icon: {
+					components: {
+						"ftbquests:missing_item": "spawn:hamster_spawn_egg"
+					}
+					id: "ftbquests:missing_item"
+				}
+				id: "2A7BA15246361925"
+				observation_type: "entity_type"
+				observe_type: 5
+				timer: 0L
+				to_observe: "spawn:hamster"
+				type: "observation"
+			}]
+			x: -9.5d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"01396882DABC0EFE"
+				"249323B78D8EB666"
+			]
+			entity_vis_size: 1.0f
+			id: "7FE2C3E2F1129E9D"
+			shape: "heart"
+			tasks: [{
+				entity_vis_idle_mode: "USE_GLOBAL"
+				entity_vis_offset_x: 0.0f
+				entity_vis_offset_y: 0.0f
+				entity_vis_rotation: 0.0f
+				entity_vis_silhouette_mode: "NONE"
+				entity_vis_size: 1.0f
+				entity_vis_spin_mode: "USE_GLOBAL"
+				entity_vis_use_as_quest_icon: false
+				entity_vis_walk_mode: "USE_GLOBAL"
+				id: "058408120C0D089B"
+				observation_type: "block"
+				observe_type: 0
+				timer: 0L
+				to_observe: "minecraft:dirt"
+				type: "observation"
+			}]
+			x: -6.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["7FE2C3E2F1129E9D"]
+			entity_vis_size: 1.0f
+			id: "03EE3579CD0561AA"
+			rewards: [{
+				count: 5
+				id: "13DC62B76053D496"
+				item: {
+					components: {
+						"ftbquests:missing_item": "spawn:rotten_log"
+					}
+					count: 1
+					id: "ftbquests:missing_item"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				biome: "spawn:ant_gardens"
+				icon: {
+					components: {
+						"ftbquests:missing_item": "spawn:anthill"
+					}
+					id: "ftbquests:missing_item"
+				}
+				id: "22774E00D20302F3"
+				type: "biome"
+			}]
+			x: -8.0d
+			y: -4.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "249323B78D8EB666"
+			rewards: [{
+				id: "5E7D92DF4421CB64"
+				item: {
+					count: 1
+					id: "minecraft:brush"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity_vis_idle_mode: "USE_GLOBAL"
+				entity_vis_offset_x: 0.0f
+				entity_vis_offset_y: 0.0f
+				entity_vis_rotation: 0.0f
+				entity_vis_silhouette_mode: "NONE"
+				entity_vis_size: 1.0f
+				entity_vis_spin_mode: "USE_GLOBAL"
+				entity_vis_use_as_quest_icon: false
+				entity_vis_walk_mode: "USE_GLOBAL"
+				icon: {
+					components: {
+						"ftbquests:missing_item": "spawn:ant_mound"
+					}
+					id: "ftbquests:missing_item"
+				}
+				id: "54647C47BCBF2921"
+				observation_type: "block"
+				observe_type: 0
+				timer: 0L
+				to_observe: "spawn:ant_mound"
+				type: "observation"
+			}]
+			x: -6.5d
+			y: -2.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "01396882DABC0EFE"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "504393997A3462BB"
+				table_id: 6941837675484043489L
+				type: "choice"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "1BD89BDB862ED0EE"
+				item: { components: { "ftbquests:missing_item": "spawn:ant_pupa" }, count: 1, id: "ftbquests:missing_item" }
+				type: "item"
+			}]
+			x: -5.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["01396882DABC0EFE"]
+			entity_vis_size: 1.0f
+			id: "5229FDBCDE70576C"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "37AB9A4033DB9A08"
+				table_id: 6941837675484043489L
+				type: "choice"
+			}]
+			tasks: [{
+				id: "2EC9D9E09A8677B0"
+				item: { components: { "ftbquests:missing_item": "spawn:ant_farm" }, count: 1, id: "ftbquests:missing_item" }
+				type: "item"
+			}]
+			x: -5.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["03EE3579CD0561AA"]
+			entity_vis_size: 1.0f
+			id: "3558EAA43C9F9F2D"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "31CB06573F1B9630"
+				table_id: 8808494820591225409L
+				type: "loot"
+			}]
+			tasks: [{
+				icon: {
+					components: {
+						"ftbquests:missing_item": "spawn:anthill"
+					}
+					id: "ftbquests:missing_item"
+				}
+				id: "2C68CCC05BBD9D00"
+				structure: "spawn:ant_mount"
+				type: "structure"
+			}]
+			x: -8.0d
+			y: -2.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "2652207D3AFA6E7C"
+			rewards: [{
+				count: 5
+				id: "76EDB17C6680BE26"
+				item: {
+					count: 1
+					id: "minecraft:shroomlight"
+				}
+				type: "item"
+			}]
+			shape: "heart"
+			tasks: [{
+				entity_vis_idle_mode: "USE_GLOBAL"
+				entity_vis_offset_x: 0.0f
+				entity_vis_offset_y: 0.0f
+				entity_vis_rotation: 0.0f
+				entity_vis_silhouette_mode: "NONE"
+				entity_vis_size: 1.0f
+				entity_vis_spin_mode: "USE_GLOBAL"
+				entity_vis_use_as_quest_icon: false
+				entity_vis_walk_mode: "USE_GLOBAL"
+				icon: {
+					components: {
+						"ftbquests:missing_item": "species:wraptor_egg"
+					}
+					id: "ftbquests:missing_item"
+				}
+				id: "3B1BA667CFFB3B7A"
+				observation_type: "entity_type"
+				observe_type: 5
+				timer: 0L
+				to_observe: "species:wraptor"
+				type: "observation"
+			}]
+			x: 4.5d
+			y: -2.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "1EF0463BA62E3EB7"
+			rewards: [{
+				count: 3
+				id: "2781712D9FB0829D"
+				item: {
+					count: 1
+					id: "minecraft:disc_fragment_5"
+				}
+				type: "item"
+			}]
+			shape: "heart"
+			tasks: [{
+				entity_vis_idle_mode: "USE_GLOBAL"
+				entity_vis_offset_x: 0.0f
+				entity_vis_offset_y: 0.0f
+				entity_vis_rotation: 0.0f
+				entity_vis_silhouette_mode: "NONE"
+				entity_vis_size: 1.0f
+				entity_vis_spin_mode: "USE_GLOBAL"
+				entity_vis_use_as_quest_icon: false
+				entity_vis_walk_mode: "USE_GLOBAL"
+				icon: {
+					components: {
+						"ftbquests:missing_item": "species:birt_egg"
+					}
+					id: "ftbquests:missing_item"
+				}
+				id: "59D9E5FA138B99D7"
+				observation_type: "entity_type"
+				observe_type: 5
+				timer: 0L
+				to_observe: "species:birt"
+				type: "observation"
+			}]
+			x: -4.0d
+			y: 13.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "520598DFD36F43BC"
+			rewards: [{
+				count: 5
+				id: "4EFE4B901D437293"
+				item: {
+					count: 1
+					id: "minecraft:honeycomb"
+				}
+				type: "item"
+			}]
+			shape: "heart"
+			tasks: [{
+				entity_vis_idle_mode: "USE_GLOBAL"
+				entity_vis_offset_x: 0.0f
+				entity_vis_offset_y: 0.0f
+				entity_vis_rotation: 0.0f
+				entity_vis_silhouette_mode: "NONE"
+				entity_vis_size: 1.0f
+				entity_vis_spin_mode: "USE_GLOBAL"
+				entity_vis_use_as_quest_icon: false
+				entity_vis_walk_mode: "USE_GLOBAL"
+				icon: {
+					components: {
+						"ftbquests:missing_item": "species:roombug_spawn_egg"
+					}
+					id: "ftbquests:missing_item"
+				}
+				id: "150EE6A7230EF58A"
+				observation_type: "entity_type"
+				observe_type: 5
+				timer: 0L
+				to_observe: "species:roombug"
+				type: "observation"
+			}]
+			x: -6.5d
+			y: -1.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "4BE2F61081D4D690"
+			rewards: [
+				{
+					id: "22F5B2CC2471499D"
+					item: {
+						components: {
+							"ftbquests:missing_item": "plushies:allay_plushie"
+						}
+						count: 1
+						id: "ftbquests:missing_item"
+					}
+					type: "item"
+				}
+				{
+					id: "654868DC56FB47AF"
+					item: {
+						count: 1
+						id: "plushie_buddies:plushie_allay"
+					}
+					type: "item"
+				}
+			]
+			shape: "heart"
+			tasks: [{
+				entity_vis_idle_mode: "USE_GLOBAL"
+				entity_vis_offset_x: 0.0f
+				entity_vis_offset_y: 0.0f
+				entity_vis_rotation: 0.0f
+				entity_vis_silhouette_mode: "NONE"
+				entity_vis_size: 1.0f
+				entity_vis_spin_mode: "USE_GLOBAL"
+				entity_vis_use_as_quest_icon: false
+				entity_vis_walk_mode: "USE_GLOBAL"
+				icon: {
+					id: "minecraft:allay_spawn_egg"
+				}
+				id: "29E91154AEEB12F7"
+				observation_type: "entity_type"
+				observe_type: 5
+				timer: 0L
+				to_observe: "minecraft:allay"
+				type: "observation"
+			}]
+			x: -4.0d
+			y: 11.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "7E3E39BE05E6CF2F"
+			rewards: [{
+				count: 5
+				id: "3B9D5BA37568B5C8"
+				item: {
+					count: 1
+					id: "minecraft:crimson_fungus"
+				}
+				type: "item"
+			}]
+			shape: "heart"
+			tasks: [{
+				entity_vis_idle_mode: "USE_GLOBAL"
+				entity_vis_offset_x: 0.0f
+				entity_vis_offset_y: 0.0f
+				entity_vis_rotation: 0.0f
+				entity_vis_silhouette_mode: "NONE"
+				entity_vis_size: 1.0f
+				entity_vis_spin_mode: "USE_GLOBAL"
+				entity_vis_use_as_quest_icon: false
+				entity_vis_walk_mode: "USE_GLOBAL"
+				icon: {
+					components: {
+						"ftbquests:missing_item": "earthmobsmod:baby_ghast_spawn_egg"
+					}
+					id: "ftbquests:missing_item"
+				}
+				id: "6BFB3309D4F65453"
+				observation_type: "block"
+				observe_type: 0
+				timer: 0L
+				to_observe: "earthmobsmod:baby_ghast"
+				type: "observation"
+			}]
+			x: -7.5d
+			y: 0.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "21FF76EAF508799E"
+			rewards: [{
+				id: "51ABCD21C17332A6"
+				item: {
+					count: 1
+					id: "minecraft:carrot_on_a_stick"
+				}
+				type: "item"
+			}]
+			shape: "heart"
+			tasks: [{
+				entity_vis_idle_mode: "USE_GLOBAL"
+				entity_vis_offset_x: 0.0f
+				entity_vis_offset_y: 0.0f
+				entity_vis_rotation: 0.0f
+				entity_vis_silhouette_mode: "NONE"
+				entity_vis_size: 1.0f
+				entity_vis_spin_mode: "USE_GLOBAL"
+				entity_vis_use_as_quest_icon: false
+				entity_vis_walk_mode: "USE_GLOBAL"
+				icon: {
+					components: {
+						"ftbquests:missing_item": "earthmobsmod:teacup_pig_pot"
+					}
+					id: "ftbquests:missing_item"
+				}
+				id: "087423507985286D"
+				observation_type: "entity_type"
+				observe_type: 5
+				timer: 0L
+				to_observe: "earthmobsmod:teacup_pig"
+				type: "observation"
+			}]
+			x: 6.5d
+			y: -6.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "048E0AE97BA096FE"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "65767D03D8AED1C3"
+					table_id: 6941837675484043489L
+					type: "choice"
+				}
+				{
+					id: "55B3A9984CC36601"
+					item: {
+						components: {
+							"ftbquests:missing_item": "perfectplushies:duck_plushie"
+						}
+						count: 1
+						id: "ftbquests:missing_item"
+					}
+					type: "item"
+				}
+			]
+			shape: "heart"
+			tasks: [{
+				entity_vis_idle_mode: "USE_GLOBAL"
+				entity_vis_offset_x: 0.0f
+				entity_vis_offset_y: 0.0f
+				entity_vis_rotation: 0.0f
+				entity_vis_silhouette_mode: "NONE"
+				entity_vis_size: 1.0f
+				entity_vis_spin_mode: "USE_GLOBAL"
+				entity_vis_use_as_quest_icon: false
+				entity_vis_walk_mode: "USE_GLOBAL"
+				icon: {
+					components: {
+						"ftbquests:missing_item": "earthmobsmod:duck_egg"
+					}
+					id: "ftbquests:missing_item"
+				}
+				id: "584A633C5FCC64B2"
+				observation_type: "entity_type"
+				observe_type: 5
+				timer: 0L
+				to_observe: "earthmobsmod:duck"
+				type: "observation"
+			}]
+			x: -5.5d
+			y: 8.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "2D8511D462DFF413"
+			rewards: [{
+				id: "101DF70390C46B3B"
+				item: {
+					count: 1
+					id: "quark:diamond_heart"
+				}
+				type: "item"
+			}]
+			shape: "heart"
+			tasks: [{
+				entity_vis_idle_mode: "USE_GLOBAL"
+				entity_vis_offset_x: 0.0f
+				entity_vis_offset_y: 0.0f
+				entity_vis_rotation: 0.0f
+				entity_vis_silhouette_mode: "NONE"
+				entity_vis_size: 1.0f
+				entity_vis_spin_mode: "USE_GLOBAL"
+				entity_vis_use_as_quest_icon: false
+				entity_vis_walk_mode: "USE_GLOBAL"
+				icon: {
+					id: "quark:diamond_heart"
+				}
+				id: "7551AFCE82A71085"
+				observation_type: "entity_type"
+				observe_type: 5
+				timer: 0L
+				to_observe: "quark:stoneling"
+				type: "observation"
+			}]
+			x: -2.5d
+			y: 8.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "72AEC02678301699"
+			rewards: [{
+				id: "67BADCFA13D0E998"
+				item: {
+					components: {
+						"ftbquests:missing_item": "plushies:warden_plushie"
+					}
+					count: 1
+					id: "ftbquests:missing_item"
+				}
+				type: "item"
+			}]
+			shape: "octagon"
+			tasks: [{
+				advancement: "species:adventure/birt_egg_at_warden"
+				criterion: ""
+				icon: {
+					components: {
+						"ftbquests:missing_item": "species:birt_egg"
+					}
+					id: "ftbquests:missing_item"
+				}
+				id: "70729BC850B5B74E"
+				type: "advancement"
+			}]
+			x: 5.0d
+			y: 2.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "5D5261F404366454"
+			rewards: [
+				{
+					id: "3D997D4750DFFDFE"
+					item: {
+						components: {
+							"ftbquests:missing_item": "plushies:wither_plushie"
+						}
+						count: 1
+						id: "ftbquests:missing_item"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "26B9C8227D2D8C9C"
+					item: {
+						count: 1
+						id: "minecraft:wither_rose"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "minecraft:wither"
+				entity_vis_idle_mode: "USE_GLOBAL"
+				entity_vis_offset_x: 0.0f
+				entity_vis_offset_y: 0.0f
+				entity_vis_rotation: 0.0f
+				entity_vis_silhouette_mode: "NONE"
+				entity_vis_size: 1.0f
+				entity_vis_spin_mode: "USE_GLOBAL"
+				entity_vis_use_as_quest_icon: false
+				entity_vis_walk_mode: "USE_GLOBAL"
+				icon: {
+					components: {
+						"ftbquests:missing_item": "plushies:wither_plushie"
+					}
+					id: "ftbquests:missing_item"
+				}
+				id: "2B3B9D9056B50C03"
+				type: "kill"
+				value: 1L
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				components: {
+					"ftbquests:missing_item": "perfectplushies:capybara_plushie"
+				}
+				id: "ftbquests:missing_item"
+			}
+			id: "0F493F4799F7F09B"
+			rewards: [{
+				id: "0D5EB00F9108C638"
+				item: {
+					components: {
+						"ftbquests:missing_item": "perfectplushies:capybara_plushie"
+					}
+					count: 1
+					id: "ftbquests:missing_item"
+				}
+				type: "item"
+			}]
+			shape: "heart"
+			tasks: [{
+				entity_vis_idle_mode: "USE_GLOBAL"
+				entity_vis_offset_x: 0.0f
+				entity_vis_offset_y: 0.0f
+				entity_vis_rotation: 0.0f
+				entity_vis_silhouette_mode: "NONE"
+				entity_vis_size: 1.0f
+				entity_vis_spin_mode: "USE_GLOBAL"
+				entity_vis_use_as_quest_icon: false
+				entity_vis_walk_mode: "USE_GLOBAL"
+				id: "2571B404C77E7E84"
+				observation_type: "entity_type"
+				observe_type: 5
+				timer: 0L
+				to_observe: "capybaramod:capybara"
+				type: "observation"
+			}]
+			x: -5.5d
+			y: 0.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "01C95F8B7C4A029B"
+			rewards: [{
+				id: "5279FFA93EDFF122"
+				item: {
+					components: {
+						"ftbquests:missing_item": "perfectplushies:red_panda_plushie"
+					}
+					count: 1
+					id: "ftbquests:missing_item"
+				}
+				type: "item"
+			}]
+			shape: "heart"
+			tasks: [{
+				entity_vis_idle_mode: "USE_GLOBAL"
+				entity_vis_offset_x: 0.0f
+				entity_vis_offset_y: 0.0f
+				entity_vis_rotation: 0.0f
+				entity_vis_silhouette_mode: "NONE"
+				entity_vis_size: 1.0f
+				entity_vis_spin_mode: "USE_GLOBAL"
+				entity_vis_use_as_quest_icon: false
+				entity_vis_walk_mode: "USE_GLOBAL"
+				icon: {
+					components: {
+						"ftbquests:missing_item": "perfectplushies:red_panda_plushie"
+					}
+					id: "ftbquests:missing_item"
+				}
+				id: "6D904C85DC5492DA"
+				observation_type: "entity_type"
+				observe_type: 5
+				timer: 0L
+				to_observe: "crittersandcompanions:red_panda"
+				type: "observation"
+			}]
+			x: -6.5d
+			y: 0.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "7C47161393ACC4BE"
+			rewards: [
+				{
+					id: "195772F0977B1D51"
+					item: {
+						components: {
+							"ftbquests:missing_item": "plushies:frog_plushie"
+						}
+						count: 1
+						id: "ftbquests:missing_item"
+					}
+					type: "item"
+				}
+				{
+					id: "0EFA55CC857E2FFD"
+					item: {
+						components: {
+							"ftbquests:missing_item": "plushies:warm_frog_plushie"
+						}
+						count: 1
+						id: "ftbquests:missing_item"
+					}
+					type: "item"
+				}
+				{
+					id: "6467E24028400535"
+					item: {
+						components: {
+							"ftbquests:missing_item": "plushies:cold_frog_plushie"
+						}
+						count: 1
+						id: "ftbquests:missing_item"
+					}
+					type: "item"
+				}
+				{
+					id: "233C7619C02B5216"
+					item: {
+						count: 1
+						id: "plushie_buddies:plushie_frog"
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				advancement: "minecraft:husbandry/leash_all_frog_variants"
+				criterion: ""
+				icon: {
+					components: {
+						"ftbquests:missing_item": "plushies:cold_frog_plushie"
+					}
+					id: "ftbquests:missing_item"
+				}
+				id: "3BC9A58E2483968C"
+				type: "advancement"
+			}]
+			x: 4.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["6CD4F0A4650CBA2F"]
+			entity_vis_size: 1.0f
+			id: "4CEA87A9E500920A"
+			rewards: [{
+				id: "2A6AC5F2274A11A8"
+				item: {
+					components: {
+						"ftbquests:missing_item": "abyssal_decor:bottomless_bag_of_snow"
+					}
+					count: 1
+					id: "ftbquests:missing_item"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "3DE6C46EDB3702A4"
+				type: "custom"
+			}]
+			x: -4.5d
+			y: -1.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["43B3A6804B59565E"]
+			entity_vis_size: 1.0f
+			id: "3345FC1A378395B0"
+			rewards: [{
+				count: 4
+				id: "13EAB4DE5F67C808"
+				item: {
+					count: 1
+					id: "minecraft:phantom_membrane"
+				}
+				type: "item"
+			}]
+			shape: "square"
+			tasks: [{
+				entity: "minecraft:phantom"
+				entity_vis_idle_mode: "USE_GLOBAL"
+				entity_vis_offset_x: 0.0f
+				entity_vis_offset_y: 0.0f
+				entity_vis_rotation: 0.0f
+				entity_vis_silhouette_mode: "NONE"
+				entity_vis_size: 1.0f
+				entity_vis_spin_mode: "USE_GLOBAL"
+				entity_vis_use_as_quest_icon: false
+				entity_vis_walk_mode: "USE_GLOBAL"
+				icon: {
+					id: "minecraft:phantom_membrane"
+				}
+				id: "284C99A55CC9DC4B"
+				type: "kill"
+				value: 3L
+			}]
+			x: 7.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["43B3A6804B59565E"]
+			entity_vis_size: 1.0f
+			id: "67716A2F0AEDC9A7"
+			rewards: [{
+				id: "404F2B803E64E56E"
+				item: {
+					count: 1
+					id: "plushie_buddies:plushie_stray"
+				}
+				type: "item"
+			}]
+			shape: "square"
+			tasks: [{
+				entity: "minecraft:stray"
+				entity_vis_idle_mode: "USE_GLOBAL"
+				entity_vis_offset_x: 0.0f
+				entity_vis_offset_y: 0.0f
+				entity_vis_rotation: 0.0f
+				entity_vis_silhouette_mode: "NONE"
+				entity_vis_size: 1.0f
+				entity_vis_spin_mode: "USE_GLOBAL"
+				entity_vis_use_as_quest_icon: false
+				entity_vis_walk_mode: "USE_GLOBAL"
+				icon: {
+					id: "plushie_buddies:plushie_stray"
+				}
+				id: "32D2F803859EFBFA"
+				type: "kill"
+				value: 100L
+			}]
+			x: 9.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["43B3A6804B59565E"]
+			entity_vis_size: 1.0f
+			id: "4B0AA843233D3541"
+			rewards: [{
+				id: "4E3B93DAF46F8498"
+				item: {
+					count: 1
+					id: "plushie_buddies:plushie_blaze"
+				}
+				type: "item"
+			}]
+			shape: "square"
+			tasks: [{
+				entity: "minecraft:blaze"
+				entity_vis_idle_mode: "USE_GLOBAL"
+				entity_vis_offset_x: 0.0f
+				entity_vis_offset_y: 0.0f
+				entity_vis_rotation: 0.0f
+				entity_vis_silhouette_mode: "NONE"
+				entity_vis_size: 1.0f
+				entity_vis_spin_mode: "USE_GLOBAL"
+				entity_vis_use_as_quest_icon: false
+				entity_vis_walk_mode: "USE_GLOBAL"
+				icon: {
+					id: "minecraft:blaze_rod"
+				}
+				id: "730F8DB2D22C64BF"
+				type: "kill"
+				value: 100L
+			}]
+			x: 5.0d
+			y: 5.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "53AF5433A87A542B"
+			rewards: [{
+				count: 5
+				id: "476DD60CBD236A7F"
+				item: {
+					count: 1
+					id: "minecraft:rabbit"
+				}
+				type: "item"
+			}]
+			shape: "heart"
+			tasks: [{
+				entity_vis_idle_mode: "USE_GLOBAL"
+				entity_vis_offset_x: 0.0f
+				entity_vis_offset_y: 0.0f
+				entity_vis_rotation: 0.0f
+				entity_vis_silhouette_mode: "NONE"
+				entity_vis_size: 1.0f
+				entity_vis_spin_mode: "USE_GLOBAL"
+				entity_vis_use_as_quest_icon: false
+				entity_vis_walk_mode: "USE_GLOBAL"
+				icon: {
+					id: "crittersandcompanions:ferret_spawn_egg"
+				}
+				id: "08B8EAA07630A88C"
+				observation_type: "entity_type"
+				observe_type: 5
+				timer: 0L
+				to_observe: "cnb:ferret"
+				type: "observation"
+			}]
+			x: -8.5d
+			y: -1.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "1CFE0C6B55370733"
+			rewards: [{
+				count: 5
+				id: "2A55A1DAADCEEC49"
+				item: {
+					count: 1
+					id: "minecraft:honeycomb"
+				}
+				type: "item"
+			}]
+			shape: "heart"
+			tasks: [{
+				entity_vis_idle_mode: "USE_GLOBAL"
+				entity_vis_offset_x: 0.0f
+				entity_vis_offset_y: 0.0f
+				entity_vis_rotation: 0.0f
+				entity_vis_silhouette_mode: "NONE"
+				entity_vis_size: 1.0f
+				entity_vis_spin_mode: "USE_GLOBAL"
+				entity_vis_use_as_quest_icon: false
+				entity_vis_walk_mode: "USE_GLOBAL"
+				icon: {
+					components: {
+						"ftbquests:missing_item": "tameablebeasts:ground_beetle_spawn_egg"
+					}
+					id: "ftbquests:missing_item"
+				}
+				id: "3C2C445C59D42D97"
+				observation_type: "entity_type"
+				observe_type: 5
+				timer: 0L
+				to_observe: "tameablebeasts:ground_beetle"
+				type: "observation"
+			}]
+			x: -3.5d
+			y: 0.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "5C8A806847060D9D"
+			rewards: [{
+				count: 5
+				id: "43DDEF1B46FB71EB"
+				item: {
+					count: 1
+					id: "minecraft:honeycomb"
+				}
+				type: "item"
+			}]
+			shape: "heart"
+			tasks: [{
+				entity_vis_idle_mode: "USE_GLOBAL"
+				entity_vis_offset_x: 0.0f
+				entity_vis_offset_y: 0.0f
+				entity_vis_rotation: 0.0f
+				entity_vis_silhouette_mode: "NONE"
+				entity_vis_size: 1.0f
+				entity_vis_spin_mode: "USE_GLOBAL"
+				entity_vis_use_as_quest_icon: false
+				entity_vis_walk_mode: "USE_GLOBAL"
+				icon: {
+					components: {
+						"ftbquests:missing_item": "tameablebeasts:beetle_spawn_egg"
+					}
+					id: "ftbquests:missing_item"
+				}
+				id: "44456FA29203788A"
+				observation_type: "entity_type"
+				observe_type: 5
+				timer: 0L
+				to_observe: "tameablebeasts:tameable_beetle"
+				type: "observation"
+			}]
+			x: -9.5d
+			y: 0.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "7E223824125871A6"
+			rewards: [{
+				count: 5
+				id: "5055FF7F74B914DA"
+				item: {
+					count: 1
+					id: "minecraft:wheat_seeds"
+				}
+				type: "item"
+			}]
+			shape: "heart"
+			tasks: [{
+				entity_vis_idle_mode: "USE_GLOBAL"
+				entity_vis_offset_x: 0.0f
+				entity_vis_offset_y: 0.0f
+				entity_vis_rotation: 0.0f
+				entity_vis_silhouette_mode: "NONE"
+				entity_vis_size: 1.0f
+				entity_vis_spin_mode: "USE_GLOBAL"
+				entity_vis_use_as_quest_icon: false
+				entity_vis_walk_mode: "USE_GLOBAL"
+				icon: {
+					id: "crittersandcompanions:shima_enaga_spawn_egg"
+				}
+				id: "7F0EBB489DB04DA8"
+				observation_type: "entity_type"
+				observe_type: 5
+				timer: 0L
+				to_observe: "cnb:shima_enaga"
+				type: "observation"
+			}]
+			x: -8.5d
+			y: 1.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "165F7D17FE6C817F"
+			rewards: [{
+				count: 5
+				id: "7D3C3282DBA7E916"
+				item: {
+					count: 1
+					id: "minecraft:cod"
+				}
+				type: "item"
+			}]
+			shape: "heart"
+			tasks: [{
+				entity_vis_idle_mode: "USE_GLOBAL"
+				entity_vis_offset_x: 0.0f
+				entity_vis_offset_y: 0.0f
+				entity_vis_rotation: 0.0f
+				entity_vis_silhouette_mode: "NONE"
+				entity_vis_size: 1.0f
+				entity_vis_spin_mode: "USE_GLOBAL"
+				entity_vis_use_as_quest_icon: false
+				entity_vis_walk_mode: "USE_GLOBAL"
+				icon: {
+					components: {
+						"ftbquests:missing_item": "tameablebeasts:penguin_egg"
+					}
+					id: "ftbquests:missing_item"
+				}
+				id: "29043924232CFE46"
+				observation_type: "entity_type"
+				observe_type: 5
+				timer: 0L
+				to_observe: "tameablebeasts:tameable_penguin"
+				type: "observation"
+			}]
+			x: -4.5d
+			y: 1.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "07A746772D2FE875"
+			rewards: [{
+				count: 5
+				id: "3F91C20C6CAB059E"
+				item: {
+					count: 1
+					id: "crittersandcompanions:dragonfly_wing"
+				}
+				type: "item"
+			}]
+			shape: "heart"
+			tasks: [{
+				entity_vis_idle_mode: "USE_GLOBAL"
+				entity_vis_offset_x: 0.0f
+				entity_vis_offset_y: 0.0f
+				entity_vis_rotation: 0.0f
+				entity_vis_silhouette_mode: "NONE"
+				entity_vis_size: 1.0f
+				entity_vis_spin_mode: "USE_GLOBAL"
+				entity_vis_use_as_quest_icon: false
+				entity_vis_walk_mode: "USE_GLOBAL"
+				icon: {
+					id: "crittersandcompanions:silk_cocoon"
+				}
+				id: "3B0583ABFF5A6261"
+				observation_type: "entity_type"
+				observe_type: 5
+				timer: 0L
+				to_observe: "cnb:jumping_spider"
+				type: "observation"
+			}]
+			x: -6.5d
+			y: 2.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "3FB15C172F90E74B"
+			rewards: [{
+				count: 5
+				id: "5BE64212F3402F81"
+				item: {
+					components: {
+						"ftbquests:missing_item": "tameablebeasts:beetle_egg"
+					}
+					count: 1
+					id: "ftbquests:missing_item"
+				}
+				type: "item"
+			}]
+			shape: "heart"
+			tasks: [{
+				entity_vis_idle_mode: "USE_GLOBAL"
+				entity_vis_offset_x: 0.0f
+				entity_vis_offset_y: 0.0f
+				entity_vis_rotation: 0.0f
+				entity_vis_silhouette_mode: "NONE"
+				entity_vis_size: 1.0f
+				entity_vis_spin_mode: "USE_GLOBAL"
+				entity_vis_use_as_quest_icon: false
+				entity_vis_walk_mode: "USE_GLOBAL"
+				icon: {
+					components: {
+						"ftbquests:missing_item": "tameablebeasts:crested_gecko_egg"
+					}
+					id: "ftbquests:missing_item"
+				}
+				id: "24A201EABC7AB44C"
+				observation_type: "entity_type"
+				observe_type: 5
+				timer: 0L
+				to_observe: "tameablebeasts:crested_gecko"
+				type: "observation"
+			}]
+			x: -3.5d
+			y: 2.0d
+		}
+	]
+}

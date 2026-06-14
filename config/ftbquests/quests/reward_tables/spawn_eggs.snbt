@@ -1,0 +1,23 @@
+{
+	id: "61D327FF1D169B5B"
+	loot_size: 2
+	order_index: 12
+	rewards: [
+		{ id: "220F19BFCB3F5085", item: { count: 1, id: "minecraft:cat_spawn_egg" } }
+		{ id: "2B9F82A824A756FA", item: { count: 1, id: "minecraft:cow_spawn_egg" } }
+		{ id: "21A978A43EDABB90", item: { count: 1, id: "minecraft:fox_spawn_egg" } }
+		{ id: "4F6A46647441D539", item: { count: 1, id: "minecraft:goat_spawn_egg" } }
+		{ id: "44367EEAD3F754DC", item: { count: 1, id: "minecraft:horse_spawn_egg" } }
+		{ id: "3D1E1F1B069E1322", item: { count: 1, id: "minecraft:pig_spawn_egg" } }
+		{ id: "6C66F99C4775FC71", item: { count: 1, id: "minecraft:rabbit_spawn_egg" } }
+		{ id: "26D34B4EACF4C6F2", item: { count: 1, id: "minecraft:sheep_spawn_egg" } }
+		{ id: "755CEEDB0C95CAF1", item: { count: 1, id: "minecraft:wolf_spawn_egg" } }
+		{ id: "688C465B06106E40", item: { count: 1, id: "minecraft:glow_squid_spawn_egg" } }
+		{ id: "5C62B647C1B0F2A3", item: { count: 1, id: "minecraft:squid_spawn_egg" } }
+		{ id: "027D5B17D68878E7", item: { count: 1, id: "snuffles:snuffle_spawn_egg" } }
+		{ id: "6AA41AE40CDD444A", item: { count: 1, id: "friendsandfoes:moobloom_spawn_egg" } }
+		{ id: "1A0D7C8FCC5CA90D", item: { count: 1, id: "friendsandfoes:glare_spawn_egg" } }
+		{ id: "6535E09303B85F98", item: { count: 1, id: "minecraft:allay_spawn_egg" } }
+		{ id: "70D73DB7BF82EF85", item: { count: 1, id: "the_bumblezone:rootmin_spawn_egg" } }
+	]
+}

@@ -1,0 +1,47 @@
+{
+	id: "092C7396A90FB8C2"
+	loot_size: 1
+	order_index: 1
+	rewards: [
+		{ id: "5B80ABD4CFA9234D", item: { count: 1, id: "minecraft:cod_bucket" } }
+		{ id: "45E36544D97E989F", item: { count: 1, id: "minecraft:salmon_bucket" } }
+		{ id: "63838A575A57C15E", item: { count: 1, id: "minecraft:tropical_fish_bucket" } }
+		{ id: "4AF136CA73C28BA1", item: { count: 1, id: "minecraft:pufferfish_bucket" } }
+		{ id: "42AC38BC58C6083E", item: { count: 1, id: "minecraft:axolotl_bucket" } }
+		{ id: "0CD44EAE6DF0EEBC", item: { count: 1, id: "minecraft:tadpole_bucket" } }
+		{ id: "6334D870BC96A47E", item: { components: { "ftbquests:missing_item": "spawn:angler_fish_bucket" }, count: 1, id: "ftbquests:missing_item" } }
+		{ id: "1BFC68DDB4E58DAC", item: { components: { "ftbquests:missing_item": "spawn:tuna_egg_bucket" }, count: 1, id: "ftbquests:missing_item" } }
+		{ id: "6FC1B00E7902FE56", item: { components: { "ftbquests:missing_item": "spawn:seahorse_bucket" }, count: 1, id: "ftbquests:missing_item" } }
+		{ id: "5FF6461815B9BBCF", item: { components: { "ftbquests:missing_item": "earthmobsmod:tropical_slime_bucket" }, count: 1, id: "ftbquests:missing_item" } }
+		{ id: "5B16D8503E3E4AFF", item: { components: { "ftbquests:missing_item": "species:deepfish_bucket" }, count: 1, id: "ftbquests:missing_item" } }
+		{ id: "50F023C427BA67FD", item: { count: 1, id: "netherdepthsupgrade:searing_cod_bucket" } }
+		{ id: "78BB750ABE538343", item: { count: 1, id: "netherdepthsupgrade:obsidianfish_bucket" } }
+		{ id: "20D9B9088929664B", item: { count: 1, id: "netherdepthsupgrade:lava_pufferfish_bucket" } }
+		{ id: "19CDAFA67477C0CB", item: { count: 1, id: "netherdepthsupgrade:eyeball_fish_bucket" } }
+		{ id: "741E3F6850D2350B", item: { count: 1, id: "netherdepthsupgrade:fortress_grouper_bucket" } }
+		{ id: "0827F20FD00E9118", item: { count: 1, id: "netherdepthsupgrade:soulsucker_bucket" } }
+		{ id: "4B6FE7D4A8CB5497", item: { count: 1, id: "netherdepthsupgrade:glowdine_bucket" } }
+		{ id: "34975A08A1DB78DD", item: { count: 1, id: "netherdepthsupgrade:magmacubefish_bucket" } }
+		{ id: "6746E5063569A6CD", item: { count: 1, id: "netherdepthsupgrade:blazefish_bucket" } }
+		{ id: "5E998DC0A73A4698", item: { count: 1, id: "netherdepthsupgrade:wither_bonefish_bucket" } }
+		{ id: "2557A3B4303E8678", item: { count: 1, id: "netherdepthsupgrade:bonefish_bucket" } }
+		{ id: "12C649FAFFE9620D", item: { components: { "ftbquests:missing_item": "rainbowreef:angelfish_bucket" }, count: 1, id: "ftbquests:missing_item" } }
+		{ id: "5948CF2B46C3ED25", item: { components: { "ftbquests:missing_item": "rainbowreef:arrow_crab_bucket" }, count: 1, id: "ftbquests:missing_item" } }
+		{ id: "57C52F4FD14AE511", item: { components: { "ftbquests:missing_item": "rainbowreef:basslet_bucket" }, count: 1, id: "ftbquests:missing_item" } }
+		{ id: "217A698ED22773C8", item: { components: { "ftbquests:missing_item": "rainbowreef:boxfish_bucket" }, count: 1, id: "ftbquests:missing_item" } }
+		{ id: "7F3E3B465E13BD0B", item: { components: { "ftbquests:missing_item": "rainbowreef:butterflyfish_bucket" }, count: 1, id: "ftbquests:missing_item" } }
+		{ id: "4EF607AB3E4B3E9C", item: { components: { "ftbquests:missing_item": "rainbowreef:clownfish_bucket" }, count: 1, id: "ftbquests:missing_item" } }
+		{ id: "1E9F4C3EF425041A", item: { components: { "ftbquests:missing_item": "rainbowreef:crab_bucket" }, count: 1, id: "ftbquests:missing_item" } }
+		{ id: "3B721452BB2F7B41", item: { components: { "ftbquests:missing_item": "rainbowreef:dwarf_angelfish_bucket" }, count: 1, id: "ftbquests:missing_item" } }
+		{ id: "67950A9EDBCD20D9", item: { components: { "ftbquests:missing_item": "rainbowreef:goby_bucket" }, count: 1, id: "ftbquests:missing_item" } }
+		{ id: "5BCD8006AC04104B", item: { components: { "ftbquests:missing_item": "rainbowreef:hogfish_bucket" }, count: 1, id: "ftbquests:missing_item" } }
+		{ id: "70B35B15CAC1C010", item: { components: { "ftbquests:missing_item": "rainbowreef:jellyfish_bucket" }, count: 1, id: "ftbquests:missing_item" } }
+		{ id: "248C48FF996752CB", item: { components: { "ftbquests:missing_item": "rainbowreef:moorish_idol_bucket" }, count: 1, id: "ftbquests:missing_item" } }
+		{ id: "76150AFE38F500E1", item: { components: { "ftbquests:missing_item": "rainbowreef:parrotfish_bucket" }, count: 1, id: "ftbquests:missing_item" } }
+		{ id: "1A6062C996434B70", item: { components: { "ftbquests:missing_item": "rainbowreef:pipefish_bucket" }, count: 1, id: "ftbquests:missing_item" } }
+		{ id: "1EA3140F9847C983", item: { components: { "ftbquests:missing_item": "rainbowreef:seahorse_bucket" }, count: 1, id: "ftbquests:missing_item" } }
+		{ id: "79BE2A599D207F94", item: { components: { "ftbquests:missing_item": "rainbowreef:tang_bucket" }, count: 1, id: "ftbquests:missing_item" } }
+		{ id: "35BE126710F9F94F", item: { components: { "ftbquests:missing_item": "rainbowreef:smallshark_bucket" }, count: 1, id: "ftbquests:missing_item" } }
+		{ id: "6EAA53152F69EC70", item: { components: { "ftbquests:missing_item": "rainbowreef:spotted_eagle_ray_bucket" }, count: 1, id: "ftbquests:missing_item" } }
+	]
+}

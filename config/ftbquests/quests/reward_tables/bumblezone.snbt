@@ -1,0 +1,50 @@
+{
+	id: "4E6CD5AC811DBC30"
+	loot_size: 3
+	order_index: 29
+	rewards: [
+		{
+			count: 2
+			id: "12D7BFD06651F461"
+			item: {
+				count: 1
+				id: "the_bumblezone:honey_crystal_shards"
+			}
+		}
+		{
+			count: 5
+			id: "36B594649B073106"
+			item: {
+				count: 1
+				id: "the_bumblezone:bee_bread"
+			}
+		}
+		{ id: "658189FD34B1BF00", item: { count: 1, id: "the_bumblezone:sugar_water_bottle" } }
+		{ id: "1B14141E8EB6FCBE", item: { count: 1, id: "the_bumblezone:pollen_puff" } }
+		{
+			count: 3
+			id: "02E840F0D0D8588A"
+			item: {
+				count: 1
+				id: "the_bumblezone:bee_stinger"
+			}
+		}
+		{
+			count: 5
+			id: "18158804B6B1FAC1"
+			item: {
+				count: 1
+				id: "minecraft:honeycomb"
+			}
+		}
+		{
+			count: 2
+			id: "4B58D99CA7BF465D"
+			item: {
+				count: 1
+				id: "minecraft:honey_bottle"
+			}
+		}
+		{ id: "073B6A9DF5E699DA", item: { count: 1, id: "the_bumblezone:bee_soup" } }
+	]
+}

@@ -1,0 +1,95 @@
+{
+	id: "1CB56D532B985F2C"
+	loot_size: 1
+	order_index: 9
+	rewards: [
+		{
+			count: 2
+			id: "177EA9EFAF6B3C3E"
+			item: {
+				count: 1
+				id: "minecraft:experience_bottle"
+			}
+		}
+		{
+			count: 3
+			id: "4B8D4326C0202074"
+			item: {
+				count: 1
+				id: "minecraft:gunpowder"
+			}
+		}
+		{
+			count: 3
+			id: "5297E98EE788826A"
+			item: {
+				count: 1
+				id: "minecraft:prismarine_shard"
+			}
+		}
+		{
+			count: 4
+			id: "1CD88C1D5F217AE8"
+			item: {
+				count: 1
+				id: "minecraft:raw_iron"
+			}
+		}
+		{
+			count: 4
+			id: "07961CD5BE9748B2"
+			item: {
+				count: 1
+				id: "minecraft:raw_copper"
+			}
+		}
+		{
+			count: 4
+			id: "43B7B0D07FD153D6"
+			item: {
+				count: 1
+				id: "minecraft:raw_gold"
+			}
+		}
+		{
+			count: 5
+			id: "1F553989F397BA5C"
+			item: {
+				count: 1
+				id: "minecraft:feather"
+			}
+		}
+		{
+			count: 8
+			id: "27B6BA2E3D1ACE14"
+			item: {
+				count: 1
+				id: "minecraft:ink_sac"
+			}
+		}
+		{
+			count: 10
+			id: "3B2C09321424D66D"
+			item: {
+				count: 1
+				id: "minecraft:string"
+			}
+		}
+		{
+			count: 4
+			id: "5DEE2668AE23B3FC"
+			item: {
+				count: 1
+				id: "sophisticatedstorage:upgrade_base"
+			}
+		}
+		{
+			count: 5
+			id: "0E33A9C5C3B0F515"
+			item: {
+				count: 1
+				id: "minecraft:firework_rocket"
+			}
+		}
+	]
+}

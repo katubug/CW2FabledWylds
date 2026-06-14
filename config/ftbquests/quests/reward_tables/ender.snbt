@@ -1,0 +1,24 @@
+{
+	id: "6AF78C0058DC64FC"
+	loot_size: 1
+	order_index: 17
+	rewards: [
+		{
+			count: 2
+			id: "78EB1E270B7397C0"
+			item: {
+				count: 1
+				id: "minecraft:ender_pearl"
+			}
+		}
+		{ id: "35D2E27B46890725", item: { count: 1, id: "supplementaries:enderman_head" } }
+		{
+			count: 3
+			id: "75335A6111DFF5EC"
+			item: {
+				count: 1
+				id: "minecraft:phantom_membrane"
+			}
+		}
+	]
+}

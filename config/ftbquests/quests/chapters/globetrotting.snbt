@@ -1,0 +1,857 @@
+{
+	default_hide_dependency_lines: false
+	default_min_width: 350
+	default_quest_shape: ""
+	filename: "globetrotting"
+	group: "4E9968A53CD6CA57"
+	id: "5775D7E4FB7F551A"
+	images: [
+		{
+			height: 10.0d
+			image: "enchanted_wilds:textures/questui/bgexplorating.png"
+			rotation: 0.0d
+			width: 10.0d
+			x: 0.0d
+			y: 13.0d
+		}
+		{
+			height: 10.0d
+			image: "enchanted_wilds:textures/questui/bgdungeons.png"
+			rotation: 0.0d
+			width: 10.0d
+			x: 4.5d
+			y: -4.5d
+		}
+		{
+			height: 10.0d
+			image: "enchanted_wilds:textures/questui/bgstructures.png"
+			rotation: 0.0d
+			width: 17.0d
+			x: 0.0d
+			y: 4.5d
+		}
+		{
+			height: 10.0d
+			image: "enchanted_wilds:textures/questui/bgwaystones.png"
+			rotation: 0.0d
+			width: 10.0d
+			x: -4.5d
+			y: -4.5d
+		}
+	]
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			entity_vis_size: 1.0f
+			id: "4470E2B09DB2B676"
+			rewards: [{
+				id: "6C4AA9B8014AE3F0"
+				item: {
+					count: 1
+					id: "minecraft:splash_potion"
+				}
+				type: "item"
+			}]
+			shape: "octagon"
+			tasks: [{
+				id: "4C755CEFF3CB1B9D"
+				stat: "minecraft:trigger_trapped_chest"
+				type: "stat"
+				value: 10
+			}]
+			x: 1.5d
+			y: 14.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "4EE44DF5D0E5BD53"
+			optional: true
+			rewards: [{
+				id: "3B3D522C46A95BE8"
+				item: {
+					count: 1
+					id: "minecraft:player_head"
+				}
+				type: "item"
+			}]
+			shape: "rsquare"
+			size: 2.0d
+			tasks: [{
+				id: "08B6A44D9D1A4B9F"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 3.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "369DEAD83BD150DA"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "671D5BBAE0D14A63"
+					table_id: 5161092699925703455L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "20EC227724BF2A88"
+					table_id: 223398162038636868L
+					type: "choice"
+				}
+			]
+			shape: "octagon"
+			tasks: [{
+				advancement: "minecraft:adventure/adventuring_time"
+				criterion: ""
+				id: "3DE48330EDF240D6"
+				type: "advancement"
+			}]
+			x: 2.5d
+			y: 12.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "7EF7EE2181ECA4E9"
+			rewards: [
+				{
+					count: 5
+					id: "357254CEFE725F93"
+					item: {
+						components: {
+							"ftbquests:missing_item": "nethersdelight:propelpearl"
+						}
+						count: 1
+						id: "ftbquests:missing_item"
+					}
+					type: "item"
+				}
+				{
+					id: "2FE51B1FF80A35BD"
+					item: {
+						count: 1
+						id: "minecraft:ancient_debris"
+					}
+					type: "item"
+				}
+				{
+					id: "721CB83DCAA08ED6"
+					item: {
+						count: 1
+						id: "minecraft:apple"
+					}
+					type: "item"
+				}
+				{
+					id: "6B76B50ACD55EAF0"
+					item: {
+						components: {
+							"ftbquests:missing_item": "abyssal_decor:bottomless_bag_of_netherrack"
+						}
+						count: 1
+						id: "ftbquests:missing_item"
+					}
+					type: "item"
+				}
+			]
+			shape: "octagon"
+			tasks: [{
+				advancement: "minecraft:nether/explore_nether"
+				criterion: ""
+				id: "2D416C15BC4F0576"
+				type: "advancement"
+			}]
+			x: -0.5d
+			y: 15.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "3533886FEAAAE291"
+			rewards: [{
+				id: "474AE26E907CEE13"
+				item: {
+					count: 1
+					id: "minecraft:player_head"
+				}
+				type: "item"
+			}]
+			shape: "octagon"
+			tasks: [{
+				advancement: "betterdungeons:zombie_dungeon"
+				criterion: ""
+				id: "128CFDF2939D2CA6"
+				type: "advancement"
+			}]
+			x: -4.0d
+			y: 3.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "292B26978E644D9F"
+			rewards: [
+				{
+					id: "3697431A62122609"
+					table_id: 6941837675484043489L
+					type: "loot"
+				}
+				{
+					id: "2DEE2C92B67779A6"
+					item: {
+						components: {
+							"ftbquests:missing_item": "capsule:capsule"
+						}
+						count: 1
+						id: "ftbquests:missing_item"
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "628297917BCB66ED"
+				item: { count: 1, id: "explorerscompass:explorerscompass" }
+				type: "item"
+			}]
+			x: -2.5d
+			y: 12.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "1F4569590B7666F5"
+			rewards: [
+				{
+					id: "2E7C57E4CDF3A562"
+					table_id: 6990203354287577879L
+					type: "choice"
+				}
+				{
+					id: "46F1CF2EAD0F55EC"
+					table_id: 6990203354287577879L
+					type: "choice"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "0AA5D5B5891F4838"
+				item: { count: 1, id: "naturescompass:naturescompass" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: 14.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "4E9CAB55113B5280"
+			invisible: true
+			tasks: [{
+				id: "1CF667DD46CE5F2C"
+				item: { count: 1, id: "ftbquests:barrier" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["722C9A16509E524B"]
+			entity_vis_size: 1.0f
+			id: "06DC33669C98F5A4"
+			rewards: [
+				{
+					id: "59434BCB0FA7DE89"
+					item: {
+						count: 1
+						id: "minecraft:flint"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "1208FF044A4E5F34"
+					item: {
+						count: 1
+						id: "waystones:warp_dust"
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "59AC7FC2C8A63192"
+				item: { count: 1, id: "waystones:warp_plate" }
+				type: "item"
+			}]
+			x: -7.0d
+			y: -2.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "722C9A16509E524B"
+			rewards: [
+				{
+					id: "25205FA9313B665D"
+					item: {
+						count: 1
+						id: "waystones:warp_scroll"
+					}
+					type: "item"
+				}
+				{
+					id: "121261F713988EF7"
+					item: {
+						count: 1
+						id: "waystones:waystone"
+					}
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 2.0d
+			tasks: [{
+				id: "7EC380E3947C3B45"
+				item: { components: { "ftbfiltersystem:filter": "or(item_tag(waystones:waystones))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: -4.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["722C9A16509E524B"]
+			entity_vis_size: 1.0f
+			id: "133D48874069E59B"
+			rewards: [{
+				id: "42B9AB11D9E3ABCD"
+				table_id: 6941837675484043489L
+				type: "choice"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "1FC4B305579CDA7F"
+				item: { count: 1, id: "waystones:bound_scroll" }
+				type: "item"
+			}]
+			x: -6.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["722C9A16509E524B"]
+			entity_vis_size: 1.0f
+			id: "7527E0A9EF5C3697"
+			rewards: [{
+				id: "2C983FA06FB6C836"
+				table_id: 6941837675484043489L
+				type: "choice"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "05CBC59215AFFC0A"
+				item: { count: 1, id: "waystones:warp_scroll" }
+				type: "item"
+			}]
+			x: -5.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["722C9A16509E524B"]
+			entity_vis_size: 1.0f
+			id: "2E1A6A93F48AAF58"
+			rewards: [{
+				id: "3178D82564BA7BD9"
+				table_id: 8808494820591225409L
+				type: "choice"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "27EF600DF7DC0004"
+				item: { count: 1, id: "waystones:warp_stone" }
+				type: "item"
+			}]
+			x: -3.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["722C9A16509E524B"]
+			entity_vis_size: 1.0f
+			id: "7B4772B066474C41"
+			rewards: [{
+				id: "16E016B66087E8AC"
+				table_id: 6941837675484043489L
+				type: "choice"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "206F9F2340A72B5E"
+				item: { components: { "ftbquests:missing_item": "waystones:portstone" }, count: 1, id: "ftbquests:missing_item" }
+				type: "item"
+			}]
+			x: -2.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["722C9A16509E524B"]
+			entity_vis_size: 1.0f
+			id: "2E07A04D5589B674"
+			rewards: [{
+				id: "102031CA994CF7D6"
+				table_id: 8808494820591225409L
+				type: "choice"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "07B009CB820A898A"
+				item: { components: { "ftbfiltersystem:filter": "or(item_tag(waystones:sharestone))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: -2.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "38285B9280444C60"
+			rewards: [{
+				id: "156F25E0D2811912"
+				item: {
+					count: 1
+					id: "minecraft:potion"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				icon: {
+					id: "minecraft:leather_boots"
+				}
+				id: "191D3E228208A0CB"
+				stat: "minecraft:sneak_time"
+				type: "stat"
+				value: 99999
+			}]
+			x: 0.5d
+			y: 15.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "78A442C5CCB7BF47"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4907DA9834645C93"
+				table_id: 8808494820591225409L
+				type: "loot"
+			}]
+			shape: "octagon"
+			tasks: [{
+				advancement: "minecraft:story/root"
+				criterion: ""
+				id: "15A19A39523CAD26"
+				type: "advancement"
+			}]
+			x: 0.0d
+			y: 11.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "13C0DC76BB0AD7CB"
+			rewards: [{
+				id: "014A6853173CF7AD"
+				item: {
+					count: 1
+					id: "minecraft:respawn_anchor"
+				}
+				type: "item"
+			}]
+			shape: "octagon"
+			tasks: [{
+				advancement: "minecraft:story/enter_the_nether"
+				criterion: ""
+				icon: {
+					id: "minecraft:netherrack"
+				}
+				id: "107172A8EAD35796"
+				type: "advancement"
+			}]
+			x: 0.0d
+			y: 13.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "591CF255E9BDD1D1"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "56B52A1C6631F963"
+				table_id: 6941837675484043489L
+				type: "choice"
+			}]
+			shape: "octagon"
+			tasks: [{
+				icon: {
+					components: {
+						"ftbquests:missing_item": "spawn:sunflower"
+					}
+					id: "ftbquests:missing_item"
+				}
+				id: "6B7D1A36D4285BD1"
+				structure: "verdantvibes:fairy_circle"
+				type: "structure"
+			}]
+			x: -3.5d
+			y: 6.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "7210927B460B6B0F"
+			rewards: [{
+				id: "4C5700905C7B6B76"
+				item: {
+					count: 1
+					id: "minecraft:tadpole_bucket"
+				}
+				type: "item"
+			}]
+			shape: "octagon"
+			tasks: [{
+				icon: {
+					components: {
+						"ftbquests:missing_item": "swampier_swamps:swamp_vine"
+					}
+					id: "ftbquests:missing_item"
+				}
+				id: "75CE3EDF1ACF8297"
+				structure: "swampier_swamps:village_swamp"
+				type: "structure"
+			}]
+			x: -5.0d
+			y: 5.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "2F11F1501E038311"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "725A1583BC3F17DA"
+				table_id: 8891211325592123080L
+				type: "choice"
+			}]
+			shape: "octagon"
+			tasks: [{
+				id: "3E10A9FF916FCC7A"
+				structure: "minecraft:mineshaft"
+				type: "structure"
+			}]
+			x: -1.5d
+			y: 7.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "48ECF54E7038910F"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0C54B78E7FBA5F0A"
+				table_id: 5036677739913042344L
+				type: "choice"
+			}]
+			shape: "octagon"
+			tasks: [{
+				icon: {
+					id: "minecraft:skeleton_skull"
+				}
+				id: "1D224C88E7ADFA3F"
+				structure: "betterdungeons:skeleton_dungeon"
+				type: "structure"
+			}]
+			x: 7.0d
+			y: -4.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "5290EB7B63B925AA"
+			rewards: [
+				{
+					id: "333DA6ABD33660CA"
+					item: {
+						count: 1
+						id: "minecraft:apple"
+					}
+					type: "item"
+				}
+				{
+					count: 3
+					id: "6D8DEE4FE1AB3FA3"
+					item: {
+						count: 1
+						id: "minecraft:cobweb"
+					}
+					type: "item"
+				}
+			]
+			shape: "octagon"
+			tasks: [
+				{
+					icon: {
+						components: {
+							"ftbquests:missing_item": "tombstone:decorative_grave_simple"
+						}
+						id: "ftbquests:missing_item"
+					}
+					id: "2E08CAE23617AE49"
+					structure: "structory:graveyard"
+					type: "structure"
+				}
+				{
+					icon: {
+						components: {
+							"ftbquests:missing_item": "tombstone:decorative_grave_cross"
+						}
+						id: "ftbquests:missing_item"
+					}
+					id: "33301DDA1E95B4CA"
+					structure: "formationsoverworld:graveyard"
+					type: "structure"
+				}
+			]
+			x: 4.0d
+			y: 6.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				components: {
+					"ftbquests:missing_item": "mcwholidays:witch_hat"
+				}
+				id: "ftbquests:missing_item"
+			}
+			id: "7903C08408A091DF"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7613E2D7DFB914D5"
+				type: "choice"
+			}]
+			shape: "octagon"
+			tasks: [{
+				icon: {
+					components: {
+						"ftbquests:missing_item": "fairylights:witch_light"
+					}
+					id: "ftbquests:missing_item"
+				}
+				id: "682331CF8B0E9E37"
+				structure: "dungeons_enhanced:tall_witch_hut"
+				type: "structure"
+			}]
+			x: 0.0d
+			y: 7.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "21B1D0246C8E90EC"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7D325F453C9AB874"
+				table_id: 8808494820591225409L
+				type: "choice"
+			}]
+			shape: "octagon"
+			tasks: [{
+				icon: {
+					id: "minecraft:stone_brick_wall"
+				}
+				id: "05E27A5923603D89"
+				structure: "formationsoverworld:stone_tower"
+				type: "structure"
+			}]
+			x: 4.0d
+			y: 3.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "50DA655C90509B80"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2D840AA333F7E2AF"
+				table_id: 8808494820591225409L
+				type: "choice"
+			}]
+			tasks: [{
+				icon: {
+					id: "endrem:witch_eye"
+				}
+				id: "018B5A12E7D96074"
+				structure: "betterwitchhuts:witch_hut"
+				type: "structure"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "3DA0BA730A8040BE"
+			rewards: [{
+				id: "2E6210A5B62156DA"
+				item: {
+					components: {
+						"ftbquests:missing_item": "numismatics:crown"
+					}
+					count: 1
+					id: "ftbquests:missing_item"
+				}
+				type: "item"
+			}]
+			shape: "octagon"
+			tasks: [
+				{
+					id: "18A10BB4AF7A1194"
+					structure: "minecraft:mineshaft"
+					type: "structure"
+				}
+				{
+					icon: {
+						id: "minecraft:iron_block"
+					}
+					id: "7AD6D5486EC931D1"
+					structure: "#ctov:medium_village"
+					type: "structure"
+				}
+				{
+					icon: {
+						id: "minecraft:copper_block"
+					}
+					id: "54F676AF64CA77B1"
+					structure: "#ctov:small_village"
+					type: "structure"
+				}
+			]
+			x: 1.5d
+			y: 7.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "60C544B7E9552B88"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "547D631D936075E5"
+				table_id: 8415512190420352941L
+				type: "loot"
+			}]
+			shape: "octagon"
+			tasks: [{
+				icon: {
+					components: {
+						"ftbquests:missing_item": "mcwholidays:witch_cauldron"
+					}
+					id: "ftbquests:missing_item"
+				}
+				id: "2D132ED869984A30"
+				structure: "formationsoverworld:witch_tower"
+				type: "structure"
+			}]
+			x: 5.5d
+			y: 5.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "76A0C79C3F0A8D38"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7709B423E58187C9"
+				table_id: 6941837675484043489L
+				type: "choice"
+			}]
+			shape: "octagon"
+			tasks: [{
+				icon: {
+					id: "minecraft:redstone_torch"
+				}
+				id: "6F4919326230760A"
+				structure: "dungeons_enhanced:desert_temple"
+				type: "structure"
+			}]
+			x: 2.0d
+			y: -4.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "62FD1ED7FE9ED635"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "612D3D734EC1D152"
+				table_id: 6941837675484043489L
+				type: "choice"
+			}]
+			shape: "octagon"
+			tasks: [{
+				icon: {
+					id: "minecraft:wet_sponge"
+				}
+				id: "502BE5DCC94C27B2"
+				structure: "dungeons_enhanced:sunken_shrine"
+				type: "structure"
+			}]
+			x: 6.0d
+			y: -5.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "40F10403E2BCFBF0"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7AF8F1BE2A632C64"
+				table_id: 6941837675484043489L
+				type: "choice"
+			}]
+			shape: "octagon"
+			tasks: [{
+				icon: {
+					id: "minecraft:chiseled_deepslate"
+				}
+				id: "10C8D4DF9DA35FBE"
+				structure: "dungeons_enhanced:deep_crypt"
+				type: "structure"
+			}]
+			x: 4.5d
+			y: -6.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "23F7E0857CEF8C97"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "315D08B241C570D7"
+				table_id: 6941837675484043489L
+				type: "choice"
+			}]
+			shape: "octagon"
+			tasks: [{
+				icon: {
+					id: "minecraft:golden_pickaxe"
+				}
+				id: "2DBFE8490EDAF76A"
+				structure: "dungeons_enhanced:desert_tomb"
+				type: "structure"
+			}]
+			x: 2.5d
+			y: -2.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "4CEBBF8FE39DE199"
+			rewards: [{
+				count: 4
+				id: "1FF68458707A1396"
+				item: {
+					count: 1
+					id: "minecraft:sponge"
+				}
+				type: "item"
+			}]
+			shape: "octagon"
+			tasks: [{
+				icon: {
+					id: "minecraft:prismarine"
+				}
+				id: "0853935025C00479"
+				structure: "dungeons_enhanced:elders_temple"
+				type: "structure"
+			}]
+			x: 6.5d
+			y: -2.5d
+		}
+	]
+}

@@ -1,0 +1,20 @@
+{
+	id: "0319AB71DBC9C144"
+	loot_size: 4
+	order_index: 8
+	rewards: [
+		{ id: "004B63145F8E2D4B", item: { count: 1, id: "minecraft:skeleton_skull" } }
+		{
+			id: "38049D89B87E4E1D"
+			item: {
+				count: 1
+				id: "minecraft:wither_skeleton_skull"
+			}
+			only_one: true
+		}
+		{ id: "400D1505BED1EBEC", item: { count: 1, id: "minecraft:zombie_head" } }
+		{ id: "2E713C68E96F3AD5", item: { count: 1, id: "minecraft:creeper_head" } }
+		{ id: "313D6CFEEFAED33F", item: { count: 1, id: "minecraft:piglin_head" } }
+		{ id: "44FFC162A3A04472", item: { count: 1, id: "supplementaries:enderman_head" } }
+	]
+}

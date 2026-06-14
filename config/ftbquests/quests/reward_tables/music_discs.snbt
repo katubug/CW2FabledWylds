@@ -1,0 +1,27 @@
+{
+	id: "18248D5CF79E6090"
+	loot_size: 2
+	order_index: 2
+	rewards: [
+		{ id: "36CD2822578743CC", item: { count: 1, id: "minecraft:jukebox" } }
+		{ id: "3F7F6F985547CB73", item: { count: 1, id: "minecraft:music_disc_strad" } }
+		{ id: "05C8DA403CFDE7E1", item: { count: 1, id: "minecraft:music_disc_stal" } }
+		{ id: "790FB7F5FCD46E13", item: { count: 1, id: "minecraft:music_disc_mellohi" } }
+		{ id: "1FFE266E5D0E495A", item: { count: 1, id: "minecraft:music_disc_mall" } }
+		{ id: "1C1F8217BFBE9BE3", item: { count: 1, id: "minecraft:music_disc_far" } }
+		{ id: "0E24F4B3CB36B0F3", item: { count: 1, id: "minecraft:music_disc_chirp" } }
+		{ id: "012D845F73216619", item: { count: 1, id: "minecraft:music_disc_blocks" } }
+		{ id: "1C5223F83F019944", item: { count: 1, id: "minecraft:music_disc_cat" } }
+		{ id: "69869D795DDFBCA2", item: { count: 1, id: "minecraft:music_disc_13" } }
+		{ id: "473B872BC5E0FAB8", item: { count: 1, id: "minecraft:music_disc_ward" } }
+		{ id: "61CA71916B7D3F84", item: { count: 1, id: "minecraft:music_disc_11" } }
+		{ id: "5CEBA092D47A7468", item: { count: 1, id: "minecraft:music_disc_wait" } }
+		{ id: "3FE44F73ACC1B545", item: { count: 1, id: "minecraft:music_disc_otherside" } }
+		{ id: "02E7128BBD97AE0C", item: { count: 1, id: "minecraft:music_disc_pigstep" } }
+		{ id: "0CD263B2AA2CB2B2", item: { count: 1, id: "supplementaries:pancake" } }
+		{ id: "3D3EB85F5A3335DE", item: { count: 1, id: "minecraft:music_disc_relic" } }
+		{ id: "0B5FD5FE9B9D3627", item: { components: { "ftbquests:missing_item": "species:music_disc_dial" }, count: 1, id: "ftbquests:missing_item" } }
+		{ id: "1C3F49655A6C431B", item: { components: { "ftbquests:missing_item": "unusualprehistory:zulogae_disc" }, count: 1, id: "ftbquests:missing_item" } }
+		{ id: "6A4771AEF9A47651", item: { components: { "ftbquests:missing_item": "spawn:music_disc_rot" }, count: 1, id: "ftbquests:missing_item" } }
+	]
+}
