@@ -155,22 +155,6 @@ ServerEvents.recipes(event => {
 		}
 	)
 
-	//Tea Recipes
-	event.smoking('herbalbrews:dried_green_tea', 'farmersrespite:green_tea_leaves')
-	event.smoking('herbalbrews:dried_oolong_tea', 'farmersrespite:yellow_tea_leaves')
-	event.smoking('herbalbrews:dried_black_tea', 'farmersrespite:black_tea_leaves')
-
-
-	event.shaped(
-		Item.of('4x wardrobe:silk'),
-		[
-			'AAA',
-			'AAA'
-		], {
-			A: 'crittersandcompanions:silk'
-		}
-	)
-
 	event.smelting('hearthandharvest:syrup_bottle', 'autumnity:sap_bottle')
 
 	

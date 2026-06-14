@@ -68,7 +68,6 @@ ServerEvents.compostableRecipes(event=>{
     'serene_shrubbery:pink_pansies',
     'serene_shrubbery:purple_pansies',
     'serene_shrubbery:twinflower',
-    'serene_shrubbery:blanket_flower',
     'serene_shrubbery:blue_liverwort',
     'serene_shrubbery:purple_liverwort',
     'serene_shrubbery:white_liverwort',

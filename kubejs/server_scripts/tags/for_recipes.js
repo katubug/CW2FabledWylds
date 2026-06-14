@@ -6,15 +6,8 @@ ServerEvents.tags('item', event => {
 		'endrem:undead_soul'
 	)
 
-	//Cherry for Mystic's Biomes Recipes
-	event.add('c:fruits/cherry',
-		'vinery:cherry')
-
 	// Pearls for Pearl Necklaces etc
 	event.add('c:pearls',
-		'unusualprehistory:opalescent_pearl',
-		'abyssal_decor:white_pearl',
-		'crabbersdelight:pearl',
 		'crittersandcompanions:pearl'
 	)
 
@@ -41,19 +34,6 @@ ServerEvents.tags('item', event => {
 	event.add('c:fruits/strawberries',
 		'mysticsbiomes:sweet_strawberry')
 
-	//Vinery Grapes for Dawn of Time stuff
-	event.add(
-		'c:grapes',
-		'vinery:taiga_grapes_white',
-		'vinery:taiga_grapes_red',
-		'vinery:savanna_grapes_white',
-		'vinery:red_grape',
-		'vinery:jungle_grapes_white',
-		'vinery:savanna_grapes_red',
-		'vinery:jungle_grapes_red',
-		'vinery:white_grape'
-	)
-
 	// Organic materials for Compost Recipe
 	event.add('c:compost',
 		'farmersdelight:organic_compost', 
@@ -67,8 +47,7 @@ ServerEvents.tags('item', event => {
 		'regions_unexplored:red_maple_leaf_pile',
 		'regions_unexplored:orange_maple_leaf_pile',
 		'regions_unexplored:enchanted_birch_leaf_pile',
-		'regions_unexplored:silver_birch_leaf_pile',
-		'spawn:fallen_leaves',
+		'regions_unexplored:silver_birch_leaf_pile'
 	)
 
 	// Dirt for Compost Recipe
@@ -78,10 +57,6 @@ ServerEvents.tags('item', event => {
 		'minecraft:rooted_dirt',
 		'minecraft:podzol')
 
-	//Tropical Ball is Slime for Unusual Prehistory
-	event.add('c:slimeballs',
-		'earthmobsmod:tropical_ball')
-
 	//Salmonberries
 	event.add('c:fruits/salmonberries',
 		'regions_unexplored:salmonberry'
@@ -89,24 +64,6 @@ ServerEvents.tags('item', event => {
 
 	//Jam Tagging
 	event.add('c:jams',
-		'fruitsdelight:apple_jelly',
-		'fruitsdelight:blueberry_jelly',
-		'fruitsdelight:glowberry_jelly',
-		'fruitsdelight:hamimelon_jelly',
-		'fruitsdelight:melon_jelly',
-		'fruitsdelight:hawberry_jelly',
-		'fruitsdelight:lychee_jelly',
-		'fruitsdelight:mango_jelly',
-		'fruitsdelight:orange_jelly',
-		'fruitsdelight:peach_jelly',
-		'fruitsdelight:pear_jelly',
-		'fruitsdelight:persimmon_jelly',
-		'fruitsdelight:pineapple_jelly',
-		'fruitsdelight:lemon_jelly',
-		'fruitsdelight:cranberry_jelly',
-		'fruitsdelight:mangosteen_jelly',
-		'fruitsdelight:sweetberry_jelly',
-		'fruitsdelight:chorus_jelly',
 		'bakery:strawberry_jam',
 		'bakery:sweetberry_jam',
 		'bakery:glowberry_jam',
@@ -122,29 +79,12 @@ ServerEvents.tags('item', event => {
 	event.add('c:sea_crystals',
 		'mermod:sea_crystal',
 		'mermod:deep_sea_crystal_modifier',
-		'minecraft:prismarine_crystals',
-		'tide:deep_aqua_crystal'
+		'minecraft:prismarine_crystals'
 	)
 
 	//Terrestrial Crystals
 	event.add('c:terrestrial_crystals',
-		'phantasm:void_crystal_shard',
-		'forbidden_arcanus:corrupted_arcane_crystal',
-		'forbidden_arcanus:arcane_crystal',
-		'phantasm:crystal_shard',
 		'minecraft:amethyst_shard'
-	)
-
-	//Raw Bacon
-	event.add('c:bacon',
-		'rainbowreef:hogfish_bacon'
-	)
-
-	//Tea Leaves
-	event.add('c:dried_teas',
-		'herbalbrews:dried_oolong_tea',
-		'herbalbrews:dried_green_tea',
-		'herbalbrews:dried_black_tea'
 	)
 
 	//Syrups
@@ -154,8 +94,8 @@ ServerEvents.tags('item', event => {
 
 	//Glowberry jams
 	event.add('c:glowberry_jam',
-		'bakery:glowberry_jam',
-		'fruitsdelight:glowberry_jelly')
+		'bakery:glowberry_jam'
+	)
 
 	//strawberries
 	event.add('c:strawberries',
@@ -194,10 +134,8 @@ ServerEvents.tags('item', event => {
 		'bakery:toast',
 		'bakery:baguette',
 		'bakery:bread',
-		'rainbowreef:boxfish_bread',
 		'autumnity:pumpkin_bread',
 		'farmersrespite:nether_wart_sourdough',
-		'paleo_flora_return:sporous_reed_bread'
 	)
 
 	event.add('c:bread_or_bun',
@@ -216,10 +154,7 @@ ServerEvents.tags('item', event => {
 		'mysticsbiomes:lime_egg',
 		'mysticsbiomes:cyan_egg',
 		'mysticsbiomes:purple_egg',
-		'earthmobsmod:smelly_egg',
-		'autumnity:turkey_egg',
-		'earthmobsmod:fancy_egg',
-		'earthmobsmod:duck_egg'
+		'autumnity:turkey_egg'
 	)
 
 	//Clovers
@@ -230,8 +165,7 @@ ServerEvents.tags('item', event => {
 
 	//Nut Butters
 	event.add('c:nut_butter',
-		'hearthandharvest:peanut_butter', 
-		'delightful:nut_butter_bottle'
+		'hearthandharvest:peanut_butter'
 	)
 
 	//H&H Jelly to Tag

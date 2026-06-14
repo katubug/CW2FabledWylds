@@ -306,15 +306,5 @@ ServerEvents.recipes(event => {
 			B: 'minecraft:sweet_berries'
 		}
 	)
-	//Green Tea Cookie
-	event.shaped(
-		Item.of('farmersrespite:green_tea_cookie', 8),
-		[
-			'BA',
-			'A '
-		], {
-			A: 'minecraft:wheat',
-			B: 'herbalbrews:dried_green_tea'
-		}
-	)
+	
 })
