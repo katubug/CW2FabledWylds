@@ -1,7 +1,7 @@
 {
 	id: "74C9E7BFF8F97FAD"
 	loot_size: 3
-	order_index: 26
+	order_index: 22
 	rewards: [
 		{ id: "1F3D228FF0D89BCF", item: { count: 1, id: "minecraft:potion" } }
 		{ id: "2ED209CE500A1304", item: { count: 1, id: "minecraft:potion" } }

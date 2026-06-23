@@ -49,7 +49,6 @@
 				{
 					exclude_from_claim_all: true
 					id: "3B6DD5B336297788"
-					table_id: 5161092699925703455L
 					type: "loot"
 				}
 				{
@@ -190,7 +189,6 @@
 				{
 					exclude_from_claim_all: true
 					id: "69C5661F50A09166"
-					table_id: 8808494820591225409L
 					type: "choice"
 				}
 			]
@@ -216,7 +214,6 @@
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "136EB8BF33805067"
-				table_id: 6941837675484043489L
 				type: "loot"
 			}]
 			shape: "hexagon"
@@ -261,7 +258,6 @@
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "043BAFB961EC4E7B"
-				table_id: 6941837675484043489L
 				type: "loot"
 			}]
 			shape: "hexagon"
@@ -296,7 +292,6 @@
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "7B1273830DE558C6"
-				table_id: 8808494820591225409L
 				type: "choice"
 			}]
 			shape: "hexagon"
@@ -400,7 +395,6 @@
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "0F512599C36DE552"
-				table_id: 5161092699925703455L
 				type: "choice"
 			}]
 			shape: "hexagon"
@@ -452,7 +446,6 @@
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "159DCAB86C06A2B1"
-				table_id: 5161092699925703455L
 				type: "loot"
 			}]
 			shape: "hexagon"
@@ -515,7 +508,6 @@
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "7480BC97A2AF84F0"
-				table_id: 6941837675484043489L
 				type: "loot"
 			}]
 			shape: "hexagon"
@@ -606,7 +598,6 @@
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "42CF761E4546C107"
-				table_id: 8096229411196850122L
 				type: "loot"
 			}]
 			tasks: [
@@ -730,7 +721,6 @@
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "0DD29F86E9C4A50F"
-				table_id: 5161092699925703455L
 				type: "loot"
 			}]
 			shape: "hexagon"
@@ -748,7 +738,6 @@
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "4899D460BAF74ACE"
-				table_id: 6941837675484043489L
 				type: "choice"
 			}]
 			shape: "hexagon"
@@ -767,7 +756,6 @@
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "0D7EB8861FD08213"
-				table_id: 8808494820591225409L
 				type: "choice"
 			}]
 			shape: "hexagon"
@@ -785,7 +773,6 @@
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "367D72095EAA0EEC"
-				table_id: 8808494820591225409L
 				type: "loot"
 			}]
 			shape: "hexagon"

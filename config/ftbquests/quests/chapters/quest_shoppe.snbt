@@ -1,0 +1,20 @@
+{
+	default_hide_dependency_lines: false
+	default_min_width: 350
+	default_quest_shape: ""
+	filename: "quest_shoppe"
+	group: ""
+	id: "7853699FB0092DA9"
+	order_index: 1
+	quest_links: [ ]
+	quests: [{
+		entity_vis_size: 1.0f
+		id: "4971EB753FE0E6CC"
+		tasks: [{
+			id: "2A957A338BE899C4"
+			type: "checkmark"
+		}]
+		x: -0.5d
+		y: -2.25d
+	}]
+}

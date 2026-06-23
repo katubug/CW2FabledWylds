@@ -1,7 +1,7 @@
 {
 	id: "610230EA400E1B17"
 	loot_size: 1
-	order_index: 7
+	order_index: 4
 	rewards: [
 		{ id: "28BA6BF9F63C96F2", item: { count: 1, id: "minecraft:dark_oak_sapling" } }
 		{ id: "277325CA37488A3E", item: { count: 1, id: "minecraft:acacia_sapling" } }

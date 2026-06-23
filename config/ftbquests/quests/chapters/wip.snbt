@@ -197,11 +197,6 @@
 					type: "item"
 				}
 				{
-					id: "4264769BD9ADAF4A"
-					item: { }
-					type: "item"
-				}
-				{
 					id: "205CB9BC51733C21"
 					item: { count: 1, id: "enchanted:water_artichoke" }
 					type: "item"
@@ -271,17 +266,6 @@
 			}]
 			x: 0.5d
 			y: 1.0d
-		}
-		{
-			entity_vis_size: 1.0f
-			id: "3FCBC8303D699551"
-			tasks: [{
-				id: "6B2037A41652554A"
-				item: { components: { "ftbquests:missing_item": "spelunkery:salt" }, count: 1, id: "ftbquests:missing_item" }
-				type: "item"
-			}]
-			x: 2.5d
-			y: -7.0d
 		}
 		{
 			dependencies: ["6BE389D26249D046"]
@@ -393,8 +377,8 @@
 				}
 			]
 			tasks: [{
-				id: "300658E94E37A475"
-				item: { }
+				id: "7B8E1B3F9BD5C829"
+				item: { count: 1, id: "hexerei:blood_sigil" }
 				type: "item"
 			}]
 			x: 8.0d
@@ -413,8 +397,8 @@
 				type: "item"
 			}]
 			tasks: [{
-				id: "2F5C7EE0FC118025"
-				item: { }
+				id: "724157BA3D048364"
+				item: { count: 1, id: "hexerei:replacer_satchel" }
 				type: "item"
 			}]
 			x: 12.0d
@@ -525,7 +509,6 @@
 				}
 				{
 					id: "6B0EBD721394C342"
-					table_id: 8808494820591225409L
 					type: "loot"
 				}
 			]
@@ -570,7 +553,6 @@
 				{
 					exclude_from_claim_all: true
 					id: "2AC85FEA2067E850"
-					table_id: 8808494820591225409L
 					type: "choice"
 				}
 			]
@@ -589,7 +571,6 @@
 			id: "056F7888052BBEF2"
 			rewards: [{
 				id: "54DE2B9C9A50D548"
-				table_id: 5161092699925703455L
 				type: "choice"
 			}]
 			tasks: [{
@@ -637,7 +618,6 @@
 			rewards: [
 				{
 					id: "7CF51240572B8CA9"
-					table_id: 6941837675484043489L
 					type: "choice"
 				}
 				{
@@ -672,7 +652,6 @@
 				}
 				{
 					id: "422CAA5D8C6F7490"
-					table_id: 8808494820591225409L
 					type: "choice"
 				}
 			]
@@ -824,7 +803,6 @@
 			rewards: [
 				{
 					id: "17F85BC08E68919E"
-					table_id: 6941837675484043489L
 					type: "choice"
 				}
 				{
@@ -846,7 +824,6 @@
 			id: "2C760E07C84C91F2"
 			rewards: [{
 				id: "31176D1E58F04AE2"
-				table_id: 8808494820591225409L
 				type: "choice"
 			}]
 			tasks: [{
@@ -870,7 +847,6 @@
 				{
 					exclude_from_claim_all: true
 					id: "3444ADFDCFE78AFA"
-					table_id: 8808494820591225409L
 					type: "choice"
 				}
 			]
@@ -1075,7 +1051,6 @@
 			id: "12BD390D5D9BA40F"
 			rewards: [{
 				id: "6D542FA8DCE20339"
-				table_id: 8808494820591225409L
 				type: "choice"
 			}]
 			shape: "hexagon"
@@ -1223,8 +1198,8 @@
 			}]
 			shape: "pentagon"
 			tasks: [{
-				id: "3AD1CBE96AD160E5"
-				item: { }
+				id: "1E9EAC77EF7DDC90"
+				item: { count: 1, id: "enchanted:tongue_of_dog" }
 				type: "item"
 			}]
 			x: 2.5d

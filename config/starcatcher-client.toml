@@ -5,9 +5,6 @@ hit_delay = 0.0
 units = "METRIC"
 #Allowed Values: ALPHABETICAL_UP, ALPHABETICAL_DOWN, MOD_UP, MOD_DOWN, RARITY_UP, RARITY_DOWN, CAUGHT_UP, CAUGHT_DOWN
 sort = "ALPHABETICAL_DOWN"
-#Whether to use the vanilla partial ticks for minigame smoothing or a custom implementation from 1.20
-#Vanilla should look better for most people
-vanilla_partial_ticks = true
 #If enabled the new fish notifications will be removed when hovering on the index, instead of only when visiting the specific fish entry
 remove_notif_on_hover = true
 enable_villager_sound = true

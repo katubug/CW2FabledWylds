@@ -1,0 +1,50 @@
+{
+  "display": {
+    "icon": { "id": "minecraft:acacia_boat" },
+    "title": "Example: All Frame Conditions",
+    "description": "Reference advancement showing every possible field that i know of.",
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": true
+  },
+  "criteria": {
+    "all_conditions": {
+      "trigger": "exposure:frame_printed", //or frame_exposed
+      "conditions": {
+        "frame": {
+          "type": "black_and_white",  //or "color"
+          "photographer": "HeyKatu",
+          "shutter_speed": {          //you can ignore min/max for related fields if you want and only use a bare number
+            "min": "1/250",
+            "max": "1/30"
+          },
+          "focal_length": {
+            "min": 35,
+            "max": 200
+          },
+          "light_level": {
+            "min": 7,
+            "max": 15
+          },
+          "day_time": {
+            "min": 13000,
+            "max": 23000
+          },
+          "entities_in_frame_count": {  //you can ditch "min" and use a bare number if you want
+            "min": 2
+          },
+          "entities_in_frame": [
+            {
+              "type": "twilightforest:lich",
+              "distance": { "max": 10 } //optional
+            },
+            {
+              "type": "minecraft:player"
+            }
+          ],
+          "extra_data": "{selfie:1b,on_stand:1b,biome:\"twilightforest:forest\",weather:\"Clear\",dimension:\"twilightforest:twilight_forest\",structures:[\"twilightforest:lich_tower\"]}" //selfie and on_stand are mutually exclusive
+        }
+      }
+    }
+  }
+}

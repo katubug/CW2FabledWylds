@@ -47,7 +47,6 @@
 				{
 					exclude_from_claim_all: true
 					id: "03E7C7EA0D3FA6C2"
-					table_id: 6941837675484043489L
 					type: "loot"
 				}
 			]
@@ -125,7 +124,6 @@
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "686A7979CF354907"
-				table_id: 6941837675484043489L
 				type: "loot"
 			}]
 			shape: "hexagon"
@@ -239,7 +237,6 @@
 			rewards: [
 				{
 					id: "6401C8FA6FD927CB"
-					table_id: 8808494820591225409L
 					type: "choice"
 				}
 				{
@@ -358,7 +355,6 @@
 				}
 				{
 					id: "3AE665402813BA3B"
-					table_id: 6941837675484043489L
 					type: "choice"
 				}
 				{
@@ -635,7 +631,6 @@
 				{
 					exclude_from_claim_all: true
 					id: "108FCFEFF3CFD90B"
-					table_id: 8808494820591225409L
 					type: "loot"
 				}
 				{
@@ -672,7 +667,6 @@
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "230848B75E85B7EF"
-				table_id: 6941837675484043489L
 				type: "choice"
 			}]
 			tasks: [{
@@ -807,7 +801,6 @@
 				{
 					exclude_from_claim_all: true
 					id: "1AEFC73EF1F13E94"
-					table_id: 6941837675484043489L
 					type: "choice"
 				}
 			]
@@ -877,7 +870,6 @@
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "1F3358EFD33CB978"
-				table_id: 8808494820591225409L
 				type: "loot"
 			}]
 			shape: "rsquare"
@@ -896,7 +888,6 @@
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "7AD07D22F8640FF6"
-				table_id: 5161092699925703455L
 				type: "choice"
 			}]
 			shape: "hexagon"
@@ -1050,7 +1041,6 @@
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "0EA69F9634017BF0"
-				table_id: 6941837675484043489L
 				type: "loot"
 			}]
 			shape: "hexagon"
@@ -1171,7 +1161,6 @@
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "4469F01C2F510F27"
-				table_id: 6046676062417606251L
 				type: "choice"
 			}]
 			shape: "hexagon"
@@ -1326,7 +1315,6 @@
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "11A5E2AE72919C5A"
-				table_id: 8808494820591225409L
 				type: "loot"
 			}]
 			shape: "hexagon"

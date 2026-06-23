@@ -1,20 +1,16 @@
 {
 	id: "4CAFC1E4AA445442"
 	loot_size: 1
-	order_index: 14
+	order_index: 11
 	rewards: [
 		{ id: "3860C95C09C675DC", item: { count: 1, id: "minecraft:nether_star" } }
 		{ id: "24D5E52A8A2F773E", item: { count: 1, id: "minecraft:dragon_egg" } }
-		{ id: "43DF836BDADB7CD7", item: { count: 1, id: "minecraft:netherite_block" } }
 		{
-			count: 4
-			id: "02FD8E4CFECB1951"
+			count: 3
+			id: "43DF836BDADB7CD7"
 			item: {
-				components: {
-					"ftbquests:missing_item": "ends_delight:dragon_tooth"
-				}
 				count: 1
-				id: "ftbquests:missing_item"
+				id: "minecraft:netherite_block"
 			}
 		}
 		{ id: "1185682A788FBA34", item: { count: 1, id: "minecraft:netherite_upgrade_smithing_template" } }

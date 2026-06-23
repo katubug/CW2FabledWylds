@@ -88,14 +88,13 @@
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "1454EE401EB2C400"
-				table_id: 8096229411196850122L
 				type: "loot"
 			}]
 			tasks: [{
 				id: "37177297B282FBC7"
 				type: "checkmark"
 			}]
-			x: 0.0d
+			x: -2.0d
 			y: 0.0d
 		}
 		{
@@ -168,8 +167,8 @@
 				item: { components: { "ftbquests:missing_item": "nethersdelight:soul_compost" }, count: 1, id: "ftbquests:missing_item" }
 				type: "item"
 			}]
-			x: 0.0d
-			y: 0.0d
+			x: -0.5d
+			y: 46.5d
 		}
 		{
 			dependencies: ["773834D44C436587"]
@@ -197,7 +196,6 @@
 			id: "21DDAC7010761BB0"
 			rewards: [{
 				id: "5569F980E496EAF8"
-				table_id: 6941837675484043489L
 				type: "choice"
 			}]
 			tasks: [{
@@ -205,8 +203,8 @@
 				item: { components: { "ftbquests:missing_item": "nethersdelight:warped_moldy_meat" }, count: 1, id: "ftbquests:missing_item" }
 				type: "item"
 			}]
-			x: 0.0d
-			y: 0.0d
+			x: 9.5d
+			y: -1.25d
 		}
 		{
 			entity_vis_size: 1.0f
@@ -226,7 +224,7 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: 0.0d
+			y: 50.75d
 		}
 		{
 			dependencies: ["773834D44C436587"]
@@ -272,7 +270,6 @@
 				{
 					exclude_from_claim_all: true
 					id: "6E5B53D0680A4A6A"
-					table_id: 8096229411196850122L
 					type: "loot"
 				}
 			]
@@ -334,7 +331,6 @@
 			id: "3975B8BC61249AF4"
 			rewards: [{
 				id: "04563981AA1F1159"
-				table_id: 8808494820591225409L
 				type: "choice"
 			}]
 			tasks: [{
@@ -480,7 +476,6 @@
 			id: "1984CA53390BA48B"
 			rewards: [{
 				id: "0D0A7987CBA65F84"
-				table_id: 6941837675484043489L
 				type: "choice"
 			}]
 			shape: "hexagon"
@@ -508,8 +503,8 @@
 				item: { count: 1, id: "farmersdelight:cutting_board" }
 				type: "item"
 			}]
-			x: 0.0d
-			y: 0.0d
+			x: -3.5d
+			y: 13.25d
 		}
 		{
 			dependencies: ["2615CD06E32EC741"]
@@ -544,7 +539,6 @@
 				}
 				{
 					id: "43D7D0DF5EF78A79"
-					table_id: 8808494820591225409L
 					type: "loot"
 				}
 			]
@@ -660,7 +654,6 @@
 			rewards: [
 				{
 					id: "3195D1AE38C213AB"
-					table_id: 8808494820591225409L
 					type: "loot"
 				}
 				{
@@ -722,7 +715,6 @@
 			id: "1A9E6F1B730A4F17"
 			rewards: [{
 				id: "2B2675CDE782F15B"
-				table_id: 8808494820591225409L
 				type: "choice"
 			}]
 			shape: "hexagon"
@@ -741,7 +733,6 @@
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "10DC42C107D9FA11"
-				table_id: 8096229411196850122L
 				type: "choice"
 			}]
 			shape: "hexagon"
@@ -805,7 +796,6 @@
 				{
 					exclude_from_claim_all: true
 					id: "1DEE4BA4AB4802DC"
-					table_id: 8808494820591225409L
 					type: "choice"
 				}
 				{
@@ -823,8 +813,8 @@
 				type: "stat"
 				value: 70
 			}]
-			x: 0.0d
-			y: 0.0d
+			x: 6.75d
+			y: -4.5d
 		}
 		{
 			entity_vis_size: 1.0f
@@ -881,8 +871,8 @@
 				id: "0D13DAED0731D633"
 				type: "advancement"
 			}]
-			x: 0.0d
-			y: 0.0d
+			x: 8.25d
+			y: -4.5d
 		}
 		{
 			dependencies: ["2615CD06E32EC741"]
@@ -919,7 +909,6 @@
 				{
 					exclude_from_claim_all: true
 					id: "5001AB54E4EC8D8C"
-					table_id: 8808494820591225409L
 					type: "choice"
 				}
 			]
@@ -977,7 +966,6 @@
 				{
 					exclude_from_claim_all: true
 					id: "2A2D43393E9BD663"
-					table_id: 8808494820591225409L
 					type: "choice"
 				}
 				{
@@ -1035,13 +1023,11 @@
 				{
 					exclude_from_claim_all: true
 					id: "7C4BD4C11506A6C9"
-					table_id: 8096229411196850122L
 					type: "loot"
 				}
 				{
 					exclude_from_claim_all: true
 					id: "3FEFD88FFD11D93E"
-					table_id: 5161092699925703455L
 					type: "loot"
 				}
 				{
@@ -1139,7 +1125,7 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: 0.0d
+			y: -1.75d
 		}
 		{
 			entity_vis_size: 1.0f
@@ -1205,7 +1191,6 @@
 				{
 					exclude_from_claim_all: true
 					id: "50A025BAEC58D43F"
-					table_id: 5161092699925703455L
 					type: "choice"
 				}
 			]
@@ -1214,8 +1199,8 @@
 				item: { components: { "ftbquests:missing_item": "ends_delight:half_dragon_egg_shell" }, count: 1, id: "ftbquests:missing_item" }
 				type: "item"
 			}]
-			x: 0.0d
-			y: 0.0d
+			x: -0.5d
+			y: 57.0d
 		}
 		{
 			dependencies: ["16ECF08D421359AC"]
@@ -1676,13 +1661,11 @@
 				{
 					exclude_from_claim_all: true
 					id: "5932DAAECB7D5607"
-					table_id: 8096229411196850122L
 					type: "loot"
 				}
 				{
 					exclude_from_claim_all: true
 					id: "465252E99016B9B1"
-					table_id: 8808494820591225409L
 					type: "loot"
 				}
 			]
@@ -1720,13 +1703,11 @@
 				{
 					exclude_from_claim_all: true
 					id: "65BF89B1141BC952"
-					table_id: 8808494820591225409L
 					type: "loot"
 				}
 				{
 					exclude_from_claim_all: true
 					id: "2BC9F725B2CF6BB8"
-					table_id: 8096229411196850122L
 					type: "loot"
 				}
 			]
@@ -1754,7 +1735,6 @@
 				{
 					exclude_from_claim_all: true
 					id: "6D94C4E3E576D953"
-					table_id: 5161092699925703455L
 					type: "loot"
 				}
 				{
@@ -2030,13 +2010,11 @@
 				{
 					exclude_from_claim_all: true
 					id: "38D234C88D3E2B5A"
-					table_id: 8096229411196850122L
 					type: "loot"
 				}
 				{
 					exclude_from_claim_all: true
 					id: "43F87593A57FD77D"
-					table_id: 8808494820591225409L
 					type: "loot"
 				}
 				{
@@ -2095,7 +2073,6 @@
 				{
 					exclude_from_claim_all: true
 					id: "276EA674AD33BCB2"
-					table_id: 8096229411196850122L
 					type: "loot"
 				}
 				{
@@ -2214,8 +2191,8 @@
 					type: "item"
 				}
 			]
-			x: 0.0d
-			y: 0.0d
+			x: -0.75d
+			y: 31.5d
 		}
 		{
 			dependencies: ["34581095B797C667"]
@@ -2310,7 +2287,6 @@
 				{
 					exclude_from_claim_all: true
 					id: "6E2D0B5A9B97B3A8"
-					table_id: 6941837675484043489L
 					type: "choice"
 				}
 				{
@@ -2358,7 +2334,6 @@
 				{
 					exclude_from_claim_all: true
 					id: "60E0E8DD9EF7203D"
-					table_id: 6941837675484043489L
 					type: "choice"
 				}
 				{
@@ -2480,13 +2455,11 @@
 				{
 					exclude_from_claim_all: true
 					id: "0DC27313DA58BCD2"
-					table_id: 8096229411196850122L
 					type: "loot"
 				}
 				{
 					exclude_from_claim_all: true
 					id: "66EA45FB2B5458FE"
-					table_id: 8808494820591225409L
 					type: "choice"
 				}
 			]
@@ -2520,7 +2493,6 @@
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "2B70743B657CF73B"
-				table_id: 8808494820591225409L
 				type: "choice"
 			}]
 			shape: "octagon"
@@ -2541,7 +2513,6 @@
 				{
 					exclude_from_claim_all: true
 					id: "11050524B4245BFE"
-					table_id: 8096229411196850122L
 					type: "loot"
 				}
 				{
@@ -2559,35 +2530,6 @@
 			}]
 			x: 2.0d
 			y: -5.0d
-		}
-		{
-			entity_vis_size: 1.0f
-			id: "723C5BE92D3B2177"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "6BEDB2215CF38F54"
-				table_id: 8096229411196850122L
-				type: "choice"
-			}]
-			tasks: [
-				{
-					id: "4078CE01E5FE45F8"
-					item: { components: { "ftbquests:missing_item": "candlelight:napkin" }, count: 1, id: "ftbquests:missing_item" }
-					type: "item"
-				}
-				{
-					id: "3D70553D07947553"
-					item: { components: { "ftbquests:missing_item": "candlelight:glass" }, count: 1, id: "ftbquests:missing_item" }
-					type: "item"
-				}
-				{
-					id: "4A8899C4FAFBA63A"
-					item: { components: { "ftbquests:missing_item": "candlelight:plate" }, count: 1, id: "ftbquests:missing_item" }
-					type: "item"
-				}
-			]
-			x: 0.0d
-			y: 0.0d
 		}
 		{
 			entity_vis_size: 1.0f
@@ -2643,8 +2585,8 @@
 					type: "item"
 				}
 			]
-			x: 0.0d
-			y: 0.0d
+			x: 9.75d
+			y: -3.0d
 		}
 		{
 			dependencies: ["4051209155C0D4C0"]
@@ -2653,7 +2595,6 @@
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "06330CEF8D9E8518"
-				table_id: 8808494820591225409L
 				type: "choice"
 			}]
 			shape: "hexagon"
@@ -2671,7 +2612,6 @@
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "155393B7899D37FA"
-				table_id: 8096229411196850122L
 				type: "loot"
 			}]
 			tasks: [
@@ -2687,7 +2627,7 @@
 				}
 			]
 			x: 0.0d
-			y: 0.0d
+			y: -9.0d
 		}
 		{
 			entity_vis_size: 1.0f
@@ -2695,7 +2635,6 @@
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "136E5BBB53667A17"
-				table_id: 6941837675484043489L
 				type: "choice"
 			}]
 			tasks: [{
@@ -2703,8 +2642,8 @@
 				item: { count: 1, id: "bakery:kitchen_sink" }
 				type: "item"
 			}]
-			x: 0.0d
-			y: 0.0d
+			x: 6.25d
+			y: -6.5d
 		}
 		{
 			entity_vis_size: 1.0f
@@ -2713,7 +2652,6 @@
 				{
 					exclude_from_claim_all: true
 					id: "63711A7967D1F8F5"
-					table_id: 8096229411196850122L
 					type: "loot"
 				}
 				{
@@ -2784,8 +2722,8 @@
 				item: { }
 				type: "item"
 			}]
-			x: 0.0d
-			y: 0.0d
+			x: -1.5d
+			y: -13.5d
 		}
 		{
 			dependencies: ["207C60DC8889AC0F"]
@@ -2802,8 +2740,8 @@
 			}]
 			shape: "hexagon"
 			tasks: [{
-				id: "6FB9DA3EF6BFB103"
-				item: { }
+				id: "6193EF824F41DFF7"
+				item: { count: 1, id: "bakery:chocolate_jam" }
 				type: "item"
 			}]
 			x: 0.0d
@@ -2823,8 +2761,8 @@
 			}]
 			shape: "hexagon"
 			tasks: [{
-				id: "4906A64ECC5CE90F"
-				item: { }
+				id: "37529996F0B61545"
+				item: { count: 1, id: "bakery:strawberry_jam" }
 				type: "item"
 			}]
 			x: -2.5d
@@ -2872,8 +2810,8 @@
 			}]
 			shape: "hexagon"
 			tasks: [{
-				id: "299FAD27ED1A3E6A"
-				item: { }
+				id: "7CF1A9ECB277FFE9"
+				item: { count: 1, id: "bakery:chocolate_cake" }
 				type: "item"
 			}]
 			x: 2.5d
@@ -2899,11 +2837,6 @@
 					type: "item"
 				}
 				{
-					id: "4889A71CD6739882"
-					item: { }
-					type: "item"
-				}
-				{
 					id: "4A418C6CFA46ED20"
 					item: { count: 1, id: "bakery:tray" }
 					type: "item"
@@ -2911,6 +2844,11 @@
 				{
 					id: "1ADDD8A49740F7C4"
 					item: { count: 1, id: "bakery:breadbox" }
+					type: "item"
+				}
+				{
+					id: "3FF7B2EFA8EDB7A1"
+					item: { count: 1, id: "bakery:cupcake_display" }
 					type: "item"
 				}
 			]
@@ -2924,7 +2862,6 @@
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "3BF18510604E48CA"
-				table_id: 8096229411196850122L
 				type: "choice"
 			}]
 			shape: "hexagon"
@@ -2935,23 +2872,6 @@
 			}]
 			x: 0.0d
 			y: -5.5d
-		}
-		{
-			entity_vis_size: 1.0f
-			id: "16DE5B688A07CB3E"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "423F7416E83082EC"
-				table_id: 8096229411196850122L
-				type: "loot"
-			}]
-			tasks: [{
-				id: "50E838488969247F"
-				item: { components: { "ftbquests:missing_item": "candlelight:pasta_with_bolognese" }, count: 1, id: "ftbquests:missing_item" }
-				type: "item"
-			}]
-			x: 0.0d
-			y: 0.0d
 		}
 		{
 			dependencies: ["6164AA637455604E"]
@@ -2993,7 +2913,6 @@
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "0F21D82177D7292E"
-				table_id: 8096229411196850122L
 				type: "choice"
 			}]
 			tasks: [{
@@ -3001,8 +2920,8 @@
 				item: { count: 1, id: "farm_and_charm:butter" }
 				type: "item"
 			}]
-			x: 0.0d
-			y: 0.0d
+			x: 6.75d
+			y: -1.25d
 		}
 		{
 			dependencies: ["6EFFB8ED37DC8A47"]
@@ -3071,7 +2990,6 @@
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "75795A258B8B822B"
-				table_id: 8096229411196850122L
 				type: "choice"
 			}]
 			shape: "hexagon"
@@ -3181,11 +3099,6 @@
 				{
 					id: "15D389A6DFEF6348"
 					item: { count: 1, id: "farm_and_charm:crafting_bowl" }
-					type: "item"
-				}
-				{
-					id: "64CFF9AE0E9DA631"
-					item: { }
 					type: "item"
 				}
 				{

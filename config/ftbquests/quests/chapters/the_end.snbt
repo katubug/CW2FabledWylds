@@ -22,7 +22,6 @@
 			rewards: [
 				{
 					id: "7B03ECB960F43CA2"
-					table_id: 6941837675484043489L
 					type: "loot"
 				}
 				{
@@ -413,7 +412,6 @@
 			rewards: [
 				{
 					id: "76EADCCD9FC6E5A3"
-					table_id: 5161092699925703455L
 					type: "loot"
 				}
 				{
@@ -485,7 +483,6 @@
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "7CFD6120F390B909"
-				table_id: 5161092699925703455L
 				type: "choice"
 			}]
 			shape: "octagon"
@@ -507,7 +504,6 @@
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "51B635373F6F6EB7"
-				table_id: 8808494820591225409L
 				type: "loot"
 			}]
 			shape: "octagon"
@@ -551,7 +547,6 @@
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "359642B35E39A222"
-				table_id: 5161092699925703455L
 				type: "choice"
 			}]
 			shape: "octagon"

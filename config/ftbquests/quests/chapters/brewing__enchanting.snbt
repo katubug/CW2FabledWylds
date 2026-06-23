@@ -96,7 +96,6 @@
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "67D52267371BA063"
-				table_id: 8808494820591225409L
 				type: "choice"
 			}]
 			shape: "hexagon"
@@ -115,7 +114,6 @@
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "0F6A8A82324D10DF"
-				table_id: 8808494820591225409L
 				type: "choice"
 			}]
 			tasks: [{
@@ -133,7 +131,6 @@
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "29EEF4D9FF6743B9"
-				table_id: 8808494820591225409L
 				type: "choice"
 			}]
 			tasks: [{
@@ -150,7 +147,6 @@
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "03B7293DF489633F"
-				table_id: 8808494820591225409L
 				type: "choice"
 			}]
 			tasks: [{
@@ -158,8 +154,8 @@
 				item: { components: { "ftbquests:missing_item": "experienceobelisk:precision_dispeller" }, count: 1, id: "ftbquests:missing_item" }
 				type: "item"
 			}]
-			x: 0.0d
-			y: 0.0d
+			x: 6.0d
+			y: -2.5d
 		}
 		{
 			dependencies: ["34EA3E4BDBDF02ED"]
@@ -244,7 +240,6 @@
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "07948779ECE88436"
-				table_id: 8808494820591225409L
 				type: "choice"
 			}]
 			shape: "hexagon"
@@ -272,7 +267,6 @@
 				{
 					exclude_from_claim_all: true
 					id: "3D3E7739EAA56686"
-					table_id: 8808494820591225409L
 					type: "choice"
 				}
 			]

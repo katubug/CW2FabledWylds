@@ -1,7 +1,7 @@
 {
 	id: "61D327FF1D169B5B"
 	loot_size: 2
-	order_index: 12
+	order_index: 9
 	rewards: [
 		{ id: "220F19BFCB3F5085", item: { count: 1, id: "minecraft:cat_spawn_egg" } }
 		{ id: "2B9F82A824A756FA", item: { count: 1, id: "minecraft:cow_spawn_egg" } }

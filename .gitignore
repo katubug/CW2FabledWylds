@@ -7,3 +7,5 @@ config/ftbchunks-client.snbt
 config/jei/world/local/New_World__4/lookupHistory.json
 config/jei/ingredient-list-mod-sort-order.ini
 /config/jei/world/local
+*.bak
+config/spark/activity.json

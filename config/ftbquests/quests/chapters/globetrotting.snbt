@@ -91,7 +91,6 @@
 				{
 					exclude_from_claim_all: true
 					id: "671D5BBAE0D14A63"
-					table_id: 5161092699925703455L
 					type: "loot"
 				}
 				{
@@ -192,7 +191,6 @@
 			rewards: [
 				{
 					id: "3697431A62122609"
-					table_id: 6941837675484043489L
 					type: "loot"
 				}
 				{
@@ -250,7 +248,7 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: 0.0d
+			y: -0.25d
 		}
 		{
 			dependencies: ["722C9A16509E524B"]
@@ -321,7 +319,6 @@
 			id: "133D48874069E59B"
 			rewards: [{
 				id: "42B9AB11D9E3ABCD"
-				table_id: 6941837675484043489L
 				type: "choice"
 			}]
 			shape: "hexagon"
@@ -339,7 +336,6 @@
 			id: "7527E0A9EF5C3697"
 			rewards: [{
 				id: "2C983FA06FB6C836"
-				table_id: 6941837675484043489L
 				type: "choice"
 			}]
 			shape: "hexagon"
@@ -357,7 +353,6 @@
 			id: "2E1A6A93F48AAF58"
 			rewards: [{
 				id: "3178D82564BA7BD9"
-				table_id: 8808494820591225409L
 				type: "choice"
 			}]
 			shape: "hexagon"
@@ -375,7 +370,6 @@
 			id: "7B4772B066474C41"
 			rewards: [{
 				id: "16E016B66087E8AC"
-				table_id: 6941837675484043489L
 				type: "choice"
 			}]
 			shape: "hexagon"
@@ -393,7 +387,6 @@
 			id: "2E07A04D5589B674"
 			rewards: [{
 				id: "102031CA994CF7D6"
-				table_id: 8808494820591225409L
 				type: "choice"
 			}]
 			shape: "hexagon"
@@ -430,25 +423,6 @@
 		}
 		{
 			entity_vis_size: 1.0f
-			id: "78A442C5CCB7BF47"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "4907DA9834645C93"
-				table_id: 8808494820591225409L
-				type: "loot"
-			}]
-			shape: "octagon"
-			tasks: [{
-				advancement: "minecraft:story/root"
-				criterion: ""
-				id: "15A19A39523CAD26"
-				type: "advancement"
-			}]
-			x: 0.0d
-			y: 11.0d
-		}
-		{
-			entity_vis_size: 1.0f
 			id: "13C0DC76BB0AD7CB"
 			rewards: [{
 				id: "014A6853173CF7AD"
@@ -477,7 +451,6 @@
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "56B52A1C6631F963"
-				table_id: 6941837675484043489L
 				type: "choice"
 			}]
 			shape: "octagon"
@@ -645,7 +618,6 @@
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "7D325F453C9AB874"
-				table_id: 8808494820591225409L
 				type: "choice"
 			}]
 			shape: "octagon"
@@ -666,7 +638,6 @@
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "2D840AA333F7E2AF"
-				table_id: 8808494820591225409L
 				type: "choice"
 			}]
 			tasks: [{
@@ -677,8 +648,8 @@
 				structure: "betterwitchhuts:witch_hut"
 				type: "structure"
 			}]
-			x: 0.0d
-			y: 0.0d
+			x: 11.0d
+			y: 0.75d
 		}
 		{
 			entity_vis_size: 1.0f
@@ -751,7 +722,6 @@
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "7709B423E58187C9"
-				table_id: 6941837675484043489L
 				type: "choice"
 			}]
 			shape: "octagon"
@@ -772,7 +742,6 @@
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "612D3D734EC1D152"
-				table_id: 6941837675484043489L
 				type: "choice"
 			}]
 			shape: "octagon"
@@ -793,7 +762,6 @@
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "7AF8F1BE2A632C64"
-				table_id: 6941837675484043489L
 				type: "choice"
 			}]
 			shape: "octagon"
@@ -814,7 +782,6 @@
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "315D08B241C570D7"
-				table_id: 6941837675484043489L
 				type: "choice"
 			}]
 			shape: "octagon"
@@ -852,6 +819,25 @@
 			}]
 			x: 6.5d
 			y: -2.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "72CE099C5784339A"
+			rewards: [{
+				id: "08E756EA9F81004B"
+				item: {
+					count: 1
+					id: "fieldguide:field_guide"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "1215A5A14FC6FDB6"
+				item: { count: 1, id: "minecraft:spyglass" }
+				type: "item"
+			}]
+			x: 6.75d
+			y: 11.25d
 		}
 	]
 }

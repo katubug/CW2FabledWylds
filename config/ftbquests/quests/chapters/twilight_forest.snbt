@@ -154,7 +154,6 @@
 			rewards: [
 				{
 					id: "4C02CF218E659553"
-					table_id: 6941837675484043489L
 					type: "choice"
 				}
 				{
@@ -179,7 +178,6 @@
 			rewards: [
 				{
 					id: "0DF298E510FEE5B8"
-					table_id: 6941837675484043489L
 					type: "choice"
 				}
 				{
@@ -349,12 +347,10 @@
 			rewards: [
 				{
 					id: "58DC59194FD2B38E"
-					table_id: 5161092699925703455L
 					type: "loot"
 				}
 				{
 					id: "71EF3889F128E564"
-					table_id: 5161092699925703455L
 					type: "loot"
 				}
 			]
@@ -375,7 +371,6 @@
 			id: "1B8E61A0872EEA1C"
 			rewards: [{
 				id: "2545DFB3D90982C3"
-				table_id: 6941837675484043489L
 				type: "choice"
 			}]
 			tasks: [{
@@ -471,12 +466,10 @@
 			rewards: [
 				{
 					id: "04DA991BC07CEDE9"
-					table_id: 5161092699925703455L
 					type: "loot"
 				}
 				{
 					id: "7992840F40B17A89"
-					table_id: 5161092699925703455L
 					type: "loot"
 				}
 			]
@@ -545,7 +538,6 @@
 			id: "41CBB146259DAF34"
 			rewards: [{
 				id: "27D5E4B9499E2336"
-				table_id: 8808494820591225409L
 				type: "loot"
 			}]
 			tasks: [{
@@ -614,7 +606,6 @@
 			rewards: [
 				{
 					id: "01398B9B50D833E9"
-					table_id: 8808494820591225409L
 					type: "choice"
 				}
 				{

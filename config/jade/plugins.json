@@ -116,10 +116,21 @@
   "contactquests": {
     "mailbox_team_info": true
   },
+  "kaleidoscope_cookery": {
+    "chopping_board": true,
+    "shawarma_spit": true,
+    "recipe_block": true,
+    "food_bite_block": true,
+    "millstone": true,
+    "enamel_basin": true
+  },
   "easy_villagers": {
     "villager": true,
     "converter": true,
     "breeder": true
+  },
+  "pipez": {
+    "pipe": true
   },
   "betterend": {
     "plant_growth": true
@@ -140,5 +151,9 @@
   },
   "waystones": {
     "waystone": true
+  },
+  "item_descriptions": {
+    "block_descriptions": true,
+    "entity_descriptions": true
   }
 }

@@ -29,8 +29,8 @@
 				type: "stat"
 				value: 1
 			}]
-			x: -1.5d
-			y: 5.5d
+			x: 1.5d
+			y: -4.0d
 		}
 		{
 			entity_vis_size: 1.0f
@@ -50,8 +50,8 @@
 				id: "76B325FD29C28A89"
 				type: "checkmark"
 			}]
-			x: 0.0d
-			y: 3.0d
+			x: 0.25d
+			y: -5.25d
 		}
 		{
 			entity_vis_size: 1.0f
@@ -72,8 +72,8 @@
 				id: "7E81775B3B389373"
 				type: "checkmark"
 			}]
-			x: 2.0d
-			y: 4.0d
+			x: 2.5d
+			y: -6.0d
 		}
 		{
 			entity_vis_size: 1.0f
@@ -133,8 +133,68 @@
 				item: { components: { "ftbquests:missing_item": "itemfilters:tag" }, count: 1, id: "ftbquests:missing_item" }
 				type: "item"
 			}]
-			x: -3.0d
-			y: -13.0d
+			x: 2.5d
+			y: -9.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "54B176A22CBFD31F"
+			tasks: [{
+				icon: {
+					id: "delighto_flight:cloud"
+				}
+				id: "6F9F475D66C1EE83"
+				structure: "delighto_flight:cloud_island"
+				type: "structure"
+			}]
+			x: -1.75d
+			y: -5.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "77CCC4FD3E93E79C"
+			rewards: [{
+				id: "2A258AF7821E4415"
+				item: {
+					count: 1
+					id: "minecraft:brush"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity_vis_idle_mode: "USE_GLOBAL"
+				entity_vis_offset_x: 0.0f
+				entity_vis_offset_y: 0.0f
+				entity_vis_rotation: 0.0f
+				entity_vis_silhouette_mode: "NONE"
+				entity_vis_size: 1.0f
+				entity_vis_spin_mode: "USE_GLOBAL"
+				entity_vis_use_as_quest_icon: false
+				entity_vis_walk_mode: "USE_GLOBAL"
+				icon: {
+					id: "minecraft:suspicious_gravel"
+				}
+				id: "081CB8C8D3170C0B"
+				observation_type: "block"
+				observe_type: 0
+				timer: 0L
+				to_observe: "minecraft:suspicious_gravel"
+				type: "observation"
+			}]
+			x: -0.75d
+			y: -7.75d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "3AC8C2A12201C798"
+			tasks: [{
+				advancement: "kubejs:photography/photographed_lich"
+				criterion: ""
+				id: "3D88CEB1C08D02F3"
+				type: "advancement"
+			}]
+			x: -0.75d
+			y: -10.25d
 		}
 	]
 }

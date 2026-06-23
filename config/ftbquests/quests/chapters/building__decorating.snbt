@@ -53,7 +53,6 @@
 			rewards: [
 				{
 					id: "31D2BCCAA5AF5BA4"
-					table_id: 6941837675484043489L
 					type: "loot"
 				}
 				{
@@ -83,7 +82,6 @@
 			id: "7CB901D8FE793DF6"
 			rewards: [{
 				id: "47CF7C0058F220DE"
-				table_id: 6941837675484043489L
 				type: "loot"
 			}]
 			shape: "hexagon"
@@ -94,25 +92,6 @@
 			}]
 			x: -3.5d
 			y: -3.0d
-		}
-		{
-			entity_vis_size: 1.0f
-			id: "567E7D29BF4EAEFA"
-			rewards: [{
-				id: "4A0D079D28713974"
-				item: {
-					count: 1
-					id: "reliquary:lantern_of_paranoia"
-				}
-				type: "item"
-			}]
-			tasks: [{
-				id: "312129CECD99EE4F"
-				item: { count: 1, id: "minecraft:lantern" }
-				type: "item"
-			}]
-			x: -3.25d
-			y: -1.0d
 		}
 		{
 			entity_vis_size: 1.0f
@@ -197,12 +176,10 @@
 			rewards: [
 				{
 					id: "4B4F32018B536A56"
-					table_id: 6941837675484043489L
 					type: "loot"
 				}
 				{
 					id: "2ACFC13D9A34245B"
-					table_id: 8808494820591225409L
 					type: "loot"
 				}
 			]
@@ -241,7 +218,6 @@
 			id: "7E936E10896FA3D5"
 			rewards: [{
 				id: "232541D9C3D4F184"
-				table_id: 6941837675484043489L
 				type: "choice"
 			}]
 			shape: "hexagon"
@@ -258,13 +234,12 @@
 			id: "0E28D4A9544EAF0E"
 			rewards: [{
 				id: "5355BCF70B7F29BE"
-				table_id: 6941837675484043489L
 				type: "loot"
 			}]
 			shape: "hexagon"
 			tasks: [{
-				id: "3362A4576A8BF89C"
-				item: { components: { "ftbfiltersystem:filter": "or(item_tag(supplementaries:sign_posts))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				id: "75751F421D491480"
+				item: { components: { "ftbfiltersystem:filter": "or(item_tag(supplementaries:way_signs))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
 			x: 0.5d
@@ -338,7 +313,6 @@
 			id: "15781BD4547097E9"
 			rewards: [{
 				id: "47EEDE998B2D4F94"
-				table_id: 6941837675484043489L
 				type: "choice"
 			}]
 			tasks: [
@@ -571,30 +545,12 @@
 			]
 			shape: "hexagon"
 			tasks: [{
-				id: "79BC1FC3F6464004"
-				item: { components: { "ftbquests:missing_item": "astikorcarts:supply_cart" }, count: 1, id: "ftbquests:missing_item" }
+				id: "78C78F7096008948"
+				item: { components: { "ftbfiltersystem:filter": "or(item(astikorcartsredux:oak_supply_cart)item(astikorcartsredux:spruce_supply_cart)item(astikorcartsredux:birch_supply_cart)item(astikorcartsredux:acacia_supply_cart)item(astikorcartsredux:cherry_supply_cart)item(astikorcartsredux:jungle_supply_cart)item(astikorcartsredux:dark_oak_supply_cart)item(astikorcartsredux:crimson_supply_cart)item(astikorcartsredux:warped_supply_cart)item(astikorcartsredux:mangrove_supply_cart)item(astikorcartsredux:bamboo_supply_cart))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
 			x: 3.0d
 			y: 5.5d
-		}
-		{
-			entity_vis_size: 1.0f
-			id: "1B32E8DD0C5CD3A9"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "3AB1FCAE0E6CE307"
-				table_id: 8096229411196850122L
-				type: "choice"
-			}]
-			shape: "hexagon"
-			tasks: [{
-				id: "13E317C0953F4D4A"
-				item: { components: { "ftbfiltersystem:filter": "or(item(chimes:bamboo_chimes)item(chimes:iron_chimes)item(chimes:carved_bamboo_chimes)item(chimes:copper_chimes)item(chimes:amethyst_chimes)item(chimes:glass_bells))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
-				type: "item"
-			}]
-			x: 2.0d
-			y: 7.5d
 		}
 		{
 			entity_vis_size: 1.0f
@@ -705,7 +661,6 @@
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "7DD7243213C5D605"
-				table_id: 6941837675484043489L
 				type: "choice"
 			}]
 			shape: "hexagon"
@@ -761,8 +716,8 @@
 			}]
 			shape: "hexagon"
 			tasks: [{
-				id: "6316E05063A101EB"
-				item: { components: { "ftbquests:missing_item": "easel_does_it:easel" }, count: 1, id: "ftbquests:missing_item" }
+				id: "1FC5503465366871"
+				item: { count: 1, id: "easel_does_it:easel" }
 				type: "item"
 			}]
 			x: 0.0d

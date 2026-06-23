@@ -356,6 +356,14 @@
 					}
 					type: "item"
 				}
+				{
+					id: "37867CC5226A03B1"
+					item: {
+						count: 1
+						id: "minecraft:spyglass"
+					}
+					type: "item"
+				}
 			]
 			shape: "rsquare"
 			size: 3.0d
@@ -412,20 +420,35 @@
 			dependencies: ["293AFFA188D96753"]
 			entity_vis_size: 1.0f
 			id: "289832F0B384ABA7"
-			rewards: [{
-				blessing: "恭喜发财"
-				exclude_from_claim_all: true
-				id: "70784A4BE7A68771"
-				is_ender: false
-				is_team_reward: false
-				item: {
-					count: 1
-					id: "contactquests:team_binding_card"
+			rewards: [
+				{
+					blessing: "恭喜发财"
+					exclude_from_claim_all: true
+					id: "70784A4BE7A68771"
+					is_ender: false
+					is_team_reward: false
+					item: {
+						count: 1
+						id: "contactquests:team_binding_card"
+					}
+					target_addressee: "QuestNPC"
+					team_reward_multiplier: 1.0f
+					type: "contactquests:red_packet"
 				}
-				target_addressee: "QuestNPC"
-				team_reward_multiplier: 1.0f
-				type: "contactquests:red_packet"
-			}]
+				{
+					exclude_from_claim_all: true
+					id: "5449A435C1A12166"
+					is_ender: false
+					is_team_reward: false
+					item: {
+						count: 1
+						id: "exposure:color_film"
+					}
+					target_addressee: "QuestNPC"
+					team_reward_multiplier: 1.0f
+					type: "contactquests:parcel"
+				}
+			]
 			shape: "gear"
 			tasks: [{
 				id: "136E69B7BC1A6A0A"
@@ -621,7 +644,6 @@
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "2816B47FBE25570D"
-				table_id: 5161092699925703455L
 				type: "random"
 			}]
 			tasks: [{
@@ -643,7 +665,6 @@
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "4A03B2AB64A80391"
-				table_id: 8808494820591225409L
 				type: "choice"
 			}]
 			shape: "octagon"

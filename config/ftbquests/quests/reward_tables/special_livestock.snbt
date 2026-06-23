@@ -1,7 +1,7 @@
 {
 	id: "232BC82EEB69EF30"
 	loot_size: 3
-	order_index: 25
+	order_index: 21
 	rewards: [
 		{ id: "48C8AFF2F4E11E67", item: { count: 1, id: "meadow:water_buffalo_spawn_egg" } }
 		{ id: "048CEBD9B9EF5FF0", item: { components: { "ftbquests:missing_item": "meadow:wooly_cow_spawn_egg" }, count: 1, id: "ftbquests:missing_item" } }

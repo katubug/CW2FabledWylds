@@ -1,7 +1,7 @@
 {
 	id: "0319AB71DBC9C144"
 	loot_size: 4
-	order_index: 8
+	order_index: 5
 	rewards: [
 		{ id: "004B63145F8E2D4B", item: { count: 1, id: "minecraft:skeleton_skull" } }
 		{

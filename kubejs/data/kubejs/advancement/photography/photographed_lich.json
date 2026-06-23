@@ -1,0 +1,30 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:acacia_boat"
+    },
+    "title": "Lich Selfie",
+    "description": "take a selfie with the lich",
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": true
+  },
+  "criteria": {
+    "lich_selfie": {
+      "trigger": "exposure:frame_printed",
+      "conditions": {
+        "frame": {
+          "entities_in_frame": [
+            {
+              "type": "twilightforest:lich"
+            },
+            {
+              "type": "minecraft:player"
+            }
+          ],
+          "extra_data": "{selfie:1b}"
+        }
+      }
+    }
+  }
+}

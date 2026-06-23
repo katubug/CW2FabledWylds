@@ -860,7 +860,6 @@
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "7BDD8E140937FCD4"
-				table_id: 8808494820591225409L
 				type: "loot"
 			}]
 			tasks: [{
@@ -895,7 +894,6 @@
 				{
 					exclude_from_claim_all: true
 					id: "3E00FDD3736F7AE4"
-					table_id: 8808494820591225409L
 					type: "loot"
 				}
 			]

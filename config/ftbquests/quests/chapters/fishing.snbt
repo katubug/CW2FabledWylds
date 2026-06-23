@@ -73,7 +73,7 @@
 			}]
 			tasks: [{
 				id: "31C0E2D79BFDF837"
-				item: { count: 1, id: "tide:iron_fishing_hook" }
+				item: { components: { "ftbquests:missing_item": "tide:iron_fishing_hook" }, count: 1, id: "ftbquests:missing_item" }
 				type: "item"
 			}]
 			x: -4.0d
@@ -127,7 +127,6 @@
 				{
 					exclude_from_claim_all: true
 					id: "551C86E899306ABB"
-					table_id: 8808494820591225409L
 					type: "loot"
 				}
 				{
