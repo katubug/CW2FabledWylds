@@ -271,8 +271,48 @@
 					type: "item"
 				}
 				{
-					id: "51FAD651FF5E59E6"
-					item: { }
+					id: "673CB48785C1C293"
+					item: { count: 1, id: "minecraft:music_disc_creator_music_box" }
+					type: "item"
+				}
+				{
+					id: "1FB97214D7A650C5"
+					item: { count: 1, id: "minecraft:music_disc_tears" }
+					type: "item"
+				}
+				{
+					id: "07229599D909D9F8"
+					item: { count: 1, id: "minecraft:music_disc_creator" }
+					type: "item"
+				}
+				{
+					id: "37EDF708A2A63EAE"
+					item: { count: 1, id: "minecraft:music_disc_precipice" }
+					type: "item"
+				}
+				{
+					id: "5B74D58DD44A517B"
+					item: { count: 1, id: "minecraft:music_disc_relic" }
+					type: "item"
+				}
+				{
+					id: "5B736F707EAE433E"
+					item: { count: 1, id: "minecraft:music_disc_lava_chicken" }
+					type: "item"
+				}
+				{
+					id: "0CE3953FD17CB223"
+					item: { count: 1, id: "minecraft:music_disc_bounce" }
+					type: "item"
+				}
+				{
+					id: "6112BE0282C0D982"
+					item: { count: 1, id: "minecraft:music_disc_5" }
+					type: "item"
+				}
+				{
+					id: "01AE01333344C038"
+					item: { count: 1, id: "minecraft:music_disc_pigstep" }
 					type: "item"
 				}
 			]
@@ -513,11 +553,6 @@
 					type: "item"
 				}
 				{
-					id: "2DEA6874F2309A9C"
-					item: { components: { "ftbquests:missing_item": "verdantvibes:periwinkle" }, count: 1, id: "ftbquests:missing_item" }
-					type: "item"
-				}
-				{
 					id: "7B760446A32DEBE6"
 					item: { count: 1, id: "regions_unexplored:purple_lupine" }
 					type: "item"
@@ -525,11 +560,6 @@
 				{
 					id: "40FA7958C2257744"
 					item: { count: 1, id: "mysticsbiomes:lavender" }
-					type: "item"
-				}
-				{
-					id: "6928CCC10528EC31"
-					item: { }
 					type: "item"
 				}
 				{
@@ -844,11 +874,6 @@
 					type: "item"
 				}
 				{
-					id: "321FA8F645D70B59"
-					item: { }
-					type: "item"
-				}
-				{
 					id: "6DA6621F55E6D6D1"
 					item: { count: 1, id: "regions_unexplored:blue_bioshroom" }
 					type: "item"
@@ -871,21 +896,6 @@
 				{
 					id: "5C658455DF6FC666"
 					item: { count: 1, id: "regions_unexplored:tall_blue_bioshroom" }
-					type: "item"
-				}
-				{
-					id: "4180D4A07E418D98"
-					item: { }
-					type: "item"
-				}
-				{
-					id: "228323C1B2E2D939"
-					item: { }
-					type: "item"
-				}
-				{
-					id: "4DBCD65800C2F11B"
-					item: { components: { "ftbquests:missing_item": "gardens_of_the_dead:soulblight_fungus" }, count: 1, id: "ftbquests:missing_item" }
 					type: "item"
 				}
 			]
@@ -1505,6 +1515,66 @@
 				{
 					id: "65D3E6FEF833D708"
 					item: { count: 1, id: "twilightforest:music_disc_radiance" }
+					type: "item"
+				}
+				{
+					id: "3121D0ECF45D1FB6"
+					item: { count: 1, id: "betterarcheology:music_disc_swings" }
+					type: "item"
+				}
+				{
+					id: "5BF2CD86C3FDD821"
+					item: { count: 1, id: "idas:music_disc_slither" }
+					type: "item"
+				}
+				{
+					id: "1FAF4BD8D40DA012"
+					item: { count: 1, id: "idas:music_disc_calidum" }
+					type: "item"
+				}
+				{
+					id: "6A971DB6F52792E5"
+					item: { count: 1, id: "integrated_stronghold:music_disc_sight" }
+					type: "item"
+				}
+				{
+					id: "50B90DC0C48F2014"
+					item: { count: 1, id: "integrated_stronghold:music_disc_forlorn" }
+					type: "item"
+				}
+				{
+					id: "421D9D57C0F40294"
+					item: { count: 1, id: "moresnifferflowers:music_disc_bobling" }
+					type: "item"
+				}
+				{
+					id: "4AB744A1CFB43D37"
+					item: { count: 1, id: "supplementaries:music_disc_heave_ho" }
+					type: "item"
+				}
+				{
+					id: "497B3F1BAFB146E3"
+					item: { count: 1, id: "the_bumblezone:music_disc_rivers_of_honey_moserao" }
+					type: "item"
+				}
+				{
+					id: "33756CC64CAF2A6B"
+					item: { count: 1, id: "the_bumblezone:music_disc_bee_laxing_with_the_hom_bees" }
+					type: "item"
+				}
+				{
+					id: "65B353B977C389B5"
+					item: { count: 1, id: "the_bumblezone:music_disc_beenna_box" }
+					type: "item"
+				}
+				{
+					id: "16441F886C233668"
+					item: { count: 1, id: "twilightforest:music_disc_thread" }
+					type: "item"
+				}
+				{
+					id: "07BE20EDA508995F"
+					item: { count: 1, id: "twilightforest:music_disc_findings" }
 					type: "item"
 				}
 			]

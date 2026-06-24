@@ -99,8 +99,8 @@
 				}
 			]
 			tasks: [{
-				id: "5D594104287FDEDE"
-				item: { }
+				id: "36131757A5237ADD"
+				item: { count: 1, id: "create:andesite_alloy" }
 				type: "item"
 			}]
 			x: -7.0d
@@ -180,8 +180,8 @@
 				type: "loot"
 			}]
 			tasks: [{
-				id: "3368621D6793F441"
-				item: { }
+				id: "4527F7E78B5911F9"
+				item: { count: 1, id: "create:water_wheel" }
 				type: "item"
 			}]
 			x: -2.5d
@@ -780,8 +780,8 @@
 				type: "item"
 			}]
 			tasks: [{
-				id: "3468E2C4E72B2BA7"
-				item: { }
+				id: "174B5462EA9B23CA"
+				item: { count: 1, id: "create:precision_mechanism" }
 				type: "item"
 			}]
 			x: 9.5d
@@ -883,8 +883,8 @@
 				type: "item"
 			}]
 			tasks: [{
-				id: "791EF27D855E24D4"
-				item: { }
+				id: "0FCD74952F516F40"
+				item: { count: 1, id: "create:crushing_wheel" }
 				type: "item"
 			}]
 			x: 8.0d

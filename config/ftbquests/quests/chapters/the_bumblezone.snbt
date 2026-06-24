@@ -212,14 +212,11 @@
 				entity_vis_use_as_quest_icon: false
 				entity_vis_walk_mode: "USE_GLOBAL"
 				icon: {
-					components: {
-						"ftbquests:missing_item": "nameless_trinkets:gods_crown"
-					}
-					id: "ftbquests:missing_item"
+					id: "the_bumblezone:stingless_bee_helmet_1"
 				}
-				id: "09DF288B961701B8"
-				observation_type: "entity_type"
-				observe_type: 5
+				id: "02E25F29BA7D2899"
+				observation_type: "block"
+				observe_type: 0
 				timer: 0L
 				to_observe: "the_bumblezone:bee_queen"
 				type: "observation"
@@ -331,8 +328,8 @@
 					type: "item"
 				}
 			]
-			x: 0.0d
-			y: 0.0d
+			x: 0.25d
+			y: -2.5d
 		}
 		{
 			dependencies: ["649CD989B90CED8A"]
@@ -450,8 +447,8 @@
 				structure: "the_bumblezone:sempiternal_sanctum_yellow"
 				type: "structure"
 			}]
-			x: 0.0d
-			y: 0.0d
+			x: -2.0d
+			y: -1.5d
 		}
 		{
 			dependencies: ["649CD989B90CED8A"]
