@@ -9,3 +9,4 @@ config/jei/ingredient-list-mod-sort-order.ini
 /config/jei/world/local
 *.bak
 config/spark/activity.json
+config/exposure-client.toml

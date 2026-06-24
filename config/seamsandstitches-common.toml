@@ -1,0 +1,112 @@
+#Tailoring Bench recipe override settings.
+[tailoring_bench_overrides]
+	#When true, vanilla crafting-table recipes for items that can be sewn in the
+	#Tailoring Bench are replaced, requiring the bench to craft them instead.
+	#Individual recipes can be re-enabled in the 'recipes' sub-section.
+	#Requires a game restart or /reload to take effect after changing.
+	enableRecipeOverrides = true
+
+	#Per-recipe toggles. Only active when enableRecipeOverrides is true.
+	[tailoring_bench_overrides.recipes]
+		#Disable vanilla crafting recipe for leather helmet
+		override_leather_helmet = true
+		#Disable vanilla crafting recipe for leather chestplate
+		override_leather_chestplate = true
+		#Disable vanilla crafting recipe for leather leggings
+		override_leather_leggings = true
+		#Disable vanilla crafting recipe for leather boots
+		override_leather_boots = true
+		#Disable vanilla crafting recipe for leather horse armor
+		override_leather_horse_armor = true
+		#Disable vanilla crafting recipe for book
+		override_book = true
+		#Disable vanilla crafting recipe for painting
+		override_painting = true
+
+#Dye Basin recipe override settings.
+[dye_basin_overrides]
+	#When true (default), vanilla shapeless dye recipes are disabled and the Dye Basin
+	#is the primary way to re-color items. Set to false to restore all vanilla shapeless
+	#dye recipes regardless of per-category settings below.
+	#Requires a game restart or /reload to take effect after changing.
+	disableShapelessDyeRecipes = true
+
+	#Per-category overrides. When disableShapelessDyeRecipes is true, set an entry
+	#to true here to re-enable that specific vanilla recipe while keeping all others
+	#disabled (e.g. allow wool dyeing at a crafting table while still requiring the
+	#Dye Basin for everything else).
+	#Requires a game restart or /reload to take effect after changing.
+	[dye_basin_overrides.vanilla]
+		#Re-enable vanilla shapeless dye recipe for armor dye
+		enable_shapeless_armor_dyeing = false
+		#Re-enable vanilla shapeless dye recipe for wool
+		enable_shapeless_wool_dyeing = false
+		#Re-enable vanilla shapeless dye recipe for bed
+		enable_shapeless_bed_dyeing = false
+		#Re-enable vanilla shapeless dye recipe for carpet
+		enable_shapeless_carpet_dyeing = false
+		#Re-enable vanilla shapeless dye recipe for terracotta
+		enable_shapeless_terracotta_dyeing = false
+		#Re-enable vanilla shapeless dye recipe for candle
+		enable_shapeless_candle_dyeing = false
+		#Re-enable vanilla shapeless dye recipe for stained glass
+		enable_shapeless_stained_glass_dyeing = false
+		#Re-enable vanilla shapeless dye recipe for shulker box
+		enable_shapeless_shulker_box_dyeing = false
+		#Re-enable vanilla shapeless dye recipe for concrete powder
+		enable_shapeless_concrete_powder_dyeing = false
+
+	#Per-category Dye Basin recipe toggles. Set to false to completely disable
+	#the Dye Basin recipe for that item family.
+	#Requires a game restart or /reload to take effect after changing.
+	[dye_basin_overrides.basin]
+		#Enable Dye Basin recipe for dyeable
+		enable_dyeable = true
+		#Enable Dye Basin recipe for wool
+		enable_wool = true
+		#Enable Dye Basin recipe for carpet
+		enable_carpet = true
+		#Enable Dye Basin recipe for terracotta
+		enable_terracotta = true
+		#Enable Dye Basin recipe for banner
+		enable_banner = true
+		#Enable Dye Basin recipe for candle
+		enable_candle = true
+		#Enable Dye Basin recipe for bed
+		enable_bed = true
+		#Enable Dye Basin recipe for stained glass
+		enable_stained_glass = true
+		#Enable Dye Basin recipe for stained glass pane
+		enable_stained_glass_pane = true
+		#Enable Dye Basin recipe for shulker box
+		enable_shulker_box = true
+		#Enable Dye Basin recipe for glazed terracotta
+		enable_glazed_terracotta = true
+		#Enable Dye Basin recipe for concrete powder
+		enable_concrete_powder = true
+		#Enable Dye Basin recipe for concrete
+		enable_concrete = true
+		#Enable Dye Basin recipe for sophisticated backpacks
+		enable_sophisticated_backpacks = true
+
+#General settings.
+[general]
+	#Global default for the minimum fraction of stitches (0.0–1.0) a player must hit
+	#to receive any item at all. Below this the craft fails completely.
+	#Individual recipes can override this with a 'poor' key inside 'quality_breakpoints'.
+	# Default: 0.25
+	# Range: 0.0 ~ 1.0
+	poorThreshold = 0.25
+	#When true, the Tailoring Bench UI uses the classic vanilla Minecraft gray style.
+	#When false (default), the modern dark UI is used.
+	vanillafyUI = false
+
+#Debug settings for modpack developers.
+[debug]
+	#When true, enables debug tools on the sewing screen:
+	#  - Hovering the canvas shows pixel [x, y] coordinates under the cursor.
+	#  - Clicking the canvas records pixel coordinates into a growing array.
+	#  - Press R in the sewing screen to clear the recorded coordinates.
+	#  - Press C in the sewing screen to copy the array to the clipboard.
+	#Useful when designing new seam paths for custom recipes.
+	debugOverlay = false
