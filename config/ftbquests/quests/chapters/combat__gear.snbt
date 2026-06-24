@@ -179,37 +179,6 @@
 		}
 		{
 			entity_vis_size: 1.0f
-			id: "6A3F5153FB6473E1"
-			rewards: [
-				{
-					id: "06106BE5551131A3"
-					type: "xp_levels"
-					xp_levels: 5
-				}
-				{
-					exclude_from_claim_all: true
-					id: "69C5661F50A09166"
-					type: "choice"
-				}
-			]
-			shape: "hexagon"
-			tasks: [
-				{
-					id: "59AE6FF8111E4B37"
-					item: { components: { "ftbquests:missing_item": "create_aquatic_ambitions:polished_quartz_tine" }, count: 1, id: "ftbquests:missing_item" }
-					type: "item"
-				}
-				{
-					id: "2BCDAF45E9223F59"
-					item: { components: { "ftbquests:missing_item": "create_aquatic_ambitions:prismarine_rod" }, count: 1, id: "ftbquests:missing_item" }
-					type: "item"
-				}
-			]
-			x: 5.0d
-			y: -6.0d
-		}
-		{
-			entity_vis_size: 1.0f
 			id: "78311C38AC02A32C"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -366,19 +335,12 @@
 		{
 			entity_vis_size: 1.0f
 			id: "66BFC51EB4E7FDFB"
-			rewards: [
-				{
-					exclude_from_claim_all: true
-					id: "5DCF345B1E63D9E3"
-					type: "choice"
-				}
-				{
-					exclude_from_claim_all: true
-					id: "55872EB8DC922282"
-					table_id: 7265408724434505998L
-					type: "choice"
-				}
-			]
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "55872EB8DC922282"
+				table_id: 7265408724434505998L
+				type: "choice"
+			}]
 			shape: "hexagon"
 			tasks: [{
 				id: "466C66B566A8D6D6"
@@ -416,7 +378,7 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: 0.0d
+			y: -0.75d
 		}
 		{
 			can_repeat: true
@@ -439,68 +401,6 @@
 			}]
 			x: 5.5d
 			y: 3.0d
-		}
-		{
-			entity_vis_size: 1.0f
-			id: "2D7B82E9F78ECE60"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "159DCAB86C06A2B1"
-				type: "loot"
-			}]
-			shape: "hexagon"
-			tasks: [
-				{
-					id: "62B22ABAAC4F757F"
-					item: { components: { "ftbquests:missing_item": "phantasm:crystalline_sword" }, count: 1, id: "ftbquests:missing_item" }
-					type: "item"
-				}
-				{
-					id: "78526E4DE174E381"
-					item: { components: { "ftbquests:missing_item": "phantasm:crystalline_pickaxe" }, count: 1, id: "ftbquests:missing_item" }
-					type: "item"
-				}
-				{
-					id: "032047B54B72A7AD"
-					item: { components: { "ftbquests:missing_item": "phantasm:crystalline_axe" }, count: 1, id: "ftbquests:missing_item" }
-					type: "item"
-				}
-				{
-					id: "4D33C881462F0416"
-					item: { components: { "ftbquests:missing_item": "phantasm:crystalline_shovel" }, count: 1, id: "ftbquests:missing_item" }
-					type: "item"
-				}
-				{
-					id: "535D8C440485C766"
-					item: { components: { "ftbquests:missing_item": "phantasm:crystalline_hoe" }, count: 1, id: "ftbquests:missing_item" }
-					type: "item"
-				}
-				{
-					id: "3B9832336DB1217B"
-					item: { components: { "ftbquests:missing_item": "delightful:crystalline_knife" }, count: 1, id: "ftbquests:missing_item" }
-					type: "item"
-				}
-			]
-			x: 3.0d
-			y: -6.0d
-		}
-		{
-			entity_vis_size: 1.0f
-			id: "753BC713E94D53E1"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "49799AA94CA0D6F8"
-				table_id: 7049021818423122779L
-				type: "choice"
-			}]
-			shape: "hexagon"
-			tasks: [{
-				id: "0D9A85EFE2FFE3D2"
-				item: { components: { "ftbfiltersystem:filter": "or(item_tag(witchywearables:witchywearables))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
-				type: "item"
-			}]
-			x: -3.5d
-			y: -3.0d
 		}
 		{
 			entity_vis_size: 1.0f
@@ -607,11 +507,6 @@
 					type: "item"
 				}
 				{
-					id: "527003760C03C340"
-					item: { }
-					type: "item"
-				}
-				{
 					id: "5372D70D8F98EABE"
 					item: { count: 1, id: "meadow:fur_leggings" }
 					type: "item"
@@ -621,9 +516,14 @@
 					item: { count: 1, id: "meadow:fur_boots" }
 					type: "item"
 				}
+				{
+					id: "19B3CBDDA5B09A1B"
+					item: { count: 1, id: "meadow:fur_chestplate" }
+					type: "item"
+				}
 			]
-			x: 0.0d
-			y: 0.0d
+			x: -5.5d
+			y: 3.5d
 		}
 		{
 			entity_vis_size: 1.0f
@@ -636,13 +536,10 @@
 					type: "loot"
 				}
 				{
-					id: "7FF72D516CBBF42A"
+					id: "48DC7B67FAFF1D0E"
 					item: {
-						components: {
-							"ftbquests:missing_item": "plushies:bee_plushie"
-						}
 						count: 1
-						id: "ftbquests:missing_item"
+						id: "plushie_buddies:plushie_bee"
 					}
 					type: "item"
 				}
@@ -669,8 +566,8 @@
 					type: "item"
 				}
 			]
-			x: 0.0d
-			y: 0.0d
+			x: -6.5d
+			y: 3.5d
 		}
 		{
 			entity_vis_size: 1.0f
@@ -766,40 +663,6 @@
 			}]
 			x: -6.0d
 			y: -5.5d
-		}
-		{
-			entity_vis_size: 1.0f
-			id: "2AD4E2DBDC90F28C"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "367D72095EAA0EEC"
-				type: "loot"
-			}]
-			shape: "hexagon"
-			tasks: [
-				{
-					id: "73205DC076975ACC"
-					item: { components: { "ftbquests:missing_item": "orpheus:hephaestus_helmet" }, count: 1, id: "ftbquests:missing_item" }
-					type: "item"
-				}
-				{
-					id: "01AC82429FC65ADD"
-					item: { components: { "ftbquests:missing_item": "orpheus:hephaestus_chestplate" }, count: 1, id: "ftbquests:missing_item" }
-					type: "item"
-				}
-				{
-					id: "5D0838AC16EF2CB7"
-					item: { components: { "ftbquests:missing_item": "orpheus:hephaestus_leggings" }, count: 1, id: "ftbquests:missing_item" }
-					type: "item"
-				}
-				{
-					id: "0DF9F1B4C481AA82"
-					item: { components: { "ftbquests:missing_item": "orpheus:hephaestus_boots" }, count: 1, id: "ftbquests:missing_item" }
-					type: "item"
-				}
-			]
-			x: -2.0d
-			y: 4.5d
 		}
 	]
 }

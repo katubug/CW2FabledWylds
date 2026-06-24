@@ -142,6 +142,20 @@ ServerEvents.recipes(event => {
 		}
 	)
 
+		//tier 1 lens
+	event.shaped(
+		Item.of('exposure_space:normal_telescopic_lens'),
+		[
+			'ABA',
+			'BCB',
+			'ABA'
+		], {
+			A: 'minecraft:amethyst_shard',
+			B: 'minecraft:iron_ingot',
+			C: 'minecraft:glass_pane'
+		}
+	)
+
 	//Myalite Crystals obtainable
 	event.shaped(
 		Item.of('quark:myalite_crystal', 8),

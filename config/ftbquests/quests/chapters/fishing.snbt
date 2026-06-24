@@ -41,14 +41,24 @@
 		{
 			entity_vis_size: 1.0f
 			id: "4B26B50D268DBA07"
-			rewards: [{
-				id: "63D695E3CE2809E2"
-				item: {
-					count: 1
-					id: "starcatcher:starcatcher_twine"
+			rewards: [
+				{
+					id: "63D695E3CE2809E2"
+					item: {
+						count: 1
+						id: "starcatcher:starcatcher_twine"
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "41E56E58C1F1D098"
+					item: {
+						count: 1
+						id: "starcatcher:vanilla_bobber"
+					}
+					type: "item"
+				}
+			]
 			shape: "rsquare"
 			size: 1.5d
 			tasks: [{
@@ -72,8 +82,8 @@
 				type: "item"
 			}]
 			tasks: [{
-				id: "31C0E2D79BFDF837"
-				item: { components: { "ftbquests:missing_item": "tide:iron_fishing_hook" }, count: 1, id: "ftbquests:missing_item" }
+				id: "500104437385606D"
+				item: { count: 1, id: "starcatcher:hook" }
 				type: "item"
 			}]
 			x: -4.0d
@@ -120,31 +130,22 @@
 			y: -13.25d
 		}
 		{
-			dependencies: ["2E4D1699E2A7876B"]
 			entity_vis_size: 1.0f
 			id: "1FDD653A3C13DFDF"
 			rewards: [
 				{
-					exclude_from_claim_all: true
-					id: "551C86E899306ABB"
-					type: "loot"
-				}
-				{
-					id: "445F1FD2D5596AB0"
+					id: "7E00EE2957DC82AA"
 					item: {
 						count: 1
-						id: "minecraft:player_head"
+						id: "plushie_buddies:plushie_dolphin"
 					}
 					type: "item"
 				}
 				{
-					id: "0F39E9E187EADE49"
+					id: "389708B1BBFAD8BD"
 					item: {
-						components: {
-							"ftbquests:missing_item": "plushies:dolphin_plushie"
-						}
 						count: 1
-						id: "ftbquests:missing_item"
+						id: "heads:dolphin_head"
 					}
 					type: "item"
 				}
@@ -162,7 +163,6 @@
 			y: -14.75d
 		}
 		{
-			dependencies: ["2E4D1699E2A7876B"]
 			entity_vis_size: 1.0f
 			id: "104D0C28773A1DD4"
 			rewards: [{
@@ -253,7 +253,6 @@
 			y: -8.75d
 		}
 		{
-			dependencies: ["2E4D1699E2A7876B"]
 			entity_vis_size: 1.0f
 			id: "7A31753911D1CCFC"
 			rewards: [
@@ -297,7 +296,6 @@
 		}
 		{
 			can_repeat: true
-			dependencies: ["2E4D1699E2A7876B"]
 			entity_vis_size: 1.0f
 			id: "2CAAC737A4D4FF60"
 			rewards: [
@@ -316,10 +314,9 @@
 			]
 			shape: "pentagon"
 			tasks: [{
-				consume_items: true
 				count: 32L
-				id: "68C6E45464091E53"
-				item: { components: { "ftbquests:missing_item": "itemfilters:tag" }, count: 1, id: "ftbquests:missing_item" }
+				id: "15B1B1C7AEC48697"
+				item: { components: { "ftbfiltersystem:filter": "or(item_tag(minecraft:fishes))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
 			x: -1.0d
@@ -337,6 +334,17 @@
 			}]
 			x: 0.0d
 			y: -12.25d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "318C7124088632D3"
+			tasks: [{
+				id: "1CD81C0EC0F600DA"
+				item: { components: { "ftbfiltersystem:filter": "or(item_tag(starcatcher:bobbers))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: -2.5d
+			y: -18.5d
 		}
 	]
 }

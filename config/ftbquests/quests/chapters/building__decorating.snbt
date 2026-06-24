@@ -163,7 +163,7 @@
 				}
 				{
 					id: "4EE569B7FF14CC13"
-					item: { count: 1, id: "another_furniture:oak_flower_box" }
+					item: { components: { "ftbquests:missing_item": "another_furniture:oak_flower_box" }, count: 1, id: "ftbquests:missing_item" }
 					type: "item"
 				}
 			]
@@ -607,6 +607,12 @@
 			dependencies: ["39844F8340E6A438"]
 			entity_vis_size: 1.0f
 			id: "545AAD86EA0B7701"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7519735D4732FAFF"
+				table_id: 3575186341996824388L
+				type: "loot"
+			}]
 			shape: "hexagon"
 			tasks: [{
 				id: "574AAB47BA4BDEAE"

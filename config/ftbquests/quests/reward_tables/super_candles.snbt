@@ -1,10 +1,24 @@
 {
 	id: "145580A22A099B54"
 	loot_size: 1
-	order_index: 23
+	order_index: 22
 	rewards: [
 		{ id: "0007537609A6D354", item: { count: 1, id: "the_bumblezone:super_candle" } }
 		{ id: "2C901043BCCD10E3", item: { count: 1, id: "the_bumblezone:super_candle_white" } }
 		{ id: "3DC65BBBB62183C8", item: { count: 1, id: "the_bumblezone:super_candle_light_gray" } }
+		{ id: "33A7510DB31239EE", item: { count: 1, id: "the_bumblezone:super_candle_gray" } }
+		{ id: "7FC4D057216D4B58", item: { count: 1, id: "the_bumblezone:super_candle_black" } }
+		{ id: "6ABD165239FB2EAB", item: { count: 1, id: "the_bumblezone:super_candle_brown" } }
+		{ id: "0556E3F1B09AE72A", item: { count: 1, id: "the_bumblezone:super_candle_red" } }
+		{ id: "7BDE6DA40E2F6611", item: { count: 1, id: "the_bumblezone:super_candle_orange" } }
+		{ id: "1405362E2DD5E3C8", item: { count: 1, id: "the_bumblezone:super_candle_yellow" } }
+		{ id: "168C15A06F14066B", item: { count: 1, id: "the_bumblezone:super_candle_lime" } }
+		{ id: "361DA12F3C21AAE6", item: { count: 1, id: "the_bumblezone:super_candle_green" } }
+		{ id: "19A4374DB6720FFB", item: { count: 1, id: "the_bumblezone:super_candle_cyan" } }
+		{ id: "7F463C1E47FADA2D", item: { count: 1, id: "the_bumblezone:super_candle_light_blue" } }
+		{ id: "71859E3BB2E0ABF8", item: { count: 1, id: "the_bumblezone:super_candle_blue" } }
+		{ id: "75055C61E3E51211", item: { count: 1, id: "the_bumblezone:super_candle_purple" } }
+		{ id: "74FD2163826C8431", item: { count: 1, id: "the_bumblezone:super_candle_magenta" } }
+		{ id: "16A5649D34D68B26", item: { count: 1, id: "the_bumblezone:super_candle_pink" } }
 	]
 }

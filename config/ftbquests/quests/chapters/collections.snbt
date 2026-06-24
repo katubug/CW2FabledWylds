@@ -327,18 +327,13 @@
 					type: "item"
 				}
 				{
-					id: "10F4FE139F5B3116"
-					item: { components: { "ftbquests:missing_item": "spawn:sunflower" }, count: 1, id: "ftbquests:missing_item" }
-					type: "item"
-				}
-				{
 					id: "41269A24FBC2120F"
 					item: { count: 1, id: "serene_shrubbery:yellow_pansies" }
 					type: "item"
 				}
 			]
-			x: 0.0d
-			y: 0.0d
+			x: -1.0d
+			y: -1.0d
 		}
 		{
 			entity_vis_size: 1.0f
@@ -466,8 +461,8 @@
 					type: "item"
 				}
 			]
-			x: 0.0d
-			y: 0.0d
+			x: -2.0d
+			y: -1.0d
 		}
 		{
 			entity_vis_size: 1.0f
@@ -694,8 +689,8 @@
 					type: "item"
 				}
 			]
-			x: 0.0d
-			y: 0.0d
+			x: -3.75d
+			y: 1.0d
 		}
 		{
 			entity_vis_size: 1.0f
@@ -741,16 +736,6 @@
 					type: "item"
 				}
 				{
-					id: "1DE5BCFE27761046"
-					item: { components: { "ftbquests:missing_item": "verdantvibes:burnweed" }, count: 1, id: "ftbquests:missing_item" }
-					type: "item"
-				}
-				{
-					id: "4A98CC2DB7BAAF7B"
-					item: { }
-					type: "item"
-				}
-				{
 					id: "1E2FAF204994050B"
 					item: { count: 1, id: "regions_unexplored:light_gray_snowbelle" }
 					type: "item"
@@ -758,11 +743,6 @@
 				{
 					id: "447C7B4E7CDD1FCA"
 					item: { count: 1, id: "regions_unexplored:gray_snowbelle" }
-					type: "item"
-				}
-				{
-					id: "37719DD2AC6B0990"
-					item: { components: { "ftbquests:missing_item": "verdantvibes:candy_tuft" }, count: 1, id: "ftbquests:missing_item" }
 					type: "item"
 				}
 				{
@@ -786,11 +766,6 @@
 					type: "item"
 				}
 				{
-					id: "2E297E7C555C9C66"
-					item: { }
-					type: "item"
-				}
-				{
 					id: "69B8FBFF15E62FE3"
 					item: { count: 1, id: "regions_unexplored:black_snowbelle" }
 					type: "item"
@@ -803,11 +778,6 @@
 				{
 					id: "2675014B26F01FC7"
 					item: { count: 1, id: "regions_unexplored:tassel" }
-					type: "item"
-				}
-				{
-					id: "3CCB48F09152C18D"
-					item: { }
 					type: "item"
 				}
 				{
@@ -1159,16 +1129,11 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: 0.0d
+			y: 0.25d
 		}
 		{
 			entity_vis_size: 1.0f
 			id: "7DB8FFF48188EC9C"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "50E36D0699A97EFC"
-				type: "loot"
-			}]
 			tasks: [
 				{
 					id: "50C4BBE7A037617A"
@@ -1176,13 +1141,23 @@
 					type: "item"
 				}
 				{
-					id: "20A182052B09A121"
-					item: { components: { "ftbquests:missing_item": "delightful:rock_candy" }, count: 1, id: "ftbquests:missing_item" }
+					id: "73356E97394C4B2C"
+					item: { count: 1, id: "hearthandharvest:candy_corn" }
+					type: "item"
+				}
+				{
+					id: "3B9BA141BECA9FD1"
+					item: { count: 1, id: "hearthandharvest:cotton_candy" }
+					type: "item"
+				}
+				{
+					id: "18E1D48AEFA21AA7"
+					item: { count: 1, id: "betterend:sweet_berry_jelly" }
 					type: "item"
 				}
 			]
-			x: 0.0d
-			y: 0.0d
+			x: -2.75d
+			y: 1.75d
 		}
 		{
 			entity_vis_size: 1.0f
@@ -1413,11 +1388,6 @@
 					type: "item"
 				}
 				{
-					id: "7C6467F3DFC30F15"
-					item: { }
-					type: "item"
-				}
-				{
 					id: "1FD3A364E7D3CC06"
 					item: { count: 1, id: "quark:music_disc_fire" }
 					type: "item"
@@ -1443,16 +1413,6 @@
 					type: "item"
 				}
 				{
-					id: "67A220EF7CDC3823"
-					item: { components: { "ftbquests:missing_item": "spawn:music_disc_rot" }, count: 1, id: "ftbquests:missing_item" }
-					type: "item"
-				}
-				{
-					id: "42780A0AAEA9DD54"
-					item: { components: { "ftbquests:missing_item": "species:music_disc_dial" }, count: 1, id: "ftbquests:missing_item" }
-					type: "item"
-				}
-				{
 					id: "7DCD1C4C15C15C36"
 					item: { count: 1, id: "the_bumblezone:music_disc_flight_of_the_bumblebee_rimsky_korsakov" }
 					type: "item"
@@ -1465,11 +1425,6 @@
 				{
 					id: "59411B51FAA5E320"
 					item: { count: 1, id: "the_bumblezone:music_disc_la_bee_da_loca" }
-					type: "item"
-				}
-				{
-					id: "5B811222265AAFBF"
-					item: { }
 					type: "item"
 				}
 				{
@@ -1500,6 +1455,56 @@
 				{
 					id: "603C69670D4BA191"
 					item: { count: 1, id: "the_bumblezone:music_disc_a_last_first_last" }
+					type: "item"
+				}
+				{
+					id: "3F9D05DF5F70CC95"
+					item: { count: 1, id: "furniture:letsdo_theme" }
+					type: "item"
+				}
+				{
+					id: "5A775C6096130392"
+					item: { count: 1, id: "furniture:cphs_pride" }
+					type: "item"
+				}
+				{
+					id: "4FD19DDDDA41F95A"
+					item: { count: 1, id: "betterarcheology:music_disc_swings" }
+					type: "item"
+				}
+				{
+					id: "0BBC01BBC6142983"
+					item: { count: 1, id: "twilightforest:music_disc_superstitious" }
+					type: "item"
+				}
+				{
+					id: "70127169E879D469"
+					item: { count: 1, id: "twilightforest:music_disc_maker" }
+					type: "item"
+				}
+				{
+					id: "7FAF29A752CBDCF2"
+					item: { count: 1, id: "twilightforest:music_disc_home" }
+					type: "item"
+				}
+				{
+					id: "2B35B6B8F293A011"
+					item: { count: 1, id: "twilightforest:music_disc_wayfarer" }
+					type: "item"
+				}
+				{
+					id: "40A24A0FD25D79EA"
+					item: { count: 1, id: "twilightforest:music_disc_motion" }
+					type: "item"
+				}
+				{
+					id: "1A3B7BFEA30D6070"
+					item: { count: 1, id: "twilightforest:music_disc_steps" }
+					type: "item"
+				}
+				{
+					id: "65D3E6FEF833D708"
+					item: { count: 1, id: "twilightforest:music_disc_radiance" }
 					type: "item"
 				}
 			]

@@ -7,14 +7,43 @@
 	id: "7853699FB0092DA9"
 	order_index: 1
 	quest_links: [ ]
-	quests: [{
-		entity_vis_size: 1.0f
-		id: "4971EB753FE0E6CC"
-		tasks: [{
-			id: "2A957A338BE899C4"
-			type: "checkmark"
-		}]
-		x: -0.5d
-		y: -2.25d
-	}]
+	quests: [
+		{
+			entity_vis_size: 1.0f
+			id: "4971EB753FE0E6CC"
+			rewards: [{
+				id: "372A1B8AC4185548"
+				item: {
+					count: 1
+					id: "kubejs:arcane_coin"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "2A957A338BE899C4"
+				type: "checkmark"
+			}]
+			x: -0.5d
+			y: -2.25d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "61B2DA287617D95B"
+			rewards: [{
+				id: "651BA9E2201E32E7"
+				item: {
+					count: 1
+					id: "exposure:color_film"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "38AEA5DF6C749E9F"
+				item: { count: 1, id: "kubejs:arcane_coin" }
+				type: "item"
+			}]
+			x: -3.75d
+			y: -4.0d
+		}
+	]
 }

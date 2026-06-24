@@ -1,0 +1,55 @@
+{
+	id: "319D9D09308C8744"
+	loot_size: 5
+	order_index: 26
+	rewards: [
+		{
+			id: "2B9E2AC8B5D0224C"
+			item: {
+				count: 1
+				id: "numismatics:spur"
+			}
+			weight: 60.0f
+		}
+		{
+			id: "1F180CB4BF441C5D"
+			item: {
+				count: 1
+				id: "numismatics:bevel"
+			}
+			weight: 50.0f
+		}
+		{
+			id: "75EE32ADAFEAF7C7"
+			item: {
+				count: 1
+				id: "numismatics:sprocket"
+			}
+			weight: 40.0f
+		}
+		{
+			id: "4F47E95103D9420C"
+			item: {
+				count: 1
+				id: "numismatics:cog"
+			}
+			weight: 30.0f
+		}
+		{
+			id: "50CB48BDA94E0A6E"
+			item: {
+				count: 1
+				id: "numismatics:crown"
+			}
+			weight: 20.0f
+		}
+		{
+			id: "0C8414BA0ADF2CBD"
+			item: {
+				count: 1
+				id: "numismatics:sun"
+			}
+			weight: 10.0f
+		}
+	]
+}

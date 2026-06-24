@@ -1,0 +1,45 @@
+{
+	autofocus_id: "72CE099C5784339A"
+	default_hide_dependency_lines: false
+	default_min_width: 350
+	default_quest_shape: ""
+	filename: "discovery"
+	group: "4E9968A53CD6CA57"
+	id: "7F553DB3A577011E"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			entity_vis_size: 1.0f
+			id: "72CE099C5784339A"
+			rewards: [{
+				id: "08E756EA9F81004B"
+				item: {
+					count: 1
+					id: "fieldguide:field_guide"
+				}
+				type: "item"
+			}]
+			shape: "rsquare"
+			size: 2.0d
+			tasks: [{
+				id: "1215A5A14FC6FDB6"
+				item: { count: 1, id: "minecraft:spyglass" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "2BB8D1410BD7C040"
+			tasks: [{
+				id: "78D5ACA5F6C52047"
+				item: { count: 1, id: "exposure:camera" }
+				type: "item"
+			}]
+			x: 3.25d
+			y: 0.0d
+		}
+	]
+}

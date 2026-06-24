@@ -5,15 +5,7 @@
 	filename: "twilight_forest"
 	group: "4E9968A53CD6CA57"
 	id: "23CEC5718927D582"
-	images: [{
-		height: 15.0d
-		image: "cottagewitch:textures/quest_ui/bgtwilightforest.png"
-		rotation: 0.0d
-		width: 27.0d
-		x: 0.0d
-		y: 0.0d
-	}]
-	order_index: 4
+	order_index: 5
 	quest_links: [ ]
 	quests: [
 		{
@@ -140,8 +132,8 @@
 			}]
 			shape: "hexagon"
 			tasks: [{
-				id: "57C05D993313671F"
-				item: { }
+				id: "5B111B023B93A0E1"
+				item: { count: 1, id: "twilightforest:magic_map_focus" }
 				type: "item"
 			}]
 			x: -6.5d

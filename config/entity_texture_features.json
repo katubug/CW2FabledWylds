@@ -22,7 +22,7 @@
   "enableBlinking": true,
   "blinkFrequency": 150,
   "blinkLength": 1,
-  "advanced_IncreaseCacheSizeModifier": 1.0,
+  "advanced_IncreaseCacheSizeModifier": 0.75,
   "debugLoggingMode": "None",
   "logTextureDataInitialization": false,
   "hideConfigButton": false,

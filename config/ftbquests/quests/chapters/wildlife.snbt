@@ -39,7 +39,7 @@
 			y: -5.5d
 		}
 	]
-	order_index: 2
+	order_index: 3
 	quest_links: [ ]
 	quests: [
 		{
@@ -724,8 +724,8 @@
 				type: "kill"
 				value: 100L
 			}]
-			x: 0.0d
-			y: 0.0d
+			x: 3.0d
+			y: 9.5d
 		}
 		{
 			dependencies: ["7E36FAC9107093C2"]
@@ -830,8 +830,8 @@
 				type: "kill"
 				value: 100L
 			}]
-			x: 0.0d
-			y: 0.0d
+			x: 10.0d
+			y: -3.25d
 		}
 		{
 			entity_vis_size: 1.0f
@@ -863,8 +863,8 @@
 				id: "1BBF8996270374EB"
 				type: "advancement"
 			}]
-			x: 0.0d
-			y: 0.0d
+			x: 10.5d
+			y: -4.5d
 		}
 		{
 			dependencies: ["43B3A6804B59565E"]
@@ -1162,7 +1162,6 @@
 				{
 					exclude_from_claim_all: true
 					id: "4271070CEB49F7C0"
-					table_id: 8415512190420352941L
 					type: "loot"
 				}
 				{
@@ -1742,8 +1741,8 @@
 				id: "45106B8C35A3B6D9"
 				type: "advancement"
 			}]
-			x: 0.0d
-			y: 0.0d
+			x: 5.75d
+			y: -2.5d
 		}
 		{
 			entity_vis_size: 1.0f
@@ -2418,8 +2417,8 @@
 				type: "kill"
 				value: 1L
 			}]
-			x: 0.0d
-			y: 0.0d
+			x: 12.25d
+			y: -2.5d
 		}
 		{
 			entity_vis_size: 1.0f

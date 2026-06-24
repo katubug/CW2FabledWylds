@@ -39,7 +39,7 @@
 			y: -4.5d
 		}
 	]
-	order_index: 0
+	order_index: 1
 	quest_links: [ ]
 	quests: [
 		{
@@ -698,7 +698,6 @@
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "547D631D936075E5"
-				table_id: 8415512190420352941L
 				type: "loot"
 			}]
 			shape: "octagon"
@@ -819,25 +818,6 @@
 			}]
 			x: 6.5d
 			y: -2.5d
-		}
-		{
-			entity_vis_size: 1.0f
-			id: "72CE099C5784339A"
-			rewards: [{
-				id: "08E756EA9F81004B"
-				item: {
-					count: 1
-					id: "fieldguide:field_guide"
-				}
-				type: "item"
-			}]
-			tasks: [{
-				id: "1215A5A14FC6FDB6"
-				item: { count: 1, id: "minecraft:spyglass" }
-				type: "item"
-			}]
-			x: 6.75d
-			y: 11.25d
 		}
 	]
 }

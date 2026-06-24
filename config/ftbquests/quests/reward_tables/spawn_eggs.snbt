@@ -15,8 +15,8 @@
 		{ id: "688C465B06106E40", item: { count: 1, id: "minecraft:glow_squid_spawn_egg" } }
 		{ id: "5C62B647C1B0F2A3", item: { count: 1, id: "minecraft:squid_spawn_egg" } }
 		{ id: "027D5B17D68878E7", item: { count: 1, id: "snuffles:snuffle_spawn_egg" } }
-		{ id: "6AA41AE40CDD444A", item: { count: 1, id: "friendsandfoes:moobloom_spawn_egg" } }
-		{ id: "1A0D7C8FCC5CA90D", item: { count: 1, id: "friendsandfoes:glare_spawn_egg" } }
+		{ id: "6AA41AE40CDD444A", item: { components: { "ftbquests:missing_item": "friendsandfoes:moobloom_spawn_egg" }, count: 1, id: "ftbquests:missing_item" } }
+		{ id: "1A0D7C8FCC5CA90D", item: { components: { "ftbquests:missing_item": "friendsandfoes:glare_spawn_egg" }, count: 1, id: "ftbquests:missing_item" } }
 		{ id: "6535E09303B85F98", item: { count: 1, id: "minecraft:allay_spawn_egg" } }
 		{ id: "70D73DB7BF82EF85", item: { count: 1, id: "the_bumblezone:rootmin_spawn_egg" } }
 	]

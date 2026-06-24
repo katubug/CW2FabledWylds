@@ -1,0 +1,384 @@
+{
+	default_hide_dependency_lines: false
+	default_min_width: 350
+	default_quest_shape: ""
+	filename: "arts__witchcrafts"
+	group: ""
+	id: "33D0BE0C8570F275"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			entity_vis_size: 1.0f
+			id: "2DB59F4A5BB3CE73"
+			rewards: [{
+				id: "116FDD748DDC2466"
+				item: {
+					count: 1
+					id: "esquissemod:pencil"
+				}
+				type: "item"
+			}]
+			shape: "rsquare"
+			size: 1.5d
+			tasks: [{
+				id: "673242640E407BAC"
+				item: { count: 1, id: "esquissemod:sketchbook" }
+				type: "item"
+			}]
+			x: -5.625d
+			y: -7.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "153DBE782905BF62"
+			rewards: [{
+				id: "3A58EA7E39E073B3"
+				item: {
+					count: 1
+					id: "exposure:color_film"
+				}
+				type: "item"
+			}]
+			shape: "rsquare"
+			size: 1.5d
+			tasks: [{
+				id: "6834E5B89A2DAAB0"
+				item: { count: 1, id: "exposure:camera" }
+				type: "item"
+			}]
+			x: -5.0d
+			y: -10.75d
+		}
+		{
+			dependencies: ["153DBE782905BF62"]
+			entity_vis_size: 1.0f
+			id: "762A6A61693A5BBA"
+			rewards: [
+				{
+					count: 2
+					id: "7CE32A22538D7495"
+					item: {
+						components: {
+							"minecraft:potion_contents": {
+								potion: "minecraft:mundane"
+							}
+						}
+						count: 1
+						id: "minecraft:potion"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "3E837ABBB28DD13F"
+					item: {
+						components: {
+							"minecraft:potion_contents": {
+								potion: "minecraft:thick"
+							}
+						}
+						count: 1
+						id: "minecraft:potion"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "372DCE7E25EB12ED"
+					item: {
+						components: {
+							"minecraft:potion_contents": {
+								potion: "minecraft:awkward"
+							}
+						}
+						count: 1
+						id: "minecraft:potion"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "246CF319B613D4EE"
+					item: { count: 1, id: "minecraft:potion" }
+					type: "item"
+				}
+				{
+					id: "57E0032108F0660C"
+					item: { count: 1, id: "minecraft:potion" }
+					type: "item"
+				}
+				{
+					id: "51D93A5325DD5F2E"
+					item: { count: 1, id: "minecraft:potion" }
+					type: "item"
+				}
+			]
+			x: -3.5d
+			y: -9.75d
+		}
+		{
+			dependencies: ["762A6A61693A5BBA"]
+			entity_vis_size: 1.0f
+			id: "573269BC454A499D"
+			rewards: [
+				{
+					count: 5
+					id: "059A5E5EACE82169"
+					item: {
+						count: 1
+						id: "minecraft:magenta_dye"
+					}
+					type: "item"
+				}
+				{
+					count: 5
+					id: "22C6A8212719C3E7"
+					item: {
+						count: 1
+						id: "minecraft:black_dye"
+					}
+					type: "item"
+				}
+				{
+					count: 5
+					id: "201483B73DF0F814"
+					item: {
+						count: 1
+						id: "minecraft:yellow_dye"
+					}
+					type: "item"
+				}
+				{
+					count: 5
+					id: "56C9425B8338BE10"
+					item: {
+						count: 1
+						id: "minecraft:cyan_dye"
+					}
+					type: "item"
+				}
+				{
+					count: 3
+					id: "029BF629CD1FCDCC"
+					item: {
+						count: 1
+						id: "minecraft:paper"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "481461FE47887ED6"
+				item: { count: 1, id: "exposure:lightroom" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: -9.75d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "076F2A55BD9D0BCA"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "2CBBD375651C6F55"
+					table_id: 987967038148964353L
+					type: "loot"
+				}
+				{
+					id: "327EEBE907B5E132"
+					item: {
+						count: 1
+						id: "xercapaint:item_canvas"
+					}
+					type: "item"
+				}
+				{
+					id: "1995D8E0DF2FFB97"
+					item: {
+						count: 1
+						id: "xercapaint:item_canvas_large"
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "6459F163C1BE0CA0"
+					item: { count: 1, id: "xercapaint:item_easel" }
+					type: "item"
+				}
+				{
+					id: "69DB41702759EF2A"
+					item: { count: 1, id: "xercapaint:item_palette" }
+					type: "item"
+				}
+			]
+			x: -10.5d
+			y: -8.25d
+		}
+		{
+			dependencies: ["153DBE782905BF62"]
+			entity_vis_size: 1.0f
+			id: "5BC2DC2C73F83B30"
+			rewards: [{
+				id: "25941D2FA3FBDAFA"
+				item: {
+					count: 1
+					id: "exposure:color_film"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "59EA11202D9F3D76"
+				type: "checkmark"
+			}]
+			x: -1.0d
+			y: -13.25d
+		}
+		{
+			dependencies: ["153DBE782905BF62"]
+			entity_vis_size: 1.0f
+			id: "5C0698C5831F824F"
+			tasks: [{
+				advancement: "exposure:adventure/wildlife_archivist"
+				criterion: ""
+				id: "52BDC8F8610519EF"
+				type: "advancement"
+			}]
+			x: -3.25d
+			y: -13.0d
+		}
+		{
+			dependencies: ["2DB59F4A5BB3CE73"]
+			entity_vis_size: 1.0f
+			id: "28ABA60CD070005E"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2BCBE4DF4C1D6666"
+				table_id: 987967038148964353L
+				type: "loot"
+			}]
+			tasks: [
+				{
+					id: "0A2639C19386FCA5"
+					item: { count: 1, id: "esquissemod:color_pencil" }
+					type: "item"
+				}
+				{
+					id: "2039EB694758321D"
+					item: { count: 1, id: "esquissemod:color_marker" }
+					type: "item"
+				}
+			]
+			x: -5.5d
+			y: -4.25d
+		}
+		{
+			dependencies: ["2DB59F4A5BB3CE73"]
+			entity_vis_size: 1.0f
+			id: "414A7F60BF8F090A"
+			tasks: [
+				{
+					id: "1B9F94CD47349D25"
+					item: { count: 1, id: "esquissemod:drawing_compass" }
+					type: "item"
+				}
+				{
+					id: "781AC76EBBBAC48B"
+					item: { count: 1, id: "esquissemod:ruler" }
+					type: "item"
+				}
+			]
+			x: -7.75d
+			y: -4.0d
+		}
+		{
+			dependencies: ["2DB59F4A5BB3CE73"]
+			entity_vis_size: 1.0f
+			id: "187EB99C04A3BE37"
+			tasks: [
+				{
+					id: "7DE74E92D47C605C"
+					item: { components: { "esquissemod:brush_hardness": 3, "esquissemod:brush_size": 3 }, count: 1, id: "esquissemod:eraser" }
+					type: "item"
+				}
+				{
+					id: "6FA123D28CBB3650"
+					item: { count: 1, id: "esquissemod:kneaded_eraser" }
+					type: "item"
+				}
+			]
+			x: -7.75d
+			y: -6.0d
+		}
+		{
+			dependencies: ["2DB59F4A5BB3CE73"]
+			entity_vis_size: 1.0f
+			id: "41FE37817AC6ACC6"
+			tasks: [
+				{
+					id: "519FD0F315ECFE29"
+					item: { count: 1, id: "esquissemod:magnifying_glass" }
+					type: "item"
+				}
+				{
+					id: "6229E1033FD2C108"
+					item: { count: 1, id: "esquissemod:smudge" }
+					type: "item"
+				}
+			]
+			x: -3.5d
+			y: -6.25d
+		}
+		{
+			dependencies: [
+				"187EB99C04A3BE37"
+				"28ABA60CD070005E"
+				"414A7F60BF8F090A"
+				"41FE37817AC6ACC6"
+			]
+			entity_vis_size: 1.0f
+			id: "1539D3DAD97F8A1D"
+			rewards: [{
+				id: "6916F6D454BF3CAD"
+				item: {
+					components: {
+						"minecraft:container": [ ]
+					}
+					count: 1
+					id: "esquissemod:pencil_case"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "2B35ABEE2A58DF6F"
+				type: "checkmark"
+			}]
+			x: -5.25d
+			y: -1.5d
+		}
+		{
+			dependencies: ["153DBE782905BF62"]
+			entity_vis_size: 1.0f
+			id: "6563CACC1F993B93"
+			tasks: [
+				{
+					id: "7B262C8D6AC6299B"
+					item: { count: 1, id: "exposure_space:space_filter" }
+					type: "item"
+				}
+				{
+					id: "30C63C970D83C65E"
+					item: { count: 1, id: "exposure_space:normal_telescopic_lens" }
+					type: "item"
+				}
+			]
+			x: -5.25d
+			y: -13.0d
+		}
+	]
+}

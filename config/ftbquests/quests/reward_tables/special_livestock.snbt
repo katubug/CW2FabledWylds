@@ -4,11 +4,6 @@
 	order_index: 21
 	rewards: [
 		{ id: "48C8AFF2F4E11E67", item: { count: 1, id: "meadow:water_buffalo_spawn_egg" } }
-		{ id: "048CEBD9B9EF5FF0", item: { components: { "ftbquests:missing_item": "meadow:wooly_cow_spawn_egg" }, count: 1, id: "ftbquests:missing_item" } }
 		{ id: "307811358C5AF16A", item: { count: 1, id: "mysticsbiomes:strawberry_cow_spawn_egg" } }
-		{ id: "50E605B2E2B86750", item: { components: { "ftbquests:missing_item": "earthmobsmod:magma_cow_spawn_egg" }, count: 1, id: "ftbquests:missing_item" } }
-		{ id: "1E01E1927AA47069", item: { components: { "ftbquests:missing_item": "earthmobsmod:cream_cow_spawn_egg" }, count: 1, id: "ftbquests:missing_item" } }
-		{ id: "5BA2B49F9CAF9734", item: { components: { "ftbquests:missing_item": "earthmobsmod:albino_cow_spawn_egg" }, count: 1, id: "ftbquests:missing_item" } }
-		{ id: "5ADB962B681A533F", item: { components: { "ftbquests:missing_item": "earthmobsmod:umbra_cow_spawn_egg" }, count: 1, id: "ftbquests:missing_item" } }
 	]
 }

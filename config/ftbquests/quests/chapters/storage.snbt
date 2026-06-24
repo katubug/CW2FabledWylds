@@ -126,24 +126,18 @@
 			rewards: [
 				{
 					count: 10
-					id: "10E7DC7C7F53B457"
+					id: "3C61C6696ED00154"
 					item: {
-						components: {
-							"ftbquests:missing_item": "pipez:item_pipe"
-						}
 						count: 1
-						id: "ftbquests:missing_item"
+						id: "pipez:item_pipe"
 					}
 					type: "item"
 				}
 				{
-					id: "63D4D09CF18BAD6B"
+					id: "4CB45965055DCB90"
 					item: {
-						components: {
-							"ftbquests:missing_item": "pipez:wrench"
-						}
 						count: 1
-						id: "ftbquests:missing_item"
+						id: "pipez:wrench"
 					}
 					type: "item"
 				}
@@ -151,8 +145,8 @@
 			shape: "rsquare"
 			size: 2.0d
 			tasks: [{
-				id: "7153E46F9B5C723A"
-				item: { components: { "ftbquests:missing_item": "pipez:item_pipe" }, count: 1, id: "ftbquests:missing_item" }
+				id: "4AF86AE420133086"
+				item: { count: 1, id: "pipez:item_pipe" }
 				type: "item"
 			}]
 			x: 3.0d
@@ -163,19 +157,16 @@
 			entity_vis_size: 1.0f
 			id: "327660E1DFE7C9A0"
 			rewards: [{
-				id: "2D980A1EB5CBDC3E"
+				id: "7E2ACB71FC765D69"
 				item: {
-					components: {
-						"ftbquests:missing_item": "pipez:basic_upgrade"
-					}
 					count: 1
-					id: "ftbquests:missing_item"
+					id: "pipez:basic_upgrade"
 				}
 				type: "item"
 			}]
 			tasks: [{
-				id: "1196EDFF583F21D3"
-				item: { components: { "ftbquests:missing_item": "pipez:basic_upgrade" }, count: 1, id: "ftbquests:missing_item" }
+				id: "02D8BDB42EFA4FF6"
+				item: { count: 1, id: "pipez:basic_upgrade" }
 				type: "item"
 			}]
 			x: 2.5d
@@ -186,19 +177,16 @@
 			entity_vis_size: 1.0f
 			id: "125AC0EEF7096532"
 			rewards: [{
-				id: "69DBCB99857B5AA6"
+				id: "3E24525B7D28DBBC"
 				item: {
-					components: {
-						"ftbquests:missing_item": "pipez:improved_upgrade"
-					}
 					count: 1
-					id: "ftbquests:missing_item"
+					id: "pipez:improved_upgrade"
 				}
 				type: "item"
 			}]
 			tasks: [{
-				id: "35E4C52DC0192E00"
-				item: { components: { "ftbquests:missing_item": "pipez:improved_upgrade" }, count: 1, id: "ftbquests:missing_item" }
+				id: "1DCCE70658E413FB"
+				item: { count: 1, id: "pipez:improved_upgrade" }
 				type: "item"
 			}]
 			x: 2.5d
@@ -209,19 +197,16 @@
 			entity_vis_size: 1.0f
 			id: "5E0E4D3BFE9A205F"
 			rewards: [{
-				id: "7A488241F19C3AB4"
+				id: "77FA8295C0AE49D5"
 				item: {
-					components: {
-						"ftbquests:missing_item": "pipez:advanced_upgrade"
-					}
 					count: 1
-					id: "ftbquests:missing_item"
+					id: "pipez:advanced_upgrade"
 				}
 				type: "item"
 			}]
 			tasks: [{
-				id: "085ADE6062A763B8"
-				item: { components: { "ftbquests:missing_item": "pipez:advanced_upgrade" }, count: 1, id: "ftbquests:missing_item" }
+				id: "29348AA1BD49E793"
+				item: { count: 1, id: "pipez:advanced_upgrade" }
 				type: "item"
 			}]
 			x: 6.5d
@@ -232,19 +217,16 @@
 			entity_vis_size: 1.0f
 			id: "2B73F9B609ABE980"
 			rewards: [{
-				id: "235AA9488102A61C"
+				id: "734B62014704BEC3"
 				item: {
-					components: {
-						"ftbquests:missing_item": "pipez:ultimate_upgrade"
-					}
 					count: 1
-					id: "ftbquests:missing_item"
+					id: "pipez:ultimate_upgrade"
 				}
 				type: "item"
 			}]
 			tasks: [{
-				id: "7038BA77EA75696E"
-				item: { components: { "ftbquests:missing_item": "pipez:ultimate_upgrade" }, count: 1, id: "ftbquests:missing_item" }
+				id: "40DDDA7B5125C064"
+				item: { count: 1, id: "pipez:ultimate_upgrade" }
 				type: "item"
 			}]
 			x: 6.5d
@@ -272,14 +254,9 @@
 			dependencies: ["0AC47FF8FD45B289"]
 			entity_vis_size: 1.0f
 			id: "27A6A7ADD9B0A8AE"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "4ABC1FE4801E166B"
-				type: "choice"
-			}]
 			tasks: [{
-				id: "04E87935B4CF8F27"
-				item: { }
+				id: "40B301316163E9A9"
+				item: { count: 1, id: "minecraft:lightning_rod" }
 				type: "item"
 			}]
 			x: -7.0d
@@ -301,22 +278,15 @@
 			dependencies: ["0A76B3D9CF688878"]
 			entity_vis_size: 1.0f
 			id: "329CC0CC1B48C600"
-			rewards: [
-				{
-					exclude_from_claim_all: true
-					id: "337B73B6EAD72E39"
-					type: "choice"
-				}
-				{
-					exclude_from_claim_all: true
-					id: "149EDF51A1614C54"
-					table_id: 3965165831041023950L
-					type: "choice"
-				}
-			]
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "149EDF51A1614C54"
+				table_id: 3965165831041023950L
+				type: "choice"
+			}]
 			tasks: [{
-				id: "4200E7C6D9AC5F1F"
-				item: { components: { "ftbquests:missing_item": "pipez:filter_destination_tool" }, count: 1, id: "ftbquests:missing_item" }
+				id: "1EFA1A217C1AE7BE"
+				item: { count: 1, id: "pipez:filter_destination_tool" }
 				type: "item"
 			}]
 			x: 4.5d
@@ -354,11 +324,6 @@
 			dependencies: ["0AC47FF8FD45B289"]
 			entity_vis_size: 1.0f
 			id: "69ACDC95A5F78C82"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "5D4E6B43A75CA479"
-				type: "choice"
-			}]
 			shape: "hexagon"
 			tasks: [{
 				id: "350477CCA398E4F3"

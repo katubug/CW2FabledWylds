@@ -109,35 +109,6 @@
 		}
 		{
 			entity_vis_size: 1.0f
-			id: "2E4D1699E2A7876B"
-			rewards: [
-				{
-					exclude_from_claim_all: true
-					id: "5733FE4FC03C948A"
-					table_id: 7707783220386620668L
-					type: "choice"
-				}
-				{
-					id: "3A0C38A5244D788B"
-					item: {
-						count: 1
-						id: "minecraft:apple"
-					}
-					type: "item"
-				}
-			]
-			shape: "rsquare"
-			size: 2.0d
-			tasks: [{
-				id: "12209A4177B4DF50"
-				item: { components: { "ftbquests:missing_item": "itemfilters:tag" }, count: 1, id: "ftbquests:missing_item" }
-				type: "item"
-			}]
-			x: 2.5d
-			y: -9.0d
-		}
-		{
-			entity_vis_size: 1.0f
 			id: "54B176A22CBFD31F"
 			tasks: [{
 				icon: {
@@ -195,6 +166,22 @@
 			}]
 			x: -0.75d
 			y: -10.25d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "598D07A8C3ED765A"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5A6458979F8FE84D"
+				table_id: 7049021818423122779L
+				type: "choice"
+			}]
+			tasks: [{
+				id: "2A8566938ACB7B7B"
+				type: "checkmark"
+			}]
+			x: -3.5d
+			y: -8.75d
 		}
 	]
 }

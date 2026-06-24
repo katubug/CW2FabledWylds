@@ -1,0 +1,344 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "rsquare"
+	filename: "508C7A67F9E417D8"
+	group: ""
+	icon: {
+		id: "minecraft:compass"
+	}
+	id: "508C7A67F9E417D8"
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			entity_vis_size: 1.0f
+			id: "1FA22BA5C3273580"
+			tasks: [{
+				id: "63357A192A1D8486"
+				item: { count: 1, id: "minecraft:music_disc_11" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "562F7949CC73DD60"
+			tasks: [{
+				id: "6946873C4066BF02"
+				item: { count: 1, id: "minecraft:music_disc_13" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 0.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "5C3B121F709636CB"
+			tasks: [{
+				id: "3D8830BDD070636B"
+				item: { count: 1, id: "minecraft:music_disc_13" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "7537A93DD2683A96"
+			tasks: [{
+				id: "1ED972BD72C59B3C"
+				item: { count: 1, id: "minecraft:music_disc_5" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "3672AAE7803E0B80"
+			tasks: [{
+				id: "257F47CF59299599"
+				item: { count: 1, id: "minecraft:music_disc_blocks" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "1760719283D9BD56"
+			tasks: [{
+				id: "1DF07953DF0C64F1"
+				item: { count: 1, id: "minecraft:music_disc_bounce" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: 0.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "5E3C2605354108D9"
+			tasks: [{
+				id: "6A2650CBBF563829"
+				item: { count: 1, id: "minecraft:music_disc_cat" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "43EB76B3116F7F63"
+			tasks: [{
+				id: "5986EAD82448E748"
+				item: { count: 1, id: "minecraft:music_disc_chirp" }
+				type: "item"
+			}]
+			x: 7.0d
+			y: 0.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "757916088F2D4FCD"
+			tasks: [{
+				id: "48D48E77EA0FF80C"
+				item: { count: 1, id: "minecraft:music_disc_chirp" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: 0.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "68E847867EF87676"
+			tasks: [{
+				id: "0DE64535386EA4DC"
+				item: { count: 1, id: "minecraft:music_disc_creator" }
+				type: "item"
+			}]
+			x: 9.0d
+			y: 0.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "0CE4910A9F953B6E"
+			tasks: [{
+				id: "3F761AAB5000161B"
+				item: { count: 1, id: "minecraft:music_disc_creator" }
+				type: "item"
+			}]
+			x: 10.0d
+			y: 0.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "50E63FE66D31EADF"
+			tasks: [{
+				id: "6B89C543A79303BC"
+				item: { count: 1, id: "minecraft:music_disc_creator_music_box" }
+				type: "item"
+			}]
+			x: 11.0d
+			y: 0.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "673FBE963C39A4E6"
+			tasks: [{
+				id: "4991F1CECE4C7380"
+				item: { count: 1, id: "minecraft:music_disc_far" }
+				type: "item"
+			}]
+			x: 12.0d
+			y: 0.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "521904A1C5B930CB"
+			tasks: [{
+				id: "0BF12D1A622A94DE"
+				item: { count: 1, id: "minecraft:music_disc_lava_chicken" }
+				type: "item"
+			}]
+			x: 13.0d
+			y: 0.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "6B0CD4757ECA7B97"
+			tasks: [{
+				id: "00534A15CF6B7DB6"
+				item: { count: 1, id: "minecraft:music_disc_lava_chicken" }
+				type: "item"
+			}]
+			x: 14.0d
+			y: 0.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "7D7FF7861A801D2C"
+			tasks: [{
+				id: "725FF01D006E1946"
+				item: { count: 1, id: "minecraft:music_disc_mall" }
+				type: "item"
+			}]
+			x: 15.0d
+			y: 0.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "05D42466DBEA50F6"
+			tasks: [{
+				id: "05ED360822A71F9B"
+				item: { count: 1, id: "minecraft:music_disc_mellohi" }
+				type: "item"
+			}]
+			x: 16.0d
+			y: 0.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "74784980ED7C1D14"
+			tasks: [{
+				id: "3757605B519631CD"
+				item: { count: 1, id: "minecraft:music_disc_mellohi" }
+				type: "item"
+			}]
+			x: 17.0d
+			y: 0.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "5351294915F2E9CA"
+			tasks: [{
+				id: "4F83B8AD7206AA01"
+				item: { count: 1, id: "minecraft:music_disc_otherside" }
+				type: "item"
+			}]
+			x: 18.0d
+			y: 0.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "72A87C821AC8E2A7"
+			tasks: [{
+				id: "257DB0AD4548EAE7"
+				item: { count: 1, id: "minecraft:music_disc_pigstep" }
+				type: "item"
+			}]
+			x: 19.0d
+			y: 0.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "1B7F1952FA5E88C8"
+			tasks: [{
+				id: "787349B79CFDA2F3"
+				item: { count: 1, id: "minecraft:music_disc_pigstep" }
+				type: "item"
+			}]
+			x: 20.0d
+			y: 0.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "2B2435C5825C65FD"
+			tasks: [{
+				id: "49F07A31DF3362A3"
+				item: { count: 1, id: "minecraft:music_disc_precipice" }
+				type: "item"
+			}]
+			x: 21.0d
+			y: 0.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "6C477B75B791854B"
+			tasks: [{
+				id: "4AB23F0990AEB13C"
+				item: { count: 1, id: "minecraft:music_disc_relic" }
+				type: "item"
+			}]
+			x: 22.0d
+			y: 0.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "47F2E585E2B02BCA"
+			tasks: [{
+				id: "7CC8968E86CD040C"
+				item: { count: 1, id: "minecraft:music_disc_stal" }
+				type: "item"
+			}]
+			x: 23.0d
+			y: 0.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "2E8FF62CCB5D4430"
+			tasks: [{
+				id: "6C9A19CFBDAF8820"
+				item: { count: 1, id: "minecraft:music_disc_strad" }
+				type: "item"
+			}]
+			x: 24.0d
+			y: 0.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "679C416CF6A9264F"
+			tasks: [{
+				id: "5A555F1E109FBE99"
+				item: { count: 1, id: "minecraft:music_disc_tears" }
+				type: "item"
+			}]
+			x: 25.0d
+			y: 0.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "798D9BBE5D6E7185"
+			tasks: [{
+				id: "54714DE1D40261A0"
+				item: { count: 1, id: "minecraft:music_disc_wait" }
+				type: "item"
+			}]
+			x: 26.0d
+			y: 0.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "4337F3E4209AFC51"
+			tasks: [{
+				id: "106F755A177F80A3"
+				item: { count: 1, id: "minecraft:music_disc_ward" }
+				type: "item"
+			}]
+			x: 27.0d
+			y: 0.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "27A792CC510B7591"
+			tasks: [{
+				id: "7683BF85681F5C79"
+				item: { count: 1, id: "minecraft:music_disc_ward" }
+				type: "item"
+			}]
+			x: 28.0d
+			y: 0.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "1A70C0591407B98D"
+			tasks: [{
+				id: "403AF3248C1EE2D8"
+				item: { components: { "ftbfiltersystem:filter": "and(item(minecraft:music_disc_13)item(minecraft:music_disc_cat))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.0d
+		}
+	]
+}
