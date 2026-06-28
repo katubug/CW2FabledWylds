@@ -17,27 +17,6 @@
 	quest_links: [ ]
 	quests: [
 		{
-			entity_vis_size: 1.0f
-			id: "2483BED806DAE305"
-			rewards: [{
-				id: "7BCF77A69AED64F9"
-				item: {
-					count: 1
-					id: "minecraft:experience_bottle"
-				}
-				type: "item"
-			}]
-			shape: "hexagon"
-			tasks: [{
-				id: "62CDDD0EA501C55F"
-				item: { count: 1, id: "minecraft:experience_bottle" }
-				type: "item"
-			}]
-			x: 1.5d
-			y: -5.5d
-		}
-		{
-			entity_vis_size: 1.0f
 			id: "6E1B07BEB8F423BC"
 			rewards: [{
 				count: 3
@@ -57,32 +36,10 @@
 			y: -3.25d
 		}
 		{
-			entity_vis_size: 1.0f
 			id: "54F9B41F96399DE6"
-			rewards: [{
-				count: 5
-				id: "01432EAF847EEE95"
-				item: {
-					components: {
-						"ftbquests:missing_item": "irons_rpg_tweaks:identification_scroll"
-					}
-					count: 1
-					id: "ftbquests:missing_item"
-				}
-				type: "item"
-			}]
 			shape: "rsquare"
 			size: 2.0d
 			tasks: [{
-				entity_vis_idle_mode: "USE_GLOBAL"
-				entity_vis_offset_x: 0.0f
-				entity_vis_offset_y: 0.0f
-				entity_vis_rotation: 0.0f
-				entity_vis_silhouette_mode: "NONE"
-				entity_vis_size: 1.0f
-				entity_vis_spin_mode: "USE_GLOBAL"
-				entity_vis_use_as_quest_icon: false
-				entity_vis_walk_mode: "USE_GLOBAL"
 				icon: {
 					id: "minecraft:enchanting_table"
 				}
@@ -97,7 +54,6 @@
 			y: -4.0d
 		}
 		{
-			entity_vis_size: 1.0f
 			id: "3D0BBD2942171BD6"
 			tasks: [{
 				id: "3BC6D9A35EE141CB"

@@ -1,0 +1,197 @@
+{
+  "enabled": true,
+  "mod_name": "Better Nether",
+  "mod_id": "betternether",
+  "achievements": {
+    "ruby_gear": {
+      "display_name": "Harder than Diamond",
+      "original_name": "Harder than Diamond",
+      "enabled": true,
+      "icon": "betternether:nether_ruby_chestplate",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "cincinnasite_diamond": {
+      "display_name": "Diamond Level",
+      "original_name": "Diamond Level",
+      "enabled": true,
+      "icon": "betternether:cincinnasite_diamond_upgrade_smithing_template",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "cincinnasite_diamond_tools": {
+      "display_name": "Bling",
+      "original_name": "Bling",
+      "enabled": true,
+      "icon": "betternether:cincinnasite_pickaxe_diamond",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "obsidian_blocks": {
+      "display_name": "Obsidian Masterbuilder",
+      "original_name": "Obsidian Masterbuilder",
+      "enabled": true,
+      "icon": "betternether:blue_obsidian_bricks",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "ruby_ore": {
+      "display_name": "Ruby Ore",
+      "original_name": "Ruby Ore",
+      "enabled": true,
+      "icon": "betternether:nether_ruby",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "all_the_biomes": {
+      "display_name": "All The Best",
+      "original_name": "All The Best",
+      "enabled": true,
+      "icon": "betternether:nether_ruby_boots",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "cincinnasite_gear": {
+      "display_name": "All That Glitters",
+      "original_name": "All That Glitters",
+      "enabled": true,
+      "icon": "betternether:cincinnasite_chestplate",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "cincinnasite_ore": {
+      "display_name": "Cincinnasite Ore",
+      "original_name": "Cincinnasite Ore",
+      "enabled": true,
+      "icon": "betternether:cincinnasite_ingot",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "make_crying": {
+      "display_name": "Make \u0027em Cry",
+      "original_name": "Make \u0027em Cry",
+      "enabled": true,
+      "icon": "betternether:blue_weeping_obsidian",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "flaming_tools": {
+      "display_name": "Obsidian Melter",
+      "original_name": "Obsidian Melter",
+      "enabled": true,
+      "icon": "betternether:flaming_ruby_pickaxe",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "enter_nether": {
+      "display_name": "Time for a Sweat",
+      "original_name": "Time for a Sweat",
+      "enabled": true,
+      "icon": "betternether:jungle_moss",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "cincinnasite_tools": {
+      "display_name": "Harder Than Gold",
+      "original_name": "Harder Than Gold",
+      "enabled": true,
+      "icon": "betternether:cincinnasite_pickaxe",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "blue_obsidian": {
+      "display_name": "Something Blue",
+      "original_name": "Something Blue",
+      "enabled": true,
+      "icon": "betternether:blue_obsidian",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "flaming_ruby": {
+      "display_name": "Embers of the Nether",
+      "original_name": "Embers of the Nether",
+      "enabled": true,
+      "icon": "betternether:flaming_ruby_upgrade_smithing_template",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "ruby_tools": {
+      "display_name": "Red Nether",
+      "original_name": "Red Nether",
+      "enabled": true,
+      "icon": "betternether:nether_ruby_pickaxe",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "cincinnasite_forge": {
+      "display_name": "Forgified",
+      "original_name": "Forgified",
+      "enabled": true,
+      "icon": "betternether:cincinnasite_forge",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "flaming_armor": {
+      "display_name": "Covered in Flames",
+      "original_name": "Covered in Flames",
+      "enabled": true,
+      "icon": "betternether:flaming_ruby_chestplate",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "nether_wood": {
+      "display_name": "Into the Woods",
+      "original_name": "Into the Woods",
+      "enabled": true,
+      "icon": "betternether:willow_log",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "city": {
+      "display_name": "A glorious Past",
+      "original_name": "A glorious Past",
+      "enabled": true,
+      "icon": "betternether:cincinnasite_carved",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    }
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "enabled": true,
+  "mod_name": "Contact",
+  "mod_id": "contact",
+  "achievements": {
+    "send_in_person": {
+      "display_name": "Mailman",
+      "original_name": "Mailman",
+      "enabled": true,
+      "icon": "contact:white_mailbox",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "receive_postcard": {
+      "display_name": "Incoming Letter",
+      "original_name": "Incoming Letter",
+      "enabled": true,
+      "icon": "contact:envelope",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "send_postcard": {
+      "display_name": "A Greeting",
+      "original_name": "A Greeting",
+      "enabled": true,
+      "icon": "contact:postcard",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "from_another_world": {
+      "display_name": "Parcel From Another World",
+      "original_name": "Parcel From Another World",
+      "enabled": true,
+      "icon": "contact:parcel",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "root": {
+      "display_name": "Postal Service",
+      "original_name": "Postal Service",
+      "enabled": true,
+      "icon": "contact:letter",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    }
+  }
+}

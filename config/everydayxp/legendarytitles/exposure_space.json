@@ -1,0 +1,27 @@
+{
+  "enabled": true,
+  "mod_name": "Exposure: Space",
+  "mod_id": "exposure_space",
+  "achievements": {
+    "first_object": {
+      "display_name": "First Light",
+      "original_name": "First Light",
+      "enabled": true,
+      "icon": "exposure_space:good_telescopic_lens",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "all_objects": {
+      "display_name": "Cartographer of the Void",
+      "original_name": "Cartographer of the Void",
+      "enabled": true,
+      "icon": "exposure_space:sculk_telescopic_lens",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    }
+  }
+}

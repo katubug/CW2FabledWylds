@@ -1,0 +1,37 @@
+{
+  "enabled": true,
+  "mod_name": "SoulHome",
+  "mod_id": "soulhome",
+  "achievements": {
+    "main/obtained_soul_key": {
+      "display_name": "Obtained SoulKey",
+      "original_name": "Obtained SoulKey",
+      "enabled": true,
+      "icon": "soulhome:guide",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "main/entered_soul_dimension": {
+      "display_name": "Enlightened",
+      "original_name": "Enlightened",
+      "enabled": true,
+      "icon": "soulhome:guide",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "main/obtained_guide": {
+      "display_name": "Well Read",
+      "original_name": "Well Read",
+      "enabled": true,
+      "icon": "soulhome:guide",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    }
+  }
+}

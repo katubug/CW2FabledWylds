@@ -1,0 +1,67 @@
+{
+  "enabled": true,
+  "mod_name": "Mystic\u0027s Biomes",
+  "mod_id": "mysticsbiomes",
+  "achievements": {
+    "mysticsbiomes/mischievous_thief": {
+      "display_name": "THIEF!",
+      "original_name": "THIEF!",
+      "enabled": true,
+      "icon": "mysticsbiomes:spring_bamboo",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "mysticsbiomes/obtain_cherries": {
+      "display_name": "Very Cherry",
+      "original_name": "Very Cherry",
+      "enabled": true,
+      "icon": "mysticsbiomes:cherries",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "mysticsbiomes/craft_neapolitan_cakes": {
+      "display_name": "Cake Connoisseur",
+      "original_name": "Cake Connoisseur",
+      "enabled": true,
+      "icon": "mysticsbiomes:vanilla_cake",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "mysticsbiomes/obtain_peach": {
+      "display_name": "Mmm... Peachy",
+      "original_name": "Mmm... Peachy",
+      "enabled": true,
+      "icon": "mysticsbiomes:peach",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "mysticsbiomes/obtain_sweet_strawberry": {
+      "display_name": "Sweet Treat",
+      "original_name": "Sweet Treat",
+      "enabled": true,
+      "icon": "mysticsbiomes:sweet_strawberry",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "mysticsbiomes/craft_rainbow_cakes": {
+      "display_name": "Colorful Bakery",
+      "original_name": "Colorful Bakery",
+      "enabled": true,
+      "icon": "mysticsbiomes:pink_frosted_cake",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    }
+  }
+}

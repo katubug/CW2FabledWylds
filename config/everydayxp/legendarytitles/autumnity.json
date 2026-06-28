@@ -1,0 +1,37 @@
+{
+  "enabled": true,
+  "mod_name": "Autumnity",
+  "mod_id": "autumnity",
+  "achievements": {
+    "husbandry/cure_foul_taste": {
+      "display_name": "Finally, Some Good Food",
+      "original_name": "Finally, Some Good Food",
+      "enabled": true,
+      "icon": "autumnity:foul_berries",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "husbandry/sneaky_protection": {
+      "display_name": "Sneaky Protection",
+      "original_name": "Sneaky Protection",
+      "enabled": true,
+      "icon": "autumnity:snail_shell_chestplate",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "husbandry/fungivore_diet": {
+      "display_name": "A Fungivore Diet",
+      "original_name": "A Fungivore Diet",
+      "enabled": true,
+      "icon": "minecraft:crimson_fungus",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    }
+  }
+}

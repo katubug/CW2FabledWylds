@@ -1,0 +1,147 @@
+{
+  "enabled": true,
+  "mod_name": "More Sniffer Flowers",
+  "mod_id": "moresnifferflowers",
+  "achievements": {
+    "bobling": {
+      "display_name": "Fight back!",
+      "original_name": "Fight back!",
+      "enabled": true,
+      "icon": "moresnifferflowers:corrupted_bobling_core",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "cropressor": {
+      "display_name": "Compressing with extra steps",
+      "original_name": "Compressing with extra steps",
+      "enabled": true,
+      "icon": "moresnifferflowers:cropressed_beetroot",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "garbush": {
+      "display_name": "Garbushed by garbush loot",
+      "original_name": "Garbushed by garbush loot",
+      "enabled": true,
+      "icon": "moresnifferflowers:garbush_seeds",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "dyespria": {
+      "display_name": "Spriaing your dye",
+      "original_name": "Spriaing your dye",
+      "enabled": true,
+      "icon": "moresnifferflowers:caulorflower_seeds",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "beroot_cauldron": {
+      "display_name": "Glooby, and never Soupy",
+      "original_name": "Glooby, and never Soupy",
+      "enabled": true,
+      "icon": "moresnifferflowers:beroot_cauldron",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "cure": {
+      "display_name": "A bobling of Kindness",
+      "original_name": "A bobling of Kindness",
+      "enabled": true,
+      "icon": "moresnifferflowers:vivicus_antidote",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "negative_soup": {
+      "display_name": "Pasta Burner",
+      "original_name": "Pasta Burner",
+      "enabled": true,
+      "icon": "minecraft:poisonous_potato",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "dye_boat": {
+      "display_name": "Whatever colors your boat",
+      "original_name": "Whatever colors your boat",
+      "enabled": true,
+      "icon": "moresnifferflowers:vivicus_boat",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "dyespria_plant": {
+      "display_name": "Colorful plants",
+      "original_name": "Colorful plants",
+      "enabled": true,
+      "icon": "moresnifferflowers:dyespria",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "rebrew": {
+      "display_name": "Local Rebrewery",
+      "original_name": "Local Rebrewery",
+      "enabled": true,
+      "icon": "moresnifferflowers:rebrewing_stand",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "bonmeel": {
+      "display_name": "Let It Grow!",
+      "original_name": "Let It Grow!",
+      "enabled": true,
+      "icon": "moresnifferflowers:jar_of_bonmeel",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "positive_soup": {
+      "display_name": "Michelin Star Chef",
+      "original_name": "Michelin Star Chef",
+      "enabled": true,
+      "icon": "moresnifferflowers:rooted_soup",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "ambush": {
+      "display_name": "Ambushed by great loot",
+      "original_name": "Ambushed by great loot",
+      "enabled": true,
+      "icon": "moresnifferflowers:ambush_seeds",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "corruption": {
+      "display_name": "Evil Blocks",
+      "original_name": "Evil Blocks",
+      "enabled": true,
+      "icon": "moresnifferflowers:corrupted_slime_ball",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    }
+  }
+}

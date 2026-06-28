@@ -1,0 +1,87 @@
+{
+  "enabled": true,
+  "mod_name": "Nether Depths Upgrade",
+  "mod_id": "netherdepthsupgrade",
+  "achievements": {
+    "main/get_eyeball_fish": {
+      "display_name": "It\u0027s still looking at me!",
+      "original_name": "It\u0027s still looking at me!",
+      "enabled": true,
+      "icon": "netherdepthsupgrade:eyeball_fish",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "main/turn_wet_lava_sponge": {
+      "display_name": "Dry Lava Sponge?",
+      "original_name": "Dry Lava Sponge?",
+      "enabled": true,
+      "icon": "netherdepthsupgrade:lava_sponge",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "main/lava_fishing_master": {
+      "display_name": "Lava Fishing Master",
+      "original_name": "Lava Fishing Master",
+      "enabled": true,
+      "icon": "netherdepthsupgrade:lava_pufferfish",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "main/craft_lava_fishing_rod": {
+      "display_name": "Peaceful.. Tidings?",
+      "original_name": "Peaceful.. Tidings?",
+      "enabled": true,
+      "icon": "netherdepthsupgrade:lava_fishing_rod",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "main/get_wet_lava_sponge": {
+      "display_name": "Sponges in the depths?",
+      "original_name": "Sponges in the depths?",
+      "enabled": true,
+      "icon": "netherdepthsupgrade:wet_lava_sponge",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "main/filled_soulsucker_bucket": {
+      "display_name": "Cleaning!",
+      "original_name": "Cleaning!",
+      "enabled": true,
+      "icon": "netherdepthsupgrade:soulsucker_bucket",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "main/place_lava_glass": {
+      "display_name": "Lavaquarium",
+      "original_name": "Lavaquarium",
+      "enabled": true,
+      "icon": "netherdepthsupgrade:lava_glass",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "main/abyssal_flora_expert": {
+      "display_name": "Abyssal Flora Expert",
+      "original_name": "Abyssal Flora Expert",
+      "enabled": true,
+      "icon": "netherdepthsupgrade:warped_kelp",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    }
+  }
+}

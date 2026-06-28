@@ -1,33 +1,62 @@
 {
+	consume_items: true
 	default_hide_dependency_lines: false
 	default_min_width: 350
-	default_quest_shape: ""
+	default_quest_shape: "diamond"
+	default_repeatable_quest: true
 	filename: "quest_shoppe"
 	group: ""
+	icon: {
+		id: "contact:envelope"
+	}
 	id: "7853699FB0092DA9"
+	images: [
+		{
+			height: 20.0d
+			image: "enchanted_wilds:textures/questui/shopbg.png"
+			rotation: 0.0d
+			width: 15.0d
+			x: 1.0d
+			y: 1.0d
+		}
+		{
+			height: 4.0d
+			image: "enchanted_wilds:textures/questui/shopbgframe.png"
+			rotation: 0.0d
+			width: 6.0d
+			x: 1.0d
+			y: -3.25d
+		}
+		{
+			height: 4.0d
+			image: "enchanted_wilds:textures/questui/shopcauldrons.png"
+			rotation: 0.0d
+			width: 7.0d
+			x: 3.5d
+			y: 0.25d
+		}
+	]
 	order_index: 1
 	quest_links: [ ]
 	quests: [
 		{
-			entity_vis_size: 1.0f
 			id: "4971EB753FE0E6CC"
 			rewards: [{
-				id: "372A1B8AC4185548"
-				item: {
-					count: 1
-					id: "kubejs:arcane_coin"
-				}
-				type: "item"
+				exclude_from_claim_all: true
+				id: "6EC0CBB972522127"
+				table_id: 6895470215093009548L
+				type: "random"
 			}]
+			shape: "rsquare"
+			size: 2.0d
 			tasks: [{
 				id: "2A957A338BE899C4"
 				type: "checkmark"
 			}]
-			x: -0.5d
-			y: -2.25d
+			x: 1.0d
+			y: -3.0d
 		}
 		{
-			entity_vis_size: 1.0f
 			id: "61B2DA287617D95B"
 			rewards: [{
 				id: "651BA9E2201E32E7"
@@ -42,8 +71,52 @@
 				item: { count: 1, id: "kubejs:arcane_coin" }
 				type: "item"
 			}]
-			x: -3.75d
-			y: -4.0d
+			x: -0.75d
+			y: -3.5d
+		}
+		{
+			id: "130C66471B8C8E27"
+			rewards: [{
+				id: "10A2C2DEDD802CCE"
+				item: {
+					count: 1
+					id: "hexalia:small_cauldron"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "5911E7A9CDDF202E"
+				item: { count: 1, id: "hexalia:small_cauldron" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			icon: {
+				id: "hexerei:mixing_cauldron"
+			}
+			id: "64E8A8E1C9A939C9"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4E65A11B12A1532E"
+				is_ender: false
+				is_team_reward: false
+				item: {
+					count: 1
+					id: "hexerei:mixing_cauldron"
+				}
+				target_addressee: "QuestNPC"
+				team_reward_multiplier: 1.0f
+				type: "contactquests:parcel"
+			}]
+			tasks: [{
+				id: "39E4DB8EA5D3D6AD"
+				item: { count: 1, id: "numismatics:cog" }
+				type: "item"
+			}]
+			x: 5.5d
+			y: 0.0d
 		}
 	]
 }

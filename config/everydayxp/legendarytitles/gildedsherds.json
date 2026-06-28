@@ -1,0 +1,17 @@
+{
+  "enabled": true,
+  "mod_name": "GildedSherds",
+  "mod_id": "gildedsherds",
+  "achievements": {
+    "adventure/touch_of_gold": {
+      "display_name": "A Touch of Gold",
+      "original_name": "A Touch of Gold",
+      "enabled": true,
+      "icon": "gildedsherds:minecraft/howl_pottery_sherd",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    }
+  }
+}

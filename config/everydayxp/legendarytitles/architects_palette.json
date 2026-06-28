@@ -1,0 +1,27 @@
+{
+  "enabled": true,
+  "mod_name": "Architects Palette",
+  "mod_id": "architects_palette",
+  "achievements": {
+    "main/totem_carving": {
+      "display_name": "Wipe that Grin off Your Face",
+      "original_name": "Wipe that Grin off Your Face",
+      "enabled": true,
+      "icon": "architects_palette:placid_acacia_totem",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "main/place_entrails": {
+      "display_name": "Somehow Worse than Imagined",
+      "original_name": "Somehow Worse than Imagined",
+      "enabled": true,
+      "icon": "architects_palette:entrails",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    }
+  }
+}

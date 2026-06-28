@@ -43,7 +43,6 @@
 	quest_links: [ ]
 	quests: [
 		{
-			entity_vis_size: 1.0f
 			id: "4470E2B09DB2B676"
 			rewards: [{
 				id: "6C4AA9B8014AE3F0"
@@ -64,7 +63,6 @@
 			y: 14.0d
 		}
 		{
-			entity_vis_size: 1.0f
 			id: "4EE44DF5D0E5BD53"
 			optional: true
 			rewards: [{
@@ -85,7 +83,6 @@
 			y: 3.5d
 		}
 		{
-			entity_vis_size: 1.0f
 			id: "369DEAD83BD150DA"
 			rewards: [
 				{
@@ -111,7 +108,6 @@
 			y: 12.5d
 		}
 		{
-			entity_vis_size: 1.0f
 			id: "7EF7EE2181ECA4E9"
 			rewards: [
 				{
@@ -165,7 +161,6 @@
 			y: 15.5d
 		}
 		{
-			entity_vis_size: 1.0f
 			id: "3533886FEAAAE291"
 			rewards: [{
 				id: "474AE26E907CEE13"
@@ -186,7 +181,6 @@
 			y: 3.0d
 		}
 		{
-			entity_vis_size: 1.0f
 			id: "292B26978E644D9F"
 			rewards: [
 				{
@@ -215,7 +209,6 @@
 			y: 12.5d
 		}
 		{
-			entity_vis_size: 1.0f
 			id: "1F4569590B7666F5"
 			rewards: [
 				{
@@ -239,7 +232,6 @@
 			y: 14.0d
 		}
 		{
-			entity_vis_size: 1.0f
 			id: "4E9CAB55113B5280"
 			invisible: true
 			tasks: [{
@@ -252,7 +244,6 @@
 		}
 		{
 			dependencies: ["722C9A16509E524B"]
-			entity_vis_size: 1.0f
 			id: "06DC33669C98F5A4"
 			rewards: [
 				{
@@ -283,7 +274,6 @@
 			y: -2.5d
 		}
 		{
-			entity_vis_size: 1.0f
 			id: "722C9A16509E524B"
 			rewards: [
 				{
@@ -315,7 +305,6 @@
 		}
 		{
 			dependencies: ["722C9A16509E524B"]
-			entity_vis_size: 1.0f
 			id: "133D48874069E59B"
 			rewards: [{
 				id: "42B9AB11D9E3ABCD"
@@ -332,7 +321,6 @@
 		}
 		{
 			dependencies: ["722C9A16509E524B"]
-			entity_vis_size: 1.0f
 			id: "7527E0A9EF5C3697"
 			rewards: [{
 				id: "2C983FA06FB6C836"
@@ -349,7 +337,6 @@
 		}
 		{
 			dependencies: ["722C9A16509E524B"]
-			entity_vis_size: 1.0f
 			id: "2E1A6A93F48AAF58"
 			rewards: [{
 				id: "3178D82564BA7BD9"
@@ -366,7 +353,6 @@
 		}
 		{
 			dependencies: ["722C9A16509E524B"]
-			entity_vis_size: 1.0f
 			id: "7B4772B066474C41"
 			rewards: [{
 				id: "16E016B66087E8AC"
@@ -383,7 +369,6 @@
 		}
 		{
 			dependencies: ["722C9A16509E524B"]
-			entity_vis_size: 1.0f
 			id: "2E07A04D5589B674"
 			rewards: [{
 				id: "102031CA994CF7D6"
@@ -399,7 +384,6 @@
 			y: -2.5d
 		}
 		{
-			entity_vis_size: 1.0f
 			id: "38285B9280444C60"
 			rewards: [{
 				id: "156F25E0D2811912"
@@ -422,7 +406,6 @@
 			y: 15.5d
 		}
 		{
-			entity_vis_size: 1.0f
 			id: "13C0DC76BB0AD7CB"
 			rewards: [{
 				id: "014A6853173CF7AD"
@@ -446,7 +429,6 @@
 			y: 13.0d
 		}
 		{
-			entity_vis_size: 1.0f
 			id: "591CF255E9BDD1D1"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -469,7 +451,6 @@
 			y: 6.5d
 		}
 		{
-			entity_vis_size: 1.0f
 			id: "7210927B460B6B0F"
 			rewards: [{
 				id: "4C5700905C7B6B76"
@@ -495,7 +476,6 @@
 			y: 5.0d
 		}
 		{
-			entity_vis_size: 1.0f
 			id: "2F11F1501E038311"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -513,7 +493,6 @@
 			y: 7.0d
 		}
 		{
-			entity_vis_size: 1.0f
 			id: "48ECF54E7038910F"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -534,7 +513,6 @@
 			y: -4.0d
 		}
 		{
-			entity_vis_size: 1.0f
 			id: "5290EB7B63B925AA"
 			rewards: [
 				{
@@ -584,7 +562,6 @@
 			y: 6.5d
 		}
 		{
-			entity_vis_size: 1.0f
 			icon: {
 				components: {
 					"ftbquests:missing_item": "mcwholidays:witch_hat"
@@ -613,7 +590,6 @@
 			y: 7.0d
 		}
 		{
-			entity_vis_size: 1.0f
 			id: "21B1D0246C8E90EC"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -633,7 +609,6 @@
 			y: 3.0d
 		}
 		{
-			entity_vis_size: 1.0f
 			id: "50DA655C90509B80"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -652,7 +627,6 @@
 			y: 0.75d
 		}
 		{
-			entity_vis_size: 1.0f
 			id: "3DA0BA730A8040BE"
 			rewards: [{
 				id: "2E6210A5B62156DA"
@@ -693,7 +667,6 @@
 			y: 7.0d
 		}
 		{
-			entity_vis_size: 1.0f
 			id: "60C544B7E9552B88"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -716,7 +689,6 @@
 			y: 5.0d
 		}
 		{
-			entity_vis_size: 1.0f
 			id: "76A0C79C3F0A8D38"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -736,7 +708,6 @@
 			y: -4.0d
 		}
 		{
-			entity_vis_size: 1.0f
 			id: "62FD1ED7FE9ED635"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -756,7 +727,6 @@
 			y: -5.5d
 		}
 		{
-			entity_vis_size: 1.0f
 			id: "40F10403E2BCFBF0"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -776,7 +746,6 @@
 			y: -6.5d
 		}
 		{
-			entity_vis_size: 1.0f
 			id: "23F7E0857CEF8C97"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -796,7 +765,6 @@
 			y: -2.5d
 		}
 		{
-			entity_vis_size: 1.0f
 			id: "4CEBBF8FE39DE199"
 			rewards: [{
 				count: 4

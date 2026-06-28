@@ -9,7 +9,6 @@
 	quest_links: [ ]
 	quests: [
 		{
-			entity_vis_size: 1.0f
 			id: "39C476A7C4682009"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -26,7 +25,6 @@
 			y: 6.5d
 		}
 		{
-			entity_vis_size: 1.0f
 			id: "1AFE0FBF887D22FD"
 			rewards: [{
 				id: "61F4A4C53F8A7995"
@@ -48,7 +46,6 @@
 		}
 		{
 			dependencies: ["1AFE0FBF887D22FD"]
-			entity_vis_size: 1.0f
 			id: "1184EA40A20DEB5D"
 			rewards: [
 				{
@@ -78,7 +75,6 @@
 		}
 		{
 			dependencies: ["1184EA40A20DEB5D"]
-			entity_vis_size: 1.0f
 			id: "7CB901D8FE793DF6"
 			rewards: [{
 				id: "47CF7C0058F220DE"
@@ -94,7 +90,6 @@
 			y: -3.0d
 		}
 		{
-			entity_vis_size: 1.0f
 			id: "4F9A1B244734638F"
 			rewards: [
 				{
@@ -171,7 +166,6 @@
 			y: 6.5d
 		}
 		{
-			entity_vis_size: 1.0f
 			id: "3E509A27A92746F4"
 			rewards: [
 				{
@@ -193,7 +187,6 @@
 			y: 6.5d
 		}
 		{
-			entity_vis_size: 1.0f
 			id: "063AD4FD6E8FB943"
 			rewards: [{
 				count: 5
@@ -214,7 +207,6 @@
 			y: 7.5d
 		}
 		{
-			entity_vis_size: 1.0f
 			id: "7E936E10896FA3D5"
 			rewards: [{
 				id: "232541D9C3D4F184"
@@ -230,7 +222,6 @@
 			y: 5.5d
 		}
 		{
-			entity_vis_size: 1.0f
 			id: "0E28D4A9544EAF0E"
 			rewards: [{
 				id: "5355BCF70B7F29BE"
@@ -246,7 +237,6 @@
 			y: 6.5d
 		}
 		{
-			entity_vis_size: 1.0f
 			id: "1E53C205AD76513E"
 			rewards: [
 				{
@@ -279,7 +269,6 @@
 		}
 		{
 			dependencies: ["7D82FBD000D41F84"]
-			entity_vis_size: 1.0f
 			id: "226368447EC1C9A9"
 			rewards: [
 				{
@@ -309,7 +298,6 @@
 		}
 		{
 			dependencies: ["226368447EC1C9A9"]
-			entity_vis_size: 1.0f
 			id: "15781BD4547097E9"
 			rewards: [{
 				id: "47EEDE998B2D4F94"
@@ -332,7 +320,6 @@
 		}
 		{
 			dependencies: ["32DCF4F0C230C940"]
-			entity_vis_size: 1.0f
 			id: "30C8AAFCE9EB2BA6"
 			rewards: [
 				{
@@ -360,7 +347,6 @@
 			y: 3.0d
 		}
 		{
-			entity_vis_size: 1.0f
 			id: "7D82FBD000D41F84"
 			shape: "rsquare"
 			size: 2.0d
@@ -374,7 +360,6 @@
 		}
 		{
 			dependencies: ["15781BD4547097E9"]
-			entity_vis_size: 1.0f
 			id: "32DCF4F0C230C940"
 			rewards: [
 				{
@@ -412,7 +397,6 @@
 			y: 3.0d
 		}
 		{
-			entity_vis_size: 1.0f
 			hide_until_deps_visible: true
 			id: "3B14FB98F6CA73AA"
 			invisible: true
@@ -426,7 +410,6 @@
 		}
 		{
 			dependencies: ["1AFE0FBF887D22FD"]
-			entity_vis_size: 1.0f
 			id: "6D3D3329A2772A3F"
 			rewards: [{
 				count: 25
@@ -446,7 +429,6 @@
 			y: -4.0d
 		}
 		{
-			entity_vis_size: 1.0f
 			id: "5A1DD637C09F0D13"
 			rewards: [
 				{
@@ -479,7 +461,6 @@
 			y: 4.5d
 		}
 		{
-			entity_vis_size: 1.0f
 			id: "5FC2335FA7C31389"
 			rewards: [{
 				id: "786A51ABF4B866A8"
@@ -499,7 +480,6 @@
 			y: 6.5d
 		}
 		{
-			entity_vis_size: 1.0f
 			id: "2BFD231209D227FC"
 			rewards: [
 				{
@@ -553,7 +533,6 @@
 			y: 5.5d
 		}
 		{
-			entity_vis_size: 1.0f
 			id: "39844F8340E6A438"
 			shape: "rsquare"
 			size: 1.5d
@@ -567,7 +546,6 @@
 		}
 		{
 			dependencies: ["39844F8340E6A438"]
-			entity_vis_size: 1.0f
 			id: "0C3A4C2AADB4DCD8"
 			tasks: [{
 				id: "2C43AB1CC7A2DB59"
@@ -579,7 +557,6 @@
 		}
 		{
 			dependencies: ["39844F8340E6A438"]
-			entity_vis_size: 1.0f
 			id: "10522CDFCA586C03"
 			shape: "hexagon"
 			tasks: [{
@@ -592,7 +569,6 @@
 		}
 		{
 			dependencies: ["39844F8340E6A438"]
-			entity_vis_size: 1.0f
 			id: "7A91474C948416AC"
 			shape: "hexagon"
 			tasks: [{
@@ -605,12 +581,10 @@
 		}
 		{
 			dependencies: ["39844F8340E6A438"]
-			entity_vis_size: 1.0f
 			id: "545AAD86EA0B7701"
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "7519735D4732FAFF"
-				table_id: 3575186341996824388L
 				type: "loot"
 			}]
 			shape: "hexagon"
@@ -624,7 +598,6 @@
 		}
 		{
 			dependencies: ["39844F8340E6A438"]
-			entity_vis_size: 1.0f
 			id: "0A6B50D21095E2AA"
 			shape: "hexagon"
 			tasks: [{
@@ -637,7 +610,6 @@
 		}
 		{
 			dependencies: ["39844F8340E6A438"]
-			entity_vis_size: 1.0f
 			id: "7C9FD049608453D0"
 			shape: "hexagon"
 			tasks: [{
@@ -650,7 +622,6 @@
 		}
 		{
 			dependencies: ["39844F8340E6A438"]
-			entity_vis_size: 1.0f
 			id: "1D28D1DF0BA0F0D6"
 			shape: "hexagon"
 			tasks: [{
@@ -662,7 +633,6 @@
 			y: -2.5d
 		}
 		{
-			entity_vis_size: 1.0f
 			id: "4110A15F659422D5"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -679,7 +649,6 @@
 			y: -6.5d
 		}
 		{
-			entity_vis_size: 1.0f
 			id: "2288D26992644668"
 			rewards: [
 				{
@@ -709,7 +678,6 @@
 			y: 7.5d
 		}
 		{
-			entity_vis_size: 1.0f
 			id: "69E3182321452B88"
 			rewards: [{
 				count: 2

@@ -1,0 +1,287 @@
+{
+  "enabled": true,
+  "mod_name": "Better End",
+  "mod_id": "betterend",
+  "achievements": {
+    "all_the_templates": {
+      "display_name": "End Smith",
+      "original_name": "End Smith",
+      "enabled": true,
+      "icon": "betterend:tool_assembly_smithing_template",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "terminite_tool": {
+      "display_name": "Terminite Tooling",
+      "original_name": "Terminite Tooling",
+      "enabled": true,
+      "icon": "betterend:terminite_pickaxe",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "portal_on": {
+      "display_name": "Eternal Light",
+      "original_name": "Eternal Light",
+      "enabled": true,
+      "icon": "betterend:eternal_crystal",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "infusion": {
+      "display_name": "Old Rituals",
+      "original_name": "Old Rituals",
+      "enabled": true,
+      "icon": "betterend:infusion_pedestal",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "thallasium_plate": {
+      "display_name": "Plated Thallasium",
+      "original_name": "Plated Thallasium",
+      "enabled": true,
+      "icon": "betterend:thallasium_forged_plate",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "terminite_plate": {
+      "display_name": "Plated Terminite",
+      "original_name": "Plated Terminite",
+      "enabled": true,
+      "icon": "betterend:terminite_forged_plate",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "all_elytras": {
+      "display_name": "Airshow",
+      "original_name": "Airshow",
+      "enabled": true,
+      "icon": "betterend:elytra_crystalite",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "aeternium_tool_head": {
+      "display_name": "Top of all Tools",
+      "original_name": "Top of all Tools",
+      "enabled": true,
+      "icon": "betterend:aeternium_pickaxe_head",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "thallasium_tool": {
+      "display_name": "Thallasium Tooling",
+      "original_name": "Thallasium Tooling",
+      "enabled": true,
+      "icon": "betterend:thallasium_pickaxe",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "aeternium_plate": {
+      "display_name": "Tough Plating",
+      "original_name": "Tough Plating",
+      "enabled": true,
+      "icon": "betterend:aeternium_forged_plate",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "hammer": {
+      "display_name": "Hammered",
+      "original_name": "Hammered",
+      "enabled": true,
+      "icon": "betterend:diamond_hammer",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "thallasium_tool_head": {
+      "display_name": "Heading to Thallasium",
+      "original_name": "Heading to Thallasium",
+      "enabled": true,
+      "icon": "betterend:thallasium_pickaxe_head",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "portal": {
+      "display_name": "On Eternal Paths",
+      "original_name": "On Eternal Paths",
+      "enabled": true,
+      "icon": "betterend:eternal_pedestal",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "terminite_armor": {
+      "display_name": "Shining with Terminite",
+      "original_name": "Shining with Terminite",
+      "enabled": true,
+      "icon": "betterend:terminite_chestplate",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "thallasium_anvil": {
+      "display_name": "Thallasium Smithing",
+      "original_name": "Thallasium Smithing",
+      "enabled": true,
+      "icon": "betterend:thallasium_anvil",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "thallasium_armor": {
+      "display_name": "Dressed in Thallasium",
+      "original_name": "Dressed in Thallasium",
+      "enabled": true,
+      "icon": "betterend:thallasium_chestplate",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "infusion_finished": {
+      "display_name": "Neverending Magic",
+      "original_name": "Neverending Magic",
+      "enabled": true,
+      "icon": "minecraft:ender_eye",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "enter_end": {
+      "display_name": "Face the Void",
+      "original_name": "Face the Void",
+      "enabled": true,
+      "icon": "betterend:cave_moss",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "village": {
+      "display_name": "Countryside",
+      "original_name": "Countryside",
+      "enabled": true,
+      "icon": "betterend:tenanea_door",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "aeternium_anvil": {
+      "display_name": "The End of all Smithing",
+      "original_name": "The End of all Smithing",
+      "enabled": true,
+      "icon": "betterend:aeternium_anvil",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "terminite_tool_head": {
+      "display_name": "Head over Terminite",
+      "original_name": "Head over Terminite",
+      "enabled": true,
+      "icon": "betterend:terminite_pickaxe_head",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "terminite_anvil": {
+      "display_name": "Terminite Smithing",
+      "original_name": "Terminite Smithing",
+      "enabled": true,
+      "icon": "betterend:terminite_anvil",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "all_the_biomes": {
+      "display_name": "A New Ending",
+      "original_name": "A New Ending",
+      "enabled": true,
+      "icon": "betterend:aeternium_boots",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "aeternium_armor": {
+      "display_name": "Tough as can be",
+      "original_name": "Tough as can be",
+      "enabled": true,
+      "icon": "betterend:aeternium_chestplate",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "aeternium_hammer_head": {
+      "display_name": "Top of all Hammers",
+      "original_name": "Top of all Hammers",
+      "enabled": true,
+      "icon": "betterend:aeternium_hammer_head",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "portal_travel": {
+      "display_name": "Eternal Ways",
+      "original_name": "Eternal Ways",
+      "enabled": true,
+      "icon": "minecraft:grass_block",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "aeternium_tool": {
+      "display_name": "Aeternium Assemble",
+      "original_name": "Aeternium Assemble",
+      "enabled": true,
+      "icon": "betterend:aeternium_pickaxe",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "aeternium_hammer": {
+      "display_name": "A Good Hammer",
+      "original_name": "A Good Hammer",
+      "enabled": true,
+      "icon": "betterend:aeternium_hammer",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    }
+  }
+}

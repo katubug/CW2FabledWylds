@@ -1,0 +1,157 @@
+{
+  "enabled": true,
+  "mod_name": "More Villagers",
+  "mod_id": "morevillagers",
+  "achievements": {
+    "end_trade": {
+      "display_name": "Emeralds to the Moon!",
+      "original_name": "Emeralds to the Moon!",
+      "enabled": true,
+      "icon": "minecraft:end_stone",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "all_professions_traded": {
+      "display_name": "Frequent Customer",
+      "original_name": "Frequent Customer",
+      "enabled": true,
+      "icon": "minecraft:experience_bottle",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "kill_villager": {
+      "display_name": "Bad Deal",
+      "original_name": "Bad Deal",
+      "enabled": true,
+      "icon": "minecraft:iron_sword",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "kill_babyvillager": {
+      "display_name": "Even Badder Deal",
+      "original_name": "Even Badder Deal",
+      "enabled": true,
+      "icon": "minecraft:iron_axe",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "nether_trade": {
+      "display_name": "Burning Money",
+      "original_name": "Burning Money",
+      "enabled": true,
+      "icon": "minecraft:netherrack",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "all_workstations_get": {
+      "display_name": "Jack Of All Trades",
+      "original_name": "Jack Of All Trades",
+      "enabled": true,
+      "icon": "minecraft:smithing_table",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "buy_map": {
+      "display_name": "Sponsored Voyage",
+      "original_name": "Sponsored Voyage",
+      "enabled": true,
+      "icon": "minecraft:compass",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "master_trade": {
+      "display_name": "Ace Trainer",
+      "original_name": "Ace Trainer",
+      "enabled": true,
+      "icon": "minecraft:diamond",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "first_village": {
+      "display_name": "First Village",
+      "original_name": "First Village",
+      "enabled": true,
+      "icon": "minecraft:map",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "tame_cat": {
+      "display_name": "Town Pet",
+      "original_name": "Town Pet",
+      "enabled": true,
+      "icon": "minecraft:cod",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "first_trade": {
+      "display_name": "First Trade",
+      "original_name": "First Trade",
+      "enabled": true,
+      "icon": "minecraft:emerald",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "all_villages": {
+      "display_name": "Town Tourist",
+      "original_name": "Town Tourist",
+      "enabled": true,
+      "icon": "minecraft:filled_map",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "map_endcity": {
+      "display_name": "End City Explorer Map",
+      "original_name": "End City Explorer Map",
+      "enabled": true,
+      "icon": "minecraft:purpur_block",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "map_bastion": {
+      "display_name": "Bastion Explorer Map",
+      "original_name": "Bastion Explorer Map",
+      "enabled": true,
+      "icon": "minecraft:polished_blackstone_bricks",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "first_workstation_get": {
+      "display_name": "Let\u0027s Get To Work",
+      "original_name": "Let\u0027s Get To Work",
+      "enabled": true,
+      "icon": "minecraft:stonecutter",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    }
+  }
+}

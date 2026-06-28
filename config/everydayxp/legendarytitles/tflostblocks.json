@@ -1,0 +1,27 @@
+{
+  "enabled": true,
+  "mod_name": "Twilight Forest: The Lost Blocks",
+  "mod_id": "tflostblocks",
+  "achievements": {
+    "smith_thorncutter_axe": {
+      "display_name": "Bane of Thorns",
+      "original_name": "Bane of Thorns",
+      "enabled": true,
+      "icon": "tflostblocks:thorncutter_axe",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "find_thorncutter_axe": {
+      "display_name": "Bane of Thorns... not?",
+      "original_name": "Bane of Thorns... not?",
+      "enabled": true,
+      "icon": "tflostblocks:incomplete_thorncutter_axe",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    }
+  }
+}

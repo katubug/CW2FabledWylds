@@ -10,7 +10,6 @@
 	quest_links: [ ]
 	quests: [
 		{
-			entity_vis_size: 1.0f
 			id: "72CE099C5784339A"
 			rewards: [{
 				id: "08E756EA9F81004B"
@@ -23,15 +22,15 @@
 			shape: "rsquare"
 			size: 2.0d
 			tasks: [{
-				id: "1215A5A14FC6FDB6"
-				item: { count: 1, id: "minecraft:spyglass" }
+				id: "7CD9D3A68DA02F80"
+				item: { components: { "ftbfiltersystem:filter": "or(item(hexerei:reading_glasses)item(minecraft:spyglass))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
 			x: 0.0d
 			y: 0.0d
 		}
 		{
-			entity_vis_size: 1.0f
+			dependencies: ["72CE099C5784339A"]
 			id: "2BB8D1410BD7C040"
 			tasks: [{
 				id: "78D5ACA5F6C52047"
@@ -40,6 +39,17 @@
 			}]
 			x: 3.25d
 			y: 0.0d
+		}
+		{
+			id: "5C0698C5831F824F"
+			tasks: [{
+				advancement: "exposure:adventure/wildlife_archivist"
+				criterion: ""
+				id: "52BDC8F8610519EF"
+				type: "advancement"
+			}]
+			x: -0.25d
+			y: -2.25d
 		}
 	]
 }

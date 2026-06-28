@@ -1,0 +1,117 @@
+{
+  "enabled": true,
+  "mod_name": "Tide",
+  "mod_id": "tide",
+  "achievements": {
+    "catch_midas_with_midas_rod": {
+      "display_name": "Full Circle",
+      "original_name": "Full Circle",
+      "enabled": true,
+      "icon": "tide:midas_fish",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "journal_halfway_completed": {
+      "display_name": "Aquatic Archivist",
+      "original_name": "Aquatic Archivist",
+      "enabled": true,
+      "icon": "tide:fishy_note",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "fish_in_void": {
+      "display_name": "Into the A-fish",
+      "original_name": "Into the A-fish",
+      "enabled": true,
+      "icon": "tide:void_hook",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "all_fishing_rods": {
+      "display_name": "Hooked on Variety",
+      "original_name": "Hooked on Variety",
+      "enabled": true,
+      "icon": "tide:crystal_fishing_rod",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "get_bait": {
+      "display_name": "Oldest Trick in the Book",
+      "original_name": "Oldest Trick in the Book",
+      "enabled": true,
+      "icon": "tide:bait",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "release_pupfish": {
+      "display_name": "Preservation Expert",
+      "original_name": "Preservation Expert",
+      "enabled": true,
+      "icon": "tide:devils_hole_pupfish",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "fish_in_lava": {
+      "display_name": "Hot Rod",
+      "original_name": "Hot Rod",
+      "enabled": true,
+      "icon": "tide:lavaproof_hook",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "freeze_coelacanth": {
+      "display_name": "Taste of its Own Medicine",
+      "original_name": "Taste of its Own Medicine",
+      "enabled": true,
+      "icon": "tide:coelacanth",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "catch_legendary": {
+      "display_name": "One in a Million",
+      "original_name": "One in a Million",
+      "enabled": true,
+      "icon": "tide:shooting_starfish",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "journal_completed": {
+      "display_name": "A Reel Completionist",
+      "original_name": "A Reel Completionist",
+      "enabled": true,
+      "icon": "tide:fishing_journal",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "pull_crate": {
+      "display_name": "That\u0027s No Fish!",
+      "original_name": "That\u0027s No Fish!",
+      "enabled": true,
+      "icon": "tide:wooden_crate",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    }
+  }
+}

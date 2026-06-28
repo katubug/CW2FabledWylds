@@ -73,7 +73,6 @@
 	quest_links: [ ]
 	quests: [
 		{
-			entity_vis_size: 1.0f
 			id: "226D1B09B2958EFC"
 			rewards: [{
 				id: "2F283F7FB47A65D3"
@@ -90,7 +89,6 @@
 			y: -7.5d
 		}
 		{
-			entity_vis_size: 1.0f
 			id: "171D4EACF7B9F4D5"
 			shape: "gear"
 			tasks: [{
@@ -101,7 +99,6 @@
 			y: -7.5d
 		}
 		{
-			entity_vis_size: 1.0f
 			id: "26D8EAD9D892805E"
 			min_width: 350
 			rewards: [{
@@ -120,7 +117,6 @@
 		}
 		{
 			dependencies: ["26D8EAD9D892805E"]
-			entity_vis_size: 1.0f
 			id: "20F9C02AF5CBE665"
 			rewards: [
 				{
@@ -146,7 +142,6 @@
 			y: -7.5d
 		}
 		{
-			entity_vis_size: 1.0f
 			id: "51383D499E0DF0DA"
 			min_width: 350
 			rewards: [{
@@ -165,7 +160,6 @@
 		}
 		{
 			dependencies: ["51383D499E0DF0DA"]
-			entity_vis_size: 1.0f
 			id: "1E43FCEBA416DCFF"
 			rewards: [{
 				id: "5D9376B26A3CE85B"
@@ -182,7 +176,6 @@
 		}
 		{
 			disable_toast: true
-			entity_vis_size: 1.0f
 			id: "504E46F5A1DCF256"
 			invisible: true
 			tasks: [{
@@ -194,7 +187,6 @@
 			y: -9.5d
 		}
 		{
-			entity_vis_size: 1.0f
 			id: "5763626E3E3E440B"
 			rewards: [{
 				id: "2CF6D804BF74D6B0"
@@ -211,7 +203,6 @@
 			y: -7.5d
 		}
 		{
-			entity_vis_size: 1.0f
 			id: "4B09C2508E25AD2B"
 			rewards: [{
 				id: "1A85B933DFDA69B5"

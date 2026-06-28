@@ -1,0 +1,497 @@
+{
+  "enabled": true,
+  "mod_name": "Adorable Hamster Pets",
+  "mod_id": "adorablehamsterpets",
+  "achievements": {
+    "husbandry/sunflower_hoarder": {
+      "display_name": "Sunflower Hoarder",
+      "original_name": "Sunflower Hoarder",
+      "enabled": true,
+      "icon": "adorablehamsterpets:sunflower_seeds",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "husbandry/collector_50": {
+      "display_name": "The Spice of Life",
+      "original_name": "The Spice of Life",
+      "enabled": true,
+      "icon": "minecraft:spyglass",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "husbandry/hardened_salad": {
+      "display_name": "Hardened Salad",
+      "original_name": "Hardened Salad",
+      "enabled": true,
+      "icon": "adorablehamsterpets:hamster_armor_acorn",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "husbandry/nose_for_treasure": {
+      "display_name": "Nose for Treasure",
+      "original_name": "Nose for Treasure",
+      "enabled": true,
+      "icon": "minecraft:diamond",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "husbandry/hamster_slept_in_bed": {
+      "display_name": "Sweet Dreams \u0027r Made of Leaves",
+      "original_name": "Sweet Dreams \u0027r Made of Leaves",
+      "enabled": true,
+      "icon": "minecraft:red_bed",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "husbandry/collector_10": {
+      "display_name": "Amateur Zoologist",
+      "original_name": "Amateur Zoologist",
+      "enabled": true,
+      "icon": "adorablehamsterpets:hamster_spawn_egg",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "husbandry/carat_confusion": {
+      "display_name": "Carat Confusion",
+      "original_name": "Carat Confusion",
+      "enabled": true,
+      "icon": "minecraft:raw_gold",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "husbandry/it_cant_be_true": {
+      "display_name": "It Can\u0027t Be True!",
+      "original_name": "It Can\u0027t Be True!",
+      "enabled": true,
+      "icon": "adorablehamsterpets:sunflower_block",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "husbandry/shoulder_hamster": {
+      "display_name": "Shoulder Surfer",
+      "original_name": "Shoulder Surfer",
+      "enabled": true,
+      "icon": "adorablehamsterpets:cheese",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "husbandry/tame_hamster": {
+      "display_name": "A Furry Shadow",
+      "original_name": "A Furry Shadow",
+      "enabled": true,
+      "icon": "adorablehamsterpets:hamster_spawn_egg",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "husbandry/cheeky_storage": {
+      "display_name": "A Trustworthy Face",
+      "original_name": "A Trustworthy Face",
+      "enabled": true,
+      "icon": "minecraft:bundle",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "husbandry/used_hamster_bedding": {
+      "display_name": "Interior Desecrator",
+      "original_name": "Interior Desecrator",
+      "enabled": true,
+      "icon": "minecraft:wind_charge",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "husbandry/load_bearing_human": {
+      "display_name": "Load-Bearing Human",
+      "original_name": "Load-Bearing Human",
+      "enabled": true,
+      "icon": "minecraft:anvil",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "husbandry/impending_doom_squeak": {
+      "display_name": "Impending Doom Squeak",
+      "original_name": "Impending Doom Squeak",
+      "enabled": true,
+      "icon": "minecraft:gunpowder",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "husbandry/tree_heist": {
+      "display_name": "Tree Heist",
+      "original_name": "Tree Heist",
+      "enabled": true,
+      "icon": "minecraft:oak_sapling",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "husbandry/dispensed_hamster_bedding": {
+      "display_name": "High-Tech Allergy Attack",
+      "original_name": "High-Tech Allergy Attack",
+      "enabled": true,
+      "icon": "minecraft:dispenser",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "husbandry/canine_aspirations": {
+      "display_name": "Canine Aspirations?",
+      "original_name": "Canine Aspirations?",
+      "enabled": true,
+      "icon": "minecraft:bone",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "husbandry/craft_all_hamster_beds": {
+      "display_name": "Leaf Bender Supreme",
+      "original_name": "Leaf Bender Supreme",
+      "enabled": true,
+      "icon": "adorablehamsterpets:hamster_bed_cherry",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "husbandry/collector_max": {
+      "display_name": "Actually Did Catch \u0027Em All",
+      "original_name": "Actually Did Catch \u0027Em All",
+      "enabled": true,
+      "icon": "minecraft:nether_star",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "husbandry/immovable_object": {
+      "display_name": "The Immovable Object",
+      "original_name": "The Immovable Object",
+      "enabled": true,
+      "icon": "adorablehamsterpets:hamster_armor_netherite",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "husbandry/supercharged_squeaker": {
+      "display_name": "Supercharged Squeaker",
+      "original_name": "Supercharged Squeaker",
+      "enabled": true,
+      "icon": "minecraft:potion",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "husbandry/pocket_paramedic": {
+      "display_name": "Pocket Paramedic",
+      "original_name": "Pocket Paramedic",
+      "enabled": true,
+      "icon": "adorablehamsterpets:hamster_food_mix",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "husbandry/squirrel_cosplay": {
+      "display_name": "Squirrel Cosplay",
+      "original_name": "Squirrel Cosplay",
+      "enabled": true,
+      "icon": "adorablehamsterpets:acorn_hat",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "husbandry/chipmunk_aspirations": {
+      "display_name": "Chipmunk Aspirations",
+      "original_name": "Chipmunk Aspirations",
+      "enabled": true,
+      "icon": "minecraft:bundle",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "husbandry/craft_hamster_bed": {
+      "display_name": "Luxury Leaf Pile",
+      "original_name": "Luxury Leaf Pile",
+      "enabled": true,
+      "icon": "adorablehamsterpets:hamster_bed_oak",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "husbandry/craft_bait": {
+      "display_name": "The Bait",
+      "original_name": "The Bait",
+      "enabled": true,
+      "icon": "adorablehamsterpets:sliced_cucumber",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "husbandry/breeder_1000000": {
+      "display_name": "The Millionth Squeak",
+      "original_name": "The Millionth Squeak",
+      "enabled": true,
+      "icon": "minecraft:dragon_egg",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "husbandry/return_on_investnut": {
+      "display_name": "Return on Investnut",
+      "original_name": "Return on Investnut",
+      "enabled": true,
+      "icon": "adorablehamsterpets:acorn",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "husbandry/green_bean_gardener": {
+      "display_name": "Green Bean Gardener",
+      "original_name": "Green Bean Gardener",
+      "enabled": true,
+      "icon": "adorablehamsterpets:green_bean_seeds",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "husbandry/breeder_1000": {
+      "display_name": "The Endless Horde",
+      "original_name": "The Endless Horde",
+      "enabled": true,
+      "icon": "minecraft:dragon_breath",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "husbandry/collector_100": {
+      "display_name": "Gotta Catch a Fraction of \u0027Em",
+      "original_name": "Gotta Catch a Fraction of \u0027Em",
+      "enabled": true,
+      "icon": "minecraft:compass",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "husbandry/craft_hamster_bedding": {
+      "display_name": "Artisanal Floor Mulch",
+      "original_name": "Artisanal Floor Mulch",
+      "enabled": true,
+      "icon": "adorablehamsterpets:hamster_bedding",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "husbandry/placed_bed_upside_down": {
+      "display_name": "Australian Feng Shui",
+      "original_name": "Australian Feng Shui",
+      "enabled": true,
+      "icon": "adorablehamsterpets:upside_down_hamster_bed_icon",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "husbandry/murderer": {
+      "display_name": "MURDERER",
+      "original_name": "MURDERER",
+      "enabled": true,
+      "icon": "minecraft:iron_sword",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "husbandry/industrial_nutcracking": {
+      "display_name": "Industrial Nutcracking",
+      "original_name": "Industrial Nutcracking",
+      "enabled": true,
+      "icon": "adorablehamsterpets:acorn_shard",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "husbandry/killed_by_hamster": {
+      "display_name": "Rodent Reckoning",
+      "original_name": "Rodent Reckoning",
+      "enabled": true,
+      "icon": "minecraft:skeleton_skull",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "husbandry/expensive_therapy": {
+      "display_name": "Expensive Therapy",
+      "original_name": "Expensive Therapy",
+      "enabled": true,
+      "icon": "adorablehamsterpets:hamster_armor_diamond",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "husbandry/breeder_100": {
+      "display_name": "Genetic Blender",
+      "original_name": "Genetic Blender",
+      "enabled": true,
+      "icon": "minecraft:potion",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "husbandry/petal_pusher": {
+      "display_name": "Petal Pusher",
+      "original_name": "Petal Pusher",
+      "enabled": true,
+      "icon": "minecraft:pink_petals",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "husbandry/collector_1000": {
+      "display_name": "Obsession Foreshadowing",
+      "original_name": "Obsession Foreshadowing",
+      "enabled": true,
+      "icon": "minecraft:filled_map",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "husbandry/ecological_menace": {
+      "display_name": "Ecological Menace",
+      "original_name": "Ecological Menace",
+      "enabled": true,
+      "icon": "minecraft:dead_bush",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "husbandry/throw_hamster": {
+      "display_name": "The Hamster Yeet™",
+      "original_name": "The Hamster Yeet™",
+      "enabled": true,
+      "icon": "minecraft:creeper_head",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "husbandry/seed_money": {
+      "display_name": "Seed Money",
+      "original_name": "Seed Money",
+      "enabled": true,
+      "icon": "adorablehamsterpets:cucumber_seeds",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "husbandry/seeing_red": {
+      "display_name": "Seeing Red",
+      "original_name": "Seeing Red",
+      "enabled": true,
+      "icon": "minecraft:spider_eye",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "husbandry/hamster_bed_linked": {
+      "display_name": "Home is Where the Leaves Are",
+      "original_name": "Home is Where the Leaves Are",
+      "enabled": true,
+      "icon": "minecraft:lead",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "husbandry/steamy_greens": {
+      "display_name": "Steamy Greens",
+      "original_name": "Steamy Greens",
+      "enabled": true,
+      "icon": "adorablehamsterpets:steamed_green_beans",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "husbandry/breeder_500": {
+      "display_name": "Chromosomal Chaos",
+      "original_name": "Chromosomal Chaos",
+      "enabled": true,
+      "icon": "minecraft:potion",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "husbandry/breeder_1": {
+      "display_name": "Playing God",
+      "original_name": "Playing God",
+      "enabled": true,
+      "icon": "adorablehamsterpets:hamster_spawn_egg",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "husbandry/craft_food_mix": {
+      "display_name": "Pocket Snacks",
+      "original_name": "Pocket Snacks",
+      "enabled": true,
+      "icon": "adorablehamsterpets:hamster_food_mix",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    }
+  }
+}

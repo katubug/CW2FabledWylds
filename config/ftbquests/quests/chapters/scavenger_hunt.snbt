@@ -17,7 +17,6 @@
 	quest_links: [ ]
 	quests: [
 		{
-			entity_vis_size: 1.0f
 			id: "10F079B6E31FCF17"
 			shape: "hexagon"
 			tasks: [{
@@ -29,7 +28,6 @@
 			y: 2.0d
 		}
 		{
-			entity_vis_size: 1.0f
 			id: "4FDB48B5AE01AFB4"
 			shape: "hexagon"
 			tasks: [{
@@ -41,7 +39,6 @@
 			y: 4.0d
 		}
 		{
-			entity_vis_size: 1.0f
 			id: "52C4175797FFE14B"
 			shape: "hexagon"
 			tasks: [{
@@ -53,7 +50,6 @@
 			y: 5.0d
 		}
 		{
-			entity_vis_size: 1.0f
 			id: "4307E6EA2E01F82B"
 			shape: "hexagon"
 			tasks: [{
@@ -65,7 +61,6 @@
 			y: 1.5d
 		}
 		{
-			entity_vis_size: 1.0f
 			id: "4A8A373C89D91E51"
 			shape: "hexagon"
 			tasks: [{
@@ -77,7 +72,6 @@
 			y: -1.0d
 		}
 		{
-			entity_vis_size: 1.0f
 			id: "5C44B803FBB46C7F"
 			shape: "hexagon"
 			tasks: [{
@@ -89,7 +83,6 @@
 			y: 4.0d
 		}
 		{
-			entity_vis_size: 1.0f
 			id: "795033CC78FE8CCE"
 			shape: "hexagon"
 			tasks: [{
@@ -101,7 +94,6 @@
 			y: -1.0d
 		}
 		{
-			entity_vis_size: 1.0f
 			id: "78A818CEEFA49F95"
 			shape: "hexagon"
 			tasks: [{
@@ -113,7 +105,6 @@
 			y: 2.0d
 		}
 		{
-			entity_vis_size: 1.0f
 			id: "34D4613E61AF3AEF"
 			shape: "hexagon"
 			tasks: [{
@@ -125,7 +116,6 @@
 			y: -1.5d
 		}
 		{
-			entity_vis_size: 1.0f
 			id: "1E1E47B50314B64A"
 			shape: "hexagon"
 			tasks: [
@@ -164,7 +154,6 @@
 			y: 0.0d
 		}
 		{
-			entity_vis_size: 1.0f
 			id: "628D5F4ACDE2C665"
 			shape: "hexagon"
 			tasks: [{
@@ -176,7 +165,6 @@
 			y: -1.5d
 		}
 		{
-			entity_vis_size: 1.0f
 			id: "223792FEBB2154CA"
 			shape: "hexagon"
 			tasks: [{
@@ -188,7 +176,6 @@
 			y: 0.0d
 		}
 		{
-			entity_vis_size: 1.0f
 			id: "75A98C846E56A570"
 			shape: "hexagon"
 			tasks: [
@@ -207,7 +194,6 @@
 			y: 4.0d
 		}
 		{
-			entity_vis_size: 1.0f
 			id: "78FB1E1156B8A23C"
 			shape: "hexagon"
 			tasks: [{
@@ -219,7 +205,6 @@
 			y: 4.0d
 		}
 		{
-			entity_vis_size: 1.0f
 			id: "36AC202292F23D2D"
 			shape: "hexagon"
 			tasks: [{
@@ -231,7 +216,6 @@
 			y: 3.5d
 		}
 		{
-			entity_vis_size: 1.0f
 			id: "5D7D1F5AEDE61466"
 			shape: "hexagon"
 			tasks: [{
@@ -243,7 +227,6 @@
 			y: 3.5d
 		}
 		{
-			entity_vis_size: 1.0f
 			id: "3EDAAAB87F7C1022"
 			shape: "hexagon"
 			tasks: [
@@ -262,7 +245,6 @@
 			y: -4.0d
 		}
 		{
-			entity_vis_size: 1.0f
 			id: "7AD80A3479D0B0A8"
 			shape: "hexagon"
 			tasks: [{
@@ -274,7 +256,6 @@
 			y: -4.0d
 		}
 		{
-			entity_vis_size: 1.0f
 			id: "4B1050C983FA2708"
 			shape: "hexagon"
 			tasks: [{
@@ -286,7 +267,6 @@
 			y: -3.5d
 		}
 		{
-			entity_vis_size: 1.0f
 			id: "443F18D755145E26"
 			shape: "hexagon"
 			tasks: [
@@ -305,7 +285,6 @@
 			y: 6.0d
 		}
 		{
-			entity_vis_size: 1.0f
 			id: "217230971261385C"
 			shape: "hexagon"
 			tasks: [{
@@ -317,7 +296,6 @@
 			y: 6.0d
 		}
 		{
-			entity_vis_size: 1.0f
 			id: "0781A21B04D458DE"
 			shape: "hexagon"
 			tasks: [{
@@ -329,7 +307,6 @@
 			y: -2.0d
 		}
 		{
-			entity_vis_size: 1.0f
 			id: "56DBC16948476CBE"
 			shape: "hexagon"
 			tasks: [{
@@ -341,7 +318,6 @@
 			y: -2.0d
 		}
 		{
-			entity_vis_size: 1.0f
 			id: "74A5C07E1CC1BDCB"
 			shape: "hexagon"
 			tasks: [{
@@ -353,7 +329,6 @@
 			y: -4.0d
 		}
 		{
-			entity_vis_size: 1.0f
 			id: "77F821E672D8FE6B"
 			shape: "hexagon"
 			tasks: [{
@@ -365,7 +340,6 @@
 			y: -4.0d
 		}
 		{
-			entity_vis_size: 1.0f
 			id: "5D51C92D31F9974B"
 			shape: "hexagon"
 			tasks: [{
@@ -377,7 +351,6 @@
 			y: -5.5d
 		}
 		{
-			entity_vis_size: 1.0f
 			id: "74403CDD36E19E5B"
 			shape: "hexagon"
 			tasks: [
@@ -396,7 +369,6 @@
 			y: 5.0d
 		}
 		{
-			entity_vis_size: 1.0f
 			id: "60205D338359F03C"
 			shape: "hexagon"
 			tasks: [
@@ -420,7 +392,6 @@
 			y: 5.0d
 		}
 		{
-			entity_vis_size: 1.0f
 			id: "04CB1359F805B396"
 			shape: "hexagon"
 			tasks: [
@@ -444,7 +415,6 @@
 			y: 5.5d
 		}
 		{
-			entity_vis_size: 1.0f
 			id: "358EB6DB33F203FE"
 			tasks: [{
 				id: "1310A9BA89A52C7A"
@@ -455,7 +425,6 @@
 			y: 0.0d
 		}
 		{
-			entity_vis_size: 1.0f
 			id: "178EB94C72B16D88"
 			shape: "hexagon"
 			tasks: [{
@@ -467,7 +436,6 @@
 			y: 1.5d
 		}
 		{
-			entity_vis_size: 1.0f
 			id: "5F1A07D19C09FFE6"
 			shape: "hexagon"
 			tasks: [{
@@ -479,7 +447,6 @@
 			y: -5.5d
 		}
 		{
-			entity_vis_size: 1.0f
 			id: "0B947B43262CD036"
 			shape: "hexagon"
 			tasks: [{
@@ -491,7 +458,6 @@
 			y: -5.5d
 		}
 		{
-			entity_vis_size: 1.0f
 			id: "505C0E55270CBFBC"
 			tasks: [{
 				id: "7C613D3D7DD3EF30"
@@ -537,7 +503,6 @@
 				"358EB6DB33F203FE"
 				"74403CDD36E19E5B"
 			]
-			entity_vis_size: 1.0f
 			hide_dependency_lines: true
 			id: "3CEDCDDE9BCD7F5F"
 			progression_mode: "linear"
@@ -575,7 +540,6 @@
 			y: 7.0d
 		}
 		{
-			entity_vis_size: 1.0f
 			id: "5F7EBDA2EDC4F25B"
 			tasks: [{
 				id: "34E8363AB1E1DA09"

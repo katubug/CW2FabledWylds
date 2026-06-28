@@ -17,7 +17,6 @@
 	quest_links: [ ]
 	quests: [
 		{
-			entity_vis_size: 1.0f
 			id: "01896E1F4E0B7F2F"
 			rewards: [{
 				id: "295347EC6BB61525"
@@ -38,7 +37,6 @@
 		}
 		{
 			dependencies: ["090B731F01A14C75"]
-			entity_vis_size: 1.0f
 			icon: {
 				id: "create:mechanical_press"
 			}
@@ -77,7 +75,6 @@
 		}
 		{
 			dependencies: ["01896E1F4E0B7F2F"]
-			entity_vis_size: 1.0f
 			id: "283B3A75443BDA35"
 			rewards: [
 				{
@@ -108,7 +105,6 @@
 		}
 		{
 			dependencies: ["283B3A75443BDA35"]
-			entity_vis_size: 1.0f
 			id: "1EB53FD55A3973BF"
 			rewards: [{
 				count: 10
@@ -129,7 +125,6 @@
 		}
 		{
 			dependencies: ["1EB53FD55A3973BF"]
-			entity_vis_size: 1.0f
 			id: "0B539C0958C0AE9F"
 			rewards: [{
 				count: 5
@@ -150,7 +145,6 @@
 		}
 		{
 			dependencies: ["1EB53FD55A3973BF"]
-			entity_vis_size: 1.0f
 			id: "053309454320882E"
 			rewards: [{
 				count: 5
@@ -171,7 +165,6 @@
 		}
 		{
 			dependencies: ["576AE3823B89AE8E"]
-			entity_vis_size: 1.0f
 			id: "2DC641E0D0A72439"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -189,7 +182,6 @@
 		}
 		{
 			dependencies: ["576AE3823B89AE8E"]
-			entity_vis_size: 1.0f
 			id: "7653B8A3BFBA6E2C"
 			rewards: [
 				{
@@ -218,7 +210,6 @@
 		}
 		{
 			dependencies: ["1EB53FD55A3973BF"]
-			entity_vis_size: 1.0f
 			id: "090B731F01A14C75"
 			rewards: [{
 				count: 5
@@ -239,7 +230,6 @@
 		}
 		{
 			dependencies: ["21D14DACAA03665A"]
-			entity_vis_size: 1.0f
 			id: "50B994830A8846FA"
 			rewards: [{
 				id: "45C58D5814FEA0AC"
@@ -261,7 +251,6 @@
 		}
 		{
 			dependencies: ["1EB53FD55A3973BF"]
-			entity_vis_size: 1.0f
 			id: "1371BBAA8FDBC0B2"
 			rewards: [
 				{
@@ -290,7 +279,6 @@
 			y: 1.0d
 		}
 		{
-			entity_vis_size: 1.0f
 			id: "5177165688541586"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -308,7 +296,6 @@
 		}
 		{
 			dependencies: ["21D14DACAA03665A"]
-			entity_vis_size: 1.0f
 			id: "6B62CA860B15D956"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -328,7 +315,6 @@
 		}
 		{
 			dependencies: ["21D14DACAA03665A"]
-			entity_vis_size: 1.0f
 			id: "576AE3823B89AE8E"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -346,7 +332,6 @@
 		}
 		{
 			dependencies: ["3136D906C98A2243"]
-			entity_vis_size: 1.0f
 			icon: {
 				id: "supplementaries:wrench"
 			}
@@ -380,7 +365,6 @@
 		}
 		{
 			dependencies: ["2DC641E0D0A72439"]
-			entity_vis_size: 1.0f
 			id: "265265A0C4DFD728"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -398,7 +382,6 @@
 		}
 		{
 			dependencies: ["21D14DACAA03665A"]
-			entity_vis_size: 1.0f
 			id: "5859015DE7AD5512"
 			rewards: [
 				{
@@ -451,7 +434,6 @@
 		}
 		{
 			dependencies: ["5859015DE7AD5512"]
-			entity_vis_size: 1.0f
 			id: "5073743E21AB8738"
 			rewards: [
 				{
@@ -488,7 +470,6 @@
 		}
 		{
 			dependencies: ["5073743E21AB8738"]
-			entity_vis_size: 1.0f
 			id: "14877C882C4D9E9E"
 			rewards: [
 				{
@@ -515,7 +496,6 @@
 		}
 		{
 			dependencies: ["5859015DE7AD5512"]
-			entity_vis_size: 1.0f
 			id: "7AD3F51BD3B16B9F"
 			rewards: [
 				{
@@ -571,7 +551,6 @@
 		}
 		{
 			dependencies: ["5859015DE7AD5512"]
-			entity_vis_size: 1.0f
 			id: "196015594CAFB1C6"
 			rewards: [
 				{
@@ -603,7 +582,6 @@
 		}
 		{
 			dependencies: ["5859015DE7AD5512"]
-			entity_vis_size: 1.0f
 			id: "777BD51D55A705BC"
 			rewards: [{
 				count: 5
@@ -630,7 +608,6 @@
 			y: -0.5d
 		}
 		{
-			entity_vis_size: 1.0f
 			id: "21D3406A746CF116"
 			rewards: [{
 				id: "64035AA399680C18"
@@ -650,7 +627,6 @@
 		}
 		{
 			dependencies: ["196015594CAFB1C6"]
-			entity_vis_size: 1.0f
 			id: "55F04B5FF196DD28"
 			rewards: [{
 				id: "14E7CE5B2900B94E"
@@ -673,7 +649,6 @@
 				"55F04B5FF196DD28"
 				"21D3406A746CF116"
 			]
-			entity_vis_size: 1.0f
 			id: "244FE0B3FC20D15C"
 			rewards: [
 				{
@@ -711,7 +686,6 @@
 		}
 		{
 			dependencies: ["5859015DE7AD5512"]
-			entity_vis_size: 1.0f
 			id: "27B39B900D3D7572"
 			rewards: [
 				{
@@ -769,7 +743,6 @@
 		}
 		{
 			dependencies: ["244FE0B3FC20D15C"]
-			entity_vis_size: 1.0f
 			id: "5CCE41AE05329A9A"
 			rewards: [{
 				id: "44D0A947F01BF60F"
@@ -789,7 +762,6 @@
 		}
 		{
 			dependencies: ["5CCE41AE05329A9A"]
-			entity_vis_size: 1.0f
 			id: "0EBD468481C32221"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -806,7 +778,6 @@
 			y: -0.5d
 		}
 		{
-			entity_vis_size: 1.0f
 			id: "37CC982A449FB0DE"
 			invisible: true
 			tasks: [{
@@ -818,7 +789,6 @@
 			y: 0.0d
 		}
 		{
-			entity_vis_size: 1.0f
 			id: "2ADFD97B3FBCF3FE"
 			invisible: true
 			rewards: [{
@@ -839,7 +809,6 @@
 		}
 		{
 			dependencies: ["21D3406A746CF116"]
-			entity_vis_size: 1.0f
 			id: "043613B0A380BAFE"
 			rewards: [
 				{
@@ -871,7 +840,6 @@
 		}
 		{
 			dependencies: ["043613B0A380BAFE"]
-			entity_vis_size: 1.0f
 			id: "67FDCB49F7F42C98"
 			rewards: [{
 				count: 10
@@ -895,7 +863,6 @@
 				"14877C882C4D9E9E"
 				"67FDCB49F7F42C98"
 			]
-			entity_vis_size: 1.0f
 			id: "2EA981021184A143"
 			rewards: [{
 				id: "1788167B1C5F0C10"
@@ -925,7 +892,6 @@
 				"2EA981021184A143"
 				"221EA16C478CF60B"
 			]
-			entity_vis_size: 1.0f
 			id: "6C79FC5564B166B0"
 			rewards: [{
 				id: "037BBC21CE652258"
@@ -946,7 +912,6 @@
 		{
 			can_repeat: true
 			dependencies: ["6C79FC5564B166B0"]
-			entity_vis_size: 1.0f
 			icon: {
 				id: "create:creative_blaze_cake"
 			}
@@ -969,7 +934,6 @@
 		}
 		{
 			dependencies: ["7AD3F51BD3B16B9F"]
-			entity_vis_size: 1.0f
 			id: "221EA16C478CF60B"
 			rewards: [
 				{
@@ -1006,7 +970,6 @@
 			y: 2.5d
 		}
 		{
-			entity_vis_size: 1.0f
 			id: "6133ABD925EDB8E8"
 			rewards: [
 				{
@@ -1030,8 +993,8 @@
 			]
 			shape: "hexagon"
 			tasks: [{
-				id: "0E1F78A54255F20A"
-				item: { components: { "ftbfiltersystem:filter": "or(item(create_connected:copycat_fence_gate)item(create_connected:copycat_fence)item(create_connected:copycat_stairs)item(create_connected:copycat_vertical_step)item(create_connected:copycat_beam)item(create_connected:copycat_slab)item(create:copycat_step)item(create:copycat_panel)item(create_connected:copycat_block)item(create_connected:copycat_wall)item(create_connected:copycat_board)item(create_connected:copycat_box)item(create_connected:copycat_catwalk))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				id: "32C512D9F6794736"
+				item: { components: { "ftbfiltersystem:filter": "or(item(create:copycat_step)item(create:copycat_panel))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
 			x: -7.0d
@@ -1039,7 +1002,6 @@
 		}
 		{
 			dependencies: ["5CCE41AE05329A9A"]
-			entity_vis_size: 1.0f
 			id: "4DE7199DEC37F98C"
 			rewards: [
 				{
@@ -1077,7 +1039,6 @@
 			y: -3.5d
 		}
 		{
-			entity_vis_size: 1.0f
 			id: "2AEDB7CDA375B929"
 			rewards: [{
 				exclude_from_claim_all: true

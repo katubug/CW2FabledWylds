@@ -1,15 +1,124 @@
 {
+	autofocus_id: "0970424C8024078A"
 	default_hide_dependency_lines: false
 	default_min_width: 350
 	default_quest_shape: ""
 	filename: "arts__witchcrafts"
 	group: ""
 	id: "33D0BE0C8570F275"
+	images: [
+		{
+			height: 20.0d
+			image: "enchanted_wilds:textures/questui/blue_book.png"
+			rotation: 0.0d
+			width: 25.0d
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			color: 2062755
+			height: 2.5d
+			image: "enchanted_wilds:textures/questui/titles/arts_witchcrafts.png"
+			rotation: 0.0d
+			width: 7.0d
+			x: -4.75d
+			y: -4.5d
+		}
+		{
+			color: 2062755
+			height: 1.25d
+			image: "enchanted_wilds:textures/questui/subtitles/sketching.png"
+			rotation: 0.0d
+			width: 7.0d
+			x: 5.0d
+			y: -5.0d
+		}
+		{
+			color: 2062755
+			height: 0.9d
+			image: "enchanted_wilds:textures/questui/separator.png"
+			rotation: 0.0d
+			width: 8.0d
+			x: 4.8d
+			y: -0.7d
+		}
+		{
+			color: 2062755
+			height: 1.25d
+			image: "enchanted_wilds:textures/questui/subtitles/painting.png"
+			rotation: 0.0d
+			width: 7.0d
+			x: 4.9d
+			y: 0.2d
+		}
+		{
+			color: 2062755
+			height: 1.25d
+			image: "enchanted_wilds:textures/questui/subtitles/photography.png"
+			rotation: 0.0d
+			width: 7.0d
+			x: -4.75d
+			y: 1.7d
+		}
+		{
+			color: 2062755
+			height: 0.5d
+			image: "enchanted_wilds:textures/questui/flourish3_left.png"
+			rotation: 0.0d
+			width: 1.25d
+			x: -7.5d
+			y: 1.7d
+		}
+		{
+			color: 2062755
+			height: 0.5d
+			image: "enchanted_wilds:textures/questui/flourish3_right.png"
+			rotation: 0.0d
+			width: 1.25d
+			x: -2.0d
+			y: 1.7d
+		}
+		{
+			color: 2062755
+			height: 0.5d
+			image: "enchanted_wilds:textures/questui/flourish1_left.png"
+			rotation: 0.0d
+			width: 1.5d
+			x: 2.5d
+			y: -5.0d
+		}
+		{
+			color: 2062755
+			height: 0.5d
+			image: "enchanted_wilds:textures/questui/flourish1_right.png"
+			rotation: 0.0d
+			width: 1.5d
+			x: 7.5d
+			y: -5.0d
+		}
+		{
+			color: 2062755
+			height: 0.5d
+			image: "enchanted_wilds:textures/questui/flourish1_left.png"
+			rotation: 0.0d
+			width: 1.5d
+			x: 2.6d
+			y: 0.1d
+		}
+		{
+			color: 2062755
+			height: 0.5d
+			image: "enchanted_wilds:textures/questui/flourish1_right.png"
+			rotation: 0.0d
+			width: 1.5d
+			x: 7.0d
+			y: 0.2d
+		}
+	]
 	order_index: 2
 	quest_links: [ ]
 	quests: [
 		{
-			entity_vis_size: 1.0f
 			id: "2DB59F4A5BB3CE73"
 			rewards: [{
 				id: "116FDD748DDC2466"
@@ -26,11 +135,10 @@
 				item: { count: 1, id: "esquissemod:sketchbook" }
 				type: "item"
 			}]
-			x: -5.625d
-			y: -7.5d
+			x: 4.875d
+			y: -3.75d
 		}
 		{
-			entity_vis_size: 1.0f
 			id: "153DBE782905BF62"
 			rewards: [{
 				id: "3A58EA7E39E073B3"
@@ -47,12 +155,11 @@
 				item: { count: 1, id: "exposure:camera" }
 				type: "item"
 			}]
-			x: -5.0d
-			y: -10.75d
+			x: -7.5d
+			y: 3.075d
 		}
 		{
 			dependencies: ["153DBE782905BF62"]
-			entity_vis_size: 1.0f
 			id: "762A6A61693A5BBA"
 			rewards: [
 				{
@@ -115,12 +222,11 @@
 					type: "item"
 				}
 			]
-			x: -3.5d
-			y: -9.75d
+			x: -6.25d
+			y: 4.2d
 		}
 		{
 			dependencies: ["762A6A61693A5BBA"]
-			entity_vis_size: 1.0f
 			id: "573269BC454A499D"
 			rewards: [
 				{
@@ -174,11 +280,10 @@
 				item: { count: 1, id: "exposure:lightroom" }
 				type: "item"
 			}]
-			x: -2.0d
-			y: -9.75d
+			x: -4.0d
+			y: 4.2d
 		}
 		{
-			entity_vis_size: 1.0f
 			id: "076F2A55BD9D0BCA"
 			rewards: [
 				{
@@ -204,25 +309,18 @@
 					type: "item"
 				}
 			]
-			shape: "hexagon"
-			tasks: [
-				{
-					id: "6459F163C1BE0CA0"
-					item: { count: 1, id: "xercapaint:item_easel" }
-					type: "item"
-				}
-				{
-					id: "69DB41702759EF2A"
-					item: { count: 1, id: "xercapaint:item_palette" }
-					type: "item"
-				}
-			]
-			x: -10.5d
-			y: -8.25d
+			shape: "rsquare"
+			size: 1.5d
+			tasks: [{
+				id: "6459F163C1BE0CA0"
+				item: { count: 1, id: "xercapaint:item_easel" }
+				type: "item"
+			}]
+			x: 4.800000000000001d
+			y: 1.35d
 		}
 		{
 			dependencies: ["153DBE782905BF62"]
-			entity_vis_size: 1.0f
 			id: "5BC2DC2C73F83B30"
 			rewards: [{
 				id: "25941D2FA3FBDAFA"
@@ -236,25 +334,11 @@
 				id: "59EA11202D9F3D76"
 				type: "checkmark"
 			}]
-			x: -1.0d
-			y: -13.25d
-		}
-		{
-			dependencies: ["153DBE782905BF62"]
-			entity_vis_size: 1.0f
-			id: "5C0698C5831F824F"
-			tasks: [{
-				advancement: "exposure:adventure/wildlife_archivist"
-				criterion: ""
-				id: "52BDC8F8610519EF"
-				type: "advancement"
-			}]
-			x: -3.25d
-			y: -13.0d
+			x: -5.0d
+			y: 3.2d
 		}
 		{
 			dependencies: ["2DB59F4A5BB3CE73"]
-			entity_vis_size: 1.0f
 			id: "28ABA60CD070005E"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -274,12 +358,11 @@
 					type: "item"
 				}
 			]
-			x: -5.5d
-			y: -4.25d
+			x: 5.75d
+			y: -2.75d
 		}
 		{
 			dependencies: ["2DB59F4A5BB3CE73"]
-			entity_vis_size: 1.0f
 			id: "414A7F60BF8F090A"
 			tasks: [
 				{
@@ -293,12 +376,11 @@
 					type: "item"
 				}
 			]
-			x: -7.75d
-			y: -4.0d
+			x: 3.75d
+			y: -2.75d
 		}
 		{
 			dependencies: ["2DB59F4A5BB3CE73"]
-			entity_vis_size: 1.0f
 			id: "187EB99C04A3BE37"
 			tasks: [
 				{
@@ -312,12 +394,11 @@
 					type: "item"
 				}
 			]
-			x: -7.75d
-			y: -6.0d
+			x: 3.25d
+			y: -4.0d
 		}
 		{
 			dependencies: ["2DB59F4A5BB3CE73"]
-			entity_vis_size: 1.0f
 			id: "41FE37817AC6ACC6"
 			tasks: [
 				{
@@ -331,8 +412,8 @@
 					type: "item"
 				}
 			]
-			x: -3.5d
-			y: -6.25d
+			x: 6.25d
+			y: -4.0d
 		}
 		{
 			dependencies: [
@@ -341,7 +422,6 @@
 				"414A7F60BF8F090A"
 				"41FE37817AC6ACC6"
 			]
-			entity_vis_size: 1.0f
 			id: "1539D3DAD97F8A1D"
 			rewards: [{
 				id: "6916F6D454BF3CAD"
@@ -358,12 +438,11 @@
 				id: "2B35ABEE2A58DF6F"
 				type: "checkmark"
 			}]
-			x: -5.25d
-			y: -1.5d
+			x: 4.75d
+			y: -1.75d
 		}
 		{
 			dependencies: ["153DBE782905BF62"]
-			entity_vis_size: 1.0f
 			id: "6563CACC1F993B93"
 			tasks: [
 				{
@@ -377,8 +456,131 @@
 					type: "item"
 				}
 			]
-			x: -5.25d
-			y: -13.0d
+			x: -7.5d
+			y: 4.95d
+		}
+		{
+			always_invisible: true
+			id: "0970424C8024078A"
+			tasks: [{
+				id: "2E98DC856CDAEE7E"
+				type: "custom"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "24993E3FC9E3BA2D"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "16E6A43785A396AC"
+				table_id: 987967038148964353L
+				type: "loot"
+			}]
+			shape: "rsquare"
+			size: 2.0d
+			tags: ["bluequests"]
+			tasks: [
+				{
+					id: "1B0AF1B8F288D2E9"
+					item: { count: 1, id: "minecraft:white_dye" }
+					type: "item"
+				}
+				{
+					id: "6F321FB94AB58AAF"
+					item: { count: 1, id: "minecraft:light_gray_dye" }
+					type: "item"
+				}
+				{
+					id: "78AB1413604B31BC"
+					item: { count: 1, id: "minecraft:gray_dye" }
+					type: "item"
+				}
+				{
+					id: "5F9E28F93F645A00"
+					item: { count: 1, id: "minecraft:black_dye" }
+					type: "item"
+				}
+				{
+					id: "72A3FADBB323F14A"
+					item: { count: 1, id: "minecraft:brown_dye" }
+					type: "item"
+				}
+				{
+					id: "224AA1F12D0F62B2"
+					item: { count: 1, id: "minecraft:red_dye" }
+					type: "item"
+				}
+				{
+					id: "723B05AA9DE89DF8"
+					item: { count: 1, id: "minecraft:orange_dye" }
+					type: "item"
+				}
+				{
+					id: "0180122B0D475B77"
+					item: { count: 1, id: "minecraft:yellow_dye" }
+					type: "item"
+				}
+				{
+					id: "1D5D22D6EEB5F451"
+					item: { count: 1, id: "minecraft:lime_dye" }
+					type: "item"
+				}
+				{
+					id: "35CFF5938F1F555D"
+					item: { count: 1, id: "minecraft:cyan_dye" }
+					type: "item"
+				}
+				{
+					id: "6A221039D8E74522"
+					item: { count: 1, id: "minecraft:light_blue_dye" }
+					type: "item"
+				}
+				{
+					id: "07CB3532717EF7BC"
+					item: { count: 1, id: "minecraft:blue_dye" }
+					type: "item"
+				}
+				{
+					id: "2D2279364D621904"
+					item: { count: 1, id: "minecraft:purple_dye" }
+					type: "item"
+				}
+				{
+					id: "70CFC1B13544D511"
+					item: { count: 1, id: "minecraft:magenta_dye" }
+					type: "item"
+				}
+				{
+					id: "6828945A4E4198B0"
+					item: { count: 1, id: "minecraft:pink_dye" }
+					type: "item"
+				}
+			]
+			x: -7.4d
+			y: -2.4d
+		}
+		{
+			id: "12A73F1D8D2EF16A"
+			tasks: [{
+				id: "43EBD542291E0680"
+				item: { count: 1, id: "minecraft:oak_log" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: -8.7d
+		}
+		{
+			dependencies: ["076F2A55BD9D0BCA"]
+			id: "7A5B3B02E109BCCA"
+			tasks: [{
+				id: "328297719A9969F2"
+				item: { components: { "xercapaint:palette_basic_colors": [B; 1b, 1b, 1b, 1b, 1b, 1b, 1b, 1b, 1b, 1b, 1b, 1b, 1b, 1b, 1b, 1b ] }, count: 1, id: "xercapaint:item_palette" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 1.4d
 		}
 	]
+	tags: ["bluequests"]
 }

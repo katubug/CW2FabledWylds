@@ -1,0 +1,47 @@
+{
+  "enabled": true,
+  "mod_name": "Buzzier Bees",
+  "mod_id": "buzzier_bees",
+  "achievements": {
+    "husbandry/use_honey_apple": {
+      "display_name": "An Apple a Day",
+      "original_name": "An Apple a Day",
+      "enabled": true,
+      "icon": "buzzier_bees:honey_apple",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "adventure/four_leaf_clover": {
+      "display_name": "Better Luck This Time",
+      "original_name": "Better Luck This Time",
+      "enabled": true,
+      "icon": "buzzier_bees:four_leaf_clover",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "husbandry/use_glazed_porkchop": {
+      "display_name": "Knees Weak, Arms Honey",
+      "original_name": "Knees Weak, Arms Honey",
+      "enabled": true,
+      "icon": "buzzier_bees:glazed_porkchop",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "husbandry/use_honey_bread": {
+      "display_name": "Honey, I\u0027m Good",
+      "original_name": "Honey, I\u0027m Good",
+      "enabled": true,
+      "icon": "buzzier_bees:honey_bread",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    }
+  }
+}

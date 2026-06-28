@@ -1,0 +1,37 @@
+{
+  "enabled": true,
+  "mod_name": "Delight o\u0027 Flight",
+  "mod_id": "delighto_flight",
+  "achievements": {
+    "main/get_weather_sensing": {
+      "display_name": "Weather with You",
+      "original_name": "Weather with You",
+      "enabled": true,
+      "icon": "delighto_flight:thunder_cloudshroom",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "main/get_lotus_flower_night": {
+      "display_name": "The Lotus Pool by Moonlight",
+      "original_name": "The Lotus Pool by Moonlight",
+      "enabled": true,
+      "icon": "delighto_flight:wild_lotus",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "main/get_thunder_fruit_seed": {
+      "display_name": "Harness the Storm",
+      "original_name": "Harness the Storm",
+      "enabled": true,
+      "icon": "delighto_flight:thunder_fruit",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    }
+  }
+}

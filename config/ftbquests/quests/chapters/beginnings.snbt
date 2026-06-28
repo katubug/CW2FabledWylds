@@ -36,7 +36,6 @@
 	quest_links: [ ]
 	quests: [
 		{
-			entity_vis_size: 1.0f
 			id: "0DCDAC4C7D4F9F0B"
 			rewards: [
 				{
@@ -63,10 +62,7 @@
 										count: 1
 										id: "patchouli:guide_book"
 									}]
-									betterfishtanks: [{
-										count: 1
-										id: "betterfishtanks:guide_book"
-									}]
+									betterfishtanks: [ ]
 									enchanted: [{
 										components: {
 											"modopedia:book": "enchanted:art_of_witchcraft"
@@ -382,7 +378,6 @@
 			y: -3.75d
 		}
 		{
-			entity_vis_size: 1.0f
 			id: "293AFFA188D96753"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -400,7 +395,6 @@
 			y: -0.75d
 		}
 		{
-			entity_vis_size: 1.0f
 			id: "0291249FFD51DD05"
 			rewards: [
 				{
@@ -411,7 +405,6 @@
 				{
 					exclude_from_claim_all: true
 					id: "40FEB805CB84308C"
-					table_id: 3575186341996824388L
 					type: "loot"
 				}
 			]
@@ -426,7 +419,6 @@
 		}
 		{
 			dependencies: ["293AFFA188D96753"]
-			entity_vis_size: 1.0f
 			id: "289832F0B384ABA7"
 			rewards: [
 				{
@@ -467,7 +459,6 @@
 			y: -0.75d
 		}
 		{
-			entity_vis_size: 1.0f
 			id: "4ABFB1778565B4B7"
 			rewards: [{
 				command: "/give @p sophisticatedbackpacks:backpack"
@@ -500,7 +491,6 @@
 			y: -1.0d
 		}
 		{
-			entity_vis_size: 1.0f
 			id: "60D87516A5C5DDF5"
 			rewards: [{
 				id: "4C9E7D096894F666"
@@ -524,7 +514,6 @@
 			y: -2.25d
 		}
 		{
-			entity_vis_size: 1.0f
 			id: "66B094500E40DA3D"
 			rewards: [{
 				id: "7E669ECB3F18E7DE"
@@ -549,7 +538,6 @@
 			y: -4.125d
 		}
 		{
-			entity_vis_size: 1.0f
 			id: "7A060F5C254439BC"
 			rewards: [
 				{
@@ -618,7 +606,6 @@
 		}
 		{
 			always_invisible: true
-			entity_vis_size: 1.0f
 			hide_details_until_startable: true
 			hide_text_until_complete: true
 			id: "4E4072E3AFBBB7E7"
@@ -634,7 +621,6 @@
 		}
 		{
 			dependencies: ["66B094500E40DA3D"]
-			entity_vis_size: 1.0f
 			id: "3FAE926346F1E576"
 			rewards: [{
 				id: "7338219FAAA9587F"
@@ -655,7 +641,6 @@
 		}
 		{
 			dependencies: ["66B094500E40DA3D"]
-			entity_vis_size: 1.0f
 			id: "112917940415A7B1"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -676,7 +661,6 @@
 		}
 		{
 			dependencies: ["3FAE926346F1E576"]
-			entity_vis_size: 1.0f
 			id: "76D5DB6E94816C80"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -694,7 +678,6 @@
 			y: -0.75d
 		}
 		{
-			entity_vis_size: 1.0f
 			id: "7232C9D413054886"
 			rewards: [
 				{
@@ -724,7 +707,6 @@
 		}
 		{
 			dependencies: ["66B094500E40DA3D"]
-			entity_vis_size: 1.0f
 			id: "7F52A3C01776886D"
 			rewards: [{
 				id: "28A88B3CFFC12C82"

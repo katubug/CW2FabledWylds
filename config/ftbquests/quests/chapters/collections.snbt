@@ -17,7 +17,6 @@
 	quest_links: [ ]
 	quests: [
 		{
-			entity_vis_size: 1.0f
 			id: "7C3C2D24D60C6C1F"
 			rewards: [
 				{
@@ -119,7 +118,6 @@
 			y: -1.0d
 		}
 		{
-			entity_vis_size: 1.0f
 			id: "7E9C70F7B0CFD820"
 			rewards: [{
 				id: "4F13530A54DDB6CB"
@@ -183,7 +181,6 @@
 			y: 0.0d
 		}
 		{
-			entity_vis_size: 1.0f
 			id: "1FD157BDA5AF3BE9"
 			rewards: [
 				{
@@ -320,7 +317,6 @@
 			y: 0.5d
 		}
 		{
-			entity_vis_size: 1.0f
 			id: "40BBDD8D814A55C1"
 			rewards: [
 				{
@@ -376,7 +372,6 @@
 			y: -1.0d
 		}
 		{
-			entity_vis_size: 1.0f
 			id: "56F3B965C1198BE9"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -406,7 +401,6 @@
 			y: 0.0d
 		}
 		{
-			entity_vis_size: 1.0f
 			id: "5435D7182F5A0C8D"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -505,7 +499,6 @@
 			y: -1.0d
 		}
 		{
-			entity_vis_size: 1.0f
 			id: "290D8441BBC918A1"
 			rewards: [
 				{
@@ -612,7 +605,6 @@
 			y: -1.0d
 		}
 		{
-			entity_vis_size: 1.0f
 			id: "692725454B955B4C"
 			rewards: [
 				{
@@ -723,7 +715,6 @@
 			y: 1.0d
 		}
 		{
-			entity_vis_size: 1.0f
 			id: "04973320B5F27BD7"
 			rewards: [
 				{
@@ -835,7 +826,6 @@
 			y: 1.0d
 		}
 		{
-			entity_vis_size: 1.0f
 			id: "6B3AD3CDE8EC90F1"
 			rewards: [
 				{
@@ -903,7 +893,6 @@
 			y: -0.5d
 		}
 		{
-			entity_vis_size: 1.0f
 			id: "3F5F93D7191952F9"
 			rewards: [
 				{
@@ -1018,7 +1007,6 @@
 			y: 0.5d
 		}
 		{
-			entity_vis_size: 1.0f
 			id: "75AD4BD901CEA061"
 			rewards: [
 				{
@@ -1073,7 +1061,6 @@
 				"04973320B5F27BD7"
 				"692725454B955B4C"
 			]
-			entity_vis_size: 1.0f
 			hide_dependency_lines: true
 			id: "2DDA757CE80078C3"
 			invisible: true
@@ -1103,7 +1090,6 @@
 			y: 1.0d
 		}
 		{
-			entity_vis_size: 1.0f
 			id: "401E8078C11F8919"
 			rewards: [
 				{
@@ -1130,7 +1116,6 @@
 			y: 1.5d
 		}
 		{
-			entity_vis_size: 1.0f
 			id: "3ADA19F1E7F84DD6"
 			invisible: true
 			tasks: [{
@@ -1142,7 +1127,6 @@
 			y: 0.25d
 		}
 		{
-			entity_vis_size: 1.0f
 			id: "7DB8FFF48188EC9C"
 			tasks: [
 				{
@@ -1170,7 +1154,6 @@
 			y: 1.75d
 		}
 		{
-			entity_vis_size: 1.0f
 			id: "0191F41344B7250D"
 			rewards: [
 				{
@@ -1284,7 +1267,6 @@
 			y: -0.5d
 		}
 		{
-			entity_vis_size: 1.0f
 			id: "755902F379AFB989"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -1359,7 +1341,6 @@
 			y: -1.5d
 		}
 		{
-			entity_vis_size: 1.0f
 			id: "0DC28A267878E6E1"
 			rewards: [
 				{

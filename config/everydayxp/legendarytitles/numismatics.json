@@ -1,0 +1,37 @@
+{
+  "enabled": true,
+  "mod_name": "Create: Numismatics",
+  "mod_id": "numismatics",
+  "achievements": {
+    "money_laundering": {
+      "display_name": "Money Laundering",
+      "original_name": "Money Laundering",
+      "enabled": true,
+      "icon": "minecraft:water_bucket",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "is_this_legal": {
+      "display_name": "Is This Legal?",
+      "original_name": "Is This Legal?",
+      "enabled": true,
+      "icon": "numismatics:sun",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "questionable_investment": {
+      "display_name": "Questionable Investment",
+      "original_name": "Questionable Investment",
+      "enabled": true,
+      "icon": "numismatics:spur",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    }
+  }
+}

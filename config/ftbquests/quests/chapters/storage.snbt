@@ -43,7 +43,6 @@
 	quest_links: [ ]
 	quests: [
 		{
-			entity_vis_size: 1.0f
 			id: "62D95F91881F228C"
 			rewards: [{
 				id: "48464721C342CFBF"
@@ -80,7 +79,6 @@
 			y: 6.0d
 		}
 		{
-			entity_vis_size: 1.0f
 			id: "5E3D0655F0A08890"
 			rewards: [{
 				id: "2421BCEC9EF7B9BE"
@@ -100,7 +98,6 @@
 			y: 3.5d
 		}
 		{
-			entity_vis_size: 1.0f
 			id: "0B1646339D14D055"
 			rewards: [{
 				id: "3767778C22F62A3A"
@@ -120,7 +117,6 @@
 			y: 6.0d
 		}
 		{
-			entity_vis_size: 1.0f
 			id: "0A76B3D9CF688878"
 			min_width: 300
 			rewards: [
@@ -154,7 +150,6 @@
 		}
 		{
 			dependencies: ["0A76B3D9CF688878"]
-			entity_vis_size: 1.0f
 			id: "327660E1DFE7C9A0"
 			rewards: [{
 				id: "7E2ACB71FC765D69"
@@ -174,7 +169,6 @@
 		}
 		{
 			dependencies: ["327660E1DFE7C9A0"]
-			entity_vis_size: 1.0f
 			id: "125AC0EEF7096532"
 			rewards: [{
 				id: "3E24525B7D28DBBC"
@@ -194,7 +188,6 @@
 		}
 		{
 			dependencies: ["125AC0EEF7096532"]
-			entity_vis_size: 1.0f
 			id: "5E0E4D3BFE9A205F"
 			rewards: [{
 				id: "77FA8295C0AE49D5"
@@ -214,7 +207,6 @@
 		}
 		{
 			dependencies: ["5E0E4D3BFE9A205F"]
-			entity_vis_size: 1.0f
 			id: "2B73F9B609ABE980"
 			rewards: [{
 				id: "734B62014704BEC3"
@@ -233,7 +225,6 @@
 			y: 3.0d
 		}
 		{
-			entity_vis_size: 1.0f
 			id: "0AC47FF8FD45B289"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -252,7 +243,6 @@
 		}
 		{
 			dependencies: ["0AC47FF8FD45B289"]
-			entity_vis_size: 1.0f
 			id: "27A6A7ADD9B0A8AE"
 			tasks: [{
 				id: "40B301316163E9A9"
@@ -263,7 +253,6 @@
 			y: 4.5d
 		}
 		{
-			entity_vis_size: 1.0f
 			id: "1836D76FCA8240F3"
 			invisible: true
 			tasks: [{
@@ -276,7 +265,6 @@
 		}
 		{
 			dependencies: ["0A76B3D9CF688878"]
-			entity_vis_size: 1.0f
 			id: "329CC0CC1B48C600"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -293,7 +281,6 @@
 			y: 4.5d
 		}
 		{
-			entity_vis_size: 1.0f
 			id: "3571AAEB58389A64"
 			rewards: [{
 				id: "4B6190142D21C6E5"
@@ -322,7 +309,6 @@
 		}
 		{
 			dependencies: ["0AC47FF8FD45B289"]
-			entity_vis_size: 1.0f
 			id: "69ACDC95A5F78C82"
 			shape: "hexagon"
 			tasks: [{
@@ -335,7 +321,6 @@
 		}
 		{
 			dependencies: ["3571AAEB58389A64"]
-			entity_vis_size: 1.0f
 			id: "52D20498843EECD3"
 			rewards: [{
 				id: "4766BD2C9A6B6B0D"
@@ -351,7 +336,6 @@
 		}
 		{
 			dependencies: ["3571AAEB58389A64"]
-			entity_vis_size: 1.0f
 			id: "73B26E8BA35A9C25"
 			rewards: [{
 				id: "2A1D974FD10388D9"
@@ -371,7 +355,6 @@
 		}
 		{
 			dependencies: ["3571AAEB58389A64"]
-			entity_vis_size: 1.0f
 			id: "775A1B6549572BEB"
 			rewards: [{
 				id: "6E1CAA9D134DDC34"
@@ -392,7 +375,6 @@
 		}
 		{
 			dependencies: ["3571AAEB58389A64"]
-			entity_vis_size: 1.0f
 			id: "151CAB60A18AA07C"
 			rewards: [{
 				id: "53C614387BB75D54"
@@ -413,7 +395,6 @@
 		}
 		{
 			dependencies: ["73B26E8BA35A9C25"]
-			entity_vis_size: 1.0f
 			id: "694D0C4F0DCF078C"
 			rewards: [{
 				id: "3AD1BDD88DD4D731"
@@ -434,7 +415,6 @@
 		}
 		{
 			dependencies: ["3571AAEB58389A64"]
-			entity_vis_size: 1.0f
 			id: "04E69B80121E8192"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -459,7 +439,6 @@
 		}
 		{
 			dependencies: ["3571AAEB58389A64"]
-			entity_vis_size: 1.0f
 			id: "0A60EB3B10E89FE2"
 			rewards: [{
 				id: "5E9F53A618EA2966"
@@ -480,7 +459,6 @@
 		}
 		{
 			dependencies: ["3571AAEB58389A64"]
-			entity_vis_size: 1.0f
 			id: "2F0321A50945B2B5"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -498,7 +476,6 @@
 		}
 		{
 			dependencies: ["3571AAEB58389A64"]
-			entity_vis_size: 1.0f
 			id: "4ADE26321BA3720D"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -522,7 +499,6 @@
 			y: -6.5d
 		}
 		{
-			entity_vis_size: 1.0f
 			id: "511581BF899A9D1D"
 			rewards: [{
 				id: "7744D58E87AA5328"
@@ -543,7 +519,6 @@
 			y: -5.0d
 		}
 		{
-			entity_vis_size: 1.0f
 			id: "3E3157BF119F4F59"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -560,7 +535,6 @@
 		}
 		{
 			dependencies: ["511581BF899A9D1D"]
-			entity_vis_size: 1.0f
 			id: "6E447D4984BAA0EB"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -584,7 +558,6 @@
 		}
 		{
 			dependencies: ["511581BF899A9D1D"]
-			entity_vis_size: 1.0f
 			id: "5470141CF083E30C"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -601,7 +574,6 @@
 		}
 		{
 			dependencies: ["511581BF899A9D1D"]
-			entity_vis_size: 1.0f
 			id: "4CCF9884656CBD33"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -618,7 +590,6 @@
 		}
 		{
 			dependencies: ["511581BF899A9D1D"]
-			entity_vis_size: 1.0f
 			id: "5D56599E8A52F61B"
 			rewards: [{
 				id: "43C33BF16E27B4AD"
@@ -635,7 +606,6 @@
 		}
 		{
 			dependencies: ["511581BF899A9D1D"]
-			entity_vis_size: 1.0f
 			id: "0DDBFB778B945B97"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -654,7 +624,6 @@
 		}
 		{
 			dependencies: ["511581BF899A9D1D"]
-			entity_vis_size: 1.0f
 			id: "2742C01D29A1E90A"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -670,7 +639,6 @@
 			y: -5.0d
 		}
 		{
-			entity_vis_size: 1.0f
 			id: "3D7070B95990779A"
 			rewards: [{
 				id: "41C2820AD0027446"
@@ -691,7 +659,6 @@
 		}
 		{
 			dependencies: ["3D7070B95990779A"]
-			entity_vis_size: 1.0f
 			id: "724475964CA8B68D"
 			shape: "hexagon"
 			tasks: [{
@@ -704,7 +671,6 @@
 		}
 		{
 			dependencies: ["3D7070B95990779A"]
-			entity_vis_size: 1.0f
 			id: "393CF105AAFA6CF0"
 			shape: "hexagon"
 			tasks: [{
@@ -717,7 +683,6 @@
 		}
 		{
 			dependencies: ["3D7070B95990779A"]
-			entity_vis_size: 1.0f
 			id: "7EE75A2EC8609271"
 			shape: "hexagon"
 			tasks: [{
@@ -730,7 +695,6 @@
 		}
 		{
 			dependencies: ["3D7070B95990779A"]
-			entity_vis_size: 1.0f
 			id: "1B36681F6C07B478"
 			shape: "hexagon"
 			tasks: [{
@@ -743,7 +707,6 @@
 		}
 		{
 			dependencies: ["3D7070B95990779A"]
-			entity_vis_size: 1.0f
 			id: "0AC22F22CD346EEB"
 			shape: "hexagon"
 			tasks: [{
@@ -756,7 +719,6 @@
 		}
 		{
 			dependencies: ["3D7070B95990779A"]
-			entity_vis_size: 1.0f
 			id: "67D148EB436BE069"
 			shape: "hexagon"
 			tasks: [{
@@ -769,7 +731,6 @@
 		}
 		{
 			dependencies: ["3D7070B95990779A"]
-			entity_vis_size: 1.0f
 			id: "4B879A11C0823832"
 			rewards: [{
 				count: 8

@@ -1,0 +1,87 @@
+{
+  "enabled": true,
+  "mod_name": "Serene Shrubbery",
+  "mod_id": "serene_shrubbery",
+  "achievements": {
+    "spooky_gardening": {
+      "display_name": "Spooky Gardening!",
+      "original_name": "Spooky Gardening!",
+      "enabled": true,
+      "icon": "serene_shrubbery:halloween_foxglove",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "foxy_florist": {
+      "display_name": "Foxy Florist!",
+      "original_name": "Foxy Florist!",
+      "enabled": true,
+      "icon": "serene_shrubbery:lavender_foxglove",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "gardeners_path": {
+      "display_name": "Gardener\u0027s Path!",
+      "original_name": "Gardener\u0027s Path!",
+      "enabled": true,
+      "icon": "serene_shrubbery:butterfly_bush",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "hybrid_flora": {
+      "display_name": "Hybrid Flora!",
+      "original_name": "Hybrid Flora!",
+      "enabled": true,
+      "icon": "serene_shrubbery:blue_frost_pansies",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "hydrangea_horticulturist": {
+      "display_name": "Hydrangea Horticulturist!",
+      "original_name": "Hydrangea Horticulturist!",
+      "enabled": true,
+      "icon": "serene_shrubbery:pink_hydrangea",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "lupine_lover": {
+      "display_name": "Lupine Lover!",
+      "original_name": "Lupine Lover!",
+      "enabled": true,
+      "icon": "serene_shrubbery:manhattan_lights_lupine",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "the_beauty_of_baskets": {
+      "display_name": "The Beauty Of Baskets!",
+      "original_name": "The Beauty Of Baskets!",
+      "enabled": true,
+      "icon": "serene_shrubbery:bloom_basket",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "pansy_planter": {
+      "display_name": "Pansy Planter!",
+      "original_name": "Pansy Planter!",
+      "enabled": true,
+      "icon": "serene_shrubbery:sunrise_pansies",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    }
+  }
+}

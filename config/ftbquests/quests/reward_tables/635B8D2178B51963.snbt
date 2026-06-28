@@ -1,0 +1,24 @@
+{
+	id: "635B8D2178B51963"
+	loot_size: 1
+	order_index: 30
+	rewards: [
+		{
+			count: 3
+			id: "1ABA0E1F6CFF08D1"
+			item: {
+				count: 1
+				id: "numismatics:cog"
+			}
+			weight: 10.0f
+		}
+		{
+			count: 5
+			id: "327AD455A6FFA90D"
+			item: {
+				count: 1
+				id: "numismatics:cog"
+			}
+		}
+	]
+}

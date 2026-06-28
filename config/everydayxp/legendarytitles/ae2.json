@@ -1,0 +1,217 @@
+{
+  "enabled": true,
+  "mod_name": "Applied Energistics 2",
+  "mod_id": "ae2",
+  "achievements": {
+    "main/charger": {
+      "display_name": "It\u0027s Chargin\u0027 Time !",
+      "original_name": "It\u0027s Chargin\u0027 Time !",
+      "enabled": true,
+      "icon": "ae2:charger",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "main/recursive": {
+      "display_name": "Recursive Networking",
+      "original_name": "Recursive Networking",
+      "enabled": true,
+      "icon": "ae2:interface",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "main/facade": {
+      "display_name": "Network Aesthetics",
+      "original_name": "Network Aesthetics",
+      "enabled": true,
+      "icon": "ae2:facade",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "main/network3": {
+      "display_name": "Network Administrator",
+      "original_name": "Network Administrator",
+      "enabled": true,
+      "icon": "ae2:fluix_smart_dense_cable",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "main/network2": {
+      "display_name": "Network Engineer",
+      "original_name": "Network Engineer",
+      "enabled": true,
+      "icon": "ae2:fluix_smart_cable",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "main/network1": {
+      "display_name": "Network Apprentice",
+      "original_name": "Network Apprentice",
+      "enabled": true,
+      "icon": "ae2:fluix_covered_cable",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "main/storage_bus": {
+      "display_name": "Limitless Potential",
+      "original_name": "Limitless Potential",
+      "enabled": true,
+      "icon": "ae2:storage_bus",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "main/qnb": {
+      "display_name": "Quantum Tunneling",
+      "original_name": "Quantum Tunneling",
+      "enabled": true,
+      "icon": "ae2:quantum_link",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "main/fluix": {
+      "display_name": "Unnatural",
+      "original_name": "Unnatural",
+      "enabled": true,
+      "icon": "ae2:fluix_crystal",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "main/crafting_terminal": {
+      "display_name": "A (Much) Bigger Table",
+      "original_name": "A (Much) Bigger Table",
+      "enabled": true,
+      "icon": "ae2:crafting_terminal",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "main/ioport": {
+      "display_name": "Storage Cell Shuffle",
+      "original_name": "Storage Cell Shuffle",
+      "enabled": true,
+      "icon": "ae2:io_port",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "main/spatial_ioport": {
+      "display_name": "Spatial Coordination",
+      "original_name": "Spatial Coordination",
+      "enabled": true,
+      "icon": "ae2:spatial_io_port",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "main/compass": {
+      "display_name": "Meteorite Hunter",
+      "original_name": "Meteorite Hunter",
+      "enabled": true,
+      "icon": "ae2:meteorite_compass",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "main/glass_cable": {
+      "display_name": "Fluix Vibration Connection",
+      "original_name": "Fluix Vibration Connection",
+      "enabled": true,
+      "icon": "ae2:fluix_glass_cable",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "main/growth_accelerator": {
+      "display_name": "Accelerator is an understatement",
+      "original_name": "Accelerator is an understatement",
+      "enabled": true,
+      "icon": "ae2:growth_accelerator",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "main/p2p": {
+      "display_name": "Point to Point Networking",
+      "original_name": "Point to Point Networking",
+      "enabled": true,
+      "icon": "ae2:me_p2p_tunnel",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "main/pattern_encoding_terminal": {
+      "display_name": "Crafting Maestro",
+      "original_name": "Crafting Maestro",
+      "enabled": true,
+      "icon": "ae2:pattern_encoding_terminal",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "main/network_tool": {
+      "display_name": "Network Diagnostics",
+      "original_name": "Network Diagnostics",
+      "enabled": true,
+      "icon": "ae2:network_tool",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "main/presses": {
+      "display_name": "Unknown Technology",
+      "original_name": "Unknown Technology",
+      "enabled": true,
+      "icon": "ae2:logic_processor_press",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "main/controller": {
+      "display_name": "Networking Switchboard",
+      "original_name": "Networking Switchboard",
+      "enabled": true,
+      "icon": "ae2:controller",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "main/charged_quartz": {
+      "display_name": "Shocking",
+      "original_name": "Shocking",
+      "enabled": true,
+      "icon": "ae2:charged_certus_quartz_crystal",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    }
+  }
+}

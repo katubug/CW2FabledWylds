@@ -1,0 +1,57 @@
+{
+  "enabled": true,
+  "mod_name": "Better Archeology",
+  "mod_id": "betterarcheology",
+  "achievements": {
+    "fossil_found": {
+      "display_name": "Ancient Treasure",
+      "original_name": "Ancient Treasure",
+      "enabled": true,
+      "icon": "betterarcheology:villager_fossil_head",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "unidentified_artifact": {
+      "display_name": "It\u0027s all coming together",
+      "original_name": "It\u0027s all coming together",
+      "enabled": true,
+      "icon": "betterarcheology:unidentified_artifact",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "used_bomb_item": {
+      "display_name": "Kaboom?",
+      "original_name": "Kaboom?",
+      "enabled": true,
+      "icon": "betterarcheology:bomb",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "loot_vase_broken": {
+      "display_name": "Smashing Success",
+      "original_name": "Smashing Success",
+      "enabled": true,
+      "icon": "betterarcheology:vase",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "all_fossils_found": {
+      "display_name": "Paleontologist\u0027s Pride",
+      "original_name": "Paleontologist\u0027s Pride",
+      "enabled": true,
+      "icon": "betterarcheology:sheep_fossil",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    }
+  }
+}

@@ -10,7 +10,6 @@
 	quests: [
 		{
 			dependencies: ["399D55B3452588FF"]
-			entity_vis_size: 1.0f
 			icon: {
 				id: "twilightforest:twilight_portal_miniature_structure"
 			}
@@ -39,7 +38,6 @@
 			y: 0.0d
 		}
 		{
-			entity_vis_size: 1.0f
 			id: "399D55B3452588FF"
 			rewards: [
 				{
@@ -82,7 +80,6 @@
 		}
 		{
 			dependencies: ["730964D8E1FD059F"]
-			entity_vis_size: 1.0f
 			icon: {
 				id: "twilightforest:raven_feather"
 			}
@@ -98,15 +95,6 @@
 				type: "item"
 			}]
 			tasks: [{
-				entity_vis_idle_mode: "USE_GLOBAL"
-				entity_vis_offset_x: 0.0f
-				entity_vis_offset_y: 0.0f
-				entity_vis_rotation: 0.0f
-				entity_vis_silhouette_mode: "NONE"
-				entity_vis_size: 1.0f
-				entity_vis_spin_mode: "USE_GLOBAL"
-				entity_vis_use_as_quest_icon: false
-				entity_vis_walk_mode: "USE_GLOBAL"
 				id: "28457D6369D12841"
 				observation_type: "entity_type"
 				observe_type: 5
@@ -119,7 +107,6 @@
 		}
 		{
 			dependencies: ["3B33F8C27B3361AC"]
-			entity_vis_size: 1.0f
 			id: "0F55C73877E7FD90"
 			rewards: [{
 				count: 5
@@ -141,7 +128,6 @@
 		}
 		{
 			dependencies: ["730964D8E1FD059F"]
-			entity_vis_size: 1.0f
 			id: "03102B4CD0BE7031"
 			rewards: [
 				{
@@ -165,7 +151,6 @@
 		}
 		{
 			dependencies: ["730964D8E1FD059F"]
-			entity_vis_size: 1.0f
 			id: "5B5DB6950BD9BC15"
 			rewards: [
 				{
@@ -189,7 +174,6 @@
 		}
 		{
 			dependencies: ["730964D8E1FD059F"]
-			entity_vis_size: 1.0f
 			id: "6A5281FA52C785C6"
 			rewards: [{
 				id: "6497B38870E2FDB2"
@@ -210,7 +194,6 @@
 		}
 		{
 			dependencies: ["730964D8E1FD059F"]
-			entity_vis_size: 1.0f
 			id: "2ACCE2B7760206C9"
 			rewards: [
 				{
@@ -238,7 +221,6 @@
 		}
 		{
 			dependencies: ["730964D8E1FD059F"]
-			entity_vis_size: 1.0f
 			id: "62A0D663EF2B58C1"
 			rewards: [
 				{
@@ -266,7 +248,6 @@
 		}
 		{
 			dependencies: ["730964D8E1FD059F"]
-			entity_vis_size: 1.0f
 			id: "79B6B78157E7D32C"
 			rewards: [
 				{
@@ -294,7 +275,6 @@
 		}
 		{
 			dependencies: ["730964D8E1FD059F"]
-			entity_vis_size: 1.0f
 			id: "7D15924C5AEAC669"
 			rewards: [{
 				id: "646BB07E70488773"
@@ -312,7 +292,6 @@
 		}
 		{
 			dependencies: ["730964D8E1FD059F"]
-			entity_vis_size: 1.0f
 			icon: {
 				id: "twilightforest:naga_trophy"
 			}
@@ -333,7 +312,6 @@
 		{
 			can_repeat: true
 			dependencies: ["00B1A6C679547AF2"]
-			entity_vis_size: 1.0f
 			id: "14B45702F0F82689"
 			optional: true
 			rewards: [
@@ -359,7 +337,6 @@
 		}
 		{
 			dependencies: ["3A0205CA0568641F"]
-			entity_vis_size: 1.0f
 			id: "1B8E61A0872EEA1C"
 			rewards: [{
 				id: "2545DFB3D90982C3"
@@ -378,7 +355,6 @@
 		}
 		{
 			dependencies: ["62F755926795DBB6"]
-			entity_vis_size: 1.0f
 			id: "6016A3D8B7FD7A14"
 			rewards: [{
 				id: "00A454F3DD11BB05"
@@ -398,7 +374,6 @@
 		}
 		{
 			dependencies: ["169272849A588544"]
-			entity_vis_size: 1.0f
 			id: "3657239C35390F17"
 			rewards: [{
 				count: 5
@@ -422,7 +397,6 @@
 		}
 		{
 			dependencies: ["6016A3D8B7FD7A14"]
-			entity_vis_size: 1.0f
 			id: "187BD92930BA8670"
 			rewards: [
 				{
@@ -452,7 +426,6 @@
 		{
 			can_repeat: true
 			dependencies: ["3657239C35390F17"]
-			entity_vis_size: 1.0f
 			id: "23E5790A6CC6524C"
 			optional: true
 			rewards: [
@@ -478,7 +451,6 @@
 		}
 		{
 			dependencies: ["62F755926795DBB6"]
-			entity_vis_size: 1.0f
 			id: "10C91592DCBC6FBD"
 			rewards: [{
 				count: 5
@@ -502,7 +474,6 @@
 		}
 		{
 			dependencies: ["470A6825C49EEFAF"]
-			entity_vis_size: 1.0f
 			id: "5C463B10FDE8CEF2"
 			rewards: [{
 				count: 32
@@ -526,7 +497,6 @@
 		}
 		{
 			dependencies: ["62F755926795DBB6"]
-			entity_vis_size: 1.0f
 			id: "41CBB146259DAF34"
 			rewards: [{
 				id: "27D5E4B9499E2336"
@@ -545,7 +515,6 @@
 		}
 		{
 			dependencies: ["2F267ADA86FA5503"]
-			entity_vis_size: 1.0f
 			id: "2C905E4DE5051CC5"
 			rewards: [
 				{
@@ -593,7 +562,6 @@
 				"54A57B37E1C04785"
 				"761DD39F82235893"
 			]
-			entity_vis_size: 1.0f
 			id: "2A52CFAE2D88AC1D"
 			rewards: [
 				{
@@ -620,7 +588,6 @@
 		}
 		{
 			dependencies: ["2A52CFAE2D88AC1D"]
-			entity_vis_size: 1.0f
 			id: "2B8E1553C1487EBA"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -641,7 +608,6 @@
 		}
 		{
 			dependencies: ["00B1A6C679547AF2"]
-			entity_vis_size: 1.0f
 			id: "3A0205CA0568641F"
 			rewards: [
 				{
@@ -672,7 +638,6 @@
 		}
 		{
 			dependencies: ["1B8E61A0872EEA1C"]
-			entity_vis_size: 1.0f
 			id: "62F755926795DBB6"
 			rewards: [
 				{
@@ -703,7 +668,6 @@
 		}
 		{
 			dependencies: ["10C91592DCBC6FBD"]
-			entity_vis_size: 1.0f
 			id: "470A6825C49EEFAF"
 			rewards: [{
 				id: "6E61129F3516D660"
@@ -724,7 +688,6 @@
 		}
 		{
 			dependencies: ["5C463B10FDE8CEF2"]
-			entity_vis_size: 1.0f
 			id: "761DD39F82235893"
 			rewards: [{
 				id: "7A19C939ED75E268"
@@ -745,7 +708,6 @@
 		}
 		{
 			dependencies: ["6016A3D8B7FD7A14"]
-			entity_vis_size: 1.0f
 			id: "169272849A588544"
 			rewards: [{
 				id: "570E54B773C478EA"
@@ -766,7 +728,6 @@
 		}
 		{
 			dependencies: ["3657239C35390F17"]
-			entity_vis_size: 1.0f
 			id: "54A57B37E1C04785"
 			rewards: [{
 				id: "59B149EEE3F36F50"
@@ -787,7 +748,6 @@
 		}
 		{
 			dependencies: ["41CBB146259DAF34"]
-			entity_vis_size: 1.0f
 			id: "2F267ADA86FA5503"
 			rewards: [{
 				id: "33CCF59E9F804766"
@@ -799,15 +759,6 @@
 			}]
 			tasks: [{
 				entity: "twilightforest:alpha_yeti"
-				entity_vis_idle_mode: "USE_GLOBAL"
-				entity_vis_offset_x: 0.0f
-				entity_vis_offset_y: 0.0f
-				entity_vis_rotation: 0.0f
-				entity_vis_silhouette_mode: "NONE"
-				entity_vis_size: 1.0f
-				entity_vis_spin_mode: "USE_GLOBAL"
-				entity_vis_use_as_quest_icon: false
-				entity_vis_walk_mode: "USE_GLOBAL"
 				id: "5F68902062C5E874"
 				type: "kill"
 				value: 1L
@@ -817,7 +768,6 @@
 		}
 		{
 			dependencies: ["2C905E4DE5051CC5"]
-			entity_vis_size: 1.0f
 			id: "27AFCBF70AA24760"
 			rewards: [{
 				id: "59D69494D0E58D6B"
@@ -838,7 +788,6 @@
 		}
 		{
 			dependencies: ["730964D8E1FD059F"]
-			entity_vis_size: 1.0f
 			id: "4EAE4C40B444930A"
 			rewards: [
 				{
@@ -880,7 +829,6 @@
 				"4EAE4C40B444930A"
 				"27AFCBF70AA24760"
 			]
-			entity_vis_size: 1.0f
 			id: "25CB8D0869249D24"
 			rewards: [
 				{
@@ -936,7 +884,6 @@
 			y: 4.5d
 		}
 		{
-			entity_vis_size: 1.0f
 			id: "723D12B934CAB46C"
 			invisible: true
 			optional: true

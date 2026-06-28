@@ -35,7 +35,6 @@
 	quest_links: [ ]
 	quests: [
 		{
-			entity_vis_size: 1.0f
 			id: "00BDE15DD24045A6"
 			rewards: [
 				{
@@ -60,7 +59,6 @@
 			y: 3.5d
 		}
 		{
-			entity_vis_size: 1.0f
 			id: "2AD60B373912C5A4"
 			rewards: [
 				{
@@ -87,7 +85,6 @@
 			y: 2.0d
 		}
 		{
-			entity_vis_size: 1.0f
 			id: "7DD918D36463CF71"
 			rewards: [
 				{
@@ -119,7 +116,6 @@
 			y: 3.0d
 		}
 		{
-			entity_vis_size: 1.0f
 			id: "1547891EBE53934F"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -137,7 +133,6 @@
 		}
 		{
 			dependencies: ["70C4F17973F6492E"]
-			entity_vis_size: 1.0f
 			id: "16797E1EF5450E7E"
 			rewards: [
 				{
@@ -179,7 +174,6 @@
 			y: -5.5d
 		}
 		{
-			entity_vis_size: 1.0f
 			id: "70C4F17973F6492E"
 			rewards: [
 				{
@@ -209,7 +203,6 @@
 		}
 		{
 			dependencies: ["70C4F17973F6492E"]
-			entity_vis_size: 1.0f
 			id: "3705ABBD8EE1A369"
 			rewards: [{
 				count: 4
@@ -232,7 +225,6 @@
 		}
 		{
 			dependencies: ["70C4F17973F6492E"]
-			entity_vis_size: 1.0f
 			id: "160EE610C4B660D8"
 			rewards: [
 				{
@@ -253,15 +245,6 @@
 			]
 			shape: "heart"
 			tasks: [{
-				entity_vis_idle_mode: "USE_GLOBAL"
-				entity_vis_offset_x: 0.0f
-				entity_vis_offset_y: 0.0f
-				entity_vis_rotation: 0.0f
-				entity_vis_silhouette_mode: "NONE"
-				entity_vis_size: 1.0f
-				entity_vis_spin_mode: "USE_GLOBAL"
-				entity_vis_use_as_quest_icon: false
-				entity_vis_walk_mode: "USE_GLOBAL"
 				icon: {
 					id: "goblintraders:goblin_trader_spawn_egg"
 				}
@@ -276,7 +259,6 @@
 			y: -4.0d
 		}
 		{
-			entity_vis_size: 1.0f
 			id: "781003E78C236E0D"
 			rewards: [
 				{
@@ -311,7 +293,6 @@
 			y: -5.5d
 		}
 		{
-			entity_vis_size: 1.0f
 			id: "6DBD018A4FB32DD8"
 			rewards: [
 				{
@@ -342,7 +323,6 @@
 			y: -4.5d
 		}
 		{
-			entity_vis_size: 1.0f
 			id: "50E64308D7D56C48"
 			rewards: [
 				{
@@ -380,7 +360,6 @@
 			y: -5.5d
 		}
 		{
-			entity_vis_size: 1.0f
 			id: "6C7EB11A659D7914"
 			rewards: [
 				{
@@ -414,7 +393,6 @@
 			y: -6.5d
 		}
 		{
-			entity_vis_size: 1.0f
 			id: "1371F9B501187A91"
 			rewards: [
 				{
@@ -448,7 +426,6 @@
 			y: -6.5d
 		}
 		{
-			entity_vis_size: 1.0f
 			id: "5A0A46815A9FE05D"
 			rewards: [
 				{
@@ -476,7 +453,6 @@
 			y: -5.5d
 		}
 		{
-			entity_vis_size: 1.0f
 			id: "129EB9D48551AA2E"
 			rewards: [
 				{
@@ -515,7 +491,6 @@
 			y: -4.5d
 		}
 		{
-			entity_vis_size: 1.0f
 			id: "2BE44A5A7C52C52D"
 			invisible: true
 			tasks: [{
@@ -527,7 +502,6 @@
 			y: 0.0d
 		}
 		{
-			entity_vis_size: 1.0f
 			id: "1DB7D51E15454923"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -547,12 +521,10 @@
 		}
 		{
 			dependencies: ["70C4F17973F6492E"]
-			entity_vis_size: 1.0f
 			id: "5C5768D4346FD3FE"
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "6081355D17E44E74"
-				table_id: 3575186341996824388L
 				type: "loot"
 			}]
 			shape: "hexagon"
@@ -565,7 +537,6 @@
 			y: -3.0d
 		}
 		{
-			entity_vis_size: 1.0f
 			id: "3B84722A9CD28821"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -584,7 +555,6 @@
 			y: 5.5d
 		}
 		{
-			entity_vis_size: 1.0f
 			id: "592DF5A6484F1988"
 			rewards: [{
 				id: "29F8DE93007B6851"
@@ -601,7 +571,6 @@
 			y: 2.5d
 		}
 		{
-			entity_vis_size: 1.0f
 			id: "5B185B1B72278050"
 			rewards: [
 				{
@@ -646,7 +615,6 @@
 		}
 		{
 			dependencies: ["70C4F17973F6492E"]
-			entity_vis_size: 1.0f
 			id: "4F7C97B20944FDB5"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -665,7 +633,6 @@
 		}
 		{
 			dependencies: ["70C4F17973F6492E"]
-			entity_vis_size: 1.0f
 			id: "39876C2DADDC64E1"
 			rewards: [{
 				id: "7862B917BD12A048"
@@ -679,15 +646,6 @@
 				type: "item"
 			}]
 			tasks: [{
-				entity_vis_idle_mode: "USE_GLOBAL"
-				entity_vis_offset_x: 0.0f
-				entity_vis_offset_y: 0.0f
-				entity_vis_rotation: 0.0f
-				entity_vis_silhouette_mode: "NONE"
-				entity_vis_size: 1.0f
-				entity_vis_spin_mode: "USE_GLOBAL"
-				entity_vis_use_as_quest_icon: false
-				entity_vis_walk_mode: "USE_GLOBAL"
 				icon: {
 					components: {
 						"ftbquests:missing_item": "bountiful:bountyboard"
@@ -705,7 +663,6 @@
 			y: -4.0d
 		}
 		{
-			entity_vis_size: 1.0f
 			id: "257C8B9C7DBEEC23"
 			shape: "rsquare"
 			tasks: [{
@@ -717,7 +674,6 @@
 			y: 7.5d
 		}
 		{
-			entity_vis_size: 1.0f
 			id: "225C97A6C4FC4652"
 			rewards: [
 				{
@@ -740,14 +696,13 @@
 			shape: "hexagon"
 			tasks: [{
 				id: "73748512473776F6"
-				item: { count: 1, id: "travelerscompass:travelerscompass" }
+				item: { components: { "ftbquests:missing_item": "travelerscompass:travelerscompass" }, count: 1, id: "ftbquests:missing_item" }
 				type: "item"
 			}]
 			x: 1.0d
 			y: 3.5d
 		}
 		{
-			entity_vis_size: 1.0f
 			id: "6138C299ED7CE80C"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -773,7 +728,6 @@
 		}
 		{
 			dependencies: ["70C4F17973F6492E"]
-			entity_vis_size: 1.0f
 			id: "3A51A2B4DE09D7D7"
 			rewards: [
 				{
@@ -802,7 +756,6 @@
 			y: -6.5d
 		}
 		{
-			entity_vis_size: 1.0f
 			id: "069DC32E95840336"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -819,7 +772,6 @@
 			y: 4.5d
 		}
 		{
-			entity_vis_size: 1.0f
 			id: "063A5C650B0846FF"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -837,7 +789,6 @@
 			y: -5.5d
 		}
 		{
-			entity_vis_size: 1.0f
 			id: "726336858C8FB767"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -862,7 +813,6 @@
 			y: -4.5d
 		}
 		{
-			entity_vis_size: 1.0f
 			id: "45ED6F2E8BA02BE1"
 			rewards: [
 				{
@@ -898,7 +848,6 @@
 			y: -6.5d
 		}
 		{
-			entity_vis_size: 1.0f
 			id: "3052EF7FA42720A9"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -916,7 +865,6 @@
 			y: -4.5d
 		}
 		{
-			entity_vis_size: 1.0f
 			id: "3A61711F03B28A75"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -934,7 +882,6 @@
 			y: -3.5d
 		}
 		{
-			entity_vis_size: 1.0f
 			id: "56A1AFEE3581AF89"
 			rewards: [{
 				count: 10
@@ -956,7 +903,6 @@
 			y: 2.5d
 		}
 		{
-			entity_vis_size: 1.0f
 			id: "4E8C0079E6F9A13A"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -974,7 +920,6 @@
 		}
 		{
 			dependencies: ["70C4F17973F6492E"]
-			entity_vis_size: 1.0f
 			id: "6EF0662A6493D818"
 			rewards: [{
 				id: "71CFF588AECD9697"
@@ -998,12 +943,10 @@
 		}
 		{
 			dependencies: ["5C5768D4346FD3FE"]
-			entity_vis_size: 1.0f
 			id: "39AD0DDC4695E2D4"
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "2916334FCCB56886"
-				table_id: 3575186341996824388L
 				type: "loot"
 			}]
 			shape: "hexagon"

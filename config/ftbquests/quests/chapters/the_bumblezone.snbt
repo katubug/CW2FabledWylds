@@ -1,4 +1,5 @@
 {
+	autofocus_id: "30CC85F74EB4717A"
 	default_hide_dependency_lines: false
 	default_min_width: 350
 	default_quest_shape: ""
@@ -17,7 +18,6 @@
 	quest_links: [ ]
 	quests: [
 		{
-			entity_vis_size: 1.0f
 			id: "51F84C9F2CA50DA7"
 			rewards: [{
 				id: "5E29A28C09705A8F"
@@ -30,15 +30,6 @@
 			shape: "rsquare"
 			size: 2.0d
 			tasks: [{
-				entity_vis_idle_mode: "USE_GLOBAL"
-				entity_vis_offset_x: 0.0f
-				entity_vis_offset_y: 0.0f
-				entity_vis_rotation: 0.0f
-				entity_vis_silhouette_mode: "NONE"
-				entity_vis_size: 1.0f
-				entity_vis_spin_mode: "USE_GLOBAL"
-				entity_vis_use_as_quest_icon: false
-				entity_vis_walk_mode: "USE_GLOBAL"
 				icon: {
 					id: "minecraft:bee_nest"
 				}
@@ -54,7 +45,6 @@
 		}
 		{
 			dependencies: ["51F84C9F2CA50DA7"]
-			entity_vis_size: 1.0f
 			id: "1F8B3B9C1641187E"
 			rewards: [
 				{
@@ -87,7 +77,6 @@
 		}
 		{
 			dependencies: ["1F8B3B9C1641187E"]
-			entity_vis_size: 1.0f
 			id: "6C3861D0B545A88F"
 			shape: "hexagon"
 			tasks: [{
@@ -100,27 +89,18 @@
 		}
 		{
 			dependencies: ["1F8B3B9C1641187E"]
-			entity_vis_size: 1.0f
 			id: "4D77214933327DFB"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "696F9109B8862B26"
-				table_id: 5651126569320430640L
-				type: "choice"
-			}]
 			tasks: [{
-				icon: {
-					id: "the_bumblezone:stingless_bee_helmet_1"
-				}
-				id: "57EC0384FCCDB245"
-				type: "custom"
+				amplifier: -1
+				effect: "the_bumblezone:wrath_of_the_hive"
+				id: "43A2C85BFE514C33"
+				type: "potion_effect"
 			}]
 			x: -6.5d
 			y: 1.5d
 		}
 		{
 			dependencies: ["1F8B3B9C1641187E"]
-			entity_vis_size: 1.0f
 			id: "0ADE58E9E0DFD059"
 			rewards: [{
 				count: 3
@@ -141,14 +121,7 @@
 		}
 		{
 			dependencies: ["0ADE58E9E0DFD059"]
-			entity_vis_size: 1.0f
 			id: "2602582F440361DB"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "214FA81E595BDC51"
-				table_id: 5651126569320430640L
-				type: "loot"
-			}]
 			tasks: [{
 				icon: {
 					id: "the_bumblezone:honey_cocoon"
@@ -162,19 +135,12 @@
 		}
 		{
 			dependencies: ["2602582F440361DB"]
-			entity_vis_size: 1.0f
 			id: "4482909B2A137E38"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "42E532F9A15AAFF9"
-				table_id: 5651126569320430640L
-				type: "choice"
-			}]
 			shape: "octagon"
 			tasks: [{
-				advancement: "minecraft:story/root"
+				advancement: "the_bumblezone:tools/craft_honey_compass"
 				criterion: ""
-				id: "22B27A878D9B8BD1"
+				id: "5756978204AA696C"
 				type: "advancement"
 			}]
 			x: 0.0d
@@ -182,7 +148,6 @@
 		}
 		{
 			dependencies: ["4482909B2A137E38"]
-			entity_vis_size: 1.0f
 			id: "4DFEEDE1DAACD8B7"
 			rewards: [
 				{
@@ -202,15 +167,6 @@
 				}
 			]
 			tasks: [{
-				entity_vis_idle_mode: "USE_GLOBAL"
-				entity_vis_offset_x: 0.0f
-				entity_vis_offset_y: 0.0f
-				entity_vis_rotation: 0.0f
-				entity_vis_silhouette_mode: "NONE"
-				entity_vis_size: 1.0f
-				entity_vis_spin_mode: "USE_GLOBAL"
-				entity_vis_use_as_quest_icon: false
-				entity_vis_walk_mode: "USE_GLOBAL"
 				icon: {
 					id: "the_bumblezone:stingless_bee_helmet_1"
 				}
@@ -226,17 +182,11 @@
 		}
 		{
 			dependencies: ["4DFEEDE1DAACD8B7"]
-			entity_vis_size: 1.0f
 			id: "635FE9332FFCE4A7"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "148F7621921D62B2"
-				type: "choice"
-			}]
 			shape: "hexagon"
 			tasks: [{
-				id: "71DD9BC15B81F902"
-				item: { }
+				id: "21E2DEAE71E6BBEE"
+				item: { count: 1, id: "the_bumblezone:essence_of_the_bees" }
 				type: "item"
 			}]
 			x: 4.0d
@@ -244,7 +194,6 @@
 		}
 		{
 			dependencies: ["0ADE58E9E0DFD059"]
-			entity_vis_size: 1.0f
 			id: "394A179160EB4AE8"
 			rewards: [
 				{
@@ -264,23 +213,23 @@
 			]
 			tasks: [
 				{
-					id: "27A36C84442BD4A7"
-					item: { components: { "ftbquests:missing_item": "itemfilters:tag" }, count: 1, id: "ftbquests:missing_item" }
+					id: "2FB5AAC838A519BF"
+					item: { components: { "ftbfiltersystem:filter": "or(item_tag(the_bumblezone:armors/helmets))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 					type: "item"
 				}
 				{
-					id: "1E4B0AAE235A44EB"
-					item: { components: { "ftbquests:missing_item": "itemfilters:tag" }, count: 1, id: "ftbquests:missing_item" }
+					id: "3BC5A17998DF840E"
+					item: { components: { "ftbfiltersystem:filter": "or(item_tag(the_bumblezone:armors/chestplates))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 					type: "item"
 				}
 				{
-					id: "7A026460FAE4A947"
-					item: { components: { "ftbquests:missing_item": "itemfilters:tag" }, count: 1, id: "ftbquests:missing_item" }
+					id: "6734739E1A6E6670"
+					item: { components: { "ftbfiltersystem:filter": "or(item_tag(the_bumblezone:armors/leggings))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 					type: "item"
 				}
 				{
-					id: "7474B92AA308F8FD"
-					item: { components: { "ftbquests:missing_item": "itemfilters:tag" }, count: 1, id: "ftbquests:missing_item" }
+					id: "37DAA6F91FB526C8"
+					item: { components: { "ftbfiltersystem:filter": "or(item_tag(the_bumblezone:armors/boots))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 					type: "item"
 				}
 			]
@@ -288,7 +237,7 @@
 			y: 3.5d
 		}
 		{
-			entity_vis_size: 1.0f
+			dependencies: ["0ADE58E9E0DFD059"]
 			id: "1ACFAAF917E5016A"
 			rewards: [
 				{
@@ -328,12 +277,11 @@
 					type: "item"
 				}
 			]
-			x: 0.25d
-			y: -2.5d
+			x: -2.75d
+			y: 3.0d
 		}
 		{
 			dependencies: ["649CD989B90CED8A"]
-			entity_vis_size: 1.0f
 			id: "7B8261F4787E6EA7"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -344,9 +292,11 @@
 			tasks: [{
 				icon: {
 					components: {
-						"ftbquests:missing_item": "the_bumblezone:essence_knowing"
+						"the_bumblezone:knowing_essence_structure_data": {
+							inStructures: ""
+						}
 					}
-					id: "ftbquests:missing_item"
+					id: "the_bumblezone:essence_knowing"
 				}
 				id: "21800782215F1EBF"
 				structure: "the_bumblezone:sempiternal_sanctum_purple"
@@ -357,7 +307,6 @@
 		}
 		{
 			dependencies: ["649CD989B90CED8A"]
-			entity_vis_size: 1.0f
 			id: "42C94ED483CD4AB8"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -367,10 +316,7 @@
 			}]
 			tasks: [{
 				icon: {
-					components: {
-						"ftbquests:missing_item": "the_bumblezone:essence_continuity"
-					}
-					id: "ftbquests:missing_item"
+					id: "the_bumblezone:essence_continuity"
 				}
 				id: "24ADA1FE7305C9C6"
 				structure: "the_bumblezone:sempiternal_sanctum_white"
@@ -381,7 +327,6 @@
 		}
 		{
 			dependencies: ["649CD989B90CED8A"]
-			entity_vis_size: 1.0f
 			id: "45FE520AC009290F"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -392,12 +337,20 @@
 			tasks: [{
 				icon: {
 					components: {
-						"ftbquests:missing_item": "the_bumblezone:essence_raging"
+						"the_bumblezone:raging_essence_current_target_data": {
+							currentTargets: [ ]
+						}
+						"the_bumblezone:raging_essence_state_data": {
+							rageStateLevel: 0s
+						}
+						"the_bumblezone:raging_essence_timer_data": {
+							empoweredTimestamp: 0L
+						}
 					}
-					id: "ftbquests:missing_item"
+					id: "the_bumblezone:essence_raging"
 				}
-				id: "1069ECE91757590C"
-				structure: "#the_bumblezone:honey_compass/sempiternal_sanctums/red"
+				id: "49697FA66B7CB00F"
+				structure: "the_bumblezone:sempiternal_sanctum_red"
 				type: "structure"
 			}]
 			x: 5.0d
@@ -405,7 +358,6 @@
 		}
 		{
 			dependencies: ["649CD989B90CED8A"]
-			entity_vis_size: 1.0f
 			id: "49EA7F3135E2CC74"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -415,12 +367,9 @@
 			}]
 			tasks: [{
 				icon: {
-					components: {
-						"ftbquests:missing_item": "the_bumblezone:essence_calming"
-					}
-					id: "ftbquests:missing_item"
+					id: "the_bumblezone:essence_calming"
 				}
-				id: "026654F5006802CE"
+				id: "44EE656F5AD594D2"
 				structure: "the_bumblezone:sempiternal_sanctum_blue"
 				type: "structure"
 			}]
@@ -428,7 +377,6 @@
 			y: -2.0d
 		}
 		{
-			entity_vis_size: 1.0f
 			id: "6BADAB3BD0E50555"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -438,21 +386,17 @@
 			}]
 			tasks: [{
 				icon: {
-					components: {
-						"ftbquests:missing_item": "the_bumblezone:essence_radiance"
-					}
-					id: "ftbquests:missing_item"
+					id: "the_bumblezone:essence_radiance"
 				}
-				id: "63BEA72E5A7DCF1F"
+				id: "7F2A102B54F870E3"
 				structure: "the_bumblezone:sempiternal_sanctum_yellow"
 				type: "structure"
 			}]
-			x: -2.0d
-			y: -1.5d
+			x: 7.5d
+			y: -1.0d
 		}
 		{
 			dependencies: ["649CD989B90CED8A"]
-			entity_vis_size: 1.0f
 			id: "54AAA9079FF8E65B"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -461,6 +405,9 @@
 				type: "choice"
 			}]
 			tasks: [{
+				icon: {
+					id: "the_bumblezone:essence_life"
+				}
 				id: "70CF21FB5F2B81C3"
 				structure: "minecraft:mineshaft"
 				type: "structure"
@@ -470,24 +417,7 @@
 		}
 		{
 			dependencies: ["635FE9332FFCE4A7"]
-			entity_vis_size: 1.0f
 			id: "649CD989B90CED8A"
-			rewards: [
-				{
-					exclude_from_claim_all: true
-					id: "2982DB19A790ADE3"
-					table_id: 5651126569320430640L
-					type: "choice"
-				}
-				{
-					id: "3D42AFA9F6AB004C"
-					item: {
-						count: 1
-						id: "minecraft:potion"
-					}
-					type: "item"
-				}
-			]
 			tasks: [{
 				icon: {
 					id: "minecraft:honeycomb_block"
@@ -500,7 +430,7 @@
 			y: 0.0d
 		}
 		{
-			entity_vis_size: 1.0f
+			always_invisible: true
 			id: "30CC85F74EB4717A"
 			tasks: [{
 				id: "26D10AD03CED6F5F"

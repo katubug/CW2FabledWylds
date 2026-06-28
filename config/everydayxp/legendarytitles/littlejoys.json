@@ -1,0 +1,47 @@
+{
+  "enabled": true,
+  "mod_name": "Little Joys",
+  "mod_id": "littlejoys",
+  "achievements": {
+    "littlejoys/drop_rush_complete": {
+      "display_name": "No Littering",
+      "original_name": "No Littering",
+      "enabled": true,
+      "icon": "minecraft:sweet_berries",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "littlejoys/fishing_spot": {
+      "display_name": "Not a Fish",
+      "original_name": "Not a Fish",
+      "enabled": true,
+      "icon": "minecraft:pufferfish",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "littlejoys/gold_rush": {
+      "display_name": "Strike Gold",
+      "original_name": "Strike Gold",
+      "enabled": true,
+      "icon": "minecraft:raw_gold",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "littlejoys/dig_spot": {
+      "display_name": "Conveniently Marked",
+      "original_name": "Conveniently Marked",
+      "enabled": true,
+      "icon": "minecraft:arms_up_pottery_sherd",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    }
+  }
+}

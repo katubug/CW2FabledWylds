@@ -1,0 +1,167 @@
+{
+  "enabled": true,
+  "mod_name": "[Let\u0027s Do] Bakery",
+  "mod_id": "bakery",
+  "achievements": {
+    "main/get_all_cakes": {
+      "display_name": "Cake Master",
+      "original_name": "Cake Master",
+      "enabled": true,
+      "icon": "bakery:chocolate_gateau",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "main/use_bread_on_wall_display": {
+      "display_name": "Showpiece Loaf",
+      "original_name": "Showpiece Loaf",
+      "enabled": true,
+      "icon": "bakery:wall_display",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "main/place_sign": {
+      "display_name": "Welcome to the Bakery",
+      "original_name": "Welcome to the Bakery",
+      "enabled": true,
+      "icon": "bakery:street_sign",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "main/place_cooking_pot": {
+      "display_name": "Tiny Treats: Crafting a Decorative Saucepan",
+      "original_name": "Tiny Treats: Crafting a Decorative Saucepan",
+      "enabled": true,
+      "icon": "bakery:small_cooking_pot",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "main/cut_strawberry_cake": {
+      "display_name": "A Slice for Everyone",
+      "original_name": "A Slice for Everyone",
+      "enabled": true,
+      "icon": "bakery:strawberry_cake",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "main/eat_sandwich": {
+      "display_name": "Snack Attack",
+      "original_name": "Snack Attack",
+      "enabled": true,
+      "icon": "bakery:sandwich",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "main/place_bread_crate": {
+      "display_name": "Bread Feast",
+      "original_name": "Bread Feast",
+      "enabled": true,
+      "icon": "bakery:bread_crate",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "main/get_yeast": {
+      "display_name": "Yeast of your worries, doughn\u0027t worry, be happy!",
+      "original_name": "Yeast of your worries, doughn\u0027t worry, be happy!",
+      "enabled": true,
+      "icon": "farm_and_charm:yeast",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "main/get_everything": {
+      "display_name": "What a Long, Strange Trip It\u0027s Been",
+      "original_name": "What a Long, Strange Trip It\u0027s Been",
+      "enabled": true,
+      "icon": "bakery:bundt_cake",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "main/get_all_jams": {
+      "display_name": "Special Preserves",
+      "original_name": "Special Preserves",
+      "enabled": true,
+      "icon": "bakery:jar",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "main/eat_pudding": {
+      "display_name": "Slimy Yet Satisfying",
+      "original_name": "Slimy Yet Satisfying",
+      "enabled": true,
+      "icon": "bakery:pudding_slice",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "main/place_baker_station": {
+      "display_name": "Bake It Happen",
+      "original_name": "Bake It Happen",
+      "enabled": true,
+      "icon": "bakery:baker_station",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "main/get_misslilitu_biscuit": {
+      "display_name": "She clearly doesn\u0027t look like that!",
+      "original_name": "She clearly doesn\u0027t look like that!",
+      "enabled": true,
+      "icon": "bakery:misslilitu_biscuit",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "main/get_all_caked_goods": {
+      "display_name": "Cupcake Master",
+      "original_name": "Cupcake Master",
+      "enabled": true,
+      "icon": "bakery:apple_cupcake",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "main/eat_bread": {
+      "display_name": "Dive into Doughy Delights",
+      "original_name": "Dive into Doughy Delights",
+      "enabled": true,
+      "icon": "bakery:bread",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "main/get_all_baked_goods": {
+      "display_name": "Bake \u0027Em All: Collect Every Treat!",
+      "original_name": "Bake \u0027Em All: Collect Every Treat!",
+      "enabled": true,
+      "icon": "bakery:crusty_bread",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    }
+  }
+}

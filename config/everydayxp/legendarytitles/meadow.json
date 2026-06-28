@@ -1,0 +1,137 @@
+{
+  "enabled": true,
+  "mod_name": "[Let\u0027s Do] Meadow",
+  "mod_id": "meadow",
+  "achievements": {
+    "main/get_rennet": {
+      "display_name": "The Secret Ingredient",
+      "original_name": "The Secret Ingredient",
+      "enabled": true,
+      "icon": "meadow:cookpot",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "main/cheese_collector": {
+      "display_name": "The Ultimate Cheese Connoisseur",
+      "original_name": "The Ultimate Cheese Connoisseur",
+      "enabled": true,
+      "icon": "meadow:buffalo_cheese_wheel",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "main/place_straw_bed": {
+      "display_name": "The Rustic Nap",
+      "original_name": "The Rustic Nap",
+      "enabled": true,
+      "icon": "meadow:straw_bed",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "main/fur_armor": {
+      "display_name": "Dressed for Success",
+      "original_name": "Dressed for Success",
+      "enabled": true,
+      "icon": "meadow:fur_helmet",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "main/milk_collector": {
+      "display_name": "Milking the Possibilities",
+      "original_name": "Milking the Possibilities",
+      "enabled": true,
+      "icon": "meadow:wooden_bucket",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "main/place_frame": {
+      "display_name": "Framed for Cooking",
+      "original_name": "Framed for Cooking",
+      "enabled": true,
+      "icon": "meadow:cooking_frame",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "main/get_cheese": {
+      "display_name": "Say Cheese!",
+      "original_name": "Say Cheese!",
+      "enabled": true,
+      "icon": "meadow:cheese_wheel",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "main/place_cheese_form": {
+      "display_name": "Form Your Future",
+      "original_name": "Form Your Future",
+      "enabled": true,
+      "icon": "meadow:cheese_form",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "main/wool_collector": {
+      "display_name": "The Wool Enthusiast",
+      "original_name": "The Wool Enthusiast",
+      "enabled": true,
+      "icon": "meadow:rustic_wool",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "main/find_meadow": {
+      "display_name": "Alpine Paradise",
+      "original_name": "Alpine Paradise",
+      "enabled": true,
+      "icon": "meadow:camera",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "main/get_salt": {
+      "display_name": "A Pinch of Alpine",
+      "original_name": "A Pinch of Alpine",
+      "enabled": true,
+      "icon": "meadow:alpine_salt",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "main/kill_buffalo": {
+      "display_name": "The Water Buffalo Challenge",
+      "original_name": "The Water Buffalo Challenge",
+      "enabled": true,
+      "icon": "meadow:raw_buffalo_meat",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "main/spyglass_at_buffalo": {
+      "display_name": "Through the Looking Glass",
+      "original_name": "Through the Looking Glass",
+      "enabled": true,
+      "icon": "minecraft:spyglass",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    }
+  }
+}

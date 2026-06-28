@@ -1,0 +1,207 @@
+{
+  "enabled": true,
+  "mod_name": "Hexalia",
+  "mod_id": "hexalia",
+  "achievements": {
+    "root": {
+      "display_name": "Hexalia",
+      "original_name": "Hexalia",
+      "enabled": true,
+      "icon": "hexalia:hex_focus",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "pure_intentions": {
+      "display_name": "Exorcise in Style",
+      "original_name": "Exorcise in Style",
+      "enabled": true,
+      "icon": "hexalia:purity_idol",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "crush_course": {
+      "display_name": "Crush Course",
+      "original_name": "Crush Course",
+      "enabled": true,
+      "icon": "hexalia:mortar_and_pestle",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "essence_collector": {
+      "display_name": "Elemental, My Dear",
+      "original_name": "Elemental, My Dear",
+      "enabled": true,
+      "icon": "hexalia:water_node",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "silken_beginnings": {
+      "display_name": "Thread Lightly",
+      "original_name": "Thread Lightly",
+      "enabled": true,
+      "icon": "hexalia:silk_idol",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "salt_of_the_craft": {
+      "display_name": "Salt of the Craft",
+      "original_name": "Salt of the Craft",
+      "enabled": true,
+      "icon": "hexalia:salt",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "powder_and_pouch": {
+      "display_name": "Bag of Tricks",
+      "original_name": "Bag of Tricks",
+      "enabled": true,
+      "icon": "hexalia:foul_sac",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "knife_to_tree_you": {
+      "display_name": "Bark \u0026 Dagger",
+      "original_name": "Bark \u0026 Dagger",
+      "enabled": true,
+      "icon": "hexalia:athame",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "star_power": {
+      "display_name": "Starry, Starry Might",
+      "original_name": "Starry, Starry Might",
+      "enabled": true,
+      "icon": "hexalia:celestial_crystal",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "wise_investment": {
+      "display_name": "Pendant Pending",
+      "original_name": "Pendant Pending",
+      "enabled": true,
+      "icon": "hexalia:sage_pendant",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "kelp_yourself": {
+      "display_name": "Sea What You Did There",
+      "original_name": "Sea What You Did There",
+      "enabled": true,
+      "icon": "hexalia:kelpweave_blade",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "small_beginnings": {
+      "display_name": "Cauldron Calamity",
+      "original_name": "Cauldron Calamity",
+      "enabled": true,
+      "icon": "hexalia:small_cauldron",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "change_of_plans": {
+      "display_name": "Crafty Mutations",
+      "original_name": "Crafty Mutations",
+      "enabled": true,
+      "icon": "hexalia:mutavis",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "table_manners": {
+      "display_name": "Ritual Etiquette",
+      "original_name": "Ritual Etiquette",
+      "enabled": true,
+      "icon": "hexalia:ritual_table",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "brewbie_award": {
+      "display_name": "First Sip’s the Deepest",
+      "original_name": "First Sip’s the Deepest",
+      "enabled": true,
+      "icon": "hexalia:rustic_bottle",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "herb_nerd": {
+      "display_name": "Leaf It to Me",
+      "original_name": "Leaf It to Me",
+      "enabled": true,
+      "icon": "hexalia:spirit_bloom",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "master_or_not": {
+      "display_name": "Weather or Not",
+      "original_name": "Weather or Not",
+      "enabled": true,
+      "icon": "hexalia:tempest_idol",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "seasoned_farmer": {
+      "display_name": "Crop Top",
+      "original_name": "Crop Top",
+      "enabled": true,
+      "icon": "hexalia:mandrake",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "ring_of_change": {
+      "display_name": "Crop Circles",
+      "original_name": "Crop Circles",
+      "enabled": true,
+      "icon": "hexalia:morphora",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "brewed_awakening": {
+      "display_name": "Espresso Patronum",
+      "original_name": "Espresso Patronum",
+      "enabled": true,
+      "icon": "hexalia:brew_of_daybloom",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    }
+  }
+}

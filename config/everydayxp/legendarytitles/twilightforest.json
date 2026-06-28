@@ -1,0 +1,427 @@
+{
+  "enabled": true,
+  "mod_name": "The Twilight Forest",
+  "mod_id": "twilightforest",
+  "achievements": {
+    "fiery_set": {
+      "display_name": "Gallons of Blood and Tears",
+      "original_name": "Gallons of Blood and Tears",
+      "enabled": true,
+      "icon": "twilightforest:fiery_sword",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "ore_map": {
+      "display_name": "How Can That Be Worth It?",
+      "original_name": "How Can That Be Worth It?",
+      "enabled": true,
+      "icon": "twilightforest:filled_ore_map",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "beanstalk": {
+      "display_name": "Jack and the Beanstalk",
+      "original_name": "Jack and the Beanstalk",
+      "enabled": true,
+      "icon": "twilightforest:huge_stalk",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "quest_ram": {
+      "display_name": "Consummate Baaahs",
+      "original_name": "Consummate Baaahs",
+      "enabled": true,
+      "icon": "twilightforest:quest_ram_trophy",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "progress_trophy_pedestal": {
+      "display_name": "Trophied Champion",
+      "original_name": "Trophied Champion",
+      "enabled": true,
+      "icon": "twilightforest:trophy_pedestal",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "twilight_hunter": {
+      "display_name": "The Silence of the Forest",
+      "original_name": "The Silence of the Forest",
+      "enabled": true,
+      "icon": "twilightforest:raven_feather",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "uncraft_uncrafting_table": {
+      "display_name": "A Step too Far",
+      "original_name": "A Step too Far",
+      "enabled": true,
+      "icon": "twilightforest:uncrafting_table",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "giants": {
+      "display_name": "I\u0027m on Cloud Nine",
+      "original_name": "I\u0027m on Cloud Nine",
+      "enabled": true,
+      "icon": "twilightforest:giant_pickaxe",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "progress_troll": {
+      "display_name": "I Wish For More Burning",
+      "original_name": "I Wish For More Burning",
+      "enabled": true,
+      "icon": "twilightforest:lamp_of_cinders",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "experiment_115_self_replenishing": {
+      "display_name": "Making a note: Huge Success!",
+      "original_name": "Making a note: Huge Success!",
+      "enabled": true,
+      "icon": "twilightforest:experiment_115",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "magic_map": {
+      "display_name": "I Can See Forever",
+      "original_name": "I Can See Forever",
+      "enabled": true,
+      "icon": "twilightforest:filled_magic_map",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "progress_merge": {
+      "display_name": "Ultimate Showdown",
+      "original_name": "Ultimate Showdown",
+      "enabled": true,
+      "icon": "twilightforest:uberous_soil",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "progress_knights": {
+      "display_name": "Carminite Acclimation",
+      "original_name": "Carminite Acclimation",
+      "enabled": true,
+      "icon": "twilightforest:knight_phantom_trophy",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "progress_labyrinth": {
+      "display_name": "Mighty Stroganoff",
+      "original_name": "Mighty Stroganoff",
+      "enabled": true,
+      "icon": "twilightforest:minotaur_labyrinth_miniature_structure",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "experiment_115": {
+      "display_name": "Mystery Meat?",
+      "original_name": "Mystery Meat?",
+      "enabled": true,
+      "icon": "twilightforest:experiment_115",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "arborist": {
+      "display_name": "Maniacal Dendrologist",
+      "original_name": "Maniacal Dendrologist",
+      "enabled": true,
+      "icon": "twilightforest:twilight_oak_fence",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "troll": {
+      "display_name": "We Do a Little Trolling",
+      "original_name": "We Do a Little Trolling",
+      "enabled": true,
+      "icon": "twilightforest:magic_beans",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "progress_hydra": {
+      "display_name": "Hydra Slayer",
+      "original_name": "Hydra Slayer",
+      "enabled": true,
+      "icon": "twilightforest:hydra_trophy",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "arctic_armor_dyed": {
+      "display_name": "Getting in Fashion",
+      "original_name": "Getting in Fashion",
+      "enabled": true,
+      "icon": "twilightforest:arctic_chestplate",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "twilight_dinner": {
+      "display_name": "We Dine At Eternal Sundown",
+      "original_name": "We Dine At Eternal Sundown",
+      "enabled": true,
+      "icon": "minecraft:bowl",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "magic_map_focus": {
+      "display_name": "With Fire It Writes",
+      "original_name": "With Fire It Writes",
+      "enabled": true,
+      "icon": "twilightforest:magic_map_focus",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "progress_yeti": {
+      "display_name": "Alpha Fur",
+      "original_name": "Alpha Fur",
+      "enabled": true,
+      "icon": "twilightforest:alpha_yeti_fur",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "progress_naga": {
+      "display_name": "Time To Even The Scales",
+      "original_name": "Time To Even The Scales",
+      "enabled": true,
+      "icon": "twilightforest:naga_courtyard_miniature_structure",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "lich_scepters": {
+      "display_name": "By Our Powers Combined!",
+      "original_name": "By Our Powers Combined!",
+      "enabled": true,
+      "icon": "twilightforest:zombie_scepter",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "naga_armors": {
+      "display_name": "Naga Armorer",
+      "original_name": "Naga Armorer",
+      "enabled": true,
+      "icon": "twilightforest:naga_chestplate",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "ghast_trap": {
+      "display_name": "Something Strange in Towerwood",
+      "original_name": "Something Strange in Towerwood",
+      "enabled": true,
+      "icon": "twilightforest:ghast_trap",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "progress_glacier": {
+      "display_name": "Clear Skies",
+      "original_name": "Clear Skies",
+      "enabled": true,
+      "icon": "twilightforest:snow_queen_trophy",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "experiment_115_115": {
+      "display_name": "Eating 115 Everyday, 115 Years, Forever",
+      "original_name": "Eating 115 Everyday, 115 Years, Forever",
+      "enabled": true,
+      "icon": "twilightforest:experiment_115",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "modify_travellers_gear": {
+      "display_name": "Apparel Oft Proclaims the Man",
+      "original_name": "Apparel Oft Proclaims the Man",
+      "enabled": true,
+      "icon": "twilightforest:travellers_boots",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "chicken_jerky": {
+      "display_name": "CHICKEN JERKEY!",
+      "original_name": "CHICKEN JERKEY!",
+      "enabled": true,
+      "icon": "twilightforest:chicken_jerky",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "maze_map": {
+      "display_name": "And Now, to Find the Exit",
+      "original_name": "And Now, to Find the Exit",
+      "enabled": true,
+      "icon": "twilightforest:filled_maze_map",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "full_mettle_alchemist": {
+      "display_name": "Full Mettle Alchemist",
+      "original_name": "Full Mettle Alchemist",
+      "enabled": true,
+      "icon": "twilightforest:brittle_potion_flask",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "progress_ur_ghast": {
+      "display_name": "Tears of Fire",
+      "original_name": "Tears of Fire",
+      "enabled": true,
+      "icon": "twilightforest:dark_tower_miniature_structure",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "break_glass_sword": {
+      "display_name": "One Hit Wonder",
+      "original_name": "One Hit Wonder",
+      "enabled": true,
+      "icon": "twilightforest:glass_sword",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "mazebreaker": {
+      "display_name": "Breaking the Maze",
+      "original_name": "Breaking the Maze",
+      "enabled": true,
+      "icon": "twilightforest:mazebreaker_pickaxe",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "hydra_chop": {
+      "display_name": "Hydra Chop, Baby!",
+      "original_name": "Hydra Chop, Baby!",
+      "enabled": true,
+      "icon": "twilightforest:hydra_chop",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "hill1": {
+      "display_name": "The Boots Are Mine!",
+      "original_name": "The Boots Are Mine!",
+      "enabled": true,
+      "icon": "minecraft:iron_boots",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "progress_lich": {
+      "display_name": "Bring Out Your Dead",
+      "original_name": "Bring Out Your Dead",
+      "enabled": true,
+      "icon": "twilightforest:lich_tower_miniature_structure",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "hill2": {
+      "display_name": "What Was That Noise?",
+      "original_name": "What Was That Noise?",
+      "enabled": true,
+      "icon": "twilightforest:ironwood_pickaxe",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "hill3": {
+      "display_name": "I See Right Through You",
+      "original_name": "I See Right Through You",
+      "enabled": true,
+      "icon": "minecraft:glowstone_dust",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "hedge": {
+      "display_name": "Bug Stomper",
+      "original_name": "Bug Stomper",
+      "enabled": true,
+      "icon": "twilightforest:hedge",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "craft_travellers_gear": {
+      "display_name": "Around the Forest in 80 Days",
+      "original_name": "Around the Forest in 80 Days",
+      "enabled": true,
+      "icon": "twilightforest:travellers_boots",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    }
+  }
+}

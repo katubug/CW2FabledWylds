@@ -1,0 +1,27 @@
+{
+  "enabled": true,
+  "mod_name": "Twilight Forest Final Boss",
+  "mod_id": "twilight_forest_final_boss",
+  "achievements": {
+    "no_stone_left_unturned": {
+      "display_name": "No Stone Left Unturned",
+      "original_name": "No Stone Left Unturned",
+      "enabled": true,
+      "icon": "twilightforest:cube_of_annihilation",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "a_tussel_with_calamity": {
+      "display_name": "A Tussel with Calamity",
+      "original_name": "A Tussel with Calamity",
+      "enabled": true,
+      "icon": "twilightforest:cube_talisman",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    }
+  }
+}

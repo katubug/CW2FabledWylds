@@ -1,0 +1,77 @@
+{
+  "enabled": true,
+  "mod_name": "Wetland Whimsy",
+  "mod_id": "wetland_whimsy",
+  "achievements": {
+    "wetland_ruins": {
+      "display_name": "Old-School",
+      "original_name": "Old-School",
+      "enabled": true,
+      "icon": "wetland_whimsy:lemonstone_pillar",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "swamp_dungeon": {
+      "display_name": "Attacking Vertical",
+      "original_name": "Attacking Vertical",
+      "enabled": true,
+      "icon": "wetland_whimsy:lemonstone_brazier",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "dagger": {
+      "display_name": "Stabby Stabby",
+      "original_name": "Stabby Stabby",
+      "enabled": true,
+      "icon": "wetland_whimsy:dagger",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "ancient_pot": {
+      "display_name": "Minimum Wage",
+      "original_name": "Minimum Wage",
+      "enabled": true,
+      "icon": "wetland_whimsy:ancient_pot",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "high_quality": {
+      "display_name": "High Quality",
+      "original_name": "High Quality",
+      "enabled": true,
+      "icon": "wetland_whimsy:ancient_coin",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "ancient_brazier": {
+      "display_name": "🔥🔥🔥",
+      "original_name": "🔥🔥🔥",
+      "enabled": true,
+      "icon": "wetland_whimsy:ancient_brazier",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "incense": {
+      "display_name": "You Smell Beautiful Today",
+      "original_name": "You Smell Beautiful Today",
+      "enabled": true,
+      "icon": "wetland_whimsy:basic_incense",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    }
+  }
+}

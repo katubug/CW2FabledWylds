@@ -27,30 +27,29 @@
 	quest_links: [ ]
 	quests: [
 		{
-			entity_vis_size: 1.0f
 			id: "4930ECD60EA9ED8D"
 			rewards: [
-				{
-					count: 4
-					id: "2CB2953E77DF6618"
-					item: {
-						count: 1
-						id: "farmersdelight:rich_soil"
-					}
-					type: "item"
-				}
 				{
 					exclude_from_claim_all: true
 					id: "5631EAEE8EC7A5F0"
 					table_id: 6518300475828805418L
 					type: "choice"
 				}
+				{
+					count: 4
+					id: "34673B93E89D2687"
+					item: {
+						count: 1
+						id: "farmersdelight:organic_compost"
+					}
+					type: "item"
+				}
 			]
 			shape: "rsquare"
 			size: 2.0d
 			tasks: [{
-				id: "536499531C4C43D5"
-				item: { components: { "ftbquests:missing_item": "itemfilters:tag" }, count: 1, id: "ftbquests:missing_item" }
+				id: "38AE1B4A97072062"
+				item: { components: { "ftbfiltersystem:filter": "or(item_tag(c:seeds)item_tag(neoforge:seeds))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
 			x: -2.5d
@@ -58,7 +57,6 @@
 		}
 		{
 			dependencies: ["4930ECD60EA9ED8D"]
-			entity_vis_size: 1.0f
 			id: "435BD760D0F2E010"
 			rewards: [
 				{
@@ -89,7 +87,6 @@
 		}
 		{
 			dependencies: ["4930ECD60EA9ED8D"]
-			entity_vis_size: 1.0f
 			id: "57B830324890E32C"
 			rewards: [
 				{
@@ -136,7 +133,6 @@
 		}
 		{
 			dependencies: ["4930ECD60EA9ED8D"]
-			entity_vis_size: 1.0f
 			id: "3AE0F1C1159FBDDE"
 			rewards: [{
 				id: "66F2801F9DFA05AC"
@@ -157,7 +153,6 @@
 		}
 		{
 			dependencies: ["3AE0F1C1159FBDDE"]
-			entity_vis_size: 1.0f
 			id: "548376041885F6D1"
 			rewards: [{
 				id: "4B7C75DB02E57058"
@@ -174,7 +169,6 @@
 		}
 		{
 			dependencies: ["3AE0F1C1159FBDDE"]
-			entity_vis_size: 1.0f
 			id: "141887F26E89BAE8"
 			rewards: [{
 				id: "6858B53EC13EE0A2"
@@ -195,7 +189,6 @@
 		}
 		{
 			dependencies: ["2CA80140F624D0AE"]
-			entity_vis_size: 1.0f
 			id: "0545DF70043D964A"
 			rewards: [
 				{
@@ -265,7 +258,6 @@
 				"4930ECD60EA9ED8D"
 				"2093240CD42882CF"
 			]
-			entity_vis_size: 1.0f
 			id: "2CA80140F624D0AE"
 			rewards: [
 				{
@@ -332,34 +324,11 @@
 		}
 		{
 			dependencies: ["4930ECD60EA9ED8D"]
-			entity_vis_size: 1.0f
 			id: "3D221ECD9106F792"
-			rewards: [
-				{
-					id: "62C1DF9B5627710E"
-					item: {
-						count: 1
-						id: "minecraft:lily_of_the_valley"
-					}
-					type: "item"
-				}
-				{
-					id: "0BC000C96B54EA2B"
-					type: "loot"
-				}
-				{
-					id: "592AD857D4ED8118"
-					item: {
-						count: 1
-						id: "minecraft:player_head"
-					}
-					type: "item"
-				}
-			]
 			shape: "hexagon"
 			tasks: [{
-				id: "1A82E50D8BBEB46D"
-				item: { }
+				id: "1CF70C35261561CF"
+				item: { count: 1, id: "supplementaries:planter" }
 				type: "item"
 			}]
 			x: -1.0d
@@ -367,19 +336,21 @@
 		}
 		{
 			dependencies: ["4930ECD60EA9ED8D"]
-			entity_vis_size: 1.0f
 			id: "2186A6F69ADBE795"
 			rewards: [
-				{
-					exclude_from_claim_all: true
-					id: "679B96B27A170259"
-					type: "loot"
-				}
 				{
 					exclude_from_claim_all: true
 					id: "084D4358FE8322BB"
 					table_id: 6518300475828805418L
 					type: "choice"
+				}
+				{
+					id: "77B0FC1AA4C867AD"
+					item: {
+						count: 1
+						id: "minecraft:netherite_ingot"
+					}
+					type: "item"
 				}
 			]
 			shape: "octagon"
@@ -395,7 +366,6 @@
 		{
 			can_repeat: true
 			dependencies: ["4930ECD60EA9ED8D"]
-			entity_vis_size: 1.0f
 			id: "6630D27FC9E3F285"
 			rewards: [
 				{
@@ -496,7 +466,6 @@
 		}
 		{
 			dependencies: ["2CA80140F624D0AE"]
-			entity_vis_size: 1.0f
 			id: "2973338AB622C5D6"
 			rewards: [
 				{
@@ -547,81 +516,33 @@
 			y: 1.5d
 		}
 		{
-			entity_vis_size: 1.0f
-			id: "02F91E51E86F71F6"
-			rewards: [
-				{
-					count: 5
-					id: "01F30CBF19893E1D"
-					item: {
-						count: 1
-						id: "farmersdelight:organic_compost"
-					}
-					type: "item"
-				}
-				{
-					exclude_from_claim_all: true
-					id: "108F30F089CFBB86"
-					table_id: 6518300475828805418L
-					type: "choice"
-				}
-			]
-			tasks: [
-				{
-					id: "727B56ABB96944F2"
-					item: { count: 1, id: "farmersdelight:rich_soil" }
-					type: "item"
-				}
-				{
-					id: "2E1CD7C0732CD9F2"
-					item: { }
-					type: "item"
-				}
-			]
-			x: 0.0d
-			y: 0.0d
-		}
-		{
-			dependencies: ["02F91E51E86F71F6"]
-			entity_vis_size: 1.0f
 			id: "60445E736AE3B5B4"
 			rewards: [
-				{
-					count: 5
-					id: "4DBD2CF2969F8A46"
-					item: {
-						components: {
-							"ftbquests:missing_item": "nethersdelight:soul_compost"
-						}
-						count: 1
-						id: "ftbquests:missing_item"
-					}
-					type: "item"
-				}
 				{
 					exclude_from_claim_all: true
 					id: "531F31FD79A7344A"
 					table_id: 6518300475828805418L
 					type: "choice"
 				}
-			]
-			tasks: [
 				{
-					id: "04C5336A8E4F2D84"
-					item: { components: { "ftbquests:missing_item": "nethersdelight:rich_soul_soil" }, count: 1, id: "ftbquests:missing_item" }
-					type: "item"
-				}
-				{
-					id: "4BFE6D9C74C69930"
-					item: { components: { "ftbquests:missing_item": "nethersdelight:soul_compost" }, count: 1, id: "ftbquests:missing_item" }
+					count: 5
+					id: "1935C6ABC8821D21"
+					item: {
+						count: 1
+						id: "mynethersdelight:letios_compost"
+					}
 					type: "item"
 				}
 			]
+			tasks: [{
+				id: "50DDD53BA14186F2"
+				item: { count: 1, id: "mynethersdelight:letios_compost" }
+				type: "item"
+			}]
 			x: 0.5d
 			y: -2.25d
 		}
 		{
-			entity_vis_size: 1.0f
 			id: "7814F0DBA486B635"
 			invisible: true
 			tasks: [{
@@ -633,7 +554,6 @@
 			y: 3.5d
 		}
 		{
-			entity_vis_size: 1.0f
 			id: "1FF3A036CE58CCC9"
 			rewards: [{
 				id: "06C43E4BC09A8E53"
@@ -657,129 +577,7 @@
 			y: 8.5d
 		}
 		{
-			dependencies: ["0545DF70043D964A"]
-			entity_vis_size: 1.0f
-			id: "77E1FEDE586A487C"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "6E0961718E2E2E27"
-				type: "choice"
-			}]
-			shape: "hexagon"
-			tasks: [
-				{
-					id: "7B67D57994DE9B53"
-					item: { components: { "ftbquests:missing_item": "fruitsdelight:pineapple_crate" }, count: 1, id: "ftbquests:missing_item" }
-					type: "item"
-				}
-				{
-					id: "7BCDC3556D396412"
-					item: { }
-					type: "item"
-				}
-				{
-					id: "7329E6065027E12B"
-					item: { components: { "ftbquests:missing_item": "fruitsdelight:lemon_crate" }, count: 1, id: "ftbquests:missing_item" }
-					type: "item"
-				}
-				{
-					id: "6219169D45A2969A"
-					item: { components: { "ftbquests:missing_item": "fruitsdelight:blueberry_crate" }, count: 1, id: "ftbquests:missing_item" }
-					type: "item"
-				}
-				{
-					id: "6F804BD660ECA724"
-					item: { components: { "ftbquests:missing_item": "fruitsdelight:mangosteen_crate" }, count: 1, id: "ftbquests:missing_item" }
-					type: "item"
-				}
-				{
-					id: "33AB497E471BC2C8"
-					item: { components: { "ftbquests:missing_item": "fruitsdelight:orange_crate" }, count: 1, id: "ftbquests:missing_item" }
-					type: "item"
-				}
-				{
-					id: "0E5228FAFB7DDD5A"
-					item: { components: { "ftbquests:missing_item": "fruitsdelight:peach_crate" }, count: 1, id: "ftbquests:missing_item" }
-					type: "item"
-				}
-				{
-					id: "66AA477CDD6735CC"
-					item: { components: { "ftbquests:missing_item": "fruitsdelight:persimmon_crate" }, count: 1, id: "ftbquests:missing_item" }
-					type: "item"
-				}
-				{
-					id: "50A9B1050B3AFE26"
-					item: { components: { "ftbquests:missing_item": "fruitsdelight:mango_crate" }, count: 1, id: "ftbquests:missing_item" }
-					type: "item"
-				}
-				{
-					id: "3501A7B3536247C0"
-					item: { components: { "ftbquests:missing_item": "fruitsdelight:lychee_crate" }, count: 1, id: "ftbquests:missing_item" }
-					type: "item"
-				}
-				{
-					id: "6D0A18CC3038705B"
-					item: { components: { "ftbquests:missing_item": "fruitsdelight:hawberry_crate" }, count: 1, id: "ftbquests:missing_item" }
-					type: "item"
-				}
-				{
-					id: "3E57F1C1EA126980"
-					item: { }
-					type: "item"
-				}
-				{
-					id: "7A447131AFA240EC"
-					item: { components: { "ftbquests:missing_item": "ends_delight:chorus_fruit_crate" }, count: 1, id: "ftbquests:missing_item" }
-					type: "item"
-				}
-			]
-			x: 5.5d
-			y: 0.5d
-		}
-		{
-			dependencies: ["0545DF70043D964A"]
-			entity_vis_size: 1.0f
-			id: "6DF3D43144E93441"
-			rewards: [
-				{
-					exclude_from_claim_all: true
-					id: "0B7B6392FD1B6E8D"
-					type: "loot"
-				}
-				{
-					exclude_from_claim_all: true
-					id: "5502140B599DD57B"
-					type: "choice"
-				}
-			]
-			shape: "hexagon"
-			tasks: [
-				{
-					id: "2B013BA1F90E7A39"
-					item: { components: { "ftbquests:missing_item": "vinery:red_grape_bag" }, count: 1, id: "ftbquests:missing_item" }
-					type: "item"
-				}
-				{
-					id: "50EA8453703AE091"
-					item: { components: { "ftbquests:missing_item": "vinery:white_grape_bag" }, count: 1, id: "ftbquests:missing_item" }
-					type: "item"
-				}
-				{
-					id: "35D815CD7FF0DD34"
-					item: { components: { "ftbquests:missing_item": "vinery:cherry_bag" }, count: 1, id: "ftbquests:missing_item" }
-					type: "item"
-				}
-			]
-			x: 7.0d
-			y: -1.5d
-		}
-		{
-			dependencies: [
-				"77E1FEDE586A487C"
-				"2973338AB622C5D6"
-				"6DF3D43144E93441"
-			]
-			entity_vis_size: 1.0f
+			dependencies: ["2973338AB622C5D6"]
 			id: "148F84D7DB06E5D1"
 			rewards: [
 				{
@@ -804,7 +602,6 @@
 		}
 		{
 			dependencies: ["4930ECD60EA9ED8D"]
-			entity_vis_size: 1.0f
 			id: "264135E887281098"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -821,172 +618,144 @@
 			y: -2.0d
 		}
 		{
-			entity_vis_size: 1.0f
-			id: "14A010F870E73911"
+			id: "2093240CD42882CF"
+			tasks: [
+				{
+					block_item: { count: 1, id: "hearthandharvest:wild_red_grapes" }
+					id: "7322E142A1A29576"
+					type: "break_block"
+					value: 1L
+				}
+				{
+					block_item: { count: 1, id: "hearthandharvest:wild_green_grapes" }
+					id: "4C295AEBDC55AA44"
+					type: "break_block"
+					value: 1L
+				}
+				{
+					block_item: { count: 1, id: "hearthandharvest:wild_peanuts" }
+					id: "0DE017CE06F6B0D2"
+					type: "break_block"
+					value: 1L
+				}
+				{
+					block_item: { count: 1, id: "farmersdelight:wild_cabbages" }
+					id: "2244A5E60C4D60CC"
+					type: "break_block"
+					value: 1L
+				}
+				{
+					block_item: { count: 1, id: "farmersdelight:wild_onions" }
+					id: "12F5988A702EECA7"
+					type: "break_block"
+					value: 1L
+				}
+				{
+					block_item: { count: 1, id: "farmersdelight:wild_carrots" }
+					id: "0ECD10CC0F8EC456"
+					type: "break_block"
+					value: 1L
+				}
+				{
+					block_item: { count: 1, id: "farmersdelight:wild_potatoes" }
+					id: "65F6811A7FA63CCC"
+					type: "break_block"
+					value: 1L
+				}
+				{
+					block_item: { count: 1, id: "farmersdelight:wild_rice" }
+					id: "5FF8A041ABE1A591"
+					type: "break_block"
+					value: 1L
+				}
+				{
+					block_item: { count: 1, id: "farm_and_charm:wild_nettle" }
+					id: "0353A72E9839E23C"
+					type: "break_block"
+					value: 1L
+				}
+				{
+					block_item: { count: 1, id: "farm_and_charm:wild_ribwort" }
+					id: "3220E1783BDD5E97"
+					type: "break_block"
+					value: 1L
+				}
+				{
+					block_item: { count: 1, id: "farm_and_charm:wild_emmer" }
+					id: "6786877EA87F929C"
+					type: "break_block"
+					value: 1L
+				}
+				{
+					block_item: { count: 1, id: "farm_and_charm:wild_beetroots" }
+					id: "51120175C7043D83"
+					type: "break_block"
+					value: 1L
+				}
+				{
+					block_item: { count: 1, id: "farm_and_charm:wild_barley" }
+					id: "46CE5319FC2CF31B"
+					type: "break_block"
+					value: 1L
+				}
+				{
+					block_item: { count: 1, id: "farm_and_charm:wild_corn" }
+					id: "4F2FBE539DFDE88D"
+					type: "break_block"
+					value: 1L
+				}
+				{
+					block_item: { count: 1, id: "farm_and_charm:wild_oat" }
+					id: "3FDFA4E6F598EBD6"
+					type: "break_block"
+					value: 1L
+				}
+				{
+					block_item: { count: 1, id: "farm_and_charm:wild_lettuce" }
+					id: "7DA66657A797325B"
+					type: "break_block"
+					value: 1L
+				}
+				{
+					block_item: { count: 1, id: "farm_and_charm:wild_strawberries" }
+					id: "117C801A956C4E53"
+					type: "break_block"
+					value: 1L
+				}
+				{
+					block_item: { count: 1, id: "farmersdelight:wild_tomatoes" }
+					id: "3EA2A91B9185E0EB"
+					type: "break_block"
+					value: 1L
+				}
+				{
+					block_item: { count: 1, id: "farmersrespite:wild_coffee_bush" }
+					id: "224CBE71D5553D89"
+					type: "break_block"
+					value: 1L
+				}
+			]
+			x: 1.5d
+			y: -1.25d
+		}
+		{
+			dependencies: ["2093240CD42882CF"]
+			id: "3D99932B0EAFD2DA"
 			rewards: [{
 				exclude_from_claim_all: true
-				id: "1BF35E6761EE7285"
+				id: "241DD25D49F14D3D"
+				table_id: 6518300475828805418L
 				type: "loot"
 			}]
 			tasks: [
 				{
-					id: "53E852CC48581B90"
-					item: { components: { "ftbquests:missing_item": "herbalbrews:green_tea_leaf" }, count: 1, id: "ftbquests:missing_item" }
-					type: "item"
-				}
-				{
-					id: "1B02D4131C97FF25"
-					item: { components: { "ftbquests:missing_item": "herbalbrews:yerba_mate_leaf" }, count: 1, id: "ftbquests:missing_item" }
-					type: "item"
-				}
-				{
-					id: "738CBB38A51CDEFB"
-					item: { components: { "ftbquests:missing_item": "herbalbrews:rooibos_leaf" }, count: 1, id: "ftbquests:missing_item" }
-					type: "item"
-				}
-				{
-					id: "145D1E59D68C88EF"
-					item: { components: { "ftbquests:missing_item": "herbalbrews:coffee_beans" }, count: 1, id: "ftbquests:missing_item" }
-					type: "item"
-				}
-				{
-					id: "6EC6E2B0A6320543"
-					item: { components: { "ftbquests:missing_item": "herbalbrews:lavender_blossom" }, count: 1, id: "ftbquests:missing_item" }
-					type: "item"
-				}
-			]
-			x: 0.0d
-			y: 0.0d
-		}
-		{
-			entity_vis_size: 1.0f
-			id: "2093240CD42882CF"
-			rewards: [
-				{
-					exclude_from_claim_all: true
-					id: "20C2ED31F2632341"
-					type: "choice"
-				}
-				{
-					exclude_from_claim_all: true
-					id: "413BC3D1F2061C63"
-					type: "loot"
-				}
-			]
-			tasks: [
-				{
-					icon: {
-						id: "farmersdelight:wild_onions"
-					}
-					id: "7C0454EAFEA8424E"
-					type: "custom"
-				}
-				{
-					icon: {
-						id: "farmersdelight:wild_cabbages"
-					}
-					id: "6CBB2B9301C6974B"
-					type: "custom"
-				}
-				{
-					icon: {
-						id: "farmersdelight:wild_rice"
-					}
-					id: "5576BC85D39A7C82"
-					type: "custom"
-				}
-				{
-					icon: {
-						id: "supplementaries:wild_flax"
-					}
-					id: "0625FF2B8B3F0133"
-					type: "custom"
-				}
-				{
-					icon: {
-						components: {
-							"ftbquests:missing_item": "delightful:wild_salmonberries"
-						}
-						id: "ftbquests:missing_item"
-					}
-					id: "0FBA394BEF33BDF5"
-					type: "custom"
-				}
-				{
-					id: "67A78ED3495ABCB3"
-					type: "custom"
-				}
-				{
-					id: "04F07E3A87A9304A"
-					type: "custom"
-				}
-				{
-					id: "6E88A0E6CFB4A7BA"
-					type: "custom"
-				}
-				{
-					id: "4CCFF8A21493E957"
-					type: "custom"
-				}
-				{
-					id: "76C297DF00C99055"
-					type: "custom"
-				}
-				{
-					id: "40B7F0ED08B6B15B"
-					type: "custom"
-				}
-				{
-					id: "448F8D3100E58DB1"
-					type: "custom"
-				}
-				{
-					id: "3DE7249CC8A7D98E"
-					type: "custom"
-				}
-				{
-					id: "796154A6C7157DDC"
-					type: "custom"
-				}
-				{
-					id: "6A136A6C1D540DF2"
-					type: "custom"
-				}
-			]
-			x: 0.0d
-			y: 0.0d
-		}
-		{
-			dependencies: ["2093240CD42882CF"]
-			entity_vis_size: 1.0f
-			id: "3D99932B0EAFD2DA"
-			rewards: [
-				{
-					exclude_from_claim_all: true
-					id: "241DD25D49F14D3D"
-					table_id: 6518300475828805418L
-					type: "loot"
-				}
-				{
-					exclude_from_claim_all: true
-					id: "1C9A17EC026DFCC1"
-					type: "loot"
-				}
-			]
-			tasks: [
-				{
-					id: "472FE3154E462C98"
-					item: { components: { "ftbquests:missing_item": "vinery:cherry" }, count: 1, id: "ftbquests:missing_item" }
-					type: "item"
-				}
-				{
-					id: "7257E765EFC85C34"
-					item: { }
-					type: "item"
-				}
-				{
 					id: "5CDFB8881FB905FE"
 					item: { count: 1, id: "farm_and_charm:strawberry" }
+					type: "item"
+				}
+				{
+					id: "402F3A8BBCF17FE1"
+					item: { count: 1, id: "mysticsbiomes:cherries" }
 					type: "item"
 				}
 			]
@@ -994,77 +763,7 @@
 			y: -1.0d
 		}
 		{
-			dependencies: ["2093240CD42882CF"]
-			entity_vis_size: 1.0f
-			id: "56F73747B7197386"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "74D0F94688292BDA"
-				type: "loot"
-			}]
-			tasks: [
-				{
-					id: "5EAC5E59EB7BB5F5"
-					item: { components: { "ftbquests:missing_item": "fruitsdelight:pear" }, count: 1, id: "ftbquests:missing_item" }
-					type: "item"
-				}
-				{
-					id: "5450A159D60E2EAA"
-					item: { components: { "ftbquests:missing_item": "fruitsdelight:hawberry" }, count: 1, id: "ftbquests:missing_item" }
-					type: "item"
-				}
-				{
-					id: "1AD90CDE5734BC29"
-					item: { components: { "ftbquests:missing_item": "fruitsdelight:lychee" }, count: 1, id: "ftbquests:missing_item" }
-					type: "item"
-				}
-				{
-					id: "72387748DE8C22C1"
-					item: { components: { "ftbquests:missing_item": "fruitsdelight:mango" }, count: 1, id: "ftbquests:missing_item" }
-					type: "item"
-				}
-				{
-					id: "361906B7484030F6"
-					item: { components: { "ftbquests:missing_item": "fruitsdelight:persimmon" }, count: 1, id: "ftbquests:missing_item" }
-					type: "item"
-				}
-				{
-					id: "1D36CD9E39A22ED7"
-					item: { components: { "ftbquests:missing_item": "fruitsdelight:peach" }, count: 1, id: "ftbquests:missing_item" }
-					type: "item"
-				}
-				{
-					id: "0C258257E43C1512"
-					item: { components: { "ftbquests:missing_item": "fruitsdelight:orange" }, count: 1, id: "ftbquests:missing_item" }
-					type: "item"
-				}
-				{
-					id: "455082C12B3E749B"
-					item: { components: { "ftbquests:missing_item": "fruitsdelight:blueberry" }, count: 1, id: "ftbquests:missing_item" }
-					type: "item"
-				}
-				{
-					id: "167AAD6735FAA235"
-					item: { components: { "ftbquests:missing_item": "fruitsdelight:lemon" }, count: 1, id: "ftbquests:missing_item" }
-					type: "item"
-				}
-				{
-					id: "75E75C23F9A94D44"
-					item: { components: { "ftbquests:missing_item": "fruitsdelight:hamimelon_slice" }, count: 1, id: "ftbquests:missing_item" }
-					type: "item"
-				}
-				{
-					id: "02B607079847F248"
-					item: { components: { "ftbquests:missing_item": "fruitsdelight:pineapple" }, count: 1, id: "ftbquests:missing_item" }
-					type: "item"
-				}
-			]
-			x: 4.5d
-			y: -2.5d
-		}
-		{
 			dependencies: ["5B6C14BE4C6318DB"]
-			entity_vis_size: 1.0f
 			id: "367C23BE5CAEF485"
 			tasks: [{
 				id: "40F53CF44216CB1D"
@@ -1075,7 +774,6 @@
 			y: 10.5d
 		}
 		{
-			entity_vis_size: 1.0f
 			id: "5B6C14BE4C6318DB"
 			rewards: [{
 				count: 2
@@ -1089,15 +787,6 @@
 			shape: "rsquare"
 			size: 2.0d
 			tasks: [{
-				entity_vis_idle_mode: "USE_GLOBAL"
-				entity_vis_offset_x: 0.0f
-				entity_vis_offset_y: 0.0f
-				entity_vis_rotation: 0.0f
-				entity_vis_silhouette_mode: "NONE"
-				entity_vis_size: 1.0f
-				entity_vis_spin_mode: "USE_GLOBAL"
-				entity_vis_use_as_quest_icon: false
-				entity_vis_walk_mode: "USE_GLOBAL"
 				id: "42796DE5C53FA5B2"
 				observation_type: "block"
 				observe_type: 0
@@ -1110,7 +799,6 @@
 		}
 		{
 			dependencies: ["5B6C14BE4C6318DB"]
-			entity_vis_size: 1.0f
 			id: "3E165F11BBE2D279"
 			rewards: [{
 				count: 3
@@ -1131,7 +819,6 @@
 		}
 		{
 			dependencies: ["5B6C14BE4C6318DB"]
-			entity_vis_size: 1.0f
 			id: "314290463FBFB5DC"
 			rewards: [{
 				id: "1ECF9D15936BBFF8"
@@ -1149,7 +836,6 @@
 			y: 8.5d
 		}
 		{
-			entity_vis_size: 1.0f
 			id: "108279F31289168F"
 			rewards: [{
 				id: "1CC8E8234D3D32C6"
@@ -1172,7 +858,6 @@
 		}
 		{
 			dependencies: ["62A4710B05D8A115"]
-			entity_vis_size: 1.0f
 			id: "3DFE68F9C3E72198"
 			tasks: [
 				{
@@ -1216,7 +901,6 @@
 		}
 		{
 			dependencies: ["367C23BE5CAEF485"]
-			entity_vis_size: 1.0f
 			id: "62A4710B05D8A115"
 			tasks: [{
 				id: "6DBE7FF532945876"
@@ -1227,100 +911,6 @@
 			y: 10.5d
 		}
 		{
-			entity_vis_size: 1.0f
-			id: "64B44FE0583005AD"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "3C1E9DE56A44A023"
-				type: "loot"
-			}]
-			tasks: [
-				{
-					id: "30A01EAD937C3981"
-					item: { components: { "ftbquests:missing_item": "fruitsdelight:fig_crate" }, count: 1, id: "ftbquests:missing_item" }
-					type: "item"
-				}
-				{
-					id: "2A07EFB75972C1B1"
-					item: { components: { "ftbquests:missing_item": "fruitsdelight:lemon_crate" }, count: 1, id: "ftbquests:missing_item" }
-					type: "item"
-				}
-				{
-					id: "4C0DB326EE028D14"
-					item: { components: { "ftbquests:missing_item": "fruitsdelight:lychee_crate" }, count: 1, id: "ftbquests:missing_item" }
-					type: "item"
-				}
-				{
-					id: "4B3145AADB7CB7D7"
-					item: { components: { "ftbquests:missing_item": "fruitsdelight:mango_crate" }, count: 1, id: "ftbquests:missing_item" }
-					type: "item"
-				}
-				{
-					id: "5CB03F0525181E7E"
-					item: { components: { "ftbquests:missing_item": "fruitsdelight:mangosteen_crate" }, count: 1, id: "ftbquests:missing_item" }
-					type: "item"
-				}
-				{
-					id: "45B4735B3D5E2BCD"
-					item: { components: { "ftbquests:missing_item": "fruitsdelight:peach_crate" }, count: 1, id: "ftbquests:missing_item" }
-					type: "item"
-				}
-				{
-					id: "6288FD14C4D04FB4"
-					item: { components: { "ftbquests:missing_item": "fruitsdelight:orange_crate" }, count: 1, id: "ftbquests:missing_item" }
-					type: "item"
-				}
-				{
-					id: "36DD67B331BFC5F8"
-					item: { components: { "ftbquests:missing_item": "fruitsdelight:bayberry_crate" }, count: 1, id: "ftbquests:missing_item" }
-					type: "item"
-				}
-				{
-					id: "4391A8A7344EF928"
-					item: { components: { "ftbquests:missing_item": "vinery:apple_bag" }, count: 1, id: "ftbquests:missing_item" }
-					type: "item"
-				}
-				{
-					id: "5FFCD4E9C8BDFE73"
-					item: { components: { "ftbquests:missing_item": "fruitsdelight:pineapple_crate" }, count: 1, id: "ftbquests:missing_item" }
-					type: "item"
-				}
-				{
-					id: "29111CECCE802FC7"
-					item: { components: { "ftbquests:missing_item": "fruitsdelight:persimmon_crate" }, count: 1, id: "ftbquests:missing_item" }
-					type: "item"
-				}
-				{
-					id: "746DDCFAA1D35B41"
-					item: { components: { "ftbquests:missing_item": "fruitsdelight:pear_crate" }, count: 1, id: "ftbquests:missing_item" }
-					type: "item"
-				}
-				{
-					id: "1B3D7C3932058C8B"
-					item: { components: { "ftbquests:missing_item": "vinery:red_grape_bag" }, count: 1, id: "ftbquests:missing_item" }
-					type: "item"
-				}
-				{
-					id: "4F48B5E6E18DE075"
-					item: { components: { "ftbquests:missing_item": "fruitsdelight:kiwi_crate" }, count: 1, id: "ftbquests:missing_item" }
-					type: "item"
-				}
-				{
-					id: "14FF8E95008C4608"
-					item: { components: { "ftbquests:missing_item": "vinery:white_grape_bag" }, count: 1, id: "ftbquests:missing_item" }
-					type: "item"
-				}
-				{
-					id: "25DB9CAA0CC9202E"
-					item: { components: { "ftbquests:missing_item": "vinery:cherry_bag" }, count: 1, id: "ftbquests:missing_item" }
-					type: "item"
-				}
-			]
-			x: 9.0d
-			y: 4.0d
-		}
-		{
-			entity_vis_size: 1.0f
 			id: "0C66306B20F7844C"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -1373,7 +963,6 @@
 			y: 5.5d
 		}
 		{
-			entity_vis_size: 1.0f
 			id: "0496A62983DE2ABB"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -1392,18 +981,8 @@
 					type: "item"
 				}
 				{
-					id: "4695642E9E1C8D85"
-					item: { }
-					type: "item"
-				}
-				{
 					id: "4CAA595C8323560F"
 					item: { count: 1, id: "hearthandharvest:golden_apple_crate" }
-					type: "item"
-				}
-				{
-					id: "748D68EF6E40C91B"
-					item: { components: { "ftbquests:missing_item": "endergetic:bolloom_crate" }, count: 1, id: "ftbquests:missing_item" }
 					type: "item"
 				}
 				{
@@ -1426,7 +1005,6 @@
 			y: 6.0d
 		}
 		{
-			entity_vis_size: 1.0f
 			id: "057C8372ED1CBDC0"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -1447,11 +1025,6 @@
 				{
 					id: "302EAA4D72D5EB8A"
 					item: { count: 1, id: "farmersdelight:potato_crate" }
-					type: "item"
-				}
-				{
-					id: "06B64933E4BA7C27"
-					item: { }
 					type: "item"
 				}
 				{
@@ -1484,7 +1057,6 @@
 			y: 5.0d
 		}
 		{
-			entity_vis_size: 1.0f
 			id: "2A171EE16DA22152"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -1507,7 +1079,6 @@
 			y: 7.0d
 		}
 		{
-			entity_vis_size: 1.0f
 			id: "3E8BB82A228A4727"
 			rewards: [
 				{
@@ -1559,7 +1130,6 @@
 			y: 8.0d
 		}
 		{
-			entity_vis_size: 1.0f
 			id: "134ACEA76F0200AD"
 			tasks: [
 				{
@@ -1620,72 +1190,6 @@
 			]
 			x: 8.0d
 			y: 7.0d
-		}
-		{
-			entity_vis_size: 1.0f
-			id: "013280ECBC1D32E3"
-			tasks: [
-				{
-					id: "28C21B8CA1EC1D0F"
-					item: { components: { "ftbquests:missing_item": "hearthandharvest:egg_crate" }, count: 1, id: "ftbquests:missing_item" }
-					type: "item"
-				}
-				{
-					id: "2949A0CF1DF1F1D4"
-					item: { components: { "ftbquests:missing_item": "hearthandharvest:honey_crate" }, count: 1, id: "ftbquests:missing_item" }
-					type: "item"
-				}
-				{
-					id: "500B466E468A2BDA"
-					item: { components: { "ftbquests:missing_item": "hearthandharvest:goat_milk_crate" }, count: 1, id: "ftbquests:missing_item" }
-					type: "item"
-				}
-				{
-					id: "566184B18B66DF39"
-					item: { components: { "ftbquests:missing_item": "hearthandharvest:turtle_egg_crate" }, count: 1, id: "ftbquests:missing_item" }
-					type: "item"
-				}
-				{
-					id: "7F9079037E0CEDA8"
-					item: { components: { "ftbquests:missing_item": "hearthandharvest:milk_crate" }, count: 1, id: "ftbquests:missing_item" }
-					type: "item"
-				}
-				{
-					id: "7C66A5AE81FF9839"
-					item: { components: { "ftbquests:missing_item": "hearthandharvest:syrup_crate" }, count: 1, id: "ftbquests:missing_item" }
-					type: "item"
-				}
-			]
-			x: 5.0d
-			y: 9.0d
-		}
-		{
-			entity_vis_size: 1.0f
-			id: "59E2812495F7C080"
-			tasks: [
-				{
-					id: "7696365EB204665F"
-					item: { components: { "ftbquests:missing_item": "hearthandharvest:blueberry_wine_crate" }, count: 1, id: "ftbquests:missing_item" }
-					type: "item"
-				}
-				{
-					id: "506531F06476D29B"
-					item: { components: { "ftbquests:missing_item": "hearthandharvest:mead_crate" }, count: 1, id: "ftbquests:missing_item" }
-					type: "item"
-				}
-				{
-					id: "5EAA98A9E11D894E"
-					item: { components: { "ftbquests:missing_item": "hearthandharvest:raspberry_wine_crate" }, count: 1, id: "ftbquests:missing_item" }
-					type: "item"
-				}
-				{
-					id: "1A2BA35788F9045E"
-					item: { components: { "ftbquests:missing_item": "hearthandharvest:water_crate" }, count: 1, id: "ftbquests:missing_item" }
-					type: "item"
-				}
-			]
-			x: 8.0d
-			y: 9.0d
 		}
 	]
 }

@@ -1,0 +1,67 @@
+{
+  "enabled": true,
+  "mod_name": "YUNG\u0027s Better Dungeons",
+  "mod_id": "betterdungeons",
+  "achievements": {
+    "small_nether_dungeon": {
+      "display_name": "A Special Addition",
+      "original_name": "A Special Addition",
+      "enabled": true,
+      "icon": "minecraft:red_nether_bricks",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "zombie_dungeon": {
+      "display_name": "When in Rome",
+      "original_name": "When in Rome",
+      "enabled": true,
+      "icon": "minecraft:rotten_flesh",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "all_dungeons": {
+      "display_name": "Professional Dungeoneer",
+      "original_name": "Professional Dungeoneer",
+      "enabled": true,
+      "icon": "minecraft:diamond_sword",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "skeleton_dungeon": {
+      "display_name": "A Bone to Pick",
+      "original_name": "A Bone to Pick",
+      "enabled": true,
+      "icon": "minecraft:skeleton_skull",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "small_dungeon": {
+      "display_name": "Quite the Renovation",
+      "original_name": "Quite the Renovation",
+      "enabled": true,
+      "icon": "minecraft:spawner",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "spider_dungeon": {
+      "display_name": "Cobweb Entanglement",
+      "original_name": "Cobweb Entanglement",
+      "enabled": true,
+      "icon": "minecraft:string",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    }
+  }
+}

@@ -1,0 +1,207 @@
+{
+  "enabled": true,
+  "mod_name": "End Remastered",
+  "mod_id": "endrem",
+  "achievements": {
+    "main/sculk_eye": {
+      "display_name": "Silence hears everything...",
+      "original_name": "Silence hears everything...",
+      "enabled": true,
+      "icon": "endrem:sculk_eye",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "main/nether_eye": {
+      "display_name": "Stare Into Despair",
+      "original_name": "Stare Into Despair",
+      "enabled": true,
+      "icon": "endrem:nether_eye",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "main/rogue_eye": {
+      "display_name": "Welcome To The Jungle",
+      "original_name": "Welcome To The Jungle",
+      "enabled": true,
+      "icon": "endrem:rogue_eye",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "main/fishing_eye": {
+      "display_name": "Nice Catch!",
+      "original_name": "Nice Catch!",
+      "enabled": true,
+      "icon": "endrem:fishing_eye",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "main/black_eye": {
+      "display_name": "Arghh, Where be Me Ship?",
+      "original_name": "Arghh, Where be Me Ship?",
+      "enabled": true,
+      "icon": "endrem:black_eye",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "main/cryptic_eye": {
+      "display_name": "Patience Is The Road To Wisdom",
+      "original_name": "Patience Is The Road To Wisdom",
+      "enabled": true,
+      "icon": "endrem:cryptic_eye",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "main/guardian_eye": {
+      "display_name": "Who\u0027s Guarding The Temple Now?",
+      "original_name": "Who\u0027s Guarding The Temple Now?",
+      "enabled": true,
+      "icon": "endrem:guardian_eye",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "main/exotic_eye": {
+      "display_name": "Where\u0027s Atlantis?",
+      "original_name": "Where\u0027s Atlantis?",
+      "enabled": true,
+      "icon": "endrem:exotic_eye",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "main/old_eye": {
+      "display_name": "Fortune Seeker",
+      "original_name": "Fortune Seeker",
+      "enabled": true,
+      "icon": "endrem:old_eye",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "main/evil_eye": {
+      "display_name": "A Real Blessing",
+      "original_name": "A Real Blessing",
+      "enabled": true,
+      "icon": "endrem:evil_eye",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "main/cold_eye": {
+      "display_name": "A Nice-y Look",
+      "original_name": "A Nice-y Look",
+      "enabled": true,
+      "icon": "endrem:cold_eye",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "main/corrupted_eye": {
+      "display_name": "Cover Me In Emeralds",
+      "original_name": "Cover Me In Emeralds",
+      "enabled": true,
+      "icon": "endrem:corrupted_eye",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "main/magical_eye": {
+      "display_name": "Fallen Sorcerer",
+      "original_name": "Fallen Sorcerer",
+      "enabled": true,
+      "icon": "endrem:magical_eye",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "main/trial_eye": {
+      "display_name": "A Probing Glance",
+      "original_name": "A Probing Glance",
+      "enabled": true,
+      "icon": "endrem:trial_eye",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "main/potato_eye": {
+      "display_name": "Tuber of Destiny",
+      "original_name": "Tuber of Destiny",
+      "enabled": true,
+      "icon": "endrem:potato_eye",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "main/undead_eye": {
+      "display_name": "The Mirror Of The Soul",
+      "original_name": "The Mirror Of The Soul",
+      "enabled": true,
+      "icon": "endrem:undead_eye",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "main/cursed_eye": {
+      "display_name": "A New Protector...",
+      "original_name": "A New Protector...",
+      "enabled": true,
+      "icon": "endrem:cursed_eye",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "main/witch_eye": {
+      "display_name": "Trick-or-Treat?",
+      "original_name": "Trick-or-Treat?",
+      "enabled": true,
+      "icon": "endrem:witch_eye",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "main/wither_eye": {
+      "display_name": "Wither You Want It Or Not",
+      "original_name": "Wither You Want It Or Not",
+      "enabled": true,
+      "icon": "endrem:wither_eye",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "main/lost_eye": {
+      "display_name": "Need A Map?",
+      "original_name": "Need A Map?",
+      "enabled": true,
+      "icon": "endrem:lost_eye",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    }
+  }
+}

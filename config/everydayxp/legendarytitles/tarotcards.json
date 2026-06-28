@@ -1,0 +1,17 @@
+{
+  "enabled": true,
+  "mod_name": "TarotCards",
+  "mod_id": "tarotcards",
+  "achievements": {
+    "deck_collector": {
+      "display_name": "Major Arcana Collector",
+      "original_name": "Major Arcana Collector",
+      "enabled": true,
+      "icon": "tarotcards:tarot_deck",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    }
+  }
+}

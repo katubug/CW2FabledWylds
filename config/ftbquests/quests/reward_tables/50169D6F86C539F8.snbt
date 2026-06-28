@@ -1,0 +1,16 @@
+{
+	id: "50169D6F86C539F8"
+	loot_size: 1
+	order_index: 27
+	rewards: [
+		{
+			count: 2
+			id: "3880EBEB125B1CA4"
+			item: {
+				count: 1
+				id: "numismatics:sprocket"
+			}
+		}
+		{ id: "6691B72E8422F69A", item: { count: 1, id: "numismatics:sprocket" } }
+	]
+}

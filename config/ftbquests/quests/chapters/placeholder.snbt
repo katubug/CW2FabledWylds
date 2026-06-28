@@ -8,7 +8,6 @@
 	quest_links: [ ]
 	quests: [
 		{
-			entity_vis_size: 1.0f
 			id: "7AD175287E3F0B68"
 			rewards: [{
 				id: "647BD7A181C2E88D"
@@ -33,7 +32,6 @@
 			y: -4.0d
 		}
 		{
-			entity_vis_size: 1.0f
 			id: "21AD64E594528F4D"
 			rewards: [{
 				id: "2843D4CF59F20071"
@@ -54,7 +52,6 @@
 			y: -5.25d
 		}
 		{
-			entity_vis_size: 1.0f
 			id: "065DC59360A84A58"
 			rewards: [{
 				count: 3
@@ -76,7 +73,6 @@
 			y: -6.0d
 		}
 		{
-			entity_vis_size: 1.0f
 			id: "3DFB7EF14F053582"
 			rewards: [
 				{
@@ -108,7 +104,6 @@
 			y: -2.5d
 		}
 		{
-			entity_vis_size: 1.0f
 			id: "54B176A22CBFD31F"
 			tasks: [{
 				icon: {
@@ -122,7 +117,6 @@
 			y: -5.0d
 		}
 		{
-			entity_vis_size: 1.0f
 			id: "77CCC4FD3E93E79C"
 			rewards: [{
 				id: "2A258AF7821E4415"
@@ -133,15 +127,6 @@
 				type: "item"
 			}]
 			tasks: [{
-				entity_vis_idle_mode: "USE_GLOBAL"
-				entity_vis_offset_x: 0.0f
-				entity_vis_offset_y: 0.0f
-				entity_vis_rotation: 0.0f
-				entity_vis_silhouette_mode: "NONE"
-				entity_vis_size: 1.0f
-				entity_vis_spin_mode: "USE_GLOBAL"
-				entity_vis_use_as_quest_icon: false
-				entity_vis_walk_mode: "USE_GLOBAL"
 				icon: {
 					id: "minecraft:suspicious_gravel"
 				}
@@ -156,7 +141,6 @@
 			y: -7.75d
 		}
 		{
-			entity_vis_size: 1.0f
 			id: "3AC8C2A12201C798"
 			tasks: [{
 				advancement: "kubejs:photography/photographed_lich"
@@ -168,7 +152,6 @@
 			y: -10.25d
 		}
 		{
-			entity_vis_size: 1.0f
 			id: "598D07A8C3ED765A"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -182,6 +165,17 @@
 			}]
 			x: -3.5d
 			y: -8.75d
+		}
+		{
+			id: "53767CADAD8B20D3"
+			tasks: [{
+				id: "4801D0E3298B12F1"
+				points: false
+				type: "xp"
+				value: 9L
+			}]
+			x: 3.5d
+			y: -9.25d
 		}
 	]
 }
