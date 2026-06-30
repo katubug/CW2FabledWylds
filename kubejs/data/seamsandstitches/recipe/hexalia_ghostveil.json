@@ -6,16 +6,26 @@
     "count": 1
   },
   "ingredients": [
-    { "item": "hexerei:infused_fabric" },
-    { "item": "hexerei:infused_fabric" },
-    { "item": "hexerei:infused_fabric" },
-    { "item": "hexerei:infused_fabric" },
-    { "item": "hexerei:infused_fabric" }
+    { "item": "hexalia:ghost_powder" },
+    { "item": "crittersandcompanions:silk" },
+    { "item": "crittersandcompanions:silk" },
+    { "item": "delighto_flight:cloud_silk" },
+    { "item": "delighto_flight:cloud_silk" },
+    { "item": "hexalia:ghost_fern" },
+    { "item": "hexalia:ghost_fern" }
   ],
   "seams": [
     {
-      "id": "crown",
-      "path": [[4,11]],
+      "id": "mantle",
+      "path": [[2,3],[2,4],[2,5],[3,6],[4,6],[5,7],[6,7],[7,7],[8,7],[9,7],[10,7],[11,6],[12,6],[13,5],[13,4],[13,3],[12,3],[11,3],[10,4],[9,4],[8,5],[7,5],[6,4],[5,4],[4,3],[3,3]],
+      "speed": 2,
+      "lead_in": 0.4,
+      "lead_out": 0.4,
+      "perfect_window": 0.15
+    },
+    {
+      "id": "body",
+      "path": [[3,8],[4,8],[5,8],[6,8],[7,8],[8,8],[9,8],[10,8],[11,8],[12,8],[13,9],[13,10],[14,11],[14,12],[13,13],[12,12],[11,13],[10,14],[9,13],[8,12],[7,12],[6,13],[5,14],[4,13],[3,12],[2,13],[1,12],[1,11],[2,10],[2,9]],
       "speed": 2,
       "lead_in": 0.4,
       "lead_out": 0.4,
@@ -31,7 +41,7 @@
   "quality_bonuses": [
     {
       "attribute": "minecraft:generic.armor",
-      "slot": "head",
+      "slot": "chest",
       "poor": 0,
       "well": 1,
       "expert": 2,

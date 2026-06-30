@@ -109,4 +109,4 @@
 	#  - Press R in the sewing screen to clear the recorded coordinates.
 	#  - Press C in the sewing screen to copy the array to the clipboard.
 	#Useful when designing new seam paths for custom recipes.
-	debugOverlay = true
+	debugOverlay = false

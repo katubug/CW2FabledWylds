@@ -10,3 +10,4 @@ config/jei/ingredient-list-mod-sort-order.ini
 *.bak
 config/spark/activity.json
 config/exposure-client.toml
+config/oelib/dev_features.toml
