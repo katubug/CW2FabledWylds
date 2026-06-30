@@ -19,7 +19,7 @@
 		#Disable vanilla crafting recipe for leather horse armor
 		override_leather_horse_armor = true
 		#Disable vanilla crafting recipe for book
-		override_book = true
+		override_book = false
 		#Disable vanilla crafting recipe for painting
 		override_painting = true
 
@@ -99,7 +99,7 @@
 	poorThreshold = 0.25
 	#When true, the Tailoring Bench UI uses the classic vanilla Minecraft gray style.
 	#When false (default), the modern dark UI is used.
-	vanillafyUI = false
+	vanillafyUI = true
 
 #Debug settings for modpack developers.
 [debug]
@@ -109,4 +109,4 @@
 	#  - Press R in the sewing screen to clear the recorded coordinates.
 	#  - Press C in the sewing screen to copy the array to the clipboard.
 	#Useful when designing new seam paths for custom recipes.
-	debugOverlay = false
+	debugOverlay = true

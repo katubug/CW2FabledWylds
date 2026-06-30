@@ -188,7 +188,7 @@ ServerEvents.recipes(event => {
         {id: 'farm_and_charm:meadow/cooking/nettle_tea'},
         {output: 'malum:spectral_lens'},
         {id: 'hexerei:leather_from_drying_rack'},
-        {type: 'meadow:cooking'},
+        //{type: 'meadow:cooking'},
         {type: 'enchanted:witch_cauldron'},
         {type: 'farm_and_charm:pot_cooking'},
         {id: 'hexerei:mahogany_broom_from_mixing_cauldron'},
@@ -225,6 +225,9 @@ ServerEvents.recipes(event => {
         {output: 'hearthandharvest:peanut_butter_cookie'},
         {output: 'twilightdelight:torchberry_cookie'},
         {id: 'hearthandharvest:string_from_cotton'},
+        {output: 'adorablehamsterpets:cheese'},
+        {output: 'meadow:cheese_wheel'},
+        {output: 'meadow:cooking_frame'}
     
     ];
     

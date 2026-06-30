@@ -1,14 +1,15 @@
 ServerEvents.tags('item', event => {
 
-	//Souls for Soul Receptacle
-	event.add(
-		'c:souls',
-		'endrem:undead_soul'
-	)
-
 	// Pearls for Pearl Necklaces etc
 	event.add('c:pearls',
-		'crittersandcompanions:pearl'
+		'crittersandcompanions:pearl',
+		'starcatcher:pearl'
+	)
+
+	event.add('c:dusts/salt',
+		'hearthandharvest:salt', 
+		'meadow:alpine_salt',
+		'hexalia:salt'
 	)
 
 	// Eyes tags for Enderman Overhaul recipes plus an FTB Filter system quest
@@ -55,7 +56,13 @@ ServerEvents.tags('item', event => {
 		'minecraft:dirt',
 		'minecraft:coarse_dirt',
 		'minecraft:rooted_dirt',
-		'minecraft:podzol')
+		'minecraft:podzol',
+		'regions_unexplored:ashen_dirt',
+		'regions_unexplored:peat_dirt',
+		'regions_unexplored:peat_coarse_dirt',
+		'regions_unexplored:silt_dirt',
+		'regions_unexplored:silt_coarse_dirt',
+		'farm_and_charm:packed_dirt')
 
 	//Salmonberries
 	event.add('c:fruits/salmonberries',
@@ -67,7 +74,31 @@ ServerEvents.tags('item', event => {
 		'bakery:strawberry_jam',
 		'bakery:sweetberry_jam',
 		'bakery:glowberry_jam',
-		'bakery:apple_jam'
+		'bakery:apple_jam',
+		'hearthandharvest:cherry_jam'
+	)
+
+	//cheese wheels for fondue
+	event.add('meadow:item/cheese_wheels',
+		'meadow:sheep_cheese_wheel',
+		'meadow:grain_cheese_wheel',
+		'meadow:amethyst_cheese_wheel',
+		'meadow:buffalo_cheese_wheel',
+		'meadow:warped_cheese_wheel',
+		'hearthandharvest:cheddar_cheese_wheel',
+		'hearthandharvest:goat_cheese_wheel'
+	)
+
+	//Needles for spinning
+	event.add('c:needles',
+		'seamsandstitches:needle',
+		'enchanted:bone_needle'
+	)
+
+	//Silk for Spinning
+	event.add('c:silk_fibers',
+		'betterend:silk_fiber',
+		'hexalia:silk_fiber'
 	)
 
 	//Barley

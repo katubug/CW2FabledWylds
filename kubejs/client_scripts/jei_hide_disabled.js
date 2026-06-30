@@ -3,6 +3,8 @@
 RecipeViewerEvents.removeEntries('item',event => {
     // Disabled Items Removal
     let toHide = [
+      'adorablehamsterpets:cheese',
+      'meadow:cheese_wheel',
       'architects_palette:hazard_wall', 'architects_palette:hazard_slab', 'architects_palette:hazard_sign', 'architects_palette:hazard_vertical_slab', 'architects_palette:hazard_block',
       'unusual_furniture:decorative_toolbox', 
       'unusual_furniture:warning_barrier', 
@@ -170,6 +172,11 @@ RecipeViewerEvents.removeEntries('item',event => {
       'hearthandharvest:sweet_berry_jam', 
       'hearthandharvest:apple_jam',
       'hearthandharvest:peanut_butter_and_jelly_sandwich',
+      'plushie_buddies:fabric',
+      'plushie_buddies:stuffing',
+      'plushie_buddies:workbench',
+      'plushie_buddies:sewing_needle',
+      'plushie_buddies:thread'
       ];
     
       for (const hide of toHide) {

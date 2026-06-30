@@ -1,8 +1,8 @@
 {
   "type": "seamsandstitches:sewing_pattern",
-  "texture": "hexerei:textures/item/witch_chestplate.png",
+  "texture": "hexalia:textures/item/silkweave_mantle.png",
   "output": {
-    "id": "hexerei:witch_chestplate",
+    "id": "hexalia:silkweave_mantle",
     "count": 1
   },
   "ingredients": [

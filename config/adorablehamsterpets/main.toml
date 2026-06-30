@@ -131,7 +131,7 @@ enableGuiRenaming = true
 # If true, players can tame frozen, AI-disabled hamsters, instantly breathing life into them like some sort of furry necromancer. Turn this off if you're using command-spawned hamsters as statues or shop displays and don't want your patrons walking off with the merchandise happily following.
 allowTamingAiDisabled = true
 # If true, your weapons will magically pass through your own tamed hamsters. Perfect for those with butter fingers who keep 'accidentally' sending their companions to the great hamster wheel in the sky.
-preventOwnerFriendlyFire = false
+preventOwnerFriendlyFire = true
 # Should Ravagers, the hulking beasts of destruction, flee in terror from a tiny ball of fluff? Yes. Yes, they should.
 enableRavagerFlee = true
 # Turns your hamster into a mobile arachnid-repellent unit. Highly effective.
@@ -193,7 +193,14 @@ buffFoods = [
 ]
 # The specific items that convince a tamed hamster your shoulder is the best seat in the house. Also acts as a bribe to lure them into their linked bed. Defaults to cheese, because of course it does.
 lureItems = [
-    "adorablehamsterpets:cheese"
+    "adorablehamsterpets:cheese",
+    "meadow:warped_cheese_slice",
+    "meadow:buffalo_cheese_slice",
+    "hearthandharvest:cheddar_cheese_slice",
+    "hearthandharvest:goat_cheese_slice",
+    "meadow:amethyst_cheese_slice",
+    "meadow:grain_cheese_slice",
+    "meadow:sheep_cheese_slice"
 ]
 # The list of specific items that, when used on a Hamster Bed, will set 'Wander Mode Settings > Allow Sleeping in Bed' to false. For when you need your hamster to stay awake and wander around for... reasons. This can be reversed by using a lure item (cheese by default) on the bed. Sneaking before right-clicking with this item will unlink the bed entirely.
 bedAvoidanceFoods = [

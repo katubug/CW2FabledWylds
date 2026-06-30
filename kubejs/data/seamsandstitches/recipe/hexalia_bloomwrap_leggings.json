@@ -1,8 +1,8 @@
 {
   "type": "seamsandstitches:sewing_pattern",
-  "texture": "hexerei:textures/item/witch_chestplate.png",
+  "texture": "hexalia:textures/item/bloomwrap_leggings.png",
   "output": {
-    "id": "hexerei:witch_chestplate",
+    "id": "hexalia:bloomwrap_leggings",
     "count": 1
   },
   "ingredients": [
@@ -31,7 +31,7 @@
   "quality_bonuses": [
     {
       "attribute": "minecraft:generic.armor",
-      "slot": "chest",
+      "slot": "legs",
       "poor": 0,
       "well": 1,
       "expert": 2,

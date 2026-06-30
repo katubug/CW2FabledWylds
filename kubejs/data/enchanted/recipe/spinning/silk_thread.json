@@ -1,0 +1,22 @@
+{
+  "type": "enchanted:wheel",
+  "ingredients": [
+    {
+      "count": 1,
+      "id": "#c:silk_fibers"
+    },
+    {
+      "count": 1,
+      "id": "#c:needles"
+    },
+    {
+      "count": 1,
+      "tag": "forge:rods/wooden"
+    }
+  ],
+  "power": 0,
+  "result": {
+    "count": 5,
+    "id": "crittersandcompanions:silk"
+  }
+}

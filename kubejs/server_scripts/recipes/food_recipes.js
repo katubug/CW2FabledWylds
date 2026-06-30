@@ -1,5 +1,17 @@
 ServerEvents.recipes(event => {
 
+
+	//Cookpot Needed for Cooking Frame
+	event.shaped('meadow:cooking_frame', [
+		'SSS',
+		'SCS',
+		'SFS'
+	], {
+		S: 'minecraft:stick',
+		C: 'meadow:cookpot',
+		F: 'minecraft:campfire'
+	})
+
 	//Witchy Compost
 	event.shapeless(
 		Item.of('farmersdelight:organic_compost', 2),

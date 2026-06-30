@@ -1,8 +1,8 @@
 {
   "type": "seamsandstitches:sewing_pattern",
-  "texture": "hexerei:textures/item/witch_chestplate.png",
+  "texture": "hexalia:textures/item/bloomwrap_robes.png",
   "output": {
-    "id": "hexerei:witch_chestplate",
+    "id": "hexalia:bloomwrap_robes",
     "count": 1
   },
   "ingredients": [

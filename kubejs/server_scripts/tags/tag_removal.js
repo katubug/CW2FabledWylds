@@ -2,8 +2,7 @@ ServerEvents.tags('item', event => {
 	//Dough
 	event.removeAllTagsFrom('bakery:dough',
 		'candlelight:dough',
-		'create:dough',
-		'vegandelight:salt')
+		'create:dough')
 
 	//why are plushies wool??
 	event.remove('minecraft:wool', [
@@ -25,9 +24,9 @@ ServerEvents.tags('item', event => {
 		'meadow:piece_of_goat_cheese',
 		'meadow:piece_of_cheese',
 		'hearthandharvest:cherry',
-		'hexalia:salt',
 		'autumnity:syrup_bottle',
-		'#forge:eggs'
+		'#forge:eggs',
+		'meadow:cheese_wheel'
 	]
 
 	for (const nuke of toNuke) {
