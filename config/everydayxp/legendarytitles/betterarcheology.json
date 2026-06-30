@@ -14,7 +14,7 @@
       }
     },
     "unidentified_artifact": {
-      "display_name": "It\u0027s all coming together",
+      "display_name": "Amateur Archaeologist",
       "original_name": "It\u0027s all coming together",
       "enabled": true,
       "icon": "betterarcheology:unidentified_artifact",
@@ -24,7 +24,7 @@
       }
     },
     "used_bomb_item": {
-      "display_name": "Kaboom?",
+      "display_name": "Zeeky Boogy Doog",
       "original_name": "Kaboom?",
       "enabled": true,
       "icon": "betterarcheology:bomb",
@@ -44,7 +44,7 @@
       }
     },
     "all_fossils_found": {
-      "display_name": "Paleontologist\u0027s Pride",
+      "display_name": "Masterful Paleontologist",
       "original_name": "Paleontologist\u0027s Pride",
       "enabled": true,
       "icon": "betterarcheology:sheep_fossil",

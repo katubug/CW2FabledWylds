@@ -2,7 +2,14 @@
   "logbegone": {
     "phrases": [
       "Disconnecting VANILLA connection attempt",
-      "Channels "
+      "Channels ",
+      "Couldn't parse element ResourceKey",
+      "Error parsing recipe",
+      "Parsing error loading recipe",
+      "Couldn't parse spawner mob list",
+      "Mobs should be added to biomes",
+      "Found an item that was in parent tab",
+      "Found an empty itemStack"
     ],
     "regex": [
       "Disconnecting VANILLA connection attempt",

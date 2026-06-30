@@ -14,7 +14,7 @@
       }
     },
     "husbandry/collector_50": {
-      "display_name": "The Spice of Life",
+      "display_name": "Spicy",
       "original_name": "The Spice of Life",
       "enabled": true,
       "icon": "minecraft:spyglass",
@@ -44,7 +44,7 @@
       }
     },
     "husbandry/hamster_slept_in_bed": {
-      "display_name": "Sweet Dreams \u0027r Made of Leaves",
+      "display_name": "Hamster Houser",
       "original_name": "Sweet Dreams \u0027r Made of Leaves",
       "enabled": true,
       "icon": "minecraft:red_bed",
@@ -64,7 +64,7 @@
       }
     },
     "husbandry/carat_confusion": {
-      "display_name": "Carat Confusion",
+      "display_name": "Hamster Comforter",
       "original_name": "Carat Confusion",
       "enabled": true,
       "icon": "minecraft:raw_gold",
@@ -74,7 +74,7 @@
       }
     },
     "husbandry/it_cant_be_true": {
-      "display_name": "It Can\u0027t Be True!",
+      "display_name": "Disbeliever",
       "original_name": "It Can\u0027t Be True!",
       "enabled": true,
       "icon": "adorablehamsterpets:sunflower_block",
@@ -144,7 +144,7 @@
       }
     },
     "husbandry/tree_heist": {
-      "display_name": "Tree Heist",
+      "display_name": "Tree Looter",
       "original_name": "Tree Heist",
       "enabled": true,
       "icon": "minecraft:oak_sapling",
@@ -154,7 +154,7 @@
       }
     },
     "husbandry/dispensed_hamster_bedding": {
-      "display_name": "High-Tech Allergy Attack",
+      "display_name": "Allergy Warrior",
       "original_name": "High-Tech Allergy Attack",
       "enabled": true,
       "icon": "minecraft:dispenser",
@@ -164,7 +164,7 @@
       }
     },
     "husbandry/canine_aspirations": {
-      "display_name": "Canine Aspirations?",
+      "display_name": "Girl\u0027s Best Friend",
       "original_name": "Canine Aspirations?",
       "enabled": true,
       "icon": "minecraft:bone",
@@ -174,7 +174,7 @@
       }
     },
     "husbandry/craft_all_hamster_beds": {
-      "display_name": "Leaf Bender Supreme",
+      "display_name": "Supreme Hamster Houser",
       "original_name": "Leaf Bender Supreme",
       "enabled": true,
       "icon": "adorablehamsterpets:hamster_bed_cherry",
@@ -224,7 +224,7 @@
       }
     },
     "husbandry/squirrel_cosplay": {
-      "display_name": "Squirrel Cosplay",
+      "display_name": "Acorn Haberdasher",
       "original_name": "Squirrel Cosplay",
       "enabled": true,
       "icon": "adorablehamsterpets:acorn_hat",
@@ -234,7 +234,7 @@
       }
     },
     "husbandry/chipmunk_aspirations": {
-      "display_name": "Chipmunk Aspirations",
+      "display_name": "Cheeky Chipmunk",
       "original_name": "Chipmunk Aspirations",
       "enabled": true,
       "icon": "minecraft:bundle",
@@ -244,7 +244,7 @@
       }
     },
     "husbandry/craft_hamster_bed": {
-      "display_name": "Luxury Leaf Pile",
+      "display_name": "Luxury Hamster Houser",
       "original_name": "Luxury Leaf Pile",
       "enabled": true,
       "icon": "adorablehamsterpets:hamster_bed_oak",
@@ -254,7 +254,7 @@
       }
     },
     "husbandry/craft_bait": {
-      "display_name": "The Bait",
+      "display_name": "Master Baiter",
       "original_name": "The Bait",
       "enabled": true,
       "icon": "adorablehamsterpets:sliced_cucumber",
@@ -274,7 +274,7 @@
       }
     },
     "husbandry/return_on_investnut": {
-      "display_name": "Return on Investnut",
+      "display_name": "NFT \u003d Nut Foraging Technique",
       "original_name": "Return on Investnut",
       "enabled": true,
       "icon": "adorablehamsterpets:acorn",
@@ -304,7 +304,7 @@
       }
     },
     "husbandry/collector_100": {
-      "display_name": "Gotta Catch a Fraction of \u0027Em",
+      "display_name": "Ash Ketchum but for Hamsters",
       "original_name": "Gotta Catch a Fraction of \u0027Em",
       "enabled": true,
       "icon": "minecraft:compass",
@@ -344,7 +344,7 @@
       }
     },
     "husbandry/industrial_nutcracking": {
-      "display_name": "Industrial Nutcracking",
+      "display_name": "Industrial Nutcracker",
       "original_name": "Industrial Nutcracking",
       "enabled": true,
       "icon": "adorablehamsterpets:acorn_shard",
@@ -354,7 +354,7 @@
       }
     },
     "husbandry/killed_by_hamster": {
-      "display_name": "Rodent Reckoning",
+      "display_name": "Rues Rodents",
       "original_name": "Rodent Reckoning",
       "enabled": true,
       "icon": "minecraft:skeleton_skull",
@@ -364,7 +364,7 @@
       }
     },
     "husbandry/expensive_therapy": {
-      "display_name": "Expensive Therapy",
+      "display_name": "Don\u0027t Take My Stuff",
       "original_name": "Expensive Therapy",
       "enabled": true,
       "icon": "adorablehamsterpets:hamster_armor_diamond",
@@ -414,7 +414,7 @@
       }
     },
     "husbandry/throw_hamster": {
-      "display_name": "The Hamster Yeet™",
+      "display_name": "The Hamster Yeeter™",
       "original_name": "The Hamster Yeet™",
       "enabled": true,
       "icon": "minecraft:creeper_head",
@@ -424,7 +424,7 @@
       }
     },
     "husbandry/seed_money": {
-      "display_name": "Seed Money",
+      "display_name": "Cool as a Cuke",
       "original_name": "Seed Money",
       "enabled": true,
       "icon": "adorablehamsterpets:cucumber_seeds",
@@ -444,7 +444,7 @@
       }
     },
     "husbandry/hamster_bed_linked": {
-      "display_name": "Home is Where the Leaves Are",
+      "display_name": "Brilliant Hamster Houser",
       "original_name": "Home is Where the Leaves Are",
       "enabled": true,
       "icon": "minecraft:lead",
@@ -474,7 +474,7 @@
       }
     },
     "husbandry/breeder_1": {
-      "display_name": "Playing God",
+      "display_name": "Played God",
       "original_name": "Playing God",
       "enabled": true,
       "icon": "adorablehamsterpets:hamster_spawn_egg",
@@ -484,7 +484,7 @@
       }
     },
     "husbandry/craft_food_mix": {
-      "display_name": "Pocket Snacks",
+      "display_name": "Pocket Snack Enjoyer",
       "original_name": "Pocket Snacks",
       "enabled": true,
       "icon": "adorablehamsterpets:hamster_food_mix",

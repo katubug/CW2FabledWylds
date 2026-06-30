@@ -363,5 +363,29 @@
 			x: 4.5d
 			y: 3.5d
 		}
+		{
+			id: "77CCC4FD3E93E79C"
+			rewards: [{
+				id: "2A258AF7821E4415"
+				item: {
+					count: 1
+					id: "minecraft:brush"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				icon: {
+					id: "minecraft:suspicious_gravel"
+				}
+				id: "081CB8C8D3170C0B"
+				observation_type: "block"
+				observe_type: 0
+				timer: 0L
+				to_observe: "minecraft:suspicious_gravel"
+				type: "observation"
+			}]
+			x: -0.5d
+			y: -5.0d
+		}
 	]
 }

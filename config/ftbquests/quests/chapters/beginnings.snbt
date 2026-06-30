@@ -12,24 +12,43 @@
 			image: "enchanted_wilds:textures/questui/logo.png"
 			rotation: 0.0d
 			width: 10.0d
-			x: 0.0d
-			y: -10.0d
+			x: 0.1d
+			y: -17.6d
 		}
 		{
-			height: 8.0d
-			image: "enchanted_wilds:textures/questui/bgfreebies.png"
+			height: 20.0d
+			image: "enchanted_wilds:textures/questui/bookbgslg/green_book_lg.png"
 			rotation: 0.0d
-			width: 8.0d
-			x: -4.25d
-			y: -2.75d
+			width: 25.0d
+			x: 0.1d
+			y: -5.0d
 		}
 		{
-			height: 8.0d
-			image: "enchanted_wilds:textures/questui/bgdeath.png"
+			color: 6321408
+			height: 2.5d
+			image: "enchanted_wilds:textures/questui/titles/beginnings.png"
 			rotation: 0.0d
 			width: 8.0d
-			x: 4.25d
-			y: -2.75d
+			x: -4.8d
+			y: -11.4d
+		}
+		{
+			color: 6321408
+			height: 1.25d
+			image: "enchanted_wilds:textures/questui/subtitles/art_of_death.png"
+			rotation: 0.0d
+			width: 8.0d
+			x: 5.3d
+			y: -11.9d
+		}
+		{
+			color: 6321408
+			height: 1.25d
+			image: "enchanted_wilds:textures/questui/subtitles/gifts.png"
+			rotation: 0.0d
+			width: 8.0d
+			x: -4.8d
+			y: -6.6d
 		}
 	]
 	order_index: 1
@@ -374,8 +393,8 @@
 				id: "4B1CE4FEE799E300"
 				type: "dimension"
 			}]
-			x: -4.25d
-			y: -3.75d
+			x: -4.800000000000001d
+			y: -8.700000000000001d
 		}
 		{
 			id: "293AFFA188D96753"
@@ -391,8 +410,8 @@
 				item: { count: 1, id: "soulhome:soulkey" }
 				type: "item"
 			}]
-			x: -4.25d
-			y: -0.75d
+			x: -4.3d
+			y: -5.3d
 		}
 		{
 			id: "0291249FFD51DD05"
@@ -403,9 +422,18 @@
 					xp: 100
 				}
 				{
+					count: 8
 					exclude_from_claim_all: true
-					id: "40FEB805CB84308C"
-					type: "loot"
+					id: "1AF5FAA2BD077645"
+					is_ender: false
+					is_team_reward: false
+					item: {
+						count: 1
+						id: "numismatics:spur"
+					}
+					target_addressee: "QuestNPC"
+					team_reward_multiplier: 1.0f
+					type: "contactquests:parcel"
 				}
 			]
 			shape: "gear"
@@ -414,8 +442,8 @@
 				item: { count: 1, id: "eccentrictome:tome" }
 				type: "item"
 			}]
-			x: 0.0d
-			y: -3.5d
+			x: -6.9d
+			y: -4.0d
 		}
 		{
 			dependencies: ["293AFFA188D96753"]
@@ -455,8 +483,8 @@
 				item: { components: { "ftbfiltersystem:filter": "or(item(contact:white_mailbox)item(contact:orange_mailbox)item(contact:magenta_mailbox)item(contact:light_blue_mailbox)item(contact:yellow_mailbox)item(contact:lime_mailbox)item(contact:pink_mailbox)item(contact:light_gray_mailbox)item(contact:gray_mailbox)item(contact:cyan_mailbox)item(contact:purple_mailbox)item(contact:blue_mailbox)item(contact:brown_mailbox)item(contact:green_mailbox)item(contact:red_mailbox)item(contact:black_mailbox))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
-			x: -2.25d
-			y: -0.75d
+			x: -2.7d
+			y: -5.3d
 		}
 		{
 			id: "4ABFB1778565B4B7"
@@ -487,8 +515,8 @@
 					type: "item"
 				}
 			]
-			x: 0.0d
-			y: -1.0d
+			x: -5.2d
+			y: -2.9d
 		}
 		{
 			id: "60D87516A5C5DDF5"
@@ -510,8 +538,8 @@
 				type: "stat"
 				value: 1
 			}]
-			x: 0.0d
-			y: -2.25d
+			x: -3.6d
+			y: -3.9d
 		}
 		{
 			id: "66B094500E40DA3D"
@@ -534,8 +562,8 @@
 				type: "stat"
 				value: 1
 			}]
-			x: 4.125d
-			y: -4.125d
+			x: 5.225d
+			y: -10.4d
 		}
 		{
 			id: "7A060F5C254439BC"
@@ -601,8 +629,8 @@
 				id: "35D1EC16F3A74C57"
 				type: "checkmark"
 			}]
-			x: -6.25d
-			y: -0.75d
+			x: -6.1d
+			y: -5.3d
 		}
 		{
 			always_invisible: true
@@ -636,8 +664,8 @@
 				type: "stat"
 				value: 50
 			}]
-			x: 2.5d
-			y: -1.5d
+			x: 3.6d
+			y: -7.775d
 		}
 		{
 			dependencies: ["66B094500E40DA3D"]
@@ -656,8 +684,8 @@
 				type: "stat"
 				value: 9999
 			}]
-			x: 6.0d
-			y: -1.5d
+			x: 7.1d
+			y: -7.775d
 		}
 		{
 			dependencies: ["3FAE926346F1E576"]
@@ -674,8 +702,8 @@
 				id: "7E4BBEB34174442D"
 				type: "advancement"
 			}]
-			x: 4.25d
-			y: -0.75d
+			x: 5.35d
+			y: -7.025d
 		}
 		{
 			id: "7232C9D413054886"
@@ -702,8 +730,8 @@
 				id: "474CE1AAC07815BD"
 				type: "checkmark"
 			}]
-			x: -6.25d
-			y: -2.5d
+			x: -7.7d
+			y: -5.3d
 		}
 		{
 			dependencies: ["66B094500E40DA3D"]
@@ -717,8 +745,8 @@
 				id: "3FB69B6E90475B69"
 				type: "checkmark"
 			}]
-			x: 6.25d
-			y: -3.5d
+			x: 7.35d
+			y: -9.775d
 		}
 	]
 }

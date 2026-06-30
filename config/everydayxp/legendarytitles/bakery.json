@@ -14,7 +14,7 @@
       }
     },
     "main/use_bread_on_wall_display": {
-      "display_name": "Showpiece Loaf",
+      "display_name": "Shows off Their Loaves",
       "original_name": "Showpiece Loaf",
       "enabled": true,
       "icon": "bakery:wall_display",
@@ -24,7 +24,7 @@
       }
     },
     "main/place_sign": {
-      "display_name": "Welcome to the Bakery",
+      "display_name": "Certified Baker",
       "original_name": "Welcome to the Bakery",
       "enabled": true,
       "icon": "bakery:street_sign",
@@ -34,7 +34,7 @@
       }
     },
     "main/place_cooking_pot": {
-      "display_name": "Tiny Treats: Crafting a Decorative Saucepan",
+      "display_name": "Saucy Individual",
       "original_name": "Tiny Treats: Crafting a Decorative Saucepan",
       "enabled": true,
       "icon": "bakery:small_cooking_pot",
@@ -44,7 +44,7 @@
       }
     },
     "main/cut_strawberry_cake": {
-      "display_name": "A Slice for Everyone",
+      "display_name": "Strawbebby",
       "original_name": "A Slice for Everyone",
       "enabled": true,
       "icon": "bakery:strawberry_cake",
@@ -54,7 +54,7 @@
       }
     },
     "main/eat_sandwich": {
-      "display_name": "Snack Attack",
+      "display_name": "Sandwich Enjoyer",
       "original_name": "Snack Attack",
       "enabled": true,
       "icon": "bakery:sandwich",
@@ -64,7 +64,7 @@
       }
     },
     "main/place_bread_crate": {
-      "display_name": "Bread Feast",
+      "display_name": "Gets This Bread",
       "original_name": "Bread Feast",
       "enabled": true,
       "icon": "bakery:bread_crate",
@@ -74,7 +74,7 @@
       }
     },
     "main/get_yeast": {
-      "display_name": "Yeast of your worries, doughn\u0027t worry, be happy!",
+      "display_name": "Rises When Warm",
       "original_name": "Yeast of your worries, doughn\u0027t worry, be happy!",
       "enabled": true,
       "icon": "farm_and_charm:yeast",
@@ -84,7 +84,7 @@
       }
     },
     "main/get_everything": {
-      "display_name": "What a Long, Strange Trip It\u0027s Been",
+      "display_name": "Ultimate Pastry Expert",
       "original_name": "What a Long, Strange Trip It\u0027s Been",
       "enabled": true,
       "icon": "bakery:bundt_cake",
@@ -94,7 +94,7 @@
       }
     },
     "main/get_all_jams": {
-      "display_name": "Special Preserves",
+      "display_name": "Preservationist",
       "original_name": "Special Preserves",
       "enabled": true,
       "icon": "bakery:jar",
@@ -114,7 +114,7 @@
       }
     },
     "main/place_baker_station": {
-      "display_name": "Bake It Happen",
+      "display_name": "Fake it til you Bake it",
       "original_name": "Bake It Happen",
       "enabled": true,
       "icon": "bakery:baker_station",
@@ -144,7 +144,7 @@
       }
     },
     "main/eat_bread": {
-      "display_name": "Dive into Doughy Delights",
+      "display_name": "Doughy but Delightful",
       "original_name": "Dive into Doughy Delights",
       "enabled": true,
       "icon": "bakery:bread",
@@ -154,7 +154,7 @@
       }
     },
     "main/get_all_baked_goods": {
-      "display_name": "Bake \u0027Em All: Collect Every Treat!",
+      "display_name": "Little Treat Enjoyer",
       "original_name": "Bake \u0027Em All: Collect Every Treat!",
       "enabled": true,
       "icon": "bakery:crusty_bread",

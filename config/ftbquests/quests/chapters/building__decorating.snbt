@@ -5,6 +5,14 @@
 	filename: "building__decorating"
 	group: "6B4E114EC6CDE8EE"
 	id: "3E1D90FE6819501F"
+	images: [{
+		height: 20.0d
+		image: "enchanted_wilds:textures/questui/bookbgs/orange_book_lg.png"
+		rotation: 0.0d
+		width: 25.0d
+		x: -0.2d
+		y: 1.8d
+	}]
 	order_index: 2
 	quest_links: [ ]
 	quests: [

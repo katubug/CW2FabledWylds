@@ -4,7 +4,7 @@
   "mod_id": "animal_pen",
   "achievements": {
     "animal_pen/first_catch": {
-      "display_name": "First Catch",
+      "display_name": "Chicken Chaser",
       "original_name": "First Catch",
       "enabled": true,
       "icon": "animal_pen:animal_cage",
@@ -24,7 +24,7 @@
       }
     },
     "animal_pen/variant_change": {
-      "display_name": "New Look",
+      "display_name": "Must. Customize. Everything.",
       "original_name": "New Look",
       "enabled": true,
       "icon": "minecraft:map",
@@ -34,7 +34,7 @@
       }
     },
     "animal_pen/release": {
-      "display_name": "Set Free",
+      "display_name": "Free Bird",
       "original_name": "Set Free",
       "enabled": true,
       "icon": "minecraft:lead",

@@ -51,5 +51,18 @@
 			x: -0.25d
 			y: -2.25d
 		}
+		{
+			id: "54B176A22CBFD31F"
+			tasks: [{
+				icon: {
+					id: "delighto_flight:cloud"
+				}
+				id: "6F9F475D66C1EE83"
+				structure: "delighto_flight:cloud_island"
+				type: "structure"
+			}]
+			x: -4.0d
+			y: 0.1d
+		}
 	]
 }

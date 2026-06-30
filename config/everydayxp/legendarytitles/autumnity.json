@@ -4,7 +4,7 @@
   "mod_id": "autumnity",
   "achievements": {
     "husbandry/cure_foul_taste": {
-      "display_name": "Finally, Some Good Food",
+      "display_name": "Relieved Gourmand",
       "original_name": "Finally, Some Good Food",
       "enabled": true,
       "icon": "autumnity:foul_berries",
@@ -14,7 +14,7 @@
       }
     },
     "husbandry/sneaky_protection": {
-      "display_name": "Sneaky Protection",
+      "display_name": "Sneaky",
       "original_name": "Sneaky Protection",
       "enabled": true,
       "icon": "autumnity:snail_shell_chestplate",
@@ -24,7 +24,7 @@
       }
     },
     "husbandry/fungivore_diet": {
-      "display_name": "A Fungivore Diet",
+      "display_name": "Snail Feeder. Sneeder.",
       "original_name": "A Fungivore Diet",
       "enabled": true,
       "icon": "minecraft:crimson_fungus",

@@ -4,6 +4,98 @@
 	filename: "placeholder"
 	group: ""
 	id: "62C1B682C3F424A3"
+	images: [
+		{
+			height: 20.0d
+			image: "enchanted_wilds:textures/questui/bookbgslg/yellow_book_lg.png"
+			rotation: 0.0d
+			width: 25.0d
+			x: 17.4d
+			y: -18.2d
+		}
+		{
+			color: 9921281
+			height: 2.5d
+			image: "enchanted_wilds:textures/questui/titles/beginnings.png"
+			rotation: 0.0d
+			width: 9.0d
+			x: 12.4d
+			y: -24.1d
+		}
+		{
+			color: 2062755
+			height: 1.25d
+			image: "enchanted_wilds:textures/questui/subtitles/sketching.png"
+			rotation: 0.0d
+			width: 8.0d
+			x: 12.4d
+			y: -22.3d
+		}
+		{
+			color: 6321408
+			height: 1.25d
+			image: "enchanted_wilds:textures/questui/subtitles/gifts.png"
+			rotation: 0.0d
+			width: 8.0d
+			x: 12.2d
+			y: -21.3d
+		}
+		{
+			color: 16090880
+			height: 0.9d
+			image: "enchanted_wilds:textures/questui/flourishes/separator.png"
+			rotation: 0.0d
+			width: 8.0d
+			x: 12.3d
+			y: -20.4d
+		}
+		{
+			color: 12202242
+			height: 3.0d
+			image: "enchanted_wilds:textures/questui/flourishes/vert_separator.png"
+			rotation: 0.0d
+			width: 0.5d
+			x: 15.7d
+			y: -18.5d
+		}
+		{
+			color: 2017209
+			height: 1.25d
+			image: "enchanted_wilds:textures/questui/subtitles/sketching.png"
+			rotation: 0.0d
+			width: 8.0d
+			x: 11.8d
+			y: -19.2d
+		}
+		{
+			color: 11296702
+			height: 1.25d
+			image: "enchanted_wilds:textures/questui/subtitles/sketching.png"
+			rotation: 0.0d
+			width: 8.0d
+			x: 12.0d
+			y: -18.4d
+		}
+		{
+			color: 15962025
+			height: 1.25d
+			image: "enchanted_wilds:textures/questui/subtitles/sketching.png"
+			rotation: 0.0d
+			width: 8.0d
+			x: 12.1d
+			y: -17.4d
+		}
+		{
+			color: 9921281
+			height: 1.25d
+			image: "enchanted_wilds:textures/questui/subtitles/bakery.png"
+			order: 99
+			rotation: 0.0d
+			width: 8.0d
+			x: 12.5d
+			y: -16.3d
+		}
+	]
 	order_index: 0
 	quest_links: [ ]
 	quests: [
@@ -30,47 +122,6 @@
 			}]
 			x: 1.5d
 			y: -4.0d
-		}
-		{
-			id: "21AD64E594528F4D"
-			rewards: [{
-				id: "2843D4CF59F20071"
-				item: {
-					components: {
-						"ftbquests:missing_item": "prefab:item_house"
-					}
-					count: 1
-					id: "ftbquests:missing_item"
-				}
-				type: "item"
-			}]
-			tasks: [{
-				id: "76B325FD29C28A89"
-				type: "checkmark"
-			}]
-			x: 0.25d
-			y: -5.25d
-		}
-		{
-			id: "065DC59360A84A58"
-			rewards: [{
-				count: 3
-				id: "217A27BE7B881243"
-				item: {
-					components: {
-						"ftbquests:missing_item": "irons_rpg_tweaks:identification_scroll"
-					}
-					count: 1
-					id: "ftbquests:missing_item"
-				}
-				type: "item"
-			}]
-			tasks: [{
-				id: "7E81775B3B389373"
-				type: "checkmark"
-			}]
-			x: 2.5d
-			y: -6.0d
 		}
 		{
 			id: "3DFB7EF14F053582"
@@ -104,43 +155,6 @@
 			y: -2.5d
 		}
 		{
-			id: "54B176A22CBFD31F"
-			tasks: [{
-				icon: {
-					id: "delighto_flight:cloud"
-				}
-				id: "6F9F475D66C1EE83"
-				structure: "delighto_flight:cloud_island"
-				type: "structure"
-			}]
-			x: -1.75d
-			y: -5.0d
-		}
-		{
-			id: "77CCC4FD3E93E79C"
-			rewards: [{
-				id: "2A258AF7821E4415"
-				item: {
-					count: 1
-					id: "minecraft:brush"
-				}
-				type: "item"
-			}]
-			tasks: [{
-				icon: {
-					id: "minecraft:suspicious_gravel"
-				}
-				id: "081CB8C8D3170C0B"
-				observation_type: "block"
-				observe_type: 0
-				timer: 0L
-				to_observe: "minecraft:suspicious_gravel"
-				type: "observation"
-			}]
-			x: -0.75d
-			y: -7.75d
-		}
-		{
 			id: "3AC8C2A12201C798"
 			tasks: [{
 				advancement: "kubejs:photography/photographed_lich"
@@ -167,15 +181,13 @@
 			y: -8.75d
 		}
 		{
-			id: "53767CADAD8B20D3"
+			id: "12A73F1D8D2EF16A"
 			tasks: [{
-				id: "4801D0E3298B12F1"
-				points: false
-				type: "xp"
-				value: 9L
+				id: "5D78E66BA41E5B6A"
+				type: "checkmark"
 			}]
-			x: 3.5d
-			y: -9.25d
+			x: -2.2d
+			y: -11.2d
 		}
 	]
 }

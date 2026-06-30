@@ -8,6 +8,19 @@ event.create('solar_coin').maxStackSize(64).glow(true)
 event.create('arcane_coin').maxStackSize(64).glow(true)
 event.create('incandescent_coin').maxStackSize(16).glow(true)
 event.create('coin_wallet').maxStackSize(16).glow(true)
+event.create('cheeseburger').food(food => {
+    food
+      .nutrition(6)
+      .saturation(1)
+      })
+
+event.create('ultimate_cheeseburger').food(food => {
+    food
+      .nutrition(8)
+      .saturation(2) 
+      .removeEffect('minecraft:poison')
+      })
+
 	
 
 })

@@ -1,0 +1,13 @@
+{
+  "type": "meadow:cheese",
+  "bucket": {
+    "item": "meadow:wooden_buffalo_milk_bucket"
+  },
+  "ingredient": {
+    "item": "meadow:rennet"
+  },
+  "result": {
+    "id": "kubejs:buffalo_cheese_unripe",
+    "count": 1
+  }
+}

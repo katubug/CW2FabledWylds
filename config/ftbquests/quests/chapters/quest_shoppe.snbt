@@ -13,7 +13,7 @@
 	images: [
 		{
 			height: 20.0d
-			image: "enchanted_wilds:textures/questui/shopbg.png"
+			image: "enchanted_wilds:textures/questui/shop/shopbg.png"
 			rotation: 0.0d
 			width: 15.0d
 			x: 1.0d
@@ -21,7 +21,7 @@
 		}
 		{
 			height: 4.0d
-			image: "enchanted_wilds:textures/questui/shopbgframe.png"
+			image: "enchanted_wilds:textures/questui/shop/shopbgframe.png"
 			rotation: 0.0d
 			width: 6.0d
 			x: 1.0d
@@ -29,7 +29,7 @@
 		}
 		{
 			height: 4.0d
-			image: "enchanted_wilds:textures/questui/shopcauldrons.png"
+			image: "enchanted_wilds:textures/questui/shop/shopcauldrons.png"
 			rotation: 0.0d
 			width: 7.0d
 			x: 3.5d
@@ -57,36 +57,26 @@
 			y: -3.0d
 		}
 		{
-			id: "61B2DA287617D95B"
-			rewards: [{
-				id: "651BA9E2201E32E7"
-				item: {
-					count: 1
-					id: "exposure:color_film"
-				}
-				type: "item"
-			}]
-			tasks: [{
-				id: "38AEA5DF6C749E9F"
-				item: { count: 1, id: "kubejs:arcane_coin" }
-				type: "item"
-			}]
-			x: -0.75d
-			y: -3.5d
-		}
-		{
+			icon: {
+				id: "hexalia:small_cauldron"
+			}
 			id: "130C66471B8C8E27"
 			rewards: [{
-				id: "10A2C2DEDD802CCE"
+				exclude_from_claim_all: true
+				id: "593613448E10BD5C"
+				is_ender: false
+				is_team_reward: false
 				item: {
 					count: 1
 					id: "hexalia:small_cauldron"
 				}
-				type: "item"
+				target_addressee: "QuestNPC"
+				team_reward_multiplier: 1.0f
+				type: "contactquests:parcel"
 			}]
 			tasks: [{
-				id: "5911E7A9CDDF202E"
-				item: { count: 1, id: "hexalia:small_cauldron" }
+				id: "203A062C3205BBBE"
+				item: { count: 1, id: "numismatics:cog" }
 				type: "item"
 			}]
 			x: 1.5d
@@ -116,6 +106,99 @@
 				type: "item"
 			}]
 			x: 5.5d
+			y: 0.0d
+		}
+		{
+			icon: {
+				id: "cluttered:small_cauldron_set"
+			}
+			id: "7CB21D08253F62F6"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7A6F356B8EDBA2CE"
+				is_ender: false
+				is_team_reward: false
+				item: {
+					count: 1
+					id: "cluttered:small_cauldron_set"
+				}
+				target_addressee: "QuestNPC"
+				team_reward_multiplier: 1.0f
+				type: "contactquests:parcel"
+			}]
+			tasks: [{
+				count: 8L
+				id: "585CFA98356F3B3E"
+				item: { count: 1, id: "numismatics:spur" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 1.1d
+		}
+		{
+			id: "57B6789EE4B210E9"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "36DC30016FB87CF1"
+				is_ender: false
+				is_team_reward: false
+				item: {
+					count: 1
+					id: "moresnifferflowers:beroot_cauldron"
+				}
+				target_addressee: "QuestNPC"
+				team_reward_multiplier: 1.0f
+				type: "contactquests:parcel"
+			}]
+			tasks: [{
+				count: 5L
+				id: "6BF668A733CD9726"
+				item: { count: 1, id: "numismatics:cog" }
+				type: "item"
+			}]
+			x: 8.7d
+			y: 1.2d
+		}
+		{
+			icon: {
+				id: "reliquary:apothecary_cauldron"
+			}
+			id: "1D27E531CF01450E"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "21D487B4CDDF0F2D"
+					is_ender: false
+					is_team_reward: false
+					item: {
+						count: 1
+						id: "reliquary:apothecary_cauldron"
+					}
+					target_addressee: "QuestNPC"
+					team_reward_multiplier: 1.0f
+					type: "contactquests:parcel"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "47794F5F58B0CE7B"
+					is_ender: false
+					is_team_reward: false
+					item: {
+						count: 1
+						id: "reliquary:apothecary_mortar"
+					}
+					target_addressee: "QuestNPC"
+					team_reward_multiplier: 1.0f
+					type: "contactquests:parcel"
+				}
+			]
+			tasks: [{
+				count: 2L
+				id: "4ED4FF2EB746FA0B"
+				item: { count: 1, id: "numismatics:cog" }
+				type: "item"
+			}]
+			x: 3.4d
 			y: 0.0d
 		}
 	]
