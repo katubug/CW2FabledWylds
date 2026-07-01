@@ -1743,14 +1743,6 @@
 		}
 		{
 			id: "207C60DC8889AC0F"
-			rewards: [{
-				id: "18524BD8EB175CC4"
-				item: {
-					count: 1
-					id: "create:bar_of_chocolate"
-				}
-				type: "item"
-			}]
 			shape: "rsquare"
 			size: 2.0d
 			tasks: [
@@ -1765,19 +1757,17 @@
 					type: "item"
 				}
 			]
-			x: 38.0d
-			y: 35.5d
+			x: 25.6d
+			y: 35.6d
 		}
 		{
 			dependencies: ["4D65AA1353AA0E1D"]
 			id: "52D7D562012B3B7C"
 			rewards: [{
-				id: "4F446D725938C800"
-				item: {
-					count: 1
-					id: "bakery:cake_dough"
-				}
-				type: "item"
+				exclude_from_claim_all: true
+				id: "691D193A5189C9FD"
+				table_id: 5770973074849872376L
+				type: "random"
 			}]
 			shape: "hexagon"
 			tasks: [{
@@ -1785,30 +1775,34 @@
 				item: { count: 1, id: "bakery:cake_dough" }
 				type: "item"
 			}]
-			x: 41.0d
-			y: 37.5d
+			x: 30.3d
+			y: 35.6d
 		}
 		{
+			dependencies: ["4D65AA1353AA0E1D"]
 			id: "740C9D783E4018EC"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6C4257117DD1954A"
+				table_id: 6895470215093009548L
+				type: "random"
+			}]
 			tasks: [{
 				id: "04FA00A00A5587B5"
 				item: { count: 1, id: "bakery:sweet_dough" }
 				type: "item"
 			}]
-			x: 38.5d
-			y: 40.0d
+			x: 25.6d
+			y: 38.0d
 		}
 		{
-			dependencies: ["207C60DC8889AC0F"]
+			dependencies: ["338640D0D42E7EC4"]
 			id: "6E5DCE8167CB2932"
 			rewards: [{
-				count: 3
-				id: "023FEB112CF08CD4"
-				item: {
-					count: 1
-					id: "minecraft:egg"
-				}
-				type: "item"
+				exclude_from_claim_all: true
+				id: "5BBFA08CC707354F"
+				table_id: 6895470215093009548L
+				type: "random"
 			}]
 			shape: "hexagon"
 			tasks: [{
@@ -1816,19 +1810,17 @@
 				item: { count: 1, id: "bakery:chocolate_jam" }
 				type: "item"
 			}]
-			x: 40.0d
-			y: 35.5d
+			x: 28.7d
+			y: 38.8d
 		}
 		{
-			dependencies: ["207C60DC8889AC0F"]
+			dependencies: ["338640D0D42E7EC4"]
 			id: "124F16ECDD4B26A2"
 			rewards: [{
-				id: "074162C5E0BE02E1"
-				item: {
-					count: 1
-					id: "farm_and_charm:strawberry_tea"
-				}
-				type: "item"
+				exclude_from_claim_all: true
+				id: "662AD40291BD54E1"
+				table_id: 6895470215093009548L
+				type: "random"
 			}]
 			shape: "hexagon"
 			tasks: [{
@@ -1836,31 +1828,39 @@
 				item: { count: 1, id: "bakery:strawberry_jam" }
 				type: "item"
 			}]
-			x: 37.5d
-			y: 37.0d
+			x: 27.2d
+			y: 38.7d
 		}
 		{
 			dependencies: [
-				"740C9D783E4018EC"
 				"124F16ECDD4B26A2"
+				"740C9D783E4018EC"
 			]
 			id: "1BCBFB8A5AAE9E37"
-			rewards: [{
-				id: "171CB1572A0ACDB8"
-				item: {
-					count: 1
-					id: "mysticsbiomes:sweet_strawberry"
+			rewards: [
+				{
+					id: "171CB1572A0ACDB8"
+					item: {
+						count: 1
+						id: "mysticsbiomes:sweet_strawberry"
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					exclude_from_claim_all: true
+					id: "08681871FC0378BD"
+					table_id: 6895470215093009548L
+					type: "random"
+				}
+			]
 			shape: "hexagon"
 			tasks: [{
 				id: "1AEF518A7E511840"
 				item: { count: 1, id: "bakery:strawberry_cupcake" }
 				type: "item"
 			}]
-			x: 37.5d
-			y: 38.5d
+			x: 25.6d
+			y: 41.0d
 		}
 		{
 			dependencies: [
@@ -1869,13 +1869,10 @@
 			]
 			id: "5D37E0A2F297C49E"
 			rewards: [{
-				count: 2
-				id: "0270569DCD65A3E0"
-				item: {
-					count: 1
-					id: "bakery:chocolate_cake_slice"
-				}
-				type: "item"
+				exclude_from_claim_all: true
+				id: "641BDB2C202DFFC2"
+				table_id: 6895470215093009548L
+				type: "random"
 			}]
 			shape: "hexagon"
 			tasks: [{
@@ -1883,20 +1880,27 @@
 				item: { count: 1, id: "bakery:chocolate_cake" }
 				type: "item"
 			}]
-			x: 42.5d
-			y: 37.5d
+			x: 30.3d
+			y: 38.8d
 		}
 		{
-			dependencies: ["5D37E0A2F297C49E"]
 			id: "737B48AA3FE651BD"
-			rewards: [{
-				id: "1B03BFA8D7C37647"
-				item: {
-					count: 1
-					id: "minecraft:cake"
+			rewards: [
+				{
+					id: "1B03BFA8D7C37647"
+					item: {
+						count: 1
+						id: "minecraft:cake"
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					exclude_from_claim_all: true
+					id: "6284C695CAB550AC"
+					table_id: 7328857662613080212L
+					type: "random"
+				}
+			]
 			shape: "hexagon"
 			tasks: [
 				{
@@ -1920,18 +1924,8 @@
 					type: "item"
 				}
 			]
-			x: 42.5d
-			y: 39.0d
-		}
-		{
-			id: "0FF55F6D562796DA"
-			tasks: [{
-				id: "5A8D1D23B2445237"
-				item: { count: 1, id: "farm_and_charm:butter" }
-				type: "item"
-			}]
-			x: 12.8d
-			y: 13.7d
+			x: 28.0d
+			y: 41.5d
 		}
 		{
 			dependencies: ["6EFFB8ED37DC8A47"]
@@ -1956,20 +1950,18 @@
 			dependencies: ["207C60DC8889AC0F"]
 			id: "4D65AA1353AA0E1D"
 			rewards: [{
-				id: "7ED61C2225C57B86"
-				item: {
-					count: 1
-					id: "minecraft:apple"
-				}
-				type: "item"
+				exclude_from_claim_all: true
+				id: "1A0B7F099CB6BFB7"
+				table_id: 6895470215093009548L
+				type: "random"
 			}]
 			tasks: [{
 				id: "68DC207ADBC8566B"
 				item: { count: 1, id: "farm_and_charm:crafting_bowl" }
 				type: "item"
 			}]
-			x: 39.5d
-			y: 37.5d
+			x: 28.0d
+			y: 35.6d
 		}
 		{
 			id: "73DC7CDFA4B7E09A"
@@ -1988,15 +1980,16 @@
 				item: { count: 1, id: "bakery:wall_display" }
 				type: "item"
 			}]
-			x: 40.0d
-			y: 40.0d
+			x: 27.2d
+			y: 40.6d
 		}
 		{
 			id: "60E911F7FF96F190"
 			rewards: [{
 				exclude_from_claim_all: true
-				id: "75795A258B8B822B"
-				type: "choice"
+				id: "7C3C78784835B74D"
+				table_id: 6895470215093009548L
+				type: "random"
 			}]
 			shape: "hexagon"
 			tasks: [{
@@ -2004,8 +1997,8 @@
 				item: { count: 1, id: "bakery:cake_display" }
 				type: "item"
 			}]
-			x: 42.0d
-			y: 40.0d
+			x: 28.7d
+			y: 40.6d
 		}
 		{
 			dependencies: ["644439D23D454629"]
@@ -2115,6 +2108,66 @@
 			]
 			x: 7.5d
 			y: 1.5d
+		}
+		{
+			dependencies: ["207C60DC8889AC0F"]
+			id: "338640D0D42E7EC4"
+			tasks: [{
+				id: "297B9B29B5C35C13"
+				item: { count: 1, id: "farm_and_charm:cooking_pot" }
+				type: "item"
+			}]
+			x: 28.7d
+			y: 37.0d
+		}
+		{
+			id: "528CB844416DF0E7"
+			tasks: [{
+				advancement: "bakery:main/get_yeast"
+				criterion: ""
+				id: "1B1F1228EDFA892D"
+				type: "advancement"
+			}]
+			x: 12.3d
+			y: 26.0d
+		}
+		{
+			id: "064FD196C750D6DB"
+			tasks: [{
+				id: "1C58CD7EBA09C386"
+				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(c:flours/wheat)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 13.8d
+			y: 26.099999999999998d
+		}
+		{
+			id: "12EF12DE3866DA25"
+			tasks: [{
+				id: "42497F16D74CB8FF"
+				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(c:butter)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 12.3d
+			y: 28.0d
+		}
+		{
+			dependencies: ["5D37E0A2F297C49E"]
+			id: "50E72CE5ED450E23"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "36FDABDE0AA55D89"
+				table_id: 6895470215093009548L
+				type: "random"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "20EB4FF98B4C6BC1"
+				item: { count: 1, id: "bakery:chocolate_gateau" }
+				type: "item"
+			}]
+			x: 30.3d
+			y: 40.6d
 		}
 	]
 }

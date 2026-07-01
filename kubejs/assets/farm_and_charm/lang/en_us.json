@@ -3,5 +3,7 @@
     "advancement.farm_and_charm.place_stove.desc": "Place a Oven",
     "block.farm_and_charm.stove": "Oven",
     "rei.farm_and_charm.stove_category": "Oven",
-    "sound.farm_and_charm.stove_crackling": "Crackling Oven"
+    "sound.farm_and_charm.stove_crackling": "Crackling Oven",
+  "advancement.farm_and_charm.place_cooking_pot.desc": "Craft and Place a Simmer Pot",
+  "block.farm_and_charm.cooking_pot": "Simmer Pot"
 }

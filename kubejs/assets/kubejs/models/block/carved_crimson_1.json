@@ -8,12 +8,12 @@
     "cutout": {
       "render_type": "minecraft:cutout",
       "textures": {
-        "up": "kubejs:block/crimson_bg/carved_crimson_1_top",
-        "down": "kubejs:block/crimson_bg/carved_crimson_1_top",
-        "north": "kubejs:block/crimson_bg/carved_crimson_1_side_c",
-        "south": "kubejs:block/crimson_bg/carved_crimson_1_side_a",
-        "west":  "kubejs:block/crimson_bg/carved_crimson_1_side_d",
-        "east":  "kubejs:block/crimson_bg/carved_crimson_1_side_b"
+        "up": "kubejs:block/carved_crimson_1_top",
+        "down": "kubejs:block/carved_crimson_1_top",
+        "north": "kubejs:block/carved_crimson_1_side_c",
+        "south": "kubejs:block/carved_crimson_1_side_a",
+        "west":  "kubejs:block/carved_crimson_1_side_d",
+        "east":  "kubejs:block/carved_crimson_1_side_b"
       },
       "elements": [
         {

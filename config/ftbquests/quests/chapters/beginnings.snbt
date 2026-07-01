@@ -50,6 +50,14 @@
 			x: -4.8d
 			y: -6.6d
 		}
+		{
+			height: 5.0d
+			image: "enchanted_wilds:textures/questui/illustrations/house_icon.png"
+			rotation: 0.0d
+			width: 5.0d
+			x: -2.8d
+			y: -1.9d
+		}
 	]
 	order_index: 1
 	quest_links: [ ]
@@ -515,8 +523,8 @@
 					type: "item"
 				}
 			]
-			x: -5.2d
-			y: -2.9d
+			x: -7.2d
+			y: -2.5d
 		}
 		{
 			id: "60D87516A5C5DDF5"
@@ -538,8 +546,8 @@
 				type: "stat"
 				value: 1
 			}]
-			x: -3.6d
-			y: -3.9d
+			x: -5.2d
+			y: -4.2d
 		}
 		{
 			id: "66B094500E40DA3D"

@@ -136,20 +136,38 @@
 			y: 1.1d
 		}
 		{
+			icon: {
+				id: "moresnifferflowers:beroot_cauldron"
+			}
 			id: "57B6789EE4B210E9"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "36DC30016FB87CF1"
-				is_ender: false
-				is_team_reward: false
-				item: {
-					count: 1
-					id: "moresnifferflowers:beroot_cauldron"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "36DC30016FB87CF1"
+					is_ender: false
+					is_team_reward: false
+					item: {
+						count: 1
+						id: "moresnifferflowers:beroot_cauldron"
+					}
+					target_addressee: "QuestNPC"
+					team_reward_multiplier: 1.0f
+					type: "contactquests:parcel"
 				}
-				target_addressee: "QuestNPC"
-				team_reward_multiplier: 1.0f
-				type: "contactquests:parcel"
-			}]
+				{
+					exclude_from_claim_all: true
+					id: "1A431771CF8994BB"
+					is_ender: false
+					is_team_reward: false
+					item: {
+						count: 1
+						id: "moresnifferflowers:beroot_cook_book"
+					}
+					target_addressee: "QuestNPC"
+					team_reward_multiplier: 1.0f
+					type: "contactquests:parcel"
+				}
+			]
 			tasks: [{
 				count: 5L
 				id: "6BF668A733CD9726"
@@ -200,6 +218,136 @@
 			}]
 			x: 3.4d
 			y: 0.0d
+		}
+		{
+			icon: {
+				id: "farmersdelight:cooking_pot"
+			}
+			id: "55E84F0C46D17AF5"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "01266511BD2D5F90"
+				is_ender: false
+				is_team_reward: false
+				item: {
+					count: 1
+					id: "farmersdelight:cooking_pot"
+				}
+				target_addressee: "QuestNPC"
+				team_reward_multiplier: 1.0f
+				type: "contactquests:parcel"
+			}]
+			tasks: [{
+				id: "22737DDFE468AEFA"
+				item: { count: 1, id: "numismatics:cog" }
+				type: "item"
+			}]
+			x: 8.9d
+			y: -1.2d
+		}
+		{
+			icon: {
+				id: "farm_and_charm:cooking_pot"
+			}
+			id: "5D02706F32B44B08"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7F28518F4F5BFA67"
+				is_ender: false
+				is_team_reward: false
+				item: {
+					count: 1
+					id: "farm_and_charm:cooking_pot"
+				}
+				target_addressee: "QuestNPC"
+				team_reward_multiplier: 1.0f
+				type: "contactquests:parcel"
+			}]
+			tasks: [{
+				id: "3673156A4CAF57AD"
+				item: { count: 1, id: "numismatics:cog" }
+				type: "item"
+			}]
+			x: 10.0d
+			y: -1.2d
+		}
+		{
+			icon: {
+				id: "meadow:cookpot"
+			}
+			id: "49EE2D61A0D4D01C"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "341AE5A0696A449D"
+				is_ender: false
+				is_team_reward: false
+				item: {
+					count: 1
+					id: "meadow:cookpot"
+				}
+				target_addressee: "QuestNPC"
+				team_reward_multiplier: 1.0f
+				type: "contactquests:parcel"
+			}]
+			tasks: [{
+				id: "45E292B389497C96"
+				item: { count: 1, id: "numismatics:cog" }
+				type: "item"
+			}]
+			x: 11.1d
+			y: -1.2d
+		}
+		{
+			icon: {
+				id: "tanukidecor:diy_workbench"
+			}
+			id: "48DF3E80F98D8E72"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "41B1DEB39C6F69DA"
+				is_ender: false
+				is_team_reward: false
+				item: {
+					count: 1
+					id: "tanukidecor:diy_workbench"
+				}
+				target_addressee: "QuestNPC"
+				team_reward_multiplier: 1.0f
+				type: "contactquests:parcel"
+			}]
+			tasks: [{
+				id: "23D9B53AEBE94157"
+				item: { count: 1, id: "numismatics:cog" }
+				type: "item"
+			}]
+			x: 8.8d
+			y: -2.7d
+		}
+		{
+			icon: {
+				id: "hexerei:pestle_and_mortar"
+			}
+			id: "0B0B5160EA821956"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "727C5F156C5D60CD"
+				is_ender: false
+				is_team_reward: false
+				item: {
+					count: 1
+					id: "hexerei:pestle_and_mortar"
+				}
+				target_addressee: "QuestNPC"
+				team_reward_multiplier: 1.0f
+				type: "contactquests:parcel"
+			}]
+			tasks: [{
+				id: "4FAF70DA0C036B4A"
+				item: { count: 1, id: "numismatics:cog" }
+				type: "item"
+			}]
+			x: 8.8d
+			y: 3.7d
 		}
 	]
 }

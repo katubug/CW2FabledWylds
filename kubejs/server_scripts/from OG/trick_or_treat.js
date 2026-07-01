@@ -144,7 +144,7 @@ ItemEvents.entityInteracted('minecraft:bundle', event => {
                 }
                 if (subRng > 0.80 && subRng <= 0.90) {
                     player.tell("...treat! Here's some chocolate!")
-                    player.give('create:bar_of_chocolate')
+                    player.give('bakery:chocolate_truffle')
                     return
                 }
                 if (subRng > 0.90 && subRng <= 1.00) {

@@ -3,15 +3,15 @@
   "ingredients": [
     {
       "count": 1,
-      "id": "#c:silk_fibers"
+      "id": "hexalia:silk_fiber"
     },
     {
       "count": 1,
-      "id": "#c:needles"
+      "id": "seamsandstitches:needle"
     },
     {
       "count": 1,
-      "tag": "forge:rods/wooden"
+      "tag": "minecraft:stick"
     }
   ],
   "power": 0,

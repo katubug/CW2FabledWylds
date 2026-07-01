@@ -89,6 +89,20 @@ ServerEvents.tags('item', event => {
 		'hearthandharvest:goat_cheese_wheel'
 	)
 
+	//honey and syrup for dough
+	event.add('c:syrups',
+		'hearthandharvest:syrup_bottle',
+		'minecraft:honey_bottle'
+	)
+
+	//chocolate for pancakes
+	event.add('supplementaries:chocolate_bars',
+		'bakery:chocolate_truffle'
+	)
+	event.add('c:foods/chocolate',
+		'bakery:chocolate_truffle'
+	)
+
 	//Needles for spinning
 	event.add('c:needles',
 		'seamsandstitches:needle',

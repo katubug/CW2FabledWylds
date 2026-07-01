@@ -65,9 +65,9 @@
       "attribute": "minecraft:generic.armor",
       "slot": "legs",
       "poor": 0,
-      "well": 1,
-      "expert": 2,
-      "master": 3
+      "well": 5,
+      "expert": 6,
+      "master": 8
     }
   ]
 }

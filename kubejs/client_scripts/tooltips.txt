@@ -156,7 +156,6 @@ ItemEvents.modifyTooltips(event => {
 		'farmersrespite:yellow_tea_leaves',
 		'farm_and_charm:barley',
 		'farm_and_charm:butter',
-		'farm_and_charm:corn',
 		'farm_and_charm:lettuce',
 		'farm_and_charm:oat',
 		'farm_and_charm:strawberry',

@@ -734,6 +734,12 @@
 					type: "break_block"
 					value: 1L
 				}
+				{
+					block_item: { count: 1, id: "adorablehamsterpets:wild_cucumber_bush" }
+					id: "2B2D647BF242880B"
+					type: "break_block"
+					value: 1L
+				}
 			]
 			x: 1.5d
 			y: -1.25d

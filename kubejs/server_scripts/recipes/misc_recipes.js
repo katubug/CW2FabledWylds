@@ -1,7 +1,7 @@
 ServerEvents.recipes(event => {
 	// Filled Eccentric tome
 	//TODO: fix this!!
-	let tome = Item.of('eccentrictome:tome[eccentrictome:tome_data={books:{adorablehamsterpets:[{components:{"patchouli:book":"adorablehamsterpets:hamster_tips_guide_book"},count:1,id:"adorablehamsterpets:hamster_guide_book"}],ae2:[{count:1,id:"ae2:guide"}],animal_pen:[{components:{"patchouli:book":"animal_pen:guide_book"},count:1,id:"patchouli:guide_book"}],betterfishtanks:[{count:1,id:"betterfishtanks:guide_book"}],enchanted:[{components:{"modopedia:book":"enchanted:art_of_witchcraft"},count:1,id:"modopedia:book"}],ftbquests:[{count:1,id:"ftbquests:book"}],hexerei:[{components:{"hexerei:book":{book:"hexerei:book_of_shadows",bookmarks:[{color:"white",id:"",index:0},{color:"white",id:"",index:1},{color:"white",id:"",index:2},{color:"white",id:"",index:3},{color:"white",id:"",index:4},{color:"white",id:"",index:5},{color:"white",id:"",index:6},{color:"white",id:"",index:7},{color:"white",id:"",index:8},{color:"white",id:"",index:9},{color:"white",id:"",index:10},{color:"white",id:"",index:11},{color:"white",id:"",index:12},{color:"white",id:"",index:13},{color:"white",id:"",index:14},{color:"white",id:"",index:15},{color:"white",id:"",index:16},{color:"white",id:"",index:17},{color:"white",id:"",index:18},{color:"white",id:"",index:19}],chapter:0,opened:0b,page:0,uuid:[I;1646542990,-1228977079,-1949683201,-693716329]}},count:1,id:"hexerei:book_of_shadows"},{components:{"hexerei:book":{book:"hexerei:notebook",bookmarks:[{color:"white",id:"",index:0},{color:"white",id:"",index:1},{color:"white",id:"",index:2},{color:"white",id:"",index:3},{color:"white",id:"",index:4},{color:"white",id:"",index:5},{color:"white",id:"",index:6},{color:"white",id:"",index:7},{color:"white",id:"",index:8},{color:"white",id:"",index:9},{color:"white",id:"",index:10},{color:"white",id:"",index:11},{color:"white",id:"",index:12},{color:"white",id:"",index:13},{color:"white",id:"",index:14},{color:"white",id:"",index:15},{color:"white",id:"",index:16},{color:"white",id:"",index:17},{color:"white",id:"",index:18},{color:"white",id:"",index:19}],chapter:0,opened:0b,page:0,uuid:[I;1542975633,866796975,-1405809966,-67927855]}},count:1,id:"hexerei:notebook"}],solonion:[{count:1,id:"solonion:food_book"}],soulhome:[{count:1,id:"soulhome:guide"}],starcatcher:[{count:1,id:"starcatcher:starcatcher_guide"}],twilightdelight:[{components:{"patchouli:book":"twilightdelight:twilight_guide"},count:1,id:"patchouli:guide_book"}]},tome_id:"c2563271-c69f-4471-9a8e-aef43c5689af"}]')
+	let tome = 'minecraft:stick';
 	event.shapeless(
 		Item.of(tome),
 		[
@@ -111,7 +111,7 @@ ServerEvents.recipes(event => {
 			B: 'regions_unexplored:dropleaf'
 		})
 
-	/*
+	
 	    // Pipez Item Pipe
 	    event.shaped(
 	        Item.of('pipez:item_pipe', 16),
@@ -124,7 +124,7 @@ ServerEvents.recipes(event => {
 	            B: 'minecraft:redstone'
 	        }
 	    )
-	        */
+	        
 	
 	// Blast 1 iron ingot into 10 nuggets in a Blast Furnace: 
 	event.blasting('create:zinc_block', 'create:raw_zinc_block')
@@ -170,41 +170,6 @@ ServerEvents.recipes(event => {
 	)
 
 	event.smelting('hearthandharvest:syrup_bottle', 'autumnity:sap_bottle')
-
-	
-	//Turtle egg crate doesn't use tags
-	event.shapeless(
-		Item.of('hearthandharvest:turtle_egg_crate'),
-		[
-			'minecraft:turtle_egg',
-			'minecraft:turtle_egg',
-			'minecraft:turtle_egg',
-			'minecraft:turtle_egg',
-			'minecraft:turtle_egg',
-			'minecraft:turtle_egg',
-			'minecraft:turtle_egg',
-			'minecraft:turtle_egg',
-			'minecraft:turtle_egg'
-		]
-	)
-
-	
-
-	//Turtle egg crate doesn't use tags
-	event.shapeless(
-		Item.of('hearthandharvest:egg_crate'),
-		[
-			'minecraft:egg',
-			'minecraft:egg',
-			'minecraft:egg',
-			'minecraft:egg',
-			'minecraft:egg',
-			'minecraft:egg',
-			'minecraft:egg',
-			'minecraft:egg',
-			'minecraft:egg'
-		]
-	)
 
 	//Saddles
 

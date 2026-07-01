@@ -10,7 +10,9 @@
     { "item": "hexerei:infused_fabric" },
     { "item": "hexerei:infused_fabric" },
     { "item": "hexerei:infused_fabric" },
-    { "item": "hexerei:infused_fabric" }
+    { "item": "hexerei:infused_fabric" },
+    { "item": "crittersandcompanions:silk" },
+    { "item": "crittersandcompanions:silk" }
   ],
   "seams": [
     {
@@ -39,6 +41,14 @@
   "quality_bonuses": [
     {
       "attribute": "minecraft:generic.armor",
+      "slot": "head",
+      "poor": 0,
+      "well": 3,
+      "expert": 4,
+      "master": 6
+    },
+    {
+      "attribute": "minecraft:generic.armor_toughness",
       "slot": "head",
       "poor": 0,
       "well": 1,

@@ -2,20 +2,20 @@
   "type": "farm_and_charm:crafting_bowl",
   "ingredients": [
     {
-      "item": "farm_and_charm:flour"
+      "tag": "c:flours/wheat"
     },
     {
-      "item": "minecraft:sugar"
+      "tag": "c:syrups"
     },
     {
-      "tag": "bakery:eggs"
+      "tag": "c:cooking_eggs"
     },
     {
-      "tag": "bakery:water_bottles"
+      "tag": "c:water_bottles"
     }
   ],
   "result": {
     "id": "bakery:sweet_dough",
-    "count": 12
+    "count": 4
   }
 }

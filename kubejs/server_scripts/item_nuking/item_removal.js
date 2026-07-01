@@ -1,0 +1,182 @@
+// This script is to completely remove certain items from the game.
+
+let toRemove = [
+    'adorablehamsterpets:cheese',
+    'ae2:certus_quartz_wrench',
+    'ae2:nether_quartz_wrench',
+    'architects_palette:hazard_block',
+    'architects_palette:hazard_sign',
+    'architects_palette:hazard_slab',
+    'architects_palette:hazard_vertical_slab',
+    'architects_palette:hazard_wall',
+    'autumnity:syrup_bottle',
+    'create:dough',
+    'crittersandcompanions:diamond_dragonfly_armor',
+    'crittersandcompanions:gold_dragonfly_armor',
+    'crittersandcompanions:iron_dragonfly_armor',
+    'farm_and_charm:dough',
+    'farmersdelight:dog_food',
+    'farmersdelight:horse_feed',
+    'farmingforblockheads:feeding_trough',
+    'farmingforblockheads:fertilized_farmland_healthy',
+    'farmingforblockheads:fertilized_farmland_healthy_stable',
+    'farmingforblockheads:fertilized_farmland_rich',
+    'farmingforblockheads:fertilized_farmland_rich_stable',
+    'farmingforblockheads:fertilized_farmland_stable',
+    'farmingforblockheads:green_fertilizer',
+    'farmingforblockheads:red_fertilizer',
+    'farmingforblockheads:yellow_fertilizer',
+    'farm_and_charm:bacon',
+    'farm_and_charm:beetroot_bag',
+    'farm_and_charm:carrot_bag',
+    'farm_and_charm:chicken_parts',
+    'farm_and_charm:farmers_bread',
+    'farm_and_charm:fertilized_farmland',
+    'farm_and_charm:fertilized_soil',
+    'farm_and_charm:flour',
+    'farm_and_charm:lamb_ham',
+    'farm_and_charm:minced_beef',
+    'farm_and_charm:minced_beef',
+    'farm_and_charm:plow',
+    'farm_and_charm:potato_bag',
+    'farm_and_charm:raw_pasta',
+    'farm_and_charm:supply_cart',
+    'framedblocks:powered_framing_saw',
+    'functionalstorage:armory_cabinet',
+    'hearthandharvest:apple_crate',
+    'hearthandharvest:cherry',
+    'hearthandharvest:cherry_crate',
+    'hearthandharvest:chocolate_bar',
+    'create:bar_of_chocolate',
+    'hearthandharvest:glow_berry_crate',
+    'hearthandharvest:green_grape_crate',
+    'hearthandharvest:red_grape_crate',
+    'hearthandharvest:sweet_berry_crate',
+    'hexalia:mandrake_seeds',
+    'hexalia:mortar_and_pestle',
+    'hexerei:dowsing_rod',
+    'hexerei:milk_bottle',
+    'hexerei:milk_bottle',
+    'meadow:cheese_wheel',
+    'meadow:goat_cheese_block',
+    'meadow:piece_of_cheese',
+    'meadow:piece_of_cheese',
+    'meadow:piece_of_goat_cheese',
+    'meadow:piece_of_goat_cheese',
+    'moblassos:contract',
+    'moblassos:emerald_lasso',
+    'quark:cocoa_beans_sack',
+    'quark:golden_apple_crate',
+    'quark:golden_carrot_crate',
+    'quark:gunpowder_sack',
+    'quark:rope',
+    'reliquary:midas_touchstone',
+    'reliquary:pyromancer_staff',
+    'reliquary:rending_gale',
+    'reliquary:rod_of_lyssa',
+    'reliquary:zombie_heart',
+    'sophisticatedbackpacks:advanced_deposit_upgrade',
+    'sophisticatedbackpacks:advanced_filter_upgrade',
+    'sophisticatedbackpacks:advanced_pump_upgrade',
+    'sophisticatedbackpacks:advanced_void_upgrade',
+    'sophisticatedbackpacks:auto_smoking_upgrade',
+    'sophisticatedbackpacks:deposit_upgrade',
+    'sophisticatedbackpacks:filter_upgrade',
+    'sophisticatedbackpacks:inception_upgrade',
+    'sophisticatedbackpacks:pump_upgrade',
+    'sophisticatedbackpacks:smoking_upgrade',
+    'sophisticatedbackpacks:stack_upgrade_tier_2',
+    'sophisticatedbackpacks:stack_upgrade_tier_3',
+    'sophisticatedbackpacks:stack_upgrade_tier_4',
+    'sophisticatedbackpacks:void_upgrade',
+    'sophisticatedstorage:advanced_feeding_upgrade',
+    'sophisticatedstorage:diamond_shulker_box',
+    'sophisticatedstorage:feeding_upgrade',
+    'sophisticatedstorage:gold_shulker_box',
+    'sophisticatedstorage:iron_shulker_box',
+    'sophisticatedstorage:netherite_shulker_box',
+    'sophisticatedstorage:shulker_box',
+    'supplementaries:rope',
+    'tanukidecor:blue_rocket_lamp',
+    'tanukidecor:blue_science_pod',
+    'tanukidecor:green_rocket_lamp',
+    'tanukidecor:green_science_pod',
+    'tanukidecor:minimalist_bed',
+    'tanukidecor:minimalist_chair',
+    'tanukidecor:minimalist_clock',
+    'tanukidecor:minimalist_couch',
+    'tanukidecor:minimalist_dresser',
+    'tanukidecor:minimalist_lamp',
+    'tanukidecor:minimalist_mirror',
+    'tanukidecor:minimalist_small_table',
+    'tanukidecor:minimalist_stool',
+    'tanukidecor:minimalist_table',
+    'tanukidecor:minimalist_wardrobe',
+    'tanukidecor:neon_club_sign',
+    'tanukidecor:neon_diamond_sign',
+    'tanukidecor:neon_heart_sign',
+    'tanukidecor:neon_spade_sign',
+    'tanukidecor:orange_science_pod',
+    'tanukidecor:orange_science_pod',
+    'tanukidecor:pink_rocket_lamp',
+    'tanukidecor:purple_rocket_lamp',
+    'tanukidecor:red_rocket_lamp',
+    'tanukidecor:red_science_pod',
+    'tanukidecor:regal_armoire',
+    'tanukidecor:turquoise_rocket_lamp',
+    'tanukidecor:yellow_rocket_lamp',
+    'tide:fishing_journal',
+    'trailandtales_delight:cheese_slice',
+    'trailandtales_delight:cheese_wheel',
+    'trailandtales_delight:curd_block',
+    'unusual_furniture:danger_barrier',
+    'unusual_furniture:decorative_toolbox',
+    'unusual_furniture:emergency_fire_hydrant',
+    'unusual_furniture:fire_hydrant',
+    'unusual_furniture:road_works_barrier',
+    'unusual_furniture:trash',
+    'unusual_furniture:warning_barrier',
+    'unusual_furniture:wooden_barrier',
+    'create:wheat_flour',
+    'farm_and_charm:flour_bag',
+    'autumnity:syrup_bottle',
+    'quark:potato_crate',
+    'quark:beetroot_crate',
+    'quark:carrot_crate',
+    'farm_and_charm:flour_bag',
+    'farm_and_charm:corn',
+    'farm_and_charm:corn_bag',
+    'farm_and_charm:roasted_corn',
+    'create:bar_of_chocolate',
+
+];
+
+//remove them as chest loot
+LootJS.modifiers((event) => {
+
+    for (const remove of toRemove) {
+		event.addTableModifier(LootType.CHEST).removeLoot(remove)
+	}
+})
+
+//remove all tags from them
+ServerEvents.tags('item', event => {
+
+    for (const remove of toRemove) {
+        event.removeAllTagsFrom(remove);
+    } 
+
+})
+
+//remove their recipes
+ServerEvents.recipes(event => {
+
+    for (const remove of toRemove) {
+        event.remove({output: remove});
+    }
+
+    // Corn unification — hardcoded FAC corn recipes that can't be caught by output ID
+    event.remove({id: 'farm_and_charm:seeds_corn'});
+    event.remove({id: 'farm_and_charm:stove/roasted_corn'});
+
+})

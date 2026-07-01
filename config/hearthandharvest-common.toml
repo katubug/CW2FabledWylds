@@ -52,11 +52,11 @@ saltPlayerLickChance = 0.05
 #Max animals in a 10-block radius before the food trough stops triggering breeding.
 # Default: 16
 # Range: 1 ~ 256
-troughBreedingCap = 16
+troughBreedingCap = 1
 
 [manure]
 	#Drop manure after being fed
-	fedPoopEnabled = true
+	fedPoopEnabled = false
 	#Drop manure randomly over time
 	randomPoopEnabled = false
 	#1-in-N chance per second for random drop

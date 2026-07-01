@@ -33,9 +33,9 @@
       "attribute": "minecraft:generic.armor",
       "slot": "head",
       "poor": 0,
-      "well": 1,
-      "expert": 2,
-      "master": 3
+      "well": 2,
+      "expert": 3,
+      "master": 5
     }
   ]
 }

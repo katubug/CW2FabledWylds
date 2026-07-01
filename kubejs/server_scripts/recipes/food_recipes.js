@@ -1,6 +1,5 @@
 ServerEvents.recipes(event => {
 
-
 	//Cookpot Needed for Cooking Frame
 	event.shaped('meadow:cooking_frame', [
 		'SSS',
@@ -44,34 +43,6 @@ ServerEvents.recipes(event => {
 			'#c:flours/wheat',
 			'minecraft:water_bucket',
 			'farm_and_charm:yeast'
-		]
-	)
-
-	//Recipes Use Cheese ======================================================
-	
-	//==================================================================
-
-	//Dough conversion
-	event.shapeless(
-		Item.of('farmersdelight:wheat_dough'),
-		[
-			'farm_and_charm:dough'
-		]
-	)
-
-	//Dough conversion 2
-	event.shapeless(
-		Item.of('farmersdelight:wheat_dough'),
-		[
-			'create:dough'
-		]
-	)
-
-	//Raw Pasta conversion
-	event.shapeless(
-		Item.of('farmersdelight:raw_pasta'),
-		[
-			'farm_and_charm:raw_pasta'
 		]
 	)
 })

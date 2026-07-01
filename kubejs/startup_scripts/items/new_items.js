@@ -3,11 +3,6 @@ Platform.mods.kubejs.name = "Cottage Witch";
 
 StartupEvents.registry('item', event => {
 
-event.create('lunar_coin').maxStackSize(64).glow(true)
-event.create('solar_coin').maxStackSize(64).glow(true)
-event.create('arcane_coin').maxStackSize(64).glow(true)
-event.create('incandescent_coin').maxStackSize(16).glow(true)
-event.create('coin_wallet').maxStackSize(16).glow(true)
 event.create('cheeseburger').food(food => {
     food
       .nutrition(6)
