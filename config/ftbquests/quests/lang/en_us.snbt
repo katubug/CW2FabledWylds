@@ -3068,12 +3068,6 @@
 	quest.107BA5C3316495B4.quest_subtitle: "{count:1,id:\"hexalia:tree_resin\"}"
 	quest.107DAA531D26DBE1.quest_subtitle: "{count:1,id:\"minecraft:weathered_copper_bulb\"}"
 	quest.1080347C4569C1FB.quest_subtitle: "{count:1,id:\"twilightforest:mossy_towerwood\"}"
-	quest.108279F31289168F.quest_desc: [
-		"To &asafely collect &bHoney&r, normally one must &6place a &bCampfire&r beneath the &bHive&r to placate the &eBees&r inside. However, having such hot flames directly under your home can't be comfortable!"
-		""
-		"Consider this alternative: the &bBee Smoker&r gives off the same soothing smoke that a &bCampfire&r does, but without singeing your bee butts!"
-	]
-	quest.108279F31289168F.title: "Fireless Smoke"
 	quest.108470C9E0A27E9B.quest_subtitle: "{components:{\"minecraft:potion_contents\":{potion:\"hearthandharvest:strong_tempting_potion\"}},count:1,id:\"minecraft:tipped_arrow\"}"
 	quest.108585086DCFC00A.quest_subtitle: "{count:1,id:\"arts_and_crafts:brown_soapstone_brick_stairs\"}"
 	quest.1087229A780D1DF9.quest_subtitle: "{components:{\"sophisticatedstorage:wood_type\":\"cherry\"},count:1,id:\"sophisticatedstorage:limited_netherite_barrel_3\"}"
@@ -6033,13 +6027,6 @@
 	quest.1FEE346359F814B0.quest_subtitle: "{count:1,id:\"quark:music_disc_wind\"}"
 	quest.1FF16A220A4865F3.quest_subtitle: "{count:1,id:\"regions_unexplored:blue_magnolia_flowers\"}"
 	quest.1FF1A251C4320894.quest_subtitle: "{count:1,id:\"hearthandharvest:polished_salt_slab\"}"
-	quest.1FF3A036CE58CCC9.quest_desc: [
-		"You know what's the spice of life? Variety. And you know who loves spice? You guessed it - &ebees&r."
-		""
-		"Oh, that's not what you guessed?"
-		""
-		"Well, nevermind that. Collect one of each type of &bBeehive&r, and see how much your &eBees&r will appreciate it."
-	]
 	quest.1FF431D7240AED33.quest_subtitle: "{components:{\"minecraft:potion_contents\":{potion:\"minecraft:luck\"}},count:1,id:\"minecraft:lingering_potion\"}"
 	quest.1FF5687B3C9EE8D5.quest_subtitle: "{count:1,id:\"minecraft:orange_stained_glass\"}"
 	quest.1FF9B33961F76C50.quest_subtitle: "{components:{\"ae2:facade_item\":\"betternether:quartz_glass_white\"},count:1,id:\"ae2:facade\"}"
@@ -9489,8 +9476,6 @@
 	quest.313DBF3A73961724.quest_subtitle: "{count:1,id:\"farm_and_charm:stable_floor\"}"
 	quest.314119489D72E655.quest_subtitle: "{components:{\"ae2:facade_item\":\"betterend:lacugrove_stripped_log\"},count:1,id:\"ae2:facade\"}"
 	quest.31415B4750AA7E37.quest_subtitle: "{count:1,id:\"wilderflowers:hopeful_wildflowers\"}"
-	quest.314290463FBFB5DC.quest_desc: ["Using the &bPoppies&r you got from the last quest (or, if you've used those already, find two more), &ainteract with two adult &eBees&r so they make a bay-bee!"]
-	quest.314290463FBFB5DC.title: "Breed Two Bees"
 	quest.3142B546D052D0AD.quest_subtitle: "{count:1,id:\"unusual_furniture:acacia_bench\"}"
 	quest.3143277C77426BE7.quest_subtitle: "{count:1,id:\"quark:mangrove_post\"}"
 	quest.31456F1CE9656FC5.quest_subtitle: "{count:1,id:\"netherdepthsupgrade:wither_bonefish_bucket\"}"
@@ -10501,13 +10486,6 @@
 	quest.3674845A503BB7C0.quest_subtitle: "{components:{\"ae2:facade_item\":\"betterend:pythadendron_crafting_table\"},count:1,id:\"ae2:facade\"}"
 	quest.367AA54981B6B298.quest_subtitle: "{components:{\"ae2:facade_item\":\"minecraft:infested_chiseled_stone_bricks\"},count:1,id:\"ae2:facade\"}"
 	quest.367ADB6402C9D0D5.quest_subtitle: "{count:1,id:\"reliquary:serpent_staff\"}"
-	quest.367C23BE5CAEF485.quest_desc: [
-		"Although there are a veritable bounty of &bBeehives&r available to craft, there are some which are &aspecial&r! These ones show you when &anearly full&r, and when they are &acompletely full&r, it is easily visible from &aall directions&r."
-		""
-		"They are also the &aonly &bBeehives&a which can produce &bSpecial Honey types&r!"
-	]
-	quest.367C23BE5CAEF485.quest_subtitle: "oh, beehive, baby"
-	quest.367C23BE5CAEF485.title: "Special Beehives"
 	quest.367D5C9347785CCB.quest_subtitle: "{count:1,id:\"tide:coelacanth_bucket\"}"
 	quest.367D7A0735E63456.quest_subtitle: "{count:1,id:\"twilightdelight:tear_drink\"}"
 	quest.367D9E2AE7DF6CCE.quest_subtitle: "{count:1,id:\"quark:black_corundum_cluster\"}"
@@ -11894,20 +11872,6 @@
 		"&dThis quest is repeatable&r."
 	]
 	quest.3DFB7EF14F053582.title: "Mushroom Hat"
-	quest.3DFE68F9C3E72198.quest_desc: [
-		"Cool Honey comes from Blue Orchids, Dandelions Peonies and Pitcher Plants and cures Hunger."
-		""
-		"Warm Honey comes from Tulips and Roses and cures Weakness."
-		""
-		"Lively Honey comes from Oxeye Daisies, Lily of the Valley and Pink Petals and grants Regeneration."
-		""
-		"Spicy Honey comes from Cornflowers, Allium and Lilacs and cures Slowness."
-		""
-		"Bright Honey comes from Azure Bluets, Poppies, Sunflowers and Torchflowers and cures Blindness."
-		""
-		"Strange Honey comes from Wither Roses and cures Wither."
-	]
-	quest.3DFE68F9C3E72198.title: "Obtain All Honey Types"
 	quest.3DFF7E4D9C685471.quest_subtitle: "{components:{\"ae2:facade_item\":\"kubejs:carved_spruce_6\"},count:1,id:\"ae2:facade\"}"
 	quest.3E0086246DF60AAE.quest_subtitle: "{count:1,id:\"unusual_furniture:magenta_curtain\"}"
 	quest.3E00B21381E9B1F4.quest_subtitle: "{count:1,id:\"arts_and_crafts:white_plaster\"}"
@@ -11925,8 +11889,6 @@
 	quest.3E0ED99104A0F7BB.quest_subtitle: "{count:1,id:\"tflostblocks:mazestone_brick_wall\"}"
 	quest.3E10763081C0388E.quest_subtitle: "{components:{\"minecraft:stored_enchantments\":{levels:{\"wan_ancient_beasts:hunter_mark\":4}}},count:1,id:\"minecraft:enchanted_book\"}"
 	quest.3E147E91715CA8B2.quest_subtitle: "{count:1,id:\"dramaticdoors:tall_towerwood_door\"}"
-	quest.3E165F11BBE2D279.quest_desc: ["Find and pick up a &bPitcher Plant&r flower. These are obtained by cultivating &bPitcher Pods&r, which are &aobtained randomly from &eSniffers&r."]
-	quest.3E165F11BBE2D279.title: "Get a Pitcher Plant"
 	quest.3E174996C52591C4.quest_subtitle: "{count:1,id:\"meadow:stripped_pine_log\"}"
 	quest.3E17732A2D38EE88.quest_subtitle: "{count:1,id:\"regions_unexplored:larch_log\"}"
 	quest.3E1AB9EA9D0AF94E.quest_subtitle: "{count:1,id:\"mcwwindows:lime_curtain\"}"
@@ -17663,12 +17625,6 @@
 	quest.5B642442612234E8.quest_subtitle: "{count:1,id:\"decorativerailings:cherry_end_handrail_1\"}"
 	quest.5B67229A7567417D.quest_subtitle: "{components:{\"sophisticatedcore:accent_color\":-816214,\"sophisticatedcore:main_color\":-816214},count:1,id:\"sophisticatedstorage:limited_barrel_4\"}"
 	quest.5B67AD653F417D37.quest_subtitle: "{count:1,id:\"cluttered:havana_cabinet\"}"
-	quest.5B6C14BE4C6318DB.quest_desc: [
-		"The first step in &bBeekeeping&r is, naturally, to &afind some &eBees&r! They live in &bBee Nests&r, which spawn on the sides of trees, especially &bBirch&r."
-		""
-		"You can hold a wild &bFlower&r to get it to follow you! Be careful, though, as they can have quite a quick temper if you try to &abreak their nest&r, &atake their honey&r, or &ahurt them&r. One angry bee is rarely alone!"
-	]
-	quest.5B6C14BE4C6318DB.title: "Meet the Bee"
 	quest.5B6D7E511FED2E65.quest_subtitle: "{count:1,id:\"minecraft:lime_stained_glass_pane\"}"
 	quest.5B722717A7AB3858.quest_subtitle: "{components:{\"minecraft:potion_contents\":{custom_effects:[{duration:1500,id:\"minecraft:absorption\",\"neoforge:cures\":[\"protected_by_totem\",\"milk\"],show_icon:1b}]}},count:1,id:\"reliquary:splash_potion\"}"
 	quest.5B72DACF1334B20E.quest_subtitle: "{count:1,id:\"tanukidecor:green_pantry\"}"
@@ -19034,12 +18990,6 @@
 	quest.62A166131D277A26.quest_subtitle: "{count:1,id:\"minecraft:dark_prismarine_slab\"}"
 	quest.62A24C5C70FA459C.quest_subtitle: "{count:1,id:\"ae2:portable_item_cell_16k\"}"
 	quest.62A41E5547F7B73B.quest_subtitle: "{components:{\"minecraft:entity_data\":{id:\"minecraft:painting\",variant:\"mcwpaintings:swamp\"}},count:1,id:\"minecraft:painting\"}"
-	quest.62A4710B05D8A115.quest_desc: [
-		"&eBees&r gathering nectar from the same type of flower, or flowers that make the same flavor of honey, will give you a &bflavored honey&r when you collect it from the hive."
-		""
-		"Each flavor of honey will &acure poison&r, like regular honey, but will also &aeither cure a negative effect or grant a positive one&r!"
-	]
-	quest.62A4710B05D8A115.title: "Special Honeys"
 	quest.62A629E55667CDC9.quest_subtitle: "{components:{\"quark:tome_enchantments\":{levels:{\"minecraft:bane_of_arthropods\":5}}},count:1,id:\"quark:ancient_tome\"}"
 	quest.62A6D51AFA89569F.quest_subtitle: "{count:1,id:\"framedblocks:framed_one_way_window\"}"
 	quest.62A9B84B07DE042A.quest_subtitle: "{count:1,id:\"regions_unexplored:willow_branch\"}"
@@ -24619,7 +24569,6 @@
 	task.11A03582B84195D4.title: "Pin the Quest Categories"
 	task.130652635D0C4E6D.title: "Find the Dark Tower"
 	task.136E69B7BC1A6A0A.title: "Obtain a Mailbox"
-	task.13DC40E94F2961FA.title: "Unknown type: questsadditions:interaction"
 	task.140A0B01D0A736C0.title: "Jungle Temple"
 	task.16EAB0998323565B.title: "Activate a Waystone"
 	task.1C58CD7EBA09C386.title: "Any #c:flours/wheat"

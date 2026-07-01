@@ -7,20 +7,20 @@
 	id: "1E6C7DB3D27545CE"
 	images: [
 		{
-			height: 10.0d
-			image: "enchanted_wilds:textures/questui/bgfarming.png"
+			height: 20.0d
+			image: "enchanted_wilds:textures/questui/bookbgslg/yellow_book_lg.png"
 			rotation: 0.0d
-			width: 20.0d
-			x: 0.0d
-			y: 0.0d
+			width: 25.0d
+			x: 1.7763568394002505E-15d
+			y: 4.6000000000000005d
 		}
 		{
-			height: 10.0d
-			image: "enchanted_wilds:textures/questui/beekeepingbg.png"
+			height: 5.0d
+			image: "enchanted_wilds:textures/questui/illustrations/farm_icon.png"
 			rotation: 0.0d
-			width: 10.0d
-			x: 0.0d
-			y: 8.5d
+			width: 5.0d
+			x: 7.300000000000001d
+			y: 8.500000000000002d
 		}
 	]
 	order_index: 0
@@ -52,8 +52,8 @@
 				item: { components: { "ftbfiltersystem:filter": "or(item_tag(c:seeds)item_tag(neoforge:seeds))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
-			x: -2.5d
-			y: 0.5d
+			x: -7.299999999999999d
+			y: -0.19999999999999996d
 		}
 		{
 			dependencies: ["4930ECD60EA9ED8D"]
@@ -82,54 +82,8 @@
 				item: { components: { "ftbfiltersystem:filter": "or(item(farmersdelight:brown_mushroom_colony)item(farmersdelight:red_mushroom_colony))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
-			x: 3.5d
-			y: 3.0d
-		}
-		{
-			dependencies: ["4930ECD60EA9ED8D"]
-			id: "57B830324890E32C"
-			rewards: [
-				{
-					count: 3
-					id: "213B8B8FCA9F63AD"
-					item: {
-						count: 1
-						id: "farmersdelight:milk_bottle"
-					}
-					type: "item"
-				}
-				{
-					count: 3
-					id: "00DD6C79ABA69814"
-					item: {
-						count: 1
-						id: "minecraft:wheat"
-					}
-					type: "item"
-				}
-				{
-					count: 2
-					id: "4B4379A14669A7EC"
-					item: {
-						count: 1
-						id: "minecraft:sugar"
-					}
-					type: "item"
-				}
-				{
-					id: "0AECAF9A2986BEF2"
-					table_id: 7917666410282180869L
-					type: "choice"
-				}
-			]
-			shape: "hexagon"
-			tasks: [{
-				id: "2DD8FA7DB6BE126D"
-				item: { count: 1, id: "farmersdelight:pie_crust" }
-				type: "item"
-			}]
-			x: -4.0d
-			y: -2.5d
+			x: -2.5999999999999988d
+			y: 3.000000000000001d
 		}
 		{
 			dependencies: ["4930ECD60EA9ED8D"]
@@ -148,8 +102,8 @@
 				item: { count: 1, id: "farmersdelight:straw" }
 				type: "item"
 			}]
-			x: -4.5d
-			y: -1.0d
+			x: -8.2d
+			y: 2.2d
 		}
 		{
 			dependencies: ["3AE0F1C1159FBDDE"]
@@ -164,8 +118,8 @@
 				item: { count: 1, id: "farmersdelight:canvas" }
 				type: "item"
 			}]
-			x: -5.5d
-			y: -2.5d
+			x: -7.799999999999999d
+			y: 3.2d
 		}
 		{
 			dependencies: ["3AE0F1C1159FBDDE"]
@@ -184,8 +138,8 @@
 				item: { count: 1, id: "farmersdelight:rope" }
 				type: "item"
 			}]
-			x: -6.5d
-			y: -1.5d
+			x: -7.1999999999999975d
+			y: 2.4000000000000004d
 		}
 		{
 			dependencies: ["2CA80140F624D0AE"]
@@ -250,8 +204,8 @@
 					type: "item"
 				}
 			]
-			x: 4.5d
-			y: -0.5d
+			x: 7.400000000000002d
+			y: -1.2d
 		}
 		{
 			dependencies: [
@@ -319,8 +273,8 @@
 					type: "item"
 				}
 			]
-			x: 2.0d
-			y: 0.5d
+			x: -2.299999999999999d
+			y: 1.300000000000001d
 		}
 		{
 			dependencies: ["4930ECD60EA9ED8D"]
@@ -331,8 +285,8 @@
 				item: { count: 1, id: "supplementaries:planter" }
 				type: "item"
 			}]
-			x: -1.0d
-			y: 2.5d
+			x: -6.899999999999999d
+			y: 5.300000000000001d
 		}
 		{
 			dependencies: ["4930ECD60EA9ED8D"]
@@ -360,8 +314,8 @@
 				id: "689FF833D614619E"
 				type: "advancement"
 			}]
-			x: -2.5d
-			y: 3.0d
+			x: -4.799999999999999d
+			y: 5.9d
 		}
 		{
 			can_repeat: true
@@ -461,8 +415,8 @@
 					type: "item"
 				}
 			]
-			x: 1.5d
-			y: 3.0d
+			x: 7.200000000000001d
+			y: 4.000000000000001d
 		}
 		{
 			dependencies: ["2CA80140F624D0AE"]
@@ -512,8 +466,8 @@
 					type: "item"
 				}
 			]
-			x: 4.5d
-			y: 1.5d
+			x: 7.400000000000002d
+			y: 0.30000000000000004d
 		}
 		{
 			id: "60445E736AE3B5B4"
@@ -539,8 +493,8 @@
 				item: { count: 1, id: "mynethersdelight:letios_compost" }
 				type: "item"
 			}]
-			x: 0.5d
-			y: -2.25d
+			x: 5.700000000000001d
+			y: 6.300000000000001d
 		}
 		{
 			id: "7814F0DBA486B635"
@@ -552,29 +506,6 @@
 			}]
 			x: 0.0d
 			y: 3.5d
-		}
-		{
-			id: "1FF3A036CE58CCC9"
-			rewards: [{
-				id: "06C43E4BC09A8E53"
-				item: {
-					components: {
-						"ftbquests:missing_item": "plushies:bee_plushie"
-					}
-					count: 1
-					id: "ftbquests:missing_item"
-				}
-				type: "item"
-			}]
-			shape: "octagon"
-			tasks: [{
-				advancement: "friendsandfoes:husbandry/beehive"
-				criterion: ""
-				id: "28E5384ECA31D155"
-				type: "advancement"
-			}]
-			x: 2.0d
-			y: 8.5d
 		}
 		{
 			dependencies: ["2973338AB622C5D6"]
@@ -597,8 +528,8 @@
 				id: "2E7A316EBC2BA46A"
 				type: "checkmark"
 			}]
-			x: 6.5d
-			y: 2.0d
+			x: 8.2d
+			y: 1.4000000000000006d
 		}
 		{
 			dependencies: ["4930ECD60EA9ED8D"]
@@ -614,8 +545,8 @@
 				item: { count: 1, id: "farmingforblockheads:market" }
 				type: "item"
 			}]
-			x: -2.5d
-			y: -2.0d
+			x: -4.999999999999998d
+			y: -0.19999999999999996d
 		}
 		{
 			id: "2093240CD42882CF"
@@ -741,8 +672,8 @@
 					value: 1L
 				}
 			]
-			x: 1.5d
-			y: -1.25d
+			x: -1.799999999999999d
+			y: 1.1102230246251565E-15d
 		}
 		{
 			dependencies: ["2093240CD42882CF"]
@@ -765,156 +696,8 @@
 					type: "item"
 				}
 			]
-			x: 3.0d
-			y: -1.0d
-		}
-		{
-			dependencies: ["5B6C14BE4C6318DB"]
-			id: "367C23BE5CAEF485"
-			tasks: [{
-				id: "40F53CF44216CB1D"
-				item: { components: { "ftbfiltersystem:filter": "or(item(betterbeekeeping:mangrove_beehive)item(betterbeekeeping:cherry_beehive)item(betterbeekeeping:bamboo_beehive)item(betterbeekeeping:oak_beehive)item(betterbeekeeping:spruce_beehive)item(betterbeekeeping:birch_beehive)item(betterbeekeeping:dark_oak_beehive)item(betterbeekeeping:jungle_beehive)item(betterbeekeeping:acacia_beehive)item(betterbeekeeping:crimson_beehive)item(betterbeekeeping:warped_beehive))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
-				type: "item"
-			}]
-			x: -2.5d
-			y: 10.5d
-		}
-		{
-			id: "5B6C14BE4C6318DB"
-			rewards: [{
-				count: 2
-				id: "6B292DEE1A0CBBB8"
-				item: {
-					count: 1
-					id: "minecraft:poppy"
-				}
-				type: "item"
-			}]
-			shape: "rsquare"
-			size: 2.0d
-			tasks: [{
-				id: "42796DE5C53FA5B2"
-				observation_type: "block"
-				observe_type: 0
-				timer: 0L
-				to_observe: "minecraft:dirt"
-				type: "observation"
-			}]
-			x: -2.5d
-			y: 8.5d
-		}
-		{
-			dependencies: ["5B6C14BE4C6318DB"]
-			id: "3E165F11BBE2D279"
-			rewards: [{
-				count: 3
-				id: "1A8F4955C3741D02"
-				item: {
-					count: 1
-					id: "minecraft:pitcher_plant"
-				}
-				type: "item"
-			}]
-			tasks: [{
-				id: "1A2D130913A9C1AF"
-				item: { count: 1, id: "minecraft:pitcher_plant" }
-				type: "item"
-			}]
-			x: 0.0d
-			y: 7.0d
-		}
-		{
-			dependencies: ["5B6C14BE4C6318DB"]
-			id: "314290463FBFB5DC"
-			rewards: [{
-				id: "1ECF9D15936BBFF8"
-				item: {
-					count: 1
-					id: "plushie_buddies:plushie_bee"
-				}
-				type: "item"
-			}]
-			tasks: [{
-				id: "13DC40E94F2961FA"
-				type: "custom"
-			}]
-			x: 0.0d
-			y: 8.5d
-		}
-		{
-			id: "108279F31289168F"
-			rewards: [{
-				id: "1CC8E8234D3D32C6"
-				item: {
-					components: {
-						"ftbquests:missing_item": "betterbeekeeping:bee_smoker_block"
-					}
-					count: 1
-					id: "ftbquests:missing_item"
-				}
-				type: "item"
-			}]
-			tasks: [{
-				id: "1FC65AA1C43C8BC5"
-				item: { components: { "ftbquests:missing_item": "betterbeekeeping:bee_smoker_block" }, count: 1, id: "ftbquests:missing_item" }
-				type: "item"
-			}]
-			x: 2.0d
-			y: 7.0d
-		}
-		{
-			dependencies: ["62A4710B05D8A115"]
-			id: "3DFE68F9C3E72198"
-			tasks: [
-				{
-					id: "35B63FA143836CE9"
-					item: { count: 1, id: "minecraft:honey_bottle" }
-					type: "item"
-				}
-				{
-					id: "710B3F635AA28BA8"
-					item: { components: { "ftbquests:missing_item": "betterbeekeeping:spicy_honey_bottle" }, count: 1, id: "ftbquests:missing_item" }
-					type: "item"
-				}
-				{
-					id: "4E2F180CE1775870"
-					item: { components: { "ftbquests:missing_item": "betterbeekeeping:warm_honey_bottle" }, count: 1, id: "ftbquests:missing_item" }
-					type: "item"
-				}
-				{
-					id: "370F12EB6A2D600F"
-					item: { components: { "ftbquests:missing_item": "betterbeekeeping:bright_honey_bottle" }, count: 1, id: "ftbquests:missing_item" }
-					type: "item"
-				}
-				{
-					id: "23F0D30D21986032"
-					item: { }
-					type: "item"
-				}
-				{
-					id: "04799D02BF2B4161"
-					item: { components: { "ftbquests:missing_item": "betterbeekeeping:cool_honey_bottle" }, count: 1, id: "ftbquests:missing_item" }
-					type: "item"
-				}
-				{
-					id: "1A8F6A70E5E2747F"
-					item: { components: { "ftbquests:missing_item": "betterbeekeeping:strange_honey_bottle" }, count: 1, id: "ftbquests:missing_item" }
-					type: "item"
-				}
-			]
-			x: 2.0d
-			y: 10.5d
-		}
-		{
-			dependencies: ["367C23BE5CAEF485"]
-			id: "62A4710B05D8A115"
-			tasks: [{
-				id: "6DBE7FF532945876"
-				item: { components: { "ftbfiltersystem:filter": "or(item_tag(betterbeekeeping:honey_bottles))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
-				type: "item"
-			}]
-			x: 0.0d
-			y: 10.5d
+			x: -1.299999999999999d
+			y: -1.0999999999999985d
 		}
 		{
 			id: "0C66306B20F7844C"
@@ -965,8 +748,8 @@
 					type: "item"
 				}
 			]
-			x: 8.5d
-			y: 5.5d
+			x: 6.300000000000001d
+			y: 5.1000000000000005d
 		}
 		{
 			id: "0496A62983DE2ABB"
@@ -1007,8 +790,8 @@
 					type: "item"
 				}
 			]
-			x: 6.5d
-			y: 6.0d
+			x: 4.600000000000001d
+			y: 4.800000000000001d
 		}
 		{
 			id: "057C8372ED1CBDC0"
@@ -1059,8 +842,8 @@
 					type: "item"
 				}
 			]
-			x: 4.5d
-			y: 5.0d
+			x: 8.000000000000004d
+			y: 3.000000000000001d
 		}
 		{
 			id: "2A171EE16DA22152"
@@ -1081,8 +864,8 @@
 					type: "item"
 				}
 			]
-			x: 5.0d
-			y: 7.0d
+			x: 7.800000000000001d
+			y: 5.300000000000001d
 		}
 		{
 			id: "3E8BB82A228A4727"
@@ -1132,8 +915,8 @@
 					type: "item"
 				}
 			]
-			x: 6.5d
-			y: 8.0d
+			x: 4.700000000000001d
+			y: 3.4000000000000004d
 		}
 		{
 			id: "134ACEA76F0200AD"
@@ -1194,8 +977,8 @@
 					type: "item"
 				}
 			]
-			x: 8.0d
-			y: 7.0d
+			x: 6.000000000000002d
+			y: 3.2d
 		}
 	]
 }

@@ -2169,5 +2169,50 @@
 			x: 30.3d
 			y: 40.6d
 		}
+		{
+			id: "57B830324890E32C"
+			rewards: [
+				{
+					count: 3
+					id: "213B8B8FCA9F63AD"
+					item: {
+						count: 1
+						id: "farmersdelight:milk_bottle"
+					}
+					type: "item"
+				}
+				{
+					count: 3
+					id: "00DD6C79ABA69814"
+					item: {
+						count: 1
+						id: "minecraft:wheat"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "4B4379A14669A7EC"
+					item: {
+						count: 1
+						id: "minecraft:sugar"
+					}
+					type: "item"
+				}
+				{
+					id: "0AECAF9A2986BEF2"
+					table_id: 7917666410282180869L
+					type: "choice"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "2DD8FA7DB6BE126D"
+				item: { count: 1, id: "farmersdelight:pie_crust" }
+				type: "item"
+			}]
+			x: 3.8d
+			y: 21.1d
+		}
 	]
 }

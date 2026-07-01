@@ -492,6 +492,36 @@
         "attributes": {},
         "items": []
       }
+    },
+    "husbandry/funky_beats": {
+      "display_name": "Funky Beats",
+      "original_name": "Funky Beats",
+      "enabled": true,
+      "icon": "adorablehamsterpets:music_disc_blue_cheese",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "husbandry/symphonic_cheese": {
+      "display_name": "Symphonic Dairy",
+      "original_name": "Symphonic Dairy",
+      "enabled": true,
+      "icon": "adorablehamsterpets:music_disc_parmesan",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "husbandry/moist_tones": {
+      "display_name": "Moist Tones",
+      "original_name": "Moist Tones",
+      "enabled": true,
+      "icon": "adorablehamsterpets:music_disc_cheese",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
     }
   }
 }
