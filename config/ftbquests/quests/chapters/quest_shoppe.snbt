@@ -5,7 +5,7 @@
 	default_quest_shape: "diamond"
 	default_repeatable_quest: true
 	filename: "quest_shoppe"
-	group: ""
+	group: "4C9D8F0D37347858"
 	icon: {
 		id: "contact:envelope"
 	}
@@ -36,7 +36,7 @@
 			y: 0.25d
 		}
 	]
-	order_index: 1
+	order_index: 2
 	quest_links: [ ]
 	quests: [
 		{

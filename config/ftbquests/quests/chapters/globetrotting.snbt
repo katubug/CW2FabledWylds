@@ -4,6 +4,9 @@
 	default_quest_shape: ""
 	filename: "globetrotting"
 	group: "4E9968A53CD6CA57"
+	icon: {
+		id: "supplementaries:globe"
+	}
 	id: "5775D7E4FB7F551A"
 	images: [
 		{
@@ -497,7 +500,6 @@
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "0C54B78E7FBA5F0A"
-				table_id: 5036677739913042344L
 				type: "choice"
 			}]
 			shape: "octagon"
@@ -786,6 +788,16 @@
 			}]
 			x: 6.5d
 			y: -2.5d
+		}
+		{
+			id: "6414EFB17FFD56CB"
+			tasks: [{
+				id: "4BF1F8949B84899A"
+				structure: "ribbits:ribbit_village"
+				type: "structure"
+			}]
+			x: 9.8d
+			y: 5.2d
 		}
 	]
 }

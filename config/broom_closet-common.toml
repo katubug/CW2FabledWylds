@@ -1,0 +1,20 @@
+#Whether to log the dirt block on common setup
+logDirtBlock = true
+#A magic number
+# Default: 42
+# Range: > 0
+magicNumber = 42
+#What you want the introduction message to be for the magic number
+magicNumberIntroduction = "The magic number is... "
+#A list of items to log on common setup.
+items = ["minecraft:iron_ingot"]
+#How many continuous seconds an unidentified item must be worn (armor slots only) to auto-identify it.
+#Progress resets if the item is unequipped or swapped out -- it does not persist across a re-equip.
+# Default: 300
+# Range: > 1
+identificationWearTimeSeconds = 300
+#Whether pre-enchanted enchanted books found in loot are also obfuscated, in addition to gear.
+#Off by default -- obfuscation normally only applies to weapons/tools/armor found pre-enchanted.
+identificationObfuscateBooks = false
+#Enchantment IDs to exclude from identification tracking because they're not obtainable via loot in this pack.
+identificationExcludedEnchantments = []

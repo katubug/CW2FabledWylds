@@ -4,6 +4,9 @@
 	default_quest_shape: ""
 	filename: "farmers_delight"
 	group: "33A91E268D63CB12"
+	icon: {
+		id: "luckyswardrobe:farmer_hat"
+	}
 	id: "1E6C7DB3D27545CE"
 	images: [
 		{
@@ -15,6 +18,7 @@
 			y: 4.6000000000000005d
 		}
 		{
+			alpha: 225
 			height: 5.0d
 			image: "enchanted_wilds:textures/questui/illustrations/farm_icon.png"
 			rotation: 0.0d
@@ -336,7 +340,6 @@
 				{
 					exclude_from_claim_all: true
 					id: "5EFC02323DC65CA5"
-					table_id: 1739670786502713488L
 					type: "loot"
 				}
 				{

@@ -5,6 +5,13 @@
 	default_quest_shape: ""
 	filename: "the_bumblezone"
 	group: "4E9968A53CD6CA57"
+	icon: {
+		components: {
+			"!ftbquests:icon": { }
+			"ftbquests:entity_face": "minecraft:bee"
+		}
+		id: "ftbquests:custom_icon"
+	}
 	id: "5AD825CF5F17FD1D"
 	images: [{
 		height: 11.25d

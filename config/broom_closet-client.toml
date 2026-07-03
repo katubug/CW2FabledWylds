@@ -1,0 +1,24 @@
+#Whether to override FTB Quests' hardcoded icon tint, subtitle color, and formatting shortcode styling
+ftbStyling = true
+#Tint color for a quest icon's shape on the chapter map. FTB Quests hex format: #RRGGBB or #AARRGGBB
+questShapeTintColor = "#c7b287"
+#Tint color for a quest icon's background on the chapter map. FTB Quests hex format: #RRGGBB or #AARRGGBB
+questBackgroundTintColor = "#9f8d67"
+#Text color for a quest's subtitle. Hex format: #RRGGBB. Applies both in the opened-quest panel and in the quest's chapter-map tooltip.
+questSubtitleColor = "#AAAAAA"
+#Text color for a chapter's own subtitle, shown in its chapter-tab tooltip. Hex format: #RRGGBB
+chapterSubtitleColor = "#AAAAAA"
+#Border color around the currently-selected chapter tab. FTB Quests hex format: #RRGGBB or #AARRGGBB
+chapterSelectedBorderColor = "#C0AAAAAA"
+#Highlight color shown when hovering a non-selected chapter tab. FTB Quests hex format: #RRGGBB or #AARRGGBB
+chapterHoverHighlightColor = "#28FFFFFF"
+#Text color for an unidentified item's obfuscated enchantment tooltip lines. Applies to both
+#curses and normal enchantments alike -- while unidentified they render in this one color,
+#not vanilla's curse-red/normal-gray split. Hex format: #RRGGBB.
+unidentifiedColor = "#AAAAAA"
+#Remap or add FTB Quests text formatting shortcodes (e.g. &c). Each entry is "<letter>:#RRGGBB", for example "c:#FF0000".
+#Applies to any FTB Library-based screen (not just FTB Quests), since the shortcode parser is shared across the FTB mod family.
+#Defaults below reproduce FTB's own current colors for 0-9/a-f unchanged -- edit freely, or add unused letters as new codes.
+#DO NOT use letters k, l, m, n, o, r, or z here. Those are other formatting codes and should not be remapped.
+#[[IMPORTANT!! changes to this list only take effect after a full client restart (quitting and relaunching).]]
+codeRemaps = ["0:#000000", "1:#0000AA", "2:#00AA00", "3:#00AAAA", "4:#AA0000", "5:#AA00AA", "6:#FFAA00", "7:#AAAAAA", "8:#555555", "9:#5555FF", "a:#55FF55", "b:#55FFFF", "c:#FF5555", "d:#FF55FF", "e:#FFFF55", "f:#FFFFFF"]

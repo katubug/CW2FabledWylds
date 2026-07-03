@@ -4,6 +4,9 @@
 	default_quest_shape: ""
 	filename: "twilight_forest"
 	group: "4E9968A53CD6CA57"
+	icon: {
+		id: "twilightforest:magic_map_focus"
+	}
 	id: "23CEC5718927D582"
 	order_index: 5
 	quest_links: [ ]
@@ -571,7 +574,6 @@
 				{
 					exclude_from_claim_all: true
 					id: "28FEF8A4B3D9CF03"
-					table_id: 5036677739913042344L
 					type: "choice"
 				}
 			]

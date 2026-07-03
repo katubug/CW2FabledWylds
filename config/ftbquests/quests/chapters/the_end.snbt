@@ -4,6 +4,9 @@
 	default_quest_shape: ""
 	filename: "the_end"
 	group: "4E9968A53CD6CA57"
+	icon: {
+		id: "minecraft:dragon_head"
+	}
 	id: "5CD8650A590340E5"
 	images: [{
 		height: 10.0d

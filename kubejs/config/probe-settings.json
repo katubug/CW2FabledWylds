@@ -4,8 +4,6 @@
     "probejs.modHash": -7732770407472997379,
     "probejs.newGame": false,
     "probejs.hintsForLLM": true,
-    "probejs.fullScanMods": [
-        "tide",
-        "starcatcher"
-    ]
+    "probejs.fullScanMods": [],
+    "probejs.reset": true
 }

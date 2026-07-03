@@ -1,7 +1,7 @@
 {
 	id: "0E5322C3053EB983"
 	loot_size: 4
-	order_index: 12
+	order_index: 9
 	rewards: [
 		{ id: "17E4ED67542372F9", item: { count: 1, id: "create:electron_tube" } }
 		{

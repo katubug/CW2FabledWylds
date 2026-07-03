@@ -4,6 +4,13 @@
 	default_quest_shape: ""
 	filename: "wildlife"
 	group: "4E9968A53CD6CA57"
+	icon: {
+		components: {
+			"!ftbquests:icon": { }
+			"ftbquests:entity_face": "minecraft:fox"
+		}
+		id: "ftbquests:custom_icon"
+	}
 	id: "4DB925317B421272"
 	images: [
 		{
@@ -387,7 +394,6 @@
 				{
 					exclude_from_claim_all: true
 					id: "402204927BD6B243"
-					table_id: 5036677739913042344L
 					type: "choice"
 				}
 				{
@@ -2093,6 +2099,23 @@
 			}]
 			x: 11.0d
 			y: -4.75d
+		}
+		{
+			id: "5C59C06355C7DC77"
+			tasks: [
+				{
+					id: "4A4A4533400ED7D0"
+					item: { count: 1, id: "adorablehamsterpets:acorn_hat" }
+					type: "item"
+				}
+				{
+					id: "777DD40999ED2076"
+					item: { count: 1, id: "crittersandcompanions:acorn_hat" }
+					type: "item"
+				}
+			]
+			x: -6.9d
+			y: -10.1d
 		}
 	]
 }

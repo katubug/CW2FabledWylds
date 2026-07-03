@@ -4,6 +4,9 @@
 	default_quest_shape: ""
 	filename: "create"
 	group: "181D7A6A92948264"
+	icon: {
+		id: "create:large_cogwheel"
+	}
 	id: "19DEED79E2FA960E"
 	images: [{
 		height: 14.0625d

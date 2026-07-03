@@ -1,8 +1,13 @@
 {
+	always_invisible: true
+	autofocus_id: "3DFB7EF14F053582"
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "placeholder"
-	group: ""
+	group: "46B2C8E3F123941F"
+	icon: {
+		id: "minecraft:diamond"
+	}
 	id: "62C1B682C3F424A3"
 	images: [
 		{
@@ -95,6 +100,15 @@
 			x: 12.5d
 			y: -16.3d
 		}
+		{
+			alpha: 225
+			height: 5.0d
+			image: "enchanted_wilds:textures/questui/illustrations/fishing_icon.png"
+			rotation: 0.0d
+			width: 5.0d
+			x: 22.4d
+			y: -16.0d
+		}
 	]
 	order_index: 0
 	quest_links: [ ]
@@ -120,8 +134,8 @@
 				type: "stat"
 				value: 1
 			}]
-			x: 1.5d
-			y: -4.0d
+			x: 0.5d
+			y: -8.7d
 		}
 		{
 			id: "3DFB7EF14F053582"
@@ -151,8 +165,8 @@
 				id: "5D42AEB901AE8033"
 				type: "checkmark"
 			}]
-			x: -1.0d
-			y: -2.5d
+			x: -1.5d
+			y: -8.2d
 		}
 		{
 			id: "3AC8C2A12201C798"
@@ -188,6 +202,21 @@
 			}]
 			x: -2.2d
 			y: -11.2d
+		}
+		{
+			id: "7E9EE22FD2FC5B56"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "47406269FF4C500F"
+				table_id: 7737096167250795605L
+				type: "random"
+			}]
+			tasks: [{
+				id: "58938AAD0B7C8E23"
+				type: "custom"
+			}]
+			x: -0.7d
+			y: -12.6d
 		}
 	]
 }

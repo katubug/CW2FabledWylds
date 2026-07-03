@@ -1,7 +1,7 @@
 {
 	id: "232BC82EEB69EF30"
 	loot_size: 3
-	order_index: 21
+	order_index: 18
 	rewards: [
 		{ id: "48C8AFF2F4E11E67", item: { count: 1, id: "meadow:water_buffalo_spawn_egg" } }
 		{ id: "307811358C5AF16A", item: { count: 1, id: "mysticsbiomes:strawberry_cow_spawn_egg" } }

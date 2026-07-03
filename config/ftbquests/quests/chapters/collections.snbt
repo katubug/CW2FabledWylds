@@ -4,14 +4,18 @@
 	default_quest_shape: ""
 	filename: "collections"
 	group: "691BD44222F33F05"
+	icon: {
+		id: "hearthandharvest:fertilizer_bag"
+	}
 	id: "5A00BD04AD81F733"
 	images: [{
-		height: 7.0d
-		image: "enchanted_wilds:textures/questui/bgcollections.png"
+		height: 15.0d
+		image: "enchanted_wilds:textures/questui/bookbgs/pink_book.png"
+		order: -1
 		rotation: 0.0d
-		width: 11.0d
+		width: 20.0d
 		x: 0.0d
-		y: 0.0d
+		y: 1.3d
 	}]
 	order_index: 0
 	quest_links: [ ]
@@ -20,15 +24,16 @@
 			id: "7C3C2D24D60C6C1F"
 			rewards: [
 				{
-					id: "7C6BCDA400B6A367"
-					table_id: 5036677739913042344L
-					type: "choice"
-				}
-				{
 					exclude_from_claim_all: true
 					id: "630A1F56825F3D91"
 					table_id: 987967038148964353L
 					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0EF10B7D8D3CAA51"
+					table_id: 5167086515396975209L
+					type: "random"
 				}
 			]
 			shape: "hexagon"
@@ -51,11 +56,6 @@
 				{
 					id: "2FB8522D22913DCB"
 					item: { count: 1, id: "regions_unexplored:alpha_rose" }
-					type: "item"
-				}
-				{
-					id: "7233190C45E365BD"
-					item: { components: { "ftbquests:missing_item": "candlelight:rose" }, count: 1, id: "ftbquests:missing_item" }
 					type: "item"
 				}
 				{
@@ -114,16 +114,23 @@
 					type: "item"
 				}
 			]
-			x: -3.0d
-			y: -1.0d
+			x: -5.15d
+			y: -2.2d
 		}
 		{
 			id: "7E9C70F7B0CFD820"
-			rewards: [{
-				id: "4F13530A54DDB6CB"
-				table_id: 2068679807827730220L
-				type: "choice"
-			}]
+			rewards: [
+				{
+					id: "4F13530A54DDB6CB"
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "46DF311B5226DE81"
+					table_id: 5167086515396975209L
+					type: "random"
+				}
+			]
 			shape: "hexagon"
 			tasks: [
 				{
@@ -177,8 +184,8 @@
 					type: "item"
 				}
 			]
-			x: -2.5d
-			y: 0.0d
+			x: -4.65d
+			y: -1.2000000000000002d
 		}
 		{
 			id: "1FD157BDA5AF3BE9"
@@ -190,14 +197,9 @@
 				}
 				{
 					exclude_from_claim_all: true
-					id: "7DCECB41814CB556"
-					type: "choice"
-				}
-				{
-					exclude_from_claim_all: true
-					id: "2FC02539F2767A59"
-					table_id: 1739670786502713488L
-					type: "loot"
+					id: "43378353F78EB285"
+					table_id: 5167086515396975209L
+					type: "random"
 				}
 			]
 			shape: "hexagon"
@@ -313,15 +315,14 @@
 					type: "item"
 				}
 			]
-			x: 3.5d
-			y: 0.5d
+			x: 5.9d
+			y: 2.3d
 		}
 		{
 			id: "40BBDD8D814A55C1"
 			rewards: [
 				{
 					id: "157334951D384948"
-					table_id: 2068679807827730220L
 					type: "choice"
 				}
 				{
@@ -330,7 +331,14 @@
 					table_id: 987967038148964353L
 					type: "choice"
 				}
+				{
+					exclude_from_claim_all: true
+					id: "7B020CD441105B1D"
+					table_id: 5167086515396975209L
+					type: "random"
+				}
 			]
+			shape: "hexagon"
 			tasks: [
 				{
 					id: "6646480A0586896C"
@@ -368,17 +376,25 @@
 					type: "item"
 				}
 			]
-			x: -1.0d
-			y: -1.0d
+			x: -3.1500000000000004d
+			y: -2.2d
 		}
 		{
 			id: "56F3B965C1198BE9"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "42BF5C8C6250FDD8"
-				table_id: 987967038148964353L
-				type: "choice"
-			}]
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "42BF5C8C6250FDD8"
+					table_id: 987967038148964353L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "66DED242603107DB"
+					table_id: 5167086515396975209L
+					type: "random"
+				}
+			]
 			shape: "hexagon"
 			tasks: [
 				{
@@ -397,17 +413,26 @@
 					type: "item"
 				}
 			]
-			x: -1.5d
-			y: 0.0d
+			x: -3.6500000000000004d
+			y: -1.2000000000000002d
 		}
 		{
 			id: "5435D7182F5A0C8D"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "3DFED648E3730DCF"
-				table_id: 987967038148964353L
-				type: "choice"
-			}]
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "3DFED648E3730DCF"
+					table_id: 987967038148964353L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "00E1086A61C88FD9"
+					table_id: 5167086515396975209L
+					type: "random"
+				}
+			]
+			shape: "hexagon"
 			tasks: [
 				{
 					id: "6206FC8A6F656A11"
@@ -460,11 +485,6 @@
 					type: "item"
 				}
 				{
-					id: "2F60C2D1C13BF1DF"
-					item: { components: { "ftbquests:missing_item": "verdantvibes:lobelia" }, count: 1, id: "ftbquests:missing_item" }
-					type: "item"
-				}
-				{
 					id: "47B9B90CB9F18473"
 					item: { count: 1, id: "meadow:enzian" }
 					type: "item"
@@ -495,15 +515,14 @@
 					type: "item"
 				}
 			]
-			x: -2.0d
-			y: -1.0d
+			x: -4.15d
+			y: -2.2d
 		}
 		{
 			id: "290D8441BBC918A1"
 			rewards: [
 				{
 					id: "7DA76ECFC213F2E1"
-					table_id: 5036677739913042344L
 					type: "choice"
 				}
 				{
@@ -511,6 +530,12 @@
 					id: "4FF4BB30501FCB3D"
 					table_id: 987967038148964353L
 					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "168EFC37771A6494"
+					table_id: 5167086515396975209L
+					type: "random"
 				}
 			]
 			shape: "hexagon"
@@ -601,15 +626,14 @@
 					type: "item"
 				}
 			]
-			x: 0.0d
-			y: -1.0d
+			x: -2.1500000000000004d
+			y: -2.2d
 		}
 		{
 			id: "692725454B955B4C"
 			rewards: [
 				{
 					id: "74684E8AE902E936"
-					table_id: 5036677739913042344L
 					type: "choice"
 				}
 				{
@@ -618,7 +642,14 @@
 					table_id: 987967038148964353L
 					type: "choice"
 				}
+				{
+					exclude_from_claim_all: true
+					id: "66A75F80B1244514"
+					table_id: 5167086515396975209L
+					type: "random"
+				}
 			]
+			shape: "hexagon"
 			tasks: [
 				{
 					id: "654EEEC582199E27"
@@ -711,15 +742,14 @@
 					type: "item"
 				}
 			]
-			x: -3.75d
-			y: 1.0d
+			x: -5.7d
+			y: -1.2d
 		}
 		{
 			id: "04973320B5F27BD7"
 			rewards: [
 				{
 					id: "181F0311EA162994"
-					table_id: 5036677739913042344L
 					type: "choice"
 				}
 				{
@@ -727,6 +757,12 @@
 					id: "406DB8401AF9656E"
 					table_id: 987967038148964353L
 					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "18A7070FD971EA64"
+					table_id: 5167086515396975209L
+					type: "random"
 				}
 			]
 			shape: "hexagon"
@@ -822,25 +858,17 @@
 					type: "item"
 				}
 			]
-			x: -1.0d
-			y: 1.0d
+			x: -2.6d
+			y: -1.2d
 		}
 		{
 			id: "6B3AD3CDE8EC90F1"
-			rewards: [
-				{
-					exclude_from_claim_all: true
-					id: "54B1D653EA769025"
-					table_id: 5036677739913042344L
-					type: "choice"
-				}
-				{
-					exclude_from_claim_all: true
-					id: "31595828405A7D60"
-					table_id: 1739670786502713488L
-					type: "choice"
-				}
-			]
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7B1C167DD2407442"
+				table_id: 5167086515396975209L
+				type: "random"
+			}]
 			shape: "hexagon"
 			tasks: [
 				{
@@ -888,38 +916,63 @@
 					item: { count: 1, id: "regions_unexplored:tall_blue_bioshroom" }
 					type: "item"
 				}
+				{
+					id: "3D855B05419C574A"
+					item: { count: 1, id: "wetland_whimsy:aria_mushroom" }
+					type: "item"
+				}
+				{
+					id: "58D2FE9BBEDE1B52"
+					item: { count: 1, id: "betterend:chorus_mushroom_raw" }
+					type: "item"
+				}
+				{
+					id: "7C5DD558EF47FF87"
+					item: { count: 1, id: "betterend:bolux_mushroom" }
+					type: "item"
+				}
+				{
+					id: "7A7FE439B8FCC6F0"
+					item: { count: 1, id: "betterend:small_amaranita_mushroom" }
+					type: "item"
+				}
+				{
+					id: "2EE30ECAF1155835"
+					item: { count: 1, id: "betternether:orange_mushroom" }
+					type: "item"
+				}
+				{
+					id: "7F8AA70871C43200"
+					item: { count: 1, id: "betternether:hook_mushroom" }
+					type: "item"
+				}
+				{
+					id: "24D2CD4FC5ED7153"
+					item: { count: 1, id: "betternether:wall_mushroom_brown" }
+					type: "item"
+				}
+				{
+					id: "4AF8460BD17934B7"
+					item: { count: 1, id: "betternether:wall_mushroom_red" }
+					type: "item"
+				}
+				{
+					id: "5D3B51CE3A2AE567"
+					item: { count: 1, id: "wetland_whimsy:fellcap_mushroom" }
+					type: "item"
+				}
 			]
-			x: 3.0d
-			y: -0.5d
+			x: 5.4d
+			y: 1.3d
 		}
 		{
 			id: "3F5F93D7191952F9"
-			rewards: [
-				{
-					count: 3
-					id: "2095F78EF4981D37"
-					item: {
-						count: 1
-						id: "minecraft:player_head"
-					}
-					type: "item"
-				}
-				{
-					count: 3
-					id: "08A2D19DD8BCF367"
-					item: {
-						count: 1
-						id: "minecraft:player_head"
-					}
-					type: "item"
-				}
-				{
-					exclude_from_claim_all: true
-					id: "77B2E3B1C1FEEA55"
-					table_id: 987967038148964353L
-					type: "choice"
-				}
-			]
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3175F3B26083133C"
+				table_id: 7159471207534106979L
+				type: "random"
+			}]
 			shape: "hexagon"
 			tasks: [
 				{
@@ -1003,8 +1056,8 @@
 					type: "item"
 				}
 			]
-			x: 2.5d
-			y: 0.5d
+			x: 4.9d
+			y: 2.3d
 		}
 		{
 			id: "75AD4BD901CEA061"
@@ -1016,28 +1069,26 @@
 					type: "choice"
 				}
 				{
-					exclude_from_claim_all: true
-					id: "78D88788724EB26F"
-					type: "choice"
-				}
-				{
-					id: "5597B980A8925A17"
-					item: {
-						components: {
-							"ftbquests:missing_item": "perfectplushies:cat_plushie"
-						}
-						count: 1
-						id: "ftbquests:missing_item"
-					}
-					type: "item"
-				}
-				{
 					id: "1907D6F1B05B4AE8"
 					item: {
 						count: 1
 						id: "plushie_buddies:plushie_cat"
 					}
 					type: "item"
+				}
+				{
+					id: "4E5C23DFDC918034"
+					item: {
+						count: 1
+						id: "kubejs:witch_cat_plushie"
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0E1A8E23B4F6EC03"
+					table_id: 5167086515396975209L
+					type: "random"
 				}
 			]
 			shape: "octagon"
@@ -1047,8 +1098,8 @@
 				id: "1FA9C71585BE62EF"
 				type: "advancement"
 			}]
-			x: 2.0d
-			y: 1.5d
+			x: 4.4d
+			y: 3.3d
 		}
 		{
 			dependencies: [
@@ -1080,14 +1131,20 @@
 					table_id: 5525848455660196930L
 					type: "choice"
 				}
+				{
+					exclude_from_claim_all: true
+					id: "57B1619395D4052B"
+					table_id: 5167086515396975209L
+					type: "random"
+				}
 			]
 			shape: "gear"
 			tasks: [{
 				id: "3B66FE756544A418"
 				type: "checkmark"
 			}]
-			x: -2.0d
-			y: 1.0d
+			x: -3.8d
+			y: 2.4d
 		}
 		{
 			id: "401E8078C11F8919"
@@ -1104,6 +1161,12 @@
 					table_id: 7049021818423122779L
 					type: "choice"
 				}
+				{
+					exclude_from_claim_all: true
+					id: "29B772B7ABE4366E"
+					table_id: 5167086515396975209L
+					type: "random"
+				}
 			]
 			shape: "octagon"
 			tasks: [{
@@ -1112,8 +1175,8 @@
 				id: "4BF8DEAE7CD5ADB6"
 				type: "advancement"
 			}]
-			x: 1.0d
-			y: 1.5d
+			x: 3.4d
+			y: 3.3d
 		}
 		{
 			id: "3ADA19F1E7F84DD6"
@@ -1128,6 +1191,7 @@
 		}
 		{
 			id: "7DB8FFF48188EC9C"
+			shape: "hexagon"
 			tasks: [
 				{
 					id: "50C4BBE7A037617A"
@@ -1150,8 +1214,8 @@
 					type: "item"
 				}
 			]
-			x: -2.75d
-			y: 1.75d
+			x: 3.6d
+			y: 2.2d
 		}
 		{
 			id: "0191F41344B7250D"
@@ -1173,6 +1237,12 @@
 					id: "3B1A5ED949B876CF"
 					table_id: 1465218687757294420L
 					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2FA8861CD98C07F1"
+					table_id: 5167086515396975209L
+					type: "random"
 				}
 			]
 			shape: "hexagon"
@@ -1263,82 +1333,47 @@
 					type: "item"
 				}
 			]
-			x: 2.0d
-			y: -0.5d
+			x: 4.4d
+			y: 1.3d
 		}
 		{
 			id: "755902F379AFB989"
 			rewards: [{
 				exclude_from_claim_all: true
-				id: "200D6AD7AD4C585A"
-				table_id: 5036677739913042344L
-				type: "choice"
+				id: "6BBF980D24FA64BF"
+				table_id: 5167086515396975209L
+				type: "random"
 			}]
 			shape: "hexagon"
 			tasks: [
 				{
-					id: "3CF1FC94488992EC"
-					item: { count: 1, id: "quark:forgotten_hat" }
+					id: "78C96F7EB0D55344"
+					item: { count: 1, id: "hexerei:witch_helmet" }
 					type: "item"
 				}
 				{
-					id: "2A6EACC152673AB4"
-					item: { components: { "ftbquests:missing_item": "herbalbrews:witch_hat" }, count: 1, id: "ftbquests:missing_item" }
+					id: "49C8C7BD4DEE2DDD"
+					item: { count: 1, id: "luckyswardrobe:witch_hat" }
 					type: "item"
 				}
 				{
-					id: "6258AED11AE43ECF"
-					item: { components: { "ftbquests:missing_item": "herbalbrews:top_hat" }, count: 1, id: "ftbquests:missing_item" }
+					id: "036741C6E88C6A97"
+					item: { count: 1, id: "reliquary:witch_hat" }
 					type: "item"
 				}
 				{
-					id: "32C727D2D399D60B"
-					item: { components: { "ftbquests:missing_item": "candlelight:cooking_hat" }, count: 1, id: "ftbquests:missing_item" }
+					id: "7449CD6CC2F9393D"
+					item: { count: 1, id: "hexalia:bloomwrap_hat" }
 					type: "item"
 				}
 				{
-					id: "7273E1A2935D8663"
-					item: { components: { "ftbquests:missing_item": "wardrobe:cake_hat_helmet" }, count: 1, id: "ftbquests:missing_item" }
-					type: "item"
-				}
-				{
-					id: "100718F1E87582E4"
-					item: { components: { "ftbquests:missing_item": "wardrobe:book_hat" }, count: 1, id: "ftbquests:missing_item" }
-					type: "item"
-				}
-				{
-					id: "0BAF83AF31803B07"
-					item: { components: { "ftbquests:missing_item": "wardrobe:fletchers_hat_helmet" }, count: 1, id: "ftbquests:missing_item" }
-					type: "item"
-				}
-				{
-					id: "1E413E94F4097B83"
-					item: { components: { "ftbquests:missing_item": "wardrobe:farmers_hat_helmet" }, count: 1, id: "ftbquests:missing_item" }
-					type: "item"
-				}
-				{
-					id: "5C432E5D038015F1"
-					item: { components: { "ftbquests:missing_item": "wardrobe:hat_helmet" }, count: 1, id: "ftbquests:missing_item" }
-					type: "item"
-				}
-				{
-					id: "62C048A393916216"
-					item: { components: { "ftbquests:missing_item": "wardrobe:leather_top_hat_helmet" }, count: 1, id: "ftbquests:missing_item" }
-					type: "item"
-				}
-				{
-					id: "54FBADC4E2F64D42"
-					item: { components: { "ftbquests:missing_item": "wardrobe:fox_hat_helmet" }, count: 1, id: "ftbquests:missing_item" }
-					type: "item"
-				}
-				{
-					id: "54C44C09827B39E3"
-					item: { components: { "ftbquests:missing_item": "wardrobe:snow_fox_hat_helmet" }, count: 1, id: "ftbquests:missing_item" }
+					id: "09EECBB49CA23BA3"
+					item: { count: 1, id: "hexerei:mushroom_witch_hat" }
 					type: "item"
 				}
 			]
-			x: 2.5d
-			y: -1.5d
+			x: 4.9d
+			y: 0.3d
 		}
 		{
 			id: "0DC28A267878E6E1"
@@ -1350,15 +1385,9 @@
 				}
 				{
 					exclude_from_claim_all: true
-					id: "620EFA2C0BB17916"
-					table_id: 1739670786502713488L
-					type: "choice"
-				}
-				{
-					exclude_from_claim_all: true
-					id: "5901CB2EC9189419"
-					table_id: 1739670786502713488L
-					type: "choice"
+					id: "553228F329DE7C99"
+					table_id: 5167086515396975209L
+					type: "loot"
 				}
 			]
 			shape: "hexagon"
@@ -1559,8 +1588,8 @@
 					type: "item"
 				}
 			]
-			x: 3.0d
-			y: 1.5d
+			x: 5.4d
+			y: 3.3d
 		}
 	]
 }

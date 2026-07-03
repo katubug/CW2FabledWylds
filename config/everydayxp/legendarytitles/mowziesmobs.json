@@ -1,0 +1,167 @@
+{
+  "enabled": true,
+  "mod_name": "Mowzie\u0027s Mobs",
+  "mod_id": "mowziesmobs",
+  "achievements": {
+    "steal_ice_crystal": {
+      "display_name": "Big Brain™ Time",
+      "original_name": "Big Brain™ Time",
+      "enabled": true,
+      "icon": "minecraft:potion",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "suns_blessing": {
+      "display_name": "Heliomancer",
+      "original_name": "Heliomancer",
+      "enabled": true,
+      "icon": "mowziesmobs:grant_suns_blessing",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "kill_bluff": {
+      "display_name": "Called Your Bluff",
+      "original_name": "Called Your Bluff",
+      "enabled": true,
+      "icon": "mowziesmobs:bluff_rod",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "kill_umvuthana_raptor": {
+      "display_name": "Masquerade",
+      "original_name": "Masquerade",
+      "enabled": true,
+      "icon": "mowziesmobs:umvuthana_mask_fury",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "kill_grottol_silk_touch": {
+      "display_name": "You\u0027re Coming With Me",
+      "original_name": "You\u0027re Coming With Me",
+      "enabled": true,
+      "icon": "mowziesmobs:captured_grottol",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "kill_ferrous_wroughtnaut": {
+      "display_name": "Just a Flesh Wound",
+      "original_name": "Just a Flesh Wound",
+      "enabled": true,
+      "icon": "mowziesmobs:wrought_helmet",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "sculptor_challenge": {
+      "display_name": "You Must Believe",
+      "original_name": "You Must Believe",
+      "enabled": true,
+      "icon": "mowziesmobs:earthrend_gauntlet",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "kill_elokosa_howler": {
+      "display_name": "Gibbous Gibbons",
+      "original_name": "Gibbous Gibbons",
+      "enabled": true,
+      "icon": "mowziesmobs:elokosa_paw_full",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "sculptor_failure": {
+      "display_name": "No One Jumps for the Beef",
+      "original_name": "No One Jumps for the Beef",
+      "enabled": true,
+      "icon": "minecraft:beef",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "kill_umvuthi": {
+      "display_name": "Praise the Sun",
+      "original_name": "Praise the Sun",
+      "enabled": true,
+      "icon": "mowziesmobs:sol_visage",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "sneak_grove": {
+      "display_name": "Birds of a Feather",
+      "original_name": "Birds of a Feather",
+      "enabled": true,
+      "icon": "mowziesmobs:umvuthana_mask_fear",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "kill_naga": {
+      "display_name": "Wingin\u0027 It",
+      "original_name": "Wingin\u0027 It",
+      "enabled": true,
+      "icon": "mowziesmobs:naga_fang",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "kill_foliaath": {
+      "display_name": "Jennifer Dumped Me",
+      "original_name": "Jennifer Dumped Me",
+      "enabled": true,
+      "icon": "mowziesmobs:foliaath_seed",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "kill_grottol": {
+      "display_name": "You Monster...",
+      "original_name": "You Monster...",
+      "enabled": true,
+      "icon": "minecraft:diamond",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "kill_grottol_fortune": {
+      "display_name": "Double Or Nothing!",
+      "original_name": "Double Or Nothing!",
+      "enabled": true,
+      "icon": "minecraft:diamond_pickaxe",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "kill_frostmaw": {
+      "display_name": "Rude Awakening",
+      "original_name": "Rude Awakening",
+      "enabled": true,
+      "icon": "mowziesmobs:ice_crystal",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    }
+  }
+}

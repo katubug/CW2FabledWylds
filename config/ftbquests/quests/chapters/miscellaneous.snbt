@@ -4,6 +4,9 @@
 	default_quest_shape: ""
 	filename: "miscellaneous"
 	group: "691BD44222F33F05"
+	icon: {
+		id: "minecraft:red_mushroom"
+	}
 	id: "0F5FCDF7AD60349B"
 	images: [
 		{
@@ -36,19 +39,6 @@
 	quests: [
 		{
 			id: "00BDE15DD24045A6"
-			rewards: [
-				{
-					exclude_from_claim_all: true
-					id: "4BD6346A90078E9B"
-					table_id: 1739670786502713488L
-					type: "choice"
-				}
-				{
-					exclude_from_claim_all: true
-					id: "03E7C7EA0D3FA6C2"
-					type: "loot"
-				}
-			]
 			shape: "hexagon"
 			tasks: [{
 				id: "2B71420D0C290C59"
@@ -60,21 +50,14 @@
 		}
 		{
 			id: "2AD60B373912C5A4"
-			rewards: [
-				{
-					exclude_from_claim_all: true
-					id: "0A6CFBB3D1DD0E2C"
-					type: "choice"
+			rewards: [{
+				id: "7BB2F04536C0D59E"
+				item: {
+					count: 1
+					id: "supplementaries:cage"
 				}
-				{
-					id: "7BB2F04536C0D59E"
-					item: {
-						count: 1
-						id: "supplementaries:cage"
-					}
-					type: "item"
-				}
-			]
+				type: "item"
+			}]
 			shape: "hexagon"
 			tasks: [{
 				id: "69932938B19DB961"
@@ -86,25 +69,14 @@
 		}
 		{
 			id: "7DD918D36463CF71"
-			rewards: [
-				{
-					exclude_from_claim_all: true
-					id: "33D0F4658286711D"
-					table_id: 5036677739913042344L
-					type: "choice"
+			rewards: [{
+				id: "6A3798A1B647BAD6"
+				item: {
+					count: 1
+					id: "plushie_buddies:plushie_fox"
 				}
-				{
-					id: "102CFE028AB35D45"
-					item: {
-						components: {
-							"ftbquests:missing_item": "plushies:white_fox_plushie"
-						}
-						count: 1
-						id: "ftbquests:missing_item"
-					}
-					type: "item"
-				}
-			]
+				type: "item"
+			}]
 			shape: "octagon"
 			tasks: [{
 				advancement: "supplementaries:story/unenchanter"
@@ -255,8 +227,8 @@
 				to_observe: "goblintraders:goblin_trader"
 				type: "observation"
 			}]
-			x: 7.0d
-			y: -4.0d
+			x: 6.6d
+			y: -5.3d
 		}
 		{
 			id: "781003E78C236E0D"
@@ -502,24 +474,6 @@
 			y: 0.0d
 		}
 		{
-			id: "1DB7D51E15454923"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "6C0FB88D68341C28"
-				table_id: 5525848455660196930L
-				type: "choice"
-			}]
-			shape: "rsquare"
-			tasks: [{
-				id: "6D50A8D24F9FCF98"
-				stat: "minecraft:total_world_time"
-				type: "stat"
-				value: 999
-			}]
-			x: -3.0d
-			y: 7.5d
-		}
-		{
 			dependencies: ["70C4F17973F6492E"]
 			id: "5C5768D4346FD3FE"
 			rewards: [{
@@ -614,55 +568,6 @@
 			y: 5.5d
 		}
 		{
-			dependencies: ["70C4F17973F6492E"]
-			id: "4F7C97B20944FDB5"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "230848B75E85B7EF"
-				type: "choice"
-			}]
-			tasks: [{
-				icon: {
-					id: "minecraft:barrier"
-				}
-				id: "2DEEF63C17E2447C"
-				type: "custom"
-			}]
-			x: 6.5d
-			y: -5.5d
-		}
-		{
-			dependencies: ["70C4F17973F6492E"]
-			id: "39876C2DADDC64E1"
-			rewards: [{
-				id: "7862B917BD12A048"
-				item: {
-					components: {
-						"ftbquests:missing_item": "bountiful:decree"
-					}
-					count: 1
-					id: "ftbquests:missing_item"
-				}
-				type: "item"
-			}]
-			tasks: [{
-				icon: {
-					components: {
-						"ftbquests:missing_item": "bountiful:bountyboard"
-					}
-					id: "ftbquests:missing_item"
-				}
-				id: "6AEFA26A6FBCA0DB"
-				observation_type: "block"
-				observe_type: 0
-				timer: 0L
-				to_observe: "bountiful:bountyboard"
-				type: "observation"
-			}]
-			x: 2.0d
-			y: -4.0d
-		}
-		{
 			id: "257C8B9C7DBEEC23"
 			shape: "rsquare"
 			tasks: [{
@@ -672,35 +577,6 @@
 			}]
 			x: -1.5d
 			y: 7.5d
-		}
-		{
-			id: "225C97A6C4FC4652"
-			rewards: [
-				{
-					id: "2C886FD18BE61D65"
-					item: {
-						count: 1
-						id: "minecraft:beef"
-					}
-					type: "item"
-				}
-				{
-					id: "3A09079F084DD2AB"
-					item: {
-						count: 1
-						id: "minecraft:porkchop"
-					}
-					type: "item"
-				}
-			]
-			shape: "hexagon"
-			tasks: [{
-				id: "73748512473776F6"
-				item: { components: { "ftbquests:missing_item": "travelerscompass:travelerscompass" }, count: 1, id: "ftbquests:missing_item" }
-				type: "item"
-			}]
-			x: 1.0d
-			y: 3.5d
 		}
 		{
 			id: "6138C299ED7CE80C"
@@ -754,22 +630,6 @@
 			}]
 			x: 4.5d
 			y: -6.5d
-		}
-		{
-			id: "069DC32E95840336"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "4469F01C2F510F27"
-				type: "choice"
-			}]
-			shape: "hexagon"
-			tasks: [{
-				id: "7CC29D6C1F5B7B7A"
-				item: { components: { "ftbquests:missing_item": "trashcans:item_trash_can" }, count: 1, id: "ftbquests:missing_item" }
-				type: "item"
-			}]
-			x: 1.5d
-			y: 4.5d
 		}
 		{
 			id: "063A5C650B0846FF"
@@ -917,29 +777,6 @@
 			}]
 			x: 3.5d
 			y: 4.5d
-		}
-		{
-			dependencies: ["70C4F17973F6492E"]
-			id: "6EF0662A6493D818"
-			rewards: [{
-				id: "71CFF588AECD9697"
-				item: {
-					components: {
-						"ftbquests:missing_item": "bountiful:decree"
-					}
-					count: 1
-					id: "ftbquests:missing_item"
-				}
-				type: "item"
-			}]
-			shape: "hexagon"
-			tasks: [{
-				id: "0E59879C827FD9A9"
-				item: { components: { "ftbfiltersystem:filter": "or(item_tag(forge:plushies))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
-				type: "item"
-			}]
-			x: 4.5d
-			y: -2.0d
 		}
 		{
 			dependencies: ["5C5768D4346FD3FE"]

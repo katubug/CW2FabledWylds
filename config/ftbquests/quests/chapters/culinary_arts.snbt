@@ -4,6 +4,9 @@
 	default_quest_shape: ""
 	filename: "culinary_arts"
 	group: "33A91E268D63CB12"
+	icon: {
+		id: "farmersdelight:cooking_pot"
+	}
 	id: "305A3D4D3A205E4A"
 	images: [
 		{
@@ -29,14 +32,6 @@
 			width: 13.0d
 			x: 0.0d
 			y: 3.0d
-		}
-		{
-			height: 10.0d
-			image: "enchanted_wilds:textures/questui/bgenddelight.png"
-			rotation: 0.0d
-			width: 10.0d
-			x: 0.0d
-			y: 57.0d
 		}
 		{
 			height: 20.0d
@@ -82,6 +77,15 @@
 			width: 24.0d
 			x: 22.8d
 			y: 39.3d
+		}
+		{
+			alpha: 225
+			height: 5.0d
+			image: "enchanted_wilds:textures/questui/illustrations/bakery_icon.png"
+			rotation: 0.0d
+			width: 5.0d
+			x: 25.5d
+			y: 40.6d
 		}
 	]
 	order_index: 1
@@ -901,291 +905,6 @@
 			y: 5.25d
 		}
 		{
-			id: "4264920573ADC879"
-			rewards: [{
-				count: 3
-				id: "077F1BFE976B91C4"
-				item: {
-					components: {
-						"ftbquests:missing_item": "ends_delight:dragon_egg_shell"
-					}
-					count: 1
-					id: "ftbquests:missing_item"
-				}
-				type: "item"
-			}]
-			shape: "hexagon"
-			tasks: [{
-				id: "533CE3A0F90D92E6"
-				item: { components: { "ftbquests:missing_item": "ends_delight:non_hatchable_dragon_egg" }, count: 1, id: "ftbquests:missing_item" }
-				type: "item"
-			}]
-			x: -0.5d
-			y: 55.0d
-		}
-		{
-			id: "16ECF08D421359AC"
-			rewards: [
-				{
-					count: 3
-					id: "73BDB58110F0E9A8"
-					item: {
-						components: {
-							"ftbquests:missing_item": "ends_delight:chorus_succulent"
-						}
-						count: 1
-						id: "ftbquests:missing_item"
-					}
-					type: "item"
-				}
-				{
-					exclude_from_claim_all: true
-					id: "50A025BAEC58D43F"
-					type: "choice"
-				}
-			]
-			tasks: [{
-				id: "1EDE66F2AA094083"
-				item: { components: { "ftbquests:missing_item": "ends_delight:half_dragon_egg_shell" }, count: 1, id: "ftbquests:missing_item" }
-				type: "item"
-			}]
-			x: -0.5d
-			y: 57.0d
-		}
-		{
-			dependencies: ["16ECF08D421359AC"]
-			id: "10BD344DE9BF9D75"
-			rewards: [{
-				id: "7C9B1229AA7B77AB"
-				item: {
-					components: {
-						"ftbquests:missing_item": "ends_delight:dragon_meat_stew"
-					}
-					count: 1
-					id: "ftbquests:missing_item"
-				}
-				type: "item"
-			}]
-			shape: "hexagon"
-			tasks: [{
-				id: "344338EB1EF089CD"
-				item: { components: { "ftbquests:missing_item": "ends_delight:dragon_meat_stew_block" }, count: 1, id: "ftbquests:missing_item" }
-				type: "item"
-			}]
-			x: 2.0d
-			y: 56.5d
-		}
-		{
-			dependencies: ["16ECF08D421359AC"]
-			id: "43110B76D590F312"
-			rewards: [{
-				id: "10AA0AA0B0C4005F"
-				item: {
-					components: {
-						"ftbquests:missing_item": "ends_delight:steamed_dragon_egg"
-					}
-					count: 1
-					id: "ftbquests:missing_item"
-				}
-				type: "item"
-			}]
-			shape: "hexagon"
-			tasks: [{
-				id: "5A19395E94557321"
-				item: { }
-				type: "item"
-			}]
-			x: 1.0d
-			y: 58.0d
-		}
-		{
-			dependencies: ["16ECF08D421359AC"]
-			id: "25C3A6BEFE246C3A"
-			rewards: [
-				{
-					id: "39B5615A2FD2DC12"
-					item: {
-						components: {
-							"ftbquests:missing_item": "ends_delight:assorted_salad"
-						}
-						count: 1
-						id: "ftbquests:missing_item"
-					}
-					type: "item"
-				}
-				{
-					id: "6A8F38155FA4D447"
-					item: {
-						count: 1
-						id: "minecraft:player_head"
-					}
-					type: "item"
-				}
-			]
-			shape: "octagon"
-			tasks: [{
-				advancement: "ends_delight:get_assorted_salad"
-				criterion: ""
-				id: "5A3136C711223B37"
-				type: "advancement"
-			}]
-			x: -2.5d
-			y: 56.5d
-		}
-		{
-			dependencies: [
-				"43110B76D590F312"
-				"10BD344DE9BF9D75"
-			]
-			id: "224C1B2D30B8E7DF"
-			rewards: [{
-				id: "093972A8B8FC8B91"
-				item: {
-					count: 1
-					id: "minecraft:nether_star"
-				}
-				type: "item"
-			}]
-			shape: "octagon"
-			tasks: [{
-				advancement: "ends_delight:dragon_egg_shell_feast"
-				criterion: ""
-				id: "05A7CA3D3CBCBE10"
-				type: "advancement"
-			}]
-			x: 2.5d
-			y: 58.0d
-		}
-		{
-			id: "7CDFDA310DE2A4E4"
-			rewards: [{
-				id: "0165EAD200F02FA0"
-				item: {
-					components: {
-						"ftbquests:missing_item": "ends_delight:chorus_flower_tea"
-					}
-					count: 1
-					id: "ftbquests:missing_item"
-				}
-				type: "item"
-			}]
-			shape: "hexagon"
-			tasks: [{
-				id: "6A0AFA1484FD16DD"
-				item: { components: { "ftbquests:missing_item": "ends_delight:chorus_flower_tea" }, count: 1, id: "ftbquests:missing_item" }
-				type: "item"
-			}]
-			x: -0.5d
-			y: 60.0d
-		}
-		{
-			id: "456D45D35A596109"
-			rewards: [{
-				id: "291FE13121613BC8"
-				item: {
-					components: {
-						"ftbquests:missing_item": "ends_delight:stuffed_rice_cake"
-					}
-					count: 1
-					id: "ftbquests:missing_item"
-				}
-				type: "item"
-			}]
-			shape: "hexagon"
-			tasks: [{
-				id: "407BDB60875F34F5"
-				item: { components: { "ftbquests:missing_item": "ends_delight:stuffed_rice_cake" }, count: 1, id: "ftbquests:missing_item" }
-				type: "item"
-			}]
-			x: -2.0d
-			y: 59.0d
-		}
-		{
-			id: "6CA036FC470C17EA"
-			rewards: [{
-				id: "4754115A15498F8C"
-				item: {
-					components: {
-						"ftbquests:missing_item": "ends_delight:grilled_shulker_block"
-					}
-					count: 1
-					id: "ftbquests:missing_item"
-				}
-				type: "item"
-			}]
-			shape: "hexagon"
-			tasks: [{
-				id: "63995D2F0B5FC3F1"
-				item: { components: { "ftbquests:missing_item": "ends_delight:grilled_shulker_block" }, count: 1, id: "ftbquests:missing_item" }
-				type: "item"
-			}]
-			x: -2.5d
-			y: 60.0d
-		}
-		{
-			id: "482A2BB52514C35B"
-			rewards: [{
-				id: "7CD023621DC3250A"
-				item: {
-					count: 1
-					id: "minecraft:apple"
-				}
-				type: "item"
-			}]
-			shape: "hexagon"
-			tasks: [{
-				id: "6F26534C78596D5F"
-				item: { components: { "ftbquests:missing_item": "ends_delight:dragon_breath_and_chorus_soup" }, count: 1, id: "ftbquests:missing_item" }
-				type: "item"
-			}]
-			x: -1.0d
-			y: 59.0d
-		}
-		{
-			id: "28D201EE3AA699C2"
-			rewards: [{
-				id: "1B8581D84149BDFB"
-				item: {
-					components: {
-						"ftbquests:missing_item": "ends_delight:fried_dragon_egg"
-					}
-					count: 1
-					id: "ftbquests:missing_item"
-				}
-				type: "item"
-			}]
-			shape: "hexagon"
-			tasks: [{
-				id: "30E139E7631FCE09"
-				item: { components: { "ftbquests:missing_item": "ends_delight:liquid_dragon_egg" }, count: 1, id: "ftbquests:missing_item" }
-				type: "item"
-			}]
-			x: -1.5d
-			y: 60.0d
-		}
-		{
-			id: "7E256574E63296C9"
-			rewards: [{
-				id: "73BA3E043B4ADCF4"
-				item: {
-					components: {
-						"ftbquests:missing_item": "ends_delight:dragon_tooth"
-					}
-					count: 1
-					id: "ftbquests:missing_item"
-				}
-				type: "item"
-			}]
-			shape: "hexagon"
-			tasks: [{
-				id: "11717C3E575F3C33"
-				item: { components: { "ftbquests:missing_item": "ends_delight:dragon_tooth" }, count: 1, id: "ftbquests:missing_item" }
-				type: "item"
-			}]
-			x: 0.0d
-			y: 59.0d
-		}
-		{
 			id: "5D439CB08EE5A923"
 			shape: "hexagon"
 			tasks: [
@@ -1792,8 +1511,8 @@
 				item: { count: 1, id: "bakery:sweet_dough" }
 				type: "item"
 			}]
-			x: 25.6d
-			y: 38.0d
+			x: 25.5d
+			y: 37.1d
 		}
 		{
 			dependencies: ["338640D0D42E7EC4"]
@@ -1859,8 +1578,8 @@
 				item: { count: 1, id: "bakery:strawberry_cupcake" }
 				type: "item"
 			}]
-			x: 25.6d
-			y: 41.0d
+			x: 25.5d
+			y: 38.7d
 		}
 		{
 			dependencies: [
@@ -1924,7 +1643,7 @@
 					type: "item"
 				}
 			]
-			x: 28.0d
+			x: 28.7d
 			y: 41.5d
 		}
 		{
@@ -1980,8 +1699,8 @@
 				item: { count: 1, id: "bakery:wall_display" }
 				type: "item"
 			}]
-			x: 27.2d
-			y: 40.6d
+			x: 27.7d
+			y: 40.0d
 		}
 		{
 			id: "60E911F7FF96F190"
@@ -1997,8 +1716,8 @@
 				item: { count: 1, id: "bakery:cake_display" }
 				type: "item"
 			}]
-			x: 28.7d
-			y: 40.6d
+			x: 29.1d
+			y: 40.4d
 		}
 		{
 			dependencies: ["644439D23D454629"]

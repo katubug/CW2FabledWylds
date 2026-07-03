@@ -4,6 +4,14 @@
 	default_quest_shape: ""
 	filename: "brewing__enchanting"
 	group: "181D7A6A92948264"
+	icon: {
+		components: {
+			"minecraft:potion_contents": {
+				potion: "reanimal:quill"
+			}
+		}
+		id: "minecraft:potion"
+	}
 	id: "0B597438B33910F1"
 	images: [{
 		height: 15.0d

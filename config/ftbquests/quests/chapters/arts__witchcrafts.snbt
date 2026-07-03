@@ -4,7 +4,10 @@
 	default_min_width: 350
 	default_quest_shape: ""
 	filename: "arts__witchcrafts"
-	group: ""
+	group: "4C9D8F0D37347858"
+	icon: {
+		id: "xercapaint:item_palette"
+	}
 	id: "33D0BE0C8570F275"
 	images: [
 		{
@@ -61,7 +64,7 @@
 			y: 1.7d
 		}
 	]
-	order_index: 2
+	order_index: 0
 	quest_links: [ ]
 	quests: [
 		{
@@ -393,12 +396,12 @@
 			tasks: [
 				{
 					id: "7B262C8D6AC6299B"
-					item: { count: 1, id: "exposure_space:space_filter" }
+					item: { components: { "ftbquests:missing_item": "exposure_space:space_filter" }, count: 1, id: "ftbquests:missing_item" }
 					type: "item"
 				}
 				{
 					id: "30C63C970D83C65E"
-					item: { count: 1, id: "exposure_space:normal_telescopic_lens" }
+					item: { components: { "ftbquests:missing_item": "exposure_space:normal_telescopic_lens" }, count: 1, id: "ftbquests:missing_item" }
 					type: "item"
 				}
 			]
@@ -1135,8 +1138,8 @@
 					type: "item"
 				}
 			]
-			x: 6.1d
-			y: -8.8d
+			x: -5.2d
+			y: -8.2d
 		}
 		{
 			id: "0277F5496B204434"
@@ -1145,8 +1148,8 @@
 				item: { count: 1, id: "enchanted:spinning_wheel" }
 				type: "item"
 			}]
-			x: 7.9d
-			y: -8.7d
+			x: -3.7d
+			y: -7.9d
 		}
 	]
 	tags: ["bluequests"]

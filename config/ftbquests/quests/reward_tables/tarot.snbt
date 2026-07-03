@@ -1,7 +1,7 @@
 {
 	id: "0FD7EA5F255F8D85"
 	loot_size: 2
-	order_index: 20
+	order_index: 17
 	rewards: [
 		{ id: "255BE41ACD9A251E", item: { count: 1, id: "tarotcards:death" } }
 		{ id: "058E65DA67483B54", item: { count: 1, id: "tarotcards:wheel_of_fortune" } }

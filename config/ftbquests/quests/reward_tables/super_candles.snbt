@@ -1,7 +1,7 @@
 {
 	id: "145580A22A099B54"
 	loot_size: 1
-	order_index: 22
+	order_index: 19
 	rewards: [
 		{ id: "0007537609A6D354", item: { count: 1, id: "the_bumblezone:super_candle" } }
 		{ id: "2C901043BCCD10E3", item: { count: 1, id: "the_bumblezone:super_candle_white" } }

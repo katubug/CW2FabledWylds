@@ -77,7 +77,7 @@
 			rewards: [{
 				id: "2F283F7FB47A65D3"
 				type: "xp"
-				xp: 100
+				xp: 108
 			}]
 			shape: "gear"
 			size: 1.0d
@@ -90,6 +90,19 @@
 		}
 		{
 			id: "171D4EACF7B9F4D5"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "74D43587F0800BAC"
+					table_id: 6895470215093009548L
+					type: "random"
+				}
+				{
+					id: "798B932A28CC741C"
+					type: "xp"
+					xp: 102
+				}
+			]
 			shape: "gear"
 			tasks: [{
 				id: "4B25469609B1A60C"
@@ -102,9 +115,9 @@
 			id: "26D8EAD9D892805E"
 			min_width: 350
 			rewards: [{
-				id: "5DF31CEACA7283A2"
-				type: "xp_levels"
-				xp_levels: 5
+				id: "6067B009B70026DB"
+				type: "xp"
+				xp: 103
 			}]
 			shape: "gear"
 			size: 1.0d
@@ -128,9 +141,9 @@
 					type: "item"
 				}
 				{
-					id: "3101E5B37D3A9BB3"
-					type: "xp_levels"
-					xp_levels: 5
+					id: "2EE84A62783AFEB3"
+					type: "xp"
+					xp: 104
 				}
 			]
 			shape: "gear"
@@ -147,7 +160,7 @@
 			rewards: [{
 				id: "087C803B19537A4C"
 				type: "xp"
-				xp: 100
+				xp: 105
 			}]
 			shape: "gear"
 			size: 1.0d
@@ -164,7 +177,7 @@
 			rewards: [{
 				id: "5D9376B26A3CE85B"
 				type: "xp"
-				xp: 100
+				xp: 106
 			}]
 			shape: "gear"
 			tasks: [{
@@ -191,7 +204,7 @@
 			rewards: [{
 				id: "2CF6D804BF74D6B0"
 				type: "xp"
-				xp: 100
+				xp: 107
 			}]
 			shape: "gear"
 			size: 1.0d
@@ -207,7 +220,7 @@
 			rewards: [{
 				id: "1A85B933DFDA69B5"
 				type: "xp"
-				xp: 100
+				xp: 101
 			}]
 			shape: "gear"
 			tasks: [{

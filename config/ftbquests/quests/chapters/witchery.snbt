@@ -5,6 +5,9 @@
 	default_quest_shape: ""
 	filename: "witchery"
 	group: "181D7A6A92948264"
+	icon: {
+		id: "minecraft:cauldron"
+	}
 	id: "37F503706CE1D7D6"
 	order_index: 0
 	quest_links: [ ]

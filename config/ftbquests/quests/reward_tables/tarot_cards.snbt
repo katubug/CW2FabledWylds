@@ -1,7 +1,7 @@
 {
 	id: "64D3EABDB7F1510E"
 	loot_size: 1
-	order_index: 15
+	order_index: 12
 	rewards: [
 		{ id: "541BF51DF3D95E28", item: { count: 1, id: "tarotcards:death" } }
 		{ id: "4AB9F212956B0C8B", item: { count: 1, id: "tarotcards:judgement" } }

@@ -5,6 +5,9 @@
 	default_quest_shape: ""
 	filename: "beginnings"
 	group: "6B4E114EC6CDE8EE"
+	icon: {
+		id: "minecraft:grass_block"
+	}
 	id: "6D161680F9560DBA"
 	images: [
 		{
@@ -51,6 +54,7 @@
 			y: -6.6d
 		}
 		{
+			alpha: 225
 			height: 5.0d
 			image: "enchanted_wilds:textures/questui/illustrations/house_icon.png"
 			rotation: 0.0d

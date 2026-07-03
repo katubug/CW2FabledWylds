@@ -5,6 +5,9 @@
 	default_quest_shape: ""
 	filename: "discovery"
 	group: "4E9968A53CD6CA57"
+	icon: {
+		id: "minecraft:spyglass"
+	}
 	id: "7F553DB3A577011E"
 	order_index: 0
 	quest_links: [ ]

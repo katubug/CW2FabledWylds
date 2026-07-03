@@ -29,6 +29,7 @@
 	chapter_group.181D7A6A92948264.title: "Magic \\& The Arcane"
 	chapter_group.33A91E268D63CB12.title: "Agriculture"
 	chapter_group.46B2C8E3F123941F.title: "Hidden"
+	chapter_group.4C9D8F0D37347858.title: "Joyful Things"
 	chapter_group.4E9968A53CD6CA57.title: "Exploration"
 	chapter_group.691BD44222F33F05.title: "Miscellaneous"
 	chapter_group.6B4E114EC6CDE8EE.title: "Basics"
@@ -1253,12 +1254,6 @@
 	quest.069CFBF84CE959C5.quest_subtitle: "{count:1,id:\"minecraft:clay\"}"
 	quest.069D05BFA23AD027.quest_subtitle: "{components:{\"ae2:facade_item\":\"tfbr:respawn_naga\"},count:1,id:\"ae2:facade\"}"
 	quest.069D87DCA3748200.quest_subtitle: "{count:1,id:\"cluttered:coffee_grinder\"}"
-	quest.069DC32E95840336.quest_desc: [
-		"This humble &bTrash Can&r will help you &adispose all of your unwanted items&r without needing to risk setting your entire base on fire."
-		""
-		"It can accept &ainput from a &bPipe&r, as well as being used manually. "
-	]
-	quest.069DC32E95840336.title: "The Mighty Trash Can"
 	quest.069E90933702C553.quest_subtitle: "{components:{\"tide:fish_length\":57.5d},count:1,id:\"tide:mirage_catfish\"}"
 	quest.069FA3FC49551E1B.quest_subtitle: "{count:1,id:\"colorfulazaleas:magenta_blooming_azalea_leaves\"}"
 	quest.06A030EB0662723D.quest_subtitle: "{count:1,id:\"cluttered:kitchen_set_brown_cabinet_inner_corner\"}"
@@ -3101,11 +3096,6 @@
 	quest.10BB59D8CD6CBEA1.quest_subtitle: "{count:1,id:\"regions_unexplored:pine_sign\"}"
 	quest.10BBC9E8FF94DBF9.quest_subtitle: "{components:{\"minecraft:stored_enchantments\":{levels:{\"minecraft:protection\":1}}},count:1,id:\"minecraft:enchanted_book\"}"
 	quest.10BC0673B506DBFD.quest_subtitle: "{count:1,id:\"mcwfences:modern_prismarine_wall\"}"
-	quest.10BD344DE9BF9D75.quest_desc: [
-		"&bDragon Meat Stew&r... what could be a greater show of power than &cconsuming your fallen enemies&r?"
-		""
-		"Was that too much? That was too much, wasn't it?"
-	]
 	quest.10BDFCA99800CEA3.quest_subtitle: "{count:1,id:\"the_bumblezone:luminescent_wax_channel_purple\"}"
 	quest.10BEC7138196FB0F.quest_subtitle: "{count:1,id:\"supplementaries:lapis_bricks_slab\"}"
 	quest.10C01EA2220A28FB.quest_subtitle: "{components:{\"ae2:facade_item\":\"farmersdelight:rice_bale\"},count:1,id:\"ae2:facade\"}"
@@ -4266,11 +4256,6 @@
 	quest.16E37FF02B50F157.quest_subtitle: "{count:1,id:\"minecraft:spruce_pressure_plate\"}"
 	quest.16E72CD3EC3410B7.quest_subtitle: "{count:1,id:\"comforts:sleeping_bag_pink\"}"
 	quest.16EC5109A918F312.quest_subtitle: "{count:1,id:\"enchanted:brew_of_the_depths\"}"
-	quest.16ECF08D421359AC.quest_desc: [
-		"To serve the unbridled taste sensation that is &adragon protein&r, you'll need an appropriate vessel."
-		"Craft the &bHalf Dragon Egg Shell&r."
-	]
-	quest.16ECF08D421359AC.title: "An Eggshellent Bowl"
 	quest.16ED9E83ED824DB3.quest_subtitle: "{components:{\"ae2:facade_item\":\"colorfulazaleas:pitch_azalea_log\"},count:1,id:\"ae2:facade\"}"
 	quest.16EDA90D3CBDA007.quest_subtitle: "{count:1,id:\"cluttered:diamond_wallpaper_brown_mushroom_bottom_white\"}"
 	quest.16EF1C387188C0AC.quest_subtitle: "{count:1,id:\"quark:duskbound_lantern\"}"
@@ -4298,7 +4283,7 @@
 	quest.171BF9600FC48F6B.quest_subtitle: "{components:{\"ae2:facade_item\":\"cluttered:marble_tiles\"},count:1,id:\"ae2:facade\"}"
 	quest.171D25304402B581.quest_subtitle: "{components:{\"minecraft:potion_contents\":{potion:\"minecraft:long_weakness\"}},count:1,id:\"minecraft:tipped_arrow\"}"
 	quest.171D4EACF7B9F4D5.quest_desc: [
-		"This modpack adds a lot of new sounds. So to help you filter the ones you don't like, it also incl.udes &aSuper Sound Muffler&r."
+		"This modpack adds a lot of new sounds. So to help you filter the ones you don't like, it also includes &aSuper Sound Muffler&r."
 		""
 		"&6Press F6 to open the menu&r. From here, you can click &aRecent&r to see what you've recently heard. You can play the sound to confirm it's the one you don't like, and then &6mute it!&r"
 	]
@@ -5565,7 +5550,6 @@
 	quest.1DB6F0BE831417C4.quest_subtitle: "{components:{\"minecraft:entity_data\":{id:\"minecraft:painting\",variant:\"portfolio:night\"}},count:1,id:\"minecraft:painting\"}"
 	quest.1DB76043E82C8F94.quest_subtitle: "{count:1,id:\"functionalstorage:warped_2\"}"
 	quest.1DB7B1A49A4925F7.quest_subtitle: "{count:1,id:\"moresnifferflowers:giant_carrot\"}"
-	quest.1DB7D51E15454923.quest_desc: ["Playing a fun game is its own reward, but here's an extra bonus for spending so much time with us! "]
 	quest.1DBB40FF27CD3E60.quest_subtitle: "{count:1,id:\"betterend:lanceleaf_seed\"}"
 	quest.1DBC55AC75B99BB8.quest_subtitle: "{count:1,id:\"ae2:fluix_dust\"}"
 	quest.1DBCC7296C67050B.quest_subtitle: "{count:1,id:\"betterend:amber_moss\"}"
@@ -6515,7 +6499,6 @@
 	quest.224210917B760842.quest_subtitle: "{count:1,id:\"moresnifferflowers:bonwiltia_seeds\"}"
 	quest.22475C6C2936F008.quest_subtitle: "{components:{\"ae2:facade_item\":\"tfbr:respawn_hydra\"},count:1,id:\"ae2:facade\"}"
 	quest.224AE04BF9D60674.quest_subtitle: "{components:{\"ae2:facade_item\":\"regions_unexplored:glistering_nylium\"},count:1,id:\"ae2:facade\"}"
-	quest.224C1B2D30B8E7DF.quest_desc: ["Congratulations, you've cooked some of the &amost magically imbued food&r in the game! Truly a kitchen witch of supreme renown!"]
 	quest.224DD8EC045EDBEF.quest_subtitle: "{count:1,id:\"arts_and_crafts:cork_wood\"}"
 	quest.224F16429FBD7037.quest_subtitle: "{count:1,id:\"minecraft:chest_minecart\"}"
 	quest.2251A7D7AF543B5C.quest_subtitle: "{components:{\"minecraft:entity_data\":{id:\"minecraft:painting\",variant:\"mcwpaintings:swamp_land\"}},count:1,id:\"minecraft:painting\"}"
@@ -6527,16 +6510,6 @@
 	quest.225ABF16C5988407.quest_subtitle: "{count:1,id:\"minecraft:mangrove_fence_gate\"}"
 	quest.225B5052146F9B06.quest_subtitle: "{components:{\"sophisticatedstorage:wood_type\":\"bamboo\"},count:1,id:\"sophisticatedstorage:copper_barrel\"}"
 	quest.225C5C92D3B17479.quest_subtitle: "{count:1,id:\"decorativerailings:warped_right_handrail_connector_3\"}"
-	quest.225C97A6C4FC4652.quest_desc: [
-		"The &bTraveler's Compass&r is an item which can seek out &ablocks, entities, and items in storage containers&r."
-		""
-		"First, &6right click while holding the &bCompass&r. Then, on the left, choose whether you're seeking an entity, item, or block. Then, &6click the item you're searching for&r into the simulated inventory slots in the center. This places a ghost of the item into the inventory."
-		""
-		"For example, if you wanted to find a &epig&r, you could place a &bPork Chop&r into the inventory. If you wanted to find &bIron Ore Blocks&r, you could place a &bRaw Iron&r, &bIron Ingot&r, or &bIron Ore&r into the inventory."
-		""
-		"Once the &bCompass&r detects the filtered items nearby, it will &apoint you in their direction&r."
-	]
-	quest.225C97A6C4FC4652.title: "Seeking Specific Items"
 	quest.225CC2D69E000192.quest_subtitle: "{count:1,id:\"betternether:quartz_glass_pane_blue\"}"
 	quest.225E4EDB381D331B.quest_subtitle: "{count:1,id:\"hearthandharvest:crow_spawn_egg\"}"
 	quest.226368447EC1C9A9.quest_desc: ["Sick of boring old flat beds? Make a &afancy one&r! To craft a &bBed&r, you'll need planks, wool, and &ba Cushion&r!"]
@@ -7175,7 +7148,6 @@
 	quest.25C28E6F64BC1D9F.quest_subtitle: "{components:{\"minecraft:entity_data\":{id:\"minecraft:painting\",variant:\"mcwpaintings:autumn\"}},count:1,id:\"minecraft:painting\"}"
 	quest.25C2F175C35046F2.quest_subtitle: "{components:{\"ae2:facade_item\":\"betterend:neon_cactus_block\"},count:1,id:\"ae2:facade\"}"
 	quest.25C3728F30DF83A7.quest_subtitle: "{count:1,id:\"minecraft:sandstone\"}"
-	quest.25C3A6BEFE246C3A.quest_desc: ["Make this advancement by crafting the &bAssorted Salad&r."]
 	quest.25C3C607DE4CEB0A.quest_subtitle: "{components:{\"quark:item_count\":640,\"quark:stored_item\":{stack:{count:1,id:\"mysticsbiomes:peach_sapling\"}}},count:1,id:\"quark:seed_pouch\"}"
 	quest.25C40049BEEB5ECD.quest_subtitle: "{components:{\"minecraft:stored_enchantments\":{levels:{\"minecraft:piercing\":4}}},count:1,id:\"minecraft:enchanted_book\"}"
 	quest.25C5000ED76C72C1.quest_subtitle: "{count:1,id:\"dramaticdoors:short_rue_kapok_door\"}"
@@ -7777,7 +7749,6 @@
 	quest.28CE539BC4B087A4.quest_subtitle: "{count:1,id:\"moresnifferflowers:scrap_piece\"}"
 	quest.28D0E1190D0AA8F4.quest_subtitle: "{count:1,id:\"another_furniture:warped_flower_box\"}"
 	quest.28D14D759740D377.quest_subtitle: "{components:{\"ae2:facade_item\":\"twilightforest:mossy_towerwood\"},count:1,id:\"ae2:facade\"}"
-	quest.28D201EE3AA699C2.quest_desc: ["&bLiquid Dragon Egg&r. Sounds appealing, doesn't it? You &ocould&r eat this as is...but why not &acook it first&r?"]
 	quest.28D2FECE39CD02DA.quest_subtitle: "{count:1,id:\"betternether:red_mold\"}"
 	quest.28D3087399293772.quest_subtitle: "{count:1,id:\"create:small_dripstone_brick_stairs\"}"
 	quest.28D404B42D04F4B8.quest_subtitle: "{components:{\"minecraft:entity_data\":{id:\"minecraft:painting\",variant:\"handcrafted:broken_birches\"}},count:1,id:\"minecraft:painting\"}"
@@ -9759,6 +9730,7 @@
 	quest.329A64AEA44F967C.quest_subtitle: "{count:1,id:\"colorfulazaleas:pitch_azalea_log\"}"
 	quest.329CC0CC1B48C600.quest_desc: [
 		"The &bFilter Destination Tool&r is a multi-use tool which will allow you to &aset the destination&r of a &bfiltered item type&r."
+		""
 		"You can assign it an inventory by &6right clicking it &lon the face of the block the &bPipe&6 connects to&r. It will not work if you do not select the correct face of the inventory."
 	]
 	quest.329E1B9C6D3BF209.quest_subtitle: "{components:{\"minecraft:potion_contents\":{custom_effects:[{amplifier:1b,duration:1,id:\"minecraft:instant_health\",\"neoforge:cures\":[\"protected_by_totem\",\"milk\"],show_icon:1b}]}},count:1,id:\"reliquary:potion_essence\"}"
@@ -10282,9 +10254,10 @@
 		"Let's begin with a simple &bBarrel&r. Place it in the world as usual, and then &6right click it with the &bBasic Tier Upgrade&r."
 		""
 		"Now, once you enter the inventory, you'll see some new additions."
-		"{image:enchanted_wilds:textures/questimages/sophstorage.png width:100 height:80 align:1 fit:true}"
+		"{image:enchanted_wilds:textures/questimages/sophstorage.png width:200 height:160 align:center}"
 		""
 		"The slot to the left &aaccepts upgrades&r which allow your storage to perform certain functions."
+		""
 		"The &acog wheel&r on the right gives you access to your &astorage settings&r."
 	]
 	quest.3571AAEB58389A64.quest_subtitle: "Let's get sophisticated"
@@ -11043,16 +11016,6 @@
 	]
 	quest.39844F8340E6A438.title: "Framed Blocks"
 	quest.39846E588AA23AEC.quest_subtitle: "{count:1,id:\"minecraft:snowball\"}"
-	quest.39876C2DADDC64E1.quest_desc: [
-		"Villagers often need help, and will place &arequests&r on a &bBounty Board&r. You can choose to accept or ignore these requests, and any you complete will &agrant you rewards&r!"
-		""
-		"Each &bbounty&r has a time requirement during which it needs to be completed, or else &dit will expire&r. However, this means that bounties you don't want to accept will be naturally &baremoved, and replaced with fresh ones&r!"
-		""
-		"A &bDecree&r can be brought to a &bBounty Board&r to determine &awhat kinds of bounties will show up&r. For example, if you bring a &bFletching Decree&r, you will get bounties for things like &akilling spiders&r, &bplanks&r, &bFletching tables&r, &bstring&r and so on."
-		""
-		"You can get &bDecrees&r by crafting, or by &atrading with a &eLibrarian&r. They will be &aunidentified&r to begin with, you can &6place it into the &bBounty Board&r to identify it. You can have &aup to three&r Decrees, and the Bounties that show up will mix and match from all of them."
-	]
-	quest.39876C2DADDC64E1.title: "Discover a Bounty Board"
 	quest.398C9512C07C7A62.quest_subtitle: "{count:1,id:\"cluttered:fluorescent_maple_bookshelf\"}"
 	quest.398DDDBECD3C0387.quest_subtitle: "{count:1,id:\"betterend:chorus_grass\"}"
 	quest.398E3DF04CE773C2.quest_subtitle: "{count:1,id:\"betternether:nether_mushroom_wall\"}"
@@ -11872,6 +11835,7 @@
 		"&dThis quest is repeatable&r."
 	]
 	quest.3DFB7EF14F053582.title: "Mushroom Hat"
+	quest.3DFE6CC659B005C6.quest_desc: ["The &bBloom Basket&r is a decorative block which you can &afill with certain flowers&r, such as &bPansies&r, or &bTwinflowers&r!"]
 	quest.3DFF7E4D9C685471.quest_subtitle: "{components:{\"ae2:facade_item\":\"kubejs:carved_spruce_6\"},count:1,id:\"ae2:facade\"}"
 	quest.3E0086246DF60AAE.quest_subtitle: "{count:1,id:\"unusual_furniture:magenta_curtain\"}"
 	quest.3E00B21381E9B1F4.quest_subtitle: "{count:1,id:\"arts_and_crafts:white_plaster\"}"
@@ -12674,11 +12638,6 @@
 	quest.425DD32BB34274DD.quest_subtitle: "{count:1,id:\"mcwfences:spruce_pyramid_gate\"}"
 	quest.425E2FBCA761872D.quest_subtitle: "{count:1,id:\"betterend:sulphuric_rock_pillar\"}"
 	quest.425F16DC76310DAF.quest_subtitle: "{components:{\"minecraft:potion_contents\":{custom_effects:[{duration:100,id:\"minecraft:nausea\",\"neoforge:cures\":[\"protected_by_totem\",\"milk\"],show_icon:1b}]}},count:1,id:\"reliquary:magazines/neutral_magazine\"}"
-	quest.4264920573ADC879.quest_desc: [
-		"Once you've obtained a &bDragon Egg&r, you can use them to craft a &bNourishing Dragon Egg&r."
-		"This item can only be cut with the &aextreme sharpness&r of a &bNether Star&r on a &bCutting Board&r. Cutting open the egg will give you &aseveral ingredients&r needed for high-level meals."
-	]
-	quest.4264920573ADC879.title: "A Different Dragon Egg"
 	quest.4265B8AA3B239D3E.quest_subtitle: "{components:{\"ae2:facade_item\":\"cluttered:x_tile_terracotta_inverse\"},count:1,id:\"ae2:facade\"}"
 	quest.4267FC4658CDECA6.quest_subtitle: "{count:1,id:\"betternether:mushroom_fir_chest\"}"
 	quest.4269C285D2819153.quest_subtitle: "{count:1,id:\"tanukidecor:long_display_case\"}"
@@ -12805,7 +12764,6 @@
 	quest.430AE8065AAD0A84.quest_subtitle: "{components:{\"ae2:facade_item\":\"regions_unexplored:chalk_grass_block\"},count:1,id:\"ae2:facade\"}"
 	quest.430F602DC5095243.quest_subtitle: "{components:{\"ae2:facade_item\":\"utilitarian:inverted_redstone_lamp\"},count:1,id:\"ae2:facade\"}"
 	quest.4310A4B813E85DB7.quest_subtitle: "{components:{\"reliquary:entity_name\":\"creeperoverhaul:cave_creeper\"},count:1,id:\"reliquary:mob_charm\"}"
-	quest.43110B76D590F312.quest_desc: ["This dreamy steamed dish will &afulfill your wildest dreams&r... or, at least, it'll &agive you some great buffs&r!"]
 	quest.43113A5E27D4C408.quest_subtitle: "{count:1,id:\"arts_and_crafts:cobbled_marlot_pietraforte_stairs\"}"
 	quest.431154FCD3030528.quest_subtitle: "{components:{\"ae2:facade_item\":\"quark:rusty_iron_plate\"},count:1,id:\"ae2:facade\"}"
 	quest.431174E3FEC25FE1.quest_subtitle: "{count:1,id:\"create:polished_cut_dripstone_stairs\"}"
@@ -13233,7 +13191,6 @@
 	quest.456AEAF8F8DC71F1.quest_subtitle: "{count:1,id:\"cluttered:yellow_notepad\"}"
 	quest.456B994E9F7267B6.quest_subtitle: "{components:{\"sophisticatedstorage:wood_type\":\"mangrove\"},count:1,id:\"sophisticatedstorage:limited_gold_barrel_2\"}"
 	quest.456C4FBDB9EC9483.quest_subtitle: "{count:1,id:\"wan_ancient_beasts:crusher_egg\"}"
-	quest.456D45D35A596109.quest_desc: ["Not a fan of red bean paste? Why not try &bChorus Fruit&r in your &bRice Cakes&r instead?"]
 	quest.456DA5F0C4684AB1.quest_subtitle: "{count:1,id:\"twilightforest:armored_giant_spawn_egg\"}"
 	quest.456F1C39DDCC8723.quest_subtitle: "{count:1,id:\"unusual_furniture:spruce_table\"}"
 	quest.45707E34E67AF68A.quest_subtitle: "{count:1,id:\"quark:soul_sandstone\"}"
@@ -13760,7 +13717,6 @@
 	quest.482599A326F3803C.quest_subtitle: "{components:{\"tide:fish_length\":245.0d},count:1,id:\"tide:sand_tiger_shark\"}"
 	quest.482686DB6D8518E1.quest_subtitle: "{count:1,id:\"supplementaries:sugar_cube\"}"
 	quest.4826F7C5AD20AD6C.quest_subtitle: "{count:1,id:\"oeuvre:sketchbook\"}"
-	quest.482A2BB52514C35B.quest_desc: ["Although challenging to make, the &bDragon's Breath and Chorus Stew&r grants a number of effects that make it very worthwhile!"]
 	quest.482A851834DE091A.quest_subtitle: "{count:1,id:\"betternether:cincinnasite_forge\"}"
 	quest.482A8BD6F96887FB.quest_subtitle: "{count:1,id:\"farm_and_charm:cooked_salmon\"}"
 	quest.482D33E2F8A36463.quest_subtitle: "{count:1,id:\"cluttered:cinnamon_bun\"}"
@@ -14332,6 +14288,7 @@
 		""
 		"For more information, including all resource pack credits, please visit the wiki!"
 	]
+	quest.4B09C2508E25AD2B.quest_subtitle: "everything in its place"
 	quest.4B0D33D7683C7C04.quest_subtitle: "{count:1,id:\"twilightdelight:raw_venison_rib\"}"
 	quest.4B0D47AFB70D24BA.quest_subtitle: "{components:{\"ae2:facade_item\":\"minecraft:crafting_table\"},count:1,id:\"ae2:facade\"}"
 	quest.4B0E742075AB3D27.quest_subtitle: "{count:1,id:\"arts_and_crafts:brown_terracotta_shingle_wall\"}"
@@ -15276,8 +15233,6 @@
 	quest.4F7BD3B5E9A3BFA9.quest_subtitle: "{components:{\"reliquary:entity_name\":\"betterend:shadow_walker\"},count:1,id:\"reliquary:mob_charm\"}"
 	quest.4F7BFE81BFADCD9A.quest_subtitle: "{count:1,id:\"create:cut_calcite\"}"
 	quest.4F7C7EFBBA0AD685.quest_subtitle: "{count:1,id:\"framedblocks:framed_stacked_pyramid_slab\"}"
-	quest.4F7C97B20944FDB5.quest_desc: ["Ooh dang, you just got &arejected by a &bNitwit&r. Feelsbadman."]
-	quest.4F7C97B20944FDB5.title: "Denied."
 	quest.4F7D5A38DA6480B4.quest_subtitle: "{count:1,id:\"tide:amber_rockfish_bucket\"}"
 	quest.4F7EDF606945E9E2.quest_subtitle: "{count:1,id:\"unusual_furniture:tall_clay_pot\"}"
 	quest.4F80F4B82E8ED136.quest_subtitle: "{components:{\"ae2:facade_item\":\"twilightforest:sorting_wood\"},count:1,id:\"ae2:facade\"}"
@@ -15972,7 +15927,7 @@
 	quest.52D20498843EECD3.quest_desc: [
 		"Within your storage settings, you have the ability to change the way your storage behaves."
 		""
-		"{image:enchanted_wilds:textures/questimages/sophsettings.png width:100 height:70 align:1 fit:true}"
+		"{image:enchanted_wilds:textures/questimages/sophsettings.png width:200 height:140 align:center}"
 		""
 		"Select the &aBarrel icon&r to choose whether your settings apply to &aPlayer&r - ie, &oall&r your storages  - or &aStorage&r - ie, this container only."
 		""
@@ -15983,7 +15938,7 @@
 		"Select the &aSword icon&r to choose a slot whose &aitem will be displayed&r on the front of your storage."
 		""
 		""
-		"{image:cottagewitch:textures/sophbarreldisplayy.png width:100 height:100 align:1 fit:true}"
+		"{image:enchanted_wilds:textures/questimages/sophbarreldisplayy.png width:100 height:100 align:center}"
 	]
 	quest.52D3AF8E8C7AB778.quest_subtitle: "{count:1,id:\"cluttered:sycamore_stairs\"}"
 	quest.52D3C1B5D2166401.quest_subtitle: "{count:1,id:\"mysticsbiomes:stripped_sea_foam_log\"}"
@@ -17802,6 +17757,9 @@
 		"&aF&r: This section determines whether you are &abuying or selling&r. "
 	]
 	quest.5C5768D4346FD3FE.title: "Multiplayer Bartering"
+	quest.5C59C06355C7DC77.quest_desc: ["Your &eHamster&r can wear a cute little &bAcorn Hat&r, so why shouldn't you?"]
+	quest.5C59C06355C7DC77.quest_subtitle: "matchy matchy"
+	quest.5C59C06355C7DC77.title: "Get Matching Hats"
 	quest.5C59D4071B676AF6.quest_subtitle: "{count:1,id:\"mysticsbiomes:vanilla_leaves\"}"
 	quest.5C5B62778C0DA15F.quest_subtitle: "{components:{\"sophisticatedstorage:wood_type\":\"acacia\"},count:1,id:\"sophisticatedstorage:iron_chest\"}"
 	quest.5C5B6C6388B0AACE.quest_subtitle: "{count:1,id:\"quark:lime_framed_glass_pane\"}"
@@ -20936,7 +20894,6 @@
 	quest.6C9955906164EA10.quest_subtitle: "{count:1,id:\"bakery:sweetberry_cupcake\"}"
 	quest.6C9B08CF2276F547.quest_subtitle: "{count:1,id:\"kubejs:carved_warped_7\"}"
 	quest.6C9D207DEF5AD81E.quest_subtitle: "{count:1,id:\"moresnifferflowers:corrupted_wart\"}"
-	quest.6CA036FC470C17EA.quest_desc: ["An uncommonly known fact is that &eShulkers&r are kind of like &bEggs&r! And, unsurprisingly, rather &ataste like them&r, too. As such, they make a delicious addition to your &abalanced diet&r."]
 	quest.6CA064A20168A39F.quest_subtitle: "{count:1,id:\"hearthandharvest:skewered_sausage\"}"
 	quest.6CA0876EE5F5E1BC.quest_subtitle: "{count:1,id:\"colorfulazaleas:stripped_tecal_azalea_wood\"}"
 	quest.6CA0B2DDA11C9175.quest_subtitle: "{count:1,id:\"farmersrespite:blazing_chili\"}"
@@ -21324,8 +21281,6 @@
 	quest.6EEEB9295380F0E8.quest_subtitle: "{count:1,id:\"minecraft:enchanting_table\"}"
 	quest.6EEF1954EC7DB859.quest_subtitle: "{components:{\"reliquary:entity_name\":\"twilightforest:lich_minion\"},count:1,id:\"reliquary:mob_charm\"}"
 	quest.6EEFDA9EBFE0D173.quest_subtitle: "{count:1,id:\"twilightdelight:glow_venison_rib_with_pasta\"}"
-	quest.6EF0662A6493D818.quest_desc: ["Once you get one &bPlushie&r, you'll probably end up &awanting more&r. Earn them using this &bBounty Board Decree&r!"]
-	quest.6EF0662A6493D818.title: "Obtain a Plushie"
 	quest.6EF1645088B09F18.quest_subtitle: "{components:{\"ae2:facade_item\":\"thaumon:greatwood_wood\"},count:1,id:\"ae2:facade\"}"
 	quest.6EF1E5E3598F07EA.quest_subtitle: "{count:1,id:\"betterend:lucernia_trapdoor\"}"
 	quest.6EF3999591548EAE.quest_subtitle: "{components:{\"ae2:facade_item\":\"minecraft:netherite_block\"},count:1,id:\"ae2:facade\"}"
@@ -22262,7 +22217,7 @@
 		"To upgrade from &aBasic upwards&r, you'll need the &bBasic to Gold&r (or other level) Upgrade. This will, as you could guess, take a &bBasic Storage&r and bring it directly to &aGold tier&r."
 		""
 		"With each tier of upgrades, &ayour storage improves&r. At Gold tier it has &amore slots and an additional upgrade slot&r on the left."
-		"{image:enchanted_wilds:textures/questimages/sophgold.png width:100 height:100 align:1 fit:true}"
+		"{image:enchanted_wilds:textures/questimages/sophgold.png width:200 height:200 align:center}"
 	]
 	quest.73B26E8BA35A9C25.quest_subtitle: "mo storage, mo problems"
 	quest.73B26E8BA35A9C25.title: "More Storage, More Upgrades"
@@ -23901,8 +23856,6 @@
 	quest.7CD959BBC57E5A60.quest_subtitle: "{count:1,id:\"hexerei:waxed_infused_fabric_block_ornate\"}"
 	quest.7CDA77EF08EC807D.quest_subtitle: "{components:{\"reliquary:entity_name\":\"happy_ghast_legacy:happy_ghast\"},count:1,id:\"reliquary:mob_charm\"}"
 	quest.7CDBF21534E17771.quest_subtitle: "{components:{\"minecraft:entity_data\":{id:\"minecraft:painting\",variant:\"mcwpaintings:halloween_pumpkin\"}},count:1,id:\"minecraft:painting\"}"
-	quest.7CDFDA310DE2A4E4.quest_desc: ["Possibly the &amost helpful item&r in the &cShulkren Forest&r, this tea helpfully &aclears the Levitation effect&r! You may want to make... a few..."]
-	quest.7CDFDA310DE2A4E4.quest_subtitle: "keep your feet on the ground"
 	quest.7CE4D4D3B93E7829.quest_subtitle: "{components:{\"ae2:facade_item\":\"minecraft:carved_pumpkin\"},count:1,id:\"ae2:facade\"}"
 	quest.7CE5D610C119AEB4.quest_subtitle: "{components:{\"ae2:facade_item\":\"cluttered:chalcedony_subway_tiles\"},count:1,id:\"ae2:facade\"}"
 	quest.7CE6FB087B156A4B.quest_subtitle: "{count:1,id:\"handcrafted:jungle_chair\"}"
@@ -24132,7 +24085,6 @@
 	quest.7E247AEA3787D2F7.quest_subtitle: "{count:1,id:\"betternether:anchor_tree_plate\"}"
 	quest.7E24EEA1303886E6.quest_subtitle: "{components:{\"ae2:facade_item\":\"betternether:blue_obsidian_tile\"},count:1,id:\"ae2:facade\"}"
 	quest.7E2551F4B57D6AD9.quest_subtitle: "{count:1,id:\"cluttered:red_mushroom_planks\"}"
-	quest.7E256574E63296C9.quest_desc: ["To obtain a &bDragon Tooth&r, one must &6kill the &eEnder Dragon&6 with a &bKnife&r."]
 	quest.7E2641B15D6AF49E.quest_desc: [
 		"Why not travel a while by Pig? It may not be fast, or efficient, or even particularly fun."
 		""
@@ -24225,6 +24177,14 @@
 	quest.7E9C70F7B0CFD820.title: "Flower Picking: Orange"
 	quest.7E9EBE27369A8AF3.quest_subtitle: "{count:1,id:\"twilightforest:mining_log_core\"}"
 	quest.7E9EC8EE98BBC1BD.quest_subtitle: "{components:{\"minecraft:stored_enchantments\":{levels:{\"minecraft:unbreaking\":1}}},count:1,id:\"minecraft:enchanted_book\"}"
+	quest.7E9EE22FD2FC5B56.quest_desc: [
+		"katu left this finished on 7/3/26 at 10am cst"
+		""
+		"the way i plan to do this is:"
+		"- have one megaquest that the kubejs script will reset every day"
+		"- that quest's rewards will be to reset all other repeatable time gated quests, which will be auto-claimed"
+		"- whole quest might be invisible, idk"
+	]
 	quest.7E9FA3A56261B656.quest_subtitle: "{count:1,id:\"twilightforest:hollow_crimson_stem\"}"
 	quest.7EA3F0AFC155DED8.quest_subtitle: "{count:1,id:\"companions:book_magic_ray\"}"
 	quest.7EA48006029D2E9C.quest_subtitle: "{count:1,id:\"thaumon:eldritch_stone_tile_stairs\"}"
@@ -24537,12 +24497,9 @@
 	reward_table.0FD7EA5F255F8D85.title: "Tarot No Justice"
 	reward_table.145580A22A099B54.title: "Super Candles"
 	reward_table.14F5FB461C686385.title: "Goat Horns"
-	reward_table.18248D5CF79E6090.title: "Music Disc Reward"
-	reward_table.1CB56D532B985F2C.title: "T1 Choice"
 	reward_table.232BC82EEB69EF30.title: "Special Livestock"
 	reward_table.37071950A2B77FCE.title: "Redstone"
 	reward_table.3CDC3F477C949E04.title: "Mailboxes"
-	reward_table.45E5DFB80FA259A8.title: "T2 Choice"
 	reward_table.47B52DCF31F29A69.title: "Currency - Grindy"
 	reward_table.4972AA871F691F6C.title: "Armor Trims"
 	reward_table.4CAFC1E4AA445442.title: "T3 Choice"
@@ -24583,7 +24540,6 @@
 	task.2A8566938ACB7B7B.title: "Fun friends from Critters and Companions"
 	task.2A957A338BE899C4.title: "Welcome to Ye Olde Shoppe"
 	task.2B35ABEE2A58DF6F.title: "Carrying Everything"
-	task.2DEEF63C17E2447C.title: "Unknown type: questsadditions:interaction"
 	task.2E65F74FAED6B7CD.title: "Resource Pack Application"
 	task.2E7A316EBC2BA46A.title: "Compact All The Crops!"
 	task.2FC0BBD9BA847203.title: "A Chalice or Goblet"

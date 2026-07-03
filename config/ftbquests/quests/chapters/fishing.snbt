@@ -5,15 +5,29 @@
 	default_quest_shape: ""
 	filename: "fishing"
 	group: "33A91E268D63CB12"
+	icon: {
+		id: "minecraft:fishing_rod"
+	}
 	id: "23E8B59B6CD79A23"
-	images: [{
-		height: 11.25d
-		image: "enchanted_wilds:textures/questui/bgfishing.png"
-		rotation: 0.0d
-		width: 20.0d
-		x: 0.0d
-		y: -12.25d
-	}]
+	images: [
+		{
+			height: 11.25d
+			image: "enchanted_wilds:textures/questui/bgfishing.png"
+			rotation: 0.0d
+			width: 20.0d
+			x: 0.0d
+			y: -12.25d
+		}
+		{
+			alpha: 225
+			height: 5.0d
+			image: "enchanted_wilds:textures/questui/illustrations/fishing_icon.png"
+			rotation: 0.0d
+			width: 5.0d
+			x: 10.8d
+			y: -9.4d
+		}
+	]
 	order_index: 2
 	quest_links: [ ]
 	quests: [

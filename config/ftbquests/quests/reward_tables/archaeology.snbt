@@ -1,7 +1,7 @@
 {
 	id: "7D60C2D8FE0CCADB"
-	loot_size: 1
-	order_index: 25
+	loot_size: 3
+	order_index: 22
 	rewards: [
 		{
 			count: 5

@@ -3,7 +3,10 @@
 	default_min_width: 350
 	default_quest_shape: ""
 	filename: "building__decorating"
-	group: "6B4E114EC6CDE8EE"
+	group: "4C9D8F0D37347858"
+	icon: {
+		id: "handcrafted:hammer"
+	}
 	id: "3E1D90FE6819501F"
 	images: [{
 		height: 20.0d
@@ -13,7 +16,7 @@
 		x: -0.2d
 		y: 1.8d
 	}]
-	order_index: 2
+	order_index: 1
 	quest_links: [ ]
 	quests: [
 		{
@@ -29,8 +32,8 @@
 				item: { count: 1, id: "reliquary:pedestals/passive/white_passive_pedestal" }
 				type: "item"
 			}]
-			x: -1.5d
-			y: 6.5d
+			x: 2.9d
+			y: 3.7d
 		}
 		{
 			id: "1AFE0FBF887D22FD"
@@ -49,8 +52,8 @@
 				item: { count: 1, id: "buildinggadgets2:gadget_building" }
 				type: "item"
 			}]
-			x: -2.0d
-			y: -5.5d
+			x: -6.6d
+			y: -3.1d
 		}
 		{
 			dependencies: ["1AFE0FBF887D22FD"]
@@ -78,8 +81,8 @@
 					type: "item"
 				}
 			]
-			x: -1.5d
-			y: -3.0d
+			x: -6.1d
+			y: -0.6000000000000001d
 		}
 		{
 			dependencies: ["1184EA40A20DEB5D"]
@@ -94,8 +97,8 @@
 				item: { count: 1, id: "buildinggadgets2:gadget_destruction" }
 				type: "item"
 			}]
-			x: -3.5d
-			y: -3.0d
+			x: -8.1d
+			y: -0.6000000000000001d
 		}
 		{
 			id: "4F9A1B244734638F"
@@ -170,8 +173,8 @@
 					type: "item"
 				}
 			]
-			x: 1.5d
-			y: 6.5d
+			x: 5.9d
+			y: 3.7d
 		}
 		{
 			id: "3E509A27A92746F4"
@@ -191,8 +194,8 @@
 				item: { count: 1, id: "supplementaries:globe" }
 				type: "item"
 			}]
-			x: -0.5d
-			y: 6.5d
+			x: 3.9d
+			y: 3.7d
 		}
 		{
 			id: "063AD4FD6E8FB943"
@@ -211,8 +214,8 @@
 				item: { count: 1, id: "supplementaries:pedestal" }
 				type: "item"
 			}]
-			x: 0.0d
-			y: 7.5d
+			x: 4.4d
+			y: 4.7d
 		}
 		{
 			id: "7E936E10896FA3D5"
@@ -226,8 +229,8 @@
 				item: { components: { "ftbfiltersystem:filter": "or(item_tag(minecraft:hanging_signs))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
-			x: 2.0d
-			y: 5.5d
+			x: 6.4d
+			y: 2.7d
 		}
 		{
 			id: "0E28D4A9544EAF0E"
@@ -241,8 +244,8 @@
 				item: { components: { "ftbfiltersystem:filter": "or(item_tag(supplementaries:way_signs))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
-			x: 0.5d
-			y: 6.5d
+			x: 4.9d
+			y: 3.7d
 		}
 		{
 			id: "1E53C205AD76513E"
@@ -272,8 +275,8 @@
 				item: { count: 1, id: "supplementaries:blackboard" }
 				type: "item"
 			}]
-			x: 1.0d
-			y: 5.5d
+			x: 5.4d
+			y: 2.7d
 		}
 		{
 			dependencies: ["7D82FBD000D41F84"]
@@ -301,8 +304,8 @@
 				item: { components: { "ftbfiltersystem:filter": "or(item_tag(handcrafted:fancy_beds))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
-			x: -2.0d
-			y: 3.0d
+			x: 2.4d
+			y: 0.2d
 		}
 		{
 			dependencies: ["226368447EC1C9A9"]
@@ -323,8 +326,8 @@
 					type: "item"
 				}
 			]
-			x: -0.5d
-			y: 3.0d
+			x: 3.9d
+			y: 0.2d
 		}
 		{
 			dependencies: ["32DCF4F0C230C940"]
@@ -351,8 +354,8 @@
 				item: { components: { "ftbfiltersystem:filter": "or(item_tag(handcrafted:trophies))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
-			x: 2.5d
-			y: 3.0d
+			x: 6.9d
+			y: 0.2d
 		}
 		{
 			id: "7D82FBD000D41F84"
@@ -363,8 +366,8 @@
 				item: { count: 1, id: "handcrafted:hammer" }
 				type: "item"
 			}]
-			x: -2.0d
-			y: 5.0d
+			x: 2.4d
+			y: 2.2d
 		}
 		{
 			dependencies: ["15781BD4547097E9"]
@@ -401,8 +404,8 @@
 					type: "item"
 				}
 			]
-			x: 1.0d
-			y: 3.0d
+			x: 5.4d
+			y: 0.2d
 		}
 		{
 			hide_until_deps_visible: true
@@ -433,8 +436,8 @@
 				item: { count: 1, id: "charginggadgets:charging_station" }
 				type: "item"
 			}]
-			x: -3.0d
-			y: -4.0d
+			x: -7.6d
+			y: -1.6d
 		}
 		{
 			id: "5A1DD637C09F0D13"
@@ -465,8 +468,8 @@
 				type: "stat"
 				value: 50
 			}]
-			x: 1.5d
-			y: 4.5d
+			x: 4.3d
+			y: -4.2d
 		}
 		{
 			id: "5FC2335FA7C31389"
@@ -484,8 +487,8 @@
 				item: { components: { "ftbfiltersystem:filter": "or(item(beautify:warped_trellis)item(beautify:oak_trellis)item(beautify:spruce_trellis)item(beautify:dark_oak_trellis)item(beautify:crimson_trellis)item(beautify:mangrove_trellis)item(beautify:acacia_trellis)item(beautify:jungle_trellis)item(beautify:birch_trellis))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
-			x: 2.5d
-			y: 6.5d
+			x: 6.9d
+			y: 3.7d
 		}
 		{
 			id: "2BFD231209D227FC"
@@ -537,8 +540,8 @@
 				item: { components: { "ftbfiltersystem:filter": "or(item(astikorcartsredux:oak_supply_cart)item(astikorcartsredux:spruce_supply_cart)item(astikorcartsredux:birch_supply_cart)item(astikorcartsredux:acacia_supply_cart)item(astikorcartsredux:cherry_supply_cart)item(astikorcartsredux:jungle_supply_cart)item(astikorcartsredux:dark_oak_supply_cart)item(astikorcartsredux:crimson_supply_cart)item(astikorcartsredux:warped_supply_cart)item(astikorcartsredux:mangrove_supply_cart)item(astikorcartsredux:bamboo_supply_cart))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
-			x: 3.0d
-			y: 5.5d
+			x: 7.4d
+			y: 2.7d
 		}
 		{
 			id: "39844F8340E6A438"
@@ -549,8 +552,8 @@
 				item: { count: 1, id: "framedblocks:framed_cube" }
 				type: "item"
 			}]
-			x: 1.75d
-			y: -6.0d
+			x: -2.55d
+			y: -3.8d
 		}
 		{
 			dependencies: ["39844F8340E6A438"]
@@ -560,8 +563,8 @@
 				item: { count: 1, id: "framedblocks:framing_saw" }
 				type: "item"
 			}]
-			x: 3.0d
-			y: -4.5d
+			x: -1.2999999999999998d
+			y: -2.3d
 		}
 		{
 			dependencies: ["39844F8340E6A438"]
@@ -572,8 +575,8 @@
 				item: { count: 1, id: "framedblocks:framed_hammer" }
 				type: "item"
 			}]
-			x: 0.5d
-			y: -4.5d
+			x: -3.8d
+			y: -2.3d
 		}
 		{
 			dependencies: ["39844F8340E6A438"]
@@ -584,8 +587,8 @@
 				item: { count: 1, id: "framedblocks:framed_wrench" }
 				type: "item"
 			}]
-			x: 2.0d
-			y: -3.5d
+			x: -2.3d
+			y: -1.2999999999999998d
 		}
 		{
 			dependencies: ["39844F8340E6A438"]
@@ -601,8 +604,8 @@
 				item: { count: 1, id: "framedblocks:framed_blueprint" }
 				type: "item"
 			}]
-			x: 1.5d
-			y: -2.5d
+			x: -2.8d
+			y: -0.2999999999999998d
 		}
 		{
 			dependencies: ["39844F8340E6A438"]
@@ -613,8 +616,8 @@
 				item: { count: 1, id: "framedblocks:framed_key" }
 				type: "item"
 			}]
-			x: 0.0d
-			y: -3.5d
+			x: -4.3d
+			y: -1.2999999999999998d
 		}
 		{
 			dependencies: ["39844F8340E6A438"]
@@ -625,8 +628,8 @@
 				item: { count: 1, id: "framedblocks:framed_screwdriver" }
 				type: "item"
 			}]
-			x: 1.0d
-			y: -3.5d
+			x: -3.3d
+			y: -1.2999999999999998d
 		}
 		{
 			dependencies: ["39844F8340E6A438"]
@@ -637,8 +640,8 @@
 				item: { count: 1, id: "framedblocks:framed_reinforcement" }
 				type: "item"
 			}]
-			x: 0.5d
-			y: -2.5d
+			x: -3.8d
+			y: -0.2999999999999998d
 		}
 		{
 			id: "4110A15F659422D5"
@@ -653,8 +656,8 @@
 				item: { count: 1, id: "quark:trowel" }
 				type: "item"
 			}]
-			x: 0.0d
-			y: -6.5d
+			x: -4.3d
+			y: -4.3d
 		}
 		{
 			id: "2288D26992644668"
@@ -682,8 +685,8 @@
 				item: { count: 1, id: "quark:glass_item_frame" }
 				type: "item"
 			}]
-			x: -1.0d
-			y: 7.5d
+			x: 3.4d
+			y: 4.7d
 		}
 		{
 			id: "69E3182321452B88"
@@ -702,8 +705,25 @@
 				item: { count: 1, id: "easel_does_it:easel" }
 				type: "item"
 			}]
-			x: 0.0d
-			y: 2.0d
+			x: 3.2d
+			y: -4.1d
+		}
+		{
+			id: "3DFE6CC659B005C6"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0BF7C25115118ACF"
+				table_id: 6895470215093009548L
+				type: "random"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "2828312496E69689"
+				item: { count: 1, id: "serene_shrubbery:bloom_basket" }
+				type: "item"
+			}]
+			x: 2.1d
+			y: -4.1d
 		}
 	]
 }

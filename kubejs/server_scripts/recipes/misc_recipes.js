@@ -141,7 +141,7 @@ ServerEvents.recipes(event => {
 			B: 'hexerei:moon_dust'
 		}
 	)
-
+/*
 		//tier 1 lens
 	event.shaped(
 		Item.of('exposure_space:normal_telescopic_lens'),
@@ -154,7 +154,7 @@ ServerEvents.recipes(event => {
 			B: 'minecraft:iron_ingot',
 			C: 'minecraft:glass_pane'
 		}
-	)
+	)*/
 
 	//Myalite Crystals obtainable
 	event.shaped(

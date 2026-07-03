@@ -4,6 +4,9 @@
 	default_quest_shape: ""
 	filename: "scavenger_hunt"
 	group: "691BD44222F33F05"
+	icon: {
+		id: "minecraft:nether_star"
+	}
 	id: "7401E53A08F6CC5E"
 	images: [{
 		height: 20.0d
@@ -526,7 +529,6 @@
 				}
 				{
 					id: "4E394BBF80A209A0"
-					table_id: 1739670786502713488L
 					type: "choice"
 				}
 			]

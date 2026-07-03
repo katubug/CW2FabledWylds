@@ -4,6 +4,9 @@
 	default_quest_shape: ""
 	filename: "unusual_prehistory"
 	group: "181D7A6A92948264"
+	icon: {
+		id: "gildedsherds:minecraft/friend_pottery_sherd"
+	}
 	id: "166D3820236F493E"
 	images: [{
 		height: 11.25d

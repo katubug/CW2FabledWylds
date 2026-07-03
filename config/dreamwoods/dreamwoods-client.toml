@@ -15,3 +15,17 @@
 	enableSwampMoonpuffNightOnly = true
 	#Enable Emberfall Blossom spores particles
 	enableEmberfallParticles = true
+
+[Potions]
+	#Enable the use of Green Amanita in Poison and Long Poison potions
+	enableAmanitaPoison = true
+	#Enable the use of Bog Glimmer in Leaping potion
+	enableBogGlimmerLeaping = true
+	#Enable the use of Twilight Bark Shroom in Regeneration potion
+	enableTwilightRegeneration = true
+	#Enable the use of Pale Ghostling in Invisibility potion
+	enableGhostlingInvisibility = true
+	#Enable the use of Night Blossom in Slow Falling potion
+	enableNightBlossomSlowFalling = true
+	#Enable the use of Emberfall Flower in Fire Resistance potion
+	enableEmberfallFireResistance = true
