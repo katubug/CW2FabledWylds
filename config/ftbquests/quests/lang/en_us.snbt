@@ -6529,6 +6529,7 @@
 		"This will let you view how to make anything in the game!"
 	]
 	quest.226D1B09B2958EFC.quest_subtitle: "Take a little look-see"
+	quest.226D1B09B2958EFC.title: "Window Shopping"
 	quest.226DD6E846B6AC9C.quest_subtitle: "{count:1,id:\"betterfishtanks:tiny_branch_stripped_oak_log\"}"
 	quest.226E321C696D2890.quest_subtitle: "{count:1,id:\"framedblocks:framed_iron_pressure_plate\"}"
 	quest.2270962DC308766D.quest_subtitle: "{count:1,id:\"arts_and_crafts:smooth_verdant_pietraforte\"}"
@@ -7359,7 +7360,7 @@
 	quest.26D61680147C4CC0.quest_subtitle: "{count:1,id:\"wetland_whimsy:lemonstone_pillar\"}"
 	quest.26D62265EEAF713E.quest_subtitle: "{count:1,id:\"arts_and_crafts:terracotta_shingle_slab\"}"
 	quest.26D8EAD9D892805E.quest_desc: [
-		"If you want your base to stay active even when you're not there, you want &achunk loading&r. This will also help if you &ahave a vanilla-style mob farm&r. The mod &lDoesPotatoTick&r &daffects the way these farms work when chunks are unclaimed&r."
+		"If you want your base to stay active even when you're not there, you want &achunk loading&r. This will also help if you &ahave a vanilla-style mob farm&r."
 		""
 		"Open your inventory and look at the top left of your screen. The &amap icon&r will lead you to the &aFTB Chunks&r screen."
 		""
@@ -14276,11 +14277,8 @@
 		"We recommend enabling all of them, except for the following:"
 		""
 		"&7- Programmer Art"
-		"&7- Better Vanilla Gems"
-		"&7- Darker Ropes"
-		"&7- Bumblezone Anti-Trypophobia"
-		"&7- Shader Compatible Fiery"
-		"&7- White Icons"
+		""
+		"and that's it"
 		""
 		"¹ These packs have \"KatuEdit\" versions which should be enabled. They are included, disabled, in order to give proper credit to the authors. &dEdited versions of these packs&r SHOULD be enabled."
 		""
@@ -14289,6 +14287,7 @@
 		"For more information, including all resource pack credits, please visit the wiki!"
 	]
 	quest.4B09C2508E25AD2B.quest_subtitle: "everything in its place"
+	quest.4B09C2508E25AD2B.title: "Resource Pack Applications"
 	quest.4B0D33D7683C7C04.quest_subtitle: "{count:1,id:\"twilightdelight:raw_venison_rib\"}"
 	quest.4B0D47AFB70D24BA.quest_subtitle: "{components:{\"ae2:facade_item\":\"minecraft:crafting_table\"},count:1,id:\"ae2:facade\"}"
 	quest.4B0E742075AB3D27.quest_subtitle: "{count:1,id:\"arts_and_crafts:brown_terracotta_shingle_wall\"}"
@@ -15640,6 +15639,7 @@
 		""
 		"Be sure to &6click the Pin in the upper right&r to keep this sidebar open permanently!"
 	]
+	quest.51383D499E0DF0DA.title: "Don't Lose Your Place"
 	quest.5138591957960F2F.quest_subtitle: "{count:1,id:\"trailsandtalesplus:wall_pottery_sherd\"}"
 	quest.5138E7A925B105B8.quest_subtitle: "{components:{\"minecraft:potion_contents\":{potion:\"netherdepthsupgrade:lava_puffer_wither\"}},count:1,id:\"minecraft:tipped_arrow\"}"
 	quest.5138EA4E19A6D73D.quest_subtitle: "{count:1,id:\"ae2:light_blue_glass_cable\"}"
