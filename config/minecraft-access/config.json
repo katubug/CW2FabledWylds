@@ -1,0 +1,125 @@
+{
+  "Speech Settings": {
+    "Speech Rate": 50.0
+  },
+  "Camera Controls": {
+    "Enabled": true,
+    "Normal Rotating Angle": 22.5,
+    "Modified Rotating Angle (on holding left alt)": 11.25,
+    "Delay (in milliseconds)": 250
+  },
+  "Inventory Controls": {
+    "Enabled": true,
+    "Auto Open Recipe Book (in creative/survival and crafting inventory)": true,
+    "Row and Column Format in Crafting Input Slots": "%dx%d",
+    "Speak Focused Slot Changes": true,
+    "Delay (in milliseconds)": 150
+  },
+  "Mouse Simulation": {
+    "Enabled": true,
+    "Scroll Delay (in milliseconds)": 150
+  },
+  "Points of Interest": {
+    "Blocks": {
+      "Enabled": true,
+      "Detect Fluid Blocks": true,
+      "Range": 6,
+      "Play Sound": true,
+      "Sound Volume": 0.25,
+      "Play Sound for Other Blocks as well": false,
+      "Delay (in milliseconds)": 3000
+    },
+    "Entities": {
+      "Enabled": true,
+      "Range": 6,
+      "Play Sound": true,
+      "Volume": 0.25,
+      "Delay (in milliseconds)": 3000
+    },
+    "Entities/Blocks Locking": {
+      "Enabled": true,
+      "Lock on Blocks": true,
+      "Speak Relative Distance to Entity/Block": false,
+      "Play Sound Instead Of Speak": false,
+      "Auto Lock on to Eye of Ender when Used": true,
+      "Delay (in milliseconds)": 100,
+      "Bow aim assist": true,
+      "Aim assist audio cues": true,
+      "Aim assist audio cues volume": 0.5
+    },
+    "Entities/Blocks Marking": {
+      "Enabled": true,
+      "Suppress Other POI When Marking On": true
+    }
+  },
+  "Player Warnings": {
+    "Enabled": true,
+    "Play Sound": true,
+    "Health Threshold First": 6.0,
+    "Health Threshold Second": 3.0,
+    "Hunger Threshold": 3.0,
+    "Air Threshold": 3.0
+  },
+  "Fall Detector": {
+    "Enabled": true,
+    "Range": 6,
+    "Depth Threshold": 4,
+    "Play Alternate Sound": true,
+    "Sound Volume": 0.25,
+    "Delay (in milliseconds)": 2500
+  },
+  "Read Crosshair": {
+    "Enabled": true,
+    "Use Jade": true,
+    "Speak Block Sides": true,
+    "Disable Speaking Consecutive Blocks With Same Name": false,
+    "Repeat Speaking Interval (in milliseconds) (0 to disable)": 0,
+    "Relative Position Sound Cue": {
+      "Enabled": true,
+      "Min Sound Volume": 0.25,
+      "Max Sound Volume": 0.4
+    },
+    "Partial Speaking": {
+      "Enabled": false,
+      "White List Mode": true,
+      "Fuzzy Matching Mode": true,
+      "Target Mode": "block",
+      "Targets": [
+        "slab",
+        "planks",
+        "block",
+        "stone",
+        "sign"
+      ]
+    }
+  },
+  "Narrator Menu": {
+    "Enabled": true,
+    "Fluid Detector": {
+      "Sound Volume": 0.25,
+      "Range": 10
+    }
+  },
+  "Area Map": {
+    "Enabled": true,
+    "Delay (in milliseconds)": 150,
+    "Vertical Distance Bound": 2,
+    "Horizontal Distance Bound": 96
+  },
+  "Other Configurations": {
+    "Enable Biome Indicator": true,
+    "Enable XP Indicator": true,
+    "Enable Facing Direction": true,
+    "Enable Health n Hunger": true,
+    "Enable Position Narrator": true,
+    "Command Suggestion Narrator Format": "%dx%d %s",
+    "Use 12 Hour Time Format": false,
+    "Speak Action Bar Messages": true,
+    "Only Speak Action Bar Updates": false,
+    "Speak Harvest Of Fishing": true,
+    "Report Held Items Count When Changed": true,
+    "Enable Menu Fix": true,
+    "Debug Mode": false,
+    "Multiple Click Speed (in milliseconds)": 750
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "mod_id": "invincible",
+  "loader": "forge",
+  "versions": [
+    {
+      "version": "",
+      "skipForgeKeys": [
+      ],
+      "skipVanillaKeys": [
+      ],
+      "ignoreKeys": [
+      ],
+      "guiKeys": [
+      ],
+      "tips": [
+      ]
+    }
+  ]
+}
