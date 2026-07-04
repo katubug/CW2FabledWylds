@@ -38,7 +38,7 @@
 		{
 			color: 6321408
 			height: 1.25d
-			image: "enchanted_wilds:textures/questui/subtitles/art_of_death.png"
+			image: "enchanted_wilds:textures/questui/subtitles/artofdeath.png"
 			rotation: 0.0d
 			width: 8.0d
 			x: 5.3d

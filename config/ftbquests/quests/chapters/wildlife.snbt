@@ -1216,28 +1216,6 @@
 			y: -3.0d
 		}
 		{
-			id: "4D6A9260EB896658"
-			rewards: [{
-				count: 10
-				id: "21846818A605231C"
-				item: {
-					count: 1
-					id: "autumnity:snail_shell_piece"
-				}
-				type: "item"
-			}]
-			shape: "heart"
-			tasks: [{
-				entity: "autumnity:snail"
-				id: "3BD7E8A612A420CE"
-				search_radius_blocks: 64
-				target_radius_blocks: 5
-				type: "find_entity"
-			}]
-			x: -2.5d
-			y: 10.0d
-		}
-		{
 			dependencies: ["407BBCE05BCE9039"]
 			id: "001588EAB32E428A"
 			rewards: [{

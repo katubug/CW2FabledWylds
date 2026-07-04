@@ -384,6 +384,7 @@
 			y: -2.0d
 		}
 		{
+			dependencies: ["649CD989B90CED8A"]
 			id: "6BADAB3BD0E50555"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -416,7 +417,7 @@
 					id: "the_bumblezone:essence_life"
 				}
 				id: "70CF21FB5F2B81C3"
-				structure: "minecraft:mineshaft"
+				structure: "the_bumblezone:sempiternal_sanctum_green"
 				type: "structure"
 			}]
 			x: 7.5d
