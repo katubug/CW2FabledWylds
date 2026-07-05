@@ -1,0 +1,127 @@
+{
+  "enabled": true,
+  "mod_name": "Environmental",
+  "mod_id": "environmental",
+  "achievements": {
+    "husbandry/when_pigs_fly": {
+      "display_name": "When Pigs Fly",
+      "original_name": "When Pigs Fly",
+      "enabled": true,
+      "icon": "minecraft:carrot_on_a_stick",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "husbandry/saddle_pig": {
+      "display_name": "A Saddle on a Sow",
+      "original_name": "A Saddle on a Sow",
+      "enabled": true,
+      "icon": "minecraft:saddle",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "husbandry/shear_yak_with_pants": {
+      "display_name": "Yakety Sax",
+      "original_name": "Yakety Sax",
+      "enabled": true,
+      "icon": "environmental:yak_pants",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "husbandry/shear_cattail": {
+      "display_name": "Fluff Content",
+      "original_name": "Fluff Content",
+      "enabled": true,
+      "icon": "environmental:cattail_fluff",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "husbandry/truffle_shuffle": {
+      "display_name": "Truffle Shuffle",
+      "original_name": "Truffle Shuffle",
+      "enabled": true,
+      "icon": "minecraft:golden_carrot",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "husbandry/backpack_slabfish": {
+      "display_name": "First Day of School",
+      "original_name": "First Day of School",
+      "enabled": true,
+      "icon": "minecraft:chest",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "husbandry/feed_deer_flower": {
+      "display_name": "Full Bloom",
+      "original_name": "Full Bloom",
+      "enabled": true,
+      "icon": "minecraft:apple",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "husbandry/tame_all_slabfish": {
+      "display_name": "Funky Genetics",
+      "original_name": "Funky Genetics",
+      "enabled": true,
+      "icon": "minecraft:tropical_fish",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "husbandry/throw_mud_at_pig": {
+      "display_name": "Muddy Up",
+      "original_name": "Muddy Up",
+      "enabled": true,
+      "icon": "environmental:mud_ball",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "husbandry/place_koi_in_village": {
+      "display_name": "What a Koincidence!",
+      "original_name": "What a Koincidence!",
+      "enabled": true,
+      "icon": "environmental:koi_bucket",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "husbandry/plant_on_muddy_pig": {
+      "display_name": "Earth Day",
+      "original_name": "Earth Day",
+      "enabled": true,
+      "icon": "minecraft:red_tulip",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "husbandry/find_truffle": {
+      "display_name": "Toil and Truffle",
+      "original_name": "Toil and Truffle",
+      "enabled": true,
+      "icon": "environmental:truffle",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    }
+  }
+}

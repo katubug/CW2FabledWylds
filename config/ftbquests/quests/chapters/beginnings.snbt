@@ -656,8 +656,8 @@
 				optional_task: true
 				type: "custom"
 			}]
-			x: 0.0d
-			y: -5.0d
+			x: 0.2d
+			y: -8.7d
 		}
 		{
 			dependencies: ["66B094500E40DA3D"]

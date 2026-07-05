@@ -1,0 +1,16 @@
+{
+  "display": {
+    "icon": { "id": "minecraft:snowball" },
+    "title": { "translate": "advancement.misc.snowballs_chance.title" },
+    "description": { "translate": "advancement.misc.snowballs_chance.description" },
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": true
+  },
+  "parent": "enchanted_wilds:root",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

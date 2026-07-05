@@ -1,5 +1,7 @@
 ServerEvents.recipes(event => {
 
+	event.smelting( 'supplementaries:ash', 'minecraft:cooked_beef')
+
 	//Cookpot Needed for Cooking Frame
 	event.shaped('meadow:cooking_frame', [
 		'SSS',

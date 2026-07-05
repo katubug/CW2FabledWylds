@@ -2069,16 +2069,6 @@
 			y: -6.25d
 		}
 		{
-			id: "66D28EDE738787B4"
-			tasks: [{
-				duration_seconds: 10.0d
-				id: "2B7F3051B367E983"
-				type: "timer"
-			}]
-			x: 11.0d
-			y: -4.75d
-		}
-		{
 			id: "5C59C06355C7DC77"
 			tasks: [
 				{

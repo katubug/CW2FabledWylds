@@ -1,0 +1,16 @@
+{
+  "parent": "enchanted_wilds:root",
+  "display": {
+    "icon": { "id": "minecraft:warden_spawn_egg" },
+    "title": { "translate": "advancement.misc.stop_throwing_things_at_the_warden.title" },
+    "description": { "translate": "advancement.misc.stop_throwing_things_at_the_warden.description" },
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": true
+  },
+  "criteria": {
+    "thrown_egg": { "trigger": "minecraft:impossible" },
+    "thrown_snowball": { "trigger": "minecraft:impossible" },
+    "thrown_xp_bottle": { "trigger": "minecraft:impossible" }
+  }
+}

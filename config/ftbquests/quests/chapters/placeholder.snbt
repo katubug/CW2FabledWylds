@@ -169,17 +169,6 @@
 			y: -8.2d
 		}
 		{
-			id: "3AC8C2A12201C798"
-			tasks: [{
-				advancement: "kubejs:photography/photographed_lich"
-				criterion: ""
-				id: "3D88CEB1C08D02F3"
-				type: "advancement"
-			}]
-			x: -0.75d
-			y: -10.25d
-		}
-		{
 			id: "598D07A8C3ED765A"
 			rewards: [{
 				exclude_from_claim_all: true

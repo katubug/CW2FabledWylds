@@ -1,0 +1,28 @@
+{
+  "parent": "enchanted_wilds:root",
+  "criteria": {
+    "diamond": {
+      "conditions": {
+        "items": [
+          {
+            "items": "supplementaries:ash"
+          }
+        ],
+        "recipe_id": "minecraft:kjs/supplementaries_ash"
+      },
+      "trigger": "minecraft:recipe_crafted"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancement.misc.extra_well_done_steak.description"
+    },
+    "icon": {
+      "id": "supplementaries:ash"
+    },
+    "title": {
+      "translate": "advancement.misc.extra_well_done_steak.title"
+    }
+  },
+  "sends_telemetry_event": true
+}

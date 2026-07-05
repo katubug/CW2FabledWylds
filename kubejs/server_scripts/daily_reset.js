@@ -2,6 +2,7 @@ var hourlyCheckActive = false
 
 PlayerEvents.loggedIn(event => {
     var server = event.server
+    var player = event.player
 
     if (hourlyCheckActive) return
     hourlyCheckActive = true
@@ -12,7 +13,7 @@ PlayerEvents.loggedIn(event => {
         server.scheduleInTicks(secondsUntilNextHour * 20, _e => {
             if (java.time.ZonedDateTime.now(java.time.ZoneOffset.UTC).getHour() === 0) {
                 server.runCommandSilent('say [DEBUG] midnight UTC hit')
-                server.runCommandSilent('ftbquests change_progress ${player.username} reset 58938AAD0B7C8E23') //reset repeatable quests
+                server.runCommandSilent(`ftbquests change_progress ${player.username} reset 58938AAD0B7C8E23`) //reset repeatable quests
             }
             scheduleNextHourCheck()
         })
