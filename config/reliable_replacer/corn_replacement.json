@@ -1,0 +1,46 @@
+ [
+   {
+     "_comment_description": "BASIC SETTINGS: What to replace and what to replace it with.",
+     "inputs": [
+       "farm_and_charm:wild_corn"
+     ],
+     "output": "hearthandharvest:corn_stalk",
+     
+ 
+     "_comment_logic": "ADVANCED LOGIC: How the replacement behaves.",
+     "keep_states": true,
+     "retrogen": true,
+     "player_blocks": true,
+     "keep_nbt": true,
+
+     "_comment_output_states": "OUTPUT STATES: Force the output to have these properties",
+     "output_state_properties": {
+         "age": 5
+     },
+     
+     "_comment_multiblock": "MULTI-BLOCK: Place secondary blocks (like the top half of a door or clearing the top half of tall grass)",
+     "additional_blocks": [
+       {
+         "output": "hearthandharvest:corn_stalk",
+         "x_offset": 0,
+         "y_offset": 1,
+         "z_offset": 0,
+         "output_state_properties": {
+             "section": "middle",
+             "age": 5
+         }
+       },
+       {
+         "output": "hearthandharvest:corn_stalk",
+         "x_offset": 0,
+         "y_offset": 2,
+         "z_offset": 0,
+         "output_state_properties": {
+             "section": "top",
+             "age": 5
+         }
+       }
+     ]
+   }
+ ]
+ 

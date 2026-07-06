@@ -1,0 +1,13 @@
+{
+	id: "76EA0B4BACF7D133"
+	loot_size: 1
+	order_index: 29
+	rewards: [
+		{ id: "5960A56CF3C9C3BF", item: { count: 1, id: "tarotcards:judgement" } }
+		{ id: "3E10E80821BF3A63", item: { count: 1, id: "tarotcards:the_moon" } }
+		{ id: "1F402B7975B82F6D", item: { count: 1, id: "tarotcards:the_hierophant" } }
+		{ id: "64B7273EFC799FE4", item: { count: 1, id: "tarotcards:the_fool" } }
+		{ id: "53551160887647F1", item: { count: 1, id: "tarotcards:wheel_of_fortune" } }
+		{ id: "71994953B481E406", item: { count: 1, id: "tarotcards:the_chariot" } }
+	]
+}

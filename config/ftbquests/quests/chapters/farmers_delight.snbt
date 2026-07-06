@@ -112,38 +112,26 @@
 		{
 			dependencies: ["3AE0F1C1159FBDDE"]
 			id: "548376041885F6D1"
-			rewards: [{
-				id: "4B7C75DB02E57058"
-				type: "choice"
-			}]
 			shape: "hexagon"
 			tasks: [{
 				id: "7B4B34EE649076A3"
 				item: { count: 1, id: "farmersdelight:canvas" }
 				type: "item"
 			}]
-			x: -7.799999999999999d
-			y: 3.2d
+			x: -8.3d
+			y: 5.0d
 		}
 		{
 			dependencies: ["3AE0F1C1159FBDDE"]
 			id: "141887F26E89BAE8"
-			rewards: [{
-				id: "6858B53EC13EE0A2"
-				item: {
-					count: 1
-					id: "supplementaries:rope_arrow"
-				}
-				type: "item"
-			}]
 			shape: "hexagon"
 			tasks: [{
 				id: "45328BF090DF76BC"
 				item: { count: 1, id: "farmersdelight:rope" }
 				type: "item"
 			}]
-			x: -7.1999999999999975d
-			y: 2.4000000000000004d
+			x: -7.7d
+			y: 3.6d
 		}
 		{
 			dependencies: ["2CA80140F624D0AE"]
@@ -249,11 +237,6 @@
 				{
 					id: "6423E31169FF965C"
 					item: { count: 1, id: "farmersdelight:cabbage" }
-					type: "item"
-				}
-				{
-					id: "2CC257E0F2FBF493"
-					item: { }
 					type: "item"
 				}
 				{

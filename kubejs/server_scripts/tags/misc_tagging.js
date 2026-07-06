@@ -1,4 +1,10 @@
 ServerEvents.tags('item', event => {
+
+	//Sunfire tomato is a tomato
+	event.add('c:crops/tomato', 'hexalia:sunfire_tomato')
+	event.add('c:foods/tomato', 'hexalia:sunfire_tomato')
+
+
 	// Golden Things for Tarot
 	event.add('tarotcards:golden',
 		'nethersdelight:golden_machete',

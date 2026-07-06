@@ -1,5 +1,7 @@
 {
   "swapper": {
-    "examplemod:input_block": "examplemod:output_block"
+    "farm_and_charm:wild_tomatoes": "farmersdelight:wild_tomatoes",
+    "enchanted:belladonna": "hexerei:belladonna_plant",
+    "hexerei:mandrake_plant": "hexalia:mandrake_plant"
   }
 }

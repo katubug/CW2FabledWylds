@@ -599,11 +599,6 @@
 		}
 		{
 			id: "6CD94FF2310068FE"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "0DD29F86E9C4A50F"
-				type: "loot"
-			}]
 			shape: "hexagon"
 			tasks: [{
 				id: "25F5B0E3C7679E27"

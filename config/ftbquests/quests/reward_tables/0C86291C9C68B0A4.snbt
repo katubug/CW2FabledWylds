@@ -1,0 +1,11 @@
+{
+	id: "0C86291C9C68B0A4"
+	loot_size: 1
+	order_index: 28
+	rewards: [
+		{ id: "534CF892E24A2128", item: { count: 1, id: "tarotcards:the_tower" } }
+		{ id: "3EB502EF5255BD08", item: { count: 1, id: "tarotcards:the_hanged_man" } }
+		{ id: "22ADDDCEE7AA3DA2", item: { count: 1, id: "tarotcards:the_empress" } }
+		{ id: "1E75ECF2B9498433", item: { count: 1, id: "tarotcards:temperance" } }
+	]
+}

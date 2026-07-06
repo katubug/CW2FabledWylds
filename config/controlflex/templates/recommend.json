@@ -370,7 +370,7 @@
     "jei:key.jei.previousPage": "",
     "jei:key.jei.nextPage": "",
     "jei:key.jei.nextCategory": "",
-    "epicfight:key.epicfight.show_tooltip": "",
+    "epicfight:key.epicfight.show_tooltip": "leftTrigger|HOLD",
     "unknown:key.saveToolbarActivator": "",
     "unknown:key.loadToolbarActivator": ""
   },

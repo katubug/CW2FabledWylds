@@ -1,0 +1,77 @@
+{
+  "enabled": true,
+  "mod_name": "Some Assembly Required",
+  "mod_id": "someassemblyrequired",
+  "achievements": {
+    "obtain_sandwich": {
+      "display_name": "Beginner Breadsmithing",
+      "original_name": "Beginner Breadsmithing",
+      "enabled": true,
+      "icon": "someassemblyrequired:sandwich",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "obtain_toasted_bread_slice": {
+      "display_name": "The Greatest Thing Since...",
+      "original_name": "The Greatest Thing Since...",
+      "enabled": true,
+      "icon": "someassemblyrequired:toasted_bread_slice",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "consume_potion_sandwich": {
+      "display_name": "Sorcerer\u0027s Snack",
+      "original_name": "Sorcerer\u0027s Snack",
+      "enabled": true,
+      "icon": "someassemblyrequired:sandwich",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "obtain_bread_slice": {
+      "display_name": "A Matter of Loaf and Bread",
+      "original_name": "A Matter of Loaf and Bread",
+      "enabled": true,
+      "icon": "someassemblyrequired:bread_slice",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "consume_1000_burgers": {
+      "display_name": "Burger Prince",
+      "original_name": "Burger Prince",
+      "enabled": true,
+      "icon": "someassemblyrequired:sandwich",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "consume_double_decker_sandwich": {
+      "display_name": "Double Hungry",
+      "original_name": "Double Hungry",
+      "enabled": true,
+      "icon": "someassemblyrequired:sandwich",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "consume_1000_sandwiches": {
+      "display_name": "Sandwich Sam",
+      "original_name": "Sandwich Sam",
+      "enabled": true,
+      "icon": "someassemblyrequired:sandwich",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    }
+  }
+}

@@ -349,5 +349,37 @@
 			x: 8.8d
 			y: 3.7d
 		}
+		{
+			id: "3F47F402ECEF06A3"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "04F9EB5B4BB38315"
+				table_id: 902453978194292900L
+				type: "choice"
+			}]
+			tasks: [{
+				id: "67075C591C30C2C9"
+				item: { count: 1, id: "numismatics:cog" }
+				type: "item"
+			}]
+			x: 0.2d
+			y: -11.3d
+		}
+		{
+			id: "20857C9F84A08F08"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7D0D424296F5E7C8"
+				table_id: 8568673660678164787L
+				type: "choice"
+			}]
+			tasks: [{
+				id: "1CED30141890BFF6"
+				item: { count: 1, id: "numismatics:crown" }
+				type: "item"
+			}]
+			x: 1.9d
+			y: -11.3d
+		}
 	]
 }
