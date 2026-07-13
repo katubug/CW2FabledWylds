@@ -14,24 +14,9 @@ event.renameItem('architects_palette:tuff_brick_vertical_slab', 'Tuff Tile Verti
 
 event.renameItem('quark:calcite_pillar', 'Calcite Pillar')
 event.renameItem('architects_palette:calcite_pillar', 'Calcite Patterned Pillar')
-event.renameItem('create:calcite_pillar', 'Calcite Roman Pillar')
 
 event.renameItem('quark:dripstone_pillar', 'Dripstone Pillar')
 event.renameItem('architects_palette:dripstone_pillar', 'Dripstone Tiled Pillar')
-event.renameItem('create:dripstone_pillar', 'Dripstone Roman Pillar')
-
-event.renameItem('create:granite_pillar', 'Granite Roman Pillar')
-event.renameItem('create:diorite_pillar', 'Diorite Roman Pillar')
-event.renameItem('create:andesite_pillar', 'Andesite Roman Pillar')
-event.renameItem('create:deepslate_pillar', 'Deepslate Roman Pillar')
-event.renameItem('create:tuff_pillar', 'Tuff Roman Pillar')
-event.renameItem('create:asurine_pillar', 'Asurine Roman Pillar')
-event.renameItem('create:crimsite_pillar', 'Crimsite Roman Pillar')
-event.renameItem('create:limestone_pillar', 'Limestone Roman Pillar')
-event.renameItem('create:ochrum_pillar', 'Ochrum Roman Pillar')
-event.renameItem('create:scoria_pillar', 'Scoria Roman Pillar')
-event.renameItem('create:scorchia_pillar', 'Scorchia Roman Pillar')
-event.renameItem('create:veridium_pillar', 'Veridium Roman Pillar')
 
 event.renameItem('dawnoftimebuilder:cobbled_limestone', 'Cobbled Pale Limestone')
 event.renameItem('dawnoftimebuilder:cobbled_limestone_edge', 'Cobbled Pale Limestone Edge')

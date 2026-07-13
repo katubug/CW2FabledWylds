@@ -22,20 +22,6 @@ ServerEvents.recipes(event => {
 		}
 	)
 
-	// Tarot Deck
-	event.shaped(
-		Item.of('tarotcards:tarot_deck'),
-		[
-			'ABA',
-			'ACA',
-			'ADA'
-		], {
-			A: 'create:golden_sheet',
-			B: 'minecraft:dragon_egg',
-			C: 'minecraft:nether_star',
-			D: 'tarotcards:justice'
-		}
-	)
 
 	// Palette
 	event.shaped(
@@ -124,10 +110,6 @@ ServerEvents.recipes(event => {
 	            B: 'minecraft:redstone'
 	        }
 	    )
-	        
-	
-	// Blast 1 iron ingot into 10 nuggets in a Blast Furnace: 
-	event.blasting('create:zinc_block', 'create:raw_zinc_block')
 
 	//Dusky Myalite obtainable
 	event.shaped(

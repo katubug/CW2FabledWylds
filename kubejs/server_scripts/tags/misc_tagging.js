@@ -5,7 +5,6 @@ ServerEvents.tags('item', event => {
 	event.add('c:foods/tomato', 'hexalia:sunfire_tomato')
 
 	//limestone stuff
-	event.add('create:stone_types/limestone', 'dawnoftimebuilder:puuc_limestone', 'dawnoftimebuilder:cobbled_limestone', 'meadow:limestone')
 	event.add('quark:stone_tool_materials', 'dawnoftimebuilder:puuc_limestone', 'dawnoftimebuilder:cobbled_limestone', 'meadow:limestone')
 	event.add('c:stones', 'dawnoftimebuilder:puuc_limestone', 'dawnoftimebuilder:cobbled_limestone', 'meadow:limestone')
 
@@ -204,8 +203,6 @@ ServerEvents.tags('item', event => {
 		'regions_unexplored:redstone_bulb',
 		'regions_unexplored:pointed_redstone',
 		'waystones:warp_dust',
-		'create:rose_quartz',
-		'create:polished_rose_quartz',
 		'forbidden_arcanus:arcane_crystal_dust',
 		'forbidden_arcanus:arcane_crystal_dust_speck',
 		'minecraft:ender_pearl',
@@ -233,8 +230,6 @@ ServerEvents.tags('item', event => {
 		'regions_unexplored:redstone_bulb',
 		'regions_unexplored:pointed_redstone',
 		'waystones:warp_dust',
-		'create:rose_quartz',
-		'create:polished_rose_quartz',
 		'forbidden_arcanus:arcane_crystal_dust',
 		'forbidden_arcanus:arcane_crystal_dust_speck',
 		'minecraft:ender_pearl',
