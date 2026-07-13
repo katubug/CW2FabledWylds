@@ -203,16 +203,6 @@
         "items": []
       }
     },
-    "content/crawl_in_hollow_log": {
-      "display_name": "Crawling in my Bark",
-      "original_name": "Crawling in my Bark",
-      "enabled": true,
-      "icon": "quark:hollow_oak_log",
-      "rewards": {
-        "attributes": {},
-        "items": []
-      }
-    },
     "content/throw_pickarang": {
       "display_name": "Somehow, Pickarang Returned",
       "original_name": "Somehow, Pickarang Returned",

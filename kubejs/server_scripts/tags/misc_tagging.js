@@ -4,6 +4,11 @@ ServerEvents.tags('item', event => {
 	event.add('c:crops/tomato', 'hexalia:sunfire_tomato')
 	event.add('c:foods/tomato', 'hexalia:sunfire_tomato')
 
+	//limestone stuff
+	event.add('create:stone_types/limestone', 'dawnoftimebuilder:puuc_limestone', 'dawnoftimebuilder:cobbled_limestone', 'meadow:limestone')
+	event.add('quark:stone_tool_materials', 'dawnoftimebuilder:puuc_limestone', 'dawnoftimebuilder:cobbled_limestone', 'meadow:limestone')
+	event.add('c:stones', 'dawnoftimebuilder:puuc_limestone', 'dawnoftimebuilder:cobbled_limestone', 'meadow:limestone')
+
 
 	// Golden Things for Tarot
 	event.add('tarotcards:golden',

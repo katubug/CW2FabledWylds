@@ -4,7 +4,6 @@
   "enableArenaPalette": true,
   "enableServerRuntimeArenaPalette": false,
   "enableClientArenaPalette": false,
-  "enableClientOptimizations": true,
   "enableGcFreeWorldgenSave": true,
   "enableYALightEngine": false
 }

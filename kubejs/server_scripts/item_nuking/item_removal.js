@@ -125,7 +125,6 @@ let toRemove = [
     'tanukidecor:regal_armoire',
     'tanukidecor:turquoise_rocket_lamp',
     'tanukidecor:yellow_rocket_lamp',
-    'tide:fishing_journal',
     'trailandtales_delight:cheese_slice',
     'trailandtales_delight:cheese_wheel',
     'trailandtales_delight:curd_block',

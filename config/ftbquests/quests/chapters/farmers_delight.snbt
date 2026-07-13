@@ -358,11 +358,6 @@
 					type: "item"
 				}
 				{
-					id: "13803B6E5CB2DF76"
-					item: { }
-					type: "item"
-				}
-				{
 					consume_items: true
 					count: 10L
 					id: "5CE060E19611C1DE"
@@ -384,12 +379,6 @@
 				}
 				{
 					count: 10L
-					id: "55F02BCB172E8D8C"
-					item: { components: { "ftbquests:missing_item": "delightful:salmonberry_sack" }, count: 1, id: "ftbquests:missing_item" }
-					type: "item"
-				}
-				{
-					count: 10L
 					id: "233047787B0AEDB1"
 					item: { count: 1, id: "farm_and_charm:corn_bag" }
 					type: "item"
@@ -407,48 +396,25 @@
 		{
 			dependencies: ["2CA80140F624D0AE"]
 			id: "2973338AB622C5D6"
-			rewards: [
-				{
-					exclude_from_claim_all: true
-					id: "380BDD48693BCD8F"
-					type: "loot"
-				}
-				{
-					exclude_from_claim_all: true
-					id: "64720E736EC3511D"
-					table_id: 6518300475828805418L
-					type: "choice"
-				}
-			]
 			tasks: [
-				{
-					id: "1B1F3AA7E0786E0D"
-					item: { components: { "ftbquests:missing_item": "delightful:salmonberry_sack" }, count: 1, id: "ftbquests:missing_item" }
-					type: "item"
-				}
-				{
-					id: "4ACD20B0FA4352AE"
-					item: { components: { "ftbquests:missing_item": "delightful:acorn_sack" }, count: 1, id: "ftbquests:missing_item" }
-					type: "item"
-				}
-				{
-					id: "7A2978437C35FAF4"
-					item: { components: { "ftbquests:missing_item": "delightful:blueberry_sack" }, count: 1, id: "ftbquests:missing_item" }
-					type: "item"
-				}
-				{
-					id: "4B66FA5A5B0F2983"
-					item: { components: { "ftbquests:missing_item": "vinery:apple_bag" }, count: 1, id: "ftbquests:missing_item" }
-					type: "item"
-				}
-				{
-					id: "2C05CCABCF69D255"
-					item: { components: { "ftbquests:missing_item": "herbalbrews:tea_leaf_crate" }, count: 1, id: "ftbquests:missing_item" }
-					type: "item"
-				}
 				{
 					id: "075F95D4BAE955E3"
 					item: { count: 1, id: "farm_and_charm:strawberry_bag" }
+					type: "item"
+				}
+				{
+					id: "4BD1C48CA0328F27"
+					item: { count: 1, id: "quark:berry_sack" }
+					type: "item"
+				}
+				{
+					id: "27C75695A4EDFF6D"
+					item: { count: 1, id: "quark:glowberry_sack" }
+					type: "item"
+				}
+				{
+					id: "44AC41ACAE4AD335"
+					item: { count: 1, id: "hearthandharvest:corn_kernel_bag" }
 					type: "item"
 				}
 			]
@@ -687,17 +653,7 @@
 		}
 		{
 			id: "0C66306B20F7844C"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "1C432389AA91764A"
-				type: "loot"
-			}]
 			tasks: [
-				{
-					id: "14F57B3F5CFF4AC2"
-					item: { components: { "ftbquests:missing_item": "fruitsdelight:hawberry_crate" }, count: 1, id: "ftbquests:missing_item" }
-					type: "item"
-				}
 				{
 					id: "008EB7C7C7153543"
 					item: { count: 1, id: "hearthandharvest:blueberry_crate" }
@@ -711,16 +667,6 @@
 				{
 					id: "50B8AE6EB9285299"
 					item: { count: 1, id: "quark:glowberry_sack" }
-					type: "item"
-				}
-				{
-					id: "7D6EA6414D2B63BF"
-					item: { components: { "ftbquests:missing_item": "fruitsdelight:cranberry_crate" }, count: 1, id: "ftbquests:missing_item" }
-					type: "item"
-				}
-				{
-					id: "430978F06F48FDF1"
-					item: { components: { "ftbquests:missing_item": "delightful:salmonberry_sack" }, count: 1, id: "ftbquests:missing_item" }
 					type: "item"
 				}
 				{
@@ -810,11 +756,6 @@
 				{
 					id: "5ACD6C27B63B3EE1"
 					item: { count: 1, id: "farmersdelight:cabbage_crate" }
-					type: "item"
-				}
-				{
-					id: "7A5A4332BE18FEF3"
-					item: { count: 1, id: "farm_and_charm:corn_bag" }
 					type: "item"
 				}
 				{

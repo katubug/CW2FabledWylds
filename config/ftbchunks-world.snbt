@@ -30,7 +30,7 @@
 	
 	# Minimap for clients connecting to this server will be disabled
 	# Default: false
-	force_disable_minimap: false
+	force_disable_minimap: true
 	
 	# If true, "Location Visibility" team settings are ignored, and all players can see each other anywhere on the map.
 	# Default: false
@@ -190,7 +190,7 @@
 		
 		# Default allow-fake-player setting for team properties
 		# Default: false
-		def_fake_players: false
+		def_fake_players: true
 		
 		# Default mob griefing protection for claimed chunks
 		# Default: false

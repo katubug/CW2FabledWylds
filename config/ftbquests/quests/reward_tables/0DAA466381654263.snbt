@@ -1,0 +1,13 @@
+{
+	id: "0DAA466381654263"
+	loot_size: 1
+	order_index: 30
+	rewards: [
+		{ id: "49F32F2EDF266292", item: { count: 1, id: "tarotcards:the_devil" } }
+		{ id: "3B00C5D9085C18FA", item: { count: 1, id: "tarotcards:death" } }
+		{ id: "6B3A1F1918241F5D", item: { count: 1, id: "tarotcards:the_hermit" } }
+		{ id: "3F5C322E2C1F88FE", item: { count: 1, id: "tarotcards:the_sun" } }
+		{ id: "17D2554C9ACB1DDA", item: { count: 1, id: "tarotcards:the_star" } }
+		{ id: "0CAD57ED0E4AB91F", item: { count: 1, id: "tarotcards:the_lovers" } }
+	]
+}

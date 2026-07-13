@@ -1534,22 +1534,22 @@
 				}
 				{
 					id: "5BF2CD86C3FDD821"
-					item: { count: 1, id: "idas:music_disc_slither" }
+					item: { components: { "ftbquests:missing_item": "idas:music_disc_slither" }, count: 1, id: "ftbquests:missing_item" }
 					type: "item"
 				}
 				{
 					id: "1FAF4BD8D40DA012"
-					item: { count: 1, id: "idas:music_disc_calidum" }
+					item: { components: { "ftbquests:missing_item": "idas:music_disc_calidum" }, count: 1, id: "ftbquests:missing_item" }
 					type: "item"
 				}
 				{
 					id: "6A971DB6F52792E5"
-					item: { count: 1, id: "integrated_stronghold:music_disc_sight" }
+					item: { components: { "ftbquests:missing_item": "integrated_stronghold:music_disc_sight" }, count: 1, id: "ftbquests:missing_item" }
 					type: "item"
 				}
 				{
 					id: "50B90DC0C48F2014"
-					item: { count: 1, id: "integrated_stronghold:music_disc_forlorn" }
+					item: { components: { "ftbquests:missing_item": "integrated_stronghold:music_disc_forlorn" }, count: 1, id: "ftbquests:missing_item" }
 					type: "item"
 				}
 				{

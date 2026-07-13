@@ -1,0 +1,13 @@
+{
+  "attributeFixes": true,
+  "shutUpExperimentalSettings": true,
+  "tooFast": true,
+  "fastIpPing": true,
+  "netherPortalFix": true,
+  "commandStructures": true,
+  "keybindFix": true,
+  "swingThrough": true,
+  "appleSkin": true,
+  "controlling": true,
+  "mouseTweaks": true
+}

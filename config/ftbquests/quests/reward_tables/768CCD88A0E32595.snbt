@@ -1,0 +1,13 @@
+{
+	id: "768CCD88A0E32595"
+	loot_size: 1
+	order_index: 31
+	rewards: [
+		{ id: "08EFA4C50AEEB08C", item: { count: 1, id: "tarotcards:the_high_priestess" } }
+		{ id: "6CADA526E91CE249", item: { count: 1, id: "tarotcards:the_magician" } }
+		{ id: "4A9DC3BC1B878994", item: { count: 1, id: "tarotcards:the_world" } }
+		{ id: "78D9728172D3F16F", item: { count: 1, id: "tarotcards:justice" } }
+		{ id: "388E52F94ED72546", item: { count: 1, id: "tarotcards:strength" } }
+		{ id: "2E89D16FE5944AE9", item: { count: 1, id: "tarotcards:the_emperor" } }
+	]
+}

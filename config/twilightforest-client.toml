@@ -1,5 +1,5 @@
 #Makes Cicadas silent for those having sound library problems or finding them annoying.
-silentCicadas = false
+silentCicadas = true
 #Makes Cicadas silent when one is on your head. If the above option is set to true, this won't have any effect.
 silentCicadasOnHead = false
 #Controls whether the screen shakes when a Magic Bean is in the process of growing.

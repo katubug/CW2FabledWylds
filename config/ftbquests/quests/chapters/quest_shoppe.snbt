@@ -374,11 +374,63 @@
 				type: "choice"
 			}]
 			tasks: [{
-				id: "1CED30141890BFF6"
-				item: { count: 1, id: "numismatics:crown" }
+				count: 2L
+				id: "71511D7C89AFEED1"
+				item: { count: 1, id: "numismatics:cog" }
 				type: "item"
 			}]
 			x: 1.9d
+			y: -11.3d
+		}
+		{
+			id: "379BBBB45274DA68"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2AC99A89B479D1D6"
+				table_id: 8542428579913475477L
+				type: "choice"
+			}]
+			tasks: [{
+				count: 3L
+				id: "3C016B29C9DA0005"
+				item: { count: 1, id: "numismatics:crown" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: -11.3d
+		}
+		{
+			id: "7B961AF6E8BF8EE0"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3E9696D081DC7516"
+				table_id: 984676861720478307L
+				type: "choice"
+			}]
+			tasks: [{
+				id: "57F1F5C01D9282E0"
+				item: { count: 1, id: "numismatics:crown" }
+				type: "item"
+			}]
+			x: 3.2d
+			y: -11.3d
+		}
+		{
+			id: "7FFDEC31AD094335"
+			rewards: [{
+				id: "69346B3E9B4AE166"
+				item: {
+					count: 1
+					id: "tarotcards:tarot_deck"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "60A006A43BE12128"
+				item: { count: 1, id: "numismatics:sun" }
+				type: "item"
+			}]
+			x: 5.9d
 			y: -11.3d
 		}
 	]

@@ -16,6 +16,11 @@ chapterHoverHighlightColor = "#28FFFFFF"
 #curses and normal enchantments alike -- while unidentified they render in this one color,
 #not vanilla's curse-red/normal-gray split. Hex format: #RRGGBB.
 unidentifiedColor = "#AAAAAA"
+#Disables FTB Chunks' fullscreen world map (M key) and minimap entirely.
+#Also stops FTB Chunks from touching its map data while it's still loading in after joining a world,
+#which otherwise can spam "Attempted to access MapManager before it was setup!" warnings and stutter the game.
+#Does not affect chunk claiming (a separate screen/keybind) or FTB Chunks' claim protection.
+disableFtbChunksMap = true
 #Remap or add FTB Quests text formatting shortcodes (e.g. &c). Each entry is "<letter>:#RRGGBB", for example "c:#FF0000".
 #Applies to any FTB Library-based screen (not just FTB Quests), since the shortcode parser is shared across the FTB mod family.
 #Defaults below reproduce FTB's own current colors for 0-9/a-f unchanged -- edit freely, or add unused letters as new codes.
