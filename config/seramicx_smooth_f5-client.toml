@@ -1,0 +1,11 @@
+#Smoothing
+[smoothing]
+	#Length of the F5 perspective ease-out, in milliseconds.
+	#  500 (default) - quick, snappy.
+	#  Higher (e.g. 800-1000) - more cinematic.
+	#  Lower (e.g. 200-300) - close to vanilla snap.
+	#Player movement does NOT add to this duration. The ease decays
+	#in a fixed window regardless of what the player is doing.
+	# Default: 500
+	# Range: 50 ~ 5000
+	transition_duration_ms = 500

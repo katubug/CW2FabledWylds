@@ -10,7 +10,6 @@ let toRemove = [
     'architects_palette:hazard_vertical_slab',
     'architects_palette:hazard_wall',
     'autumnity:syrup_bottle',
-    'create:dough',
     'crittersandcompanions:diamond_dragonfly_armor',
     'crittersandcompanions:gold_dragonfly_armor',
     'crittersandcompanions:iron_dragonfly_armor',
@@ -47,7 +46,6 @@ let toRemove = [
     'hearthandharvest:cherry',
     'hearthandharvest:cherry_crate',
     'hearthandharvest:chocolate_bar',
-    'create:bar_of_chocolate',
     'hearthandharvest:glow_berry_crate',
     'hearthandharvest:green_grape_crate',
     'hearthandharvest:red_grape_crate',
@@ -136,7 +134,6 @@ let toRemove = [
     'unusual_furniture:trash',
     'unusual_furniture:warning_barrier',
     'unusual_furniture:wooden_barrier',
-    'create:wheat_flour',
     'farm_and_charm:flour_bag',
     'autumnity:syrup_bottle',
     'quark:potato_crate',
@@ -146,7 +143,6 @@ let toRemove = [
     'farm_and_charm:corn',
     'farm_and_charm:corn_bag',
     'farm_and_charm:roasted_corn',
-    'create:bar_of_chocolate',
 
 ];
 

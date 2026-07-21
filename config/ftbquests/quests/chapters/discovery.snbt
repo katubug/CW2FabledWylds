@@ -1,5 +1,5 @@
 {
-	autofocus_id: "72CE099C5784339A"
+	autofocus_id: "741F84C68D32AFAB"
 	default_hide_dependency_lines: false
 	default_min_width: 350
 	default_quest_shape: ""
@@ -9,6 +9,34 @@
 		id: "minecraft:spyglass"
 	}
 	id: "7F553DB3A577011E"
+	images: [
+		{
+			height: 20.0d
+			image: "enchanted_wilds:textures/questui/bookbgslg/cyan_book_lg.png"
+			rotation: 0.0d
+			width: 25.0d
+			x: 0.0d
+			y: 1.1d
+		}
+		{
+			color: 2017209
+			height: 2.5d
+			image: "enchanted_wilds:textures/questui/titles/discovery.png"
+			rotation: 0.0d
+			width: 9.0d
+			x: -4.8d
+			y: -5.2d
+		}
+		{
+			color: 2017209
+			height: 1.25d
+			image: "enchanted_wilds:textures/questui/subtitles/structures.png"
+			rotation: 0.0d
+			width: 8.0d
+			x: -4.7d
+			y: -0.4d
+		}
+	]
 	order_index: 0
 	quest_links: [ ]
 	quests: [
@@ -29,8 +57,8 @@
 				item: { components: { "ftbfiltersystem:filter": "or(item(hexerei:reading_glasses)item(minecraft:spyglass))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
-			x: 0.0d
-			y: 0.0d
+			x: -7.0d
+			y: -3.2d
 		}
 		{
 			dependencies: ["72CE099C5784339A"]
@@ -40,10 +68,11 @@
 				item: { count: 1, id: "exposure:camera" }
 				type: "item"
 			}]
-			x: 3.25d
-			y: 0.0d
+			x: -4.4d
+			y: -3.1d
 		}
 		{
+			dependencies: ["2BB8D1410BD7C040"]
 			id: "5C0698C5831F824F"
 			tasks: [{
 				advancement: "exposure:adventure/wildlife_archivist"
@@ -51,11 +80,12 @@
 				id: "52BDC8F8610519EF"
 				type: "advancement"
 			}]
-			x: -0.25d
-			y: -2.25d
+			x: -2.0d
+			y: -3.7d
 		}
 		{
 			id: "54B176A22CBFD31F"
+			shape: "octagon"
 			tasks: [{
 				icon: {
 					id: "delighto_flight:cloud"
@@ -64,8 +94,93 @@
 				structure: "delighto_flight:cloud_island"
 				type: "structure"
 			}]
-			x: -4.0d
-			y: 0.1d
+			x: -7.4d
+			y: 1.0d
+		}
+		{
+			always_invisible: true
+			id: "741F84C68D32AFAB"
+			size: 0.5d
+			tasks: [{
+				id: "5874275EFBB27F6B"
+				type: "custom"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "3533886FEAAAE291"
+			shape: "octagon"
+			tasks: [{
+				advancement: "betterdungeons:zombie_dungeon"
+				criterion: ""
+				id: "128CFDF2939D2CA6"
+				type: "advancement"
+			}]
+			x: -5.7d
+			y: 1.1d
+		}
+		{
+			id: "50DA655C90509B80"
+			shape: "octagon"
+			tasks: [{
+				icon: {
+					id: "endrem:witch_eye"
+				}
+				id: "70F60AFE2B3047F6"
+				structure: "epic:witch_hut"
+				type: "structure"
+			}]
+			x: -3.9d
+			y: 1.0d
+		}
+		{
+			id: "6414EFB17FFD56CB"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1159A9278CD33969"
+				table_id: 7328857662613080212L
+				type: "random"
+			}]
+			shape: "octagon"
+			tasks: [{
+				icon: {
+					id: "ribbits:toadstool"
+				}
+				id: "4BF1F8949B84899A"
+				structure: "ribbits:ribbit_village"
+				type: "structure"
+			}]
+			x: -2.4d
+			y: 0.9d
+		}
+		{
+			id: "12BC0C79FE723230"
+			shape: "octagon"
+			tasks: [{
+				icon: {
+					id: "minecraft:oak_chest_boat"
+				}
+				id: "3D4084364C8FF060"
+				structure: "trek:overworld/rare/tower_island"
+				type: "structure"
+			}]
+			x: -6.6d
+			y: 2.2d
+		}
+		{
+			id: "6E5FC4F24E0EDAFE"
+			shape: "octagon"
+			tasks: [{
+				icon: {
+					id: "minecraft:mossy_cobblestone"
+				}
+				id: "1B8772D62B400ADA"
+				structure: "mss:castle_tower"
+				type: "structure"
+			}]
+			x: -4.7d
+			y: 2.3d
 		}
 	]
 }

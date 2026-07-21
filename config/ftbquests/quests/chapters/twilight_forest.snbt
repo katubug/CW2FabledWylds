@@ -5,7 +5,7 @@
 	filename: "twilight_forest"
 	group: "4E9968A53CD6CA57"
 	icon: {
-		id: "twilightforest:magic_map_focus"
+		id: "twilightforest:twilight_portal_miniature_structure"
 	}
 	id: "23CEC5718927D582"
 	order_index: 5
@@ -17,21 +17,14 @@
 				id: "twilightforest:twilight_portal_miniature_structure"
 			}
 			id: "730964D8E1FD059F"
-			rewards: [
-				{
-					exclude_from_claim_all: true
-					id: "19306FFE5AF17538"
-					type: "choice"
+			rewards: [{
+				id: "33E22D562AA8E674"
+				item: {
+					count: 1
+					id: "twilightforest:twilight_portal_miniature_structure"
 				}
-				{
-					id: "33E22D562AA8E674"
-					item: {
-						count: 1
-						id: "twilightforest:twilight_portal_miniature_structure"
-					}
-					type: "item"
-				}
-			]
+				type: "item"
+			}]
 			tasks: [{
 				dimension: "twilightforest:twilight_forest"
 				id: "2522694F96FD15CA"
@@ -225,21 +218,6 @@
 		{
 			dependencies: ["730964D8E1FD059F"]
 			id: "62A0D663EF2B58C1"
-			rewards: [
-				{
-					id: "7613E44F834D267C"
-					item: {
-						count: 1
-						id: "minecraft:enchanted_book"
-					}
-					type: "item"
-				}
-				{
-					exclude_from_claim_all: true
-					id: "19A5F0C7617CD80D"
-					type: "choice"
-				}
-			]
 			shape: "hexagon"
 			tasks: [{
 				id: "6640CC33AA28C74F"
@@ -317,16 +295,6 @@
 			dependencies: ["00B1A6C679547AF2"]
 			id: "14B45702F0F82689"
 			optional: true
-			rewards: [
-				{
-					id: "58DC59194FD2B38E"
-					type: "loot"
-				}
-				{
-					id: "71EF3889F128E564"
-					type: "loot"
-				}
-			]
 			shape: "pentagon"
 			tasks: [{
 				consume_items: true
@@ -341,10 +309,6 @@
 		{
 			dependencies: ["3A0205CA0568641F"]
 			id: "1B8E61A0872EEA1C"
-			rewards: [{
-				id: "2545DFB3D90982C3"
-				type: "choice"
-			}]
 			tasks: [{
 				icon: {
 					id: "twilightforest:lich_tower_miniature_structure"
@@ -501,10 +465,6 @@
 		{
 			dependencies: ["62F755926795DBB6"]
 			id: "41CBB146259DAF34"
-			rewards: [{
-				id: "27D5E4B9499E2336"
-				type: "loot"
-			}]
 			tasks: [{
 				icon: {
 					id: "twilightforest:alpha_yeti_trophy"
@@ -641,28 +601,21 @@
 		{
 			dependencies: ["1B8E61A0872EEA1C"]
 			id: "62F755926795DBB6"
-			rewards: [
-				{
-					id: "1297B897EC9603F7"
-					item: {
-						count: 1
-						id: "twilightforest:lich_tower_miniature_structure"
-					}
-					type: "item"
+			rewards: [{
+				id: "1297B897EC9603F7"
+				item: {
+					count: 1
+					id: "twilightforest:lich_tower_miniature_structure"
 				}
-				{
-					id: "1333763D4F0147B9"
-					item: {
-						count: 1
-						id: "minecraft:apple"
-					}
-					type: "item"
-				}
-			]
+				type: "item"
+			}]
 			tasks: [{
-				advancement: "twilightforest:progress_lich"
+				advancement: "enchanted_wilds:photography/photographed_lich"
 				criterion: ""
-				id: "7898CAECDDC6D1FA"
+				icon: {
+					id: "exposure:photograph"
+				}
+				id: "23561E3733B66EFD"
 				type: "advancement"
 			}]
 			x: -3.0d
@@ -801,13 +754,10 @@
 					type: "item"
 				}
 				{
-					id: "7BAD2380264D5D6C"
+					id: "26F8E3B87679A311"
 					item: {
-						components: {
-							"ftbquests:missing_item": "plushies:sheep"
-						}
 						count: 1
-						id: "ftbquests:missing_item"
+						id: "plushie_buddies:plushie_sheep"
 					}
 					type: "item"
 				}
@@ -894,7 +844,7 @@
 				item: { count: 1, id: "ftbquests:barrier" }
 				type: "item"
 			}]
-			x: 0.0d
+			x: -0.1d
 			y: 0.0d
 		}
 	]

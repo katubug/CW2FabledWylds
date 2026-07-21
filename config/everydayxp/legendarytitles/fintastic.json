@@ -1,0 +1,237 @@
+{
+  "enabled": true,
+  "mod_name": "Fintastic",
+  "mod_id": "fintastic",
+  "achievements": {
+    "fintastic/small_catfish": {
+      "display_name": "Baby Cats Very Cute",
+      "original_name": "Baby Cats Very Cute",
+      "enabled": true,
+      "icon": "fintastic:small_catfish",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "fintastic/bad_feed": {
+      "display_name": "I Thought This Was Supposed To Be A Golden Dandelion?",
+      "original_name": "I Thought This Was Supposed To Be A Golden Dandelion?",
+      "enabled": true,
+      "icon": "fintastic:bad_feed",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "fintastic/premium_feed": {
+      "display_name": "That\u0027s Some Gourmet Stuff",
+      "original_name": "That\u0027s Some Gourmet Stuff",
+      "enabled": true,
+      "icon": "fintastic:premium_feed",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "fintastic/copepod": {
+      "display_name": "One Big Eye",
+      "original_name": "One Big Eye",
+      "enabled": true,
+      "icon": "fintastic:copepod",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "fintastic/deltarune": {
+      "display_name": "Really, Deltarune Fans?",
+      "original_name": "Really, Deltarune Fans?",
+      "enabled": true,
+      "icon": "fintastic:green_dwarf_froglight",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "fintastic/catfish": {
+      "display_name": "He Looked Taller On His Dating Profile",
+      "original_name": "He Looked Taller On His Dating Profile",
+      "enabled": true,
+      "icon": "fintastic:catfish",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "fintastic/fishnet": {
+      "display_name": "No Bucket No Problem!",
+      "original_name": "No Bucket No Problem!",
+      "enabled": true,
+      "icon": "fintastic:fishnet",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "fintastic/arapaima": {
+      "display_name": "River Monster",
+      "original_name": "River Monster",
+      "enabled": true,
+      "icon": "fintastic:arapaima",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "fintastic/moony": {
+      "display_name": "Mini Moon",
+      "original_name": "Mini Moon",
+      "enabled": true,
+      "icon": "fintastic:moony",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "fintastic/gourami": {
+      "display_name": "Oh, That\u0027s Gour Of My Comfort Ami",
+      "original_name": "Oh, That\u0027s Gour Of My Comfort Ami",
+      "enabled": true,
+      "icon": "fintastic:gourami",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "fintastic/normal_feed": {
+      "display_name": "Fish Yum Yums",
+      "original_name": "Fish Yum Yums",
+      "enabled": true,
+      "icon": "fintastic:regular_feed",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "fintastic/guppy": {
+      "display_name": "Endler Guppy Baby",
+      "original_name": "Endler Guppy Baby",
+      "enabled": true,
+      "icon": "fintastic:guppy",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "fintastic/aquarium_glass": {
+      "display_name": "See Through, I See Right Through You!",
+      "original_name": "See Through, I See Right Through You!",
+      "enabled": true,
+      "icon": "fintastic:aquarium_glass",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "fintastic/green_aquatic_thumb": {
+      "display_name": "Green (Aquatic) Thumb",
+      "original_name": "Green (Aquatic) Thumb",
+      "enabled": true,
+      "icon": "fintastic:lotus_pad",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "fintastic/pleco": {
+      "display_name": "Is This Fish Peaceful Or Ferocious?",
+      "original_name": "Is This Fish Peaceful Or Ferocious?",
+      "enabled": true,
+      "icon": "fintastic:pleco",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "fintastic/featherback": {
+      "display_name": "Fish Of A Feather School Together",
+      "original_name": "Fish Of A Feather School Together",
+      "enabled": true,
+      "icon": "fintastic:featherback",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "fintastic/insaniquarium": {
+      "display_name": "Insaniquarium!",
+      "original_name": "Insaniquarium!",
+      "enabled": true,
+      "icon": "fintastic:arapaima_fishnet",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "fintastic/daphnia": {
+      "display_name": "Underwater Flea Circus",
+      "original_name": "Underwater Flea Circus",
+      "enabled": true,
+      "icon": "fintastic:daphnia",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "fintastic/minnow": {
+      "display_name": "Many-A-Minnow",
+      "original_name": "Many-A-Minnow",
+      "enabled": true,
+      "icon": "fintastic:minnow",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "fintastic/sharkminnow": {
+      "display_name": "Not Actually Sharks",
+      "original_name": "Not Actually Sharks",
+      "enabled": true,
+      "icon": "fintastic:sharkminnow",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "fintastic/dwarf_frog": {
+      "display_name": "It Is Wednesday, My Dudes",
+      "original_name": "It Is Wednesday, My Dudes",
+      "enabled": true,
+      "icon": "fintastic:dwarf_frog",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "fintastic/coelacanth": {
+      "display_name": "Living Fossil",
+      "original_name": "Living Fossil",
+      "enabled": true,
+      "icon": "fintastic:coelacanth",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "fintastic/fishing_hat": {
+      "display_name": "Women Fear Me, Fish Fear Me",
+      "original_name": "Women Fear Me, Fish Fear Me",
+      "enabled": true,
+      "icon": "fintastic:fishing_hat",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    }
+  }
+}

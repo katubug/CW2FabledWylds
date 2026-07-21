@@ -7,10 +7,13 @@
 			count: 2
 			id: "3880EBEB125B1CA4"
 			item: {
+				components: {
+					"ftbquests:missing_item": "numismatics:sprocket"
+				}
 				count: 1
-				id: "numismatics:sprocket"
+				id: "ftbquests:missing_item"
 			}
 		}
-		{ id: "6691B72E8422F69A", item: { count: 1, id: "numismatics:sprocket" } }
+		{ id: "6691B72E8422F69A", item: { components: { "ftbquests:missing_item": "numismatics:sprocket" }, count: 1, id: "ftbquests:missing_item" } }
 	]
 }

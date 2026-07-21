@@ -2085,5 +2085,50 @@
 			x: -6.9d
 			y: -10.1d
 		}
+		{
+			id: "02000A977B04C84A"
+			tasks: [{
+				entity: "mowziesmobs:umvuthi"
+				id: "564233F0DA0498DC"
+				search_radius_blocks: 64
+				target_radius_blocks: 15
+				type: "find_entity"
+			}]
+			x: 14.6d
+			y: -4.3d
+		}
+		{
+			id: "4BB2ED765707EA69"
+			tasks: [{
+				entity: "mowziesmobs:foliaath"
+				id: "67DEC4793DBA55EC"
+				search_radius_blocks: 64
+				target_radius_blocks: 5
+				type: "find_entity"
+			}]
+			x: 17.8d
+			y: -0.3d
+		}
+		{
+			id: "5085CFDE1E14144D"
+			tasks: [{
+				entity: "mowziesmobs:ferrous_wroughtnaut"
+				id: "75258C714037F2D3"
+				type: "kill"
+				value: 1L
+			}]
+			x: 14.5d
+			y: -1.8d
+		}
+		{
+			id: "732D5D711B04EA36"
+			tasks: [{
+				id: "4D5562BB10C6B788"
+				item: { count: 1, id: "mowziesmobs:ice_crystal" }
+				type: "item"
+			}]
+			x: 13.9d
+			y: -7.3d
+		}
 	]
 }

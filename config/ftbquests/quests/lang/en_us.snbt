@@ -409,6 +409,14 @@
 	quest.01FC94426C833CE3.quest_subtitle: "{components:{\"ae2:facade_item\":\"cluttered:stripped_sycamore_log\"},count:1,id:\"ae2:facade\"}"
 	quest.01FD602EDD9FE709.quest_subtitle: "{count:1,id:\"twilightforest:naga_boss_spawner\"}"
 	quest.01FDDD4891321470.quest_subtitle: "{components:{\"ae2:facade_item\":\"quark:waxed_yellow_corundum\"},count:1,id:\"ae2:facade\"}"
+	quest.02000A977B04C84A.quest_desc: [
+		"&eUmvuthi, the Sunbird&r is deity to his people, who he both protects and creates. The ancient texts have this to say:"
+		""
+		"&o&eUmvuthi&r is the creator of the &eAbavuthana&r, residing in a stationary seat upon a throne in &csavanna groves&r. He draws his power from the sun, &acalling forth sunstrikes, solar flares, and massive solar beams&r. He can also &acreate Umvuthana followers&r - including healers called Umvuthana Cranes - from masks to defend him during combat. As such, his masked children revere him as a god. Unequipped travelers should keep their distance from his grove, lest they be smitten by his heliomancy."
+		""
+		"&oThose strong enough to face and defeat him, however, are rewarded with his mask: the &bSol Visage&r. This mask allows its wearers to breathe life into masks to create Umvuthana followers. Unfortunately, the mask does not bestow heliomancy upon its bearer; this power is innately carried by Umvuthi, and thus dies with him. &dPerhaps there is another way&r...?&r"
+	]
+	quest.02000A977B04C84A.quest_subtitle: "praise the sun...or else"
 	quest.0202DFC506589996.quest_subtitle: "{components:{\"minecraft:entity_data\":{id:\"minecraft:painting\",variant:\"portfolio:table\"}},count:1,id:\"minecraft:painting\"}"
 	quest.020619B6B7FC3D64.quest_subtitle: "{count:1,id:\"thaumon:amberglass_pane\"}"
 	quest.02077FE0308289AB.quest_subtitle: "{count:1,id:\"cluttered:flowering_crabapple_fence_gate\"}"
@@ -3455,6 +3463,8 @@
 	quest.12B88411396145A8.quest_subtitle: "{count:1,id:\"minecraft:raw_iron_block\"}"
 	quest.12B8DC4D6781499C.quest_subtitle: "{count:1,id:\"framedblocks:framed_slope\"}"
 	quest.12BA9692DFBB935C.quest_subtitle: "{count:1,id:\"cluttered:darkwood_clock\"}"
+	quest.12BC0C79FE723230.quest_desc: ["On this &atower in the middle of the &csea&r, there live a lonely group of &eFishermen&r. They eke out a living through fishing and occasional trade with travelers - like you!"]
+	quest.12BC0C79FE723230.title: "Discover the Island Tower"
 	quest.12BC4FF55395C85C.quest_subtitle: "{components:{\"ae2:facade_item\":\"minecraft:dirt\"},count:1,id:\"ae2:facade\"}"
 	quest.12BC795B54E7EEF3.quest_subtitle: "{count:1,id:\"cluttered:basket_of_flowers\"}"
 	quest.12BD390D5D9BA40F.quest_desc: ["Adding mushrooms to your hat is a glorious aesthetic choice, although it doesn't offer any tangible benefits."]
@@ -5077,10 +5087,16 @@
 	quest.1B8CD39BA83DD5C5.quest_subtitle: "{components:{\"minecraft:potion_contents\":{potion:\"minecraft:strong_regeneration\"}},count:1,id:\"minecraft:tipped_arrow\"}"
 	quest.1B8E61A0872EEA1C.quest_desc: [
 		"Inside the &dLich Tower&r is the undead noble of the Twilight Forest. His &aCastle&r is fraught with mobs, but also filled with loot."
+		""
 		"It is recommended to be well-geared before attempting this structure."
+		""
 		"At the top of the tower, you will find the &eLich&r, who is surrounded by a shield which protects him. &6He must be defeated first with his own magic&r, then martial might can finish the fight."
+		""
 		"And beware of the copies he summons during the fight!"
+		""
 		"Defeating the &eLich&r grants you access to the &dYeti's Lair&r, the &dDark Forest&r, and the &dSwamp&r."
+		""
+		"Also, make sure you have your &bCamera&r - you'll need it for the next quest."
 	]
 	quest.1B8E61A0872EEA1C.quest_subtitle: "Where my liches at?"
 	quest.1B8F64656FA92DAB.quest_subtitle: "{count:1,id:\"create:framed_glass_door\"}"
@@ -6710,8 +6726,6 @@
 	quest.23F09ADC05E3FA43.quest_subtitle: "{count:1,id:\"betternether:rubeus_planks\"}"
 	quest.23F1E4B75E165D27.quest_subtitle: "{count:1,id:\"minecraft:glow_lichen\"}"
 	quest.23F3998A8BE47FC7.quest_subtitle: "{components:{\"ae2:facade_item\":\"quark:magenta_shingles\"},count:1,id:\"ae2:facade\"}"
-	quest.23F7E0857CEF8C97.quest_desc: ["Although no one knows who was &aburied in these aged structures&r, one thing about them is clear: there is more going on than meets the eye."]
-	quest.23F7E0857CEF8C97.title: "The Desert Tomb"
 	quest.23F7FA28FEFC9251.quest_subtitle: "{count:1,id:\"create:crafter_slot_cover\"}"
 	quest.23FB45E253F1C514.quest_subtitle: "{count:1,id:\"arts_and_crafts:red_soapstone_brick_slab\"}"
 	quest.23FB9A98301637D5.quest_subtitle: "{count:1,id:\"hexerei:mugwort_leaves\"}"
@@ -8850,19 +8864,6 @@
 	quest.2F0CCF4F25EF0FA1.quest_subtitle: "{components:{\"quark:item_count\":640,\"quark:stored_item\":{stack:{count:1,id:\"farm_and_charm:barley_seeds\"}}},count:1,id:\"quark:seed_pouch\"}"
 	quest.2F0E201010C2F6F4.quest_subtitle: "{count:1,id:\"twilightforest:mangrove_slab\"}"
 	quest.2F0E8368E6741518.quest_subtitle: "{count:1,id:\"reanimal:quill\"}"
-	quest.2F11F1501E038311.quest_desc: [
-		"Never underestimate your local library! Whether you're &alooking for Enchanted books&r in &cMinecraft&r, or hoping for &awitchy resources &cirl&r, the library has what you're looking for - and it's completely free!"
-		""
-		"To complete this quest, you only need to find a &cLibrary structure&r. However, I task you with the additional homework of checking out some books on witchcraft irl as well!"
-		""
-		"Here are some of my recommendations:"
-		""
-		"- Everday Witchcraft, by Deborah Blake"
-		"- The Green Witch, by Arin Murphy-Hiscock"
-		"- Wild Witchcraft, by Rebecca Beyer"
-		"- Cunningham's Encyclopedia of Magical Herbs, by Scott Cunningham"
-	]
-	quest.2F11F1501E038311.title: "Visit your Local Library"
 	quest.2F12033E105CC852.quest_subtitle: "{count:1,id:\"quark:waxed_yellow_corundum\"}"
 	quest.2F12036708D947E9.quest_subtitle: "{count:1,id:\"reliquary:magazines/seeker_magazine\"}"
 	quest.2F18172DDEF4FB5E.quest_subtitle: "{count:1,id:\"another_furniture:birch_shutter\"}"
@@ -11194,7 +11195,7 @@
 	quest.3B30E0B02E20FEA9.quest_subtitle: "{components:{\"minecraft:potion_contents\":{potion:\"reanimal:strong_cramps\"}},count:1,id:\"supplementaries:bamboo_spikes_tipped\"}"
 	quest.3B318D4696677463.quest_subtitle: "{components:{\"ae2:facade_item\":\"hearthandharvest:salt_block\"},count:1,id:\"ae2:facade\"}"
 	quest.3B335B2F147E5A17.quest_subtitle: "{count:1,id:\"create:cut_andesite_stairs\"}"
-	quest.3B33F8C27B3361AC.quest_desc: ["The &eForest Raven&r is a creature that can often be found near &aObsidian Obelisks&r in the Twilight Forest. It can be &6slain for it's feathers&r, which are important for making the &bMagical Map Focus&r."]
+	quest.3B33F8C27B3361AC.quest_desc: ["The &eForest Raven&r is a creature that can often be found near &aObsidian Obelisks&r in the Twilight Forest. It can be &6slain for its feathers&r, which are important for making the &bMagical Map Focus&r."]
 	quest.3B33F8C27B3361AC.quest_subtitle: "Unfortunately, you have to kill it"
 	quest.3B33F8C27B3361AC.title: "Find a Forest Raven"
 	quest.3B376F0458899779.quest_subtitle: "{count:1,id:\"trailandtales_delight:cherry_cheese_slice\"}"
@@ -12224,12 +12225,6 @@
 	quest.40EC6CC5BFC41C72.quest_subtitle: "{count:1,id:\"betterend:diorite_lantern\"}"
 	quest.40EEE15B591DE9E4.quest_subtitle: "{count:1,id:\"the_bumblezone:luminescent_wax_corner\"}"
 	quest.40EF246B8E507B6C.quest_subtitle: "{components:{\"quark:item_count\":640,\"quark:stored_item\":{stack:{count:1,id:\"moresnifferflowers:bonmeelia_seeds\"}}},count:1,id:\"quark:seed_pouch\"}"
-	quest.40F10403E2BCFBF0.quest_desc: [
-		"The &cDeep Crypt&r is a structure found &aburied in the bowels of the earth&r, below y-level 0."
-		""
-		"Beware of hidden spawners, and be on the lookout for &alootable graves&r. If you are lucky, perhaps you'll find a &atreasure trove&r."
-	]
-	quest.40F10403E2BCFBF0.title: "Deep Crypt"
 	quest.40F119C1B710C846.quest_subtitle: "{components:{\"minecraft:stored_enchantments\":{levels:{\"minecraft:riptide\":2}}},count:1,id:\"minecraft:enchanted_book\"}"
 	quest.40F1C5BB820D8BA9.quest_subtitle: "{components:{\"sophisticatedstorage:wood_type\":\"crimson\"},count:1,id:\"sophisticatedstorage:barrel\"}"
 	quest.40F24E20A25EBA24.quest_subtitle: "{count:1,id:\"regions_unexplored:baobab_slab\"}"
@@ -12387,7 +12382,9 @@
 	quest.41C8D867C083DBEC.quest_subtitle: "{count:1,id:\"betterend:end_lotus_crafting_table\"}"
 	quest.41CBB146259DAF34.quest_desc: [
 		"The Yeti Cave can be found in the Snowy Forest, and houses both &eYetis&r (which are neutral), and the &eAlpha Yeti&r, who is the boss you must face in this area."
+		""
 		"Engaging this foe in melee combat can be dangerous, but even at range one must &abeware of falling icicles&r!"
+		""
 		"His death will grant you access to &dthe Glacier&r."
 	]
 	quest.41CBB146259DAF34.quest_subtitle: "Are you ready? Not yeti"
@@ -13698,8 +13695,6 @@
 	quest.48E922CD3CEB2D83.quest_subtitle: "{count:1,id:\"minecraft:slime_spawn_egg\"}"
 	quest.48EAF9E72545BDD5.quest_subtitle: "{count:1,id:\"minecraft:golden_helmet\"}"
 	quest.48EBE4A39A78CF90.quest_subtitle: "{count:1,id:\"colorfulazaleas:cerulean_azalea_sign\"}"
-	quest.48ECF54E7038910F.quest_desc: ["Stocked with &aloot and spawners&r, these dungeons can be found &cdeep underground&r, and should be approached with caution! A &bshield&r is practically a necessity."]
-	quest.48ECF54E7038910F.title: "Find a Skeleton Dungeon"
 	quest.48F0071981DB2E13.quest_subtitle: "{count:1,id:\"minecraft:brewing_stand\"}"
 	quest.48F204EF8FD919DE.quest_subtitle: "{count:1,id:\"minecraft:soul_sand\"}"
 	quest.48F251738F7A1DB2.quest_subtitle: "{count:1,id:\"starcatcher_delight:starcaught_fillet_uncommon\"}"
@@ -14274,6 +14269,12 @@
 	quest.4BADDC4AE3EC857C.quest_subtitle: "{count:1,id:\"farmersdelight:apple_cider\"}"
 	quest.4BAEA48157C8C9C7.quest_subtitle: "{count:1,id:\"regions_unexplored:larch_planks\"}"
 	quest.4BB03570D028C1DD.quest_subtitle: "{components:{\"ae2:facade_item\":\"regions_unexplored:stripped_yellow_bioshroom_hyphae\"},count:1,id:\"ae2:facade\"}"
+	quest.4BB2ED765707EA69.quest_desc: [
+		"The &eFoliaath&r is an herbaceous yet carnivorous monster which lays in wait for its prey, only showing its toothy maw once a victim draws close enough."
+		""
+		"In general, &aranged weapons are effective&r against it. Once defeated, it may drop &bFoliaath Seeds&r, which can be planted and &anurtured into your very own Foliaath&r. Simply &6plant the seeds on Grass&r, and be sure to &6feed it some meat twice a day&r to help it grow big and strong. Awww, baby."
+	]
+	quest.4BB2ED765707EA69.title: "Surprise!"
 	quest.4BB3F860C1094246.quest_subtitle: "{count:1,id:\"mcwwindows:stripped_acacia_log_window\"}"
 	quest.4BB5B1E8EE483163.quest_subtitle: "{count:1,id:\"unusual_furniture:carved_birch\"}"
 	quest.4BB6227E64EE21D4.quest_subtitle: "{count:1,id:\"beautify:dark_oak_picture_frame\"}"
@@ -14524,8 +14525,6 @@
 		"Do so, and you shall be rewarded!"
 	]
 	quest.4CEA87A9E500920A.title: "Free the Snow Golem"
-	quest.4CEBBF8FE39DE199.quest_desc: ["Located in the depths of the ocean, the &cElder Temple&r is a bounty of &bSponges&r, &bCopper&r, &bCoral Blocks&r, and, of course: &eGuardians&r. Look for the &aBubble Columns&r throughout the structure which can help you &6catch your breath&r."]
-	quest.4CEBBF8FE39DE199.title: "The Elder's Temple"
 	quest.4CEBE46DBE4A0C8B.quest_subtitle: "{count:1,id:\"mysticsbiomes:yellow_maple_leaf_pile\"}"
 	quest.4CEE66674741487A.quest_subtitle: "{count:1,id:\"minecraft:polished_blackstone\"}"
 	quest.4CF0A807FEB93F57.quest_subtitle: "{count:1,id:\"hexerei:mugwort_flowers\"}"
@@ -14902,6 +14901,7 @@
 	quest.4EAC979D99D9E80E.quest_subtitle: "{count:1,id:\"ae2:vibration_chamber\"}"
 	quest.4EAE4C40B444930A.quest_desc: [
 		"Find yourself a &eQuest Ram&r and you'll notice it seems to be missing something."
+		""
 		"Maybe give it some &amore wool&r. Specifically, &6one of each color of wool&r."
 	]
 	quest.4EAE4C40B444930A.title: "Complete the Quest Ram"
@@ -15273,6 +15273,15 @@
 	quest.5082C5C4CFD27944.quest_subtitle: "{count:1,id:\"cluttered:diamond_wallpaper_purple_grapes_bottom_white\"}"
 	quest.508437889F7B2038.quest_subtitle: "{count:1,id:\"another_furniture:green_tall_stool\"}"
 	quest.50854020FC769306.quest_subtitle: "{components:{\"ae2:facade_item\":\"twilightforest:bold_castle_brick_tile\"},count:1,id:\"ae2:facade\"}"
+	quest.5085CFDE1E14144D.quest_desc: [
+		"The &eFerrous Wroughtnaught&r is a "
+		""
+		"shield is the only way to avoid heavy damage but it breaks instantly"
+		""
+		"slow so you can dodge"
+		""
+		"weak point is at his back"
+	]
 	quest.5086BC7DC5675959.quest_subtitle: "{count:1,id:\"betterfishtanks:small_branch_cherry_log\"}"
 	quest.50871A45F0AE5CDF.quest_subtitle: "{components:{\"minecraft:potion_contents\":{potion:\"minecraft:leaping\"}},count:1,id:\"minecraft:tipped_arrow\"}"
 	quest.5088C1B52F6EC58A.quest_subtitle: "{count:1,id:\"betterend:cave_pumpkin\"}"
@@ -16938,15 +16947,7 @@
 	quest.592B923E8ADB8F56.quest_subtitle: "{count:1,id:\"moresnifferflowers:block_pattern_clouds\"}"
 	quest.592DB457AF64F14A.quest_subtitle: "{components:{\"ae2:facade_item\":\"regions_unexplored:stripped_baobab_wood\"},count:1,id:\"ae2:facade\"}"
 	quest.592DF438561AEE4F.quest_subtitle: "{count:1,id:\"regions_unexplored:glistering_sprout\"}"
-	quest.592DF5A6484F1988.quest_desc: [
-		"The &bMagnum Torches&r are a set-it-and-forget-it method of preventing mob spawns."
-		""
-		"The &bDiamond Magnum Torch&r prevents &ehostile mobs&r from spawning."
-		""
-		"The &bEmerald Magnum Torch&r prevents &eneutral and passive mobs&r from spawning."
-		""
-		"The &bAmethyst Magnum Torch&r prevents &eambient or water&r mob spawns."
-	]
+	quest.592DF5A6484F1988.quest_desc: ["The &bMegatorch&r is a way to &apermanently disable hostile spawns in an area&r."]
 	quest.592DF5A6484F1988.title: "Preventing Mob Spawning"
 	quest.592E0054A6EC8709.quest_subtitle: "{count:1,id:\"golemoverhaul:honey_blob\"}"
 	quest.592E9A1B9EEAE047.quest_subtitle: "{components:{\"ae2:facade_item\":\"betternether:quartz_glass_yellow\"},count:1,id:\"ae2:facade\"}"
@@ -18256,6 +18257,7 @@
 	quest.601446C62059E0C9.quest_subtitle: "{components:{\"minecraft:entity_data\":{id:\"minecraft:painting\",variant:\"minecraft:pointer\"}},count:1,id:\"minecraft:painting\"}"
 	quest.6016A3D8B7FD7A14.quest_desc: [
 		"The Labyrinth, found in the depths of &dthe Swamp&r, houses a number of nasty creatures, culminating in the vicious &eMinotaurs&r and &eMinoshroom&r."
+		""
 		"The Minoshroom will drop &bMeef Stroganoff&r, which when eaten, will innoculate you against the curse of the &dFire Swamp&r, allowing you to progress."
 	]
 	quest.6016A3D8B7FD7A14.quest_subtitle: "Unfortunately, no Goblin Kings here..."
@@ -18712,6 +18714,7 @@
 	quest.629D0F6271C60ED0.quest_subtitle: "{count:1,id:\"create:polished_cut_andesite_slab\"}"
 	quest.62A0D663EF2B58C1.quest_desc: [
 		"The &bPeacock Feather Fan&r is an item which sends out a mighty gust of wind when &6right clicked&r."
+		""
 		"You can use this to gain an advantage in combat, or even to give yourself a boost in midair, when jumping or using &bElytra&r!"
 	]
 	quest.62A0D663EF2B58C1.quest_subtitle: "Ostentatious but very useful"
@@ -18799,13 +18802,16 @@
 	quest.62F2784763AD1938.title: "More about Starcatching"
 	quest.62F495A743AFBC60.quest_subtitle: "{count:1,id:\"minecraft:oak_door\"}"
 	quest.62F4F42730B36E62.quest_subtitle: "{components:{\"ae2:facade_item\":\"regions_unexplored:stripped_cobalt_log\"},count:1,id:\"ae2:facade\"}"
-	quest.62F755926795DBB6.title: "Defeat a Lich"
+	quest.62F755926795DBB6.quest_desc: [
+		"It's time for you to fight - actually, no. Let's try something different. Take a &bselfie&r with the &eLich&r in its tower, and develop it."
+		""
+		"I mean, you should probably still fight that thing. It's like, evil and stuff. But there's no reason you can't commemorate the moment."
+	]
+	quest.62F755926795DBB6.title: "Take a Selfie with the Lich"
 	quest.62F75B157C682D04.quest_subtitle: "{components:{\"ae2:facade_item\":\"mcwwindows:purple_mosaic_glass\"},count:1,id:\"ae2:facade\"}"
 	quest.62F85A60D2403887.quest_subtitle: "{count:1,id:\"betternether:bone_wall\"}"
 	quest.62F89C5982407945.quest_subtitle: "{count:1,id:\"arts_and_crafts:green_mud_brick_wall\"}"
 	quest.62FCC80A2061EB48.quest_subtitle: "{components:{\"ae2:facade_item\":\"cluttered:pink_striped_wallpaper_lower_trim\"},count:1,id:\"ae2:facade\"}"
-	quest.62FD1ED7FE9ED635.quest_desc: ["Deep in the Ocean, the &cSunken Shrine&r houses &ethe Drowned&r, but also &atreasure&r. The ancients who built these Shrines were notorious for &asetting out decoys to hide their true bounty&r."]
-	quest.62FD1ED7FE9ED635.title: "The Sunken Shrine"
 	quest.62FD53A5146F30C6.quest_subtitle: "{count:1,id:\"betternether:cherry_bar_stool\"}"
 	quest.62FF92AAA9AA9341.quest_subtitle: "{count:1,id:\"quark:rusty_iron_plate_slab\"}"
 	quest.63019FC63A94B15C.quest_subtitle: "{count:1,id:\"arts_and_crafts:beige_pietraforte_brick_stairs\"}"
@@ -19037,6 +19043,12 @@
 	quest.64141A1823BA232F.quest_subtitle: "{components:{\"ae2:facade_item\":\"tflostblocks:mossy_stone_tiles\"},count:1,id:\"ae2:facade\"}"
 	quest.64145B2C2524B8C9.quest_subtitle: "{count:1,id:\"farmersdelight:wild_rice\"}"
 	quest.6414C613F3AFB215.quest_subtitle: "{components:{\"sophisticatedstorage:wood_type\":\"dark_oak\"},count:1,id:\"sophisticatedstorage:limited_copper_barrel_4\"}"
+	quest.6414EFB17FFD56CB.quest_desc: [
+		"&eRibbits&r are delightful little frogfolk, peaceable in nature, who love music and - as you could guess - live in &cSwamps&r."
+		""
+		"Why not attempt to &apay them a visit?&r You may even find a &eRibbit Merchant&r, who will trade you &aunique goods&r in exchange for &bAmethyst&r!"
+	]
+	quest.6414EFB17FFD56CB.title: "Visit the Ribbits"
 	quest.641575EC643F5E58.quest_subtitle: "{count:1,id:\"hearthandharvest:cider_donut\"}"
 	quest.6417163B51D22391.quest_subtitle: "{count:1,id:\"golemoverhaul:terracotta_golem_spawn_egg\"}"
 	quest.64183B308A858FDA.quest_subtitle: "{components:{\"ae2:facade_item\":\"betterend:ender_block\"},count:1,id:\"ae2:facade\"}"
@@ -20957,6 +20969,12 @@
 		""
 		"Well, don't just stand there looking at me. &6Get cooking&r!"
 	]
+	quest.6E5FC4F24E0EDAFE.quest_desc: [
+		"The &cCastle Tower&r floats high above the ground, and it, well, towers. It looms. And legend has it that there are &auntold treasures&r kept within its coffers."
+		""
+		"Should you make it to &athe top of the tower&r, it might be &dworthwhile to look for hidden secrets&r."
+	]
+	quest.6E5FC4F24E0EDAFE.title: "Find the Castle Tower"
 	quest.6E6130E1EE425F9B.quest_subtitle: "{count:1,id:\"hearthandharvest:maple_cookie\"}"
 	quest.6E67BE1825E4821B.quest_subtitle: "{count:1,id:\"twilightforest:stripped_mangrove_wood\"}"
 	quest.6E67DEE474DE4D64.quest_subtitle: "{count:1,id:\"regions_unexplored:stripped_blackwood_log\"}"
@@ -21880,6 +21898,15 @@
 	quest.7329FC7367313BD2.quest_subtitle: "{count:1,id:\"betternether:nether_brewing_stand\"}"
 	quest.732B30E49C73EA32.quest_subtitle: "{count:1,id:\"minecraft:salmon_bucket\"}"
 	quest.732CA54F86D3218D.quest_subtitle: "{count:1,id:\"cluttered:brown_wainscoting\"}"
+	quest.732D5D711B04EA36.quest_desc: [
+		"The &bIce Crystal&r can be obtained one of two ways. The first way is to defeat the mighty &eFrostmaw&r, which is a fearsome boss which deals &afreezing damage&r and &ais immune to arrows&r."
+		""
+		"Or, you could &awork smarter and not harder&r, and &6find a way to steal the &eFrostmaw's &bIce Crystal&r before it awakens."
+		""
+		"However, there may still be a &bspecial reward&r for defeating the &eFrostmaw&r anyway..."
+	]
+	quest.732D5D711B04EA36.quest_subtitle: "we can do this the hard way, or..."
+	quest.732D5D711B04EA36.title: "Obtain an Ice Crystal"
 	quest.732EC96381B1A7A1.quest_subtitle: "{components:{\"reliquary:entity_name\":\"twilightforest:ice_crystal\"},count:1,id:\"reliquary:mob_charm_fragment\"}"
 	quest.732ED2C3AE5BAFDC.quest_subtitle: "{count:1,id:\"supplementaries:awning_green\"}"
 	quest.73321D3B6EE1BE1F.quest_subtitle: "{count:1,id:\"regions_unexplored:maple_wood\"}"
@@ -22521,12 +22548,6 @@
 	quest.769EC41F86AED81E.quest_subtitle: "{count:1,id:\"framedblocks:framed_corner_pillar\"}"
 	quest.769F830D1910FE32.quest_subtitle: "{count:1,id:\"colorfulazaleas:pastoral_azalea_trapdoor\"}"
 	quest.76A0A4BA873AA6B6.quest_subtitle: "{components:{\"ae2:facade_item\":\"cluttered:diamond_wallpaper_bouquet_top_brown\"},count:1,id:\"ae2:facade\"}"
-	quest.76A0C79C3F0A8D38.quest_desc: [
-		"These imposing Ziggurats look out over the stretching deserts, and contain both &awonders&r and &eUndead&r."
-		""
-		"Navigate the &amazes&r within to find rooms filled with treasure - and &dtraps&r."
-	]
-	quest.76A0C79C3F0A8D38.title: "Enhanced Desert Temple"
 	quest.76A3291072629648.quest_subtitle: "{count:1,id:\"dramaticdoors:tall_sortingwood_door\"}"
 	quest.76A442BE75D04491.quest_subtitle: "{count:1,id:\"tide:warped_guppy_bucket\"}"
 	quest.76A48FC38C5339C6.quest_subtitle: "{count:1,id:\"quark:azalea_post\"}"
@@ -23626,7 +23647,11 @@
 	quest.7D0C62E12BE17D99.quest_subtitle: "{count:1,id:\"unusual_furniture:crimson_beam\"}"
 	quest.7D0EC02109743F65.quest_subtitle: "{components:{\"ae2:facade_item\":\"regions_unexplored:stripped_brimwood_log\"},count:1,id:\"ae2:facade\"}"
 	quest.7D12280B4B7BB478.quest_subtitle: "{count:1,id:\"ae2:inverted_toggle_bus\"}"
-	quest.7D15924C5AEAC669.quest_desc: [" One of the most valuable items in the game, &bThe Uncrafting Table&r allows you to &arecoup materials from crafted items&r in exchange for experience levels. &6Place the unwanted item in the left slot&r and then &6click one of the ingredients&r in the center to remove it."]
+	quest.7D15924C5AEAC669.quest_desc: [
+		"Be honest, this is the whole reason you came to this dimension, isn't it?"
+		""
+		"One of the most valuable items in the game, &bThe Uncrafting Table&r allows you to &arecoup materials from crafted items&r in exchange for experience levels. &6Place the unwanted item in the left slot&r and then &6click one of the ingredients&r in the center to remove it."
+	]
 	quest.7D15924C5AEAC669.quest_subtitle: "Uncraftables are delicious. Wait..."
 	quest.7D163A5D0EA6FC7D.quest_subtitle: "{count:1,id:\"minecraft:light_blue_stained_glass_pane\"}"
 	quest.7D19AF83D902F570.quest_subtitle: "{count:1,id:\"farm_and_charm:nettle_tea\"}"
@@ -24280,6 +24305,7 @@
 	task.24ADA1FE7305C9C6.title: "Find the Sempiternal Sanctum White"
 	task.27224224B5A34F0A.title: "Mob Charm"
 	task.27B706D6109DC8A1.title: "Any #minecraft:candles"
+	task.29D966A14304361A.title: "Any #waystones:sharestones"
 	task.2A8566938ACB7B7B.title: "Fun friends from Critters and Companions"
 	task.2A957A338BE899C4.title: "Welcome to Ye Olde Shoppe"
 	task.2B35ABEE2A58DF6F.title: "Carrying Everything"

@@ -19,14 +19,6 @@
 		}
 		{
 			height: 10.0d
-			image: "enchanted_wilds:textures/questui/bgdungeons.png"
-			rotation: 0.0d
-			width: 10.0d
-			x: 4.5d
-			y: -4.5d
-		}
-		{
-			height: 10.0d
 			image: "enchanted_wilds:textures/questui/bgstructures.png"
 			rotation: 0.0d
 			width: 17.0d
@@ -164,26 +156,6 @@
 			y: 15.5d
 		}
 		{
-			id: "3533886FEAAAE291"
-			rewards: [{
-				id: "474AE26E907CEE13"
-				item: {
-					count: 1
-					id: "minecraft:player_head"
-				}
-				type: "item"
-			}]
-			shape: "octagon"
-			tasks: [{
-				advancement: "betterdungeons:zombie_dungeon"
-				criterion: ""
-				id: "128CFDF2939D2CA6"
-				type: "advancement"
-			}]
-			x: -4.0d
-			y: 3.0d
-		}
-		{
 			id: "292B26978E644D9F"
 			rewards: [
 				{
@@ -309,10 +281,6 @@
 		{
 			dependencies: ["722C9A16509E524B"]
 			id: "133D48874069E59B"
-			rewards: [{
-				id: "42B9AB11D9E3ABCD"
-				type: "choice"
-			}]
 			shape: "hexagon"
 			tasks: [{
 				id: "1FC4B305579CDA7F"
@@ -325,10 +293,6 @@
 		{
 			dependencies: ["722C9A16509E524B"]
 			id: "7527E0A9EF5C3697"
-			rewards: [{
-				id: "2C983FA06FB6C836"
-				type: "choice"
-			}]
 			shape: "hexagon"
 			tasks: [{
 				id: "05CBC59215AFFC0A"
@@ -341,10 +305,6 @@
 		{
 			dependencies: ["722C9A16509E524B"]
 			id: "2E1A6A93F48AAF58"
-			rewards: [{
-				id: "3178D82564BA7BD9"
-				type: "choice"
-			}]
 			shape: "hexagon"
 			tasks: [{
 				id: "27EF600DF7DC0004"
@@ -357,14 +317,10 @@
 		{
 			dependencies: ["722C9A16509E524B"]
 			id: "7B4772B066474C41"
-			rewards: [{
-				id: "16E016B66087E8AC"
-				type: "choice"
-			}]
 			shape: "hexagon"
 			tasks: [{
-				id: "206F9F2340A72B5E"
-				item: { components: { "ftbquests:missing_item": "waystones:portstone" }, count: 1, id: "ftbquests:missing_item" }
+				id: "3F54F579922447FD"
+				item: { count: 1, id: "waystones:white_portstone" }
 				type: "item"
 			}]
 			x: -2.5d
@@ -373,14 +329,10 @@
 		{
 			dependencies: ["722C9A16509E524B"]
 			id: "2E07A04D5589B674"
-			rewards: [{
-				id: "102031CA994CF7D6"
-				type: "choice"
-			}]
 			shape: "hexagon"
 			tasks: [{
-				id: "07B009CB820A898A"
-				item: { components: { "ftbfiltersystem:filter": "or(item_tag(waystones:sharestone))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				id: "29D966A14304361A"
+				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(waystones:sharestones)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
 			x: -2.0d
@@ -479,42 +431,6 @@
 			y: 5.0d
 		}
 		{
-			id: "2F11F1501E038311"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "725A1583BC3F17DA"
-				table_id: 8891211325592123080L
-				type: "choice"
-			}]
-			shape: "octagon"
-			tasks: [{
-				id: "3E10A9FF916FCC7A"
-				structure: "minecraft:mineshaft"
-				type: "structure"
-			}]
-			x: -1.5d
-			y: 7.0d
-		}
-		{
-			id: "48ECF54E7038910F"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "0C54B78E7FBA5F0A"
-				type: "choice"
-			}]
-			shape: "octagon"
-			tasks: [{
-				icon: {
-					id: "minecraft:skeleton_skull"
-				}
-				id: "1D224C88E7ADFA3F"
-				structure: "betterdungeons:skeleton_dungeon"
-				type: "structure"
-			}]
-			x: 7.0d
-			y: -4.0d
-		}
-		{
 			id: "5290EB7B63B925AA"
 			rewards: [
 				{
@@ -611,24 +527,6 @@
 			y: 3.0d
 		}
 		{
-			id: "50DA655C90509B80"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "2D840AA333F7E2AF"
-				type: "choice"
-			}]
-			tasks: [{
-				icon: {
-					id: "endrem:witch_eye"
-				}
-				id: "018B5A12E7D96074"
-				structure: "betterwitchhuts:witch_hut"
-				type: "structure"
-			}]
-			x: 11.0d
-			y: 0.75d
-		}
-		{
 			id: "3DA0BA730A8040BE"
 			rewards: [{
 				id: "2E6210A5B62156DA"
@@ -689,115 +587,6 @@
 			}]
 			x: 5.5d
 			y: 5.0d
-		}
-		{
-			id: "76A0C79C3F0A8D38"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "7709B423E58187C9"
-				type: "choice"
-			}]
-			shape: "octagon"
-			tasks: [{
-				icon: {
-					id: "minecraft:redstone_torch"
-				}
-				id: "6F4919326230760A"
-				structure: "dungeons_enhanced:desert_temple"
-				type: "structure"
-			}]
-			x: 2.0d
-			y: -4.0d
-		}
-		{
-			id: "62FD1ED7FE9ED635"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "612D3D734EC1D152"
-				type: "choice"
-			}]
-			shape: "octagon"
-			tasks: [{
-				icon: {
-					id: "minecraft:wet_sponge"
-				}
-				id: "502BE5DCC94C27B2"
-				structure: "dungeons_enhanced:sunken_shrine"
-				type: "structure"
-			}]
-			x: 6.0d
-			y: -5.5d
-		}
-		{
-			id: "40F10403E2BCFBF0"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "7AF8F1BE2A632C64"
-				type: "choice"
-			}]
-			shape: "octagon"
-			tasks: [{
-				icon: {
-					id: "minecraft:chiseled_deepslate"
-				}
-				id: "10C8D4DF9DA35FBE"
-				structure: "dungeons_enhanced:deep_crypt"
-				type: "structure"
-			}]
-			x: 4.5d
-			y: -6.5d
-		}
-		{
-			id: "23F7E0857CEF8C97"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "315D08B241C570D7"
-				type: "choice"
-			}]
-			shape: "octagon"
-			tasks: [{
-				icon: {
-					id: "minecraft:golden_pickaxe"
-				}
-				id: "2DBFE8490EDAF76A"
-				structure: "dungeons_enhanced:desert_tomb"
-				type: "structure"
-			}]
-			x: 2.5d
-			y: -2.5d
-		}
-		{
-			id: "4CEBBF8FE39DE199"
-			rewards: [{
-				count: 4
-				id: "1FF68458707A1396"
-				item: {
-					count: 1
-					id: "minecraft:sponge"
-				}
-				type: "item"
-			}]
-			shape: "octagon"
-			tasks: [{
-				icon: {
-					id: "minecraft:prismarine"
-				}
-				id: "0853935025C00479"
-				structure: "dungeons_enhanced:elders_temple"
-				type: "structure"
-			}]
-			x: 6.5d
-			y: -2.5d
-		}
-		{
-			id: "6414EFB17FFD56CB"
-			tasks: [{
-				id: "4BF1F8949B84899A"
-				structure: "ribbits:ribbit_village"
-				type: "structure"
-			}]
-			x: 9.8d
-			y: 5.2d
 		}
 	]
 }

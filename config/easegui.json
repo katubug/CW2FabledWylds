@@ -1,0 +1,393 @@
+{
+  "schemaVersion": 2,
+  "global": {
+    "enableSmoothBlur": true,
+    "blurDuration": 300,
+    "blurContainers": true,
+    "dimmingEasing": "EASE_OUT_CUBIC",
+    "elementProfiles": {
+      "BUTTON_LIKE": {
+        "enabled": true,
+        "duration": 400,
+        "offset": {
+          "x": 0.0,
+          "y": 15.0
+        },
+        "startScale": {
+          "x": 1.0,
+          "y": 1.0
+        },
+        "startAlpha": 0.0,
+        "cascadeDelay": 45,
+        "pivot": "CENTER",
+        "easing": "EASE_OUT_BACK",
+        "cascadeDirection": "BOTTOM_TO_TOP"
+      },
+      "TEXT": {
+        "enabled": true,
+        "duration": 300,
+        "offset": {
+          "x": 0.0,
+          "y": 0.0
+        },
+        "startScale": {
+          "x": 1.0,
+          "y": 1.0
+        },
+        "startAlpha": 0.0,
+        "cascadeDelay": 0,
+        "pivot": "CENTER",
+        "easing": "LINEAR",
+        "cascadeDirection": "TOP_TO_BOTTOM"
+      },
+      "SCROLLABLE": {
+        "enabled": true,
+        "duration": 300,
+        "offset": {
+          "x": 0.0,
+          "y": 0.0
+        },
+        "startScale": {
+          "x": 1.0,
+          "y": 1.0
+        },
+        "startAlpha": 0.0,
+        "cascadeDelay": 0,
+        "pivot": "CENTER",
+        "easing": "EASE_OUT_BACK",
+        "cascadeDirection": "TOP_TO_BOTTOM"
+      },
+      "LIST_ENTRY": {
+        "enabled": true,
+        "duration": 350,
+        "offset": {
+          "x": 0.0,
+          "y": 15.0
+        },
+        "startScale": {
+          "x": 1.0,
+          "y": 1.0
+        },
+        "startAlpha": 0.0,
+        "cascadeDelay": 45,
+        "pivot": "CENTER",
+        "easing": "EASE_OUT_CUBIC",
+        "cascadeDirection": "TOP_TO_BOTTOM"
+      },
+      "CONTAINERS": {
+        "enabled": true,
+        "duration": 250,
+        "offset": {
+          "x": 0.0,
+          "y": 20.0
+        },
+        "startScale": {
+          "x": 1.0,
+          "y": 1.0
+        },
+        "startAlpha": 0.0,
+        "cascadeDelay": 0,
+        "pivot": "CENTER",
+        "easing": "EASE_OUT_CUBIC",
+        "cascadeDirection": "TOP_TO_BOTTOM"
+      }
+    }
+  },
+  "screens": {
+    "container": {
+      "enabled": true,
+      "customProfiles": {}
+    },
+    "furnace": {
+      "enabled": true,
+      "customProfiles": {}
+    },
+    "horse_inventory": {
+      "enabled": true,
+      "customProfiles": {}
+    },
+    "book_edit": {
+      "enabled": true,
+      "customProfiles": {}
+    },
+    "book_view": {
+      "enabled": true,
+      "customProfiles": {}
+    },
+    "smithing": {
+      "enabled": true,
+      "customProfiles": {}
+    },
+    "disconnected": {
+      "enabled": true,
+      "customProfiles": {}
+    },
+    "loom": {
+      "enabled": true,
+      "customProfiles": {}
+    },
+    "pack_selection": {
+      "enabled": true,
+      "customProfiles": {}
+    },
+    "sign_edit": {
+      "enabled": true,
+      "customProfiles": {}
+    },
+    "options": {
+      "enabled": true,
+      "customProfiles": {}
+    },
+    "warning": {
+      "enabled": true,
+      "customProfiles": {}
+    },
+    "stonecutter": {
+      "enabled": true,
+      "customProfiles": {}
+    },
+    "survival_inventory": {
+      "enabled": true,
+      "customProfiles": {}
+    },
+    "social_interactions": {
+      "enabled": true,
+      "customProfiles": {}
+    },
+    "create_world": {
+      "enabled": true,
+      "customProfiles": {}
+    },
+    "realms_main": {
+      "enabled": true,
+      "customProfiles": {}
+    },
+    "creative_inventory": {
+      "enabled": true,
+      "customProfiles": {}
+    },
+    "edit_game_rules": {
+      "enabled": true,
+      "customProfiles": {}
+    },
+    "enchanting_table": {
+      "enabled": true,
+      "customProfiles": {}
+    },
+    "command_block_edit": {
+      "enabled": true,
+      "customProfiles": {}
+    },
+    "options_sub": {
+      "enabled": true,
+      "customProfiles": {}
+    },
+    "pause": {
+      "enabled": true,
+      "customProfiles": {}
+    },
+    "direct_join_server": {
+      "enabled": true,
+      "customProfiles": {}
+    },
+    "grindstone": {
+      "enabled": true,
+      "customProfiles": {}
+    },
+    "share_to_lan": {
+      "enabled": true,
+      "customProfiles": {}
+    },
+    "beacon": {
+      "enabled": true,
+      "customProfiles": {}
+    },
+    "crafting": {
+      "enabled": true,
+      "customProfiles": {}
+    },
+    "server_selection": {
+      "enabled": true,
+      "customProfiles": {}
+    },
+    "other_containers": {
+      "enabled": true,
+      "customProfiles": {}
+    },
+    "cartography_table": {
+      "enabled": true,
+      "customProfiles": {}
+    },
+    "other": {
+      "enabled": false,
+      "customProfiles": {}
+    },
+    "death": {
+      "enabled": true,
+      "customProfiles": {}
+    },
+    "anvil": {
+      "enabled": true,
+      "customProfiles": {}
+    },
+    "experiments": {
+      "enabled": true,
+      "customProfiles": {}
+    },
+    "jigsaw_block_edit": {
+      "enabled": true,
+      "customProfiles": {}
+    },
+    "brewing_stand": {
+      "enabled": true,
+      "customProfiles": {}
+    },
+    "server_reconfig": {
+      "enabled": true,
+      "customProfiles": {}
+    },
+    "title": {
+      "enabled": true,
+      "customProfiles": {},
+      "logo": {
+        "animateWholeText": false,
+        "logoProfile": {
+          "enabled": true,
+          "duration": 400,
+          "offset": {
+            "x": 0.0,
+            "y": 10.0
+          },
+          "startScale": {
+            "x": 0.8,
+            "y": 0.8
+          },
+          "startAlpha": 0.0,
+          "cascadeDelay": 60,
+          "pivot": "CENTER",
+          "easing": "EASE_OUT_BACK",
+          "cascadeDirection": "LEFT_TO_RIGHT"
+        },
+        "editionProfile": {
+          "enabled": true,
+          "duration": 400,
+          "offset": {
+            "x": 0.0,
+            "y": 5.0
+          },
+          "startScale": {
+            "x": 0.9,
+            "y": 0.9
+          },
+          "startAlpha": 0.0,
+          "cascadeDelay": 0,
+          "pivot": "CENTER",
+          "easing": "EASE_OUT_QUAD",
+          "cascadeDirection": "TOP_TO_BOTTOM"
+        }
+      },
+      "splash": {
+        "enabled": true,
+        "splashDelay": 500,
+        "splashDuration": 500,
+        "splashEasing": "EASE_OUT_BACK"
+      }
+    },
+    "dispenser": {
+      "enabled": true,
+      "customProfiles": {}
+    },
+    "advancements": {
+      "enabled": true,
+      "customProfiles": {},
+      "advancements": {
+        "windowProfile": {
+          "enabled": true,
+          "duration": 250,
+          "offset": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "startScale": {
+            "x": 0.8,
+            "y": 0.8
+          },
+          "startAlpha": 0.0,
+          "cascadeDelay": 0,
+          "pivot": "CENTER",
+          "easing": "EASE_OUT_CUBIC",
+          "cascadeDirection": "TOP_TO_BOTTOM"
+        },
+        "tabsProfile": {
+          "enabled": true,
+          "duration": 400,
+          "offset": {
+            "x": -40.0,
+            "y": 0.0
+          },
+          "startScale": {
+            "x": 1.0,
+            "y": 1.0
+          },
+          "startAlpha": 0.0,
+          "cascadeDelay": 45,
+          "pivot": "CENTER",
+          "easing": "EASE_OUT_BACK",
+          "cascadeDirection": "LEFT_TO_RIGHT"
+        }
+      }
+    },
+    "lectern": {
+      "enabled": true,
+      "customProfiles": {}
+    },
+    "credits": {
+      "enabled": true,
+      "customProfiles": {}
+    },
+    "crafter": {
+      "enabled": true,
+      "customProfiles": {}
+    },
+    "create_flat_world": {
+      "enabled": true,
+      "customProfiles": {}
+    },
+    "world_selection": {
+      "enabled": true,
+      "customProfiles": {}
+    },
+    "edit_world": {
+      "enabled": true,
+      "customProfiles": {}
+    },
+    "structure_block_edit": {
+      "enabled": true,
+      "customProfiles": {}
+    },
+    "shulker_box": {
+      "enabled": true,
+      "customProfiles": {}
+    },
+    "edit_server": {
+      "enabled": true,
+      "customProfiles": {}
+    },
+    "connecting": {
+      "enabled": true,
+      "customProfiles": {}
+    },
+    "hopper": {
+      "enabled": true,
+      "customProfiles": {}
+    },
+    "statistics": {
+      "enabled": true,
+      "customProfiles": {}
+    },
+    "ease_gui_config": {
+      "enabled": true,
+      "customProfiles": {}
+    }
+  }
+}

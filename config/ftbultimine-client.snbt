@@ -5,19 +5,10 @@
 #   (will NOT be overwritten on modpack update)
 
 {
-	general: {
-		# Does the player need to be holding the Ultimine key to cycle through shapes with the keyboard?
-		# Default: true
-		require_ultimine_key_for_cycling: true
-		
-		# When true, display the newly-selected shape as a hotbar message after an Ultimine shape change
-		# Default: false
-		shape_feedback_hotbar_message: false
-	}
 	overlay: {
-		# Default: 2
+		# Default: 1.0
 		# Range: -∞ ~ +∞
-		overlay_inset_x: 2
+		overlay_scale: 1.0d
 		
 		# Default: 2
 		# Range: -∞ ~ +∞
@@ -27,20 +18,29 @@
 		# Valid values: "top_left", "top", "top_right", "right", "bottom_right", "bottom", "bottom_left", "left"
 		overlay_pos: "top_left"
 		
-		# Default: 1.0
-		# Range: -∞ ~ +∞
-		overlay_scale: 1.0d
-		
-		# When holding the Ultimine key, must the player also be sneaking to show the shapes menu?
-		# Default: true
-		require_sneak_for_menu: true
-		
 		# When displaying the shape selection menu by holding the Ultimine key
 		# and sneaking at the same time, the number of shape names to display
 		# above and below the selected shape
 		# Default: 2
 		# Range: 1 ~ 5
 		shape_menu_context_lines: 2
+		
+		# Default: 2
+		# Range: -∞ ~ +∞
+		overlay_inset_x: 2
+		
+		# When holding the Ultimine key, must the player also be sneaking to show the shapes menu?
+		# Default: true
+		require_sneak_for_menu: true
+	}
+	general: {
+		# Does the player need to be holding the Ultimine key to cycle through shapes with the keyboard?
+		# Default: true
+		require_ultimine_key_for_cycling: true
+		
+		# When true, display the newly-selected shape as a hotbar message after an Ultimine shape change
+		# Default: false
+		shape_feedback_hotbar_message: false
 	}
 	rendering: {
 		# Alpha value (0-255) for dig preview lines which are 'inside' blocks

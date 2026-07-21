@@ -2054,6 +2054,106 @@
         "attributes": {},
         "items": []
       }
+    },
+    "astikorcartsredux/supply_cart_filled": {
+      "display_name": "Filled to the brim",
+      "original_name": "Filled to the brim",
+      "enabled": true,
+      "icon": "astikorcartsredux:oak_supply_cart",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "astikorcartsredux/plow_create_path": {
+      "display_name": "Road To Nowhere",
+      "original_name": "Road To Nowhere",
+      "enabled": true,
+      "icon": "minecraft:dirt_path",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "astikorcartsredux/reaper_harvest": {
+      "display_name": "The Reaper\u0027s Due",
+      "original_name": "The Reaper\u0027s Due",
+      "enabled": true,
+      "icon": "astikorcartsredux:oak_reaper",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "astikorcartsredux/plow_till_ground": {
+      "display_name": "Groundbreaking Innovation",
+      "original_name": "Groundbreaking Innovation",
+      "enabled": true,
+      "icon": "astikorcartsredux:oak_plow",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "astikorcartsredux/hand_cart_one_k": {
+      "display_name": "Expanded Inventory",
+      "original_name": "Expanded Inventory",
+      "enabled": true,
+      "icon": "astikorcartsredux:oak_hand_cart",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "astikorcartsredux/attach_banner": {
+      "display_name": "That\u0027s A Red Flag",
+      "original_name": "That\u0027s A Red Flag",
+      "enabled": true,
+      "icon": "minecraft:red_banner",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "astikorcartsredux/seed_drill_plant_seed": {
+      "display_name": "Planting With Speed",
+      "original_name": "Planting With Speed",
+      "enabled": true,
+      "icon": "astikorcartsredux:oak_seed_drill",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "astikorcartsredux/animal_cart_steer": {
+      "display_name": "Holding The Reins",
+      "original_name": "Holding The Reins",
+      "enabled": true,
+      "icon": "astikorcartsredux:oak_animal_cart",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "astikorcartsredux/plow_strip_log": {
+      "display_name": "May I Axe You A Question?",
+      "original_name": "May I Axe You A Question?",
+      "enabled": true,
+      "icon": "minecraft:stripped_oak_log",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "astikorcartsredux/root": {
+      "display_name": "Carting around",
+      "original_name": "Carting around",
+      "enabled": true,
+      "icon": "astikorcartsredux:wheel",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
     }
   }
 }

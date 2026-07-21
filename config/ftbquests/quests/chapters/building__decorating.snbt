@@ -8,14 +8,45 @@
 		id: "handcrafted:hammer"
 	}
 	id: "3E1D90FE6819501F"
-	images: [{
-		height: 20.0d
-		image: "enchanted_wilds:textures/questui/bookbgs/orange_book_lg.png"
-		rotation: 0.0d
-		width: 25.0d
-		x: -0.2d
-		y: 1.8d
-	}]
+	images: [
+		{
+			height: 20.0d
+			image: "enchanted_wilds:textures/questui/bookbgs/orange_book_lg.png"
+			rotation: 0.0d
+			width: 25.0d
+			x: -0.2d
+			y: 1.8d
+		}
+		{
+			color: 9921281
+			height: 1.25d
+			image: "enchanted_wilds:textures/questui/subtitles/building.png"
+			order: 99
+			rotation: 0.0d
+			width: 8.0d
+			x: -4.9d
+			y: -4.9d
+		}
+		{
+			color: 9921281
+			height: 2.5d
+			image: "enchanted_wilds:textures/questui/titles/beginnings.png"
+			rotation: 0.0d
+			width: 9.0d
+			x: -5.0d
+			y: -9.6d
+		}
+		{
+			color: 9921281
+			height: 1.25d
+			image: "enchanted_wilds:textures/questui/subtitles/decorating.png"
+			order: 99
+			rotation: 0.0d
+			width: 8.0d
+			x: 5.0d
+			y: -1.0d
+		}
+	]
 	order_index: 1
 	quest_links: [ ]
 	quests: [
@@ -552,8 +583,8 @@
 				item: { count: 1, id: "framedblocks:framed_cube" }
 				type: "item"
 			}]
-			x: -2.55d
-			y: -3.8d
+			x: -2.75d
+			y: -2.7d
 		}
 		{
 			dependencies: ["39844F8340E6A438"]
@@ -563,8 +594,8 @@
 				item: { count: 1, id: "framedblocks:framing_saw" }
 				type: "item"
 			}]
-			x: -1.2999999999999998d
-			y: -2.3d
+			x: -1.5d
+			y: -1.2000000000000002d
 		}
 		{
 			dependencies: ["39844F8340E6A438"]
@@ -575,8 +606,8 @@
 				item: { count: 1, id: "framedblocks:framed_hammer" }
 				type: "item"
 			}]
-			x: -3.8d
-			y: -2.3d
+			x: -4.0d
+			y: -1.2000000000000002d
 		}
 		{
 			dependencies: ["39844F8340E6A438"]
@@ -587,8 +618,8 @@
 				item: { count: 1, id: "framedblocks:framed_wrench" }
 				type: "item"
 			}]
-			x: -2.3d
-			y: -1.2999999999999998d
+			x: -2.5d
+			y: -0.20000000000000018d
 		}
 		{
 			dependencies: ["39844F8340E6A438"]
@@ -604,8 +635,8 @@
 				item: { count: 1, id: "framedblocks:framed_blueprint" }
 				type: "item"
 			}]
-			x: -2.8d
-			y: -0.2999999999999998d
+			x: -3.0d
+			y: 0.7999999999999998d
 		}
 		{
 			dependencies: ["39844F8340E6A438"]
@@ -616,8 +647,8 @@
 				item: { count: 1, id: "framedblocks:framed_key" }
 				type: "item"
 			}]
-			x: -4.3d
-			y: -1.2999999999999998d
+			x: -4.5d
+			y: -0.20000000000000018d
 		}
 		{
 			dependencies: ["39844F8340E6A438"]
@@ -628,8 +659,8 @@
 				item: { count: 1, id: "framedblocks:framed_screwdriver" }
 				type: "item"
 			}]
-			x: -3.3d
-			y: -1.2999999999999998d
+			x: -3.5d
+			y: -0.20000000000000018d
 		}
 		{
 			dependencies: ["39844F8340E6A438"]
@@ -640,8 +671,8 @@
 				item: { count: 1, id: "framedblocks:framed_reinforcement" }
 				type: "item"
 			}]
-			x: -3.8d
-			y: -0.2999999999999998d
+			x: -4.0d
+			y: 0.7999999999999998d
 		}
 		{
 			id: "4110A15F659422D5"
@@ -656,8 +687,8 @@
 				item: { count: 1, id: "quark:trowel" }
 				type: "item"
 			}]
-			x: -4.3d
-			y: -4.3d
+			x: -4.5d
+			y: -3.2d
 		}
 		{
 			id: "2288D26992644668"

@@ -6,8 +6,11 @@
 		{
 			id: "0132019FA87183DE"
 			item: {
+				components: {
+					"ftbquests:missing_item": "numismatics:cog"
+				}
 				count: 1
-				id: "numismatics:cog"
+				id: "ftbquests:missing_item"
 			}
 			weight: 5.0f
 		}
@@ -15,8 +18,11 @@
 			count: 2
 			id: "13150B54814C32A5"
 			item: {
+				components: {
+					"ftbquests:missing_item": "numismatics:cog"
+				}
 				count: 1
-				id: "numismatics:cog"
+				id: "ftbquests:missing_item"
 			}
 		}
 	]

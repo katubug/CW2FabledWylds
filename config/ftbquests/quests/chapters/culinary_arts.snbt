@@ -836,7 +836,7 @@
 				}
 				{
 					id: "7FF3E097FF196F8E"
-					item: { count: 1, id: "create:blaze_cake" }
+					item: { components: { "ftbquests:missing_item": "create:blaze_cake" }, count: 1, id: "ftbquests:missing_item" }
 					type: "item"
 				}
 				{
@@ -889,8 +889,11 @@
 			rewards: [{
 				id: "6A0AE4E69D14B683"
 				item: {
+					components: {
+						"ftbquests:missing_item": "create:empty_blaze_burner"
+					}
 					count: 1
-					id: "create:empty_blaze_burner"
+					id: "ftbquests:missing_item"
 				}
 				type: "item"
 			}]

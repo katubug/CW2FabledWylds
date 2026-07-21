@@ -1,0 +1,147 @@
+{
+  "enabled": true,
+  "mod_name": "The Beyond",
+  "mod_id": "the_beyond",
+  "achievements": {
+    "the_beyond/sacred_passage": {
+      "display_name": "Sacred Passage",
+      "original_name": "Sacred Passage",
+      "enabled": true,
+      "icon": "the_beyond:abyssal_shroud",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "the_beyond/befriend_lantern": {
+      "display_name": "Equivalent Exchange",
+      "original_name": "Equivalent Exchange",
+      "enabled": true,
+      "icon": "minecraft:soul_torch",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "the_beyond/pass_the_torch": {
+      "display_name": "Pass the Torch",
+      "original_name": "Pass the Torch",
+      "enabled": true,
+      "icon": "the_beyond:livid_flame",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "the_beyond/memories_returned": {
+      "display_name": "Memories Returned",
+      "original_name": "Memories Returned",
+      "enabled": true,
+      "icon": "the_beyond:memory_remembrance",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "the_beyond/complete_refuge": {
+      "display_name": "Growth and Infrastructure",
+      "original_name": "Growth and Infrastructure",
+      "enabled": true,
+      "icon": "the_beyond:refuge",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "the_beyond/gift_enadrake": {
+      "display_name": "Building Blocks",
+      "original_name": "Building Blocks",
+      "enabled": true,
+      "icon": "minecraft:stick",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "the_beyond/as_above": {
+      "display_name": "As Above",
+      "original_name": "As Above",
+      "enabled": true,
+      "icon": "the_beyond:lantern_shed",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "the_beyond/so_below": {
+      "display_name": "So Below",
+      "original_name": "So Below",
+      "enabled": true,
+      "icon": "the_beyond:pathfinder_boots",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "the_beyond/brush_lantern": {
+      "display_name": "Spirit and Away",
+      "original_name": "Spirit and Away",
+      "enabled": true,
+      "icon": "minecraft:brush",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "the_beyond/full_power_magnet": {
+      "display_name": "Slingshot",
+      "original_name": "Slingshot",
+      "enabled": true,
+      "icon": "the_beyond:magnet",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "the_beyond/defying_the_void": {
+      "display_name": "Defying the Void",
+      "original_name": "Defying the Void",
+      "enabled": true,
+      "icon": "the_beyond:totem_of_respite",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "the_beyond/offering_remembered": {
+      "display_name": "An Offering Remembered",
+      "original_name": "An Offering Remembered",
+      "enabled": true,
+      "icon": "the_beyond:ring_remembrance",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "the_beyond/ectoplasmic_ignition": {
+      "display_name": "Let There Be Light",
+      "original_name": "Let There Be Light",
+      "enabled": true,
+      "icon": "the_beyond:live_flame",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "the_beyond/ectoplasmic_ignition_2": {
+      "display_name": "Speedrun",
+      "original_name": "Speedrun",
+      "enabled": true,
+      "icon": "the_beyond:livid_flame",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    }
+  }
+}

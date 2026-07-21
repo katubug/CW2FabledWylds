@@ -2,7 +2,6 @@ ItemEvents.modifyTooltips(event => {
 
 	//Drink Tooltips
 	event.add([
-		'create:builders_tea',
 		'delightful:berry_matcha_latte',
 		'delightful:ender_nectar',
 		'delightful:matcha_latte',
@@ -99,9 +98,6 @@ ItemEvents.modifyTooltips(event => {
 		'betterbeekeeping:strange_honey_bottle',
 		'betterbeekeeping:warm_honey_bottle',
 		'candlelight:mozzarella',
-		'create:bar_of_chocolate',
-		'create:chocolate_bucket',
-		'create:honey_bucket',
 		'crittersandcompanions:koi_fish',
 		'delightful:acorn',
 		'delightful:cactus_flesh',
@@ -502,9 +498,6 @@ ItemEvents.modifyTooltips(event => {
 		'candlelight:tomato_mozzarella_salad',
 		'candlelight:tomato_soup',
 		'candlelight:tropical_fish_supreme',
-		'create:chocolate_glazed_berries',
-		'create:honeyed_apple',
-		'create:sweet_roll',
 		'delightful:baklava_slice',
 		'delightful:cactus_chili',
 		'delightful:cactus_soup',
@@ -1046,8 +1039,6 @@ ItemEvents.modifyTooltips(event => {
 			'cozy_home:lamp_red',
 			'cozy_home:lamp_white',
 			'cozy_home:lamp_yellow',
-			'create:blaze_burner',
-			'create:rose_quartz_lamp',
 			'createdeco:blue_andesite_lamp',
 			'createdeco:blue_brass_lamp',
 			'createdeco:blue_copper_lamp',

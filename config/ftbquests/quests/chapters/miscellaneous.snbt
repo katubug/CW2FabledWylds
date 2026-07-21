@@ -1,4 +1,5 @@
 {
+	autofocus_id: "2BE44A5A7C52C52D"
 	default_hide_dependency_lines: false
 	default_min_width: 350
 	default_quest_shape: ""
@@ -10,28 +11,39 @@
 	id: "0F5FCDF7AD60349B"
 	images: [
 		{
-			height: 9.0d
-			image: "enchanted_wilds:textures/questui/bgcommerce.png"
+			height: 20.0d
+			image: "enchanted_wilds:textures/questui/bookbgslg/pink_book_lg.png"
 			rotation: 0.0d
-			width: 9.0d
-			x: 4.5d
-			y: -4.5d
+			width: 25.0d
+			x: -0.1d
+			y: 0.6d
 		}
 		{
-			height: 9.0d
-			image: "enchanted_wilds:textures/questui/bgautomation.png"
+			color: 15962025
+			height: 2.5d
+			image: "enchanted_wilds:textures/questui/titles/miscellaneous.png"
 			rotation: 0.0d
 			width: 9.0d
-			x: -4.5d
-			y: -4.5d
+			x: -5.2d
+			y: -5.7d
 		}
 		{
-			height: 11.0d
-			image: "enchanted_wilds:textures/questui/bgmiscteal.png"
+			color: 15962025
+			height: 1.25d
+			image: "enchanted_wilds:textures/questui/subtitles/commerce.png"
 			rotation: 0.0d
-			width: 11.0d
-			x: 0.0d
-			y: 4.5d
+			width: 8.0d
+			x: 4.9d
+			y: -6.3d
+		}
+		{
+			color: 15962025
+			height: 1.25d
+			image: "enchanted_wilds:textures/questui/subtitles/automation.png"
+			rotation: 0.0d
+			width: 8.0d
+			x: -5.1d
+			y: 0.6d
 		}
 	]
 	order_index: 2
@@ -45,8 +57,8 @@
 				item: { count: 1, id: "tiab:time_in_a_bottle" }
 				type: "item"
 			}]
-			x: 3.0d
-			y: 3.5d
+			x: -2.8d
+			y: -4.1d
 		}
 		{
 			id: "2AD60B373912C5A4"
@@ -64,8 +76,8 @@
 				item: { count: 1, id: "supplementaries:cage" }
 				type: "item"
 			}]
-			x: -1.5d
-			y: 2.0d
+			x: -7.1d
+			y: -3.0d
 		}
 		{
 			id: "7DD918D36463CF71"
@@ -84,8 +96,8 @@
 				id: "0F62B197A427BB30"
 				type: "advancement"
 			}]
-			x: -1.0d
-			y: 3.0d
+			x: -6.8d
+			y: -1.3d
 		}
 		{
 			id: "1547891EBE53934F"
@@ -100,8 +112,8 @@
 				item: { count: 1, id: "supplementaries:wrench" }
 				type: "item"
 			}]
-			x: 2.0d
-			y: 3.5d
+			x: -4.0d
+			y: -4.1d
 		}
 		{
 			dependencies: ["70C4F17973F6492E"]
@@ -124,13 +136,10 @@
 					type: "item"
 				}
 				{
-					id: "08FBA74E19CD647E"
+					id: "3DA633F3D239142D"
 					item: {
-						components: {
-							"ftbquests:missing_item": "plushies:zombie_villager_plushie"
-						}
 						count: 1
-						id: "ftbquests:missing_item"
+						id: "plushie_buddies:plushie_zombie_villager"
 					}
 					type: "item"
 				}
@@ -142,27 +151,17 @@
 				id: "7F78311C1F39DDCC"
 				type: "advancement"
 			}]
-			x: 2.5d
-			y: -5.5d
+			x: 2.9d
+			y: -4.3d
 		}
 		{
 			id: "70C4F17973F6492E"
-			rewards: [
-				{
-					exclude_from_claim_all: true
-					id: "56FC01153B740D4A"
-					table_id: 3965165831041023950L
-					type: "choice"
-				}
-				{
-					id: "78BE98CC45DEE6DF"
-					item: {
-						count: 1
-						id: "create:precision_mechanism"
-					}
-					type: "item"
-				}
-			]
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "56FC01153B740D4A"
+				table_id: 3965165831041023950L
+				type: "choice"
+			}]
 			shape: "rsquare"
 			size: 2.0d
 			tasks: [{
@@ -170,8 +169,8 @@
 				item: { count: 1, id: "minecraft:emerald" }
 				type: "item"
 			}]
-			x: 4.5d
-			y: -4.0d
+			x: 4.9d
+			y: -2.8d
 		}
 		{
 			dependencies: ["70C4F17973F6492E"]
@@ -192,29 +191,20 @@
 				id: "1AE5841864AEE2A1"
 				type: "advancement"
 			}]
-			x: 2.5d
-			y: -2.5d
+			x: 2.9d
+			y: -1.2999999999999998d
 		}
 		{
 			dependencies: ["70C4F17973F6492E"]
 			id: "160EE610C4B660D8"
-			rewards: [
-				{
-					id: "6401C8FA6FD927CB"
-					type: "choice"
+			rewards: [{
+				id: "4D7954004E1C30B6"
+				item: {
+					count: 1
+					id: "plushie_buddies:plushie_llama"
 				}
-				{
-					id: "15682A41F4881B63"
-					item: {
-						components: {
-							"ftbquests:missing_item": "plushies:llama_plushie"
-						}
-						count: 1
-						id: "ftbquests:missing_item"
-					}
-					type: "item"
-				}
-			]
+				type: "item"
+			}]
 			shape: "heart"
 			tasks: [{
 				icon: {
@@ -227,8 +217,8 @@
 				to_observe: "goblintraders:goblin_trader"
 				type: "observation"
 			}]
-			x: 6.6d
-			y: -5.3d
+			x: 7.0d
+			y: -4.099999999999999d
 		}
 		{
 			id: "781003E78C236E0D"
@@ -261,8 +251,8 @@
 				item: { count: 1, id: "supplementaries:cog_block" }
 				type: "item"
 			}]
-			x: -6.0d
-			y: -5.5d
+			x: -6.7d
+			y: 2.6d
 		}
 		{
 			id: "6DBD018A4FB32DD8"
@@ -291,8 +281,8 @@
 				item: { count: 1, id: "supplementaries:wind_vane" }
 				type: "item"
 			}]
-			x: -5.5d
-			y: -4.5d
+			x: -6.2d
+			y: 3.6d
 		}
 		{
 			id: "50E64308D7D56C48"
@@ -328,8 +318,8 @@
 				item: { count: 1, id: "supplementaries:bellows" }
 				type: "item"
 			}]
-			x: -5.0d
-			y: -5.5d
+			x: -5.7d
+			y: 2.6d
 		}
 		{
 			id: "6C7EB11A659D7914"
@@ -361,8 +351,8 @@
 				item: { count: 1, id: "supplementaries:turn_table" }
 				type: "item"
 			}]
-			x: -5.5d
-			y: -6.5d
+			x: -6.2d
+			y: 1.6d
 		}
 		{
 			id: "1371F9B501187A91"
@@ -394,8 +384,8 @@
 				item: { count: 1, id: "supplementaries:redstone_illuminator" }
 				type: "item"
 			}]
-			x: -4.5d
-			y: -6.5d
+			x: -5.2d
+			y: 1.6d
 		}
 		{
 			id: "5A0A46815A9FE05D"
@@ -421,8 +411,8 @@
 				item: { count: 1, id: "supplementaries:faucet" }
 				type: "item"
 			}]
-			x: -4.0d
-			y: -5.5d
+			x: -4.7d
+			y: 2.6d
 		}
 		{
 			id: "129EB9D48551AA2E"
@@ -459,8 +449,8 @@
 				item: { count: 1, id: "quark:obsidian_pressure_plate" }
 				type: "item"
 			}]
-			x: -4.5d
-			y: -4.5d
+			x: -5.2d
+			y: 3.6d
 		}
 		{
 			id: "2BE44A5A7C52C52D"
@@ -484,11 +474,11 @@
 			shape: "hexagon"
 			tasks: [{
 				id: "441162D88C6E6BB0"
-				item: { count: 1, id: "numismatics:vendor" }
+				item: { components: { "ftbquests:missing_item": "numismatics:vendor" }, count: 1, id: "ftbquests:missing_item" }
 				type: "item"
 			}]
-			x: 6.0d
-			y: -3.0d
+			x: 6.4d
+			y: -1.7999999999999998d
 		}
 		{
 			id: "3B84722A9CD28821"
@@ -505,78 +495,47 @@
 				id: "177151D9DA83B03E"
 				type: "advancement"
 			}]
-			x: 3.0d
-			y: 5.5d
+			x: -3.7d
+			y: -1.3d
 		}
 		{
 			id: "592DF5A6484F1988"
-			rewards: [{
-				id: "29F8DE93007B6851"
-				type: "xp_levels"
-				xp_levels: 5
-			}]
 			shape: "hexagon"
 			tasks: [{
-				id: "5A214AFFCE8F7DF6"
-				item: { components: { "ftbfiltersystem:filter": "or(item(magnumtorch:emerald_magnum_torch)item(magnumtorch:amethyst_magnum_torch)item(magnumtorch:diamond_magnum_torch))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				id: "6E1B68995F8808D9"
+				item: { count: 1, id: "torchmaster:megatorch" }
 				type: "item"
 			}]
-			x: 1.5d
-			y: 2.5d
+			x: -6.5d
+			y: -4.1d
 		}
 		{
 			id: "5B185B1B72278050"
-			rewards: [
-				{
-					id: "20AC21AA37AC578D"
-					item: {
-						count: 1
-						id: "minecraft:apple"
-					}
-					type: "item"
-				}
-				{
-					exclude_from_claim_all: true
-					id: "108FCFEFF3CFD90B"
-					type: "loot"
-				}
-				{
-					exclude_from_claim_all: true
-					id: "19BF21C8EB91FC15"
-					table_id: 1510389528595555205L
-					type: "choice"
-				}
-				{
-					id: "79FF899A792B5187"
-					item: {
-						components: {
-							"ftbquests:missing_item": "plushies:ravager_plushie"
-						}
-						count: 1
-						id: "ftbquests:missing_item"
-					}
-					type: "item"
-				}
-			]
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "19BF21C8EB91FC15"
+				table_id: 1510389528595555205L
+				type: "choice"
+			}]
 			tasks: [{
 				id: "5826833749DA8FAE"
 				stat: "minecraft:raid_win"
 				type: "stat"
 				value: 10
 			}]
-			x: 2.0d
-			y: 5.5d
+			x: -3.4d
+			y: -3.0d
 		}
 		{
 			id: "257C8B9C7DBEEC23"
-			shape: "rsquare"
+			shape: "hexagon"
 			tasks: [{
 				id: "029710F231C53B6A"
 				item: { count: 1, id: "twilightforest:uncrafting_table" }
 				type: "item"
 			}]
-			x: -1.5d
-			y: 7.5d
+			x: -7.7d
+			y: -4.1d
 		}
 		{
 			id: "6138C299ED7CE80C"
@@ -599,8 +558,8 @@
 					type: "item"
 				}
 			]
-			x: 2.5d
-			y: 4.5d
+			x: -5.9d
+			y: -3.0d
 		}
 		{
 			dependencies: ["70C4F17973F6492E"]
@@ -628,8 +587,8 @@
 				item: { components: { "easy_villagers:villager": { } }, count: 1, id: "easy_villagers:villager" }
 				type: "item"
 			}]
-			x: 4.5d
-			y: -6.5d
+			x: 4.9d
+			y: -5.3d
 		}
 		{
 			id: "063A5C650B0846FF"
@@ -645,8 +604,8 @@
 				item: { count: 1, id: "quark:gravisand" }
 				type: "item"
 			}]
-			x: -3.0d
-			y: -5.5d
+			x: -3.7d
+			y: 2.6d
 		}
 		{
 			id: "726336858C8FB767"
@@ -669,8 +628,8 @@
 					type: "item"
 				}
 			]
-			x: -3.5d
-			y: -4.5d
+			x: -4.2d
+			y: 3.6d
 		}
 		{
 			id: "45ED6F2E8BA02BE1"
@@ -704,8 +663,8 @@
 				item: { count: 1, id: "quark:ender_watcher" }
 				type: "item"
 			}]
-			x: -3.5d
-			y: -6.5d
+			x: -4.2d
+			y: 1.6d
 		}
 		{
 			id: "3052EF7FA42720A9"
@@ -721,8 +680,8 @@
 				item: { count: 1, id: "quark:iron_rod" }
 				type: "item"
 			}]
-			x: -2.5d
-			y: -4.5d
+			x: -3.2d
+			y: 3.6d
 		}
 		{
 			id: "3A61711F03B28A75"
@@ -738,8 +697,8 @@
 				item: { count: 1, id: "quark:chute" }
 				type: "item"
 			}]
-			x: -3.0d
-			y: -3.5d
+			x: -3.7d
+			y: 4.6d
 		}
 		{
 			id: "56A1AFEE3581AF89"
@@ -759,8 +718,8 @@
 				item: { count: 1, id: "quark:grate" }
 				type: "item"
 			}]
-			x: 2.5d
-			y: 2.5d
+			x: -5.2d
+			y: -4.1d
 		}
 		{
 			id: "4E8C0079E6F9A13A"
@@ -775,8 +734,8 @@
 				item: { count: 1, id: "quark:bottled_cloud" }
 				type: "item"
 			}]
-			x: 3.5d
-			y: 4.5d
+			x: -4.6d
+			y: -3.0d
 		}
 		{
 			dependencies: ["5C5768D4346FD3FE"]
@@ -789,11 +748,11 @@
 			shape: "hexagon"
 			tasks: [{
 				id: "1DDD0883ED96A825"
-				item: { count: 1, id: "numismatics:bank_terminal" }
+				item: { components: { "ftbquests:missing_item": "numismatics:bank_terminal" }, count: 1, id: "ftbquests:missing_item" }
 				type: "item"
 			}]
-			x: 7.0d
-			y: -2.0d
+			x: 7.4d
+			y: -0.7999999999999998d
 		}
 	]
 }

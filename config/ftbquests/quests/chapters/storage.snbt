@@ -588,8 +588,8 @@
 				item: { count: 1, id: "functionalstorage:compacting_drawer" }
 				type: "item"
 			}]
-			x: 0.0d
-			y: 0.0d
+			x: 8.9d
+			y: -1.3d
 		}
 		{
 			dependencies: ["511581BF899A9D1D"]

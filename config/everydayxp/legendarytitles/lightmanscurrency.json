@@ -1,0 +1,207 @@
+{
+  "enabled": true,
+  "mod_name": "Lightman\u0027s Currency",
+  "mod_id": "lightmanscurrency",
+  "achievements": {
+    "currency/trading_core": {
+      "display_name": "Trading Core",
+      "original_name": "Trading Core",
+      "enabled": true,
+      "icon": "lightmanscurrency:trading_core",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "currency/network_trader": {
+      "display_name": "Welcome to Amazon",
+      "original_name": "Welcome to Amazon",
+      "enabled": true,
+      "icon": "lightmanscurrency:item_trader_server_xlrg",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "currency/netherite_wallet": {
+      "display_name": "Fireproof Wallet",
+      "original_name": "Fireproof Wallet",
+      "enabled": true,
+      "icon": "lightmanscurrency:wallet_netherite",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "currency/nether_star_wallet": {
+      "display_name": "A Monster Sized Wallet",
+      "original_name": "A Monster Sized Wallet",
+      "enabled": true,
+      "icon": "lightmanscurrency:wallet_nether_star",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "currency/terminal": {
+      "display_name": "Wireless Trading",
+      "original_name": "Wireless Trading",
+      "enabled": true,
+      "icon": "lightmanscurrency:terminal",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "currency/ancient_coin": {
+      "display_name": "Archaeology pays off!",
+      "original_name": "Archaeology pays off!",
+      "enabled": true,
+      "icon": "lightmanscurrency:coin_ancient",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "currency/cash_register": {
+      "display_name": "All in one interaction!",
+      "original_name": "All in one interaction!",
+      "enabled": true,
+      "icon": "lightmanscurrency:cash_register",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "currency/banker_trade": {
+      "display_name": "Trading with the establishment",
+      "original_name": "Trading with the establishment",
+      "enabled": true,
+      "icon": "lightmanscurrency:coinblock_netherite",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "currency/events/christmas": {
+      "display_name": "A Christmas Shopping Spree!",
+      "original_name": "A Christmas Shopping Spree!",
+      "enabled": true,
+      "icon": "lightmanscurrency:coin_chocolate_gold",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "currency/myfirstpenny": {
+      "display_name": "My first penny!",
+      "original_name": "My first penny!",
+      "enabled": true,
+      "icon": "lightmanscurrency:coin_copper",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "currency/cashier_trade": {
+      "display_name": "Hourly work, hourly pay",
+      "original_name": "Hourly work, hourly pay",
+      "enabled": true,
+      "icon": "minecraft:enchanted_book",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "currency/jar_of_sus": {
+      "display_name": "Sus Bank Check",
+      "original_name": "Sus Bank Check",
+      "enabled": true,
+      "icon": "lightmanscurrency:sus_jar",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "currency/events/valentines": {
+      "display_name": "Love is in your wallet!",
+      "original_name": "Love is in your wallet!",
+      "enabled": true,
+      "icon": "lightmanscurrency:coin_chocolate_diamond",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "currency/coin_mint": {
+      "display_name": "Minty Fresh!",
+      "original_name": "Minty Fresh!",
+      "enabled": true,
+      "icon": "lightmanscurrency:coinmint",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "currency/specialty_trader": {
+      "display_name": "Specialty Trading",
+      "original_name": "Specialty Trading",
+      "enabled": true,
+      "icon": "lightmanscurrency:armor_display",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "currency/wallet_crafting": {
+      "display_name": "Coin Storage",
+      "original_name": "Coin Storage",
+      "enabled": true,
+      "icon": "lightmanscurrency:wallet_copper",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "currency/enchanted_wallet": {
+      "display_name": "Magical Wallet",
+      "original_name": "Magical Wallet",
+      "enabled": true,
+      "icon": "lightmanscurrency:wallet_netherite",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "currency/trader": {
+      "display_name": "It\u0027s Tradin\u0027 Time!",
+      "original_name": "It\u0027s Tradin\u0027 Time!",
+      "enabled": true,
+      "icon": "lightmanscurrency:card_display_oak",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "currency/atm": {
+      "display_name": "Now you\u0027re thinking with Banking",
+      "original_name": "Now you\u0027re thinking with Banking",
+      "enabled": true,
+      "icon": "lightmanscurrency:atm",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "currency/trader_interface": {
+      "display_name": "Patching in",
+      "original_name": "Patching in",
+      "enabled": true,
+      "icon": "lightmanscurrency:item_trader_interface",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    }
+  }
+}

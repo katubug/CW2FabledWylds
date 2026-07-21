@@ -132,6 +132,16 @@
         "attributes": {},
         "items": []
       }
+    },
+    "trapped_chest": {
+      "display_name": "Surprise!",
+      "original_name": "Surprise!",
+      "enabled": true,
+      "icon": "minecraft:tnt",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
     }
   }
 }

@@ -8,15 +8,26 @@
 		id: "hearthandharvest:fertilizer_bag"
 	}
 	id: "5A00BD04AD81F733"
-	images: [{
-		height: 15.0d
-		image: "enchanted_wilds:textures/questui/bookbgs/pink_book.png"
-		order: -1
-		rotation: 0.0d
-		width: 20.0d
-		x: 0.0d
-		y: 1.3d
-	}]
+	images: [
+		{
+			height: 15.0d
+			image: "enchanted_wilds:textures/questui/bookbgs/pink_book.png"
+			order: -1
+			rotation: 0.0d
+			width: 20.0d
+			x: 0.0d
+			y: 1.3d
+		}
+		{
+			color: 15962025
+			height: 2.5d
+			image: "enchanted_wilds:textures/questui/titles/collections.png"
+			rotation: 0.0d
+			width: 9.0d
+			x: -3.8d
+			y: -3.1d
+		}
+	]
 	order_index: 0
 	quest_links: [ ]
 	quests: [
@@ -114,8 +125,8 @@
 					type: "item"
 				}
 			]
-			x: -5.15d
-			y: -2.2d
+			x: -5.25d
+			y: -1.7d
 		}
 		{
 			id: "7E9C70F7B0CFD820"
@@ -184,8 +195,8 @@
 					type: "item"
 				}
 			]
-			x: -4.65d
-			y: -1.2000000000000002d
+			x: -4.75d
+			y: -0.7d
 		}
 		{
 			id: "1FD157BDA5AF3BE9"
@@ -376,8 +387,8 @@
 					type: "item"
 				}
 			]
-			x: -3.1500000000000004d
-			y: -2.2d
+			x: -3.25d
+			y: -1.7d
 		}
 		{
 			id: "56F3B965C1198BE9"
@@ -413,8 +424,8 @@
 					type: "item"
 				}
 			]
-			x: -3.6500000000000004d
-			y: -1.2000000000000002d
+			x: -3.75d
+			y: -0.7d
 		}
 		{
 			id: "5435D7182F5A0C8D"
@@ -515,8 +526,8 @@
 					type: "item"
 				}
 			]
-			x: -4.15d
-			y: -2.2d
+			x: -4.25d
+			y: -1.7d
 		}
 		{
 			id: "290D8441BBC918A1"
@@ -626,8 +637,8 @@
 					type: "item"
 				}
 			]
-			x: -2.1500000000000004d
-			y: -2.2d
+			x: -2.25d
+			y: -1.7d
 		}
 		{
 			id: "692725454B955B4C"
@@ -742,8 +753,8 @@
 					type: "item"
 				}
 			]
-			x: -5.7d
-			y: -1.2d
+			x: -5.8d
+			y: -0.6999999999999997d
 		}
 		{
 			id: "04973320B5F27BD7"
@@ -858,8 +869,8 @@
 					type: "item"
 				}
 			]
-			x: -2.6d
-			y: -1.2d
+			x: -2.6999999999999997d
+			y: -0.6999999999999997d
 		}
 		{
 			id: "6B3AD3CDE8EC90F1"
@@ -1143,8 +1154,8 @@
 				id: "3B66FE756544A418"
 				type: "checkmark"
 			}]
-			x: -3.8d
-			y: 2.4d
+			x: -1.4d
+			y: -0.8d
 		}
 		{
 			id: "401E8078C11F8919"
@@ -1214,8 +1225,8 @@
 					type: "item"
 				}
 			]
-			x: 3.6d
-			y: 2.2d
+			x: 3.9d
+			y: 2.3d
 		}
 		{
 			id: "0191F41344B7250D"
@@ -1530,26 +1541,6 @@
 				{
 					id: "3121D0ECF45D1FB6"
 					item: { count: 1, id: "betterarcheology:music_disc_swings" }
-					type: "item"
-				}
-				{
-					id: "5BF2CD86C3FDD821"
-					item: { components: { "ftbquests:missing_item": "idas:music_disc_slither" }, count: 1, id: "ftbquests:missing_item" }
-					type: "item"
-				}
-				{
-					id: "1FAF4BD8D40DA012"
-					item: { components: { "ftbquests:missing_item": "idas:music_disc_calidum" }, count: 1, id: "ftbquests:missing_item" }
-					type: "item"
-				}
-				{
-					id: "6A971DB6F52792E5"
-					item: { components: { "ftbquests:missing_item": "integrated_stronghold:music_disc_sight" }, count: 1, id: "ftbquests:missing_item" }
-					type: "item"
-				}
-				{
-					id: "50B90DC0C48F2014"
-					item: { components: { "ftbquests:missing_item": "integrated_stronghold:music_disc_forlorn" }, count: 1, id: "ftbquests:missing_item" }
 					type: "item"
 				}
 				{

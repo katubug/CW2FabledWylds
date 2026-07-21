@@ -1,0 +1,57 @@
+{
+  "enabled": true,
+  "mod_name": "Seams \u0026 Stitches",
+  "mod_id": "seamsandstitches",
+  "achievements": {
+    "jekyll_and_hide": {
+      "display_name": "Jekyll and Hide",
+      "original_name": "Jekyll and Hide",
+      "enabled": true,
+      "icon": "minecraft:rotten_flesh",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "tan_a_hide": {
+      "display_name": "Cure for the Common Hide",
+      "original_name": "Cure for the Common Hide",
+      "enabled": true,
+      "icon": "minecraft:leather",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "build_tanning_rack": {
+      "display_name": "Stretched Thin",
+      "original_name": "Stretched Thin",
+      "enabled": true,
+      "icon": "seamsandstitches:tanning_rack",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "lye_speedup": {
+      "display_name": "A Little White Lye",
+      "original_name": "A Little White Lye",
+      "enabled": true,
+      "icon": "seamsandstitches:lye",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "hide_and_seek": {
+      "display_name": "Hide and Seek",
+      "original_name": "Hide and Seek",
+      "enabled": true,
+      "icon": "seamsandstitches:cow_hide",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    }
+  }
+}

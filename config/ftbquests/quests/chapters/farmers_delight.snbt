@@ -34,17 +34,26 @@
 			id: "4930ECD60EA9ED8D"
 			rewards: [
 				{
-					exclude_from_claim_all: true
-					id: "5631EAEE8EC7A5F0"
-					table_id: 6518300475828805418L
-					type: "choice"
-				}
-				{
 					count: 4
 					id: "34673B93E89D2687"
 					item: {
 						count: 1
 						id: "farmersdelight:organic_compost"
+					}
+					type: "item"
+				}
+				{
+					id: "75586CB99DA8E407"
+					item: {
+						components: {
+							"minecraft:enchantments": {
+								levels: {
+									"minecraft:fortune": 1
+								}
+							}
+						}
+						count: 1
+						id: "minecraft:stone_hoe"
 					}
 					type: "item"
 				}

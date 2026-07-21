@@ -97,7 +97,7 @@
 	# Default: 0.25
 	# Range: 0.0 ~ 1.0
 	poorThreshold = 0.25
-	#When true, the Tailoring Bench UI uses the classic vanilla Minecraft gray style.
+	#When true, the Tailoring Bench and Tanning Rack UIs use the classic vanilla Minecraft gray style.
 	#When false (default), the modern dark UI is used.
 	vanillafyUI = true
 
@@ -110,3 +110,71 @@
 	#  - Press C in the sewing screen to copy the array to the clipboard.
 	#Useful when designing new seam paths for custom recipes.
 	debugOverlay = false
+
+#Leather tanning settings.
+[leather_tanning]
+	#When true (default), leather-dropping animals (cows, mooshrooms, horses, donkeys,
+	#mules, llamas, hoglins) drop raw hides instead of vanilla leather, requiring the
+	#Tanning Rack to convert them back into leather. Set to false to restore vanilla
+	#leather drops.
+	#Requires a game restart or /reload to take effect after changing.
+	animalsDropHides = true
+	#When true, right-clicking the Tanning Rack with a piece of flint scrapes the hide
+	#currently tanning on it, guaranteeing it turns into leather. If Farmer's Delight is
+	#installed, a knife can be used instead of flint (see below). Hides that finish
+	#tanning without being scraped risk turning into rotten flesh instead (see
+	#unscrapedFailureChance below).
+	enableHideScraping = true
+	#Chance (0.0-1.0) that the piece of flint used to scrape a hide is consumed in the
+	#process (it can chip and shatter). Only applies when enableHideScraping is true.
+	# Default: 0.5
+	# Range: 0.0 ~ 1.0
+	flintConsumeChance = 0.5
+	#Chance (0.0-1.0) that a hide which finishes tanning without being scraped turns
+	#into rotten flesh instead of leather. Only applies when enableHideScraping is true.
+	# Default: 0.35
+	# Range: 0.0 ~ 1.0
+	unscrapedFailureChance = 0.35
+	#Hides tan passively in the Tanning Rack even without lye, like leaving them out
+	#to air-dry — just much slower. This is how many times longer that takes compared
+	#to using lye. E.g. 8.0 means a hide that tans in 30 seconds with lye takes 4
+	#minutes without it.
+	# Default: 8.0
+	# Range: 1.0 ~ 1000.0
+	airTanningTimeMultiplier = 8.0
+
+	#How many pieces of leather each hide type produces when it successfully
+	#finishes tanning. Larger animals can be set to yield more leather per hide.
+	[leather_tanning.leather_output_per_hide]
+		#Leather yield for cow hide
+		# Default: 2
+		# Range: 1 ~ 64
+		cow_hide = 2
+		#Leather yield for mooshroom hide
+		# Default: 2
+		# Range: 1 ~ 64
+		mooshroom_hide = 2
+		#Leather yield for brown mooshroom hide
+		# Default: 2
+		# Range: 1 ~ 64
+		brown_mooshroom_hide = 2
+		#Leather yield for horse hide
+		# Default: 2
+		# Range: 1 ~ 64
+		horse_hide = 2
+		#Leather yield for donkey hide
+		# Default: 2
+		# Range: 1 ~ 64
+		donkey_hide = 2
+		#Leather yield for mule hide
+		# Default: 2
+		# Range: 1 ~ 64
+		mule_hide = 2
+		#Leather yield for llama hide
+		# Default: 2
+		# Range: 1 ~ 64
+		llama_hide = 2
+		#Leather yield for hoglin hide
+		# Default: 4
+		# Range: 1 ~ 64
+		hoglin_hide = 4

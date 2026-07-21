@@ -3,6 +3,10 @@ Platform.mods.kubejs.name = "Cottage Witch";
 
 StartupEvents.registry('item', event => {
 
+event.create('arcane_coin').displayName('Arcane Coin').tooltip('A coin infused with arcane energy.').maxStackSize(64).rarity('rare')
+event.create('lunar_coin').displayName('Lunar Coin').tooltip('A coin infused with lunar energy.').maxStackSize(64)
+event.create('solar_coin').displayName('Solar Coin').tooltip('A coin infused with solar energy.').maxStackSize(64)
+
 event.create('cheeseburger').food(food => {
     food
       .nutrition(6)

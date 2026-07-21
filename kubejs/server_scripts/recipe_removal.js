@@ -11,10 +11,6 @@ ServerEvents.recipes(event => {
         { id: 'hearthandharvest:flour_dough_from_egg'},
         { id: 'farmersdelight:wheat_dough_from_egg'},
         { id: 'minecraft:bread'},
-        { id: 'create:smelting/bread'},
-        { id: 'create:smoking/bread'},
-        { id: 'create:campfire_cooking/bread'},
-        { id: 'create:mixing/chocolate_melting'},   // create bar suppressed; bar→fluid melt route removed
         { id: 'regions_unexplored:barley_smelting'},
         { id: 'regions_unexplored:barley_smoking'},
         { id: 'hexalia:string_from_mortar_and_pestle'},

@@ -133,23 +133,8 @@
 					type: "item"
 				}
 				{
-					id: "2DDF51389EDA2568"
-					item: { }
-					type: "item"
-				}
-				{
-					id: "4E88AA295F899E23"
-					item: { components: { "ftbquests:missing_item": "fruitsdelight:persimmon_cookie" }, count: 1, id: "ftbquests:missing_item" }
-					type: "item"
-				}
-				{
-					id: "443B56C906C4F9B2"
-					item: { components: { "ftbquests:missing_item": "fruitsdelight:lemon_cookie" }, count: 1, id: "ftbquests:missing_item" }
-					type: "item"
-				}
-				{
-					id: "7F71B1A3C72D4C42"
-					item: { components: { "ftbquests:missing_item": "fruitsdelight:cranberry_cookie" }, count: 1, id: "ftbquests:missing_item" }
+					id: "5D3C66DC42C77139"
+					item: { count: 1, id: "twilightdelight:torchberry_cookie" }
 					type: "item"
 				}
 			]

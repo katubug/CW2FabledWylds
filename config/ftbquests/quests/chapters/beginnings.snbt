@@ -441,7 +441,7 @@
 					is_team_reward: false
 					item: {
 						count: 1
-						id: "numismatics:spur"
+						id: "minecraft:apple"
 					}
 					target_addressee: "QuestNPC"
 					team_reward_multiplier: 1.0f
