@@ -24,7 +24,6 @@
 	chapter.7401E53A08F6CC5E.title: "Scavenger Hunt"
 	chapter.7853699FB0092DA9.title: "Mail-Order Catalogue"
 	chapter.7945F0FF12C496EA.title: "Equipment \\& Gear"
-	chapter.7AEAAF396A837DE7.title: "Applied Energistics 2"
 	chapter.7F553DB3A577011E.title: "Discovery"
 	chapter_group.181D7A6A92948264.title: "Magic \\& The Arcane"
 	chapter_group.33A91E268D63CB12.title: "Agriculture"
@@ -11959,6 +11958,7 @@
 	quest.3EF0EB273B8FECD3.quest_subtitle: "{count:1,id:\"minecraft:farmland\"}"
 	quest.3EF179E9AFCFFB9B.quest_subtitle: "{count:1,id:\"quark:duskbound_block\"}"
 	quest.3EF18B06B242074B.quest_subtitle: "{count:1,id:\"decorative_blocks:warped_beam\"}"
+	quest.3EF4DABC6B496E19.quest_desc: ["This unusual fruit is not strictly edible in the usual sense. But you could &afeed it to a villager&r if you didn't like them very much... Or a &eCreeper&r, if you didn't like &oyourself&r very much."]
 	quest.3EF6B9E3BE7005AD.quest_subtitle: "{components:{\"sophisticatedstorage:wood_type\":\"crimson\"},count:1,id:\"sophisticatedstorage:limited_iron_barrel_3\"}"
 	quest.3EF796FEB4A9BAA6.quest_subtitle: "{count:1,id:\"dramaticdoors:tall_twilight_mangrove_door\"}"
 	quest.3EF956B2AA9B0676.quest_subtitle: "{components:{\"ae2:facade_item\":\"colorfulazaleas:white_flowering_azalea_leaves\"},count:1,id:\"ae2:facade\"}"

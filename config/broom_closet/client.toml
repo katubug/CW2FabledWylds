@@ -27,3 +27,10 @@ disableFtbChunksMap = true
 #DO NOT use letters k, l, m, n, o, r, or z here. Those are other formatting codes and should not be remapped.
 #[[IMPORTANT!! changes to this list only take effect after a full client restart (quitting and relaunching).]]
 codeRemaps = ["0:#000000", "1:#0000AA", "2:#00AA00", "3:#00AAAA", "4:#AA0000", "5:#AA00AA", "6:#FFAA00", "7:#AAAAAA", "8:#555555", "9:#5555FF", "a:#55FF55", "b:#55FFFF", "c:#FF5555", "d:#FF55FF", "e:#FFFF55", "f:#FFFFFF"]
+#Whether thunderstorms visibly dim SoulHome's soul home dimensions. SoulHome pins the
+#dimension's lightmap the way the End does, so weather can't change the light there at all.
+#Turning this on replaces SoulHome's registered dimension effects with an otherwise identical
+#copy that lets sky darkening through. Requires a client restart.
+#Works together with the dimension_type override this mod ships, which lowers SoulHome's
+#very high ambient_light floor -- without that override the darkening is barely visible.
+soulhomeStormDarkening = true

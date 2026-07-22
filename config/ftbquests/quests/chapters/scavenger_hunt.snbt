@@ -17,6 +17,7 @@
 		y: 0.0d
 	}]
 	order_index: 1
+	quest_enhance_decorative_lines: [ ]
 	quest_links: [ ]
 	quests: [
 		{

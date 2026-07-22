@@ -1,0 +1,30 @@
+#How many continuous seconds an unidentified item must be worn (armor slots only) to auto-identify it.
+#Progress resets if the item is unequipped or swapped out -- it does not persist across a re-equip.
+# Default: 300
+# Range: > 1
+identificationWearTimeSeconds = 300
+#Whether pre-enchanted enchanted books found in loot are also obfuscated, in addition to gear.
+#Off by default -- obfuscation normally only applies to weapons/tools/armor found pre-enchanted.
+identificationObfuscateBooks = false
+#Enchantment IDs to exclude from identification tracking because they're not obtainable via loot in this pack.
+identificationExcludedEnchantments = []
+#Whether weather applies inside SoulHome's soul home dimensions. SoulHome's biome disables
+#precipitation, which is the flag both the rain renderer and Level.isRainingAt check -- so
+#rain never falls there even though the dimension is already told the overworld's weather.
+#Turning this on re-enables it via a biome modifier. Takes effect on the next /reload.
+soulhomeWeather = true
+#Whether sleeping in a soul home passes the night. SoulHome's dimensions delegate their
+#level data to the overworld's, and that wrapper silently drops time writes, so vanilla's
+#own night-skip does nothing there. When on, sleepers in the overworld and in soul homes
+#are counted together against the playersSleepingPercentage gamerule, and the overworld's
+#clock is advanced instead.
+soulhomeSleep = true
+#When a soul home sleeper passes the night, also reset the phantom timer (time since rest)
+#for players who were awake, not just the ones who slept.
+#This mirrors Midnight Thoughts' 'resetPhantomTimerForNonSleepers' option, which hooks
+#vanilla's night skip directly and therefore never sees a soul home one -- without this,
+#skipping the night from a soul home would grant no phantom relief to anyone still awake,
+#while an identical skip from an overworld bed would. Set this to match that mod's setting.
+#Harmless with Midnight Thoughts absent; it just becomes a standalone gameplay option.
+#Turn off for strict vanilla behavior, where only sleepers get phantom relief.
+soulhomeResetPhantomTimer = true

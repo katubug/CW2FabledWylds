@@ -47,6 +47,7 @@
 		}
 	]
 	order_index: 2
+	quest_enhance_decorative_lines: [ ]
 	quest_links: [ ]
 	quests: [
 		{
@@ -753,6 +754,23 @@
 			}]
 			x: 7.4d
 			y: -0.7999999999999998d
+		}
+		{
+			id: "3EF4DABC6B496E19"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5C79CF095BB5A49C"
+				table_id: 6895470215093009548L
+				type: "loot"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "19BC81A5185CAB70"
+				item: { count: 1, id: "delighto_flight:copper_thunder_fruit" }
+				type: "item"
+			}]
+			x: -5.3d
+			y: -2.1d
 		}
 	]
 }
