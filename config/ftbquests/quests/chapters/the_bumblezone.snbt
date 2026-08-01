@@ -58,8 +58,11 @@
 				{
 					id: "3421A8D3711173EB"
 					item: {
+						components: {
+							"ftbquests:missing_item": "waystones:warp_scroll"
+						}
 						count: 1
-						id: "waystones:warp_scroll"
+						id: "ftbquests:missing_item"
 					}
 					type: "item"
 				}

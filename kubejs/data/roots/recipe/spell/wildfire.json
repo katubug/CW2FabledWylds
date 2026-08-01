@@ -1,0 +1,25 @@
+{
+  "type": "hexerei:pestle_and_mortar",
+  "ingredients": [
+      {
+        "tag": "roots:herbs/inferno_bulb"
+      },
+      {
+        "item": "minecraft:gunpowder"
+      },
+      {
+        "item": "minecraft:campfire"
+      },
+      {
+        "item": "minecraft:magma_cream"
+      },
+      {
+        "item": "minecraft:lava_bucket"
+      }
+    ],
+    "output": {
+    "id": "roots:acid_cloud",
+    "count": 1
+  },
+  "grindingTime": 450
+}

@@ -918,36 +918,12 @@
 		}
 		{
 			id: "6CD4F0A4650CBA2F"
-			rewards: [
-				{
-					id: "3A5546869704A4FE"
-					item: {
-						count: 1
-						id: "minecraft:powder_snow_bucket"
-					}
-					type: "item"
-				}
-				{
-					count: 5
-					id: "41813A712049D48B"
-					item: {
-						count: 1
-						id: "minecraft:snow_block"
-					}
-					type: "item"
-				}
-				{
-					id: "60AF85F5AFCDACD4"
-					item: {
-						components: {
-							"ftbquests:missing_item": "plushies:snow_golem_plushie"
-						}
-						count: 1
-						id: "ftbquests:missing_item"
-					}
-					type: "item"
-				}
-			]
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "17E4531EE0100231"
+				table_id: 5770973074849872376L
+				type: "random"
+			}]
 			shape: "heart"
 			tasks: [{
 				icon: {
@@ -1261,253 +1237,6 @@
 			y: -2.5d
 		}
 		{
-			id: "56497A1094C28B5F"
-			rewards: [{
-				count: 4
-				id: "657F9980DF37A974"
-				item: {
-					count: 1
-					id: "minecraft:raw_gold"
-				}
-				type: "item"
-			}]
-			shape: "heart"
-			tasks: [{
-				icon: {
-					components: {
-						"ftbquests:missing_item": "spawn:angler_fish"
-					}
-					id: "ftbquests:missing_item"
-				}
-				id: "4C434405B56764B9"
-				observation_type: "entity_type"
-				observe_type: 5
-				timer: 0L
-				to_observe: "spawn:angler_fish"
-				type: "observation"
-			}]
-			x: -5.5d
-			y: 12.0d
-		}
-		{
-			id: "104737784582F996"
-			rewards: [{
-				count: 5
-				id: "41B36E8FE27BCEEA"
-				item: {
-					components: {
-						"ftbquests:missing_item": "spawn:sunflower_seeds"
-					}
-					count: 1
-					id: "ftbquests:missing_item"
-				}
-				type: "item"
-			}]
-			shape: "heart"
-			tasks: [{
-				icon: {
-					components: {
-						"ftbquests:missing_item": "spawn:hamster_spawn_egg"
-					}
-					id: "ftbquests:missing_item"
-				}
-				id: "2A7BA15246361925"
-				observation_type: "entity_type"
-				observe_type: 5
-				timer: 0L
-				to_observe: "spawn:hamster"
-				type: "observation"
-			}]
-			x: -9.5d
-			y: -2.0d
-		}
-		{
-			dependencies: [
-				"01396882DABC0EFE"
-				"249323B78D8EB666"
-			]
-			id: "7FE2C3E2F1129E9D"
-			shape: "heart"
-			tasks: [{
-				id: "058408120C0D089B"
-				observation_type: "block"
-				observe_type: 0
-				timer: 0L
-				to_observe: "minecraft:dirt"
-				type: "observation"
-			}]
-			x: -6.5d
-			y: -5.0d
-		}
-		{
-			dependencies: ["7FE2C3E2F1129E9D"]
-			id: "03EE3579CD0561AA"
-			rewards: [{
-				count: 5
-				id: "13DC62B76053D496"
-				item: {
-					components: {
-						"ftbquests:missing_item": "spawn:rotten_log"
-					}
-					count: 1
-					id: "ftbquests:missing_item"
-				}
-				type: "item"
-			}]
-			tasks: [{
-				biome: "spawn:ant_gardens"
-				icon: {
-					components: {
-						"ftbquests:missing_item": "spawn:anthill"
-					}
-					id: "ftbquests:missing_item"
-				}
-				id: "22774E00D20302F3"
-				type: "biome"
-			}]
-			x: -8.0d
-			y: -4.0d
-		}
-		{
-			id: "249323B78D8EB666"
-			rewards: [{
-				id: "5E7D92DF4421CB64"
-				item: {
-					count: 1
-					id: "minecraft:brush"
-				}
-				type: "item"
-			}]
-			tasks: [{
-				icon: {
-					components: {
-						"ftbquests:missing_item": "spawn:ant_mound"
-					}
-					id: "ftbquests:missing_item"
-				}
-				id: "54647C47BCBF2921"
-				observation_type: "block"
-				observe_type: 0
-				timer: 0L
-				to_observe: "spawn:ant_mound"
-				type: "observation"
-			}]
-			x: -6.5d
-			y: -2.5d
-		}
-		{
-			id: "01396882DABC0EFE"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "504393997A3462BB"
-				type: "choice"
-			}]
-			shape: "hexagon"
-			tasks: [{
-				id: "1BD89BDB862ED0EE"
-				item: { components: { "ftbquests:missing_item": "spawn:ant_pupa" }, count: 1, id: "ftbquests:missing_item" }
-				type: "item"
-			}]
-			x: -5.0d
-			y: -4.0d
-		}
-		{
-			dependencies: ["01396882DABC0EFE"]
-			id: "5229FDBCDE70576C"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "37AB9A4033DB9A08"
-				type: "choice"
-			}]
-			tasks: [{
-				id: "2EC9D9E09A8677B0"
-				item: { components: { "ftbquests:missing_item": "spawn:ant_farm" }, count: 1, id: "ftbquests:missing_item" }
-				type: "item"
-			}]
-			x: -5.0d
-			y: -2.5d
-		}
-		{
-			dependencies: ["03EE3579CD0561AA"]
-			id: "3558EAA43C9F9F2D"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "31CB06573F1B9630"
-				type: "loot"
-			}]
-			tasks: [{
-				icon: {
-					components: {
-						"ftbquests:missing_item": "spawn:anthill"
-					}
-					id: "ftbquests:missing_item"
-				}
-				id: "2C68CCC05BBD9D00"
-				structure: "spawn:ant_mount"
-				type: "structure"
-			}]
-			x: -8.0d
-			y: -2.5d
-		}
-		{
-			id: "1EF0463BA62E3EB7"
-			rewards: [{
-				count: 3
-				id: "2781712D9FB0829D"
-				item: {
-					count: 1
-					id: "minecraft:disc_fragment_5"
-				}
-				type: "item"
-			}]
-			shape: "heart"
-			tasks: [{
-				icon: {
-					components: {
-						"ftbquests:missing_item": "species:birt_egg"
-					}
-					id: "ftbquests:missing_item"
-				}
-				id: "59D9E5FA138B99D7"
-				observation_type: "entity_type"
-				observe_type: 5
-				timer: 0L
-				to_observe: "species:birt"
-				type: "observation"
-			}]
-			x: -4.0d
-			y: 13.5d
-		}
-		{
-			id: "520598DFD36F43BC"
-			rewards: [{
-				count: 5
-				id: "4EFE4B901D437293"
-				item: {
-					count: 1
-					id: "minecraft:honeycomb"
-				}
-				type: "item"
-			}]
-			shape: "heart"
-			tasks: [{
-				icon: {
-					components: {
-						"ftbquests:missing_item": "species:roombug_spawn_egg"
-					}
-					id: "ftbquests:missing_item"
-				}
-				id: "150EE6A7230EF58A"
-				observation_type: "entity_type"
-				observe_type: 5
-				timer: 0L
-				to_observe: "species:roombug"
-				type: "observation"
-			}]
-			x: -6.5d
-			y: -1.0d
-		}
-		{
 			id: "4BE2F61081D4D690"
 			rewards: [
 				{
@@ -1546,35 +1275,6 @@
 			y: 11.0d
 		}
 		{
-			id: "7E3E39BE05E6CF2F"
-			rewards: [{
-				count: 5
-				id: "3B9D5BA37568B5C8"
-				item: {
-					count: 1
-					id: "minecraft:crimson_fungus"
-				}
-				type: "item"
-			}]
-			shape: "heart"
-			tasks: [{
-				icon: {
-					components: {
-						"ftbquests:missing_item": "earthmobsmod:baby_ghast_spawn_egg"
-					}
-					id: "ftbquests:missing_item"
-				}
-				id: "6BFB3309D4F65453"
-				observation_type: "block"
-				observe_type: 0
-				timer: 0L
-				to_observe: "earthmobsmod:baby_ghast"
-				type: "observation"
-			}]
-			x: -7.5d
-			y: 0.0d
-		}
-		{
 			id: "2D8511D462DFF413"
 			rewards: [{
 				id: "101DF70390C46B3B"
@@ -1602,27 +1302,18 @@
 		{
 			id: "72AEC02678301699"
 			rewards: [{
-				id: "67BADCFA13D0E998"
+				id: "11373B83733BC373"
 				item: {
-					components: {
-						"ftbquests:missing_item": "plushies:warden_plushie"
-					}
 					count: 1
-					id: "ftbquests:missing_item"
+					id: "plushie_buddies:plushie_warden"
 				}
 				type: "item"
 			}]
 			shape: "octagon"
 			tasks: [{
-				advancement: "species:adventure/birt_egg_at_warden"
+				advancement: "enchanted_wilds:misc/deviled_egg"
 				criterion: ""
-				icon: {
-					components: {
-						"ftbquests:missing_item": "species:birt_egg"
-					}
-					id: "ftbquests:missing_item"
-				}
-				id: "70729BC850B5B74E"
+				id: "56E0DF38123C4DE4"
 				type: "advancement"
 			}]
 			x: 5.0d
@@ -1666,68 +1357,6 @@
 			y: -2.5d
 		}
 		{
-			icon: {
-				components: {
-					"ftbquests:missing_item": "perfectplushies:capybara_plushie"
-				}
-				id: "ftbquests:missing_item"
-			}
-			id: "0F493F4799F7F09B"
-			rewards: [{
-				id: "0D5EB00F9108C638"
-				item: {
-					components: {
-						"ftbquests:missing_item": "perfectplushies:capybara_plushie"
-					}
-					count: 1
-					id: "ftbquests:missing_item"
-				}
-				type: "item"
-			}]
-			shape: "heart"
-			tasks: [{
-				id: "2571B404C77E7E84"
-				observation_type: "entity_type"
-				observe_type: 5
-				timer: 0L
-				to_observe: "capybaramod:capybara"
-				type: "observation"
-			}]
-			x: -5.5d
-			y: 0.0d
-		}
-		{
-			id: "01C95F8B7C4A029B"
-			rewards: [{
-				id: "5279FFA93EDFF122"
-				item: {
-					components: {
-						"ftbquests:missing_item": "perfectplushies:red_panda_plushie"
-					}
-					count: 1
-					id: "ftbquests:missing_item"
-				}
-				type: "item"
-			}]
-			shape: "heart"
-			tasks: [{
-				icon: {
-					components: {
-						"ftbquests:missing_item": "perfectplushies:red_panda_plushie"
-					}
-					id: "ftbquests:missing_item"
-				}
-				id: "6D904C85DC5492DA"
-				observation_type: "entity_type"
-				observe_type: 5
-				timer: 0L
-				to_observe: "crittersandcompanions:red_panda"
-				type: "observation"
-			}]
-			x: -6.5d
-			y: 0.5d
-		}
-		{
 			id: "7C47161393ACC4BE"
 			rewards: [{
 				id: "233C7619C02B5216"
@@ -1753,20 +1382,30 @@
 		{
 			dependencies: ["6CD4F0A4650CBA2F"]
 			id: "4CEA87A9E500920A"
-			rewards: [{
-				id: "2A6AC5F2274A11A8"
-				item: {
-					components: {
-						"ftbquests:missing_item": "abyssal_decor:bottomless_bag_of_snow"
+			rewards: [
+				{
+					id: "4BFA7A444228DEDF"
+					item: {
+						count: 1
+						id: "heads:snow_golem_head"
 					}
-					count: 1
-					id: "ftbquests:missing_item"
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					exclude_from_claim_all: true
+					id: "347A9D1A2CD2559F"
+					table_id: 6895470215093009548L
+					type: "random"
+				}
+			]
 			tasks: [{
-				id: "3DE6C46EDB3702A4"
-				type: "custom"
+				entity: "minecraft:snow_golem"
+				hand_mode: "ANY"
+				held_item_tag: "c:tools/shears"
+				id: "4F2D827D70648964"
+				min_tags_required: 0
+				type: "interact_entity"
+				value: 1L
 			}]
 			x: -4.5d
 			y: -1.0d
@@ -1887,64 +1526,6 @@
 			y: -1.0d
 		}
 		{
-			id: "1CFE0C6B55370733"
-			rewards: [{
-				count: 5
-				id: "2A55A1DAADCEEC49"
-				item: {
-					count: 1
-					id: "minecraft:honeycomb"
-				}
-				type: "item"
-			}]
-			shape: "heart"
-			tasks: [{
-				icon: {
-					components: {
-						"ftbquests:missing_item": "tameablebeasts:ground_beetle_spawn_egg"
-					}
-					id: "ftbquests:missing_item"
-				}
-				id: "3C2C445C59D42D97"
-				observation_type: "entity_type"
-				observe_type: 5
-				timer: 0L
-				to_observe: "tameablebeasts:ground_beetle"
-				type: "observation"
-			}]
-			x: -3.5d
-			y: 0.0d
-		}
-		{
-			id: "5C8A806847060D9D"
-			rewards: [{
-				count: 5
-				id: "43DDEF1B46FB71EB"
-				item: {
-					count: 1
-					id: "minecraft:honeycomb"
-				}
-				type: "item"
-			}]
-			shape: "heart"
-			tasks: [{
-				icon: {
-					components: {
-						"ftbquests:missing_item": "tameablebeasts:beetle_spawn_egg"
-					}
-					id: "ftbquests:missing_item"
-				}
-				id: "44456FA29203788A"
-				observation_type: "entity_type"
-				observe_type: 5
-				timer: 0L
-				to_observe: "tameablebeasts:tameable_beetle"
-				type: "observation"
-			}]
-			x: -9.5d
-			y: 0.0d
-		}
-		{
 			id: "7E223824125871A6"
 			rewards: [{
 				count: 5
@@ -1971,35 +1552,6 @@
 			y: 1.0d
 		}
 		{
-			id: "165F7D17FE6C817F"
-			rewards: [{
-				count: 5
-				id: "7D3C3282DBA7E916"
-				item: {
-					count: 1
-					id: "minecraft:cod"
-				}
-				type: "item"
-			}]
-			shape: "heart"
-			tasks: [{
-				icon: {
-					components: {
-						"ftbquests:missing_item": "tameablebeasts:penguin_egg"
-					}
-					id: "ftbquests:missing_item"
-				}
-				id: "29043924232CFE46"
-				observation_type: "entity_type"
-				observe_type: 5
-				timer: 0L
-				to_observe: "tameablebeasts:tameable_penguin"
-				type: "observation"
-			}]
-			x: -4.5d
-			y: 1.0d
-		}
-		{
 			id: "07A746772D2FE875"
 			rewards: [{
 				count: 5
@@ -2023,38 +1575,6 @@
 				type: "observation"
 			}]
 			x: -6.5d
-			y: 2.0d
-		}
-		{
-			id: "3FB15C172F90E74B"
-			rewards: [{
-				count: 5
-				id: "5BE64212F3402F81"
-				item: {
-					components: {
-						"ftbquests:missing_item": "tameablebeasts:beetle_egg"
-					}
-					count: 1
-					id: "ftbquests:missing_item"
-				}
-				type: "item"
-			}]
-			shape: "heart"
-			tasks: [{
-				icon: {
-					components: {
-						"ftbquests:missing_item": "tameablebeasts:crested_gecko_egg"
-					}
-					id: "ftbquests:missing_item"
-				}
-				id: "24A201EABC7AB44C"
-				observation_type: "entity_type"
-				observe_type: 5
-				timer: 0L
-				to_observe: "tameablebeasts:crested_gecko"
-				type: "observation"
-			}]
-			x: -3.5d
 			y: 2.0d
 		}
 		{
@@ -2130,6 +1650,45 @@
 			}]
 			x: 13.9d
 			y: -7.3d
+		}
+		{
+			id: "3A6AAE50897DE597"
+			rewards: [
+				{
+					id: "126BF295D5636A39"
+					item: {
+						count: 1
+						id: "minecraft:lead"
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "04C92FCAE636D7EF"
+					table_id: 5770973074849872376L
+					type: "random"
+				}
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "394855991D625C6F"
+					item: { count: 1, id: "farmersdelight:dog_food" }
+					type: "item"
+				}
+				{
+					id: "131B2886F1B7F2EC"
+					item: { count: 1, id: "farm_and_charm:horse_fodder" }
+					type: "item"
+				}
+				{
+					id: "362F87E25A0D8B1C"
+					item: { count: 1, id: "farm_and_charm:cat_food" }
+					type: "item"
+				}
+			]
+			x: 6.5d
+			y: -6.0d
 		}
 	]
 }

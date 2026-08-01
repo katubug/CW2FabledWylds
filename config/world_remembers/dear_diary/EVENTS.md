@@ -59,9 +59,6 @@ Each line shows:
 - `twilightforest:first_mazebreaker` - MAJOR, ONCE_PER_PLAYER
 - `twilightforest:first_naga_courtyard_visit` - NORMAL, ONCE_PER_PLAYER
 - `twilightforest:first_twilight_forest_entry` - MAJOR, ONCE_PER_PLAYER
-- `waystones:activated_waystones_5` - MAJOR, MILESTONE
-- `waystones:first_return_scroll_used` - NORMAL, ONCE_PER_PLAYER
-- `waystones:first_waystone_activated` - MAJOR, ONCE_PER_PLAYER
 
 ## COMBAT
 
@@ -97,6 +94,25 @@ Each line shows:
 
 ## BUILDING
 
+- `create:first_crushing_wheels_powered` - MAJOR, ONCE_PER_PLAYER
+- `create:first_deployer_powered` - NORMAL, ONCE_PER_PLAYER
+- `create:first_display_link_reporting` - NORMAL, ONCE_PER_PLAYER
+- `create:first_factory_gauge_request` - NORMAL, ONCE_PER_PLAYER
+- `create:first_fan_processing` - NORMAL, ONCE_PER_PLAYER
+- `create:first_hose_pulley_operation` - MAJOR, ONCE_PER_PLAYER
+- `create:first_linked_controller_signal` - NORMAL, ONCE_PER_PLAYER
+- `create:first_mechanical_arm_delivery` - MAJOR, ONCE_PER_PLAYER
+- `create:first_mechanical_crafter_powered` - MAJOR, ONCE_PER_PLAYER
+- `create:first_mechanical_mixer` - NORMAL, ONCE_PER_PLAYER
+- `create:first_mechanical_press` - NORMAL, ONCE_PER_PLAYER
+- `create:first_precision_mechanism` - MAJOR, ONCE_PER_PLAYER
+- `create:first_rope_pulley_deep_extension` - MAJOR, ONCE_PER_PLAYER
+- `create:first_rotation_speed_controller_tuned` - MAJOR, ONCE_PER_PLAYER
+- `create:first_spout_filling` - NORMAL, ONCE_PER_PLAYER
+- `create:first_steam_engine` - MAJOR, ONCE_PER_PLAYER
+- `create:first_train_assembled` - MAJOR, ONCE_PER_PLAYER
+- `create:first_train_schedule_assigned` - MAJOR, ONCE_PER_PLAYER
+- `create:first_water_wheel_powered` - MAJOR, ONCE_PER_PLAYER
 - `farmersdelight:feasts_served_5` - MAJOR, MILESTONE
 - `farmersdelight:first_cooking_pot_placed` - NORMAL, ONCE_PER_PLAYER
 - `farmersdelight:first_cutting_board_used` - NORMAL, ONCE_PER_PLAYER
@@ -117,7 +133,6 @@ Each line shows:
 - `minecraft:first_beacon` - LEGENDARY, ONCE_PER_PLAYER
 - `minecraft:first_chest` - NORMAL, ONCE_PER_PLAYER
 - `minecraft:first_decorated_pot` - NORMAL, ONCE_PER_PLAYER
-- `waystones:first_waystone_placed` - NORMAL, ONCE_PER_PLAYER
 
 ## RESOURCES
 
@@ -187,7 +202,6 @@ Each line shows:
 - `twilightforest:first_charm_of_life` - MAJOR, ONCE_PER_PLAYER
 - `twilightforest:first_crumble_horn` - MAJOR, ONCE_PER_PLAYER
 - `twilightforest:first_lamp_of_cinders` - LEGENDARY, ONCE_PER_PLAYER
-- `waystones:first_warp_stone_acquired` - NORMAL, ONCE_PER_PLAYER
 
 ## OTHER
 

@@ -253,16 +253,6 @@
         "items": []
       }
     },
-    "content/poison_baby": {
-      "display_name": "Forever Young",
-      "original_name": "Forever Young",
-      "enabled": true,
-      "icon": "minecraft:poisonous_potato",
-      "rewards": {
-        "attributes": {},
-        "items": []
-      }
-    },
     "content/use_viaduct": {
       "display_name": "Chase Me",
       "original_name": "Chase Me",

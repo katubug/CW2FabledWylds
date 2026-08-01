@@ -1,4 +1,5 @@
 {
+	autofocus_id: "41E35091BA940B6E"
 	default_hide_dependency_lines: false
 	default_min_width: 350
 	default_quest_shape: ""
@@ -13,14 +14,25 @@
 		id: "minecraft:potion"
 	}
 	id: "0B597438B33910F1"
-	images: [{
-		height: 15.0d
-		image: "enchanted_wilds:textures/questui/bgbrewingenchanting.png"
-		rotation: 0.0d
-		width: 15.0d
-		x: 0.0d
-		y: -6.0d
-	}]
+	images: [
+		{
+			height: 20.0d
+			image: "enchanted_wilds:textures/questui/bookbgslg/purple_book_lg.png"
+			rotation: 0.0d
+			width: 25.0d
+			x: 7.0d
+			y: -5.5d
+		}
+		{
+			color: 11296702
+			height: 2.5d
+			image: "enchanted_wilds:textures/questui/titles/brewingenchanting.png"
+			rotation: 0.0d
+			width: 9.0d
+			x: 2.0d
+			y: -11.5d
+		}
+	]
 	order_index: 1
 	quest_enhance_decorative_lines: [ ]
 	quest_links: [ ]
@@ -41,8 +53,8 @@
 				item: { count: 1, id: "minecraft:brewing_stand" }
 				type: "item"
 			}]
-			x: -3.75d
-			y: -3.25d
+			x: 2.0d
+			y: -9.5d
 		}
 		{
 			id: "54F9B41F96399DE6"
@@ -63,15 +75,67 @@
 			y: -4.0d
 		}
 		{
-			id: "3D0BBD2942171BD6"
+			id: "30EA6BEFEEBF9650"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4A4D80D18DA14DBD"
+				table_id: 5770973074849872376L
+				type: "random"
+			}]
+			shape: "rsquare"
+			size: 2.0d
+			tasks: [
+				{
+					id: "7AFE039986471228"
+					item: { count: 1, id: "reliquary:apothecary_cauldron" }
+					type: "item"
+				}
+				{
+					id: "282D4C412E84BB8D"
+					item: { count: 1, id: "reliquary:apothecary_mortar" }
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: -9.5d
+		}
+		{
+			id: "0BDF6D5ED0A22E48"
+			rewards: [
+				{
+					count: 5
+					id: "6AF636AAA06B0445"
+					item: {
+						count: 1
+						id: "minecraft:book"
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7C7BE12DA2090E5A"
+					table_id: 7328857662613080212L
+					type: "random"
+				}
+			]
+			shape: "hexagon"
 			tasks: [{
-				id: "3BC6D9A35EE141CB"
-				item: { count: 1, id: "ftbquests:barrier" }
-				only_from_crafting: true
+				id: "73B3EF341A02D904"
+				item: { count: 1, id: "disenchanting_table:disenchanting_table" }
 				type: "item"
 			}]
-			x: 0.0d
-			y: -5.5d
+			x: 2.5d
+			y: -4.0d
+		}
+		{
+			always_invisible: true
+			id: "41E35091BA940B6E"
+			tasks: [{
+				id: "779E2893C37E22E0"
+				type: "custom"
+			}]
+			x: 7.0d
+			y: -6.0d
 		}
 	]
 }

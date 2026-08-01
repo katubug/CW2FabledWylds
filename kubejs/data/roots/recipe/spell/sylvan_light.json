@@ -1,0 +1,25 @@
+{
+  "type": "hexerei:pestle_and_mortar",
+  "ingredients": [
+      {
+        "tag": "minecraft:wool"
+      },
+      {
+        "item": "minecraft:torch"
+      },
+      {
+        "item": "minecraft:jack_o_lantern"
+      },
+      {
+        "tag": "c:nuggets/copper"
+      },
+      {
+        "tag": "roots:dusts/runic"
+      }
+    ],
+    "output": {
+    "id": "roots:sylvan_light",
+    "count": 1
+  },
+  "grindingTime": 450
+}

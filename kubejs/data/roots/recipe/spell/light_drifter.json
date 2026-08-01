@@ -1,0 +1,25 @@
+{
+  "type": "hexerei:pestle_and_mortar",
+  "ingredients": [
+      {
+        "item": "minecraft:glow_berries"
+      },
+      {
+        "tag": "c:feathers"
+      },
+      {
+        "item": "minecraft:sunflower"
+      },
+      {
+        "tag": "minecraft:candles"
+      },
+      {
+        "tag": "roots:herbs/moonglow"
+      }
+    ],
+    "output": {
+    "id": "roots:light_drifter",
+    "count": 1
+  },
+  "grindingTime": 450
+}

@@ -1,0 +1,25 @@
+{
+  "type": "hexerei:pestle_and_mortar",
+  "ingredients": [
+      {
+        "tag": "minecraft:small_flowers"
+      },
+      {
+        "item": "minecraft:shield"
+      },
+      {
+        "tag": "c:ingots/iron"
+      },
+      {
+        "item": "minecraft:egg"
+      },
+      {
+        "tag": "c:glass_blocks"
+      }
+    ],
+    "output": {
+    "id": "roots:petal_shell",
+    "count": 1
+  },
+  "grindingTime": 450
+}

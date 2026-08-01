@@ -183,5 +183,15 @@
 			x: -4.7d
 			y: 2.3d
 		}
+		{
+			id: "647DD568BF30253E"
+			tasks: [{
+				id: "59560628511DC68F"
+				structure: "epic:epic_temple_large"
+				type: "structure"
+			}]
+			x: 11.5d
+			y: 0.1d
+		}
 	]
 }

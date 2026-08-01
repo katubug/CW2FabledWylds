@@ -2,18 +2,12 @@
 	id: "50169D6F86C539F8"
 	loot_size: 1
 	order_index: 24
-	rewards: [
-		{
-			count: 2
-			id: "3880EBEB125B1CA4"
-			item: {
-				components: {
-					"ftbquests:missing_item": "numismatics:sprocket"
-				}
-				count: 1
-				id: "ftbquests:missing_item"
-			}
+	rewards: [{
+		id: "26FC95FB83E7439E"
+		item: {
+			count: 1
+			id: "numismatics:sprocket"
 		}
-		{ id: "6691B72E8422F69A", item: { components: { "ftbquests:missing_item": "numismatics:sprocket" }, count: 1, id: "ftbquests:missing_item" } }
-	]
+		random_bonus: 1
+	}]
 }

@@ -348,10 +348,7 @@
 											id: "hexerei:notebook"
 										}
 									]
-									solonion: [{
-										count: 1
-										id: "solonion:food_book"
-									}]
+									solonion: [ ]
 									soulhome: [{
 										count: 1
 										id: "soulhome:guide"
@@ -528,23 +525,29 @@
 					type: "item"
 				}
 			]
-			x: -7.2d
-			y: -2.5d
+			x: 3.5d
+			y: -3.0d
 		}
 		{
 			id: "60D87516A5C5DDF5"
 			rewards: [{
 				id: "4C9E7D096894F666"
 				item: {
+					components: {
+						"ftbquests:missing_item": "waystones:warp_scroll"
+					}
 					count: 1
-					id: "waystones:warp_scroll"
+					id: "ftbquests:missing_item"
 				}
 				type: "item"
 			}]
 			shape: "gear"
 			tasks: [{
 				icon: {
-					id: "waystones:waystone"
+					components: {
+						"ftbquests:missing_item": "waystones:waystone"
+					}
+					id: "ftbquests:missing_item"
 				}
 				id: "16EAB0998323565B"
 				stat: "waystones:waystone_activated"
@@ -585,46 +588,10 @@
 					id: "4C57C860CB79123E"
 					item: {
 						components: {
-							"minecraft:container": [
-								{
-									item: {
-										count: 1
-										id: "hexalia:mandrake_stew"
-									}
-									slot: 0
-								}
-								{
-									item: {
-										count: 1
-										id: "hexalia:chillberry_pie"
-									}
-									slot: 1
-								}
-								{
-									item: {
-										count: 1
-										id: "hexalia:galeberries_cookie"
-									}
-									slot: 2
-								}
-								{
-									item: {
-										count: 1
-										id: "farmersdelight:egg_sandwich"
-									}
-									slot: 3
-								}
-								{
-									item: {
-										count: 1
-										id: "delighto_flight:cloud_berry_steamed_bun"
-									}
-									slot: 4
-								}
-							]
+							"ftbquests:missing_item": "solonion:lunchbag"
 						}
 						count: 1
-						id: "solonion:lunchbag"
+						id: "ftbquests:missing_item"
 					}
 					type: "item"
 				}
@@ -760,6 +727,24 @@
 			}]
 			x: 7.35d
 			y: -9.775d
+		}
+		{
+			dependencies: ["4ABFB1778565B4B7"]
+			id: "4C4835404E2B4DA3"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6CC350B3295E1083"
+				table_id: 6895470215093009548L
+				type: "random"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "631DD61B126A60EC"
+				item: { count: 1, id: "roots:wooden_shears" }
+				type: "item"
+			}]
+			x: 5.2d
+			y: -3.0d
 		}
 	]
 }

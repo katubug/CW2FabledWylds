@@ -1,0 +1,25 @@
+{
+  "type": "hexerei:pestle_and_mortar",
+  "ingredients": [
+      {
+        "tag": "minecraft:birch_logs"
+      },
+      {
+        "item": "minecraft:redstone_torch"
+      },
+      {
+        "tag": "minecraft:boats"
+      },
+      {
+        "tag": "c:tools/bow"
+      },
+      {
+        "tag": "c:gunpowders"
+      }
+    ],
+    "output": {
+    "id": "roots:jaunt",
+    "count": 1
+  },
+  "grindingTime": 450
+}

@@ -12,6 +12,46 @@
         "attributes": {},
         "items": []
       }
+    },
+    "wyldkeeper": {
+      "display_name": "Wyldkeeper",
+      "original_name": "Wyldkeeper",
+      "enabled": true,
+      "icon": "kubejs:wyldkeeper_hearth",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "misc/snowballs_chance": {
+      "display_name": "Snowball\u0027s Chance",
+      "original_name": "Snowball\u0027s Chance",
+      "enabled": true,
+      "icon": "minecraft:snowball",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "misc/deviled_egg": {
+      "display_name": "Deviled Egg",
+      "original_name": "Deviled Egg",
+      "enabled": true,
+      "icon": "minecraft:egg",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "misc/stop_throwing_things_at_the_warden": {
+      "display_name": "Stop Throwing Things At The Warden",
+      "original_name": "Stop Throwing Things At The Warden",
+      "enabled": true,
+      "icon": "minecraft:warden_spawn_egg",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
     }
   }
 }

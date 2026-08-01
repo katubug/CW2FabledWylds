@@ -1,0 +1,25 @@
+{
+  "type": "hexerei:pestle_and_mortar",
+  "ingredients": [
+      {
+        "tag": "roots:herbs/stalicripe"
+      },
+      {
+        "tag": "c:raw_materials/iron"
+      },
+      {
+        "item": "minecraft:tnt"
+      },
+      {
+        "item": "minecraft:piston"
+      },
+      {
+        "item": "minecraft:stone_pickaxe"
+      }
+    ],
+    "output": {
+    "id": "roots:shatter",
+    "count": 1
+  },
+  "grindingTime": 450
+}

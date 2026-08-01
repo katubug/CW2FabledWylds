@@ -1,0 +1,25 @@
+{
+  "type": "hexerei:pestle_and_mortar",
+  "ingredients": [
+      {
+        "tag": "roots:herbs/stalicripe"
+      },
+      {
+        "item": "minecraft:clock"
+      },
+      {
+        "tag": "c:sands"
+      },
+      {
+        "tag": "c:glass_blocks"
+      },
+      {
+        "item": "minecraft:tripwire_hook"
+      }
+    ],
+    "output": {
+    "id": "roots:temporal_morass",
+    "count": 1
+  },
+  "grindingTime": 450
+}

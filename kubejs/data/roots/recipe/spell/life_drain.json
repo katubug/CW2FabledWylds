@@ -1,0 +1,25 @@
+{
+  "type": "hexerei:pestle_and_mortar",
+  "ingredients": [
+      {
+        "item": "minecraft:iron_sword"
+      },
+      {
+        "tag": "c:raw_materials/copper"
+      },
+      {
+        "tag": "roots:herbs/bafflecap"
+      },
+      {
+        "tag": "c:gunpowders"
+      },
+      {
+        "tag": "minecraft:small_flowers"
+      }
+    ],
+    "output": {
+    "id": "roots:life_drain",
+    "count": 1
+  },
+  "grindingTime": 450
+}

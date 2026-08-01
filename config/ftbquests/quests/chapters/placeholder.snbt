@@ -1,6 +1,6 @@
 {
 	always_invisible: true
-	autofocus_id: "3DFB7EF14F053582"
+	autofocus_id: "7E9EE22FD2FC5B56"
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "placeholder"
@@ -119,8 +119,11 @@
 			rewards: [{
 				id: "647BD7A181C2E88D"
 				item: {
+					components: {
+						"ftbquests:missing_item": "waystones:warp_scroll"
+					}
 					count: 1
-					id: "waystones:warp_scroll"
+					id: "ftbquests:missing_item"
 				}
 				type: "item"
 			}]
@@ -128,15 +131,18 @@
 			size: 1.0d
 			tasks: [{
 				icon: {
-					id: "waystones:sandy_waystone"
+					components: {
+						"ftbquests:missing_item": "waystones:sandy_waystone"
+					}
+					id: "ftbquests:missing_item"
 				}
 				id: "0897C669F0BCBDB8"
 				stat: "waystones:waystone_activated"
 				type: "stat"
 				value: 1
 			}]
-			x: 0.5d
-			y: -8.7d
+			x: 6.0d
+			y: -11.0d
 		}
 		{
 			id: "3DFB7EF14F053582"
@@ -166,8 +172,8 @@
 				id: "5D42AEB901AE8033"
 				type: "checkmark"
 			}]
-			x: -1.5d
-			y: -8.2d
+			x: 6.0d
+			y: -12.5d
 		}
 		{
 			id: "598D07A8C3ED765A"
@@ -181,8 +187,8 @@
 				id: "2A8566938ACB7B7B"
 				type: "checkmark"
 			}]
-			x: -3.5d
-			y: -8.75d
+			x: 6.0d
+			y: -14.0d
 		}
 		{
 			id: "12A73F1D8D2EF16A"
@@ -190,8 +196,8 @@
 				id: "5D78E66BA41E5B6A"
 				type: "checkmark"
 			}]
-			x: -2.2d
-			y: -11.2d
+			x: 6.0d
+			y: -15.5d
 		}
 		{
 			id: "7E9EE22FD2FC5B56"
@@ -205,8 +211,8 @@
 				id: "58938AAD0B7C8E23"
 				type: "custom"
 			}]
-			x: -0.7d
-			y: -12.6d
+			x: 6.0d
+			y: -17.0d
 		}
 	]
 }

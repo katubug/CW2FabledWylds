@@ -1,0 +1,25 @@
+{
+  "type": "hexerei:pestle_and_mortar",
+  "ingredients": [
+      {
+        "tag": "roots:herbs/spiritleaf"
+      },
+      {
+        "item": "minecraft:torch"
+      },
+      {
+        "tag": "minecraft:candles"
+      },
+      {
+        "item": "minecraft:glow_lichen"
+      },
+      {
+        "item": "roots:glass_eye"
+      }
+    ],
+    "output": {
+    "id": "roots:nondetection",
+    "count": 1
+  },
+  "grindingTime": 450
+}

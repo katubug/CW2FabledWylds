@@ -5,16 +5,14 @@
 	rewards: [
 		{
 			count: 4
-			id: "5C815A25C00238C9"
+			id: "377669A10A8647C2"
 			item: {
-				components: {
-					"ftbquests:missing_item": "numismatics:cog"
-				}
 				count: 1
-				id: "ftbquests:missing_item"
+				id: "numismatics:cog"
 			}
+			random_bonus: 2
 			weight: 10.0f
 		}
-		{ id: "7332BB8DF11CDD3F", item: { components: { "ftbquests:missing_item": "numismatics:crown" }, count: 1, id: "ftbquests:missing_item" } }
+		{ id: "1461B9A34322E900", item: { count: 1, id: "numismatics:crown" } }
 	]
 }

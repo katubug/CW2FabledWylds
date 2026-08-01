@@ -1,1 +1,7 @@
-[]
+[
+  {
+    "when": "position",
+    "mincount": 30,
+    "result": "deny"
+  }
+]

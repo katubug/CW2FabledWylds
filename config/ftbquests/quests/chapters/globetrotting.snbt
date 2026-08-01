@@ -234,8 +234,11 @@
 					count: 4
 					id: "1208FF044A4E5F34"
 					item: {
+						components: {
+							"ftbquests:missing_item": "waystones:warp_dust"
+						}
 						count: 1
-						id: "waystones:warp_dust"
+						id: "ftbquests:missing_item"
 					}
 					type: "item"
 				}
@@ -243,7 +246,7 @@
 			shape: "hexagon"
 			tasks: [{
 				id: "59AC7FC2C8A63192"
-				item: { count: 1, id: "waystones:warp_plate" }
+				item: { components: { "ftbquests:missing_item": "waystones:warp_plate" }, count: 1, id: "ftbquests:missing_item" }
 				type: "item"
 			}]
 			x: -7.0d
@@ -255,16 +258,22 @@
 				{
 					id: "25205FA9313B665D"
 					item: {
+						components: {
+							"ftbquests:missing_item": "waystones:warp_scroll"
+						}
 						count: 1
-						id: "waystones:warp_scroll"
+						id: "ftbquests:missing_item"
 					}
 					type: "item"
 				}
 				{
 					id: "121261F713988EF7"
 					item: {
+						components: {
+							"ftbquests:missing_item": "waystones:waystone"
+						}
 						count: 1
-						id: "waystones:waystone"
+						id: "ftbquests:missing_item"
 					}
 					type: "item"
 				}
@@ -285,7 +294,7 @@
 			shape: "hexagon"
 			tasks: [{
 				id: "1FC4B305579CDA7F"
-				item: { count: 1, id: "waystones:bound_scroll" }
+				item: { components: { "ftbquests:missing_item": "waystones:bound_scroll" }, count: 1, id: "ftbquests:missing_item" }
 				type: "item"
 			}]
 			x: -6.5d
@@ -297,7 +306,7 @@
 			shape: "hexagon"
 			tasks: [{
 				id: "05CBC59215AFFC0A"
-				item: { count: 1, id: "waystones:warp_scroll" }
+				item: { components: { "ftbquests:missing_item": "waystones:warp_scroll" }, count: 1, id: "ftbquests:missing_item" }
 				type: "item"
 			}]
 			x: -5.5d
@@ -309,7 +318,7 @@
 			shape: "hexagon"
 			tasks: [{
 				id: "27EF600DF7DC0004"
-				item: { count: 1, id: "waystones:warp_stone" }
+				item: { components: { "ftbquests:missing_item": "waystones:warp_stone" }, count: 1, id: "ftbquests:missing_item" }
 				type: "item"
 			}]
 			x: -3.5d
@@ -321,7 +330,7 @@
 			shape: "hexagon"
 			tasks: [{
 				id: "3F54F579922447FD"
-				item: { count: 1, id: "waystones:white_portstone" }
+				item: { components: { "ftbquests:missing_item": "waystones:white_portstone" }, count: 1, id: "ftbquests:missing_item" }
 				type: "item"
 			}]
 			x: -2.5d

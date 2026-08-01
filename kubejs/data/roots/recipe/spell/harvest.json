@@ -1,0 +1,25 @@
+{
+  "type": "hexerei:pestle_and_mortar",
+  "ingredients": [
+      {
+        "item": "minecraft:wooden_hoe"
+      },
+      {
+        "item": "minecraft:sweet_berries"
+      },
+      {
+        "item": "roots:wooden_shears"
+      },
+      {
+        "tag": "c:gems/emerald"
+      },
+      {
+        "tag": "roots:herbs/wildewheet"
+      }
+    ],
+    "output": {
+    "id": "roots:harvest",
+    "count": 1
+  },
+  "grindingTime": 450
+}

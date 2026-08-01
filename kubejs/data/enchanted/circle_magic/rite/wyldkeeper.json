@@ -1,0 +1,31 @@
+{
+    "items": [
+        { "id": "kubejs:pressed_herbarium", "count": 1 },
+        { "id": "kubejs:blue_ribbon", "count": 1 },
+        { "id": "kubejs:well_loved_collar", "count": 1 },
+        { "id": "kubejs:menagerie_census", "count": 1 },
+        { "id": "kubejs:wayfarers_knot", "count": 1 },
+        { "id": "kubejs:curators_seal", "count": 1 },
+        { "id": "enchanted:tear_of_the_goddess", "count": 1 }
+    ],
+    "shapes": {
+        "enchanted:small_circle": "enchanted:ritual_chalk",
+        "enchanted:medium_circle": "enchanted:golden_chalk",
+        "enchanted:large_circle": "enchanted:ritual_chalk"
+    },
+    "power": 10000,
+    "time": [13000, 23000],
+    "weather": "CLEAR",
+    "factory": {
+        "type": "enchanted:command",
+        "commands": [
+            "title @caster times 20 100 40",
+            "title @caster subtitle {\"text\":\"The Wylds know your name.\",\"color\":\"gray\",\"italic\":true}",
+            "title @caster title {\"text\":\"Wyldkeeper\",\"color\":\"light_purple\",\"bold\":true}",
+            "playsound minecraft:block.beacon.activate master @caster ~ ~ ~ 1 1",
+            "playsound minecraft:entity.player.levelup master @caster ~ ~ ~ 0.6 1.4",
+            "advancement grant @caster only enchanted_wilds:wyldkeeper",
+            "give @caster kubejs:wyldkeeper_hearth 1"
+        ]
+    }
+}

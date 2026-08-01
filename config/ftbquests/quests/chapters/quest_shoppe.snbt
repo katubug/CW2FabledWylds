@@ -76,8 +76,8 @@
 				type: "contactquests:parcel"
 			}]
 			tasks: [{
-				id: "203A062C3205BBBE"
-				item: { components: { "ftbquests:missing_item": "numismatics:cog" }, count: 1, id: "ftbquests:missing_item" }
+				id: "62009974CA718CD0"
+				item: { count: 1, id: "numismatics:cog" }
 				type: "item"
 			}]
 			x: 1.5d
@@ -102,8 +102,8 @@
 				type: "contactquests:parcel"
 			}]
 			tasks: [{
-				id: "39E4DB8EA5D3D6AD"
-				item: { components: { "ftbquests:missing_item": "numismatics:cog" }, count: 1, id: "ftbquests:missing_item" }
+				id: "7748E409D7ECF5F2"
+				item: { count: 1, id: "numismatics:cog" }
 				type: "item"
 			}]
 			x: 5.5d
@@ -129,8 +129,8 @@
 			}]
 			tasks: [{
 				count: 8L
-				id: "585CFA98356F3B3E"
-				item: { components: { "ftbquests:missing_item": "numismatics:spur" }, count: 1, id: "ftbquests:missing_item" }
+				id: "01F02831BCF6A6BA"
+				item: { count: 1, id: "numismatics:spur" }
 				type: "item"
 			}]
 			x: 1.5d
@@ -213,8 +213,8 @@
 			]
 			tasks: [{
 				count: 2L
-				id: "4ED4FF2EB746FA0B"
-				item: { components: { "ftbquests:missing_item": "numismatics:cog" }, count: 1, id: "ftbquests:missing_item" }
+				id: "7E55CAC6F76E6855"
+				item: { count: 1, id: "numismatics:cog" }
 				type: "item"
 			}]
 			x: 3.4d

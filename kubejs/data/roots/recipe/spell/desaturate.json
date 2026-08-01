@@ -1,0 +1,25 @@
+{
+  "type": "hexerei:pestle_and_mortar",
+  "ingredients": [
+      {
+        "item": "minecraft:bowl"
+      },
+      {
+        "tag": "roots:bottles"
+      },
+      {
+        "item": "minecraft:rotten_flesh"
+      },
+      {
+        "tag": "roots:herbs/wildewheet"
+      },
+      {
+        "tag": "c:bones"
+      }
+    ],
+    "output": {
+    "id": "roots:desaturate",
+    "count": 1
+  },
+  "grindingTime": 450
+}

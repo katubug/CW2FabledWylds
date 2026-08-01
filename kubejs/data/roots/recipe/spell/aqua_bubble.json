@@ -1,0 +1,25 @@
+{
+  "type": "hexerei:pestle_and_mortar",
+  "ingredients": [
+      {
+        "tag": "roots:herbs/dewgonia"
+      },
+      {
+        "tag": "c:gems/lapis"
+      },
+      {
+        "tag": "c:glass_blocks"
+      },
+      {
+        "item": "minecraft:clay_ball"
+      },
+      {
+        "tag": "c:crops/sugar_cane"
+      }
+    ],
+    "output": {
+    "id": "roots:aqua_bubble",
+    "count": 1
+  },
+  "grindingTime": 450
+}

@@ -1,4 +1,5 @@
 {
+	autofocus_id: "1649B81C8A139731"
 	default_hide_dependency_lines: false
 	default_min_width: 350
 	default_quest_shape: ""
@@ -18,28 +19,12 @@
 			y: 48.5d
 		}
 		{
-			height: 10.0d
-			image: "enchanted_wilds:textures/questui/bgteaandsundry.png"
-			rotation: 0.0d
-			width: 10.0d
-			x: 0.0d
-			y: 31.0d
-		}
-		{
-			height: 13.0d
-			image: "enchanted_wilds:textures/questui/bgspiceoflife.png"
-			rotation: 0.0d
-			width: 13.0d
-			x: 0.0d
-			y: 3.0d
-		}
-		{
 			height: 20.0d
 			image: "enchanted_wilds:textures/questui/bookbgslg/yellow_book_lg.png"
 			rotation: 0.0d
 			width: 25.0d
-			x: 16.1d
-			y: 23.6d
+			x: 1.7763568394002505E-15d
+			y: 1.8000000000000007d
 		}
 		{
 			color: 9921281
@@ -47,8 +32,8 @@
 			image: "enchanted_wilds:textures/questui/titles/culinaryarts.png"
 			rotation: 0.0d
 			width: 9.0d
-			x: 11.3d
-			y: 17.3d
+			x: -4.799999999999999d
+			y: -4.5d
 		}
 		{
 			color: 9921281
@@ -57,8 +42,8 @@
 			order: 99
 			rotation: 0.0d
 			width: 8.0d
-			x: 27.4d
-			y: 34.0d
+			x: 19.9d
+			y: 11.0d
 		}
 		{
 			color: 9921281
@@ -67,16 +52,16 @@
 			order: 99
 			rotation: 0.0d
 			width: 8.0d
-			x: 18.2d
-			y: 34.0d
+			x: 10.7d
+			y: 11.0d
 		}
 		{
 			height: 17.0d
 			image: "enchanted_wilds:textures/questui/bookbgs/yellow_book.png"
 			rotation: 0.0d
 			width: 24.0d
-			x: 22.8d
-			y: 39.3d
+			x: 15.3d
+			y: 16.299999999999997d
 		}
 		{
 			alpha: 225
@@ -84,12 +69,45 @@
 			image: "enchanted_wilds:textures/questui/illustrations/bakery_icon.png"
 			rotation: 0.0d
 			width: 5.0d
-			x: 25.5d
-			y: 40.6d
+			x: 18.0d
+			y: 17.6d
+		}
+		{
+			click: "quest_enhance:decorative_anchor:23cfb9fc-b2bb-4456-bab5-39d4d39c8cec"
+			height: 0.4d
+			image: ""
+			rotation: 0.0d
+			width: 0.4d
+			x: 0.0d
+			y: -1.0d
+		}
+		{
+			click: "quest_enhance:decorative_anchor:fb158408-f627-45b0-adbe-463ba9ce3b8d"
+			height: 0.4d
+			image: ""
+			rotation: 0.0d
+			width: 0.4d
+			x: 7.0d
+			y: 10.0d
+		}
+		{
+			color: 9921281
+			height: 1.25d
+			image: "enchanted_wilds:textures/questui/subtitles/teasundry.png"
+			order: 99
+			rotation: 0.0d
+			width: 8.0d
+			x: 5.0d
+			y: -5.0d
 		}
 	]
 	order_index: 1
-	quest_enhance_decorative_lines: [ ]
+	quest_enhance_decorative_lines: [{
+		nodes: [
+			"a:fb158408-f627-45b0-adbe-463ba9ce3b8d"
+			"a:23cfb9fc-b2bb-4456-bab5-39d4d39c8cec"
+		]
+	}]
 	quest_links: [ ]
 	quests: [
 		{
@@ -99,12 +117,14 @@
 				id: "1454EE401EB2C400"
 				type: "loot"
 			}]
+			shape: "rsquare"
+			size: 1.5d
 			tasks: [{
 				id: "37177297B282FBC7"
 				type: "checkmark"
 			}]
-			x: -2.0d
-			y: 0.0d
+			x: -8.0d
+			y: 4.5d
 		}
 		{
 			id: "644439D23D454629"
@@ -115,8 +135,8 @@
 				item: { count: 1, id: "farmersrespite:kettle" }
 				type: "item"
 			}]
-			x: -2.5d
-			y: 33.5d
+			x: 3.0d
+			y: -3.0d
 		}
 		{
 			dependencies: ["40C1DBE20E401EF9"]
@@ -149,20 +169,6 @@
 			}]
 			x: -0.5d
 			y: 48.5d
-		}
-		{
-			id: "21DDAC7010761BB0"
-			rewards: [{
-				id: "5569F980E496EAF8"
-				type: "choice"
-			}]
-			tasks: [{
-				id: "30C86F641D8F4E4E"
-				item: { components: { "ftbquests:missing_item": "nethersdelight:warped_moldy_meat" }, count: 1, id: "ftbquests:missing_item" }
-				type: "item"
-			}]
-			x: 9.5d
-			y: -1.25d
 		}
 		{
 			id: "773834D44C436587"
@@ -267,8 +273,8 @@
 				item: { components: { "ftbfiltersystem:filter": "or(item_tag(farmersdelight:tools/knives))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
-			x: 8.1d
-			y: 20.1d
+			x: -6.5d
+			y: 1.0d
 		}
 		{
 			id: "2615CD06E32EC741"
@@ -307,8 +313,8 @@
 				item: { count: 1, id: "farmersdelight:cooking_pot" }
 				type: "item"
 			}]
-			x: 11.1d
-			y: 19.8d
+			x: -8.0d
+			y: -2.0d
 		}
 		{
 			dependencies: ["2615CD06E32EC741"]
@@ -327,53 +333,22 @@
 				item: { count: 1, id: "farmersdelight:stove" }
 				type: "item"
 			}]
-			x: 14.1d
-			y: 19.5d
+			x: -6.5d
+			y: -2.0d
 		}
 		{
-			dependencies: ["7557E8749BF869DF"]
-			id: "1984CA53390BA48B"
-			shape: "hexagon"
-			tasks: [{
-				id: "6D57AF047F1836C3"
-				item: { count: 1, id: "farmersdelight:tree_bark" }
-				type: "item"
-			}]
-			x: 8.8d
-			y: 25.35d
-		}
-		{
+			dependencies: ["2615CD06E32EC741"]
 			id: "7557E8749BF869DF"
 			tasks: [{
 				id: "4F456D411C163AA8"
 				item: { count: 1, id: "farmersdelight:cutting_board" }
 				type: "item"
 			}]
-			x: 8.3d
-			y: 23.6d
+			x: -6.5d
+			y: -0.5d
 		}
 		{
-			dependencies: ["2615CD06E32EC741"]
-			id: "3A6AAE50897DE597"
-			rewards: [{
-				id: "126BF295D5636A39"
-				item: {
-					count: 1
-					id: "minecraft:lead"
-				}
-				type: "item"
-			}]
-			shape: "hexagon"
-			tasks: [{
-				id: "394855991D625C6F"
-				item: { count: 1, id: "farmersdelight:dog_food" }
-				type: "item"
-			}]
-			x: 8.1d
-			y: 21.5d
-		}
-		{
-			dependencies: ["2615CD06E32EC741"]
+			dependencies: ["4388413B656A4336"]
 			id: "0E2749D8FEEF0D49"
 			shape: "hexagon"
 			tasks: [{
@@ -381,11 +356,11 @@
 				item: { count: 1, id: "farmersdelight:pasta_with_meatballs" }
 				type: "item"
 			}]
-			x: 10.1d
-			y: 23.3d
+			x: -5.0d
+			y: -0.5d
 		}
 		{
-			dependencies: ["2615CD06E32EC741"]
+			dependencies: ["6EFFB8ED37DC8A47"]
 			id: "6A71E1C275F02732"
 			rewards: [{
 				count: 2
@@ -402,11 +377,11 @@
 				item: { count: 1, id: "farmersdelight:hot_cocoa" }
 				type: "item"
 			}]
-			x: 9.0d
-			y: 22.6d
+			x: -5.0d
+			y: 4.5d
 		}
 		{
-			dependencies: ["2615CD06E32EC741"]
+			dependencies: ["0E2749D8FEEF0D49"]
 			id: "5F2C26D1C6302016"
 			rewards: [
 				{
@@ -430,8 +405,8 @@
 				item: { count: 1, id: "farmersdelight:stuffed_pumpkin_block" }
 				type: "item"
 			}]
-			x: 11.6d
-			y: 21.8d
+			x: -5.0d
+			y: 1.0d
 		}
 		{
 			dependencies: ["6EFFB8ED37DC8A47"]
@@ -473,48 +448,11 @@
 					type: "item"
 				}
 			]
-			x: -1.0d
-			y: 6.5d
+			x: -6.5d
+			y: 6.0d
 		}
 		{
-			dependencies: ["1556BE457F25FA9F"]
-			id: "0C69D56AA7884F5B"
-			rewards: [
-				{
-					id: "3195D1AE38C213AB"
-					type: "loot"
-				}
-				{
-					id: "4AE2DC7A33F8D33D"
-					item: {
-						components: {
-							"ftbquests:missing_item": "delightful:deluxe_cheeseburger"
-						}
-						count: 1
-						id: "ftbquests:missing_item"
-					}
-					type: "item"
-				}
-				{
-					id: "428C119B85669349"
-					item: {
-						count: 1
-						id: "minecraft:player_head"
-					}
-					type: "item"
-				}
-			]
-			shape: "hexagon"
-			tasks: [{
-				id: "7D79193E3DB22B8E"
-				item: { components: { "ftbquests:missing_item": "delightful:deluxe_cheeseburger" }, count: 1, id: "ftbquests:missing_item" }
-				type: "item"
-			}]
-			x: -2.5d
-			y: 7.0d
-		}
-		{
-			dependencies: ["6EFFB8ED37DC8A47"]
+			dependencies: ["2615CD06E32EC741"]
 			id: "63A2968E78D4A9A7"
 			rewards: [{
 				id: "2D5BD742430FC34B"
@@ -530,8 +468,8 @@
 				item: { count: 1, id: "hearthandharvest:smore" }
 				type: "item"
 			}]
-			x: -4.0d
-			y: 4.0d
+			x: -6.5d
+			y: 2.5d
 		}
 		{
 			dependencies: ["6EFFB8ED37DC8A47"]
@@ -550,104 +488,63 @@
 				item: { count: 1, id: "farmersdelight:hamburger" }
 				type: "item"
 			}]
-			x: -2.5d
-			y: 4.0d
-		}
-		{
-			dependencies: ["717B733896BBB2AA"]
-			id: "1556BE457F25FA9F"
-			rewards: [{
-				id: "195EAE0E53DF5B7A"
-				item: {
-					components: {
-						"ftbquests:missing_item": "delightful:cheeseburger"
-					}
-					count: 1
-					id: "ftbquests:missing_item"
-				}
-				type: "item"
-			}]
-			shape: "hexagon"
-			tasks: [{
-				id: "093DC4B94272690F"
-				item: { components: { "ftbquests:missing_item": "delightful:cheeseburger" }, count: 1, id: "ftbquests:missing_item" }
-				type: "item"
-			}]
-			x: -2.5d
-			y: 5.5d
+			x: -8.0d
+			y: 6.0d
 		}
 		{
 			id: "78A59A17FEDDE305"
-			rewards: [
-				{
-					exclude_from_claim_all: true
-					id: "1DEE4BA4AB4802DC"
-					type: "choice"
-				}
-				{
-					id: "4349E09114B69DB5"
-					item: {
-						count: 1
-						id: "minecraft:player_head"
-					}
-					type: "item"
-				}
-			]
+			shape: "octagon"
 			tasks: [{
 				id: "23C5964D9AF61295"
 				stat: "minecraft:eat_cake_slice"
 				type: "stat"
 				value: 70
 			}]
-			x: 9.2d
-			y: 9.0d
+			x: 19.5d
+			y: 14.0d
 		}
 		{
+			dependencies: ["4EAB1C3073616E17"]
 			id: "706D91D3C11487E5"
 			rewards: [
 				{
-					id: "705EAF175398F230"
+					id: "3BF6493C6EF67C6A"
 					item: {
 						components: {
-							"ftbquests:missing_item": "candlelight:chefs_jacket"
+							"relics:data": {
+								abilities: {
+									abilities: {
+										satiety: {
+											lock: {
+												breaks: 5
+											}
+											points: 0
+											stats: {
+												chance: {
+													initialQuality: 5
+												}
+												healing: {
+													initialQuality: 8
+												}
+											}
+										}
+									}
+									synergies: { }
+								}
+								leveling: { }
+								statistic: { }
+							}
 						}
 						count: 1
-						id: "ftbquests:missing_item"
+						id: "relics:chef_hat"
 					}
 					type: "item"
 				}
 				{
-					id: "2FEC8444078B8FCE"
-					item: {
-						components: {
-							"ftbquests:missing_item": "candlelight:cooking_hat"
-						}
-						count: 1
-						id: "ftbquests:missing_item"
-					}
-					type: "item"
-				}
-				{
-					id: "38FFEDF3FBF6AFF0"
-					item: {
-						components: {
-							"ftbquests:missing_item": "candlelight:chefs_pants"
-						}
-						count: 1
-						id: "ftbquests:missing_item"
-					}
-					type: "item"
-				}
-				{
-					id: "357A70FB8C187511"
-					item: {
-						components: {
-							"ftbquests:missing_item": "candlelight:chefs_boots"
-						}
-						count: 1
-						id: "ftbquests:missing_item"
-					}
-					type: "item"
+					exclude_from_claim_all: true
+					id: "3E70B141B11204BF"
+					table_id: 5167086515396975209L
+					type: "random"
 				}
 			]
 			tasks: [{
@@ -656,20 +553,12 @@
 				id: "0D13DAED0731D633"
 				type: "advancement"
 			}]
-			x: 10.6d
-			y: 8.8d
+			x: -2.0d
+			y: -2.0d
 		}
 		{
 			dependencies: ["2615CD06E32EC741"]
 			id: "7E532A89B21B20D1"
-			rewards: [{
-				id: "62A1E505361F41BF"
-				item: {
-					count: 1
-					id: "minecraft:player_head"
-				}
-				type: "item"
-			}]
 			shape: "octagon"
 			tasks: [{
 				advancement: "farmersdelight:main/use_skillet"
@@ -677,25 +566,18 @@
 				id: "0E783661822CB045"
 				type: "advancement"
 			}]
-			x: 14.1d
-			y: 22.8d
+			x: -8.0d
+			y: 2.5d
 		}
 		{
 			dependencies: ["6EFFB8ED37DC8A47"]
 			id: "181F5C00C8DE417B"
-			rewards: [
-				{
-					id: "00BB229E93D094FB"
-					type: "xp_levels"
-					xp_levels: 5
-				}
-				{
-					exclude_from_claim_all: true
-					id: "3B15D12DBAFB6724"
-					table_id: 7328857662613080212L
-					type: "loot"
-				}
-			]
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3B15D12DBAFB6724"
+				table_id: 7328857662613080212L
+				type: "loot"
+			}]
 			shape: "hexagon"
 			tasks: [
 				{
@@ -734,8 +616,8 @@
 					type: "item"
 				}
 			]
-			x: 0.5d
-			y: 3.0d
+			x: -6.5d
+			y: 4.5d
 		}
 		{
 			dependencies: ["5F2C26D1C6302016"]
@@ -773,8 +655,8 @@
 					type: "item"
 				}
 			]
-			x: 12.6d
-			y: 23.3d
+			x: -5.0d
+			y: 2.5d
 		}
 		{
 			id: "42DD1CCF09065C51"
@@ -871,8 +753,8 @@
 					type: "item"
 				}
 			]
-			x: 3.5d
-			y: 3.5d
+			x: 4.0d
+			y: 18.5d
 		}
 		{
 			id: "1649B81C8A139731"
@@ -883,30 +765,7 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: -1.75d
-		}
-		{
-			id: "1C7D5C2C8C201E83"
-			rewards: [{
-				id: "6A0AE4E69D14B683"
-				item: {
-					components: {
-						"ftbquests:missing_item": "create:empty_blaze_burner"
-					}
-					count: 1
-					id: "ftbquests:missing_item"
-				}
-				type: "item"
-			}]
-			shape: "gear"
-			size: 1.5d
-			tasks: [{
-				id: "3A0EBB76C04A0C8A"
-				item: { components: { "ftbquests:missing_item": "create_central_kitchen:cooking_guide" }, count: 1, id: "ftbquests:missing_item" }
-				type: "item"
-			}]
-			x: 1.5d
-			y: 5.25d
+			y: 0.0d
 		}
 		{
 			id: "5D439CB08EE5A923"
@@ -953,8 +812,8 @@
 					type: "item"
 				}
 			]
-			x: 2.5d
-			y: 3.5d
+			x: 3.0d
+			y: 18.5d
 		}
 		{
 			dependencies: ["43CC7A6F8C1284B5"]
@@ -980,8 +839,8 @@
 				item: { components: { "ftbfiltersystem:filter": "or(item(hearthandharvest:unripe_cheddar_cheese_wheel)item(hearthandharvest:unripe_goat_cheese_wheel)item(trailandtales_delight:curd_block)item(kubejs:grain_cheese_unripe)item(kubejs:amethyst_cheese_unripe)item(kubejs:buffalo_cheese_unripe)item(kubejs:warped_cheese_unripe))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
-			x: 20.4d
-			y: 40.0d
+			x: 12.899999999999999d
+			y: 17.0d
 		}
 		{
 			dependencies: ["4449135F7D10724F"]
@@ -991,8 +850,8 @@
 				item: { count: 1, id: "meadow:cheese_form" }
 				type: "item"
 			}]
-			x: 18.3d
-			y: 41.2d
+			x: 10.8d
+			y: 18.200000000000003d
 		}
 		{
 			dependencies: ["684AF61973DB643F"]
@@ -1011,8 +870,8 @@
 				item: { count: 1, id: "meadow:rennet" }
 				type: "item"
 			}]
-			x: 16.1d
-			y: 39.8d
+			x: 8.600000000000001d
+			y: 16.799999999999997d
 		}
 		{
 			id: "4E4341D997F9AE98"
@@ -1031,8 +890,8 @@
 				item: { count: 1, id: "meadow:cooking_frame" }
 				type: "item"
 			}]
-			x: 18.2d
-			y: 35.5d
+			x: 10.7d
+			y: 12.5d
 		}
 		{
 			dependencies: ["486FE1761F7E41E3"]
@@ -1042,8 +901,8 @@
 				item: { count: 1, id: "meadow:fondue_pot" }
 				type: "item"
 			}]
-			x: 20.4d
-			y: 36.1d
+			x: 12.899999999999999d
+			y: 13.100000000000001d
 		}
 		{
 			dependencies: ["4E4341D997F9AE98"]
@@ -1053,8 +912,8 @@
 				item: { components: { "ftbfiltersystem:filter": "or(item_tag(c:dusts/salt))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
-			x: 16.1d
-			y: 36.3d
+			x: 8.600000000000001d
+			y: 13.299999999999997d
 		}
 		{
 			dependencies: ["4E4341D997F9AE98"]
@@ -1103,8 +962,8 @@
 					type: "item"
 				}
 			]
-			x: 18.2d
-			y: 37.7d
+			x: 10.7d
+			y: 14.700000000000003d
 		}
 		{
 			id: "34581095B797C667"
@@ -1163,8 +1022,8 @@
 					type: "item"
 				}
 			]
-			x: -0.75d
-			y: 31.5d
+			x: -8.75d
+			y: 20.0d
 		}
 		{
 			dependencies: ["34581095B797C667"]
@@ -1202,8 +1061,8 @@
 					type: "item"
 				}
 			]
-			x: -3.0d
-			y: 31.0d
+			x: -11.0d
+			y: 19.5d
 		}
 		{
 			dependencies: ["34581095B797C667"]
@@ -1246,8 +1105,8 @@
 					type: "item"
 				}
 			]
-			x: -2.0d
-			y: 29.5d
+			x: -10.0d
+			y: 18.0d
 		}
 		{
 			dependencies: ["34581095B797C667"]
@@ -1292,8 +1151,8 @@
 					type: "item"
 				}
 			]
-			x: 2.0d
-			y: 29.5d
+			x: -6.0d
+			y: 18.0d
 		}
 		{
 			dependencies: ["34581095B797C667"]
@@ -1328,8 +1187,8 @@
 					type: "item"
 				}
 			]
-			x: 3.0d
-			y: 31.0d
+			x: -5.0d
+			y: 19.5d
 		}
 		{
 			dependencies: ["31CE923007EF1D03"]
@@ -1391,28 +1250,8 @@
 					type: "item"
 				}
 			]
-			x: 18.2d
-			y: 39.5d
-		}
-		{
-			dependencies: ["6EFFB8ED37DC8A47"]
-			id: "7F2646EB463D6CF8"
-			rewards: [{
-				id: "4C977859DBE5905D"
-				item: {
-					count: 1
-					id: "minecraft:mushroom_stew"
-				}
-				type: "item"
-			}]
-			shape: "hexagon"
-			tasks: [{
-				id: "728E035F1251C894"
-				item: { count: 1, id: "minecraft:mushroom_stew" }
-				type: "item"
-			}]
-			x: -0.5d
-			y: 5.5d
+			x: 10.7d
+			y: 16.5d
 		}
 		{
 			dependencies: ["2615CD06E32EC741"]
@@ -1446,23 +1285,25 @@
 					type: "item"
 				}
 			]
+			shape: "hexagon"
 			tasks: [{
 				id: "1F66EFFC2704E4F8"
 				item: { components: { "ftbfiltersystem:filter": "or(item(luckyswardrobe:chef_hat)item(delighto_flight:magic_chef_hat))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
-			x: 8.2d
-			y: 18.7d
+			x: -8.0d
+			y: -0.5d
 		}
 		{
+			dependencies: ["4388413B656A4336"]
 			id: "4EAB1C3073616E17"
 			tasks: [{
 				id: "65EE14C0671388C0"
 				item: { count: 1, id: "bakery:kitchen_sink" }
 				type: "item"
 			}]
-			x: 7.8d
-			y: 8.9d
+			x: -3.5d
+			y: -2.0d
 		}
 		{
 			id: "207C60DC8889AC0F"
@@ -1480,8 +1321,8 @@
 					type: "item"
 				}
 			]
-			x: 25.6d
-			y: 35.6d
+			x: 18.0d
+			y: 12.0d
 		}
 		{
 			dependencies: ["4D65AA1353AA0E1D"]
@@ -1498,8 +1339,8 @@
 				item: { count: 1, id: "bakery:cake_dough" }
 				type: "item"
 			}]
-			x: 30.3d
-			y: 35.6d
+			x: 23.0d
+			y: 12.5d
 		}
 		{
 			dependencies: ["4D65AA1353AA0E1D"]
@@ -1515,8 +1356,8 @@
 				item: { count: 1, id: "bakery:sweet_dough" }
 				type: "item"
 			}]
-			x: 25.5d
-			y: 37.1d
+			x: 18.0d
+			y: 14.0d
 		}
 		{
 			dependencies: ["338640D0D42E7EC4"]
@@ -1533,8 +1374,8 @@
 				item: { count: 1, id: "bakery:chocolate_jam" }
 				type: "item"
 			}]
-			x: 28.7d
-			y: 38.8d
+			x: 21.0d
+			y: 16.0d
 		}
 		{
 			dependencies: ["338640D0D42E7EC4"]
@@ -1551,8 +1392,8 @@
 				item: { count: 1, id: "bakery:strawberry_jam" }
 				type: "item"
 			}]
-			x: 27.2d
-			y: 38.7d
+			x: 19.5d
+			y: 16.0d
 		}
 		{
 			dependencies: [
@@ -1582,8 +1423,8 @@
 				item: { count: 1, id: "bakery:strawberry_cupcake" }
 				type: "item"
 			}]
-			x: 25.5d
-			y: 38.7d
+			x: 18.0d
+			y: 16.0d
 		}
 		{
 			dependencies: [
@@ -1603,8 +1444,8 @@
 				item: { count: 1, id: "bakery:chocolate_cake" }
 				type: "item"
 			}]
-			x: 30.3d
-			y: 38.8d
+			x: 23.0d
+			y: 16.0d
 		}
 		{
 			id: "737B48AA3FE651BD"
@@ -1647,27 +1488,8 @@
 					type: "item"
 				}
 			]
-			x: 28.7d
-			y: 41.5d
-		}
-		{
-			dependencies: ["6EFFB8ED37DC8A47"]
-			id: "1EA26C716D479D14"
-			rewards: [{
-				id: "7C0EDD872D5E84F0"
-				item: {
-					count: 1
-					id: "bakery:vegetable_sandwich"
-				}
-				type: "item"
-			}]
-			tasks: [{
-				id: "657D823A218F0EFA"
-				item: { count: 1, id: "solonion:lunchbox" }
-				type: "item"
-			}]
-			x: 0.0d
-			y: 1.0d
+			x: 21.0d
+			y: 18.5d
 		}
 		{
 			dependencies: ["207C60DC8889AC0F"]
@@ -1683,8 +1505,8 @@
 				item: { count: 1, id: "farm_and_charm:crafting_bowl" }
 				type: "item"
 			}]
-			x: 28.0d
-			y: 35.6d
+			x: 20.5d
+			y: 12.5d
 		}
 		{
 			id: "73DC7CDFA4B7E09A"
@@ -1703,8 +1525,8 @@
 				item: { count: 1, id: "bakery:wall_display" }
 				type: "item"
 			}]
-			x: 27.7d
-			y: 40.0d
+			x: 20.5d
+			y: 17.5d
 		}
 		{
 			id: "60E911F7FF96F190"
@@ -1720,8 +1542,8 @@
 				item: { count: 1, id: "bakery:cake_display" }
 				type: "item"
 			}]
-			x: 29.1d
-			y: 40.4d
+			x: 21.5d
+			y: 17.5d
 		}
 		{
 			dependencies: ["644439D23D454629"]
@@ -1731,8 +1553,8 @@
 				item: { count: 1, id: "farmersrespite:tea_seeds" }
 				type: "item"
 			}]
-			x: 0.0d
-			y: 33.5d
+			x: 5.5d
+			y: -3.0d
 		}
 		{
 			dependencies: ["4D50F0562D23BE6D"]
@@ -1752,8 +1574,8 @@
 				item: { count: 1, id: "farmersrespite:coffee_beans" }
 				type: "item"
 			}]
-			x: 3.0d
-			y: 33.5d
+			x: 8.0d
+			y: -3.0d
 		}
 		{
 			dependencies: ["34581095B797C667"]
@@ -1764,8 +1586,8 @@
 				item: { count: 1, id: "farmersrespite:purulent_tea" }
 				type: "item"
 			}]
-			x: 0.0d
-			y: 28.5d
+			x: -8.0d
+			y: 17.0d
 		}
 		{
 			dependencies: ["34581095B797C667"]
@@ -1787,32 +1609,13 @@
 				item: { components: { "ftbquests:missing_item": "delightful:matcha" }, count: 1, id: "ftbquests:missing_item" }
 				type: "item"
 			}]
-			x: 1.5d
-			y: 32.5d
+			x: -6.5d
+			y: 21.0d
 		}
 		{
+			dependencies: ["492DDC880E65C534"]
 			id: "4388413B656A4336"
 			tasks: [
-				{
-					id: "3A98F8ED7EA3B863"
-					item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(forge:cooking_ovens)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
-					type: "item"
-				}
-				{
-					id: "0D796914A50971AA"
-					item: { count: 1, id: "farmersrespite:kettle" }
-					type: "item"
-				}
-				{
-					id: "31F2CD366206FDF9"
-					item: { count: 1, id: "farmersdelight:stove" }
-					type: "item"
-				}
-				{
-					id: "434A6BB3ED463288"
-					item: { count: 1, id: "farm_and_charm:mincer" }
-					type: "item"
-				}
 				{
 					id: "15D389A6DFEF6348"
 					item: { count: 1, id: "farm_and_charm:crafting_bowl" }
@@ -1829,8 +1632,8 @@
 					type: "item"
 				}
 			]
-			x: 7.5d
-			y: 1.5d
+			x: -5.0d
+			y: -2.0d
 		}
 		{
 			dependencies: ["207C60DC8889AC0F"]
@@ -1840,8 +1643,8 @@
 				item: { count: 1, id: "farm_and_charm:cooking_pot" }
 				type: "item"
 			}]
-			x: 28.7d
-			y: 37.0d
+			x: 21.0d
+			y: 14.0d
 		}
 		{
 			id: "528CB844416DF0E7"
@@ -1851,8 +1654,8 @@
 				id: "1B1F1228EDFA892D"
 				type: "advancement"
 			}]
-			x: 12.3d
-			y: 26.0d
+			x: -4.0d
+			y: 17.0d
 		}
 		{
 			id: "064FD196C750D6DB"
@@ -1861,8 +1664,8 @@
 				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(c:flours/wheat)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
-			x: 13.8d
-			y: 26.099999999999998d
+			x: -2.5d
+			y: 17.099999999999998d
 		}
 		{
 			id: "12EF12DE3866DA25"
@@ -1871,8 +1674,8 @@
 				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(c:butter)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
-			x: 12.3d
-			y: 28.0d
+			x: -4.0d
+			y: 19.0d
 		}
 		{
 			dependencies: ["5D37E0A2F297C49E"]
@@ -1889,8 +1692,8 @@
 				item: { count: 1, id: "bakery:chocolate_gateau" }
 				type: "item"
 			}]
-			x: 30.3d
-			y: 40.6d
+			x: 23.0d
+			y: 17.5d
 		}
 		{
 			id: "57B830324890E32C"
@@ -1936,6 +1739,18 @@
 			}]
 			x: 3.8d
 			y: 21.1d
+		}
+		{
+			dependencies: ["2615CD06E32EC741"]
+			id: "634BC93E44B404C2"
+			shape: "hexagon"
+			tasks: [{
+				id: "4537AE4F85FC53CC"
+				item: { components: { "supplementaries:lunch_basket_content": { items: [ { }, { }, { }, { }, { }, { } ], open: 0b, selected_slot: 1 } }, count: 1, id: "supplementaries:lunch_basket" }
+				type: "item"
+			}]
+			x: -8.0d
+			y: 1.0d
 		}
 	]
 }

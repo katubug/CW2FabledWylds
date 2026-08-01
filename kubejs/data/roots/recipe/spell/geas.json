@@ -1,0 +1,25 @@
+{
+  "type": "hexerei:pestle_and_mortar",
+  "ingredients": [
+      {
+        "item": "minecraft:chain"
+      },
+      {
+        "tag": "roots:herbs/bafflecap"
+      },
+      {
+        "item": "minecraft:tripwire_hook"
+      },
+      {
+        "tag": "minecraft:wooden_pressure_plates"
+      },
+      {
+        "tag": "c:gunpowders"
+      }
+    ],
+    "output": {
+    "id": "roots:geas",
+    "count": 1
+  },
+  "grindingTime": 450
+}

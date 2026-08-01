@@ -1,0 +1,25 @@
+{
+  "type": "hexerei:pestle_and_mortar",
+  "ingredients": [
+      {
+        "tag": "c:crops/carrot"
+      },
+      {
+        "tag": "c:nuggets/gold"
+      },
+      {
+        "tag": "roots:crops/grove_moss"
+      },
+      {
+        "tag": "minecraft:logs"
+      },
+      {
+        "item": "minecraft:torch"
+      }
+    ],
+    "output": {
+    "id": "roots:extension",
+    "count": 1
+  },
+  "grindingTime": 450
+}

@@ -23,7 +23,7 @@ ServerEvents.recipes(event => {
 		], {
 			A: 'minecraft:golden_carrot',
 			B: 'minecraft:enchanted_golden_apple',
-			C: 'solonion:golden_lunchbox',
+			C: 'supplementaries:lunch_basket',
 			D: '#forge:ender_pearls',
 			E: 'minecraft:glistering_melon_slice'
 		}

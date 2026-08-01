@@ -2015,31 +2015,11 @@
         "items": []
       }
     },
-    "adventure/i_have_my_suspicions": {
-      "display_name": "I Have my Suspicions",
-      "original_name": "I Have my Suspicions",
-      "enabled": true,
-      "icon": "trailsandtalesplus:suspicious_moss_block",
-      "rewards": {
-        "attributes": {},
-        "items": []
-      }
-    },
     "adventure/heart_transplanter": {
       "display_name": "Heart Transplanter",
       "original_name": "Heart Transplanter",
       "enabled": true,
       "icon": "minecraft:creaking_heart",
-      "rewards": {
-        "attributes": {},
-        "items": []
-      }
-    },
-    "husbandry/glowing_with_delight": {
-      "display_name": "Glowing with Delight",
-      "original_name": "Glowing with Delight",
-      "enabled": true,
-      "icon": "trailsandtalesplus:glowing_torchflower",
       "rewards": {
         "attributes": {},
         "items": []
@@ -2150,6 +2130,26 @@
       "original_name": "Carting around",
       "enabled": true,
       "icon": "astikorcartsredux:wheel",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "adventure/i_have_my_suspicions": {
+      "display_name": "I Have my Suspicions",
+      "original_name": "I Have my Suspicions",
+      "enabled": true,
+      "icon": "trailsandtalesplus:suspicious_moss_block",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "husbandry/glowing_with_delight": {
+      "display_name": "Glowing with Delight",
+      "original_name": "Glowing with Delight",
+      "enabled": true,
+      "icon": "trailsandtalesplus:glowing_torchflower",
       "rewards": {
         "attributes": {},
         "items": []

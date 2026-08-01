@@ -1,0 +1,25 @@
+{
+  "type": "hexerei:pestle_and_mortar",
+  "ingredients": [
+      {
+        "item": "minecraft:dandelion"
+      },
+      {
+        "tag": "c:crops/wheat"
+      },
+      {
+        "tag": "minecraft:small_flowers"
+      },
+      {
+        "tag": "c:dyes/yellow"
+      },
+      {
+        "tag": "c:seeds"
+      }
+    ],
+    "output": {
+    "id": "roots:dandelion_winds",
+    "count": 1
+  },
+  "grindingTime": 450
+}

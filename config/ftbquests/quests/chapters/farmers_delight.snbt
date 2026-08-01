@@ -917,5 +917,15 @@
 			x: 6.000000000000002d
 			y: 3.2d
 		}
+		{
+			id: "17B0994740977E5A"
+			tasks: [{
+				id: "6B04E98837BD690F"
+				item: { count: 1, id: "farm_and_charm:chicken_coop" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: -5.5d
+		}
 	]
 }

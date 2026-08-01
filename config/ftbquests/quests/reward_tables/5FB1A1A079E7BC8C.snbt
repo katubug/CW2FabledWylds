@@ -2,18 +2,12 @@
 	id: "5FB1A1A079E7BC8C"
 	loot_size: 1
 	order_index: 23
-	rewards: [
-		{ id: "35D08FD37979B997", item: { components: { "ftbquests:missing_item": "numismatics:bevel" }, count: 1, id: "ftbquests:missing_item" } }
-		{
-			count: 2
-			id: "4E9123644D7CC6E5"
-			item: {
-				components: {
-					"ftbquests:missing_item": "numismatics:bevel"
-				}
-				count: 1
-				id: "ftbquests:missing_item"
-			}
+	rewards: [{
+		id: "70F0131E70481A7C"
+		item: {
+			count: 1
+			id: "numismatics:bevel"
 		}
-	]
+		random_bonus: 1
+	}]
 }

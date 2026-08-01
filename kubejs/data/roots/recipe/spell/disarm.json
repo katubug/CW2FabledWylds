@@ -1,0 +1,25 @@
+{
+  "type": "hexerei:pestle_and_mortar",
+  "ingredients": [
+      {
+        "tag": "roots:herbs/spiritleaf"
+      },
+      {
+        "item": "minecraft:iron_bars"
+      },
+      {
+        "item": "minecraft:fishing_rod"
+      },
+      {
+        "tag": "roots:herbs/spiritleaf"
+      },
+      {
+        "tag": "c:levers"
+      }
+    ],
+    "output": {
+    "id": "roots:disarm",
+    "count": 1
+  },
+  "grindingTime": 450
+}

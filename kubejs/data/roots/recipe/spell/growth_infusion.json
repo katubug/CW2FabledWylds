@@ -1,0 +1,25 @@
+{
+  "type": "hexerei:pestle_and_mortar",
+  "ingredients": [
+      {
+        "tag": "c:seeds"
+      },
+      {
+        "item": "minecraft:composter"
+      },
+      {
+        "tag": "minecraft:hoes"
+      },
+      {
+        "item": "minecraft:bone_meal"
+      },
+      {
+        "tag": "minecraft:small_flowers"
+      }
+    ],
+    "output": {
+    "id": "roots:growth_infusion",
+    "count": 1
+  },
+  "grindingTime": 450
+}

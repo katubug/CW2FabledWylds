@@ -3,8 +3,8 @@
     "icon": { "id": "minecraft:egg" },
     "title": { "translate": "advancement.misc.deviled_egg.title" },
     "description": { "translate": "advancement.misc.deviled_egg.description" },
-    "show_toast": false,
-    "announce_to_chat": false,
+    "show_toast": true,
+    "announce_to_chat": true,
     "hidden": true
   },
   "parent": "enchanted_wilds:root",

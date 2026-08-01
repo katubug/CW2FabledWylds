@@ -56,11 +56,6 @@
     "painting": true,
     "chiseled_bookshelf": true
   },
-  "lightmanscurrency": {
-    "model_variant": true,
-    "model_variant.locked": false,
-    "paygate": true
-  },
   "jade_access": {
     "held_item": true,
     "sign": true,
@@ -70,6 +65,10 @@
   },
   "ftbquests": {
     "barrier": true
+  },
+  "logisticsnetworks": {
+    "logistics_node_entity": true,
+    "node_attached": true
   },
   "jade": {
     "coordinates.rel": false,
@@ -137,22 +136,19 @@
   "quark": {
     "oretoise_eating_cooldown": true
   },
+  "twilightforest": {
+    "drying_rack": true,
+    "chiseled_bookshelf_spawner": true,
+    "quest_ram_wool": true
+  },
   "reliquary": {
     "pedestal": true,
     "altar": true,
     "mortar": true,
     "cauldron": true
   },
-  "twilightforest": {
-    "drying_rack": true,
-    "chiseled_bookshelf_spawner": true,
-    "quest_ram_wool": true
-  },
   "supplementaries": {
     "hat_stand": true
-  },
-  "waystones": {
-    "waystone": true
   },
   "item_descriptions": {
     "block_descriptions": true,

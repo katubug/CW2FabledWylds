@@ -1,0 +1,25 @@
+{
+  "type": "hexerei:pestle_and_mortar",
+  "ingredients": [
+      {
+        "tag": "roots:herbs/wildroot"
+      },
+      {
+        "tag": "roots:herbs/wildewheet"
+      },
+      {
+        "item": "minecraft:cooked_beef"
+      },
+      {
+        "item": "minecraft:cooked_chicken"
+      },
+      {
+        "item": "minecraft:baked_potato"
+      }
+    ],
+    "output": {
+    "id": "roots:saturate",
+    "count": 1
+  },
+  "grindingTime": 450
+}

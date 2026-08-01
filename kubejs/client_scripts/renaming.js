@@ -80,5 +80,6 @@ event.renameItem('tanukidecor:cash_register', 'Deluxe Cash Register')
 event.renameItem('tanukidecor:cuckoo_clock', 'Cute Cuckoo Clock')
 event.renameItem('tanukidecor:hourglass', 'Decorative Hourglass')
 event.renameItem('furniture:coffer', 'Simple Coffer')
+event.renameItem('hexalia:shelf', 'Potion Shelf')
 
 })

@@ -1,0 +1,25 @@
+{
+  "type": "hexerei:pestle_and_mortar",
+  "ingredients": [
+      {
+        "tag": "roots:crops/wildewheet"
+      },
+      {
+        "tag": "roots:seeds/wildewheet"
+      },
+      {
+        "tag": "c:crops/sugar_cane"
+      },
+      {
+        "tag": "c:crops/carrot"
+      },
+      {
+        "item": "minecraft:milk_bucket"
+      }
+    ],
+    "output": {
+    "id": "roots:rampant_growth",
+    "count": 1
+  },
+  "grindingTime": 450
+}

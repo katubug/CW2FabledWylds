@@ -1,0 +1,25 @@
+{
+  "type": "hexerei:pestle_and_mortar",
+  "ingredients": [
+      {
+        "tag": "c:nuggets/iron"
+      },
+      {
+        "tag": "c:dusts/redstone"
+      },
+      {
+        "tag": "roots:crops/wildroot"
+      },
+      {
+        "item": "minecraft:fishing_rod"
+      },
+      {
+        "tag": "roots:crops/aubergine"
+      }
+    ],
+    "output": {
+    "id": "roots:magnetism",
+    "count": 1
+  },
+  "grindingTime": 450
+}

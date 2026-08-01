@@ -1,0 +1,25 @@
+{
+  "type": "hexerei:pestle_and_mortar",
+  "ingredients": [
+      {
+        "item": "minecraft:rotten_flesh"
+      },
+      {
+        "tag": "roots:herbs/bafflecap"
+      },
+      {
+        "tag": "roots:dusts/runic"
+      },
+      {
+        "tag": "roots:eyes"
+      },
+      {
+        "tag": "minecraft:wool"
+      }
+    ],
+    "output": {
+    "id": "roots:acid_cloud",
+    "count": 1
+  },
+  "grindingTime": 450
+}

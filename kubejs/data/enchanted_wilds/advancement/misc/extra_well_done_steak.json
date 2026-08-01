@@ -22,7 +22,9 @@
     },
     "title": {
       "translate": "advancement.misc.extra_well_done_steak.title"
-    }
+    },
+    "show_toast": true,
+    "announce_to_chat": true
   },
   "sends_telemetry_event": true
 }
