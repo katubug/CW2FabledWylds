@@ -11,6 +11,7 @@
 	images: [
 		{
 			height: 15.0d
+			id: "3754ECC9942EEAC2"
 			image: "enchanted_wilds:textures/questui/bookbgs/pink_book.png"
 			order: -1
 			rotation: 0.0d
@@ -21,6 +22,7 @@
 		{
 			color: 15962025
 			height: 2.5d
+			id: "465DC4A6030DCBE3"
 			image: "enchanted_wilds:textures/questui/titles/collections.png"
 			rotation: 0.0d
 			width: 9.0d
@@ -30,6 +32,7 @@
 	]
 	order_index: 0
 	quest_enhance_decorative_lines: [ ]
+	quest_enhance_hidden_dependency_lines: [ ]
 	quest_links: [ ]
 	quests: [
 		{

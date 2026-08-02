@@ -26,6 +26,44 @@
 		passive: 4000
 	}
 	pause_game: false
+	presets: {
+		advancement: {
+			shape: "octagon"
+			size: 1.0d
+		}
+		animal: {
+			shape: "heart"
+			size: 1.0d
+		}
+		boss: {
+			shape: "diamond"
+			size: 1.0d
+		}
+		info: {
+			shape: "thought"
+			size: 1.0d
+		}
+		item: {
+			shape: "hexagon"
+			size: 1.0d
+		}
+		milestone: {
+			shape: "fpstar"
+			size: 1.5d
+		}
+		progression: {
+			shape: "embellish"
+			size: 1.0d
+		}
+		start: {
+			shape: "epstar"
+			size: 2.0d
+		}
+		turnin: {
+			shape: "pentagon"
+			size: 1.0d
+		}
+	}
 	progression_mode: "flexible"
 	show_lock_icons: true
 	verify_on_load: false

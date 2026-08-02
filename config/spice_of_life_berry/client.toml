@@ -60,6 +60,9 @@
 		inventoryIconSizeFour = 16
 		inventoryIconSizeFiveOrSix = 14
 		inventoryIconSizeSevenOrEight = 12
+		enableModdedInventoryCloud = true
+		showModdedInventoryCloudCloseButton = true
+		moddedInventoryScreenClassHints = ["curios", "inventorio"]
 
 		[compat.visuals.category_mini_cloud]
 			enableCategoryMiniCloud = true

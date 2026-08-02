@@ -1,0 +1,157 @@
+{
+  "enabled": true,
+  "mod_name": "[Let\u0027s Do] HerbalBrews",
+  "mod_id": "herbalbrews",
+  "achievements": {
+    "main/find_tea_blossom": {
+      "display_name": "Blossoming Discoveries",
+      "original_name": "Blossoming Discoveries",
+      "enabled": true,
+      "icon": "herbalbrews:tea_blossom",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "main/place_jug": {
+      "display_name": "Pour Decisions",
+      "original_name": "Pour Decisions",
+      "enabled": true,
+      "icon": "herbalbrews:jug",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "main/all_effects": {
+      "display_name": "A Sip of Infinity",
+      "original_name": "A Sip of Infinity",
+      "enabled": true,
+      "icon": "herbalbrews:flask",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "main/place_tea_kettle": {
+      "display_name": "Tea Time",
+      "original_name": "Tea Time",
+      "enabled": true,
+      "icon": "herbalbrews:copper_tea_kettle",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "main/find_lavender": {
+      "display_name": "Find Lavender",
+      "original_name": "Find Lavender",
+      "enabled": true,
+      "icon": "herbalbrews:lavender",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "main/let_it_dry": {
+      "display_name": "Drying Expertise",
+      "original_name": "Drying Expertise",
+      "enabled": true,
+      "icon": "herbalbrews:green_tea_leaf_block",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "main/drink_milk_coffee": {
+      "display_name": "Mocha Moment",
+      "original_name": "Mocha Moment",
+      "enabled": true,
+      "icon": "herbalbrews:milk_coffee",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "main/place_stove": {
+      "display_name": "Heat needed",
+      "original_name": "Heat needed",
+      "enabled": true,
+      "icon": "herbalbrews:stove",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "main/witching_time": {
+      "display_name": "Witching Time",
+      "original_name": "Witching Time",
+      "enabled": true,
+      "icon": "herbalbrews:witch_hat",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "main/let_it_dry_3": {
+      "display_name": "Mix it up!",
+      "original_name": "Mix it up!",
+      "enabled": true,
+      "icon": "herbalbrews:mixed_tea_leaf_block",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "main/let_it_dry_2": {
+      "display_name": "Let\u0027s do it again!",
+      "original_name": "Let\u0027s do it again!",
+      "enabled": true,
+      "icon": "herbalbrews:black_tea_leaf_block",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "main/place_cauldron": {
+      "display_name": "Tea... and Elixirs!",
+      "original_name": "Tea... and Elixirs!",
+      "enabled": true,
+      "icon": "herbalbrews:cauldron",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "main/craft_everything": {
+      "display_name": "A Hug in a Cup",
+      "original_name": "A Hug in a Cup",
+      "enabled": true,
+      "icon": "herbalbrews:herbalbrews_banner",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "main/get_a_flask": {
+      "display_name": "Potion Perfected",
+      "original_name": "Potion Perfected",
+      "enabled": true,
+      "icon": "herbalbrews:flask",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "main/drink_coffee": {
+      "display_name": "Espresso Yourself",
+      "original_name": "Espresso Yourself",
+      "enabled": true,
+      "icon": "herbalbrews:coffee",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    }
+  }
+}

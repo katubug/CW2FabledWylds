@@ -11,6 +11,7 @@
 	images: [
 		{
 			height: 20.0d
+			id: "7950538B16652416"
 			image: "enchanted_wilds:textures/questui/bookbgs/orange_book_lg.png"
 			rotation: 0.0d
 			width: 25.0d
@@ -20,6 +21,7 @@
 		{
 			color: 9921281
 			height: 1.25d
+			id: "1492188D4E43E099"
 			image: "enchanted_wilds:textures/questui/subtitles/building.png"
 			order: 99
 			rotation: 0.0d
@@ -30,6 +32,7 @@
 		{
 			color: 9921281
 			height: 2.5d
+			id: "791F0B7E470806ED"
 			image: "enchanted_wilds:textures/questui/titles/beginnings.png"
 			rotation: 0.0d
 			width: 9.0d
@@ -39,6 +42,7 @@
 		{
 			color: 9921281
 			height: 1.25d
+			id: "3C574BF1BED4F16E"
 			image: "enchanted_wilds:textures/questui/subtitles/decorating.png"
 			order: 99
 			rotation: 0.0d
@@ -49,6 +53,7 @@
 	]
 	order_index: 1
 	quest_enhance_decorative_lines: [ ]
+	quest_enhance_hidden_dependency_lines: [ ]
 	quest_links: [ ]
 	quests: [
 		{
@@ -84,8 +89,8 @@
 				item: { count: 1, id: "buildinggadgets2:gadget_building" }
 				type: "item"
 			}]
-			x: -6.6d
-			y: -3.1d
+			x: -8.0d
+			y: -3.0d
 		}
 		{
 			dependencies: ["1AFE0FBF887D22FD"]
@@ -113,8 +118,8 @@
 					type: "item"
 				}
 			]
-			x: -6.1d
-			y: -0.6000000000000001d
+			x: -6.5d
+			y: -1.5d
 		}
 		{
 			dependencies: ["1184EA40A20DEB5D"]
@@ -129,8 +134,8 @@
 				item: { count: 1, id: "buildinggadgets2:gadget_destruction" }
 				type: "item"
 			}]
-			x: -8.1d
-			y: -0.6000000000000001d
+			x: -8.0d
+			y: 0.0d
 		}
 		{
 			id: "4F9A1B244734638F"
@@ -468,8 +473,8 @@
 				item: { count: 1, id: "charginggadgets:charging_station" }
 				type: "item"
 			}]
-			x: -7.6d
-			y: -1.6d
+			x: -8.0d
+			y: -1.5d
 		}
 		{
 			id: "5A1DD637C09F0D13"
@@ -500,8 +505,8 @@
 				type: "stat"
 				value: 50
 			}]
-			x: 4.3d
-			y: -4.2d
+			x: 3.0d
+			y: -7.0d
 		}
 		{
 			id: "5FC2335FA7C31389"
@@ -584,8 +589,8 @@
 				item: { count: 1, id: "framedblocks:framed_cube" }
 				type: "item"
 			}]
-			x: -2.75d
-			y: -2.7d
+			x: -2.25d
+			y: -3.0d
 		}
 		{
 			dependencies: ["39844F8340E6A438"]
@@ -596,7 +601,7 @@
 				type: "item"
 			}]
 			x: -1.5d
-			y: -1.2000000000000002d
+			y: -1.0d
 		}
 		{
 			dependencies: ["39844F8340E6A438"]
@@ -608,7 +613,7 @@
 				type: "item"
 			}]
 			x: -4.0d
-			y: -1.2000000000000002d
+			y: -3.0d
 		}
 		{
 			dependencies: ["39844F8340E6A438"]
@@ -619,8 +624,8 @@
 				item: { count: 1, id: "framedblocks:framed_wrench" }
 				type: "item"
 			}]
-			x: -2.5d
-			y: -0.20000000000000018d
+			x: -3.0d
+			y: -1.0d
 		}
 		{
 			dependencies: ["39844F8340E6A438"]
@@ -636,8 +641,8 @@
 				item: { count: 1, id: "framedblocks:framed_blueprint" }
 				type: "item"
 			}]
-			x: -3.0d
-			y: 0.7999999999999998d
+			x: -4.5d
+			y: -2.0d
 		}
 		{
 			dependencies: ["39844F8340E6A438"]
@@ -648,8 +653,8 @@
 				item: { count: 1, id: "framedblocks:framed_key" }
 				type: "item"
 			}]
-			x: -4.5d
-			y: -0.20000000000000018d
+			x: -3.5d
+			y: -2.0d
 		}
 		{
 			dependencies: ["39844F8340E6A438"]
@@ -660,8 +665,8 @@
 				item: { count: 1, id: "framedblocks:framed_screwdriver" }
 				type: "item"
 			}]
-			x: -3.5d
-			y: -0.20000000000000018d
+			x: -4.0d
+			y: -1.0d
 		}
 		{
 			dependencies: ["39844F8340E6A438"]
@@ -672,8 +677,8 @@
 				item: { count: 1, id: "framedblocks:framed_reinforcement" }
 				type: "item"
 			}]
-			x: -4.0d
-			y: 0.7999999999999998d
+			x: -3.5d
+			y: 0.0d
 		}
 		{
 			id: "4110A15F659422D5"
@@ -688,8 +693,8 @@
 				item: { count: 1, id: "quark:trowel" }
 				type: "item"
 			}]
-			x: -4.5d
-			y: -3.2d
+			x: -5.0d
+			y: -3.5d
 		}
 		{
 			id: "2288D26992644668"
@@ -737,8 +742,8 @@
 				item: { count: 1, id: "easel_does_it:easel" }
 				type: "item"
 			}]
-			x: 3.2d
-			y: -4.1d
+			x: 1.5d
+			y: -7.0d
 		}
 		{
 			id: "3DFE6CC659B005C6"
@@ -754,8 +759,8 @@
 				item: { count: 1, id: "serene_shrubbery:bloom_basket" }
 				type: "item"
 			}]
-			x: 2.1d
-			y: -4.1d
+			x: 0.5d
+			y: -7.0d
 		}
 	]
 }

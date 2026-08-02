@@ -17,6 +17,7 @@
 	images: [
 		{
 			height: 20.0d
+			id: "02A7C7D37F29FDC6"
 			image: "enchanted_wilds:textures/questui/bookbgslg/purple_book_lg.png"
 			rotation: 0.0d
 			width: 25.0d
@@ -26,6 +27,7 @@
 		{
 			color: 11296702
 			height: 2.5d
+			id: "5659D28A0796EC76"
 			image: "enchanted_wilds:textures/questui/titles/brewingenchanting.png"
 			rotation: 0.0d
 			width: 9.0d
@@ -35,6 +37,7 @@
 	]
 	order_index: 1
 	quest_enhance_decorative_lines: [ ]
+	quest_enhance_hidden_dependency_lines: [ ]
 	quest_links: [ ]
 	quests: [
 		{
@@ -136,6 +139,22 @@
 			}]
 			x: 7.0d
 			y: -6.0d
+		}
+		{
+			id: "6C519AFAC9A8866F"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3725CEF497016799"
+				table_id: 5770973074849872376L
+				type: "random"
+			}]
+			tasks: [{
+				id: "1B0CD29353BF5FD3"
+				item: { count: 1, id: "minecraft:cauldron" }
+				type: "item"
+			}]
+			x: 3.5d
+			y: -9.5d
 		}
 	]
 }

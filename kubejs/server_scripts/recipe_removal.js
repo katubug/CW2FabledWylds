@@ -76,4 +76,6 @@ ServerEvents.recipes(event => {
     }
 
     event.remove({ output: 'minecraft:green_dye', type: 'minecraft:smoking' })
+
+    event.remove({ mod: 'roots', type: 'roots:spell' })
 })

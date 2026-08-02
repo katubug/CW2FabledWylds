@@ -11,6 +11,7 @@
 	images: [
 		{
 			height: 10.0d
+			id: "63580EFF56152C0C"
 			image: "enchanted_wilds:textures/questui/bgexplorating.png"
 			rotation: 0.0d
 			width: 10.0d
@@ -19,6 +20,7 @@
 		}
 		{
 			height: 10.0d
+			id: "54A1523BE09A6FBD"
 			image: "enchanted_wilds:textures/questui/bgstructures.png"
 			rotation: 0.0d
 			width: 17.0d
@@ -27,6 +29,7 @@
 		}
 		{
 			height: 10.0d
+			id: "7789E3C5E90AB9E6"
 			image: "enchanted_wilds:textures/questui/bgwaystones.png"
 			rotation: 0.0d
 			width: 10.0d
@@ -36,6 +39,7 @@
 	]
 	order_index: 1
 	quest_enhance_decorative_lines: [ ]
+	quest_enhance_hidden_dependency_lines: [ ]
 	quest_links: [ ]
 	quests: [
 		{

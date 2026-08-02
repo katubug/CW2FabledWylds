@@ -12,6 +12,7 @@
 	images: [
 		{
 			height: 20.0d
+			id: "0601C66652808E3B"
 			image: "enchanted_wilds:textures/questui/bookbgslg/blue_book_lg.png"
 			rotation: 0.0d
 			width: 25.0d
@@ -21,6 +22,7 @@
 		{
 			color: 2062755
 			height: 2.5d
+			id: "19EEA57D2A14CE3F"
 			image: "enchanted_wilds:textures/questui/titles/arts_witchcrafts.png"
 			rotation: 0.0d
 			width: 8.0d
@@ -30,6 +32,7 @@
 		{
 			color: 2062755
 			height: 1.25d
+			id: "4FFFC35CF335AD07"
 			image: "enchanted_wilds:textures/questui/subtitles/sketching.png"
 			rotation: 0.0d
 			width: 8.0d
@@ -39,6 +42,7 @@
 		{
 			color: 2062755
 			height: 0.9d
+			id: "58A44C440A6056ED"
 			image: "enchanted_wilds:textures/questui/flourishes/separator.png"
 			rotation: 0.0d
 			width: 8.0d
@@ -48,6 +52,7 @@
 		{
 			color: 2062755
 			height: 1.25d
+			id: "7471DD1791B0D67E"
 			image: "enchanted_wilds:textures/questui/subtitles/painting.png"
 			rotation: 0.0d
 			width: 8.0d
@@ -57,6 +62,7 @@
 		{
 			color: 2062755
 			height: 1.25d
+			id: "1745C72AD7B7C7E5"
 			image: "enchanted_wilds:textures/questui/subtitles/photography.png"
 			rotation: 0.0d
 			width: 8.0d
@@ -66,6 +72,7 @@
 	]
 	order_index: 0
 	quest_enhance_decorative_lines: [ ]
+	quest_enhance_hidden_dependency_lines: [ ]
 	quest_links: [ ]
 	quests: [
 		{
@@ -1139,8 +1146,8 @@
 					type: "item"
 				}
 			]
-			x: -5.2d
-			y: -8.2d
+			x: -5.0d
+			y: -7.5d
 		}
 		{
 			id: "0277F5496B204434"
@@ -1149,8 +1156,8 @@
 				item: { count: 1, id: "enchanted:spinning_wheel" }
 				type: "item"
 			}]
-			x: -3.7d
-			y: -7.9d
+			x: -4.0d
+			y: -7.5d
 		}
 	]
 	tags: ["bluequests"]

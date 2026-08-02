@@ -13,6 +13,7 @@
 	images: [
 		{
 			height: 20.0d
+			id: "57887EF111402D96"
 			image: "enchanted_wilds:textures/questui/shop/shopbg.png"
 			rotation: 0.0d
 			width: 15.0d
@@ -21,6 +22,7 @@
 		}
 		{
 			height: 4.0d
+			id: "634120AEE677C02E"
 			image: "enchanted_wilds:textures/questui/shop/shopbgframe.png"
 			rotation: 0.0d
 			width: 6.0d
@@ -29,6 +31,7 @@
 		}
 		{
 			height: 4.0d
+			id: "04DBDF9304BB4CDF"
 			image: "enchanted_wilds:textures/questui/shop/shopcauldrons.png"
 			rotation: 0.0d
 			width: 7.0d
@@ -38,6 +41,7 @@
 	]
 	order_index: 2
 	quest_enhance_decorative_lines: [ ]
+	quest_enhance_hidden_dependency_lines: [ ]
 	quest_links: [ ]
 	quests: [
 		{
@@ -64,7 +68,7 @@
 			id: "130C66471B8C8E27"
 			rewards: [{
 				exclude_from_claim_all: true
-				id: "593613448E10BD5C"
+				id: "0C1F56151F685191"
 				is_ender: false
 				is_team_reward: false
 				item: {
@@ -186,7 +190,7 @@
 			rewards: [
 				{
 					exclude_from_claim_all: true
-					id: "21D487B4CDDF0F2D"
+					id: "19981F7D7A671D2A"
 					is_ender: false
 					is_team_reward: false
 					item: {
@@ -199,7 +203,7 @@
 				}
 				{
 					exclude_from_claim_all: true
-					id: "47794F5F58B0CE7B"
+					id: "335FE9A5944D755E"
 					is_ender: false
 					is_team_reward: false
 					item: {
@@ -305,7 +309,7 @@
 			id: "48DF3E80F98D8E72"
 			rewards: [{
 				exclude_from_claim_all: true
-				id: "41B1DEB39C6F69DA"
+				id: "047B86651B77853D"
 				is_ender: false
 				is_team_reward: false
 				item: {
@@ -317,8 +321,8 @@
 				type: "contactquests:parcel"
 			}]
 			tasks: [{
-				id: "23D9B53AEBE94157"
-				item: { components: { "ftbquests:missing_item": "numismatics:cog" }, count: 1, id: "ftbquests:missing_item" }
+				id: "49C4A0109CD45A9E"
+				item: { count: 1, id: "numismatics:cog" }
 				type: "item"
 			}]
 			x: 8.8d

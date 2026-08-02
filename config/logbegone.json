@@ -9,7 +9,14 @@
       "Couldn't parse spawner mob list",
       "Mobs should be added to biomes",
       "Found an item that was in parent tab",
-      "Found an empty itemStack"
+      "Found an empty itemStack",
+      "Exception loading blockstate definition",
+      "Could not find Sign for wood",
+      "TagLoader directory",
+      "Missing trade item listings",
+      "Unable to load model",
+      "@ Post render",
+      "65539: Invalid key"
     ],
     "regex": [
       "Disconnecting VANILLA connection attempt",

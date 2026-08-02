@@ -12,6 +12,7 @@
 	images: [
 		{
 			height: 10.0d
+			id: "649689396F3F0D07"
 			image: "enchanted_wilds:textures/questui/logo.png"
 			rotation: 0.0d
 			width: 10.0d
@@ -20,6 +21,7 @@
 		}
 		{
 			height: 20.0d
+			id: "6BFA195E3BC50932"
 			image: "enchanted_wilds:textures/questui/bookbgslg/green_book_lg.png"
 			rotation: 0.0d
 			width: 25.0d
@@ -29,6 +31,7 @@
 		{
 			color: 6321408
 			height: 2.5d
+			id: "2050AE4B843D0F69"
 			image: "enchanted_wilds:textures/questui/titles/beginnings.png"
 			rotation: 0.0d
 			width: 8.0d
@@ -38,6 +41,7 @@
 		{
 			color: 6321408
 			height: 1.25d
+			id: "52E827D6773B7B03"
 			image: "enchanted_wilds:textures/questui/subtitles/artofdeath.png"
 			rotation: 0.0d
 			width: 8.0d
@@ -47,6 +51,7 @@
 		{
 			color: 6321408
 			height: 1.25d
+			id: "3C001DF8F4350C3B"
 			image: "enchanted_wilds:textures/questui/subtitles/gifts.png"
 			rotation: 0.0d
 			width: 8.0d
@@ -56,6 +61,7 @@
 		{
 			alpha: 225
 			height: 5.0d
+			id: "33839B99B54B2725"
 			image: "enchanted_wilds:textures/questui/illustrations/house_icon.png"
 			rotation: 0.0d
 			width: 5.0d
@@ -65,6 +71,7 @@
 	]
 	order_index: 1
 	quest_enhance_decorative_lines: [ ]
+	quest_enhance_hidden_dependency_lines: [ ]
 	quest_links: [ ]
 	quests: [
 		{
@@ -390,7 +397,7 @@
 					type: "item"
 				}
 			]
-			shape: "rsquare"
+			shape: "epstar"
 			size: 3.0d
 			tasks: [{
 				dimension: "minecraft:overworld"
@@ -498,15 +505,24 @@
 		}
 		{
 			id: "4ABFB1778565B4B7"
-			rewards: [{
-				command: "/give @p sophisticatedbackpacks:backpack"
-				icon: {
-					id: "sophisticatedbackpacks:backpack"
+			rewards: [
+				{
+					id: "15F9B72BEF84DB82"
+					item: {
+						count: 1
+						id: "pickybags:bag"
+					}
+					type: "item"
 				}
-				id: "4F8E2D6AA2C12E7B"
-				permission_level: 4
-				type: "command"
-			}]
+				{
+					id: "3C3EE109357B176E"
+					item: {
+						count: 1
+						id: "pickybags:pickup_rocks"
+					}
+					type: "item"
+				}
+			]
 			shape: "gear"
 			tasks: [
 				{
@@ -554,8 +570,8 @@
 				type: "stat"
 				value: 1
 			}]
-			x: -5.2d
-			y: -4.2d
+			x: -5.5d
+			y: -4.0d
 		}
 		{
 			id: "66B094500E40DA3D"
@@ -567,7 +583,7 @@
 				}
 				type: "item"
 			}]
-			shape: "rsquare"
+			shape: "epstar"
 			size: 1.5d
 			tasks: [{
 				icon: {
@@ -598,8 +614,11 @@
 				{
 					id: "64F215562F3CF1CA"
 					item: {
+						components: {
+							"ftbquests:missing_item": "farmersrespite:coffee_with_milk"
+						}
 						count: 1
-						id: "farmersrespite:coffee_with_milk"
+						id: "ftbquests:missing_item"
 					}
 					type: "item"
 				}
@@ -687,6 +706,7 @@
 		}
 		{
 			id: "7232C9D413054886"
+			preset: "normal"
 			rewards: [
 				{
 					id: "15CE6688B6EFC508"

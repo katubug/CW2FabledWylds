@@ -15,6 +15,7 @@
 	images: [
 		{
 			height: 15.0d
+			id: "1A0D82F5DE800562"
 			image: "enchanted_wilds:textures/questui/bgtameable.png"
 			rotation: 0.0d
 			width: 15.0d
@@ -23,6 +24,7 @@
 		}
 		{
 			height: 10.0d
+			id: "416ED52078C10FD3"
 			image: "enchanted_wilds:textures/questui/bgneutral.png"
 			rotation: 0.0d
 			width: 10.0d
@@ -31,6 +33,7 @@
 		}
 		{
 			height: 15.0d
+			id: "7BD891D4E61AFEEF"
 			image: "enchanted_wilds:textures/questui/bgwyldhunts.png"
 			rotation: 0.0d
 			width: 15.0d
@@ -39,6 +42,7 @@
 		}
 		{
 			height: 10.0d
+			id: "2C6BCF2AA004E45C"
 			image: "enchanted_wilds:textures/questui/bgpetslivestock.png"
 			rotation: 0.0d
 			width: 10.0d
@@ -48,6 +52,7 @@
 	]
 	order_index: 3
 	quest_enhance_decorative_lines: [ ]
+	quest_enhance_hidden_dependency_lines: [ ]
 	quest_links: [ ]
 	quests: [
 		{
@@ -329,6 +334,11 @@
 			can_repeat: true
 			dependencies: ["43B3A6804B59565E"]
 			icon: {
+				components: {
+					"minecraft:custom_data": {
+						quest_enhance_entity_model: "minecraft:skeleton"
+					}
+				}
 				id: "minecraft:skeleton_spawn_egg"
 			}
 			id: "13DCE1539EEE07B8"
@@ -542,7 +552,12 @@
 			dependencies: ["7E36FAC9107093C2"]
 			dependency_requirement: "all_started"
 			icon: {
-				id: "minecraft:creeper_head"
+				components: {
+					"minecraft:custom_data": {
+						quest_enhance_entity_model: "minecraft:creeper"
+					}
+				}
+				id: "minecraft:creeper_spawn_egg"
 			}
 			id: "2A61057B25357F37"
 			rewards: [
@@ -583,7 +598,12 @@
 		{
 			dependencies: ["43B3A6804B59565E"]
 			icon: {
-				id: "supplementaries:enderman_head"
+				components: {
+					"minecraft:custom_data": {
+						quest_enhance_entity_model: "minecraft:enderman"
+					}
+				}
+				id: "minecraft:enderman_spawn_egg"
 			}
 			id: "3EBAD94D079ACDD8"
 			rewards: [
@@ -630,7 +650,12 @@
 			dependency_requirement: "one_started"
 			hide_dependency_lines: true
 			icon: {
-				id: "minecraft:wither_skeleton_skull"
+				components: {
+					"minecraft:custom_data": {
+						quest_enhance_entity_model: "minecraft:wither_skeleton"
+					}
+				}
+				id: "minecraft:wither_skeleton_spawn_egg"
 			}
 			id: "26E8A9DFDC4C1635"
 			rewards: [
@@ -681,10 +706,11 @@
 			dependencies: ["43B3A6804B59565E"]
 			icon: {
 				components: {
-					"!ftbquests:icon": { }
-					"ftbquests:entity_face": "minecraft:wither_skeleton"
+					"minecraft:custom_data": {
+						quest_enhance_entity_model: "minecraft:wither_skeleton"
+					}
 				}
-				id: "ftbquests:custom_icon"
+				id: "minecraft:wither_skeleton_spawn_egg"
 			}
 			id: "12CC2182B839D954"
 			optional: true
@@ -730,10 +756,11 @@
 			dependencies: ["43B3A6804B59565E"]
 			icon: {
 				components: {
-					"!ftbquests:icon": { }
-					"ftbquests:entity_face": "minecraft:pillager"
+					"minecraft:custom_data": {
+						quest_enhance_entity_model: "minecraft:pillager"
+					}
 				}
-				id: "ftbquests:custom_icon"
+				id: "minecraft:pillager_spawn_egg"
 			}
 			id: "53D63982971E2F60"
 			rewards: [
@@ -778,10 +805,11 @@
 			dependencies: ["43B3A6804B59565E"]
 			icon: {
 				components: {
-					"!ftbquests:icon": { }
-					"ftbquests:entity_face": "minecraft:drowned"
+					"minecraft:custom_data": {
+						quest_enhance_entity_model: "minecraft:drowned"
+					}
 				}
-				id: "ftbquests:custom_icon"
+				id: "minecraft:drowned_spawn_egg"
 			}
 			id: "714C8AC1434688EF"
 			rewards: [
@@ -1131,10 +1159,11 @@
 			dependencies: ["43B3A6804B59565E"]
 			icon: {
 				components: {
-					"!ftbquests:icon": { }
-					"ftbquests:entity_face": "minecraft:guardian"
+					"minecraft:custom_data": {
+						quest_enhance_entity_model: "minecraft:guardian"
+					}
 				}
-				id: "ftbquests:custom_icon"
+				id: "minecraft:guardian_spawn_egg"
 			}
 			id: "376F0C3219E696C9"
 			rewards: [
@@ -1301,14 +1330,22 @@
 		}
 		{
 			id: "72AEC02678301699"
-			rewards: [{
-				id: "11373B83733BC373"
-				item: {
-					count: 1
-					id: "plushie_buddies:plushie_warden"
+			rewards: [
+				{
+					id: "11373B83733BC373"
+					item: {
+						count: 1
+						id: "plushie_buddies:plushie_warden"
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					exclude_from_claim_all: true
+					id: "1DE1712B371578E6"
+					table_id: 7328857662613080212L
+					type: "random"
+				}
+			]
 			shape: "octagon"
 			tasks: [{
 				advancement: "enchanted_wilds:misc/deviled_egg"
@@ -1316,8 +1353,8 @@
 				id: "56E0DF38123C4DE4"
 				type: "advancement"
 			}]
-			x: 5.0d
-			y: 2.0d
+			x: 11.0d
+			y: -4.0d
 		}
 		{
 			id: "5D5261F404366454"
@@ -1339,7 +1376,14 @@
 					}
 					type: "item"
 				}
+				{
+					exclude_from_claim_all: true
+					id: "4EE798DAB8A29594"
+					table_id: 7159471207534106979L
+					type: "random"
+				}
 			]
+			shape: "diamond"
 			tasks: [{
 				entity: "minecraft:wither"
 				icon: {
@@ -1444,10 +1488,11 @@
 			dependencies: ["43B3A6804B59565E"]
 			icon: {
 				components: {
-					"!ftbquests:icon": { }
-					"ftbquests:entity_face": "minecraft:stray"
+					"minecraft:custom_data": {
+						quest_enhance_entity_model: "minecraft:stray"
+					}
 				}
-				id: "ftbquests:custom_icon"
+				id: "minecraft:stray_spawn_egg"
 			}
 			id: "67716A2F0AEDC9A7"
 			rewards: [{
@@ -1578,18 +1623,6 @@
 			y: 2.0d
 		}
 		{
-			id: "2AFFEAD519C693B4"
-			tasks: [{
-				entity: "delighto_flight:aerolope"
-				id: "1CDDF059AA33DF3F"
-				search_radius_blocks: 64
-				target_radius_blocks: 5
-				type: "find_entity"
-			}]
-			x: 11.75d
-			y: -6.25d
-		}
-		{
 			id: "5C59C06355C7DC77"
 			tasks: [
 				{
@@ -1608,21 +1641,48 @@
 		}
 		{
 			id: "02000A977B04C84A"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "65CB5897171181AA"
+				table_id: 5770973074849872376L
+				type: "random"
+			}]
 			tasks: [{
 				entity: "mowziesmobs:umvuthi"
-				id: "564233F0DA0498DC"
+				icon: {
+					id: "mowziesmobs:umvuthana_mask_faith"
+				}
+				id: "4EDE7E63EF8836F3"
 				search_radius_blocks: 64
-				target_radius_blocks: 15
+				target_radius_blocks: 5
 				type: "find_entity"
 			}]
-			x: 14.6d
-			y: -4.3d
+			x: 15.5d
+			y: -4.0d
 		}
 		{
+			icon: {
+				components: {
+					"minecraft:custom_data": {
+						quest_enhance_entity_model: "mowziesmobs:foliaath"
+					}
+				}
+				id: "mowziesmobs:foliaath_spawn_egg"
+			}
 			id: "4BB2ED765707EA69"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "75929EA9D4288632"
+				table_id: 5770973074849872376L
+				type: "random"
+			}]
+			shape: "window"
 			tasks: [{
 				entity: "mowziesmobs:foliaath"
-				id: "67DEC4793DBA55EC"
+				icon: {
+					id: "mowziesmobs:foliaath_seed"
+				}
+				id: "2039632D9C5AC1E4"
 				search_radius_blocks: 64
 				target_radius_blocks: 5
 				type: "find_entity"
@@ -1632,6 +1692,13 @@
 		}
 		{
 			id: "5085CFDE1E14144D"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3537A6C596E11013"
+				table_id: 7159471207534106979L
+				type: "random"
+			}]
+			shape: "diamond"
 			tasks: [{
 				entity: "mowziesmobs:ferrous_wroughtnaut"
 				id: "75258C714037F2D3"
@@ -1643,6 +1710,12 @@
 		}
 		{
 			id: "732D5D711B04EA36"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7F236C86BD2BE61A"
+				table_id: 7159471207534106979L
+				type: "random"
+			}]
 			tasks: [{
 				id: "4D5562BB10C6B788"
 				item: { count: 1, id: "mowziesmobs:ice_crystal" }
@@ -1689,6 +1762,30 @@
 			]
 			x: 6.5d
 			y: -6.0d
+		}
+		{
+			dependencies: ["02000A977B04C84A"]
+			id: "10842BA380044BC5"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "12276120D01CB8F6"
+				table_id: 7328857662613080212L
+				type: "random"
+			}]
+			tasks: [{
+				entity: "mowziesmobs:umvuthi"
+				hand_mode: "ANY"
+				held_item: { count: 1, id: "minecraft:gold_block" }
+				icon: {
+					id: "mowziesmobs:sol_visage"
+				}
+				id: "3C62F0847F12E0B3"
+				min_tags_required: 0
+				type: "interact_entity"
+				value: 1L
+			}]
+			x: 17.0d
+			y: -4.0d
 		}
 	]
 }

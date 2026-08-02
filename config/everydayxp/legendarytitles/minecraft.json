@@ -2154,6 +2154,76 @@
         "attributes": {},
         "items": []
       }
+    },
+    "trailandtales_delightmain/tat_delight": {
+      "display_name": "Trail\u0026Tales Delight",
+      "original_name": "Trail\u0026Tales Delight",
+      "enabled": true,
+      "icon": "trailandtales_delight:pottery_cooking_pot",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "trailandtales_delightmain/pottery_bowl": {
+      "display_name": "Ancient Container",
+      "original_name": "Ancient Container",
+      "enabled": true,
+      "icon": "trailandtales_delight:pottery_bowl",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "trailandtales_delightmain/golden_lantern_fruit": {
+      "display_name": "Unexpected Pleasure",
+      "original_name": "Unexpected Pleasure",
+      "enabled": true,
+      "icon": "trailandtales_delight:golden_lantern_fruit",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "trailandtales_delightmain/sniffer_eggshell_knife": {
+      "display_name": "Glass Cannon",
+      "original_name": "Glass Cannon",
+      "enabled": true,
+      "icon": "trailandtales_delight:sniffer_eggshell_knife",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "trailandtales_delightmain/raw_bamboo_tube_rice": {
+      "display_name": "Don\u0027t Forget Me",
+      "original_name": "Don\u0027t Forget Me",
+      "enabled": true,
+      "icon": "trailandtales_delight:raw_bamboo_tube_rice",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "trailandtales_delightmain/lantern_fruit_seeds": {
+      "display_name": "Is That Tomatoes?",
+      "original_name": "Is That Tomatoes?",
+      "enabled": true,
+      "icon": "trailandtales_delight:lantern_fruit_seeds",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "trailandtales_delightmain/pitcher_taro": {
+      "display_name": "Full Of Treasures",
+      "original_name": "Full Of Treasures",
+      "enabled": true,
+      "icon": "trailandtales_delight:pitcher_taro",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
     }
   }
 }

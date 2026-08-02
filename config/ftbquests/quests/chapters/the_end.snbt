@@ -10,6 +10,7 @@
 	id: "5CD8650A590340E5"
 	images: [{
 		height: 10.0d
+		id: "266D03F30D65B3CE"
 		image: "enchanted_wilds:textures/questui/bgtheend.png"
 		rotation: 0.0d
 		width: 20.0d
@@ -18,6 +19,7 @@
 	}]
 	order_index: 2
 	quest_enhance_decorative_lines: [ ]
+	quest_enhance_hidden_dependency_lines: [ ]
 	quest_links: [ ]
 	quests: [
 		{

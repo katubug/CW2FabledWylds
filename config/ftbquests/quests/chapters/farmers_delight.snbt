@@ -11,6 +11,7 @@
 	images: [
 		{
 			height: 20.0d
+			id: "5700CA918D4E3393"
 			image: "enchanted_wilds:textures/questui/bookbgslg/yellow_book_lg.png"
 			rotation: 0.0d
 			width: 25.0d
@@ -20,6 +21,7 @@
 		{
 			alpha: 225
 			height: 5.0d
+			id: "2BF4735B9CC34162"
 			image: "enchanted_wilds:textures/questui/illustrations/farm_icon.png"
 			rotation: 0.0d
 			width: 5.0d
@@ -29,6 +31,7 @@
 	]
 	order_index: 0
 	quest_enhance_decorative_lines: [ ]
+	quest_enhance_hidden_dependency_lines: [ ]
 	quest_links: [ ]
 	quests: [
 		{
@@ -610,20 +613,8 @@
 					value: 1L
 				}
 				{
-					block_item: { count: 1, id: "farm_and_charm:wild_strawberries" }
-					id: "117C801A956C4E53"
-					type: "break_block"
-					value: 1L
-				}
-				{
 					block_item: { count: 1, id: "farmersdelight:wild_tomatoes" }
 					id: "3EA2A91B9185E0EB"
-					type: "break_block"
-					value: 1L
-				}
-				{
-					block_item: { count: 1, id: "farmersrespite:wild_coffee_bush" }
-					id: "224CBE71D5553D89"
 					type: "break_block"
 					value: 1L
 				}
@@ -865,22 +856,22 @@
 				}
 				{
 					id: "2AD2A819B70E17B0"
-					item: { count: 1, id: "farmersrespite:green_tea_leaves_sack" }
+					item: { components: { "ftbquests:missing_item": "farmersrespite:green_tea_leaves_sack" }, count: 1, id: "ftbquests:missing_item" }
 					type: "item"
 				}
 				{
 					id: "4B0F96CD6B786E9A"
-					item: { count: 1, id: "farmersrespite:black_tea_leaves_sack" }
+					item: { components: { "ftbquests:missing_item": "farmersrespite:black_tea_leaves_sack" }, count: 1, id: "ftbquests:missing_item" }
 					type: "item"
 				}
 				{
 					id: "50DCF6F63CD1537A"
-					item: { count: 1, id: "farmersrespite:yellow_tea_leaves_sack" }
+					item: { components: { "ftbquests:missing_item": "farmersrespite:yellow_tea_leaves_sack" }, count: 1, id: "ftbquests:missing_item" }
 					type: "item"
 				}
 				{
 					id: "2F48894FCF12BBA1"
-					item: { count: 1, id: "farmersrespite:coffee_beans_sack" }
+					item: { components: { "ftbquests:missing_item": "farmersrespite:coffee_beans_sack" }, count: 1, id: "ftbquests:missing_item" }
 					type: "item"
 				}
 				{

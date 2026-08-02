@@ -27,7 +27,7 @@
 
 [hunger]
 	#Allowed Values: time_based, exhaustion_based, time_and_exhaustion
-	hungerDrainMode = "exhaustion_based"
+	hungerDrainMode = "time_and_exhaustion"
 	# Default: 17.0
 	# Range: 0.0 ~ 20.0
 	passiveFoodLossPerDay = 17.0
@@ -71,11 +71,11 @@
 	cravingsAffectElytra = false
 
 [transport]
-	enableBoatRowingSlowdown = true
+	enableBoatRowingSlowdown = false
 	# Default: 0.7
 	# Range: 0.1 ~ 1.0
 	boatMinSpeedAtZeroHunger = 0.7
-	enableSwimmingSlowdown = true
+	enableSwimmingSlowdown = false
 	# Default: 0.55
 	# Range: 0.1 ~ 1.0
 	swimmingMinSpeedAtZeroHunger = 0.55
@@ -280,7 +280,7 @@
 	# Range: 0 ~ 100
 	recentCravingHistoryDays = 5
 	#Allowed Values: all_registered, vanilla_only, discovered, configured_list, category_only
-	foodPoolMode = "all_registered"
+	foodPoolMode = "discovered"
 	# Default: 6
 	# Range: 1 ~ 256
 	minDiscoveredFoodsForCravings = 6
@@ -304,7 +304,7 @@
 	# Range: 0.0 ~ 1.0
 	categoryBonusMultiplierWithOneFoodLeft = 0.65
 	allowEatingCravingFoodWhenFull = true
-	allowEatingCravingCategoryWhenFull = false
+	allowEatingCravingCategoryWhenFull = true
 	# Default: 0.2
 	# Range: 0.0 ~ 10.0
 	cravingRegenBonusForOneFood = 0.2
@@ -320,6 +320,30 @@
 	# Default: 0.1
 	# Range: 0.0 ~ 10.0
 	strongCategoryRegenBonus = 0.1
+	#Allowed Values: world_day, completion_timer
+	cravingRefreshMode = "world_day"
+	ingredientCravingUnlocksEnabled = false
+	directFoodDiscoveryUnlocksEnabled = false
+	mobDropIngredientUnlocksEnabled = true
+	itemCravingUnlocksEnabled = true
+	itemCravingUnlockRules = []
+	# Default: 20
+	# Range: 1 ~ 1200
+	cravingUnlockScanIntervalTicks = 20
+	# Default: 200
+	# Range: 20 ~ 12000
+	questUnlockRescanIntervalTicks = 200
+	# Default: 1200
+	# Range: 20 ~ 72000
+	cravingRecipeCacheRefreshTicks = 1200
+	advancementCravingUnlocksEnabled = true
+	advancementCravingUnlockRules = []
+	ftbQuestCravingUnlocksEnabled = true
+	ftbQuestCravingUnlockRules = []
+	requireCookedCravingFood = true
+	excludeNegativeEffectCravingFoods = true
+	#Allowed Values: simple, medium, balanced, hard, hardcore
+	cravingDifficultyProfile = "balanced"
 
 [craving_streak]
 	enabled = true
@@ -444,12 +468,12 @@
 	cravingFoodWeakensHunger = true
 	fullCravingsQuotaClearsStarvation = true
 	cravingCategoryWeakensHunger = true
-	damageAtLevel3 = true
+	damageAtLevel3 = false
 	# Default: 5
 	# Range: 1 ~ 600
 	damageIntervalSeconds = 5
 	# Default: 1.0
-	# Range: 0.5 ~ 20.0
+	# Range: 0.0 ~ 20.0
 	damageMinimumHP = 1.0
 	clearStarvationOnDeath = true
 	# Default: 1

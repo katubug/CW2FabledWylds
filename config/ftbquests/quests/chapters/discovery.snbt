@@ -12,6 +12,7 @@
 	images: [
 		{
 			height: 20.0d
+			id: "66F77400707F32F4"
 			image: "enchanted_wilds:textures/questui/bookbgslg/cyan_book_lg.png"
 			rotation: 0.0d
 			width: 25.0d
@@ -21,6 +22,7 @@
 		{
 			color: 2017209
 			height: 2.5d
+			id: "2DC1B5E16BE4DBFF"
 			image: "enchanted_wilds:textures/questui/titles/discovery.png"
 			rotation: 0.0d
 			width: 9.0d
@@ -30,6 +32,7 @@
 		{
 			color: 2017209
 			height: 1.25d
+			id: "7BEAA48860ECF234"
 			image: "enchanted_wilds:textures/questui/subtitles/structures.png"
 			rotation: 0.0d
 			width: 8.0d
@@ -39,6 +42,7 @@
 	]
 	order_index: 0
 	quest_enhance_decorative_lines: [ ]
+	quest_enhance_hidden_dependency_lines: [ ]
 	quest_links: [ ]
 	quests: [
 		{

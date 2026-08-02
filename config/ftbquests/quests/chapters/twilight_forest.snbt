@@ -8,8 +8,10 @@
 		id: "twilightforest:twilight_portal_miniature_structure"
 	}
 	id: "23CEC5718927D582"
+	images: [ ]
 	order_index: 5
 	quest_enhance_decorative_lines: [ ]
+	quest_enhance_hidden_dependency_lines: [ ]
 	quest_links: [ ]
 	quests: [
 		{

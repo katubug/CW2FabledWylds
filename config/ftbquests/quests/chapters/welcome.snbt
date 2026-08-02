@@ -14,6 +14,7 @@
 	images: [
 		{
 			height: 10.0d
+			id: "77E25C23C1CA2F1B"
 			image: "enchanted_wilds:textures/questui/logo.png"
 			rotation: 0.0d
 			width: 10.0d
@@ -21,9 +22,9 @@
 			y: -19.5d
 		}
 		{
-			click: "https://www.akliz.net/cottagewitch"
+			click_action: "open_uri:https://www.akliz.net/cottagewitch"
 			height: 2.5d
-			hover: ["support the modpack and play with friends!"]
+			id: "4B4A1262804A76C5"
 			image: "enchanted_wilds:textures/questui/aklizbanner.png"
 			rotation: 0.0d
 			width: 10.0d
@@ -32,6 +33,7 @@
 		}
 		{
 			height: 7.187759336099585d
+			id: "3DD2E739978DA908"
 			image: "enchanted_wilds:textures/questui/questkey.png"
 			rotation: 0.0d
 			width: 13.0d
@@ -40,6 +42,7 @@
 		}
 		{
 			height: 11.25d
+			id: "33F6266F32285AE3"
 			image: "enchanted_wilds:textures/questui/welcomebanner.png"
 			rotation: 0.0d
 			width: 20.0d
@@ -47,9 +50,9 @@
 			y: -11.0d
 		}
 		{
-			click: "https://discord.gg/zvFNa7kyXm"
+			click_action: "open_uri:https://discord.gg/zvFNa7kyXm"
 			height: 1.0d
-			hover: ["Click here to join our Discord!"]
+			id: "3E5ED4E172944013"
 			image: "moonlight:textures/gui/sprites/media/discord.png"
 			order: 99
 			rotation: 0.0d
@@ -58,9 +61,9 @@
 			y: -10.0d
 		}
 		{
-			click: "https://github.com/katubug/CottageWitch2024/wiki"
+			click_action: "open_uri:https://github.com/katubug/CottageWitch2024/wiki"
 			height: 1.0d
-			hover: ["Click here to visit our Github Wiki!"]
+			id: "7EE333354E93796B"
 			image: "moonlight:textures/gui/sprites/media/github.png"
 			order: 99
 			rotation: 0.0d
@@ -71,6 +74,7 @@
 	]
 	order_index: 0
 	quest_enhance_decorative_lines: [ ]
+	quest_enhance_hidden_dependency_lines: [ ]
 	quest_links: [ ]
 	quests: [
 		{
@@ -80,7 +84,7 @@
 				type: "xp"
 				xp: 108
 			}]
-			shape: "gear"
+			shape: "thought"
 			size: 1.0d
 			tasks: [{
 				id: "70ED8357EEA2ACA4"
@@ -104,7 +108,7 @@
 					xp: 102
 				}
 			]
-			shape: "gear"
+			shape: "thought"
 			tasks: [{
 				id: "4B25469609B1A60C"
 				type: "checkmark"
@@ -120,7 +124,7 @@
 				type: "xp"
 				xp: 103
 			}]
-			shape: "gear"
+			shape: "thought"
 			size: 1.0d
 			tasks: [{
 				id: "4FA4B92C6339251C"
@@ -147,7 +151,7 @@
 					xp: 104
 				}
 			]
-			shape: "gear"
+			shape: "thought"
 			tasks: [{
 				id: "5D2FC3F7E82A27A3"
 				type: "checkmark"
@@ -163,7 +167,7 @@
 				type: "xp"
 				xp: 105
 			}]
-			shape: "gear"
+			shape: "thought"
 			size: 1.0d
 			tasks: [{
 				id: "11A03582B84195D4"
@@ -180,7 +184,7 @@
 				type: "xp"
 				xp: 106
 			}]
-			shape: "gear"
+			shape: "thought"
 			tasks: [{
 				id: "65C18F6415665884"
 				type: "checkmark"
@@ -207,7 +211,7 @@
 				type: "xp"
 				xp: 107
 			}]
-			shape: "gear"
+			shape: "thought"
 			size: 1.0d
 			tasks: [{
 				id: "4D969F11A701F8AA"
@@ -218,6 +222,7 @@
 		}
 		{
 			id: "4B09C2508E25AD2B"
+			preset: "info"
 			rewards: [{
 				id: "1A85B933DFDA69B5"
 				type: "xp"

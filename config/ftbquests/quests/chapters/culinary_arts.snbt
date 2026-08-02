@@ -12,6 +12,7 @@
 	images: [
 		{
 			height: 10.0d
+			id: "5ADF9EC3388CF0FD"
 			image: "enchanted_wilds:textures/questui/bgnetherdelight.png"
 			rotation: 0.0d
 			width: 10.0d
@@ -20,6 +21,7 @@
 		}
 		{
 			height: 20.0d
+			id: "396F59B7682844D2"
 			image: "enchanted_wilds:textures/questui/bookbgslg/yellow_book_lg.png"
 			rotation: 0.0d
 			width: 25.0d
@@ -29,6 +31,7 @@
 		{
 			color: 9921281
 			height: 2.5d
+			id: "721814101AA850EE"
 			image: "enchanted_wilds:textures/questui/titles/culinaryarts.png"
 			rotation: 0.0d
 			width: 9.0d
@@ -38,6 +41,7 @@
 		{
 			color: 9921281
 			height: 1.25d
+			id: "10B8948A58B5C28E"
 			image: "enchanted_wilds:textures/questui/subtitles/bakery.png"
 			order: 99
 			rotation: 0.0d
@@ -48,6 +52,7 @@
 		{
 			color: 9921281
 			height: 1.25d
+			id: "23693391BF96C09B"
 			image: "enchanted_wilds:textures/questui/subtitles/cheesemaking.png"
 			order: 99
 			rotation: 0.0d
@@ -57,6 +62,7 @@
 		}
 		{
 			height: 17.0d
+			id: "01C81AE343A3D4C0"
 			image: "enchanted_wilds:textures/questui/bookbgs/yellow_book.png"
 			rotation: 0.0d
 			width: 24.0d
@@ -66,6 +72,7 @@
 		{
 			alpha: 225
 			height: 5.0d
+			id: "617109488C94D974"
 			image: "enchanted_wilds:textures/questui/illustrations/bakery_icon.png"
 			rotation: 0.0d
 			width: 5.0d
@@ -73,8 +80,8 @@
 			y: 17.6d
 		}
 		{
-			click: "quest_enhance:decorative_anchor:23cfb9fc-b2bb-4456-bab5-39d4d39c8cec"
 			height: 0.4d
+			id: "791CBEF8482C7F08"
 			image: ""
 			rotation: 0.0d
 			width: 0.4d
@@ -82,8 +89,8 @@
 			y: -1.0d
 		}
 		{
-			click: "quest_enhance:decorative_anchor:fb158408-f627-45b0-adbe-463ba9ce3b8d"
 			height: 0.4d
+			id: "5A9A9305F650982D"
 			image: ""
 			rotation: 0.0d
 			width: 0.4d
@@ -93,6 +100,7 @@
 		{
 			color: 9921281
 			height: 1.25d
+			id: "4B80A1B98AEA4DC6"
 			image: "enchanted_wilds:textures/questui/subtitles/teasundry.png"
 			order: 99
 			rotation: 0.0d
@@ -108,6 +116,7 @@
 			"a:23cfb9fc-b2bb-4456-bab5-39d4d39c8cec"
 		]
 	}]
+	quest_enhance_hidden_dependency_lines: [ ]
 	quest_links: [ ]
 	quests: [
 		{
@@ -130,11 +139,18 @@
 			id: "644439D23D454629"
 			shape: "rsquare"
 			size: 2.0d
-			tasks: [{
-				id: "5DBB1443F691F650"
-				item: { count: 1, id: "farmersrespite:kettle" }
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "5DBB1443F691F650"
+					item: { components: { "ftbquests:missing_item": "farmersrespite:kettle" }, count: 1, id: "ftbquests:missing_item" }
+					type: "item"
+				}
+				{
+					id: "598503BBFEC7C2CF"
+					item: { count: 1, id: "herbalbrews:tea_kettle" }
+					type: "item"
+				}
+			]
 			x: 3.0d
 			y: -3.0d
 		}
@@ -1052,12 +1068,12 @@
 				}
 				{
 					id: "13B3E0DA5F310323"
-					item: { count: 1, id: "farmersrespite:green_tea" }
+					item: { components: { "ftbquests:missing_item": "farmersrespite:green_tea" }, count: 1, id: "ftbquests:missing_item" }
 					type: "item"
 				}
 				{
 					id: "5A1C0B0976332FBE"
-					item: { count: 1, id: "farmersrespite:yellow_tea" }
+					item: { components: { "ftbquests:missing_item": "farmersrespite:yellow_tea" }, count: 1, id: "ftbquests:missing_item" }
 					type: "item"
 				}
 			]
@@ -1096,12 +1112,12 @@
 				}
 				{
 					id: "54DDA4BD38E9CACA"
-					item: { count: 1, id: "farmersrespite:dandelion_tea" }
+					item: { components: { "ftbquests:missing_item": "farmersrespite:dandelion_tea" }, count: 1, id: "ftbquests:missing_item" }
 					type: "item"
 				}
 				{
 					id: "609DDDD51025F1AB"
-					item: { count: 1, id: "farmersrespite:rose_hip_tea" }
+					item: { components: { "ftbquests:missing_item": "farmersrespite:rose_hip_tea" }, count: 1, id: "ftbquests:missing_item" }
 					type: "item"
 				}
 			]
@@ -1550,7 +1566,7 @@
 			id: "4D50F0562D23BE6D"
 			tasks: [{
 				id: "543698154EB0CAEC"
-				item: { count: 1, id: "farmersrespite:tea_seeds" }
+				item: { components: { "ftbquests:missing_item": "farmersrespite:tea_seeds" }, count: 1, id: "ftbquests:missing_item" }
 				type: "item"
 			}]
 			x: 5.5d
@@ -1563,15 +1579,18 @@
 				count: 4
 				id: "17D6A23233AD29CE"
 				item: {
+					components: {
+						"ftbquests:missing_item": "farmersrespite:coffee_beans"
+					}
 					count: 1
-					id: "farmersrespite:coffee_beans"
+					id: "ftbquests:missing_item"
 				}
 				type: "item"
 			}]
 			shape: "hexagon"
 			tasks: [{
 				id: "3E4848E8E0248815"
-				item: { count: 1, id: "farmersrespite:coffee_beans" }
+				item: { components: { "ftbquests:missing_item": "farmersrespite:coffee_beans" }, count: 1, id: "ftbquests:missing_item" }
 				type: "item"
 			}]
 			x: 8.0d
@@ -1583,7 +1602,7 @@
 			shape: "hexagon"
 			tasks: [{
 				id: "68D2FA1528D75B0E"
-				item: { count: 1, id: "farmersrespite:purulent_tea" }
+				item: { components: { "ftbquests:missing_item": "farmersrespite:purulent_tea" }, count: 1, id: "ftbquests:missing_item" }
 				type: "item"
 			}]
 			x: -8.0d

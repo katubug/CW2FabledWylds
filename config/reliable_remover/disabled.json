@@ -284,6 +284,10 @@
             "supplementaries:stone_tile_slab",
             "quark:iron_ladder",
             "tanukidecor:globe",
+            "herbalbrews:cauldron",
+            "herbalbrews:flask",
+            "herbalbrews:herbal_infusion",
+            "luckyswardrobe:farmer_hat",
 
             "create:sacramento_postbox",
             "create:sky_postbox",

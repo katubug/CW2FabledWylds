@@ -8,37 +8,12 @@
 		id: "gildedsherds:minecraft/friend_pottery_sherd"
 	}
 	id: "166D3820236F493E"
-	images: [{
-		height: 11.25d
-		image: "enchanted_wilds:textures/questui/bgarchaeology.png"
-		rotation: 0.0d
-		width: 20.0d
-		x: 0.0d
-		y: 0.0d
-	}]
+	images: [ ]
 	order_index: 2
 	quest_enhance_decorative_lines: [ ]
+	quest_enhance_hidden_dependency_lines: [ ]
 	quest_links: [ ]
 	quests: [
-		{
-			id: "25E658E5D27AC8DC"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "4A9116356F5BF4C6"
-				type: "loot"
-			}]
-			shape: "heart"
-			tasks: [{
-				id: "5433BF950C188137"
-				observation_type: "block"
-				observe_type: 0
-				timer: 0L
-				to_observe: "minecraft:dirt"
-				type: "observation"
-			}]
-			x: -4.5d
-			y: 0.5d
-		}
 		{
 			id: "22ECD917EB584573"
 			rewards: [{
@@ -88,8 +63,8 @@
 					type: "item"
 				}
 			]
-			x: -6.0d
-			y: 2.0d
+			x: 0.5d
+			y: 1.0d
 		}
 		{
 			dependencies: ["374F93068ED863F7"]
@@ -164,8 +139,8 @@
 					type: "structure"
 				}
 			]
-			x: -6.0d
-			y: 0.5d
+			x: -1.0d
+			y: -1.0d
 		}
 		{
 			id: "79E6711262027491"
@@ -223,8 +198,8 @@
 				structure: "betterarcheology:villager_grave"
 				type: "structure"
 			}]
-			x: -7.5d
-			y: 0.5d
+			x: 0.0d
+			y: -2.0d
 		}
 		{
 			id: "6C25F07248AC8170"
@@ -279,8 +254,8 @@
 				structure: "betterarcheology:catacombs"
 				type: "structure"
 			}]
-			x: -4.5d
-			y: 3.5d
+			x: -1.0d
+			y: 0.5d
 		}
 		{
 			id: "3EA8305BE1FE9B75"
@@ -364,8 +339,8 @@
 				to_observe: "minecraft:sniffer"
 				type: "observation"
 			}]
-			x: 4.5d
-			y: 3.5d
+			x: 3.0d
+			y: -2.0d
 		}
 		{
 			id: "77CCC4FD3E93E79C"
@@ -388,8 +363,8 @@
 				to_observe: "minecraft:suspicious_gravel"
 				type: "observation"
 			}]
-			x: -0.5d
-			y: -5.0d
+			x: 1.5d
+			y: -2.0d
 		}
 	]
 }

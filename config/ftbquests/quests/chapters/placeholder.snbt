@@ -12,6 +12,7 @@
 	images: [
 		{
 			height: 20.0d
+			id: "3EC74D47BDB8BF50"
 			image: "enchanted_wilds:textures/questui/bookbgslg/yellow_book_lg.png"
 			rotation: 0.0d
 			width: 25.0d
@@ -21,6 +22,7 @@
 		{
 			color: 9921281
 			height: 2.5d
+			id: "1DADBC76BB8B8E74"
 			image: "enchanted_wilds:textures/questui/titles/beginnings.png"
 			rotation: 0.0d
 			width: 9.0d
@@ -30,6 +32,7 @@
 		{
 			color: 2062755
 			height: 1.25d
+			id: "4C5FF644E6AF538D"
 			image: "enchanted_wilds:textures/questui/subtitles/sketching.png"
 			rotation: 0.0d
 			width: 8.0d
@@ -39,6 +42,7 @@
 		{
 			color: 6321408
 			height: 1.25d
+			id: "3E3D431A95FB9280"
 			image: "enchanted_wilds:textures/questui/subtitles/gifts.png"
 			rotation: 0.0d
 			width: 8.0d
@@ -48,6 +52,7 @@
 		{
 			color: 16090880
 			height: 0.9d
+			id: "4FFC225D2755D538"
 			image: "enchanted_wilds:textures/questui/flourishes/separator.png"
 			rotation: 0.0d
 			width: 8.0d
@@ -57,6 +62,7 @@
 		{
 			color: 12202242
 			height: 3.0d
+			id: "56C42A58FAA378B7"
 			image: "enchanted_wilds:textures/questui/flourishes/vert_separator.png"
 			rotation: 0.0d
 			width: 0.5d
@@ -66,6 +72,7 @@
 		{
 			color: 2017209
 			height: 1.25d
+			id: "43241A46A27E258A"
 			image: "enchanted_wilds:textures/questui/subtitles/sketching.png"
 			rotation: 0.0d
 			width: 8.0d
@@ -75,6 +82,7 @@
 		{
 			color: 11296702
 			height: 1.25d
+			id: "0D66A54D71C1351C"
 			image: "enchanted_wilds:textures/questui/subtitles/sketching.png"
 			rotation: 0.0d
 			width: 8.0d
@@ -84,6 +92,7 @@
 		{
 			color: 15962025
 			height: 1.25d
+			id: "1A6D1B59C0243C4E"
 			image: "enchanted_wilds:textures/questui/subtitles/sketching.png"
 			rotation: 0.0d
 			width: 8.0d
@@ -93,6 +102,7 @@
 		{
 			color: 9921281
 			height: 1.25d
+			id: "3F8B31BCDB244FD0"
 			image: "enchanted_wilds:textures/questui/subtitles/bakery.png"
 			order: 99
 			rotation: 0.0d
@@ -103,6 +113,7 @@
 		{
 			alpha: 225
 			height: 5.0d
+			id: "0BB6A13403682F02"
 			image: "enchanted_wilds:textures/questui/illustrations/fishing_icon.png"
 			rotation: 0.0d
 			width: 5.0d
@@ -112,6 +123,7 @@
 	]
 	order_index: 0
 	quest_enhance_decorative_lines: [ ]
+	quest_enhance_hidden_dependency_lines: [ ]
 	quest_links: [ ]
 	quests: [
 		{

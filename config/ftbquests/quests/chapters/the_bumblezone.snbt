@@ -15,6 +15,7 @@
 	id: "5AD825CF5F17FD1D"
 	images: [{
 		height: 11.25d
+		id: "599451098FD3385C"
 		image: "enchanted_wilds:textures/questui/bgbumblezone.png"
 		rotation: 0.0d
 		width: 20.0d
@@ -23,6 +24,7 @@
 	}]
 	order_index: 4
 	quest_enhance_decorative_lines: [ ]
+	quest_enhance_hidden_dependency_lines: [ ]
 	quest_links: [ ]
 	quests: [
 		{

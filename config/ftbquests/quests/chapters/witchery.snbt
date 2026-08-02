@@ -12,6 +12,7 @@
 	images: [
 		{
 			height: 20.0d
+			id: "0C630ECB1309EE61"
 			image: "enchanted_wilds:textures/questui/bookbgslg/green_book_lg.png"
 			rotation: 0.0d
 			width: 25.0d
@@ -21,6 +22,7 @@
 		{
 			color: 6321408
 			height: 2.5d
+			id: "5AACAA093BA65B8A"
 			image: "enchanted_wilds:textures/questui/titles/witchery.png"
 			rotation: 0.0d
 			width: 9.0d
@@ -30,6 +32,7 @@
 	]
 	order_index: 0
 	quest_enhance_decorative_lines: [ ]
+	quest_enhance_hidden_dependency_lines: [ ]
 	quest_links: [ ]
 	quests: [
 		{
