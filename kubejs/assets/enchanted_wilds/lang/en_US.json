@@ -1,7 +1,7 @@
 {
     "advancement.misc.deviled_egg.description": "Throw an egg at a Warden. Deviled, indeed.",
     "advancement.misc.deviled_egg.title": "Deviled Egg",
-    "advancement.misc.snowballs_chance.description": "Throw a snowball at a Warden. You know how this ends.",
+    "advancement.misc.snowballs_chance.description": "Throw a snowball at a Warden. Cheeky bugger.",
     "advancement.misc.snowballs_chance.title": "Snowball's Chance",
     "advancement.misc.xp_to_spare.description": "Throw a bottle o' enchanting at a Warden.",
     "advancement.misc.xp_to_spare.title": "XP to Spare",
@@ -9,6 +9,47 @@
     "advancement.misc.stop_throwing_things_at_the_warden.title": "Stop Throwing Things At The Warden",
     "advancement.misc.extra_well_done_steak.description": "Cook a steak a second time.",
     "advancement.misc.extra_well_done_steak.title": "Now That's a Well-Done Steak",
-    "advancement.wyldkeeper.description": "Garden, larder, familiar, menagerie, road and collection. All of it, finished.",
-    "advancement.wyldkeeper.title": "Wyldkeeper"
+    "advancement.wyldkeeper.description": "Garden, larder, familiar, menagerie, road and collection. Done it.",
+    "advancement.wyldkeeper.title": "Wyldkeeper",
+
+    "tips.titles.witchy": "Witchy Tip",
+
+    "tips.titles.letsdo": "'Let's Do' Tip",
+    "tips.text.letsdo.bakery": "Baking is a multi-step process: dough is kneaded, then baked at a Stove, then glazed and decorated before it's finished.",
+    "tips.text.letsdo.chickencoop": "The Chicken Coop works like a bee nest: up to 9 chickens can enter it to lay eggs automatically. You can use a pitchfork to eject them from the coop.",
+    "tips.text.letsdo.garbage": "Bins fill up like Composters, and drop a Trash Bag once full. The Trash Bag has a chance of dropping any item in the game.",
+    "tips.text.letsdo.cheese": "Making cheese requires milking a cow, brewing Rennet in a Cookpot on a Cooking Frame, then pressing the milk and Rennet together in a Cheese Form to produce one of several cheese varieties.",
+
+    "tips.titles.hamsters": "Adorable Hamster Pets Tip",
+    "tips.text.hamsters.variants": "Adorable Hamster Pets has over 3,000 wild hamster variants and up to 2.2 million possible bred combinations.",
+    "tips.text.hamsters.shoulders": "Feeding a hamster cheese lets you shoulder-mount it, and shoulder-mounted hamsters can sniff out diamonds and warn of nearby Creepers.",
+
+    "tips.titles.artifacts": "Artifacts Tip",
+    "tips.text.artifacts.mimic": "Artifacts hides its loot in structure chests, archaeology sites, and an underground campsite guarded by a totally unsuspicious chest.",
+
+    "tips.titles.autumnity": "Autumnity Tip",
+    "tips.text.autumnity.snails": "Giant Snails breed when given mushroom stew and leave a trail of goo when fed mushrooms. Baby giant snails drop shell pieces when they grow up. These are used to craft shell armor and building blocks.",
+    "tips.text.autumnity.turkeys": "Turkeys are a chicken-like mob whose meat can be placed as a block, similar to a cake. Wait, are turkeys just cakes with feathers?",
+
+    "tips.titles.betterachaeology": "Better Archaeology Tip",
+    "tips.text.betterarchaeology.enchantments": "The Archeology Table converts an Unidentified Artifact into one of three enchanted books (Penetrating Strike, Soaring Winds, or Tunneling), each with an equal chance of being selected.",
+    "tips.text.betterarchaeology.brushes": "Iron and Diamond Brushes are upgraded tools for excavating Suspicious Red Sand, Suspicious Dirt, and Fossiliferous Dirt found in the mod's structures.",
+
+    "tips.titles.comforts": "Comforts Tip",
+    "tips.text.comforts.sleepingbags": "Comforts sleeping bags let you skip the night without changing your spawn point.",
+    "tips.text.comforts.hammocks": "Sleeping in a hammock allows you to pass the day instead of the night. However, this does not provide you will a Well Rested effect.",
+
+    "tips.titles.contact": "Contact Tips",
+    "tips.text.contact.mailbox": "A Mailbox must be bound by shift-right-clicking it with an empty hand before it can receive mail, and it notifies the player when a delivery arrives. You can also bind a mailbox to your FTB Team by going into your questbook and clicking 'Click to get ",
+    "tips.text.contact.wrappingpaper": "Wrapping Paper can be right-clicked to pack up to 4 items into a parcel for sending through a Postbox.",
+    
+    "tips.titles.critterscompanions": "Critters and Companions Tip",
+    "tips.text.critterscompanions.otters": "Otters from Critters and Companions open clams for a small chance at a pearl!",
+    "tips.text.critterscompanions.ferrets": "Ferrets from Critters and Companions dig up loot every five minutes once tamed with raw rabbit. Also they're stinky. And don't let them near your pet bunnies!",
+    "tips.text.critterscompanions.stickbugs": "Stickbugs LOVE music, and will dance their little hearts out if you play something on a Jukebox.",
+    "tips.text.critterscompanions.rolypolys": "Roly-Polys, otherwise known as isopods, are tameable with mushrooms, and tamed Roly Polys can carry around your items when shift-clicked with a Chest.",
+    "tips.text.critterscompanions.snails": "Snails can be tamed with leaves, and can be harvested to get Snail Slime, which brews Potions of Resistance.",
+    "tips.text.critterscompanions.weevils": "Weevils not only have the boots and the snoots, but also the shoots! Tame them with Acorns and they will launch blocks at hostile creatures!"
+
+
 }

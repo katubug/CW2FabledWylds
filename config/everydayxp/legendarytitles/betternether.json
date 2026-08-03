@@ -192,6 +192,36 @@
         "attributes": {},
         "items": []
       }
+    },
+    "burned_gloomsculk_crystal": {
+      "display_name": "Gem of a Fire",
+      "original_name": "Gem of a Fire",
+      "enabled": true,
+      "icon": "betternether:gloomsculk_geode_crystal",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "wisp_shed_experience": {
+      "display_name": "Worth the Detour",
+      "original_name": "Worth the Detour",
+      "enabled": true,
+      "icon": "minecraft:experience_bottle",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "disturbed_wisp": {
+      "display_name": "Who Goes There",
+      "original_name": "Who Goes There",
+      "enabled": true,
+      "icon": "betternether:gloomwisp_vine",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
     }
   }
 }

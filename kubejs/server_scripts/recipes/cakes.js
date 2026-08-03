@@ -28,21 +28,6 @@ ServerEvents.recipes(event => {
 			D: '#c:wheat'
 		}
 	)
-	//Coffee Cake
-	event.shaped(
-		Item.of('farmersrespite:coffee_cake'),
-		[
-			'E E',
-			'BED',
-			'ACA'
-		], {
-			A: '#c:milk/milk_bottle',
-			B: '#c:sugar',
-			C: 'bakery:cake_dough',
-			D: '#c:wheat',
-			E: 'farmersrespite:coffee_beans'
-		}
-	)
 	//Carrot Cake
 	event.shaped(
 		Item.of('hearthandharvest:carrot_cake'),

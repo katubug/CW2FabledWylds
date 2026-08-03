@@ -30,10 +30,14 @@
   "disableVanillaDirectoryVariantTextures": false,
   "use3DSkinLayerPatch": true,
   "enableFullBodyWardenTextures": true,
-  "entityEmissiveOverrides": {},
+  "entityEmissiveOverrides": {
+    "entity.minecraft.cow": false
+  },
   "propertiesDisabled": [],
   "propertyInvertUpdatingOverrides": [],
-  "entityRandomOverrides": {},
+  "entityRandomOverrides": {
+    "entity.minecraft.cow": false
+  },
   "entityEmissiveBrightOverrides": {},
   "entityRenderLayerOverrides": {},
   "entityLightOverrides": {}

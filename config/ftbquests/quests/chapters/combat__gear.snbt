@@ -616,11 +616,6 @@
 		}
 		{
 			id: "0323243BE6D015C7"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "4899D460BAF74ACE"
-				type: "choice"
-			}]
 			shape: "hexagon"
 			tasks: [{
 				id: "6669EF98E54CE5AD"
@@ -633,11 +628,6 @@
 		{
 			dependencies: ["0323243BE6D015C7"]
 			id: "230F870FB86A18B6"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "0D7EB8861FD08213"
-				type: "choice"
-			}]
 			shape: "hexagon"
 			tasks: [{
 				id: "663A12DFC8EE8F64"
@@ -646,6 +636,75 @@
 			}]
 			x: -6.0d
 			y: -5.5d
+		}
+		{
+			id: "61101043D3A5BB43"
+			preset: "start"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "23C09DA6C028AC3D"
+				table_id: 7328857662613080212L
+				type: "random"
+			}]
+			tasks: [
+				{
+					id: "79F236A7AF3D64C0"
+					item: { count: 1, id: "seamsandstitches:tailoring_bench" }
+					type: "item"
+				}
+				{
+					id: "729F57FB1D5444AF"
+					item: { count: 1, id: "seamsandstitches:needle" }
+					type: "item"
+				}
+				{
+					id: "5836AB63D15DE107"
+					item: { count: 1, id: "seamsandstitches:scissors" }
+					type: "item"
+				}
+			]
+			x: -1.0d
+			y: -12.0d
+		}
+		{
+			id: "0277F5496B204434"
+			tasks: [{
+				id: "2980E196364CB559"
+				item: { count: 1, id: "enchanted:spinning_wheel" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: -9.5d
+		}
+		{
+			id: "7126D9210A7E072C"
+			rewards: [{
+				count: 4
+				id: "00EF388330CF5AD8"
+				item: {
+					count: 1
+					id: "seamsandstitches:lye"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "553F6C46982EB602"
+				item: { count: 1, id: "seamsandstitches:tanning_rack" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: -9.5d
+		}
+		{
+			id: "6A92CD87F54E86F1"
+			preset: "progression"
+			tasks: [{
+				id: "7FEF3E7EC2CD2664"
+				item: { count: 1, id: "lowlands_clothing:herbs_whip" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: -12.0d
 		}
 	]
 }

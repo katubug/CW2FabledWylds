@@ -1,0 +1,88 @@
+{
+  "type": "seamsandstitches:sewing_pattern",
+  "texture": "lowlands_clothing:textures/item/wingedcavalery_helmet.png",
+  "output": {
+    "id": "lowlands_clothing:wingedcavaleryarmor_helmet",
+    "count": 1
+  },
+  "ingredients": [
+    {
+      "item": "minecraft:iron_ingot"
+    },
+    {
+      "item": "minecraft:iron_ingot"
+    },
+    {
+      "item": "minecraft:iron_ingot"
+    },
+    {
+      "item": "minecraft:iron_ingot"
+    },
+    {
+      "item": "minecraft:feather"
+    },
+    {
+      "item": "minecraft:iron_helmet"
+    }
+  ],
+  "seams": [
+    {
+      "id": "one",
+      "path": [
+        [
+          0,
+          0
+        ]
+      ],
+      "speed": 2,
+      "lead_in": 0.4,
+      "lead_out": 0.4,
+      "perfect_window": 0.15
+    },
+    {
+      "id": "two",
+      "path": [
+        [
+          1,
+          1
+        ]
+      ],
+      "speed": 2,
+      "lead_in": 0.4,
+      "lead_out": 0.4,
+      "perfect_window": 0.15
+    }
+  ],
+  "quality_breakpoints": {
+    "poor": 0.25,
+    "well": 0.5,
+    "expert": 0.75,
+    "master": 1
+  },
+  "quality_bonuses": [
+    {
+      "attribute": "minecraft:generic.armor",
+      "slot": "head",
+      "poor": 0,
+      "well": 3,
+      "expert": 4,
+      "master": 6
+    },
+    {
+      "attribute": "minecraft:generic.armor_toughness",
+      "slot": "head",
+      "poor": 0,
+      "well": 0.1,
+      "expert": 0.2,
+      "master": 0.4
+    },
+    {
+      "attribute": "minecraft:generic.knockback_resistance",
+      "slot": "head",
+      "poor": 0,
+      "well": 0.5,
+      "expert": 0.6,
+      "master": 0.8
+    }
+  ]
+}

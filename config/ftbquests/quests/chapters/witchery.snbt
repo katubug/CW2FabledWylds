@@ -728,53 +728,12 @@
 		{
 			dependencies: ["4655801A35B3BAB2"]
 			id: "24C19E2033095FFA"
-			rewards: [
-				{
-					count: 3
-					id: "5FD96D6AD493AF0D"
-					item: {
-						count: 1
-						id: "minecraft:melon_seeds"
-					}
-					type: "item"
-				}
-				{
-					count: 3
-					id: "6BF010F56B19A834"
-					item: {
-						count: 1
-						id: "minecraft:pumpkin_seeds"
-					}
-					type: "item"
-				}
-				{
-					count: 3
-					id: "1D9F22481094999E"
-					item: {
-						count: 1
-						id: "hexerei:sage_seed"
-					}
-					type: "item"
-				}
-				{
-					count: 3
-					id: "2F7ADE8AEDA834FA"
-					item: {
-						count: 1
-						id: "minecraft:wheat_seeds"
-					}
-					type: "item"
-				}
-				{
-					count: 3
-					id: "4BE640F21E13E972"
-					item: {
-						count: 1
-						id: "minecraft:beetroot_seeds"
-					}
-					type: "item"
-				}
-			]
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "39F9BD8BE5012675"
+				table_id: 7328857662613080212L
+				type: "random"
+			}]
 			size: 1.5d
 			tasks: [{
 				id: "45ECD184E676ED09"
@@ -1253,6 +1212,24 @@
 			}]
 			x: -6.5d
 			y: -0.5d
+		}
+		{
+			id: "41A361B4DEFCEFA6"
+			rewards: [{
+				id: "367FFC4413194C02"
+				item: {
+					count: 1
+					id: "wetland_whimsy:basic_incense"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "5B59D8DA2B92BA4B"
+				item: { count: 1, id: "wetland_whimsy:basic_incense" }
+				type: "item"
+			}]
+			x: -6.0d
+			y: 1.0d
 		}
 	]
 }

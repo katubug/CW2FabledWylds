@@ -1127,38 +1127,6 @@
 			x: -7.5d
 			y: -0.4d
 		}
-		{
-			id: "61101043D3A5BB43"
-			tasks: [
-				{
-					id: "79F236A7AF3D64C0"
-					item: { count: 1, id: "seamsandstitches:tailoring_bench" }
-					type: "item"
-				}
-				{
-					id: "729F57FB1D5444AF"
-					item: { count: 1, id: "seamsandstitches:needle" }
-					type: "item"
-				}
-				{
-					id: "5836AB63D15DE107"
-					item: { count: 1, id: "seamsandstitches:scissors" }
-					type: "item"
-				}
-			]
-			x: -5.0d
-			y: -7.5d
-		}
-		{
-			id: "0277F5496B204434"
-			tasks: [{
-				id: "2980E196364CB559"
-				item: { count: 1, id: "enchanted:spinning_wheel" }
-				type: "item"
-			}]
-			x: -4.0d
-			y: -7.5d
-		}
 	]
 	tags: ["bluequests"]
 }

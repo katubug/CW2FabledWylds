@@ -1,0 +1,84 @@
+{
+  "type": "seamsandstitches:sewing_pattern",
+  "texture": "lowlands_clothing:textures/item/netherborn_pirate_pants.png",
+  "output": {
+    "id": "lowlands_clothing:netherborn_pirate_leggings",
+    "count": 1
+  },
+  "ingredients": [
+    {
+      "item": "lowlands_clothing:bret_corsair_armor_leggings"
+    },
+    {
+      "item": "minecraft:netherite_upgrade_smithing_template"
+    },
+    {
+      "item": "minecraft:netherite_ingot"
+    }
+  ],
+  "seams": [
+    {
+      "id": "right_leg",
+      "path": [
+        [
+          0,
+          1
+        ]
+      ],
+      "speed": 2,
+      "lead_in": 0.4,
+      "lead_out": 0.4,
+      "perfect_window": 0.15
+    },
+    {
+      "id": "left_leg",
+      "path": [
+        [
+          1,
+          1
+        ]
+      ],
+      "speed": 2,
+      "lead_in": 0.4,
+      "lead_out": 0.4,
+      "perfect_window": 0.15
+    },
+    {
+      "id": "belt",
+      "path": [
+        [
+          2,
+          2
+        ]
+      ],
+      "speed": 2,
+      "lead_in": 0.4,
+      "lead_out": 0.4,
+      "perfect_window": 0.15
+    }
+  ],
+  "quality_breakpoints": {
+    "poor": 0.25,
+    "well": 0.5,
+    "expert": 0.75,
+    "master": 1
+  },
+  "quality_bonuses": [
+    {
+      "attribute": "minecraft:generic.armor",
+      "slot": "legs",
+      "poor": 0,
+      "well": 7,
+      "expert": 8,
+      "master": 10
+    },
+    {
+      "attribute": "minecraft:generic.armor_toughness",
+      "slot": "legs",
+      "poor": 0,
+      "well": 2.5,
+      "expert": 3.5,
+      "master": 5.5
+    }
+  ]
+}

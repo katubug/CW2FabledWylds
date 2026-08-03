@@ -1,5 +1,13 @@
 ServerEvents.recipes(event => {
 	//Recipe Replacements
+	//leather
+	event.replaceInput({
+			input: 'lowlands_clothing:treatedleather'
+		}, // Arg 1: the filter
+		'lowlands_clothing:treatedleather', // Arg 2: the item to replace
+		'twilightforest:tanned_leather' // Arg 3: the item to replace it with
+	)
+
 	//Strawberries
 	event.replaceInput({
 			input: 'mysticsbiomes:strawberry'

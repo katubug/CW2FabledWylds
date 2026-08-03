@@ -1,0 +1,69 @@
+{
+  "type": "seamsandstitches:sewing_pattern",
+  "texture": "lowlands_clothing:textures/item/leather_cap.png",
+  "output": {
+    "id": "lowlands_clothing:penitent_rags_helmet",
+    "count": 1
+  },
+  "ingredients": [
+    {
+      "item": "minecraft:rabbit_hide"
+    },
+    {
+      "item": "minecraft:rabbit_hide"
+    },
+    {
+      "item": "minecraft:rabbit_hide"
+    },
+    {
+      "item": "minecraft:rabbit_hide"
+    },
+    {
+      "item": "minecraft:leather"
+    }
+  ],
+  "seams": [
+    {
+      "id": "one",
+      "path": [
+        [
+          0,
+          0
+        ]
+      ],
+      "speed": 2,
+      "lead_in": 0.4,
+      "lead_out": 0.4,
+      "perfect_window": 0.15
+    },
+    {
+      "id": "two",
+      "path": [
+        [
+          1,
+          1
+        ]
+      ],
+      "speed": 2,
+      "lead_in": 0.4,
+      "lead_out": 0.4,
+      "perfect_window": 0.15
+    }
+  ],
+  "quality_breakpoints": {
+    "poor": 0.25,
+    "well": 0.5,
+    "expert": 0.75,
+    "master": 1
+  },
+  "quality_bonuses": [
+    {
+      "attribute": "minecraft:generic.armor",
+      "slot": "head",
+      "poor": 0,
+      "well": 1,
+      "expert": 2,
+      "master": 4
+    }
+  ]
+}

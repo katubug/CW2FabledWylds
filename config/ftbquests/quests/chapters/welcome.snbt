@@ -71,6 +71,16 @@
 			x: 3.0d
 			y: -10.75d
 		}
+		{
+			click_action: "none:"
+			height: 7.0d
+			id: "2F33F2564A98C14A"
+			image: "gabrielequests-mannequin:head=hexerei:witch_helmet,chest=lowlands_clothing:ratcatcherrobes_chestplate,legs=lowlands_clothing:penitent_rags_leggings,feet=hexerei:witch_boots,main=roots:staff,off=,rot=342x-10"
+			rotation: 0.0d
+			width: 1.0d
+			x: 9.5d
+			y: -10.0d
+		}
 	]
 	order_index: 0
 	quest_enhance_decorative_lines: [ ]

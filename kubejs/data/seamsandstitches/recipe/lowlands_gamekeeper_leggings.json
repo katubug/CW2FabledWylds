@@ -1,0 +1,88 @@
+{
+  "type": "seamsandstitches:sewing_pattern",
+  "texture": "lowlands_clothing:textures/item/gamekeeper_leggings.png",
+  "output": {
+    "id": "lowlands_clothing:gamekeeper_attires_leggings",
+    "count": 1
+  },
+  "ingredients": [
+    {
+      "item": "minecraft:leather"
+    },
+    {
+      "item": "minecraft:leather"
+    },
+    {
+      "item": "minecraft:leather"
+    },
+    {
+      "item": "lowlands_clothing:laced_woolen_fabric"
+    },
+    {
+      "item": "lowlands_clothing:laced_woolen_fabric"
+    },
+    {
+      "item": "lowlands_clothing:laced_woolen_fabric"
+    },
+    {
+      "item": "lowlands_clothing:laced_woolen_fabric"
+    }
+  ],
+  "seams": [
+    {
+      "id": "right_leg",
+      "path": [
+        [
+          0,
+          1
+        ]
+      ],
+      "speed": 2,
+      "lead_in": 0.4,
+      "lead_out": 0.4,
+      "perfect_window": 0.15
+    },
+    {
+      "id": "left_leg",
+      "path": [
+        [
+          1,
+          1
+        ]
+      ],
+      "speed": 2,
+      "lead_in": 0.4,
+      "lead_out": 0.4,
+      "perfect_window": 0.15
+    },
+    {
+      "id": "belt",
+      "path": [
+        [
+          2,
+          2
+        ]
+      ],
+      "speed": 2,
+      "lead_in": 0.4,
+      "lead_out": 0.4,
+      "perfect_window": 0.15
+    }
+  ],
+  "quality_breakpoints": {
+    "poor": 0.25,
+    "well": 0.5,
+    "expert": 0.75,
+    "master": 1
+  },
+  "quality_bonuses": [
+    {
+      "attribute": "minecraft:generic.armor",
+      "slot": "legs",
+      "poor": 0,
+      "well": 2,
+      "expert": 3,
+      "master": 5
+    }
+  ]
+}

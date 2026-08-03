@@ -14,11 +14,11 @@
         "item": "minecraft:magma_cream"
       },
       {
-        "item": "minecraft:lava_bucket"
+        "item": "twilightforest:fiery_ingot"
       }
     ],
     "output": {
-    "id": "roots:acid_cloud",
+    "id": "roots:wildfire",
     "count": 1
   },
   "grindingTime": 450

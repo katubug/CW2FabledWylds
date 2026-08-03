@@ -6861,7 +6861,7 @@
 	quest.24BE298685F123F5.quest_subtitle: "{count:1,id:\"arts_and_crafts:cut_marlot_pietraforte_stairs\"}"
 	quest.24C0CE1151B5CBB4.quest_subtitle: "{components:{\"ae2:facade_item\":\"minecraft:ochre_froglight\"},count:1,id:\"ae2:facade\"}"
 	quest.24C10A1C1888A4BB.quest_subtitle: "{count:1,id:\"enchanted:infinity_egg\"}"
-	quest.24C19E2033095FFA.quest_desc: ["The &bMortar and Pestle&r is a tool for grinding herbs. For right now, its primary use is to create a &bSeed Mixture&r to befriend &aCrows&r. A worthy use!"]
+	quest.24C19E2033095FFA.quest_desc: ["The &bMortar and Pestle&r is a tool for grinding herbs. It will allow you to &amake &bSeed Mixture&r for taming &eCrows&r, craft &bmagical ingredients&r, and most importantly - &aconcoct new spells&r!"]
 	quest.24C19E2033095FFA.quest_subtitle: "Pester a mortal"
 	quest.24C19E2033095FFA.title: "Obtain a Pestle and Mortar"
 	quest.24C6DE9C5F53F20B.quest_subtitle: "{count:1,id:\"colorfulazaleas:pastoral_azalea_fence_gate\"}"
@@ -12384,6 +12384,22 @@
 	quest.419CF158271B7B59.quest_subtitle: "{components:{\"ae2:facade_item\":\"cluttered:gingerbread_bricks_top\"},count:1,id:\"ae2:facade\"}"
 	quest.419FC736B61C1FD0.quest_subtitle: "{count:1,id:\"mysticsbiomes:vanilla_hanging_sign\"}"
 	quest.41A34B69B2EA270F.quest_subtitle: "{count:1,id:\"farm_and_charm:bacon\"}"
+	quest.41A361B4DEFCEFA6.quest_desc: [
+		"&bIncense&r is often used as part of spellcraft, and it also smells nice! This type of incense, however, primarily exists to &asummon waves of mobs&r at an &bAncient Brazier&r, found in &cAncient Ruins&r."
+		""
+		"&bBasic Incense&r can be found by lighting &dnaturally spawning&r &bAncient Braziers&r and fighting the mobs that spawn."
+		""
+		"You can craft &bBasic Incense&r into four different special incenses, each with a different effect:"
+		""
+		"- &bBoiling Incense&r: summons &eBlazes, Magma Cubes, Husks, and Wither Skeletons&r"
+		"- &bBrine Incense&r: summons &eBreeze, Drowned, Phantoms, and Witches&r"
+		"- &bRot Incense&r: summons &eFilth, Bogged, Strays, and Slimes&r"
+		"- &bWebbed Incense&r: summons &eInfected Spiders, Spiders, Cave Spiders, and Silverfish&r"
+		""
+		"After each wave of summoning is completed, the &bBrazier&r will reward your effort with &athematic loot&r."
+	]
+	quest.41A361B4DEFCEFA6.quest_subtitle: "don't be so incensitive"
+	quest.41A361B4DEFCEFA6.title: "Incenses"
 	quest.41A4F772D03DA602.quest_subtitle: "{components:{\"minecraft:potion_contents\":{custom_effects:[{amplifier:10b,duration:1,id:\"minecraft:saturation\",\"neoforge:cures\":[\"protected_by_totem\",\"milk\"],show_icon:1b}]}},count:1,id:\"reliquary:lingering_potion\"}"
 	quest.41A506B555D8784E.quest_subtitle: "{count:1,id:\"quark:mangrove_chest\"}"
 	quest.41A559C892D93217.quest_subtitle: "{components:{\"ae2:facade_item\":\"minecraft:pink_glazed_terracotta\"},count:1,id:\"ae2:facade\"}"
@@ -18461,6 +18477,18 @@
 	quest.6106F5D5D5856A66.quest_subtitle: "{count:1,id:\"twilightforest:canopy_banister\"}"
 	quest.61070AABF7D2B0EA.quest_subtitle: "{count:1,id:\"betterarcheology:rotten_trapdoor\"}"
 	quest.61096F026647A851.quest_subtitle: "{count:1,id:\"twilightforest:green_force_field\"}"
+	quest.61101043D3A5BB43.quest_desc: [
+		"Every witch - for that matter, every &operson&r - should know how to &asew&r. It is an endlessly useful skill for mending and altering, and here, it will allow you to &acraft many fashionable and powerful &bArmors&r."
+		""
+		"You'll need to begin with the &bTailoring Bench&r, and you'll also need a &bNeedle&r and a pair of &bScissors&r. The &bTailoring Station&r has an inventory which can hold your tools and also &byour ingredients&r. "
+		""
+		"&6Select your recipe from the top dropdown&r and click &aStart Sewing&r if you have never made this item before. After you successfully complete the item for the first time, you unlock the ability to &aQuick-Craft&r it, which will produce the item &awithout any bonuses or penalties&r."
+		""
+		"Once you have selected the seam you wish to begin sewing, you'll &aenter a minigame&r where you must &6hit spacebar in time with each stitch&r. The more green stitches you get, the better quality the garment will be. &aExpert or Master quality&r garments will grant additional bonuses."
+		""
+		"{image:quest_enhance:textures/ftb/clipboard_1785795465609.png width:345 height:432 align:center click_action:none:}"
+	]
+	quest.61101043D3A5BB43.quest_subtitle: "a \"sewist,\" not a \"sewer\""
 	quest.61109064AC1E5CDB.quest_subtitle: "{components:{\"ae2:facade_item\":\"farmersdelight:rich_soil\"},count:1,id:\"ae2:facade\"}"
 	quest.6110A485F69B092D.quest_subtitle: "{components:{\"ae2:facade_item\":\"regions_unexplored:kapok_leaves\"},count:1,id:\"ae2:facade\"}"
 	quest.6111431876B050B2.quest_subtitle: "{count:1,id:\"arts_and_crafts:light_blue_soapstone_wall\"}"
@@ -20367,6 +20395,9 @@
 	quest.6A8BDF9ABD3F5CC2.quest_subtitle: "{count:1,id:\"dramaticdoors:tall_timewood_door\"}"
 	quest.6A902382ABF54FD6.quest_subtitle: "{count:1,id:\"mysticsbiomes:peach_trapdoor\"}"
 	quest.6A91841124CB7305.quest_subtitle: "{count:1,id:\"minecraft:redstone_lamp\"}"
+	quest.6A92CD87F54E86F1.quest_desc: ["The &bGrass Whip&r is a tool which can be used to &aextract &bPlant Fibers&a from &bGrass&r, which is helpful if you intend to craft any particularly fashionable clothing!"]
+	quest.6A92CD87F54E86F1.quest_subtitle: "sticks and stones"
+	quest.6A92CD87F54E86F1.title: "Obtain a Grass Whip"
 	quest.6A932EC1D954FBAB.quest_subtitle: "{components:{\"ae2:facade_item\":\"betterend:hydralux_petal_block_white\"},count:1,id:\"ae2:facade\"}"
 	quest.6A968321065904AA.quest_subtitle: "{count:1,id:\"betternether:willow_stripped_bark\"}"
 	quest.6A9695E0BD22B4D9.quest_subtitle: "{count:1,id:\"alchimiae:stone_mortar_and_pestle\"}"
@@ -21555,6 +21586,11 @@
 	quest.711EB564B4594593.quest_subtitle: "{count:1,id:\"quark:indigo_corundum_pane\"}"
 	quest.7122F7D50B39F03E.quest_subtitle: "{count:1,id:\"create:green_toolbox\"}"
 	quest.71261D6F75C31E92.quest_subtitle: "{count:1,id:\"betternether:wall_mushroom_red\"}"
+	quest.7126D9210A7E072C.quest_desc: [
+		"You can use a &bTanning Rack&r to make &bLeather&r. Simply place an &bAnimal Hide&r on the rack, optionally &6right click it with &bLye&r - then wait!"
+		""
+		"Hmm, you got &bRotten Flesh&r by mistake? Perhaps you should &ascrape the &bHide&r with something..."
+	]
 	quest.7129B4C5050887A6.quest_subtitle: "{count:1,id:\"regions_unexplored:aster\"}"
 	quest.712C739AD7E2C668.quest_subtitle: "{count:1,id:\"unusual_furniture:dark_oak_drawer\"}"
 	quest.712C765FF37AF18C.quest_subtitle: "{count:1,id:\"farm_and_charm:stuffed_chicken\"}"

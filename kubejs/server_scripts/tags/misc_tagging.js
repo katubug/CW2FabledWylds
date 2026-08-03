@@ -1,5 +1,11 @@
 ServerEvents.tags('item', event => {
 
+	//acorns to tags
+	event.add('enchanted_wilds:acorns',
+		'adorablehamsterpets:acorn',
+		'crittersandcompanions:acorn'
+	)
+
 	//Sunfire tomato is a tomato
 	event.add('c:crops/tomato', 'hexalia:sunfire_tomato')
 	event.add('c:foods/tomato', 'hexalia:sunfire_tomato')
