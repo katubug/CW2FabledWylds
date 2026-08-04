@@ -39,6 +39,66 @@
 			x: -4.7d
 			y: -0.4d
 		}
+		{
+			click_action: "none:"
+			height: 5.0d
+			id: "766FA3158E84171E"
+			image: "gabrielequests-structure:kind=whole,id=delighto_flight:cloud_island,rot=237x11,view=0,markers=0"
+			rotation: 0.0d
+			width: 5.0d
+			x: 7.5d
+			y: -5.0d
+		}
+		{
+			click_action: "none:"
+			height: 5.0d
+			id: "427359CF95A3DB8D"
+			image: "gabrielequests-structure:kind=piece,id=mss:castle_tower,rot=225x30,view=0,markers=0"
+			rotation: 0.0d
+			width: 5.0d
+			x: 2.0d
+			y: -4.0d
+		}
+		{
+			click_action: "none:"
+			height: 5.0d
+			id: "132A34091D59DA39"
+			image: "gabrielequests-structure:kind=piece,id=epic:epic_witch_hut/witch_hut,rot=225x30,view=0,markers=0"
+			rotation: 0.0d
+			width: 5.0d
+			x: -2.0d
+			y: 4.5d
+		}
+		{
+			click_action: "none:"
+			height: 5.0d
+			id: "4C266B63362A5B51"
+			image: "gabrielequests-structure:kind=piece,id=epic:epic_jungle_temple/temple1_large,rot=225x30,view=0,markers=0"
+			rotation: 0.0d
+			width: 5.0d
+			x: -7.0d
+			y: 4.5d
+		}
+		{
+			click_action: "none:"
+			height: 5.0d
+			id: "5898AD60DA7869C7"
+			image: "gabrielequests-structure:kind=whole,id=ribbits:ribbit_village,rot=225x30,view=0,markers=0"
+			rotation: 0.0d
+			width: 5.0d
+			x: -2.0d
+			y: 1.5d
+		}
+		{
+			click_action: "none:"
+			height: 5.0d
+			id: "1810BBD9B7A85BE2"
+			image: "gabrielequests-structure:kind=whole,id=trek:overworld/rare/tower_island,rot=101x30,view=0,markers=0"
+			rotation: 0.0d
+			width: 5.0d
+			x: 5.0d
+			y: -2.0d
+		}
 	]
 	order_index: 0
 	quest_enhance_decorative_lines: [ ]
@@ -47,6 +107,7 @@
 	quests: [
 		{
 			id: "72CE099C5784339A"
+			preset: "start"
 			rewards: [{
 				id: "08E756EA9F81004B"
 				item: {
@@ -68,6 +129,7 @@
 		{
 			dependencies: ["72CE099C5784339A"]
 			id: "2BB8D1410BD7C040"
+			preset: "progression"
 			tasks: [{
 				id: "78D5ACA5F6C52047"
 				item: { count: 1, id: "exposure:camera" }
@@ -79,6 +141,7 @@
 		{
 			dependencies: ["2BB8D1410BD7C040"]
 			id: "5C0698C5831F824F"
+			preset: "advancement"
 			tasks: [{
 				advancement: "exposure:adventure/wildlife_archivist"
 				criterion: ""
@@ -90,6 +153,7 @@
 		}
 		{
 			id: "54B176A22CBFD31F"
+			preset: "locate"
 			shape: "octagon"
 			tasks: [{
 				icon: {
@@ -99,8 +163,8 @@
 				structure: "delighto_flight:cloud_island"
 				type: "structure"
 			}]
-			x: -7.4d
-			y: 1.0d
+			x: 6.0d
+			y: -6.0d
 		}
 		{
 			always_invisible: true
@@ -114,19 +178,8 @@
 			y: 0.0d
 		}
 		{
-			id: "3533886FEAAAE291"
-			shape: "octagon"
-			tasks: [{
-				advancement: "betterdungeons:zombie_dungeon"
-				criterion: ""
-				id: "128CFDF2939D2CA6"
-				type: "advancement"
-			}]
-			x: -5.7d
-			y: 1.1d
-		}
-		{
 			id: "50DA655C90509B80"
+			preset: "locate"
 			shape: "octagon"
 			tasks: [{
 				icon: {
@@ -136,11 +189,12 @@
 				structure: "epic:witch_hut"
 				type: "structure"
 			}]
-			x: -3.9d
-			y: 1.0d
+			x: -3.0d
+			y: 4.0d
 		}
 		{
 			id: "6414EFB17FFD56CB"
+			preset: "locate"
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "1159A9278CD33969"
@@ -156,11 +210,12 @@
 				structure: "ribbits:ribbit_village"
 				type: "structure"
 			}]
-			x: -2.4d
-			y: 0.9d
+			x: -2.0d
+			y: 1.0d
 		}
 		{
 			id: "12BC0C79FE723230"
+			preset: "locate"
 			shape: "octagon"
 			tasks: [{
 				icon: {
@@ -170,11 +225,12 @@
 				structure: "trek:overworld/rare/tower_island"
 				type: "structure"
 			}]
-			x: -6.6d
-			y: 2.2d
+			x: 5.5d
+			y: -1.0d
 		}
 		{
 			id: "6E5FC4F24E0EDAFE"
+			preset: "locate"
 			shape: "octagon"
 			tasks: [{
 				icon: {
@@ -184,18 +240,149 @@
 				structure: "mss:castle_tower"
 				type: "structure"
 			}]
-			x: -4.7d
-			y: 2.3d
+			x: 3.0d
+			y: -5.0d
 		}
 		{
 			id: "647DD568BF30253E"
+			preset: "locate"
 			tasks: [{
 				id: "59560628511DC68F"
 				structure: "epic:epic_temple_large"
 				type: "structure"
 			}]
-			x: 11.5d
-			y: 0.1d
+			x: -6.0d
+			y: 3.5d
+		}
+		{
+			id: "292B26978E644D9F"
+			preset: "start"
+			shape: "hexagon"
+			tasks: [{
+				id: "628297917BCB66ED"
+				item: { count: 1, id: "explorerscompass:explorerscompass" }
+				type: "item"
+			}]
+			x: -8.0d
+			y: 1.0d
+		}
+		{
+			id: "13C0DC76BB0AD7CB"
+			preset: "advancement"
+			rewards: [{
+				id: "014A6853173CF7AD"
+				item: {
+					count: 1
+					id: "minecraft:respawn_anchor"
+				}
+				type: "item"
+			}]
+			shape: "octagon"
+			tasks: [{
+				advancement: "minecraft:story/enter_the_nether"
+				criterion: ""
+				icon: {
+					id: "minecraft:netherrack"
+				}
+				id: "107172A8EAD35796"
+				type: "advancement"
+			}]
+			x: -11.0d
+			y: 0.5d
+		}
+		{
+			id: "369DEAD83BD150DA"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "20EC227724BF2A88"
+					table_id: 223398162038636868L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6F9876FFDA48CC7C"
+					table_id: 5167086515396975209L
+					type: "loot"
+				}
+			]
+			shape: "octagon"
+			tasks: [{
+				advancement: "minecraft:adventure/adventuring_time"
+				criterion: ""
+				id: "3DE48330EDF240D6"
+				type: "advancement"
+			}]
+			x: -11.0d
+			y: -1.0d
+		}
+		{
+			id: "4470E2B09DB2B676"
+			rewards: [{
+				id: "777AFE620FA72194"
+				item: {
+					components: {
+						"minecraft:potion_contents": {
+							potion: "minecraft:strong_healing"
+						}
+					}
+					count: 1
+					id: "minecraft:splash_potion"
+				}
+				type: "item"
+			}]
+			shape: "octagon"
+			tasks: [{
+				id: "4C755CEFF3CB1B9D"
+				stat: "minecraft:trigger_trapped_chest"
+				type: "stat"
+				value: 10
+			}]
+			x: -11.0d
+			y: 2.0d
+		}
+		{
+			id: "7EF7EE2181ECA4E9"
+			rewards: [{
+				id: "2FE51B1FF80A35BD"
+				item: {
+					count: 1
+					id: "minecraft:ancient_debris"
+				}
+				type: "item"
+			}]
+			shape: "octagon"
+			tasks: [{
+				advancement: "minecraft:nether/explore_nether"
+				criterion: ""
+				id: "2D416C15BC4F0576"
+				type: "advancement"
+			}]
+			x: -11.0d
+			y: -2.5d
+		}
+		{
+			id: "1F4569590B7666F5"
+			rewards: [
+				{
+					id: "2E7C57E4CDF3A562"
+					table_id: 6990203354287577879L
+					type: "choice"
+				}
+				{
+					id: "46F1CF2EAD0F55EC"
+					table_id: 6990203354287577879L
+					type: "choice"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "0AA5D5B5891F4838"
+				item: { count: 1, id: "naturescompass:naturescompass" }
+				type: "item"
+			}]
+			x: -11.0d
+			y: 3.0d
 		}
 	]
 }

@@ -122,14 +122,6 @@
 			id: "52BC8196E858B238"
 			rewards: [
 				{
-					id: "15995D321F1A2FA3"
-					item: {
-						count: 1
-						id: "minecraft:player_head"
-					}
-					type: "item"
-				}
-				{
 					id: "65E313A1D617E96C"
 					item: {
 						count: 1
@@ -142,14 +134,6 @@
 					id: "32818194460DA541"
 					table_id: 2534339319169675056L
 					type: "choice"
-				}
-				{
-					id: "5D25B7D734E61892"
-					item: {
-						count: 1
-						id: "minecraft:apple"
-					}
-					type: "item"
 				}
 			]
 			shape: "octagon"
@@ -370,10 +354,10 @@
 					type: "item"
 				}
 				{
-					id: "08998E9D0A6BEEC4"
+					id: "333F36330CD4C389"
 					item: {
 						count: 1
-						id: "minecraft:apple"
+						id: "plushie_buddies:plushie_skeleton"
 					}
 					type: "item"
 				}
@@ -511,6 +495,7 @@
 			y: 4.5d
 		}
 		{
+			can_repeat: true
 			id: "7E36FAC9107093C2"
 			rewards: [
 				{
@@ -549,6 +534,7 @@
 			y: 9.5d
 		}
 		{
+			can_repeat: true
 			dependencies: ["7E36FAC9107093C2"]
 			dependency_requirement: "all_started"
 			icon: {
@@ -596,6 +582,7 @@
 			y: 7.5d
 		}
 		{
+			can_repeat: true
 			dependencies: ["43B3A6804B59565E"]
 			icon: {
 				components: {
@@ -624,13 +611,10 @@
 					type: "item"
 				}
 				{
-					id: "544D5B4855A2F126"
+					id: "4C4D24F6DD5C923B"
 					item: {
-						components: {
-							"ftbquests:missing_item": "plushies:enderman_plushie"
-						}
 						count: 1
-						id: "ftbquests:missing_item"
+						id: "plushie_buddies:plushie_enderman"
 					}
 					type: "item"
 				}
@@ -646,6 +630,7 @@
 			y: 6.5d
 		}
 		{
+			can_repeat: true
 			dependencies: ["43B3A6804B59565E"]
 			dependency_requirement: "one_started"
 			hide_dependency_lines: true
@@ -782,10 +767,10 @@
 					type: "item"
 				}
 				{
-					id: "3941A25EC22A5857"
+					id: "5E8413A06AAC8813"
 					item: {
 						count: 1
-						id: "minecraft:apple"
+						id: "plushie_buddies:plushie_pillager"
 					}
 					type: "item"
 				}
@@ -823,18 +808,18 @@
 					type: "item"
 				}
 				{
-					id: "36D89FBD81444CE5"
-					item: {
-						count: 1
-						id: "minecraft:drowned_spawn_egg"
-					}
-					type: "item"
-				}
-				{
 					id: "7279ED3D54C92EDF"
 					item: {
 						count: 1
 						id: "minecraft:trident"
+					}
+					type: "item"
+				}
+				{
+					id: "52EE4330F9F7737D"
+					item: {
+						count: 1
+						id: "plushie_buddies:plushie_drowned"
 					}
 					type: "item"
 				}
@@ -968,6 +953,7 @@
 			y: -2.0d
 		}
 		{
+			can_repeat: true
 			dependencies: ["43B3A6804B59565E"]
 			id: "22628C8DC1BB807F"
 			rewards: [
@@ -1009,23 +995,18 @@
 			id: "114EFE7EF75B22F3"
 			rewards: [
 				{
-					id: "3350AB70B6803167"
-					item: {
-						components: {
-							"ftbquests:missing_item": "plushies:goat_plushie"
-						}
-						count: 1
-						id: "ftbquests:missing_item"
-					}
-					type: "item"
-				}
-				{
 					id: "1BC05D53D242E426"
 					item: {
 						count: 1
 						id: "plushie_buddies:plushie_goat"
 					}
 					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7AC1FA75267C3F70"
+					table_id: 7328857662613080212L
+					type: "random"
 				}
 			]
 			shape: "octagon"
@@ -1081,15 +1062,23 @@
 		}
 		{
 			id: "2FC0EAD96E3C41D4"
-			rewards: [{
-				count: 5
-				id: "3667CE43FBF945DE"
-				item: {
-					count: 1
-					id: "minecraft:slime_ball"
+			rewards: [
+				{
+					count: 5
+					id: "3667CE43FBF945DE"
+					item: {
+						count: 1
+						id: "minecraft:slime_ball"
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					exclude_from_claim_all: true
+					id: "0655DCBFDB3CA0DB"
+					table_id: 5770973074849872376L
+					type: "random"
+				}
+			]
 			shape: "octagon"
 			tasks: [{
 				advancement: "minecraft:husbandry/tadpole_in_a_bucket"
@@ -1127,6 +1116,7 @@
 			y: 10.0d
 		}
 		{
+			can_repeat: true
 			dependencies: ["43B3A6804B59565E"]
 			id: "2A930C9591A317A3"
 			rewards: [{
@@ -1202,8 +1192,9 @@
 			id: "7E2641B15D6AF49E"
 			rewards: [{
 				exclude_from_claim_all: true
-				id: "5CB9C46832169DED"
-				type: "loot"
+				id: "33BFBBA43AD2BFD7"
+				table_id: 5167086515396975209L
+				type: "random"
 			}]
 			tasks: [
 				{
@@ -1225,13 +1216,10 @@
 			dependencies: ["407BBCE05BCE9039"]
 			id: "001588EAB32E428A"
 			rewards: [{
-				id: "29F76971A0043F27"
+				id: "4EDEAC2D47538D24"
 				item: {
-					components: {
-						"ftbquests:missing_item": "plushies:sniffer_plushie"
-					}
 					count: 1
-					id: "ftbquests:missing_item"
+					id: "plushie_buddies:plushie_sniffer"
 				}
 				type: "item"
 			}]
@@ -1247,15 +1235,23 @@
 		}
 		{
 			id: "407BBCE05BCE9039"
-			rewards: [{
-				count: 5
-				id: "1D2F770EF519FA37"
-				item: {
-					count: 1
-					id: "minecraft:moss_block"
+			rewards: [
+				{
+					count: 5
+					id: "1D2F770EF519FA37"
+					item: {
+						count: 1
+						id: "minecraft:moss_block"
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					exclude_from_claim_all: true
+					id: "4B63F029602EB538"
+					table_id: 7328857662613080212L
+					type: "random"
+				}
+			]
 			tasks: [{
 				advancement: "minecraft:husbandry/obtain_sniffer_egg"
 				criterion: ""
@@ -1402,14 +1398,22 @@
 		}
 		{
 			id: "7C47161393ACC4BE"
-			rewards: [{
-				id: "233C7619C02B5216"
-				item: {
-					count: 1
-					id: "plushie_buddies:plushie_frog"
+			rewards: [
+				{
+					id: "233C7619C02B5216"
+					item: {
+						count: 1
+						id: "plushie_buddies:plushie_frog"
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					exclude_from_claim_all: true
+					id: "74BE7DB2E0FC3832"
+					table_id: 5167086515396975209L
+					type: "random"
+				}
+			]
 			shape: "hexagon"
 			tasks: [{
 				advancement: "minecraft:husbandry/leash_all_frog_variants"
@@ -1458,15 +1462,25 @@
 			can_repeat: true
 			dependencies: ["43B3A6804B59565E"]
 			id: "3345FC1A378395B0"
-			rewards: [{
-				count: 4
-				id: "13EAB4DE5F67C808"
-				item: {
-					count: 1
-					id: "minecraft:phantom_membrane"
+			rewards: [
+				{
+					count: 4
+					id: "13EAB4DE5F67C808"
+					item: {
+						count: 1
+						id: "minecraft:phantom_membrane"
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "0B9B1F1596EC1F71"
+					item: {
+						count: 1
+						id: "plushie_buddies:plushie_phantom"
+					}
+					type: "item"
+				}
+			]
 			shape: "square"
 			tasks: [{
 				entity: "minecraft:phantom"
@@ -1485,6 +1499,7 @@
 			y: 2.0d
 		}
 		{
+			can_repeat: true
 			dependencies: ["43B3A6804B59565E"]
 			icon: {
 				components: {
@@ -1517,6 +1532,7 @@
 			y: 5.0d
 		}
 		{
+			can_repeat: true
 			dependencies: ["43B3A6804B59565E"]
 			id: "4B0AA843233D3541"
 			rewards: [{
@@ -1636,8 +1652,8 @@
 					type: "item"
 				}
 			]
-			x: -6.9d
-			y: -10.1d
+			x: 10.5d
+			y: -2.5d
 		}
 		{
 			id: "02000A977B04C84A"
@@ -1710,6 +1726,7 @@
 		}
 		{
 			id: "732D5D711B04EA36"
+			preset: "boss"
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "7F236C86BD2BE61A"

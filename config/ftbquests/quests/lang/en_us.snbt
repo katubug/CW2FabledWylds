@@ -34,6 +34,7 @@
 	chapter_group.6B4E114EC6CDE8EE.title: "Basics"
 	file.0000000000000001.title: "Fabled Wylds"
 	image.083B3017B592FD38.title: "Click here to go to the AE2 spreadsheet!"
+	image.132A34091D59DA39.title: "Witch Hut"
 	image.3E5ED4E172944013.title: "Click here to join our Discord!"
 	image.4B4A1262804A76C5.title: "support the modpack and play with friends!"
 	image.7EE333354E93796B.title: "Click here to visit our Github Wiki!"
@@ -6122,6 +6123,7 @@
 	quest.20B8824EBEC8BD3D.quest_subtitle: "{components:{\"ae2:facade_item\":\"cluttered:diamond_wallpaper_pear_top_brown\"},count:1,id:\"ae2:facade\"}"
 	quest.20BAF307F1556BC5.quest_desc: [
 		"This delightful item not only &aplays a lovely tune&r when you &6hold right click while holding it&r, but it also &asummons all non-sitting pets nearby&r to your location."
+		""
 		"You can optionally bind your flute to a specific pet by &6shift right clicking&r on the animal with the flute."
 	]
 	quest.20BAF307F1556BC5.quest_subtitle: "This is literally so adorable"
@@ -6312,8 +6314,6 @@
 	quest.21B001E850B84800.quest_subtitle: "{count:1,id:\"arts_and_crafts:light_gray_plaster\"}"
 	quest.21B0ACDE5A836851.quest_subtitle: "{count:1,id:\"minecraft:netherite_leggings\"}"
 	quest.21B15A32E51C85D2.quest_subtitle: "{count:1,id:\"betternether:netherrack_moss\"}"
-	quest.21B1D0246C8E90EC.quest_desc: ["A tower... it seems abandoned! What sort of treasures - and what sort of dangers - might it have in it's &abasement&r?"]
-	quest.21B1D0246C8E90EC.title: "Find a Stone Tower"
 	quest.21B1DC41E4D84E63.quest_subtitle: "{components:{\"ae2:facade_item\":\"minecraft:soul_soil\"},count:1,id:\"ae2:facade\"}"
 	quest.21B3657A99646C70.quest_subtitle: "{count:1,id:\"enchanted:broom\"}"
 	quest.21B77F28116D5EED.quest_subtitle: "{count:1,id:\"hearthandharvest:wild_green_grapes\"}"
@@ -7692,6 +7692,7 @@
 	quest.2928B93E301CDC81.quest_subtitle: "{count:1,id:\"unusual_furniture:white_sofa\"}"
 	quest.292B26978E644D9F.quest_desc: [
 		"The &bExplorer's Compass&r replaces &bEnder Eyes&r as the primary way to locate &aStrongholds and other Structures&r."
+		""
 		"Simply &6right click while holding it&r in order to search for the structure you want to find."
 	]
 	quest.292B26978E644D9F.title: "Find Structures with the Explorer's Compass"
@@ -10072,7 +10073,6 @@
 	quest.352739DC79603838.quest_subtitle: "{components:{\"ae2:facade_item\":\"minecraft:birch_wood\"},count:1,id:\"ae2:facade\"}"
 	quest.352A54FAD5B92D7B.quest_subtitle: "{count:1,id:\"creeperoverhaul:cave_creeper_spawn_egg\"}"
 	quest.353201EAA12DA22A.quest_subtitle: "{count:1,id:\"regions_unexplored:pine_pressure_plate\"}"
-	quest.3533886FEAAAE291.quest_desc: ["Discover &cThe Catacombs&r, which are absolutely &acrawling with undead&r, but may have hidden treasures inside!"]
 	quest.3533BAA3B42D44FB.quest_subtitle: "{count:1,id:\"ae2:wireless_terminal\"}"
 	quest.353470C9586F440A.quest_subtitle: "{components:{\"ae2:facade_item\":\"cluttered:stripped_poplar_wood\"},count:1,id:\"ae2:facade\"}"
 	quest.353671161207A581.quest_subtitle: "{count:1,id:\"minecraft:dead_horn_coral_block\"}"
@@ -11635,8 +11635,6 @@
 	quest.3D9E12FBEC850E7F.quest_subtitle: "{count:1,id:\"moresnifferflowers:giant_beetroot\"}"
 	quest.3D9E8F04F90B2BF2.quest_subtitle: "{count:1,id:\"farmersdelight:cooked_salmon_slice\"}"
 	quest.3DA0225036A4C5D5.quest_subtitle: "{count:1,id:\"betterend:aeternium_shovel\"}"
-	quest.3DA0BA730A8040BE.quest_desc: ["Visiting different cities will enrich you, both as a person and financially."]
-	quest.3DA0BA730A8040BE.title: "Savvy Traveler"
 	quest.3DA16F034A8F43F1.quest_subtitle: "{count:1,id:\"arts_and_crafts:cobbled_verdant_pietraforte_wall\"}"
 	quest.3DA309DDE8A8E0DF.quest_subtitle: "{count:1,id:\"minecraft:hanging_roots\"}"
 	quest.3DA31F58768ACEA6.quest_subtitle: "{components:{\"minecraft:potion_contents\":{custom_effects:[{amplifier:1b,duration:300,id:\"minecraft:strength\",\"neoforge:cures\":[\"protected_by_totem\",\"milk\"],show_icon:1b}]}},count:1,id:\"reliquary:magazines/neutral_magazine\"}"
@@ -14999,11 +14997,6 @@
 	quest.4EE25392F7E386BD.quest_subtitle: "{components:{\"ae2:facade_item\":\"cluttered:black_cat_sink\"},count:1,id:\"ae2:facade\"}"
 	quest.4EE37AA57A48CA44.quest_subtitle: "{components:{\"reliquary:entity_name\":\"endermanoverhaul:cave_enderman\"},count:1,id:\"reliquary:mob_charm_fragment\"}"
 	quest.4EE4333801462311.quest_subtitle: "{components:{\"sophisticatedstorage:wood_type\":\"crimson\"},count:1,id:\"sophisticatedstorage:limited_diamond_barrel_3\"}"
-	quest.4EE44DF5D0E5BD53.quest_desc: [
-		"This world has a ton of different structures for you to encounter! Some are dangerous, others contain only &amild peril&r."
-		""
-		"Most of them contain &ajuicy loot&r! Why not try to find all of them?"
-	]
 	quest.4EE6F2C6C0F8C4E3.quest_subtitle: "{components:{\"ae2:facade_item\":\"betterend:helix_tree_bookshelf\"},count:1,id:\"ae2:facade\"}"
 	quest.4EE77476B80C9418.quest_subtitle: "{count:1,id:\"twilightforest:arctic_helmet\"}"
 	quest.4EE8393AD63744D5.quest_subtitle: "{count:1,id:\"quark:azalea_planks_slab\"}"
@@ -15729,12 +15722,6 @@
 	quest.529016642C12DCB8.quest_subtitle: "{count:1,id:\"adorablehamsterpets:hamster_bed_spruce\"}"
 	quest.52905CD427CCA831.quest_subtitle: "{count:1,id:\"kubejs:carved_crimson_1\"}"
 	quest.5290E1F5BAE96E28.quest_subtitle: "{count:1,id:\"arts_and_crafts:ivory_pietraforte_brick_slab\"}"
-	quest.5290EB7B63B925AA.quest_desc: [
-		"Visit both types of &cGraveyards&r to pay your respects to the dead."
-		""
-		"Or to ransack the place. The dead don't need &aall these bones anymore&r, do they?"
-	]
-	quest.5290EB7B63B925AA.title: "The Final Resting Places"
 	quest.5293580E95669848.quest_subtitle: "{count:1,id:\"moresnifferflowers:vivicus_planks\"}"
 	quest.5293DF8715B49D47.quest_subtitle: "{count:1,id:\"betternether:golden_lumabus_seed\"}"
 	quest.5294025F87D139CB.quest_subtitle: "{components:{\"minecraft:enchantments\":{levels:{\"betternether:ruby_fire\":1}}},count:1,id:\"betternether:flaming_ruby_leggings\"}"
@@ -16967,12 +16954,6 @@
 	quest.5917893DDFF92C2D.quest_subtitle: "{components:{\"minecraft:potion_contents\":{potion:\"netherdepthsupgrade:obsidianfish_strong_resistance\"}},count:1,id:\"minecraft:splash_potion\"}"
 	quest.5917A4C366CEDBDD.quest_subtitle: "{count:1,id:\"twilightforest:ghast_trap\"}"
 	quest.591A7C0B98332606.quest_subtitle: "{components:{\"ae2:facade_item\":\"minecraft:chiseled_nether_bricks\"},count:1,id:\"ae2:facade\"}"
-	quest.591CF255E9BDD1D1.quest_desc: [
-		"A &cFairy Ring&r is, according to folklore, a place where the fey come to dance. A place where the veil between worlds is thin."
-		""
-		"Do you dare step in one? You may be fine..."
-	]
-	quest.591CF255E9BDD1D1.title: "Find a Fairy Circle"
 	quest.591DDAEDB2A95AA4.quest_subtitle: "{components:{\"ae2:facade_item\":\"autumnity:maple_leaves\"},count:1,id:\"ae2:facade\"}"
 	quest.591E71541436612D.quest_subtitle: "{count:1,id:\"betterend:umbrella_tree_door\"}"
 	quest.591EA4070249AE20.quest_subtitle: "{count:1,id:\"decorative_blocks:acacia_seat\"}"
@@ -18434,8 +18415,6 @@
 	quest.60BE7E699EB2151B.quest_subtitle: "{count:1,id:\"regions_unexplored:stripped_larch_wood\"}"
 	quest.60C069A3991A71A9.quest_subtitle: "{count:1,id:\"regions_unexplored:flowering_sapling\"}"
 	quest.60C4ABF5C1220E17.quest_subtitle: "{count:1,id:\"minecraft:purple_candle\"}"
-	quest.60C544B7E9552B88.quest_desc: ["An abandoned &eWitch's&r tower, eh? Hmmm. Well, witches are very clever people, so it's likely there are some &asecrets to be found&r. But beware, because &dwitches are also quite tricksy&r."]
-	quest.60C544B7E9552B88.title: "Find the Old Witch's Tower"
 	quest.60C5527E4AF2B406.quest_subtitle: "{components:{\"sophisticatedstorage:wood_type\":\"cherry\"},count:1,id:\"sophisticatedstorage:limited_gold_barrel_3\"}"
 	quest.60C646F99BDFB926.quest_subtitle: "{components:{\"ae2:facade_item\":\"betterend:dense_emerald_ice\"},count:1,id:\"ae2:facade\"}"
 	quest.60C8EB76900E0F53.quest_subtitle: "{count:1,id:\"farmersdelight:mutton_wrap\"}"
@@ -21751,14 +21730,6 @@
 	quest.72098DF871C48FA4.quest_subtitle: "{count:1,id:\"arts_and_crafts:cut_verdant_pietraforte_wall\"}"
 	quest.720AA0CABE85C4ED.quest_subtitle: "{count:1,id:\"mysticsbiomes:wildflower\"}"
 	quest.72106273777D721E.quest_subtitle: "{count:1,id:\"arts_and_crafts:gray_soapstone\"}"
-	quest.7210927B460B6B0F.quest_desc: [
-		"One might not necessarily assume that a &cSwamp&r is the most pleasant place to form a village - but you'd be wrong!"
-		""
-		"For one thing, you get unlimited access to cute &eFrogs&r, delightfully squishy &bMud&r, and plenty of water for your crops."
-		""
-		"Once you &asee one for yourself&r, you'll understand the charm."
-	]
-	quest.7210927B460B6B0F.title: "Find a Swamp Village"
 	quest.72110589F6B1863B.quest_subtitle: "{components:{\"ae2:facade_item\":\"autumnity:large_soul_jack_o_lantern_slice\"},count:1,id:\"ae2:facade\"}"
 	quest.7211AFC167E1CCC2.quest_subtitle: "{count:1,id:\"farmersdelight:beef_patty\"}"
 	quest.72124CFF2D2EEB62.quest_subtitle: "{count:1,id:\"twilightdelight:mangrove_cabinet\"}"
@@ -23046,8 +23017,6 @@
 	quest.78FFCD6A8CFED153.quest_subtitle: "{count:1,id:\"cluttered:sweetheart_table\"}"
 	quest.7902D5694B4DBE2E.quest_subtitle: "{count:1,id:\"mysticsbiomes:white_maple_log\"}"
 	quest.7903463B2B4C2934.quest_subtitle: "{count:1,id:\"regions_unexplored:blackwood_boat\"}"
-	quest.7903C08408A091DF.quest_desc: ["Hmm, this &cWitch Hut&r is a little taller than usual. I wonder &aif there's more here&r. After all, she must &dsleep somewhere&r..."]
-	quest.7903C08408A091DF.title: "Tall Witch Hut"
 	quest.79045ED024E703B8.quest_subtitle: "{count:1,id:\"quark:yellow_shingles_slab\"}"
 	quest.7905B67E07F8594B.quest_subtitle: "{components:{\"ae2:facade_item\":\"betterend:violecite_bricks\"},count:1,id:\"ae2:facade\"}"
 	quest.7906942289DF57EC.quest_subtitle: "{count:1,id:\"minecraft:purple_glazed_terracotta\"}"
@@ -24374,7 +24343,6 @@
 	task.035A455B33963FD7.title: "Hex yes to backpacks!"
 	task.0410516876EDD498.title: "Mob Charm Fragment"
 	task.05C93FDCDA404989.title: "Any Hanging Sign"
-	task.08B6A44D9D1A4B9F.title: "Get Out There"
 	task.0990A63A2D24AC54.title: "Finish a Painting"
 	task.0DE017CE06F6B0D2.title: "Break Wild Peanuts"
 	task.0ECD10CC0F8EC456.title: "Break Wild Carrots"

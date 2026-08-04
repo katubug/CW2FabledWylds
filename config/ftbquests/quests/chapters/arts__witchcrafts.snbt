@@ -92,7 +92,7 @@
 				item: { count: 1, id: "esquissemod:sketchbook" }
 				type: "item"
 			}]
-			x: 4.875d
+			x: 4.5d
 			y: -3.75d
 		}
 		{
@@ -315,8 +315,8 @@
 					type: "item"
 				}
 			]
-			x: 5.75d
-			y: -2.75d
+			x: 6.5d
+			y: -2.5d
 		}
 		{
 			dependencies: ["2DB59F4A5BB3CE73"]
@@ -333,8 +333,8 @@
 					type: "item"
 				}
 			]
-			x: 3.75d
-			y: -2.75d
+			x: 2.5d
+			y: -2.5d
 		}
 		{
 			dependencies: ["2DB59F4A5BB3CE73"]
@@ -351,7 +351,7 @@
 					type: "item"
 				}
 			]
-			x: 3.25d
+			x: 2.5d
 			y: -4.0d
 		}
 		{
@@ -369,7 +369,7 @@
 					type: "item"
 				}
 			]
-			x: 6.25d
+			x: 6.5d
 			y: -4.0d
 		}
 		{
@@ -395,26 +395,8 @@
 				id: "2B35ABEE2A58DF6F"
 				type: "checkmark"
 			}]
-			x: 4.75d
-			y: -1.75d
-		}
-		{
-			dependencies: ["153DBE782905BF62"]
-			id: "6563CACC1F993B93"
-			tasks: [
-				{
-					id: "7B262C8D6AC6299B"
-					item: { components: { "ftbquests:missing_item": "exposure_space:space_filter" }, count: 1, id: "ftbquests:missing_item" }
-					type: "item"
-				}
-				{
-					id: "30C63C970D83C65E"
-					item: { components: { "ftbquests:missing_item": "exposure_space:normal_telescopic_lens" }, count: 1, id: "ftbquests:missing_item" }
-					type: "item"
-				}
-			]
-			x: -7.5d
-			y: 4.95d
+			x: 4.5d
+			y: -2.0d
 		}
 		{
 			always_invisible: true

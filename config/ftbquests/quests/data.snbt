@@ -47,6 +47,10 @@
 			shape: "hexagon"
 			size: 1.0d
 		}
+		locate: {
+			shape: "window"
+			size: 1.0d
+		}
 		milestone: {
 			shape: "fpstar"
 			size: 1.5d

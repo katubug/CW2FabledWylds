@@ -432,6 +432,7 @@
 		}
 		{
 			id: "0291249FFD51DD05"
+			preset: "info"
 			rewards: [
 				{
 					id: "658A0D9C3A445D15"
@@ -599,6 +600,7 @@
 		}
 		{
 			id: "7A060F5C254439BC"
+			preset: "info"
 			rewards: [
 				{
 					id: "4C57C860CB79123E"
@@ -649,6 +651,7 @@
 		{
 			dependencies: ["66B094500E40DA3D"]
 			id: "3FAE926346F1E576"
+			preset: "progression"
 			rewards: [{
 				id: "7338219FAAA9587F"
 				item: {
@@ -658,6 +661,13 @@
 				type: "item"
 			}]
 			tasks: [{
+				icon: {
+					components: {
+						"!ftbquests:icon": { }
+						"ftbquests:entity_face": "minecraft:skeleton"
+					}
+					id: "ftbquests:custom_icon"
+				}
 				id: "08BCF1C0F17EF916"
 				stat: "minecraft:deaths"
 				type: "stat"
@@ -669,6 +679,7 @@
 		{
 			dependencies: ["66B094500E40DA3D"]
 			id: "112917940415A7B1"
+			preset: "progression"
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "2816B47FBE25570D"
@@ -689,6 +700,7 @@
 		{
 			dependencies: ["3FAE926346F1E576"]
 			id: "76D5DB6E94816C80"
+			preset: "advancement"
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "4A03B2AB64A80391"
@@ -706,7 +718,7 @@
 		}
 		{
 			id: "7232C9D413054886"
-			preset: "normal"
+			preset: "info"
 			rewards: [
 				{
 					id: "15CE6688B6EFC508"
@@ -736,6 +748,7 @@
 		{
 			dependencies: ["66B094500E40DA3D"]
 			id: "7F52A3C01776886D"
+			preset: "info"
 			rewards: [{
 				id: "28A88B3CFFC12C82"
 				type: "xp_levels"
@@ -751,6 +764,7 @@
 		{
 			dependencies: ["4ABFB1778565B4B7"]
 			id: "4C4835404E2B4DA3"
+			preset: "item"
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "6CC350B3295E1083"
