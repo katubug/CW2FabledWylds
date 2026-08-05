@@ -762,5 +762,15 @@
 			x: 0.5d
 			y: -7.0d
 		}
+		{
+			id: "7A21FD3210AE7792"
+			tasks: [{
+				id: "580C0EFAF3C66E02"
+				item: { count: 1, id: "whimsy_deco:gatcha_machine" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: -7.0d
+		}
 	]
 }

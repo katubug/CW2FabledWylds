@@ -1,14 +1,15 @@
 {
   "display": {
     "icon": {
-      "id": "minecraft:acacia_boat"
+      "id": "twilightforest:lich_trophy"
     },
-    "title": "Lich Selfie",
-    "description": "take a selfie with the lich",
-    "show_toast": false,
-    "announce_to_chat": false,
+    "title": "But First...",
+    "description": "Take a selfie with the Twilight Lich.",
+    "show_toast": true,
+    "announce_to_chat": true,
     "hidden": true
   },
+  "parent": "enchanted_wilds:root",
   "criteria": {
     "lich_selfie": {
       "trigger": "exposure:frame_printed",

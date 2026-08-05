@@ -604,6 +604,7 @@
 	quest.030F19FC6E0E8F0A.quest_subtitle: "{count:1,id:\"create:exposed_copper_tile_slab\"}"
 	quest.03102B4CD0BE7031.quest_desc: [
 		"One of the features in the Twilight Forest is the &aHedge Maze&r. It is a labyrinth filled with spawners and chests full of loot!"
+		""
 		"It does not count towards, nor require, any progression through the Forest."
 	]
 	quest.03102B4CD0BE7031.quest_subtitle: "Now you can be a Hedge Witch!"
@@ -727,6 +728,7 @@
 	quest.03C4E33516269E58.quest_subtitle: "{components:{\"ae2:facade_item\":\"minecraft:dark_oak_wood\"},count:1,id:\"ae2:facade\"}"
 	quest.03C7843B025F80BB.quest_subtitle: "{count:1,id:\"arts_and_crafts:purple_polished_soapstone_stairs\"}"
 	quest.03C80DD0C5156225.quest_subtitle: "{count:1,id:\"betterend:lamellarium\"}"
+	quest.03C828F2F895A23C.quest_desc: ["While you're fighting the &eAlpha Yeti&r, why not trip him up a little bit by &6casting &bRoses Thorns&r at his feet?"]
 	quest.03CAD919390421D0.quest_subtitle: "{count:1,id:\"ae2:brown_glass_cable\"}"
 	quest.03D039B017EBA2E2.quest_subtitle: "{components:{\"ae2:facade_item\":\"betternether:wart_bookshelf\"},count:1,id:\"ae2:facade\"}"
 	quest.03D1EEC786A8FC89.quest_subtitle: "{count:1,id:\"exposure:photograph_frame\"}"
@@ -2840,6 +2842,7 @@
 	quest.0F53F1D50C5E162E.quest_subtitle: "{count:1,id:\"twilightforest:iron_berry\"}"
 	quest.0F55C73877E7FD90.quest_desc: [
 		"Craft a &bMagic Map Focus&r with a &bRaven Feather&r, some &bGlowstone Dust&r, and &bTorchberries&r (which can be found in Twilight Forest caves)."
+		""
 		"Then you can surround it with &bPaper&r to create a Magic Map, which will prove invaluable to your quest through the &dTwilight Forest&r."
 	]
 	quest.0F55C73877E7FD90.quest_subtitle: "Come on, Focus!"
@@ -6704,7 +6707,7 @@
 	quest.23DDE03348862472.quest_subtitle: "{count:1,id:\"unusual_furniture:emergency_fire_hydrant\"}"
 	quest.23E0E1541AB92869.quest_subtitle: "{count:1,id:\"starcatcher:magma_fish\"}"
 	quest.23E43B63CE3A85CC.quest_subtitle: "{count:1,id:\"functionalstorage:jungle_1\"}"
-	quest.23E5790A6CC6524C.quest_desc: ["Earn yourself some loot by slaying a few Hydras and trading in their blood for a chance at something valuable!"]
+	quest.23E5790A6CC6524C.quest_desc: ["Earn yourself some loot by slaying a few Hydras and trading in their blood for something valuable!"]
 	quest.23E5790A6CC6524C.quest_subtitle: "A chance to use unwanted blood"
 	quest.23E5790A6CC6524C.title: "Purchase Quest: 20 Fiery Blood"
 	quest.23E6E795ADD2A6A9.quest_subtitle: "{count:1,id:\"moresnifferflowers:aroma_armor_trim_smithing_template\"}"
@@ -7544,6 +7547,9 @@
 	quest.286DD44EBA4DB338.quest_subtitle: "{count:1,id:\"create:waxed_weathered_copper_shingles\"}"
 	quest.286E89A075F23144.quest_subtitle: "{components:{\"minecraft:potion_contents\":{custom_effects:[{duration:750,id:\"minecraft:hunger\",\"neoforge:cures\":[\"protected_by_totem\",\"milk\"],show_icon:1b}]}},count:1,id:\"reliquary:potion\"}"
 	quest.286E9B1B44515E06.quest_subtitle: "{count:1,id:\"cnb:heal_spell_book_1\"}"
+	quest.286F4DD16E3755B0.quest_desc: ["Got extra fur lying around? Why not turn some in here for cold, hard cash."]
+	quest.286F4DD16E3755B0.quest_subtitle: "a chance to use unwanted fur"
+	quest.286F4DD16E3755B0.title: "Purchase Quest: 5 Alpha Yeti Fur"
 	quest.28709148EE1A6B57.quest_subtitle: "{count:1,id:\"handcrafted:dark_oak_table\"}"
 	quest.2872482350899320.quest_subtitle: "{count:1,id:\"betterend:sandy_jadestone_slab\"}"
 	quest.28740C0C230C0612.quest_subtitle: "{count:1,id:\"cluttered:colosseo_pillar\"}"
@@ -7869,13 +7875,9 @@
 	quest.2A15A502362947B8.quest_subtitle: "{count:1,id:\"enchanted:sturdy_tool_poppet\"}"
 	quest.2A163A53AF71A812.quest_subtitle: "{count:1,id:\"hearthandharvest:corn_husk_bundle\"}"
 	quest.2A167D9781F097CE.quest_subtitle: "{count:1,id:\"dramaticdoors:tall_exposed_copper_door\"}"
-	quest.2A171EE16DA22152.quest_desc: [
-		"&oi will not make a joke about nuts in a sack&r"
-		""
-		"&oi will not make a joke about nuts in a sack&r"
-		""
-		"&oi will not make a joke about nuts in a sack&r"
-	]
+	quest.2A171EE16DA22152.quest_desc: [""]
+	quest.2A171EE16DA22152.quest_subtitle: "compact deez"
+	quest.2A171EE16DA22152.title: "Compact Your Nuts"
 	quest.2A173DCF69E210B1.quest_subtitle: "{count:1,id:\"create:encased_fan\"}"
 	quest.2A17768EB012259A.quest_subtitle: "{count:1,id:\"glassential:spruce_glass_door\"}"
 	quest.2A1958938D9233C3.quest_subtitle: "{count:1,id:\"quark:iron_rod\"}"
@@ -7918,8 +7920,11 @@
 	quest.2A5208DCA90E6A5F.quest_subtitle: "{count:1,id:\"hexerei:notebook\"}"
 	quest.2A52CFAE2D88AC1D.quest_desc: [
 		"You've finally reached the Highlands! This is going to sound suspicious, but hear me out: you need to find some &bMagic Beans&r."
+		""
 		"You can obtain some either by killing &eTrolls&r underground, or by looting their obsidian-bound Caches."
+		""
 		"Then, find a large patch of &bUberous Soil&r, above which the &eGiants&r live. You'll need to defeat their Miner to obtain his &bGiant Pickaxe&r."
+		""
 		"Then, you can &6return underground and use the Giant Pick&r to break open the large Obsidian Vault. It will take a while."
 	]
 	quest.2A52CFAE2D88AC1D.quest_subtitle: "You did it!"
@@ -8152,9 +8157,9 @@
 	quest.2B8D06A02C3E6713.quest_subtitle: "{count:1,id:\"wan_ancient_beasts:suspicious_ice\"}"
 	quest.2B8DF6444C850F2D.quest_subtitle: "{components:{\"ae2:facade_item\":\"betterend:amaranita_hymenophore\"},count:1,id:\"ae2:facade\"}"
 	quest.2B8E1553C1487EBA.quest_desc: [
-		"In the heart of the &cThorns&r lies a castle which used to hold the final boss - a &epowerful Kobold&r strong enough to &abreak the back of the Warden with ease&r. Who knows where it's gone?"
+		"In the heart of the &cThorns&r lies a castle. Eerily empty and silent, the runes carved into its walls are meaningless to any still living."
 		""
-		"Some day, the Twilight Forest may rise again... but hey- good job! You did it! Here's a reward."
+		"Atop the castle, however, is its lord - the &eCastle Keeper&r. He once reigned mercifully over the entire &cTwilight Forest&r, but his mind is rotted, and he now &asimply lays in wait&r, attacking all who dare draw near."
 	]
 	quest.2B8E1553C1487EBA.quest_subtitle: "your kobold is in another castle"
 	quest.2B8E1553C1487EBA.title: "Gain Access to the Final Castle"
@@ -11209,8 +11214,12 @@
 	quest.3B30E0B02E20FEA9.quest_subtitle: "{components:{\"minecraft:potion_contents\":{potion:\"reanimal:strong_cramps\"}},count:1,id:\"supplementaries:bamboo_spikes_tipped\"}"
 	quest.3B318D4696677463.quest_subtitle: "{components:{\"ae2:facade_item\":\"hearthandharvest:salt_block\"},count:1,id:\"ae2:facade\"}"
 	quest.3B335B2F147E5A17.quest_subtitle: "{count:1,id:\"create:cut_andesite_stairs\"}"
-	quest.3B33F8C27B3361AC.quest_desc: ["The &eForest Raven&r is a creature that can often be found near &aObsidian Obelisks&r in the Twilight Forest. It can be &6slain for its feathers&r, which are important for making the &bMagical Map Focus&r."]
-	quest.3B33F8C27B3361AC.quest_subtitle: "Unfortunately, you have to kill it"
+	quest.3B33F8C27B3361AC.quest_desc: [
+		"The &eForest Raven&r is a creature that can often be found near &aObsidian Obelisks&r in the Twilight Forest."
+		""
+		""
+		"While normally you must &6slay one&r to obtain its &bFeathers&r, this quest grants you one so that you can make your &aMagic Map Focus&r without bloodshed."
+	]
 	quest.3B33F8C27B3361AC.title: "Find a Forest Raven"
 	quest.3B376F0458899779.quest_subtitle: "{count:1,id:\"trailandtales_delight:cherry_cheese_slice\"}"
 	quest.3B3848770CC77AE4.quest_subtitle: "{components:{\"sophisticatedstorage:wood_type\":\"birch\"},count:1,id:\"sophisticatedstorage:limited_copper_barrel_4\"}"
@@ -17385,6 +17394,7 @@
 	quest.5B5DA12E6D8779F2.quest_subtitle: "{count:1,id:\"tanukidecor:cabana_table\"}"
 	quest.5B5DB6950BD9BC15.quest_desc: [
 		"The &bOre Magnet&r can sometimes be found inside &dHollow Hills&r, and when used, will &apull entire veins of ores from the ground&r! Simply &6hold right click while aiming at the ground&r and the ores will be moved up to you!"
+		""
 		"It can be enchanted with Unbreaking or Mending."
 	]
 	quest.5B5DB6950BD9BC15.quest_subtitle: "I'm a total ore magnet"
@@ -20334,7 +20344,8 @@
 	quest.6A511C37EA26C2B0.quest_subtitle: "{count:1,id:\"mysticsbiomes:tropical_boat\"}"
 	quest.6A5281FA52C785C6.quest_desc: [
 		"&bSteeleaf&r is a material which can be used to create pre-enchanted armor that is slightly better than Iron."
-		"Additionally, blocks of Steeleaf will reduce fall damage by 25% when landed on."
+		""
+		"Additionally, blocks of Steeleaf will &areduce fall damage by 25%&r when landed on."
 	]
 	quest.6A5281FA52C785C6.quest_subtitle: "Steel yourself"
 	quest.6A5353547945F883.quest_subtitle: "{count:1,id:\"tflostblocks:towerwood_pressure_plate\"}"
@@ -21930,8 +21941,10 @@
 	quest.7305F8D8F01FB77E.quest_subtitle: "{components:{\"ae2:facade_item\":\"thaumon:amber\"},count:1,id:\"ae2:facade\"}"
 	quest.730964D8E1FD059F.quest_desc: [
 		"Welcome to the Twilight Forest! This dimension can be dangerous to navigate, although it is convieniently laid out with its &amajor landmarks in a grid&r."
+		""
 		"The first thing you will want is a &bMap&r, and for that, you'll need to find a &eRaven&r."
-		"And remember! &6If you get lost or wander into an inaccessible zone, look for Kobolds&r. They will be carrying the journal of previous adventurers, which will clue you in to your next goal."
+		""
+		"And remember! &6If you get lost or wander into an inaccessible zone, look for &eKobolds&r. They will be carrying the journal of previous adventurers, which will clue you in to your next goal."
 	]
 	quest.730964D8E1FD059F.quest_subtitle: "Entering a crepuscular zone"
 	quest.730964D8E1FD059F.title: "Reach the Twilight Forest"
@@ -23114,7 +23127,13 @@
 	quest.79B184B04757B484.quest_subtitle: "{count:1,id:\"betterend:thallasium_nugget\"}"
 	quest.79B262F03B5F8BE4.quest_subtitle: "{count:1,id:\"betterend:aeternium_shovel_head\"}"
 	quest.79B551D1CC8E5370.quest_subtitle: "{count:1,id:\"starcatcher:icetooth_sturgeon\"}"
-	quest.79B6B78157E7D32C.quest_desc: ["&bThe Moonworm Queen&r is an...item...that is filled with Moonworms. When you &6right click her&r, they will be dispensed - either directly onto a surface, or shot like an arrow. The moonworms serve no purpose other than &aas a light source&r. You can replenish the Queen by crafting her with &bTorchberries&r, and get...even more worms. Yay."]
+	quest.79B6B78157E7D32C.quest_desc: [
+		"&bThe Moonworm Queen&r is an...item...that is filled with Moonworms. When you &6right click her&r, they will be dispensed - either directly onto a surface, or shot like an arrow."
+		""
+		"The moonworms serve no purpose other than &aas a light source&r."
+		""
+		"You can replenish the Queen by crafting her with &bTorchberries&r, and get... even more worms. Yay."
+	]
 	quest.79B6B78157E7D32C.quest_subtitle: "You might want to sit down for this one"
 	quest.79B6E87E9E2029F2.quest_subtitle: "{count:1,id:\"heads:fox_snow_head\"}"
 	quest.79B81CF2BC6D00B5.quest_subtitle: "{count:1,id:\"enchanted:rowan_slab\"}"
@@ -23602,6 +23621,18 @@
 	quest.7C47161393ACC4BE.quest_subtitle: "squad goals"
 	quest.7C49EBF964171803.quest_subtitle: "{count:1,id:\"quark:light_blue_shard\"}"
 	quest.7C4A061E41EC0DBB.quest_subtitle: "{count:1,id:\"unusual_furniture:carved_cherry\"}"
+	quest.7C4B0608CCE37793.quest_desc: [
+		"The &eCastle Keeper&r is the &aLord of the Twilight Forest&r, and in him is the power of &aevery boss you've defeated so far&r. Especially &afire&r - good gravy is there ever &a<glow color=\"ff0000\">fire</glow>&r."
+		""
+		"You will want to come to this boss fight well-prepared, as he has an &aenormous health pool&r, is &aimmune to arrows&r, and &ais strongly resistant to physical damage&r."
+		""
+		"During the fight, &eHarbinger Cubes&r and &eAdherents&r will spawn - some may die to the &aincessant fireballs falling from the sky&r, but if ignored, they will rapidly accumulate! And that's not all - as you deplete his health, the &eCastle Keeper&r will &dsummon the bosses you've already fought&r, sometimes &atwo at once&r."
+		""
+		"The fight will not be easy. You will need all your tools and all your cunning to make it through alive."
+		""
+		"But once you defeat him - you will be rewarded with &aloot from all the bosses&r, as well as the &bTalisman of the Cube&r, used to craft his weapon, the &bCube of Annihilation&r. This item can be used to &adestroy blocks and harm your enemies&r."
+	]
+	quest.7C4B0608CCE37793.title: "Defeat the Castle Keeper"
 	quest.7C4C501E8CA51C70.quest_subtitle: "{count:1,id:\"decorativerailings:warped_diagonal_handrail_1\"}"
 	quest.7C4D1E170A0AE91B.quest_subtitle: "{count:1,id:\"minecraft:blue_banner\"}"
 	quest.7C4D5D75E85D1357.quest_subtitle: "{count:1,id:\"colorfulazaleas:lime_blooming_azalea_leaves\"}"

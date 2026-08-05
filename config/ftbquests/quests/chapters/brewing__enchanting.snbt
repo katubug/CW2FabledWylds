@@ -79,6 +79,7 @@
 		}
 		{
 			id: "30EA6BEFEEBF9650"
+			preset: "start"
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "4A4D80D18DA14DBD"

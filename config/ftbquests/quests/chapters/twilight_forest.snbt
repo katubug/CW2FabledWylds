@@ -8,7 +8,39 @@
 		id: "twilightforest:twilight_portal_miniature_structure"
 	}
 	id: "23CEC5718927D582"
-	images: [ ]
+	images: [
+		{
+			click_action: "none:"
+			height: 20.0d
+			id: "5C7DF8823ED57678"
+			image: "enchanted_wilds:textures/questui/bookbgslg/blue_book_lg.png"
+			rotation: 0.0d
+			width: 25.0d
+			x: -0.5d
+			y: 3.0d
+		}
+		{
+			click_action: "none:"
+			color: 2131662
+			height: 2.5d
+			id: "7BEE68A4305106E4"
+			image: "enchanted_wilds:textures/questui/titles/twilightforest.png"
+			rotation: 0.0d
+			width: 9.0d
+			x: -5.5d
+			y: -3.0d
+		}
+		{
+			click_action: "none:"
+			height: 5.0d
+			id: "553D8D195D32F582"
+			image: "gabrielequests-portal:id=twilightforest:twilight_portal,frame=minecraft:grass_block,shape=flat,size=2x1x2,axis=x,corners=1,lit=1,base=1,decor=1,eyes=0,view=0,rot=160x40"
+			rotation: 0.0d
+			width: 5.0d
+			x: -3.0d
+			y: 6.5d
+		}
+	]
 	order_index: 5
 	quest_enhance_decorative_lines: [ ]
 	quest_enhance_hidden_dependency_lines: [ ]
@@ -20,6 +52,7 @@
 				id: "twilightforest:twilight_portal_miniature_structure"
 			}
 			id: "730964D8E1FD059F"
+			preset: "milestone"
 			rewards: [{
 				id: "33E22D562AA8E674"
 				item: {
@@ -33,11 +66,12 @@
 				id: "2522694F96FD15CA"
 				type: "dimension"
 			}]
-			x: -10.0d
-			y: 0.0d
+			x: -6.0d
+			y: -0.75d
 		}
 		{
 			id: "399D55B3452588FF"
+			preset: "start"
 			rewards: [
 				{
 					count: 3
@@ -74,8 +108,8 @@
 				item: { count: 1, id: "minecraft:diamond" }
 				type: "item"
 			}]
-			x: -10.0d
-			y: -2.0d
+			x: -8.0d
+			y: -1.0d
 		}
 		{
 			dependencies: ["730964D8E1FD059F"]
@@ -84,25 +118,31 @@
 			}
 			id: "3B33F8C27B3361AC"
 			optional: true
+			preset: "progression"
 			rewards: [{
-				count: 9
-				id: "769527119DB85277"
+				id: "20CCE9FE42DB3136"
 				item: {
 					count: 1
-					id: "minecraft:glowstone_dust"
+					id: "twilightforest:raven_feather"
 				}
 				type: "item"
 			}]
 			tasks: [{
-				id: "28457D6369D12841"
-				observation_type: "entity_type"
-				observe_type: 5
-				timer: 0L
-				to_observe: "twilightforest:raven"
-				type: "observation"
+				entity: "twilightforest:raven"
+				icon: {
+					components: {
+						"!ftbquests:icon": { }
+						"ftbquests:entity_face": "twilightforest:raven"
+					}
+					id: "ftbquests:custom_icon"
+				}
+				id: "6604EAE906E1D54F"
+				search_radius_blocks: 64
+				target_radius_blocks: 5
+				type: "find_entity"
 			}]
-			x: -7.5d
-			y: 1.0d
+			x: -4.0d
+			y: -1.5d
 		}
 		{
 			dependencies: ["3B33F8C27B3361AC"]
@@ -122,78 +162,76 @@
 				item: { count: 1, id: "twilightforest:magic_map_focus" }
 				type: "item"
 			}]
-			x: -6.5d
-			y: 1.5d
+			x: -2.5d
+			y: -1.5d
 		}
 		{
-			dependencies: ["730964D8E1FD059F"]
 			id: "03102B4CD0BE7031"
-			rewards: [
-				{
-					id: "4C02CF218E659553"
-					type: "choice"
-				}
-				{
-					exclude_from_claim_all: true
-					id: "1A2A5C6AA28D867A"
-					type: "choice"
-				}
-			]
+			preset: "locate"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0132451EADD279F3"
+				table_id: 5770973074849872376L
+				type: "random"
+			}]
 			shape: "hexagon"
 			tasks: [{
 				id: "2AED38B113D31F29"
 				structure: "twilightforest:hedge_maze"
 				type: "structure"
 			}]
-			x: -7.0d
-			y: -2.0d
+			x: -3.0d
+			y: 2.0d
 		}
 		{
-			dependencies: ["730964D8E1FD059F"]
 			id: "5B5DB6950BD9BC15"
-			rewards: [
-				{
-					id: "0DF298E510FEE5B8"
-					type: "choice"
-				}
-				{
-					exclude_from_claim_all: true
-					id: "14EA3BEAB0D5EB03"
-					type: "choice"
-				}
-			]
+			preset: "item"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "17794B6498BED455"
+				table_id: 5770973074849872376L
+				type: "random"
+			}]
 			shape: "hexagon"
 			tasks: [{
 				id: "37BFCF9F22551ED3"
 				item: { count: 1, id: "twilightforest:ore_magnet" }
 				type: "item"
 			}]
-			x: -7.5d
-			y: -3.0d
+			x: -3.0d
+			y: 0.0d
 		}
 		{
-			dependencies: ["730964D8E1FD059F"]
 			id: "6A5281FA52C785C6"
-			rewards: [{
-				id: "6497B38870E2FDB2"
-				item: {
-					count: 1
-					id: "twilightforest:steeleaf_block"
+			preset: "item"
+			rewards: [
+				{
+					id: "6497B38870E2FDB2"
+					item: {
+						count: 1
+						id: "twilightforest:steeleaf_block"
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					exclude_from_claim_all: true
+					id: "4C2F14532A9A5DB4"
+					table_id: 5770973074849872376L
+					type: "random"
+				}
+			]
 			shape: "hexagon"
 			tasks: [{
 				id: "15FF51EB8323D171"
 				item: { count: 1, id: "twilightforest:steeleaf_ingot" }
 				type: "item"
 			}]
-			x: -6.0d
-			y: -4.0d
+			x: -2.0d
+			y: 0.0d
 		}
 		{
-			dependencies: ["730964D8E1FD059F"]
 			id: "2ACCE2B7760206C9"
+			preset: "item"
 			rewards: [
 				{
 					id: "2AA5905FFDE223BA"
@@ -205,8 +243,9 @@
 				}
 				{
 					exclude_from_claim_all: true
-					id: "238AA074016ACCDB"
-					type: "choice"
+					id: "5E6C4600BFD1FDAC"
+					table_id: 5770973074849872376L
+					type: "random"
 				}
 			]
 			shape: "hexagon"
@@ -215,55 +254,53 @@
 				item: { count: 1, id: "twilightforest:liveroot" }
 				type: "item"
 			}]
-			x: -6.5d
-			y: -3.0d
+			x: -3.5d
+			y: 1.0d
 		}
 		{
-			dependencies: ["730964D8E1FD059F"]
 			id: "62A0D663EF2B58C1"
+			preset: "item"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5E839175F45C50CA"
+				table_id: 5770973074849872376L
+				type: "random"
+			}]
 			shape: "hexagon"
 			tasks: [{
 				id: "6640CC33AA28C74F"
 				item: { count: 1, id: "twilightforest:peacock_feather_fan" }
 				type: "item"
 			}]
-			x: -5.0d
-			y: -4.0d
+			x: -2.5d
+			y: 1.0d
 		}
 		{
-			dependencies: ["730964D8E1FD059F"]
 			id: "79B6B78157E7D32C"
-			rewards: [
-				{
-					id: "112733AC98209D26"
-					item: {
-						count: 1
-						id: "minecraft:apple"
-					}
-					type: "item"
-				}
-				{
-					exclude_from_claim_all: true
-					id: "0BA3232E56833C88"
-					type: "choice"
-				}
-			]
+			preset: "item"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "26CECC24CF29FE88"
+				table_id: 5770973074849872376L
+				type: "random"
+			}]
 			shape: "hexagon"
 			tasks: [{
 				id: "36DCC9327A7A9CEB"
 				item: { count: 1, id: "twilightforest:moonworm_queen" }
 				type: "item"
 			}]
-			x: -7.0d
-			y: -4.0d
+			x: -4.0d
+			y: 0.0d
 		}
 		{
-			dependencies: ["730964D8E1FD059F"]
 			id: "7D15924C5AEAC669"
+			preset: "item"
 			rewards: [{
-				id: "646BB07E70488773"
-				type: "xp_levels"
-				xp_levels: 15
+				exclude_from_claim_all: true
+				id: "6D807F05865AC629"
+				table_id: 5770973074849872376L
+				type: "random"
 			}]
 			shape: "hexagon"
 			tasks: [{
@@ -271,8 +308,8 @@
 				item: { count: 1, id: "twilightforest:uncrafting_table" }
 				type: "item"
 			}]
-			x: -5.5d
-			y: -3.0d
+			x: -4.5d
+			y: 1.0d
 		}
 		{
 			dependencies: ["730964D8E1FD059F"]
@@ -280,24 +317,33 @@
 				id: "twilightforest:naga_trophy"
 			}
 			id: "00B1A6C679547AF2"
+			preset: "locate"
 			rewards: [{
-				id: "6F184B1C2B99949E"
-				type: "xp_levels"
-				xp_levels: 3
+				exclude_from_claim_all: true
+				id: "619D4896AF873873"
+				table_id: 5770973074849872376L
+				type: "random"
 			}]
 			tasks: [{
 				id: "5736708CDA636001"
 				structure: "twilightforest:naga_courtyard"
 				type: "structure"
 			}]
-			x: -6.5d
-			y: 0.0d
+			x: -6.0d
+			y: 1.0d
 		}
 		{
 			can_repeat: true
-			dependencies: ["00B1A6C679547AF2"]
+			dependencies: ["3A0205CA0568641F"]
 			id: "14B45702F0F82689"
 			optional: true
+			preset: "turnin"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7771E6330DD900F1"
+				table_id: 7328857662613080212L
+				type: "random"
+			}]
 			shape: "pentagon"
 			tasks: [{
 				consume_items: true
@@ -306,12 +352,13 @@
 				item: { count: 1, id: "twilightforest:naga_scale" }
 				type: "item"
 			}]
-			x: -6.5d
-			y: -1.0d
+			x: -7.0d
+			y: 2.5d
 		}
 		{
 			dependencies: ["3A0205CA0568641F"]
 			id: "1B8E61A0872EEA1C"
+			preset: "locate"
 			tasks: [{
 				icon: {
 					id: "twilightforest:lich_tower_miniature_structure"
@@ -320,12 +367,12 @@
 				structure: "twilightforest:lich_tower"
 				type: "structure"
 			}]
-			x: -4.0d
-			y: 0.0d
+			x: -6.0d
+			y: 4.0d
 		}
 		{
-			dependencies: ["62F755926795DBB6"]
 			id: "6016A3D8B7FD7A14"
+			preset: "locate"
 			rewards: [{
 				id: "00A454F3DD11BB05"
 				type: "xp_levels"
@@ -339,12 +386,13 @@
 				structure: "twilightforest:labyrinth"
 				type: "structure"
 			}]
-			x: -1.5d
-			y: 0.0d
+			x: 4.5d
+			y: -3.5d
 		}
 		{
 			dependencies: ["169272849A588544"]
 			id: "3657239C35390F17"
+			preset: "locate"
 			rewards: [{
 				count: 5
 				id: "0563B2194472DE74"
@@ -362,12 +410,13 @@
 				structure: "twilightforest:hydra_lair"
 				type: "structure"
 			}]
-			x: 2.5d
-			y: 0.0d
+			x: 4.5d
+			y: 1.5d
 		}
 		{
 			dependencies: ["6016A3D8B7FD7A14"]
 			id: "187BD92930BA8670"
+			preset: "item"
 			rewards: [
 				{
 					count: 10
@@ -390,24 +439,21 @@
 				item: { count: 1, id: "twilightforest:mazebreaker_pickaxe" }
 				type: "item"
 			}]
-			x: -1.5d
-			y: 1.0d
+			x: 5.5d
+			y: -3.5d
 		}
 		{
 			can_repeat: true
-			dependencies: ["3657239C35390F17"]
+			dependencies: ["54A57B37E1C04785"]
 			id: "23E5790A6CC6524C"
 			optional: true
-			rewards: [
-				{
-					id: "04DA991BC07CEDE9"
-					type: "loot"
-				}
-				{
-					id: "7992840F40B17A89"
-					type: "loot"
-				}
-			]
+			preset: "turnin"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "41722F766C085C34"
+				table_id: 7328857662613080212L
+				type: "random"
+			}]
 			shape: "pentagon"
 			tasks: [{
 				consume_items: true
@@ -416,12 +462,12 @@
 				item: { count: 1, id: "twilightforest:fiery_blood" }
 				type: "item"
 			}]
-			x: 2.5d
-			y: 1.0d
+			x: 5.5d
+			y: 3.5d
 		}
 		{
-			dependencies: ["62F755926795DBB6"]
 			id: "10C91592DCBC6FBD"
+			preset: "locate"
 			rewards: [{
 				count: 5
 				id: "76B6287EE4098FC2"
@@ -439,12 +485,13 @@
 				structure: "twilightforest:knight_stronghold"
 				type: "structure"
 			}]
-			x: -1.5d
-			y: -2.0d
+			x: 7.0d
+			y: -3.5d
 		}
 		{
 			dependencies: ["470A6825C49EEFAF"]
 			id: "5C463B10FDE8CEF2"
+			preset: "locate"
 			rewards: [{
 				count: 32
 				id: "3E662212CD97B0B4"
@@ -462,12 +509,12 @@
 				structure: "twilightforest:dark_tower"
 				type: "structure"
 			}]
-			x: 2.5d
-			y: -2.0d
+			x: 7.0d
+			y: 1.5d
 		}
 		{
-			dependencies: ["62F755926795DBB6"]
 			id: "41CBB146259DAF34"
+			preset: "locate"
 			tasks: [{
 				icon: {
 					id: "twilightforest:alpha_yeti_trophy"
@@ -476,12 +523,13 @@
 				structure: "twilightforest:yeti_cave"
 				type: "structure"
 			}]
-			x: -1.5d
-			y: 2.0d
+			x: 2.0d
+			y: -3.5d
 		}
 		{
 			dependencies: ["2F267ADA86FA5503"]
 			id: "2C905E4DE5051CC5"
+			preset: "locate"
 			rewards: [
 				{
 					count: 32
@@ -519,8 +567,8 @@
 				structure: "twilightforest:aurora_palace"
 				type: "structure"
 			}]
-			x: 2.5d
-			y: 2.0d
+			x: 2.0d
+			y: 1.5d
 		}
 		{
 			dependencies: [
@@ -529,17 +577,7 @@
 				"761DD39F82235893"
 			]
 			id: "2A52CFAE2D88AC1D"
-			rewards: [
-				{
-					id: "01398B9B50D833E9"
-					type: "choice"
-				}
-				{
-					exclude_from_claim_all: true
-					id: "28FEF8A4B3D9CF03"
-					type: "choice"
-				}
-			]
+			preset: "progression"
 			tasks: [{
 				biome: "twilightforest:highlands"
 				icon: {
@@ -548,12 +586,13 @@
 				id: "22834B81EEEA5750"
 				type: "biome"
 			}]
-			x: 8.0d
-			y: 0.0d
+			x: 4.5d
+			y: 5.5d
 		}
 		{
 			dependencies: ["2A52CFAE2D88AC1D"]
 			id: "2B8E1553C1487EBA"
+			preset: "milestone"
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "40E93A2B2452F75B"
@@ -568,12 +607,13 @@
 				structure: "twilightforest:final_castle"
 				type: "structure"
 			}]
-			x: 10.0d
-			y: 0.0d
+			x: 4.5d
+			y: 7.0d
 		}
 		{
 			dependencies: ["00B1A6C679547AF2"]
 			id: "3A0205CA0568641F"
+			preset: "boss"
 			rewards: [
 				{
 					id: "1F8FACBC9C53DC41"
@@ -598,12 +638,13 @@
 				id: "1D993E6DD7CC725A"
 				type: "advancement"
 			}]
-			x: -5.5d
-			y: 0.0d
+			x: -6.0d
+			y: 2.5d
 		}
 		{
 			dependencies: ["1B8E61A0872EEA1C"]
 			id: "62F755926795DBB6"
+			preset: "progression"
 			rewards: [{
 				id: "1297B897EC9603F7"
 				item: {
@@ -621,12 +662,13 @@
 				id: "23561E3733B66EFD"
 				type: "advancement"
 			}]
-			x: -3.0d
-			y: 0.0d
+			x: -6.0d
+			y: 5.5d
 		}
 		{
 			dependencies: ["10C91592DCBC6FBD"]
 			id: "470A6825C49EEFAF"
+			preset: "boss"
 			rewards: [{
 				id: "6E61129F3516D660"
 				item: {
@@ -641,12 +683,13 @@
 				id: "0BF937F4624FDA56"
 				type: "advancement"
 			}]
-			x: 0.5d
-			y: -2.0d
+			x: 7.0d
+			y: -1.0d
 		}
 		{
 			dependencies: ["5C463B10FDE8CEF2"]
 			id: "761DD39F82235893"
+			preset: "boss"
 			rewards: [{
 				id: "7A19C939ED75E268"
 				item: {
@@ -661,12 +704,13 @@
 				id: "68E22924E52442E1"
 				type: "advancement"
 			}]
-			x: 4.0d
-			y: -2.0d
+			x: 7.0d
+			y: 3.5d
 		}
 		{
 			dependencies: ["6016A3D8B7FD7A14"]
 			id: "169272849A588544"
+			preset: "progression"
 			rewards: [{
 				id: "570E54B773C478EA"
 				item: {
@@ -681,12 +725,13 @@
 				id: "1D855A5D41C7624A"
 				type: "advancement"
 			}]
-			x: 0.5d
-			y: 0.0d
+			x: 4.5d
+			y: -1.0d
 		}
 		{
 			dependencies: ["3657239C35390F17"]
 			id: "54A57B37E1C04785"
+			preset: "boss"
 			rewards: [{
 				id: "59B149EEE3F36F50"
 				item: {
@@ -701,12 +746,13 @@
 				id: "176B52B1E8AD95EA"
 				type: "advancement"
 			}]
-			x: 4.0d
-			y: 0.0d
+			x: 4.5d
+			y: 3.5d
 		}
 		{
-			dependencies: ["41CBB146259DAF34"]
+			dependencies: ["03C828F2F895A23C"]
 			id: "2F267ADA86FA5503"
+			preset: "boss"
 			rewards: [{
 				id: "33CCF59E9F804766"
 				item: {
@@ -721,12 +767,13 @@
 				type: "kill"
 				value: 1L
 			}]
-			x: 0.5d
-			y: 2.0d
+			x: 2.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["2C905E4DE5051CC5"]
 			id: "27AFCBF70AA24760"
+			preset: "boss"
 			rewards: [{
 				id: "59D69494D0E58D6B"
 				item: {
@@ -741,12 +788,12 @@
 				id: "77AEB177007F4630"
 				type: "advancement"
 			}]
-			x: 4.0d
-			y: 2.0d
+			x: 2.0d
+			y: 3.5d
 		}
 		{
-			dependencies: ["730964D8E1FD059F"]
 			id: "4EAE4C40B444930A"
+			preset: "milestone"
 			rewards: [
 				{
 					id: "315D065F86EA659A"
@@ -773,7 +820,7 @@
 				id: "51CE926FD2497567"
 				type: "advancement"
 			}]
-			x: -6.0d
+			x: -8.25d
 			y: 4.5d
 		}
 		{
@@ -781,51 +828,52 @@
 				"2B8E1553C1487EBA"
 				"54A57B37E1C04785"
 				"761DD39F82235893"
-				"4EAE4C40B444930A"
 				"27AFCBF70AA24760"
+				"4EAE4C40B444930A"
+				"7C4B0608CCE37793"
 			]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
 			id: "25CB8D0869249D24"
+			preset: "start"
 			rewards: [
 				{
-					id: "4C3BB3CA740BD35D"
+					id: "0D066AD26675EA61"
 					item: {
-						components: {
-							"ftbquests:missing_item": "mcsa:petra_helmet"
-						}
 						count: 1
-						id: "ftbquests:missing_item"
+						id: "fantasy_armor:wandering_wizard_helmet"
 					}
 					type: "item"
 				}
 				{
-					id: "7E820483190944E0"
+					id: "5B35A17629B94BB7"
 					item: {
-						components: {
-							"ftbquests:missing_item": "mcsa:petra_chestplate"
-						}
 						count: 1
-						id: "ftbquests:missing_item"
+						id: "fantasy_armor:wandering_wizard_chestplate"
 					}
 					type: "item"
 				}
 				{
-					id: "4A6115BF0510BD35"
+					id: "015344A75D3CDF27"
 					item: {
-						components: {
-							"ftbquests:missing_item": "mcsa:petra_leggings"
-						}
 						count: 1
-						id: "ftbquests:missing_item"
+						id: "fantasy_armor:wandering_wizard_leggings"
 					}
 					type: "item"
 				}
 				{
-					id: "28A8A7CB748149C8"
+					id: "389EB26D60B32465"
 					item: {
 						count: 1
-						id: "minecraft:apple"
+						id: "fantasy_armor:wandering_wizard_boots"
 					}
 					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "07431918CDA3552B"
+					table_id: 5167086515396975209L
+					type: "loot"
 				}
 			]
 			shape: "gear"
@@ -836,7 +884,7 @@
 				type: "advancement"
 			}]
 			x: 7.5d
-			y: 4.5d
+			y: 5.25d
 		}
 		{
 			id: "723D12B934CAB46C"
@@ -848,6 +896,74 @@
 				type: "item"
 			}]
 			x: -0.1d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2B8E1553C1487EBA"]
+			id: "7C4B0608CCE37793"
+			preset: "boss"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5569D16674F2FEF7"
+				table_id: 7159471207534106979L
+				type: "loot"
+			}]
+			tasks: [{
+				entity: "twilight_forest_final_boss:castle_keeper"
+				icon: {
+					components: {
+						"!ftbquests:icon": { }
+						"ftbquests:entity_face": "twilight_forest_final_boss:castle_keeper"
+					}
+					id: "ftbquests:custom_icon"
+				}
+				id: "3146E15607680630"
+				type: "kill"
+				value: 1L
+			}]
+			x: 6.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["41CBB146259DAF34"]
+			id: "03C828F2F895A23C"
+			preset: "progression"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7AF50B072062AAB4"
+				table_id: 7328857662613080212L
+				type: "random"
+			}]
+			tasks: [{
+				advancement: "enchanted_wilds:twilight_forest/thorns_yeti"
+				criterion: ""
+				id: "350738AFB1EA2D32"
+				type: "advancement"
+			}]
+			x: 2.0d
+			y: -2.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["2F267ADA86FA5503"]
+			id: "286F4DD16E3755B0"
+			optional: true
+			preset: "turnin"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "038BF26AC6619904"
+				table_id: 7328857662613080212L
+				type: "random"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 5L
+				id: "1F9D252394196CE1"
+				item: { count: 1, id: "twilightforest:alpha_yeti_fur" }
+				optional_task: true
+				type: "item"
+			}]
+			x: 3.0d
 			y: 0.0d
 		}
 	]

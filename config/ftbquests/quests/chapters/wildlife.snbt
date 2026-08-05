@@ -845,7 +845,8 @@
 			id: "43B3A6804B59565E"
 			rewards: [{
 				exclude_from_claim_all: true
-				id: "469D198094520658"
+				id: "5A5B8A1E88556444"
+				table_id: 5770973074849872376L
 				type: "random"
 			}]
 			shape: "rsquare"

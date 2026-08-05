@@ -775,11 +775,6 @@
 		}
 		{
 			id: "2A171EE16DA22152"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "1E6E05E6AD1FB476"
-				type: "choice"
-			}]
 			tasks: [
 				{
 					id: "235A587BF876B440"
@@ -787,8 +782,8 @@
 					type: "item"
 				}
 				{
-					id: "3C239EF279DD1335"
-					item: { components: { "ftbquests:missing_item": "delightful:acorn_sack" }, count: 1, id: "ftbquests:missing_item" }
+					id: "773E3205F3642A8A"
+					item: { count: 1, id: "adorablehamsterpets:acorn_crate" }
 					type: "item"
 				}
 			]

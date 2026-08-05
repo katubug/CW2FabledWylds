@@ -52,6 +52,26 @@
         "attributes": {},
         "items": []
       }
+    },
+    "twilight_forest/thorns_yeti": {
+      "display_name": "Roses for the Alpha",
+      "original_name": "Roses for the Alpha",
+      "enabled": true,
+      "icon": "minecraft:rose_bush",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "twilight_forest/photographed_lich": {
+      "display_name": "But First...",
+      "original_name": "But First...",
+      "enabled": true,
+      "icon": "twilightforest:lich_trophy",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
     }
   }
 }
