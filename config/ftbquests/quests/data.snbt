@@ -39,6 +39,10 @@
 			shape: "diamond"
 			size: 1.0d
 		}
+		completion: {
+			shape: "banner"
+			size: 1.5d
+		}
 		info: {
 			shape: "thought"
 			size: 1.0d

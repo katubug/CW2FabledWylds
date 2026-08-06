@@ -72,6 +72,16 @@
         "attributes": {},
         "items": []
       }
+    },
+    "twilight_forest/snow_queen_fire": {
+      "display_name": "Warming Up to the Queen",
+      "original_name": "Warming Up to the Queen",
+      "enabled": true,
+      "icon": "minecraft:ice",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
     }
   }
 }

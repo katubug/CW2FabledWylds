@@ -36,32 +36,16 @@
 	quests: [
 		{
 			id: "4930ECD60EA9ED8D"
-			rewards: [
-				{
-					count: 4
-					id: "34673B93E89D2687"
-					item: {
-						count: 1
-						id: "farmersdelight:organic_compost"
-					}
-					type: "item"
+			preset: "start"
+			rewards: [{
+				count: 4
+				id: "34673B93E89D2687"
+				item: {
+					count: 1
+					id: "farmersdelight:organic_compost"
 				}
-				{
-					id: "75586CB99DA8E407"
-					item: {
-						components: {
-							"minecraft:enchantments": {
-								levels: {
-									"minecraft:fortune": 1
-								}
-							}
-						}
-						count: 1
-						id: "minecraft:stone_hoe"
-					}
-					type: "item"
-				}
-			]
+				type: "item"
+			}]
 			shape: "rsquare"
 			size: 2.0d
 			tasks: [{
@@ -69,11 +53,10 @@
 				item: { components: { "ftbfiltersystem:filter": "or(item_tag(c:seeds)item_tag(neoforge:seeds))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
-			x: -7.299999999999999d
-			y: -0.19999999999999996d
+			x: -8.0d
+			y: -2.0d
 		}
 		{
-			dependencies: ["4930ECD60EA9ED8D"]
 			id: "435BD760D0F2E010"
 			rewards: [
 				{
@@ -99,11 +82,10 @@
 				item: { components: { "ftbfiltersystem:filter": "or(item(farmersdelight:brown_mushroom_colony)item(farmersdelight:red_mushroom_colony))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
-			x: -2.5999999999999988d
-			y: 3.000000000000001d
+			x: -8.0d
+			y: 0.0d
 		}
 		{
-			dependencies: ["4930ECD60EA9ED8D"]
 			id: "3AE0F1C1159FBDDE"
 			rewards: [{
 				id: "66F2801F9DFA05AC"
@@ -147,25 +129,8 @@
 			y: 3.6d
 		}
 		{
-			dependencies: ["2CA80140F624D0AE"]
 			id: "0545DF70043D964A"
-			rewards: [
-				{
-					id: "0A8B138A045BB03E"
-					type: "loot"
-				}
-				{
-					exclude_from_claim_all: true
-					id: "4B783F459C7A48B5"
-					type: "loot"
-				}
-				{
-					exclude_from_claim_all: true
-					id: "60E05DAC17F84051"
-					table_id: 1510389528595555205L
-					type: "choice"
-				}
-			]
+			preset: "item"
 			shape: "hexagon"
 			tasks: [
 				{
@@ -209,25 +174,29 @@
 					type: "item"
 				}
 			]
-			x: 7.400000000000002d
-			y: -1.2d
+			x: 2.5d
+			y: 4.5d
 		}
 		{
-			dependencies: [
-				"4930ECD60EA9ED8D"
-				"2093240CD42882CF"
-			]
+			dependencies: ["4930ECD60EA9ED8D"]
 			id: "2CA80140F624D0AE"
+			preset: "progression"
 			rewards: [
 				{
-					id: "69ACEF4AC35DF65C"
-					type: "loot"
+					id: "736FE23D7911A48C"
+					item: {
+						count: 1
+						id: "hearthandharvest:farmers_hat"
+					}
+					type: "item"
 				}
 				{
-					exclude_from_claim_all: true
-					id: "1E1001E2D420EF81"
-					table_id: 6518300475828805418L
-					type: "choice"
+					id: "128A1CE26C1AC26C"
+					item: {
+						count: 1
+						id: "luckyswardrobe:leather_apron"
+					}
+					type: "item"
 				}
 			]
 			shape: "hexagon"
@@ -253,11 +222,6 @@
 					type: "item"
 				}
 				{
-					id: "0BD7A6CEF3F6B63E"
-					item: { count: 1, id: "farm_and_charm:corn" }
-					type: "item"
-				}
-				{
 					id: "652808E991B7EBEE"
 					item: { count: 1, id: "farm_and_charm:oat" }
 					type: "item"
@@ -272,13 +236,18 @@
 					item: { count: 1, id: "farm_and_charm:barley" }
 					type: "item"
 				}
+				{
+					id: "3A9BBF004833B2BF"
+					item: { count: 1, id: "hearthandharvest:corn" }
+					type: "item"
+				}
 			]
-			x: -2.299999999999999d
-			y: 1.300000000000001d
+			x: -5.5d
+			y: -1.0d
 		}
 		{
-			dependencies: ["4930ECD60EA9ED8D"]
 			id: "3D221ECD9106F792"
+			preset: "item"
 			shape: "hexagon"
 			tasks: [{
 				id: "1CF70C35261561CF"
@@ -289,8 +258,8 @@
 			y: 5.300000000000001d
 		}
 		{
-			dependencies: ["4930ECD60EA9ED8D"]
 			id: "2186A6F69ADBE795"
+			preset: "advancement"
 			rewards: [
 				{
 					exclude_from_claim_all: true
@@ -319,8 +288,8 @@
 		}
 		{
 			can_repeat: true
-			dependencies: ["4930ECD60EA9ED8D"]
 			id: "6630D27FC9E3F285"
+			preset: "turnin"
 			rewards: [
 				{
 					id: "4695B14C75D256F2"
@@ -331,11 +300,6 @@
 					exclude_from_claim_all: true
 					id: "509497F8FDAC8759"
 					table_id: 7049021818423122779L
-					type: "loot"
-				}
-				{
-					exclude_from_claim_all: true
-					id: "5EFC02323DC65CA5"
 					type: "loot"
 				}
 				{
@@ -403,12 +367,12 @@
 					type: "item"
 				}
 			]
-			x: 7.200000000000001d
-			y: 4.000000000000001d
+			x: 4.5d
+			y: 5.5d
 		}
 		{
-			dependencies: ["2CA80140F624D0AE"]
 			id: "2973338AB622C5D6"
+			preset: "item"
 			tasks: [
 				{
 					id: "075F95D4BAE955E3"
@@ -431,8 +395,8 @@
 					type: "item"
 				}
 			]
-			x: 7.400000000000002d
-			y: 0.30000000000000004d
+			x: 2.0d
+			y: 6.5d
 		}
 		{
 			id: "60445E736AE3B5B4"
@@ -458,8 +422,8 @@
 				item: { count: 1, id: "mynethersdelight:letios_compost" }
 				type: "item"
 			}]
-			x: 5.700000000000001d
-			y: 6.300000000000001d
+			x: -6.0d
+			y: 4.0d
 		}
 		{
 			id: "7814F0DBA486B635"
@@ -470,11 +434,12 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: 3.5d
+			y: -0.5d
 		}
 		{
 			dependencies: ["2973338AB622C5D6"]
 			id: "148F84D7DB06E5D1"
+			preset: "completion"
 			rewards: [
 				{
 					exclude_from_claim_all: true
@@ -493,28 +458,30 @@
 				id: "2E7A316EBC2BA46A"
 				type: "checkmark"
 			}]
-			x: 8.2d
-			y: 1.4000000000000006d
+			x: 2.25d
+			y: 9.0d
 		}
 		{
-			dependencies: ["4930ECD60EA9ED8D"]
 			id: "264135E887281098"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "10A3E8335475BDD3"
-				type: "choice"
-			}]
 			shape: "hexagon"
 			tasks: [{
 				id: "7C7F27E7BEBD63C6"
 				item: { count: 1, id: "farmingforblockheads:market" }
 				type: "item"
 			}]
-			x: -4.999999999999998d
-			y: -0.19999999999999996d
+			x: -6.5d
+			y: 0.0d
 		}
 		{
+			dependencies: ["4930ECD60EA9ED8D"]
 			id: "2093240CD42882CF"
+			preset: "progression"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "281FBE0C1803D076"
+				table_id: 5167086515396975209L
+				type: "random"
+			}]
 			tasks: [
 				{
 					block_item: { count: 1, id: "hearthandharvest:wild_red_grapes" }
@@ -561,18 +528,6 @@
 				{
 					block_item: { count: 1, id: "farmersdelight:wild_rice" }
 					id: "5FF8A041ABE1A591"
-					type: "break_block"
-					value: 1L
-				}
-				{
-					block_item: { count: 1, id: "farm_and_charm:wild_nettle" }
-					id: "0353A72E9839E23C"
-					type: "break_block"
-					value: 1L
-				}
-				{
-					block_item: { count: 1, id: "farm_and_charm:wild_ribwort" }
-					id: "3220E1783BDD5E97"
 					type: "break_block"
 					value: 1L
 				}
@@ -624,13 +579,20 @@
 					type: "break_block"
 					value: 1L
 				}
+				{
+					block_item: { count: 1, id: "adorablehamsterpets:wild_green_bean_bush" }
+					id: "374F0E4575F009B8"
+					type: "break_block"
+					value: 1L
+				}
 			]
-			x: -1.799999999999999d
-			y: 1.1102230246251565E-15d
+			x: -3.5d
+			y: -2.0d
 		}
 		{
 			dependencies: ["2093240CD42882CF"]
 			id: "3D99932B0EAFD2DA"
+			preset: "progression"
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "241DD25D49F14D3D"
@@ -649,11 +611,12 @@
 					type: "item"
 				}
 			]
-			x: -1.299999999999999d
-			y: -1.0999999999999985d
+			x: -1.5d
+			y: -2.0d
 		}
 		{
 			id: "0C66306B20F7844C"
+			preset: "item"
 			tasks: [
 				{
 					id: "008EB7C7C7153543"
@@ -681,11 +644,12 @@
 					type: "item"
 				}
 			]
-			x: 6.300000000000001d
-			y: 5.1000000000000005d
+			x: 4.0d
+			y: 6.5d
 		}
 		{
 			id: "0496A62983DE2ABB"
+			preset: "item"
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "1B8BED2472A07B44"
@@ -723,11 +687,12 @@
 					type: "item"
 				}
 			]
-			x: 4.600000000000001d
-			y: 4.800000000000001d
+			x: 3.0d
+			y: 6.5d
 		}
 		{
 			id: "057C8372ED1CBDC0"
+			preset: "item"
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "73A06ECDAEC48613"
@@ -770,11 +735,12 @@
 					type: "item"
 				}
 			]
-			x: 8.000000000000004d
-			y: 3.000000000000001d
+			x: 4.5d
+			y: 4.5d
 		}
 		{
 			id: "2A171EE16DA22152"
+			preset: "item"
 			tasks: [
 				{
 					id: "235A587BF876B440"
@@ -787,11 +753,12 @@
 					type: "item"
 				}
 			]
-			x: 7.800000000000001d
-			y: 5.300000000000001d
+			x: 2.5d
+			y: 5.5d
 		}
 		{
 			id: "3E8BB82A228A4727"
+			preset: "item"
 			rewards: [
 				{
 					id: "630A1AF82F87897D"
@@ -838,35 +805,16 @@
 					type: "item"
 				}
 			]
-			x: 4.700000000000001d
-			y: 3.4000000000000004d
+			x: 3.5d
+			y: 4.5d
 		}
 		{
 			id: "134ACEA76F0200AD"
+			preset: "item"
 			tasks: [
 				{
 					id: "78BF784BF40796CA"
 					item: { count: 1, id: "hearthandharvest:sugar_bag" }
-					type: "item"
-				}
-				{
-					id: "2AD2A819B70E17B0"
-					item: { components: { "ftbquests:missing_item": "farmersrespite:green_tea_leaves_sack" }, count: 1, id: "ftbquests:missing_item" }
-					type: "item"
-				}
-				{
-					id: "4B0F96CD6B786E9A"
-					item: { components: { "ftbquests:missing_item": "farmersrespite:black_tea_leaves_sack" }, count: 1, id: "ftbquests:missing_item" }
-					type: "item"
-				}
-				{
-					id: "50DCF6F63CD1537A"
-					item: { components: { "ftbquests:missing_item": "farmersrespite:yellow_tea_leaves_sack" }, count: 1, id: "ftbquests:missing_item" }
-					type: "item"
-				}
-				{
-					id: "2F48894FCF12BBA1"
-					item: { components: { "ftbquests:missing_item": "farmersrespite:coffee_beans_sack" }, count: 1, id: "ftbquests:missing_item" }
 					type: "item"
 				}
 				{
@@ -899,19 +847,41 @@
 					item: { count: 1, id: "farm_and_charm:flour_bag" }
 					type: "item"
 				}
+				{
+					id: "7CDC15C9E18312B7"
+					item: { count: 1, id: "herbalbrews:tea_leaf_crate" }
+					type: "item"
+				}
 			]
-			x: 6.000000000000002d
-			y: 3.2d
+			x: 3.5d
+			y: 5.5d
 		}
 		{
 			id: "17B0994740977E5A"
+			preset: "item"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4911754D457E2F61"
+				table_id: 5770973074849872376L
+				type: "random"
+			}]
 			tasks: [{
 				id: "6B04E98837BD690F"
 				item: { count: 1, id: "farm_and_charm:chicken_coop" }
 				type: "item"
 			}]
-			x: -4.0d
-			y: -5.5d
+			x: 2.5d
+			y: -1.5d
+		}
+		{
+			id: "396C5F4A97427E6C"
+			tasks: [{
+				id: "4EFCAF84817FCF62"
+				item: { components: { "hearthandharvest:bonemeal_level": 16, "hearthandharvest:fertilizer_item": "farm_and_charm:fertilizer", "hearthandharvest:water_level": 16 }, count: 1, id: "hearthandharvest:watering_can" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: -6.0d
 		}
 	]
 }

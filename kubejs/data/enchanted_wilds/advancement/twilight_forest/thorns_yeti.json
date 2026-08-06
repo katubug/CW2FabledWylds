@@ -4,7 +4,7 @@
       "id": "minecraft:rose_bush"
     },
     "title": "Roses for the Alpha",
-    "description": "Cast Rose Thorns on the Alpha Yeti",
+    "description": "Cast Rose Thorns on the Alpha Yeti.",
     "show_toast": true,
     "announce_to_chat": true,
     "hidden": true

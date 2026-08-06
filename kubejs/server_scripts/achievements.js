@@ -41,3 +41,25 @@ PlayerEvents.advancement(event => {
 
 	event.player.runCommandSilent(`advancement grant @s only ${CAPSTONE_ADVANCEMENT} ${criterion}`)
 })
+
+
+EntityEvents.afterHurt('twilightforest:alpha_yeti', event => {
+    let source = event.getSource()
+    let player = source.getPlayer()
+    if (!player) return
+
+    if (source.getType() === 'roots:rose_thorns') {
+        player.runCommandSilent('advancement grant @s only enchanted_wilds:twilight_forest/thorns_yeti')
+    }
+})
+
+EntityEvents.afterHurt('twilightforest:snow_queen', event => {
+    let source = event.getSource()
+    let player = source.getPlayer()
+    if (!player) return
+
+    if (source.getType() === 'roots:wildfire') {
+        player.runCommandSilent('advancement grant @s only enchanted_wilds:twilight_forest/snow_queen_fire')
+    }
+})
+

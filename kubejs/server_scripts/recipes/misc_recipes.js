@@ -171,5 +171,30 @@ ServerEvents.recipes(event => {
 		}
 	)
 
+	//tea
+	
+
+	event.shapeless(
+			Item.of('herbalbrews:tea_leaf_crate'),
+			[
+				'herbalbrews:green_tea_leaf',
+				'herbalbrews:green_tea_leaf',
+				'herbalbrews:green_tea_leaf',
+				'herbalbrews:green_tea_leaf',
+				'herbalbrews:green_tea_leaf',
+				'herbalbrews:green_tea_leaf',
+				'herbalbrews:green_tea_leaf',
+				'herbalbrews:green_tea_leaf',
+				'herbalbrews:green_tea_leaf',
+			]
+		)
+
+		event.shapeless(
+			Item.of('9x herbalbrews:green_tea_leaf'),
+			[
+				'herbalbrews:tea_leaf_crate'
+			]
+		)
+
 	
 })

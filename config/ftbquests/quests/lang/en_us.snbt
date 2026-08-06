@@ -4377,7 +4377,13 @@
 	quest.17ACFE8664C33D9C.quest_subtitle: "{count:1,id:\"betternether:willow_composter\"}"
 	quest.17AD2D92696B4B26.quest_subtitle: "{count:1,id:\"cluttered:flowering_crabapple_slab\"}"
 	quest.17AF43971FDAD114.quest_subtitle: "{count:1,id:\"enchanted:flying_ointment\"}"
-	quest.17B0994740977E5A.quest_desc: ["Note that currently &da bug makes it so that if a coop is broken and placed elsewhere, its chickens will never enter it - or any other coop - again&r."]
+	quest.17B0994740977E5A.quest_desc: [
+		"The &bChicken Coop&r is a block in which &ayour chickens can live&r! Similar to a &bBeehive&r, your chickens will pop inside, lay eggs, and leave when they feel like it."
+		""
+		"You can &aeject your chickens&r by &6right clicking a pitchfork onto the &bCoop&r."
+		""
+		"Note that currently &da bug makes it so that if a coop is broken and placed elsewhere, its chickens will never enter it - or any other coop - again&r."
+	]
 	quest.17B2C515E47B64D2.quest_subtitle: "{count:1,id:\"minecraft:beetroot\"}"
 	quest.17B30D45CC089504.quest_subtitle: "{count:1,id:\"betterfishtanks:structure_cave_granite_amethyst_block\"}"
 	quest.17B4D7C0E86DDC95.quest_subtitle: "{components:{\"minecraft:potion_contents\":{potion:\"hearthandharvest:long_bad_omen_potion\"}},count:1,id:\"minecraft:lingering_potion\"}"
@@ -6055,7 +6061,7 @@
 	quest.2093240CD42882CF.quest_desc: [
 		"Scattered around the world, you can find &bWild Crops&r growing. Find all of them to build your &alovely witchy garden&r!"
 		""
-		"Did you know that even vegetables can be used in household magic? For example, corn hung over a mirror will bring good luck to your household. Or, you can take a small white onion and stick it full of black-headed pins, and when placed in the window, this will protect against negativity."
+		"Did you know that even vegetables can be used in household magic? For example, &bCorn&r hung over a mirror will bring good luck to your household. Or, you can take a small white &bOnion&r and stick it full of black-headed pins, and when placed in the window, this will protect against negativity. Or! You can eat some &bGarlic&r and then when you go to close to others, they will hold their nose."
 		""
 		"Click to the next page for information on &awhich items can be found where&r!"
 		""
@@ -8385,7 +8391,7 @@
 		""
 		"&bCorn&r can only be found naturally in &cAbandoned Farms&r, but you can also &6buy it from the &bMarket Stall&r!"
 	]
-	quest.2CA80140F624D0AE.quest_subtitle: "More, give me more"
+	quest.2CA80140F624D0AE.quest_subtitle: "you're grounded"
 	quest.2CA80140F624D0AE.title: "Obtain New Ground Crops"
 	quest.2CA898003169A2A0.quest_subtitle: "{count:1,id:\"mcwwindows:brown_curtain\"}"
 	quest.2CAAC737A4D4FF60.quest_desc: [
@@ -10859,6 +10865,8 @@
 	quest.39623E03747C0E03.quest_subtitle: "{count:1,id:\"betterfishtanks:aquarist_table\"}"
 	quest.396704B1A935CF9B.quest_subtitle: "{count:1,id:\"cluttered:diamond_wallpaper_strawberry_bottom_white\"}"
 	quest.396966F03956A7B4.quest_subtitle: "{count:1,id:\"betternether:nether_reed_hanging_sign\"}"
+	quest.396C5F4A97427E6C.quest_desc: ["You can &6fill your watering can with water&r at &aany water source&r, such as a &bpond&r or &bSink&r. TODO KATU THIS IS A LIE"]
+	quest.396C5F4A97427E6C.title: "Fill Your Watering Can"
 	quest.396EE44E6142FAD7.quest_subtitle: "{count:1,id:\"hexerei:willow_sign\"}"
 	quest.396F60D1538BBAA1.quest_subtitle: "{count:1,id:\"the_bumblezone:ancient_wax_bricks_slab\"}"
 	quest.396F6469BC399EC9.quest_subtitle: "{count:1,id:\"create:raw_zinc\"}"
@@ -14120,6 +14128,8 @@
 		"By the time you make yourself some &bstarting tools&r, you may already be hoping for some more storage."
 		""
 		"While you can eventually craft &bBackpacks&r, in the meantime you'll certainly want this &bItem Bag&r to carry your treasures! The other items from the &lPicky Bags&r mod are equally valuable - allowing you to &acraft on the go&r, &asort common items into different bags&r, and more! Do check them out - the smartest witch knows that inventory management is crucial!"
+		""
+		"Also, take this &bWishlist&r. If you &6hover over an item in JEI and press W&r, it will wishlist that item. Wishlisted items will &aglow yellow&r if you see them in the world, or find them in chests! Very helpful if you have a terrible memory, like I do."
 	]
 	quest.4ABFB1778565B4B7.title: "Obtain Stone Tools"
 	quest.4AC0E83748A984FE.quest_subtitle: "{count:1,id:\"contact:green_mailbox\"}"
@@ -24328,7 +24338,6 @@
 	quest.7FFFE1D5050097E8.quest_subtitle: "{count:1,id:\"betterend:sulphuric_rock_lantern\"}"
 	reward.01266511BD2D5F90.title: "Unknown type: contactquests:parcel"
 	reward.1A431771CF8994BB.title: "Unknown type: contactquests:parcel"
-	reward.1AF5FAA2BD077645.title: "Unknown type: contactquests:parcel"
 	reward.341AE5A0696A449D.title: "Unknown type: contactquests:parcel"
 	reward.36DC30016FB87CF1.title: "Unknown type: contactquests:parcel"
 	reward.4E65A11B12A1532E.title: "Unknown type: contactquests:parcel"
@@ -24370,7 +24379,6 @@
 	reward_table.7B63ED97CCD936C8.title: "Tomes"
 	reward_table.7D60C2D8FE0CCADB.title: "Archaeology"
 	task.02E25F29BA7D2899.title: "Meet the Bee Queen"
-	task.0353A72E9839E23C.title: "Break Wild Nettle"
 	task.035A455B33963FD7.title: "Hex yes to backpacks!"
 	task.0410516876EDD498.title: "Mob Charm Fragment"
 	task.05C93FDCDA404989.title: "Any Hanging Sign"
@@ -24399,9 +24407,9 @@
 	task.2E65F74FAED6B7CD.title: "Resource Pack Application"
 	task.2E7A316EBC2BA46A.title: "Compact All The Crops!"
 	task.2FFCBE1976CCD735.title: "Find a Hydra's Lair"
-	task.3220E1783BDD5E97.title: "Break Wild Ribwort"
 	task.35D1EC16F3A74C57.title: "Free Lunch"
 	task.37177297B282FBC7.title: "Check Your Enrichment"
+	task.374F0E4575F009B8.title: "Break Wild Green Bean Bush"
 	task.3790E77B2BB0C3EE.title: "Unknown type: use_item"
 	task.38AE1B4A97072062.title: "Any Seeds"
 	task.3A1CDFBCBFDAFF44.title: "Light Temple"

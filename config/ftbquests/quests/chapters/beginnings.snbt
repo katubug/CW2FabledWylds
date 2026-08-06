@@ -433,27 +433,6 @@
 		{
 			id: "0291249FFD51DD05"
 			preset: "info"
-			rewards: [
-				{
-					id: "658A0D9C3A445D15"
-					type: "xp"
-					xp: 100
-				}
-				{
-					count: 8
-					exclude_from_claim_all: true
-					id: "1AF5FAA2BD077645"
-					is_ender: false
-					is_team_reward: false
-					item: {
-						count: 1
-						id: "minecraft:apple"
-					}
-					target_addressee: "QuestNPC"
-					team_reward_multiplier: 1.0f
-					type: "contactquests:parcel"
-				}
-			]
 			shape: "gear"
 			tasks: [{
 				id: "427F9D89912BC6DC"
@@ -523,6 +502,14 @@
 					}
 					type: "item"
 				}
+				{
+					id: "7015C2E548F6629C"
+					item: {
+						count: 1
+						id: "broom_closet:wishlist"
+					}
+					type: "item"
+				}
 			]
 			shape: "gear"
 			tasks: [
@@ -542,7 +529,7 @@
 					type: "item"
 				}
 			]
-			x: 3.5d
+			x: -8.0d
 			y: -3.0d
 		}
 		{
@@ -682,7 +669,8 @@
 			preset: "progression"
 			rewards: [{
 				exclude_from_claim_all: true
-				id: "2816B47FBE25570D"
+				id: "484A18BB06FFBE2E"
+				table_id: 7328857662613080212L
 				type: "random"
 			}]
 			tasks: [{
@@ -703,8 +691,9 @@
 			preset: "advancement"
 			rewards: [{
 				exclude_from_claim_all: true
-				id: "4A03B2AB64A80391"
-				type: "choice"
+				id: "4F663E49BE0D956C"
+				table_id: 5770973074849872376L
+				type: "random"
 			}]
 			shape: "octagon"
 			tasks: [{
@@ -762,7 +751,6 @@
 			y: -9.775d
 		}
 		{
-			dependencies: ["4ABFB1778565B4B7"]
 			id: "4C4835404E2B4DA3"
 			preset: "item"
 			rewards: [{
@@ -777,8 +765,8 @@
 				item: { count: 1, id: "roots:wooden_shears" }
 				type: "item"
 			}]
-			x: 5.2d
-			y: -3.0d
+			x: -8.0d
+			y: -1.5d
 		}
 	]
 }
