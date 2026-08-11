@@ -438,5 +438,77 @@
 			x: 5.9d
 			y: -11.3d
 		}
+		{
+			id: "0ADDED8D0A193EF8"
+			rewards: [{
+				id: "28818A5A4BA47FCC"
+				item: {
+					count: 1
+					id: "exposure:black_and_white_film"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "6776DA4B8586CC89"
+				item: { count: 1, id: "minecraft:oak_wood" }
+				type: "item"
+			}]
+			x: 9.5d
+			y: -7.5d
+		}
+		{
+			id: "63984978A1AADF30"
+			rewards: [{
+				id: "66CAB40CF9E66781"
+				item: {
+					count: 1
+					id: "exposure:color_film"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "3C6A24FD6CBE23AA"
+				item: { count: 1, id: "exposure:color_film" }
+				type: "item"
+			}]
+			x: 9.5d
+			y: -6.5d
+		}
+		{
+			id: "04EA0AA493E41274"
+			rewards: [{
+				id: "60EBD0E9CF029D5B"
+				item: {
+					count: 1
+					id: "exposure:high_sensitivity_black_and_white_film"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "1654BDF15D3B5853"
+				item: { count: 1, id: "exposure:high_sensitivity_black_and_white_film" }
+				type: "item"
+			}]
+			x: 10.5d
+			y: -7.5d
+		}
+		{
+			id: "11A001C9B2413F91"
+			rewards: [{
+				id: "095068AE185E4681"
+				item: {
+					count: 1
+					id: "exposure:high_sensitivity_color_film"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "140BE299A81BBFC5"
+				item: { count: 1, id: "exposure:high_sensitivity_color_film" }
+				type: "item"
+			}]
+			x: 10.5d
+			y: -6.5d
+		}
 	]
 }

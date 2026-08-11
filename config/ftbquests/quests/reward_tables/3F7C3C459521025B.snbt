@@ -1,0 +1,55 @@
+{
+	id: "3F7C3C459521025B"
+	loot_size: 1
+	order_index: 32
+	rewards: [
+		{
+			count: 2
+			id: "4D341AA44E3E294F"
+			item: {
+				count: 1
+				id: "roots:wildewheet_seeds"
+			}
+		}
+		{
+			count: 2
+			id: "58786CB14498ADE7"
+			item: {
+				count: 1
+				id: "roots:pereskia_bulb"
+			}
+		}
+		{
+			count: 2
+			id: "2AE21BE9C49638AF"
+			item: {
+				count: 1
+				id: "roots:spiritleaf_seeds"
+			}
+		}
+		{
+			count: 2
+			id: "59CF2F82D49C719B"
+			item: {
+				count: 1
+				id: "roots:grove_spores"
+			}
+		}
+		{
+			count: 2
+			id: "57BC0224B75BB65B"
+			item: {
+				count: 1
+				id: "roots:aubergine_seeds"
+			}
+		}
+		{
+			count: 2
+			id: "60BE330FF4C76A4C"
+			item: {
+				count: 1
+				id: "roots:moonglow_seeds"
+			}
+		}
+	]
+}

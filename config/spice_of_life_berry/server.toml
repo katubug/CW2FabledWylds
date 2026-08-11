@@ -47,6 +47,7 @@
 	# Default: 0.5
 	# Range: 0.0 ~ 10.0
 	beginnerPassiveHungerMultiplier = 0.5
+	removeVanillaSaturationOutsideExhaustionMode = true
 
 [damage_hunger]
 	enabled = true
@@ -356,6 +357,9 @@
 	categoryCountsForStreak = false
 	streakFreezeAffectsPassiveHunger = true
 	streakFreezeAffectsElytra = false
+	customRewardsEnabled = false
+	attributeBonuses = ["minecraft:generic.movement_speed=0.05:add_multiplied_total"]
+	potionEffects = ["minecraft:haste=0"]
 
 [food_stack_limits]
 	enableFoodStackLimits = true

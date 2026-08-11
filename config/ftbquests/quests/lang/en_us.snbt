@@ -2336,6 +2336,13 @@
 	quest.0C793B12C7C166AA.quest_subtitle: "{count:1,id:\"quark:blue_framed_glass_pane\"}"
 	quest.0C7A6EB408009A8E.quest_subtitle: "{count:1,id:\"decorativerailings:quartz_right_handrail_connector_1\"}"
 	quest.0C7C1F57A92D5B7F.quest_subtitle: "{components:{\"minecraft:potion_contents\":{custom_effects:[{duration:1750,id:\"minecraft:resistance\",\"neoforge:cures\":[\"protected_by_totem\",\"milk\"],show_icon:1b}]}},count:1,id:\"reliquary:potion\"}"
+	quest.0C7EA86F283677BB.quest_desc: [
+		"A &bKnife&r is a perfectly useful tool to have for any reason - you can skin potatoes, cut red tape, and stab a b - I mean, anyway, let's move on."
+		""
+		"&bKnives&r can not only &aprocure unique drops from &eAnimals&r, but can be used for &aForaging&r, which is to say, breaking &bLeaves&r and &bGrasses&r to garner extra items from them as well. You'll be looking for &bGrove Moss&r, &bGrove Spores&r, and &bWildroot&r, as these are important ingredients in your magical journey."
+	]
+	quest.0C7EA86F283677BB.quest_subtitle: "it's pronounced \"kuh-niff-ee\""
+	quest.0C7EA86F283677BB.title: "Obtain a Knife"
 	quest.0C7F5471AB8EA92F.quest_subtitle: "{components:{\"reliquary:entity_name\":\"companions:illager_golem\"},count:1,id:\"reliquary:mob_charm\"}"
 	quest.0C800E2BB59B4518.quest_subtitle: "{components:{\"minecraft:potion_contents\":{potion:\"minecraft:long_regeneration\"}},count:1,id:\"minecraft:splash_potion\"}"
 	quest.0C83B68E9E06F5C6.quest_subtitle: "{count:1,id:\"snuffles:frosty_fluff_carpet\"}"
@@ -4085,7 +4092,7 @@
 	quest.160653FE4C2FEE2E.quest_subtitle: "{count:1,id:\"farmersdelight:tatami\"}"
 	quest.16065C070695B8E8.quest_subtitle: "{components:{\"minecraft:potion_contents\":{custom_effects:[{duration:750,id:\"minecraft:blindness\",\"neoforge:cures\":[\"protected_by_totem\",\"milk\"],show_icon:1b}]}},count:1,id:\"reliquary:potion\"}"
 	quest.160ACA8371B3793E.quest_subtitle: "{count:1,id:\"handcrafted:terracotta_cup\"}"
-	quest.160EE610C4B660D8.quest_desc: ["Goblin Traders are friendly fellows who are always happy to do business with humans! They're not the smartest, though, so they tend to offer deals that are quite good."]
+	quest.160EE610C4B660D8.quest_desc: ["&eGoblin Traders&r are friendly fellows who are always happy to do business with humans! They're not the smartest, though, so they tend to &aoffer deals&r that are quite good."]
 	quest.160EE610C4B660D8.quest_subtitle: "Eager but not too bright"
 	quest.160EE610C4B660D8.title: "Meet the Goblin Trader"
 	quest.160F162E7BB23A0B.quest_subtitle: "{components:{\"ae2:facade_item\":\"quark:smooth_soul_sandstone\"},count:1,id:\"ae2:facade\"}"
@@ -4490,6 +4497,7 @@
 	quest.1840A1E6672F2396.quest_subtitle: "{components:{\"ae2:facade_item\":\"create:waxed_exposed_copper_tiles\"},count:1,id:\"ae2:facade\"}"
 	quest.1840B65AD5C65C1C.quest_subtitle: "{components:{\"ae2:facade_item\":\"minecraft:dropper\"},count:1,id:\"ae2:facade\"}"
 	quest.18415475C13A8029.quest_subtitle: "{count:1,id:\"handcrafted:birch_fancy_bed\"}"
+	quest.184493C9F7227C64.title: "Happy Witch: Garden [Part 2]"
 	quest.1844EC104F0E37DC.quest_subtitle: "{count:1,id:\"betternether:nether_sakura_stripped_bark\"}"
 	quest.184A3A4128FF3ADA.quest_subtitle: "{count:1,id:\"betterend:aeridium\"}"
 	quest.184B7F46B81903E1.quest_subtitle: "{count:1,id:\"minecraft:lime_stained_glass\"}"
@@ -4582,6 +4590,13 @@
 	quest.18B231B0D5ECB7FA.quest_subtitle: "{count:1,id:\"twilightforest:lower_goblin_knight_spawn_egg\"}"
 	quest.18B6621EC48B6385.quest_subtitle: "{count:1,id:\"mcwfences:warped_pyramid_gate\"}"
 	quest.18B6D31237743CDD.quest_subtitle: "{count:1,id:\"create:cut_scoria_wall\"}"
+	quest.18B7D6B02C97FF23.quest_desc: [
+		"A skilled farmer doesn't just wait for nature to take her course - they help it along! One of the ways you can do this is through &bFertilizer&r. Now, you may have already encountered this, but &bBone Meal&r no longer works the way you may be used to. Although it can still be used &aon grass&r, and to &aduplicate small flowers&r, if you want to grow &bSaplings&r or &bCrops&r with it, you will want &bFertilizer&r!"
+		""
+		"You can craft a single &bFertilizer&r by &6inserting rotten flesh&r to either the &bSilo&r or the &bMincer&r (the latter is much faster but requires manual grinding). Then, if you wish, you can make that Fertilizer &amore potent by aging it&r. Place the &bFertilizer&r in a &bAging Cask&r with some organic matter such as &bTree Bark&r or &bStraw&r, and &await for nature to take her course&r."
+		""
+		"What? What do you mean, I just said not to do that? Oh. So I did. Well, you can always use &bTime in a Bottle&r to help it along, little guppy..."
+	]
 	quest.18B95EEE17047263.quest_subtitle: "{count:1,id:\"create:cut_asurine_brick_wall\"}"
 	quest.18BB4E5FA46473C1.quest_subtitle: "{components:{\"quark:item_count\":640,\"quark:stored_item\":{stack:{count:1,id:\"minecraft:melon_seeds\"}}},count:1,id:\"quark:seed_pouch\"}"
 	quest.18BC862AAB06F715.quest_subtitle: "{count:1,id:\"decorativerailings:birch_diagonal_handrail_3\"}"
@@ -6242,6 +6257,7 @@
 	quest.2143257AAC19A834.quest_subtitle: "{count:1,id:\"betterend:aeternium_sword_blade\"}"
 	quest.214537575338B7F5.quest_subtitle: "{components:{\"ae2:facade_item\":\"quark:polished_limestone\"},count:1,id:\"ae2:facade\"}"
 	quest.214669E76D2A1351.quest_subtitle: "{components:{\"ae2:facade_item\":\"hexerei:mahogany_window\"},count:1,id:\"ae2:facade\"}"
+	quest.2148B5338C91B771.quest_desc: ["spirit blooms can be found in swamps, and mangrove swamps"]
 	quest.21496EEB914410B7.quest_subtitle: "{count:1,id:\"cluttered:mini_flag_bi\"}"
 	quest.214D1EB927CA5624.quest_subtitle: "{count:1,id:\"hexerei:tallow_bottle\"}"
 	quest.2150F235488C31C6.quest_subtitle: "{count:1,id:\"betterend:sulphur_crystal\"}"
@@ -6999,12 +7015,6 @@
 	quest.2578C90F2F63091E.quest_subtitle: "{count:1,id:\"regions_unexplored:sandy_grass\"}"
 	quest.257B055F13C456F6.quest_subtitle: "{count:1,id:\"plushie_buddies:thread\"}"
 	quest.257C77635A52E7F6.quest_subtitle: "{count:1,id:\"arts_and_crafts:cork_button\"}"
-	quest.257C8B9C7DBEEC23.quest_desc: [
-		"The &bUncrafter&r is a magical salvager which can &areturn one ingredient&r from a crafted item. For example, if you put in a &bDiamond Helmet&r, you could &aretrieve one or more &bDiamonds&r from it."
-		""
-		"This works &aeven if the item has taken damage&r, so it could be a helpful way to salvage old gear!"
-	]
-	quest.257C8B9C7DBEEC23.title: "Obtain an Uncrafting Table"
 	quest.257E83B5AB224018.quest_subtitle: "{components:{\"ae2:facade_item\":\"create:bamboo_window\"},count:1,id:\"ae2:facade\"}"
 	quest.257F1DCDEC619664.quest_desc: ["The &bReplacer Satchel&r is incredibly useful, as it will &areplace broken &bBroom Brushes&r with ones in its inventory, beginning with the &6top left&r."]
 	quest.257F77CCC919BED4.quest_subtitle: "{count:1,id:\"quark:mossy_cobblestone_bricks_vertical_slab\"}"
@@ -9808,6 +9818,14 @@
 	quest.33B4DA651FC82377.quest_subtitle: "{count:1,id:\"create:copper_sheet\"}"
 	quest.33B4ED3AC0841C6C.quest_subtitle: "{count:1,id:\"quark:paper_lantern\"}"
 	quest.33B503DB1B004375.quest_subtitle: "{count:1,id:\"regions_unexplored:magnolia_sapling\"}"
+	quest.33B84E3E74BE73B7.quest_desc: [
+		"Many of the magical recipes you'll learn involve &aGrove Crafting&r, so let's get the basics of that squared away. Using your &bRunestone&r, you'll want to make both a &bGrove Stone&r and a &bGrove Crafter&r."
+		""
+		"The &bWild Grove Stone&r is the simplest to make, requiring only &bRunestone&r to make. Going forward, you'll want to &ainfuse &bGrove Stones&a with different types of magic&r to assist you in various ways. More on that later - for now, take these &bGrove Pedestals&r, which you'll want to use to &acraft &bWildwood Pedestals&r."
+		""
+		"Simply &6place the &bGrove Stone&r, &bGrove Crafter&r, and &bPedestals&r in &aclose proximity to one another&r, and then &6top the &bPedestals&r &6with your ingredients&r."
+	]
+	quest.33B84E3E74BE73B7.title: "Crafting Mystically"
 	quest.33B9FB0CBDAA182C.quest_subtitle: "{count:1,id:\"betterend:tenanea_crafting_table\"}"
 	quest.33BA5E33C97DC555.quest_subtitle: "{count:1,id:\"framedblocks:framed_flat_ext_double_slope_panel_corner\"}"
 	quest.33BF640CF999CD49.quest_subtitle: "{count:1,id:\"quark:andesite_bricks_stairs\"}"
@@ -10590,6 +10608,12 @@
 	quest.37E864245F292393.quest_subtitle: "{components:{\"minecraft:potion_contents\":{custom_effects:[{amplifier:1b,duration:2500,id:\"minecraft:mining_fatigue\",\"neoforge:cures\":[\"protected_by_totem\",\"milk\"],show_icon:1b}]}},count:1,id:\"reliquary:potion_essence\"}"
 	quest.37E99599D81792D0.quest_subtitle: "{count:1,id:\"minecraft:stripped_oak_log\"}"
 	quest.37EA4E25AEF9CF63.quest_subtitle: "{count:1,id:\"unusual_furniture:decorative_toolbox\"}"
+	quest.37EB25189E81986C.quest_desc: [
+		"The &bPyre&r is a place where you can &acraft and consecrate special items&r such as &bReagents&r for your spells. To use one, &6right click the crafting components onto the &bPyre&r, and then &6light it with &bFlint and Steel&r. Then, &await a few seconds for the fire to go out&r."
+		""
+		"&dIt is very important that you wait patiently, as right clicking the &bPyre&d while it's working will delete your spell&r! When the spell is completed, the item will pop into existence for you to pick up."
+	]
+	quest.37EB25189E81986C.title: "Pyres and Creation"
 	quest.37EF93D22EB79DCB.quest_subtitle: "{count:1,id:\"sophisticatedstorage:basic_to_gold_tier_upgrade\"}"
 	quest.37F005A4B6159732.quest_subtitle: "{count:1,id:\"betternether:nether_reed_bookshelf\"}"
 	quest.37F06E3272DAA974.quest_subtitle: "{count:1,id:\"betternether:mushroom_fir_barrel\"}"
@@ -10865,7 +10889,11 @@
 	quest.39623E03747C0E03.quest_subtitle: "{count:1,id:\"betterfishtanks:aquarist_table\"}"
 	quest.396704B1A935CF9B.quest_subtitle: "{count:1,id:\"cluttered:diamond_wallpaper_strawberry_bottom_white\"}"
 	quest.396966F03956A7B4.quest_subtitle: "{count:1,id:\"betternether:nether_reed_hanging_sign\"}"
-	quest.396C5F4A97427E6C.quest_desc: ["You can &6fill your watering can with water&r at &aany water source&r, such as a &bpond&r or &bSink&r. TODO KATU THIS IS A LIE"]
+	quest.396C5F4A97427E6C.quest_desc: [
+		"You can &6fill your watering can with water&r at &aa nearby water source&r (it does not consume the source block). To &afill it with fertilizer&r, &6hold the &bFertilizer&6 in your off-hand&r and the &bWatering Can&r in your main hand, and &6right click&r."
+		""
+		"Then, when you water your crops, it will not only &ahydrate the soil&r, but &aprovide a growth boost&r! You can also use it &aon grass&r to spawn tall grass and flowers."
+	]
 	quest.396C5F4A97427E6C.title: "Fill Your Watering Can"
 	quest.396EE44E6142FAD7.quest_subtitle: "{count:1,id:\"hexerei:willow_sign\"}"
 	quest.396F60D1538BBAA1.quest_subtitle: "{count:1,id:\"the_bumblezone:ancient_wax_bricks_slab\"}"
@@ -13296,7 +13324,7 @@
 		"- &bMandrake&r, &bBelladonna&r, &bYellow Dock&r, and &bMugwort&r can be found &cin swamp biomes&r."
 		"- &bGrove Moss&r can be found &agrowing on trees&r."
 	]
-	quest.4655801A35B3BAB2.title: "Happy Witch: Garden"
+	quest.4655801A35B3BAB2.title: "Happy Witch: Garden [Part 1]"
 	quest.46562E9E98A808B5.quest_subtitle: "{count:1,id:\"ae2:sky_stone_block\"}"
 	quest.4657D5A46C6BD240.quest_subtitle: "{count:1,id:\"hexerei:willow_leaves\"}"
 	quest.46588C1BC5C1AE88.quest_subtitle: "{count:1,id:\"betternether:soul_sandstone_smooth\"}"
@@ -13739,6 +13767,15 @@
 	quest.48CA19CA3CEACFFD.quest_subtitle: "{count:1,id:\"regions_unexplored:joshua_stairs\"}"
 	quest.48CCECBF1809A8DB.quest_subtitle: "{components:{\"minecraft:enchantments\":{levels:{\"minecraft:efficiency\":1}}},count:1,id:\"twilightforest:ironwood_pickaxe\"}"
 	quest.48CE066B5A85AEF1.quest_subtitle: "{count:1,id:\"the_bumblezone:string_curtain_light_gray\"}"
+	quest.48D0F767CFD4070B.quest_desc: [
+		"If you were particularly crude and uncultured, you might associate the &bStaff&r exclusively with &aWizardry&r, but in truth, that's a common misconception."
+		""
+		"As it turns out, Staves can be used by anyone, from &aHermits&r to &aDruids&r to - dare I say -  &aWarlocks&r, and yes, even &aWitches&r. In fact, &a&oespecially&r &aWitches&r. They are a marvelous way to &aconnect with Nature&r and an excellent Focus to use for spellcasting."
+		""
+		"You can craft one with &bLogs&r and &bWildroot&r. Then, you'll naturally be in want of &bsome spells&r to cast, don't you think?"
+	]
+	quest.48D0F767CFD4070B.quest_subtitle: "you're the staff manager now"
+	quest.48D0F767CFD4070B.title: "A Trusty Staff"
 	quest.48D31795EE14F6E0.quest_subtitle: "{count:1,id:\"quark:dripstone_pillar\"}"
 	quest.48D3BD45CBDCDF60.quest_subtitle: "{count:1,id:\"regions_unexplored:hyacinth_bloom\"}"
 	quest.48D4B91C84E1FBA5.quest_subtitle: "{count:1,id:\"the_bumblezone:ancient_wax_compound_eyes_slab\"}"
@@ -14541,9 +14578,6 @@
 	quest.4CC2E2878000BBDB.quest_subtitle: "{components:{\"ae2:facade_item\":\"minecraft:gray_wool\"},count:1,id:\"ae2:facade\"}"
 	quest.4CC3E2CC24B28B95.quest_subtitle: "{count:1,id:\"another_furniture:brown_curtain\"}"
 	quest.4CC40BF8AF1FC46A.quest_subtitle: "{count:1,id:\"the_bumblezone:banner_pattern_eyes\"}"
-	quest.4CC648A386724E49.quest_desc: ["&bCoffee Beans&r can be acquired from &cBasalt Deltas&r in the Nether. Although rumor has it that &asome coffee plants&r can spawn in the overworld, if you want to &6cultivate your own coffee plants&r, you'll need to do so in their &anative habitat&r."]
-	quest.4CC648A386724E49.quest_subtitle: "coffeecoffeecoffeecoffee"
-	quest.4CC648A386724E49.title: "Obtain Coffee Beans"
 	quest.4CC674134647CE17.quest_subtitle: "{count:1,id:\"quark:chorus_weeds\"}"
 	quest.4CC74224AE696AB9.quest_subtitle: "{count:1,id:\"betternether:wart_stripped_log\"}"
 	quest.4CC76683D6FB0310.quest_subtitle: "{count:1,id:\"colorfulazaleas:tecal_azalea_button\"}"
@@ -14667,14 +14701,6 @@
 	quest.4D45F551943A8683.quest_subtitle: "{count:1,id:\"cluttered:fwish_armchair\"}"
 	quest.4D491DD3C228F853.quest_subtitle: "{count:1,id:\"regions_unexplored:peat_farmland\"}"
 	quest.4D4BBF38D744E0B4.quest_subtitle: "{count:1,id:\"twilightforest:mangrove_planks\"}"
-	quest.4D50F0562D23BE6D.quest_desc: [
-		"&bTea&r is a small bush which can be grown in order to produce &btea leaves&r, which can be brewed into &btea&r. Let me say &btea&r some more. &bTea&r."
-		""
-		"You can find &bWild Tea Bushes&r in &cSwamps&r. To obtain different kinds of tea, &6allow the bush to continue growing&r until it changes color. This will allow you to gather &byellow&r and &bblack&r tea leaves!"
-		""
-		"&dYou cannot grow tea on &bFarmland&r, it must be planted on grass."
-	]
-	quest.4D50F0562D23BE6D.quest_subtitle: "the beginning of a beautiful thing"
 	quest.4D52FD7ED539939C.quest_subtitle: "{count:1,id:\"arts_and_crafts:light_gray_terracotta_shingle_stairs\"}"
 	quest.4D5445B26432194C.quest_subtitle: "{components:{\"ae2:facade_item\":\"utilitarian:inverted_lapis_lamp\"},count:1,id:\"ae2:facade\"}"
 	quest.4D5581659F787E17.quest_subtitle: "{count:1,id:\"arts_and_crafts:pink_paintbrush\"}"
@@ -17422,6 +17448,7 @@
 	quest.5B722717A7AB3858.quest_subtitle: "{components:{\"minecraft:potion_contents\":{custom_effects:[{duration:1500,id:\"minecraft:absorption\",\"neoforge:cures\":[\"protected_by_totem\",\"milk\"],show_icon:1b}]}},count:1,id:\"reliquary:splash_potion\"}"
 	quest.5B72DACF1334B20E.quest_subtitle: "{count:1,id:\"tanukidecor:green_pantry\"}"
 	quest.5B7416ADEE0FA801.quest_subtitle: "{count:1,id:\"the_bumblezone:glistering_honey_crystal\"}"
+	quest.5B74E777CB3DF54B.quest_desc: ["Once you have procured some &bWildroot&r or &bGrove Moss&r, you can use it to craft &bRunestone&r, a simple and yet deeply magical material which will help you to &abuild yourself a grove&r."]
 	quest.5B770264D48E3266.quest_subtitle: "{count:1,id:\"twilightforest:twilight_oak_banister\"}"
 	quest.5B78C38CDB8FAEB3.quest_subtitle: "{count:1,id:\"minecraft:glow_ink_sac\"}"
 	quest.5B7B2BFE094CDED5.quest_subtitle: "{count:1,id:\"enchanted:alder_sapling\"}"
@@ -17576,11 +17603,11 @@
 		""
 		"You can &6right click the vendor&r to buy the contents, as long as you have either &bexact change&r or a &bCard&r in your inventory. Look at the tooltip to determine &awhat you're buying and how much it costs&r."
 		""
-		"{image:enchanted_wilds:textures/questimages/numibuy.png width:100 height:90 align:1 fit:true}"
+		"{image:enchanted_wilds:textures/questimages/numibuy.png width:200 height:180 align:center click_action:none:}"
 		""
 		"See the next page to view how to &aset up your &bVendor&r to buy or sell!"
 		"{@pagebreak}"
-		"{image:enchanted_wilds:textures/questimages/numivendor.png width:100 height:80 align:1 fit:true}"
+		"{image:enchanted_wilds:textures/questimages/numivendor.png width:200 height:180 align:center click_action:none:}"
 		""
 		"&eA&r: These sections allow you to determine the price of the item you're selling. For example, something could cost 1 &bCrown&r and 2 &bSpurs&r."
 		""
@@ -19173,7 +19200,7 @@
 		""
 		"The &bKettle&r must be &6placed on a heat source&r in order to brew tea. You can use a &bcampfire&r, &bmagma block&r, or other source of warmth."
 		""
-		"Use a &bwater bucket&r or 3 &bwater bottles&r to fill the &bkettle&r with water by &6right clicking them&r on the block. Then, &6right click&r and place your brewing ingredients inside!"
+		"Use 2 &bwater buckets&r to fill the &bkettle&r with water by &6inserting them into the interface&r. Then, you can place your brewing ingredients inside!"
 	]
 	quest.644439D23D454629.quest_subtitle: "Don't let it call your Cooking Pot black."
 	quest.644439D23D454629.title: "Obtain a Kettle"
@@ -19947,8 +19974,6 @@
 	quest.681931BFBFB92907.quest_subtitle: "{components:{\"ae2:facade_item\":\"arts_and_crafts:black_chalk\"},count:1,id:\"ae2:facade\"}"
 	quest.6819F7CC074A58DF.quest_subtitle: "{components:{\"minecraft:stored_enchantments\":{levels:{\"the_bumblezone:potent_poison\":2}}},count:1,id:\"minecraft:enchanted_book\"}"
 	quest.681C6909E77024BB.quest_subtitle: "{count:1,id:\"starcatcher_delight:starcaught_fillet\"}"
-	quest.681F788C7628C120.quest_desc: ["&bWildroot&r can be found &cunder trees and underground&r, and can be &aplanted on tilled soil&r to grow more!"]
-	quest.681F788C7628C120.title: "Obtain Wildroot"
 	quest.68222CB7CDC0436A.quest_subtitle: "{count:1,id:\"twilightforest:experiment_115\"}"
 	quest.68224594C432A97B.quest_subtitle: "{count:1,id:\"arts_and_crafts:light_blue_mud_brick_stairs\"}"
 	quest.682449C3DEFE1378.quest_subtitle: "{count:1,id:\"thaumon:greatwood_door\"}"
@@ -20390,6 +20415,18 @@
 	quest.6A81B4A9CF7A3626.quest_subtitle: "{count:1,id:\"twilightforest:keepsake_casket\"}"
 	quest.6A823961017C71F7.quest_subtitle: "{count:1,id:\"starcatcher:boner_rod\"}"
 	quest.6A888745BFDDD149.quest_subtitle: "{components:{\"ae2:facade_item\":\"colorfulazaleas:white_azalea_leaves\"},count:1,id:\"ae2:facade\"}"
+	quest.6A89D2D688203ADF.quest_desc: [
+		"Now, perhaps you're thinking, what exactly does farming have to do with being a witch?"
+		""
+		"To this, I say, goodness, you've got a one-track mind, haven't you? Well, that's fair enough. Why don't we look at some &apractical spell application&r?"
+		""
+		"You've already gotten a &bStaff&r, right? If not, you'll want to &ascurry on over and make one&r:"
+		""
+		"{\"text\":\"A Trusty Staff\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"48D0F767CFD4070B/1\"},\"underlined\":true,\"color\":\"aqua\"}"
+		""
+		"And once you've got that ready, you'll want to &aprepare two spells&r: &bHarvest&r and &bGrowth Infusion&r. The former will &aharvest crops in an AoE&r, and the latter &aencourages the targeted plant to mature quickly&r. I wonder what other spells you could use in your agricultural pursuits?"
+	]
+	quest.6A89D2D688203ADF.title: "Magical Farming"
 	quest.6A8A659B86D8D61A.quest_subtitle: "{count:1,id:\"wilderflowers:moody_wildflower_garland\"}"
 	quest.6A8B3CCF73A8B5FB.quest_subtitle: "{count:1,id:\"regions_unexplored:yellow_bioshroom_pressure_plate\"}"
 	quest.6A8BDF9ABD3F5CC2.quest_subtitle: "{count:1,id:\"dramaticdoors:tall_timewood_door\"}"
@@ -24359,6 +24396,7 @@
 	reward_table.232BC82EEB69EF30.title: "Special Livestock"
 	reward_table.37071950A2B77FCE.title: "Redstone"
 	reward_table.3CDC3F477C949E04.title: "Mailboxes"
+	reward_table.3F7C3C459521025B.title: "Roots Seeds"
 	reward_table.47B52DCF31F29A69.title: "Currency - Grindy"
 	reward_table.4972AA871F691F6C.title: "Armor Trims"
 	reward_table.4CAFC1E4AA445442.title: "T3 Choice"
@@ -24428,6 +24466,7 @@
 	task.4B25469609B1A60C.title: "Extreme Sound Muffler"
 	task.4C295AEBDC55AA44.title: "Break Wild Green Grapes"
 	task.4C95BB438E558893.title: "Catacombs"
+	task.4CD12F56EF4F2478.title: "Any #roots:knives"
 	task.4D969F11A701F8AA.title: "I know how to find things now"
 	task.4F2FBE539DFDE88D.title: "Break Wild Corn"
 	task.4FA4B92C6339251C.title: "Claim and Load Chunks"

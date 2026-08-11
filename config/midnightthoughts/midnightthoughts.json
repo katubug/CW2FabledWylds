@@ -8,6 +8,8 @@
     "textOpacity": 1.0,
     "imageOpacity": 0.6,
     "specialSlideChance": 0.05,
+    "enableStarDust": true,
+    "showSlideProgress": true,
     "enableOverlay": true,
     "enableImage": true,
     "enableDailySummaryScreen": true,
@@ -16,6 +18,7 @@
     "hideChatWhenSleeping": true
   },
   "wellRested": {
+    "enabled": true,
     "levels": {
       "level5": {
         "durationMinutes": 15,
@@ -116,7 +119,21 @@
   },
   "comfort": {
     "enabled": true,
-    "scanRadius": 5
+    "scanRadius": 5,
+    "weights": {
+      "lighting": 1,
+      "carpet": 1,
+      "furniture": 1,
+      "decoration": 1,
+      "structure": 1,
+      "macabre": -1,
+      "hostile": -1,
+      "dark": -1
+    },
+    "nightmareThreshold": -1,
+    "sleepBlockThreshold": -2,
+    "nightmareEnabled": true,
+    "sleepBlockEnabled": true
   },
   "server": {
     "resetPhantomTimerForNonSleepers": true
@@ -125,6 +142,7 @@
     "theme": "classic",
     "wellRestedHudPosition": "primary",
     "hideWellRestedHud": false,
+    "hideSleepingPlayersHud": false,
     "hideThemeSwitchButton": false
   }
 }

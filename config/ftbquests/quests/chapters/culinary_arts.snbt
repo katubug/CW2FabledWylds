@@ -121,6 +121,7 @@
 	quests: [
 		{
 			id: "6EFFB8ED37DC8A47"
+			preset: "start"
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "1454EE401EB2C400"
@@ -137,20 +138,14 @@
 		}
 		{
 			id: "644439D23D454629"
+			preset: "start"
 			shape: "rsquare"
 			size: 2.0d
-			tasks: [
-				{
-					id: "5DBB1443F691F650"
-					item: { components: { "ftbquests:missing_item": "farmersrespite:kettle" }, count: 1, id: "ftbquests:missing_item" }
-					type: "item"
-				}
-				{
-					id: "598503BBFEC7C2CF"
-					item: { count: 1, id: "herbalbrews:tea_kettle" }
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "598503BBFEC7C2CF"
+				item: { count: 1, id: "herbalbrews:tea_kettle" }
+				type: "item"
+			}]
 			x: 3.0d
 			y: -3.0d
 		}
@@ -264,6 +259,7 @@
 			dependencies: ["2615CD06E32EC741"]
 			dependency_requirement: "one_completed"
 			id: "4F8BE51C9D3C16A2"
+			preset: "item"
 			rewards: [
 				{
 					count: 5
@@ -294,6 +290,7 @@
 		}
 		{
 			id: "2615CD06E32EC741"
+			preset: "start"
 			rewards: [
 				{
 					count: 5
@@ -335,6 +332,7 @@
 		{
 			dependencies: ["2615CD06E32EC741"]
 			id: "492DDC880E65C534"
+			preset: "progression"
 			rewards: [{
 				count: 6
 				id: "5598696BF6CA42B2"
@@ -355,6 +353,7 @@
 		{
 			dependencies: ["2615CD06E32EC741"]
 			id: "7557E8749BF869DF"
+			preset: "item"
 			tasks: [{
 				id: "4F456D411C163AA8"
 				item: { count: 1, id: "farmersdelight:cutting_board" }
@@ -470,6 +469,7 @@
 		{
 			dependencies: ["2615CD06E32EC741"]
 			id: "63A2968E78D4A9A7"
+			preset: "item"
 			rewards: [{
 				id: "2D5BD742430FC34B"
 				item: {
@@ -575,6 +575,7 @@
 		{
 			dependencies: ["2615CD06E32EC741"]
 			id: "7E532A89B21B20D1"
+			preset: "advancement"
 			shape: "octagon"
 			tasks: [{
 				advancement: "farmersdelight:main/use_skillet"
@@ -1272,6 +1273,7 @@
 		{
 			dependencies: ["2615CD06E32EC741"]
 			id: "3801F3578406768D"
+			preset: "item"
 			rewards: [
 				{
 					count: 5
@@ -1562,41 +1564,6 @@
 			y: 17.5d
 		}
 		{
-			dependencies: ["644439D23D454629"]
-			id: "4D50F0562D23BE6D"
-			tasks: [{
-				id: "543698154EB0CAEC"
-				item: { components: { "ftbquests:missing_item": "farmersrespite:tea_seeds" }, count: 1, id: "ftbquests:missing_item" }
-				type: "item"
-			}]
-			x: 5.5d
-			y: -3.0d
-		}
-		{
-			dependencies: ["4D50F0562D23BE6D"]
-			id: "4CC648A386724E49"
-			rewards: [{
-				count: 4
-				id: "17D6A23233AD29CE"
-				item: {
-					components: {
-						"ftbquests:missing_item": "farmersrespite:coffee_beans"
-					}
-					count: 1
-					id: "ftbquests:missing_item"
-				}
-				type: "item"
-			}]
-			shape: "hexagon"
-			tasks: [{
-				id: "3E4848E8E0248815"
-				item: { components: { "ftbquests:missing_item": "farmersrespite:coffee_beans" }, count: 1, id: "ftbquests:missing_item" }
-				type: "item"
-			}]
-			x: 8.0d
-			y: -3.0d
-		}
-		{
 			dependencies: ["34581095B797C667"]
 			id: "0340E6FF3BF8E75F"
 			shape: "hexagon"
@@ -1634,6 +1601,7 @@
 		{
 			dependencies: ["492DDC880E65C534"]
 			id: "4388413B656A4336"
+			preset: "progression"
 			tasks: [
 				{
 					id: "15D389A6DFEF6348"
@@ -1762,6 +1730,7 @@
 		{
 			dependencies: ["2615CD06E32EC741"]
 			id: "634BC93E44B404C2"
+			preset: "item"
 			shape: "hexagon"
 			tasks: [{
 				id: "4537AE4F85FC53CC"
@@ -1770,6 +1739,16 @@
 			}]
 			x: -8.0d
 			y: 1.0d
+		}
+		{
+			id: "6E90234166580EEB"
+			tasks: [{
+				id: "6E7811A150037597"
+				item: { count: 1, id: "trailandtales_delight:big_wooden_spoon" }
+				type: "item"
+			}]
+			x: -11.0d
+			y: -1.0d
 		}
 	]
 }

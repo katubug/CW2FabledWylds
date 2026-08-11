@@ -1,0 +1,33 @@
+{
+  "values": [
+    "roots:wooden_knife",
+    "roots:stone_knife",
+    "roots:iron_knife",
+    "roots:golden_knife",
+    "roots:diamond_knife",
+    "roots:netherite_knife",
+    "roots:copper_knife",
+    "roots:silver_knife",
+    "farmersdelight:flint_knife",
+    "farmersdelight:iron_knife",
+    "farmersdelight:diamond_knife",
+    "farmersdelight:netherite_knife",
+    "farmersdelight:golden_knife",
+    "ae2:certus_quartz_cutting_knife",
+    "ae2:nether_quartz_cutting_knife",
+    "bakery:bread_knife",
+    "trailandtales_delight:cherry_iron_knife",
+    "trailandtales_delight:sniffer_eggshell_knife",
+    "trailandtales_delight:cyan_crystal_knife",
+    "trailandtales_delight:crimson_crystal_knife",
+    "twilightdelight:ironwood_knife",
+    "twilightdelight:steeleaf_knife",
+    "twilightdelight:knightmetal_knife",
+    "twilightdelight:fiery_knife",
+    "hearthandharvest:flint_cleaver",
+    "hearthandharvest:iron_cleaver",
+    "hearthandharvest:diamond_cleaver",
+    "hearthandharvest:netherite_cleaver",
+    "hearthandharvest:golden_cleaver"
+  ]
+}

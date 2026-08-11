@@ -11,3 +11,13 @@ config/jei/ingredient-list-mod-sort-order.ini
 config/spark/activity.json
 config/exposure-client.toml
 config/oelib/dev_features.toml
+/config/midnightthoughts/dreams/fr_fr
+/config/midnightthoughts/dreams/it_it
+/config/midnightthoughts/dreams/ja_jp
+/config/midnightthoughts/dreams/ko_kr
+/config/midnightthoughts/dreams/pl_pl
+/config/midnightthoughts/dreams/pt_br
+/config/midnightthoughts/dreams/ru_ru
+/config/midnightthoughts/dreams/tr_tr
+/config/midnightthoughts/dreams/uk_ua
+/config/midnightthoughts/dreams/zh_cn

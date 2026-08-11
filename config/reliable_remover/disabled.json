@@ -317,6 +317,7 @@
             "farm_and_charm:roasted_corn",
             "farm_and_charm:rotten_tomato",
             "farm_and_charm:strawberry_tea_cup",
+            "mysticsbiomes:strawberry",
             "farm_and_charm:supply_cart",
             "farm_and_charm:tomato",
             "farm_and_charm:tomato_bag",
@@ -550,7 +551,20 @@
             "magic_vibe_decorations:ender_amethyst_fairy_lights",
             "magic_vibe_decorations:nether_fire_fairy_lights",
             "magic_vibe_decorations:fairylights",
-            "meadow:watering_can"
+            "meadow:watering_can",
+            "hearthandharvest:manure",
+            "hearthandharvest:wet_manure_brick",
+            "hearthandharvest:manure_brick",
+            "hearthandharvest:manure_bag",
+            "hearthandharvest:manure_block",
+            "hearthandharvest:manure_bricks",
+            "hearthandharvest:polished_manure",
+            "hearthandharvest:manure_brick_stairs",
+            "hearthandharvest:polished_manure_stairs",
+            "hearthandharvest:manure_brick_slab",
+            "hearthandharvest:polished_manure_slab",
+            "hearthandharvest:manure_brick_wall",
+            "hearthandharvest:polished_manure_wall"
         ]
     }
 ]

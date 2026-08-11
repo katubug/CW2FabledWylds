@@ -201,6 +201,7 @@
 		{
 			dependencies: ["182C1C3812C31B0B"]
 			id: "4655801A35B3BAB2"
+			preset: "progression"
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "74C6A26152B172D7"
@@ -230,23 +231,8 @@
 					type: "item"
 				}
 				{
-					id: "6953E1EA63C7C43B"
-					item: { count: 1, id: "hexerei:yellow_dock_flowers" }
-					type: "item"
-				}
-				{
 					id: "23D685539BC336A6"
 					item: { count: 1, id: "hexerei:mugwort_leaves" }
-					type: "item"
-				}
-				{
-					id: "7AD2B5B3A209FFB7"
-					item: { count: 1, id: "hexerei:mugwort_flowers" }
-					type: "item"
-				}
-				{
-					id: "38A75FB74A99DBB0"
-					item: { count: 1, id: "hexerei:belladonna_berries" }
 					type: "item"
 				}
 				{
@@ -722,12 +708,12 @@
 				item: { count: 1, id: "hexerei:seed_mixture" }
 				type: "item"
 			}]
-			x: 7.0d
-			y: -4.5d
+			x: 11.5d
+			y: 3.5d
 		}
 		{
-			dependencies: ["4655801A35B3BAB2"]
 			id: "24C19E2033095FFA"
+			preset: "milestone"
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "39F9BD8BE5012675"
@@ -740,8 +726,8 @@
 				item: { count: 1, id: "hexerei:pestle_and_mortar" }
 				type: "item"
 			}]
-			x: 3.0d
-			y: 1.5d
+			x: 6.75d
+			y: -4.5d
 		}
 		{
 			dependencies: ["18FD7541912B5772"]
@@ -771,8 +757,8 @@
 				target_radius_blocks: 5
 				type: "find_entity"
 			}]
-			x: 7.0d
-			y: -3.0d
+			x: 11.5d
+			y: 5.0d
 		}
 		{
 			dependencies: ["2F933DC876021A85"]
@@ -782,8 +768,8 @@
 				item: { count: 1, id: "minecraft:gold_nugget" }
 				type: "item"
 			}]
-			x: 8.5d
-			y: -4.5d
+			x: 13.0d
+			y: 3.5d
 		}
 		{
 			dependencies: ["2F933DC876021A85"]
@@ -793,8 +779,8 @@
 				item: { count: 1, id: "hexerei:crow_flute" }
 				type: "item"
 			}]
-			x: 8.5d
-			y: -3.0d
+			x: 13.0d
+			y: 5.0d
 		}
 		{
 			dependencies: ["2F933DC876021A85"]
@@ -805,8 +791,8 @@
 				item: { count: 1, id: "hexerei:crow_ankh_amulet" }
 				type: "item"
 			}]
-			x: 7.0d
-			y: -1.5d
+			x: 11.5d
+			y: 6.5d
 		}
 		{
 			dependencies: ["327D93798A7BE211"]
@@ -897,8 +883,8 @@
 				item: { count: 1, id: "hexerei:witch_boots" }
 				type: "item"
 			}]
-			x: 3.5d
-			y: -0.5d
+			x: 2.5d
+			y: -1.0d
 		}
 		{
 			dependencies: ["50DC32C40279EF48"]
@@ -981,8 +967,8 @@
 				item: { count: 1, id: "hexerei:witch_chestplate" }
 				type: "item"
 			}]
-			x: 2.5d
-			y: -0.5d
+			x: 1.0d
+			y: -1.0d
 		}
 		{
 			dependencies: ["427FD234857AEBE8"]
@@ -1055,21 +1041,14 @@
 		{
 			dependencies: ["4655801A35B3BAB2"]
 			id: "621ACA8319D6CB93"
-			rewards: [
-				{
-					id: "14DC50EE33D19287"
-					item: {
-						count: 1
-						id: "hexerei:herb_drying_rack_full"
-					}
-					type: "item"
+			rewards: [{
+				id: "14DC50EE33D19287"
+				item: {
+					count: 1
+					id: "hexerei:herb_drying_rack_full"
 				}
-				{
-					exclude_from_claim_all: true
-					id: "064D57C2FD1652D0"
-					type: "choice"
-				}
-			]
+				type: "item"
+			}]
 			shape: "hexagon"
 			tasks: [{
 				id: "567219C6B62AB26E"
@@ -1106,24 +1085,14 @@
 		{
 			dependencies: ["4655801A35B3BAB2"]
 			id: "4183514EA291214A"
-			rewards: [
-				{
-					id: "7FB8B124B3FC4D76"
-					item: {
-						count: 1
-						id: "minecraft:apple"
-					}
-					type: "item"
+			rewards: [{
+				id: "0F2490DE015E8A6A"
+				item: {
+					count: 1
+					id: "enchanted:earmuffs"
 				}
-				{
-					id: "0F2490DE015E8A6A"
-					item: {
-						count: 1
-						id: "enchanted:earmuffs"
-					}
-					type: "item"
-				}
-			]
+				type: "item"
+			}]
 			shape: "hexagon"
 			tasks: [{
 				id: "64E8C35BE36ADC2B"
@@ -1204,17 +1173,8 @@
 			y: 2.0d
 		}
 		{
-			id: "681F788C7628C120"
-			tasks: [{
-				id: "2F3CCACEDA5881D6"
-				item: { count: 1, id: "roots:wildroot" }
-				type: "item"
-			}]
-			x: -6.5d
-			y: -0.5d
-		}
-		{
 			id: "41A361B4DEFCEFA6"
+			preset: "item"
 			rewards: [{
 				id: "367FFC4413194C02"
 				item: {
@@ -1230,6 +1190,276 @@
 			}]
 			x: -6.0d
 			y: 1.0d
+		}
+		{
+			dependencies: ["0C7EA86F283677BB"]
+			id: "48D0F767CFD4070B"
+			preset: "progression"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "42CE686C498F4FCB"
+				table_id: 5770973074849872376L
+				type: "random"
+			}]
+			tasks: [{
+				id: "09C28DA63A54F36E"
+				item: { count: 1, id: "roots:staff" }
+				type: "item"
+			}]
+			x: -8.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["33B84E3E74BE73B7"]
+			id: "0D9CF1E8881559EC"
+			preset: "progression"
+			tasks: [{
+				id: "2EFBAA11B8EEB7E6"
+				item: { count: 1, id: "roots:runic_shears" }
+				type: "item"
+			}]
+			x: -10.0d
+			y: 3.5d
+		}
+		{
+			id: "0C7EA86F283677BB"
+			tasks: [{
+				id: "4CD12F56EF4F2478"
+				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(roots:knives)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: -9.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["0C7EA86F283677BB"]
+			id: "5B74E777CB3DF54B"
+			preset: "progression"
+			tasks: [{
+				id: "397970D55AFA9194"
+				item: { count: 1, id: "roots:runestone" }
+				type: "item"
+			}]
+			x: -9.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["5B74E777CB3DF54B"]
+			id: "33B84E3E74BE73B7"
+			preset: "milestone"
+			rewards: [{
+				count: 4
+				id: "6D1274044AB5ED47"
+				item: {
+					count: 1
+					id: "roots:grove_pedestal"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "2BCFABE474A3579B"
+					item: { count: 1, id: "roots:grove_crafter" }
+					type: "item"
+				}
+				{
+					id: "70557DFC455B6A0F"
+					item: { count: 1, id: "roots:wild_grove_stone" }
+					type: "item"
+				}
+			]
+			x: -9.75d
+			y: 1.5d
+		}
+		{
+			dependencies: ["5B74E777CB3DF54B"]
+			id: "37EB25189E81986C"
+			preset: "progression"
+			tasks: [{
+				id: "3B453EE399A08E36"
+				item: { count: 1, id: "roots:pyre" }
+				type: "item"
+			}]
+			x: -12.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["37EB25189E81986C"]
+			id: "3BA9CF40329DD0E4"
+			preset: "item"
+			tasks: [
+				{
+					id: "5AF9D8F1F0A06EF4"
+					item: { count: 1, id: "roots:moonglow_seeds" }
+					type: "item"
+				}
+				{
+					id: "0835F1EFDB099355"
+					item: { count: 1, id: "roots:bafflecap" }
+					type: "item"
+				}
+			]
+			x: -14.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["0D9CF1E8881559EC"]
+			id: "2FC90835997D3625"
+			preset: "item"
+			tasks: [
+				{
+					id: "442FD04084545FB8"
+					item: { count: 1, id: "roots:spiritleaf_seeds" }
+					type: "item"
+				}
+				{
+					id: "1508C80D92AFC62C"
+					item: { count: 1, id: "roots:wildewheet_seeds" }
+					type: "item"
+				}
+			]
+			x: -10.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["37EB25189E81986C"]
+			id: "74CA9AD22F17F62E"
+			preset: "item"
+			tasks: [
+				{
+					id: "2EF4B0F63AF03A1B"
+					item: { count: 1, id: "roots:cloud_berry" }
+					type: "item"
+				}
+				{
+					id: "3B8531A62B42CB96"
+					item: { count: 1, id: "roots:dewgonia" }
+					type: "item"
+				}
+				{
+					id: "1380D40A37E723F2"
+					item: { count: 1, id: "roots:inferno_bulb" }
+					type: "item"
+				}
+				{
+					id: "166AE860E963BFE5"
+					item: { count: 1, id: "roots:stalicripe" }
+					type: "item"
+				}
+			]
+			x: -12.5d
+			y: 1.5d
+		}
+		{
+			id: "2148B5338C91B771"
+			tasks: [
+				{
+					id: "58A0DF5DA46556EF"
+					item: { count: 1, id: "hexalia:spirit_bloom" }
+					type: "item"
+				}
+				{
+					id: "7B459B42054A68BE"
+					item: { count: 1, id: "hexalia:spirit_powder" }
+					type: "item"
+				}
+			]
+			x: -12.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["4655801A35B3BAB2"]
+			id: "184493C9F7227C64"
+			preset: "progression"
+			tasks: [
+				{
+					id: "5418C4A794CEAF75"
+					item: { count: 1, id: "hexalia:spirit_bloom" }
+					type: "item"
+				}
+				{
+					id: "76A3F24D6F09D984"
+					item: { count: 1, id: "hexalia:dreamshroom" }
+					type: "item"
+				}
+				{
+					id: "2FA4C4A920441EAF"
+					item: { count: 1, id: "hexalia:siren_kelp" }
+					type: "item"
+				}
+				{
+					id: "67D28543969D4D33"
+					item: { count: 1, id: "hexalia:ghost_fern" }
+					type: "item"
+				}
+				{
+					id: "125D34D188B3A8B1"
+					item: { count: 1, id: "hexalia:celestial_bloom" }
+					type: "item"
+				}
+				{
+					id: "10CDBA5B7D85F0FE"
+					item: { count: 1, id: "hexalia:witchweed" }
+					type: "item"
+				}
+				{
+					id: "4706A7B9194EBAF6"
+					item: { count: 1, id: "hexalia:mandrake" }
+					type: "item"
+				}
+				{
+					id: "70C04CA43C033536"
+					item: { count: 1, id: "hexalia:sunfire_tomato" }
+					type: "item"
+				}
+				{
+					id: "09BF51A6BA2A74A2"
+					item: { count: 1, id: "hexalia:chillberries" }
+					type: "item"
+				}
+				{
+					id: "2C8C473DB0DF1B84"
+					item: { count: 1, id: "hexalia:saltsprout" }
+					type: "item"
+				}
+			]
+			x: 3.0d
+			y: 1.5d
+		}
+		{
+			id: "0C72B71937E0F79F"
+			rewards: [{
+				id: "15B772AA3085E5B5"
+				item: {
+					count: 1
+					id: "hexalia:mutavis"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "08FEC9DF138CACA5"
+					item: { count: 1, id: "hexalia:spirit_powder" }
+					type: "item"
+				}
+				{
+					id: "685192EF7F3026A2"
+					item: { count: 1, id: "hexalia:dream_paste" }
+					type: "item"
+				}
+				{
+					id: "361D3B5FC9F0D1C4"
+					item: { count: 1, id: "hexalia:siren_paste" }
+					type: "item"
+				}
+				{
+					id: "1777C90F254D44AA"
+					item: { count: 1, id: "hexalia:ghost_powder" }
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: -7.5d
 		}
 	]
 }

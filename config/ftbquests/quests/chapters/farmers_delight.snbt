@@ -874,14 +874,66 @@
 			y: -1.5d
 		}
 		{
+			dependencies: ["18B7D6B02C97FF23"]
 			id: "396C5F4A97427E6C"
+			preset: "progression"
 			tasks: [{
 				id: "4EFCAF84817FCF62"
 				item: { components: { "hearthandharvest:bonemeal_level": 16, "hearthandharvest:fertilizer_item": "farm_and_charm:fertilizer", "hearthandharvest:water_level": 16 }, count: 1, id: "hearthandharvest:watering_can" }
 				type: "item"
 			}]
-			x: -1.5d
-			y: -6.0d
+			x: -2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2CA80140F624D0AE"]
+			id: "18B7D6B02C97FF23"
+			preset: "item"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "546A541626D716A3"
+				table_id: 7328857662613080212L
+				type: "random"
+			}]
+			tasks: [
+				{
+					id: "5F022FA809242CF6"
+					item: { count: 1, id: "farm_and_charm:fertilizer" }
+					type: "item"
+				}
+				{
+					id: "18469C0C1DD2C8F7"
+					item: { count: 1, id: "hearthandharvest:fertilizer_bag" }
+					type: "item"
+				}
+			]
+			x: -4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["18B7D6B02C97FF23"]
+			id: "6A89D2D688203ADF"
+			preset: "progression"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "63C922397B257803"
+				table_id: 4574597591053959771L
+				type: "choice"
+			}]
+			tasks: [
+				{
+					id: "5917D24F797DD173"
+					item: { count: 1, id: "roots:harvest" }
+					type: "item"
+				}
+				{
+					id: "2566810ED0EDC30A"
+					item: { count: 1, id: "roots:growth_infusion" }
+					type: "item"
+				}
+			]
+			x: -3.0d
+			y: 2.0d
 		}
 	]
 }

@@ -29,6 +29,15 @@
 			x: 10.8d
 			y: -9.4d
 		}
+		{
+			height: 5.311475409836066d
+			id: "310DBD24A8BE774F"
+			image: "quest_enhance:textures/ftb/clipboard_1786044324131.png"
+			rotation: 0.0d
+			width: 8.0d
+			x: 5.0d
+			y: -18.0d
+		}
 	]
 	order_index: 2
 	quest_enhance_decorative_lines: [ ]

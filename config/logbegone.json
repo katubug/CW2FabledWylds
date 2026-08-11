@@ -16,7 +16,10 @@
       "Missing trade item listings",
       "Unable to load model",
       "@ Post render",
-      "65539: Invalid key"
+      "65539: Invalid key",
+      "Skipping recipe",
+      "@ Pre render",
+      "# GL ERROR #"
     ],
     "regex": [
       "Disconnecting VANILLA connection attempt",

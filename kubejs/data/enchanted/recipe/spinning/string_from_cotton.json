@@ -1,0 +1,15 @@
+{
+  "type": "enchanted:wheel",
+  "duration": 300,
+  "ingredients": [
+    {
+      "item": "hearthandharvest:cotton",
+      "count": 3
+    }
+  ],
+  "power": 0,
+  "result": {
+    "item": "minecraft:string",
+    "count": 2
+  }
+}

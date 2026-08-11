@@ -1,393 +1,396 @@
 {
-  "schemaVersion": 2,
+  "schema_version": 3,
   "global": {
-    "enableSmoothBlur": true,
-    "blurDuration": 300,
-    "blurContainers": true,
-    "dimmingEasing": "EASE_OUT_CUBIC",
-    "elementProfiles": {
-      "BUTTON_LIKE": {
+    "enabled": true,
+    "background_animation_duration": 300,
+    "blur_all_transparent_screens": true,
+    "background_dimming_intensity": 0.2,
+    "background_animation_easing": "ease_out_cubic",
+    "element_profiles": {
+      "button_like": {
         "enabled": true,
         "duration": 400,
-        "offset": {
+        "initial_offset": {
           "x": 0.0,
           "y": 15.0
         },
-        "startScale": {
+        "initial_scale": {
           "x": 1.0,
           "y": 1.0
         },
-        "startAlpha": 0.0,
-        "cascadeDelay": 45,
-        "pivot": "CENTER",
-        "easing": "EASE_OUT_BACK",
-        "cascadeDirection": "BOTTOM_TO_TOP"
+        "initial_alpha": 0.0,
+        "cascade_delay": 45,
+        "pivot": "center",
+        "easing": "ease_out_back",
+        "cascade_direction": "bottom_to_top"
       },
-      "TEXT": {
+      "text": {
         "enabled": true,
         "duration": 300,
-        "offset": {
+        "initial_offset": {
           "x": 0.0,
           "y": 0.0
         },
-        "startScale": {
+        "initial_scale": {
           "x": 1.0,
           "y": 1.0
         },
-        "startAlpha": 0.0,
-        "cascadeDelay": 0,
-        "pivot": "CENTER",
-        "easing": "LINEAR",
-        "cascadeDirection": "TOP_TO_BOTTOM"
+        "initial_alpha": 0.0,
+        "cascade_delay": 0,
+        "pivot": "center",
+        "easing": "linear",
+        "cascade_direction": "top_to_bottom"
       },
-      "SCROLLABLE": {
+      "scrollable": {
         "enabled": true,
         "duration": 300,
-        "offset": {
+        "initial_offset": {
           "x": 0.0,
           "y": 0.0
         },
-        "startScale": {
+        "initial_scale": {
           "x": 1.0,
           "y": 1.0
         },
-        "startAlpha": 0.0,
-        "cascadeDelay": 0,
-        "pivot": "CENTER",
-        "easing": "EASE_OUT_BACK",
-        "cascadeDirection": "TOP_TO_BOTTOM"
+        "initial_alpha": 0.0,
+        "cascade_delay": 0,
+        "pivot": "center",
+        "easing": "ease_out_back",
+        "cascade_direction": "top_to_bottom"
       },
-      "LIST_ENTRY": {
+      "list_entry": {
         "enabled": true,
         "duration": 350,
-        "offset": {
+        "initial_offset": {
           "x": 0.0,
           "y": 15.0
         },
-        "startScale": {
+        "initial_scale": {
           "x": 1.0,
           "y": 1.0
         },
-        "startAlpha": 0.0,
-        "cascadeDelay": 45,
-        "pivot": "CENTER",
-        "easing": "EASE_OUT_CUBIC",
-        "cascadeDirection": "TOP_TO_BOTTOM"
+        "initial_alpha": 0.0,
+        "cascade_delay": 45,
+        "pivot": "center",
+        "easing": "ease_out_cubic",
+        "cascade_direction": "top_to_bottom"
       },
-      "CONTAINERS": {
+      "containers": {
         "enabled": true,
         "duration": 250,
-        "offset": {
+        "initial_offset": {
           "x": 0.0,
           "y": 20.0
         },
-        "startScale": {
+        "initial_scale": {
           "x": 1.0,
           "y": 1.0
         },
-        "startAlpha": 0.0,
-        "cascadeDelay": 0,
-        "pivot": "CENTER",
-        "easing": "EASE_OUT_CUBIC",
-        "cascadeDirection": "TOP_TO_BOTTOM"
+        "initial_alpha": 0.0,
+        "cascade_delay": 0,
+        "pivot": "center",
+        "easing": "ease_out_cubic",
+        "cascade_direction": "top_to_bottom"
       }
     }
   },
   "screens": {
     "container": {
       "enabled": true,
-      "customProfiles": {}
+      "custom_profiles": {}
     },
     "furnace": {
       "enabled": true,
-      "customProfiles": {}
+      "custom_profiles": {}
     },
     "horse_inventory": {
       "enabled": true,
-      "customProfiles": {}
+      "custom_profiles": {}
     },
     "book_edit": {
       "enabled": true,
-      "customProfiles": {}
+      "custom_profiles": {}
     },
     "book_view": {
       "enabled": true,
-      "customProfiles": {}
+      "custom_profiles": {}
     },
     "smithing": {
       "enabled": true,
-      "customProfiles": {}
+      "custom_profiles": {}
     },
     "disconnected": {
       "enabled": true,
-      "customProfiles": {}
+      "custom_profiles": {}
     },
     "loom": {
       "enabled": true,
-      "customProfiles": {}
+      "custom_profiles": {}
     },
     "pack_selection": {
       "enabled": true,
-      "customProfiles": {}
+      "custom_profiles": {}
     },
     "sign_edit": {
       "enabled": true,
-      "customProfiles": {}
+      "custom_profiles": {}
     },
     "options": {
       "enabled": true,
-      "customProfiles": {}
+      "custom_profiles": {}
     },
     "warning": {
       "enabled": true,
-      "customProfiles": {}
+      "custom_profiles": {}
     },
     "stonecutter": {
       "enabled": true,
-      "customProfiles": {}
+      "custom_profiles": {}
     },
     "survival_inventory": {
       "enabled": true,
-      "customProfiles": {}
+      "custom_profiles": {}
     },
     "social_interactions": {
       "enabled": true,
-      "customProfiles": {}
+      "custom_profiles": {}
     },
     "create_world": {
       "enabled": true,
-      "customProfiles": {}
+      "custom_profiles": {}
     },
     "realms_main": {
       "enabled": true,
-      "customProfiles": {}
+      "custom_profiles": {}
     },
     "creative_inventory": {
       "enabled": true,
-      "customProfiles": {}
+      "custom_profiles": {}
     },
     "edit_game_rules": {
       "enabled": true,
-      "customProfiles": {}
+      "custom_profiles": {}
     },
     "enchanting_table": {
       "enabled": true,
-      "customProfiles": {}
+      "custom_profiles": {}
     },
     "command_block_edit": {
       "enabled": true,
-      "customProfiles": {}
+      "custom_profiles": {}
     },
     "options_sub": {
       "enabled": true,
-      "customProfiles": {}
+      "custom_profiles": {}
     },
     "pause": {
       "enabled": true,
-      "customProfiles": {}
+      "custom_profiles": {}
     },
     "direct_join_server": {
       "enabled": true,
-      "customProfiles": {}
+      "custom_profiles": {}
     },
     "grindstone": {
       "enabled": true,
-      "customProfiles": {}
+      "custom_profiles": {}
     },
     "share_to_lan": {
       "enabled": true,
-      "customProfiles": {}
+      "custom_profiles": {}
     },
     "beacon": {
       "enabled": true,
-      "customProfiles": {}
+      "custom_profiles": {}
     },
     "crafting": {
       "enabled": true,
-      "customProfiles": {}
+      "custom_profiles": {}
     },
     "server_selection": {
       "enabled": true,
-      "customProfiles": {}
+      "custom_profiles": {}
     },
     "other_containers": {
       "enabled": true,
-      "customProfiles": {}
+      "custom_profiles": {}
     },
     "cartography_table": {
       "enabled": true,
-      "customProfiles": {}
+      "custom_profiles": {}
     },
     "other": {
       "enabled": false,
-      "customProfiles": {}
+      "custom_profiles": {}
     },
     "death": {
       "enabled": true,
-      "customProfiles": {}
+      "custom_profiles": {}
     },
     "anvil": {
       "enabled": true,
-      "customProfiles": {}
+      "custom_profiles": {}
     },
     "experiments": {
       "enabled": true,
-      "customProfiles": {}
+      "custom_profiles": {}
     },
     "jigsaw_block_edit": {
       "enabled": true,
-      "customProfiles": {}
+      "custom_profiles": {}
     },
     "brewing_stand": {
       "enabled": true,
-      "customProfiles": {}
+      "custom_profiles": {}
     },
     "server_reconfig": {
       "enabled": true,
-      "customProfiles": {}
+      "custom_profiles": {}
     },
     "title": {
       "enabled": true,
-      "customProfiles": {},
+      "custom_profiles": {},
       "logo": {
-        "animateWholeText": false,
-        "logoProfile": {
+        "animate_whole_text": false,
+        "logo_profile": {
           "enabled": true,
           "duration": 400,
-          "offset": {
+          "initial_offset": {
             "x": 0.0,
             "y": 10.0
           },
-          "startScale": {
+          "initial_scale": {
             "x": 0.8,
             "y": 0.8
           },
-          "startAlpha": 0.0,
-          "cascadeDelay": 60,
-          "pivot": "CENTER",
-          "easing": "EASE_OUT_BACK",
-          "cascadeDirection": "LEFT_TO_RIGHT"
+          "initial_alpha": 0.0,
+          "cascade_delay": 60,
+          "pivot": "center",
+          "easing": "ease_out_back",
+          "cascade_direction": "left_to_right"
         },
-        "editionProfile": {
+        "edition_profile": {
           "enabled": true,
           "duration": 400,
-          "offset": {
+          "initial_offset": {
             "x": 0.0,
             "y": 5.0
           },
-          "startScale": {
+          "initial_scale": {
             "x": 0.9,
             "y": 0.9
           },
-          "startAlpha": 0.0,
-          "cascadeDelay": 0,
-          "pivot": "CENTER",
-          "easing": "EASE_OUT_QUAD",
-          "cascadeDirection": "TOP_TO_BOTTOM"
+          "initial_alpha": 0.0,
+          "cascade_delay": 0,
+          "pivot": "center",
+          "easing": "ease_out_quad",
+          "cascade_direction": "top_to_bottom"
         }
       },
       "splash": {
         "enabled": true,
-        "splashDelay": 500,
-        "splashDuration": 500,
-        "splashEasing": "EASE_OUT_BACK"
+        "splash_delay": 500,
+        "splash_duration": 500,
+        "splash_easing": "ease_out_back"
       }
     },
     "dispenser": {
       "enabled": true,
-      "customProfiles": {}
+      "custom_profiles": {}
     },
     "advancements": {
       "enabled": true,
-      "customProfiles": {},
-      "advancements": {
-        "windowProfile": {
-          "enabled": true,
-          "duration": 250,
-          "offset": {
-            "x": 0.0,
-            "y": 0.0
-          },
-          "startScale": {
-            "x": 0.8,
-            "y": 0.8
-          },
-          "startAlpha": 0.0,
-          "cascadeDelay": 0,
-          "pivot": "CENTER",
-          "easing": "EASE_OUT_CUBIC",
-          "cascadeDirection": "TOP_TO_BOTTOM"
+      "custom_profiles": {},
+      "window_profile": {
+        "enabled": true,
+        "duration": 250,
+        "initial_offset": {
+          "x": 0.0,
+          "y": 0.0
         },
-        "tabsProfile": {
-          "enabled": true,
-          "duration": 400,
-          "offset": {
-            "x": -40.0,
-            "y": 0.0
-          },
-          "startScale": {
-            "x": 1.0,
-            "y": 1.0
-          },
-          "startAlpha": 0.0,
-          "cascadeDelay": 45,
-          "pivot": "CENTER",
-          "easing": "EASE_OUT_BACK",
-          "cascadeDirection": "LEFT_TO_RIGHT"
-        }
+        "initial_scale": {
+          "x": 0.8,
+          "y": 0.8
+        },
+        "initial_alpha": 0.0,
+        "cascade_delay": 0,
+        "pivot": "center",
+        "easing": "ease_out_cubic",
+        "cascade_direction": "top_to_bottom"
+      },
+      "tabs_profile": {
+        "enabled": true,
+        "duration": 400,
+        "initial_offset": {
+          "x": -40.0,
+          "y": 0.0
+        },
+        "initial_scale": {
+          "x": 1.0,
+          "y": 1.0
+        },
+        "initial_alpha": 0.0,
+        "cascade_delay": 45,
+        "pivot": "center",
+        "easing": "ease_out_back",
+        "cascade_direction": "left_to_right"
       }
     },
     "lectern": {
       "enabled": true,
-      "customProfiles": {}
+      "custom_profiles": {}
     },
     "credits": {
       "enabled": true,
-      "customProfiles": {}
+      "custom_profiles": {}
     },
     "crafter": {
       "enabled": true,
-      "customProfiles": {}
+      "custom_profiles": {}
     },
     "create_flat_world": {
       "enabled": true,
-      "customProfiles": {}
+      "custom_profiles": {}
     },
     "world_selection": {
       "enabled": true,
-      "customProfiles": {}
+      "custom_profiles": {}
     },
     "edit_world": {
       "enabled": true,
-      "customProfiles": {}
+      "custom_profiles": {}
     },
     "structure_block_edit": {
       "enabled": true,
-      "customProfiles": {}
+      "custom_profiles": {}
     },
     "shulker_box": {
       "enabled": true,
-      "customProfiles": {}
+      "custom_profiles": {}
     },
     "edit_server": {
       "enabled": true,
-      "customProfiles": {}
+      "custom_profiles": {}
     },
     "connecting": {
       "enabled": true,
-      "customProfiles": {}
+      "custom_profiles": {}
     },
     "hopper": {
       "enabled": true,
-      "customProfiles": {}
+      "custom_profiles": {}
     },
     "statistics": {
       "enabled": true,
-      "customProfiles": {}
+      "custom_profiles": {}
     },
     "ease_gui_config": {
       "enabled": true,
-      "customProfiles": {}
+      "custom_profiles": {}
+    },
+    "confirm_link": {
+      "enabled": true,
+      "custom_profiles": {}
     }
   }
 }

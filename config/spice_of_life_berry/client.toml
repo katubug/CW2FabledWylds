@@ -63,6 +63,8 @@
 		enableModdedInventoryCloud = true
 		showModdedInventoryCloudCloseButton = true
 		moddedInventoryScreenClassHints = ["curios", "inventorio"]
+		enableHudItems = true
+		enableInventoryItems = true
 
 		[compat.visuals.category_mini_cloud]
 			enableCategoryMiniCloud = true

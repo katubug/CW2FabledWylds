@@ -4,10 +4,7 @@
   "experience": 2.0,
   "ingredients": [
     {
-      "item": "minecraft:bone_meal"
-    },
-    {
-      "item": "hearthandharvest:manure"
+      "item": "farm_and_charm:fertilizer"
     },
     {
       "item": "farmersdelight:straw"
