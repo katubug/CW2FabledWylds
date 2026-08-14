@@ -1,14 +1,4 @@
-// Custom saplings that grow into one of several prebuilt NBT structures
-// (picked at random) on random tick. Structure files live at
-// kubejs/data/kubejs/structures/<key>.nbt
-//   - Greatwood  -> kubejs/data/kubejs/structures/greatwood_tree_1.nbt, _2.nbt, _3.nbt
-//   - Silverwood -> kubejs/data/kubejs/structures/silverwood_tree_1.nbt, _2.nbt, _3.nbt
-//
-// When you export each tree with a structure block, place the structure
-// block itself at the trunk's base block - the same spot the sapling sits
-// in the world. That way the structure's local origin (0,0,0) lines up
-// with the sapling's position and no offset math is needed below.
-
+//have not tested this script yet
 const SAPLINGS = {
 	greatwood_sapling: {
 		name: 'Greatwood Sapling',
@@ -39,9 +29,6 @@ StartupEvents.registry('block', event => {
 	}
 })
 
-// Rhino can freeze a const captured straight out of a for-loop body at its
-// first-iteration value inside a closure - binding it through a fresh
-// function parameter here avoids that. See KubeJS/Rhino loop-const memory.
 function makeGrowCallback(structurePool) {
 	return event => growTree(event, structurePool)
 }
@@ -67,7 +54,5 @@ function growTree(event, structurePool) {
 	const StructurePlaceSettings = Java.loadClass('net.minecraft.world.level.levelgen.structure.templatesystem.StructurePlaceSettings')
 	const settings = new StructurePlaceSettings()
 
-	// pos is used as both the offset and the anchor - see the note at the
-	// top of this file about where to put the structure block when exporting.
 	template.placeInWorld(level, pos, pos, settings, level.random, 2)
 }
