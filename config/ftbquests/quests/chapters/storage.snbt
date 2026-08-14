@@ -13,7 +13,7 @@
 		{
 			height: 20.0d
 			id: "240BFE265EE7BA76"
-			image: "enchanted_wilds:textures/questui/bookbgslg/red_book_lg.png"
+			image: "fabled_wylds:textures/questui/bookbgslg/red_book_lg.png"
 			rotation: 0.0d
 			width: 25.0d
 			x: 14.3d
@@ -23,7 +23,7 @@
 			color: 12202242
 			height: 2.5d
 			id: "2245686259B27BC6"
-			image: "enchanted_wilds:textures/questui/titles/storage.png"
+			image: "fabled_wylds:textures/questui/titles/storage.png"
 			rotation: 0.0d
 			width: 9.0d
 			x: 9.4d
@@ -33,7 +33,7 @@
 			color: 12202242
 			height: 1.25d
 			id: "0D4251BF914B00CC"
-			image: "enchanted_wilds:textures/questui/subtitles/storagenetwork.png"
+			image: "fabled_wylds:textures/questui/subtitles/storagenetwork.png"
 			rotation: 0.0d
 			width: 8.0d
 			x: 9.4d
@@ -43,7 +43,7 @@
 			color: 12202242
 			height: 1.25d
 			id: "06633B1D14408E14"
-			image: "enchanted_wilds:textures/questui/subtitles/itemmoving.png"
+			image: "fabled_wylds:textures/questui/subtitles/itemmoving.png"
 			rotation: 0.0d
 			width: 8.0d
 			x: 19.4d
@@ -53,7 +53,7 @@
 			color: 12202242
 			height: 1.25d
 			id: "547C2B2AA8E0007E"
-			image: "enchanted_wilds:textures/questui/subtitles/backpacks.png"
+			image: "fabled_wylds:textures/questui/subtitles/backpacks.png"
 			rotation: 0.0d
 			width: 8.0d
 			x: 19.4d
@@ -63,7 +63,7 @@
 			color: 12202242
 			height: 1.25d
 			id: "44E7480431EEC2C8"
-			image: "enchanted_wilds:textures/questui/subtitles/miscellaneous.png"
+			image: "fabled_wylds:textures/questui/subtitles/miscellaneous.png"
 			order: 1
 			rotation: 0.0d
 			width: 8.0d
@@ -73,7 +73,7 @@
 		{
 			height: 20.0d
 			id: "03A826368FB11F43"
-			image: "enchanted_wilds:textures/questui/bookbgslg/red_book_lg.png"
+			image: "fabled_wylds:textures/questui/bookbgslg/red_book_lg.png"
 			rotation: 0.0d
 			width: 25.0d
 			x: 14.4d

@@ -7,6 +7,13 @@ event.create('arcane_coin').displayName('Arcane Coin').tooltip('A coin infused w
 event.create('lunar_coin').displayName('Lunar Coin').tooltip('A coin infused with lunar energy.').maxStackSize(64)
 event.create('solar_coin').displayName('Solar Coin').tooltip('A coin infused with solar energy.').maxStackSize(64)
 
+	event.create('hearth_recall')
+		.displayName('Hearth Recall')
+		.tooltip('Right click to use. Shift + right click to switch between Set and Teleport mode.')
+		.unstackable()
+		.glow(true)
+		.rarity('rare')
+
 event.create('cheeseburger').food(food => {
     food
       .nutrition(6)

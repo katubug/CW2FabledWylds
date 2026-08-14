@@ -13,7 +13,7 @@
 		{
 			height: 20.0d
 			id: "0C630ECB1309EE61"
-			image: "enchanted_wilds:textures/questui/bookbgslg/green_book_lg.png"
+			image: "fabled_wylds:textures/questui/bookbgslg/green_book_lg.png"
 			rotation: 0.0d
 			width: 25.0d
 			x: 5.0d
@@ -23,7 +23,7 @@
 			color: 6321408
 			height: 2.5d
 			id: "5AACAA093BA65B8A"
-			image: "enchanted_wilds:textures/questui/titles/witchery.png"
+			image: "fabled_wylds:textures/questui/titles/witchery.png"
 			rotation: 0.0d
 			width: 9.0d
 			x: 0.0d

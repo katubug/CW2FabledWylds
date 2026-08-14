@@ -1,0 +1,29 @@
+{
+  "type": "hexerei:mixingcauldron",
+  "fluid": {
+    "id": "minecraft:lava",
+    "amount": 500
+  },
+  "ingredients": [
+    {
+      "item": "minecraft:magma_cream"
+    },
+    {
+      "tag": "c:netherracks"
+    },
+    {
+      "tag": "minecraft:coals"
+    },
+    {
+      "item": "minecraft:stick"
+    },
+    {
+      "item": "minecraft:brick"
+    }
+  ],
+  "output": {
+    "id": "roots:inferno_bulb",
+    "count": 2
+  },
+  "heatRequirement": "heated"
+}

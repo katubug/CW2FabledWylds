@@ -19,6 +19,7 @@
   "enableClimbAnimation": true,
   "enableSwimAnimation": true,
   "enableElytraFlightAnimation": true,
+  "disableNewKeyframeMoves": false,
   "enableCustomWalk": true,
   "enableSprintArmSwing": true,
   "enableFallArmAnimation": true,
@@ -34,8 +35,14 @@
   "enableBlurGlowAtDark": false,
   "firstPersonModelHideEnabled": true,
   "firstPersonModelHidePitch": 60.0,
-  "itemBlacklist": [],
-  "blacklistApplyDualHanded": {},
+  "itemBlacklist": [
+    "minecraft:lantern",
+    "minecraft:soul_lantern"
+  ],
+  "blacklistApplyDualHanded": {
+    "minecraft:lantern": false,
+    "minecraft:soul_lantern": false
+  },
   "animationPackSelections": {},
   "animationPackTypeSelections": {},
   "mixSpecificForceOverride": {}

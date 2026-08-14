@@ -1,0 +1,28 @@
+{
+  "type": "hexerei:mixingcauldron",
+  "fluid": {
+    "id": "minecraft:water",
+    "amount": 500
+  },
+  "ingredients": [
+    {
+      "item": "minecraft:water_bucket"
+    },
+    {
+      "item": "minecraft:clay_ball"
+    },
+    {
+      "item": "minecraft:seagrass"
+    },
+    {
+      "tag": "c:crops/sugar_cane"
+    },
+    {
+      "item": "minecraft:kelp"
+    }
+  ],
+  "output": {
+    "id": "roots:dewgonia",
+    "count": 2
+  }
+}

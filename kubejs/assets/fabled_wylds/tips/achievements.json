@@ -1,0 +1,10 @@
+{
+  "title": {
+    "text": "Modded Tips",
+    "bold": true,
+    "color": "green"
+  },
+  "tip": {
+    "translate": "fabled_wylds.tips.achievements"
+  }
+}

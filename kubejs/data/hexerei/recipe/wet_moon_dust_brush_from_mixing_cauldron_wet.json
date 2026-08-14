@@ -1,7 +1,8 @@
 {
   "type": "hexerei:mixingcauldron",
-  "liquid": {
-    "fluid": "minecraft:water"
+  "fluid": {
+    "id": "minecraft:water",
+    "amount": 1000
   },
   "ingredients": [
     {
@@ -30,11 +31,6 @@
     }
   ],
   "output": {
-    "item": "hexerei:wet_moon_dust_brush"
-  },
-
-  "liquidOutput": {
-    "fluid": "minecraft:water"
-  },
-  "fluidLevelsConsumed": 1000
+    "id": "hexerei:wet_moon_dust_brush"
+  }
 }

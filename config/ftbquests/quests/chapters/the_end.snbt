@@ -11,7 +11,7 @@
 	images: [{
 		height: 10.0d
 		id: "266D03F30D65B3CE"
-		image: "enchanted_wilds:textures/questui/bgtheend.png"
+		image: "fabled_wylds:textures/questui/bgtheend.png"
 		rotation: 0.0d
 		width: 20.0d
 		x: 0.0d

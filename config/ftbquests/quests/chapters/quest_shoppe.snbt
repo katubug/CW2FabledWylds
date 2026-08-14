@@ -14,7 +14,7 @@
 		{
 			height: 20.0d
 			id: "57887EF111402D96"
-			image: "enchanted_wilds:textures/questui/shop/shopbg.png"
+			image: "fabled_wylds:textures/questui/shop/shopbg.png"
 			rotation: 0.0d
 			width: 15.0d
 			x: 1.0d
@@ -23,7 +23,7 @@
 		{
 			height: 4.0d
 			id: "634120AEE677C02E"
-			image: "enchanted_wilds:textures/questui/shop/shopbgframe.png"
+			image: "fabled_wylds:textures/questui/shop/shopbgframe.png"
 			rotation: 0.0d
 			width: 6.0d
 			x: 1.0d
@@ -32,7 +32,7 @@
 		{
 			height: 4.0d
 			id: "04DBDF9304BB4CDF"
-			image: "enchanted_wilds:textures/questui/shop/shopcauldrons.png"
+			image: "fabled_wylds:textures/questui/shop/shopcauldrons.png"
 			rotation: 0.0d
 			width: 7.0d
 			x: 3.5d

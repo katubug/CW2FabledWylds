@@ -1,6 +1,6 @@
 {
   "type": "seamsandstitches:sewing_pattern",
-  "texture": "enchanted_wilds:textures/sewing/backpack.png",
+  "texture": "fabled_wylds:textures/sewing/backpack.png",
   "output": {
     "id": "sophisticatedbackpacks:backpack",
     "count": 1

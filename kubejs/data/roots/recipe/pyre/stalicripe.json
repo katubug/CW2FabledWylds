@@ -1,0 +1,28 @@
+{
+  "type": "hexerei:mixingcauldron",
+  "fluid": {
+    "id": "minecraft:water",
+    "amount": 500
+  },
+  "ingredients": [
+    {
+      "item": "minecraft:glow_lichen"
+    },
+    {
+      "item": "minecraft:tuff"
+    },
+    {
+      "tag": "c:cobblestones/deepslate"
+    },
+    {
+      "tag": "roots:flint"
+    },
+    {
+      "tag": "c:raw_materials/iron"
+    }
+  ],
+  "output": {
+    "id": "roots:stalicripe",
+    "count": 2
+  }
+}

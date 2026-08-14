@@ -15,7 +15,7 @@
 		{
 			height: 10.0d
 			id: "77E25C23C1CA2F1B"
-			image: "enchanted_wilds:textures/questui/logo.png"
+			image: "fabled_wylds:textures/questui/logo.png"
 			rotation: 0.0d
 			width: 10.0d
 			x: 0.0d
@@ -25,7 +25,7 @@
 			click_action: "open_uri:https://www.akliz.net/cottagewitch"
 			height: 2.5d
 			id: "4B4A1262804A76C5"
-			image: "enchanted_wilds:textures/questui/aklizbanner.png"
+			image: "fabled_wylds:textures/questui/aklizbanner.png"
 			rotation: 0.0d
 			width: 10.0d
 			x: 0.0d
@@ -34,7 +34,7 @@
 		{
 			height: 7.187759336099585d
 			id: "3DD2E739978DA908"
-			image: "enchanted_wilds:textures/questui/questkey.png"
+			image: "fabled_wylds:textures/questui/questkey.png"
 			rotation: 0.0d
 			width: 13.0d
 			x: 0.0d
@@ -43,7 +43,7 @@
 		{
 			height: 11.25d
 			id: "33F6266F32285AE3"
-			image: "enchanted_wilds:textures/questui/welcomebanner.png"
+			image: "fabled_wylds:textures/questui/welcomebanner.png"
 			rotation: 0.0d
 			width: 20.0d
 			x: 0.0d

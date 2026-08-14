@@ -11,7 +11,7 @@
 	images: [{
 		height: 10.0d
 		id: "7789E3C5E90AB9E6"
-		image: "enchanted_wilds:textures/questui/bgwaystones.png"
+		image: "fabled_wylds:textures/questui/bgwaystones.png"
 		rotation: 0.0d
 		width: 10.0d
 		x: -4.5d

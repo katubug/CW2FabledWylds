@@ -1,7 +1,7 @@
 [*]
-background:          enchanted_wilds:textures/questui/background.png; color={{widget_background}}; tile_size=250
-background2: part:enchanted_wilds:textures/questui/9slice/quest_frame_dark.png; corner=80
-background3:         enchanted_wilds:textures/questui/background2.png; color={{katu_background}}; tile_size=250
+background:          fabled_wylds:textures/questui/background.png; color={{widget_background}}; tile_size=250
+background2: part:fabled_wylds:textures/questui/9slice/quest_frame_dark.png; corner=80
+background3:         fabled_wylds:textures/questui/background2.png; color={{katu_background}}; tile_size=250
 extra_quest_shapes:  diamond, pentagon, hexagon, octagon, heart, gear
 
 text_color:          #e1cbfb

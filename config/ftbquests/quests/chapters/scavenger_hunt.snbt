@@ -11,7 +11,7 @@
 	images: [{
 		height: 20.0d
 		id: "2664FF73530A6668"
-		image: "enchanted_wilds:textures/questui/bgscavengerhunt.png"
+		image: "fabled_wylds:textures/questui/bgscavengerhunt.png"
 		rotation: 0.0d
 		width: 20.0d
 		x: 0.0d

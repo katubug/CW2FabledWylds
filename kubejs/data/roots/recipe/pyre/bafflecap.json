@@ -1,0 +1,28 @@
+{
+  "type": "hexerei:mixingcauldron",
+  "fluid": {
+    "id": "minecraft:water",
+    "amount": 500
+  },
+  "ingredients": [
+    {
+      "item": "minecraft:brown_mushroom"
+    },
+    {
+      "item": "minecraft:red_mushroom"
+    },
+    {
+      "item": "minecraft:allium"
+    },
+    {
+      "tag": "c:fertilizers"
+    },
+    {
+      "tag": "roots:herbs/wildroot"
+    }
+  ],
+  "output": {
+    "id": "roots:bafflecap",
+    "count": 2
+  }
+}

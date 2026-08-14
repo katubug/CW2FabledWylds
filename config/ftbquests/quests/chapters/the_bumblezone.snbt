@@ -16,7 +16,7 @@
 	images: [{
 		height: 11.25d
 		id: "599451098FD3385C"
-		image: "enchanted_wilds:textures/questui/bgbumblezone.png"
+		image: "fabled_wylds:textures/questui/bgbumblezone.png"
 		rotation: 0.0d
 		width: 20.0d
 		x: 0.0d

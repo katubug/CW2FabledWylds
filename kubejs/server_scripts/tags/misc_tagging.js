@@ -1,13 +1,13 @@
 ServerEvents.tags('item', event => {
 
 	//acorns to tags
-	event.add('enchanted_wilds:acorns',
+	event.add('fabled_wylds:acorns',
 		'adorablehamsterpets:acorn',
 		'crittersandcompanions:acorn'
 	)
 
 	//mutandis ingredients
-	event.add('enchanted_wilds:mutandis_ingredients',
+	event.add('fabled_wylds:mutandis_ingredients',
 		'hexalia:spirit_powder',
 		'hexalia:dream_paste',
 		'hexalia:siren_paste',
@@ -50,7 +50,7 @@ ServerEvents.tags('item', event => {
 		'dawnoftimebuilder:puuc_limestone',
 		'dawnoftimebuilder:cobbled_limestone',
 		'meadow:limestone')
-		
+
 	event.add('c:stones',
 		'dawnoftimebuilder:puuc_limestone',
 		'dawnoftimebuilder:cobbled_limestone',

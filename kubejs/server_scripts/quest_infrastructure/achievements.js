@@ -6,15 +6,15 @@ const ThrownExperienceBottle = Java.loadClass("net.minecraft.world.entity.projec
 
 const THROWN_AT_WARDEN = [{
 		isMatch: p => p instanceof ThrownEgg,
-		advancement: "enchanted_wilds:misc/deviled_egg"
+		advancement: "fabled_wylds:misc/deviled_egg"
 	},
 	{
 		isMatch: p => p instanceof Snowball,
-		advancement: "enchanted_wilds:misc/snowballs_chance"
+		advancement: "fabled_wylds:misc/snowballs_chance"
 	},
 	{
 		isMatch: p => p instanceof ThrownExperienceBottle,
-		advancement: "enchanted_wilds:misc/xp_to_spare"
+		advancement: "fabled_wylds:misc/xp_to_spare"
 	},
 ]
 
@@ -35,12 +35,12 @@ NativeEvents.onEvent(ProjectileImpactEvent, event => {
 	thrower.runCommandSilent(`advancement grant @s only ${entry.advancement}`)
 })
 
-const CAPSTONE_ADVANCEMENT = "enchanted_wilds:misc/stop_throwing_things_at_the_warden"
+const CAPSTONE_ADVANCEMENT = "fabled_wylds:misc/stop_throwing_things_at_the_warden"
 
 const CAPSTONE_CRITERION_BY_ADVANCEMENT = {
-	"enchanted_wilds:misc/deviled_egg": "thrown_egg",
-	"enchanted_wilds:misc/snowballs_chance": "thrown_snowball",
-	"enchanted_wilds:misc/xp_to_spare": "thrown_xp_bottle",
+	"fabled_wylds:misc/deviled_egg": "thrown_egg",
+	"fabled_wylds:misc/snowballs_chance": "thrown_snowball",
+	"fabled_wylds:misc/xp_to_spare": "thrown_xp_bottle",
 }
 
 PlayerEvents.advancement(event => {
@@ -57,7 +57,7 @@ EntityEvents.afterHurt('twilightforest:alpha_yeti', event => {
 	if (!player) return
 
 	if (source.getType() === 'roots:rose_thorns') {
-		player.runCommandSilent('advancement grant @s only enchanted_wilds:twilight_forest/thorns_yeti')
+		player.runCommandSilent('advancement grant @s only fabled_wylds:twilight_forest/thorns_yeti')
 	}
 })
 
@@ -67,6 +67,6 @@ EntityEvents.afterHurt('twilightforest:snow_queen', event => {
 	if (!player) return
 
 	if (source.getType() === 'roots:wildfire') {
-		player.runCommandSilent('advancement grant @s only enchanted_wilds:twilight_forest/snow_queen_fire')
+		player.runCommandSilent('advancement grant @s only fabled_wylds:twilight_forest/snow_queen_fire')
 	}
 })

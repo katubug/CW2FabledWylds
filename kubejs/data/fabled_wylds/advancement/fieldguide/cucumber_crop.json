@@ -1,0 +1,19 @@
+{
+  "parent": "fabled_wylds:root",
+  "display": {
+    "icon": { "id": "adorablehamsterpets:cucumber" },
+    "title": { "translate": "advancement.fieldguide.cucumber_crop.title" },
+    "description": { "translate": "advancement.fieldguide.cucumber_crop.description" },
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": true
+  },
+  "criteria": {
+    "unlock": {
+      "trigger": "fieldguide:entry_unlocked",
+      "conditions": {
+        "entry": "block:adorablehamsterpets/cucumber_crop"
+      }
+    }
+  }
+}

@@ -13,7 +13,7 @@
 		{
 			height: 20.0d
 			id: "66F77400707F32F4"
-			image: "enchanted_wilds:textures/questui/bookbgslg/cyan_book_lg.png"
+			image: "fabled_wylds:textures/questui/bookbgslg/cyan_book_lg.png"
 			rotation: 0.0d
 			width: 25.0d
 			x: 0.0d
@@ -23,7 +23,7 @@
 			color: 2017209
 			height: 2.5d
 			id: "2DC1B5E16BE4DBFF"
-			image: "enchanted_wilds:textures/questui/titles/discovery.png"
+			image: "fabled_wylds:textures/questui/titles/discovery.png"
 			rotation: 0.0d
 			width: 9.0d
 			x: -4.8d
@@ -33,7 +33,7 @@
 			color: 2017209
 			height: 1.25d
 			id: "7BEAA48860ECF234"
-			image: "enchanted_wilds:textures/questui/subtitles/structures.png"
+			image: "fabled_wylds:textures/questui/subtitles/structures.png"
 			rotation: 0.0d
 			width: 8.0d
 			x: -4.7d
@@ -119,8 +119,8 @@
 			shape: "rsquare"
 			size: 2.0d
 			tasks: [{
-				id: "7CD9D3A68DA02F80"
-				item: { components: { "ftbfiltersystem:filter": "or(item(hexerei:reading_glasses)item(minecraft:spyglass))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				id: "71D40E5E6AAC0637"
+				item: { count: 1, id: "minecraft:spyglass" }
 				type: "item"
 			}]
 			x: -7.0d
@@ -383,6 +383,26 @@
 			}]
 			x: -11.0d
 			y: 3.0d
+		}
+		{
+			id: "10EF479191689632"
+			preset: "info"
+			rewards: [{
+				count: 2
+				id: "1A0FB7AE458A9FF0"
+				item: {
+					count: 1
+					id: "minecraft:oak_sign"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "34F515C374A92754"
+				item: { count: 1, id: "via_romana:charting_map" }
+				type: "item"
+			}]
+			x: -7.0d
+			y: -1.5d
 		}
 	]
 }

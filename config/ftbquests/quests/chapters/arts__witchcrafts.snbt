@@ -13,7 +13,7 @@
 		{
 			height: 20.0d
 			id: "0601C66652808E3B"
-			image: "enchanted_wilds:textures/questui/bookbgslg/blue_book_lg.png"
+			image: "fabled_wylds:textures/questui/bookbgslg/blue_book_lg.png"
 			rotation: 0.0d
 			width: 25.0d
 			x: 0.0d
@@ -23,7 +23,7 @@
 			color: 2062755
 			height: 2.5d
 			id: "19EEA57D2A14CE3F"
-			image: "enchanted_wilds:textures/questui/titles/arts_witchcrafts.png"
+			image: "fabled_wylds:textures/questui/titles/arts_witchcrafts.png"
 			rotation: 0.0d
 			width: 8.0d
 			x: -4.75d
@@ -33,7 +33,7 @@
 			color: 2062755
 			height: 1.25d
 			id: "4FFFC35CF335AD07"
-			image: "enchanted_wilds:textures/questui/subtitles/sketching.png"
+			image: "fabled_wylds:textures/questui/subtitles/sketching.png"
 			rotation: 0.0d
 			width: 8.0d
 			x: 5.0d
@@ -43,7 +43,7 @@
 			color: 2062755
 			height: 0.9d
 			id: "58A44C440A6056ED"
-			image: "enchanted_wilds:textures/questui/flourishes/separator.png"
+			image: "fabled_wylds:textures/questui/flourishes/separator.png"
 			rotation: 0.0d
 			width: 8.0d
 			x: 4.8d
@@ -53,7 +53,7 @@
 			color: 2062755
 			height: 1.25d
 			id: "7471DD1791B0D67E"
-			image: "enchanted_wilds:textures/questui/subtitles/painting.png"
+			image: "fabled_wylds:textures/questui/subtitles/painting.png"
 			rotation: 0.0d
 			width: 8.0d
 			x: 4.9d
@@ -63,7 +63,7 @@
 			color: 2062755
 			height: 1.25d
 			id: "1745C72AD7B7C7E5"
-			image: "enchanted_wilds:textures/questui/subtitles/photography.png"
+			image: "fabled_wylds:textures/questui/subtitles/photography.png"
 			rotation: 0.0d
 			width: 8.0d
 			x: -4.75d

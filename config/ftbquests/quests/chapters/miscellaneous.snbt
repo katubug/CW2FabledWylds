@@ -13,7 +13,7 @@
 		{
 			height: 20.0d
 			id: "3117D011C8AE0D4F"
-			image: "enchanted_wilds:textures/questui/bookbgslg/pink_book_lg.png"
+			image: "fabled_wylds:textures/questui/bookbgslg/pink_book_lg.png"
 			rotation: 0.0d
 			width: 25.0d
 			x: -0.1d
@@ -23,7 +23,7 @@
 			color: 15962025
 			height: 2.5d
 			id: "605D9545392C76A9"
-			image: "enchanted_wilds:textures/questui/titles/miscellaneous.png"
+			image: "fabled_wylds:textures/questui/titles/miscellaneous.png"
 			rotation: 0.0d
 			width: 9.0d
 			x: -5.2d
@@ -33,7 +33,7 @@
 			color: 15962025
 			height: 1.25d
 			id: "1F82C2BDAF690590"
-			image: "enchanted_wilds:textures/questui/subtitles/commerce.png"
+			image: "fabled_wylds:textures/questui/subtitles/commerce.png"
 			rotation: 0.0d
 			width: 8.0d
 			x: 4.9d
@@ -43,7 +43,7 @@
 			color: 15962025
 			height: 1.25d
 			id: "0DBD44B0F35C046A"
-			image: "enchanted_wilds:textures/questui/subtitles/automation.png"
+			image: "fabled_wylds:textures/questui/subtitles/automation.png"
 			rotation: 0.0d
 			width: 8.0d
 			x: -5.1d

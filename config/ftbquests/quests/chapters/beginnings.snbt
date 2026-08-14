@@ -13,7 +13,7 @@
 		{
 			height: 10.0d
 			id: "649689396F3F0D07"
-			image: "enchanted_wilds:textures/questui/logo.png"
+			image: "fabled_wylds:textures/questui/logo.png"
 			rotation: 0.0d
 			width: 10.0d
 			x: 0.1d
@@ -22,7 +22,7 @@
 		{
 			height: 20.0d
 			id: "6BFA195E3BC50932"
-			image: "enchanted_wilds:textures/questui/bookbgslg/green_book_lg.png"
+			image: "fabled_wylds:textures/questui/bookbgslg/green_book_lg.png"
 			rotation: 0.0d
 			width: 25.0d
 			x: 0.1d
@@ -32,7 +32,7 @@
 			color: 6321408
 			height: 2.5d
 			id: "2050AE4B843D0F69"
-			image: "enchanted_wilds:textures/questui/titles/beginnings.png"
+			image: "fabled_wylds:textures/questui/titles/beginnings.png"
 			rotation: 0.0d
 			width: 8.0d
 			x: -4.8d
@@ -42,7 +42,7 @@
 			color: 6321408
 			height: 1.25d
 			id: "52E827D6773B7B03"
-			image: "enchanted_wilds:textures/questui/subtitles/artofdeath.png"
+			image: "fabled_wylds:textures/questui/subtitles/artofdeath.png"
 			rotation: 0.0d
 			width: 8.0d
 			x: 5.3d
@@ -52,7 +52,7 @@
 			color: 6321408
 			height: 1.25d
 			id: "3C001DF8F4350C3B"
-			image: "enchanted_wilds:textures/questui/subtitles/gifts.png"
+			image: "fabled_wylds:textures/questui/subtitles/gifts.png"
 			rotation: 0.0d
 			width: 8.0d
 			x: -4.8d
@@ -62,7 +62,7 @@
 			alpha: 225
 			height: 5.0d
 			id: "33839B99B54B2725"
-			image: "enchanted_wilds:textures/questui/illustrations/house_icon.png"
+			image: "fabled_wylds:textures/questui/illustrations/house_icon.png"
 			rotation: 0.0d
 			width: 5.0d
 			x: -2.8d
@@ -396,6 +396,14 @@
 					}
 					type: "item"
 				}
+				{
+					id: "217DEB7F2D3ECE96"
+					item: {
+						count: 1
+						id: "via_romana:charting_map"
+					}
+					type: "item"
+				}
 			]
 			shape: "epstar"
 			size: 3.0d
@@ -505,8 +513,11 @@
 				{
 					id: "7015C2E548F6629C"
 					item: {
+						components: {
+							"ftbquests:missing_item": "broom_closet:wishlist"
+						}
 						count: 1
-						id: "broom_closet:wishlist"
+						id: "ftbquests:missing_item"
 					}
 					type: "item"
 				}

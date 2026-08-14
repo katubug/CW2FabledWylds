@@ -1,7 +1,8 @@
 {
   "type": "hexerei:mixingcauldron",
-  "liquid": {
-    "fluid": "minecraft:water"
+  "fluid": {
+    "id": "minecraft:water",
+    "amount": 1000
   },
   "ingredients": [
     {
@@ -24,10 +25,6 @@
     }
   ],
   "output": {
-    "item": "minecraft:nether_wart"
-  },
-  "liquidOutput": {
-    "fluid": "minecraft:water"
-  },
-  "fluidLevelsConsumed": 1000
+    "id": "minecraft:nether_wart"
+  }
 }

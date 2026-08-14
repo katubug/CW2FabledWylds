@@ -12,7 +12,7 @@
 		{
 			height: 20.0d
 			id: "7950538B16652416"
-			image: "enchanted_wilds:textures/questui/bookbgs/orange_book_lg.png"
+			image: "fabled_wylds:textures/questui/bookbgs/orange_book_lg.png"
 			rotation: 0.0d
 			width: 25.0d
 			x: -0.2d
@@ -22,7 +22,7 @@
 			color: 9921281
 			height: 1.25d
 			id: "1492188D4E43E099"
-			image: "enchanted_wilds:textures/questui/subtitles/building.png"
+			image: "fabled_wylds:textures/questui/subtitles/building.png"
 			order: 99
 			rotation: 0.0d
 			width: 8.0d
@@ -33,7 +33,7 @@
 			color: 9921281
 			height: 2.5d
 			id: "791F0B7E470806ED"
-			image: "enchanted_wilds:textures/questui/titles/beginnings.png"
+			image: "fabled_wylds:textures/questui/titles/beginnings.png"
 			rotation: 0.0d
 			width: 9.0d
 			x: -5.0d
@@ -43,7 +43,7 @@
 			color: 9921281
 			height: 1.25d
 			id: "3C574BF1BED4F16E"
-			image: "enchanted_wilds:textures/questui/subtitles/decorating.png"
+			image: "fabled_wylds:textures/questui/subtitles/decorating.png"
 			order: 99
 			rotation: 0.0d
 			width: 8.0d

@@ -18,7 +18,7 @@
 		{
 			height: 20.0d
 			id: "02A7C7D37F29FDC6"
-			image: "enchanted_wilds:textures/questui/bookbgslg/purple_book_lg.png"
+			image: "fabled_wylds:textures/questui/bookbgslg/purple_book_lg.png"
 			rotation: 0.0d
 			width: 25.0d
 			x: 7.0d
@@ -28,7 +28,7 @@
 			color: 11296702
 			height: 2.5d
 			id: "5659D28A0796EC76"
-			image: "enchanted_wilds:textures/questui/titles/brewingenchanting.png"
+			image: "fabled_wylds:textures/questui/titles/brewingenchanting.png"
 			rotation: 0.0d
 			width: 9.0d
 			x: 2.0d

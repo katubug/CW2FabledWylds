@@ -1,7 +1,7 @@
 {
   "enabled": true,
   "mod_name": "Enchanted Wilds",
-  "mod_id": "enchanted_wilds",
+  "mod_id": "fabled_wylds",
   "achievements": {
     "misc/extra_well_done_steak": {
       "display_name": "advancements.misc.well_done.title",

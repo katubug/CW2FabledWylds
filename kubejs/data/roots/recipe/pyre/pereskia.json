@@ -1,0 +1,28 @@
+{
+  "type": "hexerei:mixingcauldron",
+  "fluid": {
+    "id": "minecraft:water",
+    "amount": 500
+  },
+  "ingredients": [
+    {
+      "item": "minecraft:poppy"
+    },
+    {
+      "item": "minecraft:sugar"
+    },
+    {
+      "item": "minecraft:apple"
+    },
+    {
+      "tag": "c:dusts/redstone"
+    },
+    {
+      "tag": "roots:crops/aubergine"
+    }
+  ],
+  "output": {
+    "id": "roots:pereskia",
+    "count": 1
+  }
+}

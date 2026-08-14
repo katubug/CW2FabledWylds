@@ -1,0 +1,23 @@
+{
+    "display": {
+        "icon": {
+            "id": "kubejs:wyldkeeper_hearth"
+        },
+        "title": {
+            "translate": "advancement.wyldkeeper.title"
+        },
+        "description": {
+            "translate": "advancement.wyldkeeper.description"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "parent": "fabled_wylds:root",
+    "criteria": {
+        "impossible": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

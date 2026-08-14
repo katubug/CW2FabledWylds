@@ -1,0 +1,28 @@
+{
+  "type": "hexerei:mixingcauldron",
+  "fluid": {
+    "id": "minecraft:water",
+    "amount": 500
+  },
+  "ingredients": [
+    {
+      "item": "minecraft:blue_orchid"
+    },
+    {
+      "tag": "c:glass_blocks"
+    },
+    {
+      "tag": "c:nuggets/silver"
+    },
+    {
+      "tag": "c:nuggets/iron"
+    },
+    {
+      "tag": "roots:herbs/grove_moss"
+    }
+  ],
+  "output": {
+    "id": "roots:moonglow",
+    "count": 1
+  }
+}

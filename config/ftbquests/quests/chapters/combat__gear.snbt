@@ -12,7 +12,7 @@
 		{
 			height: 9.0d
 			id: "15B8A74CC6C8F1FD"
-			image: "enchanted_wilds:textures/questui/bgcurios.png"
+			image: "fabled_wylds:textures/questui/bgcurios.png"
 			rotation: 0.0d
 			width: 9.0d
 			x: 4.0d
@@ -21,7 +21,7 @@
 		{
 			height: 9.0d
 			id: "6409F7DAB305B970"
-			image: "enchanted_wilds:textures/questui/bgarmor.png"
+			image: "fabled_wylds:textures/questui/bgarmor.png"
 			rotation: 0.0d
 			width: 9.0d
 			x: -4.0d
@@ -30,7 +30,7 @@
 		{
 			height: 9.0d
 			id: "0046556E6E7D16FA"
-			image: "enchanted_wilds:textures/questui/bgitemsmisc.png"
+			image: "fabled_wylds:textures/questui/bgitemsmisc.png"
 			rotation: 0.0d
 			width: 9.0d
 			x: -4.0d
@@ -39,7 +39,7 @@
 		{
 			height: 9.0d
 			id: "5BC8CA20B65E1A9A"
-			image: "enchanted_wilds:textures/questui/bgweaponsitems.png"
+			image: "fabled_wylds:textures/questui/bgweaponsitems.png"
 			rotation: 0.0d
 			width: 9.0d
 			x: 4.0d

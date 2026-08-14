@@ -13,7 +13,7 @@
 		{
 			height: 10.0d
 			id: "5ADF9EC3388CF0FD"
-			image: "enchanted_wilds:textures/questui/bgnetherdelight.png"
+			image: "fabled_wylds:textures/questui/bgnetherdelight.png"
 			rotation: 0.0d
 			width: 10.0d
 			x: 0.0d
@@ -22,7 +22,7 @@
 		{
 			height: 20.0d
 			id: "396F59B7682844D2"
-			image: "enchanted_wilds:textures/questui/bookbgslg/yellow_book_lg.png"
+			image: "fabled_wylds:textures/questui/bookbgslg/yellow_book_lg.png"
 			rotation: 0.0d
 			width: 25.0d
 			x: 1.7763568394002505E-15d
@@ -32,7 +32,7 @@
 			color: 9921281
 			height: 2.5d
 			id: "721814101AA850EE"
-			image: "enchanted_wilds:textures/questui/titles/culinaryarts.png"
+			image: "fabled_wylds:textures/questui/titles/culinaryarts.png"
 			rotation: 0.0d
 			width: 9.0d
 			x: -4.799999999999999d
@@ -42,7 +42,7 @@
 			color: 9921281
 			height: 1.25d
 			id: "10B8948A58B5C28E"
-			image: "enchanted_wilds:textures/questui/subtitles/bakery.png"
+			image: "fabled_wylds:textures/questui/subtitles/bakery.png"
 			order: 99
 			rotation: 0.0d
 			width: 8.0d
@@ -53,7 +53,7 @@
 			color: 9921281
 			height: 1.25d
 			id: "23693391BF96C09B"
-			image: "enchanted_wilds:textures/questui/subtitles/cheesemaking.png"
+			image: "fabled_wylds:textures/questui/subtitles/cheesemaking.png"
 			order: 99
 			rotation: 0.0d
 			width: 8.0d
@@ -63,7 +63,7 @@
 		{
 			height: 17.0d
 			id: "01C81AE343A3D4C0"
-			image: "enchanted_wilds:textures/questui/bookbgs/yellow_book.png"
+			image: "fabled_wylds:textures/questui/bookbgs/yellow_book.png"
 			rotation: 0.0d
 			width: 24.0d
 			x: 15.3d
@@ -73,7 +73,7 @@
 			alpha: 225
 			height: 5.0d
 			id: "617109488C94D974"
-			image: "enchanted_wilds:textures/questui/illustrations/bakery_icon.png"
+			image: "fabled_wylds:textures/questui/illustrations/bakery_icon.png"
 			rotation: 0.0d
 			width: 5.0d
 			x: 18.0d
@@ -101,7 +101,7 @@
 			color: 9921281
 			height: 1.25d
 			id: "4B80A1B98AEA4DC6"
-			image: "enchanted_wilds:textures/questui/subtitles/teasundry.png"
+			image: "fabled_wylds:textures/questui/subtitles/teasundry.png"
 			order: 99
 			rotation: 0.0d
 			width: 8.0d

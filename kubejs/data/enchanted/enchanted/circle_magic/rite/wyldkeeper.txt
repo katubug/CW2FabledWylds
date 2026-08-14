@@ -24,7 +24,7 @@
             "title @caster title {\"text\":\"Wyldkeeper\",\"color\":\"light_purple\",\"bold\":true}",
             "playsound minecraft:block.beacon.activate master @caster ~ ~ ~ 1 1",
             "playsound minecraft:entity.player.levelup master @caster ~ ~ ~ 0.6 1.4",
-            "advancement grant @caster only enchanted_wilds:wyldkeeper",
+            "advancement grant @caster only fabled_wylds:wyldkeeper",
             "give @caster kubejs:wyldkeeper_hearth 1"
         ]
     }

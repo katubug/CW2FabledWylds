@@ -13,7 +13,7 @@
 			click_action: "none:"
 			height: 20.0d
 			id: "5C7DF8823ED57678"
-			image: "enchanted_wilds:textures/questui/bookbgslg/blue_book_lg.png"
+			image: "fabled_wylds:textures/questui/bookbgslg/blue_book_lg.png"
 			rotation: 0.0d
 			width: 25.0d
 			x: -0.5d
@@ -24,7 +24,7 @@
 			color: 2131662
 			height: 2.5d
 			id: "7BEE68A4305106E4"
-			image: "enchanted_wilds:textures/questui/titles/twilightforest.png"
+			image: "fabled_wylds:textures/questui/titles/twilightforest.png"
 			rotation: 0.0d
 			width: 9.0d
 			x: -5.5d
@@ -654,7 +654,7 @@
 				type: "item"
 			}]
 			tasks: [{
-				advancement: "enchanted_wilds:photography/photographed_lich"
+				advancement: "fabled_wylds:photography/photographed_lich"
 				criterion: ""
 				icon: {
 					id: "exposure:photograph"
@@ -935,7 +935,7 @@
 				type: "random"
 			}]
 			tasks: [{
-				advancement: "enchanted_wilds:twilight_forest/thorns_yeti"
+				advancement: "fabled_wylds:twilight_forest/thorns_yeti"
 				criterion: ""
 				id: "350738AFB1EA2D32"
 				type: "advancement"
