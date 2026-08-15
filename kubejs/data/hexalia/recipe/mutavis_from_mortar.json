@@ -1,0 +1,22 @@
+{
+  "type": "hexerei:pestle_and_mortar",
+  "ingredients": [
+    {
+      "item": "hexalia:tree_resin"
+    },
+    {
+      "item": "enchanted:exhale_of_the_horned_one"
+    },
+    {
+      "item": "roots:wildroot"
+    },
+    {
+      "item": "hexerei:dried_sage"
+    }
+  ],
+  "output": {
+    "id": "enchanted:mutavis",
+    "count": 8
+  },
+  "grindingTime": 100
+}

@@ -8,6 +8,26 @@ ServerEvents.recipes(event => {
 		'twilightforest:tanned_leather' // Arg 3: the item to replace it with
 	)
 
+	//salt
+	event.replaceInput({
+			input: 'hexalia:salt'
+		}, // Arg 1: the filter
+		'hexalia:salt', // Arg 2: the item to replace
+		'#c:dusts/salt' // Arg 3: the item to replace it with
+	)
+	event.replaceInput({
+			input: 'meadow:alpine_salt'
+		}, // Arg 1: the filter
+		'meadow:alpine_salt', // Arg 2: the item to replace
+		'#c:dusts/salt' // Arg 3: the item to replace it with
+	)
+	event.replaceInput({
+			input: 'hearthandharvest:salt'
+		}, // Arg 1: the filter
+		'hearthandharvest:salt', // Arg 2: the item to replace
+		'#c:dusts/salt' // Arg 3: the item to replace it with
+	)
+
 	//Strawberries
 	event.replaceInput({
 			input: 'mysticsbiomes:strawberry'

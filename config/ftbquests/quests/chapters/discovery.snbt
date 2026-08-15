@@ -36,8 +36,8 @@
 			image: "fabled_wylds:textures/questui/subtitles/structures.png"
 			rotation: 0.0d
 			width: 8.0d
-			x: -4.7d
-			y: -0.4d
+			x: 5.5d
+			y: -6.0d
 		}
 		{
 			click_action: "none:"
@@ -46,8 +46,8 @@
 			image: "gabrielequests-structure:kind=whole,id=delighto_flight:cloud_island,rot=237x11,view=0,markers=0"
 			rotation: 0.0d
 			width: 5.0d
-			x: 7.5d
-			y: -5.0d
+			x: 8.0d
+			y: 5.0d
 		}
 		{
 			click_action: "none:"
@@ -57,7 +57,7 @@
 			rotation: 0.0d
 			width: 5.0d
 			x: 2.0d
-			y: -4.0d
+			y: 5.0d
 		}
 		{
 			click_action: "none:"
@@ -66,8 +66,8 @@
 			image: "gabrielequests-structure:kind=piece,id=epic:epic_witch_hut/witch_hut,rot=225x30,view=0,markers=0"
 			rotation: 0.0d
 			width: 5.0d
-			x: -2.0d
-			y: 4.5d
+			x: 8.0d
+			y: 1.0d
 		}
 		{
 			click_action: "none:"
@@ -76,8 +76,8 @@
 			image: "gabrielequests-structure:kind=piece,id=epic:epic_jungle_temple/temple1_large,rot=225x30,view=0,markers=0"
 			rotation: 0.0d
 			width: 5.0d
-			x: -7.0d
-			y: 4.5d
+			x: 5.0d
+			y: -1.5d
 		}
 		{
 			click_action: "none:"
@@ -86,8 +86,8 @@
 			image: "gabrielequests-structure:kind=whole,id=ribbits:ribbit_village,rot=225x30,view=0,markers=0"
 			rotation: 0.0d
 			width: 5.0d
-			x: -2.0d
-			y: 1.5d
+			x: 7.5d
+			y: -4.5d
 		}
 		{
 			click_action: "none:"
@@ -97,7 +97,7 @@
 			rotation: 0.0d
 			width: 5.0d
 			x: 5.0d
-			y: -2.0d
+			y: 3.0d
 		}
 	]
 	order_index: 0
@@ -163,8 +163,8 @@
 				structure: "delighto_flight:cloud_island"
 				type: "structure"
 			}]
-			x: 6.0d
-			y: -6.0d
+			x: 6.5d
+			y: 4.0d
 		}
 		{
 			always_invisible: true
@@ -189,8 +189,8 @@
 				structure: "epic:witch_hut"
 				type: "structure"
 			}]
-			x: -3.0d
-			y: 4.0d
+			x: 7.0d
+			y: 0.5d
 		}
 		{
 			id: "6414EFB17FFD56CB"
@@ -210,8 +210,8 @@
 				structure: "ribbits:ribbit_village"
 				type: "structure"
 			}]
-			x: -2.0d
-			y: 1.0d
+			x: 7.5d
+			y: -5.0d
 		}
 		{
 			id: "12BC0C79FE723230"
@@ -226,7 +226,7 @@
 				type: "structure"
 			}]
 			x: 5.5d
-			y: -1.0d
+			y: 4.0d
 		}
 		{
 			id: "6E5FC4F24E0EDAFE"
@@ -241,7 +241,7 @@
 				type: "structure"
 			}]
 			x: 3.0d
-			y: -5.0d
+			y: 4.0d
 		}
 		{
 			id: "647DD568BF30253E"
@@ -251,8 +251,8 @@
 				structure: "epic:epic_temple_large"
 				type: "structure"
 			}]
-			x: -6.0d
-			y: 3.5d
+			x: 6.0d
+			y: -2.5d
 		}
 		{
 			id: "292B26978E644D9F"
@@ -263,8 +263,8 @@
 				item: { count: 1, id: "explorerscompass:explorerscompass" }
 				type: "item"
 			}]
-			x: -8.0d
-			y: 1.0d
+			x: 2.0d
+			y: -4.0d
 		}
 		{
 			id: "13C0DC76BB0AD7CB"
@@ -363,6 +363,7 @@
 		}
 		{
 			id: "1F4569590B7666F5"
+			preset: "start"
 			rewards: [
 				{
 					id: "2E7C57E4CDF3A562"
@@ -381,8 +382,8 @@
 				item: { count: 1, id: "naturescompass:naturescompass" }
 				type: "item"
 			}]
-			x: -11.0d
-			y: 3.0d
+			x: -7.5d
+			y: 0.5d
 		}
 		{
 			id: "10EF479191689632"
@@ -401,7 +402,107 @@
 				item: { count: 1, id: "via_romana:charting_map" }
 				type: "item"
 			}]
-			x: -7.0d
+			x: -8.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["72CE099C5784339A"]
+			id: "40640000C8D2BDCD"
+			preset: "milestone"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "62C9D544427D7DD0"
+				table_id: 6895470215093009548L
+				type: "random"
+			}]
+			tasks: [{
+				icon: {
+					id: "minecraft:poppy"
+				}
+				id: "6CFA8867F65465D2"
+				type: "custom"
+			}]
+			x: -7.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["40640000C8D2BDCD"]
+			id: "203124368972BE74"
+			preset: "progression"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1C5F5C1C9F0A7744"
+				table_id: 5770973074849872376L
+				type: "random"
+			}]
+			tasks: [{
+				icon: {
+					id: "minecraft:lilac"
+				}
+				id: "6C5BC7D99F986162"
+				type: "custom"
+			}]
+			x: -6.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["203124368972BE74"]
+			id: "4A605045E159E5BD"
+			preset: "milestone"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "13F1DDA437FB8377"
+				table_id: 7328857662613080212L
+				type: "random"
+			}]
+			tasks: [{
+				icon: {
+					id: "minecraft:wither_rose"
+				}
+				id: "0BB17E96106E9717"
+				type: "custom"
+			}]
+			x: -4.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["4A605045E159E5BD"]
+			id: "5CC06EBF8D36316A"
+			preset: "progression"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "48C7BBDEE34D48F6"
+				table_id: 7159471207534106979L
+				type: "random"
+			}]
+			tasks: [{
+				icon: {
+					id: "environmental:bluebell"
+				}
+				id: "79FA55CD653C94B5"
+				type: "custom"
+			}]
+			x: -3.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["5CC06EBF8D36316A"]
+			id: "70804E3448872FDE"
+			preset: "completion"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4751B4FCBCEFDBAD"
+				table_id: 5167086515396975209L
+				type: "random"
+			}]
+			tasks: [{
+				icon: {
+					id: "minecraft:rose_bush"
+				}
+				id: "1ADDD6FB306A3FA5"
+				type: "custom"
+			}]
+			x: -1.5d
 			y: -1.5d
 		}
 	]

@@ -18,5 +18,25 @@
         ]
       }
     ]
+  },
+  "Briar the Witch": {
+    "deliveryTime": 0,
+    "errorSolve": [
+      {
+        "count": 1,
+        "returnType": "NOW",
+        "styleType": "Random",
+        "style": "default",
+        "isAllEnder": false,
+        "message": [
+          {
+            "text": "Hello World!",
+            "style": "default",
+            "isEnder": false,
+            "weight": 1
+          }
+        ]
+      }
+    ]
   }
 }

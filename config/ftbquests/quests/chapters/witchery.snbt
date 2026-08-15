@@ -37,6 +37,7 @@
 	quests: [
 		{
 			id: "5688211768F55F90"
+			preset: "start"
 			rewards: [
 				{
 					id: "1FB7B986F959CCE1"
@@ -1134,11 +1135,18 @@
 				type: "item"
 			}]
 			shape: "hexagon"
-			tasks: [{
-				id: "61D54B9CC91EF917"
-				item: { count: 1, id: "enchanted:arthana" }
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "61D54B9CC91EF917"
+					item: { count: 1, id: "enchanted:arthana" }
+					type: "item"
+				}
+				{
+					id: "47DEE495E01049F1"
+					item: { count: 1, id: "hexalia:athame" }
+					type: "item"
+				}
+			]
 			x: -2.0d
 			y: 0.5d
 		}
@@ -1428,14 +1436,24 @@
 		}
 		{
 			id: "0C72B71937E0F79F"
-			rewards: [{
-				id: "15B772AA3085E5B5"
-				item: {
-					count: 1
-					id: "hexalia:mutavis"
+			rewards: [
+				{
+					id: "15B772AA3085E5B5"
+					item: {
+						count: 1
+						id: "hexalia:mutavis"
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "5E481B24B4CE3F51"
+					item: {
+						count: 1
+						id: "enchanted:mutandis"
+					}
+					type: "item"
+				}
+			]
 			tasks: [
 				{
 					id: "08FEC9DF138CACA5"
@@ -1460,6 +1478,88 @@
 			]
 			x: 4.0d
 			y: -7.5d
+		}
+		{
+			dependencies: ["084BB53F414CF215"]
+			id: "232A634140B19B03"
+			tasks: [
+				{
+					id: "7635AEBE3DA4B908"
+					item: { count: 1, id: "roots:primal_grove_stone" }
+					type: "item"
+				}
+				{
+					id: "060C5DA2AE9AC5AE"
+					item: { count: 1, id: "roots:fairy_grove_stone" }
+					type: "item"
+				}
+				{
+					id: "644932E0EAB78E42"
+					item: { count: 1, id: "roots:elemental_grove_stone" }
+					type: "item"
+				}
+				{
+					id: "25BD71A862E47A46"
+					item: { count: 1, id: "roots:twilight_grove_stone" }
+					type: "item"
+				}
+				{
+					id: "07AB2590002CD7B8"
+					item: { count: 1, id: "roots:fungal_grove_stone" }
+					type: "item"
+				}
+				{
+					id: "04CDD3ACC2D67D1D"
+					item: { count: 1, id: "roots:cultivation_grove_stone" }
+					type: "item"
+				}
+			]
+			x: -7.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["5B74E777CB3DF54B"]
+			id: "084BB53F414CF215"
+			preset: "progression"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "45CC765F07EA6393"
+				table_id: 6895470215093009548L
+				type: "random"
+			}]
+			tasks: [{
+				id: "3BD829D71C66750D"
+				type: "checkmark"
+			}]
+			x: -8.0d
+			y: 1.0d
+		}
+		{
+			id: "61677A3CD82C15D6"
+			preset: "progression"
+			tasks: [{
+				id: "39EF252560B620E3"
+				item: { count: 1, id: "enchanted:ember_moss" }
+				type: "item"
+			}]
+			x: -2.5d
+			y: -7.5d
+		}
+		{
+			id: "546DF8992DABB86A"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "76C6916AD166451D"
+				table_id: 5770973074849872376L
+				type: "random"
+			}]
+			tasks: [{
+				id: "1991308B0E0CC15F"
+				item: { count: 1, id: "hexalia:tree_resin" }
+				type: "item"
+			}]
+			x: -8.5d
+			y: -5.5d
 		}
 	]
 }

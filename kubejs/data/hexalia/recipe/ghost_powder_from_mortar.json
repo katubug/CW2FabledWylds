@@ -3,14 +3,11 @@
   "ingredients": [
     {
       "item": "hexalia:ghost_fern"
-    },
-    {
-      "item": "hexalia:ghost_fern"
     }
   ],
   "output": {
     "item": "hexalia:ghost_powder",
-    "count": 3
+    "count": 1
   },
-  "grindingTime": 300
+  "grindingTime": 100
 }

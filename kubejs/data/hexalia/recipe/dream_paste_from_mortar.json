@@ -3,14 +3,11 @@
   "ingredients": [
     {
       "item": "hexalia:dreamshroom"
-    },
-    {
-      "item": "hexalia:dreamshroom"
     }
   ],
   "output": {
     "item": "hexalia:dream_paste",
-    "count": 3
+    "count": 1
   },
-  "grindingTime": 300
+  "grindingTime": 100
 }

@@ -564,7 +564,9 @@
             "hearthandharvest:manure_brick_slab",
             "hearthandharvest:polished_manure_slab",
             "hearthandharvest:manure_brick_wall",
-            "hearthandharvest:polished_manure_wall"
+            "hearthandharvest:polished_manure_wall",
+            "hexalia:salt_block",
+            "hexalia:salt"
         ]
     }
 ]

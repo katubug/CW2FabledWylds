@@ -6,41 +6,6 @@ ServerEvents.tags('item', event => {
 		'crittersandcompanions:acorn'
 	)
 
-	//mutandis ingredients
-	event.add('fabled_wylds:mutandis_ingredients',
-		'hexalia:spirit_powder',
-		'hexalia:dream_paste',
-		'hexalia:siren_paste',
-		'hexalia:ghost_powder',
-		'enchanted:mandrake_root')
-
-	//adding magical herbs to roots' herb pouches
-	event.add('roots:herbs',
-		'hexerei:belladonna_flowers',
-		'hexerei:mandrake_flowers',
-		'hexerei:mugwort_flowers',
-		'hexerei:mugwort_leaves',
-		'hexerei:sage',
-		'enchanted:garlic',
-		'hexerei:yellow_dock_flowers',
-		'hexerei:yellow_dock_leaves',
-		'enchanted:rowan_berries',
-		'hexerei:dried_belladonna_flowers',
-		'hexerei:dried_mandrake_flowers',
-		'hexerei:dried_mugwort_flowers',
-		'hexerei:dried_mugwort_leaves',
-		'hexerei:dried_yellow_dock_flowers',
-		'hexerei:dried_yellow_dock_leaves',
-		'hexerei:sage_seed',
-		'enchanted:water_artichoke',
-		'enchanted:mandrake_root',
-		'enchanted:wolfsbane_flower',
-		'enchanted:glint_weed',
-		'enchanted:ember_moss',
-		'enchanted:blood_poppy',
-		'hexerei:dried_sage'
-	)
-
 	//Sunfire tomato is a tomato
 	event.add('c:crops/tomato', 'hexalia:sunfire_tomato')
 	event.add('c:foods/tomato', 'hexalia:sunfire_tomato')
@@ -138,6 +103,11 @@ ServerEvents.tags('item', event => {
 		'numismatics:bevel', 
 		'numismatics:sprocket', 
 		'numismatics:cog'
+	)
+
+	//Salts
+	event.add('c:salts',
+		'hearthandharvest:salt'
 	)
 
 })

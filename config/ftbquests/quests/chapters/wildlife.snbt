@@ -1805,5 +1805,56 @@
 			x: 17.0d
 			y: -4.0d
 		}
+		{
+			id: "10B1302ACCCD9267"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "436EE54CAC996F2F"
+				table_id: 5167086515396975209L
+				type: "random"
+			}]
+			tasks: [{
+				icon: {
+					components: {
+						"ftbquests:icon": "minecraft:item/cow_spawn_egg"
+					}
+					id: "ftbquests:custom_icon"
+				}
+				id: "59BE1B27F161665D"
+				type: "custom"
+			}]
+			x: 12.0d
+			y: -8.5d
+		}
+		{
+			id: "48AC182727639D93"
+			tasks: [{
+				icon: {
+					components: {
+						"ftbquests:icon": "minecraft:item/skeleton_spawn_egg"
+					}
+					id: "ftbquests:custom_icon"
+				}
+				id: "22838BDA7DB3EA23"
+				type: "custom"
+			}]
+			x: 11.0d
+			y: -8.5d
+		}
+		{
+			id: "23434C187A604663"
+			tasks: [{
+				icon: {
+					components: {
+						"ftbquests:icon": "twilightforest:textures/map/decorations/lich_tower.png"
+					}
+					id: "ftbquests:custom_icon"
+				}
+				id: "56E77164FC4B1F2F"
+				type: "custom"
+			}]
+			x: 13.0d
+			y: -8.5d
+		}
 	]
 }

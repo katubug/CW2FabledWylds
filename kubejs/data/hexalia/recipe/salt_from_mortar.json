@@ -6,8 +6,8 @@
     }
   ],
   "output": {
-    "id": "hexalia:salt",
+    "id": "hearthandharvest:salt",
     "count": 1
   },
-  "grindingTime": 100
+  "grindingTime": 60
 }

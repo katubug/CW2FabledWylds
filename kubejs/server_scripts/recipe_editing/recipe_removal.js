@@ -15,6 +15,7 @@ ServerEvents.recipes(event => {
 		{ id: 'regions_unexplored:barley_smoking' },
 		{ id: 'hexalia:string_from_mortar_and_pestle' },
 		{ id: 'conditional:farm_and_charm/mincer/alpine_salt_from_mincer' },
+		{ id: 'hexalia:leather_from_salt'},
 		//Replaced Recipes
 		{ id: 'farmersdelight:wheat_dough_from_water' },
 		{ id: 'farmersdelight:wheat_dough_from_eggs' },

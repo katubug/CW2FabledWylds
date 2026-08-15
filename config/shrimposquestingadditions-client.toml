@@ -1,0 +1,3 @@
+#Automatically center all quest description text.
+#Default: false
+center_all_desc = false
