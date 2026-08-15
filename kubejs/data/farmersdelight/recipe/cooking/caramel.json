@@ -1,5 +1,4 @@
 {
-  "replace": true,
   "type": "farmersdelight:cooking",
   "cookingtime": 100,
   "experience": 1.0,
@@ -16,6 +15,8 @@
   ],
   "recipe_book_tab": "misc",
   "result": {
-    "item": "hearthandharvest:caramel"
+    "count": 1,
+    "id": "hearthandharvest:caramel"
   }
 }
+

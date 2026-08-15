@@ -1,19 +1,24 @@
 {
   "type": "farmersdelight:cooking",
-  "cookingtime": 200,
   "experience": 1.0,
   "ingredients": [
     {
-      "tag": "forge:crops/tomato"
+      "tag": "c:crops/tomato"
     },
     {
-      "tag": "forge:crops/onion"
+      "tag": "c:crops/onion"
     },
     {
-      "item": "minecraft:beetroot"
+      "tag": "c:crops/beetroot"
     },
     {
-      "tag": "forge:vegetables"
+      "type": "neoforge:difference",
+      "base": {
+        "tag": "c:foods/vegetable"
+      },
+      "subtracted": {
+        "item": "minecraft:melon_slice"
+      }
     },
     {
       "item": "enchanted:garlic"
@@ -21,6 +26,7 @@
   ],
   "recipe_book_tab": "meals",
   "result": {
-    "item": "farmersdelight:ratatouille"
+    "count": 1,
+    "id": "farmersdelight:ratatouille"
   }
 }

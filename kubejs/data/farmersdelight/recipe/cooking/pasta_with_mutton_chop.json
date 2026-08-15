@@ -1,13 +1,12 @@
 {
   "type": "farmersdelight:cooking",
-  "cookingtime": 200,
   "experience": 1.0,
   "ingredients": [
     {
-      "tag": "forge:raw_mutton"
+      "tag": "c:foods/raw_mutton"
     },
     {
-      "tag": "forge:pasta"
+      "tag": "c:foods/pasta"
     },
     {
       "item": "farmersdelight:tomato_sauce"
@@ -18,6 +17,7 @@
   ],
   "recipe_book_tab": "meals",
   "result": {
-    "item": "farmersdelight:pasta_with_mutton_chop"
+    "count": 1,
+    "id": "farmersdelight:pasta_with_mutton_chop"
   }
 }

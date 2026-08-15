@@ -18,6 +18,7 @@
   ],
   "recipe_book_tab": "misc",
   "result": {
-    "item": "hearthandharvest:cherry_juice"
+  "count": 1,
+    "id": "hearthandharvest:cherry_juice"
   }
 }

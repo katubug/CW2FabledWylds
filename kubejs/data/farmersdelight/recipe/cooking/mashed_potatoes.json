@@ -14,10 +14,10 @@
       "item": "minecraft:potato"
     },
     {
-      "item": "spelunkery:salt"
+      "item": "c:dusts/salt"
     },
     {
-      "item": "spelunkery:salt"
+      "item": "c:dusts/salt"
     },
     {
       "tag": "forge:milk/milk_bottle"
@@ -28,6 +28,7 @@
   ],
   "recipe_book_tab": "meals",
   "result": {
-    "item": "hearthandharvest:mashed_potatoes"
+    "count": 1,
+    "id": "hearthandharvest:mashed_potatoes"
   }
 }

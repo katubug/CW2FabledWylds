@@ -27,6 +27,7 @@
   ],
   "recipe_book_tab": "misc",
   "result": {
-    "item": "hearthandharvest:grape_jam"
+    "count": 1,
+    "id": "hearthandharvest:grape_jam"
   }
 }

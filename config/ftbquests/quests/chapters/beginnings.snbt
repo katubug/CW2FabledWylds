@@ -435,19 +435,25 @@
 				item: { count: 1, id: "soulhome:soulkey" }
 				type: "item"
 			}]
-			x: -4.3d
-			y: -5.3d
+			x: -4.5d
+			y: -5.5d
 		}
 		{
 			id: "0291249FFD51DD05"
 			preset: "info"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "74013795A506AD71"
+				table_id: 6895470215093009548L
+				type: "random"
+			}]
 			shape: "gear"
 			tasks: [{
 				id: "427F9D89912BC6DC"
 				item: { count: 1, id: "eccentrictome:tome" }
 				type: "item"
 			}]
-			x: -6.9d
+			x: -7.5d
 			y: -4.0d
 		}
 		{
@@ -457,7 +463,7 @@
 				{
 					blessing: "恭喜发财"
 					exclude_from_claim_all: true
-					id: "70784A4BE7A68771"
+					id: "7BCFE9F726E3AF53"
 					is_ender: false
 					is_team_reward: false
 					item: {
@@ -470,14 +476,19 @@
 				}
 				{
 					exclude_from_claim_all: true
-					id: "5449A435C1A12166"
+					id: "12F737AD8F8662A1"
 					is_ender: false
 					is_team_reward: false
 					item: {
+						components: {
+							"minecraft:custom_data": {
+								HearthRecallMode: "teleport"
+							}
+						}
 						count: 1
-						id: "exposure:color_film"
+						id: "kubejs:hearth_recall"
 					}
-					target_addressee: "QuestNPC"
+					target_addressee: "Briar the Witch"
 					team_reward_multiplier: 1.0f
 					type: "contactquests:parcel"
 				}
@@ -488,8 +499,8 @@
 				item: { components: { "ftbfiltersystem:filter": "or(item(contact:white_mailbox)item(contact:orange_mailbox)item(contact:magenta_mailbox)item(contact:light_blue_mailbox)item(contact:yellow_mailbox)item(contact:lime_mailbox)item(contact:pink_mailbox)item(contact:light_gray_mailbox)item(contact:gray_mailbox)item(contact:cyan_mailbox)item(contact:purple_mailbox)item(contact:blue_mailbox)item(contact:brown_mailbox)item(contact:green_mailbox)item(contact:red_mailbox)item(contact:black_mailbox))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
-			x: -2.7d
-			y: -5.3d
+			x: -2.5d
+			y: -5.5d
 		}
 		{
 			id: "4ABFB1778565B4B7"
@@ -511,13 +522,10 @@
 					type: "item"
 				}
 				{
-					id: "7015C2E548F6629C"
+					id: "2565FF7F1B3DEA41"
 					item: {
-						components: {
-							"ftbquests:missing_item": "broom_closet:wishlist"
-						}
 						count: 1
-						id: "ftbquests:missing_item"
+						id: "broom_closet:wishlist"
 					}
 					type: "item"
 				}
@@ -540,36 +548,7 @@
 					type: "item"
 				}
 			]
-			x: -8.0d
-			y: -3.0d
-		}
-		{
-			id: "60D87516A5C5DDF5"
-			rewards: [{
-				id: "4C9E7D096894F666"
-				item: {
-					components: {
-						"ftbquests:missing_item": "waystones:warp_scroll"
-					}
-					count: 1
-					id: "ftbquests:missing_item"
-				}
-				type: "item"
-			}]
-			shape: "gear"
-			tasks: [{
-				icon: {
-					components: {
-						"ftbquests:missing_item": "waystones:waystone"
-					}
-					id: "ftbquests:missing_item"
-				}
-				id: "16EAB0998323565B"
-				stat: "waystones:waystone_activated"
-				type: "stat"
-				value: 1
-			}]
-			x: -5.5d
+			x: -6.0d
 			y: -4.0d
 		}
 		{
@@ -595,41 +574,6 @@
 			}]
 			x: 5.225d
 			y: -10.4d
-		}
-		{
-			id: "7A060F5C254439BC"
-			preset: "info"
-			rewards: [
-				{
-					id: "4C57C860CB79123E"
-					item: {
-						components: {
-							"ftbquests:missing_item": "solonion:lunchbag"
-						}
-						count: 1
-						id: "ftbquests:missing_item"
-					}
-					type: "item"
-				}
-				{
-					id: "64F215562F3CF1CA"
-					item: {
-						components: {
-							"ftbquests:missing_item": "farmersrespite:coffee_with_milk"
-						}
-						count: 1
-						id: "ftbquests:missing_item"
-					}
-					type: "item"
-				}
-			]
-			shape: "gear"
-			tasks: [{
-				id: "35D1EC16F3A74C57"
-				type: "checkmark"
-			}]
-			x: -6.1d
-			y: -5.3d
 		}
 		{
 			always_invisible: true
@@ -742,8 +686,8 @@
 				id: "474CE1AAC07815BD"
 				type: "checkmark"
 			}]
-			x: -7.7d
-			y: -5.3d
+			x: -7.5d
+			y: -5.5d
 		}
 		{
 			dependencies: ["66B094500E40DA3D"]
@@ -776,8 +720,36 @@
 				item: { count: 1, id: "roots:wooden_shears" }
 				type: "item"
 			}]
-			x: -8.0d
-			y: -1.5d
+			x: -7.5d
+			y: -2.5d
+		}
+		{
+			id: "5842543AA1FF2F36"
+			preset: "info"
+			rewards: [
+				{
+					id: "0711EFCB84AEA7E0"
+					item: {
+						count: 1
+						id: "heartstone:heartstone"
+					}
+					type: "item"
+				}
+				{
+					id: "6D3A125FAC016430"
+					item: {
+						count: 1
+						id: "connection:amulet_of_connection"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "1A048F3381BC6882"
+				type: "checkmark"
+			}]
+			x: -6.0d
+			y: -5.5d
 		}
 	]
 }

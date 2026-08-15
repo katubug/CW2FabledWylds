@@ -11,14 +11,15 @@
       "item": "farmersdelight:milk_bottle"
     },
     {
-      "item": "spelunkery:salt"
+      "item": "c:dusts/salt"
     },
     {
-      "item": "spelunkery:salt"
+      "item": "c:dusts/salt"
     }
   ],
   "recipe_book_tab": "meals",
   "result": {
-    "item": "hearthandharvest:unripe_cheddar_cheese_wheel"
+    "count": 1,
+    "id": "hearthandharvest:unripe_cheddar_cheese_wheel"
   }
 }

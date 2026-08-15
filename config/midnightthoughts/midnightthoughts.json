@@ -140,7 +140,7 @@
   },
   "ui": {
     "theme": "classic",
-    "wellRestedHudPosition": "primary",
+    "wellRestedHudPosition": "left",
     "hideWellRestedHud": false,
     "hideSleepingPlayersHud": false,
     "hideThemeSwitchButton": false

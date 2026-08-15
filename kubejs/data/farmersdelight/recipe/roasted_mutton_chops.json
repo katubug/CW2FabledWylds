@@ -6,7 +6,7 @@
       "item": "farmersdelight:cooked_mutton_chops"
     },
     {
-      "item": "minecraft:beetroot"
+      "tag": "c:crops/beetroot"
     },
     {
       "item": "minecraft:bowl"
@@ -15,13 +15,14 @@
       "item": "farmersdelight:cooked_rice"
     },
     {
-      "tag": "forge:crops/tomato"
+      "tag": "c:crops/tomato"
     },
     {
       "item": "enchanted:garlic"
     }
   ],
   "result": {
-    "item": "farmersdelight:roasted_mutton_chops"
+    "count": 1,
+    "id": "farmersdelight:roasted_mutton_chops"
   }
 }

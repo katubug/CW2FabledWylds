@@ -22,6 +22,7 @@
   ],
   "recipe_book_tab": "meals",
   "result": {
-    "item": "hearthandharvest:macaroni_and_cheese"
+    "count": 1,
+    "id": "hearthandharvest:macaroni_and_cheese"
   }
 }

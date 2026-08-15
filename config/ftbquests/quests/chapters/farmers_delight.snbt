@@ -222,18 +222,8 @@
 					type: "item"
 				}
 				{
-					id: "652808E991B7EBEE"
-					item: { count: 1, id: "farm_and_charm:oat" }
-					type: "item"
-				}
-				{
 					id: "4F9D7325DBD23437"
 					item: { count: 1, id: "farm_and_charm:lettuce" }
-					type: "item"
-				}
-				{
-					id: "020F47CA57F316AE"
-					item: { count: 1, id: "farm_and_charm:barley" }
 					type: "item"
 				}
 				{
@@ -936,12 +926,14 @@
 			y: 2.0d
 		}
 		{
-			id: "26E36A0704C61FCE"
+			id: "2C581951719CC6BA"
 			tasks: [{
-				id: "6F13333F3C35F66A"
-				type: "custom"
+				advancement: "fabled_wylds:fieldguide/cucumber_crop"
+				criterion: ""
+				id: "4F6D47E0F0FA52B4"
+				type: "advancement"
 			}]
-			x: -4.5d
+			x: -3.5d
 			y: -5.0d
 		}
 	]

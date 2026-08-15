@@ -3,7 +3,7 @@
   "display": {
     "icon": { "id": "adorablehamsterpets:cucumber" },
     "title": { "translate": "advancement.fieldguide.cucumber_crop.title" },
-    "description": { "translate": "advancement.fieldguide.cucumber_crop.description" },
+    "description": "",
     "show_toast": false,
     "announce_to_chat": false,
     "hidden": true

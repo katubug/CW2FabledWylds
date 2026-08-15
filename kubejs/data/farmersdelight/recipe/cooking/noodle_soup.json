@@ -1,19 +1,18 @@
 {
   "type": "farmersdelight:cooking",
-  "cookingtime": 200,
   "experience": 1.0,
   "ingredients": [
     {
-      "tag": "forge:pasta"
+      "tag": "c:foods/pasta"
     },
     {
-      "tag": "forge:cooked_eggs"
+      "tag": "c:eggs"
     },
     {
       "item": "minecraft:dried_kelp"
     },
     {
-      "tag": "forge:raw_pork"
+      "tag": "c:foods/raw_pork"
     },
     {
       "item": "enchanted:garlic"
@@ -21,6 +20,7 @@
   ],
   "recipe_book_tab": "meals",
   "result": {
-    "item": "farmersdelight:noodle_soup"
+    "count": 1,
+    "id": "farmersdelight:noodle_soup"
   }
 }

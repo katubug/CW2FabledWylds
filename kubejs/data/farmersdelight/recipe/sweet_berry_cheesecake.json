@@ -7,13 +7,13 @@
       "item": "farmersdelight:pie_crust"
     },
     "m": {
-      "tag": "forge:cheese_slices"
+      "tag": "c:cheese_slices"
     },
     "s": {
       "item": "minecraft:sweet_berries"
     },
     "e": {
-      "tag": "forge:cooking_eggs"
+      "tag": "c:eggs"
     }
   },
   "pattern": [
@@ -22,7 +22,7 @@
     "eOe"
   ],
   "result": {
-    "item": "farmersdelight:sweet_berry_cheesecake"
-  },
-  "show_notification": true
+    "count": 1,
+    "id":  "farmersdelight:sweet_berry_cheesecake"
+  }
 }

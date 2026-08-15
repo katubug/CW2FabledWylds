@@ -17,7 +17,7 @@
       "item": "hearthandharvest:peanut"
     },
     {
-      "item": "spelunkery:salt"
+      "item": "c:dusts/salt"
     },
     {
       "item": "minecraft:sugar"
@@ -28,6 +28,7 @@
   ],
   "recipe_book_tab": "misc",
   "result": {
-    "item": "hearthandharvest:peanut_butter"
+    "count": 1,
+    "id": "hearthandharvest:peanut_butter"
   }
 }
