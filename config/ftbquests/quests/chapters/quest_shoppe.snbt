@@ -304,7 +304,10 @@
 		}
 		{
 			icon: {
-				id: "tanukidecor:diy_workbench"
+				components: {
+					"ftbquests:missing_item": "tanukidecor:diy_workbench"
+				}
+				id: "ftbquests:missing_item"
 			}
 			id: "48DF3E80F98D8E72"
 			rewards: [{
@@ -312,10 +315,6 @@
 				id: "047B86651B77853D"
 				is_ender: false
 				is_team_reward: false
-				item: {
-					count: 1
-					id: "tanukidecor:diy_workbench"
-				}
 				target_addressee: "QuestNPC"
 				team_reward_multiplier: 1.0f
 				type: "contactquests:parcel"
