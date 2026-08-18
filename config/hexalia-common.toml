@@ -20,6 +20,9 @@
 	# Default: 16
 	# Range: 1 ~ 64
 	dreamcatcherRadius = 16
+	# Default: 8
+	# Range: 0 ~ 32
+	naturesRitualCropRequirement = 8
 
 [plants]
 	# Default: 2400

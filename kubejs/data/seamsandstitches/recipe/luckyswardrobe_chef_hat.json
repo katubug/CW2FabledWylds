@@ -7,10 +7,10 @@
   },
   "ingredients": [
     {
-      "item": "lowlands_clothing:laced_woolen_fabric"
+      "tag": "minecraft:wool"
     },
     {
-      "item": "lowlands_clothing:laced_woolen_fabric"
+      "tag": "minecraft:wool"
     },
     {
       "item": "crittersandcompanions:silk"

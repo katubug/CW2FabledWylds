@@ -7,13 +7,13 @@
   },
   "ingredients": [
     {
-      "item": "lowlands_clothing:woolen_fabric"
+      "tag": "minecraft:wool"
     },
     {
       "item": "betterend:leather_stripe"
     },
     {
-      "item": "lowlands_clothing:woolen_fabric"
+      "tag": "minecraft:wool"
     },
     {
       "item": "betterend:leather_stripe"

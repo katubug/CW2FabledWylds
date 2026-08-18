@@ -135,8 +135,8 @@
 				item: { count: 1, id: "exposure:camera" }
 				type: "item"
 			}]
-			x: -4.4d
-			y: -3.1d
+			x: -4.5d
+			y: -3.5d
 		}
 		{
 			dependencies: ["2BB8D1410BD7C040"]
@@ -149,7 +149,7 @@
 				type: "advancement"
 			}]
 			x: -2.0d
-			y: -3.7d
+			y: -3.5d
 		}
 		{
 			id: "54B176A22CBFD31F"

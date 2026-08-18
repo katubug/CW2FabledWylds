@@ -638,6 +638,7 @@
 			y: -5.5d
 		}
 		{
+			dependencies: ["50DC32C40279EF48"]
 			id: "61101043D3A5BB43"
 			preset: "start"
 			rewards: [{
@@ -700,7 +701,7 @@
 			preset: "progression"
 			tasks: [{
 				id: "7FEF3E7EC2CD2664"
-				item: { count: 1, id: "lowlands_clothing:herbs_whip" }
+				item: { count: 1, id: "minecraft:apple" }
 				type: "item"
 			}]
 			x: 1.0d

@@ -32,6 +32,7 @@ ServerEvents.tags('block', event => {
 	]
 
 	for (const block of hotBlocks) {
+		event.add('create:passive_boiler_heaters', block);
 		event.add('farmersdelight:heat_sources', block);
 		event.add('meadow:allows_cooking', block);
 		event.add('bakery:allows_cooking', block);

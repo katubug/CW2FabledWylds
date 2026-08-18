@@ -21,6 +21,8 @@ ServerEvents.tags('item', event => {
 		'dawnoftimebuilder:cobbled_limestone',
 		'meadow:limestone')
 
+		event.add('create:stone_types/limestone', 'dawnoftimebuilder:puuc_limestone', 'dawnoftimebuilder:cobbled_limestone', 'meadow:limestone')
+
 
 	// Golden Things for Tarot
 	event.add('tarotcards:golden',

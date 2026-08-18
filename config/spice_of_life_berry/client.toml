@@ -1,6 +1,6 @@
 [presets_ui_state]
-	lastAppliedPresetId = "builtin:normal_food_only"
-	presetsIntroSeen = false
+	lastAppliedPresetId = "builtin:chefs_journey"
+	presetsIntroSeen = true
 	importedPresetCodes = []
 
 	[compat.appleskin]
@@ -117,7 +117,7 @@
 			# Range: 0.0 ~ 1.0
 			categoryMiniCloudOpacity = 1.0
 			showCategoryMiniCloudBackground = true
-			categoryMiniCloudIdleAnimation = true
+			categoryMiniCloudIdleAnimation = false
 
 		[compat.visuals.cloud_size]
 			# Default: 1.0
@@ -186,7 +186,7 @@
 
 		[compat.visuals.hud_animations]
 			enabled = true
-			idleAnimationEnabled = true
+			idleAnimationEnabled = false
 			# Default: 0.5
 			# Range: 0.0 ~ 8.0
 			idleMoveAmountX = 0.5
@@ -313,7 +313,7 @@
 			trailFadeStrength = 0.65
 
 		[compat.sounds.craving_sounds]
-			enabled = true
+			enabled = false
 			quotaCompleteSoundEnabled = true
 			streakBonusSoundEnabled = true
 			#Allowed Values: calm, soft_ui, breeze

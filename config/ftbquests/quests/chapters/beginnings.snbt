@@ -90,10 +90,6 @@
 										count: 1
 										id: "adorablehamsterpets:hamster_guide_book"
 									}]
-									ae2: [{
-										count: 1
-										id: "ae2:guide"
-									}]
 									animal_pen: [{
 										components: {
 											"patchouli:book": "animal_pen:guide_book"
@@ -526,6 +522,14 @@
 					item: {
 						count: 1
 						id: "broom_closet:wishlist"
+					}
+					type: "item"
+				}
+				{
+					id: "219CA4982DCB8320"
+					item: {
+						count: 1
+						id: "travelertoolbelt:belt"
 					}
 					type: "item"
 				}

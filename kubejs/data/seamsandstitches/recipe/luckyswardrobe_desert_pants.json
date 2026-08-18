@@ -16,10 +16,10 @@
       "item": "twilightforest:treated_leather"
     },
     {
-      "item": "lowlands_clothing:cloth_fabric"
+      "tag": "minecraft:wool"
     },
     {
-      "item": "lowlands_clothing:cloth_fabric"
+      "tag": "minecraft:wool"
     },
     {
       "item": "minecraft:green_wool"

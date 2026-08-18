@@ -1,11 +1,12 @@
 ServerEvents.recipes(event => {
 	//Recipe Replacements
-	//leather
+
+	//flour
 	event.replaceInput({
-			input: 'lowlands_clothing:treatedleather'
+			input: 'create:wheat_flour'
 		}, // Arg 1: the filter
-		'lowlands_clothing:treatedleather', // Arg 2: the item to replace
-		'twilightforest:tanned_leather' // Arg 3: the item to replace it with
+		'create:wheat_flour', // Arg 2: the item to replace
+		'#c:flour' // Arg 3: the item to replace it with
 	)
 
 	//salt

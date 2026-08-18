@@ -1,0 +1,11 @@
+{
+
+  "advancements.hexalia.salt_of_the_craft.description": "Obtain Ritual Salt, the basis of all rituals.",
+  "advancements.hexalia.salt_of_the_craft.title": "Salt of the Craft",
+  "block.hexalia.salt_block": "Ritual Salt Block",
+  "block.hexalia.salt_lamp": "Ritual Salt Lamp",
+  "item.hexalia.salt": "Ritual Salt",
+  "tag.block.c.salt_blocks": "Ritual Salt Blocks",
+  "tag.item.c.salt": "Ritual Salt",
+  "tag.item.c.salt_blocks": "Ritual Salt Blocks"
+}

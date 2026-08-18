@@ -421,91 +421,6 @@
       "isVanilla": false
     },
     {
-      "id": "floating_islands:amethyst_island",
-      "displayName": "Amethyst Island",
-      "isVanilla": false
-    },
-    {
-      "id": "floating_islands:camp_island",
-      "displayName": "Camp Island",
-      "isVanilla": false
-    },
-    {
-      "id": "floating_islands:cemetery_island",
-      "displayName": "Cemetery Island",
-      "isVanilla": false
-    },
-    {
-      "id": "floating_islands:cherry_island_with_shrine",
-      "displayName": "Cherry Island With Shrine",
-      "isVanilla": false
-    },
-    {
-      "id": "floating_islands:drifting_island",
-      "displayName": "Drifting Island",
-      "isVanilla": false
-    },
-    {
-      "id": "floating_islands:floating_rocks",
-      "displayName": "Floating Rocks",
-      "isVanilla": false
-    },
-    {
-      "id": "floating_islands:flower_island2",
-      "displayName": "Flower Island2",
-      "isVanilla": false
-    },
-    {
-      "id": "floating_islands:hut_with_waystone",
-      "displayName": "Hut With Waystone",
-      "isVanilla": false
-    },
-    {
-      "id": "floating_islands:nether_island",
-      "displayName": "Nether Island",
-      "isVanilla": false
-    },
-    {
-      "id": "floating_islands:paradise_island",
-      "displayName": "Paradise Island",
-      "isVanilla": false
-    },
-    {
-      "id": "floating_islands:pillager_camp",
-      "displayName": "Pillager Camp",
-      "isVanilla": false
-    },
-    {
-      "id": "floating_islands:shrine",
-      "displayName": "Shrine",
-      "isVanilla": false
-    },
-    {
-      "id": "floating_islands:spider_ruin",
-      "displayName": "Spider Ruin",
-      "isVanilla": false
-    },
-    {
-      "id": "floating_islands:steampunk_island",
-      "displayName": "Steampunk Island",
-      "isVanilla": false
-    },
-    {
-      "id": "floating_islands:tower_island",
-      "displayName": "Tower Island",
-      "isVanilla": false
-    },
-    {
-      "id": "floating_islands:villager_island",
-      "displayName": "Villager Island",
-      "isVanilla": false
-    },
-    {
-      "id": "floating_islands:witch_island",
-      "displayName": "Witch Island",
-      "isVanilla": false
-    },
-    {
       "id": "hearthandharvest:corn_maze",
       "displayName": "Corn Maze",
       "isVanilla": false
@@ -808,26 +723,6 @@
     {
       "id": "lios_outlandish_villages:spiral_tower_village_sea",
       "displayName": "Spiral Tower Village Sea",
-      "isVanilla": false
-    },
-    {
-      "id": "lowlands_clothing:abandonnedlogcabin",
-      "displayName": "Abandonnedlogcabin",
-      "isVanilla": false
-    },
-    {
-      "id": "lowlands_clothing:lighthouse",
-      "displayName": "Lighthouse",
-      "isVanilla": false
-    },
-    {
-      "id": "lowlands_clothing:pillager_war_forge",
-      "displayName": "Pillager War Forge",
-      "isVanilla": false
-    },
-    {
-      "id": "lowlands_clothing:pillagerlogcabin",
-      "displayName": "Pillagerlogcabin",
       "isVanilla": false
     },
     {

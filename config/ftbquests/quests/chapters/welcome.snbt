@@ -5,10 +5,7 @@
 	filename: "welcome"
 	group: "6B4E114EC6CDE8EE"
 	icon: {
-		components: {
-			"ftbquests:icon": "tanukidecor:block/neon_sign/heart"
-		}
-		id: "ftbquests:custom_icon"
+		id: "herbalbrews:witch_hat"
 	}
 	id: "525A3F37A27EBC86"
 	images: [
@@ -75,7 +72,7 @@
 			click_action: "none:"
 			height: 7.0d
 			id: "2F33F2564A98C14A"
-			image: "gabrielequests-mannequin:head=hexerei:witch_helmet,chest=lowlands_clothing:ratcatcherrobes_chestplate,legs=lowlands_clothing:penitent_rags_leggings,feet=hexerei:witch_boots,main=roots:staff,off=,rot=342x-10"
+			image: "gabrielequests-mannequin:head=hexerei:witch_helmet,chest=fantasy_armor:lady_maria_chestplate,legs=fantasy_armor:malenia_leggings,feet=hexerei:witch_boots,main=roots:staff,off=,rot=342x-10"
 			rotation: 0.0d
 			width: 1.0d
 			x: 9.5d
@@ -123,7 +120,7 @@
 				id: "4B25469609B1A60C"
 				type: "checkmark"
 			}]
-			x: -4.5d
+			x: 3.0d
 			y: -7.5d
 		}
 		{
@@ -244,6 +241,22 @@
 				type: "checkmark"
 			}]
 			x: -5.5d
+			y: -7.5d
+		}
+		{
+			id: "17348DDF7E369519"
+			preset: "info"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2265D12DAE530117"
+				table_id: 6895470215093009548L
+				type: "random"
+			}]
+			tasks: [{
+				id: "27302BB3BA0A0300"
+				type: "checkmark"
+			}]
+			x: -4.5d
 			y: -7.5d
 		}
 	]

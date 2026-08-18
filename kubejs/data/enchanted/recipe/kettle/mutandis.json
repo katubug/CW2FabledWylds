@@ -1,23 +1,22 @@
 {
-  "type": "enchanted:kettle",
-  "cook_colour": "1A4723",
-  "final_colour": "3E804E",
+  "type": "hexerei:mixingcauldron",
+  "fluid": {
+    "id": "minecraft:water",
+    "amount": 1000
+  },
   "ingredients": [
     {
-      "count": 1,
-      "id": "enchanted:mandrake_root"
+      "item": "enchanted:exhale_of_the_horned_one"
     },
     {
-      "count": 1,
-      "id": "enchanted:exhale_of_the_horned_one"
+      "tag": "fabled_wylds:mutandis_ingredients"
     },
     {
-      "count": 1,
-      "id": "minecraft:egg"
+      "tag": "c:eggs"
     }
   ],
-  "result": {
-    "count": 6,
-    "id": "enchanted:mutandis"
+  "output": {
+    "id": "enchanted:mutandis",
+    "count": 6
   }
 }

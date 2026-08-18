@@ -19,7 +19,9 @@
       "65539: Invalid key",
       "Skipping recipe",
       "@ Pre render",
-      "# GL ERROR #"
+      "# GL ERROR #",
+      "Invalid path in datapack",
+      "Depth formats do not match"
     ],
     "regex": [
       "Disconnecting VANILLA connection attempt",

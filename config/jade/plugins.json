@@ -56,6 +56,9 @@
     "painting": true,
     "chiseled_bookshelf": true
   },
+  "refineddelight": {
+    "wireless_cooking_pot": true
+  },
   "jade_access": {
     "held_item": true,
     "sign": true,
@@ -65,10 +68,6 @@
   },
   "ftbquests": {
     "barrier": true
-  },
-  "logisticsnetworks": {
-    "logistics_node_entity": true,
-    "node_attached": true
   },
   "jade": {
     "coordinates.rel": false,
@@ -99,18 +98,6 @@
   "functionalstorage": {
     "armory": true,
     "drawer": true
-  },
-  "ae2": {
-    "part_icon": true,
-    "charger": true,
-    "debug": true,
-    "part_tooltip": true,
-    "grid_node_state": true,
-    "pattern_provider": true,
-    "part_mod_name": true,
-    "power_storage": true,
-    "crafting_monitor": true,
-    "part_name": true
   },
   "exposure": {
     "lightroom": true,

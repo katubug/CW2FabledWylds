@@ -3,7 +3,7 @@
   "browserCollapsed": false,
   "pendingCollapsed": false,
   "sideListCollapsed": false,
-  "kubejs": true,
+  "kubejs": false,
   "tab": 4,
   "propsBlocks": false,
   "filesExplorerCollapsed": false,

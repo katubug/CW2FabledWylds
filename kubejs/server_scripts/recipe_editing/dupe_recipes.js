@@ -60,7 +60,15 @@ ServerEvents.recipes(event => {
 		'plushie_buddies:plushie_stray',
 		'plushie_buddies:plushie_strider',
 		'plushie_buddies:plushie_iron_golem',
-		'plushie_buddies:plushie_sniffer'
+		'plushie_buddies:plushie_sniffer',
+		'plushie_buddies:plushie_armadillo',
+		'plushie_buddies:plushie_breeze',
+		'plushie_buddies:plushie_glow_squid',
+		'plushie_buddies:plushie_mule',
+		'kubejs:witch_cat_plushie',
+		'plushie_buddies:plushie_llama',
+		'plushie_buddies:plushie_slime',
+		'plushie_buddies:plushie_shulker'
 	];
 
 	for (const plush of plushDupe) {

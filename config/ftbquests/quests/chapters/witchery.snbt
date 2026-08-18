@@ -9,31 +9,25 @@
 		id: "minecraft:cauldron"
 	}
 	id: "37F503706CE1D7D6"
-	images: [
-		{
-			height: 20.0d
-			id: "0C630ECB1309EE61"
-			image: "fabled_wylds:textures/questui/bookbgslg/green_book_lg.png"
-			rotation: 0.0d
-			width: 25.0d
-			x: 5.0d
-			y: 2.5d
-		}
-		{
-			color: 6321408
-			height: 2.5d
-			id: "5AACAA093BA65B8A"
-			image: "fabled_wylds:textures/questui/titles/witchery.png"
-			rotation: 0.0d
-			width: 9.0d
-			x: 0.0d
-			y: -4.0d
-		}
-	]
+	images: [{
+		color: 6321408
+		height: 2.5d
+		id: "5AACAA093BA65B8A"
+		image: "fabled_wylds:textures/questui/titles/witchery.png"
+		rotation: 0.0d
+		width: 9.0d
+		x: 0.0d
+		y: -4.0d
+	}]
 	order_index: 0
 	quest_enhance_decorative_lines: [ ]
 	quest_enhance_hidden_dependency_lines: [ ]
-	quest_links: [ ]
+	quest_links: [{
+		id: "7B814E6FBC27E938"
+		linked_quest: "61101043D3A5BB43"
+		x: 3.5d
+		y: -3.0d
+	}]
 	quests: [
 		{
 			id: "5688211768F55F90"
@@ -195,6 +189,11 @@
 					item: { components: { "modopedia:book": "enchanted:art_of_witchcraft" }, count: 1, id: "modopedia:book" }
 					type: "item"
 				}
+				{
+					id: "17762D57E632FADA"
+					item: { count: 1, id: "hexalia:verdant_grimoire" }
+					type: "item"
+				}
 			]
 			x: -0.5d
 			y: -2.0d
@@ -269,19 +268,16 @@
 			dependencies: ["182C1C3812C31B0B"]
 			id: "2E3769733A0BFF69"
 			rewards: [{
-				id: "4C6AAA9777AC469F"
-				item: {
-					count: 1
-					id: "minecraft:apple"
-				}
-				type: "item"
+				exclude_from_claim_all: true
+				id: "6236EB3F9B021305"
+				table_id: 7328857662613080212L
+				type: "random"
 			}]
 			tasks: [{
-				icon: {
-					id: "heads:cat_calico_head"
-				}
-				id: "53682DB0C2E441EF"
-				type: "custom"
+				entity: "minecraft:cat"
+				id: "0FA0667964A6F377"
+				type: "tame_mob"
+				value: 1L
 			}]
 			x: -1.5d
 			y: -0.5d
@@ -713,6 +709,7 @@
 			y: 3.5d
 		}
 		{
+			dependencies: ["184493C9F7227C64"]
 			id: "24C19E2033095FFA"
 			preset: "milestone"
 			rewards: [{
@@ -728,7 +725,7 @@
 				type: "item"
 			}]
 			x: 6.75d
-			y: -4.5d
+			y: 0.75d
 		}
 		{
 			dependencies: ["18FD7541912B5772"]
@@ -884,11 +881,14 @@
 				item: { count: 1, id: "hexerei:witch_boots" }
 				type: "item"
 			}]
-			x: 2.5d
+			x: 5.0d
 			y: -1.0d
 		}
 		{
-			dependencies: ["50DC32C40279EF48"]
+			dependencies: [
+				"50DC32C40279EF48"
+				"61101043D3A5BB43"
+			]
 			id: "427FD234857AEBE8"
 			rewards: [{
 				count: 10
@@ -904,7 +904,7 @@
 				item: { count: 1, id: "hexerei:infused_fabric" }
 				type: "item"
 			}]
-			x: 2.5d
+			x: 5.0d
 			y: -2.0d
 		}
 		{
@@ -968,7 +968,7 @@
 				item: { count: 1, id: "hexerei:witch_chestplate" }
 				type: "item"
 			}]
-			x: 1.0d
+			x: 3.5d
 			y: -1.0d
 		}
 		{
@@ -985,7 +985,7 @@
 				item: { count: 1, id: "hexerei:witch_helmet" }
 				type: "item"
 			}]
-			x: 3.5d
+			x: 6.0d
 			y: -2.0d
 		}
 		{
@@ -1003,30 +1003,18 @@
 				item: { count: 1, id: "hexerei:mushroom_witch_hat" }
 				type: "item"
 			}]
-			x: 3.5d
+			x: 6.0d
 			y: -3.5d
 		}
 		{
 			dependencies: ["182C1C3812C31B0B"]
 			id: "196ECF57CAC465DF"
-			rewards: [
-				{
-					id: "3F68B1E47A232DD2"
-					item: {
-						count: 1
-						id: "minecraft:player_head"
-					}
-					type: "item"
-				}
-				{
-					id: "2D76F7C923AE48C3"
-					item: {
-						count: 1
-						id: "minecraft:player_head"
-					}
-					type: "item"
-				}
-			]
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7C60E49CF708390A"
+				table_id: 5770973074849872376L
+				type: "random"
+			}]
 			shape: "octagon"
 			tasks: [{
 				icon: {
@@ -1124,7 +1112,7 @@
 			y: 2.5d
 		}
 		{
-			dependencies: ["2B1B9108FF7A3FB3"]
+			dependencies: ["0C7EA86F283677BB"]
 			id: "794CACBA42AE1AB2"
 			rewards: [{
 				id: "07187A95C32E5E1E"
@@ -1135,20 +1123,13 @@
 				type: "item"
 			}]
 			shape: "hexagon"
-			tasks: [
-				{
-					id: "61D54B9CC91EF917"
-					item: { count: 1, id: "enchanted:arthana" }
-					type: "item"
-				}
-				{
-					id: "47DEE495E01049F1"
-					item: { count: 1, id: "hexalia:athame" }
-					type: "item"
-				}
-			]
-			x: -2.0d
-			y: 0.5d
+			tasks: [{
+				id: "47DEE495E01049F1"
+				item: { count: 1, id: "hexalia:athame" }
+				type: "item"
+			}]
+			x: -5.5d
+			y: -3.0d
 		}
 		{
 			dependencies: ["182C1C3812C31B0B"]
@@ -1196,8 +1177,8 @@
 				item: { count: 1, id: "wetland_whimsy:basic_incense" }
 				type: "item"
 			}]
-			x: -6.0d
-			y: 1.0d
+			x: -1.5d
+			y: -7.0d
 		}
 		{
 			dependencies: ["0C7EA86F283677BB"]
@@ -1214,8 +1195,8 @@
 				item: { count: 1, id: "roots:staff" }
 				type: "item"
 			}]
-			x: -8.0d
-			y: -0.5d
+			x: -7.5d
+			y: -1.5d
 		}
 		{
 			dependencies: ["33B84E3E74BE73B7"]
@@ -1230,14 +1211,21 @@
 			y: 3.5d
 		}
 		{
+			dependencies: ["6BE389D26249D046"]
 			id: "0C7EA86F283677BB"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1AF887FF364B1C77"
+				table_id: 5770973074849872376L
+				type: "random"
+			}]
 			tasks: [{
-				id: "4CD12F56EF4F2478"
-				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(roots:knives)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				id: "46AFA71E46B58AA3"
+				item: { count: 1, id: "roots:golden_knife" }
 				type: "item"
 			}]
-			x: -9.5d
-			y: -2.5d
+			x: -5.0d
+			y: 1.0d
 		}
 		{
 			dependencies: ["0C7EA86F283677BB"]
@@ -1435,49 +1423,21 @@
 			y: 1.5d
 		}
 		{
+			dependencies: ["24C19E2033095FFA"]
 			id: "0C72B71937E0F79F"
-			rewards: [
-				{
-					id: "15B772AA3085E5B5"
-					item: {
-						count: 1
-						id: "hexalia:mutavis"
-					}
-					type: "item"
-				}
-				{
-					id: "5E481B24B4CE3F51"
-					item: {
-						count: 1
-						id: "enchanted:mutandis"
-					}
-					type: "item"
-				}
-			]
-			tasks: [
-				{
-					id: "08FEC9DF138CACA5"
-					item: { count: 1, id: "hexalia:spirit_powder" }
-					type: "item"
-				}
-				{
-					id: "685192EF7F3026A2"
-					item: { count: 1, id: "hexalia:dream_paste" }
-					type: "item"
-				}
-				{
-					id: "361D3B5FC9F0D1C4"
-					item: { count: 1, id: "hexalia:siren_paste" }
-					type: "item"
-				}
-				{
-					id: "1777C90F254D44AA"
-					item: { count: 1, id: "hexalia:ghost_powder" }
-					type: "item"
-				}
-			]
-			x: 4.0d
-			y: -7.5d
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0AA9731FF39D57DE"
+				table_id: 7328857662613080212L
+				type: "random"
+			}]
+			tasks: [{
+				id: "42CDB69E38CE4AF7"
+				item: { count: 1, id: "enchanted:mutandis" }
+				type: "item"
+			}]
+			x: 8.5d
+			y: -1.0d
 		}
 		{
 			dependencies: ["084BB53F414CF215"]
@@ -1546,7 +1506,9 @@
 			y: -7.5d
 		}
 		{
+			dependencies: ["794CACBA42AE1AB2"]
 			id: "546DF8992DABB86A"
+			preset: "item"
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "76C6916AD166451D"
@@ -1560,6 +1522,28 @@
 			}]
 			x: -8.5d
 			y: -5.5d
+		}
+		{
+			dependencies: ["794CACBA42AE1AB2"]
+			id: "25EF8B31172278DA"
+			tasks: [{
+				id: "706367E4862D6700"
+				item: { count: 1, id: "hexalia:ritual_brazier" }
+				type: "item"
+			}]
+			x: -6.0d
+			y: -5.5d
+		}
+		{
+			id: "0E7E3853C02CE06C"
+			preset: "item"
+			tasks: [{
+				id: "0372F22620A6684B"
+				item: { count: 1, id: "hexalia:censer" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: -6.0d
 		}
 	]
 }

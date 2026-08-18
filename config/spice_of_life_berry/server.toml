@@ -30,10 +30,10 @@
 	hungerDrainMode = "time_and_exhaustion"
 	# Default: 17.0
 	# Range: 0.0 ~ 20.0
-	passiveFoodLossPerDay = 17.0
+	passiveFoodLossPerDay = 0.0
 	# Default: 1.0
 	# Range: 0.0 ~ 10.0
-	passiveExhaustionMultiplier = 1.0
+	passiveExhaustionMultiplier = 0.0
 	# Default: 1.0
 	# Range: 0.0 ~ 10.0
 	actionExhaustionMultiplier = 1.0
@@ -69,14 +69,14 @@
 	# Default: 2.5
 	# Range: 0.0 ~ 20.0
 	elytraFireworkMultiplier = 2.5
-	cravingsAffectElytra = false
+	cravingsAffectElytra = true
 
 [transport]
-	enableBoatRowingSlowdown = false
+	enableBoatRowingSlowdown = true
 	# Default: 0.7
 	# Range: 0.1 ~ 1.0
 	boatMinSpeedAtZeroHunger = 0.7
-	enableSwimmingSlowdown = false
+	enableSwimmingSlowdown = true
 	# Default: 0.55
 	# Range: 0.1 ~ 1.0
 	swimmingMinSpeedAtZeroHunger = 0.55
@@ -91,7 +91,7 @@
 	# Default: 1.0
 	# Range: 0.0 ~ 5.0
 	maxRegenMultiplierAtFullHunger = 1.0
-	disableNaturalRegenAtZeroHunger = true
+	disableNaturalRegenAtZeroHunger = false
 
 	[regeneration.post_eating_regeneration]
 		enabled = true
@@ -130,10 +130,10 @@
 		maxTotalBonus = 1.0
 		# Default: 2.0
 		# Range: 0.05 ~ 20.0
-		healingSpeedMultiplier = 2.0
+		healingSpeedMultiplier = 1.0
 		# Default: 1.5
 		# Range: 0.0 ~ 20.0
-		healingAmountMultiplier = 1.5
+		healingAmountMultiplier = 1.0
 		instantHealing = false
 		recentDamagePenaltyEnabled = true
 		# Default: 4.0
@@ -176,7 +176,7 @@
 [sleep]
 	# Default: 35.0
 	# Range: 0.0 ~ 100.0
-	baseSleepHungerLossPercent = 35.0
+	baseSleepHungerLossPercent = 0.25
 	# Default: 15.0
 	# Range: 0.0 ~ 100.0
 	cravingSleepHungerLossPercent = 15.0
@@ -205,7 +205,7 @@
 	enabled = true
 	# Default: 10
 	# Range: 0 ~ 20
-	respawnFoodLevel = 10
+	respawnFoodLevel = 12
 	resetCravingStreakOnDeath = false
 	cancelStreakBonusOnDeath = false
 
@@ -264,10 +264,10 @@
 	randomDailyCravingCountEnabled = false
 	# Default: 2
 	# Range: 0 ~ 8
-	randomDailyCravingCountMin = 2
+	randomDailyCravingCountMin = 4
 	# Default: 3
 	# Range: 0 ~ 8
-	randomDailyCravingCountMax = 3
+	randomDailyCravingCountMax = 4
 	# Default: 0.5
 	# Range: 0.0 ~ 1.0
 	cravingOneDoneMultiplierForTwo = 0.5
@@ -281,13 +281,13 @@
 	# Range: 0 ~ 100
 	recentCravingHistoryDays = 5
 	#Allowed Values: all_registered, vanilla_only, discovered, configured_list, category_only
-	foodPoolMode = "discovered"
+	foodPoolMode = "configured_list"
 	# Default: 6
 	# Range: 1 ~ 256
 	minDiscoveredFoodsForCravings = 6
-	configuredFoodPool = ["minecraft:apple", "minecraft:bread", "minecraft:baked_potato"]
+	configuredFoodPool = ["adorablehamsterpets:cheese", "adorablehamsterpets:hamster_food_mix", "artifacts:eternal_steak", "autumnity:cooked_turkey_piece", "autumnity:foul_soup", "autumnity:pumpkin_bread", "autumnity:syrup_bottle", "autumnity:turkey_piece", "bakery:apple_cupcake", "bakery:apple_pie_slice", "bakery:baguette", "bakery:braided_bread", "bakery:bread", "bakery:bread_with_jam", "bakery:bun", "bakery:bundt_cake_slice", "bakery:cake_dough", "bakery:chocolate_cake_slice", "bakery:chocolate_gateau_slice", "bakery:chocolate_tart_slice", "bakery:croissant", "bakery:crusty_bread", "bakery:glowberry_pie_slice", "bakery:grilled_bacon_sandwich", "bakery:grilled_salmon_sandwich", "bakery:linzer_tart_slice", "bakery:misslilitu_biscuit", "bakery:pudding_slice", "bakery:sandwich", "bakery:strawberry_cake_slice", "bakery:strawberry_cupcake", "bakery:sweetberry_cake_slice", "bakery:sweetberry_cupcake", "bakery:vegetable_sandwich", "bakery:waffle", "betterend:blossom_berry", "betterend:blossom_berry_jelly", "betterend:bolux_mushroom_cooked", "betterend:cave_pumpkin_pie", "betterend:chorus_mushroom_cooked", "betterend:end_fish_cooked", "betterend:shadow_berry_cooked", "betterend:shadow_berry_jelly", "betterend:shadow_berry_raw", "betterend:sweet_berry_jelly", "betterend:umbrella_cluster_juice", "betternether:black_apple", "betternether:hook_mushroom_cooked", "betternether:stalagnate_bowl_apple", "betternether:stalagnate_bowl_mushroom", "betternether:stalagnate_bowl_wart", "cnb:light_pink_waterlily", "cnb:pink_waterlily", "cnb:yellow_waterlily", "create:bar_of_chocolate", "create:chocolate_glazed_berries", "create:honeyed_apple", "create:sweet_roll", "delighto_flight:cheese_cloud_berry_jam", "delighto_flight:chicken_soup_with_lotus_seeds", "delighto_flight:cloud_berry_pancake", "delighto_flight:cloud_berry_steamed_bun", "delighto_flight:cloud_bread", "delighto_flight:ham_salad", "delighto_flight:lotus_leaf_rice", "delighto_flight:lotus_root_salad", "delighto_flight:lotus_root_soup_with_pork_ribs", "delighto_flight:lotus_seed_cake", "delighto_flight:lotus_seed_sweet_porridge", "delighto_flight:mushroom_hotpot", "delighto_flight:new_orleans_phantom_wing", "delighto_flight:rain_stew", "delighto_flight:stuffed_lotus_root", "delighto_flight:thunder_fruit_stew", "dreamwoods:coconut", "dreamwoods:cooked_mushroom_skewer", "dreamwoods:pear", "dreamwoods:pomegranate", "environmental:cooked_duck", "environmental:cooked_venison"]
 	foodPoolWhitelist = []
-	foodPoolBlacklist = []
+	foodPoolBlacklist = ["artifacts:eternal_steak", "artifacts:everlasting_beef", "twilightforest:blightberry", "twilightforest:hydra_chop", "twilightforest:meef_stroganoff", "twilightforest:raw_meef", "twilightforest:raw_venison", "twilightdelight:tear_drink", "twilightdelight:raw_venison_rib", "twilightdelight:raw_tomahawk_smeak", "twilightdelight:raw_meef_slice", "twilightdelight:raw_insect", "twilightdelight:hydra_piece", "twilightdelight:thousand_plant_stew", "tuttasdelights:pumpkin_head_slice", "tuttasdelights:rotten_bacon", "tuttasdelights:rotten_chicken_cuts", "tuttasdelights:rotten_ham", "tuttasdelights:rotten_meat_on_a_bone", "tuttasdelights:rotten_minced_beef", "tuttasdelights:rotten_mutton_chops", "tuttasdelights:rotten_sausage", "the_bumblezone:royal_jelly_bottle", "autumnity:turkey_piece", "betterend:amber_root_raw", "betterend:chorus_mushroom_raw", "environmental:duck", "environmental:venison", "farm_and_charm:raw_pasta", "farmersdelight:bacon", "farmersdelight:chicken_cuts", "farmersdelight:cod_slice", "farmersdelight:mutton_chops", "farmersdelight:raw_pasta", "farmersdelight:salmon_slice", "fintastic:raw_fish", "hearthandharvest:raw_sausage", "hearthandharvest:raw_skewered_sausage", "large_meals:raw_mutton_rack", "meadow:raw_buffalo_meat", "minecraft:beef", "minecraft:chicken", "minecraft:cod", "minecraft:mutton", "minecraft:porkchop", "minecraft:rabbit", "minecraft:salmon", "quark:crab_leg", "reanimal:raw_capybara_meat", "reanimal:raw_crocodile_meat", "reanimal:raw_giraffe_meat", "reanimal:raw_hedgehog_meat", "reanimal:raw_hippopotamus_meat", "reanimal:raw_kiwi_meat", "reanimal:raw_ostrich_meat", "reanimal:raw_pigeon_meat", "reanimal:raw_seal_meat", "reanimal:raw_starfish_caviar", "relics:raw_meatball", "roots:raw_squid", "tuttasdelights:raw_breaded_meat", "tuttasdelights:raw_frog_leg", "wetland_whimsy:crawfish", "betterend:end_fish_raw", "minecraft:golden_apple", "minecraft:enchanted_golden_apple", "herbalbrews:tea_blossom", "herbalbrews:dried_black_tea", "herbalbrews:dried_green_tea", "herbalbrews:dried_oolong_tea"]
 	defaultCategoryId = ""
 	netherForceCategory = true
 	netherForcedCategoryId = "watery"
@@ -323,8 +323,8 @@
 	strongCategoryRegenBonus = 0.1
 	#Allowed Values: world_day, completion_timer
 	cravingRefreshMode = "world_day"
-	ingredientCravingUnlocksEnabled = false
-	directFoodDiscoveryUnlocksEnabled = false
+	ingredientCravingUnlocksEnabled = true
+	directFoodDiscoveryUnlocksEnabled = true
 	mobDropIngredientUnlocksEnabled = true
 	itemCravingUnlocksEnabled = true
 	itemCravingUnlockRules = []
@@ -344,7 +344,7 @@
 	requireCookedCravingFood = true
 	excludeNegativeEffectCravingFoods = true
 	#Allowed Values: simple, medium, balanced, hard, hardcore
-	cravingDifficultyProfile = "balanced"
+	cravingDifficultyProfile = "hard"
 
 [craving_streak]
 	enabled = true
@@ -401,9 +401,9 @@
 [hunger_effect_rework]
 	enabled = true
 	hungerPotionBrewingEnabled = true
-	nauseaPotionBrewingEnabled = true
+	nauseaPotionBrewingEnabled = false
 	hungerPotionWitchThrowsEnabled = true
-	nauseaPotionWitchThrowsEnabled = true
+	nauseaPotionWitchThrowsEnabled = false
 	# Default: 2.0
 	# Range: 1.0 ~ 20.0
 	hungerLevel1PassiveMultiplier = 2.0
@@ -425,7 +425,7 @@
 
 [nausea_effect_rework]
 	enabled = false
-	blocksEating = true
+	blocksEating = false
 
 [starvation]
 	enableStarvation = true
@@ -482,7 +482,7 @@
 	clearStarvationOnDeath = true
 	# Default: 1
 	# Range: 0 ~ 20
-	respawnFoodAfterStarvationDeath = 1
+	respawnFoodAfterStarvationDeath = 6
 
 [progression]
 	# Default: 0.45

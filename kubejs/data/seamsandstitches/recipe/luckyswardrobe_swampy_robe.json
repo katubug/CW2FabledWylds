@@ -22,13 +22,13 @@
       "item": "minecraft:purple_wool"
     },
     {
-      "item": "lowlands_clothing:wetlands_fabric"
+      "tag": "minecraft:wool"
     },
     {
-      "item": "lowlands_clothing:wetlands_fabric"
+      "tag": "minecraft:wool"
     },
     {
-      "item": "lowlands_clothing:wetlands_fabric"
+      "tag": "minecraft:wool"
     }
   ],
   "seams": [

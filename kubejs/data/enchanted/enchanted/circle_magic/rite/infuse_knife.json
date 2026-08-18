@@ -1,0 +1,14 @@
+{
+    "items": [
+        { "id": "roots:golden_knife", "count": 1 },
+        { "id": "hexerei:mindful_trance_blend", "count": 1 }
+    ],
+    "shapes": {
+        "enchanted:tiny_circle": "enchanted:ritual_chalk"
+    },
+    "power": 0,
+    "factory": {
+        "type": "enchanted:create_item",
+        "items": [ { "id": "hexalia:athame",  "count": 1 } ]
+    }
+}

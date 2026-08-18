@@ -31,16 +31,6 @@
 		}
 		{
 			color: 9921281
-			height: 2.5d
-			id: "791F0B7E470806ED"
-			image: "fabled_wylds:textures/questui/titles/beginnings.png"
-			rotation: 0.0d
-			width: 9.0d
-			x: -5.0d
-			y: -9.6d
-		}
-		{
-			color: 9921281
 			height: 1.25d
 			id: "3C574BF1BED4F16E"
 			image: "fabled_wylds:textures/questui/subtitles/decorating.png"
@@ -69,8 +59,8 @@
 				item: { count: 1, id: "reliquary:pedestals/passive/white_passive_pedestal" }
 				type: "item"
 			}]
-			x: 2.9d
-			y: 3.7d
+			x: 3.0d
+			y: 3.5d
 		}
 		{
 			id: "1AFE0FBF887D22FD"
@@ -204,14 +194,9 @@
 					item: { count: 1, id: "meadow:wooden_flower_box" }
 					type: "item"
 				}
-				{
-					id: "4EE569B7FF14CC13"
-					item: { components: { "ftbquests:missing_item": "another_furniture:oak_flower_box" }, count: 1, id: "ftbquests:missing_item" }
-					type: "item"
-				}
 			]
-			x: 5.9d
-			y: 3.7d
+			x: 6.0d
+			y: 3.5d
 		}
 		{
 			id: "3E509A27A92746F4"
@@ -231,8 +216,8 @@
 				item: { count: 1, id: "supplementaries:globe" }
 				type: "item"
 			}]
-			x: 3.9d
-			y: 3.7d
+			x: 4.0d
+			y: 3.5d
 		}
 		{
 			id: "063AD4FD6E8FB943"
@@ -251,8 +236,8 @@
 				item: { count: 1, id: "supplementaries:pedestal" }
 				type: "item"
 			}]
-			x: 4.4d
-			y: 4.7d
+			x: 4.5d
+			y: 4.5d
 		}
 		{
 			id: "7E936E10896FA3D5"
@@ -266,8 +251,8 @@
 				item: { components: { "ftbfiltersystem:filter": "or(item_tag(minecraft:hanging_signs))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
-			x: 6.4d
-			y: 2.7d
+			x: 6.5d
+			y: 2.5d
 		}
 		{
 			id: "0E28D4A9544EAF0E"
@@ -281,8 +266,8 @@
 				item: { components: { "ftbfiltersystem:filter": "or(item_tag(supplementaries:way_signs))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
-			x: 4.9d
-			y: 3.7d
+			x: 5.0d
+			y: 3.5d
 		}
 		{
 			id: "1E53C205AD76513E"
@@ -312,8 +297,8 @@
 				item: { count: 1, id: "supplementaries:blackboard" }
 				type: "item"
 			}]
-			x: 5.4d
-			y: 2.7d
+			x: 5.5d
+			y: 2.5d
 		}
 		{
 			dependencies: ["7D82FBD000D41F84"]
@@ -341,8 +326,8 @@
 				item: { components: { "ftbfiltersystem:filter": "or(item_tag(handcrafted:fancy_beds))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
-			x: 2.4d
-			y: 0.2d
+			x: 2.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["226368447EC1C9A9"]
@@ -363,8 +348,8 @@
 					type: "item"
 				}
 			]
-			x: 3.9d
-			y: 0.2d
+			x: 4.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["32DCF4F0C230C940"]
@@ -391,8 +376,8 @@
 				item: { components: { "ftbfiltersystem:filter": "or(item_tag(handcrafted:trophies))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
-			x: 6.9d
-			y: 0.2d
+			x: 7.5d
+			y: 0.0d
 		}
 		{
 			id: "7D82FBD000D41F84"
@@ -403,8 +388,8 @@
 				item: { count: 1, id: "handcrafted:hammer" }
 				type: "item"
 			}]
-			x: 2.4d
-			y: 2.2d
+			x: 2.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["15781BD4547097E9"]
@@ -441,8 +426,8 @@
 					type: "item"
 				}
 			]
-			x: 5.4d
-			y: 0.2d
+			x: 5.5d
+			y: 0.0d
 		}
 		{
 			hide_until_deps_visible: true
@@ -505,8 +490,8 @@
 				type: "stat"
 				value: 50
 			}]
-			x: 3.0d
-			y: -7.0d
+			x: 7.5d
+			y: 4.5d
 		}
 		{
 			id: "5FC2335FA7C31389"
@@ -524,8 +509,8 @@
 				item: { components: { "ftbfiltersystem:filter": "or(item(beautify:warped_trellis)item(beautify:oak_trellis)item(beautify:spruce_trellis)item(beautify:dark_oak_trellis)item(beautify:crimson_trellis)item(beautify:mangrove_trellis)item(beautify:acacia_trellis)item(beautify:jungle_trellis)item(beautify:birch_trellis))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
-			x: 6.9d
-			y: 3.7d
+			x: 7.0d
+			y: 3.5d
 		}
 		{
 			id: "2BFD231209D227FC"
@@ -577,8 +562,8 @@
 				item: { components: { "ftbfiltersystem:filter": "or(item(astikorcartsredux:oak_supply_cart)item(astikorcartsredux:spruce_supply_cart)item(astikorcartsredux:birch_supply_cart)item(astikorcartsredux:acacia_supply_cart)item(astikorcartsredux:cherry_supply_cart)item(astikorcartsredux:jungle_supply_cart)item(astikorcartsredux:dark_oak_supply_cart)item(astikorcartsredux:crimson_supply_cart)item(astikorcartsredux:warped_supply_cart)item(astikorcartsredux:mangrove_supply_cart)item(astikorcartsredux:bamboo_supply_cart))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
-			x: 7.4d
-			y: 2.7d
+			x: 7.5d
+			y: 2.5d
 		}
 		{
 			id: "39844F8340E6A438"
@@ -694,7 +679,7 @@
 				type: "item"
 			}]
 			x: -5.0d
-			y: -3.5d
+			y: -3.0d
 		}
 		{
 			id: "2288D26992644668"
@@ -722,8 +707,8 @@
 				item: { count: 1, id: "quark:glass_item_frame" }
 				type: "item"
 			}]
-			x: 3.4d
-			y: 4.7d
+			x: 3.5d
+			y: 4.5d
 		}
 		{
 			id: "69E3182321452B88"
@@ -742,8 +727,8 @@
 				item: { count: 1, id: "easel_does_it:easel" }
 				type: "item"
 			}]
-			x: 1.5d
-			y: -7.0d
+			x: 6.5d
+			y: 4.5d
 		}
 		{
 			id: "3DFE6CC659B005C6"
@@ -759,18 +744,28 @@
 				item: { count: 1, id: "serene_shrubbery:bloom_basket" }
 				type: "item"
 			}]
-			x: 0.5d
-			y: -7.0d
+			x: 5.5d
+			y: 4.5d
 		}
 		{
 			id: "7A21FD3210AE7792"
+			preset: "item"
+			rewards: [{
+				count: 4
+				id: "4741E0956ADC0518"
+				item: {
+					count: 1
+					id: "numismatics:sprocket"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "580C0EFAF3C66E02"
 				item: { count: 1, id: "whimsy_deco:gatcha_machine" }
 				type: "item"
 			}]
-			x: 4.0d
-			y: -7.0d
+			x: 4.5d
+			y: 2.5d
 		}
 	]
 }

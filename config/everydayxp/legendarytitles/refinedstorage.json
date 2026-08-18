@@ -1,0 +1,277 @@
+{
+  "enabled": true,
+  "mod_name": "Refined Storage",
+  "mod_id": "refinedstorage",
+  "achievements": {
+    "destruction": {
+      "display_name": "Destruction",
+      "original_name": "Destruction",
+      "enabled": true,
+      "icon": "refinedstorage:destructor",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "no_cables_required": {
+      "display_name": "No cables required",
+      "original_name": "No cables required",
+      "enabled": true,
+      "icon": "refinedstorage:network_transmitter",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "wireless": {
+      "display_name": "Wireless",
+      "original_name": "Wireless",
+      "enabled": true,
+      "icon": "refinedstorage:wireless_grid",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "interface_to_the_world": {
+      "display_name": "Interface to the world",
+      "original_name": "Interface to the world",
+      "enabled": true,
+      "icon": "refinedstorage:interface",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "upgrading": {
+      "display_name": "Upgrading",
+      "original_name": "Upgrading",
+      "enabled": true,
+      "icon": "refinedstorage:upgrade",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "conditional_connecting": {
+      "display_name": "Conditional connecting",
+      "original_name": "Conditional connecting",
+      "enabled": true,
+      "icon": "refinedstorage:relay",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "upgrading_your_grid": {
+      "display_name": "Upgrading your Grid",
+      "original_name": "Upgrading your Grid",
+      "enabled": true,
+      "icon": "refinedstorage:crafting_grid",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "managing_patterns": {
+      "display_name": "Managing patterns",
+      "original_name": "Managing patterns",
+      "enabled": true,
+      "icon": "refinedstorage:autocrafter_manager",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "wireless_monitoring": {
+      "display_name": "Wireless monitoring",
+      "original_name": "Wireless monitoring",
+      "enabled": true,
+      "icon": "refinedstorage:wireless_autocrafting_monitor",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "portable_storage": {
+      "display_name": "Portable storage",
+      "original_name": "Portable storage",
+      "enabled": true,
+      "icon": "refinedstorage:portable_grid",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "drives": {
+      "display_name": "Drives",
+      "original_name": "Drives",
+      "enabled": true,
+      "icon": "refinedstorage:disk_drive",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "storing_fluids": {
+      "display_name": "Storing fluids",
+      "original_name": "Storing fluids",
+      "enabled": true,
+      "icon": "refinedstorage:64b_fluid_storage_disk",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "storing_externally": {
+      "display_name": "Storing externally",
+      "original_name": "Storing externally",
+      "enabled": true,
+      "icon": "refinedstorage:external_storage",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "autocrafting_on_demand": {
+      "display_name": "Autocrafting on demand",
+      "original_name": "Autocrafting on demand",
+      "enabled": true,
+      "icon": "refinedstorage:autocrafting_upgrade",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "exporting": {
+      "display_name": "Exporting",
+      "original_name": "Exporting",
+      "enabled": true,
+      "icon": "refinedstorage:exporter",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "security": {
+      "display_name": "Security",
+      "original_name": "Security",
+      "enabled": true,
+      "icon": "refinedstorage:security_manager",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "autocrafting": {
+      "display_name": "Autocrafting",
+      "original_name": "Autocrafting",
+      "enabled": true,
+      "icon": "refinedstorage:autocrafter",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "detecting": {
+      "display_name": "Detecting",
+      "original_name": "Detecting",
+      "enabled": true,
+      "icon": "refinedstorage:detector",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "connecting": {
+      "display_name": "Connecting",
+      "original_name": "Connecting",
+      "enabled": true,
+      "icon": "refinedstorage:cable",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "storing_items": {
+      "display_name": "Storing items",
+      "original_name": "Storing items",
+      "enabled": true,
+      "icon": "refinedstorage:1k_storage_disk",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "root": {
+      "display_name": "Refined Storage",
+      "original_name": "Refined Storage",
+      "enabled": true,
+      "icon": "refinedstorage:creative_controller",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "better_than_a_barrel": {
+      "display_name": "Better than a barrel",
+      "original_name": "Better than a barrel",
+      "enabled": true,
+      "icon": "refinedstorage:storage_monitor",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "viewing_your_storage": {
+      "display_name": "Viewing your storage",
+      "original_name": "Viewing your storage",
+      "enabled": true,
+      "icon": "refinedstorage:grid",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "monitoring": {
+      "display_name": "Monitoring",
+      "original_name": "Monitoring",
+      "enabled": true,
+      "icon": "refinedstorage:autocrafting_monitor",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "importing": {
+      "display_name": "Importing",
+      "original_name": "Importing",
+      "enabled": true,
+      "icon": "refinedstorage:importer",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "interfacing_with_disks": {
+      "display_name": "Interfacing with disks",
+      "original_name": "Interfacing with disks",
+      "enabled": true,
+      "icon": "refinedstorage:disk_interface",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "construction": {
+      "display_name": "Construction",
+      "original_name": "Construction",
+      "enabled": true,
+      "icon": "refinedstorage:constructor",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    }
+  }
+}
