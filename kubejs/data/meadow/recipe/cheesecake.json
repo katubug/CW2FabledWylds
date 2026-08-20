@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "#A#",
+    " B "
+  ],
+  "key": {
+    "#": {
+      "tag": "c:cooking_eggs"
+    },
+    "A": {
+      "tag": "c:cheese"
+    },
+    "B": {
+      "item": "farmersdelight:pie_crust"
+    }
+  },
+  "result": {
+    "id": "meadow:cheesecake",
+    "count": 1
+  }
+}

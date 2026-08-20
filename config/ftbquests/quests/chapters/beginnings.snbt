@@ -518,18 +518,18 @@
 					type: "item"
 				}
 				{
-					id: "2565FF7F1B3DEA41"
-					item: {
-						count: 1
-						id: "broom_closet:wishlist"
-					}
-					type: "item"
-				}
-				{
 					id: "219CA4982DCB8320"
 					item: {
 						count: 1
 						id: "travelertoolbelt:belt"
+					}
+					type: "item"
+				}
+				{
+					id: "0227B0F6FD0FDF3E"
+					item: {
+						count: 1
+						id: "broom_closet:wishlist"
 					}
 					type: "item"
 				}
@@ -558,10 +558,10 @@
 		{
 			id: "66B094500E40DA3D"
 			rewards: [{
-				id: "7E669ECB3F18E7DE"
+				id: "70D409B168184D56"
 				item: {
 					count: 1
-					id: "yagm:restore_key"
+					id: "bakery:vegetable_sandwich"
 				}
 				type: "item"
 			}]
@@ -569,7 +569,7 @@
 			size: 1.5d
 			tasks: [{
 				icon: {
-					id: "unusual_furniture:grave_broken"
+					id: "minecraft:skeleton_skull"
 				}
 				id: "48389846ACBF5E2F"
 				stat: "minecraft:deaths"
@@ -754,23 +754,6 @@
 			}]
 			x: -6.0d
 			y: -5.5d
-		}
-		{
-			id: "252C5BD652764DB8"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "237C922C99C3FEBE"
-				table_id: 6895470215093009548L
-				type: "random"
-			}]
-			tasks: [{
-				advancement: "littlejoys:littlejoys/dig_spot"
-				criterion: ""
-				id: "15DE9469F7CED124"
-				type: "advancement"
-			}]
-			x: 9.0d
-			y: -15.0d
 		}
 	]
 }

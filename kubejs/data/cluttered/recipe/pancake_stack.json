@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "cluttered:pastry_plate"
+    },
+    {
+      "item": "supplementaries:pancake"
+    },
+    {
+      "tag": "c:cooking_eggs"
+    },
+    {
+      "item": "minecraft:sugar"
+    },
+    {
+      "tag": "fabled_wylds:sweeteners"
+    }
+  ],
+  "result": {
+    "id": "cluttered:pancake_stack",
+    "count": 1
+  }
+}

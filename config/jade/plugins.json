@@ -137,6 +137,12 @@
   "supplementaries": {
     "hat_stand": true
   },
+  "waystones": {
+    "waystone": true
+  },
+  "corpse": {
+    "corpse": true
+  },
   "item_descriptions": {
     "block_descriptions": true,
     "entity_descriptions": true

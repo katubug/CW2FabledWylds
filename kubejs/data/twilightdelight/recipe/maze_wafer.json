@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "#A#",
+    "BB "
+  ],
+  "key": {
+    "#": {
+      "tag": "c:drinks/milk"
+    },
+    "A": {
+      "item": "twilightforest:liveroot"
+    },
+    "B": {
+      "tag": "c:foods/dough/wheat"
+    }
+  },
+  "result": {
+    "id": "twilightforest:maze_wafer",
+    "count": 12
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "###",
+    "AAA",
+    "BCB"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:snowball"
+    },
+    "A": {
+      "item": "twilightforest:aurora_block"
+    },
+    "B": {
+      "tag": "fabled_wylds:sweeteners"
+    },
+    "C": {
+      "item": "farmersdelight:pie_crust"
+    }
+  },
+  "result": {
+    "id": "twilightdelight:aurora_pie",
+    "count": 1
+  }
+}

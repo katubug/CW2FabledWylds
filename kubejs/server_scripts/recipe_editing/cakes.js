@@ -12,7 +12,7 @@ ServerEvents.recipes(event => {
 			A: '#c:milk/milk_bottle',
 			B: '#c:sugar',
 			C: '#c:cooking_eggs',
-			D: '#c:wheat'
+			D: '#c:foods/dough/wheat'
 		}
 	)
 	//Basic Cake
@@ -25,7 +25,7 @@ ServerEvents.recipes(event => {
 			A: '#c:milk/milk_bottle',
 			B: '#c:sugar',
 			C: 'bakery:cake_dough',
-			D: '#c:wheat'
+			D: '#c:foods/dough/wheat'
 		}
 	)
 	//Carrot Cake
@@ -39,7 +39,7 @@ ServerEvents.recipes(event => {
 			A: '#c:milk/milk_bottle',
 			B: '#c:sugar',
 			C: 'bakery:cake_dough',
-			D: '#c:wheat',
+			D: '#c:foods/dough/wheat',
 			E: 'minecraft:carrot'
 		}
 	)
@@ -54,7 +54,7 @@ ServerEvents.recipes(event => {
 			A: 'mysticsbiomes:vanilla_milk_bucket',
 			B: '#c:sugar',
 			C: 'bakery:cake_dough',
-			D: '#c:wheat',
+			D: '#c:foods/dough/wheat',
 			E: 'mysticsbiomes:vanilla_beans'
 		}
 	)
@@ -69,7 +69,7 @@ ServerEvents.recipes(event => {
 			A: 'mysticsbiomes:strawberry_milk_bucket',
 			B: '#c:sugar',
 			C: 'bakery:cake_dough',
-			D: '#c:wheat',
+			D: '#c:foods/dough/wheat',
 			E: 'mysticsbiomes:sweet_strawberry'
 		}
 	)
@@ -83,7 +83,7 @@ ServerEvents.recipes(event => {
 			A: 'mysticsbiomes:chocolate_milk_bucket',
 			B: '#c:sugar',
 			C: 'bakery:cake_dough',
-			D: '#c:wheat'
+			D: '#c:foods/dough/wheat'
 		}
 	)
 	//pink Cake
@@ -96,7 +96,7 @@ ServerEvents.recipes(event => {
 			A: '#c:milk/milk_bottle',
 			B: '#c:sugar',
 			C: 'bakery:cake_dough',
-			D: '#c:wheat',
+			D: '#c:foods/dough/wheat',
 			E: 'mysticsbiomes:pink_egg'
 		}
 	)
@@ -110,7 +110,7 @@ ServerEvents.recipes(event => {
 			A: '#c:milk/milk_bottle',
 			B: '#c:sugar',
 			C: 'bakery:cake_dough',
-			D: '#c:wheat',
+			D: '#c:foods/dough/wheat',
 			E: 'mysticsbiomes:orange_egg'
 		}
 	)
@@ -124,7 +124,7 @@ ServerEvents.recipes(event => {
 			A: '#c:milk/milk_bottle',
 			B: '#c:sugar',
 			C: 'bakery:cake_dough',
-			D: '#c:wheat',
+			D: '#c:foods/dough/wheat',
 			E: 'mysticsbiomes:yellow_egg'
 		}
 	)
@@ -138,7 +138,7 @@ ServerEvents.recipes(event => {
 			A: '#c:milk/milk_bottle',
 			B: '#c:sugar',
 			C: 'bakery:cake_dough',
-			D: '#c:wheat',
+			D: '#c:foods/dough/wheat',
 			E: 'mysticsbiomes:lime_egg'
 		}
 	)
@@ -152,7 +152,7 @@ ServerEvents.recipes(event => {
 			A: '#c:milk/milk_bottle',
 			B: '#c:sugar',
 			C: 'bakery:cake_dough',
-			D: '#c:wheat',
+			D: '#c:foods/dough/wheat',
 			E: 'mysticsbiomes:cyan_egg'
 		}
 	)
@@ -166,7 +166,7 @@ ServerEvents.recipes(event => {
 			A: '#c:milk/milk_bottle',
 			B: '#c:sugar',
 			C: 'bakery:cake_dough',
-			D: '#c:wheat',
+			D: '#c:foods/dough/wheat',
 			E: 'mysticsbiomes:purple_egg'
 		}
 	)
@@ -174,15 +174,15 @@ ServerEvents.recipes(event => {
 	//Pies!
 	//Chocolate Pie
 	event.shaped(
-		Item.of('farmersdelight:chocolate_pie'),
+		Item.of('2x farmersdelight:chocolate_pie'),
 		[
 			'DDD',
 			'CCC',
 			'BAB'
 		], {
 			A: 'farmersdelight:pie_crust',
-			B: '#c:sugar',
-			C: '#c:milk/milk_bottle',
+			B: '#fabled_wylds:sweeteners',
+			C: 'hearthandharvest:chocolate_milk_bottle',
 			D: '#c:chocolate'
 		}
 	)
@@ -208,7 +208,7 @@ ServerEvents.recipes(event => {
 			'A'
 		], {
 			A: 'farmersdelight:pie_crust',
-			C: 'minecraft:wheat',
+			C: '#c:foods/dough/wheat',
 			D: 'hearthandharvest:cherry_jam'
 		}
 	)
@@ -221,7 +221,7 @@ ServerEvents.recipes(event => {
 			'BAB'
 		], {
 			A: 'farmersdelight:pie_crust',
-			C: 'minecraft:wheat',
+			C: '#c:foods/dough/wheat',
 			D: 'mysticsbiomes:peach',
 			B: 'minecraft:sugar'
 		}
@@ -263,10 +263,11 @@ ServerEvents.recipes(event => {
 		Item.of('twilightdelight:torchberry_cookie', 8),
 		[
 			'BA',
-			'A '
+			'C '
 		], {
-			A: 'minecraft:wheat',
-			B: 'twilightforest:torchberries'
+			A: 'bakery:sweet_dough',
+			B: 'twilightforest:torchberries',
+			C: '#fabled_wylds:sweetener'
 		}
 	)
 	//Peanut Butter Cookie
@@ -274,10 +275,11 @@ ServerEvents.recipes(event => {
 		Item.of('hearthandharvest:peanut_butter_cookie', 8),
 		[
 			'BA',
-			'A '
+			'C '
 		], {
-			A: 'minecraft:wheat',
-			B: 'hearthandharvest:peanut_butter'
+			A: 'bakery:sweet_dough',
+			B: 'hearthandharvest:peanut_butter',
+			C: '#fabled_wylds:sweetener'
 		}
 	)
 	//Sweet Berry Cookie
@@ -285,10 +287,11 @@ ServerEvents.recipes(event => {
 		Item.of('farmersdelight:sweet_berry_cookie', 8),
 		[
 			'BA',
-			'A '
+			'C '
 		], {
-			A: 'minecraft:wheat',
-			B: 'minecraft:sweet_berries'
+			A: '#c:foods/dough/wheat',
+			B: 'minecraft:sweet_berries',
+			C: '#fabled_wylds:sweetener'
 		}
 	)
 

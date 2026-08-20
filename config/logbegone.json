@@ -21,7 +21,15 @@
       "@ Pre render",
       "# GL ERROR #",
       "Invalid path in datapack",
-      "Depth formats do not match"
+      "Depth formats do not match",
+      "@ Render",
+      "Missing function tooltips",
+      "Missing condition tooltips",
+      "Failed to parse either",
+      "Found library file",
+      "Found mod file",
+      "Reference map",
+      "from mod copycats because"
     ],
     "regex": [
       "Disconnecting VANILLA connection attempt",

@@ -505,5 +505,23 @@
 			x: -1.5d
 			y: -1.5d
 		}
+		{
+			id: "252C5BD652764DB8"
+			preset: "advancement"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "237C922C99C3FEBE"
+				table_id: 6895470215093009548L
+				type: "random"
+			}]
+			tasks: [{
+				advancement: "littlejoys:littlejoys/dig_spot"
+				criterion: ""
+				id: "15DE9469F7CED124"
+				type: "advancement"
+			}]
+			x: -5.5d
+			y: 0.5d
+		}
 	]
 }

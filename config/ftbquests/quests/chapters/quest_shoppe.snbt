@@ -21,22 +21,88 @@
 			y: 1.0d
 		}
 		{
+			click_action: "none:"
 			height: 4.0d
 			id: "634120AEE677C02E"
 			image: "fabled_wylds:textures/questui/shop/shopbgframe.png"
 			rotation: 0.0d
-			width: 6.0d
-			x: 1.0d
-			y: -3.25d
+			width: 7.0d
+			x: -1.5d
+			y: -3.0d
 		}
 		{
+			click_action: "none:"
 			height: 4.0d
 			id: "04DBDF9304BB4CDF"
-			image: "fabled_wylds:textures/questui/shop/shopcauldrons.png"
+			image: "fabled_wylds:textures/questui/shop/shopbgframe.png"
 			rotation: 0.0d
 			width: 7.0d
 			x: 3.5d
 			y: 0.25d
+		}
+		{
+			click_action: "none:quest_enhance:text_v3:1.5:17:minecraft:defaultCurios Slots"
+			color: 0
+			height: 0.4493400417865495d
+			id: "0794772FCA527F55"
+			image: ""
+			rotation: 0.0d
+			width: 2.5734929665956927d
+			x: -1.5d
+			y: 3.0d
+		}
+		{
+			click_action: "none:quest_enhance:text_v3:1.5:17:minecraft:defaultFilm"
+			color: 0
+			height: 0.4493400417865495d
+			id: "52D68B4B33985359"
+			image: ""
+			rotation: 0.0d
+			width: 2.5734929665956927d
+			x: -1.5d
+			y: -3.5d
+		}
+		{
+			click_action: "none:quest_enhance:text_v3:1.5:17:minecraft:defaultCauldrons"
+			color: 0
+			height: 0.4583333333333333d
+			id: "4526F88F931EBBF0"
+			image: ""
+			rotation: 0.0d
+			width: 2.1666666666666665d
+			x: 3.5d
+			y: -0.5d
+		}
+		{
+			click_action: "none:"
+			height: 4.0d
+			id: "74264847FCD5BC0B"
+			image: "fabled_wylds:textures/questui/shop/shopbgframe.png"
+			rotation: 0.0d
+			width: 7.0d
+			x: -1.5d
+			y: 3.5d
+		}
+		{
+			click_action: "none:"
+			height: 4.0d
+			id: "3404372640A4EF7B"
+			image: "fabled_wylds:textures/questui/shop/shopbgframe.png"
+			rotation: 0.0d
+			width: 7.0d
+			x: 3.5d
+			y: 7.0d
+		}
+		{
+			click_action: "none:quest_enhance:text_v3:1.5:17:minecraft:defaultTarot Cards"
+			color: 0
+			height: 0.4583333333333333d
+			id: "4F6F72F1A55B2950"
+			image: ""
+			rotation: 0.0d
+			width: 2.5833333333333335d
+			x: 3.5d
+			y: 6.5d
 		}
 	]
 	order_index: 2
@@ -46,6 +112,7 @@
 	quests: [
 		{
 			id: "4971EB753FE0E6CC"
+			preset: "start"
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "6EC0CBB972522127"
@@ -58,8 +125,8 @@
 				id: "2A957A338BE899C4"
 				type: "checkmark"
 			}]
-			x: 1.0d
-			y: -3.0d
+			x: 5.0d
+			y: -4.0d
 		}
 		{
 			icon: {
@@ -84,8 +151,8 @@
 				item: { count: 1, id: "numismatics:cog" }
 				type: "item"
 			}]
-			x: 1.5d
-			y: 0.0d
+			x: 5.5d
+			y: 0.5d
 		}
 		{
 			icon: {
@@ -94,7 +161,7 @@
 			id: "64E8A8E1C9A939C9"
 			rewards: [{
 				exclude_from_claim_all: true
-				id: "4E65A11B12A1532E"
+				id: "0CC4817B389E0111"
 				is_ender: false
 				is_team_reward: false
 				item: {
@@ -110,8 +177,8 @@
 				item: { count: 1, id: "numismatics:cog" }
 				type: "item"
 			}]
-			x: 5.5d
-			y: 0.0d
+			x: 4.5d
+			y: 0.5d
 		}
 		{
 			icon: {
@@ -120,7 +187,7 @@
 			id: "7CB21D08253F62F6"
 			rewards: [{
 				exclude_from_claim_all: true
-				id: "7A6F356B8EDBA2CE"
+				id: "6567DDB9ABD46732"
 				is_ender: false
 				is_team_reward: false
 				item: {
@@ -138,7 +205,7 @@
 				type: "item"
 			}]
 			x: 1.5d
-			y: 1.1d
+			y: 0.5d
 		}
 		{
 			icon: {
@@ -148,7 +215,7 @@
 			rewards: [
 				{
 					exclude_from_claim_all: true
-					id: "36DC30016FB87CF1"
+					id: "2FCF0E82C1402060"
 					is_ender: false
 					is_team_reward: false
 					item: {
@@ -161,7 +228,7 @@
 				}
 				{
 					exclude_from_claim_all: true
-					id: "1A431771CF8994BB"
+					id: "0612ADC7392ED14C"
 					is_ender: false
 					is_team_reward: false
 					item: {
@@ -173,14 +240,22 @@
 					type: "contactquests:parcel"
 				}
 			]
-			tasks: [{
-				count: 5L
-				id: "6BF668A733CD9726"
-				item: { components: { "ftbquests:missing_item": "numismatics:cog" }, count: 1, id: "ftbquests:missing_item" }
-				type: "item"
-			}]
-			x: 8.7d
-			y: 1.2d
+			tasks: [
+				{
+					count: 5L
+					id: "0539ACE70C7947DB"
+					item: { count: 1, id: "numismatics:cog" }
+					type: "item"
+				}
+				{
+					advancement: "minecraft:husbandry/feed_snifflet"
+					criterion: ""
+					id: "57ECC2F34AE8A5B6"
+					type: "advancement"
+				}
+			]
+			x: 3.5d
+			y: 0.5d
 		}
 		{
 			icon: {
@@ -221,8 +296,8 @@
 				item: { count: 1, id: "numismatics:cog" }
 				type: "item"
 			}]
-			x: 3.4d
-			y: 0.0d
+			x: 2.5d
+			y: 0.5d
 		}
 		{
 			icon: {
@@ -231,7 +306,7 @@
 			id: "55E84F0C46D17AF5"
 			rewards: [{
 				exclude_from_claim_all: true
-				id: "01266511BD2D5F90"
+				id: "440EA7E19639F245"
 				is_ender: false
 				is_team_reward: false
 				item: {
@@ -243,12 +318,12 @@
 				type: "contactquests:parcel"
 			}]
 			tasks: [{
-				id: "22737DDFE468AEFA"
-				item: { components: { "ftbquests:missing_item": "numismatics:cog" }, count: 1, id: "ftbquests:missing_item" }
+				id: "4D42A7DAA519FD79"
+				item: { count: 1, id: "numismatics:cog" }
 				type: "item"
 			}]
-			x: 8.9d
-			y: -1.2d
+			x: 9.0d
+			y: -1.0d
 		}
 		{
 			icon: {
@@ -257,7 +332,7 @@
 			id: "5D02706F32B44B08"
 			rewards: [{
 				exclude_from_claim_all: true
-				id: "7F28518F4F5BFA67"
+				id: "728407D5D0311F0F"
 				is_ender: false
 				is_team_reward: false
 				item: {
@@ -269,12 +344,12 @@
 				type: "contactquests:parcel"
 			}]
 			tasks: [{
-				id: "3673156A4CAF57AD"
-				item: { components: { "ftbquests:missing_item": "numismatics:cog" }, count: 1, id: "ftbquests:missing_item" }
+				id: "5E10D9C7E1813A55"
+				item: { count: 1, id: "numismatics:cog" }
 				type: "item"
 			}]
 			x: 10.0d
-			y: -1.2d
+			y: -1.0d
 		}
 		{
 			icon: {
@@ -283,7 +358,7 @@
 			id: "49EE2D61A0D4D01C"
 			rewards: [{
 				exclude_from_claim_all: true
-				id: "341AE5A0696A449D"
+				id: "54E24F30D07F16F3"
 				is_ender: false
 				is_team_reward: false
 				item: {
@@ -295,41 +370,12 @@
 				type: "contactquests:parcel"
 			}]
 			tasks: [{
-				id: "45E292B389497C96"
-				item: { components: { "ftbquests:missing_item": "numismatics:cog" }, count: 1, id: "ftbquests:missing_item" }
-				type: "item"
-			}]
-			x: 11.1d
-			y: -1.2d
-		}
-		{
-			icon: {
-				components: {
-					"ftbquests:missing_item": "tanukidecor:diy_workbench"
-				}
-				id: "ftbquests:missing_item"
-			}
-			id: "48DF3E80F98D8E72"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "047B86651B77853D"
-				is_ender: false
-				is_team_reward: false
-				item: {
-					count: 1
-					id: "minecraft:apple"
-				}
-				target_addressee: "QuestNPC"
-				team_reward_multiplier: 1.0f
-				type: "contactquests:parcel"
-			}]
-			tasks: [{
-				id: "49C4A0109CD45A9E"
+				id: "0CC4AB9D92BB9A42"
 				item: { count: 1, id: "numismatics:cog" }
 				type: "item"
 			}]
-			x: 8.8d
-			y: -2.7d
+			x: 11.0d
+			y: -1.0d
 		}
 		{
 			icon: {
@@ -338,7 +384,7 @@
 			id: "0B0B5160EA821956"
 			rewards: [{
 				exclude_from_claim_all: true
-				id: "727C5F156C5D60CD"
+				id: "2A5B44BF1773921F"
 				is_ender: false
 				is_team_reward: false
 				item: {
@@ -350,14 +396,17 @@
 				type: "contactquests:parcel"
 			}]
 			tasks: [{
-				id: "4FAF70DA0C036B4A"
-				item: { components: { "ftbquests:missing_item": "numismatics:cog" }, count: 1, id: "ftbquests:missing_item" }
+				id: "200E31CBF9BA181C"
+				item: { count: 1, id: "numismatics:cog" }
 				type: "item"
 			}]
-			x: 8.8d
-			y: 3.7d
+			x: 9.0d
+			y: 0.5d
 		}
 		{
+			icon: {
+				id: "tarotcards:temperance"
+			}
 			id: "3F47F402ECEF06A3"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -366,14 +415,17 @@
 				type: "choice"
 			}]
 			tasks: [{
-				id: "67075C591C30C2C9"
-				item: { components: { "ftbquests:missing_item": "numismatics:cog" }, count: 1, id: "ftbquests:missing_item" }
+				id: "181C35C62E1E4AB7"
+				item: { count: 1, id: "numismatics:cog" }
 				type: "item"
 			}]
-			x: 0.2d
-			y: -11.3d
+			x: 1.5d
+			y: 7.5d
 		}
 		{
+			icon: {
+				id: "tarotcards:the_fool"
+			}
 			id: "20857C9F84A08F08"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -383,14 +435,17 @@
 			}]
 			tasks: [{
 				count: 2L
-				id: "71511D7C89AFEED1"
-				item: { components: { "ftbquests:missing_item": "numismatics:cog" }, count: 1, id: "ftbquests:missing_item" }
+				id: "00587A8AB9DFF187"
+				item: { count: 1, id: "numismatics:cog" }
 				type: "item"
 			}]
-			x: 1.9d
-			y: -11.3d
+			x: 2.5d
+			y: 7.5d
 		}
 		{
+			icon: {
+				id: "tarotcards:justice"
+			}
 			id: "379BBBB45274DA68"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -400,14 +455,17 @@
 			}]
 			tasks: [{
 				count: 3L
-				id: "3C016B29C9DA0005"
-				item: { components: { "ftbquests:missing_item": "numismatics:crown" }, count: 1, id: "ftbquests:missing_item" }
+				id: "11AE68E8006C9610"
+				item: { count: 1, id: "numismatics:crown" }
 				type: "item"
 			}]
 			x: 4.5d
-			y: -11.3d
+			y: 7.5d
 		}
 		{
+			icon: {
+				id: "tarotcards:death"
+			}
 			id: "7B961AF6E8BF8EE0"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -416,14 +474,17 @@
 				type: "choice"
 			}]
 			tasks: [{
-				id: "57F1F5C01D9282E0"
-				item: { components: { "ftbquests:missing_item": "numismatics:crown" }, count: 1, id: "ftbquests:missing_item" }
+				id: "18FD8E704CD359C0"
+				item: { count: 1, id: "numismatics:crown" }
 				type: "item"
 			}]
-			x: 3.2d
-			y: -11.3d
+			x: 3.5d
+			y: 7.5d
 		}
 		{
+			icon: {
+				id: "tarotcards:tarot_deck"
+			}
 			id: "7FFDEC31AD094335"
 			rewards: [{
 				id: "69346B3E9B4AE166"
@@ -434,84 +495,204 @@
 				type: "item"
 			}]
 			tasks: [{
-				id: "60A006A43BE12128"
-				item: { components: { "ftbquests:missing_item": "numismatics:sun" }, count: 1, id: "ftbquests:missing_item" }
+				id: "1A2F278A282DB435"
+				item: { count: 1, id: "numismatics:sun" }
 				type: "item"
 			}]
-			x: 5.9d
-			y: -11.3d
+			x: 5.5d
+			y: 7.5d
 		}
 		{
+			icon: {
+				id: "exposure:black_and_white_film"
+			}
 			id: "0ADDED8D0A193EF8"
 			rewards: [{
-				id: "28818A5A4BA47FCC"
+				exclude_from_claim_all: true
+				id: "1A04CFACA7952845"
+				is_ender: false
+				is_team_reward: false
 				item: {
 					count: 1
 					id: "exposure:black_and_white_film"
 				}
-				type: "item"
+				target_addressee: "QuestNPC"
+				team_reward_multiplier: 1.0f
+				type: "contactquests:parcel"
 			}]
 			tasks: [{
-				id: "6776DA4B8586CC89"
-				item: { count: 1, id: "minecraft:oak_wood" }
+				count: 3L
+				id: "2D621A2194E27594"
+				item: { count: 1, id: "numismatics:spur" }
 				type: "item"
 			}]
-			x: 9.5d
-			y: -7.5d
+			x: -1.0d
+			y: -2.5d
 		}
 		{
 			id: "63984978A1AADF30"
 			rewards: [{
-				id: "66CAB40CF9E66781"
+				exclude_from_claim_all: true
+				id: "67FCFA2D1972869A"
+				is_ender: false
+				is_team_reward: false
 				item: {
 					count: 1
 					id: "exposure:color_film"
 				}
-				type: "item"
+				target_addressee: "QuestNPC"
+				team_reward_multiplier: 1.0f
+				type: "contactquests:parcel"
 			}]
 			tasks: [{
 				id: "3C6A24FD6CBE23AA"
 				item: { count: 1, id: "exposure:color_film" }
 				type: "item"
 			}]
-			x: 9.5d
-			y: -6.5d
+			x: -2.5d
+			y: -2.0d
 		}
 		{
+			icon: {
+				id: "exposure:high_sensitivity_black_and_white_film"
+			}
 			id: "04EA0AA493E41274"
 			rewards: [{
-				id: "60EBD0E9CF029D5B"
+				exclude_from_claim_all: true
+				id: "7D3395243CBA5044"
+				is_ender: false
+				is_team_reward: false
 				item: {
 					count: 1
 					id: "exposure:high_sensitivity_black_and_white_film"
 				}
-				type: "item"
+				target_addressee: "QuestNPC"
+				team_reward_multiplier: 1.0f
+				type: "contactquests:parcel"
 			}]
 			tasks: [{
-				id: "1654BDF15D3B5853"
-				item: { count: 1, id: "exposure:high_sensitivity_black_and_white_film" }
+				count: 5L
+				id: "5C93015DB3394F0A"
+				item: { count: 1, id: "numismatics:spur" }
 				type: "item"
 			}]
-			x: 10.5d
-			y: -7.5d
+			x: -0.5d
+			y: -2.0d
 		}
 		{
 			id: "11A001C9B2413F91"
 			rewards: [{
-				id: "095068AE185E4681"
+				exclude_from_claim_all: true
+				id: "6275D4806C5AE956"
+				is_ender: false
+				is_team_reward: false
 				item: {
 					count: 1
 					id: "exposure:high_sensitivity_color_film"
 				}
-				type: "item"
+				target_addressee: "QuestNPC"
+				team_reward_multiplier: 1.0f
+				type: "contactquests:parcel"
 			}]
 			tasks: [{
 				id: "140BE299A81BBFC5"
 				item: { count: 1, id: "exposure:high_sensitivity_color_film" }
 				type: "item"
 			}]
-			x: 10.5d
-			y: -6.5d
+			x: -2.0d
+			y: -2.5d
+		}
+		{
+			icon: {
+				id: "twilightforest:travellers_belt"
+			}
+			id: "2EAC1A939E22DF84"
+			rewards: [{
+				command: "/curios add belt @p 1"
+				console: true
+				feedback_message: "You have received 1 additional Belt Slot!"
+				icon: {
+					id: "twilightforest:travellers_belt"
+				}
+				id: "5046286205694883"
+				permission_level: 4
+				type: "command"
+			}]
+			tasks: [{
+				id: "5A5894DD97B7E455"
+				item: { count: 1, id: "numismatics:cog" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: 4.0d
+		}
+		{
+			icon: {
+				id: "minecraft:iron_chestplate"
+			}
+			id: "203C69CA13DFF734"
+			rewards: [{
+				command: "/curios add body @p 1"
+				console: true
+				feedback_message: "You have received 1 additional Body Slot!"
+				icon: {
+					id: "minecraft:iron_chestplate"
+				}
+				id: "561016FBE621B931"
+				permission_level: 4
+				type: "command"
+			}]
+			tasks: [{
+				count: 4L
+				id: "00F6C8C527BB8487"
+				item: { count: 1, id: "numismatics:cog" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: 4.0d
+		}
+		{
+			icon: {
+				id: "artifacts:onion_ring"
+			}
+			id: "5F701DECF017C7BF"
+			rewards: [{
+				command: "/curios add ring @p 1"
+				console: true
+				feedback_message: "You have received 1 additional Ring Slot!"
+				icon: {
+					id: "artifacts:onion_ring"
+				}
+				id: "4B447690BBABBBEA"
+				permission_level: 4
+				type: "command"
+			}]
+			tasks: [{
+				id: "2F0FF21112F09518"
+				item: { count: 1, id: "numismatics:cog" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 4.0d
+		}
+		{
+			icon: {
+				id: "minecraft:cow_spawn_egg"
+			}
+			id: "45964A10A11F9924"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1E50617B0DBF4E47"
+				table_id: 7049021818423122779L
+				type: "choice"
+			}]
+			tasks: [{
+				id: "75F6E29C1C25E922"
+				item: { count: 1, id: "numismatics:cog" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: -4.0d
 		}
 	]
 }

@@ -1,0 +1,12 @@
+{
+  "values": [
+    "bakery:cake_dough",
+    "mynethersdelight:ghast_sourdough",
+    "mynethersdelight:ghast_dough",
+    "farmersdelight:wheat_dough",
+    "create:dough",
+    "farm_and_charm:dough",
+    "bakery:sweet_dough",
+    "#c:foods/dough"
+  ]
+}

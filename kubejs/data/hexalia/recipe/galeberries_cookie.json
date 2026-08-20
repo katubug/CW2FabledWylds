@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "hexalia:galeberries"
+    },
+    {
+      "item": "bakery:sweet_dough"
+    },
+    {
+      "tag": "fabled_wylds:sweeteners"
+    }
+  ],
+  "result": {
+    "id": "hexalia:galeberries_cookie",
+    "count": 4
+  }
+}

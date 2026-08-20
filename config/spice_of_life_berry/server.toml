@@ -362,7 +362,7 @@
 	potionEffects = ["minecraft:haste=0"]
 
 [food_stack_limits]
-	enableFoodStackLimits = true
+	enableFoodStackLimits = false
 	# Default: 16
 	# Range: 1 ~ 64
 	nutrition1To2MaxStackSize = 16

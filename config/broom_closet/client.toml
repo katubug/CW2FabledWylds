@@ -12,10 +12,6 @@ chapterSubtitleColor = "#AAAAAA"
 chapterSelectedBorderColor = "#C0AAAAAA"
 #Highlight color shown when hovering a non-selected chapter tab. FTB Quests hex format: #RRGGBB or #AARRGGBB
 chapterHoverHighlightColor = "#28FFFFFF"
-#Text color for an unidentified item's obfuscated enchantment tooltip lines. Applies to both
-#curses and normal enchantments alike -- while unidentified they render in this one color,
-#not vanilla's curse-red/normal-gray split. Hex format: #RRGGBB.
-unidentifiedColor = "#AAAAAA"
 #Disables FTB Chunks' fullscreen world map (M key) and minimap entirely.
 #Also stops FTB Chunks from touching its map data while it's still loading in after joining a world,
 #which otherwise can spam "Attempted to access MapManager before it was setup!" warnings and stutter the game.
@@ -34,3 +30,17 @@ codeRemaps = ["0:#000000", "1:#0000AA", "2:#00AA00", "3:#00AAAA", "4:#AA0000", "
 #Works together with the dimension_type override this mod ships, which lowers SoulHome's
 #very high ambient_light floor -- without that override the darkening is barely visible.
 soulhomeStormDarkening = true
+#Whether FTB Quests/Library text draws a drop shadow at all. Set to false to disable text shadows entirely.
+ftbTextShadowEnabled = false
+#Color of the FTB Quests/Library text drop shadow. FTB Quests hex format: #RRGGBB or #AARRGGBB.
+#Leave empty ("") to use vanilla's own behavior: a shadow auto-derived from each text's own color at 25% brightness.
+#Has no effect if ftbTextShadowEnabled is false.
+ftbTextShadowColor = ""
+#Horizontal pixel offset of the text drop shadow from its text. Vanilla's default is 1 (shadow drawn 1px right).
+# Default: 1
+# Range: -16 ~ 16
+ftbTextShadowOffsetX = 1
+#Vertical pixel offset of the text drop shadow from its text. Vanilla's default is 1 (shadow drawn 1px down).
+# Default: 1
+# Range: -16 ~ 16
+ftbTextShadowOffsetY = 1

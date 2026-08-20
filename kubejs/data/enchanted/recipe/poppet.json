@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "#A#",
+    "BAC",
+    "#D#"
+  ],
+  "key": {
+    "#": {
+      "item": "farmersdelight:straw"
+    },
+    "A": {
+      "item": "enchanted:spanish_moss"
+    },
+    "B": {
+      "tag": "c:needles"
+    },
+    "C": {
+      "tag": "fabled_wylds:thread"
+    },
+    "D": {
+      "item": "enchanted:attuned_stone"
+    }
+  },
+  "result": {
+    "id": "enchanted:poppet",
+    "count": 1
+  }
+}

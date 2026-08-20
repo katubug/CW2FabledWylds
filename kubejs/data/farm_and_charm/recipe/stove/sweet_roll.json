@@ -1,0 +1,20 @@
+{
+  "type": "farm_and_charm:stove",
+  "ingredients": [
+    {
+      "item": "bakery:sweet_dough"
+    },
+    {
+      "tag": "fabled_wylds:sweeteners"
+    },
+    {
+      "tag": "bakery:eggs"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "create:sweet_roll"
+  },
+  "experience": 0.2,
+  "requiresLearning": false
+}

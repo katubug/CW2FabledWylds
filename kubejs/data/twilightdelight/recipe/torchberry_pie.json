@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "###",
+    "ABA"
+  ],
+  "key": {
+    "#": {
+      "item": "twilightforest:torchberries"
+    },
+    "A": {
+      "tag": "fabled_wylds:sweeteners"
+    },
+    "B": {
+      "item": "farmersdelight:pie_crust"
+    }
+  },
+  "result": {
+    "id": "twilightdelight:torchberry_pie",
+    "count": 1
+  }
+}

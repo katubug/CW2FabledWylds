@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "###",
+    "ABA"
+  ],
+  "key": {
+    "#": {
+      "tag": "c:fruits/grape"
+    },
+    "A": {
+      "tag": "fabled_wylds:sweeteners"
+    },
+    "B": {
+      "item": "farmersdelight:pie_crust"
+    }
+  },
+  "result": {
+    "id": "hearthandharvest:grape_pie",
+    "count": 1
+  }
+}

@@ -1,0 +1,107 @@
+{
+  "enabled": true,
+  "mod_name": "Arts \u0026 Crafts",
+  "mod_id": "arts_and_crafts",
+  "achievements": {
+    "adventure/cycle_chalk_pattern_forwards": {
+      "display_name": "Let Creativity Flow Through You",
+      "original_name": "Let Creativity Flow Through You",
+      "enabled": true,
+      "icon": "arts_and_crafts:lime_chalk_stick",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "husbandry/obtain_bleachdew": {
+      "display_name": "Circa 1980",
+      "original_name": "Circa 1980",
+      "enabled": true,
+      "icon": "arts_and_crafts:bleachdew",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "adventure/craft_bleachdew_paintbrush": {
+      "display_name": "Born To Paint Forced To Mop",
+      "original_name": "Born To Paint Forced To Mop",
+      "enabled": true,
+      "icon": "arts_and_crafts:bleachdew_paintbrush",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "adventure/cycle_chalk_pattern_backwards": {
+      "display_name": "Flashpoint",
+      "original_name": "Flashpoint",
+      "enabled": true,
+      "icon": "arts_and_crafts:orange_chalk_stick",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "adventure/craft_paintbrush": {
+      "display_name": "Aspiring Davinci!",
+      "original_name": "Aspiring Davinci!",
+      "enabled": true,
+      "icon": "arts_and_crafts:purple_paintbrush",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "adventure/collect_all_chalk_sticks": {
+      "display_name": "Board Planning",
+      "original_name": "Board Planning",
+      "enabled": true,
+      "icon": "arts_and_crafts:cyan_chalk_stick",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "adventure/save_chalk_pattern": {
+      "display_name": "Handpicked",
+      "original_name": "Handpicked",
+      "enabled": true,
+      "icon": "arts_and_crafts:red_chalk_stick",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "husbandry/interact_with_lily_pad_using_some_lotus_pistils": {
+      "display_name": "Let The Past Bloom!",
+      "original_name": "Let The Past Bloom!",
+      "enabled": true,
+      "icon": "arts_and_crafts:lotus_pistils",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "adventure/craft_chalk_stick": {
+      "display_name": "No You Can\u0027t Eat It!",
+      "original_name": "No You Can\u0027t Eat It!",
+      "enabled": true,
+      "icon": "arts_and_crafts:white_chalk_stick",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "adventure/obtain_pottery_sherd": {
+      "display_name": "A Clean Slate!",
+      "original_name": "A Clean Slate!",
+      "enabled": true,
+      "icon": "arts_and_crafts:pottery_sherd",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    }
+  }
+}

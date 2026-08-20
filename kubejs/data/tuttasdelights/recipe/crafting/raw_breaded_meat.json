@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "tag": "c:foods/raw_meat"
+    },
+    {
+      "tag": "c:cooking_eggs"
+    },
+    {
+      "tag": "c:flour"
+    }
+  ],
+  "result": {
+    "id": "tuttasdelights:raw_breaded_meat",
+    "count": 1
+  }
+}

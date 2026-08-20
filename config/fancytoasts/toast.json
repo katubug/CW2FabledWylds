@@ -1,6 +1,6 @@
 {
-  "textureId": "fancytoasts:textures/toast/vanilla.png",
-  "animationId": "fancytoasts:animations/toast/standard",
+  "textureId": "fancytoasts:textures/toast/terracraft.png",
+  "animationId": "fancytoasts:animations/toast/playful",
   "soundIds": {
     "TASK": "minecraft:block.note_block.chime",
     "GOAL": "minecraft:entity.firework_rocket.twinkle_far",

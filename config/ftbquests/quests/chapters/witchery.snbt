@@ -1545,5 +1545,29 @@
 			x: -3.0d
 			y: -6.0d
 		}
+		{
+			dependencies: ["186783CBB755AC03"]
+			id: "18D433FB887CE31B"
+			preset: "progression"
+			tasks: [{
+				id: "7B032D53F9A9CACD"
+				item: { count: 1, id: "enchanted:poppet_shelf" }
+				type: "item"
+			}]
+			x: -5.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["2B1B9108FF7A3FB3"]
+			id: "186783CBB755AC03"
+			preset: "item"
+			tasks: [{
+				id: "6FB6CC467CEF17CF"
+				item: { count: 1, id: "enchanted:whiff_of_magic" }
+				type: "item"
+			}]
+			x: -5.0d
+			y: 2.5d
+		}
 	]
 }

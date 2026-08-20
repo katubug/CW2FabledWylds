@@ -1,0 +1,27 @@
+{
+  "enabled": true,
+  "mod_name": "Trash Cans",
+  "mod_id": "trashcans",
+  "achievements": {
+    "trash_can": {
+      "display_name": "Don\u0027t forget to recycle",
+      "original_name": "Don\u0027t forget to recycle",
+      "enabled": true,
+      "icon": "trashcans:item_trash_can",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "ultimate_trash_can": {
+      "display_name": "The Ultimate Trash Can",
+      "original_name": "The Ultimate Trash Can",
+      "enabled": true,
+      "icon": "trashcans:ultimate_trash_can",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    }
+  }
+}

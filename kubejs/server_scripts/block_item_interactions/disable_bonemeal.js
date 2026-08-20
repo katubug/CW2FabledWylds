@@ -16,6 +16,9 @@ NativeEvents.onEvent(BonemealEvent, event => {
 	if (block.is(crop) || block.is(sapling)) {
 		event.setCanceled(true)
 		event.setSuccessful(false)
-		event.player.tell("This doesn't seem to work. Try fertilizer instead!")
+
+		if (event.player) {
+			event.player.tell("This doesn't seem to work. Try fertilizer instead!")
+		}
 	}
 })

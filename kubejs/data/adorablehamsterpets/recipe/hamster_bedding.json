@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "tag": "minecraft:leaves"
+    },
+    {
+      "tag": "minecraft:leaves"
+    },
+    {
+      "item": "minecraft:stick"
+    },
+    {
+      "tag": "c:dirts"
+    }
+  ],
+  "result": {
+    "id": "adorablehamsterpets:hamster_bedding",
+    "count": 2
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "wetland_whimsy:cooked_crawfish"
+    },
+    {
+      "item": "minecraft:milk_bucket"
+    },
+    {
+      "tag": "c:flour"
+    },
+    {
+      "tag": "c:cooking_eggs"
+    }
+  ],
+  "result": {
+    "id": "wetland_whimsy:popcorn_crawfish",
+    "count": 3
+  }
+}

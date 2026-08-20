@@ -1,0 +1,9 @@
+[currency]
+	#How many spurs it costs to warp per block of distance
+	# Default: 1.0
+	# Range: 0.0 ~ 1000.0
+	cost_per_block = 1.0
+	#Should the payments be forwarded to the person who placed the waystone.
+	toll_mode = true
+	#If toll mode is enabled, should the person who placed the waystone teleport for free.
+	toll_free_for_owner = true

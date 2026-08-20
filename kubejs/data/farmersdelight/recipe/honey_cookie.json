@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "minecraft:honey_bottle"
+    },
+    {
+      "item": "bakery:sweet_dough"
+    }
+  ],
+  "result": {
+    "id": "farmersdelight:honey_cookie",
+    "count": 8
+  }
+}

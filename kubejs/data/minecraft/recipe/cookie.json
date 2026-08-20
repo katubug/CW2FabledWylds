@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "#A",
+    "B "
+  ],
+  "key": {
+    "#": {
+      "item": "bakery:sweet_dough"
+    },
+    "A": {
+      "item": "minecraft:cocoa_beans"
+    },
+    "B": {
+      "tag": "fabled_wylds:sweeteners"
+    }
+  },
+  "result": {
+    "id": "minecraft:cookie",
+    "count": 8
+  }
+}

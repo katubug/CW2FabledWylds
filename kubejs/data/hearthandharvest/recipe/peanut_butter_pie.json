@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " # ",
+    "AAA",
+    "BCB"
+  ],
+  "key": {
+    "#": {
+      "item": "hearthandharvest:peanut_butter"
+    },
+    "A": {
+      "tag": "c:crops/peanut"
+    },
+    "B": {
+      "item": "minecraft:sugar"
+    },
+    "C": {
+      "item": "farmersdelight:pie_crust"
+    }
+  },
+  "result": {
+    "id": "hearthandharvest:peanut_butter_pie",
+    "count": 1
+  }
+}

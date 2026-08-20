@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "###",
+    "ABA"
+  ],
+  "key": {
+    "#": {
+      "tag": "c:fruits/raspberry"
+    },
+    "A": {
+      "item": "minecraft:sugar"
+    },
+    "B": {
+      "item": "farmersdelight:pie_crust"
+    }
+  },
+  "result": {
+    "id": "hearthandharvest:raspberry_pie",
+    "count": 1
+  }
+}

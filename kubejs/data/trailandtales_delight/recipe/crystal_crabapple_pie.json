@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "tatd_crystal_crabapple_pie",
+  "category": "misc",
+  "pattern": [
+    " # ",
+    "###",
+    "ABA"
+  ],
+  "key": {
+    "#": {
+      "item": "trailandtales_delight:crystal_crabapple"
+    },
+    "A": {
+      "tag": "fabled_wylds:sweeteners"
+    },
+    "B": {
+      "item": "farmersdelight:pie_crust"
+    }
+  },
+  "result": {
+    "id": "trailandtales_delight:crystal_crabapple_pie",
+    "count": 1
+  }
+}

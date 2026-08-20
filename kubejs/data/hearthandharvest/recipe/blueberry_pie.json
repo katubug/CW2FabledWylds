@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "###",
+    "ABA"
+  ],
+  "key": {
+    "#": {
+      "tag": "c:fruits/blueberry"
+    },
+    "A": {
+      "tag": "fabled_wylds:sweeteners"
+    },
+    "B": {
+      "item": "farmersdelight:pie_crust"
+    }
+  },
+  "result": {
+    "id": "hearthandharvest:blueberry_pie",
+    "count": 1
+  }
+}
