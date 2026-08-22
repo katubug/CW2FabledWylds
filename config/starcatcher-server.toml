@@ -57,7 +57,7 @@ fish_percentile_size_min_scale = 0.5
 # Range: 0 ~ 999
 max_tackle_box_fish_storage = 900
 #Award rod & guide the first time a player fishes with a vanilla fishing rod
-give_rod = true
+give_rod = false
 #Adjusts the handle speed, useful if you want to adjust the fishes' difficulty globally.
 # Default: 1.0
 # Range: 0.0 ~ 100.0

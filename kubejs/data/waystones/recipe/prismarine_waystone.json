@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "#A"
+  ],
+  "key": {
+    "#": {
+      "tag": "waystones:waystones"
+    },
+    "A": {
+      "item": "minecraft:prismarine"
+    }
+  },
+  "result": {
+    "id": "waystones:prismarine_waystone",
+    "count": 1
+  }
+}

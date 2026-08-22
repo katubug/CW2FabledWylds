@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "#A"
+  ],
+  "key": {
+    "#": {
+      "tag": "waystones:waystones"
+    },
+    "A": {
+      "item": "minecraft:end_stone_bricks"
+    }
+  },
+  "result": {
+    "id": "waystones:end_stone_waystone",
+    "count": 1
+  }
+}

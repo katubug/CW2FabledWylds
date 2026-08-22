@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "#A"
+  ],
+  "key": {
+    "#": {
+      "tag": "waystones:waystones"
+    },
+    "A": {
+      "item": "minecraft:chiseled_sandstone"
+    }
+  },
+  "result": {
+    "id": "waystones:sandy_waystone",
+    "count": 1
+  }
+}

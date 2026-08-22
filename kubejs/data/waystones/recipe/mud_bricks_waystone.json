@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "#A"
+  ],
+  "key": {
+    "#": {
+      "tag": "waystones:waystones"
+    },
+    "A": {
+      "item": "minecraft:mud_bricks"
+    }
+  },
+  "result": {
+    "id": "waystones:mud_bricks_waystone",
+    "count": 1
+  }
+}

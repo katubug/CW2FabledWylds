@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "#A"
+  ],
+  "key": {
+    "#": {
+      "tag": "waystones:waystones"
+    },
+    "A": {
+      "item": "minecraft:blackstone"
+    }
+  },
+  "result": {
+    "id": "waystones:blackstone_waystone",
+    "count": 1
+  }
+}

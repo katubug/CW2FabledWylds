@@ -104,6 +104,119 @@
 			x: 3.5d
 			y: 6.5d
 		}
+		{
+			click_action: "none:"
+			height: 20.0d
+			id: "0BBCC2CAE0222645"
+			image: "fabled_wylds:textures/questui/shop/shopbg.png"
+			order: -1
+			rotation: 0.0d
+			width: 15.0d
+			x: -12.0d
+			y: 1.0d
+		}
+		{
+			click_action: "none:"
+			height: 5.0d
+			id: "584BE2F44EBF8F21"
+			image: "gabrielequests-mannequin:head=broom_closet:druid_horns,chest=,legs=,feet=,main=,off=,rot=30x-2"
+			rotation: 0.0d
+			width: 1.0d
+			x: -16.5d
+			y: -2.0d
+		}
+		{
+			click_action: "none:quest_enhance:text_v3:2.5:17:minecraft:defaultCosmetics"
+			color: 0
+			height: 0.3611699787875964d
+			id: "7B43368ABACEFC3A"
+			image: ""
+			rotation: 0.0d
+			width: 1.7401826250675099d
+			x: -12.0d
+			y: -4.5d
+		}
+		{
+			click_action: "none:"
+			height: 1.5d
+			id: "0DABDAA3B11570B9"
+			image: "fabled_wylds:textures/questui/shop/shopdivider.png"
+			order: 5
+			rotation: 0.0d
+			width: 13.0d
+			x: -12.0d
+			y: -4.5d
+		}
+		{
+			click_action: "none:"
+			height: 5.0d
+			id: "4C126EB6F74B42BE"
+			image: "gabrielequests-mannequin:head=broom_closet:cat_ears,chest=,legs=,feet=,main=,off=,rot=346x0"
+			rotation: 0.0d
+			width: 1.0d
+			x: -8.0d
+			y: -2.0d
+		}
+		{
+			click_action: "none:"
+			height: 5.0d
+			id: "36F6CD8E4DFD88E4"
+			image: "gabrielequests-mannequin:head=broom_closet:demon_horns,chest=,legs=,feet=,main=,off=,rot=0x0"
+			rotation: 0.0d
+			width: 1.0d
+			x: -12.0d
+			y: -1.0d
+		}
+		{
+			click_action: "none:"
+			height: 5.0d
+			id: "1C62A1C21E801DEC"
+			image: "gabrielequests-mannequin:head=broom_closet:elf_ears,chest=,legs=,feet=,main=,off=,rot=30x-2"
+			rotation: 0.0d
+			width: 1.0d
+			x: -16.5d
+			y: 3.0d
+		}
+		{
+			click_action: "none:"
+			height: 5.0d
+			id: "63404C2F8B909526"
+			image: "gabrielequests-mannequin:head=broom_closet:frog,chest=,legs=,feet=,main=,off=,rot=338x0"
+			rotation: 0.0d
+			width: 1.0d
+			x: -13.0d
+			y: 3.5d
+		}
+		{
+			click_action: "none:"
+			height: 5.0d
+			id: "78EB3B274E36BCB2"
+			image: "gabrielequests-mannequin:head=broom_closet:frog_top_hat,chest=,legs=,feet=,main=,off=,rot=340x-12"
+			rotation: 0.0d
+			width: 1.0d
+			x: -8.0d
+			y: 3.5d
+		}
+		{
+			click_action: "none:"
+			height: 5.0d
+			id: "6C5717D473144241"
+			image: "gabrielequests-mannequin:head=broom_closet:goblin_ears,chest=,legs=,feet=,main=,off=,rot=38x-4"
+			rotation: 0.0d
+			width: 1.0d
+			x: -14.5d
+			y: 6.5d
+		}
+		{
+			click_action: "none:"
+			height: 5.0d
+			id: "1EDF8B138D70450D"
+			image: "gabrielequests-mannequin:head=broom_closet:antlers,chest=,legs=,feet=,main=,off=,rot=324x-2"
+			rotation: 0.0d
+			width: 1.0d
+			x: -10.0d
+			y: 6.5d
+		}
 	]
 	order_index: 2
 	quest_enhance_decorative_lines: [ ]
@@ -545,8 +658,9 @@
 				type: "contactquests:parcel"
 			}]
 			tasks: [{
-				id: "3C6A24FD6CBE23AA"
-				item: { count: 1, id: "exposure:color_film" }
+				count: 3L
+				id: "686D890D77C57497"
+				item: { count: 1, id: "numismatics:spur" }
 				type: "item"
 			}]
 			x: -2.5d
@@ -595,8 +709,9 @@
 				type: "contactquests:parcel"
 			}]
 			tasks: [{
-				id: "140BE299A81BBFC5"
-				item: { count: 1, id: "exposure:high_sensitivity_color_film" }
+				count: 5L
+				id: "26EC855EB52FABD4"
+				item: { count: 1, id: "numismatics:spur" }
 				type: "item"
 			}]
 			x: -2.0d
@@ -693,6 +808,214 @@
 			}]
 			x: 3.0d
 			y: -4.0d
+		}
+		{
+			icon: {
+				id: "broom_closet:cat_ears"
+			}
+			id: "50C0D0CE7E13EE91"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5F01D06C48AD2D08"
+				is_ender: false
+				is_team_reward: false
+				item: {
+					count: 1
+					id: "broom_closet:cat_ears"
+				}
+				target_addressee: "QuestNPC"
+				team_reward_multiplier: 1.0f
+				type: "contactquests:parcel"
+			}]
+			tasks: [{
+				id: "643FF85545784794"
+				item: { count: 1, id: "numismatics:crown" }
+				type: "item"
+			}]
+			x: -9.0d
+			y: -3.0d
+		}
+		{
+			icon: {
+				id: "broom_closet:druid_horns"
+			}
+			id: "08FFDD3033FC7A9B"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "64DAA5E47077F595"
+				is_ender: false
+				is_team_reward: false
+				item: {
+					count: 1
+					id: "broom_closet:druid_horns"
+				}
+				target_addressee: "QuestNPC"
+				team_reward_multiplier: 1.0f
+				type: "contactquests:parcel"
+			}]
+			tasks: [{
+				id: "13EA962B54E4CADC"
+				item: { count: 1, id: "numismatics:crown" }
+				type: "item"
+			}]
+			x: -15.0d
+			y: -3.0d
+		}
+		{
+			icon: {
+				id: "broom_closet:demon_horns"
+			}
+			id: "7AE10F46E005B646"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4B3ACFA7748D7E9A"
+				is_ender: false
+				is_team_reward: false
+				item: {
+					count: 1
+					id: "broom_closet:demon_horns"
+				}
+				target_addressee: "QuestNPC"
+				team_reward_multiplier: 1.0f
+				type: "contactquests:parcel"
+			}]
+			tasks: [{
+				id: "65E1E128CDA8EEFF"
+				item: { count: 1, id: "numismatics:crown" }
+				type: "item"
+			}]
+			x: -12.0d
+			y: -3.5d
+		}
+		{
+			icon: {
+				id: "broom_closet:elf_ears"
+			}
+			id: "29612C509F96B63D"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2A2A5C16219EBA6F"
+				is_ender: false
+				is_team_reward: false
+				item: {
+					count: 1
+					id: "broom_closet:elf_ears"
+				}
+				target_addressee: "QuestNPC"
+				team_reward_multiplier: 1.0f
+				type: "contactquests:parcel"
+			}]
+			tasks: [{
+				id: "06BDDD814FD1C30F"
+				item: { count: 1, id: "numismatics:crown" }
+				type: "item"
+			}]
+			x: -15.0d
+			y: 1.5d
+		}
+		{
+			icon: {
+				id: "broom_closet:frog"
+			}
+			id: "2A97D3E6C140611E"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "31B2EB35F1270108"
+				is_ender: false
+				is_team_reward: false
+				item: {
+					count: 1
+					id: "broom_closet:frog"
+				}
+				target_addressee: "QuestNPC"
+				team_reward_multiplier: 1.0f
+				type: "contactquests:parcel"
+			}]
+			tasks: [{
+				id: "575601FCE1EB5616"
+				item: { count: 1, id: "numismatics:crown" }
+				type: "item"
+			}]
+			x: -12.0d
+			y: 1.5d
+		}
+		{
+			icon: {
+				id: "broom_closet:frog_top_hat"
+			}
+			id: "2DC00391DC52D716"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "451B8710B9F03631"
+				is_ender: false
+				is_team_reward: false
+				item: {
+					count: 1
+					id: "broom_closet:frog_top_hat"
+				}
+				target_addressee: "QuestNPC"
+				team_reward_multiplier: 1.0f
+				type: "contactquests:parcel"
+			}]
+			tasks: [{
+				id: "5CDDDBB96E1B3302"
+				item: { count: 1, id: "numismatics:crown" }
+				type: "item"
+			}]
+			x: -9.0d
+			y: 1.5d
+		}
+		{
+			icon: {
+				id: "broom_closet:goblin_ears"
+			}
+			id: "106FDB5A3E89127E"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "47BE01FDDD4E6E90"
+				is_ender: false
+				is_team_reward: false
+				item: {
+					count: 1
+					id: "broom_closet:goblin_ears"
+				}
+				target_addressee: "QuestNPC"
+				team_reward_multiplier: 1.0f
+				type: "contactquests:parcel"
+			}]
+			tasks: [{
+				id: "265B96874691F6A8"
+				item: { count: 1, id: "numismatics:crown" }
+				type: "item"
+			}]
+			x: -15.5d
+			y: 7.5d
+		}
+		{
+			icon: {
+				id: "broom_closet:antlers"
+			}
+			id: "303CFA0591015A89"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3B95CB979E962045"
+				is_ender: false
+				is_team_reward: false
+				item: {
+					count: 1
+					id: "broom_closet:antlers"
+				}
+				target_addressee: "QuestNPC"
+				team_reward_multiplier: 1.0f
+				type: "contactquests:parcel"
+			}]
+			tasks: [{
+				id: "7CF0369B71EB0777"
+				item: { count: 1, id: "numismatics:crown" }
+				type: "item"
+			}]
+			x: -9.0d
+			y: 7.5d
 		}
 	]
 }

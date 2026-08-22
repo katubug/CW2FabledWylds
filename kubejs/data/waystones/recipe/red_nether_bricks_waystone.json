@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "#A"
+  ],
+  "key": {
+    "#": {
+      "tag": "waystones:waystones"
+    },
+    "A": {
+      "item": "minecraft:red_nether_bricks"
+    }
+  },
+  "result": {
+    "id": "waystones:red_nether_bricks_waystone",
+    "count": 1
+  }
+}

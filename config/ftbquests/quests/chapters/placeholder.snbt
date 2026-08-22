@@ -127,36 +127,6 @@
 	quest_links: [ ]
 	quests: [
 		{
-			id: "7AD175287E3F0B68"
-			rewards: [{
-				id: "647BD7A181C2E88D"
-				item: {
-					components: {
-						"ftbquests:missing_item": "waystones:warp_scroll"
-					}
-					count: 1
-					id: "ftbquests:missing_item"
-				}
-				type: "item"
-			}]
-			shape: "gear"
-			size: 1.0d
-			tasks: [{
-				icon: {
-					components: {
-						"ftbquests:missing_item": "waystones:sandy_waystone"
-					}
-					id: "ftbquests:missing_item"
-				}
-				id: "0897C669F0BCBDB8"
-				stat: "waystones:waystone_activated"
-				type: "stat"
-				value: 1
-			}]
-			x: 6.0d
-			y: -11.0d
-		}
-		{
 			id: "3DFB7EF14F053582"
 			rewards: [
 				{

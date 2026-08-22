@@ -679,15 +679,25 @@
 		}
 		{
 			id: "7126D9210A7E072C"
-			rewards: [{
-				count: 4
-				id: "00EF388330CF5AD8"
-				item: {
-					count: 1
-					id: "seamsandstitches:lye"
+			rewards: [
+				{
+					count: 4
+					id: "00EF388330CF5AD8"
+					item: {
+						count: 1
+						id: "seamsandstitches:lye"
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "3079D7107EB40A8A"
+					item: {
+						count: 1
+						id: "minecraft:flint"
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "553F6C46982EB602"
 				item: { count: 1, id: "seamsandstitches:tanning_rack" }
@@ -695,17 +705,6 @@
 			}]
 			x: 1.5d
 			y: -9.5d
-		}
-		{
-			id: "6A92CD87F54E86F1"
-			preset: "progression"
-			tasks: [{
-				id: "7FEF3E7EC2CD2664"
-				item: { count: 1, id: "minecraft:apple" }
-				type: "item"
-			}]
-			x: 1.0d
-			y: -12.0d
 		}
 	]
 }

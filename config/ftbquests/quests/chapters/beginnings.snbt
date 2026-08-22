@@ -504,16 +504,22 @@
 				{
 					id: "15F9B72BEF84DB82"
 					item: {
+						components: {
+							"ftbquests:missing_item": "pickybags:bag"
+						}
 						count: 1
-						id: "pickybags:bag"
+						id: "ftbquests:missing_item"
 					}
 					type: "item"
 				}
 				{
 					id: "3C3EE109357B176E"
 					item: {
+						components: {
+							"ftbquests:missing_item": "pickybags:pickup_rocks"
+						}
 						count: 1
-						id: "pickybags:pickup_rocks"
+						id: "ftbquests:missing_item"
 					}
 					type: "item"
 				}
@@ -754,6 +760,40 @@
 			}]
 			x: -6.0d
 			y: -5.5d
+		}
+		{
+			id: "7AD175287E3F0B68"
+			rewards: [{
+				id: "213526898196C3D8"
+				item: {
+					count: 1
+					id: "waystones:warp_scroll"
+				}
+				type: "item"
+			}]
+			shape: "gear"
+			size: 1.0d
+			tasks: [{
+				icon: {
+					id: "waystones:waystone"
+				}
+				id: "666B0ACB284A0618"
+				stat: "waystones:waystone_activated"
+				type: "stat"
+				value: 1
+			}]
+			x: -6.0d
+			y: -2.5d
+		}
+		{
+			id: "439A33514ABCCEFA"
+			tasks: [{
+				id: "3C2B9E47CE38A5E6"
+				item: { count: 1, id: "waystones:epitaph" }
+				type: "item"
+			}]
+			x: 7.5d
+			y: -15.0d
 		}
 	]
 }

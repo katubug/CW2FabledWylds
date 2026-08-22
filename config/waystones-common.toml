@@ -3,7 +3,7 @@
 	restrictedWaystones = ["PLAYER"]
 	#Set to "GLOBAL" to have newly placed or found waystones be global by default.
 	#Allowed Values: ACTIVATION, GLOBAL, TEAM
-	defaultVisibility = "ACTIVATION"
+	defaultVisibility = "TEAM"
 	#Set to true to allow everyone to manage global waystones. Always true if defaultVisibility is GLOBAL.
 	allowEveryoneToManageGlobalWaystones = false
 	#Deprecated - use allowEveryoneToManageGlobalWaystones instead.
@@ -19,7 +19,7 @@
 
 [inventoryButton]
 	#Set to 'NONE' for no inventory button. Set to 'NEAREST' for an inventory button that teleports to the nearest waystone. Set to 'ANY' for an inventory button that opens the waystone selection menu. Set to a waystone name for an inventory button that teleports to a specifically named waystone.
-	inventoryButton = ""
+	inventoryButton = "NEAREST"
 	#The x position of the inventory button in the inventory.
 	inventoryButtonX = 58
 	#The y position of the inventory button in the inventory.
@@ -45,7 +45,7 @@
 	#The template to use when generating new names. Supported placeholders are {Biome} (english biome name) and {MrPork} (the default name generator).
 	nameGenerationTemplate = "{MrPork}"
 	#These names will be used for the PRESET name generation mode. See the nameGenerationMode option for more info.
-	nameGenerationPresets = []
+	nameGenerationPresets = ["Witchbriar Way", "Serendipity Court", "Empyrean Glade", "Astral Valley", "Ethereal Plain", "Ephemeral Path", "Celestial Glen", "Chimerica", "Numinous Stepps", "Prescient Crossing", "Ethereal Reach", "Gossamer Way", "Halcyon Rest", "Elysian Verge", "Empyrean Gate", "Vesper Hold", "Numinous Threshold", "Liminal Crossing", "Astral Bounds", "Argent Passage", "Opaline Vigil", "Lambent Landing", "Evanescent Wayside", "Aeonian Post", "Quiescent Refuge", "Chimeric Marches", "Fathomless Bourn", "Hallowed Cairn", "Seraphine Waypost", "Solace Court", "Umbral Wend", "Reverie Bend", "Sonorous Remnant", "Effulgent Span", "Auric Stead", "Nokron", "Crepuscular Hollow", "Iridescent Glade", "Nacreous Rise"]
 	#Set to REGULAR to have waystones spawn in some villages. Set to FREQUENT to have waystones spawn in most villages. Set to DISABLED to disable waystone generation in villages. Waystones will only spawn in vanilla or supported villages.
 	#Allowed Values: DISABLED, REGULAR, FREQUENT
 	spawnInVillages = "REGULAR"
@@ -56,12 +56,12 @@
 	#Set to false to simply disable all cooldowns. See warpRequirements for more fine-grained control.
 	enableCooldowns = true
 	#Set to false to disable durability loss on warp stones.
-	enableDurability = true
+	enableDurability = false
 	#List of warp requirements with comma-separated parameters in parentheses. Conditions can be defined as comma-separated list in square brackets. Will be applied in order.
 	warpRequirements = ["[is_not_interdimensional] scaled_add_xp_cost(distance, 0.01)", "[is_interdimensional] add_xp_cost(27)", "[source_is_warp_plate] multiply_xp_cost(0)", "[target_is_global] multiply_xp_cost(0)", "[target_is_fleeting_memorial] multiply_xp_cost(0)", "min_xp_cost(0)", "max_xp_cost(27)", "[source_is_inventory_button] add_cooldown(inventory_button, 300)"]
 	#Set to ENABLED to have nearby pets teleport with you. Set to SAME_DIMENSION to have nearby pets teleport with you only if you're not changing dimensions. Set to DISABLED to disable.
 	#Allowed Values: ENABLED, SAME_DIMENSION, DISABLED
-	transportPets = "DISABLED"
+	transportPets = "ENABLED"
 	#Set to ENABLED to have leashed mobs teleport with you. Set to SAME_DIMENSION to have leashed mobs teleport with you only if you're not changing dimensions. Set to DISABLED to disable.
 	#Allowed Values: ENABLED, SAME_DIMENSION, DISABLED
 	transportLeashed = "ENABLED"
