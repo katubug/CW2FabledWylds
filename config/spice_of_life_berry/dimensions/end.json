@@ -1,9 +1,0 @@
-{
-  "dimension": "minecraft:the_end",
-  "beforeProgressUnlock": {
-    "passiveHungerMultiplier": 1.5
-  },
-  "afterProgressUnlock": {
-    "passiveHungerMultiplier": 0.45
-  }
-}

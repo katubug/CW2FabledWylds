@@ -1,6 +1,0 @@
-{
-  "dimension": "minecraft:the_nether",
-  "passiveHungerMultiplier": 1.25,
-  "forceCravingCategory": "watery",
-  "forceFoodFromCategory": true
-}
