@@ -1,0 +1,940 @@
+{
+	default_hide_dependency_lines: false
+	default_min_width: 350
+	default_quest_shape: ""
+	filename: "farmers_delight"
+	group: "33A91E268D63CB12"
+	icon: {
+		id: "luckyswardrobe:farmer_hat"
+	}
+	id: "1E6C7DB3D27545CE"
+	images: [
+		{
+			height: 20.0d
+			id: "5700CA918D4E3393"
+			image: "fabled_wylds:textures/questui/bookbgslg/yellow_book_lg.png"
+			rotation: 0.0d
+			width: 25.0d
+			x: 1.7763568394002505E-15d
+			y: 4.6000000000000005d
+		}
+		{
+			alpha: 225
+			height: 5.0d
+			id: "2BF4735B9CC34162"
+			image: "fabled_wylds:textures/questui/illustrations/farm_icon.png"
+			rotation: 0.0d
+			width: 5.0d
+			x: 7.300000000000001d
+			y: 8.500000000000002d
+		}
+	]
+	order_index: 0
+	quest_enhance_decorative_lines: [ ]
+	quest_enhance_hidden_dependency_lines: [ ]
+	quest_links: [ ]
+	quests: [
+		{
+			id: "4930ECD60EA9ED8D"
+			preset: "start"
+			rewards: [{
+				count: 4
+				id: "34673B93E89D2687"
+				item: {
+					count: 1
+					id: "farmersdelight:organic_compost"
+				}
+				type: "item"
+			}]
+			shape: "rsquare"
+			size: 2.0d
+			tasks: [{
+				id: "38AE1B4A97072062"
+				item: { components: { "ftbfiltersystem:filter": "or(item_tag(c:seeds)item_tag(neoforge:seeds))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: -8.0d
+			y: -2.0d
+		}
+		{
+			id: "435BD760D0F2E010"
+			rewards: [
+				{
+					id: "236914FF02083F47"
+					item: {
+						count: 1
+						id: "farmersdelight:brown_mushroom_colony"
+					}
+					type: "item"
+				}
+				{
+					id: "13B21F12709E46BD"
+					item: {
+						count: 1
+						id: "farmersdelight:red_mushroom_colony"
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "67A332A524039E38"
+				item: { components: { "ftbfiltersystem:filter": "or(item(farmersdelight:brown_mushroom_colony)item(farmersdelight:red_mushroom_colony))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: -8.0d
+			y: 0.0d
+		}
+		{
+			id: "3AE0F1C1159FBDDE"
+			rewards: [{
+				id: "66F2801F9DFA05AC"
+				item: {
+					count: 1
+					id: "farmersdelight:straw_bale"
+				}
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "55C6E492715281CF"
+				item: { count: 1, id: "farmersdelight:straw" }
+				type: "item"
+			}]
+			x: -8.2d
+			y: 2.2d
+		}
+		{
+			dependencies: ["3AE0F1C1159FBDDE"]
+			id: "548376041885F6D1"
+			shape: "hexagon"
+			tasks: [{
+				id: "7B4B34EE649076A3"
+				item: { count: 1, id: "farmersdelight:canvas" }
+				type: "item"
+			}]
+			x: -8.3d
+			y: 5.0d
+		}
+		{
+			dependencies: ["3AE0F1C1159FBDDE"]
+			id: "141887F26E89BAE8"
+			shape: "hexagon"
+			tasks: [{
+				id: "45328BF090DF76BC"
+				item: { count: 1, id: "farmersdelight:rope" }
+				type: "item"
+			}]
+			x: -7.7d
+			y: 3.6d
+		}
+		{
+			id: "0545DF70043D964A"
+			preset: "item"
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "0B3D4A89F7573E0A"
+					item: { count: 1, id: "farmersdelight:rice_bag" }
+					type: "item"
+				}
+				{
+					id: "0D4B4D9B040FC426"
+					item: { count: 1, id: "farmersdelight:onion_crate" }
+					type: "item"
+				}
+				{
+					id: "264A58E9818E845A"
+					item: { count: 1, id: "farmersdelight:tomato_crate" }
+					type: "item"
+				}
+				{
+					id: "3B1250578AA7B5FA"
+					item: { count: 1, id: "farmersdelight:cabbage_crate" }
+					type: "item"
+				}
+				{
+					id: "3B35640DCCB3391D"
+					item: { count: 1, id: "farmersdelight:beetroot_crate" }
+					type: "item"
+				}
+				{
+					id: "3B0EA9557B457B15"
+					item: { count: 1, id: "farmersdelight:potato_crate" }
+					type: "item"
+				}
+				{
+					id: "00992514D9743E5A"
+					item: { count: 1, id: "farmersdelight:carrot_crate" }
+					type: "item"
+				}
+				{
+					id: "5126D0836B72E09E"
+					item: { count: 1, id: "farm_and_charm:corn_bag" }
+					type: "item"
+				}
+			]
+			x: 2.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["4930ECD60EA9ED8D"]
+			id: "2CA80140F624D0AE"
+			preset: "progression"
+			rewards: [
+				{
+					id: "736FE23D7911A48C"
+					item: {
+						count: 1
+						id: "hearthandharvest:farmers_hat"
+					}
+					type: "item"
+				}
+				{
+					id: "128A1CE26C1AC26C"
+					item: {
+						count: 1
+						id: "luckyswardrobe:leather_apron"
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "7E1608CE39644619"
+					item: { count: 1, id: "farmersdelight:tomato" }
+					type: "item"
+				}
+				{
+					id: "66FBA732EB969822"
+					item: { count: 1, id: "farmersdelight:onion" }
+					type: "item"
+				}
+				{
+					id: "61BC6271FA074A75"
+					item: { count: 1, id: "farmersdelight:rice_panicle" }
+					type: "item"
+				}
+				{
+					id: "6423E31169FF965C"
+					item: { count: 1, id: "farmersdelight:cabbage" }
+					type: "item"
+				}
+				{
+					id: "4F9D7325DBD23437"
+					item: { count: 1, id: "farm_and_charm:lettuce" }
+					type: "item"
+				}
+				{
+					id: "3A9BBF004833B2BF"
+					item: { count: 1, id: "hearthandharvest:corn" }
+					type: "item"
+				}
+			]
+			x: -5.5d
+			y: -1.0d
+		}
+		{
+			id: "3D221ECD9106F792"
+			preset: "item"
+			shape: "hexagon"
+			tasks: [{
+				id: "1CF70C35261561CF"
+				item: { count: 1, id: "supplementaries:planter" }
+				type: "item"
+			}]
+			x: -6.899999999999999d
+			y: 5.300000000000001d
+		}
+		{
+			id: "2186A6F69ADBE795"
+			preset: "advancement"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "084D4358FE8322BB"
+					table_id: 6518300475828805418L
+					type: "choice"
+				}
+				{
+					id: "77B0FC1AA4C867AD"
+					item: {
+						count: 1
+						id: "minecraft:netherite_ingot"
+					}
+					type: "item"
+				}
+			]
+			shape: "octagon"
+			tasks: [{
+				advancement: "minecraft:husbandry/obtain_netherite_hoe"
+				criterion: ""
+				id: "689FF833D614619E"
+				type: "advancement"
+			}]
+			x: -4.799999999999999d
+			y: 5.9d
+		}
+		{
+			can_repeat: true
+			id: "6630D27FC9E3F285"
+			preset: "turnin"
+			rewards: [
+				{
+					id: "4695B14C75D256F2"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					exclude_from_claim_all: true
+					id: "509497F8FDAC8759"
+					table_id: 7049021818423122779L
+					type: "loot"
+				}
+				{
+					count: 10
+					id: "25673EACEF5A376C"
+					item: {
+						count: 1
+						id: "minecraft:emerald_block"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					consume_items: true
+					count: 10L
+					id: "421CB73C1AE799A5"
+					item: { count: 1, id: "farmersdelight:onion_crate" }
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 10L
+					id: "55035A2527029547"
+					item: { count: 1, id: "farmersdelight:carrot_crate" }
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 10L
+					id: "01215F6EE4B457A4"
+					item: { count: 1, id: "farmersdelight:potato_crate" }
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 10L
+					id: "5CE060E19611C1DE"
+					item: { count: 1, id: "farmersdelight:cabbage_crate" }
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 10L
+					id: "241C1EBB473D9D1B"
+					item: { count: 1, id: "farmersdelight:tomato_crate" }
+					type: "item"
+				}
+				{
+					count: 10L
+					id: "28597237443B3B16"
+					item: { count: 1, id: "farmersdelight:rice_bag" }
+					type: "item"
+				}
+				{
+					count: 10L
+					id: "233047787B0AEDB1"
+					item: { count: 1, id: "farm_and_charm:corn_bag" }
+					type: "item"
+				}
+				{
+					count: 10L
+					id: "1B06156C4AB3701F"
+					item: { count: 1, id: "farm_and_charm:strawberry_bag" }
+					type: "item"
+				}
+			]
+			x: 4.5d
+			y: 5.5d
+		}
+		{
+			id: "2973338AB622C5D6"
+			preset: "item"
+			tasks: [
+				{
+					id: "075F95D4BAE955E3"
+					item: { count: 1, id: "farm_and_charm:strawberry_bag" }
+					type: "item"
+				}
+				{
+					id: "4BD1C48CA0328F27"
+					item: { count: 1, id: "quark:berry_sack" }
+					type: "item"
+				}
+				{
+					id: "27C75695A4EDFF6D"
+					item: { count: 1, id: "quark:glowberry_sack" }
+					type: "item"
+				}
+				{
+					id: "44AC41ACAE4AD335"
+					item: { count: 1, id: "hearthandharvest:corn_kernel_bag" }
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 6.5d
+		}
+		{
+			id: "60445E736AE3B5B4"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "531F31FD79A7344A"
+					table_id: 6518300475828805418L
+					type: "choice"
+				}
+				{
+					count: 5
+					id: "1935C6ABC8821D21"
+					item: {
+						count: 1
+						id: "mynethersdelight:letios_compost"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "50DDD53BA14186F2"
+				item: { count: 1, id: "mynethersdelight:letios_compost" }
+				type: "item"
+			}]
+			x: -6.0d
+			y: 4.0d
+		}
+		{
+			id: "7814F0DBA486B635"
+			invisible: true
+			tasks: [{
+				id: "396A910D8629D953"
+				item: { count: 1, id: "ftbquests:barrier" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["2973338AB622C5D6"]
+			id: "148F84D7DB06E5D1"
+			preset: "completion"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "7452EA340BE5C392"
+					table_id: 7265408724434505998L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "21F0645F04708BFF"
+					table_id: 5525848455660196930L
+					type: "choice"
+				}
+			]
+			tasks: [{
+				id: "2E7A316EBC2BA46A"
+				type: "checkmark"
+			}]
+			x: 2.25d
+			y: 9.0d
+		}
+		{
+			id: "264135E887281098"
+			shape: "hexagon"
+			tasks: [{
+				id: "7C7F27E7BEBD63C6"
+				item: { count: 1, id: "farmingforblockheads:market" }
+				type: "item"
+			}]
+			x: -6.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4930ECD60EA9ED8D"]
+			id: "2093240CD42882CF"
+			preset: "progression"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "281FBE0C1803D076"
+				table_id: 5167086515396975209L
+				type: "random"
+			}]
+			tasks: [
+				{
+					block_item: { count: 1, id: "hearthandharvest:wild_red_grapes" }
+					id: "7322E142A1A29576"
+					type: "break_block"
+					value: 1L
+				}
+				{
+					block_item: { count: 1, id: "hearthandharvest:wild_green_grapes" }
+					id: "4C295AEBDC55AA44"
+					type: "break_block"
+					value: 1L
+				}
+				{
+					block_item: { count: 1, id: "hearthandharvest:wild_peanuts" }
+					id: "0DE017CE06F6B0D2"
+					type: "break_block"
+					value: 1L
+				}
+				{
+					block_item: { count: 1, id: "farmersdelight:wild_cabbages" }
+					id: "2244A5E60C4D60CC"
+					type: "break_block"
+					value: 1L
+				}
+				{
+					block_item: { count: 1, id: "farmersdelight:wild_onions" }
+					id: "12F5988A702EECA7"
+					type: "break_block"
+					value: 1L
+				}
+				{
+					block_item: { count: 1, id: "farmersdelight:wild_carrots" }
+					id: "0ECD10CC0F8EC456"
+					type: "break_block"
+					value: 1L
+				}
+				{
+					block_item: { count: 1, id: "farmersdelight:wild_potatoes" }
+					id: "65F6811A7FA63CCC"
+					type: "break_block"
+					value: 1L
+				}
+				{
+					block_item: { count: 1, id: "farmersdelight:wild_rice" }
+					id: "5FF8A041ABE1A591"
+					type: "break_block"
+					value: 1L
+				}
+				{
+					block_item: { count: 1, id: "farm_and_charm:wild_emmer" }
+					id: "6786877EA87F929C"
+					type: "break_block"
+					value: 1L
+				}
+				{
+					block_item: { count: 1, id: "farm_and_charm:wild_beetroots" }
+					id: "51120175C7043D83"
+					type: "break_block"
+					value: 1L
+				}
+				{
+					block_item: { count: 1, id: "farm_and_charm:wild_barley" }
+					id: "46CE5319FC2CF31B"
+					type: "break_block"
+					value: 1L
+				}
+				{
+					block_item: { count: 1, id: "farm_and_charm:wild_corn" }
+					id: "4F2FBE539DFDE88D"
+					type: "break_block"
+					value: 1L
+				}
+				{
+					block_item: { count: 1, id: "farm_and_charm:wild_oat" }
+					id: "3FDFA4E6F598EBD6"
+					type: "break_block"
+					value: 1L
+				}
+				{
+					block_item: { count: 1, id: "farm_and_charm:wild_lettuce" }
+					id: "7DA66657A797325B"
+					type: "break_block"
+					value: 1L
+				}
+				{
+					block_item: { count: 1, id: "farmersdelight:wild_tomatoes" }
+					id: "3EA2A91B9185E0EB"
+					type: "break_block"
+					value: 1L
+				}
+				{
+					block_item: { count: 1, id: "adorablehamsterpets:wild_cucumber_bush" }
+					id: "2B2D647BF242880B"
+					type: "break_block"
+					value: 1L
+				}
+				{
+					block_item: { count: 1, id: "adorablehamsterpets:wild_green_bean_bush" }
+					id: "374F0E4575F009B8"
+					type: "break_block"
+					value: 1L
+				}
+			]
+			x: -3.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["2093240CD42882CF"]
+			id: "3D99932B0EAFD2DA"
+			preset: "progression"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "241DD25D49F14D3D"
+				table_id: 6518300475828805418L
+				type: "loot"
+			}]
+			tasks: [
+				{
+					id: "5CDFB8881FB905FE"
+					item: { count: 1, id: "farm_and_charm:strawberry" }
+					type: "item"
+				}
+				{
+					id: "402F3A8BBCF17FE1"
+					item: { count: 1, id: "mysticsbiomes:cherries" }
+					type: "item"
+				}
+			]
+			x: -1.5d
+			y: -2.0d
+		}
+		{
+			id: "0C66306B20F7844C"
+			preset: "item"
+			tasks: [
+				{
+					id: "008EB7C7C7153543"
+					item: { count: 1, id: "hearthandharvest:blueberry_crate" }
+					type: "item"
+				}
+				{
+					id: "22A3BC858AA2C503"
+					item: { count: 1, id: "quark:berry_sack" }
+					type: "item"
+				}
+				{
+					id: "50B8AE6EB9285299"
+					item: { count: 1, id: "quark:glowberry_sack" }
+					type: "item"
+				}
+				{
+					id: "4FED5DAE885DC59D"
+					item: { count: 1, id: "hearthandharvest:raspberry_crate" }
+					type: "item"
+				}
+				{
+					id: "0B88C50C8425B6E2"
+					item: { count: 1, id: "farm_and_charm:strawberry_bag" }
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: 6.5d
+		}
+		{
+			id: "0496A62983DE2ABB"
+			preset: "item"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1B8BED2472A07B44"
+				type: "choice"
+			}]
+			tasks: [
+				{
+					id: "4B2DFD36AB0FB73D"
+					item: { count: 1, id: "trailandtales_delight:lantern_fruit_crate" }
+					type: "item"
+				}
+				{
+					id: "28AE9E9247E1D390"
+					item: { count: 1, id: "trailandtales_delight:pitcher_taro_crate" }
+					type: "item"
+				}
+				{
+					id: "4CAA595C8323560F"
+					item: { count: 1, id: "hearthandharvest:golden_apple_crate" }
+					type: "item"
+				}
+				{
+					id: "45954191112145C8"
+					item: { count: 1, id: "hearthandharvest:golden_carrot_crate" }
+					type: "item"
+				}
+				{
+					id: "0AE446D0E61FB6CA"
+					item: { count: 1, id: "twilightdelight:torchberries_crate" }
+					type: "item"
+				}
+				{
+					id: "71F5D2D6F9753BCC"
+					item: { count: 1, id: "quark:nether_wart_sack" }
+					type: "item"
+				}
+			]
+			x: 3.0d
+			y: 6.5d
+		}
+		{
+			id: "057C8372ED1CBDC0"
+			preset: "item"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "73A06ECDAEC48613"
+				type: "loot"
+			}]
+			tasks: [
+				{
+					id: "74B75D56E3E2E441"
+					item: { count: 1, id: "farmersdelight:tomato_crate" }
+					type: "item"
+				}
+				{
+					id: "53FA3116D8141428"
+					item: { count: 1, id: "farmersdelight:onion_crate" }
+					type: "item"
+				}
+				{
+					id: "302EAA4D72D5EB8A"
+					item: { count: 1, id: "farmersdelight:potato_crate" }
+					type: "item"
+				}
+				{
+					id: "070CC395A26E9B9F"
+					item: { count: 1, id: "farmersdelight:carrot_crate" }
+					type: "item"
+				}
+				{
+					id: "5ACD6C27B63B3EE1"
+					item: { count: 1, id: "farmersdelight:cabbage_crate" }
+					type: "item"
+				}
+				{
+					id: "326D791099592719"
+					item: { count: 1, id: "farm_and_charm:lettuce_bag" }
+					type: "item"
+				}
+				{
+					id: "2E67C1E7DD049DFA"
+					item: { count: 1, id: "farmersdelight:beetroot_crate" }
+					type: "item"
+				}
+			]
+			x: 4.5d
+			y: 4.5d
+		}
+		{
+			id: "2A171EE16DA22152"
+			preset: "item"
+			tasks: [
+				{
+					id: "235A587BF876B440"
+					item: { count: 1, id: "hearthandharvest:peanut_crate" }
+					type: "item"
+				}
+				{
+					id: "773E3205F3642A8A"
+					item: { count: 1, id: "adorablehamsterpets:acorn_crate" }
+					type: "item"
+				}
+			]
+			x: 2.5d
+			y: 5.5d
+		}
+		{
+			id: "3E8BB82A228A4727"
+			preset: "item"
+			rewards: [
+				{
+					id: "630A1AF82F87897D"
+					item: {
+						components: {
+							"ftbquests:missing_item": "redeco:red_mushroom_terrarium"
+						}
+						count: 1
+						id: "ftbquests:missing_item"
+					}
+					type: "item"
+				}
+				{
+					id: "29A066CA914BE5AA"
+					item: {
+						components: {
+							"ftbquests:missing_item": "redeco:brown_mushroom_terrarium"
+						}
+						count: 1
+						id: "ftbquests:missing_item"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "3E91A693E69007E6"
+					item: { count: 1, id: "hearthandharvest:brown_mushroom_crate" }
+					type: "item"
+				}
+				{
+					id: "069F7B4E7342BE02"
+					item: { count: 1, id: "hearthandharvest:crimson_fungus_crate" }
+					type: "item"
+				}
+				{
+					id: "560588FB24655C5A"
+					item: { count: 1, id: "hearthandharvest:warped_fungus_crate" }
+					type: "item"
+				}
+				{
+					id: "6FA78D76B224FD08"
+					item: { count: 1, id: "hearthandharvest:red_mushroom_crate" }
+					type: "item"
+				}
+			]
+			x: 3.5d
+			y: 4.5d
+		}
+		{
+			id: "134ACEA76F0200AD"
+			preset: "item"
+			tasks: [
+				{
+					id: "78BF784BF40796CA"
+					item: { count: 1, id: "hearthandharvest:sugar_bag" }
+					type: "item"
+				}
+				{
+					id: "4EE059419BE79FEA"
+					item: { count: 1, id: "hearthandharvest:cocoa_bean_bag" }
+					type: "item"
+				}
+				{
+					id: "4D071F957ED2A15A"
+					item: { count: 1, id: "farm_and_charm:oat_ball" }
+					type: "item"
+				}
+				{
+					id: "0792FCC59A70FD7F"
+					item: { count: 1, id: "farm_and_charm:barley_ball" }
+					type: "item"
+				}
+				{
+					id: "18F6D770AC59AFB2"
+					item: { count: 1, id: "farmersdelight:rice_bag" }
+					type: "item"
+				}
+				{
+					id: "590E32B5B63C757F"
+					item: { count: 1, id: "hearthandharvest:gunpowder_bag" }
+					type: "item"
+				}
+				{
+					id: "1BE09789EF91CC2B"
+					item: { count: 1, id: "farm_and_charm:flour_bag" }
+					type: "item"
+				}
+				{
+					id: "7CDC15C9E18312B7"
+					item: { count: 1, id: "herbalbrews:tea_leaf_crate" }
+					type: "item"
+				}
+			]
+			x: 3.5d
+			y: 5.5d
+		}
+		{
+			id: "17B0994740977E5A"
+			preset: "item"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4911754D457E2F61"
+				table_id: 5770973074849872376L
+				type: "random"
+			}]
+			tasks: [{
+				id: "6B04E98837BD690F"
+				item: { count: 1, id: "farm_and_charm:chicken_coop" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["18B7D6B02C97FF23"]
+			id: "396C5F4A97427E6C"
+			preset: "progression"
+			tasks: [{
+				id: "4EFCAF84817FCF62"
+				item: { components: { "hearthandharvest:bonemeal_level": 16, "hearthandharvest:fertilizer_item": "farm_and_charm:fertilizer", "hearthandharvest:water_level": 16 }, count: 1, id: "hearthandharvest:watering_can" }
+				type: "item"
+			}]
+			x: -2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2CA80140F624D0AE"]
+			id: "18B7D6B02C97FF23"
+			preset: "item"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "546A541626D716A3"
+				table_id: 7328857662613080212L
+				type: "random"
+			}]
+			tasks: [
+				{
+					id: "5F022FA809242CF6"
+					item: { count: 1, id: "farm_and_charm:fertilizer" }
+					type: "item"
+				}
+				{
+					id: "18469C0C1DD2C8F7"
+					item: { count: 1, id: "hearthandharvest:fertilizer_bag" }
+					type: "item"
+				}
+			]
+			x: -4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["18B7D6B02C97FF23"]
+			id: "6A89D2D688203ADF"
+			preset: "progression"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "63C922397B257803"
+				table_id: 4574597591053959771L
+				type: "choice"
+			}]
+			tasks: [
+				{
+					id: "5917D24F797DD173"
+					item: { count: 1, id: "roots:harvest" }
+					type: "item"
+				}
+				{
+					id: "2566810ED0EDC30A"
+					item: { count: 1, id: "roots:growth_infusion" }
+					type: "item"
+				}
+			]
+			x: -3.0d
+			y: 2.0d
+		}
+		{
+			id: "2C581951719CC6BA"
+			tasks: [{
+				advancement: "fabled_wylds:fieldguide/cucumber_crop"
+				criterion: ""
+				id: "4F6D47E0F0FA52B4"
+				type: "advancement"
+			}]
+			x: -3.5d
+			y: -5.0d
+		}
+	]
+}

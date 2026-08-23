@@ -1,0 +1,18 @@
+{
+	id: "47B52DCF31F29A69"
+	loot_size: 1
+	order_index: 25
+	rewards: [
+		{
+			count: 4
+			id: "377669A10A8647C2"
+			item: {
+				count: 1
+				id: "numismatics:cog"
+			}
+			random_bonus: 2
+			weight: 10.0f
+		}
+		{ id: "1461B9A34322E900", item: { count: 1, id: "numismatics:crown" } }
+	]
+}

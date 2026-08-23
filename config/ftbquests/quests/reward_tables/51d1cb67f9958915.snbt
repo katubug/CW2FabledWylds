@@ -1,0 +1,23 @@
+{
+	id: "51D1CB67F9958915"
+	loot_size: 1
+	order_index: 32
+	rewards: [
+		{ id: "7416CB13AB56D031", item: { count: 1, id: "numismatics:red_card" } }
+		{ id: "76F019F4EE3DD0B0", item: { count: 1, id: "numismatics:white_card" } }
+		{ id: "35C9B996CF68F8B1", item: { count: 1, id: "numismatics:orange_card" } }
+		{ id: "6D7F6F3B9DA80027", item: { count: 1, id: "numismatics:magenta_card" } }
+		{ id: "7A72F0CC36B48DBB", item: { count: 1, id: "numismatics:light_blue_card" } }
+		{ id: "0260A9F19C7F070C", item: { count: 1, id: "numismatics:yellow_card" } }
+		{ id: "0BDB0E1EC56A32E4", item: { count: 1, id: "numismatics:lime_card" } }
+		{ id: "13DDC872F5EAD8EB", item: { count: 1, id: "numismatics:gray_card" } }
+		{ id: "726A9E69C5CD730E", item: { count: 1, id: "numismatics:pink_card" } }
+		{ id: "0C2738ADC7612B30", item: { count: 1, id: "numismatics:light_gray_card" } }
+		{ id: "3BCE854F2FEBD055", item: { count: 1, id: "numismatics:cyan_card" } }
+		{ id: "77ECE70660755F62", item: { count: 1, id: "numismatics:purple_card" } }
+		{ id: "775A8CB6F0257F2C", item: { count: 1, id: "numismatics:blue_card" } }
+		{ id: "77E02CE3008F9B5F", item: { count: 1, id: "numismatics:brown_card" } }
+		{ id: "5F5E3EA3959F79D3", item: { count: 1, id: "numismatics:green_card" } }
+		{ id: "6AC5F1121B1DD973", item: { count: 1, id: "numismatics:black_card" } }
+	]
+}

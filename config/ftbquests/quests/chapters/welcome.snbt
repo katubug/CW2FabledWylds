@@ -1,0 +1,263 @@
+{
+	default_hide_dependency_lines: false
+	default_min_width: 350
+	default_quest_shape: ""
+	filename: "welcome"
+	group: "6B4E114EC6CDE8EE"
+	icon: {
+		id: "herbalbrews:witch_hat"
+	}
+	id: "525A3F37A27EBC86"
+	images: [
+		{
+			height: 10.0d
+			id: "77E25C23C1CA2F1B"
+			image: "fabled_wylds:textures/questui/logo.png"
+			rotation: 0.0d
+			width: 10.0d
+			x: 0.0d
+			y: -19.5d
+		}
+		{
+			click_action: "open_uri:https://www.akliz.net/cottagewitch"
+			height: 2.5d
+			id: "4B4A1262804A76C5"
+			image: "fabled_wylds:textures/questui/aklizbanner.png"
+			rotation: 0.0d
+			width: 10.0d
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			height: 7.187759336099585d
+			id: "3DD2E739978DA908"
+			image: "fabled_wylds:textures/questui/questkey.png"
+			rotation: 0.0d
+			width: 13.0d
+			x: 0.0d
+			y: -2.5d
+		}
+		{
+			height: 11.25d
+			id: "33F6266F32285AE3"
+			image: "fabled_wylds:textures/questui/welcomebanner.png"
+			rotation: 0.0d
+			width: 20.0d
+			x: 0.0d
+			y: -11.0d
+		}
+		{
+			click_action: "open_uri:https://discord.gg/zvFNa7kyXm"
+			height: 1.0d
+			id: "3E5ED4E172944013"
+			image: "moonlight:textures/gui/sprites/media/discord.png"
+			order: 99
+			rotation: 0.0d
+			width: 1.0d
+			x: 4.5d
+			y: -10.0d
+		}
+		{
+			click_action: "open_uri:https://github.com/katubug/CottageWitch2024/wiki"
+			height: 1.0d
+			id: "7EE333354E93796B"
+			image: "moonlight:textures/gui/sprites/media/github.png"
+			order: 99
+			rotation: 0.0d
+			width: 1.0d
+			x: 3.0d
+			y: -10.75d
+		}
+		{
+			click_action: "none:"
+			height: 7.0d
+			id: "2F33F2564A98C14A"
+			image: "gabrielequests-mannequin:head=hexerei:witch_helmet,chest=fantasy_armor:lady_maria_chestplate,legs=fantasy_armor:malenia_leggings,feet=hexerei:witch_boots,main=roots:staff,off=,rot=342x-10"
+			rotation: 0.0d
+			width: 1.0d
+			x: 9.5d
+			y: -10.0d
+		}
+	]
+	order_index: 0
+	quest_enhance_decorative_lines: [ ]
+	quest_enhance_hidden_dependency_lines: [ ]
+	quest_links: [ ]
+	quests: [
+		{
+			id: "226D1B09B2958EFC"
+			rewards: [{
+				id: "2F283F7FB47A65D3"
+				type: "xp"
+				xp: 108
+			}]
+			shape: "thought"
+			size: 1.0d
+			tasks: [{
+				id: "70ED8357EEA2ACA4"
+				type: "checkmark"
+			}]
+			x: 5.0d
+			y: -7.5d
+		}
+		{
+			id: "171D4EACF7B9F4D5"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "74D43587F0800BAC"
+					table_id: 6895470215093009548L
+					type: "random"
+				}
+				{
+					id: "798B932A28CC741C"
+					type: "xp"
+					xp: 102
+				}
+			]
+			shape: "thought"
+			tasks: [{
+				id: "4B25469609B1A60C"
+				type: "checkmark"
+			}]
+			x: 3.0d
+			y: -7.5d
+		}
+		{
+			id: "26D8EAD9D892805E"
+			min_width: 350
+			rewards: [{
+				id: "6067B009B70026DB"
+				type: "xp"
+				xp: 103
+			}]
+			shape: "thought"
+			size: 1.0d
+			tasks: [{
+				id: "4FA4B92C6339251C"
+				type: "checkmark"
+			}]
+			x: -3.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["26D8EAD9D892805E"]
+			id: "20F9C02AF5CBE665"
+			rewards: [
+				{
+					id: "193F56FAD5A4D08C"
+					item: {
+						count: 1
+						id: "minecraft:ender_pearl"
+					}
+					type: "item"
+				}
+				{
+					id: "2EE84A62783AFEB3"
+					type: "xp"
+					xp: 104
+				}
+			]
+			shape: "thought"
+			tasks: [{
+				id: "5D2FC3F7E82A27A3"
+				type: "checkmark"
+			}]
+			x: -1.5d
+			y: -7.5d
+		}
+		{
+			id: "51383D499E0DF0DA"
+			min_width: 350
+			rewards: [{
+				id: "087C803B19537A4C"
+				type: "xp"
+				xp: 105
+			}]
+			shape: "thought"
+			size: 1.0d
+			tasks: [{
+				id: "11A03582B84195D4"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["51383D499E0DF0DA"]
+			id: "1E43FCEBA416DCFF"
+			rewards: [{
+				id: "5D9376B26A3CE85B"
+				type: "xp"
+				xp: 106
+			}]
+			shape: "thought"
+			tasks: [{
+				id: "65C18F6415665884"
+				type: "checkmark"
+			}]
+			x: 1.5d
+			y: -7.5d
+		}
+		{
+			disable_toast: true
+			id: "504E46F5A1DCF256"
+			invisible: true
+			tasks: [{
+				id: "3155708C4E3D8956"
+				item: { count: 1, id: "ftbquests:barrier" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -9.5d
+		}
+		{
+			id: "5763626E3E3E440B"
+			rewards: [{
+				id: "2CF6D804BF74D6B0"
+				type: "xp"
+				xp: 107
+			}]
+			shape: "thought"
+			size: 1.0d
+			tasks: [{
+				id: "4D969F11A701F8AA"
+				type: "checkmark"
+			}]
+			x: 4.0d
+			y: -7.5d
+		}
+		{
+			id: "4B09C2508E25AD2B"
+			preset: "info"
+			rewards: [{
+				id: "1A85B933DFDA69B5"
+				type: "xp"
+				xp: 101
+			}]
+			shape: "gear"
+			tasks: [{
+				id: "2E65F74FAED6B7CD"
+				type: "checkmark"
+			}]
+			x: -5.5d
+			y: -7.5d
+		}
+		{
+			id: "17348DDF7E369519"
+			preset: "info"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2265D12DAE530117"
+				table_id: 6895470215093009548L
+				type: "random"
+			}]
+			tasks: [{
+				id: "27302BB3BA0A0300"
+				type: "checkmark"
+			}]
+			x: -4.5d
+			y: -7.5d
+		}
+	]
+}

@@ -1,0 +1,13 @@
+{
+	id: "5FB1A1A079E7BC8C"
+	loot_size: 1
+	order_index: 22
+	rewards: [{
+		id: "70F0131E70481A7C"
+		item: {
+			count: 1
+			id: "numismatics:bevel"
+		}
+		random_bonus: 1
+	}]
+}

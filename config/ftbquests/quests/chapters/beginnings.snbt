@@ -1,0 +1,790 @@
+{
+	autofocus_id: "4E4072E3AFBBB7E7"
+	default_hide_dependency_lines: false
+	default_min_width: 350
+	default_quest_shape: ""
+	filename: "beginnings"
+	group: "6B4E114EC6CDE8EE"
+	icon: {
+		id: "minecraft:grass_block"
+	}
+	id: "6D161680F9560DBA"
+	images: [
+		{
+			height: 10.0d
+			id: "649689396F3F0D07"
+			image: "fabled_wylds:textures/questui/logo.png"
+			rotation: 0.0d
+			width: 10.0d
+			x: 0.1d
+			y: -17.6d
+		}
+		{
+			height: 20.0d
+			id: "6BFA195E3BC50932"
+			image: "fabled_wylds:textures/questui/bookbgslg/green_book_lg.png"
+			rotation: 0.0d
+			width: 25.0d
+			x: 0.1d
+			y: -5.0d
+		}
+		{
+			color: 6321408
+			height: 2.5d
+			id: "2050AE4B843D0F69"
+			image: "fabled_wylds:textures/questui/titles/beginnings.png"
+			rotation: 0.0d
+			width: 8.0d
+			x: -4.8d
+			y: -11.4d
+		}
+		{
+			color: 6321408
+			height: 1.25d
+			id: "52E827D6773B7B03"
+			image: "fabled_wylds:textures/questui/subtitles/artofdeath.png"
+			rotation: 0.0d
+			width: 8.0d
+			x: 5.3d
+			y: -11.9d
+		}
+		{
+			color: 6321408
+			height: 1.25d
+			id: "3C001DF8F4350C3B"
+			image: "fabled_wylds:textures/questui/subtitles/gifts.png"
+			rotation: 0.0d
+			width: 8.0d
+			x: -4.8d
+			y: -6.6d
+		}
+		{
+			alpha: 225
+			height: 5.0d
+			id: "33839B99B54B2725"
+			image: "fabled_wylds:textures/questui/illustrations/house_icon.png"
+			rotation: 0.0d
+			width: 5.0d
+			x: -2.8d
+			y: -1.9d
+		}
+	]
+	order_index: 1
+	quest_enhance_decorative_lines: [ ]
+	quest_enhance_hidden_dependency_lines: [ ]
+	quest_links: [ ]
+	quests: [
+		{
+			id: "0DCDAC4C7D4F9F0B"
+			rewards: [
+				{
+					id: "6154B0CCBE6817A4"
+					item: {
+						components: {
+							"eccentrictome:tome_data": {
+								books: {
+									adorablehamsterpets: [{
+										components: {
+											"patchouli:book": "adorablehamsterpets:hamster_tips_guide_book"
+										}
+										count: 1
+										id: "adorablehamsterpets:hamster_guide_book"
+									}]
+									animal_pen: [{
+										components: {
+											"patchouli:book": "animal_pen:guide_book"
+										}
+										count: 1
+										id: "patchouli:guide_book"
+									}]
+									betterfishtanks: [ ]
+									enchanted: [{
+										components: {
+											"modopedia:book": "enchanted:art_of_witchcraft"
+										}
+										count: 1
+										id: "modopedia:book"
+									}]
+									ftbquests: [{
+										count: 1
+										id: "ftbquests:book"
+									}]
+									hexerei: [
+										{
+											components: {
+												"hexerei:book": {
+													book: "hexerei:book_of_shadows"
+													bookmarks: [
+														{
+															color: "white"
+															id: ""
+															index: 0
+														}
+														{
+															color: "white"
+															id: ""
+															index: 1
+														}
+														{
+															color: "white"
+															id: ""
+															index: 2
+														}
+														{
+															color: "white"
+															id: ""
+															index: 3
+														}
+														{
+															color: "white"
+															id: ""
+															index: 4
+														}
+														{
+															color: "white"
+															id: ""
+															index: 5
+														}
+														{
+															color: "white"
+															id: ""
+															index: 6
+														}
+														{
+															color: "white"
+															id: ""
+															index: 7
+														}
+														{
+															color: "white"
+															id: ""
+															index: 8
+														}
+														{
+															color: "white"
+															id: ""
+															index: 9
+														}
+														{
+															color: "white"
+															id: ""
+															index: 10
+														}
+														{
+															color: "white"
+															id: ""
+															index: 11
+														}
+														{
+															color: "white"
+															id: ""
+															index: 12
+														}
+														{
+															color: "white"
+															id: ""
+															index: 13
+														}
+														{
+															color: "white"
+															id: ""
+															index: 14
+														}
+														{
+															color: "white"
+															id: ""
+															index: 15
+														}
+														{
+															color: "white"
+															id: ""
+															index: 16
+														}
+														{
+															color: "white"
+															id: ""
+															index: 17
+														}
+														{
+															color: "white"
+															id: ""
+															index: 18
+														}
+														{
+															color: "white"
+															id: ""
+															index: 19
+														}
+													]
+													chapter: 0
+													opened: 0b
+													page: 0
+													uuid: [I;
+														1646542990
+														-1228977079
+														-1949683201
+														-693716329
+													]
+												}
+											}
+											count: 1
+											id: "hexerei:book_of_shadows"
+										}
+										{
+											components: {
+												"hexerei:book": {
+													book: "hexerei:notebook"
+													bookmarks: [
+														{
+															color: "white"
+															id: ""
+															index: 0
+														}
+														{
+															color: "white"
+															id: ""
+															index: 1
+														}
+														{
+															color: "white"
+															id: ""
+															index: 2
+														}
+														{
+															color: "white"
+															id: ""
+															index: 3
+														}
+														{
+															color: "white"
+															id: ""
+															index: 4
+														}
+														{
+															color: "white"
+															id: ""
+															index: 5
+														}
+														{
+															color: "white"
+															id: ""
+															index: 6
+														}
+														{
+															color: "white"
+															id: ""
+															index: 7
+														}
+														{
+															color: "white"
+															id: ""
+															index: 8
+														}
+														{
+															color: "white"
+															id: ""
+															index: 9
+														}
+														{
+															color: "white"
+															id: ""
+															index: 10
+														}
+														{
+															color: "white"
+															id: ""
+															index: 11
+														}
+														{
+															color: "white"
+															id: ""
+															index: 12
+														}
+														{
+															color: "white"
+															id: ""
+															index: 13
+														}
+														{
+															color: "white"
+															id: ""
+															index: 14
+														}
+														{
+															color: "white"
+															id: ""
+															index: 15
+														}
+														{
+															color: "white"
+															id: ""
+															index: 16
+														}
+														{
+															color: "white"
+															id: ""
+															index: 17
+														}
+														{
+															color: "white"
+															id: ""
+															index: 18
+														}
+														{
+															color: "white"
+															id: ""
+															index: 19
+														}
+													]
+													chapter: 0
+													opened: 0b
+													page: 0
+													uuid: [I;
+														1542975633
+														866796975
+														-1405809966
+														-67927855
+													]
+												}
+											}
+											count: 1
+											id: "hexerei:notebook"
+										}
+									]
+									solonion: [ ]
+									soulhome: [{
+										count: 1
+										id: "soulhome:guide"
+									}]
+									starcatcher: [{
+										count: 1
+										id: "starcatcher:starcatcher_guide"
+									}]
+									twilightdelight: [{
+										components: {
+											"patchouli:book": "twilightdelight:twilight_guide"
+										}
+										count: 1
+										id: "patchouli:guide_book"
+									}]
+								}
+								tome_id: "c2563271-c69f-4471-9a8e-aef43c5689af"
+							}
+						}
+						count: 1
+						id: "eccentrictome:tome"
+					}
+					type: "item"
+				}
+				{
+					id: "34D717CF618C6DD9"
+					item: {
+						count: 1
+						id: "soulhome:soulkey"
+					}
+					type: "item"
+				}
+				{
+					id: "37867CC5226A03B1"
+					item: {
+						count: 1
+						id: "minecraft:spyglass"
+					}
+					type: "item"
+				}
+				{
+					id: "217DEB7F2D3ECE96"
+					item: {
+						count: 1
+						id: "via_romana:charting_map"
+					}
+					type: "item"
+				}
+			]
+			shape: "epstar"
+			size: 3.0d
+			tasks: [{
+				dimension: "minecraft:overworld"
+				icon: {
+					components: {
+						"ftbquests:icon": "regions_unexplored:block/alpha_grass_side"
+					}
+					id: "ftbquests:custom_icon"
+				}
+				id: "4B1CE4FEE799E300"
+				type: "dimension"
+			}]
+			x: -4.800000000000001d
+			y: -8.700000000000001d
+		}
+		{
+			id: "293AFFA188D96753"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3E3409867078F388"
+				table_id: 4385449713417362948L
+				type: "choice"
+			}]
+			shape: "gear"
+			tasks: [{
+				id: "6750182952F3BB45"
+				item: { count: 1, id: "soulhome:soulkey" }
+				type: "item"
+			}]
+			x: -4.5d
+			y: -5.5d
+		}
+		{
+			id: "0291249FFD51DD05"
+			preset: "info"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "74013795A506AD71"
+				table_id: 6895470215093009548L
+				type: "random"
+			}]
+			shape: "gear"
+			tasks: [{
+				id: "427F9D89912BC6DC"
+				item: { count: 1, id: "eccentrictome:tome" }
+				type: "item"
+			}]
+			x: -7.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["293AFFA188D96753"]
+			id: "289832F0B384ABA7"
+			rewards: [
+				{
+					blessing: "恭喜发财"
+					exclude_from_claim_all: true
+					id: "7BCFE9F726E3AF53"
+					is_ender: false
+					is_team_reward: false
+					item: {
+						count: 1
+						id: "contactquests:team_binding_card"
+					}
+					target_addressee: "QuestNPC"
+					team_reward_multiplier: 1.0f
+					type: "contactquests:red_packet"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "12F737AD8F8662A1"
+					is_ender: false
+					is_team_reward: false
+					item: {
+						components: {
+							"minecraft:custom_data": {
+								HearthRecallMode: "teleport"
+							}
+						}
+						count: 1
+						id: "kubejs:hearth_recall"
+					}
+					target_addressee: "Briar the Witch"
+					team_reward_multiplier: 1.0f
+					type: "contactquests:parcel"
+				}
+			]
+			shape: "gear"
+			tasks: [{
+				id: "136E69B7BC1A6A0A"
+				item: { components: { "ftbfiltersystem:filter": "or(item(contact:white_mailbox)item(contact:orange_mailbox)item(contact:magenta_mailbox)item(contact:light_blue_mailbox)item(contact:yellow_mailbox)item(contact:lime_mailbox)item(contact:pink_mailbox)item(contact:light_gray_mailbox)item(contact:gray_mailbox)item(contact:cyan_mailbox)item(contact:purple_mailbox)item(contact:blue_mailbox)item(contact:brown_mailbox)item(contact:green_mailbox)item(contact:red_mailbox)item(contact:black_mailbox))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: -2.5d
+			y: -5.5d
+		}
+		{
+			id: "4ABFB1778565B4B7"
+			rewards: [
+				{
+					id: "219CA4982DCB8320"
+					item: {
+						count: 1
+						id: "travelertoolbelt:belt"
+					}
+					type: "item"
+				}
+				{
+					id: "0227B0F6FD0FDF3E"
+					item: {
+						count: 1
+						id: "broom_closet:wishlist"
+					}
+					type: "item"
+				}
+				{
+					command: "/give @p sophisticatedbackpacks:backpack"
+					icon: {
+						components: {
+							"sophisticatedcore:number_of_inventory_slots": 27
+							"sophisticatedcore:number_of_upgrade_slots": 1
+						}
+						id: "sophisticatedbackpacks:backpack"
+					}
+					id: "0CF2295E1BA91C52"
+					permission_level: 4
+					type: "command"
+				}
+			]
+			shape: "gear"
+			tasks: [
+				{
+					id: "0F24BB50E9049C4B"
+					item: { count: 1, id: "minecraft:stone_pickaxe" }
+					type: "item"
+				}
+				{
+					id: "01E5FA189EB19F74"
+					item: { count: 1, id: "minecraft:stone_axe" }
+					type: "item"
+				}
+				{
+					id: "3B9129A845461925"
+					item: { count: 1, id: "minecraft:stone_sword" }
+					type: "item"
+				}
+			]
+			x: -6.0d
+			y: -4.0d
+		}
+		{
+			id: "66B094500E40DA3D"
+			rewards: [{
+				id: "70D409B168184D56"
+				item: {
+					count: 1
+					id: "bakery:vegetable_sandwich"
+				}
+				type: "item"
+			}]
+			shape: "epstar"
+			size: 1.5d
+			tasks: [{
+				icon: {
+					id: "minecraft:skeleton_skull"
+				}
+				id: "48389846ACBF5E2F"
+				stat: "minecraft:deaths"
+				type: "stat"
+				value: 1
+			}]
+			x: 5.225d
+			y: -10.4d
+		}
+		{
+			always_invisible: true
+			hide_details_until_startable: true
+			hide_text_until_complete: true
+			id: "4E4072E3AFBBB7E7"
+			invisible: true
+			tasks: [{
+				disable_toast: true
+				id: "091AA60339A71555"
+				optional_task: true
+				type: "custom"
+			}]
+			x: 0.2d
+			y: -8.7d
+		}
+		{
+			dependencies: ["66B094500E40DA3D"]
+			id: "3FAE926346F1E576"
+			preset: "progression"
+			rewards: [{
+				id: "7338219FAAA9587F"
+				item: {
+					count: 1
+					id: "minecraft:totem_of_undying"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				icon: {
+					components: {
+						"!ftbquests:icon": { }
+						"ftbquests:entity_face": "minecraft:skeleton"
+					}
+					id: "ftbquests:custom_icon"
+				}
+				id: "08BCF1C0F17EF916"
+				stat: "minecraft:deaths"
+				type: "stat"
+				value: 50
+			}]
+			x: 3.6d
+			y: -7.775d
+		}
+		{
+			dependencies: ["66B094500E40DA3D"]
+			id: "112917940415A7B1"
+			preset: "progression"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "484A18BB06FFBE2E"
+				table_id: 7328857662613080212L
+				type: "random"
+			}]
+			tasks: [{
+				icon: {
+					id: "minecraft:diamond_sword"
+				}
+				id: "414353BDA200C879"
+				stat: "minecraft:damage_dealt"
+				type: "stat"
+				value: 9999
+			}]
+			x: 7.1d
+			y: -7.775d
+		}
+		{
+			dependencies: ["3FAE926346F1E576"]
+			id: "76D5DB6E94816C80"
+			preset: "advancement"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4F663E49BE0D956C"
+				table_id: 5770973074849872376L
+				type: "random"
+			}]
+			shape: "octagon"
+			tasks: [{
+				advancement: "minecraft:adventure/totem_of_undying"
+				criterion: ""
+				id: "7E4BBEB34174442D"
+				type: "advancement"
+			}]
+			x: 5.35d
+			y: -7.025d
+		}
+		{
+			id: "7232C9D413054886"
+			preset: "info"
+			rewards: [
+				{
+					id: "15CE6688B6EFC508"
+					item: {
+						count: 1
+						id: "usefulslime:slime_boots"
+					}
+					type: "item"
+				}
+				{
+					id: "5AD6A9BCF4E2502E"
+					item: {
+						count: 1
+						id: "usefulslime:slime_sling"
+					}
+					type: "item"
+				}
+			]
+			shape: "gear"
+			tasks: [{
+				id: "474CE1AAC07815BD"
+				type: "checkmark"
+			}]
+			x: -7.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["66B094500E40DA3D"]
+			id: "7F52A3C01776886D"
+			preset: "info"
+			rewards: [{
+				id: "28A88B3CFFC12C82"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				id: "3FB69B6E90475B69"
+				type: "checkmark"
+			}]
+			x: 7.35d
+			y: -9.775d
+		}
+		{
+			id: "4C4835404E2B4DA3"
+			preset: "item"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6CC350B3295E1083"
+				table_id: 6895470215093009548L
+				type: "random"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "631DD61B126A60EC"
+				item: { count: 1, id: "roots:wooden_shears" }
+				type: "item"
+			}]
+			x: -7.5d
+			y: -2.5d
+		}
+		{
+			id: "5842543AA1FF2F36"
+			preset: "info"
+			rewards: [
+				{
+					id: "0711EFCB84AEA7E0"
+					item: {
+						count: 1
+						id: "heartstone:heartstone"
+					}
+					type: "item"
+				}
+				{
+					id: "6D3A125FAC016430"
+					item: {
+						count: 1
+						id: "connection:amulet_of_connection"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "1A048F3381BC6882"
+				type: "checkmark"
+			}]
+			x: -6.0d
+			y: -5.5d
+		}
+		{
+			id: "7AD175287E3F0B68"
+			rewards: [{
+				id: "213526898196C3D8"
+				item: {
+					count: 1
+					id: "waystones:warp_scroll"
+				}
+				type: "item"
+			}]
+			shape: "gear"
+			size: 1.0d
+			tasks: [{
+				icon: {
+					id: "waystones:waystone"
+				}
+				id: "666B0ACB284A0618"
+				stat: "waystones:waystone_activated"
+				type: "stat"
+				value: 1
+			}]
+			x: -6.0d
+			y: -2.5d
+		}
+		{
+			id: "439A33514ABCCEFA"
+			tasks: [{
+				id: "3C2B9E47CE38A5E6"
+				item: { count: 1, id: "waystones:epitaph" }
+				type: "item"
+			}]
+			x: 7.5d
+			y: -15.0d
+		}
+	]
+}

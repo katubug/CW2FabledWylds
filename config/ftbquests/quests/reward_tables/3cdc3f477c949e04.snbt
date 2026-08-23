@@ -1,0 +1,26 @@
+{
+	icon: {
+		id: "contact:white_mailbox"
+	}
+	id: "3CDC3F477C949E04"
+	loot_size: 1
+	order_index: 0
+	rewards: [
+		{ id: "47EFA6E74CDF70A4", item: { count: 1, id: "contact:white_mailbox" } }
+		{ id: "54F12E164686EBD2", item: { count: 1, id: "contact:lime_mailbox" } }
+		{ id: "452420370C2C2C7A", item: { count: 1, id: "contact:blue_mailbox" } }
+		{ id: "230047AE08B8C3E4", item: { count: 1, id: "contact:purple_mailbox" } }
+		{ id: "1DDE24F61EBC13A7", item: { count: 1, id: "contact:yellow_mailbox" } }
+		{ id: "418EBA377A5F5DF5", item: { count: 1, id: "contact:magenta_mailbox" } }
+		{ id: "4F79026346AA263F", item: { count: 1, id: "contact:black_mailbox" } }
+		{ id: "0E9D796F4EC79CB5", item: { count: 1, id: "contact:light_blue_mailbox" } }
+		{ id: "2A4F96160C5AE98E", item: { count: 1, id: "contact:orange_mailbox" } }
+		{ id: "22289D02C64D4B3E", item: { count: 1, id: "contact:gray_mailbox" } }
+		{ id: "68E91781FB48ED92", item: { count: 1, id: "contact:brown_mailbox" } }
+		{ id: "269D857CBF2FC4CE", item: { count: 1, id: "contact:light_gray_mailbox" } }
+		{ id: "52DED08D62195C06", item: { count: 1, id: "contact:pink_mailbox" } }
+		{ id: "3134D8E1FB813935", item: { count: 1, id: "contact:cyan_mailbox" } }
+		{ id: "2CF3B49DDA440C65", item: { count: 1, id: "contact:green_mailbox" } }
+		{ id: "7E308FF7FD9207DE", item: { count: 1, id: "contact:red_mailbox" } }
+	]
+}

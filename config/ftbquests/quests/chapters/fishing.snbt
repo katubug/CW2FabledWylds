@@ -1,0 +1,365 @@
+{
+	autofocus_id: "1F268F57DC20768A"
+	default_hide_dependency_lines: false
+	default_min_width: 350
+	default_quest_shape: ""
+	filename: "fishing"
+	group: "33A91E268D63CB12"
+	icon: {
+		id: "minecraft:fishing_rod"
+	}
+	id: "23E8B59B6CD79A23"
+	images: [
+		{
+			height: 11.25d
+			id: "1522D60D6DBA2BCA"
+			image: "fabled_wylds:textures/questui/bgfishing.png"
+			rotation: 0.0d
+			width: 20.0d
+			x: 0.0d
+			y: -12.25d
+		}
+		{
+			alpha: 225
+			height: 5.0d
+			id: "087927853A45DAE7"
+			image: "fabled_wylds:textures/questui/illustrations/fishing_icon.png"
+			rotation: 0.0d
+			width: 5.0d
+			x: 10.8d
+			y: -9.4d
+		}
+		{
+			height: 5.311475409836066d
+			id: "310DBD24A8BE774F"
+			image: "quest_enhance:textures/ftb/clipboard_1786044324131.png"
+			rotation: 0.0d
+			width: 8.0d
+			x: 5.0d
+			y: -18.0d
+		}
+	]
+	order_index: 2
+	quest_enhance_decorative_lines: [ ]
+	quest_enhance_hidden_dependency_lines: [ ]
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["4B26B50D268DBA07"]
+			id: "05EFC8F18818E8DD"
+			rewards: [{
+				count: 5
+				id: "248C41C6FB91143F"
+				item: {
+					count: 1
+					id: "minecraft:cod"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "3D0DA06485460761"
+				item: { count: 1, id: "selling_bin:selling_bin" }
+				type: "item"
+			}]
+			x: -6.75d
+			y: -10.5d
+		}
+		{
+			id: "4B26B50D268DBA07"
+			rewards: [
+				{
+					id: "63D695E3CE2809E2"
+					item: {
+						count: 1
+						id: "starcatcher:starcatcher_twine"
+					}
+					type: "item"
+				}
+				{
+					id: "41E56E58C1F1D098"
+					item: {
+						count: 1
+						id: "starcatcher:vanilla_bobber"
+					}
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 1.5d
+			tasks: [{
+				id: "0E99E2EBD7ECCBC3"
+				item: { count: 1, id: "minecraft:fishing_rod" }
+				type: "item"
+			}]
+			x: -6.75d
+			y: -12.75d
+		}
+		{
+			dependencies: ["4B26B50D268DBA07"]
+			id: "4904301C662B9A5B"
+			rewards: [{
+				id: "418E51871BAAF4F5"
+				item: {
+					count: 1
+					id: "starcatcher:almighty_worm"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "500104437385606D"
+				item: { count: 1, id: "starcatcher:hook" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: -11.75d
+		}
+		{
+			dependencies: ["4B26B50D268DBA07"]
+			id: "62F2784763AD1938"
+			rewards: [{
+				id: "3DDAE6064C2F761D"
+				item: {
+					count: 1
+					id: "starcatcher:stone_hook"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "718922CA4F7192FF"
+				item: { count: 1, id: "starcatcher:starcatcher_rod" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: -13.25d
+		}
+		{
+			dependencies: ["62F2784763AD1938"]
+			id: "18E1F3797BC552D0"
+			rewards: [{
+				id: "443026796A777A0D"
+				item: {
+					count: 1
+					id: "minecraft:golden_apple"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "155971534A3ACDCD"
+				item: { count: 1, id: "starcatcher:gold_hook" }
+				type: "item"
+			}]
+			x: -1.25d
+			y: -13.25d
+		}
+		{
+			id: "1FDD653A3C13DFDF"
+			rewards: [
+				{
+					id: "7E00EE2957DC82AA"
+					item: {
+						count: 1
+						id: "plushie_buddies:plushie_dolphin"
+					}
+					type: "item"
+				}
+				{
+					id: "389708B1BBFAD8BD"
+					item: {
+						count: 1
+						id: "heads:dolphin_head"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				icon: {
+					id: "minecraft:tropical_fish"
+				}
+				id: "1FB45C4A92CEC1C7"
+				stat: "minecraft:fish_caught"
+				type: "stat"
+				value: 999
+			}]
+			x: -5.5d
+			y: -14.75d
+		}
+		{
+			id: "104D0C28773A1DD4"
+			rewards: [{
+				id: "4CD84099301CB676"
+				item: {
+					count: 1
+					id: "netherdepthsupgrade:glowdine_bucket"
+				}
+				type: "item"
+			}]
+			shape: "circle"
+			tasks: [{
+				id: "4B09404FC3251283"
+				item: { count: 1, id: "netherdepthsupgrade:lava_fishing_rod" }
+				type: "item"
+			}]
+			x: -4.5d
+			y: -8.75d
+		}
+		{
+			dependencies: ["104D0C28773A1DD4"]
+			id: "0F5E5A0B0C05ACD2"
+			rewards: [
+				{
+					id: "1814749C8605B014"
+					item: {
+						count: 1
+						id: "minecraft:apple"
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "50A47CBD7D4D38FA"
+					table_id: 661030336235288770L
+					type: "choice"
+				}
+			]
+			tasks: [
+				{
+					id: "798C459CD61F966A"
+					item: { count: 1, id: "netherdepthsupgrade:blazefish" }
+					type: "item"
+				}
+				{
+					id: "6C782B0CFA8D3DEE"
+					item: { count: 1, id: "netherdepthsupgrade:magmacubefish" }
+					type: "item"
+				}
+				{
+					id: "5F2C45F299657EFB"
+					item: { count: 1, id: "netherdepthsupgrade:glowdine" }
+					type: "item"
+				}
+				{
+					id: "2F6245F84764D7B2"
+					item: { count: 1, id: "netherdepthsupgrade:soulsucker" }
+					type: "item"
+				}
+				{
+					id: "5D30B99EE265108E"
+					item: { count: 1, id: "netherdepthsupgrade:lava_pufferfish" }
+					type: "item"
+				}
+				{
+					id: "261478743CC10159"
+					item: { count: 1, id: "netherdepthsupgrade:searing_cod" }
+					type: "item"
+				}
+				{
+					id: "5D981D87542D1FD9"
+					item: { count: 1, id: "netherdepthsupgrade:obsidianfish" }
+					type: "item"
+				}
+				{
+					id: "143742BA7EEEE35E"
+					item: { count: 1, id: "netherdepthsupgrade:wither_bonefish" }
+					type: "item"
+				}
+				{
+					id: "0606924590758073"
+					item: { count: 1, id: "netherdepthsupgrade:bonefish" }
+					type: "item"
+				}
+			]
+			x: -2.75d
+			y: -8.75d
+		}
+		{
+			id: "7A31753911D1CCFC"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "7F8DE26FF6D408D5"
+					table_id: 7737096167250795605L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "79EFA02AE79333FB"
+					table_id: 661030336235288770L
+					type: "choice"
+				}
+			]
+			tasks: [
+				{
+					id: "7B3E2CE57F6AE720"
+					item: { count: 1, id: "minecraft:cod" }
+					type: "item"
+				}
+				{
+					id: "34E02D42248303DC"
+					item: { count: 1, id: "minecraft:salmon" }
+					type: "item"
+				}
+				{
+					id: "6D78D10E94FF6422"
+					item: { count: 1, id: "minecraft:tropical_fish" }
+					type: "item"
+				}
+				{
+					id: "29B930E5EE5F787D"
+					item: { count: 1, id: "minecraft:pufferfish" }
+					type: "item"
+				}
+			]
+			x: -0.25d
+			y: -10.75d
+		}
+		{
+			can_repeat: true
+			id: "2CAAC737A4D4FF60"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "2469EAD60D8E35B7"
+					table_id: 661030336235288770L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4A2E351F211C713B"
+					table_id: 7737096167250795605L
+					type: "loot"
+				}
+			]
+			shape: "pentagon"
+			tasks: [{
+				count: 32L
+				id: "15B1B1C7AEC48697"
+				item: { components: { "ftbfiltersystem:filter": "or(item_tag(minecraft:fishes))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: -14.75d
+		}
+		{
+			always_invisible: true
+			id: "1F268F57DC20768A"
+			tasks: [{
+				id: "0D354D7988E374CE"
+				item: { count: 1, id: "ftbquests:barrier" }
+				only_from_crafting: true
+				type: "item"
+			}]
+			x: 0.0d
+			y: -12.25d
+		}
+		{
+			id: "318C7124088632D3"
+			tasks: [{
+				id: "1CD81C0EC0F600DA"
+				item: { components: { "ftbfiltersystem:filter": "or(item_tag(starcatcher:bobbers))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: -2.5d
+			y: -18.5d
+		}
+	]
+}

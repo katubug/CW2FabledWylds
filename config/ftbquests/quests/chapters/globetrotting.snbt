@@ -1,0 +1,189 @@
+{
+	default_hide_dependency_lines: false
+	default_min_width: 350
+	default_quest_shape: ""
+	filename: "globetrotting"
+	group: "4E9968A53CD6CA57"
+	icon: {
+		id: "supplementaries:globe"
+	}
+	id: "5775D7E4FB7F551A"
+	images: [{
+		height: 10.0d
+		id: "7789E3C5E90AB9E6"
+		image: "fabled_wylds:textures/questui/bgwaystones.png"
+		rotation: 0.0d
+		width: 10.0d
+		x: -4.5d
+		y: -4.5d
+	}]
+	order_index: 1
+	quest_enhance_decorative_lines: [ ]
+	quest_enhance_hidden_dependency_lines: [ ]
+	quest_links: [ ]
+	quests: [
+		{
+			id: "4E9CAB55113B5280"
+			invisible: true
+			tasks: [{
+				id: "1CF667DD46CE5F2C"
+				item: { count: 1, id: "ftbquests:barrier" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -0.25d
+		}
+		{
+			dependencies: ["722C9A16509E524B"]
+			id: "06DC33669C98F5A4"
+			rewards: [
+				{
+					id: "59434BCB0FA7DE89"
+					item: {
+						count: 1
+						id: "minecraft:flint"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "1208FF044A4E5F34"
+					item: {
+						components: {
+							"ftbquests:missing_item": "waystones:warp_dust"
+						}
+						count: 1
+						id: "ftbquests:missing_item"
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "59AC7FC2C8A63192"
+				item: { components: { "ftbquests:missing_item": "waystones:warp_plate" }, count: 1, id: "ftbquests:missing_item" }
+				type: "item"
+			}]
+			x: -7.0d
+			y: -2.5d
+		}
+		{
+			id: "722C9A16509E524B"
+			rewards: [
+				{
+					id: "25205FA9313B665D"
+					item: {
+						components: {
+							"ftbquests:missing_item": "waystones:warp_scroll"
+						}
+						count: 1
+						id: "ftbquests:missing_item"
+					}
+					type: "item"
+				}
+				{
+					id: "121261F713988EF7"
+					item: {
+						components: {
+							"ftbquests:missing_item": "waystones:waystone"
+						}
+						count: 1
+						id: "ftbquests:missing_item"
+					}
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 2.0d
+			tasks: [{
+				id: "7EC380E3947C3B45"
+				item: { components: { "ftbfiltersystem:filter": "or(item_tag(waystones:waystones))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: -4.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["722C9A16509E524B"]
+			id: "133D48874069E59B"
+			shape: "hexagon"
+			tasks: [{
+				id: "1FC4B305579CDA7F"
+				item: { components: { "ftbquests:missing_item": "waystones:bound_scroll" }, count: 1, id: "ftbquests:missing_item" }
+				type: "item"
+			}]
+			x: -6.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["722C9A16509E524B"]
+			id: "7527E0A9EF5C3697"
+			shape: "hexagon"
+			tasks: [{
+				id: "05CBC59215AFFC0A"
+				item: { components: { "ftbquests:missing_item": "waystones:warp_scroll" }, count: 1, id: "ftbquests:missing_item" }
+				type: "item"
+			}]
+			x: -5.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["722C9A16509E524B"]
+			id: "2E1A6A93F48AAF58"
+			shape: "hexagon"
+			tasks: [{
+				id: "27EF600DF7DC0004"
+				item: { components: { "ftbquests:missing_item": "waystones:warp_stone" }, count: 1, id: "ftbquests:missing_item" }
+				type: "item"
+			}]
+			x: -3.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["722C9A16509E524B"]
+			id: "7B4772B066474C41"
+			shape: "hexagon"
+			tasks: [{
+				id: "3F54F579922447FD"
+				item: { components: { "ftbquests:missing_item": "waystones:white_portstone" }, count: 1, id: "ftbquests:missing_item" }
+				type: "item"
+			}]
+			x: -2.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["722C9A16509E524B"]
+			id: "2E07A04D5589B674"
+			shape: "hexagon"
+			tasks: [{
+				id: "29D966A14304361A"
+				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(waystones:sharestones)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: -2.5d
+		}
+		{
+			id: "38285B9280444C60"
+			rewards: [{
+				id: "156F25E0D2811912"
+				item: {
+					count: 1
+					id: "minecraft:potion"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				icon: {
+					id: "minecraft:leather_boots"
+				}
+				id: "191D3E228208A0CB"
+				stat: "minecraft:sneak_time"
+				type: "stat"
+				value: 99999
+			}]
+			x: 1.0d
+			y: -2.0d
+		}
+	]
+}
