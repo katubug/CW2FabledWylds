@@ -1,4 +1,4 @@
-#magnetism-related configuration
+#Magnetism-related configuration
 [magnetism]
 	#whether or not experience orbs should be teleported when using magnetism
 	move_experience_orbs = true
@@ -37,6 +37,10 @@
 	# Default: 10
 	# Range: > 1
 	pyre_bounds_z = 10
+	#if true, will print messages about every interaction with pyre
+	debug_pyre = false
+	#allows pyres to be extinguished through various means (right-click shovel, splash potion of water)
+	enable_extinguish_pyre = true
 
 #Options for Grove Stones
 [grove_stones]
@@ -171,3 +175,10 @@
 	# Default: 12
 	# Range: > -1
 	pestle_cooldown = 12
+
+#Configuration options for underwater bone meal effects.
+[underwater_bone_meal]
+	#the chance for wild roots to grow underwater when bone meal is used (replacing one of the potential sea grass or coral blocks
+	# Default: 0.02
+	# Range: -1.0 ~ 1.0
+	underwater_bone_meal_wild_roots_chance = 0.02

@@ -8,9 +8,12 @@
     "tool": {
       "tag": "forge:tools/knives"
     },
-    "result": [
-      {
-        "item": "herbalbrews:lavender_blossom"
+     "result": [
+    {
+      "item": {
+        "count": 1,
+        "id": "herbalbrews:lavender_blossom"
       }
-    ]
+    }
+  ]
   }

@@ -167,6 +167,7 @@
 		}
 		{
 			id: "70C4F17973F6492E"
+			preset: "start"
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "0D3289A4C27DBCE8"
@@ -420,7 +421,7 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["70C4F17973F6492E"]
+			dependencies: ["39AD0DDC4695E2D4"]
 			id: "5C5768D4346FD3FE"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -434,8 +435,8 @@
 				item: { count: 1, id: "numismatics:vendor" }
 				type: "item"
 			}]
-			x: 6.4d
-			y: -1.7999999999999998d
+			x: 4.0d
+			y: 2.5d
 		}
 		{
 			id: "3B84722A9CD28821"
@@ -697,22 +698,30 @@
 			y: -3.0d
 		}
 		{
-			dependencies: ["5C5768D4346FD3FE"]
+			dependencies: ["54A7BCDC7909E576"]
 			id: "39AD0DDC4695E2D4"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "298C25C4D8F41756"
-				table_id: 5770973074849872376L
-				type: "random"
-			}]
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "298C25C4D8F41756"
+					table_id: 5770973074849872376L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "49E944BD5EF83761"
+					table_id: 5895717034634086677L
+					type: "choice"
+				}
+			]
 			shape: "hexagon"
 			tasks: [{
 				id: "0BB33FE05B45A45E"
 				item: { count: 1, id: "numismatics:bank_terminal" }
 				type: "item"
 			}]
-			x: 7.4d
-			y: -0.7999999999999998d
+			x: 5.0d
+			y: 1.0d
 		}
 		{
 			id: "3EF4DABC6B496E19"
@@ -730,6 +739,37 @@
 			}]
 			x: -5.3d
 			y: -2.1d
+		}
+		{
+			id: "54A7BCDC7909E576"
+			preset: "milestone"
+			rewards: [{
+				id: "644C457C8366A85E"
+				item: {
+					count: 1
+					id: "numismatics:bank_terminal"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "0A21E2BB7F5F01BE"
+				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(numismatics:coins)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["39AD0DDC4695E2D4"]
+			id: "6EEBE18A146001AC"
+			preset: "item"
+			tasks: [{
+				id: "5F248220494492C8"
+				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(numismatics:cards)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 2.5d
 		}
 	]
 }

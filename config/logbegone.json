@@ -29,7 +29,8 @@
       "Found library file",
       "Found mod file",
       "Reference map",
-      "from mod copycats because"
+      "from mod copycats because",
+      "CompostManager"
     ],
     "regex": [
       "Disconnecting VANILLA connection attempt",

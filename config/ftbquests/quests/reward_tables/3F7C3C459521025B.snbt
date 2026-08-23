@@ -1,7 +1,7 @@
 {
 	id: "3F7C3C459521025B"
 	loot_size: 1
-	order_index: 32
+	order_index: 31
 	rewards: [
 		{
 			count: 2

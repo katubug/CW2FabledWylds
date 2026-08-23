@@ -1,7 +1,7 @@
 {
 	id: "0DAA466381654263"
 	loot_size: 1
-	order_index: 30
+	order_index: 29
 	rewards: [
 		{ id: "49F32F2EDF266292", item: { count: 1, id: "tarotcards:the_devil" } }
 		{ id: "3B00C5D9085C18FA", item: { count: 1, id: "tarotcards:death" } }

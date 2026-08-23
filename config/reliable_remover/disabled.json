@@ -680,7 +680,27 @@
             "refinedstorage:rose_autocrafter_manager",
             "refinedstorage:rose_autocrafter",
             "refinedstorage:rose_autocrafting_monitor",
-            "roots:flour"
+            "roots:flour",
+            "reliquary:pedestals/passive/coral_passive_pedestal",
+            "reliquary:pedestals/coral_pedestal",
+            "reliquary:pedestals/passive/umber_passive_pedestal",
+            "reliquary:pedestals/umber_pedestal",
+            "reliquary:pedestals/passive/canary_passive_pedestal",
+            "reliquary:pedestals/canary_pedestal",
+            "reliquary:pedestals/passive/wasabi_passive_pedestal",
+            "reliquary:pedestals/wasabi_pedestal",
+            "reliquary:pedestals/passive/sacramento_passive_pedestal",
+            "reliquary:pedestals/sacramento_pedestal",
+            "reliquary:pedestals/passive/sky_passive_pedestal",
+            "reliquary:pedestals/sky_pedestal",
+            "reliquary:pedestals/passive/blurple_passive_pedestal",
+            "reliquary:pedestals/blurple_pedestal",
+            "reliquary:pedestals/passive/lavender_passive_pedestal",
+            "reliquary:pedestals/lavender_pedestal",
+            "reliquary:pedestals/passive/sangria_passive_pedestal",
+            "reliquary:pedestals/sangria_pedestal",
+            "reliquary:pedestals/passive/rose_passive_pedestal",
+            "reliquary:pedestals/rose_pedestal"
         ]
     }
 ]

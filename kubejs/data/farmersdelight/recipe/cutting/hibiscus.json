@@ -9,8 +9,11 @@
       "tag": "forge:tools/knives"
     },
     "result": [
-      {
-        "item": "herbalbrews:hibiscus"
+    {
+      "item": {
+        "count": 1,
+        "id": "herbalbrews:hibiscus"
       }
-    ]
+    }
+  ]
   }

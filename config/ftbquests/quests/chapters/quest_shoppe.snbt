@@ -4,6 +4,7 @@
 	default_min_width: 350
 	default_quest_shape: "diamond"
 	default_repeatable_quest: true
+	disable_toast: true
 	filename: "quest_shoppe"
 	group: "4C9D8F0D37347858"
 	icon: {
@@ -27,8 +28,8 @@
 			image: "fabled_wylds:textures/questui/shop/shopbgframe.png"
 			rotation: 0.0d
 			width: 7.0d
-			x: -1.5d
-			y: -3.0d
+			x: 16.5d
+			y: 0.5d
 		}
 		{
 			click_action: "none:"
@@ -59,11 +60,11 @@
 			image: ""
 			rotation: 0.0d
 			width: 2.5734929665956927d
-			x: -1.5d
-			y: -3.5d
+			x: 16.5d
+			y: 0.0d
 		}
 		{
-			click_action: "none:quest_enhance:text_v3:1.5:17:minecraft:defaultCauldrons"
+			click_action: "none:quest_enhance:text_v3:2.0:17:minecraft:defaultCauldrons & More"
 			color: 0
 			height: 0.4583333333333333d
 			id: "4526F88F931EBBF0"
@@ -217,6 +218,60 @@
 			x: -10.0d
 			y: 6.5d
 		}
+		{
+			click_action: "none:"
+			height: 20.0d
+			id: "245782A41F5C32BB"
+			image: "fabled_wylds:textures/questui/shop/shopbg.png"
+			order: -99
+			rotation: 0.0d
+			width: 15.0d
+			x: 14.0d
+			y: 1.0d
+		}
+		{
+			click_action: "none:"
+			height: 4.0d
+			id: "40430C33C2C26DC4"
+			image: "fabled_wylds:textures/questui/shop/shopbgframe.png"
+			rotation: 0.0d
+			width: 7.0d
+			x: 11.5d
+			y: -3.0d
+		}
+		{
+			click_action: "none:quest_enhance:text_v3:1.0:17:minecraft:defaultCooking Gear"
+			color: 0
+			height: 0.626445959611869d
+			id: "46EC398808E919B3"
+			image: ""
+			order: 5
+			rotation: 0.0d
+			width: 3.87257502305519d
+			x: 11.5d
+			y: -3.5d
+		}
+		{
+			click_action: "none:"
+			height: 4.0d
+			id: "7E285CDF1FABD999"
+			image: "fabled_wylds:textures/questui/shop/shopbgframe.png"
+			rotation: 0.0d
+			width: 7.0d
+			x: -1.5d
+			y: -3.0d
+		}
+		{
+			click_action: "none:quest_enhance:text_v3:1.0:17:minecraft:defaultBasic Amenities"
+			color: 0
+			height: 0.4583333333333333d
+			id: "7ACBF1C12029950E"
+			image: ""
+			rotation: 0.0d
+			width: 3.4166666666666665d
+			x: -1.5d
+			y: -3.5d
+		}
 	]
 	order_index: 2
 	quest_enhance_decorative_lines: [ ]
@@ -260,9 +315,12 @@
 				type: "contactquests:parcel"
 			}]
 			tasks: [{
-				id: "62009974CA718CD0"
-				item: { count: 1, id: "numismatics:cog" }
-				type: "item"
+				icon: {
+					id: "hexalia:small_cauldron"
+				}
+				id: "45186AA69114C7B3"
+				tags: ["price_64"]
+				type: "custom"
 			}]
 			x: 5.5d
 			y: 0.5d
@@ -286,9 +344,12 @@
 				type: "contactquests:parcel"
 			}]
 			tasks: [{
-				id: "7748E409D7ECF5F2"
-				item: { count: 1, id: "numismatics:cog" }
-				type: "item"
+				icon: {
+					id: "hexerei:mixing_cauldron"
+				}
+				id: "4F6501A59C2D3B0F"
+				tags: ["price_64"]
+				type: "custom"
 			}]
 			x: 4.5d
 			y: 0.5d
@@ -312,10 +373,12 @@
 				type: "contactquests:parcel"
 			}]
 			tasks: [{
-				count: 8L
-				id: "01F02831BCF6A6BA"
-				item: { count: 1, id: "numismatics:spur" }
-				type: "item"
+				icon: {
+					id: "cluttered:small_cauldron_set"
+				}
+				id: "25D7315ECE7566BF"
+				tags: ["price_8"]
+				type: "custom"
 			}]
 			x: 1.5d
 			y: 0.5d
@@ -355,16 +418,18 @@
 			]
 			tasks: [
 				{
-					count: 5L
-					id: "0539ACE70C7947DB"
-					item: { count: 1, id: "numismatics:cog" }
-					type: "item"
-				}
-				{
 					advancement: "minecraft:husbandry/feed_snifflet"
 					criterion: ""
 					id: "57ECC2F34AE8A5B6"
 					type: "advancement"
+				}
+				{
+					icon: {
+						id: "moresnifferflowers:beroot_cauldron"
+					}
+					id: "07C2B6C5EA1F95F7"
+					tags: ["price_320"]
+					type: "custom"
 				}
 			]
 			x: 3.5d
@@ -404,10 +469,12 @@
 				}
 			]
 			tasks: [{
-				count: 2L
-				id: "7E55CAC6F76E6855"
-				item: { count: 1, id: "numismatics:cog" }
-				type: "item"
+				icon: {
+					id: "reliquary:apothecary_cauldron"
+				}
+				id: "593D56948811648E"
+				tags: ["price_128"]
+				type: "custom"
 			}]
 			x: 2.5d
 			y: 0.5d
@@ -431,12 +498,15 @@
 				type: "contactquests:parcel"
 			}]
 			tasks: [{
-				id: "4D42A7DAA519FD79"
-				item: { count: 1, id: "numismatics:cog" }
-				type: "item"
+				icon: {
+					id: "farmersdelight:cooking_pot"
+				}
+				id: "0F31736F2F3B8C7C"
+				tags: ["price_64"]
+				type: "custom"
 			}]
-			x: 9.0d
-			y: -1.0d
+			x: 9.5d
+			y: -2.5d
 		}
 		{
 			icon: {
@@ -457,12 +527,15 @@
 				type: "contactquests:parcel"
 			}]
 			tasks: [{
-				id: "5E10D9C7E1813A55"
-				item: { count: 1, id: "numismatics:cog" }
-				type: "item"
+				icon: {
+					id: "farm_and_charm:cooking_pot"
+				}
+				id: "15DF6AA833C3F8D8"
+				tags: ["price_64"]
+				type: "custom"
 			}]
-			x: 10.0d
-			y: -1.0d
+			x: 10.5d
+			y: -2.5d
 		}
 		{
 			icon: {
@@ -483,12 +556,15 @@
 				type: "contactquests:parcel"
 			}]
 			tasks: [{
-				id: "0CC4AB9D92BB9A42"
-				item: { count: 1, id: "numismatics:cog" }
-				type: "item"
+				icon: {
+					id: "meadow:cookpot"
+				}
+				id: "00FA4819DEED3E83"
+				tags: ["price_64"]
+				type: "custom"
 			}]
-			x: 11.0d
-			y: -1.0d
+			x: 11.5d
+			y: -2.5d
 		}
 		{
 			icon: {
@@ -509,12 +585,15 @@
 				type: "contactquests:parcel"
 			}]
 			tasks: [{
-				id: "200E31CBF9BA181C"
-				item: { count: 1, id: "numismatics:cog" }
-				type: "item"
+				icon: {
+					id: "hexerei:pestle_and_mortar"
+				}
+				id: "4BB0AAC51C7912BF"
+				tags: ["price_64"]
+				type: "custom"
 			}]
-			x: 9.0d
-			y: 0.5d
+			x: 3.5d
+			y: 1.5d
 		}
 		{
 			icon: {
@@ -528,9 +607,12 @@
 				type: "choice"
 			}]
 			tasks: [{
-				id: "181C35C62E1E4AB7"
-				item: { count: 1, id: "numismatics:cog" }
-				type: "item"
+				icon: {
+					id: "tarotcards:the_hanged_man"
+				}
+				id: "4F0987E03DD1E00D"
+				tags: ["price_64"]
+				type: "custom"
 			}]
 			x: 1.5d
 			y: 7.5d
@@ -547,10 +629,12 @@
 				type: "choice"
 			}]
 			tasks: [{
-				count: 2L
-				id: "00587A8AB9DFF187"
-				item: { count: 1, id: "numismatics:cog" }
-				type: "item"
+				icon: {
+					id: "tarotcards:the_fool"
+				}
+				id: "0BDE86AF2F99E598"
+				tags: ["price_128"]
+				type: "custom"
 			}]
 			x: 2.5d
 			y: 7.5d
@@ -567,10 +651,12 @@
 				type: "choice"
 			}]
 			tasks: [{
-				count: 3L
-				id: "11AE68E8006C9610"
-				item: { count: 1, id: "numismatics:crown" }
-				type: "item"
+				icon: {
+					id: "tarotcards:justice"
+				}
+				id: "7E1003BC85254720"
+				tags: ["price_1536"]
+				type: "custom"
 			}]
 			x: 4.5d
 			y: 7.5d
@@ -587,9 +673,12 @@
 				type: "choice"
 			}]
 			tasks: [{
-				id: "18FD8E704CD359C0"
-				item: { count: 1, id: "numismatics:crown" }
-				type: "item"
+				icon: {
+					id: "tarotcards:death"
+				}
+				id: "2F2E428375378803"
+				tags: ["price_512"]
+				type: "custom"
 			}]
 			x: 3.5d
 			y: 7.5d
@@ -608,9 +697,12 @@
 				type: "item"
 			}]
 			tasks: [{
-				id: "1A2F278A282DB435"
-				item: { count: 1, id: "numismatics:sun" }
-				type: "item"
+				icon: {
+					id: "tarotcards:tarot_deck"
+				}
+				id: "5203B0AB0D0A3733"
+				tags: ["price_4096"]
+				type: "custom"
 			}]
 			x: 5.5d
 			y: 7.5d
@@ -634,13 +726,15 @@
 				type: "contactquests:parcel"
 			}]
 			tasks: [{
-				count: 3L
-				id: "2D621A2194E27594"
-				item: { count: 1, id: "numismatics:spur" }
-				type: "item"
+				icon: {
+					id: "exposure:black_and_white_film"
+				}
+				id: "36E7B5B333FBD7EA"
+				tags: ["price_3"]
+				type: "custom"
 			}]
-			x: -1.0d
-			y: -2.5d
+			x: 17.0d
+			y: 1.0d
 		}
 		{
 			id: "63984978A1AADF30"
@@ -658,13 +752,15 @@
 				type: "contactquests:parcel"
 			}]
 			tasks: [{
-				count: 3L
-				id: "686D890D77C57497"
-				item: { count: 1, id: "numismatics:spur" }
-				type: "item"
+				icon: {
+					id: "exposure:color_film"
+				}
+				id: "13BF1BF5A02C59C1"
+				tags: ["price_3"]
+				type: "custom"
 			}]
-			x: -2.5d
-			y: -2.0d
+			x: 15.5d
+			y: 1.5d
 		}
 		{
 			icon: {
@@ -685,13 +781,15 @@
 				type: "contactquests:parcel"
 			}]
 			tasks: [{
-				count: 5L
-				id: "5C93015DB3394F0A"
-				item: { count: 1, id: "numismatics:spur" }
-				type: "item"
+				icon: {
+					id: "exposure:high_sensitivity_black_and_white_film"
+				}
+				id: "2FED61F8E725D1D5"
+				tags: ["price_5"]
+				type: "custom"
 			}]
-			x: -0.5d
-			y: -2.0d
+			x: 17.5d
+			y: 1.5d
 		}
 		{
 			id: "11A001C9B2413F91"
@@ -709,13 +807,15 @@
 				type: "contactquests:parcel"
 			}]
 			tasks: [{
-				count: 5L
-				id: "26EC855EB52FABD4"
-				item: { count: 1, id: "numismatics:spur" }
-				type: "item"
+				icon: {
+					id: "exposure:high_sensitivity_color_film"
+				}
+				id: "161E3BFFC0B93E1F"
+				tags: ["price_5"]
+				type: "custom"
 			}]
-			x: -2.0d
-			y: -2.5d
+			x: 16.0d
+			y: 1.0d
 		}
 		{
 			icon: {
@@ -734,9 +834,12 @@
 				type: "command"
 			}]
 			tasks: [{
-				id: "5A5894DD97B7E455"
-				item: { count: 1, id: "numismatics:cog" }
-				type: "item"
+				icon: {
+					id: "travelertoolbelt:belt"
+				}
+				id: "32C55E94D3799AF0"
+				tags: ["price_64"]
+				type: "custom"
 			}]
 			x: -3.0d
 			y: 4.0d
@@ -758,10 +861,12 @@
 				type: "command"
 			}]
 			tasks: [{
-				count: 4L
-				id: "00F6C8C527BB8487"
-				item: { count: 1, id: "numismatics:cog" }
-				type: "item"
+				icon: {
+					id: "minecraft:iron_chestplate"
+				}
+				id: "657390DB5DD3BE8C"
+				tags: ["price_256"]
+				type: "custom"
 			}]
 			x: -1.5d
 			y: 4.0d
@@ -783,9 +888,12 @@
 				type: "command"
 			}]
 			tasks: [{
-				id: "2F0FF21112F09518"
-				item: { count: 1, id: "numismatics:cog" }
-				type: "item"
+				icon: {
+					id: "artifacts:onion_ring"
+				}
+				id: "0873F112CCF37124"
+				tags: ["price_64"]
+				type: "custom"
 			}]
 			x: 0.0d
 			y: 4.0d
@@ -802,12 +910,15 @@
 				type: "choice"
 			}]
 			tasks: [{
-				id: "75F6E29C1C25E922"
-				item: { count: 1, id: "numismatics:cog" }
-				type: "item"
+				icon: {
+					id: "minecraft:cow_spawn_egg"
+				}
+				id: "6EC3A1D0F373858B"
+				tags: ["price_64"]
+				type: "custom"
 			}]
-			x: 3.0d
-			y: -4.0d
+			x: -3.5d
+			y: -2.5d
 		}
 		{
 			icon: {
@@ -828,9 +939,12 @@
 				type: "contactquests:parcel"
 			}]
 			tasks: [{
-				id: "643FF85545784794"
-				item: { count: 1, id: "numismatics:crown" }
-				type: "item"
+				icon: {
+					id: "numismatics:crown"
+				}
+				id: "51A60C30C8FAB640"
+				tags: ["price_512"]
+				type: "custom"
 			}]
 			x: -9.0d
 			y: -3.0d
@@ -854,9 +968,12 @@
 				type: "contactquests:parcel"
 			}]
 			tasks: [{
-				id: "13EA962B54E4CADC"
-				item: { count: 1, id: "numismatics:crown" }
-				type: "item"
+				icon: {
+					id: "broom_closet:druid_horns"
+				}
+				id: "7A9C8009F26BDB16"
+				tags: ["price_512"]
+				type: "custom"
 			}]
 			x: -15.0d
 			y: -3.0d
@@ -880,9 +997,12 @@
 				type: "contactquests:parcel"
 			}]
 			tasks: [{
-				id: "65E1E128CDA8EEFF"
-				item: { count: 1, id: "numismatics:crown" }
-				type: "item"
+				icon: {
+					id: "broom_closet:demon_horns"
+				}
+				id: "1F3C1DB0060E68FA"
+				tags: ["price_512"]
+				type: "custom"
 			}]
 			x: -12.0d
 			y: -3.5d
@@ -906,9 +1026,12 @@
 				type: "contactquests:parcel"
 			}]
 			tasks: [{
-				id: "06BDDD814FD1C30F"
-				item: { count: 1, id: "numismatics:crown" }
-				type: "item"
+				icon: {
+					id: "broom_closet:elf_ears"
+				}
+				id: "35C29BB52572EFB3"
+				tags: ["price_512"]
+				type: "custom"
 			}]
 			x: -15.0d
 			y: 1.5d
@@ -932,9 +1055,12 @@
 				type: "contactquests:parcel"
 			}]
 			tasks: [{
-				id: "575601FCE1EB5616"
-				item: { count: 1, id: "numismatics:crown" }
-				type: "item"
+				icon: {
+					id: "broom_closet:frog"
+				}
+				id: "61CD6FB33F9A4C16"
+				tags: ["price_512"]
+				type: "custom"
 			}]
 			x: -12.0d
 			y: 1.5d
@@ -958,9 +1084,12 @@
 				type: "contactquests:parcel"
 			}]
 			tasks: [{
-				id: "5CDDDBB96E1B3302"
-				item: { count: 1, id: "numismatics:crown" }
-				type: "item"
+				icon: {
+					id: "broom_closet:frog_top_hat"
+				}
+				id: "44C7FF9AB52D6788"
+				tags: ["price_512"]
+				type: "custom"
 			}]
 			x: -9.0d
 			y: 1.5d
@@ -984,9 +1113,12 @@
 				type: "contactquests:parcel"
 			}]
 			tasks: [{
-				id: "265B96874691F6A8"
-				item: { count: 1, id: "numismatics:crown" }
-				type: "item"
+				icon: {
+					id: "broom_closet:goblin_ears"
+				}
+				id: "0D0D7785460593EB"
+				tags: ["price_512"]
+				type: "custom"
 			}]
 			x: -15.5d
 			y: 7.5d
@@ -1010,12 +1142,34 @@
 				type: "contactquests:parcel"
 			}]
 			tasks: [{
-				id: "7CF0369B71EB0777"
-				item: { count: 1, id: "numismatics:crown" }
-				type: "item"
+				icon: {
+					id: "broom_closet:antlers"
+				}
+				id: "176DC57B38F5B472"
+				tags: ["price_512"]
+				type: "custom"
 			}]
 			x: -9.0d
 			y: 7.5d
+		}
+		{
+			id: "7FDCB7F0C6C8EADA"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7680E4CF79351FE2"
+				table_id: 987967038148964353L
+				type: "choice"
+			}]
+			tasks: [{
+				icon: {
+					id: "minecraft:red_dye"
+				}
+				id: "72B0AB04DADAEDAD"
+				tags: ["price_3"]
+				type: "custom"
+			}]
+			x: -2.5d
+			y: -2.5d
 		}
 	]
 }

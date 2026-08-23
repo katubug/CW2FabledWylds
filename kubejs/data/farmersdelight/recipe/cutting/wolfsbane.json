@@ -1,5 +1,4 @@
 {
-  "replace": true,
   "type": "farmersdelight:cutting",
   "ingredients": [
     {
@@ -8,8 +7,10 @@
   ],
   "result": [
     {
-      "chance": 0.4,
-      "item": "enchanted:tongue_of_dog"
+      "item": {
+        "count": 1,
+        "id": "enchanted:tongue_of_dog"
+      }
     }
   ],
   "tool": {

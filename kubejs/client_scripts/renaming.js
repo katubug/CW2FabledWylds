@@ -60,7 +60,7 @@ ClientEvents.lang("en_us", event => {
 	event.renameItem('furniture:cash_register', 'Basic Cash Register')
 	event.renameItem('furniture:coffer', 'Simple Coffer')
 	event.renameItem('hexalia:shelf', 'Potion Shelf')
-	event.renameItem('quark:calcite_pillar', 'Calcite Pillar')
+	//event.renameItem('quark:calcite_pillar', 'Calcite Pillar')
 	event.renameItem('quark:dripstone_pillar', 'Dripstone Pillar')
 	event.renameItem('quark:framed_glass', 'Clear Framed Glass')
 	event.renameItem('quark:framed_glass_pane', 'Clear Framed Glass Pane')

@@ -502,28 +502,6 @@
 			id: "4ABFB1778565B4B7"
 			rewards: [
 				{
-					id: "15F9B72BEF84DB82"
-					item: {
-						components: {
-							"ftbquests:missing_item": "pickybags:bag"
-						}
-						count: 1
-						id: "ftbquests:missing_item"
-					}
-					type: "item"
-				}
-				{
-					id: "3C3EE109357B176E"
-					item: {
-						components: {
-							"ftbquests:missing_item": "pickybags:pickup_rocks"
-						}
-						count: 1
-						id: "ftbquests:missing_item"
-					}
-					type: "item"
-				}
-				{
 					id: "219CA4982DCB8320"
 					item: {
 						count: 1
@@ -538,6 +516,19 @@
 						id: "broom_closet:wishlist"
 					}
 					type: "item"
+				}
+				{
+					command: "/give @p sophisticatedbackpacks:backpack"
+					icon: {
+						components: {
+							"sophisticatedcore:number_of_inventory_slots": 27
+							"sophisticatedcore:number_of_upgrade_slots": 1
+						}
+						id: "sophisticatedbackpacks:backpack"
+					}
+					id: "0CF2295E1BA91C52"
+					permission_level: 4
+					type: "command"
 				}
 			]
 			shape: "gear"

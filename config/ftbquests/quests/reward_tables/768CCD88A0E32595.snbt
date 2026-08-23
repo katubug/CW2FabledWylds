@@ -1,7 +1,7 @@
 {
 	id: "768CCD88A0E32595"
 	loot_size: 1
-	order_index: 31
+	order_index: 30
 	rewards: [
 		{ id: "08EFA4C50AEEB08C", item: { count: 1, id: "tarotcards:the_high_priestess" } }
 		{ id: "6CADA526E91CE249", item: { count: 1, id: "tarotcards:the_magician" } }

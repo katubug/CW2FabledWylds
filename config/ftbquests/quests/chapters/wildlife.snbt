@@ -56,12 +56,16 @@
 	quest_links: [ ]
 	quests: [
 		{
+			icon: {
+				components: {
+					"minecraft:custom_data": {
+						quest_enhance_entity_model: "snuffles:snuffle"
+					}
+				}
+				id: "snuffles:snuffle_spawn_egg"
+			}
 			id: "33F3FB13A3EAEF94"
 			rewards: [
-				{
-					id: "4B95E1660ED6D5E6"
-					type: "choice"
-				}
 				{
 					count: 5
 					id: "17B298443F339A99"
@@ -71,18 +75,20 @@
 					}
 					type: "item"
 				}
+				{
+					exclude_from_claim_all: true
+					id: "4F8759E6AD38E6E4"
+					table_id: 5770973074849872376L
+					type: "random"
+				}
 			]
 			shape: "heart"
 			tasks: [{
-				icon: {
-					id: "snuffles:snuffle_fluff"
-				}
-				id: "1B7ACAD09345E758"
-				observation_type: "entity_type"
-				observe_type: 5
-				timer: 0L
-				to_observe: "snuffles:snuffle"
-				type: "observation"
+				entity: "snuffles:snuffle"
+				id: "66B2D1D8862DB0CF"
+				search_radius_blocks: 64
+				target_radius_blocks: 5
+				type: "find_entity"
 			}]
 			x: -2.5d
 			y: 12.0d
