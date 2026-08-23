@@ -21,7 +21,7 @@
 			#Disabled blanket assignments also cannot be used by the dynamic combination recipe or returned as loot.
 			#Normal generated recipes remain available.
 			#The list applies to native and compatible materials with the same suffix.
-			directApplyDisabled = ["wool_blanket", "leather_blanket"]
+			directApplyDisabled = []
 
 		[beds.gameplay.tiers]
 			#Whether the time required to complete sleep changes with the bed tier.
@@ -44,6 +44,8 @@
 				# Default: 2.0
 				# Range: 0.1 ~ 10.0
 				sleepDurationMultiplier = 2.0
+				#Whether beds in this tier allow sleeping while nearby monsters would normally prevent it.
+				ignoresNearbyMonsters = false
 				#Optional block IDs assigned to this tier, overriding their automatic classification.
 				#Use a full ID such as "minecraft:red_bed" or a namespace wildcard such as "minecraft:*".
 				#If a block appears in multiple tiers, the highest tier wins.
@@ -52,8 +54,6 @@
 				#Use a full ID or namespace wildcard, following the same format as blockOverrides.
 				#A bed excluded from its resolved tier keeps its normal behavior without tier mechanics.
 				blockExclusions = []
-				#Whether beds in this tier allow sleeping while nearby monsters would normally prevent it.
-				ignoresNearbyMonsters = false
 
 				[beds.gameplay.tiers.basic.wakeEffect]
 					#Whether waking up from this applies any configured effects.
@@ -76,6 +76,8 @@
 				# Default: 1.5
 				# Range: 0.1 ~ 10.0
 				sleepDurationMultiplier = 1.5
+				#Whether beds in this tier allow sleeping while nearby monsters would normally prevent it.
+				ignoresNearbyMonsters = false
 				#Optional block IDs assigned to this tier, overriding their automatic classification.
 				#Use a full ID such as "minecraft:red_bed" or a namespace wildcard such as "minecraft:*".
 				#If a block appears in multiple tiers, the highest tier wins.
@@ -84,8 +86,6 @@
 				#Use a full ID or namespace wildcard, following the same format as blockOverrides.
 				#A bed excluded from its resolved tier keeps its normal behavior without tier mechanics.
 				blockExclusions = []
-				#Whether beds in this tier allow sleeping while nearby monsters would normally prevent it.
-				ignoresNearbyMonsters = false
 
 				[beds.gameplay.tiers.low.wakeEffect]
 					#Whether waking up from this applies any configured effects.
@@ -108,6 +108,8 @@
 				# Default: 1.0
 				# Range: 0.1 ~ 10.0
 				sleepDurationMultiplier = 1.0
+				#Whether beds in this tier allow sleeping while nearby monsters would normally prevent it.
+				ignoresNearbyMonsters = false
 				#Optional block IDs assigned to this tier, overriding their automatic classification.
 				#Use a full ID such as "minecraft:red_bed" or a namespace wildcard such as "minecraft:*".
 				#If a block appears in multiple tiers, the highest tier wins.
@@ -116,8 +118,6 @@
 				#Use a full ID or namespace wildcard, following the same format as blockOverrides.
 				#A bed excluded from its resolved tier keeps its normal behavior without tier mechanics.
 				blockExclusions = []
-				#Whether beds in this tier allow sleeping while nearby monsters would normally prevent it.
-				ignoresNearbyMonsters = false
 
 				[beds.gameplay.tiers.normal.wakeEffect]
 					#Whether waking up from this applies any configured effects.

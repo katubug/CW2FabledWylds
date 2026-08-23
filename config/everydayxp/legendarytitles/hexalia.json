@@ -144,8 +144,8 @@
       }
     },
     "brewbie_award": {
-      "display_name": "First Sip’s the Deepest",
-      "original_name": "First Sip’s the Deepest",
+      "display_name": "First Sip\u0027s the Deepest",
+      "original_name": "First Sip\u0027s the Deepest",
       "enabled": true,
       "icon": "hexalia:rustic_bottle",
       "rewards": {

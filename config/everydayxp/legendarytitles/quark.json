@@ -203,6 +203,16 @@
         "items": []
       }
     },
+    "content/crawl_in_hollow_log": {
+      "display_name": "Crawling in my Bark",
+      "original_name": "Crawling in my Bark",
+      "enabled": true,
+      "icon": "quark:hollow_oak_log",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
     "content/throw_pickarang": {
       "display_name": "Somehow, Pickarang Returned",
       "original_name": "Somehow, Pickarang Returned",
@@ -248,6 +258,16 @@
       "original_name": "Just the Parrots",
       "enabled": true,
       "icon": "quark:egg_parrot_red_blue",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "content/poison_baby": {
+      "display_name": "Forever Young",
+      "original_name": "Forever Young",
+      "enabled": true,
+      "icon": "minecraft:poisonous_potato",
       "rewards": {
         "attributes": {},
         "items": []

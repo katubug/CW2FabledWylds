@@ -27,7 +27,7 @@
 
 [hunger]
 	#Allowed Values: time_based, exhaustion_based, time_and_exhaustion
-	hungerDrainMode = "time_and_exhaustion"
+	hungerDrainMode = "exhaustion_based"
 	# Default: 17.0
 	# Range: 0.0 ~ 20.0
 	passiveFoodLossPerDay = 0.0
@@ -344,7 +344,7 @@
 	requireCookedCravingFood = true
 	excludeNegativeEffectCravingFoods = true
 	#Allowed Values: simple, medium, balanced, hard, hardcore
-	cravingDifficultyProfile = "hard"
+	cravingDifficultyProfile = "balanced"
 
 [craving_streak]
 	enabled = true
@@ -354,7 +354,7 @@
 	# Default: 3
 	# Range: 0 ~ 30
 	rewardFreezeDays = 3
-	categoryCountsForStreak = false
+	categoryCountsForStreak = true
 	streakFreezeAffectsPassiveHunger = true
 	streakFreezeAffectsElytra = false
 	customRewardsEnabled = false

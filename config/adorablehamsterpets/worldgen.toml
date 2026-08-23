@@ -238,7 +238,15 @@ includeBiomes = [
     "byg:weeping_witch_forest",
     "byg:white_mangrove_marshes",
     "byg:windswept_desert",
-    "byg:zelkova_forest"
+    "byg:zelkova_forest",
+    "biomeswevegone:crag_gardens",
+    "biomeswevegone:dacite_ridges",
+    "biomeswevegone:firecracker_chaparral",
+    "biomeswevegone:lush_stacks",
+    "biomeswevegone:orchard",
+    "biomeswevegone:temperate_grove",
+    "biomeswevegone:tropical_rainforest",
+    "biomeswevegone:white_mangrove_marshes"
 ]
 # A list of Biome Tags to NEVER allow spawns in. For excluding broad categories like Oceans or Rivers without listing every single ID. Overrides inclusions.
 excludeBiomeTags = [
@@ -248,7 +256,8 @@ excludeBiomeTags = [
 ]
 # A list of specific biome IDs to NEVER allow spawns in, even if they match a tag. This overrides all other settings. Format: 'mod_id:biome_name'. For example, 'minecraft:plains'.
 excludeBiomes = [
-    "mod_id:biome_name"
+    "biomeswevegone:basalt_barrera",
+    "biomeswevegone:shattered_glacier"
 ]
 wildcardBiomes = [  ]
 wildcardTags = [  ]
@@ -260,7 +269,8 @@ icyBiomes = [
     "terralith:glacial_chasm",
     "terralith:mirage_isles",
     "terralith:moonlight_valley",
-    "biomesoplenty:enchanted_garden"
+    "biomesoplenty:enchanted_garden",
+    "biomeswevegone:eroded_borealis"
 ]
 icyTags = [
     "adorablehamsterpets:is_icy"
@@ -269,15 +279,20 @@ icyExclusionBiomes = [  ]
 icyExclusionTags = [  ]
 # Format 'VARIANT_TYPE:WEIGHT'. The total weight must equal 100, so I hope you graduated third grade. Available groupings of hamster types: WHITE, BLUE, SKY, LAVENDER, CHERRY, LIGHT_GRAY, DARK_GRAY, CREAM, BLACK, CHOCOLATE, RUST, ORANGE.
 icyWeights = [
-    "BLUE:25",
-    "SKY:25",
-    "WHITE:50"
+    "BLUE:85",
+    "SKY:15"
 ]
 magicalBiomes = [
-    "minecraft:cherry_grove",
-    "terralith:sakura_valley",
-    "biomesoplenty:fungi_forest",
-    "biomesoplenty:mystic_grove"
+    "biomesoplenty:mystic_grove",
+    "biomeswevegone:pumpkin_valley",
+    "biomeswevegone:weeping_witch_forest",
+    "biomeswevegone:jacaranda_jungle",
+    "biomeswevegone:bayou",
+    "biomeswevegone:cypress_swamplands",
+    "biomeswevegone:cypress_wetlands",
+    "biomeswevegone:black_forest",
+    "biomeswevegone:ebony_woodss",
+    "biomeswevegone:overgrowth_woodlands"
 ]
 magicalTags = [
     "adorablehamsterpets:is_magical",
@@ -288,8 +303,8 @@ magicalExclusionBiomes = [  ]
 magicalExclusionTags = [  ]
 # Format 'VARIANT_TYPE:WEIGHT'. The total weight must equal 100, so I hope you graduated third grade. Available groupings of hamster types: WHITE, BLUE, SKY, LAVENDER, CHERRY, LIGHT_GRAY, DARK_GRAY, CREAM, BLACK, CHOCOLATE, RUST, ORANGE.
 magicalWeights = [
-    "LAVENDER:70",
-    "ROSE:30"
+    "LAVENDER:85",
+    "CHERRY:15"
 ]
 cherryBiomes = [
     "minecraft:cherry_grove",
@@ -307,7 +322,10 @@ snowyBiomes = [
     "terralith:snowy_maple_forest",
     "terralith:wintry_forest",
     "terralith:alpine_grove",
-    "terralith:siberian_grove"
+    "terralith:siberian_grove",
+    "biomeswevegone:frosted_coniferous_forest",
+    "biomeswevegone:frosted_taiga",
+    "biomeswevegone:howling_peaks"
 ]
 snowyTags = [
     "adorablehamsterpets:is_cold",
@@ -322,12 +340,14 @@ snowyExclusionBiomes = [
     "minecraft:windswept_hills",
     "minecraft:taiga",
     "minecraft:old_growth_pine_taiga",
-    "minecraft:old_growth_spruce_taiga"
+    "minecraft:old_growth_spruce_taiga",
+    "terralith:skylands_winter"
 ]
 snowyExclusionTags = [  ]
 # Format 'VARIANT_TYPE:WEIGHT'. The total weight must equal 100, so I hope you graduated third grade. Available groupings of hamster types: WHITE, BLUE, SKY, LAVENDER, CHERRY, LIGHT_GRAY, DARK_GRAY, CREAM, BLACK, CHOCOLATE, RUST, ORANGE.
 snowyWeights = [
-    "WHITE:100"
+    "WHITE:85",
+    "SKY:15"
 ]
 skyBiomes = [
     "terralith:skylands_winter",
@@ -388,7 +408,10 @@ sandyBiomes = [
     "minecraft:birch_forest",
     "terralith:ancient_sands",
     "terralith:sandstone_valley",
-    "biomesoplenty:wasteland"
+    "biomesoplenty:wasteland",
+    "biomeswevegone:mojave_desert",
+    "biomeswevegone:aspen_boreal",
+    "biomeswevegone:dacite_shore"
 ]
 sandyTags = [
     "adorablehamsterpets:is_sandy"
@@ -405,7 +428,16 @@ sandyWeights = [
 ]
 forestBiomes = [
     "terralith:cloud_forest",
-    "biomesoplenty:redwood_forest"
+    "biomesoplenty:redwood_forest",
+    "biomesoplenty:fungi_forest",
+    "minecraft:taiga",
+    "biomeswevegone:overgrowth_woodlands",
+    "biomeswevegone:forgotten_forest",
+    "biomeswevegone:ironwood_gour",
+    "biomeswevegone:tropical_rainforest",
+    "biomeswevegone:fragment_jungle",
+    "biomeswevegone:coniferous_forest",
+    "biomeswevegone:canadian_shield"
 ]
 forestTags = [
     "adorablehamsterpets:is_forest",

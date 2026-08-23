@@ -1,5 +1,5 @@
 {
-  "create_version": "21.0.20",
+  "create_version": "21.0.26",
   "biomes": {
     "bone_reef": true,
     "crimson_glowing_woods": true,
@@ -24,5 +24,5 @@
     "wart_forest": true,
     "wart_forest_edge": true
   },
-  "modify_version": "21.0.20"
+  "modify_version": "21.0.26"
 }

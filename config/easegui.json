@@ -364,6 +364,10 @@
       "enabled": true,
       "custom_profiles": {}
     },
+    "confirm_link": {
+      "enabled": true,
+      "custom_profiles": {}
+    },
     "shulker_box": {
       "enabled": true,
       "custom_profiles": {}
@@ -385,10 +389,6 @@
       "custom_profiles": {}
     },
     "ease_gui_config": {
-      "enabled": true,
-      "custom_profiles": {}
-    },
-    "confirm_link": {
       "enabled": true,
       "custom_profiles": {}
     }

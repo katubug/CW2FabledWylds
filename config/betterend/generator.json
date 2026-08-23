@@ -1,5 +1,5 @@
 {
-  "create_version": "21.0.21",
+  "create_version": "21.0.34",
   "structure": {
     "generate_central_island": true,
     "generate_obsidian_platform": true,
@@ -8,7 +8,7 @@
     "has_pillars": true,
     "replace_pillars": true,
     "biome_size_caves": 32,
-    "end_city_fail_chance": 5
+    "end_city_fail_chance": 1
   },
   "generator": {
     "use_new_generator": true,
@@ -53,5 +53,5 @@
   "cosmetic": {
     "change_chorus_plant": true
   },
-  "modify_version": "21.0.21"
+  "modify_version": "21.0.34"
 }

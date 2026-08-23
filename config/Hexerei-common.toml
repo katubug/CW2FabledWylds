@@ -40,7 +40,7 @@
 
 ["Coffer Item Blacklist"]
 	#blacklists items from being placed inside of coffers
-	coffer_blacklist = ["minecraft:shulker_box", "minecraft:white_shulker_box", "minecraft:orange_shulker_box", "minecraft:magenta_shulker_box", "minecraft:light_blue_shulker_box", "minecraft:yellow_shulker_box", "minecraft:lime_shulker_box", "minecraft:pink_shulker_box", "minecraft:gray_shulker_box", "minecraft:light_gray_shulker_box", "minecraft:cyan_shulker_box", "minecraft:purple_shulker_box", "minecraft:blue_shulker_box", "minecraft:brown_shulker_box", "minecraft:green_shulker_box", "minecraft:red_shulker_box", "minecraft:black_shulker_box", "hexerei:coffer", "hexerei:entangled_coffer"]
+	coffer_blacklist = ["minecraft:shulker_box", "minecraft:white_shulker_box", "minecraft:orange_shulker_box", "minecraft:magenta_shulker_box", "minecraft:light_blue_shulker_box", "minecraft:yellow_shulker_box", "minecraft:lime_shulker_box", "minecraft:pink_shulker_box", "minecraft:gray_shulker_box", "minecraft:light_gray_shulker_box", "minecraft:cyan_shulker_box", "minecraft:purple_shulker_box", "minecraft:blue_shulker_box", "minecraft:brown_shulker_box", "minecraft:green_shulker_box", "minecraft:red_shulker_box", "minecraft:black_shulker_box", "minecraft:coral_shulker_box", "minecraft:umber_shulker_box", "minecraft:canary_shulker_box", "minecraft:wasabi_shulker_box", "minecraft:sacramento_shulker_box", "minecraft:sky_shulker_box", "minecraft:blurple_shulker_box", "minecraft:lavender_shulker_box", "minecraft:sangria_shulker_box", "minecraft:rose_shulker_box", "hexerei:coffer", "hexerei:entangled_coffer"]
 
 ["Biome Generation"]
 	#rarity of the willow swamp biome, 0 to disable

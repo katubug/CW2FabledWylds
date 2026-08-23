@@ -2005,6 +2005,16 @@
         ]
       }
     },
+    "trailandtales_delightmain/tat_delight": {
+      "display_name": "Trail\u0026Tales Delight",
+      "original_name": "Trail\u0026Tales Delight",
+      "enabled": true,
+      "icon": "trailandtales_delight:pottery_cooking_pot",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
     "husbandry/place_dried_ghast_in_water": {
       "display_name": "Stay Hydrated!",
       "original_name": "Stay Hydrated!",
@@ -2015,51 +2025,11 @@
         "items": []
       }
     },
-    "adventure/heart_transplanter": {
-      "display_name": "Heart Transplanter",
-      "original_name": "Heart Transplanter",
-      "enabled": true,
-      "icon": "minecraft:creaking_heart",
-      "rewards": {
-        "attributes": {},
-        "items": []
-      }
-    },
-    "husbandry/uh_oh": {
-      "display_name": "Uh Oh",
-      "original_name": "Uh Oh",
-      "enabled": true,
-      "icon": "minecraft:tnt",
-      "rewards": {
-        "attributes": {},
-        "items": []
-      }
-    },
     "adventure/i_have_my_suspicions": {
       "display_name": "I Have my Suspicions",
       "original_name": "I Have my Suspicions",
       "enabled": true,
       "icon": "trailsandtalesplus:suspicious_moss_block",
-      "rewards": {
-        "attributes": {},
-        "items": []
-      }
-    },
-    "husbandry/glowing_with_delight": {
-      "display_name": "Glowing with Delight",
-      "original_name": "Glowing with Delight",
-      "enabled": true,
-      "icon": "trailsandtalesplus:glowing_torchflower",
-      "rewards": {
-        "attributes": {},
-        "items": []
-      }
-    },
-    "trailandtales_delightmain/tat_delight": {
-      "display_name": "Trail\u0026Tales Delight",
-      "original_name": "Trail\u0026Tales Delight",
-      "enabled": true,
-      "icon": "trailandtales_delight:pottery_cooking_pot",
       "rewards": {
         "attributes": {},
         "items": []
@@ -2105,6 +2075,16 @@
         "items": []
       }
     },
+    "adventure/heart_transplanter": {
+      "display_name": "Heart Transplanter",
+      "original_name": "Heart Transplanter",
+      "enabled": true,
+      "icon": "minecraft:creaking_heart",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
     "trailandtales_delightmain/lantern_fruit_seeds": {
       "display_name": "Is That Tomatoes?",
       "original_name": "Is That Tomatoes?",
@@ -2115,11 +2095,31 @@
         "items": []
       }
     },
+    "husbandry/glowing_with_delight": {
+      "display_name": "Glowing with Delight",
+      "original_name": "Glowing with Delight",
+      "enabled": true,
+      "icon": "trailsandtalesplus:glowing_torchflower",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
     "trailandtales_delightmain/pitcher_taro": {
       "display_name": "Full Of Treasures",
       "original_name": "Full Of Treasures",
       "enabled": true,
       "icon": "trailandtales_delight:pitcher_taro",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "husbandry/uh_oh": {
+      "display_name": "Uh Oh",
+      "original_name": "Uh Oh",
+      "enabled": true,
+      "icon": "minecraft:tnt",
       "rewards": {
         "attributes": {},
         "items": []

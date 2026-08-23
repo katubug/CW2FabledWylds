@@ -43,6 +43,16 @@
         "items": []
       }
     },
+    "trapped_chest": {
+      "display_name": "Surprise!",
+      "original_name": "Surprise!",
+      "enabled": true,
+      "icon": "minecraft:tnt",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
     "50loot": {
       "display_name": "Half-Century",
       "original_name": "Half-Century",
@@ -128,16 +138,6 @@
       "original_name": "Centennial",
       "enabled": true,
       "icon": "minecraft:netherite_block",
-      "rewards": {
-        "attributes": {},
-        "items": []
-      }
-    },
-    "trapped_chest": {
-      "display_name": "Surprise!",
-      "original_name": "Surprise!",
-      "enabled": true,
-      "icon": "minecraft:tnt",
       "rewards": {
         "attributes": {},
         "items": []

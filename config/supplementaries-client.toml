@@ -96,13 +96,13 @@
 		tickable_inside_jars = ["iceandfire:pixie", "druidcraft:dreadfish", "druidcraft:lunar_moth", "alexsmobs:hummingbird"]
 
 		[blocks.hat_stand.swing_physics]
-			min_angle = 0.0
-			collision_force = 15.0
-			damping = 1.625
-			collision_inertia = 1.5
-			collision_considers_entity_hitbox = true
 			frequency = 1.5
+			collision_considers_entity_hitbox = true
+			collision_inertia = 1.5
+			collision_force = 15.0
+			min_angle = 0.0
 			max_angle = 54.999996
+			damping = 1.625
 
 	[blocks.turn_table]
 		#Display visual particles when a block is rotated
@@ -130,7 +130,7 @@
 		# - DEPTH: simpler depth-buffer clip; can interact poorly with translucent
 		#   blocks (slime, glass, water) rendered after BE pass
 		#Allowed Values: OFF, STENCIL, DEPTH
-		mask_mode = "STENCIL"
+		mask_mode = "OFF"
 
 	[particles.turn_particle]
 		#An RGBA color
@@ -139,30 +139,30 @@
 		fade_color = "#0032BEFA"
 
 [general]
+	#Enable Supplementaries to base textures off external Resource Packs rather than mod's default textures. 
+	use_external_resource_pack = false
 	#Allowed Values: ALWAYS, CACHED, CACHED_ZIPPED, NEVER
 	dynamic_assets_generation_mode = "CACHED"
 	#Disables Optifine warn screen
 	no_optifine_warn_screen = false
 	#Disable incompatible mods warning screen
 	no_incompatible_mods_screen = false
-	#Show some tooltip hints to guide players through the mod
-	tooltip_hints = true
-	#Show tooltips items that have been made placeable
-	placeable_tooltips = true
-	#Enable Supplementaries to base textures off external Resource Packs rather than mod's default textures. 
-	use_external_resource_pack = false
-	#unfunny
-	"I am very boring and I don't want any Easter Egg" = false
 	#Enable Quark style config button on main menu
 	configs_button = true
+	#Make the config button open Moonlight's mod list, where every installed mod's config can be reached, instead of going straight to Supplementaries' own config
+	configs_button_opens_mod_list = true
 	#Config button Y offset
 	# Default: 0
 	# Range: -10000 ~ 10000
 	configs_button_y_offset = 0
-	#Make the config button open Moonlight's mod list, where every installed mod's config can be reached, instead of going straight to Supplementaries' own config
-	configs_button_opens_mod_list = true
 	#Outline the config button with a rainbow when hovered
 	configs_button_rainbow_outline = true
+	#Show some tooltip hints to guide players through the mod
+	tooltip_hints = true
+	#Show tooltips items that have been made placeable
+	placeable_tooltips = true
+	#unfunny
+	"I am very boring and I don't want any Easter Egg" = false
 
 [tweaks]
 	#Adds an overlay to projectile weapons in gui displaying currently selected ammo

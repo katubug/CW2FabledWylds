@@ -83,7 +83,7 @@
 	generateAsLoot = true
 	#The amount of health points that are restored after the Chorus Totem activates
 	#Range: > 0
-	healthRestored = 10
+	healthRestored = 9
 	#The probability that the Chorus Totem activates when a player dies
 	#Range: 0.0 ~ 1.0
 	teleportationChance = 1.0
@@ -458,10 +458,10 @@
 	#Whether this item can be found in structures or drop from entities
 	#Allowed Values: true, false
 	generateAsLoot = true
-	#The minimum amount of damage that is dealt when the Thorn Pendant activates
+	#The maximum amount of damage that is dealt when the Thorn Pendant activates
 	#Range: > 0
 	maxDamage = 6
-	#The maximum amount of damage that is dealt when the Thorn Pendant activates
+	#The minimum amount of damage that is dealt when the Thorn Pendant activates
 	#Range: > 0
 	minDamage = 2
 	#The probability that the Thorn Pendant damages an attacking entity
@@ -528,7 +528,7 @@
 
 [whoopee_cushion]
 	#The probability that a fart sound plays when sneaking or double jumping while wearing the Whoopee Cushion
-	#Range: 0.0 ~ 1.0
+	#Range: -Infinity ~ Infinity
 	fartChance = 0.12
 	#Whether this item can be found in structures or drop from entities
 	#Allowed Values: true, false
