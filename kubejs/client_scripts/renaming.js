@@ -83,4 +83,5 @@ ClientEvents.lang("en_us", event => {
 	event.renameItem('create:scorchia_pillar', 'Scorchia Roman Pillar')
 	event.renameItem('create:veridium_pillar', 'Veridium Roman Pillar')
 	event.renameItem('create:calcite_pillar', 'Calcite Roman Pillar')
+	event.renameItem('quark:bottled_cloud', 'Bottled Cloud')
 })

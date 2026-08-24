@@ -14,7 +14,7 @@ PlayerEvents.loggedIn(event => {
 		var secondsUntilNextHour = (60 - now.getMinute()) * 60 - now.getSecond()
 		server.scheduleInTicks(secondsUntilNextHour * 20, _e => {
 			if (ZonedDateTime.now(ZoneOffset.UTC).getHour() === 0) {
-				server.runCommandSilent('say [DEBUG] midnight UTC hit')
+				//server.runCommandSilent('say [DEBUG] midnight UTC hit')
 				server.runCommandSilent(`ftbquests change_progress ${player.username} reset 58938AAD0B7C8E23`) //reset repeatable quests
 			}
 			scheduleNextHourCheck()

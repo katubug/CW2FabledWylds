@@ -47,6 +47,7 @@
 	# Default: 0.5
 	# Range: 0.0 ~ 10.0
 	beginnerPassiveHungerMultiplier = 0.5
+	#Disables vanilla saturation in every hunger-drain mode. The legacy key name is retained for config compatibility.
 	removeVanillaSaturationOutsideExhaustionMode = true
 
 [damage_hunger]

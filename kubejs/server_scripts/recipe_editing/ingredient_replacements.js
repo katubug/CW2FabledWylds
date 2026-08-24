@@ -9,6 +9,22 @@ ServerEvents.recipes(event => {
 		'#c:flour' // Arg 3: the item to replace it with
 	)
 
+	//sulfur
+	event.replaceInput({
+			input: 'minecraft:sulfur'
+		}, // Arg 1: the filter
+		'minecraft:sulfur', // Arg 2: the item to replace
+		'#fabled_wylds:sulfur' // Arg 3: the item to replace it with
+	)
+
+	//sulfur
+	event.replaceInput({
+			input: 'betterend:crystalline_sulphur'
+		}, // Arg 1: the filter
+		'betterend:crystalline_sulphur', // Arg 2: the item to replace
+		'#fabled_wylds:sulfur' // Arg 3: the item to replace it with
+	)
+
 	//salt
 	event.replaceInput({
 			input: 'hexalia:salt'

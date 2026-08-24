@@ -1,5 +1,10 @@
 ServerEvents.tags('item', event => {
 
+	//Raw Bacon
+	event.add('farm_and_charm:raw_bacon',
+		'farmersdelight:bacon'
+	)
+
 	// Pearls for Pearl Necklaces etc
 	event.add('c:pearls',
 		'crittersandcompanions:pearl',

@@ -160,22 +160,7 @@ ServerEvents.recipes(event => {
 
 	event.smelting('hearthandharvest:syrup_bottle', 'autumnity:sap_bottle')
 
-	//Saddles
-
-	event.shaped(
-		Item.of('minecraft:saddle'),
-		[
-			' A ',
-			'ABA'
-		], {
-			A: 'minecraft:leather',
-			B: 'minecraft:iron_nugget'
-		}
-	)
-
 	//tea
-
-
 	event.shapeless(
 		Item.of('herbalbrews:tea_leaf_crate'),
 		[

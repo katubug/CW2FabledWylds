@@ -36,10 +36,12 @@
   "firstPersonModelHideEnabled": true,
   "firstPersonModelHidePitch": 60.0,
   "itemBlacklist": [
+    "artifacts:umbrella",
     "minecraft:lantern",
     "minecraft:soul_lantern"
   ],
   "blacklistApplyDualHanded": {
+    "artifacts:umbrella": false,
     "minecraft:lantern": false,
     "minecraft:soul_lantern": false
   },

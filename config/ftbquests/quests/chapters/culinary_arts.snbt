@@ -123,9 +123,18 @@
 			id: "6EFFB8ED37DC8A47"
 			preset: "start"
 			rewards: [{
+				count: 6
 				exclude_from_claim_all: true
-				id: "1454EE401EB2C400"
-				type: "loot"
+				id: "2BA8F21414CF2E4C"
+				is_ender: false
+				is_team_reward: false
+				item: {
+					count: 1
+					id: "minecraft:iron_ingot"
+				}
+				target_addressee: "QuestNPC"
+				team_reward_multiplier: 1.0f
+				type: "contactquests:parcel"
 			}]
 			shape: "rsquare"
 			size: 1.5d
@@ -375,7 +384,6 @@
 			y: -0.5d
 		}
 		{
-			dependencies: ["6EFFB8ED37DC8A47"]
 			id: "6A71E1C275F02732"
 			rewards: [{
 				count: 2
@@ -392,8 +400,8 @@
 				item: { count: 1, id: "farmersdelight:hot_cocoa" }
 				type: "item"
 			}]
-			x: -5.0d
-			y: 4.5d
+			x: -3.5d
+			y: 6.0d
 		}
 		{
 			dependencies: ["0E2749D8FEEF0D49"]
@@ -424,7 +432,6 @@
 			y: 1.0d
 		}
 		{
-			dependencies: ["6EFFB8ED37DC8A47"]
 			id: "1F80DCFD23DD5592"
 			rewards: [
 				{
@@ -488,7 +495,6 @@
 			y: 2.5d
 		}
 		{
-			dependencies: ["6EFFB8ED37DC8A47"]
 			id: "717B733896BBB2AA"
 			rewards: [{
 				id: "2B1743C30515E8AF"
@@ -587,7 +593,6 @@
 			y: 2.5d
 		}
 		{
-			dependencies: ["6EFFB8ED37DC8A47"]
 			id: "181F5C00C8DE417B"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -633,8 +638,8 @@
 					type: "item"
 				}
 			]
-			x: -6.5d
-			y: 4.5d
+			x: -5.0d
+			y: 6.0d
 		}
 		{
 			dependencies: ["5F2C26D1C6302016"]
@@ -1728,17 +1733,42 @@
 			y: 21.1d
 		}
 		{
-			dependencies: ["2615CD06E32EC741"]
+			dependencies: ["6EFFB8ED37DC8A47"]
 			id: "634BC93E44B404C2"
 			preset: "item"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "040E10BA08D654D2"
+					is_ender: false
+					is_team_reward: false
+					item: {
+						count: 1
+						id: "cluttered:picnic_basket_prepared"
+					}
+					target_addressee: "QuestNPC"
+					team_reward_multiplier: 1.0f
+					type: "contactquests:parcel"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "58D2EDBBF1CE3CB7"
+					is_ender: false
+					is_team_reward: false
+					table_id: 5770973074849872376L
+					target_addressee: "QuestNPC"
+					team_reward_multiplier: 1.0f
+					type: "contactquests:parcel_random"
+				}
+			]
 			shape: "hexagon"
 			tasks: [{
 				id: "4537AE4F85FC53CC"
 				item: { components: { "supplementaries:lunch_basket_content": { items: [ { }, { }, { }, { }, { }, { } ], open: 0b, selected_slot: 1 } }, count: 1, id: "supplementaries:lunch_basket" }
 				type: "item"
 			}]
-			x: -8.0d
-			y: 1.0d
+			x: -6.0d
+			y: 4.5d
 		}
 		{
 			id: "6E90234166580EEB"

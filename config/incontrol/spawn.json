@@ -1,5 +1,11 @@
 [
   {
+    "when": "onjoin",
+    "mob": ["minecraft:zombie"],
+    "baby": true,
+    "result": "deny"
+  },
+  {
     "when": "position",
     "mincount": 30,
     "result": "deny"

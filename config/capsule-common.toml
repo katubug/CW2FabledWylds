@@ -2,15 +2,19 @@
 #
 #Loot settings
 [loot]
-	#List of loot tables that will eventually reward a capsule.
-	# Example of valid loot tables : gameplay/fishing/treasure, chests/spawn_bonus_chest, entities/villager (killing a villager).
-	#Also see https://minecraft.gamepedia.com/Loot_table#List_of_loot_tables.
-	lootTablesList = ["ResourceKey[minecraft:loot_table / minecraft:chests/abandoned_mineshaft]", "ResourceKey[minecraft:loot_table / minecraft:chests/bastion_bridge]", "ResourceKey[minecraft:loot_table / minecraft:chests/bastion_hoglin_stable]", "ResourceKey[minecraft:loot_table / minecraft:chests/bastion_other]", "ResourceKey[minecraft:loot_table / minecraft:chests/bastion_treasure]", "ResourceKey[minecraft:loot_table / minecraft:chests/shipwreck_treasure]", "ResourceKey[minecraft:loot_table / minecraft:chests/desert_pyramid]", "ResourceKey[minecraft:loot_table / minecraft:chests/end_city_treasure]", "ResourceKey[minecraft:loot_table / minecraft:chests/igloo_chest]", "ResourceKey[minecraft:loot_table / minecraft:chests/jungle_temple]", "ResourceKey[minecraft:loot_table / minecraft:chests/simple_dungeon]", "ResourceKey[minecraft:loot_table / minecraft:chests/stronghold_corridor]", "ResourceKey[minecraft:loot_table / minecraft:chests/stronghold_crossing]", "ResourceKey[minecraft:loot_table / minecraft:chests/stronghold_library]", "ResourceKey[minecraft:loot_table / minecraft:chests/village/village_toolsmith]", "ResourceKey[minecraft:loot_table / minecraft:chests/village/village_armorer]", "ResourceKey[minecraft:loot_table / minecraft:chests/village/village_temple]", "ResourceKey[minecraft:loot_table / minecraft:chests/village/village_weaponsmith]", "ResourceKey[minecraft:loot_table / minecraft:chests/buried_treasure]", "ResourceKey[minecraft:loot_table / minecraft:chests/jungle_temple_dispenser]", "ResourceKey[minecraft:loot_table / minecraft:chests/pillager_outpost]", "ResourceKey[minecraft:loot_table / minecraft:chests/underwater_ruin_big]", "ResourceKey[minecraft:loot_table / minecraft:chests/underwater_ruin_small]", "ResourceKey[minecraft:loot_table / minecraft:chests/woodland_mansion]"]
 	#Players can be given one or several starter structures on their first arrival.
 	#Those structures nbt files can be placed in the folder defined at starterTemplatesPath below.
 	#Possible values : "all", "random", or "none".
 	#Default value: "random"
-	starterMode = "random"
+	starterMode = "none"
+	#List of loot tables that will eventually reward a capsule.
+	# Example of valid loot tables : gameplay/fishing/treasure, chests/spawn_bonus_chest, entities/villager (killing a villager).
+	#Also see https://minecraft.gamepedia.com/Loot_table#List_of_loot_tables.
+	lootTablesList = []
+	#If true, loot rewards will be pre-charged blueprint when possible (if the content contains no entity).
+	#If false loot reward will always be one-use capsules.
+	#Default value: true
+	allowBlueprintReward = false
 	#Each structure in this folder will be given to the player as standard reusable capsule on game start.
 	#Empty the folder or the value to disable starter capsules.
 	#Default value: "config/capsule/starters"
@@ -21,10 +25,6 @@
 	prefabsTemplatesPath = "config/capsule/prefabs"
 	#Paths where the mod will look for structureBlock files when invoking command /capsule fromExistingRewards <structureName> [playerName].
 	rewardTemplatesPath = "config/capsule/rewards"
-	#If true, loot rewards will be pre-charged blueprint when possible (if the content contains no entity).
-	#If false loot reward will always be one-use capsules.
-	#Default value: true
-	allowBlueprintReward = true
 	#If true, sneak+left click in air allow mirroring of the capsule content. Can be disabled for multiblock compatibility. 
 	#Default value: true
 	allowMirror = true

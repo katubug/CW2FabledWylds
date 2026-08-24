@@ -1,0 +1,75 @@
+{
+  "$schema": "https://github.com/SettingDust/ModSets/raw/main/rules.schema.json",
+  "text": {
+    "text": "My first rule set",
+    "bold": true,
+    "color": "green"
+  },
+  "description": "Awwww",
+  "rules": [
+    {
+      "text": "The label",
+      "description": "Text Text",
+      "controller": {
+        "type": "label"
+      }
+    },
+    {
+      "text": "The boolean",
+      "description": "Text Text",
+      "controller": {
+        "type": "boolean",
+        "id": "sodium"
+      }
+    },
+    {
+      "text": "The cycling",
+      "description": "Text Text",
+      "controller": {
+        "type": "cycling",
+        "ids": [
+          "sodium",
+          "optifabric"
+        ]
+      }
+    },
+    {
+      "text": "The mods group",
+      "description": "Text Text",
+      "controller": {
+        "type": "mods_group",
+        "collapsed": false,
+        "show_mods": true,
+        "ids": [
+          "sodium",
+          "optifabric"
+        ]
+      }
+    },
+    {
+      "text": "The rules group",
+      "description": "Text Text",
+      "controller": {
+        "type": "rules_group",
+        "collapsed": true,
+        "rules": [
+          {
+            "text": "text",
+            "description": "description",
+            "controller": {
+              "type": "label"
+            }
+          },
+          {
+            "text": "text",
+            "description": "description",
+            "controller": {
+              "type": "boolean",
+              "id": "sodium"
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

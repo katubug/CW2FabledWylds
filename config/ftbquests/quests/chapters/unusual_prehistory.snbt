@@ -203,17 +203,31 @@
 		}
 		{
 			id: "6C25F07248AC8170"
-			rewards: [{
-				id: "1EBA2186692E1ECA"
-				item: {
-					components: {
-						"ftbquests:missing_item": "capsule:capsule"
-					}
-					count: 1
-					id: "ftbquests:missing_item"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "49648E0581D616FA"
+					is_ender: false
+					is_team_reward: false
+					table_id: 5770973074849872376L
+					target_addressee: "QuestNPC"
+					team_reward_multiplier: 1.0f
+					type: "contactquests:parcel_random"
 				}
-				type: "item"
-			}]
+				{
+					exclude_from_claim_all: true
+					id: "3698B8F84FC1E0F9"
+					is_ender: false
+					is_team_reward: false
+					item: {
+						count: 1
+						id: "quark:forgotten_hat"
+					}
+					target_addressee: "QuestNPC"
+					team_reward_multiplier: 1.0f
+					type: "contactquests:parcel"
+				}
+			]
 			shape: "rsquare"
 			size: 2.0d
 			tasks: [{

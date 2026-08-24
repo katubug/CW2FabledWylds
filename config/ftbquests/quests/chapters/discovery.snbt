@@ -130,6 +130,27 @@
 			dependencies: ["72CE099C5784339A"]
 			id: "2BB8D1410BD7C040"
 			preset: "progression"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "24EA99D73F446F23"
+					is_ender: false
+					is_team_reward: false
+					item: {
+						count: 1
+						id: "exposure:black_and_white_film"
+					}
+					target_addressee: "QuestNPC"
+					team_reward_multiplier: 1.0f
+					type: "contactquests:parcel"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "560EC79B79A662E2"
+					table_id: 5770973074849872376L
+					type: "random"
+				}
+			]
 			tasks: [{
 				id: "78D5ACA5F6C52047"
 				item: { count: 1, id: "exposure:camera" }
@@ -142,6 +163,40 @@
 			dependencies: ["2BB8D1410BD7C040"]
 			id: "5C0698C5831F824F"
 			preset: "advancement"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "0154BB800700C415"
+					is_ender: false
+					is_team_reward: false
+					item: {
+						count: 1
+						id: "minecraft:cat_spawn_egg"
+					}
+					target_addressee: "QuestNPC"
+					team_reward_multiplier: 1.0f
+					type: "contactquests:parcel"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4958AF539ADD3966"
+					is_ender: false
+					is_team_reward: false
+					item: {
+						count: 1
+						id: "minecraft:goat_spawn_egg"
+					}
+					target_addressee: "QuestNPC"
+					team_reward_multiplier: 1.0f
+					type: "contactquests:parcel"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1ABAFC1DA99DE1C3"
+					table_id: 7328857662613080212L
+					type: "random"
+				}
+			]
 			tasks: [{
 				advancement: "exposure:adventure/wildlife_archivist"
 				criterion: ""
@@ -154,6 +209,27 @@
 		{
 			id: "54B176A22CBFD31F"
 			preset: "locate"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "0F910885B3C1ACFF"
+					table_id: 7328857662613080212L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "673DC5729DD69DAE"
+					is_ender: false
+					is_team_reward: false
+					item: {
+						count: 1
+						id: "quark:bottled_cloud"
+					}
+					target_addressee: "QuestNPC"
+					team_reward_multiplier: 1.0f
+					type: "contactquests:parcel"
+				}
+			]
 			shape: "octagon"
 			tasks: [{
 				icon: {
@@ -195,12 +271,23 @@
 		{
 			id: "6414EFB17FFD56CB"
 			preset: "locate"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "1159A9278CD33969"
-				table_id: 7328857662613080212L
-				type: "random"
-			}]
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "1159A9278CD33969"
+					table_id: 7328857662613080212L
+					type: "random"
+				}
+				{
+					count: 5
+					id: "0EEDF2AF735AE8DE"
+					item: {
+						count: 1
+						id: "minecraft:amethyst_shard"
+					}
+					type: "item"
+				}
+			]
 			shape: "octagon"
 			tasks: [{
 				icon: {
@@ -389,13 +476,18 @@
 			id: "10EF479191689632"
 			preset: "info"
 			rewards: [{
-				count: 2
-				id: "1A0FB7AE458A9FF0"
+				count: 6
+				exclude_from_claim_all: true
+				id: "26C3782EBF68C531"
+				is_ender: false
+				is_team_reward: false
 				item: {
 					count: 1
-					id: "minecraft:oak_sign"
+					id: "minecraft:dark_oak_sign"
 				}
-				type: "item"
+				target_addressee: "QuestNPC"
+				team_reward_multiplier: 1.0f
+				type: "contactquests:parcel"
 			}]
 			tasks: [{
 				id: "34F515C374A92754"

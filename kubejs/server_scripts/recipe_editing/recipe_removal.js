@@ -26,6 +26,7 @@ ServerEvents.recipes(event => {
 		{ output: 'broom_closet:antlers'},
 		{ output: 'waystones:waystone'},
 		{ id: 'waystones:mossy_waystone'},
+		{ id: 'roots:sylvan_leather_saddle'},
 		//Replaced Recipes
 		{ id: 'hexalia:athame'},
 		{ id: 'farmersdelight:wheat_dough_from_water' },
