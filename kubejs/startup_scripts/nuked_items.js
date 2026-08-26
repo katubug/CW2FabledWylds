@@ -736,4 +736,9 @@ global.NUKED_ITEMS = [
     'whimsy_deco:washing_machine',
     'whimsy_deco:yellow_atm',
     'whimsy_deco:yellow_lawn_mower',
+    // trash cans
+    'trashcans:energy_trash_can', 
+    // pipez
+    'pipez:energy_pipe', 
+    'pipez:gas_pipe'
 ]
