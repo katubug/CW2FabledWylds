@@ -164,12 +164,12 @@ key_placebo.toggleWings:key.keyboard.unknown:
 key_key.sophisticatedbackpacks.open_backpack:key.keyboard.b:
 key_key.sophisticatedbackpacks.inventory_interaction:key.keyboard.unknown:
 key_key.sophisticatedbackpacks.tool_swap:key.keyboard.unknown:
-key_key.sophisticatedbackpacks.toggle_upgrade_1:key.keyboard.unknown:
 key_key.sophisticatedbackpacks.toggle_upgrade_5:key.keyboard.unknown:
-key_key.sophisticatedbackpacks.toggle_upgrade_4:key.keyboard.unknown:
-key_key.sophisticatedbackpacks.toggle_upgrade_3:key.keyboard.unknown:
+key_key.sophisticatedbackpacks.toggle_upgrade_1:key.keyboard.unknown:
 key_key.sophisticatedbackpacks.toggle_upgrade_2:key.keyboard.unknown:
-key_key.travelertoolbelt.open_toolbelt:key.keyboard.unknown:
+key_key.sophisticatedbackpacks.toggle_upgrade_3:key.keyboard.unknown:
+key_key.sophisticatedbackpacks.toggle_upgrade_4:key.keyboard.unknown:
+key_key.travelertoolbelt.open_toolbelt:key.keyboard.y:
 key_key.spyglass-improvements.use:key.keyboard.z:
 key_keyinfo.copycats.fill_copycat:key.keyboard.unknown:
 key_artifacts.key.helium_flamingo.activate:key.keyboard.unknown:
@@ -197,7 +197,7 @@ key_key.tarotcards.open_deck:key.keyboard.unknown:
 key_key.easy_villagers.pick_up:key.keyboard.v:
 key_key.easy_villagers.cycle_trades:key.keyboard.c:
 key_keybind.reliquary.fortune_coin:key.keyboard.unknown:
-key_key.buildinggadgets2.settings_menu:key.keyboard.c:
+key_key.buildinggadgets2.settings_menu:key.keyboard.k:
 key_key.buildinggadgets2.undo:key.keyboard.u:
 key_key.buildinggadgets2.anchor:key.keyboard.unknown:
 key_key.buildinggadgets2.range:key.keyboard.unknown:
@@ -287,9 +287,9 @@ key_key.itemzoom.zoom.in:key.keyboard.unknown:
 key_key.itemzoom.zoom.out:key.keyboard.unknown:
 key_key.relics.research_relic:key.keyboard.left.shift:
 key_key.relics.active_abilities_list:key.keyboard.left.alt:
-key_key.twilightforest.item_display_map_cycle:key.keyboard.unknown:
 key_key.twilightforest.zoom:key.keyboard.z:
 key_key.twilightforest.red_thread_vision:key.keyboard.unknown:
+key_key.twilightforest.item_display_map_cycle:key.keyboard.unknown:
 key_key.twilightforest.swap_hotbar:key.keyboard.unknown:
 key_key.starcatcher.minigame_hit:key.keyboard.space:
 key_key.starcatcher.expand_tournament:key.keyboard.unknown:
@@ -299,10 +299,10 @@ key_key.observable.profile:key.keyboard.unknown:
 key_key.ftbultimine:key.keyboard.grave.accent:
 key_ftbultimine.change_shape.next:key.keyboard.up:
 key_ftbultimine.change_shape.prev:key.keyboard.down:
-key_key.morequesttypes.search_quest_by_item:key.keyboard.left.bracket:
 key_key.findme.search:key.keyboard.unknown:
 key_key.findme.pull_one:key.keyboard.unknown:
 key_key.findme.pull_stack:key.keyboard.unknown:
+key_key.morequesttypes.search_quest_by_item:key.keyboard.left.bracket:
 key_key.ftbteams.open_gui:key.keyboard.unknown:
 key_key.ftbchunks.map:key.keyboard.unknown:
 key_key.ftbchunks.toggle_minimap:key.keyboard.unknown:
@@ -355,9 +355,9 @@ key_key.ftbquests.gui_quest_panel.add_page_break:key.keyboard.p:
 key_key.ftbquests.gui_quest_panel.add_line:key.keyboard.l:
 key_key.ftbquests.gui_quest_panel.add_image:key.keyboard.i:
 key_key.ftbquests.gui_quest_panel.edit_quest_props:key.keyboard.q:
-key_key.structurecredits.deactivate_key:key.keyboard.unknown:
-key_key.structurecredits.dont_show_key:key.keyboard.unknown:
 key_key.structurecredits.show_again_key:key.keyboard.unknown:
+key_key.structurecredits.dont_show_key:key.keyboard.unknown:
+key_key.structurecredits.deactivate_key:key.keyboard.unknown:
 key_key.broom_closet.toggle_wishlist:key.keyboard.k:
 key_key.inventorysorter.sort:key.mouse.middle:
 key_key.inventorysorter.itemin:key.mouse.100:
@@ -391,5 +391,5 @@ key_key.jade.narrate:key.keyboard.unknown:
 key_key.jade.show_details:key.keyboard.left.shift:
 key_key.roadweaver.open_map:key.keyboard.unknown:
 key_key.entityculling.toggle:key.keyboard.unknown:
-key_key.punchy.triggerable.punchy_sword_inspect_rework:key.keyboard.unknown:
 key_key.punchy.triggerable.punchy_sword_inspect_old:key.keyboard.unknown:
+key_key.punchy.triggerable.punchy_sword_inspect_rework:key.keyboard.unknown:

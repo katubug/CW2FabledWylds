@@ -9,23 +9,10 @@ ServerEvents.recipes(event => {
 			'BCB',
 			'DDD'
 		], {
-			A: '#c:milk/milk_bottle',
-			B: '#c:sugar',
+			A: '#c:drinks/milk',
+			B: 'minecraft:sugar',
 			C: '#c:cooking_eggs',
-			D: '#c:foods/dough/wheat'
-		}
-	)
-	//Basic Cake
-	event.shaped(
-		Item.of('minecraft:cake'),
-		[
-			'B D',
-			'ACA'
-		], {
-			A: '#c:milk/milk_bottle',
-			B: '#c:sugar',
-			C: 'bakery:cake_dough',
-			D: '#c:foods/dough/wheat'
+			D: 'bakery:cake_dough'
 		}
 	)
 	//Carrot Cake
@@ -36,10 +23,10 @@ ServerEvents.recipes(event => {
 			'BED',
 			'ACA'
 		], {
-			A: '#c:milk/milk_bottle',
-			B: '#c:sugar',
+			A: '#c:drinks/milk',
+			B: 'minecraft:sugar',
 			C: 'bakery:cake_dough',
-			D: '#c:foods/dough/wheat',
+			D: 'bakery:cake_dough',
 			E: 'minecraft:carrot'
 		}
 	)
@@ -52,9 +39,9 @@ ServerEvents.recipes(event => {
 			'ACA'
 		], {
 			A: 'mysticsbiomes:vanilla_milk_bucket',
-			B: '#c:sugar',
+			B: 'minecraft:sugar',
 			C: 'bakery:cake_dough',
-			D: '#c:foods/dough/wheat',
+			D: 'bakery:cake_dough',
 			E: 'mysticsbiomes:vanilla_beans'
 		}
 	)
@@ -67,9 +54,9 @@ ServerEvents.recipes(event => {
 			'ACA'
 		], {
 			A: 'mysticsbiomes:strawberry_milk_bucket',
-			B: '#c:sugar',
+			B: 'minecraft:sugar',
 			C: 'bakery:cake_dough',
-			D: '#c:foods/dough/wheat',
+			D: 'bakery:cake_dough',
 			E: 'mysticsbiomes:sweet_strawberry'
 		}
 	)
@@ -81,9 +68,9 @@ ServerEvents.recipes(event => {
 			'ACA'
 		], {
 			A: 'mysticsbiomes:chocolate_milk_bucket',
-			B: '#c:sugar',
+			B: 'minecraft:sugar',
 			C: 'bakery:cake_dough',
-			D: '#c:foods/dough/wheat'
+			D: 'bakery:cake_dough'
 		}
 	)
 	//pink Cake
@@ -93,10 +80,10 @@ ServerEvents.recipes(event => {
 			'BED',
 			'ACA'
 		], {
-			A: '#c:milk/milk_bottle',
-			B: '#c:sugar',
+			A: '#c:drinks/milk',
+			B: 'minecraft:sugar',
 			C: 'bakery:cake_dough',
-			D: '#c:foods/dough/wheat',
+			D: 'bakery:cake_dough',
 			E: 'mysticsbiomes:pink_egg'
 		}
 	)
@@ -107,10 +94,10 @@ ServerEvents.recipes(event => {
 			'BED',
 			'ACA'
 		], {
-			A: '#c:milk/milk_bottle',
-			B: '#c:sugar',
+			A: '#c:drinks/milk',
+			B: 'minecraft:sugar',
 			C: 'bakery:cake_dough',
-			D: '#c:foods/dough/wheat',
+			D: 'bakery:cake_dough',
 			E: 'mysticsbiomes:orange_egg'
 		}
 	)
@@ -121,10 +108,10 @@ ServerEvents.recipes(event => {
 			'BED',
 			'ACA'
 		], {
-			A: '#c:milk/milk_bottle',
-			B: '#c:sugar',
+			A: '#c:drinks/milk',
+			B: 'minecraft:sugar',
 			C: 'bakery:cake_dough',
-			D: '#c:foods/dough/wheat',
+			D: 'bakery:cake_dough',
 			E: 'mysticsbiomes:yellow_egg'
 		}
 	)
@@ -135,10 +122,10 @@ ServerEvents.recipes(event => {
 			'BED',
 			'ACA'
 		], {
-			A: '#c:milk/milk_bottle',
-			B: '#c:sugar',
+			A: '#c:drinks/milk',
+			B: 'minecraft:sugar',
 			C: 'bakery:cake_dough',
-			D: '#c:foods/dough/wheat',
+			D: 'bakery:cake_dough',
 			E: 'mysticsbiomes:lime_egg'
 		}
 	)
@@ -149,10 +136,10 @@ ServerEvents.recipes(event => {
 			'BED',
 			'ACA'
 		], {
-			A: '#c:milk/milk_bottle',
-			B: '#c:sugar',
+			A: '#c:drinks/milk',
+			B: 'minecraft:sugar',
 			C: 'bakery:cake_dough',
-			D: '#c:foods/dough/wheat',
+			D: 'bakery:cake_dough',
 			E: 'mysticsbiomes:cyan_egg'
 		}
 	)
@@ -163,10 +150,10 @@ ServerEvents.recipes(event => {
 			'BED',
 			'ACA'
 		], {
-			A: '#c:milk/milk_bottle',
-			B: '#c:sugar',
+			A: '#c:drinks/milk',
+			B: 'minecraft:sugar',
 			C: 'bakery:cake_dough',
-			D: '#c:foods/dough/wheat',
+			D: 'bakery:cake_dough',
 			E: 'mysticsbiomes:purple_egg'
 		}
 	)
@@ -194,7 +181,7 @@ ServerEvents.recipes(event => {
 			'BAB'
 		], {
 			A: 'farmersdelight:pie_crust',
-			B: '#c:sugar',
+			B: 'minecraft:sugar',
 			C: '#c:cooking_eggs',
 			D: 'hexalia:chillberries'
 		}
@@ -208,7 +195,7 @@ ServerEvents.recipes(event => {
 			'A'
 		], {
 			A: 'farmersdelight:pie_crust',
-			C: '#c:foods/dough/wheat',
+			C: 'bakery:cake_dough',
 			D: 'hearthandharvest:cherry_jam'
 		}
 	)
@@ -221,7 +208,7 @@ ServerEvents.recipes(event => {
 			'BAB'
 		], {
 			A: 'farmersdelight:pie_crust',
-			C: '#c:foods/dough/wheat',
+			C: 'bakery:cake_dough',
 			D: 'mysticsbiomes:peach',
 			B: 'minecraft:sugar'
 		}
@@ -289,7 +276,7 @@ ServerEvents.recipes(event => {
 			'BA',
 			'C '
 		], {
-			A: '#c:foods/dough/wheat',
+			A: 'bakery:cake_dough',
 			B: 'minecraft:sweet_berries',
 			C: '#fabled_wylds:sweetener'
 		}

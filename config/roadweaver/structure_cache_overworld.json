@@ -726,6 +726,16 @@
       "isVanilla": false
     },
     {
+      "id": "lost_ocean_colosseum_runes:lost_ocean_colosseum_runes",
+      "displayName": "Lost Ocean Colosseum Runes",
+      "isVanilla": false
+    },
+    {
+      "id": "lost_ocean_whale:lostoceanwhale",
+      "displayName": "Lostoceanwhale",
+      "isVanilla": false
+    },
+    {
       "id": "meadow:chalet",
       "displayName": "Chalet",
       "isVanilla": false

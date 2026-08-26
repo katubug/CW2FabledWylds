@@ -35,7 +35,8 @@
     "_wood",
     "rail",
     "_button",
-    "_pressure_plate"
+    "_pressure_plate",
+    "_shingles"
   ],
   "block_string_blacklist": [
     "diagonalwalls:",

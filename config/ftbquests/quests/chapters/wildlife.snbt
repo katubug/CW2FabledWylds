@@ -946,15 +946,11 @@
 			}]
 			shape: "heart"
 			tasks: [{
-				icon: {
-					id: "minecraft:snowball"
-				}
-				id: "7DDD21C495EF730D"
-				observation_type: "entity_type"
-				observe_type: 5
-				timer: 0L
-				to_observe: "minecraft:snow_golem"
-				type: "observation"
+				entity: "minecraft:snow_golem"
+				id: "1EF3488BE715A381"
+				search_radius_blocks: 64
+				target_radius_blocks: 5
+				type: "find_entity"
 			}]
 			x: -3.5d
 			y: -2.0d
@@ -1106,18 +1102,11 @@
 			}]
 			shape: "heart"
 			tasks: [{
-				icon: {
-					components: {
-						"minecraft:instrument": "minecraft:ponder_goat_horn"
-					}
-					id: "minecraft:goat_horn"
-				}
-				id: "5BB9CB6527E6EF77"
-				observation_type: "entity_type"
-				observe_type: 5
-				timer: 0L
-				to_observe: "minecraft:goat"
-				type: "observation"
+				entity: "minecraft:goat"
+				id: "5EC7270537C4DC9B"
+				search_radius_blocks: 64
+				target_radius_blocks: 5
+				type: "find_entity"
 			}]
 			x: -5.5d
 			y: 10.0d
@@ -1270,38 +1259,21 @@
 		}
 		{
 			id: "4BE2F61081D4D690"
-			rewards: [
-				{
-					id: "22F5B2CC2471499D"
-					item: {
-						components: {
-							"ftbquests:missing_item": "plushies:allay_plushie"
-						}
-						count: 1
-						id: "ftbquests:missing_item"
-					}
-					type: "item"
+			rewards: [{
+				id: "654868DC56FB47AF"
+				item: {
+					count: 1
+					id: "plushie_buddies:plushie_allay"
 				}
-				{
-					id: "654868DC56FB47AF"
-					item: {
-						count: 1
-						id: "plushie_buddies:plushie_allay"
-					}
-					type: "item"
-				}
-			]
+				type: "item"
+			}]
 			shape: "heart"
 			tasks: [{
-				icon: {
-					id: "minecraft:allay_spawn_egg"
-				}
-				id: "29E91154AEEB12F7"
-				observation_type: "entity_type"
-				observe_type: 5
-				timer: 0L
-				to_observe: "minecraft:allay"
-				type: "observation"
+				entity: "minecraft:allay"
+				id: "44BC96F04140C22D"
+				search_radius_blocks: 64
+				target_radius_blocks: 5
+				type: "find_entity"
 			}]
 			x: -4.0d
 			y: 11.0d
@@ -1318,15 +1290,11 @@
 			}]
 			shape: "heart"
 			tasks: [{
-				icon: {
-					id: "quark:diamond_heart"
-				}
-				id: "7551AFCE82A71085"
-				observation_type: "entity_type"
-				observe_type: 5
-				timer: 0L
-				to_observe: "quark:stoneling"
-				type: "observation"
+				entity: "quark:stoneling"
+				id: "04248DE3EBB981D7"
+				search_radius_blocks: 64
+				target_radius_blocks: 5
+				type: "find_entity"
 			}]
 			x: -2.5d
 			y: 8.5d
@@ -1580,15 +1548,11 @@
 			}]
 			shape: "heart"
 			tasks: [{
-				icon: {
-					id: "crittersandcompanions:ferret_spawn_egg"
-				}
-				id: "08B8EAA07630A88C"
-				observation_type: "entity_type"
-				observe_type: 5
-				timer: 0L
-				to_observe: "cnb:ferret"
-				type: "observation"
+				entity: "crittersandcompanions:ferret"
+				id: "239EE4540D0409F4"
+				search_radius_blocks: 64
+				target_radius_blocks: 5
+				type: "find_entity"
 			}]
 			x: -8.5d
 			y: -1.0d
@@ -1606,15 +1570,11 @@
 			}]
 			shape: "heart"
 			tasks: [{
-				icon: {
-					id: "crittersandcompanions:shima_enaga_spawn_egg"
-				}
-				id: "7F0EBB489DB04DA8"
-				observation_type: "entity_type"
-				observe_type: 5
-				timer: 0L
-				to_observe: "cnb:shima_enaga"
-				type: "observation"
+				entity: "crittersandcompanions:shima_enaga"
+				id: "3235F07CEE045C89"
+				search_radius_blocks: 64
+				target_radius_blocks: 5
+				type: "find_entity"
 			}]
 			x: -8.5d
 			y: 1.0d
@@ -1632,15 +1592,11 @@
 			}]
 			shape: "heart"
 			tasks: [{
-				icon: {
-					id: "crittersandcompanions:silk_cocoon"
-				}
-				id: "3B0583ABFF5A6261"
-				observation_type: "entity_type"
-				observe_type: 5
-				timer: 0L
-				to_observe: "cnb:jumping_spider"
-				type: "observation"
+				entity: "crittersandcompanions:jumping_spider"
+				id: "00445D37DD00F64E"
+				search_radius_blocks: 64
+				target_radius_blocks: 5
+				type: "find_entity"
 			}]
 			x: -6.5d
 			y: 2.0d

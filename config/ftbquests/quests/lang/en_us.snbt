@@ -640,8 +640,6 @@
 	quest.0337B951BAB8D4A9.quest_subtitle: "{count:1,id:\"betterend:pond_anemone\"}"
 	quest.033AAD31FFD2A591.quest_subtitle: "{count:1,id:\"unusual_furniture:cherry_coffee_table\"}"
 	quest.033E33766B991105.quest_subtitle: "{components:{\"ae2:facade_item\":\"minecraft:orange_glazed_terracotta\"},count:1,id:\"ae2:facade\"}"
-	quest.0340E6FF3BF8E75F.quest_desc: ["Make some purulent tea. It may give you weakness, but it also extends a random effect by 15 seconds. So that's kinda good, right?"]
-	quest.0340E6FF3BF8E75F.quest_subtitle: "not very good for you"
 	quest.0341172778872FA5.quest_subtitle: "{components:{\"ae2:facade_item\":\"betternether:stalagnate_planks\"},count:1,id:\"ae2:facade\"}"
 	quest.03416D2688D44383.quest_subtitle: "{components:{\"minecraft:potion_contents\":{potion:\"minecraft:long_water_breathing\"}},count:1,id:\"minecraft:tipped_arrow\"}"
 	quest.034184A22DFB285B.quest_subtitle: "{count:1,id:\"colorfulazaleas:lethe_azalea_stairs\"}"
@@ -3427,6 +3425,7 @@
 	quest.125F9206FE11AC85.quest_subtitle: "{count:1,id:\"cluttered:rover_stool\"}"
 	quest.12601BFA0AEBB576.quest_subtitle: "{components:{\"minecraft:entity_data\":{id:\"minecraft:painting\",variant:\"mcwpaintings:bridge\"}},count:1,id:\"minecraft:painting\"}"
 	quest.12607292E7381CF7.quest_subtitle: "{count:1,id:\"twilightdelight:glow_113\"}"
+	quest.126325966A77DF87.quest_desc: ["The &bSculk Eye&r is a treasure sought by the eyeless &eWarden&r. No one knows its origin, but it is only natural for those without sight to desire an eye of their very own. Search &cAncient City&r chests and hope that you find this eye before the &eWarden&r finds either of you."]
 	quest.12648708D8551F39.quest_subtitle: "{components:{\"minecraft:potion_contents\":{potion:\"hearthandharvest:strong_bad_omen_potion\"}},count:1,id:\"minecraft:potion\"}"
 	quest.1265B6680588E6B7.quest_subtitle: "{count:1,id:\"reliquary:angelic_feather\"}"
 	quest.126927C59303F057.quest_subtitle: "{count:1,id:\"kubejs:carved_crimson_8\"}"
@@ -3723,8 +3722,6 @@
 	quest.13EA2AE86FA0BAC2.quest_subtitle: "{count:1,id:\"betterfishtanks:tiny_stone_stone\"}"
 	quest.13F153798CDDCF71.quest_subtitle: "{count:1,id:\"decorativerailings:stone_diagonal_handrail_3\"}"
 	quest.13F2A24DC6C064E9.quest_subtitle: "{count:1,id:\"tanukidecor:green_desk\"}"
-	quest.13F2AD2FD93B86EB.quest_desc: ["&bEnder Teas&r are a unique delicacy brewed using the &adelicious but unstable&r leaves of the &bChorus plant&r. Who knows what effects they might have?"]
-	quest.13F2AD2FD93B86EB.title: "End Teas"
 	quest.13F48793607E1502.quest_subtitle: "{components:{\"ae2:facade_item\":\"arts_and_crafts:purple_chalk\"},count:1,id:\"ae2:facade\"}"
 	quest.13F48F2C678424E8.quest_subtitle: "{count:1,id:\"quark:ancient_ladder\"}"
 	quest.13F5782997715A4B.quest_subtitle: "{components:{\"ae2:facade_item\":\"cluttered:stripped_flowering_crabapple_wood\"},count:1,id:\"ae2:facade\"}"
@@ -4981,6 +4978,7 @@
 	quest.1AC93E2CD4BED64D.quest_subtitle: "{components:{\"minecraft:entity_data\":{id:\"minecraft:painting\",variant:\"minecraft:wither\"}},count:1,id:\"minecraft:painting\"}"
 	quest.1ACD38F52414A5D6.quest_subtitle: "{count:1,id:\"supplementaries:trapped_present_white\"}"
 	quest.1ACE42433D29F6A5.quest_subtitle: "{components:{\"sophisticatedcore:accent_color\":-15295332,\"sophisticatedcore:main_color\":-15295332},count:1,id:\"sophisticatedstorage:limited_barrel_3\"}"
+	quest.1ACFAAF917E5016A.quest_desc: ["While we're gearing up like bees (bee-ring up? No, no... sorry), why not &acraft some of their weaponry&r?"]
 	quest.1ACFAAF917E5016A.title: "Bee Weaponry"
 	quest.1AD0B3542F41BFF6.quest_subtitle: "{count:1,id:\"regions_unexplored:dead_button\"}"
 	quest.1AD250A580BBCA68.quest_subtitle: "{components:{\"ae2:facade_item\":\"betterend:flavolite_runed_eternal\"},count:1,id:\"ae2:facade\"}"
@@ -6452,7 +6450,7 @@
 		""
 		"So how are you supposed to know they're there? Why, &lJEI&r of course. &6Opening your inventory&r will show you a wall of items to your right. You can search through these items at the bottom right. Type &d@&r and the name of a mod to search for only items from that mod."
 		""
-		"For example, you can &asearch \"@another\"&r to view everything from Another Furniture. &6Left click the item&r to view its crafting recipe. &6Right click it&r to view what recipes it's used in."
+		"For example, you can &asearch \"@whimsy\"&r to view everything from &lWhimsy Deco&r. &6Left click the item&r to view its crafting recipe. &6Right click it&r to view what recipes it's used in."
 		""
 		"This will let you view how to make anything in the game!"
 	]
@@ -6518,8 +6516,6 @@
 	quest.22B03CC928E5A57F.quest_subtitle: "{count:1,id:\"glassential:crimson_glass_trapdoor\"}"
 	quest.22B084B926813C1D.quest_subtitle: "{count:1,id:\"unusual_furniture:spruce_chair\"}"
 	quest.22B17BE0D1DF13BD.quest_subtitle: "{count:1,id:\"plushie_buddies:plushie_enderdragon\"}"
-	quest.22B1A539154545B6.quest_desc: ["This lush, garden biome is one of the most gorgeous places you could hope to visit in this bizarre landscape."]
-	quest.22B1A539154545B6.title: "Visit The Hallow"
 	quest.22B21D494D057D49.quest_subtitle: "{count:1,id:\"minecraft:stone\"}"
 	quest.22B22CD4BF9A55BD.quest_subtitle: "{count:1,id:\"betterend:flavolite_runed\"}"
 	quest.22B348FB45873111.quest_subtitle: "{count:1,id:\"glassential:mangrove_glass_door\"}"
@@ -7319,6 +7315,7 @@
 	quest.26FBA96BEBBAD30F.quest_subtitle: "{count:1,id:\"companions:copper_coin\"}"
 	quest.26FC9887C57ACAB8.quest_subtitle: "{count:1,id:\"cluttered:chalcedony_pillar_starry_ionic\"}"
 	quest.26FCF412F409F165.quest_subtitle: "{count:1,id:\"moblassos:aqua_lasso\"}"
+	quest.26FD7EF75B2303E8.quest_desc: ["The &bTrial Eye&r was once part of a being called &eArgos the Watcher&r, who presided over &aTrial Chambers&r. Argos had many such eyes, and used them to determine whether challengers were true of heart. Received as a reward from the Ominous Vault in the &cTrial Chambers&r while under the effect of &bTrial Omen&b."]
 	quest.27000F04BE271DA8.quest_subtitle: "{components:{\"reliquary:entity_name\":\"twilightforest:kobold\"},count:1,id:\"reliquary:mob_charm_fragment\"}"
 	quest.27018AD53D941384.quest_subtitle: "{components:{\"ae2:facade_item\":\"minecraft:sandstone\"},count:1,id:\"ae2:facade\"}"
 	quest.2701F8FDEC18CBAE.quest_subtitle: "{components:{\"sophisticatedstorage:wood_type\":\"bamboo\"},count:1,id:\"sophisticatedstorage:limited_netherite_barrel_1\"}"
@@ -8600,6 +8597,7 @@
 	quest.2DB741583B2543D1.quest_subtitle: "{count:1,id:\"supplementaries:lapis_bricks\"}"
 	quest.2DB7B58B1136B825.quest_subtitle: "{count:1,id:\"betternether:oak_bar_stool\"}"
 	quest.2DB8852DD4988201.quest_subtitle: "{components:{\"ae2:facade_item\":\"mysticsbiomes:strawberry_wood\"},count:1,id:\"ae2:facade\"}"
+	quest.2DB9642460401BB0.quest_desc: ["What has eyes but cannot see? A &bPotato&r! However, most of those eyes are simply roots seeking soil. The &bPotato Eye&r is something rather more magical... it can be found rarely when &aharvesting ripe &bPotatoes&r."]
 	quest.2DBD7FBB8D9955C3.quest_subtitle: "{count:1,id:\"decorativerailings:oak_left_handrail_connector_2\"}"
 	quest.2DBE452F76A7573B.quest_subtitle: "{components:{\"sophisticatedstorage:wood_type\":\"jungle\"},count:1,id:\"sophisticatedstorage:iron_barrel\"}"
 	quest.2DC00391DC52D716.title: "Top Hat with a Frog"
@@ -8685,6 +8683,7 @@
 	quest.2E19BB6E1A1DD866.quest_subtitle: "{count:1,id:\"quark:smooth_soul_sandstone_stairs\"}"
 	quest.2E1A6A93F48AAF58.quest_desc: [
 		"The &bWarp Stone&r is an item which will allow you to &awarp to any Waystone from anywhere in the world&r. It is a multi-use item, which has a cooldown between uses."
+		""
 		"Simply &6hold right click with it in your hand&r in order to activate it. If you take damage or let go while it is charging, &dthe warp will cancel&r."
 	]
 	quest.2E1A6A93F48AAF58.title: "Obtain a Warp Stone"
@@ -9943,7 +9942,7 @@
 	quest.34581095B797C667.quest_desc: [
 		"Did you know that &aall true teas are the same plant&r? They're simply oxidized at different levels. Tisanes are a different story, of course, but I'll spare you the details."
 		""
-		"After your tea has been &aharvested at its desired color&r, it needs to be &6dried out&r - this enhances the flavor and reduces the chance of spoilage (okay, it doesn't spoil in Minecraft. Don't get sassy with me)."
+		"After your tea has been &aharvested&r, it needs to be &6dried out&r - this enhances the flavor and reduces the chance of spoilage (okay, it doesn't spoil in Minecraft. Don't get sassy with me)."
 		""
 		"You can dry your tea leaves one of two ways: with a &bSmoker&r (faster, costs fuel) or a &bDrying Rack&r (slower, but costs only time)."
 	]
@@ -10200,8 +10199,6 @@
 	quest.35B6EC39A2F8ECD3.quest_subtitle: "{count:1,id:\"tide:enchanted_pocket_watch\"}"
 	quest.35B970F7AEA6C0EB.quest_subtitle: "{count:1,id:\"decorative_blocks:acacia_beam\"}"
 	quest.35BB56F2B8AE5F1D.quest_subtitle: "{count:1,id:\"creeperoverhaul:snowy_creeper_spawn_egg\"}"
-	quest.35BBB767F2EA1FA1.quest_desc: ["The &cChapel of Light&r is an airy, serene oasis. Although it harbors no secrets, it is still a &aworthy place to make pilgrimage to&r, if only for the reward this quest grants."]
-	quest.35BBB767F2EA1FA1.title: "Find a Chapel of Light"
 	quest.35BD8615B12E5784.quest_subtitle: "{count:1,id:\"ae2:capacity_card\"}"
 	quest.35BDCB979FC37697.quest_subtitle: "{count:1,id:\"animal_pen:waxed_exposed_copper_aviary\"}"
 	quest.35BE95429C4158EC.quest_subtitle: "{count:1,id:\"supplementaries:mysticsbiomes/cannon_boat_tropical\"}"
@@ -10485,7 +10482,7 @@
 		""
 		"You can &aduplicate them&r by &6surrounding them with &bBricks&r."
 		""
-		"You can &agild &8(some of)&r&a them&r by &6crafting them with &bGold Nuggets&r. Gilded sherds can &aalso be duplicated&r."
+		"You can &agild &7(some of)&r&a them&r by &6crafting them with &bGold Nuggets&r. Gilded sherds can &aalso be duplicated&r."
 		""
 		"Finally, you can reconstruct them into &bPots&r by &6combining any 4 &bSherds or Bricks&r like so:"
 		""
@@ -10657,8 +10654,6 @@
 	quest.3825F519B869D648.quest_subtitle: "{count:1,id:\"hexerei:polished_willow_trapdoor\"}"
 	quest.3827D8F42FCC5547.quest_subtitle: "{count:1,id:\"arts_and_crafts:pink_chalk\"}"
 	quest.382846254D491C67.quest_subtitle: "{count:1,id:\"quark:polished_myalite_stairs\"}"
-	quest.38285B9280444C60.quest_desc: ["Even the most honest witch needs to sneak around sometimes. But you...well, you've snuck around &3a lot&r."]
-	quest.38285B9280444C60.title: "Sneaking Around"
 	quest.382A77BBD360C3DF.quest_subtitle: "{components:{\"ae2:facade_item\":\"regions_unexplored:brimwood_log_magma\"},count:1,id:\"ae2:facade\"}"
 	quest.382C6439556FA905.quest_subtitle: "{count:1,id:\"quark:raw_copper_bricks_slab\"}"
 	quest.382DCBF08A24D26F.quest_subtitle: "{count:1,id:\"regions_unexplored:green_painted_stairs\"}"
@@ -10851,7 +10846,7 @@
 	quest.3946389F1770D98C.quest_subtitle: "{count:1,id:\"quark:ancient_boat\"}"
 	quest.39473F349DD82A3B.quest_subtitle: "{count:1,id:\"decorativerailings:black_iron_railing_01\"}"
 	quest.394927196734AAF6.quest_subtitle: "{count:1,id:\"trailsandtalesplus:rune_armor_trim_smithing_template\"}"
-	quest.394A179160EB4AE8.quest_desc: ["What a majestic set of armor worn by the bee warriors. While not very powerful, it is a very nice looking armor."]
+	quest.394A179160EB4AE8.quest_desc: ["What a majestic set of armor, often worn by bee warriors. While not very powerful, it is a very nice looking set."]
 	quest.394A179160EB4AE8.quest_subtitle: "the bee's knees, and arms, and chest..."
 	quest.394A179160EB4AE8.title: "The Bee Armor"
 	quest.394B500DC3AE1B30.quest_subtitle: "{count:1,id:\"decorativerailings:crimson_wood_railing_08\"}"
@@ -11925,9 +11920,6 @@
 	quest.3F0F9F50AEB772A1.quest_subtitle: "{count:1,id:\"unusual_furniture:bamboo_stool\"}"
 	quest.3F0FB0CEE981EE2B.quest_subtitle: "{count:1,id:\"tanukidecor:wooden_block_bed\"}"
 	quest.3F110B26426C65A9.quest_subtitle: "{count:1,id:\"minecraft:cyan_candle\"}"
-	quest.3F119E09E40415B5.quest_desc: ["You can further convert &bDried Green Tea&r into &bMatcha Powder&r with a &bMortar and Pestle&r - and then make delicious matcha flavored treats!"]
-	quest.3F119E09E40415B5.quest_subtitle: "matcha, now we gotcha"
-	quest.3F119E09E40415B5.title: "Powdered Green Tea"
 	quest.3F1273652D03760D.quest_subtitle: "{count:1,id:\"twilightforest:music_disc_maker\"}"
 	quest.3F13AA79B2F54051.quest_subtitle: "{components:{\"minecraft:potion_contents\":{potion:\"netherdepthsupgrade:obsidianfish_long_resistance\"}},count:1,id:\"minecraft:potion\"}"
 	quest.3F187872637335E7.quest_subtitle: "{components:{\"sophisticatedstorage:wood_type\":\"crimson\"},count:1,id:\"sophisticatedstorage:limited_barrel_4\"}"
@@ -12776,13 +12768,9 @@
 	quest.43987C93962246C3.quest_subtitle: "{count:1,id:\"quark:shiba_spawn_egg\"}"
 	quest.439970E8EF1F3ACA.quest_subtitle: "{count:1,id:\"betternether:stalagnate_seed\"}"
 	quest.439A1ED01CFD1A01.quest_subtitle: "{components:{\"ae2:facade_item\":\"quark:chorus_fruit_block\"},count:1,id:\"ae2:facade\"}"
-	quest.439A33514ABCCEFA.quest_desc: ["The &bEpitaph&r is an item that the cautious witch should never be without! Upon death, it &aplaces a &bFleeting Memorial&r in your death location, allowing you to "]
+	quest.439A33514ABCCEFA.quest_desc: ["The &bEpitaph&r is an item that the cautious witch should never be without! Upon death, it &aplaces a &bFleeting Memorial&r in your death location, allowing you to &bteleport directly back to your place of death&r from the nearest &bWaystone&r."]
 	quest.439A66D9A5817590.quest_subtitle: "{count:1,id:\"tanukidecor:brown_mushroom_log_stool\"}"
-	quest.439BC18CF8CE9960.quest_desc: [
-		"These teas may be unflavored, but they're certainly not flavorless! Although &bCeylon Black Tea&r, &bOolong Tea&r, and &bSencha Green Tea&r do not provide ingame effects, they do function as &adecoration blocks&r!"
-		""
-		"&bGreen Tea&r and &bYellow Tea&r from &lFarmer's Respite&r do grant effects, however - and you can &aextend or strengthen these effects&r by &6brewing the tea with &bMilk or Honey&r."
-	]
+	quest.439BC18CF8CE9960.quest_desc: ["These teas may be unflavored, but they're certainly not flavorless! Although &bCeylon Black Tea&r, &bOolong Tea&r, and &bSencha Green Tea&r do not provide ingame effects, they do function as &adecoration blocks&r!"]
 	quest.439BC18CF8CE9960.title: "Plain Teas"
 	quest.439C6F5D0F6AA01F.quest_subtitle: "{components:{\"reliquary:entity_name\":\"enchanted:mandrake\"},count:1,id:\"reliquary:mob_charm_fragment\"}"
 	quest.439FC0764082F43F.quest_subtitle: "{components:{\"ae2:facade_item\":\"the_bumblezone:luminescent_wax_channel_green\"},count:1,id:\"ae2:facade\"}"
@@ -13226,8 +13214,6 @@
 	quest.45FA5FAE9307BA27.quest_subtitle: "{count:1,id:\"endrem:cold_eye\"}"
 	quest.45FADCA87248E174.quest_subtitle: "{count:1,id:\"framedblocks:framed_fancy_powered_rail\"}"
 	quest.45FBD080B3C3C486.quest_subtitle: "{components:{\"minecraft:potion_contents\":{potion:\"netherdepthsupgrade:lava_vision\"}},count:1,id:\"minecraft:lingering_potion\"}"
-	quest.45FC361963CE4FA6.quest_desc: ["It seems impossible that anyone would be able to live in the hostile terrain of &cThe End&r. And yet... here's proof!"]
-	quest.45FC361963CE4FA6.title: "A Village? In Space?"
 	quest.45FC3D5E0535E0F2.quest_subtitle: "{count:1,id:\"functionalstorage:diamond_upgrade\"}"
 	quest.45FC77F0715B3C8E.quest_subtitle: "{components:{\"minecraft:potion_contents\":{potion:\"minecraft:strong_harming\"}},count:1,id:\"minecraft:tipped_arrow\"}"
 	quest.45FD0214CB962093.quest_subtitle: "{count:1,id:\"hexalia:bloomwrap_boots\"}"
@@ -13990,9 +13976,9 @@
 	quest.49EA7F3135E2CC74.quest_desc: [
 		"The Blue &cSempiternal Sanctum&r grants a chance at the &bEssence of Calming&r."
 		""
-		"Holding this item in offhand will make mobs nearby no longer get angry at you! (Let me know if a modded mob still attacks you while this essence is active)"
+		"Holding this item in your offhand will &aprevent you from drawing aggro&r from hostile mobs!"
 		""
-		"The effect is lost early if player gets hurt by any mob or attacks any mob. If the player sprints while it is active, the item loses power crazy quickly! No rushing!"
+		"The effect is lost early if player &agets hurt by or attacks any mob&r. If the player sprints while it is active, the item loses power crazy quickly! No rushing!"
 		""
 		"It has 600 use (seconds) before it is depleted and needs 10 minutes to recharge by being in the inventory of a player that had consumed Essence of the Bees in the past."
 	]
@@ -14142,7 +14128,7 @@
 		""
 		"Also, take this &bWishlist&r. If you &6hover over an item in JEI and press the hotkey&r (K by default), it will wishlist that item. Wishlisted items will &aglow yellow&r if you see them in the world, or find them in chests! Very helpful if you have a terrible memory, like I do."
 		""
-		"Finally, the &bTool Belt&r is a &bcurio&r which allows you to &astore your tools in a radial wheel and summon them with a hotkey&r. It can be upgraded to &ahold more tools&r!"
+		"Finally, the &bTool Belt&r is a &bcurio&r which allows you to &astore your tools in a radial wheel and summon them with a hotkey&r (Y by default). It can be upgraded to &ahold more tools&r!"
 	]
 	quest.4ABFB1778565B4B7.title: "Obtain Stone Tools"
 	quest.4AC0E83748A984FE.quest_subtitle: "{count:1,id:\"contact:green_mailbox\"}"
@@ -14367,8 +14353,6 @@
 	quest.4BC19AB064855225.quest_subtitle: "{count:1,id:\"quark:trapped_oak_chest\"}"
 	quest.4BC1D50A1F6C1733.quest_subtitle: "{count:1,id:\"colorfulazaleas:green_blooming_azalea_leaves\"}"
 	quest.4BC1FB2DCDEB7E27.quest_subtitle: "{components:{\"minecraft:potion_contents\":{potion:\"minecraft:strong_poison\"}},count:1,id:\"minecraft:potion\"}"
-	quest.4BC766F17ADDBE77.quest_desc: ["The &cAmethyst Forest&r is a pastel wonderland, which would be a lovely place to live... if it weren't for all the &eEndermen&r vwooping about."]
-	quest.4BC766F17ADDBE77.title: "Visit the Amethyst Forest"
 	quest.4BCB14E0F0A4BD27.quest_subtitle: "{components:{\"ae2:facade_item\":\"cluttered:red_mushroom_wood\"},count:1,id:\"ae2:facade\"}"
 	quest.4BCD0DEB1A059D2F.quest_subtitle: "{count:1,id:\"colorfulazaleas:earthen_azalea_fence\"}"
 	quest.4BCE37D56185C771.quest_subtitle: "{count:1,id:\"twilightforest:spruce_banister\"}"
@@ -16116,6 +16100,7 @@
 	quest.548AE380FFB4516C.quest_subtitle: "{components:{\"ae2:facade_item\":\"minecraft:weathered_copper_grate\"},count:1,id:\"ae2:facade\"}"
 	quest.548D049EB6F1D8D7.quest_subtitle: "{components:{\"minecraft:potion_contents\":{potion:\"minecraft:regeneration\"}},count:1,id:\"minecraft:tipped_arrow\"}"
 	quest.548DC9CEA6FBF108.quest_subtitle: "{count:1,id:\"glassential:light_gray_glass_trapdoor\"}"
+	quest.5490D2048FF6E2AB.title: "Miscellaneous Teas"
 	quest.5491F41FC317275C.quest_subtitle: "{count:1,id:\"ae2:spatial_storage_cell_128\"}"
 	quest.54924F80D3BC307C.quest_subtitle: "{count:1,id:\"mcwwindows:mangrove_louvered_shutter\"}"
 	quest.54940E0766D4140C.quest_subtitle: "{components:{\"ae2:facade_item\":\"colorfulazaleas:orange_azalea_leaves\"},count:1,id:\"ae2:facade\"}"
@@ -16986,6 +16971,7 @@
 	quest.58F5C6BF287688A7.quest_subtitle: "{components:{\"reliquary:entity_name\":\"endermanoverhaul:savanna_enderman\"},count:1,id:\"reliquary:mob_charm_fragment\"}"
 	quest.58F9F0CC133CC7F7.quest_desc: [
 		"&lBetter Archaeology&r catacombs are a winding underground structure with a very modest above-ground entrance. Can you &aplumb the secrets from this place&r?"
+		""
 		"{image:fabled_wylds:textures/questimages/catacombs.png width:100 height:70 align:1 fit:true}"
 	]
 	quest.58F9F0CC133CC7F7.title: "Discover the Catacombs"
@@ -17863,8 +17849,6 @@
 	quest.5D7A8C74AC70C6CE.quest_subtitle: "{components:{\"ae2:facade_item\":\"supplementaries:deepslate_lamp\"},count:1,id:\"ae2:facade\"}"
 	quest.5D7A9C8D7DAD5B14.quest_subtitle: "{count:1,id:\"minecraft:spruce_planks\"}"
 	quest.5D7D1F5AEDE61466.title: "Scavenger Hunt: Sugar"
-	quest.5D7D721261D786CD.quest_desc: ["&bFruity teas&r are this witch's personal favorite type of tea. The sweetness and flavor of the fruit lend themselves brilliantly to the amber deliciousness of the tea leaves. Truly a match made in paradise."]
-	quest.5D7D721261D786CD.title: "Fruit Teas"
 	quest.5D7D7D0226E9BCB4.quest_subtitle: "{count:1,id:\"betterend:helix_tree_crafting_table\"}"
 	quest.5D7EB15864D3AA24.quest_subtitle: "{components:{\"minecraft:potion_contents\":{potion:\"minecraft:leaping\"}},count:1,id:\"minecraft:splash_potion\"}"
 	quest.5D7EB166F6F752C0.quest_subtitle: "{count:1,id:\"create:cut_scorchia_brick_stairs\"}"
@@ -19667,16 +19651,6 @@
 	quest.66B094500E40DA3D.quest_subtitle: "handbook for the recently deceased"
 	quest.66B117992FE21C52.quest_subtitle: "{components:{\"minecraft:potion_contents\":{potion:\"hearthandharvest:bad_omen_potion\"}},count:1,id:\"supplementaries:bamboo_spikes_tipped\"}"
 	quest.66B13E9EDA1C8902.quest_subtitle: "{count:1,id:\"framedblocks:framed_vertical_sloped_double_stairs\"}"
-	quest.66B43C20A8C7256B.quest_desc: [
-		"&6Trade Smathers your excess fossils&r in this quest for a roll on the &lUnusual Prehistory&r loot table. Why keep all those pesky dinosaurs when you can get a piece for free?"
-		""
-		""
-		"{image:fabled_wylds:textures/questui/smathers.png width:100 height:100 align:1}"
-		""
-		"\"Hoo! What would you like me to identify? &oI'm all a-flutter!&r Let us take a closer look... This is &lmagnificent&r!\""
-	]
-	quest.66B43C20A8C7256B.quest_subtitle: "wait, you think i look like... hoo?"
-	quest.66B43C20A8C7256B.title: "Ask Smathers To Identify Your Fossil"
 	quest.66B4A556664CD400.quest_subtitle: "{count:1,id:\"plushie_buddies:plushie_squid\"}"
 	quest.66B4DDA74D470645.quest_subtitle: "{components:{\"ae2:facade_item\":\"betterend:emerald_ice\"},count:1,id:\"ae2:facade\"}"
 	quest.66B75DB4D89FCE94.quest_subtitle: "{count:1,id:\"netherdepthsupgrade:warped_seagrass\"}"
@@ -20063,6 +20037,7 @@
 	quest.68F033C92A24E4B2.quest_subtitle: "{count:1,id:\"dramaticdoors:short_transwood_door\"}"
 	quest.68F0C1835F0C3D44.quest_subtitle: "{count:1,id:\"cluttered:tarrey_town_planter_yellow\"}"
 	quest.68F409A548AA10CF.quest_subtitle: "{count:1,id:\"regions_unexplored:poppy_bush\"}"
+	quest.68F4901B115FF9E0.quest_desc: ["The &bFishing Eye&r is said to have once belonged to an &eAncient Mariner&r, who lost his eye in a fight with a fearsome sea serpent. He replaced his eye with this item, but upon his death, he was buried with it at sea. Perhaps you could be so lucky as to &afish it up&r."]
 	quest.68F59BF193DDAD2F.quest_subtitle: "{count:1,id:\"cluttered:deep_chalcedony_border\"}"
 	quest.68F8133A3004F9DD.quest_subtitle: "{count:1,id:\"create:yellow_valve_handle\"}"
 	quest.68F8ECC2EBBB77EB.quest_subtitle: "{count:1,id:\"supplementaries:hexerei/way_sign_mahogany\"}"
@@ -22430,7 +22405,7 @@
 	quest.7577B875FF0D0F68.quest_subtitle: "{count:1,id:\"cluttered:fluorescent_maple_wainscoting\"}"
 	quest.75783342A03A3279.quest_subtitle: "{count:1,id:\"twilightforest:ender_bow\"}"
 	quest.7578425C8CA9F021.quest_subtitle: "{count:1,id:\"regions_unexplored:socotra_leaves\"}"
-	quest.75794697E256EFCC.quest_desc: ["c o m b i n e"]
+	quest.75794697E256EFCC.quest_desc: ["Once you have &acombined those &bSherds&r, you'll have a &bDecorated Pot&r, into which you can &aplace things&r! I don't have any &bRupees&r, but here, try these &bEmeralds&r."]
 	quest.75794697E256EFCC.quest_subtitle: "its pronounced \"shERRds\""
 	quest.75794697E256EFCC.title: "Combine Four Pottery Sherds"
 	quest.757BA8C7564C3B14.quest_subtitle: "{count:1,id:\"tide:grilled_tuna\"}"
@@ -23422,10 +23397,11 @@
 		""
 		"&bYerba Mate&r is a strongly stimulating tea, making it &agood for fatigue&r or other such maladies. It does not grant ingame effects."
 		""
-		"&bDandelion Tea&r is made by steeping Dandelion root, and is used as a replacement for coffee. It will also grant you the &bComforting&r effect, which &akeeps you healing regardless of hunger&r."
+		"&bRibwort Tea&r"
 		""
-		"&bRose Hip Tea&r is a delicious floral which can aid in &aglamour spells, good luck, and prosperity&r! and Additionally, it will grant you a small amount of &bRegeneration&r!"
+		"&bNettle Tea&r"
 	]
+	quest.7B3D377F253BFF4A.quest_subtitle: "edit me"
 	quest.7B3D377F253BFF4A.title: "Herbal Teas"
 	quest.7B4014C2F59F1FF7.quest_subtitle: "{count:1,id:\"creeperoverhaul:dripstone_creeper_spawn_egg\"}"
 	quest.7B445811799DAA81.quest_subtitle: "{count:1,id:\"decorativerailings:dark_oak_left_handrail_connector_3\"}"
@@ -24428,10 +24404,10 @@
 	task.3B66FE756544A418.title: "Ultimate Flower Enthusiast"
 	task.3BD829D71C66750D.title: "Gaining Reputation"
 	task.3EA2A91B9185E0EB.title: "Break Tomato Shrub"
+	task.3F776B899C478AFD.title: "Any #tarotcards:tarot_cards"
 	task.3FB69B6E90475B69.title: "Saving Experience"
 	task.3FDFA4E6F598EBD6.title: "Break Wild Oat"
 	task.42497F16D74CB8FF.title: "Any #c:butter"
-	task.43A2C85BFE514C33.title: "Unknown type: potion_effect"
 	task.44C7FF9AB52D6788.title: "Costs 1 Crown"
 	task.45186AA69114C7B3.title: "Costs 1 Cog"
 	task.46CE5319FC2CF31B.title: "Break Wild Barley"
@@ -24467,7 +24443,6 @@
 	task.65C18F6415665884.title: "Pin a Quest or Note"
 	task.65F6811A7FA63CCC.title: "Break Wild Potato"
 	task.6786877EA87F929C.title: "Break Wild Emmer"
-	task.68E487C9B494B632.title: "Unknown type: questsadditions:use"
 	task.6C5BC7D99F986162.title: "Catalogue 10 Plants"
 	task.6CFA8867F65465D2.title: "Catalogue 5 Plants"
 	task.6EC3A1D0F373858B.title: "Costs 1 Cog"
@@ -24479,6 +24454,7 @@
 	task.71D8DB66FFBA29DA.title: "Upgrade Your Backpack"
 	task.72B0AB04DADAEDAD.title: "Costs 3 Spurs"
 	task.7322E142A1A29576.title: "Break Wild Red Grapes"
+	task.74CC99CDD7A85AA2.title: "Any #c:eyes"
 	task.75D978C04D89D204.title: "Find the Aurora Palace"
 	task.79FA55CD653C94B5.title: "Catalog 100 Plants"
 	task.7A5F74FCC0FF28AD.title: "Skull or Head"

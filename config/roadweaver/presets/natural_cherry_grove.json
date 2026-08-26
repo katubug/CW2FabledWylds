@@ -5,7 +5,9 @@
   "materials": [
     "minecraft:dirt_path",
     "minecraft:moss_block",
-    "minecraft:coarse_dirt"
+    "minecraft:coarse_dirt",
+    "environmental:dirt_path",
+    "environmental:podzol_path"
   ],
   "slabMaterials": [
     "minecraft:cherry_slab"

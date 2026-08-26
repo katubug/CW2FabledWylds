@@ -58,23 +58,30 @@
 			id: "1F8B3B9C1641187E"
 			rewards: [
 				{
-					id: "3421A8D3711173EB"
+					exclude_from_claim_all: true
+					id: "21C5D7DEE32E8716"
+					is_ender: false
+					is_team_reward: false
 					item: {
-						components: {
-							"ftbquests:missing_item": "waystones:warp_scroll"
-						}
 						count: 1
-						id: "ftbquests:missing_item"
+						id: "waystones:warp_scroll"
 					}
-					type: "item"
+					target_addressee: "QuestNPC"
+					team_reward_multiplier: 1.0f
+					type: "contactquests:parcel"
 				}
 				{
-					id: "2ABEC5AC6BE551ED"
+					exclude_from_claim_all: true
+					id: "3E963EAC839A2043"
+					is_ender: false
+					is_team_reward: false
 					item: {
 						count: 1
 						id: "minecraft:map"
 					}
-					type: "item"
+					target_addressee: "QuestNPC"
+					team_reward_multiplier: 1.0f
+					type: "contactquests:parcel"
 				}
 			]
 			tasks: [{
@@ -91,6 +98,16 @@
 		{
 			dependencies: ["1F8B3B9C1641187E"]
 			id: "6C3861D0B545A88F"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1EE3C877E6BA71B5"
+				is_ender: false
+				is_team_reward: false
+				table_id: 6895470215093009548L
+				target_addressee: "QuestNPC"
+				team_reward_multiplier: 1.0f
+				type: "contactquests:parcel_random"
+			}]
 			shape: "hexagon"
 			tasks: [{
 				id: "3DF907434FE2ECAB"
@@ -103,10 +120,24 @@
 		{
 			dependencies: ["1F8B3B9C1641187E"]
 			id: "4D77214933327DFB"
+			rewards: [{
+				count: 2
+				exclude_from_claim_all: true
+				id: "499BE6FC5127D7B6"
+				is_ender: false
+				is_team_reward: false
+				item: {
+					count: 1
+					id: "the_bumblezone:sugar_water_bottle"
+				}
+				target_addressee: "QuestNPC"
+				team_reward_multiplier: 1.0f
+				type: "contactquests:parcel"
+			}]
 			tasks: [{
 				amplifier: -1
 				effect: "the_bumblezone:wrath_of_the_hive"
-				id: "43A2C85BFE514C33"
+				id: "3C322473C90CE16F"
 				type: "potion_effect"
 			}]
 			x: -6.5d
@@ -116,13 +147,14 @@
 			dependencies: ["1F8B3B9C1641187E"]
 			id: "0ADE58E9E0DFD059"
 			rewards: [{
-				count: 3
-				id: "578436146F12C99E"
-				item: {
-					count: 1
-					id: "minecraft:honey_bottle"
-				}
-				type: "item"
+				exclude_from_claim_all: true
+				id: "7085EB5D3D428780"
+				is_ender: false
+				is_team_reward: false
+				table_id: 5770973074849872376L
+				target_addressee: "QuestNPC"
+				team_reward_multiplier: 1.0f
+				type: "contactquests:parcel_random"
 			}]
 			tasks: [{
 				id: "1DA350B7B461B3AC"
@@ -149,6 +181,16 @@
 		{
 			dependencies: ["2602582F440361DB"]
 			id: "4482909B2A137E38"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2C5ABD71E7FCC477"
+				is_ender: false
+				is_team_reward: false
+				table_id: 7328857662613080212L
+				target_addressee: "QuestNPC"
+				team_reward_multiplier: 1.0f
+				type: "contactquests:parcel_random"
+			}]
 			shape: "octagon"
 			tasks: [{
 				advancement: "the_bumblezone:tools/craft_honey_compass"
@@ -174,9 +216,13 @@
 				}
 				{
 					exclude_from_claim_all: true
-					id: "46031815AD60F620"
-					table_id: 5651126569320430640L
-					type: "choice"
+					id: "6BF5A7FEA396530A"
+					is_ender: false
+					is_team_reward: false
+					table_id: 7159471207534106979L
+					target_addressee: "QuestNPC"
+					team_reward_multiplier: 1.0f
+					type: "contactquests:parcel_random"
 				}
 			]
 			tasks: [{
@@ -196,6 +242,16 @@
 		{
 			dependencies: ["4DFEEDE1DAACD8B7"]
 			id: "635FE9332FFCE4A7"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0E3BF66E175948F4"
+				is_ender: false
+				is_team_reward: false
+				table_id: 5167086515396975209L
+				target_addressee: "QuestNPC"
+				team_reward_multiplier: 1.0f
+				type: "contactquests:parcel_random"
+			}]
 			shape: "hexagon"
 			tasks: [{
 				id: "21E2DEAE71E6BBEE"
@@ -210,18 +266,27 @@
 			id: "394A179160EB4AE8"
 			rewards: [
 				{
-					id: "6D08D28EFD2D4982"
-					type: "xp"
-					xp: 150
-				}
-				{
-					count: 10
-					id: "4F7A8CFF28114CF1"
+					exclude_from_claim_all: true
+					id: "7B95C95EBEFD7FE9"
+					is_ender: false
+					is_team_reward: false
 					item: {
 						count: 1
-						id: "the_bumblezone:bee_bread"
+						id: "minecraft:experience_bottle"
 					}
-					type: "item"
+					target_addressee: "QuestNPC"
+					team_reward_multiplier: 1.0f
+					type: "contactquests:parcel"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "47C859AB42AB7098"
+					is_ender: false
+					is_team_reward: false
+					table_id: 7328857662613080212L
+					target_addressee: "QuestNPC"
+					team_reward_multiplier: 1.0f
+					type: "contactquests:parcel_random"
 				}
 			]
 			tasks: [
@@ -254,18 +319,27 @@
 			id: "1ACFAAF917E5016A"
 			rewards: [
 				{
-					id: "3E977BE907EFAC07"
-					type: "xp"
-					xp: 150
-				}
-				{
-					count: 10
-					id: "7DC3F1D7635BDB43"
+					exclude_from_claim_all: true
+					id: "2379F82F7CB21C27"
+					is_ender: false
+					is_team_reward: false
 					item: {
 						count: 1
-						id: "the_bumblezone:bee_bread"
+						id: "minecraft:experience_bottle"
 					}
-					type: "item"
+					target_addressee: "QuestNPC"
+					team_reward_multiplier: 1.0f
+					type: "contactquests:parcel"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5CB660887060655D"
+					is_ender: false
+					is_team_reward: false
+					table_id: 7328857662613080212L
+					target_addressee: "QuestNPC"
+					team_reward_multiplier: 1.0f
+					type: "contactquests:parcel_random"
 				}
 			]
 			tasks: [
@@ -343,9 +417,13 @@
 			id: "45FE520AC009290F"
 			rewards: [{
 				exclude_from_claim_all: true
-				id: "02294440E6F5FAE5"
-				table_id: 5651126569320430640L
-				type: "choice"
+				id: "42BB4A977871C040"
+				is_ender: false
+				is_team_reward: false
+				table_id: 7159471207534106979L
+				target_addressee: "QuestNPC"
+				team_reward_multiplier: 1.0f
+				type: "contactquests:parcel_random"
 			}]
 			tasks: [{
 				icon: {
@@ -374,9 +452,13 @@
 			id: "49EA7F3135E2CC74"
 			rewards: [{
 				exclude_from_claim_all: true
-				id: "2DFD08B0FA09749E"
-				table_id: 5651126569320430640L
-				type: "choice"
+				id: "33E4151465DEA557"
+				is_ender: false
+				is_team_reward: false
+				table_id: 7159471207534106979L
+				target_addressee: "QuestNPC"
+				team_reward_multiplier: 1.0f
+				type: "contactquests:parcel_random"
 			}]
 			tasks: [{
 				icon: {

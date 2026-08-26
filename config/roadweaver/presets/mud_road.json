@@ -4,7 +4,10 @@
   "type": "ARTIFICIAL",
   "materials": [
     "minecraft:mud_bricks",
-    "minecraft:packed_mud"
+    "minecraft:packed_mud",
+    "arts_and_crafts:brown_mud_bricks",
+    "betterarcheology:cracked_mud_bricks",
+    "environmental:smooth_mud"
   ],
   "slabMaterials": [
     "minecraft:mud_brick_slab"

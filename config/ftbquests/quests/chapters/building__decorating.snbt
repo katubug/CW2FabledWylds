@@ -333,8 +333,14 @@
 			dependencies: ["226368447EC1C9A9"]
 			id: "15781BD4547097E9"
 			rewards: [{
-				id: "47EEDE998B2D4F94"
-				type: "choice"
+				exclude_from_claim_all: true
+				id: "69F234A253351BE7"
+				is_ender: false
+				is_team_reward: false
+				table_id: 5770973074849872376L
+				target_addressee: "QuestNPC"
+				team_reward_multiplier: 1.0f
+				type: "contactquests:parcel_random"
 			}]
 			tasks: [
 				{

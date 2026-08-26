@@ -26,24 +26,35 @@
 			id: "19ED6330FD3E968C"
 			rewards: [
 				{
-					id: "7B03ECB960F43CA2"
-					type: "loot"
-				}
-				{
 					count: 4
-					id: "66F840ADEF6868F0"
+					exclude_from_claim_all: true
+					id: "019C47F7E8CCBCE0"
+					is_ender: false
+					is_team_reward: false
 					item: {
 						count: 1
 						id: "minecraft:ender_pearl"
 					}
-					type: "item"
+					target_addressee: "QuestNPC"
+					team_reward_multiplier: 1.0f
+					type: "contactquests:parcel"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7D363A8A78FDBA64"
+					is_ender: false
+					is_team_reward: false
+					table_id: 5770973074849872376L
+					target_addressee: "QuestNPC"
+					team_reward_multiplier: 1.0f
+					type: "contactquests:parcel_random"
 				}
 			]
 			shape: "rsquare"
 			size: 2.0d
 			tasks: [{
-				id: "34F6F942C59B30BF"
-				item: { components: { "ftbfiltersystem:filter": "or(item_tag(forge:eyes))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				id: "74CC99CDD7A85AA2"
+				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(c:eyes)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
 			x: 0.0d
@@ -52,12 +63,28 @@
 		{
 			dependencies: ["19ED6330FD3E968C"]
 			id: "1689A10C4DBBE5B0"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "3E71893970FB14C4"
-				table_id: 7707783220386620668L
-				type: "choice"
-			}]
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "28340D93B904D718"
+					is_ender: false
+					is_team_reward: false
+					table_id: 7707783220386620668L
+					target_addressee: "QuestNPC"
+					team_reward_multiplier: 1.0f
+					type: "contactquests:parcel_random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "64D0525F02FCDB23"
+					is_ender: false
+					is_team_reward: false
+					table_id: 5770973074849872376L
+					target_addressee: "QuestNPC"
+					team_reward_multiplier: 1.0f
+					type: "contactquests:parcel_random"
+				}
+			]
 			shape: "hexagon"
 			tasks: [{
 				id: "0AB9F107629AD0F7"
@@ -70,12 +97,28 @@
 		{
 			dependencies: ["19ED6330FD3E968C"]
 			id: "2C24C18C174AD842"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "59D5819F6A1DF3BA"
-				table_id: 7707783220386620668L
-				type: "choice"
-			}]
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "3B51536F66435F54"
+					is_ender: false
+					is_team_reward: false
+					table_id: 7707783220386620668L
+					target_addressee: "QuestNPC"
+					team_reward_multiplier: 1.0f
+					type: "contactquests:parcel_random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "574266CC45338E69"
+					is_ender: false
+					is_team_reward: false
+					table_id: 5770973074849872376L
+					target_addressee: "QuestNPC"
+					team_reward_multiplier: 1.0f
+					type: "contactquests:parcel_random"
+				}
+			]
 			shape: "hexagon"
 			tasks: [{
 				id: "1F5C79ECEC9F9E1D"
@@ -104,16 +147,32 @@
 		{
 			dependencies: ["19ED6330FD3E968C"]
 			id: "59B0992CDA1B5797"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "57E86B80B8DABCFB"
-				table_id: 7707783220386620668L
-				type: "choice"
-			}]
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "1176D169DDE9F9E6"
+					is_ender: false
+					is_team_reward: false
+					table_id: 7707783220386620668L
+					target_addressee: "QuestNPC"
+					team_reward_multiplier: 1.0f
+					type: "contactquests:parcel_random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4FD594540932C0A3"
+					is_ender: false
+					is_team_reward: false
+					table_id: 5770973074849872376L
+					target_addressee: "QuestNPC"
+					team_reward_multiplier: 1.0f
+					type: "contactquests:parcel_random"
+				}
+			]
 			shape: "hexagon"
 			tasks: [{
-				id: "58361D1901173A62"
-				item: { }
+				id: "4503BA50320D6096"
+				item: { count: 1, id: "endrem:rogue_eye" }
 				type: "item"
 			}]
 			x: -3.5d
@@ -122,12 +181,28 @@
 		{
 			dependencies: ["19ED6330FD3E968C"]
 			id: "3278B2F717A8F374"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "11D711C47166B750"
-				table_id: 7707783220386620668L
-				type: "choice"
-			}]
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "25D25D55806BBDFE"
+					is_ender: false
+					is_team_reward: false
+					table_id: 7707783220386620668L
+					target_addressee: "QuestNPC"
+					team_reward_multiplier: 1.0f
+					type: "contactquests:parcel_random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "632AA93C9C4D0237"
+					is_ender: false
+					is_team_reward: false
+					table_id: 5770973074849872376L
+					target_addressee: "QuestNPC"
+					team_reward_multiplier: 1.0f
+					type: "contactquests:parcel_random"
+				}
+			]
 			shape: "hexagon"
 			tasks: [{
 				id: "1FBCA3F2D130D48F"
@@ -140,12 +215,28 @@
 		{
 			dependencies: ["19ED6330FD3E968C"]
 			id: "2DCD3962DBC7E1F4"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "44335C7AD6A4DF74"
-				table_id: 7707783220386620668L
-				type: "choice"
-			}]
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "79650B7AD7C3AC48"
+					is_ender: false
+					is_team_reward: false
+					table_id: 7707783220386620668L
+					target_addressee: "QuestNPC"
+					team_reward_multiplier: 1.0f
+					type: "contactquests:parcel_random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "68C03F1600D09E59"
+					is_ender: false
+					is_team_reward: false
+					table_id: 5770973074849872376L
+					target_addressee: "QuestNPC"
+					team_reward_multiplier: 1.0f
+					type: "contactquests:parcel_random"
+				}
+			]
 			shape: "hexagon"
 			tasks: [{
 				id: "6F5AB50C27E984E7"
@@ -158,12 +249,28 @@
 		{
 			dependencies: ["19ED6330FD3E968C"]
 			id: "393FED910B541631"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "798DF96B9837235D"
-				table_id: 7707783220386620668L
-				type: "choice"
-			}]
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "0A098AC922D3F484"
+					is_ender: false
+					is_team_reward: false
+					table_id: 7707783220386620668L
+					target_addressee: "QuestNPC"
+					team_reward_multiplier: 1.0f
+					type: "contactquests:parcel_random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6B007EBD3BC26FA3"
+					is_ender: false
+					is_team_reward: false
+					table_id: 5770973074849872376L
+					target_addressee: "QuestNPC"
+					team_reward_multiplier: 1.0f
+					type: "contactquests:parcel_random"
+				}
+			]
 			shape: "hexagon"
 			tasks: [{
 				id: "6EB8191E6422D6E8"
@@ -176,12 +283,28 @@
 		{
 			dependencies: ["19ED6330FD3E968C"]
 			id: "513067CD571D369E"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "16866C8BC1B49A76"
-				table_id: 7707783220386620668L
-				type: "choice"
-			}]
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "22DBCCE762252C63"
+					is_ender: false
+					is_team_reward: false
+					table_id: 7707783220386620668L
+					target_addressee: "QuestNPC"
+					team_reward_multiplier: 1.0f
+					type: "contactquests:parcel_random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6E959A89EBB7E348"
+					is_ender: false
+					is_team_reward: false
+					table_id: 5770973074849872376L
+					target_addressee: "QuestNPC"
+					team_reward_multiplier: 1.0f
+					type: "contactquests:parcel_random"
+				}
+			]
 			shape: "hexagon"
 			tasks: [{
 				id: "21DFE47B30E241A4"
@@ -194,12 +317,28 @@
 		{
 			dependencies: ["19ED6330FD3E968C"]
 			id: "0ED4E7CE946E5F48"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "6546FCC5018CB0A3"
-				table_id: 7707783220386620668L
-				type: "choice"
-			}]
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "7BD6BF9F036C7E98"
+					is_ender: false
+					is_team_reward: false
+					table_id: 7707783220386620668L
+					target_addressee: "QuestNPC"
+					team_reward_multiplier: 1.0f
+					type: "contactquests:parcel_random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "724554DCBC10A9CA"
+					is_ender: false
+					is_team_reward: false
+					table_id: 5770973074849872376L
+					target_addressee: "QuestNPC"
+					team_reward_multiplier: 1.0f
+					type: "contactquests:parcel_random"
+				}
+			]
 			shape: "hexagon"
 			tasks: [{
 				id: "277FB00BFBEBAC58"
@@ -212,12 +351,28 @@
 		{
 			dependencies: ["19ED6330FD3E968C"]
 			id: "13555E89D6122D88"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "46A71C1A85887BEC"
-				table_id: 7707783220386620668L
-				type: "choice"
-			}]
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "6A87E48C92B84168"
+					is_ender: false
+					is_team_reward: false
+					table_id: 7707783220386620668L
+					target_addressee: "QuestNPC"
+					team_reward_multiplier: 1.0f
+					type: "contactquests:parcel_random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "15E90FD45858FAC1"
+					is_ender: false
+					is_team_reward: false
+					table_id: 5770973074849872376L
+					target_addressee: "QuestNPC"
+					team_reward_multiplier: 1.0f
+					type: "contactquests:parcel_random"
+				}
+			]
 			shape: "hexagon"
 			tasks: [{
 				id: "64CC7ACA72208D69"
@@ -230,16 +385,32 @@
 		{
 			dependencies: ["19ED6330FD3E968C"]
 			id: "2356716DE94666CF"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "45EF02BC028B69D6"
-				table_id: 7707783220386620668L
-				type: "choice"
-			}]
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "0E98888731827315"
+					is_ender: false
+					is_team_reward: false
+					table_id: 7707783220386620668L
+					target_addressee: "QuestNPC"
+					team_reward_multiplier: 1.0f
+					type: "contactquests:parcel_random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5B1B73C323C24254"
+					is_ender: false
+					is_team_reward: false
+					table_id: 5770973074849872376L
+					target_addressee: "QuestNPC"
+					team_reward_multiplier: 1.0f
+					type: "contactquests:parcel_random"
+				}
+			]
 			shape: "hexagon"
 			tasks: [{
-				id: "168060C4F3E854E7"
-				item: { }
+				id: "55EA9926AAA426E9"
+				item: { count: 1, id: "endrem:cursed_eye" }
 				type: "item"
 			}]
 			x: -5.0d
@@ -264,12 +435,28 @@
 		{
 			dependencies: ["19ED6330FD3E968C"]
 			id: "3AADAC34ECDEF891"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "10C486355C05FB0A"
-				table_id: 7707783220386620668L
-				type: "choice"
-			}]
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "3DCCFEF36B80DE6D"
+					is_ender: false
+					is_team_reward: false
+					table_id: 7707783220386620668L
+					target_addressee: "QuestNPC"
+					team_reward_multiplier: 1.0f
+					type: "contactquests:parcel_random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "27A1FEFA61CCA397"
+					is_ender: false
+					is_team_reward: false
+					table_id: 5770973074849872376L
+					target_addressee: "QuestNPC"
+					team_reward_multiplier: 1.0f
+					type: "contactquests:parcel_random"
+				}
+			]
 			shape: "hexagon"
 			tasks: [{
 				id: "1698112600C02176"
@@ -282,12 +469,28 @@
 		{
 			dependencies: ["19ED6330FD3E968C"]
 			id: "537CCA9E121868CC"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "58624D9FAD24CB4C"
-				table_id: 7707783220386620668L
-				type: "choice"
-			}]
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "7276360589345234"
+					is_ender: false
+					is_team_reward: false
+					table_id: 7707783220386620668L
+					target_addressee: "QuestNPC"
+					team_reward_multiplier: 1.0f
+					type: "contactquests:parcel_random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0F06072EF30EC87D"
+					is_ender: false
+					is_team_reward: false
+					table_id: 5770973074849872376L
+					target_addressee: "QuestNPC"
+					team_reward_multiplier: 1.0f
+					type: "contactquests:parcel_random"
+				}
+			]
 			shape: "hexagon"
 			tasks: [{
 				id: "34B655A1388E1E57"
@@ -422,18 +625,6 @@
 		{
 			dependencies: ["09ED0DFEB72DFD71"]
 			id: "47639E492B01312E"
-			rewards: [{
-				count: 10
-				id: "547EB81D9B0E9862"
-				item: {
-					components: {
-						"ftbquests:missing_item": "ends_delight:chorus_flower_tea"
-					}
-					count: 1
-					id: "ftbquests:missing_item"
-				}
-				type: "item"
-			}]
 			shape: "octagon"
 			tasks: [{
 				advancement: "minecraft:end/find_end_city"
@@ -445,96 +636,19 @@
 			y: -2.5d
 		}
 		{
-			dependencies: ["09ED0DFEB72DFD71"]
-			id: "45FC361963CE4FA6"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "7CFD6120F390B909"
-				type: "choice"
-			}]
-			shape: "octagon"
-			tasks: [{
-				icon: {
-					id: "minecraft:map"
-				}
-				id: "73EF70818A7D95C8"
-				structure: "stellarity:village"
-				type: "structure"
-			}]
-			x: 4.0d
-			y: 2.0d
-		}
-		{
-			dependencies: ["09ED0DFEB72DFD71"]
-			id: "4BC766F17ADDBE77"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "51B635373F6F6EB7"
-				type: "loot"
-			}]
-			shape: "octagon"
-			tasks: [{
-				biome: "far_end:amethyst_forest"
-				icon: {
-					id: "minecraft:amethyst_cluster"
-				}
-				id: "28407BD4AC914DF7"
-				type: "biome"
-			}]
-			x: 2.5d
-			y: 2.5d
-		}
-		{
-			dependencies: ["09ED0DFEB72DFD71"]
-			id: "35BBB767F2EA1FA1"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "688EAB59B6BC9383"
-				table_id: 5525848455660196930L
-				type: "choice"
-			}]
-			shape: "octagon"
-			tasks: [{
-				icon: {
-					id: "minecraft:cherry_leaves"
-				}
-				id: "157EA29D0861EF70"
-				structure: "stellarity:chapel_of_light"
-				type: "structure"
-			}]
-			x: 4.0d
-			y: -2.0d
-		}
-		{
-			dependencies: ["09ED0DFEB72DFD71"]
-			id: "22B1A539154545B6"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "359642B35E39A222"
-				type: "choice"
-			}]
-			shape: "octagon"
-			tasks: [{
-				biome: "stellarity:the_hallow"
-				icon: {
-					id: "minecraft:lilac"
-				}
-				id: "07AF0EDCCAC2282A"
-				type: "biome"
-			}]
-			x: 1.0d
-			y: -2.0d
-		}
-		{
 			id: "5D1EFA0ECBE9891C"
 			rewards: [{
-				count: 4
-				id: "58896531B8FF1891"
+				exclude_from_claim_all: true
+				id: "5980009048850117"
+				is_ender: false
+				is_team_reward: false
 				item: {
 					count: 1
 					id: "minecraft:cobweb"
 				}
-				type: "item"
+				target_addressee: "QuestNPC"
+				team_reward_multiplier: 1.0f
+				type: "contactquests:parcel"
 			}]
 			shape: "hexagon"
 			tasks: [{
@@ -544,6 +658,142 @@
 			}]
 			x: -1.0d
 			y: 2.5d
+		}
+		{
+			dependencies: ["19ED6330FD3E968C"]
+			id: "26FD7EF75B2303E8"
+			preset: "item"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "418E332841718C66"
+					is_ender: false
+					is_team_reward: false
+					table_id: 7707783220386620668L
+					target_addressee: "QuestNPC"
+					team_reward_multiplier: 1.0f
+					type: "contactquests:parcel_random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2DA94A44CA232FB7"
+					is_ender: false
+					is_team_reward: false
+					table_id: 5770973074849872376L
+					target_addressee: "QuestNPC"
+					team_reward_multiplier: 1.0f
+					type: "contactquests:parcel_random"
+				}
+			]
+			tasks: [{
+				id: "5716CDD158CFB059"
+				item: { count: 1, id: "endrem:trial_eye" }
+				type: "item"
+			}]
+			x: -6.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["19ED6330FD3E968C"]
+			id: "126325966A77DF87"
+			preset: "item"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "5322C38D84A8DC7D"
+					is_ender: false
+					is_team_reward: false
+					table_id: 7707783220386620668L
+					target_addressee: "QuestNPC"
+					team_reward_multiplier: 1.0f
+					type: "contactquests:parcel_random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "45981F2952B0604B"
+					is_ender: false
+					is_team_reward: false
+					table_id: 5770973074849872376L
+					target_addressee: "QuestNPC"
+					team_reward_multiplier: 1.0f
+					type: "contactquests:parcel_random"
+				}
+			]
+			tasks: [{
+				id: "53E9EDD60A036094"
+				item: { count: 1, id: "endrem:sculk_eye" }
+				type: "item"
+			}]
+			x: -6.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["19ED6330FD3E968C"]
+			id: "2DB9642460401BB0"
+			preset: "item"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "6B0182F192EE6A30"
+					is_ender: false
+					is_team_reward: false
+					table_id: 7707783220386620668L
+					target_addressee: "QuestNPC"
+					team_reward_multiplier: 1.0f
+					type: "contactquests:parcel_random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0E1A6DEA3231801E"
+					is_ender: false
+					is_team_reward: false
+					table_id: 5770973074849872376L
+					target_addressee: "QuestNPC"
+					team_reward_multiplier: 1.0f
+					type: "contactquests:parcel_random"
+				}
+			]
+			tasks: [{
+				id: "464F4017A842ECB1"
+				item: { count: 1, id: "endrem:potato_eye" }
+				type: "item"
+			}]
+			x: -6.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["19ED6330FD3E968C"]
+			id: "68F4901B115FF9E0"
+			preset: "item"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "0FA30F2297BFB077"
+					is_ender: false
+					is_team_reward: false
+					table_id: 7707783220386620668L
+					target_addressee: "QuestNPC"
+					team_reward_multiplier: 1.0f
+					type: "contactquests:parcel_random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "485B3DF76C9EDB3C"
+					is_ender: false
+					is_team_reward: false
+					table_id: 5770973074849872376L
+					target_addressee: "QuestNPC"
+					team_reward_multiplier: 1.0f
+					type: "contactquests:parcel_random"
+				}
+			]
+			tasks: [{
+				id: "3A80F478FB7526DB"
+				item: { count: 1, id: "endrem:fishing_eye" }
+				type: "item"
+			}]
+			x: -6.0d
+			y: 1.5d
 		}
 	]
 }

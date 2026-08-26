@@ -342,8 +342,8 @@
 			}]
 			shape: "hexagon"
 			tasks: [{
-				id: "466C66B566A8D6D6"
-				item: { }
+				id: "3F776B899C478AFD"
+				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(tarotcards:tarot_cards)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
 			x: 4.5d

@@ -72,7 +72,7 @@
 			click_action: "none:"
 			height: 7.0d
 			id: "2F33F2564A98C14A"
-			image: "gabrielequests-mannequin:head=hexerei:witch_helmet,chest=fantasy_armor:lady_maria_chestplate,legs=fantasy_armor:malenia_leggings,feet=hexerei:witch_boots,main=roots:staff,off=,rot=342x-10"
+			image: "gabrielequests-mannequin:head=hexerei:witch_helmet,chest=hexerei:witch_chestplate,legs=fantasy_armor:malenia_leggings,feet=hexerei:witch_boots,main=roots:staff,off=,rot=342x-10"
 			rotation: 0.0d
 			width: 1.0d
 			x: 9.5d
@@ -87,9 +87,17 @@
 		{
 			id: "226D1B09B2958EFC"
 			rewards: [{
-				id: "2F283F7FB47A65D3"
-				type: "xp"
-				xp: 108
+				exclude_from_claim_all: true
+				id: "052140B59D778437"
+				is_ender: false
+				is_team_reward: false
+				item: {
+					count: 1
+					id: "minecraft:experience_bottle"
+				}
+				target_addressee: "QuestNPC"
+				team_reward_multiplier: 1.0f
+				type: "contactquests:parcel"
 			}]
 			shape: "thought"
 			size: 1.0d
@@ -102,19 +110,19 @@
 		}
 		{
 			id: "171D4EACF7B9F4D5"
-			rewards: [
-				{
-					exclude_from_claim_all: true
-					id: "74D43587F0800BAC"
-					table_id: 6895470215093009548L
-					type: "random"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "687709C126CC3338"
+				is_ender: false
+				is_team_reward: false
+				item: {
+					count: 1
+					id: "minecraft:experience_bottle"
 				}
-				{
-					id: "798B932A28CC741C"
-					type: "xp"
-					xp: 102
-				}
-			]
+				target_addressee: "QuestNPC"
+				team_reward_multiplier: 1.0f
+				type: "contactquests:parcel"
+			}]
 			shape: "thought"
 			tasks: [{
 				id: "4B25469609B1A60C"
@@ -127,9 +135,17 @@
 			id: "26D8EAD9D892805E"
 			min_width: 350
 			rewards: [{
-				id: "6067B009B70026DB"
-				type: "xp"
-				xp: 103
+				exclude_from_claim_all: true
+				id: "3802B98E4ECD5544"
+				is_ender: false
+				is_team_reward: false
+				item: {
+					count: 1
+					id: "minecraft:experience_bottle"
+				}
+				target_addressee: "QuestNPC"
+				team_reward_multiplier: 1.0f
+				type: "contactquests:parcel"
 			}]
 			shape: "thought"
 			size: 1.0d
@@ -143,21 +159,19 @@
 		{
 			dependencies: ["26D8EAD9D892805E"]
 			id: "20F9C02AF5CBE665"
-			rewards: [
-				{
-					id: "193F56FAD5A4D08C"
-					item: {
-						count: 1
-						id: "minecraft:ender_pearl"
-					}
-					type: "item"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "44179D9055BDC806"
+				is_ender: false
+				is_team_reward: false
+				item: {
+					count: 1
+					id: "minecraft:experience_bottle"
 				}
-				{
-					id: "2EE84A62783AFEB3"
-					type: "xp"
-					xp: 104
-				}
-			]
+				target_addressee: "QuestNPC"
+				team_reward_multiplier: 1.0f
+				type: "contactquests:parcel"
+			}]
 			shape: "thought"
 			tasks: [{
 				id: "5D2FC3F7E82A27A3"
@@ -170,9 +184,17 @@
 			id: "51383D499E0DF0DA"
 			min_width: 350
 			rewards: [{
-				id: "087C803B19537A4C"
-				type: "xp"
-				xp: 105
+				exclude_from_claim_all: true
+				id: "6B23859A30A961C9"
+				is_ender: false
+				is_team_reward: false
+				item: {
+					count: 1
+					id: "minecraft:experience_bottle"
+				}
+				target_addressee: "QuestNPC"
+				team_reward_multiplier: 1.0f
+				type: "contactquests:parcel"
 			}]
 			shape: "thought"
 			size: 1.0d
@@ -187,9 +209,17 @@
 			dependencies: ["51383D499E0DF0DA"]
 			id: "1E43FCEBA416DCFF"
 			rewards: [{
-				id: "5D9376B26A3CE85B"
-				type: "xp"
-				xp: 106
+				exclude_from_claim_all: true
+				id: "0418D3D08D8C082D"
+				is_ender: false
+				is_team_reward: false
+				item: {
+					count: 1
+					id: "minecraft:experience_bottle"
+				}
+				target_addressee: "QuestNPC"
+				team_reward_multiplier: 1.0f
+				type: "contactquests:parcel"
 			}]
 			shape: "thought"
 			tasks: [{
@@ -214,9 +244,17 @@
 		{
 			id: "5763626E3E3E440B"
 			rewards: [{
-				id: "2CF6D804BF74D6B0"
-				type: "xp"
-				xp: 107
+				exclude_from_claim_all: true
+				id: "2DB46143D07B94DF"
+				is_ender: false
+				is_team_reward: false
+				item: {
+					count: 1
+					id: "minecraft:experience_bottle"
+				}
+				target_addressee: "QuestNPC"
+				team_reward_multiplier: 1.0f
+				type: "contactquests:parcel"
 			}]
 			shape: "thought"
 			size: 1.0d
@@ -231,9 +269,17 @@
 			id: "4B09C2508E25AD2B"
 			preset: "info"
 			rewards: [{
-				id: "1A85B933DFDA69B5"
-				type: "xp"
-				xp: 101
+				exclude_from_claim_all: true
+				id: "1D8BBD8662B7BCA6"
+				is_ender: false
+				is_team_reward: false
+				item: {
+					count: 1
+					id: "minecraft:experience_bottle"
+				}
+				target_addressee: "QuestNPC"
+				team_reward_multiplier: 1.0f
+				type: "contactquests:parcel"
 			}]
 			shape: "gear"
 			tasks: [{
@@ -248,9 +294,16 @@
 			preset: "info"
 			rewards: [{
 				exclude_from_claim_all: true
-				id: "2265D12DAE530117"
-				table_id: 6895470215093009548L
-				type: "random"
+				id: "6F1C666A6CDCCF30"
+				is_ender: false
+				is_team_reward: false
+				item: {
+					count: 1
+					id: "minecraft:experience_bottle"
+				}
+				target_addressee: "QuestNPC"
+				team_reward_multiplier: 1.0f
+				type: "contactquests:parcel"
 			}]
 			tasks: [{
 				id: "27302BB3BA0A0300"

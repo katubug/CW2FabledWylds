@@ -1,0 +1,27 @@
+{
+  "type": "farmersdelight:cooking",
+  "ingredients": [
+    {
+      "item": "farmersdelight:tomato_sauce"
+    },
+    {
+      "tag": "c:foods/tomato"
+    },
+    {
+      "item": "hexerei:dried_sage"
+    },
+    {
+      "tag": "c:milk"
+    }
+  ],
+  "container": {
+    "count": 1,
+    "id": "minecraft:bowl"
+  },
+  "experience": 1.0,
+  "cookingtime": 200,
+  "result": {
+    "count": 3,
+    "id": "farm_and_charm:simple_tomato_soup"
+  }
+}

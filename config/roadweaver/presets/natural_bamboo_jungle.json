@@ -4,8 +4,11 @@
   "type": "NATURAL",
   "materials": [
     "minecraft:dirt_path",
-    "minecraft:podzol",
-    "minecraft:rooted_dirt"
+    "minecraft:rooted_dirt",
+    "environmental:dirt_path",
+    "environmental:podzol_path",
+    "regions_unexplored:peat_dirt_path",
+    "regions_unexplored:silt_dirt_path"
   ],
   "slabMaterials": [
     "minecraft:bamboo_slab",

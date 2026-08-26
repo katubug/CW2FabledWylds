@@ -2,13 +2,13 @@
   "type": "farm_and_charm:stove",
   "ingredients": [
     {
-      "tag": "farm_and_charm:dough"
+      "tag": "c:foods/dough"
     },
     {
       "item": "farm_and_charm:yeast"
     },
     {
-      "tag": "bakery:eggs"
+      "tag": "c:cooking_eggs"
     }
   ],
   "result": {

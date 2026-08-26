@@ -991,56 +991,62 @@
 			id: "34581095B797C667"
 			rewards: [
 				{
-					count: 3
-					id: "39234400CB87A7F7"
+					count: 4
+					exclude_from_claim_all: true
+					id: "52A31BF4B79D2088"
+					is_ender: false
+					is_team_reward: false
 					item: {
-						components: {
-							"ftbquests:missing_item": "herbalbrews:dried_oolong_tea"
-						}
 						count: 1
-						id: "ftbquests:missing_item"
+						id: "herbalbrews:dried_green_tea"
 					}
-					type: "item"
+					target_addressee: "QuestNPC"
+					team_reward_multiplier: 1.0f
+					type: "contactquests:parcel"
 				}
 				{
-					count: 3
-					id: "2C38BB0F9372FF2D"
+					count: 4
+					exclude_from_claim_all: true
+					id: "199A3DDA3E3A2525"
+					is_ender: false
+					is_team_reward: false
 					item: {
-						components: {
-							"ftbquests:missing_item": "herbalbrews:dried_black_tea"
-						}
 						count: 1
-						id: "ftbquests:missing_item"
+						id: "herbalbrews:dried_black_tea"
 					}
-					type: "item"
+					target_addressee: "QuestNPC"
+					team_reward_multiplier: 1.0f
+					type: "contactquests:parcel"
 				}
 				{
-					count: 3
-					id: "6C16B1E0481A1589"
+					count: 4
+					exclude_from_claim_all: true
+					id: "5936A6EE4C22140F"
+					is_ender: false
+					is_team_reward: false
 					item: {
-						components: {
-							"ftbquests:missing_item": "herbalbrews:dried_green_tea"
-						}
 						count: 1
-						id: "ftbquests:missing_item"
+						id: "herbalbrews:dried_oolong_tea"
 					}
-					type: "item"
+					target_addressee: "QuestNPC"
+					team_reward_multiplier: 1.0f
+					type: "contactquests:parcel"
 				}
 			]
 			tasks: [
 				{
-					id: "724F16E5D6A745D5"
-					item: { components: { "ftbquests:missing_item": "herbalbrews:dried_green_tea" }, count: 1, id: "ftbquests:missing_item" }
+					id: "191ACF6303DAE599"
+					item: { count: 1, id: "herbalbrews:dried_green_tea" }
 					type: "item"
 				}
 				{
-					id: "270190D01F152D1B"
-					item: { components: { "ftbquests:missing_item": "herbalbrews:dried_oolong_tea" }, count: 1, id: "ftbquests:missing_item" }
+					id: "3C6BEDE98B7BA5F8"
+					item: { count: 1, id: "herbalbrews:dried_black_tea" }
 					type: "item"
 				}
 				{
-					id: "07ACF4113B4049CE"
-					item: { components: { "ftbquests:missing_item": "herbalbrews:dried_black_tea" }, count: 1, id: "ftbquests:missing_item" }
+					id: "6FCCE2F00C9F5A6C"
+					item: { count: 1, id: "herbalbrews:dried_oolong_tea" }
 					type: "item"
 				}
 			]
@@ -1051,35 +1057,30 @@
 			dependencies: ["34581095B797C667"]
 			id: "439BC18CF8CE9960"
 			rewards: [{
-				id: "5D04329C50511D4D"
-				type: "xp_levels"
-				xp_levels: 3
+				exclude_from_claim_all: true
+				id: "7742C2C93894983F"
+				is_ender: false
+				is_team_reward: false
+				table_id: 7328857662613080212L
+				target_addressee: "QuestNPC"
+				team_reward_multiplier: 1.0f
+				type: "contactquests:parcel_random"
 			}]
 			shape: "hexagon"
 			tasks: [
 				{
-					id: "28469B6DEE4924AD"
-					item: { components: { "ftbquests:missing_item": "herbalbrews:green_tea" }, count: 1, id: "ftbquests:missing_item" }
+					id: "60DDCEFA1C34CB4A"
+					item: { count: 1, id: "herbalbrews:green_tea" }
 					type: "item"
 				}
 				{
-					id: "435FD8538B610150"
-					item: { components: { "ftbquests:missing_item": "herbalbrews:oolong_tea" }, count: 1, id: "ftbquests:missing_item" }
+					id: "5F9FEC0D4DC18253"
+					item: { count: 1, id: "herbalbrews:oolong_tea" }
 					type: "item"
 				}
 				{
-					id: "6A2D1E9368AE8B53"
-					item: { components: { "ftbquests:missing_item": "herbalbrews:black_tea" }, count: 1, id: "ftbquests:missing_item" }
-					type: "item"
-				}
-				{
-					id: "13B3E0DA5F310323"
-					item: { components: { "ftbquests:missing_item": "farmersrespite:green_tea" }, count: 1, id: "ftbquests:missing_item" }
-					type: "item"
-				}
-				{
-					id: "5A1C0B0976332FBE"
-					item: { components: { "ftbquests:missing_item": "farmersrespite:yellow_tea" }, count: 1, id: "ftbquests:missing_item" }
+					id: "3BEE8359D54162BB"
+					item: { count: 1, id: "herbalbrews:black_tea" }
 					type: "item"
 				}
 			]
@@ -1090,127 +1091,55 @@
 			dependencies: ["34581095B797C667"]
 			id: "7B3D377F253BFF4A"
 			rewards: [{
-				id: "5BA8B90ABE095160"
-				type: "xp_levels"
-				xp_levels: 3
+				exclude_from_claim_all: true
+				id: "448C8F70A7508B5F"
+				is_ender: false
+				is_team_reward: false
+				table_id: 7328857662613080212L
+				target_addressee: "QuestNPC"
+				team_reward_multiplier: 1.0f
+				type: "contactquests:parcel_random"
 			}]
 			shape: "hexagon"
 			tasks: [
 				{
-					id: "79C7DC7763F41E4F"
-					item: { components: { "ftbquests:missing_item": "herbalbrews:yerba_mate_tea" }, count: 1, id: "ftbquests:missing_item" }
+					id: "07129676A143B444"
+					item: { count: 1, id: "herbalbrews:yerba_mate_tea" }
 					type: "item"
 				}
 				{
-					id: "770E7D915832918A"
-					item: { components: { "ftbquests:missing_item": "herbalbrews:rooibos_tea" }, count: 1, id: "ftbquests:missing_item" }
+					id: "4E10D561F23166A0"
+					item: { count: 1, id: "herbalbrews:rooibos_tea" }
 					type: "item"
 				}
 				{
-					id: "7C3A5C1B67780ACD"
-					item: { components: { "ftbquests:missing_item": "herbalbrews:hibiscus_tea" }, count: 1, id: "ftbquests:missing_item" }
+					id: "059B6278DE2DA07D"
+					item: { count: 1, id: "herbalbrews:hibiscus_tea" }
 					type: "item"
 				}
 				{
-					id: "5AF41DE340989714"
-					item: { components: { "ftbquests:missing_item": "herbalbrews:lavender_tea" }, count: 1, id: "ftbquests:missing_item" }
+					id: "25234CF9CBC8408E"
+					item: { count: 1, id: "herbalbrews:lavender_tea" }
 					type: "item"
 				}
 				{
-					id: "54DDA4BD38E9CACA"
-					item: { components: { "ftbquests:missing_item": "farmersrespite:dandelion_tea" }, count: 1, id: "ftbquests:missing_item" }
+					id: "678BC493AD9EA11E"
+					item: { count: 1, id: "trailandtales_delight:cherry_petal_tea" }
 					type: "item"
 				}
 				{
-					id: "609DDDD51025F1AB"
-					item: { components: { "ftbquests:missing_item": "farmersrespite:rose_hip_tea" }, count: 1, id: "ftbquests:missing_item" }
+					id: "1ACEA30D057D3DA2"
+					item: { count: 1, id: "farm_and_charm:nettle_tea" }
+					type: "item"
+				}
+				{
+					id: "11DA78F7540437EE"
+					item: { count: 1, id: "farm_and_charm:ribwort_tea" }
 					type: "item"
 				}
 			]
 			x: -10.0d
 			y: 18.0d
-		}
-		{
-			dependencies: ["34581095B797C667"]
-			id: "5D7D721261D786CD"
-			rewards: [
-				{
-					exclude_from_claim_all: true
-					id: "6E2D0B5A9B97B3A8"
-					type: "choice"
-				}
-				{
-					id: "12B84F06858991DB"
-					type: "xp_levels"
-					xp_levels: 5
-				}
-			]
-			shape: "hexagon"
-			tasks: [
-				{
-					id: "3BE7DBA3559FB0CE"
-					item: { }
-					type: "item"
-				}
-				{
-					id: "4836EC41600A95F0"
-					item: { components: { "ftbquests:missing_item": "fruitsdelight:mangosteen_tea" }, count: 1, id: "ftbquests:missing_item" }
-					type: "item"
-				}
-				{
-					id: "19898CE1D477AB27"
-					item: { components: { "ftbquests:missing_item": "fruitsdelight:lychee_cherry_tea" }, count: 1, id: "ftbquests:missing_item" }
-					type: "item"
-				}
-				{
-					id: "56233C1112C2B9C3"
-					item: { components: { "ftbquests:missing_item": "fruitsdelight:peach_tea" }, count: 1, id: "ftbquests:missing_item" }
-					type: "item"
-				}
-				{
-					id: "5F82336F875116D6"
-					item: { components: { "ftbquests:missing_item": "fruitsdelight:mango_tea" }, count: 1, id: "ftbquests:missing_item" }
-					type: "item"
-				}
-			]
-			x: -6.0d
-			y: 18.0d
-		}
-		{
-			dependencies: ["34581095B797C667"]
-			id: "13F2AD2FD93B86EB"
-			rewards: [
-				{
-					exclude_from_claim_all: true
-					id: "60E0E8DD9EF7203D"
-					type: "choice"
-				}
-				{
-					id: "7ED02ADD0507C290"
-					type: "xp_levels"
-					xp_levels: 3
-				}
-			]
-			shape: "hexagon"
-			tasks: [
-				{
-					id: "7DC56E4228F44555"
-					item: { components: { "ftbquests:missing_item": "ends_delight:chorus_fruit_milk_tea" }, count: 1, id: "ftbquests:missing_item" }
-					type: "item"
-				}
-				{
-					id: "5E96315EDD6F7A07"
-					item: { components: { "ftbquests:missing_item": "ends_delight:bubble_tea" }, count: 1, id: "ftbquests:missing_item" }
-					type: "item"
-				}
-				{
-					id: "122A07B93A950363"
-					item: { components: { "ftbquests:missing_item": "ends_delight:chorus_flower_tea" }, count: 1, id: "ftbquests:missing_item" }
-					type: "item"
-				}
-			]
-			x: -5.0d
-			y: 19.5d
 		}
 		{
 			dependencies: ["31CE923007EF1D03"]
@@ -1569,41 +1498,6 @@
 			y: 17.5d
 		}
 		{
-			dependencies: ["34581095B797C667"]
-			id: "0340E6FF3BF8E75F"
-			shape: "hexagon"
-			tasks: [{
-				id: "68D2FA1528D75B0E"
-				item: { components: { "ftbquests:missing_item": "farmersrespite:purulent_tea" }, count: 1, id: "ftbquests:missing_item" }
-				type: "item"
-			}]
-			x: -8.0d
-			y: 17.0d
-		}
-		{
-			dependencies: ["34581095B797C667"]
-			id: "3F119E09E40415B5"
-			rewards: [{
-				id: "263DE4B3C5FB706F"
-				item: {
-					components: {
-						"ftbquests:missing_item": "delightful:matcha_ice_cream"
-					}
-					count: 1
-					id: "ftbquests:missing_item"
-				}
-				type: "item"
-			}]
-			shape: "hexagon"
-			tasks: [{
-				id: "6BBCBAF6CDBE85D9"
-				item: { components: { "ftbquests:missing_item": "delightful:matcha" }, count: 1, id: "ftbquests:missing_item" }
-				type: "item"
-			}]
-			x: -6.5d
-			y: 21.0d
-		}
-		{
 			dependencies: ["492DDC880E65C534"]
 			id: "4388413B656A4336"
 			preset: "progression"
@@ -1779,6 +1673,34 @@
 			}]
 			x: -11.0d
 			y: -1.0d
+		}
+		{
+			dependencies: ["34581095B797C667"]
+			id: "5490D2048FF6E2AB"
+			tasks: [
+				{
+					id: "208517B4D56CF70F"
+					item: { count: 1, id: "farm_and_charm:strawberry_tea" }
+					type: "item"
+				}
+				{
+					id: "60CE2FC5C0BE8E52"
+					item: { count: 1, id: "delighto_flight:charged_rose_tea" }
+					type: "item"
+				}
+				{
+					id: "6C8C91C6677842FF"
+					item: { count: 1, id: "twilightdelight:thorn_rose_tea" }
+					type: "item"
+				}
+				{
+					id: "6C49A61D2C66AC7D"
+					item: { count: 1, id: "twilightdelight:glacier_ice_tea" }
+					type: "item"
+				}
+			]
+			x: -8.0d
+			y: 17.5d
 		}
 	]
 }

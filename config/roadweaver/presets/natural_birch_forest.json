@@ -4,8 +4,8 @@
   "type": "NATURAL",
   "materials": [
     "minecraft:dirt_path",
-    "minecraft:coarse_dirt",
-    "minecraft:gravel"
+    "environmental:dirt_path",
+    "environmental:podzol_path"
   ],
   "slabMaterials": [
     "minecraft:birch_slab"

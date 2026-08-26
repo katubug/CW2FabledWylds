@@ -12,14 +12,14 @@
 	#Defines the volume of the sounds produced by Lotus Pads. Should be a floating number, ranging from 0 to 1.
 	"Lotus Pad Volume" = 0.5
 	#Defines the weight of aquarium shops in plains villages. The higher the value the more common they become. Default value is 30 and the number must be 0 or higher.
-	"Plains aquarium shop weight:" = 30
+	"Plains aquarium shop weight:" = 10
 	#Defines the weight of aquarium shops in savanna villages. The higher the value the more common they become. Default value is 25 and the number must be 0 or higher.
-	"Savanna aquarium shop weight:" = 25
+	"Savanna aquarium shop weight:" = 10
 	#Defines the weight of aquarium shops in taiga villages. The higher the value the more common they become. Default value is 20 and the number must be 0 or higher.
-	"Taiga aquarium shop weight:" = 20
+	"Taiga aquarium shop weight:" = 5
 	#Defines the weight of aquarium shops in snowy villages. The higher the value the more common they become. Default value is 20 and the number must be 0 or higher.
-	"Snowy aquarium shop weight:" = 20
+	"Snowy aquarium shop weight:" = 5
 	#Defines the weight of aquarium shops in desert villages. The higher the value the more common they become. Default value is 30 and the number must be 0 or higher.
-	"Desert aquarium shop weight:" = 30
+	"Desert aquarium shop weight:" = 0
 	#Defines how often Hounen Fairy Shrimp will bonemeal plants. The value is once every X amount of ticks, resulting in lower values making bonemealing more often and higher values making bonemealing less often.Default value is 250 and the number must be 0 or higher.
 	"Hounen Fairy Shrimp Bonemeal Rate:" = 250

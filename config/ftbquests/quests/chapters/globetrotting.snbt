@@ -36,32 +36,18 @@
 		{
 			dependencies: ["722C9A16509E524B"]
 			id: "06DC33669C98F5A4"
-			rewards: [
-				{
-					id: "59434BCB0FA7DE89"
-					item: {
-						count: 1
-						id: "minecraft:flint"
-					}
-					type: "item"
+			rewards: [{
+				id: "59434BCB0FA7DE89"
+				item: {
+					count: 1
+					id: "minecraft:flint"
 				}
-				{
-					count: 4
-					id: "1208FF044A4E5F34"
-					item: {
-						components: {
-							"ftbquests:missing_item": "waystones:warp_dust"
-						}
-						count: 1
-						id: "ftbquests:missing_item"
-					}
-					type: "item"
-				}
-			]
+				type: "item"
+			}]
 			shape: "hexagon"
 			tasks: [{
-				id: "59AC7FC2C8A63192"
-				item: { components: { "ftbquests:missing_item": "waystones:warp_plate" }, count: 1, id: "ftbquests:missing_item" }
+				id: "707A34E8305DD114"
+				item: { count: 1, id: "waystones:warp_plate" }
 				type: "item"
 			}]
 			x: -7.0d
@@ -120,8 +106,8 @@
 			id: "7527E0A9EF5C3697"
 			shape: "hexagon"
 			tasks: [{
-				id: "05CBC59215AFFC0A"
-				item: { components: { "ftbquests:missing_item": "waystones:warp_scroll" }, count: 1, id: "ftbquests:missing_item" }
+				id: "7EC93F9307B30212"
+				item: { count: 1, id: "waystones:warp_scroll" }
 				type: "item"
 			}]
 			x: -5.5d
@@ -132,8 +118,8 @@
 			id: "2E1A6A93F48AAF58"
 			shape: "hexagon"
 			tasks: [{
-				id: "27EF600DF7DC0004"
-				item: { components: { "ftbquests:missing_item": "waystones:warp_stone" }, count: 1, id: "ftbquests:missing_item" }
+				id: "3F0C026D8B39B9D4"
+				item: { count: 1, id: "waystones:warp_stone" }
 				type: "item"
 			}]
 			x: -3.5d
@@ -144,8 +130,8 @@
 			id: "7B4772B066474C41"
 			shape: "hexagon"
 			tasks: [{
-				id: "3F54F579922447FD"
-				item: { components: { "ftbquests:missing_item": "waystones:white_portstone" }, count: 1, id: "ftbquests:missing_item" }
+				id: "566F9027DE7E99B8"
+				item: { count: 1, id: "waystones:white_portstone" }
 				type: "item"
 			}]
 			x: -2.5d
@@ -162,28 +148,6 @@
 			}]
 			x: -2.0d
 			y: -2.5d
-		}
-		{
-			id: "38285B9280444C60"
-			rewards: [{
-				id: "156F25E0D2811912"
-				item: {
-					count: 1
-					id: "minecraft:potion"
-				}
-				type: "item"
-			}]
-			tasks: [{
-				icon: {
-					id: "minecraft:leather_boots"
-				}
-				id: "191D3E228208A0CB"
-				stat: "minecraft:sneak_time"
-				type: "stat"
-				value: 99999
-			}]
-			x: 1.0d
-			y: -2.0d
 		}
 	]
 }

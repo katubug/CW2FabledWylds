@@ -1,0 +1,33 @@
+{
+  "type": "farmersdelight:cooking",
+  "ingredients": [
+    {
+      "item": "enchanted:mutandis"
+    },
+    {
+      "item": "minecraft:fermented_spider_eye"
+    },
+    {
+      "item": "minecraft:pufferfish"
+    },
+    {
+      "item": "minecraft:poisonous_potato"
+    },
+    {
+      "item": "farmersdelight:rotten_tomato"
+    },
+    {
+      "item": "twilightforest:borer_essence"
+    }
+  ],
+  "container": {
+    "count": 1,
+    "id": "farmersdelight:canvas"
+  },
+  "experience": 0.5,
+  "cookingtime": 800,
+  "result": {
+    "count": 1,
+    "id": "twilightforest:transformation_powder"
+  }
+}

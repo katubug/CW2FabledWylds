@@ -88,34 +88,9 @@
 			x: 7.3d
 			y: 9.8d
 		}
-		{
-			click_action: "none:quest_enhance:decorative_anchor:f765903b-9f43-4538-8464-882334a363fd"
-			height: 0.4d
-			id: "0494B7B03006E349"
-			image: ""
-			rotation: 0.0d
-			width: 0.4d
-			x: 13.0d
-			y: -5.5d
-		}
-		{
-			click_action: "none:quest_enhance:decorative_anchor:be435ed8-3a6a-4bc1-b5f6-c7acf1413e57"
-			height: 0.4d
-			id: "1D58515DD5D2573F"
-			image: ""
-			rotation: 0.0d
-			width: 0.4d
-			x: 15.0d
-			y: 0.5d
-		}
 	]
 	order_index: 2
-	quest_enhance_decorative_lines: [{
-		nodes: [
-			"a:f765903b-9f43-4538-8464-882334a363fd"
-			"a:be435ed8-3a6a-4bc1-b5f6-c7acf1413e57"
-		]
-	}]
+	quest_enhance_decorative_lines: [ ]
 	quest_enhance_hidden_dependency_lines: [ ]
 	quest_links: [ ]
 	quests: [
@@ -394,18 +369,23 @@
 			preset: "start"
 			rewards: [
 				{
-					id: "4B6190142D21C6E5"
-					item: {
-						count: 1
-						id: "sophisticatedstorage:basic_to_iron_tier_upgrade"
-					}
-					type: "item"
-				}
-				{
 					exclude_from_claim_all: true
 					id: "04B116E3C9D77788"
 					table_id: 5770973074849872376L
 					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "75EFE21EFA3750D2"
+					is_ender: false
+					is_team_reward: false
+					item: {
+						count: 1
+						id: "sophisticatedstorage:basic_to_iron_tier_upgrade"
+					}
+					target_addressee: "QuestNPC"
+					team_reward_multiplier: 1.0f
+					type: "contactquests:parcel"
 				}
 			]
 			shape: "rsquare"
@@ -448,9 +428,17 @@
 			id: "52D20498843EECD3"
 			preset: "progression"
 			rewards: [{
-				id: "4766BD2C9A6B6B0D"
-				type: "xp"
-				xp: 900
+				exclude_from_claim_all: true
+				id: "12EFDEB4CE171651"
+				is_ender: false
+				is_team_reward: false
+				item: {
+					count: 1
+					id: "minecraft:experience_bottle"
+				}
+				target_addressee: "QuestNPC"
+				team_reward_multiplier: 1.0f
+				type: "contactquests:parcel"
 			}]
 			tasks: [{
 				id: "20197D584CDFF2FB"
@@ -465,18 +453,23 @@
 			preset: "progression"
 			rewards: [
 				{
-					id: "2A1D974FD10388D9"
-					item: {
-						count: 1
-						id: "sophisticatedstorage:gold_to_diamond_tier_upgrade"
-					}
-					type: "item"
-				}
-				{
 					exclude_from_claim_all: true
 					id: "073E2227F0E1080F"
 					table_id: 6895470215093009548L
 					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7617FAB09A9D1FFA"
+					is_ender: false
+					is_team_reward: false
+					item: {
+						count: 1
+						id: "sophisticatedstorage:gold_to_diamond_tier_upgrade"
+					}
+					target_addressee: "QuestNPC"
+					team_reward_multiplier: 1.0f
+					type: "contactquests:parcel"
 				}
 			]
 			tasks: [{
@@ -492,18 +485,23 @@
 			id: "775A1B6549572BEB"
 			rewards: [
 				{
-					id: "6E1CAA9D134DDC34"
-					item: {
-						count: 1
-						id: "sophisticatedstorage:void_upgrade"
-					}
-					type: "item"
-				}
-				{
 					exclude_from_claim_all: true
 					id: "4EC06BCD4ACF4737"
 					table_id: 6895470215093009548L
 					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "60A0A2FFC9A33D2E"
+					is_ender: false
+					is_team_reward: false
+					item: {
+						count: 1
+						id: "sophisticatedstorage:void_upgrade"
+					}
+					target_addressee: "QuestNPC"
+					team_reward_multiplier: 1.0f
+					type: "contactquests:parcel"
 				}
 			]
 			shape: "hexagon"
@@ -605,6 +603,16 @@
 		{
 			dependencies: ["3571AAEB58389A64"]
 			id: "2F0321A50945B2B5"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "414696DBFD3A0D0D"
+				is_ender: false
+				is_team_reward: false
+				table_id: 5770973074849872376L
+				target_addressee: "QuestNPC"
+				team_reward_multiplier: 1.0f
+				type: "contactquests:parcel_random"
+			}]
 			shape: "hexagon"
 			tasks: [{
 				id: "0A14D9F5DCD3F53E"

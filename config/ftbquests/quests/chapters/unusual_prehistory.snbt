@@ -16,15 +16,31 @@
 	quests: [
 		{
 			id: "22ECD917EB584573"
-			rewards: [{
-				count: 2
-				id: "7ED4916CF29D0120"
-				item: {
-					count: 1
-					id: "minecraft:netherite_ingot"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "4F39CF99E1BF12EF"
+					is_ender: false
+					is_team_reward: false
+					item: {
+						count: 1
+						id: "minecraft:netherite_block"
+					}
+					target_addressee: "QuestNPC"
+					team_reward_multiplier: 1.0f
+					type: "contactquests:parcel"
 				}
-				type: "item"
-			}]
+				{
+					exclude_from_claim_all: true
+					id: "41055A63E12330BF"
+					is_ender: false
+					is_team_reward: false
+					table_id: 5167086515396975209L
+					target_addressee: "QuestNPC"
+					team_reward_multiplier: 1.0f
+					type: "contactquests:parcel_random"
+				}
+			]
 			shape: "hexagon"
 			tasks: [
 				{
@@ -69,6 +85,20 @@
 		{
 			dependencies: ["374F93068ED863F7"]
 			id: "75794697E256EFCC"
+			rewards: [{
+				count: 6
+				exclude_from_claim_all: true
+				id: "6B8F796AF6EE8525"
+				is_ender: false
+				is_team_reward: false
+				item: {
+					count: 1
+					id: "minecraft:emerald"
+				}
+				target_addressee: "QuestNPC"
+				team_reward_multiplier: 1.0f
+				type: "contactquests:parcel"
+			}]
 			tasks: [{
 				id: "3112D060075ED019"
 				item: { count: 1, id: "minecraft:decorated_pot" }
@@ -81,12 +111,17 @@
 			dependencies: ["6C25F07248AC8170"]
 			id: "53AE00DAF3CD587F"
 			rewards: [{
-				id: "162067ECF93D854B"
+				exclude_from_claim_all: true
+				id: "056D46C2278BAA2C"
+				is_ender: false
+				is_team_reward: false
 				item: {
 					count: 1
 					id: "betterarcheology:archeology_table"
 				}
-				type: "item"
+				target_addressee: "QuestNPC"
+				team_reward_multiplier: 1.0f
+				type: "contactquests:parcel"
 			}]
 			tasks: [{
 				id: "0ACE9C5AA7473801"
@@ -100,13 +135,20 @@
 			id: "1F389C8E9F4CFB59"
 			rewards: [{
 				exclude_from_claim_all: true
-				id: "771DFF00D1EDFA24"
-				table_id: 9034435089736190683L
-				type: "choice"
+				id: "7F203CFA662FF31A"
+				is_ender: false
+				is_team_reward: false
+				table_id: 6518300475828805418L
+				target_addressee: "QuestNPC"
+				team_reward_multiplier: 1.0f
+				type: "contactquests:parcel_all_table"
 			}]
 			tasks: [{
-				id: "68E487C9B494B632"
-				type: "custom"
+				hand_mode: "ANY"
+				id: "0575EDF81552881E"
+				item: { count: 1, id: "betterarcheology:unidentified_artifact" }
+				type: "use_item"
+				value: 1L
 			}]
 			x: 0.0d
 			y: 0.0d
@@ -146,8 +188,13 @@
 			id: "79E6711262027491"
 			rewards: [{
 				exclude_from_claim_all: true
-				id: "23C22372A7263794"
-				type: "choice"
+				id: "03F06F1B94CEB0CA"
+				is_ender: false
+				is_team_reward: false
+				table_id: 5770973074849872376L
+				target_addressee: "QuestNPC"
+				team_reward_multiplier: 1.0f
+				type: "contactquests:parcel_random"
 			}]
 			shape: "hexagon"
 			tasks: [{
@@ -161,15 +208,32 @@
 		{
 			dependencies: ["79E6711262027491"]
 			id: "346AD14E27A84B57"
-			rewards: [{
-				count: 3
-				id: "1495FDA30A8244A6"
-				item: {
-					count: 1
-					id: "minecraft:leather"
+			rewards: [
+				{
+					count: 3
+					exclude_from_claim_all: true
+					id: "392F9CF71E47C1DB"
+					is_ender: false
+					is_team_reward: false
+					item: {
+						count: 1
+						id: "minecraft:leather"
+					}
+					target_addressee: "QuestNPC"
+					team_reward_multiplier: 1.0f
+					type: "contactquests:parcel"
 				}
-				type: "item"
-			}]
+				{
+					exclude_from_claim_all: true
+					id: "16AD83BB40DC3AB6"
+					is_ender: false
+					is_team_reward: false
+					table_id: 7328857662613080212L
+					target_addressee: "QuestNPC"
+					team_reward_multiplier: 1.0f
+					type: "contactquests:parcel_random"
+				}
+			]
 			shape: "hexagon"
 			tasks: [{
 				id: "27224224B5A34F0A"
@@ -243,7 +307,7 @@
 			rewards: [
 				{
 					count: 5
-					id: "3AAC401FF1C1F6BA"
+					id: "53AC7AAE0C7DC273"
 					item: {
 						count: 1
 						id: "minecraft:torch"
@@ -251,12 +315,14 @@
 					type: "item"
 				}
 				{
-					id: "122426918B974D5F"
-					item: {
-						count: 1
-						id: "quark:forgotten_hat"
-					}
-					type: "item"
+					exclude_from_claim_all: true
+					id: "42C887B4E63428BD"
+					is_ender: false
+					is_team_reward: false
+					table_id: 7328857662613080212L
+					target_addressee: "QuestNPC"
+					team_reward_multiplier: 1.0f
+					type: "contactquests:parcel_random"
 				}
 			]
 			shape: "octagon"
@@ -283,44 +349,35 @@
 			y: 0.0d
 		}
 		{
-			can_repeat: true
-			id: "66B43C20A8C7256B"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "67DF0F5837491A9B"
-				type: "loot"
-			}]
-			shape: "pentagon"
-			size: 1.5d
-			tasks: [{
-				consume_items: true
-				id: "5C225083CB2FE99B"
-				item: { components: { "ftbfiltersystem:filter": "or(item_tag(unusualprehistory:fossils))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
-				type: "item"
-			}]
-			x: 5.25d
-			y: -3.0d
-		}
-		{
 			dependencies: ["6C25F07248AC8170"]
 			id: "374F93068ED863F7"
 			rewards: [
 				{
-					count: 8
-					id: "52D0DEE4C090602A"
-					item: {
-						count: 1
-						id: "minecraft:brick"
-					}
-					type: "item"
-				}
-				{
-					id: "694A630803C565C6"
+					exclude_from_claim_all: true
+					id: "0FDF0617872456BD"
+					is_ender: false
+					is_team_reward: false
 					item: {
 						count: 1
 						id: "minecraft:gold_nugget"
 					}
-					type: "item"
+					target_addressee: "QuestNPC"
+					team_reward_multiplier: 1.0f
+					type: "contactquests:parcel"
+				}
+				{
+					count: 8
+					exclude_from_claim_all: true
+					id: "16D239C46DC9BA9B"
+					is_ender: false
+					is_team_reward: false
+					item: {
+						count: 1
+						id: "minecraft:brick"
+					}
+					target_addressee: "QuestNPC"
+					team_reward_multiplier: 1.0f
+					type: "contactquests:parcel"
 				}
 			]
 			tasks: [{

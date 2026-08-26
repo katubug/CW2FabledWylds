@@ -1,8 +1,18 @@
 [
   {
     "when": "onjoin",
-    "mob": ["minecraft:zombie"],
+    "mob": "minecraft:zombie",
     "baby": true,
+    "result": "deny"
+  },
+  {
+    "when": "onjoin",
+    "mob": "roots:owl",
+    "result": "deny"
+  },
+  {
+    "when": "onjoin",
+    "mob": "hearthandharvest:crow",
     "result": "deny"
   },
   {

@@ -397,8 +397,8 @@
 					type: "item"
 				}
 				{
-					id: "08F34ED39F9AD934"
-					item: { components: { "ftbquests:missing_item": "nethersdelight:strider_moss_stew" }, count: 1, id: "ftbquests:missing_item" }
+					id: "2AE5ED6F0E9FDC77"
+					item: { count: 1, id: "mynethersdelight:strider_stew" }
 					type: "item"
 				}
 			]
@@ -499,25 +499,37 @@
 			progression_mode: "linear"
 			rewards: [
 				{
-					id: "5D440F980372BD81"
+					exclude_from_claim_all: true
+					id: "021BF1034A8ECED3"
+					is_ender: false
+					is_team_reward: false
+					table_id: 5167086515396975209L
+					target_addressee: "QuestNPC"
+					team_reward_multiplier: 1.0f
+					type: "contactquests:parcel_random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "37332C60485D6764"
+					is_ender: false
+					is_team_reward: false
+					table_id: 5167086515396975209L
+					target_addressee: "QuestNPC"
+					team_reward_multiplier: 1.0f
+					type: "contactquests:parcel_random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "53B299CD8A4808CB"
+					is_ender: false
+					is_team_reward: false
 					item: {
 						count: 1
 						id: "minecraft:nether_star"
 					}
-					type: "item"
-				}
-				{
-					exclude_from_claim_all: true
-					id: "0D509C5733E1DD6B"
-					type: "loot"
-				}
-				{
-					id: "47C7324EF5B04041"
-					type: "loot"
-				}
-				{
-					id: "4E394BBF80A209A0"
-					type: "choice"
+					target_addressee: "QuestNPC"
+					team_reward_multiplier: 1.0f
+					type: "contactquests:parcel"
 				}
 			]
 			shape: "gear"

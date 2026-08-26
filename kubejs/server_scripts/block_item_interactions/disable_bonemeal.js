@@ -9,6 +9,7 @@ const sapling = TagKey.create(Registries.BLOCK, ResourceLocation.parse('minecraf
 
 NativeEvents.onEvent(BonemealEvent, event => {
 	if (event.getLevel().isClientSide()) return
+	if (!event.player) return
 	if (event.getStack().getId().toString() != 'minecraft:bone_meal') return
 
 	const block = event.getLevel().getBlockState(event.getPos())

@@ -5,11 +5,17 @@
   "materials": [
     "minecraft:sandstone",
     "minecraft:smooth_sandstone",
-    "minecraft:sand",
-    "minecraft:gravel"
+    "minecraft:gravel",
+    "dawnoftimebuilder:sandstone_bricks",
+    "quark:sandstone_bricks",
+    "architects_palette:gilded_sandstone",
+    "minecraft:chiseled_sandstone",
+    "dawnoftimebuilder:sandstone_bricks_turquoise_pattern"
   ],
   "slabMaterials": [
     "minecraft:sandstone_slab",
-    "minecraft:smooth_sandstone_slab"
+    "minecraft:smooth_sandstone_slab",
+    "architects_palette:gilded_sandstone_slab"
   ]
 }
+
