@@ -13,7 +13,9 @@
       }
     }
   ],
-  "tool": {
-    "item": "hexalia:athame"
-  }
+  "tool": [
+    {
+      "item": "hexalia:athame"
+    }
+  ]
 }

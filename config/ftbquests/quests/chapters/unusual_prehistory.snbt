@@ -1,4 +1,5 @@
 {
+	autofocus_id: "3EA8305BE1FE9B75"
 	default_hide_dependency_lines: false
 	default_min_width: 350
 	default_quest_shape: ""
@@ -8,7 +9,41 @@
 		id: "gildedsherds:minecraft/friend_pottery_sherd"
 	}
 	id: "166D3820236F493E"
-	images: [ ]
+	images: [
+		{
+			click_action: "none:quest_enhance:text_v3:1.0:17:minecraft:defaultwork in progress"
+			color: 9921281
+			height: 0.4583333333333333d
+			id: "4F706EA128378C98"
+			image: ""
+			rotation: 0.0d
+			width: 3.6666666666666665d
+			x: -3.0d
+			y: -3.5d
+		}
+		{
+			click_action: "none:"
+			height: 20.0d
+			id: "752F5F52E3611F39"
+			image: "fabled_wylds:textures/questui/bookbgs/orange_book_lg.png"
+			order: -6
+			rotation: 0.0d
+			width: 25.0d
+			x: 2.0d
+			y: 0.5d
+		}
+		{
+			click_action: "none:"
+			color: 9921281
+			height: 2.5d
+			id: "0728FAE493F279C0"
+			image: "fabled_wylds:textures/questui/titles/ancientroots.png"
+			rotation: 0.0d
+			width: 9.0d
+			x: -3.0d
+			y: -5.5d
+		}
+	]
 	order_index: 2
 	quest_enhance_decorative_lines: [ ]
 	quest_enhance_hidden_dependency_lines: [ ]
@@ -16,6 +51,7 @@
 	quests: [
 		{
 			id: "22ECD917EB584573"
+			preset: "item"
 			rewards: [
 				{
 					exclude_from_claim_all: true
@@ -79,12 +115,13 @@
 					type: "item"
 				}
 			]
-			x: 0.5d
-			y: 1.0d
+			x: -6.0d
+			y: 3.5d
 		}
 		{
 			dependencies: ["374F93068ED863F7"]
 			id: "75794697E256EFCC"
+			preset: "item"
 			rewards: [{
 				count: 6
 				exclude_from_claim_all: true
@@ -104,12 +141,13 @@
 				item: { count: 1, id: "minecraft:decorated_pot" }
 				type: "item"
 			}]
-			x: 4.5d
-			y: 2.0d
+			x: 0.0d
+			y: -1.5d
 		}
 		{
 			dependencies: ["6C25F07248AC8170"]
 			id: "53AE00DAF3CD587F"
+			preset: "progression"
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "056D46C2278BAA2C"
@@ -128,20 +166,22 @@
 				item: { count: 1, id: "betterarcheology:artifact_shards" }
 				type: "item"
 			}]
-			x: 4.5d
-			y: -1.0d
+			x: -2.5d
+			y: 0.0d
 		}
 		{
+			dependencies: ["53AE00DAF3CD587F"]
 			id: "1F389C8E9F4CFB59"
+			preset: "progression"
 			rewards: [{
 				exclude_from_claim_all: true
-				id: "7F203CFA662FF31A"
+				id: "297D6B9A7A21BDE2"
 				is_ender: false
 				is_team_reward: false
-				table_id: 6518300475828805418L
+				table_id: 5770973074849872376L
 				target_addressee: "QuestNPC"
 				team_reward_multiplier: 1.0f
-				type: "contactquests:parcel_all_table"
+				type: "contactquests:parcel_random"
 			}]
 			tasks: [{
 				hand_mode: "ANY"
@@ -155,6 +195,20 @@
 		}
 		{
 			id: "6246E8289C638CCE"
+			preset: "locate"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "52B220D7172CBFCC"
+				is_ender: false
+				is_team_reward: false
+				item: {
+					count: 1
+					id: "twilightdelight:plate_of_fiery_snakes"
+				}
+				target_addressee: "QuestNPC"
+				team_reward_multiplier: 1.0f
+				type: "contactquests:parcel"
+			}]
 			tasks: [
 				{
 					icon: {
@@ -181,11 +235,12 @@
 					type: "structure"
 				}
 			]
-			x: -1.0d
-			y: -1.0d
+			x: -4.5d
+			y: 2.0d
 		}
 		{
 			id: "79E6711262027491"
+			preset: "item"
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "03F06F1B94CEB0CA"
@@ -202,12 +257,13 @@
 				item: { count: 1, id: "reliquary:mob_charm_fragment" }
 				type: "item"
 			}]
-			x: 1.5d
+			x: -2.5d
 			y: 2.0d
 		}
 		{
 			dependencies: ["79E6711262027491"]
 			id: "346AD14E27A84B57"
+			preset: "item"
 			rewards: [
 				{
 					count: 3
@@ -240,11 +296,12 @@
 				item: { count: 1, id: "reliquary:mob_charm" }
 				type: "item"
 			}]
-			x: 3.0d
+			x: 0.0d
 			y: 2.0d
 		}
 		{
 			id: "1109A266D4045ABD"
+			preset: "advancement"
 			rewards: [{
 				id: "3E8F2AFCF0D483EE"
 				item: {
@@ -262,11 +319,12 @@
 				structure: "betterarcheology:villager_grave"
 				type: "structure"
 			}]
-			x: 0.0d
-			y: -2.0d
+			x: -6.0d
+			y: 0.5d
 		}
 		{
 			id: "6C25F07248AC8170"
+			preset: "start"
 			rewards: [
 				{
 					exclude_from_claim_all: true
@@ -299,11 +357,12 @@
 				item: { components: { "ftbfiltersystem:filter": "or(item(minecraft:brush)item(betterarcheology:iron_brush)item(betterarcheology:diamond_brush)item(betterarcheology:netherite_brush))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
-			x: 2.0d
-			y: 0.0d
+			x: -6.0d
+			y: -1.5d
 		}
 		{
 			id: "58F9F0CC133CC7F7"
+			preset: "locate"
 			rewards: [
 				{
 					count: 5
@@ -334,10 +393,11 @@
 				structure: "betterarcheology:catacombs"
 				type: "structure"
 			}]
-			x: -1.0d
-			y: 0.5d
+			x: -6.0d
+			y: 2.0d
 		}
 		{
+			always_invisible: true
 			id: "3EA8305BE1FE9B75"
 			tasks: [{
 				id: "4093E37E2FE96DFE"
@@ -345,12 +405,13 @@
 				only_from_crafting: true
 				type: "item"
 			}]
-			x: 0.0d
-			y: 0.0d
+			x: 2.0d
+			y: -1.0d
 		}
 		{
 			dependencies: ["6C25F07248AC8170"]
 			id: "374F93068ED863F7"
+			preset: "item"
 			rewards: [
 				{
 					exclude_from_claim_all: true
@@ -385,11 +446,12 @@
 				item: { components: { "ftbfiltersystem:filter": "or(item_tag(minecraft:decorated_pot_sherds))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
-			x: 4.5d
-			y: 0.5d
+			x: -2.5d
+			y: -1.5d
 		}
 		{
 			id: "4F3616F8CE8F6F2B"
+			preset: "animal"
 			rewards: [{
 				id: "4EF74D6966EAA997"
 				item: {
@@ -410,11 +472,12 @@
 				to_observe: "minecraft:sniffer"
 				type: "observation"
 			}]
-			x: 3.0d
-			y: -2.0d
+			x: -4.5d
+			y: 3.5d
 		}
 		{
 			id: "77CCC4FD3E93E79C"
+			preset: "item"
 			rewards: [{
 				id: "2A258AF7821E4415"
 				item: {
@@ -434,8 +497,8 @@
 				to_observe: "minecraft:suspicious_gravel"
 				type: "observation"
 			}]
-			x: 1.5d
-			y: -2.0d
+			x: -4.5d
+			y: 0.5d
 		}
 	]
 }

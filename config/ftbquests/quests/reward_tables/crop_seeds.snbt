@@ -125,10 +125,10 @@
 		}
 		{
 			count: 3
-			id: "43F116EBD186EBD7"
+			id: "4F7B1C2D13EAAFF4"
 			item: {
 				count: 1
-				id: "farm_and_charm:kernels"
+				id: "hearthandharvest:corn_kernels"
 			}
 		}
 	]

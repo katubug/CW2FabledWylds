@@ -53,16 +53,6 @@
         "items": []
       }
     },
-    "main/bake_everything": {
-      "display_name": "Baking Bonanza",
-      "original_name": "Baking Bonanza",
-      "enabled": true,
-      "icon": "farm_and_charm:baked_lamb_ham",
-      "rewards": {
-        "attributes": {},
-        "items": []
-      }
-    },
     "main/place_stove": {
       "display_name": "Dinner is Coming",
       "original_name": "Dinner is Coming",
@@ -118,16 +108,6 @@
       "original_name": "Potluck Preparations",
       "enabled": true,
       "icon": "farm_and_charm:cooking_pot",
-      "rewards": {
-        "attributes": {},
-        "items": []
-      }
-    },
-    "main/make_everything": {
-      "display_name": "Masterchef Manifest",
-      "original_name": "Masterchef Manifest",
-      "enabled": true,
-      "icon": "farm_and_charm:stuffed_chicken",
       "rewards": {
         "attributes": {},
         "items": []

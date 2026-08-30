@@ -10,4 +10,5 @@ ServerEvents.generateData('after_mods', event => {
 ServerEvents.recipes(event => {
     event.shapeless('kubejs:silverwood_sapling', ['#minecraft:saplings', 'thaumon:mutagen']).id('kubejsstudio:silverwood_sapling')
     event.shapeless('kubejs:greatwood_sapling', ['#minecraft:saplings', 'thaumon:mutagen']).id('kubejsstudio:greatwood_sapling')
+    event.shapeless('create:honeyed_apple', ['minecraft:apple', 'minecraft:honey_bottle']).id('kubejsstudio:honeyed_apple')
 })

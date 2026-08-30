@@ -8,16 +8,38 @@
 		id: "minecraft:dragon_head"
 	}
 	id: "5CD8650A590340E5"
-	images: [{
-		height: 10.0d
-		id: "266D03F30D65B3CE"
-		image: "fabled_wylds:textures/questui/bgtheend.png"
-		rotation: 0.0d
-		width: 20.0d
-		x: 0.0d
-		y: 0.0d
-	}]
-	order_index: 2
+	images: [
+		{
+			height: 10.0d
+			id: "266D03F30D65B3CE"
+			image: "fabled_wylds:textures/questui/bgtheend.png"
+			rotation: 0.0d
+			width: 20.0d
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			click_action: "none:quest_enhance:text_v3:1.0:17:minecraft:defaultwork in progress"
+			color: 6321408
+			height: 0.4583333333333333d
+			id: "6291B091A17D2AEB"
+			image: ""
+			rotation: 0.0d
+			width: 3.6666666666666665d
+			x: -1.5d
+			y: -6.0d
+		}
+		{
+			height: 20.0d
+			id: "11BAB1E5D627BD94"
+			image: "fabled_wylds:textures/questui/bookbgslg/yellow_book_lg.png"
+			rotation: 0.0d
+			width: 25.0d
+			x: 5.0d
+			y: -6.0d
+		}
+	]
+	order_index: 1
 	quest_enhance_decorative_lines: [ ]
 	quest_enhance_hidden_dependency_lines: [ ]
 	quest_links: [ ]

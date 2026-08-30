@@ -1,6 +1,6 @@
 [*]
 background:          fabled_wylds:textures/questui/background.png; color={{widget_background}}; tile_size=250
-background2: part:fabled_wylds:textures/questui/9slice/quest_frame_dark.png; corner=80
+background2:         part:fabled_wylds:textures/questui/9slice/quest_frame_dark.png; corner=80
 background3:         fabled_wylds:textures/questui/background2.png; color={{katu_background}}; tile_size=250
 extra_quest_shapes:  diamond, pentagon, hexagon, octagon, heart, gear
 
@@ -63,7 +63,7 @@ rewards_text_color:                 #ffd684
 quest_view_background:              {{background2}}; padding=-32
 quest_view_border:                  {{widget_border}}
 quest_view_title:                   #ffe8e7
-quest_completed_color:              #ba71de
+quest_completed_color:              #c379e9
 quest_started_color:                #FFDC8D
 quest_not_started_color:            rgb(150, 255, 255)
 quest_locked_color:                 #ff9999
@@ -71,9 +71,9 @@ dependency_line_texture:            ftbquests:textures/gui/dependency.png
 dependency_line_completed_color:    #CFE4DE
 dependency_line_requires_color:     #AD99CF
 dependency_line_required_for_color: #7E5FA8
-dependency_line_selected_speed:     1.0
+dependency_line_selected_speed:     0.5
 dependency_line_unselected_speed:   0.0
-dependency_line_thickness:          0.17
+dependency_line_thickness:          0.75
 quest_spacing:                      1.0
 pinned_quest_size:                  0.75
 

@@ -12,8 +12,6 @@ leftSide = false
 backLantern = false
 #Make Iris/Oculus see a light-emitting Curios or Accessories waist item as the offhand item for shader held-item lighting.
 shaderOffhandOverride = true
-#Log Cold Sweat Soulspring Lamp Curios compatibility diagnostics while the lamp is equipped.
-soulspringLampDebugLog = false
 #Log Dynamic Lantern render diagnostics. Disabled by default because it can be noisy during normal gameplay.
 renderDiagnosticLog = false
 #Additional item ids that Dynamic Lantern is allowed to render on supported Curios or Accessories waist slots.

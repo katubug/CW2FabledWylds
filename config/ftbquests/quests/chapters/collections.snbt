@@ -29,6 +29,17 @@
 			x: -3.8d
 			y: -3.1d
 		}
+		{
+			click_action: "none:quest_enhance:text_v3:1.0:17:minecraft:defaultwork in progress"
+			color: 15962025
+			height: 0.4583333333333333d
+			id: "072E27DCA62A18F5"
+			image: ""
+			rotation: 0.0d
+			width: 3.6666666666666665d
+			x: 4.0d
+			y: -3.5d
+		}
 	]
 	order_index: 0
 	quest_enhance_decorative_lines: [ ]

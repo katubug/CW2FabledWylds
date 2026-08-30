@@ -13,12 +13,12 @@ modpackMode = false
 
   # Which window modes the F11 key cycles through
   # Accepted values are: [ATTACH, REPLACE, OFF]
-  attachModeF11 = "ATTACH"
+  attachModeF11 = "REPLACE"
 
 [fpsDisplay]
   # FPS and system details overlay
   # Accepted values are: [OFF, SIMPLE, ADVANCED]
-  mode = "OFF"
+  mode = "ADVANCED"
 
   # Accepted values are: [LEFT, CENTER, RIGHT]
   align = "LEFT"
@@ -27,7 +27,7 @@ modpackMode = false
   verticalAlign = "TOP"
 
   # Accepted values are: [OFF, ALL, GPU_ONLY, RAM_ONLY]
-  systemDetails = "OFF"
+  systemDetails = "RAM_ONLY"
 
   # Value must be greater than 0
   margin = 12

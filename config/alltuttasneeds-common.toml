@@ -33,7 +33,7 @@
 			#Whether vanilla Minecraft beds use their resolved tier's respawn rule.
 			#With the default assignments and basic.setsSpawn=false, enabling this means vanilla beds do not set spawn.
 			#When disabled, vanilla beds always set spawn normally.
-			vanillaBedsUseTierSpawnRules = true
+			vanillaBedsUseTierSpawnRules = false
 			#Whether vanilla Minecraft beds apply their resolved tier's wake effects.
 			vanillaBedsUseTierWakeEffects = true
 
@@ -145,7 +145,7 @@
 				#Optional block IDs assigned to this tier, overriding their automatic classification.
 				#Use a full ID such as "minecraft:red_bed" or a namespace wildcard such as "minecraft:*".
 				#If a block appears in multiple tiers, the highest tier wins.
-				blockOverrides = []
+				blockOverrides = ["handcrafted:acacia_fancy_bed", "handcrafted:bamboo_fancy_bed", "handcrafted:birch_fancy_bed", "handcrafted:cherry_fancy_bed", "handcrafted:crimson_fancy_bed", "handcrafted:dark_oak_fancy_bed", "handcrafted:jungle_fancy_bed", "handcrafted:mangrove_fancy_bed", "handcrafted:oak_fancy_bed", "handcrafted:spruce_fancy_bed", "handcrafted:warped_fancy_bed"]
 				#Block IDs that cannot use this tier.
 				#Use a full ID or namespace wildcard, following the same format as blockOverrides.
 				#A bed excluded from its resolved tier keeps its normal behavior without tier mechanics.

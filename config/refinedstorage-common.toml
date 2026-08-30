@@ -1,6 +1,6 @@
 #Allowed Values: STRETCH, SMALL, MEDIUM, LARGE, EXTRA_LARGE
 screenSize = "STRETCH"
-requireEnergy = true
+requireEnergy = false
 smoothScrolling = true
 debug = false
 tenthAnniversaryCape = false

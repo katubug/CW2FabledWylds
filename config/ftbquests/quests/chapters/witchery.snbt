@@ -9,24 +9,63 @@
 		id: "minecraft:cauldron"
 	}
 	id: "37F503706CE1D7D6"
-	images: [{
-		color: 6321408
-		height: 2.5d
-		id: "5AACAA093BA65B8A"
-		image: "fabled_wylds:textures/questui/titles/witchery.png"
-		rotation: 0.0d
-		width: 9.0d
-		x: 0.0d
-		y: -4.0d
-	}]
+	images: [
+		{
+			color: 6321408
+			height: 2.5d
+			id: "5AACAA093BA65B8A"
+			image: "fabled_wylds:textures/questui/titles/witchery.png"
+			rotation: 0.0d
+			width: 9.0d
+			x: 0.0d
+			y: -4.0d
+		}
+		{
+			click_action: "none:"
+			height: 20.0d
+			id: "0A4EE25E56172F31"
+			image: "fabled_wylds:textures/questui/bookbgslg/green_book_lg.png"
+			order: -5
+			rotation: 0.0d
+			width: 25.0d
+			x: 5.0d
+			y: 2.5d
+		}
+		{
+			click_action: "none:quest_enhance:text_v3:1.5:17:minecraft:defaultWitch's Garden"
+			color: 6321408
+			height: 0.6111111111111112d
+			id: "2BC2E7291EF77A5D"
+			image: ""
+			rotation: 0.0d
+			width: 4.222222222222222d
+			x: 10.0d
+			y: -4.5d
+		}
+		{
+			click_action: "none:quest_enhance:text_v3:1.0:17:minecraft:defaultwork in progress"
+			color: 6321408
+			height: 0.4583333333333333d
+			id: "11BF4686A055652B"
+			image: ""
+			rotation: 0.0d
+			width: 3.6666666666666665d
+			x: 0.0d
+			y: -2.5d
+		}
+	]
 	order_index: 0
 	quest_enhance_decorative_lines: [ ]
-	quest_enhance_hidden_dependency_lines: [ ]
+	quest_enhance_hidden_dependency_lines: [{
+		dependency: "q:182c1c3812c31b0b"
+		reveal_on_hover: 0b
+		source: "q:4655801a35b3bab2"
+	}]
 	quest_links: [{
 		id: "7B814E6FBC27E938"
 		linked_quest: "61101043D3A5BB43"
-		x: 3.5d
-		y: -3.0d
+		x: 2.5d
+		y: 1.5d
 	}]
 	quests: [
 		{
@@ -196,18 +235,19 @@
 				}
 			]
 			x: -0.5d
-			y: -2.0d
+			y: -1.5d
 		}
 		{
 			dependencies: ["182C1C3812C31B0B"]
 			id: "4655801A35B3BAB2"
-			preset: "progression"
+			preset: "milestone"
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "74C6A26152B172D7"
 				table_id: 5167086515396975209L
 				type: "random"
 			}]
+			shape: "square_innercircle"
 			size: 1.5d
 			tasks: [
 				{
@@ -261,8 +301,8 @@
 					type: "item"
 				}
 			]
-			x: 1.0d
-			y: 0.5d
+			x: 7.5d
+			y: -3.5d
 		}
 		{
 			dependencies: ["182C1C3812C31B0B"]
@@ -686,8 +726,8 @@
 				item: { count: 1, id: "hexerei:herb_jar" }
 				type: "item"
 			}]
-			x: 2.5d
-			y: 2.5d
+			x: 11.5d
+			y: 0.0d
 		}
 		{
 			id: "18FD7541912B5772"
@@ -700,6 +740,7 @@
 				}
 				type: "item"
 			}]
+			shape: "banner"
 			tasks: [{
 				id: "6BB279A5AA82F107"
 				item: { count: 1, id: "hexerei:seed_mixture" }
@@ -724,8 +765,8 @@
 				item: { count: 1, id: "hexerei:pestle_and_mortar" }
 				type: "item"
 			}]
-			x: 6.75d
-			y: 0.75d
+			x: 10.5d
+			y: 1.5d
 		}
 		{
 			dependencies: ["18FD7541912B5772"]
@@ -1003,8 +1044,8 @@
 				item: { count: 1, id: "hexerei:mushroom_witch_hat" }
 				type: "item"
 			}]
-			x: 6.0d
-			y: -3.5d
+			x: 7.0d
+			y: -1.0d
 		}
 		{
 			dependencies: ["182C1C3812C31B0B"]
@@ -1044,8 +1085,8 @@
 				item: { count: 1, id: "hexerei:herb_drying_rack" }
 				type: "item"
 			}]
-			x: 3.5d
-			y: 0.5d
+			x: 12.5d
+			y: -2.0d
 		}
 		{
 			dependencies: ["410FE13D777DE1C8"]
@@ -1088,8 +1129,8 @@
 				item: { count: 1, id: "enchanted:mandrake_root" }
 				type: "item"
 			}]
-			x: 1.5d
-			y: 2.5d
+			x: 10.5d
+			y: 0.0d
 		}
 		{
 			dependencies: ["4655801A35B3BAB2"]
@@ -1108,8 +1149,8 @@
 				item: { count: 1, id: "enchanted:tongue_of_dog" }
 				type: "item"
 			}]
-			x: 0.5d
-			y: 2.5d
+			x: 9.5d
+			y: 0.0d
 		}
 		{
 			dependencies: ["0C7EA86F283677BB"]
@@ -1128,8 +1169,8 @@
 				item: { count: 1, id: "hexalia:athame" }
 				type: "item"
 			}]
-			x: -5.5d
-			y: -3.0d
+			x: -6.5d
+			y: -3.5d
 		}
 		{
 			dependencies: ["182C1C3812C31B0B"]
@@ -1149,7 +1190,7 @@
 				type: "item"
 			}]
 			x: 1.0d
-			y: -2.0d
+			y: -0.5d
 		}
 		{
 			always_invisible: true
@@ -1419,8 +1460,8 @@
 					type: "item"
 				}
 			]
-			x: 3.0d
-			y: 1.5d
+			x: 12.0d
+			y: -1.0d
 		}
 		{
 			dependencies: ["24C19E2033095FFA"]
@@ -1431,13 +1472,14 @@
 				table_id: 7328857662613080212L
 				type: "random"
 			}]
+			shape: "square_innercircle"
 			tasks: [{
 				id: "42CDB69E38CE4AF7"
 				item: { count: 1, id: "enchanted:mutandis" }
 				type: "item"
 			}]
-			x: 8.5d
-			y: -1.0d
+			x: 7.5d
+			y: 2.5d
 		}
 		{
 			dependencies: ["084BB53F414CF215"]
@@ -1542,8 +1584,8 @@
 				item: { count: 1, id: "hexalia:censer" }
 				type: "item"
 			}]
-			x: -3.0d
-			y: -6.0d
+			x: -4.0d
+			y: -6.5d
 		}
 		{
 			dependencies: ["186783CBB755AC03"]

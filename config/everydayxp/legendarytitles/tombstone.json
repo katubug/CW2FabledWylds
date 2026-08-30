@@ -1,0 +1,1477 @@
+{
+  "enabled": true,
+  "mod_name": "Corail Tombstone",
+  "mod_id": "tombstone",
+  "achievements": {
+    "adventure/use_mercy": {
+      "display_name": "A self-respecting Soul",
+      "original_name": "A self-respecting Soul",
+      "enabled": true,
+      "icon": "tombstone:scroll_of_mercy",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "adventure/use_frost_resistance": {
+      "display_name": "Powder Snow Walk",
+      "original_name": "Powder Snow Walk",
+      "enabled": true,
+      "icon": "tombstone:scroll_of_frost_resistance",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "event/trade_50_lollipop": {
+      "display_name": "Promising Business",
+      "original_name": "Promising Business",
+      "enabled": true,
+      "icon": "tombstone:lollipop",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "adventure/free_soul": {
+      "display_name": "Deliverance",
+      "original_name": "Deliverance",
+      "enabled": true,
+      "icon": "tombstone:receptacle_of_soul",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "adventure/ally_enhancer": {
+      "display_name": "Ally Enhancer",
+      "original_name": "Ally Enhancer",
+      "enabled": true,
+      "icon": "tombstone:magic_scroll",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "adventure/neighborhood_brawl": {
+      "display_name": "Neighborhood Brawl",
+      "original_name": "Neighborhood Brawl",
+      "enabled": true,
+      "icon": "minecraft:wooden_sword",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "adventure/impregnator": {
+      "display_name": "Impregnator",
+      "original_name": "Impregnator",
+      "enabled": true,
+      "icon": "tombstone:book_of_magic_impregnation",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "adventure/master_scribe": {
+      "display_name": "Master Scribe",
+      "original_name": "Master Scribe",
+      "enabled": true,
+      "icon": "tombstone:book_of_scribe",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "adventure/pray_of_protection": {
+      "display_name": "Prayer of Protection",
+      "original_name": "Prayer of Protection",
+      "enabled": true,
+      "icon": "tombstone:advancement_9",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "adventure/ancient_knowledge": {
+      "display_name": "Ancient Knowledge",
+      "original_name": "Ancient Knowledge",
+      "enabled": true,
+      "icon": "tombstone:advancement_5",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "event/springbloom_plant_50_seed": {
+      "display_name": "Gardener of Renewal",
+      "original_name": "Gardener of Renewal",
+      "enabled": true,
+      "icon": "minecraft:torchflower_seeds",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "adventure/stolen_magic": {
+      "display_name": "Stolen Magic",
+      "original_name": "Stolen Magic",
+      "enabled": true,
+      "icon": "minecraft:potion",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "adventure/use_assistance": {
+      "display_name": "Leeroy Is Back",
+      "original_name": "Leeroy Is Back",
+      "enabled": true,
+      "icon": "tombstone:tablet_of_assistance",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "adventure/mastery_2": {
+      "display_name": "Mastery 2",
+      "original_name": "Mastery 2",
+      "enabled": true,
+      "icon": "tombstone:impregnated_diamond",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "adventure/mastery_1": {
+      "display_name": "Mastery 1",
+      "original_name": "Mastery 1",
+      "enabled": true,
+      "icon": "tombstone:impregnated_diamond",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "adventure/soul_eater": {
+      "display_name": "Soul Eater",
+      "original_name": "Soul Eater",
+      "enabled": true,
+      "icon": "tombstone:advancement_5",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "event/trade_lollipop": {
+      "display_name": "Tradable Lollipop",
+      "original_name": "Tradable Lollipop",
+      "enabled": true,
+      "icon": "tombstone:lollipop",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "adventure/use_unstable_intangibility": {
+      "display_name": "To be or not to be",
+      "original_name": "To be or not to be",
+      "enabled": true,
+      "icon": "tombstone:scroll_of_unstable_intangibility",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "adventure/use_true_sight": {
+      "display_name": "I see clearly now",
+      "original_name": "I see clearly now",
+      "enabled": true,
+      "icon": "tombstone:scroll_of_true_sight",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "adventure/use_disenchantment": {
+      "display_name": "Magic Disenchantment",
+      "original_name": "Magic Disenchantment",
+      "enabled": true,
+      "icon": "tombstone:book_of_disenchantment",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "adventure/use_magic_impregnation": {
+      "display_name": "Magic Impregnation",
+      "original_name": "Magic Impregnation",
+      "enabled": true,
+      "icon": "tombstone:book_of_magic_impregnation",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "adventure/find_grave_dust": {
+      "display_name": "A Strange Grave Dust",
+      "original_name": "A Strange Grave Dust",
+      "enabled": true,
+      "icon": "tombstone:grave_dust",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "adventure/tomb_raider": {
+      "display_name": "Tomb Raider",
+      "original_name": "Tomb Raider",
+      "enabled": true,
+      "icon": "minecraft:iron_shovel",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "adventure/use_repairing": {
+      "display_name": "Magic Repairing",
+      "original_name": "Magic Repairing",
+      "enabled": true,
+      "icon": "tombstone:book_of_repairing",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "adventure/use_lightning_resistance": {
+      "display_name": "Traveling lightning rod",
+      "original_name": "Traveling lightning rod",
+      "enabled": true,
+      "icon": "tombstone:scroll_of_lightning_resistance",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "adventure/use_soulbound": {
+      "display_name": "Soulbound",
+      "original_name": "Soulbound",
+      "enabled": true,
+      "icon": "tombstone:book_of_soulbound",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "adventure/ancient_fishing_rod": {
+      "display_name": "Ancient Fishing Rod",
+      "original_name": "Ancient Fishing Rod",
+      "enabled": true,
+      "icon": "tombstone:fishing_rod_of_misadventure",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "adventure/guardian_of_eternity": {
+      "display_name": "Guardian of Eternity",
+      "original_name": "Guardian of Eternity",
+      "enabled": true,
+      "icon": "tombstone:decorative_grave_original",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "adventure/master_ally_enhancer": {
+      "display_name": "Master Ally Enhancer",
+      "original_name": "Master Ally Enhancer",
+      "enabled": true,
+      "icon": "tombstone:magic_scroll",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "event/springbloom_plant_1_seed": {
+      "display_name": "First Seedling",
+      "original_name": "First Seedling",
+      "enabled": true,
+      "icon": "minecraft:wheat_seeds",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "adventure/master_wololo": {
+      "display_name": "Rainbow Sheep",
+      "original_name": "Rainbow Sheep",
+      "enabled": true,
+      "icon": "minecraft:magenta_wool",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "event/drink_earthly_garden": {
+      "display_name": "Essence of the Garden",
+      "original_name": "Essence of the Garden",
+      "enabled": true,
+      "icon": "minecraft:potion",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "adventure/knowledge_wasted": {
+      "display_name": "Knowledge Wasted",
+      "original_name": "Knowledge Wasted",
+      "enabled": true,
+      "icon": "minecraft:writable_book",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "adventure/prevent_death_voodoo_poppet": {
+      "display_name": "Not Today, Grim Reaper",
+      "original_name": "Not Today, Grim Reaper",
+      "enabled": true,
+      "icon": "tombstone:voodoo_poppet",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "adventure/subterfuge_and_discretion": {
+      "display_name": "Subterfuge \u0026 Discretion",
+      "original_name": "Subterfuge \u0026 Discretion",
+      "enabled": true,
+      "icon": "tombstone:advancement_8",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "adventure/choose_knowledge": {
+      "display_name": "Knowledge raises the soul",
+      "original_name": "Knowledge raises the soul",
+      "enabled": true,
+      "icon": "minecraft:lantern",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "adventure/first_pray": {
+      "display_name": "First Prayer",
+      "original_name": "First Prayer",
+      "enabled": true,
+      "icon": "tombstone:advancement_3",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "adventure/command_undead_servant": {
+      "display_name": "Rise and Rest",
+      "original_name": "Rise and Rest",
+      "enabled": true,
+      "icon": "tombstone:bone_scepter",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "adventure/enchant_fishing_rod": {
+      "display_name": "Enchanted for Misadventure",
+      "original_name": "Enchanted for Misadventure",
+      "enabled": true,
+      "icon": "tombstone:fishing_rod_of_misadventure",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "event/eat_lollipop": {
+      "display_name": "Not so bad",
+      "original_name": "Not so bad",
+      "enabled": true,
+      "icon": "tombstone:lollipop",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "adventure/find_lost_tablet_exploration": {
+      "display_name": "Land Exploration",
+      "original_name": "Land Exploration",
+      "enabled": true,
+      "icon": "tombstone:lost_tablet",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "adventure/versatility": {
+      "display_name": "Versatility",
+      "original_name": "Versatility",
+      "enabled": true,
+      "icon": "minecraft:soul_lantern",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "event/mysterious_gift": {
+      "display_name": "Mysterious Gift",
+      "original_name": "Mysterious Gift",
+      "enabled": true,
+      "icon": "tombstone:christmas_gift",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "adventure/use_home": {
+      "display_name": "Home Sweet Home",
+      "original_name": "Home Sweet Home",
+      "enabled": true,
+      "icon": "tombstone:tablet_of_home",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "adventure/find_lost_tablet": {
+      "display_name": "An adventure awaits you",
+      "original_name": "An adventure awaits you",
+      "enabled": true,
+      "icon": "tombstone:lost_tablet",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "adventure/prayer_of_undead": {
+      "display_name": "Prayer of Undead",
+      "original_name": "Prayer of Undead",
+      "enabled": true,
+      "icon": "minecraft:wither_skeleton_skull",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "event/thornveil_spawn": {
+      "display_name": "Mystical Blooming",
+      "original_name": "Mystical Blooming",
+      "enabled": true,
+      "icon": "tombstone:decorative_grave_original",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "adventure/soul_magic": {
+      "display_name": "Soul Magic",
+      "original_name": "Soul Magic",
+      "enabled": true,
+      "icon": "tombstone:advancement_5",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "adventure/recycler": {
+      "display_name": "Recycler",
+      "original_name": "Recycler",
+      "enabled": true,
+      "icon": "tombstone:book_of_recycling",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "adventure/master_impregnator": {
+      "display_name": "Master Impregnator",
+      "original_name": "Master Impregnator",
+      "enabled": true,
+      "icon": "tombstone:book_of_magic_impregnation",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "adventure/great_protector": {
+      "display_name": "Great Protector",
+      "original_name": "Great Protector",
+      "enabled": true,
+      "icon": "tombstone:advancement_9",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "adventure/consume_soul": {
+      "display_name": "Let The Magic Happen",
+      "original_name": "Let The Magic Happen",
+      "enabled": true,
+      "icon": "tombstone:advancement_5",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "event/silent_ceremony": {
+      "display_name": "Silent Ceremony",
+      "original_name": "Silent Ceremony",
+      "enabled": true,
+      "icon": "tombstone:advancement_17",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "adventure/cancel_ghostly_shape": {
+      "display_name": "Here They Come",
+      "original_name": "Here They Come",
+      "enabled": true,
+      "icon": "tombstone:advancement_1",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "adventure/chain_death": {
+      "display_name": "Chain Death",
+      "original_name": "Chain Death",
+      "enabled": true,
+      "icon": "tombstone:decorative_grave_cross",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "adventure/strong_undead": {
+      "display_name": "Strong Undead",
+      "original_name": "Strong Undead",
+      "enabled": true,
+      "icon": "minecraft:wither_rose",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "adventure/fortuitous_militia": {
+      "display_name": "Fortuitous Militia",
+      "original_name": "Fortuitous Militia",
+      "enabled": true,
+      "icon": "minecraft:iron_axe",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "adventure/create_voodoo_poppet": {
+      "display_name": "Back to childhood",
+      "original_name": "Back to childhood",
+      "enabled": true,
+      "icon": "tombstone:voodoo_poppet",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "event/spring_bloom": {
+      "display_name": "Spring Bloom",
+      "original_name": "Spring Bloom",
+      "enabled": true,
+      "icon": "minecraft:peony",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "adventure/create_familiar_receptacle": {
+      "display_name": "Your First Receptacle",
+      "original_name": "Your First Receptacle",
+      "enabled": true,
+      "icon": "tombstone:receptacle_of_familiar",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "adventure/create_strange_scroll": {
+      "display_name": "Not Even Double-Sided",
+      "original_name": "Not Even Double-Sided",
+      "enabled": true,
+      "icon": "tombstone:strange_scroll",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "adventure/exorcism": {
+      "display_name": "What an excellent day for an exorcism",
+      "original_name": "What an excellent day for an exorcism",
+      "enabled": true,
+      "icon": "tombstone:advancement_4",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "adventure/first_knowledge": {
+      "display_name": "Knowledge of Death",
+      "original_name": "Knowledge of Death",
+      "enabled": true,
+      "icon": "tombstone:advancement_0",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "adventure/master_tomb_raider": {
+      "display_name": "Master Tomb Raider",
+      "original_name": "Master Tomb Raider",
+      "enabled": true,
+      "icon": "minecraft:golden_shovel",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "adventure/trade_grave_guardian": {
+      "display_name": "Bargaining with Death",
+      "original_name": "Bargaining with Death",
+      "enabled": true,
+      "icon": "tombstone:essence_of_undeath",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "adventure/mutual_aid": {
+      "display_name": "Mutual Aid",
+      "original_name": "Mutual Aid",
+      "enabled": true,
+      "icon": "tombstone:magic_scroll",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "adventure/master_of_zombify": {
+      "display_name": "Master of Zombify",
+      "original_name": "Master of Zombify",
+      "enabled": true,
+      "icon": "tombstone:advancement_4",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "adventure/create_magic_tablet": {
+      "display_name": "Where Is The Stone Pen?",
+      "original_name": "Where Is The Stone Pen?",
+      "enabled": true,
+      "icon": "tombstone:strange_tablet",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "adventure/repairer": {
+      "display_name": "Repairer",
+      "original_name": "Repairer",
+      "enabled": true,
+      "icon": "tombstone:book_of_repairing",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "adventure/master_siphoner": {
+      "display_name": "Master Siphoner",
+      "original_name": "Master Siphoner",
+      "enabled": true,
+      "icon": "minecraft:splash_potion",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "adventure/create_grave_marble": {
+      "display_name": "Black or White",
+      "original_name": "Black or White",
+      "enabled": true,
+      "icon": "tombstone:dark_marble",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "adventure/use_scribe": {
+      "display_name": "Magic Scribing",
+      "original_name": "Magic Scribing",
+      "enabled": true,
+      "icon": "tombstone:book_of_scribe",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "adventure/servant_of_rest": {
+      "display_name": "Servant of Rest",
+      "original_name": "Servant of Rest",
+      "enabled": true,
+      "icon": "tombstone:decorative_tombstone",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "adventure/talk_grave_guardian": {
+      "display_name": "Strange Encounter",
+      "original_name": "Strange Encounter",
+      "enabled": true,
+      "icon": "minecraft:skeleton_skull",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "adventure/capture_soul": {
+      "display_name": "Soul Prison",
+      "original_name": "Soul Prison",
+      "enabled": true,
+      "icon": "tombstone:receptacle_of_familiar",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "event/christmas": {
+      "display_name": "Christmas",
+      "original_name": "Christmas",
+      "enabled": true,
+      "icon": "tombstone:christmas_gift",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "adventure/master_of_escape": {
+      "display_name": "Master of Escape",
+      "original_name": "Master of Escape",
+      "enabled": true,
+      "icon": "tombstone:advancement_8",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "event/trade_10_lollipop": {
+      "display_name": "Easy Trades",
+      "original_name": "Easy Trades",
+      "enabled": true,
+      "icon": "tombstone:lollipop",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "adventure/prayer_of_empathy": {
+      "display_name": "Prayer of Empathy",
+      "original_name": "Prayer of Empathy",
+      "enabled": true,
+      "icon": "minecraft:cat_spawn_egg",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "adventure/impregnated_bone_needle": {
+      "display_name": "Essence Gathering",
+      "original_name": "Essence Gathering",
+      "enabled": true,
+      "icon": "tombstone:bone_needle",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "adventure/master_disenchanter": {
+      "display_name": "Master Disenchanter",
+      "original_name": "Master Disenchanter",
+      "enabled": true,
+      "icon": "tombstone:book_of_disenchantment",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "event/villager_gift": {
+      "display_name": "Gift Delivery",
+      "original_name": "Gift Delivery",
+      "enabled": true,
+      "icon": "tombstone:villager_gift",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "adventure/create_grave_plate": {
+      "display_name": "Grave Inscription",
+      "original_name": "Grave Inscription",
+      "enabled": true,
+      "icon": "tombstone:grave_plate",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "adventure/create_decorative_grave": {
+      "display_name": "A Small Cemetery",
+      "original_name": "A Small Cemetery",
+      "enabled": true,
+      "icon": "tombstone:decorative_grave_simple",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "adventure/vanishing": {
+      "display_name": "Vanishing",
+      "original_name": "Vanishing",
+      "enabled": true,
+      "icon": "tombstone:dust_of_vanishing",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "adventure/create_fishing_rod": {
+      "display_name": "A Time for Misadventure",
+      "original_name": "A Time for Misadventure",
+      "enabled": true,
+      "icon": "tombstone:fishing_rod_of_misadventure",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "adventure/use_recall": {
+      "display_name": "Tomb Bound",
+      "original_name": "Tomb Bound",
+      "enabled": true,
+      "icon": "tombstone:tablet_of_recall",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "adventure/color_smoke_ball": {
+      "display_name": "All colours will agree in the dark",
+      "original_name": "All colours will agree in the dark",
+      "enabled": true,
+      "icon": "tombstone:smoke_ball",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "event/springbloom_plant_10_seed": {
+      "display_name": "Green Thumb",
+      "original_name": "Green Thumb",
+      "enabled": true,
+      "icon": "minecraft:beetroot_seeds",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "adventure/disenchanter": {
+      "display_name": "Disenchanter",
+      "original_name": "Disenchanter",
+      "enabled": true,
+      "icon": "tombstone:book_of_disenchantment",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "adventure/ambush": {
+      "display_name": "Ambush",
+      "original_name": "Ambush",
+      "enabled": true,
+      "icon": "minecraft:wooden_axe",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "adventure/create_imbued_arrow": {
+      "display_name": "Imbued Arrow",
+      "original_name": "Imbued Arrow",
+      "enabled": true,
+      "icon": "minecraft:tipped_arrow",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "adventure/use_lost_tablet": {
+      "display_name": "The trip ends but the adventure begins",
+      "original_name": "The trip ends but the adventure begins",
+      "enabled": true,
+      "icon": "tombstone:lost_tablet",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "adventure/bone_crusher": {
+      "display_name": "Bone Crusher",
+      "original_name": "Bone Crusher",
+      "enabled": true,
+      "icon": "minecraft:skeleton_skull",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "adventure/first_grave": {
+      "display_name": "Your First Grave",
+      "original_name": "Your First Grave",
+      "enabled": true,
+      "icon": "tombstone:decorative_grave_normal",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "adventure/combine_in_inventory": {
+      "display_name": "Quickly Applied",
+      "original_name": "Quickly Applied",
+      "enabled": true,
+      "icon": "tombstone:advancement_13",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "adventure/use_recycling": {
+      "display_name": "Magic Recycling",
+      "original_name": "Magic Recycling",
+      "enabled": true,
+      "icon": "tombstone:book_of_recycling",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "adventure/village_defender": {
+      "display_name": "Village Defender",
+      "original_name": "Village Defender",
+      "enabled": true,
+      "icon": "minecraft:golden_axe",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "adventure/zombify": {
+      "display_name": "Zombify",
+      "original_name": "Zombify",
+      "enabled": true,
+      "icon": "tombstone:advancement_4",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "adventure/choose_grave_type": {
+      "display_name": "Die Classy",
+      "original_name": "Die Classy",
+      "enabled": true,
+      "icon": "tombstone:decorative_grave_cross",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "adventure/magic_siphoner": {
+      "display_name": "Magic Siphoner",
+      "original_name": "Magic Siphoner",
+      "enabled": true,
+      "icon": "minecraft:lingering_potion",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "adventure/genocide": {
+      "display_name": "Genocide",
+      "original_name": "Genocide",
+      "enabled": true,
+      "icon": "minecraft:golden_sword",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "adventure/almost_unkillable": {
+      "display_name": "Almost Unkillable",
+      "original_name": "Almost Unkillable",
+      "enabled": true,
+      "icon": "tombstone:decorative_subaraki_grave",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "event/get_essence_from_thornveil": {
+      "display_name": "Heart of the Grave",
+      "original_name": "Heart of the Grave",
+      "enabled": true,
+      "icon": "tombstone:essence_of_undeath",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "event/thorveil_awakens": {
+      "display_name": "Thornveil Awakens",
+      "original_name": "Thornveil Awakens",
+      "enabled": true,
+      "icon": "tombstone:thornveil",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "adventure/find_ancient_tablet": {
+      "display_name": "Treasure from the Past",
+      "original_name": "Treasure from the Past",
+      "enabled": true,
+      "icon": "tombstone:tablet_of_recall",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "adventure/find_lost_tablet_village": {
+      "display_name": "A new home",
+      "original_name": "A new home",
+      "enabled": true,
+      "icon": "tombstone:lost_tablet",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "adventure/use_purification": {
+      "display_name": "A little cleaning is necessary",
+      "original_name": "A little cleaning is necessary",
+      "enabled": true,
+      "icon": "tombstone:scroll_of_purification",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "adventure/master_of_exorcism": {
+      "display_name": "Master of Exorcism",
+      "original_name": "Master of Exorcism",
+      "enabled": true,
+      "icon": "tombstone:advancement_4",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "adventure/engrave_grave_plate": {
+      "display_name": "Who\u0027s This Guy?",
+      "original_name": "Who\u0027s This Guy?",
+      "enabled": true,
+      "icon": "minecraft:anvil",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "adventure/create_smoke_ball": {
+      "display_name": "Not Carbolic",
+      "original_name": "Not Carbolic",
+      "enabled": true,
+      "icon": "tombstone:smoke_ball",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "event/candy_sick": {
+      "display_name": "Candy Sick",
+      "original_name": "Candy Sick",
+      "enabled": true,
+      "icon": "tombstone:lollipop",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "adventure/impregnated_receptacle": {
+      "display_name": "Bound by Essence",
+      "original_name": "Bound by Essence",
+      "enabled": true,
+      "icon": "tombstone:bone_needle",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "adventure/use_knowledge": {
+      "display_name": "Great minds think alike",
+      "original_name": "Great minds think alike",
+      "enabled": true,
+      "icon": "tombstone:scroll_of_knowledge",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "adventure/new_path": {
+      "display_name": "New Path",
+      "original_name": "New Path",
+      "enabled": true,
+      "icon": "tombstone:book_of_oblivion",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "adventure/wololo": {
+      "display_name": "A colorful sheep stays a sheep",
+      "original_name": "A colorful sheep stays a sheep",
+      "enabled": true,
+      "icon": "minecraft:white_wool",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "adventure/use_aquatic_life": {
+      "display_name": "Waterworld",
+      "original_name": "Waterworld",
+      "enabled": true,
+      "icon": "tombstone:scroll_of_aquatic_life",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "adventure/use_guard": {
+      "display_name": "Spectral Guardian",
+      "original_name": "Spectral Guardian",
+      "enabled": true,
+      "icon": "tombstone:tablet_of_guard",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "adventure/drink_potion_of_earthly_garden": {
+      "display_name": "The earth is too old to be laughed at",
+      "original_name": "The earth is too old to be laughed at",
+      "enabled": true,
+      "icon": "minecraft:potion",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "adventure/master_recycler": {
+      "display_name": "Master Recycler",
+      "original_name": "Master Recycler",
+      "enabled": true,
+      "icon": "tombstone:book_of_recycling",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "adventure/master_repairer": {
+      "display_name": "Master Repairer",
+      "original_name": "Master Repairer",
+      "enabled": true,
+      "icon": "tombstone:book_of_repairing",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "adventure/find_lost_tablet_treasure": {
+      "display_name": "The treasure is at hand",
+      "original_name": "The treasure is at hand",
+      "enabled": true,
+      "icon": "tombstone:lost_tablet",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "event/halloween": {
+      "display_name": "Halloween",
+      "original_name": "Halloween",
+      "enabled": true,
+      "icon": "tombstone:advancement_6",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "adventure/teleport_to_grave": {
+      "display_name": "A Fast Comeback",
+      "original_name": "A Fast Comeback",
+      "enabled": true,
+      "icon": "tombstone:advancement_2",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "adventure/crime_in_town": {
+      "display_name": "Crime in Town",
+      "original_name": "Crime in Town",
+      "enabled": true,
+      "icon": "minecraft:iron_sword",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "adventure/easy_opening": {
+      "display_name": "Easy Opening",
+      "original_name": "Easy Opening",
+      "enabled": true,
+      "icon": "tombstone:decorative_grave_simple",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "adventure/engrave_decorative_grave": {
+      "display_name": "Unforgettable",
+      "original_name": "Unforgettable",
+      "enabled": true,
+      "icon": "tombstone:grave_plate",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "adventure/strange_mount": {
+      "display_name": "Strange Mount",
+      "original_name": "Strange Mount",
+      "enabled": true,
+      "icon": "tombstone:advancement_10",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "adventure/create_spectral_potion": {
+      "display_name": "The alchemy of time on the soul",
+      "original_name": "The alchemy of time on the soul",
+      "enabled": true,
+      "icon": "minecraft:potion",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "adventure/use_reach": {
+      "display_name": "The long arm of the law",
+      "original_name": "The long arm of the law",
+      "enabled": true,
+      "icon": "tombstone:scroll_of_reach",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "adventure/revive_familiar": {
+      "display_name": "Bound Forever",
+      "original_name": "Bound Forever",
+      "enabled": true,
+      "icon": "tombstone:advancement_7",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "adventure/create_magic_scroll": {
+      "display_name": "Magic Writing",
+      "original_name": "Magic Writing",
+      "enabled": true,
+      "icon": "tombstone:strange_scroll",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "adventure/strong_or_careful": {
+      "display_name": "Strong or Careful",
+      "original_name": "Strong or Careful",
+      "enabled": true,
+      "icon": "tombstone:decorative_subaraki_grave",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "adventure/drink_me_eat_me": {
+      "display_name": "Drink me! Eat me!",
+      "original_name": "Drink me! Eat me!",
+      "enabled": true,
+      "icon": "minecraft:potion",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "event/expert_tasting": {
+      "display_name": "Expert Tasting",
+      "original_name": "Expert Tasting",
+      "enabled": true,
+      "icon": "tombstone:lollipop",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "adventure/discreet_search": {
+      "display_name": "Discreet Search",
+      "original_name": "Discreet Search",
+      "enabled": true,
+      "icon": "tombstone:decorative_grave_original",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "adventure/enchant_grave_key": {
+      "display_name": "The Most Useful Key",
+      "original_name": "The Most Useful Key",
+      "enabled": true,
+      "icon": "tombstone:grave_key",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "adventure/scribe": {
+      "display_name": "Scribe",
+      "original_name": "Scribe",
+      "enabled": true,
+      "icon": "tombstone:book_of_scribe",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "adventure/ashes_and_bones": {
+      "display_name": "Ashes \u0027n Bones",
+      "original_name": "Ashes \u0027n Bones",
+      "enabled": true,
+      "icon": "minecraft:bone",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "adventure/use_preservation": {
+      "display_name": "Death Will Not Be Enough",
+      "original_name": "Death Will Not Be Enough",
+      "enabled": true,
+      "icon": "tombstone:scroll_of_preservation",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "adventure/use_cupidity": {
+      "display_name": "Greed may lead to loss",
+      "original_name": "Greed may lead to loss",
+      "enabled": true,
+      "icon": "tombstone:tablet_of_cupidity",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "adventure/enchant_voodoo_poppet": {
+      "display_name": "Not even afraid of death",
+      "original_name": "Not even afraid of death",
+      "enabled": true,
+      "icon": "tombstone:voodoo_poppet",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "event/trade_lollipop_for_essence": {
+      "display_name": "Essence of Undeath",
+      "original_name": "Essence of Undeath",
+      "enabled": true,
+      "icon": "tombstone:essence_of_undeath",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "adventure/funeral_theft": {
+      "display_name": "Funeral Theft",
+      "original_name": "Funeral Theft",
+      "enabled": true,
+      "icon": "minecraft:wooden_shovel",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "adventure/create_strange_tablet": {
+      "display_name": "Not of Chocolate",
+      "original_name": "Not of Chocolate",
+      "enabled": true,
+      "icon": "tombstone:strange_tablet",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "event/floral_trading": {
+      "display_name": "Floral Trading",
+      "original_name": "Floral Trading",
+      "enabled": true,
+      "icon": "minecraft:flower_pot",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "adventure/use_feather_fall": {
+      "display_name": "Like a bird",
+      "original_name": "Like a bird",
+      "enabled": true,
+      "icon": "tombstone:scroll_of_feather_fall",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    }
+  }
+}

@@ -1,98 +1,164 @@
 ServerEvents.recipes(event => {
 	//Recipe Replacements
 
-	//flour
+	// Ingredient replacements for custom recipe types
+	// (replaceInput doesn't work on these, so we parse the JSON and rebuild)
+	const customReplacements = [
+		{ from: 'farm_and_charm:bacon',         to: 'farmersdelight:bacon' },
+		{ from: 'farm_and_charm:chicken_parts', to: 'farmersdelight:chicken_cuts' },
+		{ from: 'farm_and_charm:onion',         to: 'farmersdelight:onion' },
+		{ from: 'farm_and_charm:tomato',        to: 'farmersdelight:tomato' },
+		{ from: 'farm_and_charm:corn',          to: 'hearthandharvest:corn' },
+		{ from: 'farm_and_charm:lamb_ham',      to: 'farmersdelight:mutton_chops' },
+		{ from: 'farm_and_charm:minced_beef',   to: 'farmersdelight:minced_beef' },
+		{ from: 'farm_and_charm:raw_pasta',     to: 'farmersdelight:raw_pasta' },
+	]
+
+	const customRecipeTypes = [
+		'farm_and_charm:roaster',
+		'farm_and_charm:crafting_bowl',
+		'farm_and_charm:mincer',
+		'farm_and_charm:pot_cooking',
+		'farm_and_charm:stove',
+		'meadow:cooking',
+	]
+
+	for (const type of customRecipeTypes) {
+		event.forEachRecipe({ type }, r => {
+			const json = JSON.parse(r.json.toString())
+			let changed = false
+
+			// some types use "ingredient" (singular object), others use "ingredients" (array)
+			const ings = json.ingredients ? json.ingredients : json.ingredient ? [json.ingredient] : []
+
+			for (let ing of ings) {
+				for (const rep of customReplacements) {
+					if (ing.item === rep.from || ing.tag === rep.from) {
+						delete ing.item
+						delete ing.tag
+						ing.item = rep.to
+						changed = true
+						break
+					}
+				}
+			}
+
+			if (changed) {
+				event.remove({ id: r.getId() })
+				event.custom(json).id(r.getId())
+			}
+		})
+	}
+
+	//flour 2
 	event.replaceInput({
 			input: 'create:wheat_flour'
-		}, // Arg 1: the filter
-		'create:wheat_flour', // Arg 2: the item to replace
-		'#c:flour' // Arg 3: the item to replace it with
+		}, 
+		'create:wheat_flour', 
+		'#c:flour' 
+	)
+
+
+	//dough
+	event.replaceInput({
+			input: 'farm_and_charm:dough'
+		},
+		'farm_and_charm:dough',
+		'#c:foods/dough/wheat'
+	)
+
+	//dough 2
+	event.replaceInput({
+			input: 'create:dough'
+		},
+		'create:dough',
+		'#c:foods/dough/wheat'
 	)
 
 	//sulfur
 	event.replaceInput({
 			input: 'minecraft:sulfur'
-		}, // Arg 1: the filter
-		'minecraft:sulfur', // Arg 2: the item to replace
-		'#fabled_wylds:sulfur' // Arg 3: the item to replace it with
+		}, 
+		'minecraft:sulfur', 
+		'#fabled_wylds:sulfur' 
 	)
 
 	//sulfur
 	event.replaceInput({
 			input: 'betterend:crystalline_sulphur'
-		}, // Arg 1: the filter
-		'betterend:crystalline_sulphur', // Arg 2: the item to replace
-		'#fabled_wylds:sulfur' // Arg 3: the item to replace it with
+		}, 
+		'betterend:crystalline_sulphur', 
+		'#fabled_wylds:sulfur' 
 	)
 
 	//salt
 	event.replaceInput({
 			input: 'hexalia:salt'
-		}, // Arg 1: the filter
-		'hexalia:salt', // Arg 2: the item to replace
-		'#c:dusts/salt' // Arg 3: the item to replace it with
+		}, 
+		'hexalia:salt', 
+		'#c:dusts/salt' 
 	)
 	event.replaceInput({
 			input: 'meadow:alpine_salt'
-		}, // Arg 1: the filter
-		'meadow:alpine_salt', // Arg 2: the item to replace
-		'#c:dusts/salt' // Arg 3: the item to replace it with
+		}, 
+		'meadow:alpine_salt', 
+		'#c:dusts/salt' 
 	)
 	event.replaceInput({
 			input: 'hearthandharvest:salt'
-		}, // Arg 1: the filter
-		'hearthandharvest:salt', // Arg 2: the item to replace
-		'#c:dusts/salt' // Arg 3: the item to replace it with
+		}, 
+		'hearthandharvest:salt', 
+		'#c:dusts/salt' 
 	)
 
 	//Strawberries
 	event.replaceInput({
 			input: 'mysticsbiomes:strawberry'
-		}, // Arg 1: the filter
-		'mysticsbiomes:strawberry', // Arg 2: the item to replace
-		'#c:fruits/strawberries' // Arg 3: the item to replace it with
+		}, 
+		'mysticsbiomes:strawberry', 
+		'#c:fruits/strawberries' 
 	)
 
 	//Recipe Replacements
 	//Strawberries
 	event.replaceInput({
 			input: 'farm_and_charm:strawberry'
-		}, // Arg 1: the filter
-		'farm_and_charm:strawberry', // Arg 2: the item to replace
-		'#c:fruits/strawberries' // Arg 3: the item to replace it with
+		}, 
+		'farm_and_charm:strawberry', 
+		'#c:fruits/strawberries' 
 	)
 
 	//Belladonna Flowers
 	event.replaceInput({
 			input: 'enchanted:belladonna_flower'
-		}, // Arg 1: the filter
-		'enchanted:belladonna_flower', // Arg 2: the item to replace
-		'hexerei:belladonna_flowers' // Arg 3: the item to replace it with
+		}, 
+		'enchanted:belladonna_flower', 
+		'hexerei:belladonna_flowers' 
 	)
 
 
 	//Cheese Slices
 	event.replaceInput({
 			input: 'trailandtales_delight:cheese_slice'
-		}, // Arg 1: the filter
-		'trailandtales_delight:cheese_slice', // Arg 2: the item to replace
-		'#c:cheese_slices' // Arg 3: the item to replace it with
+		}, 
+		'trailandtales_delight:cheese_slice', 
+		'#c:cheese_slices' 
 	)
 
 	//Bread
 	event.replaceInput({
 			input: 'minecraft:bread'
-		}, // Arg 1: the filter
-		'minecraft:bread', // Arg 2: the item to replace
-		'#c:bread_or_bun' // Arg 3: the item to replace it with
+		}, 
+		'minecraft:bread', 
+		'#c:bread_or_bun' 
 	)
 
 	//cherries
 	event.replaceInput({
 			input: 'mysticsbiomes:cherries'
-		}, // Arg 1: the filter
-		'mysticsbiomes:cherries', // Arg 2: the item to replace
-		'hearthandharvest:cherry' // Arg 3: the item to replace it with
+		}, 
+		'mysticsbiomes:cherries', 
+		'hearthandharvest:cherry' 
 	)
 
 	//Eggs

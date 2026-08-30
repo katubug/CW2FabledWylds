@@ -13,22 +13,38 @@
 		id: "ftbquests:custom_icon"
 	}
 	id: "5AD825CF5F17FD1D"
-	images: [{
-		height: 11.25d
-		id: "599451098FD3385C"
-		image: "fabled_wylds:textures/questui/bgbumblezone.png"
-		rotation: 0.0d
-		width: 20.0d
-		x: 0.0d
-		y: 0.0d
-	}]
-	order_index: 4
+	images: [
+		{
+			click_action: "none:"
+			height: 20.0d
+			id: "65BB98FF6D5AAB26"
+			image: "fabled_wylds:textures/questui/bookbgslg/yellow_book_lg.png"
+			order: -5
+			rotation: 0.0d
+			width: 25.0d
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			click_action: "none:"
+			color: 9921281
+			height: 2.5d
+			id: "3B3EF3FE8A8A0217"
+			image: "fabled_wylds:textures/questui/titles/bumblezone.png"
+			rotation: 0.0d
+			width: 9.0d
+			x: -5.0d
+			y: -6.0d
+		}
+	]
+	order_index: 3
 	quest_enhance_decorative_lines: [ ]
 	quest_enhance_hidden_dependency_lines: [ ]
 	quest_links: [ ]
 	quests: [
 		{
 			id: "51F84C9F2CA50DA7"
+			preset: "start"
 			rewards: [{
 				id: "5E29A28C09705A8F"
 				item: {
@@ -50,12 +66,13 @@
 				to_observe: "minecraft:bee_nest"
 				type: "observation"
 			}]
-			x: -7.0d
-			y: -0.5d
+			x: -8.0d
+			y: -4.0d
 		}
 		{
 			dependencies: ["51F84C9F2CA50DA7"]
 			id: "1F8B3B9C1641187E"
+			preset: "progression"
 			rewards: [
 				{
 					exclude_from_claim_all: true
@@ -93,11 +110,12 @@
 				type: "dimension"
 			}]
 			x: -5.0d
-			y: -0.5d
+			y: -4.0d
 		}
 		{
 			dependencies: ["1F8B3B9C1641187E"]
 			id: "6C3861D0B545A88F"
+			preset: "item"
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "1EE3C877E6BA71B5"
@@ -114,12 +132,13 @@
 				item: { count: 1, id: "the_bumblezone:sugar_water_bottle" }
 				type: "item"
 			}]
-			x: -5.0d
-			y: -2.0d
+			x: -3.0d
+			y: -4.0d
 		}
 		{
 			dependencies: ["1F8B3B9C1641187E"]
 			id: "4D77214933327DFB"
+			preset: "advancement"
 			rewards: [{
 				count: 2
 				exclude_from_claim_all: true
@@ -141,11 +160,12 @@
 				type: "potion_effect"
 			}]
 			x: -6.5d
-			y: 1.5d
+			y: -2.5d
 		}
 		{
 			dependencies: ["1F8B3B9C1641187E"]
 			id: "0ADE58E9E0DFD059"
+			preset: "progression"
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "7085EB5D3D428780"
@@ -161,12 +181,13 @@
 				item: { count: 1, id: "the_bumblezone:honey_compass" }
 				type: "item"
 			}]
-			x: -4.0d
-			y: 1.0d
+			x: -5.0d
+			y: -2.0d
 		}
 		{
 			dependencies: ["0ADE58E9E0DFD059"]
 			id: "2602582F440361DB"
+			preset: "progression"
 			tasks: [{
 				icon: {
 					id: "the_bumblezone:honey_cocoon"
@@ -175,12 +196,13 @@
 				structure: "the_bumblezone:cell_maze"
 				type: "structure"
 			}]
-			x: -2.0d
-			y: 1.0d
+			x: -3.0d
+			y: -2.0d
 		}
 		{
 			dependencies: ["2602582F440361DB"]
 			id: "4482909B2A137E38"
+			preset: "advancement"
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "2C5ABD71E7FCC477"
@@ -198,12 +220,13 @@
 				id: "5756978204AA696C"
 				type: "advancement"
 			}]
-			x: 0.0d
-			y: 1.0d
+			x: -3.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["4482909B2A137E38"]
 			id: "4DFEEDE1DAACD8B7"
+			preset: "progression"
 			rewards: [
 				{
 					count: 5
@@ -236,12 +259,13 @@
 				to_observe: "the_bumblezone:bee_queen"
 				type: "observation"
 			}]
-			x: 2.0d
-			y: 1.0d
+			x: -3.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["4DFEEDE1DAACD8B7"]
 			id: "635FE9332FFCE4A7"
+			preset: "progression"
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "0E3BF66E175948F4"
@@ -258,12 +282,13 @@
 				item: { count: 1, id: "the_bumblezone:essence_of_the_bees" }
 				type: "item"
 			}]
-			x: 4.0d
-			y: 1.0d
+			x: -3.0d
+			y: 4.0d
 		}
 		{
 			dependencies: ["0ADE58E9E0DFD059"]
 			id: "394A179160EB4AE8"
+			preset: "item"
 			rewards: [
 				{
 					exclude_from_claim_all: true
@@ -311,12 +336,13 @@
 					type: "item"
 				}
 			]
-			x: -4.5d
-			y: 3.5d
+			x: -8.0d
+			y: -1.5d
 		}
 		{
 			dependencies: ["0ADE58E9E0DFD059"]
 			id: "1ACFAAF917E5016A"
+			preset: "item"
 			rewards: [
 				{
 					exclude_from_claim_all: true
@@ -364,12 +390,13 @@
 					type: "item"
 				}
 			]
-			x: -2.75d
-			y: 3.0d
+			x: -6.5d
+			y: -0.5d
 		}
 		{
 			dependencies: ["649CD989B90CED8A"]
 			id: "7B8261F4787E6EA7"
+			preset: "locate"
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "1209F3D90F72505F"
@@ -389,12 +416,13 @@
 				structure: "the_bumblezone:sempiternal_sanctum_purple"
 				type: "structure"
 			}]
-			x: 5.0d
-			y: 2.0d
+			x: 2.5d
+			y: -2.5d
 		}
 		{
 			dependencies: ["649CD989B90CED8A"]
 			id: "42C94ED483CD4AB8"
+			preset: "locate"
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "1DB437232958BB78"
@@ -409,12 +437,13 @@
 				structure: "the_bumblezone:sempiternal_sanctum_white"
 				type: "structure"
 			}]
-			x: 6.5d
-			y: 2.0d
+			x: 2.0d
+			y: -4.5d
 		}
 		{
 			dependencies: ["649CD989B90CED8A"]
 			id: "45FE520AC009290F"
+			preset: "locate"
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "42BB4A977871C040"
@@ -444,12 +473,13 @@
 				structure: "the_bumblezone:sempiternal_sanctum_red"
 				type: "structure"
 			}]
-			x: 5.0d
-			y: -1.5d
+			x: 8.0d
+			y: -4.5d
 		}
 		{
 			dependencies: ["649CD989B90CED8A"]
 			id: "49EA7F3135E2CC74"
+			preset: "locate"
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "33E4151465DEA557"
@@ -468,12 +498,13 @@
 				structure: "the_bumblezone:sempiternal_sanctum_blue"
 				type: "structure"
 			}]
-			x: 6.5d
-			y: -2.0d
+			x: 7.0d
+			y: -6.0d
 		}
 		{
 			dependencies: ["649CD989B90CED8A"]
 			id: "6BADAB3BD0E50555"
+			preset: "locate"
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "0980E03831C18565"
@@ -488,12 +519,13 @@
 				structure: "the_bumblezone:sempiternal_sanctum_yellow"
 				type: "structure"
 			}]
-			x: 7.5d
-			y: -1.0d
+			x: 5.0d
+			y: -7.0d
 		}
 		{
 			dependencies: ["649CD989B90CED8A"]
 			id: "54AAA9079FF8E65B"
+			preset: "locate"
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "6EC76ECEDC4E519E"
@@ -508,12 +540,22 @@
 				structure: "the_bumblezone:sempiternal_sanctum_green"
 				type: "structure"
 			}]
-			x: 7.5d
-			y: 0.5d
+			x: 3.0d
+			y: -6.0d
 		}
 		{
+			dep_control_pts: {
+				635FE9332FFCE4A7: [
+					-3.0d
+					4.0d
+					7.9800578509859506d
+					6.855794472620005d
+				]
+			}
 			dependencies: ["635FE9332FFCE4A7"]
 			id: "649CD989B90CED8A"
+			shape: "katu_window"
+			size: 2.0d
 			tasks: [{
 				icon: {
 					id: "minecraft:honeycomb_block"
@@ -522,8 +564,8 @@
 				structure: "#the_bumblezone:sempiternal_sanctums"
 				type: "structure"
 			}]
-			x: 5.5d
-			y: 0.0d
+			x: 5.0d
+			y: -4.0d
 		}
 		{
 			always_invisible: true

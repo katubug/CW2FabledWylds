@@ -10,9 +10,10 @@
 	id: "1E6C7DB3D27545CE"
 	images: [
 		{
+			click_action: "none:"
 			height: 20.0d
 			id: "5700CA918D4E3393"
-			image: "fabled_wylds:textures/questui/bookbgslg/yellow_book_lg.png"
+			image: "fabled_wylds:textures/questui/bookbgslg/green_book_lg.png"
 			rotation: 0.0d
 			width: 25.0d
 			x: 1.7763568394002505E-15d
@@ -28,6 +29,28 @@
 			x: 7.300000000000001d
 			y: 8.500000000000002d
 		}
+		{
+			click_action: "none:"
+			color: 6321408
+			height: 2.5d
+			id: "6B8B8253E602A0F2"
+			image: "fabled_wylds:textures/questui/titles/farminggardening.png"
+			rotation: 0.0d
+			width: 9.0d
+			x: -5.0d
+			y: -1.5d
+		}
+		{
+			click_action: "none:quest_enhance:text_v3:1.0:17:minecraft:defaultwork in progress"
+			color: 6321408
+			height: 0.4583333333333333d
+			id: "3B7A5D21B9324EAF"
+			image: ""
+			rotation: 0.0d
+			width: 3.6666666666666665d
+			x: -5.0d
+			y: 0.0d
+		}
 	]
 	order_index: 0
 	quest_enhance_decorative_lines: [ ]
@@ -38,13 +61,18 @@
 			id: "4930ECD60EA9ED8D"
 			preset: "start"
 			rewards: [{
-				count: 4
-				id: "34673B93E89D2687"
+				count: 5
+				exclude_from_claim_all: true
+				id: "6333073EB08E1673"
+				is_ender: false
+				is_team_reward: false
 				item: {
 					count: 1
 					id: "farmersdelight:organic_compost"
 				}
-				type: "item"
+				target_addressee: "QuestNPC"
+				team_reward_multiplier: 1.0f
+				type: "contactquests:parcel"
 			}]
 			shape: "rsquare"
 			size: 2.0d
@@ -54,10 +82,12 @@
 				type: "item"
 			}]
 			x: -8.0d
-			y: -2.0d
+			y: 1.0d
 		}
 		{
+			dependencies: ["4930ECD60EA9ED8D"]
 			id: "435BD760D0F2E010"
+			preset: "item"
 			rewards: [
 				{
 					id: "236914FF02083F47"
@@ -82,11 +112,12 @@
 				item: { components: { "ftbfiltersystem:filter": "or(item(farmersdelight:brown_mushroom_colony)item(farmersdelight:red_mushroom_colony))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
-			x: -8.0d
-			y: 0.0d
+			x: -7.699999999999999d
+			y: 4.0d
 		}
 		{
 			id: "3AE0F1C1159FBDDE"
+			preset: "item"
 			rewards: [{
 				id: "66F2801F9DFA05AC"
 				item: {
@@ -101,32 +132,34 @@
 				item: { count: 1, id: "farmersdelight:straw" }
 				type: "item"
 			}]
-			x: -8.2d
-			y: 2.2d
+			x: -7.899999999999999d
+			y: 6.2d
 		}
 		{
 			dependencies: ["3AE0F1C1159FBDDE"]
 			id: "548376041885F6D1"
+			preset: "item"
 			shape: "hexagon"
 			tasks: [{
 				id: "7B4B34EE649076A3"
 				item: { count: 1, id: "farmersdelight:canvas" }
 				type: "item"
 			}]
-			x: -8.3d
-			y: 5.0d
+			x: -8.0d
+			y: 9.0d
 		}
 		{
 			dependencies: ["3AE0F1C1159FBDDE"]
 			id: "141887F26E89BAE8"
+			preset: "item"
 			shape: "hexagon"
 			tasks: [{
 				id: "45328BF090DF76BC"
 				item: { count: 1, id: "farmersdelight:rope" }
 				type: "item"
 			}]
-			x: -7.7d
-			y: 3.6d
+			x: -7.3999999999999995d
+			y: 7.6d
 		}
 		{
 			id: "0545DF70043D964A"
@@ -169,8 +202,8 @@
 					type: "item"
 				}
 				{
-					id: "5126D0836B72E09E"
-					item: { count: 1, id: "farm_and_charm:corn_bag" }
+					id: "3C7A0BF196038280"
+					item: { count: 1, id: "hearthandharvest:corn_crate" }
 					type: "item"
 				}
 			]
@@ -232,20 +265,34 @@
 					type: "item"
 				}
 			]
-			x: -5.5d
-			y: -1.0d
+			x: -5.199999999999999d
+			y: 3.0d
 		}
 		{
 			id: "3D221ECD9106F792"
 			preset: "item"
+			rewards: [{
+				count: 3
+				exclude_from_claim_all: true
+				id: "3FAEB4370EBCA1FC"
+				is_ender: false
+				is_team_reward: false
+				item: {
+					count: 1
+					id: "supplementaries:planter"
+				}
+				target_addressee: "QuestNPC"
+				team_reward_multiplier: 1.0f
+				type: "contactquests:parcel"
+			}]
 			shape: "hexagon"
 			tasks: [{
 				id: "1CF70C35261561CF"
 				item: { count: 1, id: "supplementaries:planter" }
 				type: "item"
 			}]
-			x: -6.899999999999999d
-			y: 5.300000000000001d
+			x: 4.0d
+			y: -1.5d
 		}
 		{
 			id: "2186A6F69ADBE795"
@@ -258,12 +305,17 @@
 					type: "choice"
 				}
 				{
-					id: "77B0FC1AA4C867AD"
+					exclude_from_claim_all: true
+					id: "1D826D307AFC5164"
+					is_ender: false
+					is_team_reward: false
 					item: {
 						count: 1
 						id: "minecraft:netherite_ingot"
 					}
-					type: "item"
+					target_addressee: "QuestNPC"
+					team_reward_multiplier: 1.0f
+					type: "contactquests:parcel"
 				}
 			]
 			shape: "octagon"
@@ -273,8 +325,8 @@
 				id: "689FF833D614619E"
 				type: "advancement"
 			}]
-			x: -4.799999999999999d
-			y: 5.9d
+			x: -6.199999999999999d
+			y: 5.5d
 		}
 		{
 			can_repeat: true
@@ -346,14 +398,14 @@
 				}
 				{
 					count: 10L
-					id: "233047787B0AEDB1"
-					item: { count: 1, id: "farm_and_charm:corn_bag" }
+					id: "1B06156C4AB3701F"
+					item: { count: 1, id: "farm_and_charm:strawberry_bag" }
 					type: "item"
 				}
 				{
 					count: 10L
-					id: "1B06156C4AB3701F"
-					item: { count: 1, id: "farm_and_charm:strawberry_bag" }
+					id: "0A7EF13547AA974E"
+					item: { count: 1, id: "hearthandharvest:corn_crate" }
 					type: "item"
 				}
 			]
@@ -390,6 +442,7 @@
 		}
 		{
 			id: "60445E736AE3B5B4"
+			preset: "item"
 			rewards: [
 				{
 					exclude_from_claim_all: true
@@ -412,8 +465,8 @@
 				item: { count: 1, id: "mynethersdelight:letios_compost" }
 				type: "item"
 			}]
-			x: -6.0d
-			y: 4.0d
+			x: -5.699999999999999d
+			y: 8.0d
 		}
 		{
 			id: "7814F0DBA486B635"
@@ -453,14 +506,15 @@
 		}
 		{
 			id: "264135E887281098"
+			preset: "item"
 			shape: "hexagon"
 			tasks: [{
 				id: "7C7F27E7BEBD63C6"
 				item: { count: 1, id: "farmingforblockheads:market" }
 				type: "item"
 			}]
-			x: -6.5d
-			y: 0.0d
+			x: -2.5d
+			y: 3.0d
 		}
 		{
 			dependencies: ["4930ECD60EA9ED8D"]
@@ -468,9 +522,13 @@
 			preset: "progression"
 			rewards: [{
 				exclude_from_claim_all: true
-				id: "281FBE0C1803D076"
-				table_id: 5167086515396975209L
-				type: "random"
+				id: "044C7CDE7FDADAE3"
+				is_ender: false
+				is_team_reward: false
+				table_id: 7159471207534106979L
+				target_addressee: "QuestNPC"
+				team_reward_multiplier: 1.0f
+				type: "contactquests:parcel_random"
 			}]
 			tasks: [
 				{
@@ -576,8 +634,8 @@
 					value: 1L
 				}
 			]
-			x: -3.5d
-			y: -2.0d
+			x: -5.0d
+			y: 1.0d
 		}
 		{
 			dependencies: ["2093240CD42882CF"]
@@ -585,9 +643,13 @@
 			preset: "progression"
 			rewards: [{
 				exclude_from_claim_all: true
-				id: "241DD25D49F14D3D"
-				table_id: 6518300475828805418L
-				type: "loot"
+				id: "1E3847E0B1E6D532"
+				is_ender: false
+				is_team_reward: false
+				table_id: 7159471207534106979L
+				target_addressee: "QuestNPC"
+				team_reward_multiplier: 1.0f
+				type: "contactquests:parcel_random"
 			}]
 			tasks: [
 				{
@@ -601,8 +663,8 @@
 					type: "item"
 				}
 			]
-			x: -1.5d
-			y: -2.0d
+			x: -2.5d
+			y: 1.0d
 		}
 		{
 			id: "0C66306B20F7844C"
@@ -833,13 +895,13 @@
 					type: "item"
 				}
 				{
-					id: "1BE09789EF91CC2B"
-					item: { count: 1, id: "farm_and_charm:flour_bag" }
+					id: "7CDC15C9E18312B7"
+					item: { count: 1, id: "herbalbrews:tea_leaf_crate" }
 					type: "item"
 				}
 				{
-					id: "7CDC15C9E18312B7"
-					item: { count: 1, id: "herbalbrews:tea_leaf_crate" }
+					id: "1402E5BC8FC6076C"
+					item: { count: 1, id: "hearthandharvest:flour_bag" }
 					type: "item"
 				}
 			]
@@ -867,13 +929,23 @@
 			dependencies: ["18B7D6B02C97FF23"]
 			id: "396C5F4A97427E6C"
 			preset: "progression"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "123BF1947B12D9F3"
+				is_ender: false
+				is_team_reward: false
+				table_id: 5770973074849872376L
+				target_addressee: "QuestNPC"
+				team_reward_multiplier: 1.0f
+				type: "contactquests:parcel_random"
+			}]
 			tasks: [{
 				id: "4EFCAF84817FCF62"
 				item: { components: { "hearthandharvest:bonemeal_level": 16, "hearthandharvest:fertilizer_item": "farm_and_charm:fertilizer", "hearthandharvest:water_level": 16 }, count: 1, id: "hearthandharvest:watering_can" }
 				type: "item"
 			}]
-			x: -2.5d
-			y: 0.0d
+			x: -1.5d
+			y: 4.0d
 		}
 		{
 			dependencies: ["2CA80140F624D0AE"]
@@ -881,9 +953,13 @@
 			preset: "item"
 			rewards: [{
 				exclude_from_claim_all: true
-				id: "546A541626D716A3"
-				table_id: 7328857662613080212L
-				type: "random"
+				id: "3FBB4E8E34809094"
+				is_ender: false
+				is_team_reward: false
+				table_id: 5770973074849872376L
+				target_addressee: "QuestNPC"
+				team_reward_multiplier: 1.0f
+				type: "contactquests:parcel_random"
 			}]
 			tasks: [
 				{
@@ -897,13 +973,13 @@
 					type: "item"
 				}
 			]
-			x: -4.0d
-			y: 0.0d
+			x: -3.5d
+			y: 4.5d
 		}
 		{
 			dependencies: ["18B7D6B02C97FF23"]
 			id: "6A89D2D688203ADF"
-			preset: "progression"
+			preset: "milestone"
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "63C922397B257803"
@@ -922,8 +998,8 @@
 					type: "item"
 				}
 			]
-			x: -3.0d
-			y: 2.0d
+			x: -1.5d
+			y: 6.75d
 		}
 		{
 			id: "2C581951719CC6BA"

@@ -30,16 +30,6 @@
 			y: -5.2d
 		}
 		{
-			color: 2017209
-			height: 1.25d
-			id: "7BEAA48860ECF234"
-			image: "fabled_wylds:textures/questui/subtitles/structures.png"
-			rotation: 0.0d
-			width: 8.0d
-			x: 5.5d
-			y: -6.0d
-		}
-		{
 			click_action: "none:"
 			height: 5.0d
 			id: "766FA3158E84171E"
@@ -99,6 +89,49 @@
 			x: 5.0d
 			y: 3.0d
 		}
+		{
+			click_action: "none:quest_enhance:text_v3:1.5:17:minecraft:defaultStructures"
+			color: 2017209
+			height: 0.4583333333333333d
+			id: "4CA6D6D655B63579"
+			image: ""
+			order: 5
+			rotation: 0.0d
+			width: 2.25d
+			x: 5.0d
+			y: -6.0d
+		}
+		{
+			click_action: "none:quest_enhance:text_v3:1.0:17:minecraft:defaultwork in progress"
+			color: 2017209
+			height: 0.4583333333333333d
+			id: "64906C81FC3CDC56"
+			image: ""
+			rotation: 0.0d
+			width: 3.6666666666666665d
+			x: -4.5d
+			y: -4.0d
+		}
+		{
+			height: 20.0d
+			id: "076E70EE6622477D"
+			image: "fabled_wylds:textures/questui/bookbgslg/cyan_book_lg.png"
+			rotation: 0.0d
+			width: 25.0d
+			x: 0.0d
+			y: 17.0d
+		}
+		{
+			click_action: "none:quest_enhance:text_v3:1.0:17:minecraft:defaultWaystones & Fast Travel"
+			color: 2017209
+			height: 0.7311246161612499d
+			id: "2D6FE8BA0C45C8DF"
+			image: ""
+			rotation: 0.0d
+			width: 8.574097771345567d
+			x: -5.0d
+			y: 10.0d
+		}
 	]
 	order_index: 0
 	quest_enhance_decorative_lines: [ ]
@@ -123,8 +156,8 @@
 				item: { count: 1, id: "minecraft:spyglass" }
 				type: "item"
 			}]
-			x: -7.0d
-			y: -3.2d
+			x: -8.0d
+			y: -3.0d
 		}
 		{
 			dependencies: ["72CE099C5784339A"]
@@ -157,7 +190,7 @@
 				type: "item"
 			}]
 			x: -4.5d
-			y: -3.5d
+			y: -3.0d
 		}
 		{
 			dependencies: ["2BB8D1410BD7C040"]
@@ -204,7 +237,7 @@
 				type: "advancement"
 			}]
 			x: -2.0d
-			y: -3.5d
+			y: -3.0d
 		}
 		{
 			id: "54B176A22CBFD31F"
@@ -469,8 +502,8 @@
 				item: { count: 1, id: "naturescompass:naturescompass" }
 				type: "item"
 			}]
-			x: -7.5d
-			y: 0.5d
+			x: -8.0d
+			y: 2.0d
 		}
 		{
 			id: "10EF479191689632"
@@ -494,8 +527,8 @@
 				item: { count: 1, id: "via_romana:charting_map" }
 				type: "item"
 			}]
-			x: -8.5d
-			y: -4.5d
+			x: -6.5d
+			y: 11.5d
 		}
 		{
 			dependencies: ["72CE099C5784339A"]
@@ -515,7 +548,7 @@
 				type: "custom"
 			}]
 			x: -7.5d
-			y: -1.5d
+			y: -0.75d
 		}
 		{
 			dependencies: ["40640000C8D2BDCD"]
@@ -535,7 +568,7 @@
 				type: "custom"
 			}]
 			x: -6.0d
-			y: -1.5d
+			y: -0.5d
 		}
 		{
 			dependencies: ["203124368972BE74"]
@@ -555,7 +588,7 @@
 				type: "custom"
 			}]
 			x: -4.5d
-			y: -1.5d
+			y: 0.0d
 		}
 		{
 			dependencies: ["4A605045E159E5BD"]
@@ -575,7 +608,7 @@
 				type: "custom"
 			}]
 			x: -3.0d
-			y: -1.5d
+			y: -0.5d
 		}
 		{
 			dependencies: ["5CC06EBF8D36316A"]
@@ -595,7 +628,7 @@
 				type: "custom"
 			}]
 			x: -1.5d
-			y: -1.5d
+			y: 0.0d
 		}
 		{
 			id: "252C5BD652764DB8"
@@ -612,8 +645,133 @@
 				id: "15DE9469F7CED124"
 				type: "advancement"
 			}]
-			x: -5.5d
-			y: 0.5d
+			x: -6.0d
+			y: 2.0d
+		}
+		{
+			id: "7E93B4F1F00B1740"
+			preset: "locate"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3779F433646B09B3"
+				is_ender: false
+				is_team_reward: false
+				item: {
+					count: 1
+					id: "large_meals:mushroom_pot_pie"
+				}
+				target_addressee: "QuestNPC"
+				team_reward_multiplier: 1.0f
+				type: "contactquests:parcel"
+			}]
+			tasks: [{
+				icon: {
+					id: "minecraft:trial_key"
+				}
+				id: "54EA7B3B1F0E177B"
+				structure: "mss:arena"
+				type: "structure"
+			}]
+			x: 4.5d
+			y: -4.5d
+		}
+		{
+			id: "06DC33669C98F5A4"
+			preset: "item"
+			rewards: [{
+				id: "59434BCB0FA7DE89"
+				item: {
+					count: 1
+					id: "minecraft:flint"
+				}
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "707A34E8305DD114"
+				item: { count: 1, id: "waystones:warp_plate" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: 13.0d
+		}
+		{
+			id: "2E07A04D5589B674"
+			preset: "item"
+			shape: "hexagon"
+			tasks: [{
+				id: "29D966A14304361A"
+				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(waystones:sharestones)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: -8.0d
+			y: 13.0d
+		}
+		{
+			id: "7B4772B066474C41"
+			preset: "item"
+			shape: "hexagon"
+			tasks: [{
+				id: "566F9027DE7E99B8"
+				item: { count: 1, id: "waystones:white_portstone" }
+				type: "item"
+			}]
+			x: -6.5d
+			y: 13.0d
+		}
+		{
+			id: "2E1A6A93F48AAF58"
+			preset: "item"
+			shape: "hexagon"
+			tasks: [{
+				id: "3F0C026D8B39B9D4"
+				item: { count: 1, id: "waystones:warp_stone" }
+				type: "item"
+			}]
+			x: -5.0d
+			y: 13.0d
+		}
+		{
+			id: "7527E0A9EF5C3697"
+			preset: "item"
+			shape: "hexagon"
+			tasks: [{
+				id: "7EC93F9307B30212"
+				item: { count: 1, id: "waystones:warp_scroll" }
+				type: "item"
+			}]
+			x: -3.5d
+			y: 13.0d
+		}
+		{
+			id: "7AD175287E3F0B68"
+			preset: "config"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "22EE9E438C67E101"
+				is_ender: false
+				is_team_reward: false
+				item: {
+					count: 1
+					id: "waystones:warp_scroll"
+				}
+				target_addressee: "QuestNPC"
+				team_reward_multiplier: 1.0f
+				type: "contactquests:parcel"
+			}]
+			shape: "gear"
+			size: 1.0d
+			tasks: [{
+				icon: {
+					id: "waystones:waystone"
+				}
+				id: "666B0ACB284A0618"
+				stat: "waystones:waystone_activated"
+				type: "stat"
+				value: 1
+			}]
+			x: -5.0d
+			y: 11.5d
 		}
 	]
 }

@@ -20,7 +20,8 @@
 			y: 0.6d
 		}
 		{
-			color: 15962025
+			click_action: "none:"
+			color: 12152192
 			height: 2.5d
 			id: "605D9545392C76A9"
 			image: "fabled_wylds:textures/questui/titles/miscellaneous.png"
@@ -30,7 +31,8 @@
 			y: -5.7d
 		}
 		{
-			color: 15962025
+			click_action: "none:"
+			color: 12152192
 			height: 1.25d
 			id: "1F82C2BDAF690590"
 			image: "fabled_wylds:textures/questui/subtitles/commerce.png"
@@ -40,7 +42,8 @@
 			y: -6.3d
 		}
 		{
-			color: 15962025
+			click_action: "none:"
+			color: 12152192
 			height: 1.25d
 			id: "0DBD44B0F35C046A"
 			image: "fabled_wylds:textures/questui/subtitles/automation.png"
@@ -48,6 +51,17 @@
 			width: 8.0d
 			x: -5.1d
 			y: 0.6d
+		}
+		{
+			click_action: "none:quest_enhance:text_v3:1.0:17:minecraft:defaultwork in progress"
+			color: 12152192
+			height: 0.4583333333333333d
+			id: "72687E6D07463E77"
+			image: ""
+			rotation: 0.0d
+			width: 3.6666666666666665d
+			x: -5.0d
+			y: -0.5d
 		}
 	]
 	order_index: 2

@@ -1,17 +1,25 @@
 {
-    "type": "farmersdelight:cutting",
-    "ingredients": [
-      {
-        "item": "netherdepthsupgrade:eyeball_fish"
+  "type": "farmersdelight:cutting",
+  "ingredients": [
+    {
+      "item": "netherdepthsupgrade:eyeball_fish"
+    }
+  ],
+  "result": [
+    {
+      "item": {
+        "count": 1,
+        "id": "netherdepthsupgrade:eyeball"
       }
-    ],
-    "tool": {
-      "tag": "forge:tools/knives"
+    }
+  ],
+  "tool": [
+    {
+      "type": "farmersdelight:item_ability",
+      "action": "knife_dig"
     },
-    "result": [
-      {
-        "item": "netherdepthsupgrade:eyeball",
-        "count": 1
-      }
-    ]
-  }
+    {
+      "tag": "c:tools/knife"
+    }
+  ]
+}

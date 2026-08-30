@@ -67,8 +67,8 @@
 			order: 1
 			rotation: 0.0d
 			width: 8.0d
-			x: 9.6d
-			y: 13.2d
+			x: 9.5d
+			y: 6.0d
 		}
 		{
 			height: 20.0d
@@ -87,6 +87,17 @@
 			width: 5.777777777777778d
 			x: 7.3d
 			y: 9.8d
+		}
+		{
+			click_action: "none:quest_enhance:text_v3:1.0:17:minecraft:defaultWork in Progress"
+			color: 12202242
+			height: 0.5881205755847025d
+			id: "17BB66BF8063D139"
+			image: ""
+			rotation: 0.0d
+			width: 4.8118956184202935d
+			x: 9.5d
+			y: 12.5d
 		}
 	]
 	order_index: 2
@@ -115,18 +126,13 @@
 					type: "item"
 				}
 				{
-					id: "04993EB520479A71"
-					item: { count: 1, id: "mysticsbiomes:glass_jar" }
-					type: "item"
-				}
-				{
 					id: "3E7F7E04030E7566"
 					item: { count: 1, id: "hearthandharvest:jar" }
 					type: "item"
 				}
 			]
-			x: 11.200000000000001d
-			y: 15.7d
+			x: 11.3d
+			y: 9.1d
 		}
 		{
 			id: "5E3D0655F0A08890"
@@ -144,8 +150,8 @@
 				item: { count: 1, id: "farmersdelight:bamboo_basket" }
 				type: "item"
 			}]
-			x: 11.100000000000003d
-			y: 14.5d
+			x: 11.200000000000003d
+			y: 7.9d
 		}
 		{
 			id: "0B1646339D14D055"
@@ -163,8 +169,8 @@
 				item: { count: 1, id: "minecraft:ender_chest" }
 				type: "item"
 			}]
-			x: 11.300000000000002d
-			y: 16.8d
+			x: 11.400000000000002d
+			y: 10.200000000000001d
 		}
 		{
 			id: "0A76B3D9CF688878"
@@ -315,8 +321,8 @@
 				item: { count: 1, id: "luggage:luggage" }
 				type: "item"
 			}]
-			x: 7.4d
-			y: 14.6d
+			x: 7.5d
+			y: 8.0d
 		}
 		{
 			dependencies: ["0AC47FF8FD45B289"]
@@ -332,8 +338,8 @@
 				item: { count: 1, id: "minecraft:lightning_rod" }
 				type: "item"
 			}]
-			x: 6.9d
-			y: 16.6d
+			x: 7.0d
+			y: 10.000000000000002d
 		}
 		{
 			id: "1836D76FCA8240F3"
@@ -420,8 +426,8 @@
 				item: { count: 1, id: "luggage:ender_luggage" }
 				type: "item"
 			}]
-			x: 9.4d
-			y: 14.1d
+			x: 9.5d
+			y: 7.5d
 		}
 		{
 			dependencies: ["3571AAEB58389A64"]
@@ -483,6 +489,7 @@
 		{
 			dependencies: ["3571AAEB58389A64"]
 			id: "775A1B6549572BEB"
+			preset: "item"
 			rewards: [
 				{
 					exclude_from_claim_all: true
@@ -516,6 +523,7 @@
 		{
 			dependencies: ["3571AAEB58389A64"]
 			id: "151CAB60A18AA07C"
+			preset: "item"
 			rewards: [
 				{
 					id: "53C614387BB75D54"
@@ -544,6 +552,7 @@
 		{
 			dependencies: ["73B26E8BA35A9C25"]
 			id: "694D0C4F0DCF078C"
+			preset: "item"
 			rewards: [
 				{
 					id: "3AD1BDD88DD4D731"
@@ -572,6 +581,7 @@
 		{
 			dependencies: ["3571AAEB58389A64"]
 			id: "04E69B80121E8192"
+			preset: "item"
 			shape: "hexagon"
 			tasks: [
 				{
@@ -591,6 +601,7 @@
 		{
 			dependencies: ["3571AAEB58389A64"]
 			id: "0A60EB3B10E89FE2"
+			preset: "item"
 			shape: "hexagon"
 			tasks: [{
 				id: "350D291765AE698A"
@@ -603,6 +614,7 @@
 		{
 			dependencies: ["3571AAEB58389A64"]
 			id: "2F0321A50945B2B5"
+			preset: "item"
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "414696DBFD3A0D0D"
@@ -625,6 +637,7 @@
 		{
 			dependencies: ["3571AAEB58389A64"]
 			id: "4ADE26321BA3720D"
+			preset: "item"
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "4047F21D56367F92"
@@ -671,6 +684,7 @@
 		{
 			dependencies: ["511581BF899A9D1D"]
 			id: "3E3157BF119F4F59"
+			preset: "item"
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "6EF761B35FB6F797"
@@ -687,6 +701,7 @@
 		{
 			dependencies: ["511581BF899A9D1D"]
 			id: "6E447D4984BAA0EB"
+			preset: "item"
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "2C776F9ABB744AB2"
@@ -729,6 +744,7 @@
 		{
 			dependencies: ["511581BF899A9D1D"]
 			id: "4CCF9884656CBD33"
+			preset: "item"
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "50731FBB5D092FF0"
@@ -746,6 +762,7 @@
 		{
 			dependencies: ["511581BF899A9D1D"]
 			id: "5D56599E8A52F61B"
+			preset: "item"
 			rewards: [{
 				id: "43C33BF16E27B4AD"
 				type: "xp"
@@ -762,6 +779,7 @@
 		{
 			dependencies: ["511581BF899A9D1D"]
 			id: "0DDBFB778B945B97"
+			preset: "item"
 			rewards: [
 				{
 					exclude_from_claim_all: true
@@ -788,6 +806,7 @@
 		{
 			dependencies: ["511581BF899A9D1D"]
 			id: "2742C01D29A1E90A"
+			preset: "item"
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "47146C5297CB99AF"
@@ -823,6 +842,7 @@
 		{
 			dependencies: ["3D7070B95990779A"]
 			id: "724475964CA8B68D"
+			preset: "item"
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "0010820A169B8B64"
@@ -841,6 +861,7 @@
 		{
 			dependencies: ["3D7070B95990779A"]
 			id: "393CF105AAFA6CF0"
+			preset: "item"
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "751FC2E03EACE02B"
@@ -859,6 +880,7 @@
 		{
 			dependencies: ["3D7070B95990779A"]
 			id: "7EE75A2EC8609271"
+			preset: "item"
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "543E70277F3041E0"
@@ -877,6 +899,7 @@
 		{
 			dependencies: ["3D7070B95990779A"]
 			id: "1B36681F6C07B478"
+			preset: "item"
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "76E31E7AF37AD2EB"
@@ -895,6 +918,7 @@
 		{
 			dependencies: ["3D7070B95990779A"]
 			id: "0AC22F22CD346EEB"
+			preset: "item"
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "466F16A4FB11301C"
@@ -913,6 +937,7 @@
 		{
 			dependencies: ["3D7070B95990779A"]
 			id: "67D148EB436BE069"
+			preset: "item"
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "54F35766DFD3EA86"

@@ -66,6 +66,10 @@
     "entity": true,
     "entity_variant": true
   },
+  "tombstone": {
+    "decorative_graves": true,
+    "player_graves": true
+  },
   "ftbquests": {
     "barrier": true
   },
@@ -139,9 +143,6 @@
   },
   "waystones": {
     "waystone": true
-  },
-  "corpse": {
-    "corpse": true
   },
   "item_descriptions": {
     "block_descriptions": true,

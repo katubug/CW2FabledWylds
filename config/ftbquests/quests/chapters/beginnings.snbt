@@ -75,6 +75,7 @@
 	quest_links: [ ]
 	quests: [
 		{
+			icon_scale: 0.8d
 			id: "0DCDAC4C7D4F9F0B"
 			rewards: [
 				{
@@ -398,8 +399,8 @@
 					type: "item"
 				}
 			]
-			shape: "epstar"
-			size: 3.0d
+			shape: "katu_banner"
+			size: 4.0d
 			tasks: [{
 				dimension: "minecraft:overworld"
 				icon: {
@@ -416,6 +417,7 @@
 		}
 		{
 			id: "293AFFA188D96753"
+			preset: "config"
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "3E3409867078F388"
@@ -452,6 +454,7 @@
 		{
 			dependencies: ["293AFFA188D96753"]
 			id: "289832F0B384ABA7"
+			preset: "config"
 			rewards: [
 				{
 					blessing: "恭喜发财"
@@ -497,6 +500,7 @@
 		}
 		{
 			id: "4ABFB1778565B4B7"
+			preset: "config"
 			rewards: [
 				{
 					command: "/give @p sophisticatedbackpacks:backpack"
@@ -561,6 +565,7 @@
 		}
 		{
 			id: "66B094500E40DA3D"
+			preset: "start"
 			rewards: [{
 				id: "70D409B168184D56"
 				item: {
@@ -659,9 +664,13 @@
 			preset: "advancement"
 			rewards: [{
 				exclude_from_claim_all: true
-				id: "4F663E49BE0D956C"
-				table_id: 5770973074849872376L
-				type: "random"
+				id: "725C2D73F8E0BC4B"
+				is_ender: false
+				is_team_reward: false
+				table_id: 7328857662613080212L
+				target_addressee: "QuestNPC"
+				team_reward_multiplier: 1.0f
+				type: "contactquests:parcel_random"
 			}]
 			shape: "octagon"
 			tasks: [{
@@ -670,7 +679,7 @@
 				id: "7E4BBEB34174442D"
 				type: "advancement"
 			}]
-			x: 5.0d
+			x: 5.5d
 			y: -7.0d
 		}
 		{
@@ -762,13 +771,14 @@
 					type: "contactquests:parcel"
 				}
 				{
+					count: 2
 					exclude_from_claim_all: true
-					id: "5F44EDCDACB98183"
+					id: "69E50E590C067D31"
 					is_ender: false
 					is_team_reward: false
 					item: {
 						count: 1
-						id: "connection:amulet_of_connection"
+						id: "waystones:twinbound_feather"
 					}
 					target_addressee: "QuestNPC"
 					team_reward_multiplier: 1.0f
@@ -783,51 +793,40 @@
 			y: -5.5d
 		}
 		{
-			id: "7AD175287E3F0B68"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "22EE9E438C67E101"
-				is_ender: false
-				is_team_reward: false
-				item: {
-					count: 1
-					id: "waystones:warp_scroll"
-				}
-				target_addressee: "QuestNPC"
-				team_reward_multiplier: 1.0f
-				type: "contactquests:parcel"
-			}]
-			shape: "gear"
-			size: 1.0d
-			tasks: [{
-				icon: {
-					id: "waystones:waystone"
-				}
-				id: "666B0ACB284A0618"
-				stat: "waystones:waystone_activated"
-				type: "stat"
-				value: 1
-			}]
-			x: -6.0d
-			y: -2.5d
-		}
-		{
 			dependencies: ["66B094500E40DA3D"]
 			id: "439A33514ABCCEFA"
 			preset: "item"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "7DF07CFEF76190C4"
-				is_ender: false
-				is_team_reward: false
-				item: {
-					count: 1
-					id: "player_statues:player_statue"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "7DF07CFEF76190C4"
+					is_ender: false
+					is_team_reward: false
+					item: {
+						count: 1
+						id: "player_statues:player_statue"
+					}
+					target_addressee: "QuestNPC"
+					team_reward_multiplier: 1.0f
+					type: "contactquests:parcel"
 				}
-				target_addressee: "QuestNPC"
-				team_reward_multiplier: 1.0f
-				type: "contactquests:parcel"
-			}]
+				{
+					exclude_from_claim_all: true
+					id: "30D79A132141A0EE"
+					is_ender: false
+					is_team_reward: false
+					item: {
+						components: {
+							"tombstone:tb_model_texture": 1
+						}
+						count: 1
+						id: "tombstone:decorative_grave_simple"
+					}
+					target_addressee: "QuestNPC"
+					team_reward_multiplier: 1.0f
+					type: "contactquests:parcel"
+				}
+			]
 			tasks: [{
 				id: "3C2B9E47CE38A5E6"
 				item: { count: 1, id: "waystones:epitaph" }

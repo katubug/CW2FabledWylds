@@ -1,17 +1,25 @@
 {
-    "type": "farmersdelight:cutting",
-    "ingredients": [
-      {
-        "item": "netherdepthsupgrade:fortress_grouper"
+  "type": "farmersdelight:cutting",
+  "ingredients": [
+    {
+      "item": "netherdepthsupgrade:fortress_grouper"
+    }
+  ],
+  "result": [
+    {
+      "item": {
+        "count": 4,
+        "id": "netherdepthsupgrade:fortress_grouper_plate"
       }
-    ],
-    "tool": {
-      "tag": "forge:tools/knives"
+    }
+  ],
+  "tool": [
+    {
+      "type": "farmersdelight:item_ability",
+      "action": "knife_dig"
     },
-    "result": [
-      {
-        "item": "netherdepthsupgrade:fortress_grouper_plate",
-        "count": 4
-      }
-    ]
-  }
+    {
+      "tag": "c:tools/knife"
+    }
+  ]
+}

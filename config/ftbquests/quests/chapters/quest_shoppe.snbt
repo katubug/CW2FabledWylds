@@ -272,6 +272,17 @@
 			x: -1.5d
 			y: -3.5d
 		}
+		{
+			click_action: "none:quest_enhance:text_v3:1.0:17:minecraft:defaultwork in progress"
+			color: 2017209
+			height: 0.4583333333333333d
+			id: "114E631B4587024A"
+			image: ""
+			rotation: 0.0d
+			width: 3.6666666666666665d
+			x: 0.5d
+			y: -8.0d
+		}
 	]
 	order_index: 2
 	quest_enhance_decorative_lines: [ ]
@@ -279,6 +290,7 @@
 	quest_links: [ ]
 	quests: [
 		{
+			can_repeat: false
 			id: "4971EB753FE0E6CC"
 			preset: "start"
 			rewards: [{
@@ -873,6 +885,37 @@
 		}
 		{
 			icon: {
+				components: {
+					"relics:data": {
+						abilities: {
+							abilities: {
+								hunger_mining: {
+									lock: {
+										breaks: 5
+									}
+									points: 0
+									stats: {
+										food_boost: {
+											initialQuality: 1
+										}
+										food_boost_duration: {
+											initialQuality: 4
+										}
+										hunger_restore_chance: {
+											initialQuality: 7
+										}
+										speed_per_hunger: {
+											initialQuality: 3
+										}
+									}
+								}
+							}
+							synergies: { }
+						}
+						leveling: { }
+						statistic: { }
+					}
+				}
 				id: "artifacts:onion_ring"
 			}
 			id: "5F701DECF017C7BF"
@@ -881,6 +924,35 @@
 				console: true
 				feedback_message: "You have received 1 additional Ring Slot!"
 				icon: {
+					components: {
+						"relics:data": {
+							abilities: {
+								abilities: {
+									hunger_mining: {
+										lock: {
+											breaks: 5
+										}
+										points: 0
+										stats: {
+											food_boost: {
+												initialQuality: 9
+											}
+											food_boost_duration: {
+												initialQuality: 9
+											}
+											hunger_restore_chance: { }
+											speed_per_hunger: {
+												initialQuality: 6
+											}
+										}
+									}
+								}
+								synergies: { }
+							}
+							leveling: { }
+							statistic: { }
+						}
+					}
 					id: "artifacts:onion_ring"
 				}
 				id: "4B447690BBABBBEA"
@@ -889,6 +961,33 @@
 			}]
 			tasks: [{
 				icon: {
+					components: {
+						"relics:data": {
+							abilities: {
+								abilities: {
+									hunger_mining: {
+										lock: {
+											breaks: 5
+										}
+										points: 0
+										stats: {
+											food_boost: { }
+											food_boost_duration: { }
+											hunger_restore_chance: {
+												initialQuality: 3
+											}
+											speed_per_hunger: {
+												initialQuality: 6
+											}
+										}
+									}
+								}
+								synergies: { }
+							}
+							leveling: { }
+							statistic: { }
+						}
+					}
 					id: "artifacts:onion_ring"
 				}
 				id: "0873F112CCF37124"

@@ -27,6 +27,15 @@ ServerEvents.recipes(event => {
 		    ]
 		)
 		event.remove({id: 'waystones:'+color+'_sharestone'});
+
+        event.shapeless(
+			Item.of('numismatics:'+ color +'_card'),
+			[
+			'#c:dyes/'+color,
+            'minecraft:paper'
+		    ]
+		)
+		event.remove({id: 'numismatics:crafting/'+color+'_card'});
 	}
 
 })

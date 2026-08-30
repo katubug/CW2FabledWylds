@@ -1,19 +1,25 @@
 {
-    "type": "farmersdelight:cutting",
-    "ingredients": [
-      {
-        "item": "regions_unexplored:hibiscus"
-      }
-    ],
-    "tool": {
-      "tag": "forge:tools/knives"
-    },
-    "result": [
+  "type": "farmersdelight:cutting",
+  "ingredients": [
+    {
+      "item": "regions_unexplored:hibiscus"
+    }
+  ],
+  "result": [
     {
       "item": {
         "count": 1,
         "id": "herbalbrews:hibiscus"
       }
     }
+  ],
+  "tool": [
+    {
+      "type": "farmersdelight:item_ability",
+      "action": "knife_dig"
+    },
+    {
+      "tag": "c:tools/knife"
+    }
   ]
-  }
+}

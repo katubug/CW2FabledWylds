@@ -11,32 +11,47 @@
 	id: "23E8B59B6CD79A23"
 	images: [
 		{
-			height: 11.25d
-			id: "1522D60D6DBA2BCA"
-			image: "fabled_wylds:textures/questui/bgfishing.png"
-			rotation: 0.0d
-			width: 20.0d
-			x: 0.0d
-			y: -12.25d
-		}
-		{
 			alpha: 225
 			height: 5.0d
 			id: "087927853A45DAE7"
 			image: "fabled_wylds:textures/questui/illustrations/fishing_icon.png"
 			rotation: 0.0d
 			width: 5.0d
-			x: 10.8d
-			y: -9.4d
+			x: -3.5d
+			y: -3.5d
 		}
 		{
-			height: 5.311475409836066d
-			id: "310DBD24A8BE774F"
-			image: "quest_enhance:textures/ftb/clipboard_1786044324131.png"
+			click_action: "none:"
+			height: 20.0d
+			id: "69AB4242D47A097B"
+			image: "fabled_wylds:textures/questui/bookbgslg/blue_book_lg.png"
+			order: -5
 			rotation: 0.0d
-			width: 8.0d
-			x: 5.0d
-			y: -18.0d
+			width: 25.0d
+			x: -0.5d
+			y: -7.0d
+		}
+		{
+			click_action: "none:"
+			color: 2062755
+			height: 2.5d
+			id: "5FA903E72B60E11A"
+			image: "fabled_wylds:textures/questui/titles/fishing.png"
+			rotation: 0.0d
+			width: 9.0d
+			x: -5.5d
+			y: -13.5d
+		}
+		{
+			click_action: "none:quest_enhance:text_v3:1.0:17:minecraft:defaultwork in progress"
+			color: 2062755
+			height: 0.4583333333333333d
+			id: "654CE9D1F77B7C2E"
+			image: ""
+			rotation: 0.0d
+			width: 3.6666666666666665d
+			x: -5.5d
+			y: -12.0d
 		}
 	]
 	order_index: 2
@@ -47,25 +62,43 @@
 		{
 			dependencies: ["4B26B50D268DBA07"]
 			id: "05EFC8F18818E8DD"
-			rewards: [{
-				count: 5
-				id: "248C41C6FB91143F"
-				item: {
-					count: 1
-					id: "minecraft:cod"
+			preset: "item"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "69427082EFE1E43A"
+					is_ender: false
+					is_team_reward: false
+					table_id: 5770973074849872376L
+					target_addressee: "QuestNPC"
+					team_reward_multiplier: 1.0f
+					type: "contactquests:parcel_random"
 				}
-				type: "item"
-			}]
+				{
+					exclude_from_claim_all: true
+					id: "3414DD652A53791F"
+					is_ender: false
+					is_team_reward: false
+					item: {
+						count: 1
+						id: "minecraft:paper"
+					}
+					target_addressee: "QuestNPC"
+					team_reward_multiplier: 1.0f
+					type: "contactquests:parcel"
+				}
+			]
 			tasks: [{
 				id: "3D0DA06485460761"
 				item: { count: 1, id: "selling_bin:selling_bin" }
 				type: "item"
 			}]
-			x: -6.75d
-			y: -10.5d
+			x: -8.0d
+			y: -8.5d
 		}
 		{
 			id: "4B26B50D268DBA07"
+			preset: "start"
 			rewards: [
 				{
 					id: "63D695E3CE2809E2"
@@ -91,68 +124,82 @@
 				item: { count: 1, id: "minecraft:fishing_rod" }
 				type: "item"
 			}]
-			x: -6.75d
-			y: -12.75d
-		}
-		{
-			dependencies: ["4B26B50D268DBA07"]
-			id: "4904301C662B9A5B"
-			rewards: [{
-				id: "418E51871BAAF4F5"
-				item: {
-					count: 1
-					id: "starcatcher:almighty_worm"
-				}
-				type: "item"
-			}]
-			tasks: [{
-				id: "500104437385606D"
-				item: { count: 1, id: "starcatcher:hook" }
-				type: "item"
-			}]
-			x: -4.0d
-			y: -11.75d
+			x: -8.0d
+			y: -11.0d
 		}
 		{
 			dependencies: ["4B26B50D268DBA07"]
 			id: "62F2784763AD1938"
+			preset: "progression"
 			rewards: [{
-				id: "3DDAE6064C2F761D"
+				exclude_from_claim_all: true
+				id: "1AF6039DCB8815DD"
+				is_ender: false
+				is_team_reward: false
 				item: {
 					count: 1
 					id: "starcatcher:stone_hook"
 				}
-				type: "item"
+				target_addressee: "QuestNPC"
+				team_reward_multiplier: 1.0f
+				type: "contactquests:parcel"
 			}]
 			tasks: [{
 				id: "718922CA4F7192FF"
 				item: { count: 1, id: "starcatcher:starcatcher_rod" }
 				type: "item"
 			}]
-			x: -4.0d
-			y: -13.25d
+			x: -5.5d
+			y: -11.0d
 		}
 		{
 			dependencies: ["62F2784763AD1938"]
 			id: "18E1F3797BC552D0"
-			rewards: [{
-				id: "443026796A777A0D"
-				item: {
-					count: 1
-					id: "minecraft:golden_apple"
+			preset: "item"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "0D365A2AAAF24F4D"
+					is_ender: false
+					is_team_reward: false
+					table_id: 7328857662613080212L
+					target_addressee: "QuestNPC"
+					team_reward_multiplier: 1.0f
+					type: "contactquests:parcel_random"
 				}
-				type: "item"
-			}]
-			tasks: [{
-				id: "155971534A3ACDCD"
-				item: { count: 1, id: "starcatcher:gold_hook" }
-				type: "item"
-			}]
-			x: -1.25d
-			y: -13.25d
+				{
+					exclude_from_claim_all: true
+					id: "18A7B6445BA99ED0"
+					is_ender: false
+					is_team_reward: false
+					item: {
+						count: 1
+						id: "minecraft:gold_block"
+					}
+					target_addressee: "QuestNPC"
+					team_reward_multiplier: 1.0f
+					type: "contactquests:parcel"
+				}
+			]
+			tasks: [
+				{
+					id: "155971534A3ACDCD"
+					item: { count: 1, id: "starcatcher:gold_hook" }
+					type: "item"
+				}
+				{
+					id: "3DDBFEE0CEF873F2"
+					item: { count: 1, id: "starcatcher:golden_bobber" }
+					type: "item"
+				}
+			]
+			x: -2.0d
+			y: -12.0d
 		}
 		{
+			dependencies: ["4B26B50D268DBA07"]
 			id: "1FDD653A3C13DFDF"
+			preset: "advancement"
 			rewards: [
 				{
 					id: "7E00EE2957DC82AA"
@@ -180,11 +227,12 @@
 				type: "stat"
 				value: 999
 			}]
-			x: -5.5d
-			y: -14.75d
+			x: -8.5d
+			y: -12.5d
 		}
 		{
 			id: "104D0C28773A1DD4"
+			preset: "start"
 			rewards: [{
 				id: "4CD84099301CB676"
 				item: {
@@ -199,28 +247,18 @@
 				item: { count: 1, id: "netherdepthsupgrade:lava_fishing_rod" }
 				type: "item"
 			}]
-			x: -4.5d
-			y: -8.75d
+			x: -8.5d
+			y: -6.5d
 		}
 		{
 			dependencies: ["104D0C28773A1DD4"]
 			id: "0F5E5A0B0C05ACD2"
-			rewards: [
-				{
-					id: "1814749C8605B014"
-					item: {
-						count: 1
-						id: "minecraft:apple"
-					}
-					type: "item"
-				}
-				{
-					exclude_from_claim_all: true
-					id: "50A47CBD7D4D38FA"
-					table_id: 661030336235288770L
-					type: "choice"
-				}
-			]
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "50A47CBD7D4D38FA"
+				table_id: 661030336235288770L
+				type: "choice"
+			}]
 			tasks: [
 				{
 					id: "798C459CD61F966A"
@@ -268,11 +306,13 @@
 					type: "item"
 				}
 			]
-			x: -2.75d
-			y: -8.75d
+			x: -8.5d
+			y: -4.0d
 		}
 		{
+			dependencies: ["62F2784763AD1938"]
 			id: "7A31753911D1CCFC"
+			preset: "progression"
 			rewards: [
 				{
 					exclude_from_claim_all: true
@@ -309,8 +349,8 @@
 					type: "item"
 				}
 			]
-			x: -0.25d
-			y: -10.75d
+			x: -2.0d
+			y: -10.0d
 		}
 		{
 			can_repeat: true
@@ -336,8 +376,8 @@
 				item: { components: { "ftbfiltersystem:filter": "or(item_tag(minecraft:fishes))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
-			x: -1.0d
-			y: -14.75d
+			x: 4.5d
+			y: -10.5d
 		}
 		{
 			always_invisible: true
@@ -348,18 +388,140 @@
 				only_from_crafting: true
 				type: "item"
 			}]
-			x: 0.0d
-			y: -12.25d
+			x: -0.5d
+			y: -11.5d
 		}
 		{
+			dependencies: ["62F2784763AD1938"]
 			id: "318C7124088632D3"
+			preset: "info"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "37DCE14046E0CEB8"
+				is_ender: false
+				is_team_reward: false
+				table_id: 5770973074849872376L
+				target_addressee: "QuestNPC"
+				team_reward_multiplier: 1.0f
+				type: "contactquests:parcel_random"
+			}]
 			tasks: [{
 				id: "1CD81C0EC0F600DA"
 				item: { components: { "ftbfiltersystem:filter": "or(item_tag(starcatcher:bobbers))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
-			x: -2.5d
-			y: -18.5d
+			x: -3.0d
+			y: -11.0d
+		}
+		{
+			dependencies: ["4B26B50D268DBA07"]
+			id: "3A642C7C4A5C4334"
+			preset: "item"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4B6FC48940DD072F"
+				is_ender: false
+				is_team_reward: false
+				table_id: 5770973074849872376L
+				target_addressee: "QuestNPC"
+				team_reward_multiplier: 1.0f
+				type: "contactquests:parcel_random"
+			}]
+			tasks: [{
+				id: "3323F4D57AAABABD"
+				item: { components: { "ftbfiltersystem:filter": "or(item(starcatcher:bottled_letter)item(starcatcher:message_in_a_bottle)item(starcatcher:broken_bottle))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: -6.5d
+			y: -9.0d
+		}
+		{
+			dependencies: ["62F2784763AD1938"]
+			id: "0AD64024D055FF01"
+			preset: "info"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6CAC0DA166AE238B"
+				is_ender: false
+				is_team_reward: false
+				table_id: 5770973074849872376L
+				target_addressee: "QuestNPC"
+				team_reward_multiplier: 1.0f
+				type: "contactquests:parcel_random"
+			}]
+			tasks: [{
+				id: "1EF853C0F645A403"
+				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(starcatcher:hooks)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: -10.0d
+		}
+		{
+			id: "72337CD5CE36F9EF"
+			preset: "progression"
+			tasks: [{
+				id: "101ADA4F1C48FE30"
+				item: { count: 1, id: "starcatcher:trophy_copper" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: -13.5d
+		}
+		{
+			id: "599033854681A3A1"
+			preset: "progression"
+			tasks: [{
+				id: "39CBE46459E38670"
+				item: { count: 1, id: "starcatcher:trophy_iron" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: -13.5d
+		}
+		{
+			id: "67367D2AE7B97029"
+			preset: "milestone"
+			tasks: [{
+				id: "7B93957051B6BFDB"
+				item: { count: 1, id: "starcatcher:trophy_gold" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: -13.5d
+		}
+		{
+			id: "220880D8B23EE821"
+			preset: "progression"
+			tasks: [{
+				id: "54E69F93635E9E63"
+				item: { count: 1, id: "starcatcher:trophy_emerald" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: -13.5d
+		}
+		{
+			id: "6FDDE832FB9A5FE5"
+			preset: "milestone"
+			tasks: [{
+				id: "2FD7DD4C449E0E6C"
+				item: { count: 1, id: "starcatcher:trophy_diamond" }
+				type: "item"
+			}]
+			x: 7.5d
+			y: -13.5d
+		}
+		{
+			id: "156E91379EC11004"
+			preset: "completion"
+			tasks: [{
+				id: "780C4B4A14ABF746"
+				item: { count: 1, id: "starcatcher:trophy_of_the_older_angler" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: -12.0d
 		}
 	]
 }

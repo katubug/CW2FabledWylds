@@ -30,6 +30,7 @@
 			y: -24.1d
 		}
 		{
+			click_action: "none:"
 			color: 2062755
 			height: 1.25d
 			id: "4C5FF644E6AF538D"
@@ -195,6 +196,171 @@
 			}]
 			x: 6.0d
 			y: -17.0d
+		}
+		{
+			id: "575009D97B0E8BCD"
+			shape: "katu_diamond"
+			size: 1.0d
+			tasks: [{
+				id: "3C4D823C40F5ACAC"
+				type: "checkmark"
+			}]
+			x: 13.0d
+			y: -15.0d
+		}
+		{
+			id: "414874592FEA3F3B"
+			shape: "katu_fancysquare"
+			size: 1.0d
+			tasks: [{
+				id: "49E7710557863282"
+				type: "checkmark"
+			}]
+			x: 14.0d
+			y: -15.0d
+		}
+		{
+			id: "5D7577EBF85AAB3C"
+			shape: "katu_flower"
+			size: 1.0d
+			tasks: [{
+				id: "6CDEC3D5AA9EAC42"
+				type: "checkmark"
+			}]
+			x: 15.0d
+			y: -15.0d
+		}
+		{
+			id: "7A628F24DD84EB93"
+			shape: "katu_circle"
+			size: 1.0d
+			tasks: [{
+				id: "6FD5ABFF23DA9FD1"
+				type: "checkmark"
+			}]
+			x: 12.0d
+			y: -15.0d
+		}
+		{
+			id: "29B12CE9C0810374"
+			shape: "katu_brace"
+			size: 1.0d
+			tasks: [{
+				id: "4167AEDFA169EEE1"
+				type: "checkmark"
+			}]
+			x: 11.0d
+			y: -15.0d
+		}
+		{
+			id: "246D47A545CE840A"
+			shape: "katu_banner"
+			size: 1.0d
+			tasks: [{
+				id: "1886B94DE8907E58"
+				type: "checkmark"
+			}]
+			x: 10.0d
+			y: -15.0d
+		}
+		{
+			id: "5AF3F1F141E58232"
+			shape: "katu_frame"
+			size: 1.0d
+			tasks: [{
+				id: "462097D5B1746430"
+				type: "checkmark"
+			}]
+			x: 10.0d
+			y: -14.0d
+		}
+		{
+			id: "6AB271717C91972A"
+			shape: "katu_gear"
+			size: 1.0d
+			tasks: [{
+				id: "3DF940D8D42E64BB"
+				type: "checkmark"
+			}]
+			x: 11.0d
+			y: -14.0d
+		}
+		{
+			id: "2E686B4225204783"
+			shape: "katu_heart"
+			size: 1.0d
+			tasks: [{
+				id: "113C90992FEDEA56"
+				type: "checkmark"
+			}]
+			x: 12.0d
+			y: -14.0d
+		}
+		{
+			id: "70C9E6420BFD9865"
+			shape: "katu_nocorners"
+			size: 1.0d
+			tasks: [{
+				id: "371B658B53A0EEEB"
+				type: "checkmark"
+			}]
+			x: 13.0d
+			y: -14.0d
+		}
+		{
+			id: "3F26FADE5B0BA686"
+			shape: "katu_shield"
+			size: 1.0d
+			tasks: [{
+				id: "0C184C6E2F87D58D"
+				type: "checkmark"
+			}]
+			x: 14.0d
+			y: -14.0d
+		}
+		{
+			id: "27E3184CD4B04D3E"
+			shape: "katu_squarecircle"
+			size: 1.0d
+			tasks: [{
+				id: "19FF8778EE218898"
+				type: "checkmark"
+			}]
+			x: 15.0d
+			y: -14.0d
+		}
+		{
+			id: "76E26D512CBDF799"
+			shape: "katu_thought"
+			size: 1.0d
+			tasks: [{
+				id: "1903FED74A86A465"
+				type: "checkmark"
+			}]
+			x: 10.0d
+			y: -13.0d
+		}
+		{
+			id: "3A842CE1C30B69BA"
+			shape: "katu_veryfancysquare"
+			size: 1.0d
+			tasks: [{
+				id: "1FE455FA06A81840"
+				type: "checkmark"
+			}]
+			x: 11.0d
+			y: -13.0d
+		}
+		{
+			id: "6CD029862CF03EF0"
+			shape: "katu_window"
+			size: 1.0d
+			tasks: [{
+				id: "49D99F0BAC2EFBA1"
+				type: "checkmark"
+			}]
+			x: 12.0d
+			y: -13.0d
 		}
 	]
 }

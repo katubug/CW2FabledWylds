@@ -28,47 +28,55 @@
 	pause_game: false
 	presets: {
 		advancement: {
-			shape: "octagon"
+			shape: "katu_circle"
 			size: 1.0d
 		}
 		animal: {
-			shape: "heart"
+			shape: "katu_heart"
 			size: 1.0d
 		}
 		boss: {
-			shape: "diamond"
-			size: 1.0d
-		}
-		completion: {
-			shape: "banner"
+			shape: "katu_diamond"
 			size: 1.5d
 		}
+		completion: {
+			shape: "katu_banner"
+			size: 2.0d
+		}
+		config: {
+			shape: "katu_gear"
+			size: 1.0d
+		}
+		hunt: {
+			shape: "katu_shield"
+			size: 1.0d
+		}
 		info: {
-			shape: "thought"
+			shape: "katu_thought"
 			size: 1.0d
 		}
 		item: {
-			shape: "hexagon"
+			shape: "katu_flower"
 			size: 1.0d
 		}
 		locate: {
-			shape: "window"
+			shape: "katu_window"
 			size: 1.0d
 		}
 		milestone: {
-			shape: "fpstar"
+			shape: "katu_frame"
 			size: 1.5d
 		}
 		progression: {
-			shape: "embellish"
+			shape: "katu_nocorners"
 			size: 1.0d
 		}
 		start: {
-			shape: "epstar"
+			shape: "katu_veryfancysquare"
 			size: 2.0d
 		}
 		turnin: {
-			shape: "pentagon"
+			shape: "katu_fancysquare"
 			size: 1.0d
 		}
 	}

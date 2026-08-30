@@ -10,6 +10,21 @@
     "mob": "roots:owl",
     "result": "deny"
   },
+    {
+    "when": "onjoin",
+    "mob": "mysticsbiomes:butterfly",
+    "result": "deny"
+  },
+   {
+    "when": "onjoin",
+    "mob": "mysticsbiomes:caterpillar",
+    "result": "deny"
+  },
+      {
+    "when": "onjoin",
+    "mob": "reanimal:butterfly",
+    "result": "deny"
+  },
   {
     "when": "onjoin",
     "mob": "hearthandharvest:crow",

@@ -108,6 +108,17 @@
 			x: 5.0d
 			y: -5.0d
 		}
+		{
+			click_action: "none:quest_enhance:text_v3:1.0:17:minecraft:defaultwork in progress"
+			color: 9925888
+			height: 0.4583333333333333d
+			id: "7FEEF39DD2C5CDEE"
+			image: ""
+			rotation: 0.0d
+			width: 3.6666666666666665d
+			x: -5.0d
+			y: -3.0d
+		}
 	]
 	order_index: 1
 	quest_enhance_decorative_lines: [{
@@ -685,21 +696,26 @@
 			rewards: [
 				{
 					exclude_from_claim_all: true
-					id: "7C4BD4C11506A6C9"
-					type: "loot"
+					id: "2D2D68448BD43BBA"
+					is_ender: false
+					is_team_reward: false
+					table_id: 5167086515396975209L
+					target_addressee: "QuestNPC"
+					team_reward_multiplier: 1.0f
+					type: "contactquests:parcel_random"
 				}
 				{
 					exclude_from_claim_all: true
-					id: "3FEFD88FFD11D93E"
-					type: "loot"
-				}
-				{
-					id: "73FF328C05240E5B"
+					id: "58FBCB2894FB0512"
+					is_ender: false
+					is_team_reward: false
 					item: {
 						count: 1
-						id: "minecraft:apple"
+						id: "relics:golden_tooth"
 					}
-					type: "item"
+					target_addressee: "QuestNPC"
+					team_reward_multiplier: 1.0f
+					type: "contactquests:parcel"
 				}
 			]
 			shape: "hexagon"
@@ -732,16 +748,6 @@
 				{
 					id: "1EDD78DDECF11BF8"
 					item: { count: 1, id: "bakery:chocolate_cake" }
-					type: "item"
-				}
-				{
-					id: "1851E72291697C61"
-					item: { components: { "ftbquests:missing_item": "fruitsdelight:mangosteen_cake" }, count: 1, id: "ftbquests:missing_item" }
-					type: "item"
-				}
-				{
-					id: "7FF3E097FF196F8E"
-					item: { components: { "ftbquests:missing_item": "create:blaze_cake" }, count: 1, id: "ftbquests:missing_item" }
 					type: "item"
 				}
 				{
@@ -988,6 +994,7 @@
 			y: 14.700000000000003d
 		}
 		{
+			dependencies: ["644439D23D454629"]
 			id: "34581095B797C667"
 			rewards: [
 				{
@@ -1050,8 +1057,8 @@
 					type: "item"
 				}
 			]
-			x: -8.75d
-			y: 20.0d
+			x: 5.5d
+			y: -2.5d
 		}
 		{
 			dependencies: ["34581095B797C667"]
@@ -1084,8 +1091,8 @@
 					type: "item"
 				}
 			]
-			x: -11.0d
-			y: 19.5d
+			x: 7.5d
+			y: -1.5d
 		}
 		{
 			dependencies: ["34581095B797C667"]
@@ -1138,36 +1145,12 @@
 					type: "item"
 				}
 			]
-			x: -10.0d
-			y: 18.0d
+			x: 8.0d
+			y: -2.5d
 		}
 		{
 			dependencies: ["31CE923007EF1D03"]
 			id: "70B1F4C0D65D12D1"
-			rewards: [
-				{
-					id: "62472CE10CCECE37"
-					item: {
-						components: {
-							"ftbquests:missing_item": "plushies:cow_plushie"
-						}
-						count: 1
-						id: "ftbquests:missing_item"
-					}
-					type: "item"
-				}
-				{
-					id: "112353829A6BCEF1"
-					item: {
-						components: {
-							"ftbquests:missing_item": "plushies:sheep_plushie"
-						}
-						count: 1
-						id: "ftbquests:missing_item"
-					}
-					type: "item"
-				}
-			]
 			shape: "hexagon"
 			tasks: [
 				{
@@ -1220,19 +1203,19 @@
 				}
 				{
 					count: 5
-					id: "41807D1F177E3A4B"
+					id: "48107E0E04EF45E3"
 					item: {
 						count: 1
-						id: "meadow:alpine_salt"
+						id: "farm_and_charm:butter"
 					}
 					type: "item"
 				}
 				{
 					count: 5
-					id: "48107E0E04EF45E3"
+					id: "20198A6019A57174"
 					item: {
 						count: 1
-						id: "farm_and_charm:butter"
+						id: "hearthandharvest:salt"
 					}
 					type: "item"
 				}
@@ -1665,18 +1648,31 @@
 			y: 4.5d
 		}
 		{
+			dependencies: ["2615CD06E32EC741"]
 			id: "6E90234166580EEB"
+			preset: "item"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5A051A7E53F98793"
+				is_ender: false
+				is_team_reward: false
+				table_id: 6895470215093009548L
+				target_addressee: "QuestNPC"
+				team_reward_multiplier: 1.0f
+				type: "contactquests:parcel_random"
+			}]
 			tasks: [{
 				id: "6E7811A150037597"
 				item: { count: 1, id: "trailandtales_delight:big_wooden_spoon" }
 				type: "item"
 			}]
-			x: -11.0d
-			y: -1.0d
+			x: -8.0d
+			y: 1.0d
 		}
 		{
 			dependencies: ["34581095B797C667"]
 			id: "5490D2048FF6E2AB"
+			preset: "item"
 			tasks: [
 				{
 					id: "208517B4D56CF70F"
@@ -1699,8 +1695,8 @@
 					type: "item"
 				}
 			]
-			x: -8.0d
-			y: 17.5d
+			x: 7.0d
+			y: -3.5d
 		}
 	]
 }

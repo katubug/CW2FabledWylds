@@ -34,6 +34,17 @@
 			x: 2.0d
 			y: -11.5d
 		}
+		{
+			click_action: "none:quest_enhance:text_v3:1.0:17:minecraft:defaultwork in progress"
+			color: 11296702
+			height: 0.4583333333333333d
+			id: "7CADD35EFB4F0B7F"
+			image: ""
+			rotation: 0.0d
+			width: 3.6666666666666665d
+			x: 2.0d
+			y: -10.0d
+		}
 	]
 	order_index: 1
 	quest_enhance_decorative_lines: [ ]
@@ -57,7 +68,7 @@
 				type: "item"
 			}]
 			x: 2.0d
-			y: -9.5d
+			y: -8.0d
 		}
 		{
 			id: "54F9B41F96399DE6"
@@ -101,7 +112,7 @@
 				}
 			]
 			x: 0.0d
-			y: -9.5d
+			y: -8.0d
 		}
 		{
 			id: "0BDF6D5ED0A22E48"
@@ -155,7 +166,7 @@
 				type: "item"
 			}]
 			x: 3.5d
-			y: -9.5d
+			y: -8.0d
 		}
 	]
 }

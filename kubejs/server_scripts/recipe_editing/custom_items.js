@@ -1,67 +1,57 @@
 ServerEvents.recipes(event => {
 
-	//Hephaestus Forge Capsule Recipe
-	// event.shapeless(
-	// 	Item.of('capsule:capsule', '{color:16777215,display:{color:3949738},label:"Hephaestusforge",size:9,sourceInventory:{},state:3,structureName:"b-4-config_capsule_rewards_hephaestusforge",upgraded:0}'),
-	// 	[
-	// 		'forbidden_arcanus:darkstone',
-	// 		'capsule:capsule'
-	// 	]
-	// )
+	const netherWoods = new Set(['crimson', 'warped'])
 
-	//Stonecutter recipes for Xerca Woods
+	// Returns the minecraft log/stem ID for a given wood type
+	function logId(wood, stripped) {
+		let suffix = netherWoods.has(wood) ? 'stem' : 'log'
+		return stripped
+			? `minecraft:stripped_${wood}_${suffix}`
+			: `minecraft:${wood}_${suffix}`
+	}
 
-	event.stonecutting('kubejs:carved_warped_1', 'minecraft:stripped_warped_stem')
-	event.stonecutting('kubejs:carved_warped_2', 'minecraft:stripped_warped_stem')
-	event.stonecutting('kubejs:carved_warped_3', 'minecraft:stripped_warped_stem')
-	event.stonecutting('kubejs:carved_warped_4', 'minecraft:stripped_warped_stem')
-	event.stonecutting('kubejs:carved_warped_5', 'minecraft:stripped_warped_stem')
-	event.stonecutting('kubejs:carved_warped_6', 'minecraft:stripped_warped_stem')
-	event.stonecutting('kubejs:carved_warped_7', 'minecraft:stripped_warped_stem')
-	event.stonecutting('kubejs:carved_warped_8', 'minecraft:stripped_warped_stem')
+	// === Carved Columns (stonecutter from matching log/stem) ===
+	const columnWoods = [
+		'acacia', 'acacia_stripped',
+		'birch', 'birch_stripped',
+		'cherry', 'cherry_stripped',
+		'crimson', 'crimson_stripped',
+		'dark_oak', 'dark_oak_stripped',
+		'jungle', 'jungle_stripped',
+		'mangrove', 'mangrove_stripped',
+		'oak', 'oak_stripped',
+		'pale_oak', 'pale_oak_stripped',
+		'spruce', 'spruce_stripped',
+		'warped', 'warped_stripped'
+	]
 
-	event.stonecutting('kubejs:carved_crimson_1', 'minecraft:stripped_crimson_stem')
-	event.stonecutting('kubejs:carved_crimson_2', 'minecraft:stripped_crimson_stem')
-	event.stonecutting('kubejs:carved_crimson_3', 'minecraft:stripped_crimson_stem')
-	event.stonecutting('kubejs:carved_crimson_4', 'minecraft:stripped_crimson_stem')
-	event.stonecutting('kubejs:carved_crimson_5', 'minecraft:stripped_crimson_stem')
-	event.stonecutting('kubejs:carved_crimson_6', 'minecraft:stripped_crimson_stem')
-	event.stonecutting('kubejs:carved_crimson_7', 'minecraft:stripped_crimson_stem')
-	event.stonecutting('kubejs:carved_crimson_8', 'minecraft:stripped_crimson_stem')
+	for (const wood of columnWoods) {
+		let isStripped = wood.endsWith('_stripped')
+		let base = isStripped ? wood.replace('_stripped', '') : wood
+		event.stonecutting(`kubejs:${wood}_carved_column`, logId(base, isStripped))
+	}
 
-	event.stonecutting('kubejs:carved_birch_1', 'minecraft:stripped_birch_log')
-	event.stonecutting('kubejs:carved_birch_2', 'minecraft:stripped_birch_log')
-	event.stonecutting('kubejs:carved_birch_3', 'minecraft:stripped_birch_log')
-	event.stonecutting('kubejs:carved_birch_4', 'minecraft:stripped_birch_log')
-	event.stonecutting('kubejs:carved_birch_5', 'minecraft:stripped_birch_log')
-	event.stonecutting('kubejs:carved_birch_6', 'minecraft:stripped_birch_log')
-	event.stonecutting('kubejs:carved_birch_7', 'minecraft:stripped_birch_log')
-	event.stonecutting('kubejs:carved_birch_8', 'minecraft:stripped_birch_log')
+	// === Carved Parquets (stonecutter from planks) ===
+	const parquetWoods = [
+		'acacia', 'bamboo', 'birch', 'cherry', 'crimson',
+		'dark_oak', 'jungle', 'mangrove', 'oak', 'pale_oak',
+		'spruce', 'warped'
+	]
 
-	event.stonecutting('kubejs:carved_acacia_1', 'minecraft:stripped_acacia_log')
-	event.stonecutting('kubejs:carved_acacia_2', 'minecraft:stripped_acacia_log')
-	event.stonecutting('kubejs:carved_acacia_3', 'minecraft:stripped_acacia_log')
-	event.stonecutting('kubejs:carved_acacia_4', 'minecraft:stripped_acacia_log')
-	event.stonecutting('kubejs:carved_acacia_5', 'minecraft:stripped_acacia_log')
-	event.stonecutting('kubejs:carved_acacia_6', 'minecraft:stripped_acacia_log')
-	event.stonecutting('kubejs:carved_acacia_7', 'minecraft:stripped_acacia_log')
-	event.stonecutting('kubejs:carved_acacia_8', 'minecraft:stripped_acacia_log')
+	for (const wood of parquetWoods) {
+		event.stonecutting(`kubejs:${wood}_carved_parquet`, `minecraft:${wood}_planks`)
+	}
 
-	event.stonecutting('kubejs:carved_spruce_1', 'minecraft:stripped_spruce_log')
-	event.stonecutting('kubejs:carved_spruce_2', 'minecraft:stripped_spruce_log')
-	event.stonecutting('kubejs:carved_spruce_3', 'minecraft:stripped_spruce_log')
-	event.stonecutting('kubejs:carved_spruce_4', 'minecraft:stripped_spruce_log')
-	event.stonecutting('kubejs:carved_spruce_5', 'minecraft:stripped_spruce_log')
-	event.stonecutting('kubejs:carved_spruce_6', 'minecraft:stripped_spruce_log')
-	event.stonecutting('kubejs:carved_spruce_7', 'minecraft:stripped_spruce_log')
-	event.stonecutting('kubejs:carved_spruce_8', 'minecraft:stripped_spruce_log')
+	// === Bamboo Carved Mosaic (stonecutter from bamboo mosaic) ===
+	event.stonecutting('kubejs:bamboo_carved_mosaic', 'minecraft:bamboo_mosaic')
 
-	event.stonecutting('kubejs:carved_dark_oak_1', 'minecraft:stripped_dark_oak_log')
-	event.stonecutting('kubejs:carved_dark_oak_2', 'minecraft:stripped_dark_oak_log')
-	event.stonecutting('kubejs:carved_dark_oak_3', 'minecraft:stripped_dark_oak_log')
-	event.stonecutting('kubejs:carved_dark_oak_4', 'minecraft:stripped_dark_oak_log')
-	event.stonecutting('kubejs:carved_dark_oak_5', 'minecraft:stripped_dark_oak_log')
-	event.stonecutting('kubejs:carved_dark_oak_6', 'minecraft:stripped_dark_oak_log')
-	event.stonecutting('kubejs:carved_dark_oak_7', 'minecraft:stripped_dark_oak_log')
-	event.stonecutting('kubejs:carved_dark_oak_8', 'minecraft:stripped_dark_oak_log')
+	// === Carved Logs — Xerca-style (stonecutter from stripped log/stem, 8 variants each) ===
+	const carvedLogWoods = ['warped', 'crimson', 'birch', 'acacia', 'spruce', 'dark_oak']
+
+	for (const wood of carvedLogWoods) {
+		for (let i = 1; i <= 8; i++) {
+			event.stonecutting(`kubejs:carved_${wood}_${i}`, logId(wood, true))
+		}
+	}
+
 })

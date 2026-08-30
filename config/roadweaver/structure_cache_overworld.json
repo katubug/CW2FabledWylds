@@ -1796,6 +1796,16 @@
       "isVanilla": false
     },
     {
+      "id": "tombstone:abandoned_grave_land",
+      "displayName": "Abandoned Grave Land",
+      "isVanilla": false
+    },
+    {
+      "id": "tombstone:abandoned_grave_ocean",
+      "displayName": "Abandoned Grave Ocean",
+      "isVanilla": false
+    },
+    {
       "id": "trailsandtalesplus:digsite",
       "displayName": "Digsite",
       "isVanilla": false
@@ -2523,7 +2533,8 @@
       "displayName": "#Eye Of Ender Located",
       "structureIds": [
         "minecraft:stronghold",
-        "minecraft:stronghold_big"
+        "minecraft:stronghold_big",
+        "mtr:stronghold"
       ]
     },
     {
@@ -2573,7 +2584,8 @@
       "tagId": "minecraft:on_ocean_explorer_maps",
       "displayName": "#On Ocean Explorer Maps",
       "structureIds": [
-        "minecraft:monument"
+        "minecraft:monument",
+        "mtr:ocean_temple"
       ]
     },
     {
@@ -2647,6 +2659,14 @@
         "trek:village/snowy",
         "trek:village/swamp_vanilla",
         "trek:village/taiga"
+      ]
+    },
+    {
+      "tagId": "tombstone:abandoned_grave",
+      "displayName": "#Abandoned Grave",
+      "structureIds": [
+        "tombstone:abandoned_grave_land",
+        "tombstone:abandoned_grave_ocean"
       ]
     },
     {
@@ -2774,6 +2794,13 @@
       "structureIds": [
         "minecraft:mansion",
         "minecraft:pillager_outpost"
+      ]
+    },
+    {
+      "tagId": "mtr:eye_of_ender_located",
+      "displayName": "#Eye Of Ender Located",
+      "structureIds": [
+        "mtr:stronghold"
       ]
     },
     {
@@ -2962,6 +2989,17 @@
       "displayName": "#Spruce Chest Structures",
       "structureIds": [
         "minecraft:igloo",
+        "minecraft:village_snowy",
+        "minecraft:village_taiga"
+      ]
+    },
+    {
+      "tagId": "tombstone:vanilla_village",
+      "displayName": "#Vanilla Village",
+      "structureIds": [
+        "minecraft:village_desert",
+        "minecraft:village_plains",
+        "minecraft:village_savanna",
         "minecraft:village_snowy",
         "minecraft:village_taiga"
       ]

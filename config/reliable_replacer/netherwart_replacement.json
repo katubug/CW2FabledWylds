@@ -1,0 +1,20 @@
+ [
+   {
+     "_comment_description": "BASIC SETTINGS: What to replace and what to replace it with.",
+     "inputs": [
+       "minecraft:nether_wart",
+       "minecraft:nether_wart_block"
+     ],
+     "output": "minecraft:netherrack",
+ 
+     "_comment_logic": "ADVANCED LOGIC: How the replacement behaves.",
+     "retrogen": false,
+     "player_blocks": false,
+ 
+     "_comment_filters": "FILTERS: The rule only runs if ALL these match.",
+     "dimensions": [
+       "minecraft:overworld"
+     ]
+   }
+ ]
+ 

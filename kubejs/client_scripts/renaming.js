@@ -84,4 +84,8 @@ ClientEvents.lang("en_us", event => {
 	event.renameItem('create:veridium_pillar', 'Veridium Roman Pillar')
 	event.renameItem('create:calcite_pillar', 'Calcite Roman Pillar')
 	event.renameItem('quark:bottled_cloud', 'Bottled Cloud')
+	event.renameItem('large_meals:potato_soup', 'Hearty Potato Soup')
+	event.renameItem('seamsandstitches:needle', 'Sewing Needle')
+	event.renameItem('tombstone:bone_needle', 'idk')
+
 })

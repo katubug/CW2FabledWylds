@@ -29,7 +29,7 @@
 	#is the primary way to re-color items. Set to false to restore all vanilla shapeless
 	#dye recipes regardless of per-category settings below.
 	#Requires a game restart or /reload to take effect after changing.
-	disableShapelessDyeRecipes = true
+	disableShapelessDyeRecipes = false
 
 	#Per-category overrides. When disableShapelessDyeRecipes is true, set an entry
 	#to true here to re-enable that specific vanilla recipe while keeping all others
