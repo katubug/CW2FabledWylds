@@ -21,3 +21,11 @@ config/oelib/dev_features.toml
 /config/midnightthoughts/dreams/tr_tr
 /config/midnightthoughts/dreams/uk_ua
 /config/midnightthoughts/dreams/zh_cn
+z_patch_notes/CF-Changelog-Generator-1.1.0.jar
+z_patch_notes/changelog_common.py
+z_patch_notes/content_changelog.py
+z_patch_notes/markdown.md
+z_patch_notes/mod_changelog.py
+z_patch_notes/patchnotes.bat
+z_patch_notes/quest_changelog.py
+z_patch_notes/patchnotes.md
