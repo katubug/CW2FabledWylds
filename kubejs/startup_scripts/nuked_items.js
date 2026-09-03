@@ -298,6 +298,7 @@ global.NUKED_ITEMS = [
     'hearthandharvest:red_grape_crate',
     'hearthandharvest:sweet_berry_crate',
     'hearthandharvest:wet_manure_brick',
+    'hearthandharvest:pitchfork',
     // herbalbrews
     'herbalbrews:cauldron',
     'herbalbrews:flask',
@@ -836,5 +837,7 @@ global.NUKED_ITEMS = [
     'reanimal:butterfly_pollen',
     'mysticsbiomes:glass_jar',
     'mysticsbiomes:glass_jar_caterpillar',
-    'mysticsbiomes:caterpillar_spawn_egg'
+    'mysticsbiomes:caterpillar_spawn_egg',
+    // relics
+    'relics:experience_disperser'
 ]

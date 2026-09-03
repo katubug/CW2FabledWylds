@@ -30,7 +30,9 @@
       "Found mod file",
       "Reference map",
       "from mod copycats because",
-      "CompostManager"
+      "CompostManager",
+      "Could not apply pet overlays layer",
+      "Skipping invalid icon form"
     ],
     "regex": [
       "Disconnecting VANILLA connection attempt",

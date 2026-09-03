@@ -58,7 +58,7 @@
 			y: -2.0d
 		}
 		{
-			click_action: "none:quest_enhance:text_v3:1.5:20:fabled_wylds:alagardPets & Livestock"
+			click_action: "none:quest_enhance:text_v3:1.5:20:fabled_wylds:alagardAnimal-Related Whatnots"
 			color: 2062755
 			height: 0.4583333333333333d
 			id: "36CC4B4BA8625D06"
@@ -119,9 +119,13 @@
 				}
 				{
 					exclude_from_claim_all: true
-					id: "4F8759E6AD38E6E4"
+					id: "68FFC836DA5D1927"
+					is_ender: false
+					is_team_reward: false
 					table_id: 5770973074849872376L
-					type: "random"
+					target_addressee: "QuestNPC"
+					team_reward_multiplier: 1.0f
+					type: "contactquests:parcel_random"
 				}
 			]
 			shape: "heart"
@@ -1003,9 +1007,13 @@
 			preset: "animal"
 			rewards: [{
 				exclude_from_claim_all: true
-				id: "17E4531EE0100231"
+				id: "30D911646134015F"
+				is_ender: false
+				is_team_reward: false
 				table_id: 5770973074849872376L
-				type: "random"
+				target_addressee: "QuestNPC"
+				team_reward_multiplier: 1.0f
+				type: "contactquests:parcel_random"
 			}]
 			shape: "heart"
 			tasks: [{
@@ -1334,12 +1342,17 @@
 			id: "4BE2F61081D4D690"
 			preset: "animal"
 			rewards: [{
-				id: "654868DC56FB47AF"
+				exclude_from_claim_all: true
+				id: "1ED63A11C37025E8"
+				is_ender: false
+				is_team_reward: false
 				item: {
 					count: 1
 					id: "plushie_buddies:plushie_allay"
 				}
-				type: "item"
+				target_addressee: "QuestNPC"
+				team_reward_multiplier: 1.0f
+				type: "contactquests:parcel"
 			}]
 			shape: "heart"
 			tasks: [{
@@ -1356,12 +1369,17 @@
 			id: "2D8511D462DFF413"
 			preset: "animal"
 			rewards: [{
-				id: "101DF70390C46B3B"
+				exclude_from_claim_all: true
+				id: "6B8ACAD91148EB0B"
+				is_ender: false
+				is_team_reward: false
 				item: {
 					count: 1
 					id: "quark:diamond_heart"
 				}
-				type: "item"
+				target_addressee: "QuestNPC"
+				team_reward_multiplier: 1.0f
+				type: "contactquests:parcel"
 			}]
 			shape: "heart"
 			tasks: [{
@@ -1735,11 +1753,16 @@
 				id: "mowziesmobs:foliaath_spawn_egg"
 			}
 			id: "4BB2ED765707EA69"
+			preset: "hunt"
 			rewards: [{
 				exclude_from_claim_all: true
-				id: "75929EA9D4288632"
+				id: "46B7F824F8F45BD4"
+				is_ender: false
+				is_team_reward: false
 				table_id: 5770973074849872376L
-				type: "random"
+				target_addressee: "QuestNPC"
+				team_reward_multiplier: 1.0f
+				type: "contactquests:parcel_random"
 			}]
 			shape: "window"
 			tasks: [{
@@ -1752,8 +1775,8 @@
 				target_radius_blocks: 5
 				type: "find_entity"
 			}]
-			x: 17.8d
-			y: -0.3d
+			x: 3.5d
+			y: 0.5d
 		}
 		{
 			id: "5085CFDE1E14144D"
@@ -1906,6 +1929,50 @@
 			}]
 			x: 15.5d
 			y: -2.5d
+		}
+		{
+			id: "152F190C5689B5C0"
+			preset: "animal"
+			rewards: [{
+				count: 5
+				id: "7BEFCBBF98C1DF5E"
+				item: {
+					count: 1
+					id: "minecraft:bone_meal"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "cnb:sporeling"
+				id: "52C3F3877C1085AC"
+				search_radius_blocks: 64
+				target_radius_blocks: 5
+				type: "find_entity"
+			}]
+			x: -1.5d
+			y: -1.0d
+		}
+		{
+			id: "2086E3E58435ED32"
+			preset: "animal"
+			rewards: [{
+				count: 5
+				id: "3E2B8C25E3893F2C"
+				item: {
+					count: 1
+					id: "minecraft:cod"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "minecraft:cat"
+				id: "0D0F597F01B3C94C"
+				search_radius_blocks: 64
+				target_radius_blocks: 5
+				type: "find_entity"
+			}]
+			x: -4.5d
+			y: 0.5d
 		}
 	]
 }

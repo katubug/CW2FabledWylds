@@ -103,6 +103,9 @@
     "armory": true,
     "drawer": true
   },
+  "cloudworks_api": {
+    "durable_block_durability": true
+  },
   "exposure": {
     "lightroom": true,
     "photograph_frame": true

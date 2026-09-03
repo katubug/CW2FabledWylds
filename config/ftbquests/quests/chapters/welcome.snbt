@@ -86,7 +86,7 @@
 	quests: [
 		{
 			id: "226D1B09B2958EFC"
-			preset: "config"
+			preset: "info"
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "052140B59D778437"
@@ -111,7 +111,7 @@
 		}
 		{
 			id: "171D4EACF7B9F4D5"
-			preset: "config"
+			preset: "info"
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "687709C126CC3338"
@@ -136,7 +136,7 @@
 		{
 			id: "26D8EAD9D892805E"
 			min_width: 350
-			preset: "config"
+			preset: "info"
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "3802B98E4ECD5544"
@@ -162,7 +162,7 @@
 		{
 			dependencies: ["26D8EAD9D892805E"]
 			id: "20F9C02AF5CBE665"
-			preset: "config"
+			preset: "info"
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "44179D9055BDC806"
@@ -187,7 +187,7 @@
 		{
 			id: "51383D499E0DF0DA"
 			min_width: 350
-			preset: "config"
+			preset: "info"
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "6B23859A30A961C9"
@@ -213,7 +213,7 @@
 		{
 			dependencies: ["51383D499E0DF0DA"]
 			id: "1E43FCEBA416DCFF"
-			preset: "config"
+			preset: "info"
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "0418D3D08D8C082D"
@@ -249,7 +249,7 @@
 		}
 		{
 			id: "5763626E3E3E440B"
-			preset: "config"
+			preset: "info"
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "2DB46143D07B94DF"

@@ -1,0 +1,6 @@
+#Percentage chance that the Mushroom Tower (mushroom castle) generates
+#at a Dense Mushroom Forest landmark center. 0 = vanilla Twilight Forest 4.8 behavior.
+#浓密蘑菇林地标中心生成蘑菇城堡（蘑菇塔）的百分比概率；设为 0 时与暮色森林原版行为一致。
+# Default: 50
+# Range: 0 ~ 100
+mushroomCastleChance = 50

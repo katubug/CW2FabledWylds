@@ -29,3 +29,6 @@ z_patch_notes/mod_changelog.py
 z_patch_notes/patchnotes.bat
 z_patch_notes/quest_changelog.py
 z_patch_notes/patchnotes.md
+/config/guide/books/guide/chapters/ru_ru
+/config/guide/books/guide/textures
+*.ogg

@@ -1296,6 +1296,11 @@
       "isVanilla": false
     },
     {
+      "id": "mvs:lil_house",
+      "displayName": "Lil House",
+      "isVanilla": false
+    },
+    {
       "id": "mvs:log_ruin",
       "displayName": "Log Ruin",
       "isVanilla": false
@@ -1308,6 +1313,11 @@
     {
       "id": "mvs:medium_igloo_1",
       "displayName": "Medium Igloo 1",
+      "isVanilla": false
+    },
+    {
+      "id": "mvs:medium_igloo_2",
+      "displayName": "Medium Igloo 2",
       "isVanilla": false
     },
     {
@@ -2578,6 +2588,20 @@
       "structureIds": [
         "minecraft:ocean_ruin_cold",
         "minecraft:ocean_ruin_warm"
+      ]
+    },
+    {
+      "tagId": "minecraft:on_desert_pyramid_maps",
+      "displayName": "#On Desert Pyramid Maps",
+      "structureIds": [
+        "mtr:desert_temple"
+      ]
+    },
+    {
+      "tagId": "minecraft:on_jungle_explorer_maps",
+      "displayName": "#On Jungle Explorer Maps",
+      "structureIds": [
+        "mtr:jungle_temple"
       ]
     },
     {

@@ -22,7 +22,7 @@
 			y: -3.0d
 		}
 		{
-			click_action: "none:quest_enhance:text_v3:1.0:17:minecraft:defaultItems & Misc"
+			click_action: "none:quest_enhance:text_v3:1.0:20:fabled_wylds:alagardItems & Misc"
 			color: 2017209
 			height: 0.6509339450527075d
 			id: "22E9D8745A6BB704"
@@ -33,7 +33,7 @@
 			y: -10.0d
 		}
 		{
-			click_action: "none:quest_enhance:text_v3:1.0:17:minecraft:defaultCurios"
+			click_action: "none:quest_enhance:text_v3:1.0:20:fabled_wylds:alagardCurios"
 			color: 2017209
 			height: 0.6509339450527075d
 			id: "74E0D5F284083963"
@@ -44,7 +44,7 @@
 			y: -2.0d
 		}
 		{
-			click_action: "none:quest_enhance:text_v3:1.5:17:minecraft:defaultWeapons & Tools"
+			click_action: "none:quest_enhance:text_v3:1.5:20:fabled_wylds:alagardWeapons & Tools"
 			color: 2017209
 			height: 0.6509339450527075d
 			id: "6631975FAC9CF79E"
@@ -55,7 +55,7 @@
 			y: -3.0d
 		}
 		{
-			click_action: "none:quest_enhance:text_v3:1.0:17:minecraft:defaultArmor & Clothing"
+			click_action: "none:quest_enhance:text_v3:1.0:20:fabled_wylds:alagardArmor & Clothing"
 			color: 2017209
 			height: 0.6509339450527075d
 			id: "127FD4FE67E2CCE1"

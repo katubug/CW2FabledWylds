@@ -1,4 +1,5 @@
 {
+	autofocus_id: "295EEED15324F710"
 	default_hide_dependency_lines: false
 	default_min_width: 350
 	default_quest_shape: ""
@@ -9,15 +10,6 @@
 	}
 	id: "5CD8650A590340E5"
 	images: [
-		{
-			height: 10.0d
-			id: "266D03F30D65B3CE"
-			image: "fabled_wylds:textures/questui/bgtheend.png"
-			rotation: 0.0d
-			width: 20.0d
-			x: 0.0d
-			y: 0.0d
-		}
 		{
 			click_action: "none:quest_enhance:text_v3:1.0:17:minecraft:defaultwork in progress"
 			color: 6321408
@@ -30,13 +22,25 @@
 			y: -6.0d
 		}
 		{
+			click_action: "none:"
 			height: 20.0d
 			id: "11BAB1E5D627BD94"
-			image: "fabled_wylds:textures/questui/bookbgslg/yellow_book_lg.png"
+			image: "fabled_wylds:textures/questui/bookbgslg/purple_book_lg.png"
 			rotation: 0.0d
 			width: 25.0d
 			x: 5.0d
 			y: -6.0d
+		}
+		{
+			click_action: "none:"
+			color: 11296702
+			height: 2.5d
+			id: "48EC94BA00A77DB9"
+			image: "fabled_wylds:textures/questui/titles/theend.png"
+			rotation: 0.0d
+			width: 9.0d
+			x: 0.0d
+			y: -12.5d
 		}
 	]
 	order_index: 1
@@ -46,6 +50,7 @@
 	quests: [
 		{
 			id: "19ED6330FD3E968C"
+			preset: "start"
 			rewards: [
 				{
 					count: 4
@@ -79,12 +84,13 @@
 				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(c:eyes)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
-			x: 0.0d
-			y: 0.0d
+			x: -3.0d
+			y: -10.0d
 		}
 		{
 			dependencies: ["19ED6330FD3E968C"]
 			id: "1689A10C4DBBE5B0"
+			preset: "item"
 			rewards: [
 				{
 					exclude_from_claim_all: true
@@ -113,12 +119,13 @@
 				item: { count: 1, id: "endrem:old_eye" }
 				type: "item"
 			}]
-			x: -6.0d
-			y: -0.5d
+			x: -2.5d
+			y: -7.5d
 		}
 		{
 			dependencies: ["19ED6330FD3E968C"]
 			id: "2C24C18C174AD842"
+			preset: "item"
 			rewards: [
 				{
 					exclude_from_claim_all: true
@@ -147,11 +154,13 @@
 				item: { count: 1, id: "endrem:nether_eye" }
 				type: "item"
 			}]
-			x: -4.5d
-			y: 2.5d
+			x: -1.0d
+			y: -7.0d
 		}
 		{
+			dependencies: ["19ED6330FD3E968C"]
 			id: "468D0B739D93E018"
+			preset: "item"
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "317B59CE91F954A0"
@@ -163,12 +172,13 @@
 				item: { count: 1, id: "endrem:cold_eye" }
 				type: "item"
 			}]
-			x: 0.0d
-			y: 0.0d
+			x: 3.5d
+			y: -10.0d
 		}
 		{
 			dependencies: ["19ED6330FD3E968C"]
 			id: "59B0992CDA1B5797"
+			preset: "item"
 			rewards: [
 				{
 					exclude_from_claim_all: true
@@ -197,12 +207,13 @@
 				item: { count: 1, id: "endrem:rogue_eye" }
 				type: "item"
 			}]
-			x: -3.5d
-			y: 2.5d
+			x: 3.0d
+			y: -11.0d
 		}
 		{
 			dependencies: ["19ED6330FD3E968C"]
 			id: "3278B2F717A8F374"
+			preset: "item"
 			rewards: [
 				{
 					exclude_from_claim_all: true
@@ -231,12 +242,13 @@
 				item: { count: 1, id: "endrem:black_eye" }
 				type: "item"
 			}]
-			x: -3.0d
-			y: 1.5d
+			x: 1.5d
+			y: -10.0d
 		}
 		{
 			dependencies: ["19ED6330FD3E968C"]
 			id: "2DCD3962DBC7E1F4"
+			preset: "item"
 			rewards: [
 				{
 					exclude_from_claim_all: true
@@ -265,12 +277,13 @@
 				item: { count: 1, id: "endrem:magical_eye" }
 				type: "item"
 			}]
-			x: -5.0d
-			y: -2.5d
+			x: 2.5d
+			y: -10.0d
 		}
 		{
 			dependencies: ["19ED6330FD3E968C"]
 			id: "393FED910B541631"
+			preset: "item"
 			rewards: [
 				{
 					exclude_from_claim_all: true
@@ -299,12 +312,13 @@
 				item: { count: 1, id: "endrem:lost_eye" }
 				type: "item"
 			}]
-			x: -4.0d
-			y: -2.5d
+			x: 2.0d
+			y: -11.0d
 		}
 		{
 			dependencies: ["19ED6330FD3E968C"]
 			id: "513067CD571D369E"
+			preset: "item"
 			rewards: [
 				{
 					exclude_from_claim_all: true
@@ -333,12 +347,13 @@
 				item: { count: 1, id: "endrem:corrupted_eye" }
 				type: "item"
 			}]
-			x: -4.0d
-			y: 1.5d
+			x: -1.5d
+			y: -8.0d
 		}
 		{
 			dependencies: ["19ED6330FD3E968C"]
 			id: "0ED4E7CE946E5F48"
+			preset: "item"
 			rewards: [
 				{
 					exclude_from_claim_all: true
@@ -367,12 +382,13 @@
 				item: { count: 1, id: "endrem:guardian_eye" }
 				type: "item"
 			}]
-			x: -5.5d
-			y: -1.5d
+			x: -3.0d
+			y: -6.5d
 		}
 		{
 			dependencies: ["19ED6330FD3E968C"]
 			id: "13555E89D6122D88"
+			preset: "item"
 			rewards: [
 				{
 					exclude_from_claim_all: true
@@ -401,12 +417,13 @@
 				item: { count: 1, id: "endrem:witch_eye" }
 				type: "item"
 			}]
-			x: -4.5d
-			y: -1.5d
+			x: 1.0d
+			y: -9.0d
 		}
 		{
 			dependencies: ["19ED6330FD3E968C"]
 			id: "2356716DE94666CF"
+			preset: "item"
 			rewards: [
 				{
 					exclude_from_claim_all: true
@@ -435,11 +452,13 @@
 				item: { count: 1, id: "endrem:cursed_eye" }
 				type: "item"
 			}]
-			x: -5.0d
-			y: -0.5d
+			x: -2.0d
+			y: -6.5d
 		}
 		{
+			dependencies: ["19ED6330FD3E968C"]
 			id: "605D30BFA0C1C6A7"
+			preset: "item"
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "3353D01BC8E3691E"
@@ -451,12 +470,13 @@
 				item: { count: 1, id: "endrem:evil_eye" }
 				type: "item"
 			}]
-			x: 0.0d
-			y: 0.0d
+			x: 2.0d
+			y: -9.0d
 		}
 		{
 			dependencies: ["19ED6330FD3E968C"]
 			id: "3AADAC34ECDEF891"
+			preset: "item"
 			rewards: [
 				{
 					exclude_from_claim_all: true
@@ -485,12 +505,13 @@
 				item: { count: 1, id: "endrem:undead_eye" }
 				type: "item"
 			}]
-			x: -5.5d
-			y: 0.5d
+			x: -1.5d
+			y: -5.5d
 		}
 		{
 			dependencies: ["19ED6330FD3E968C"]
 			id: "537CCA9E121868CC"
+			preset: "item"
 			rewards: [
 				{
 					exclude_from_claim_all: true
@@ -519,12 +540,13 @@
 				item: { count: 1, id: "endrem:exotic_eye" }
 				type: "item"
 			}]
-			x: -5.0d
-			y: 1.5d
+			x: -3.5d
+			y: -5.5d
 		}
 		{
 			dependencies: ["09ED0DFEB72DFD71"]
 			id: "2499CAE3934539A8"
+			preset: "boss"
 			rewards: [
 				{
 					id: "413E37523059C4FA"
@@ -561,12 +583,13 @@
 				type: "kill"
 				value: 1L
 			}]
-			x: 5.0d
-			y: 0.0d
+			x: 1.5d
+			y: -4.5d
 		}
 		{
 			dependencies: ["2499CAE3934539A8"]
 			id: "73EAABCF703B9DC9"
+			preset: "boss"
 			rewards: [
 				{
 					id: "531F56AEE724EECA"
@@ -595,8 +618,8 @@
 				type: "kill"
 				value: 2L
 			}]
-			x: 7.0d
-			y: 0.0d
+			x: 1.5d
+			y: -2.25d
 		}
 		{
 			dependencies: ["19ED6330FD3E968C"]
@@ -604,6 +627,7 @@
 				id: "minecraft:end_stone"
 			}
 			id: "09ED0DFEB72DFD71"
+			preset: "milestone"
 			rewards: [
 				{
 					id: "76EADCCD9FC6E5A3"
@@ -620,12 +644,13 @@
 				id: "4B187CE8DA0DF7C5"
 				type: "dimension"
 			}]
-			x: 2.5d
-			y: 0.0d
+			x: 1.5d
+			y: -7.5d
 		}
 		{
 			dependencies: ["09ED0DFEB72DFD71"]
 			id: "26E52D95C9C75019"
+			preset: "turnin"
 			rewards: [{
 				id: "06C611660703EF32"
 				item: {
@@ -641,12 +666,13 @@
 				item: { count: 1, id: "minecraft:dragon_egg" }
 				type: "item"
 			}]
-			x: 1.0d
-			y: 2.0d
+			x: 3.5d
+			y: -6.0d
 		}
 		{
 			dependencies: ["09ED0DFEB72DFD71"]
 			id: "47639E492B01312E"
+			preset: "advancement"
 			shape: "octagon"
 			tasks: [{
 				advancement: "minecraft:end/find_end_city"
@@ -654,11 +680,12 @@
 				id: "754AB385A44018C4"
 				type: "advancement"
 			}]
-			x: 2.5d
-			y: -2.5d
+			x: 3.5d
+			y: -7.5d
 		}
 		{
 			id: "5D1EFA0ECBE9891C"
+			preset: "item"
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "5980009048850117"
@@ -678,8 +705,8 @@
 				item: { count: 1, id: "minecraft:ender_eye" }
 				type: "item"
 			}]
-			x: -1.0d
-			y: 2.5d
+			x: -0.5d
+			y: -6.0d
 		}
 		{
 			dependencies: ["19ED6330FD3E968C"]
@@ -712,8 +739,8 @@
 				item: { count: 1, id: "endrem:trial_eye" }
 				type: "item"
 			}]
-			x: -6.0d
-			y: -2.5d
+			x: 1.0d
+			y: -11.0d
 		}
 		{
 			dependencies: ["19ED6330FD3E968C"]
@@ -746,8 +773,8 @@
 				item: { count: 1, id: "endrem:sculk_eye" }
 				type: "item"
 			}]
-			x: -6.5d
-			y: -1.5d
+			x: -3.5d
+			y: -7.5d
 		}
 		{
 			dependencies: ["19ED6330FD3E968C"]
@@ -780,8 +807,8 @@
 				item: { count: 1, id: "endrem:potato_eye" }
 				type: "item"
 			}]
-			x: -6.5d
-			y: 0.5d
+			x: -2.5d
+			y: -5.5d
 		}
 		{
 			dependencies: ["19ED6330FD3E968C"]
@@ -814,8 +841,18 @@
 				item: { count: 1, id: "endrem:fishing_eye" }
 				type: "item"
 			}]
-			x: -6.0d
-			y: 1.5d
+			x: 3.0d
+			y: -9.0d
+		}
+		{
+			always_invisible: true
+			id: "295EEED15324F710"
+			tasks: [{
+				id: "6C6D82EC40E2451F"
+				type: "custom"
+			}]
+			x: 5.0d
+			y: -7.0d
 		}
 	]
 }

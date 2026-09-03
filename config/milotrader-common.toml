@@ -1,0 +1,18 @@
+#Whether Milo can randomly wander into the world on his own.
+spawningEnabled = true
+#Roughly how far (in blocks) from a random player Milo may spawn.
+# Default: 24
+# Range: 8 ~ 128
+spawnRadius = 24
+#The minimum distance (in blocks, on each axis) Milo keeps from the player he spawns near.
+# Default: 8
+# Range: 0 ~ 64
+minSpawnDistance = 8
+#How long (in ticks, 20 per second) Milo lingers after spawning if nobody trades with him before he wanders off. This only counts down while his chunk is loaded, so leaving the area pauses the clock. 24000 = 20 minutes. Vanilla's Wandering Trader uses 48000 (2 in-game days).
+# Default: 24000
+# Range: 200 ~ 96000
+despawnDelayTicks = 24000
+#How far (in blocks) Milo will roam from the spot he first appeared in. He'll still wander around casually, just never past this distance from where players first found him.
+# Default: 20
+# Range: 4 ~ 128
+wanderRadius = 20

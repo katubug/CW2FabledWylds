@@ -13,7 +13,7 @@ modpackMode = false
 
   # Which window modes the F11 key cycles through
   # Accepted values are: [ATTACH, REPLACE, OFF]
-  attachModeF11 = "ATTACH"
+  attachModeF11 = "REPLACE"
 
 [fpsDisplay]
   # FPS and system details overlay
@@ -115,7 +115,7 @@ modpackMode = false
   # Hides the JEI/REI/EMI ingredient overlay until the search field is focused
   hideJREMI = false
   hideJREMIHint = false
-  fontShadows = true
+  fontShadows = false
   fastLanguageReload = true
 
   # Settings screen style; non-sodium styles are WIP and only open on dev environments

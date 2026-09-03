@@ -436,7 +436,6 @@ ServerEvents.recipes((e) => {
 	for (const thing of bigPlankList) {
 		hexRecipeBuild(thing);
 	}
-	hexRecipeBuild("quark:vertical_mangrove_planks");
 
 	// manually doing recipes which get skipped by the above function:
 	hexCut("tflostblocks:thorn_planks", 5, "tflostblocks:stripped_thorn_block", 1);

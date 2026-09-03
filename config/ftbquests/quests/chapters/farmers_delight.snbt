@@ -51,6 +51,28 @@
 			x: -5.0d
 			y: 0.0d
 		}
+		{
+			click_action: "none:quest_enhance:text_v3:1.5:20:fabled_wylds:alagardCrop Compacting"
+			color: 6321408
+			height: 0.4583333333333333d
+			id: "7289DCC9A5656155"
+			image: ""
+			rotation: 0.0d
+			width: 3.5833333333333335d
+			x: 5.0d
+			y: 3.0d
+		}
+		{
+			click_action: "none:quest_enhance:text_v3:1.5:20:fabled_wylds:alagardLivestock"
+			color: 6321408
+			height: 0.4583333333333333d
+			id: "4E9AAB20B90A7E75"
+			image: ""
+			rotation: 0.0d
+			width: 3.5833333333333335d
+			x: 5.5d
+			y: -2.5d
+		}
 	]
 	order_index: 0
 	quest_enhance_decorative_lines: [ ]
@@ -291,8 +313,8 @@
 				item: { count: 1, id: "supplementaries:planter" }
 				type: "item"
 			}]
-			x: 4.0d
-			y: -1.5d
+			x: -4.5d
+			y: 6.5d
 		}
 		{
 			id: "2186A6F69ADBE795"
@@ -477,7 +499,7 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: -0.5d
+			y: 3.0d
 		}
 		{
 			dependencies: ["2973338AB622C5D6"]
@@ -909,21 +931,41 @@
 			y: 5.5d
 		}
 		{
+			dependencies: ["6857BD808A4B27C8"]
 			id: "17B0994740977E5A"
 			preset: "item"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "4911754D457E2F61"
-				table_id: 5770973074849872376L
-				type: "random"
-			}]
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "1001A15B2F37D043"
+					is_ender: false
+					is_team_reward: false
+					table_id: 5770973074849872376L
+					target_addressee: "QuestNPC"
+					team_reward_multiplier: 1.0f
+					type: "contactquests:parcel_random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7CF94D33907C0851"
+					is_ender: false
+					is_team_reward: false
+					item: {
+						count: 1
+						id: "farm_and_charm:pitchfork"
+					}
+					target_addressee: "QuestNPC"
+					team_reward_multiplier: 1.0f
+					type: "contactquests:parcel"
+				}
+			]
 			tasks: [{
 				id: "6B04E98837BD690F"
 				item: { count: 1, id: "farm_and_charm:chicken_coop" }
 				type: "item"
 			}]
-			x: 2.5d
-			y: -1.5d
+			x: 7.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["18B7D6B02C97FF23"]
@@ -1002,15 +1044,142 @@
 			y: 6.75d
 		}
 		{
-			id: "2C581951719CC6BA"
-			tasks: [{
-				advancement: "fabled_wylds:fieldguide/cucumber_crop"
-				criterion: ""
-				id: "4F6D47E0F0FA52B4"
-				type: "advancement"
+			id: "620B4CA9685DD24B"
+			preset: "animal"
+			rewards: [{
+				count: 2
+				id: "1DBD54B729B99F39"
+				item: {
+					count: 1
+					id: "minecraft:wheat"
+				}
+				type: "item"
 			}]
-			x: -3.5d
-			y: -5.0d
+			tasks: [{
+				entity: "minecraft:cow"
+				id: "125A47CD60CDF89F"
+				search_radius_blocks: 64
+				target_radius_blocks: 5
+				type: "find_entity"
+			}]
+			x: 2.5d
+			y: -1.5d
+		}
+		{
+			id: "13245319C62A99BE"
+			preset: "animal"
+			rewards: [{
+				count: 2
+				id: "52605567C9DD28CA"
+				item: {
+					count: 1
+					id: "minecraft:carrot"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "minecraft:pig"
+				id: "577D873021C3F656"
+				search_radius_blocks: 64
+				target_radius_blocks: 5
+				type: "find_entity"
+			}]
+			x: 4.0d
+			y: -1.5d
+		}
+		{
+			id: "6857BD808A4B27C8"
+			preset: "animal"
+			rewards: [{
+				count: 2
+				id: "732E11FBFC838501"
+				item: {
+					count: 1
+					id: "minecraft:wheat_seeds"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "minecraft:chicken"
+				id: "3430F1B9F3CF955F"
+				search_radius_blocks: 64
+				target_radius_blocks: 5
+				type: "find_entity"
+			}]
+			x: 7.0d
+			y: -1.5d
+		}
+		{
+			id: "1047D4A39AC597A8"
+			preset: "animal"
+			rewards: [{
+				count: 2
+				id: "3F7D2413E6FADC34"
+				item: {
+					count: 1
+					id: "autumnity:foul_berries"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "autumnity:turkey"
+				id: "2E7A4C9312F5A786"
+				search_radius_blocks: 64
+				target_radius_blocks: 5
+				type: "find_entity"
+			}]
+			x: 8.5d
+			y: -1.5d
+		}
+		{
+			id: "2D137E6E0AD9F560"
+			preset: "animal"
+			rewards: [{
+				count: 2
+				id: "5F870546132CFD60"
+				item: {
+					count: 1
+					id: "minecraft:wheat"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "apple_cows:apple_cow"
+				id: "442013DB69EF5C55"
+				search_radius_blocks: 64
+				target_radius_blocks: 5
+				type: "find_entity"
+			}]
+			x: 5.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["2D137E6E0AD9F560"]
+			id: "306F92E6F0BF8F41"
+			preset: "animal"
+			tasks: [{
+				entity: "apple_cows:golden_apple_cow"
+				id: "02E5B64368905049"
+				search_radius_blocks: 64
+				target_radius_blocks: 5
+				type: "find_entity"
+			}]
+			x: 5.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["306F92E6F0BF8F41"]
+			id: "09F65F48E63E7667"
+			preset: "animal"
+			tasks: [{
+				entity: "apple_cows:enchanted_golden_apple_cow"
+				id: "6C590CEE57013A7D"
+				search_radius_blocks: 64
+				target_radius_blocks: 5
+				type: "find_entity"
+			}]
+			x: 5.5d
+			y: 1.5d
 		}
 	]
 }

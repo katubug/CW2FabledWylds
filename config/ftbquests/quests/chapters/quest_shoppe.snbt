@@ -297,6 +297,7 @@
 				exclude_from_claim_all: true
 				id: "6EC0CBB972522127"
 				table_id: 6895470215093009548L
+				team_reward: false
 				type: "random"
 			}]
 			shape: "rsquare"
@@ -323,6 +324,7 @@
 					id: "hexalia:small_cauldron"
 				}
 				target_addressee: "QuestNPC"
+				team_reward: false
 				team_reward_multiplier: 1.0f
 				type: "contactquests:parcel"
 			}]
@@ -352,6 +354,7 @@
 					id: "hexerei:mixing_cauldron"
 				}
 				target_addressee: "QuestNPC"
+				team_reward: false
 				team_reward_multiplier: 1.0f
 				type: "contactquests:parcel"
 			}]
@@ -381,6 +384,7 @@
 					id: "cluttered:small_cauldron_set"
 				}
 				target_addressee: "QuestNPC"
+				team_reward: false
 				team_reward_multiplier: 1.0f
 				type: "contactquests:parcel"
 			}]
@@ -411,6 +415,7 @@
 						id: "moresnifferflowers:beroot_cauldron"
 					}
 					target_addressee: "QuestNPC"
+					team_reward: false
 					team_reward_multiplier: 1.0f
 					type: "contactquests:parcel"
 				}
@@ -424,6 +429,7 @@
 						id: "moresnifferflowers:beroot_cook_book"
 					}
 					target_addressee: "QuestNPC"
+					team_reward: false
 					team_reward_multiplier: 1.0f
 					type: "contactquests:parcel"
 				}
@@ -463,6 +469,7 @@
 						id: "reliquary:apothecary_cauldron"
 					}
 					target_addressee: "QuestNPC"
+					team_reward: false
 					team_reward_multiplier: 1.0f
 					type: "contactquests:parcel"
 				}
@@ -476,6 +483,7 @@
 						id: "reliquary:apothecary_mortar"
 					}
 					target_addressee: "QuestNPC"
+					team_reward: false
 					team_reward_multiplier: 1.0f
 					type: "contactquests:parcel"
 				}
@@ -506,6 +514,7 @@
 					id: "farmersdelight:cooking_pot"
 				}
 				target_addressee: "QuestNPC"
+				team_reward: false
 				team_reward_multiplier: 1.0f
 				type: "contactquests:parcel"
 			}]
@@ -535,6 +544,7 @@
 					id: "farm_and_charm:cooking_pot"
 				}
 				target_addressee: "QuestNPC"
+				team_reward: false
 				team_reward_multiplier: 1.0f
 				type: "contactquests:parcel"
 			}]
@@ -564,6 +574,7 @@
 					id: "meadow:cookpot"
 				}
 				target_addressee: "QuestNPC"
+				team_reward: false
 				team_reward_multiplier: 1.0f
 				type: "contactquests:parcel"
 			}]
@@ -593,6 +604,7 @@
 					id: "hexerei:pestle_and_mortar"
 				}
 				target_addressee: "QuestNPC"
+				team_reward: false
 				team_reward_multiplier: 1.0f
 				type: "contactquests:parcel"
 			}]
@@ -616,6 +628,7 @@
 				exclude_from_claim_all: true
 				id: "04F9EB5B4BB38315"
 				table_id: 902453978194292900L
+				team_reward: false
 				type: "choice"
 			}]
 			tasks: [{
@@ -638,6 +651,7 @@
 				exclude_from_claim_all: true
 				id: "7D0D424296F5E7C8"
 				table_id: 8568673660678164787L
+				team_reward: false
 				type: "choice"
 			}]
 			tasks: [{
@@ -660,6 +674,7 @@
 				exclude_from_claim_all: true
 				id: "2AC99A89B479D1D6"
 				table_id: 8542428579913475477L
+				team_reward: false
 				type: "choice"
 			}]
 			tasks: [{
@@ -682,6 +697,7 @@
 				exclude_from_claim_all: true
 				id: "3E9696D081DC7516"
 				table_id: 984676861720478307L
+				team_reward: false
 				type: "choice"
 			}]
 			tasks: [{
@@ -706,6 +722,7 @@
 					count: 1
 					id: "tarotcards:tarot_deck"
 				}
+				team_reward: false
 				type: "item"
 			}]
 			tasks: [{
@@ -734,6 +751,7 @@
 					id: "exposure:black_and_white_film"
 				}
 				target_addressee: "QuestNPC"
+				team_reward: false
 				team_reward_multiplier: 1.0f
 				type: "contactquests:parcel"
 			}]
@@ -760,6 +778,7 @@
 					id: "exposure:color_film"
 				}
 				target_addressee: "QuestNPC"
+				team_reward: false
 				team_reward_multiplier: 1.0f
 				type: "contactquests:parcel"
 			}]
@@ -789,6 +808,7 @@
 					id: "exposure:high_sensitivity_black_and_white_film"
 				}
 				target_addressee: "QuestNPC"
+				team_reward: false
 				team_reward_multiplier: 1.0f
 				type: "contactquests:parcel"
 			}]
@@ -815,6 +835,7 @@
 					id: "exposure:high_sensitivity_color_film"
 				}
 				target_addressee: "QuestNPC"
+				team_reward: false
 				team_reward_multiplier: 1.0f
 				type: "contactquests:parcel"
 			}]
@@ -843,6 +864,7 @@
 				}
 				id: "5046286205694883"
 				permission_level: 4
+				team_reward: false
 				type: "command"
 			}]
 			tasks: [{
@@ -870,6 +892,7 @@
 				}
 				id: "561016FBE621B931"
 				permission_level: 4
+				team_reward: false
 				type: "command"
 			}]
 			tasks: [{
@@ -957,6 +980,7 @@
 				}
 				id: "4B447690BBABBBEA"
 				permission_level: 4
+				team_reward: false
 				type: "command"
 			}]
 			tasks: [{
@@ -1006,6 +1030,7 @@
 				exclude_from_claim_all: true
 				id: "1E50617B0DBF4E47"
 				table_id: 7049021818423122779L
+				team_reward: false
 				type: "choice"
 			}]
 			tasks: [{
@@ -1034,6 +1059,7 @@
 					id: "broom_closet:cat_ears"
 				}
 				target_addressee: "QuestNPC"
+				team_reward: false
 				team_reward_multiplier: 1.0f
 				type: "contactquests:parcel"
 			}]
@@ -1063,6 +1089,7 @@
 					id: "broom_closet:druid_horns"
 				}
 				target_addressee: "QuestNPC"
+				team_reward: false
 				team_reward_multiplier: 1.0f
 				type: "contactquests:parcel"
 			}]
@@ -1121,6 +1148,7 @@
 					id: "broom_closet:elf_ears"
 				}
 				target_addressee: "QuestNPC"
+				team_reward: false
 				team_reward_multiplier: 1.0f
 				type: "contactquests:parcel"
 			}]
@@ -1150,6 +1178,7 @@
 					id: "broom_closet:frog"
 				}
 				target_addressee: "QuestNPC"
+				team_reward: false
 				team_reward_multiplier: 1.0f
 				type: "contactquests:parcel"
 			}]
@@ -1179,6 +1208,7 @@
 					id: "broom_closet:frog_top_hat"
 				}
 				target_addressee: "QuestNPC"
+				team_reward: false
 				team_reward_multiplier: 1.0f
 				type: "contactquests:parcel"
 			}]
@@ -1208,6 +1238,7 @@
 					id: "broom_closet:goblin_ears"
 				}
 				target_addressee: "QuestNPC"
+				team_reward: false
 				team_reward_multiplier: 1.0f
 				type: "contactquests:parcel"
 			}]
@@ -1237,6 +1268,7 @@
 					id: "broom_closet:antlers"
 				}
 				target_addressee: "QuestNPC"
+				team_reward: false
 				team_reward_multiplier: 1.0f
 				type: "contactquests:parcel"
 			}]
@@ -1257,6 +1289,7 @@
 				exclude_from_claim_all: true
 				id: "7680E4CF79351FE2"
 				table_id: 987967038148964353L
+				team_reward: false
 				type: "choice"
 			}]
 			tasks: [{

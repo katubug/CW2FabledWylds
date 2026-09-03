@@ -1,0 +1,8 @@
+{
+  "name": "guide.book.dev_manual",
+  "namespace": "guide",
+  "default_chapter": "introduction",
+  "icon": "guide_book.png",
+  "bg_music": "otanagor",
+  "dev_only": true
+}

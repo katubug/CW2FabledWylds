@@ -90,7 +90,7 @@
 			y: 3.0d
 		}
 		{
-			click_action: "none:quest_enhance:text_v3:1.5:17:minecraft:defaultStructures"
+			click_action: "none:quest_enhance:text_v3:1.5:20:fabled_wylds:alagardStructures"
 			color: 2017209
 			height: 0.4583333333333333d
 			id: "4CA6D6D655B63579"
@@ -122,7 +122,7 @@
 			y: 17.0d
 		}
 		{
-			click_action: "none:quest_enhance:text_v3:1.0:17:minecraft:defaultWaystones & Fast Travel"
+			click_action: "none:quest_enhance:text_v3:1.0:20:fabled_wylds:alagardWaystones & Fast Travel"
 			color: 2017209
 			height: 0.7311246161612499d
 			id: "2D6FE8BA0C45C8DF"
@@ -284,7 +284,7 @@
 				type: "custom"
 			}]
 			x: 0.0d
-			y: 0.0d
+			y: 4.0d
 		}
 		{
 			id: "50DA655C90509B80"

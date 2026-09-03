@@ -59,6 +59,7 @@
 	quests: [
 		{
 			id: "39C476A7C4682009"
+			preset: "item"
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "5C890C89C09D16DB"
@@ -75,6 +76,7 @@
 		}
 		{
 			id: "1AFE0FBF887D22FD"
+			preset: "start"
 			rewards: [{
 				id: "61F4A4C53F8A7995"
 				item: {
@@ -96,6 +98,7 @@
 		{
 			dependencies: ["1AFE0FBF887D22FD"]
 			id: "1184EA40A20DEB5D"
+			preset: "progression"
 			rewards: [
 				{
 					id: "31D2BCCAA5AF5BA4"
@@ -125,6 +128,7 @@
 		{
 			dependencies: ["1184EA40A20DEB5D"]
 			id: "7CB901D8FE793DF6"
+			preset: "item"
 			rewards: [{
 				id: "47CF7C0058F220DE"
 				type: "loot"
@@ -140,6 +144,7 @@
 		}
 		{
 			id: "4F9A1B244734638F"
+			preset: "item"
 			rewards: [
 				{
 					id: "37DD6C1B9BAF08AB"
@@ -211,6 +216,7 @@
 		}
 		{
 			id: "3E509A27A92746F4"
+			preset: "item"
 			rewards: [
 				{
 					id: "4B4F32018B536A56"
@@ -232,6 +238,7 @@
 		}
 		{
 			id: "063AD4FD6E8FB943"
+			preset: "item"
 			rewards: [{
 				count: 5
 				id: "326F7B47D23186AC"
@@ -252,6 +259,7 @@
 		}
 		{
 			id: "7E936E10896FA3D5"
+			preset: "item"
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "5E8A89F65B11D855"
@@ -273,6 +281,7 @@
 		}
 		{
 			id: "0E28D4A9544EAF0E"
+			preset: "item"
 			rewards: [{
 				id: "5355BCF70B7F29BE"
 				type: "loot"
@@ -288,6 +297,7 @@
 		}
 		{
 			id: "1E53C205AD76513E"
+			preset: "item"
 			rewards: [
 				{
 					count: 5
@@ -320,6 +330,7 @@
 		{
 			dependencies: ["7D82FBD000D41F84"]
 			id: "226368447EC1C9A9"
+			preset: "progression"
 			rewards: [
 				{
 					exclude_from_claim_all: true
@@ -349,6 +360,7 @@
 		{
 			dependencies: ["226368447EC1C9A9"]
 			id: "15781BD4547097E9"
+			preset: "progression"
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "69F234A253351BE7"
@@ -377,6 +389,7 @@
 		{
 			dependencies: ["32DCF4F0C230C940"]
 			id: "30C8AAFCE9EB2BA6"
+			preset: "item"
 			rewards: [
 				{
 					id: "7AF7A77B8BA198C8"
@@ -404,6 +417,7 @@
 		}
 		{
 			id: "7D82FBD000D41F84"
+			preset: "start"
 			shape: "rsquare"
 			size: 2.0d
 			tasks: [{
@@ -417,6 +431,7 @@
 		{
 			dependencies: ["15781BD4547097E9"]
 			id: "32DCF4F0C230C940"
+			preset: "progression"
 			rewards: [
 				{
 					count: 10
@@ -467,6 +482,7 @@
 		{
 			dependencies: ["1AFE0FBF887D22FD"]
 			id: "6D3D3329A2772A3F"
+			preset: "progression"
 			rewards: [{
 				count: 25
 				id: "4D5B508BB59CE983"
@@ -486,6 +502,7 @@
 		}
 		{
 			id: "5A1DD637C09F0D13"
+			preset: "advancement"
 			rewards: [
 				{
 					id: "6C4BF4D734DD6872"
@@ -518,6 +535,7 @@
 		}
 		{
 			id: "5FC2335FA7C31389"
+			preset: "item"
 			rewards: [{
 				id: "786A51ABF4B866A8"
 				item: {
@@ -537,6 +555,7 @@
 		}
 		{
 			id: "2BFD231209D227FC"
+			preset: "item"
 			rewards: [
 				{
 					id: "7D79AA62A2CD731F"
@@ -590,6 +609,7 @@
 		}
 		{
 			id: "39844F8340E6A438"
+			preset: "start"
 			shape: "rsquare"
 			size: 1.5d
 			tasks: [{
@@ -603,6 +623,7 @@
 		{
 			dependencies: ["39844F8340E6A438"]
 			id: "0C3A4C2AADB4DCD8"
+			preset: "progression"
 			tasks: [{
 				id: "2C43AB1CC7A2DB59"
 				item: { count: 1, id: "framedblocks:framing_saw" }
@@ -614,6 +635,7 @@
 		{
 			dependencies: ["39844F8340E6A438"]
 			id: "10522CDFCA586C03"
+			preset: "item"
 			shape: "hexagon"
 			tasks: [{
 				id: "3512D09881BBB55C"
@@ -626,6 +648,7 @@
 		{
 			dependencies: ["39844F8340E6A438"]
 			id: "7A91474C948416AC"
+			preset: "item"
 			shape: "hexagon"
 			tasks: [{
 				id: "76157035E5314C9A"
@@ -638,6 +661,7 @@
 		{
 			dependencies: ["39844F8340E6A438"]
 			id: "545AAD86EA0B7701"
+			preset: "item"
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "7519735D4732FAFF"
@@ -655,6 +679,7 @@
 		{
 			dependencies: ["39844F8340E6A438"]
 			id: "0A6B50D21095E2AA"
+			preset: "item"
 			shape: "hexagon"
 			tasks: [{
 				id: "36C0181DF101D2D8"
@@ -667,6 +692,7 @@
 		{
 			dependencies: ["39844F8340E6A438"]
 			id: "7C9FD049608453D0"
+			preset: "item"
 			shape: "hexagon"
 			tasks: [{
 				id: "33560AB3BC07DCB1"
@@ -679,6 +705,7 @@
 		{
 			dependencies: ["39844F8340E6A438"]
 			id: "1D28D1DF0BA0F0D6"
+			preset: "item"
 			shape: "hexagon"
 			tasks: [{
 				id: "14E7B563E23795BE"
@@ -690,6 +717,7 @@
 		}
 		{
 			id: "4110A15F659422D5"
+			preset: "item"
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "7DD7243213C5D605"
@@ -706,6 +734,7 @@
 		}
 		{
 			id: "2288D26992644668"
+			preset: "item"
 			rewards: [
 				{
 					id: "19FDE070E2F296D6"
@@ -735,6 +764,7 @@
 		}
 		{
 			id: "69E3182321452B88"
+			preset: "item"
 			rewards: [{
 				count: 2
 				id: "2E048CE767719A69"
@@ -755,6 +785,7 @@
 		}
 		{
 			id: "3DFE6CC659B005C6"
+			preset: "item"
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "0BF7C25115118ACF"

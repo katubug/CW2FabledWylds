@@ -71,6 +71,7 @@
 	quests: [
 		{
 			id: "00BDE15DD24045A6"
+			preset: "item"
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "567E78E8875D5F7D"
@@ -88,6 +89,7 @@
 		}
 		{
 			id: "2AD60B373912C5A4"
+			preset: "item"
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "5DFB90FC6AFEBE2A"
@@ -105,6 +107,7 @@
 		}
 		{
 			id: "7DD918D36463CF71"
+			preset: "advancement"
 			rewards: [{
 				id: "6A3798A1B647BAD6"
 				item: {
@@ -125,6 +128,7 @@
 		}
 		{
 			id: "1547891EBE53934F"
+			preset: "item"
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "21D07FC10B367D1F"
@@ -143,30 +147,46 @@
 		{
 			dependencies: ["70C4F17973F6492E"]
 			id: "16797E1EF5450E7E"
+			preset: "advancement"
 			rewards: [
 				{
-					id: "32B8F134BDB6C421"
-					item: {
-						count: 1
-						id: "minecraft:enchanted_golden_apple"
-					}
-					type: "item"
-				}
-				{
-					id: "333B97ADAC628FF9"
+					exclude_from_claim_all: true
+					id: "6CEF92EBC7AC9952"
+					is_ender: false
+					is_team_reward: false
 					item: {
 						count: 1
 						id: "easy_villagers:converter"
 					}
-					type: "item"
+					target_addressee: "QuestNPC"
+					team_reward_multiplier: 1.0f
+					type: "contactquests:parcel"
 				}
 				{
-					id: "3DA633F3D239142D"
+					exclude_from_claim_all: true
+					id: "079E898C5AE6D84E"
+					is_ender: false
+					is_team_reward: false
+					item: {
+						count: 1
+						id: "minecraft:enchanted_golden_apple"
+					}
+					target_addressee: "QuestNPC"
+					team_reward_multiplier: 1.0f
+					type: "contactquests:parcel"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7B45F5D537ADEE89"
+					is_ender: false
+					is_team_reward: false
 					item: {
 						count: 1
 						id: "plushie_buddies:plushie_zombie_villager"
 					}
-					type: "item"
+					target_addressee: "QuestNPC"
+					team_reward_multiplier: 1.0f
+					type: "contactquests:parcel"
 				}
 			]
 			shape: "octagon"
@@ -176,8 +196,8 @@
 				id: "7F78311C1F39DDCC"
 				type: "advancement"
 			}]
-			x: 2.9d
-			y: -4.3d
+			x: 3.0d
+			y: -4.0d
 		}
 		{
 			id: "70C4F17973F6492E"
@@ -195,27 +215,37 @@
 				item: { count: 1, id: "minecraft:emerald" }
 				type: "item"
 			}]
-			x: 4.9d
-			y: -2.8d
+			x: 5.0d
+			y: -3.0d
 		}
 		{
 			dependencies: ["70C4F17973F6492E"]
 			id: "3705ABBD8EE1A369"
+			preset: "advancement"
 			rewards: [
 				{
+					exclude_from_claim_all: true
+					id: "57617587FD861651"
+					is_ender: false
+					is_team_reward: false
+					table_id: 6895470215093009548L
+					target_addressee: "QuestNPC"
+					team_reward_multiplier: 1.0f
+					type: "contactquests:parcel_random"
+				}
+				{
 					count: 4
-					id: "5F9B1BB381A8AF4E"
+					exclude_from_claim_all: true
+					id: "7F6CC7D0C6206778"
+					is_ender: false
+					is_team_reward: false
 					item: {
 						count: 1
 						id: "minecraft:emerald"
 					}
-					type: "item"
-				}
-				{
-					exclude_from_claim_all: true
-					id: "62017C6C5F3F8B17"
-					table_id: 6895470215093009548L
-					type: "random"
+					target_addressee: "QuestNPC"
+					team_reward_multiplier: 1.0f
+					type: "contactquests:parcel"
 				}
 			]
 			shape: "octagon"
@@ -225,26 +255,36 @@
 				id: "1AE5841864AEE2A1"
 				type: "advancement"
 			}]
-			x: 2.9d
-			y: -1.2999999999999998d
+			x: 3.0d
+			y: -1.0d
 		}
 		{
 			dependencies: ["70C4F17973F6492E"]
 			id: "160EE610C4B660D8"
+			preset: "animal"
 			rewards: [
 				{
-					id: "4D7954004E1C30B6"
+					exclude_from_claim_all: true
+					id: "062E5055E6439EC0"
+					is_ender: false
+					is_team_reward: false
 					item: {
 						count: 1
 						id: "plushie_buddies:plushie_llama"
 					}
-					type: "item"
+					target_addressee: "QuestNPC"
+					team_reward_multiplier: 1.0f
+					type: "contactquests:parcel"
 				}
 				{
 					exclude_from_claim_all: true
-					id: "51DC944007B898B0"
+					id: "60FEE8E0636ACFB9"
+					is_ender: false
+					is_team_reward: false
 					table_id: 6895470215093009548L
-					type: "random"
+					target_addressee: "QuestNPC"
+					team_reward_multiplier: 1.0f
+					type: "contactquests:parcel_random"
 				}
 			]
 			shape: "heart"
@@ -260,10 +300,11 @@
 				type: "observation"
 			}]
 			x: 7.0d
-			y: -4.099999999999999d
+			y: -4.0d
 		}
 		{
 			id: "781003E78C236E0D"
+			preset: "item"
 			rewards: [
 				{
 					exclude_from_claim_all: true
@@ -289,6 +330,7 @@
 		}
 		{
 			id: "6DBD018A4FB32DD8"
+			preset: "item"
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "6C983BD333F57C35"
@@ -306,6 +348,7 @@
 		}
 		{
 			id: "50E64308D7D56C48"
+			preset: "item"
 			rewards: [
 				{
 					exclude_from_claim_all: true
@@ -331,6 +374,7 @@
 		}
 		{
 			id: "6C7EB11A659D7914"
+			preset: "item"
 			rewards: [
 				{
 					exclude_from_claim_all: true
@@ -356,6 +400,7 @@
 		}
 		{
 			id: "1371F9B501187A91"
+			preset: "item"
 			rewards: [
 				{
 					id: "0FF3EDC8632BBD2A"
@@ -383,6 +428,7 @@
 		}
 		{
 			id: "5A0A46815A9FE05D"
+			preset: "item"
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "68F9A03EBB3550B0"
@@ -400,6 +446,7 @@
 		}
 		{
 			id: "129EB9D48551AA2E"
+			preset: "item"
 			rewards: [
 				{
 					exclude_from_claim_all: true
@@ -437,11 +484,16 @@
 		{
 			dependencies: ["39AD0DDC4695E2D4"]
 			id: "5C5768D4346FD3FE"
+			preset: "item"
 			rewards: [{
 				exclude_from_claim_all: true
-				id: "7E875F6A595A2A6A"
+				id: "0614C55FCAF2F2C7"
+				is_ender: false
+				is_team_reward: false
 				table_id: 5770973074849872376L
-				type: "random"
+				target_addressee: "QuestNPC"
+				team_reward_multiplier: 1.0f
+				type: "contactquests:parcel_random"
 			}]
 			shape: "hexagon"
 			tasks: [{
@@ -454,6 +506,7 @@
 		}
 		{
 			id: "3B84722A9CD28821"
+			preset: "advancement"
 			rewards: [
 				{
 					exclude_from_claim_all: true
@@ -480,6 +533,7 @@
 		}
 		{
 			id: "592DF5A6484F1988"
+			preset: "item"
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "1D20407FB0EF9707"
@@ -497,6 +551,7 @@
 		}
 		{
 			id: "5B185B1B72278050"
+			preset: "advancement"
 			rewards: [
 				{
 					exclude_from_claim_all: true
@@ -522,6 +577,7 @@
 		}
 		{
 			id: "6138C299ED7CE80C"
+			preset: "item"
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "26B7DDC5ABB000FE"
@@ -548,22 +604,33 @@
 		{
 			dependencies: ["70C4F17973F6492E"]
 			id: "3A51A2B4DE09D7D7"
+			preset: "item"
 			rewards: [
 				{
-					id: "2D6B879DFC014FBA"
-					item: {
-						count: 1
-						id: "easy_villagers:trader"
-					}
-					type: "item"
-				}
-				{
-					id: "5345483D6B903582"
+					exclude_from_claim_all: true
+					id: "71F4DCFB7D34AD91"
+					is_ender: false
+					is_team_reward: false
 					item: {
 						count: 1
 						id: "plushie_buddies:plushie_villager"
 					}
-					type: "item"
+					target_addressee: "QuestNPC"
+					team_reward_multiplier: 1.0f
+					type: "contactquests:parcel"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2B7D902621AB9145"
+					is_ender: false
+					is_team_reward: false
+					item: {
+						count: 1
+						id: "easy_villagers:trader"
+					}
+					target_addressee: "QuestNPC"
+					team_reward_multiplier: 1.0f
+					type: "contactquests:parcel"
 				}
 			]
 			tasks: [{
@@ -571,11 +638,12 @@
 				item: { components: { "easy_villagers:villager": { } }, count: 1, id: "easy_villagers:villager" }
 				type: "item"
 			}]
-			x: 4.9d
-			y: -5.3d
+			x: 5.0d
+			y: -5.5d
 		}
 		{
 			id: "063A5C650B0846FF"
+			preset: "item"
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "2AA346B0E9B7FD23"
@@ -593,6 +661,7 @@
 		}
 		{
 			id: "726336858C8FB767"
+			preset: "item"
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "1493EC0548426C82"
@@ -617,6 +686,7 @@
 		}
 		{
 			id: "45ED6F2E8BA02BE1"
+			preset: "item"
 			rewards: [
 				{
 					id: "34D82E42B8D42B39"
@@ -644,6 +714,7 @@
 		}
 		{
 			id: "3052EF7FA42720A9"
+			preset: "item"
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "1AE1E0A3CE7E68C1"
@@ -661,6 +732,7 @@
 		}
 		{
 			id: "3A61711F03B28A75"
+			preset: "item"
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "7E03EE9314BA99CA"
@@ -678,6 +750,7 @@
 		}
 		{
 			id: "56A1AFEE3581AF89"
+			preset: "item"
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "29D3B62E39935016"
@@ -696,6 +769,7 @@
 		}
 		{
 			id: "4E8C0079E6F9A13A"
+			preset: "item"
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "3E9B9DE2A30A52D0"
@@ -714,18 +788,23 @@
 		{
 			dependencies: ["54A7BCDC7909E576"]
 			id: "39AD0DDC4695E2D4"
+			preset: "item"
 			rewards: [
-				{
-					exclude_from_claim_all: true
-					id: "298C25C4D8F41756"
-					table_id: 5770973074849872376L
-					type: "random"
-				}
 				{
 					exclude_from_claim_all: true
 					id: "49E944BD5EF83761"
 					table_id: 5895717034634086677L
 					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "78473B0912D572B6"
+					is_ender: false
+					is_team_reward: false
+					table_id: 5770973074849872376L
+					target_addressee: "QuestNPC"
+					team_reward_multiplier: 1.0f
+					type: "contactquests:parcel_random"
 				}
 			]
 			shape: "hexagon"
@@ -739,6 +818,7 @@
 		}
 		{
 			id: "3EF4DABC6B496E19"
+			preset: "item"
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "5C79CF095BB5A49C"
@@ -758,12 +838,17 @@
 			id: "54A7BCDC7909E576"
 			preset: "milestone"
 			rewards: [{
-				id: "644C457C8366A85E"
+				exclude_from_claim_all: true
+				id: "263B60541754BBEE"
+				is_ender: false
+				is_team_reward: false
 				item: {
 					count: 1
 					id: "numismatics:bank_terminal"
 				}
-				type: "item"
+				target_addressee: "QuestNPC"
+				team_reward_multiplier: 1.0f
+				type: "contactquests:parcel"
 			}]
 			tasks: [{
 				id: "0A21E2BB7F5F01BE"
@@ -777,6 +862,19 @@
 			dependencies: ["39AD0DDC4695E2D4"]
 			id: "6EEBE18A146001AC"
 			preset: "item"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2B988A06932731C7"
+				is_ender: false
+				is_team_reward: false
+				item: {
+					count: 1
+					id: "minecraft:experience_bottle"
+				}
+				target_addressee: "QuestNPC"
+				team_reward_multiplier: 1.0f
+				type: "contactquests:parcel"
+			}]
 			tasks: [{
 				id: "5F248220494492C8"
 				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(numismatics:cards)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
@@ -784,6 +882,34 @@
 			}]
 			x: 6.0d
 			y: 2.5d
+		}
+		{
+			dependencies: ["70C4F17973F6492E"]
+			id: "3E4527C883908239"
+			preset: "animal"
+			rewards: [{
+				count: 5
+				exclude_from_claim_all: true
+				id: "0C63E71D2658D2A0"
+				is_ender: false
+				is_team_reward: false
+				item: {
+					count: 1
+					id: "minecraft:emerald"
+				}
+				target_addressee: "QuestNPC"
+				team_reward_multiplier: 1.0f
+				type: "contactquests:parcel"
+			}]
+			tasks: [{
+				entity: "milotrader:cat_trader"
+				id: "16275DDCBC90C262"
+				search_radius_blocks: 64
+				target_radius_blocks: 5
+				type: "find_entity"
+			}]
+			x: 7.0d
+			y: -1.0d
 		}
 	]
 }

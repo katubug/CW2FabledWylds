@@ -53,6 +53,17 @@
 			x: -5.5d
 			y: -12.0d
 		}
+		{
+			click_action: "none:quest_enhance:text_v3:1.5:20:fabled_wylds:alagardFish Catalogue"
+			color: 2062755
+			height: 0.5201459360532256d
+			id: "400EF3B6520710FE"
+			image: ""
+			rotation: 0.0d
+			width: 3.5937355581859225d
+			x: 4.5d
+			y: -9.0d
+		}
 	]
 	order_index: 2
 	quest_enhance_decorative_lines: [ ]
@@ -233,14 +244,28 @@
 		{
 			id: "104D0C28773A1DD4"
 			preset: "start"
-			rewards: [{
-				id: "4CD84099301CB676"
-				item: {
-					count: 1
-					id: "netherdepthsupgrade:glowdine_bucket"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "68B2E443DB7A040D"
+					is_ender: false
+					is_team_reward: false
+					table_id: 661030336235288770L
+					target_addressee: "QuestNPC"
+					team_reward_multiplier: 1.0f
+					type: "contactquests:parcel_random"
 				}
-				type: "item"
-			}]
+				{
+					exclude_from_claim_all: true
+					id: "0E6A454EFA9E54D4"
+					is_ender: false
+					is_team_reward: false
+					table_id: 5770973074849872376L
+					target_addressee: "QuestNPC"
+					team_reward_multiplier: 1.0f
+					type: "contactquests:parcel_random"
+				}
+			]
 			shape: "circle"
 			tasks: [{
 				id: "4B09404FC3251283"
@@ -310,9 +335,8 @@
 			y: -4.0d
 		}
 		{
-			dependencies: ["62F2784763AD1938"]
 			id: "7A31753911D1CCFC"
-			preset: "progression"
+			preset: "item"
 			rewards: [
 				{
 					exclude_from_claim_all: true
@@ -349,12 +373,14 @@
 					type: "item"
 				}
 			]
-			x: -2.0d
-			y: -10.0d
+			x: 1.5d
+			y: -8.0d
 		}
 		{
 			can_repeat: true
+			dependencies: ["62F2784763AD1938"]
 			id: "2CAAC737A4D4FF60"
+			preset: "turnin"
 			rewards: [
 				{
 					exclude_from_claim_all: true
@@ -371,13 +397,14 @@
 			]
 			shape: "pentagon"
 			tasks: [{
+				consume_items: true
 				count: 32L
-				id: "15B1B1C7AEC48697"
-				item: { components: { "ftbfiltersystem:filter": "or(item_tag(minecraft:fishes))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				id: "4E2FF7B49BA9BA6D"
+				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(starcatcher:fishable)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
-			x: 4.5d
-			y: -10.5d
+			x: -5.5d
+			y: -6.5d
 		}
 		{
 			always_invisible: true
@@ -389,7 +416,7 @@
 				type: "item"
 			}]
 			x: -0.5d
-			y: -11.5d
+			y: -7.5d
 		}
 		{
 			dependencies: ["62F2784763AD1938"]
@@ -410,8 +437,8 @@
 				item: { components: { "ftbfiltersystem:filter": "or(item_tag(starcatcher:bobbers))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
-			x: -3.0d
-			y: -11.0d
+			x: -2.0d
+			y: -10.0d
 		}
 		{
 			dependencies: ["4B26B50D268DBA07"]
@@ -454,12 +481,24 @@
 				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(starcatcher:hooks)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
-			x: -4.0d
-			y: -10.0d
+			x: -3.5d
+			y: -8.5d
 		}
 		{
 			id: "72337CD5CE36F9EF"
 			preset: "progression"
+			rewards: [{
+				amount: 2.0d
+				attribute: "minecraft:generic.max_health"
+				exclude_from_claim_all: true
+				icon: {
+					id: "artifacts:crystal_heart"
+				}
+				id: "7485E9BD24FBAA35"
+				operation: "ADD_VALUE"
+				team_reward: false
+				type: "attribute"
+			}]
 			tasks: [{
 				id: "101ADA4F1C48FE30"
 				item: { count: 1, id: "starcatcher:trophy_copper" }
@@ -471,6 +510,17 @@
 		{
 			id: "599033854681A3A1"
 			preset: "progression"
+			rewards: [{
+				amount: 2.0d
+				attribute: "minecraft:generic.max_health"
+				exclude_from_claim_all: true
+				icon: {
+					id: "artifacts:crystal_heart"
+				}
+				id: "3E9488C221BF6137"
+				operation: "ADD_VALUE"
+				type: "attribute"
+			}]
 			tasks: [{
 				id: "39CBE46459E38670"
 				item: { count: 1, id: "starcatcher:trophy_iron" }
@@ -482,6 +532,17 @@
 		{
 			id: "67367D2AE7B97029"
 			preset: "milestone"
+			rewards: [{
+				amount: 2.0d
+				attribute: "minecraft:generic.max_health"
+				exclude_from_claim_all: true
+				icon: {
+					id: "artifacts:crystal_heart"
+				}
+				id: "1330BC6E52ECCE55"
+				operation: "ADD_VALUE"
+				type: "attribute"
+			}]
 			tasks: [{
 				id: "7B93957051B6BFDB"
 				item: { count: 1, id: "starcatcher:trophy_gold" }
@@ -493,6 +554,17 @@
 		{
 			id: "220880D8B23EE821"
 			preset: "progression"
+			rewards: [{
+				amount: 2.0d
+				attribute: "minecraft:generic.max_health"
+				exclude_from_claim_all: true
+				icon: {
+					id: "artifacts:crystal_heart"
+				}
+				id: "0984C150FCB14ECD"
+				operation: "ADD_VALUE"
+				type: "attribute"
+			}]
 			tasks: [{
 				id: "54E69F93635E9E63"
 				item: { count: 1, id: "starcatcher:trophy_emerald" }
@@ -504,6 +576,17 @@
 		{
 			id: "6FDDE832FB9A5FE5"
 			preset: "milestone"
+			rewards: [{
+				amount: 2.0d
+				attribute: "minecraft:generic.max_health"
+				exclude_from_claim_all: true
+				icon: {
+					id: "artifacts:crystal_heart"
+				}
+				id: "6625B9C381356357"
+				operation: "ADD_VALUE"
+				type: "attribute"
+			}]
 			tasks: [{
 				id: "2FD7DD4C449E0E6C"
 				item: { count: 1, id: "starcatcher:trophy_diamond" }
@@ -522,6 +605,831 @@
 			}]
 			x: 4.5d
 			y: -12.0d
+		}
+		{
+			id: "279947E4FB1A366F"
+			preset: "item"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4C6899810FC9D51B"
+				is_ender: false
+				is_team_reward: false
+				table_id: 5167086515396975209L
+				target_addressee: "QuestNPC"
+				team_reward_multiplier: 1.0f
+				type: "contactquests:parcel_random"
+			}]
+			tasks: [
+				{
+					id: "64EC6CDB9134D2E0"
+					item: { count: 1, id: "starcatcher:sea_bass" }
+					type: "item"
+				}
+				{
+					id: "3E68357EEC01B9B9"
+					item: { count: 1, id: "starcatcher:deepjaw_herring" }
+					type: "item"
+				}
+				{
+					id: "056B64809F4F5E67"
+					item: { count: 1, id: "starcatcher:dusktail_snapper" }
+					type: "item"
+				}
+				{
+					id: "57C0DAFEA750BF1A"
+					item: { count: 1, id: "starcatcher:ironjaw_herring" }
+					type: "item"
+				}
+				{
+					id: "0DDFCA9E0269058A"
+					item: { count: 1, id: "starcatcher:redscaled_tuna" }
+					type: "item"
+				}
+				{
+					id: "2FC50CBA743A9151"
+					item: { count: 1, id: "starcatcher:blue_herring" }
+					type: "item"
+				}
+				{
+					id: "33F553651C4A0ADA"
+					item: { count: 1, id: "starcatcher:bigeye_tuna" }
+					type: "item"
+				}
+				{
+					id: "73DC1164FC342DCA"
+					item: { count: 1, id: "starcatcher:joel" }
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: -7.0d
+		}
+		{
+			id: "698D0D2656B94C43"
+			preset: "item"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4FCF95FB5F85C2F5"
+				is_ender: false
+				is_team_reward: false
+				table_id: 5167086515396975209L
+				target_addressee: "QuestNPC"
+				team_reward_multiplier: 1.0f
+				type: "contactquests:parcel_random"
+			}]
+			tasks: [
+				{
+					id: "3568889E235F419B"
+					item: { count: 1, id: "starcatcher:drifting_bream" }
+					type: "item"
+				}
+				{
+					id: "475F20006C5348EE"
+					item: { count: 1, id: "starcatcher:mistback_chub" }
+					type: "item"
+				}
+				{
+					id: "677C13A725C8A7B9"
+					item: { count: 1, id: "starcatcher:hollowbelly_darter" }
+					type: "item"
+				}
+				{
+					id: "569849252D308114"
+					item: { count: 1, id: "starcatcher:silverfin_pike" }
+					type: "item"
+				}
+				{
+					id: "62B4D44DC70B04DB"
+					item: { count: 1, id: "starcatcher:downfall_bream" }
+					type: "item"
+				}
+				{
+					id: "038B602FF789751A"
+					item: { count: 1, id: "starcatcher:bluegigi" }
+					type: "item"
+				}
+				{
+					id: "58F16EC8EE84A370"
+					item: { count: 1, id: "starcatcher:carpenjoe" }
+					type: "item"
+				}
+				{
+					id: "75337A41EBA4B9B6"
+					item: { count: 1, id: "starcatcher:willow_bream" }
+					type: "item"
+				}
+			]
+			x: 4.5d
+			y: -8.0d
+		}
+		{
+			id: "0B131225FEDAA6AC"
+			preset: "item"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "397DD54AE5A05934"
+				is_ender: false
+				is_team_reward: false
+				table_id: 5167086515396975209L
+				target_addressee: "QuestNPC"
+				team_reward_multiplier: 1.0f
+				type: "contactquests:parcel_random"
+			}]
+			tasks: [
+				{
+					id: "3BE2F9CD3DE5CFD9"
+					item: { count: 1, id: "starcatcher:frostjaw_trout" }
+					type: "item"
+				}
+				{
+					id: "5F76B6A93B2A00C5"
+					item: { count: 1, id: "starcatcher:crystalback_sturgeon" }
+					type: "item"
+				}
+				{
+					id: "5E0A28EA6C13263E"
+					item: { count: 1, id: "starcatcher:frostgill_chub" }
+					type: "item"
+				}
+				{
+					id: "681744C9AE7D3558"
+					item: { count: 1, id: "starcatcher:crystalback_trout" }
+					type: "item"
+				}
+				{
+					id: "25A23C5C074CF5F6"
+					item: { count: 1, id: "starcatcher:crystalback_minnow" }
+					type: "item"
+				}
+				{
+					id: "08B350310E50D594"
+					item: { count: 1, id: "starcatcher:azure_crystalback_minnow" }
+					type: "item"
+				}
+				{
+					id: "7DDC5E5F772E2D02"
+					item: { count: 1, id: "starcatcher:crystalback_boreal" }
+					type: "item"
+				}
+				{
+					id: "5E26159801E9910A"
+					item: { count: 1, id: "starcatcher:wintery_pike" }
+					type: "item"
+				}
+				{
+					id: "35C7349DAEDEB994"
+					item: { count: 1, id: "starcatcher:blue_crystal_fin" }
+					type: "item"
+				}
+				{
+					id: "05BDF67444F592E2"
+					item: { count: 1, id: "starcatcher:blue_ice_pike" }
+					type: "item"
+				}
+				{
+					id: "251ACD944862CE0E"
+					item: { count: 1, id: "starcatcher:aurora" }
+					type: "item"
+				}
+				{
+					id: "1C7C6CF0D60858DF"
+					item: { count: 1, id: "starcatcher:boreal" }
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: -8.0d
+		}
+		{
+			id: "58AA2A38728EC475"
+			preset: "item"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2002C3B01A04727D"
+				is_ender: false
+				is_team_reward: false
+				table_id: 5167086515396975209L
+				target_addressee: "QuestNPC"
+				team_reward_multiplier: 1.0f
+				type: "contactquests:parcel_random"
+			}]
+			tasks: [
+				{
+					id: "44369FD8C66E0ACA"
+					item: { count: 1, id: "starcatcher:pink_koi" }
+					type: "item"
+				}
+				{
+					id: "3B028B4A884C5474"
+					item: { count: 1, id: "starcatcher:blossomfish" }
+					type: "item"
+				}
+				{
+					id: "74FB8BBF028B907C"
+					item: { count: 1, id: "starcatcher:petaldrift_carp" }
+					type: "item"
+				}
+				{
+					id: "4D9707CCA0892DB0"
+					item: { count: 1, id: "starcatcher:rose_siamese_fish" }
+					type: "item"
+				}
+				{
+					id: "579CC53C5643EEAC"
+					item: { count: 1, id: "starcatcher:vesani" }
+					type: "item"
+				}
+			]
+			x: 7.5d
+			y: -8.0d
+		}
+		{
+			id: "4DEE27DAF79C58ED"
+			preset: "item"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "09B040298F6170A7"
+				is_ender: false
+				is_team_reward: false
+				table_id: 5167086515396975209L
+				target_addressee: "QuestNPC"
+				team_reward_multiplier: 1.0f
+				type: "contactquests:parcel_random"
+			}]
+			tasks: [
+				{
+					id: "56DB0E1CFDC26D73"
+					item: { count: 1, id: "starcatcher:sandtail" }
+					type: "item"
+				}
+				{
+					id: "48ABD6D4631E8D51"
+					item: { count: 1, id: "starcatcher:scorchfish" }
+					type: "item"
+				}
+				{
+					id: "682B64C20EB7E6B3"
+					item: { count: 1, id: "starcatcher:mirage_carp" }
+					type: "item"
+				}
+				{
+					id: "116EC09C4EFBD904"
+					item: { count: 1, id: "starcatcher:agave_bream" }
+					type: "item"
+				}
+				{
+					id: "47A40AD4B55D4B31"
+					item: { count: 1, id: "starcatcher:cactifish" }
+					type: "item"
+				}
+				{
+					id: "3579A2043AE53A61"
+					item: { count: 1, id: "starcatcher:oasis_sturgeon" }
+					type: "item"
+				}
+			]
+			x: 1.5d
+			y: -6.0d
+		}
+		{
+			id: "10AD8A01B9D0CD17"
+			preset: "item"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "660A05AC3E965A47"
+				is_ender: false
+				is_team_reward: false
+				table_id: 5167086515396975209L
+				target_addressee: "QuestNPC"
+				team_reward_multiplier: 1.0f
+				type: "contactquests:parcel_random"
+			}]
+			tasks: [
+				{
+					id: "65794E69E0329BED"
+					item: { count: 1, id: "starcatcher:pale_carp" }
+					type: "item"
+				}
+				{
+					id: "4681FEDC76BEDBB2"
+					item: { count: 1, id: "starcatcher:sludge_catfish" }
+					type: "item"
+				}
+				{
+					id: "64F30A636709D242"
+					item: { count: 1, id: "starcatcher:pinfish" }
+					type: "item"
+				}
+				{
+					id: "3F793674F5766654"
+					item: { count: 1, id: "starcatcher:pale_pinfish" }
+					type: "item"
+				}
+				{
+					id: "0F6816A942F195D1"
+					item: { count: 1, id: "starcatcher:lily_snapper" }
+					type: "item"
+				}
+				{
+					id: "721B8325BDF0AF8E"
+					item: { count: 1, id: "starcatcher:sage_catfish" }
+					type: "item"
+				}
+			]
+			x: 3.5d
+			y: -7.0d
+		}
+		{
+			id: "617540753B3AA2DD"
+			preset: "item"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "60B6584E1BBE6C96"
+				is_ender: false
+				is_team_reward: false
+				table_id: 5167086515396975209L
+				target_addressee: "QuestNPC"
+				team_reward_multiplier: 1.0f
+				type: "contactquests:parcel_random"
+			}]
+			tasks: [
+				{
+					id: "1233456ABBBE84BA"
+					item: { count: 1, id: "starcatcher:dripfin" }
+					type: "item"
+				}
+				{
+					id: "52253A180276F2C0"
+					item: { count: 1, id: "starcatcher:yellowstone_fish" }
+					type: "item"
+				}
+				{
+					id: "4CEAD487424A0058"
+					item: { count: 1, id: "starcatcher:vivid_moss" }
+					type: "item"
+				}
+				{
+					id: "319FE2F53DF2FE01"
+					item: { count: 1, id: "starcatcher:fossilized_angelfish" }
+					type: "item"
+				}
+				{
+					id: "0FD0F5D8B6C6D3E0"
+					item: { count: 1, id: "starcatcher:the_quarrish" }
+					type: "item"
+				}
+				{
+					id: "48043F051A91CA40"
+					item: { count: 1, id: "starcatcher:glowing_dark" }
+					type: "item"
+				}
+				{
+					id: "5479395DE64C4AD2"
+					item: { count: 1, id: "starcatcher:lush_pike" }
+					type: "item"
+				}
+				{
+					id: "16A83C259FFF0F27"
+					item: { count: 1, id: "starcatcher:sculkfish" }
+					type: "item"
+				}
+				{
+					id: "1B1E2F5CB9A073E4"
+					item: { count: 1, id: "starcatcher:ward" }
+					type: "item"
+				}
+			]
+			x: 5.0d
+			y: -7.0d
+		}
+		{
+			id: "2C2D6CE0A2EC3305"
+			preset: "item"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "25049CFA05B84F9F"
+				is_ender: false
+				is_team_reward: false
+				table_id: 5167086515396975209L
+				target_addressee: "QuestNPC"
+				team_reward_multiplier: 1.0f
+				type: "contactquests:parcel_random"
+			}]
+			tasks: [
+				{
+					id: "79EACC1004871315"
+					item: { count: 1, id: "starcatcher:aquamarine_pike" }
+					type: "item"
+				}
+				{
+					id: "38986AB815764C4E"
+					item: { count: 1, id: "starcatcher:garnet_mackerel" }
+					type: "item"
+				}
+				{
+					id: "1AAEF454B3580609"
+					item: { count: 1, id: "starcatcher:ghostly_pike" }
+					type: "item"
+				}
+				{
+					id: "13EB228223380FB6"
+					item: { count: 1, id: "starcatcher:amethystback" }
+					type: "item"
+				}
+				{
+					id: "73BA1DE256FBE032"
+					item: { count: 1, id: "starcatcher:bright_amethyst_snapper" }
+					type: "item"
+				}
+				{
+					id: "3E022043C4F31035"
+					item: { count: 1, id: "starcatcher:dark_amethyst_snapper" }
+					type: "item"
+				}
+				{
+					id: "3071E9C99FD36BBC"
+					item: { count: 1, id: "starcatcher:deepslatefish" }
+					type: "item"
+				}
+			]
+			x: 6.5d
+			y: -7.0d
+		}
+		{
+			id: "401B7E57628C88F5"
+			preset: "item"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "36C9F3AE9EDF300F"
+				is_ender: false
+				is_team_reward: false
+				table_id: 5167086515396975209L
+				target_addressee: "QuestNPC"
+				team_reward_multiplier: 1.0f
+				type: "contactquests:parcel_random"
+			}]
+			tasks: [
+				{
+					id: "1C1F8E8CF35A4401"
+					item: { count: 1, id: "starcatcher:gold_fan" }
+					type: "item"
+				}
+				{
+					id: "6933020D79A78678"
+					item: { count: 1, id: "starcatcher:whiteveil" }
+					type: "item"
+				}
+				{
+					id: "1BDBD2C222D703EB"
+					item: { count: 1, id: "starcatcher:black_eel" }
+					type: "item"
+				}
+				{
+					id: "03B43D0ED793B0C1"
+					item: { count: 1, id: "starcatcher:morganite" }
+					type: "item"
+				}
+				{
+					id: "7442AEEAD7B6E441"
+					item: { count: 1, id: "starcatcher:geode_eel" }
+					type: "item"
+				}
+				{
+					id: "7AFE933F32B338FC"
+					item: { count: 1, id: "starcatcher:stonefish" }
+					type: "item"
+				}
+			]
+			x: 8.0d
+			y: -7.0d
+		}
+		{
+			id: "31D3A29B73BE3ABA"
+			preset: "item"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "32CDC0EF901A8F3D"
+				is_ender: false
+				is_team_reward: false
+				table_id: 5167086515396975209L
+				target_addressee: "QuestNPC"
+				team_reward_multiplier: 1.0f
+				type: "contactquests:parcel_random"
+			}]
+			tasks: [
+				{
+					id: "0EF12DADC99A6939"
+					item: { count: 1, id: "starcatcher:embergill" }
+					type: "item"
+				}
+				{
+					id: "7417CFB33B44F41A"
+					item: { count: 1, id: "starcatcher:glowstone_seeker" }
+					type: "item"
+				}
+				{
+					id: "48B69FABCD8FD37B"
+					item: { count: 1, id: "starcatcher:magma_fish" }
+					type: "item"
+				}
+				{
+					id: "1B83180683B729A3"
+					item: { count: 1, id: "starcatcher:scalding_pike" }
+					type: "item"
+				}
+				{
+					id: "221AD7C23204856E"
+					item: { count: 1, id: "starcatcher:willish" }
+					type: "item"
+				}
+				{
+					id: "3D16C061CDFA21CA"
+					item: { count: 1, id: "starcatcher:glowstone_pufferfish" }
+					type: "item"
+				}
+				{
+					id: "380377384C5B5DCE"
+					item: { count: 1, id: "starcatcher:cinder_squid" }
+					type: "item"
+				}
+				{
+					id: "0B5CBFCCCD54282D"
+					item: { count: 1, id: "starcatcher:lava_crab" }
+					type: "item"
+				}
+				{
+					id: "6837B1A8C5E42216"
+					item: { count: 1, id: "starcatcher:cerberay" }
+					type: "item"
+				}
+			]
+			x: 7.5d
+			y: -6.0d
+		}
+		{
+			id: "63B74A5A3FC47CAA"
+			preset: "item"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5D6C34F588E48895"
+				is_ender: false
+				is_team_reward: false
+				table_id: 5167086515396975209L
+				target_addressee: "QuestNPC"
+				team_reward_multiplier: 1.0f
+				type: "contactquests:parcel_random"
+			}]
+			tasks: [
+				{
+					id: "5934229895945C2A"
+					item: { count: 1, id: "starcatcher:chorus_minnow" }
+					type: "item"
+				}
+				{
+					id: "222734439D4D9EFC"
+					item: { count: 1, id: "starcatcher:end_glow" }
+					type: "item"
+				}
+				{
+					id: "030CFB9B13A5B5C5"
+					item: { count: 1, id: "starcatcher:charfish" }
+					type: "item"
+				}
+				{
+					id: "64E7B36B61ACEE9C"
+					item: { count: 1, id: "starcatcher:spacejelly" }
+					type: "item"
+				}
+				{
+					id: "51E8BE870A3EC60C"
+					item: { count: 1, id: "starcatcher:chorus_crab" }
+					type: "item"
+				}
+				{
+					id: "3BB2E8BEADB421A3"
+					item: { count: 1, id: "starcatcher:purple_carp" }
+					type: "item"
+				}
+				{
+					id: "36B373E59EBCE75B"
+					item: { count: 1, id: "starcatcher:nebula_squid" }
+					type: "item"
+				}
+				{
+					id: "44072672E64BBA1B"
+					item: { count: 1, id: "starcatcher:voidfin" }
+					type: "item"
+				}
+				{
+					id: "3E62064C32C8615B"
+					item: { count: 1, id: "starcatcher:voidbiter" }
+					type: "item"
+				}
+			]
+			x: 3.0d
+			y: -6.0d
+		}
+		{
+			id: "022A9FF2DA695F94"
+			preset: "item"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5C57A71AF0D4B805"
+				is_ender: false
+				is_team_reward: false
+				table_id: 5167086515396975209L
+				target_addressee: "QuestNPC"
+				team_reward_multiplier: 1.0f
+				type: "contactquests:parcel_random"
+			}]
+			tasks: [
+				{
+					id: "3D74E8CD03B137FF"
+					item: { count: 1, id: "starcatcher:pyrotrout" }
+					type: "item"
+				}
+				{
+					id: "2FB33E68EA9C2289"
+					item: { count: 1, id: "starcatcher:molten_shrimp" }
+					type: "item"
+				}
+				{
+					id: "2408C7920972BE20"
+					item: { count: 1, id: "starcatcher:suneater" }
+					type: "item"
+				}
+				{
+					id: "08418436578056D8"
+					item: { count: 1, id: "starcatcher:obsidian_crab" }
+					type: "item"
+				}
+				{
+					id: "57F19A53A820A6ED"
+					item: { count: 1, id: "starcatcher:molten_deepslate_crab" }
+					type: "item"
+				}
+				{
+					id: "14A726090C8A72F1"
+					item: { count: 1, id: "starcatcher:scorched_bloodsucker" }
+					type: "item"
+				}
+				{
+					id: "0F318626FA203E5C"
+					item: { count: 1, id: "starcatcher:obsidian_eel" }
+					type: "item"
+				}
+			]
+			x: 4.5d
+			y: -6.0d
+		}
+		{
+			id: "0FFEC186DEA6C730"
+			preset: "item"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1CC13BFEE063B541"
+				is_ender: false
+				is_team_reward: false
+				table_id: 5167086515396975209L
+				target_addressee: "QuestNPC"
+				team_reward_multiplier: 1.0f
+				type: "contactquests:parcel_random"
+			}]
+			tasks: [
+				{
+					id: "7177245D235D3185"
+					item: { count: 1, id: "starcatcher:rainfin" }
+					type: "item"
+				}
+				{
+					id: "709DBB896B58B467"
+					item: { count: 1, id: "starcatcher:sunny_sturgeon" }
+					type: "item"
+				}
+				{
+					id: "38E4A664E7E25E1A"
+					item: { count: 1, id: "starcatcher:elderscale" }
+					type: "item"
+				}
+				{
+					id: "051FE16A3DCA5CAD"
+					item: { count: 1, id: "starcatcher:ripple_catfish" }
+					type: "item"
+				}
+				{
+					id: "51BF9FE8CCAD7272"
+					item: { count: 1, id: "starcatcher:sun_seeking_carp" }
+					type: "item"
+				}
+				{
+					id: "0ED73BA786C1DFAD"
+					item: { count: 1, id: "starcatcher:twilight_koi" }
+					type: "item"
+				}
+				{
+					id: "1F7AA80775258335"
+					item: { count: 1, id: "starcatcher:lightning_bass" }
+					type: "item"
+				}
+				{
+					id: "32A85A63B97D6248"
+					item: { count: 1, id: "starcatcher:thunder_bass" }
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: -6.0d
+		}
+		{
+			id: "2C5A66D41574D508"
+			preset: "item"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6504B7BF11BA0389"
+				is_ender: false
+				is_team_reward: false
+				table_id: 7328857662613080212L
+				target_addressee: "QuestNPC"
+				team_reward_multiplier: 1.0f
+				type: "contactquests:parcel_random"
+			}]
+			tasks: [
+				{
+					id: "637ED5785EBE06D7"
+					item: { count: 1, id: "starcatcher:driftfin" }
+					type: "item"
+				}
+				{
+					id: "7E2E2625D90D6B71"
+					item: { count: 1, id: "starcatcher:rockgill" }
+					type: "item"
+				}
+				{
+					id: "5B5BDF705C299D47"
+					item: { count: 1, id: "starcatcher:obidontiee" }
+					type: "item"
+				}
+				{
+					id: "3C44E3644D837EC1"
+					item: { count: 1, id: "starcatcher:silverveil_perch" }
+					type: "item"
+				}
+			]
+			x: 3.0d
+			y: -8.0d
+		}
+		{
+			id: "48FB2E853260CF25"
+			preset: "item"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7C9F7B51943ACC9C"
+				is_ender: false
+				is_team_reward: false
+				table_id: 5167086515396975209L
+				target_addressee: "QuestNPC"
+				team_reward_multiplier: 1.0f
+				type: "contactquests:parcel_random"
+			}]
+			tasks: [
+				{
+					id: "6432D7FB0EB9E0DB"
+					item: { count: 1, id: "starcatcher:peakdweller" }
+					type: "item"
+				}
+				{
+					id: "701B6AEC8E428671"
+					item: { count: 1, id: "starcatcher:petal_bass" }
+					type: "item"
+				}
+				{
+					id: "41BB4265EDA91439"
+					item: { count: 1, id: "starcatcher:sunflower_carp" }
+					type: "item"
+				}
+				{
+					id: "5237C10D0039F6CC"
+					item: { count: 1, id: "starcatcher:sporefish" }
+					type: "item"
+				}
+				{
+					id: "4879CE0621C1DE4A"
+					item: { count: 1, id: "starcatcher:livid_bamboo" }
+					type: "item"
+				}
+				{
+					id: "5B5CDDF25A4E882B"
+					item: { count: 1, id: "starcatcher:shroomfish" }
+					type: "item"
+				}
+				{
+					id: "56FC80BD27CFD636"
+					item: { count: 1, id: "starcatcher:cloudfin" }
+					type: "item"
+				}
+			]
+			x: 4.5d
+			y: -4.5d
 		}
 	]
 }

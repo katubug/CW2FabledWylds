@@ -1,0 +1,87 @@
+{
+  "enabled": true,
+  "mod_name": "The Twilight Moonshine",
+  "mod_id": "twilightmoonshine",
+  "achievements": {
+    "stomp_stomp": {
+      "display_name": "Stomp Stomp!",
+      "original_name": "Stomp Stomp!",
+      "enabled": true,
+      "icon": "minecraft:rabbit_foot",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "embrace_day": {
+      "display_name": "Embrace Day",
+      "original_name": "Embrace Day",
+      "enabled": true,
+      "icon": "twilightforest:fiddlehead",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "feed_moon_rabbit": {
+      "display_name": "Thou Art the Rabbit!",
+      "original_name": "Thou Art the Rabbit!",
+      "enabled": true,
+      "icon": "twilightforest:shika_senbei",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "twilight_sentinel": {
+      "display_name": "Twilight Sentinel",
+      "original_name": "Twilight Sentinel",
+      "enabled": true,
+      "icon": "minecraft:ender_eye",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "river_of_light": {
+      "display_name": "River of Light",
+      "original_name": "River of Light",
+      "enabled": true,
+      "icon": "minecraft:potion",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "hand_to_hand": {
+      "display_name": "From Hand to Hand",
+      "original_name": "From Hand to Hand",
+      "enabled": true,
+      "icon": "twilightmoonshine:secret_page",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "sunset_beetle_party": {
+      "display_name": "Sunset Beetle Band",
+      "original_name": "Sunset Beetle Band",
+      "enabled": true,
+      "icon": "twilightmoonshine:fire_beetle_icon",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    },
+    "coolidge_family": {
+      "display_name": "The Coolidge Family",
+      "original_name": "The Coolidge Family",
+      "enabled": true,
+      "icon": "twilightmoonshine:moonshine",
+      "rewards": {
+        "attributes": {},
+        "items": []
+      }
+    }
+  }
+}

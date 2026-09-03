@@ -48,6 +48,7 @@
 	quests: [
 		{
 			id: "7C3C2D24D60C6C1F"
+			preset: "item"
 			rewards: [
 				{
 					exclude_from_claim_all: true
@@ -145,6 +146,7 @@
 		}
 		{
 			id: "7E9C70F7B0CFD820"
+			preset: "item"
 			rewards: [
 				{
 					id: "4F13530A54DDB6CB"
@@ -215,6 +217,7 @@
 		}
 		{
 			id: "1FD157BDA5AF3BE9"
+			preset: "item"
 			rewards: [
 				{
 					id: "43F9EA89E7A7A7CA"
@@ -346,6 +349,7 @@
 		}
 		{
 			id: "40BBDD8D814A55C1"
+			preset: "item"
 			rewards: [
 				{
 					id: "157334951D384948"
@@ -407,6 +411,7 @@
 		}
 		{
 			id: "56F3B965C1198BE9"
+			preset: "item"
 			rewards: [
 				{
 					exclude_from_claim_all: true
@@ -444,6 +449,7 @@
 		}
 		{
 			id: "5435D7182F5A0C8D"
+			preset: "item"
 			rewards: [
 				{
 					exclude_from_claim_all: true
@@ -546,6 +552,7 @@
 		}
 		{
 			id: "290D8441BBC918A1"
+			preset: "item"
 			rewards: [
 				{
 					id: "7DA76ECFC213F2E1"
@@ -657,6 +664,7 @@
 		}
 		{
 			id: "692725454B955B4C"
+			preset: "item"
 			rewards: [
 				{
 					id: "74684E8AE902E936"
@@ -773,6 +781,7 @@
 		}
 		{
 			id: "04973320B5F27BD7"
+			preset: "item"
 			rewards: [
 				{
 					id: "181F0311EA162994"
@@ -889,6 +898,7 @@
 		}
 		{
 			id: "6B3AD3CDE8EC90F1"
+			preset: "item"
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "7B1C167DD2407442"
@@ -993,6 +1003,7 @@
 		}
 		{
 			id: "3F5F93D7191952F9"
+			preset: "item"
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "3175F3B26083133C"
@@ -1087,6 +1098,7 @@
 		}
 		{
 			id: "75AD4BD901CEA061"
+			preset: "advancement"
 			rewards: [
 				{
 					exclude_from_claim_all: true
@@ -1174,6 +1186,7 @@
 		}
 		{
 			id: "401E8078C11F8919"
+			preset: "advancement"
 			rewards: [
 				{
 					exclude_from_claim_all: true
@@ -1217,6 +1230,7 @@
 		}
 		{
 			id: "7DB8FFF48188EC9C"
+			preset: "item"
 			shape: "hexagon"
 			tasks: [
 				{
@@ -1245,6 +1259,7 @@
 		}
 		{
 			id: "0191F41344B7250D"
+			preset: "item"
 			rewards: [
 				{
 					exclude_from_claim_all: true
@@ -1364,6 +1379,7 @@
 		}
 		{
 			id: "755902F379AFB989"
+			preset: "item"
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "6BBF980D24FA64BF"
@@ -1403,6 +1419,7 @@
 		}
 		{
 			id: "0DC28A267878E6E1"
+			preset: "item"
 			rewards: [
 				{
 					id: "73556AE457A60D3C"
