@@ -19,6 +19,15 @@
     },
     {
       "tag": "roots:herbs/wildroot"
+    },
+    {
+      "item": "minecraft:brown_mushroom"
+    },
+    {
+      "item": "minecraft:brown_mushroom"
+    },
+    {
+      "item": "minecraft:red_mushroom"
     }
   ],
   "output": {

@@ -1,10 +1,10 @@
 {
     "title": {
-      "text": "Witchy Tips",
-      "bold": true,
-      "color": "green"
+        "translate": "tips.titles.witchy",
+        "bold": true,
+        "color": "green"
     },
     "tip": {
-      "text": "Random music started playing? Look around for mobs, which may have invisible backpacks with jukebox upgrades!"
+        "translate": "tips.text.randommusic"
     }
-  }
+}

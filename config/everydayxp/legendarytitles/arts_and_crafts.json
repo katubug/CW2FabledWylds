@@ -9,8 +9,7 @@
       "enabled": true,
       "icon": "arts_and_crafts:lime_chalk_stick",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "husbandry/obtain_bleachdew": {
@@ -19,8 +18,7 @@
       "enabled": true,
       "icon": "arts_and_crafts:bleachdew",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "adventure/craft_bleachdew_paintbrush": {
@@ -29,8 +27,7 @@
       "enabled": true,
       "icon": "arts_and_crafts:bleachdew_paintbrush",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "adventure/cycle_chalk_pattern_backwards": {
@@ -39,8 +36,7 @@
       "enabled": true,
       "icon": "arts_and_crafts:orange_chalk_stick",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "adventure/craft_paintbrush": {
@@ -49,8 +45,7 @@
       "enabled": true,
       "icon": "arts_and_crafts:purple_paintbrush",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "adventure/collect_all_chalk_sticks": {
@@ -59,8 +54,7 @@
       "enabled": true,
       "icon": "arts_and_crafts:cyan_chalk_stick",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "adventure/save_chalk_pattern": {
@@ -69,8 +63,7 @@
       "enabled": true,
       "icon": "arts_and_crafts:red_chalk_stick",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "husbandry/interact_with_lily_pad_using_some_lotus_pistils": {
@@ -79,8 +72,7 @@
       "enabled": true,
       "icon": "arts_and_crafts:lotus_pistils",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "adventure/craft_chalk_stick": {
@@ -89,8 +81,7 @@
       "enabled": true,
       "icon": "arts_and_crafts:white_chalk_stick",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "adventure/obtain_pottery_sherd": {
@@ -99,8 +90,7 @@
       "enabled": true,
       "icon": "arts_and_crafts:pottery_sherd",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     }
   }

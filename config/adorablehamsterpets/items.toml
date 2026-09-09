@@ -1,6 +1,11 @@
 # Don't change this! Version used to track needed updates.
 version = 0
-# A list of strings. If a jukebox plays a music disc containing any of these strings in its name, description, or tooltips (not case-sensitive), nearby hamsters will dance to it.
+# Case-insensitive key words matched against a music disc's name, description, translation key or lore. If a keyword from a song appears in both of these lists, this list takes priority over the 'bouncing' list.
+slowDancingMusicDiscStrings = [
+    "low-fi",
+    "zampoña"
+]
+# Case-insensitive key words matched against a music disc's name, description, translation key or lore. If a keyword from a song appears in both of these lists, the 'swaying' list takes priority over this list.
 dancingMusicDiscStrings = [
     "hamtaro",
     "hamster",

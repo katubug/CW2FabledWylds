@@ -9,8 +9,7 @@
       "enabled": true,
       "icon": "minecraft:red_mushroom",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "enderman_scan": {
@@ -19,8 +18,7 @@
       "enabled": true,
       "icon": "minecraft:ender_pearl",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "let_him_cook": {
@@ -29,8 +27,7 @@
       "enabled": true,
       "icon": "minecraft:flint_and_steel",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "first_discovery": {
@@ -39,8 +36,7 @@
       "enabled": true,
       "icon": "minecraft:spyglass",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "animal_expert": {
@@ -49,8 +45,7 @@
       "enabled": true,
       "icon": "minecraft:pig_spawn_egg",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "invisible_scan": {
@@ -59,8 +54,7 @@
       "enabled": true,
       "icon": "minecraft:potion",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "quick_review": {
@@ -69,8 +63,7 @@
       "enabled": true,
       "icon": "minecraft:diamond_sword",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "gem_alert": {
@@ -79,8 +72,7 @@
       "enabled": true,
       "icon": "minecraft:diamond",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "monster_hunter": {
@@ -89,8 +81,7 @@
       "enabled": true,
       "icon": "minecraft:zombie_head",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     }
   }

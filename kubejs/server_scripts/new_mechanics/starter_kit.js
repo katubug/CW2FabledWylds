@@ -18,10 +18,7 @@ PlayerEvents.loggedIn(event => {
 		console.log("Giving starting items...")
 		event.player.give('ftbquests:book')
 		event.player.give(Item.of('farmersdelight:flint_knife'))
-		event.player.give(Item.of('reliquary:mob_charm',
-			'{Damage:0,entity:"minecraft:witch"}'))
-		event.player.give('reliquary:witch_hat')
-		event.player.give('comforts:sleeping_bag_cyan')
+		event.player.give(Item.of('reliquary:mob_charm[reliquary:entity_name="minecraft:witch"]'))
 
 	}
 })

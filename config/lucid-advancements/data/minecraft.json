@@ -1,0 +1,60 @@
+{
+  "mod_id": "minecraft",
+  "categories": [
+    {
+      "id": "trailandtales_delightmain/tat_delight",
+      "advancement_root": "minecraft:trailandtales_delightmain/tat_delight",
+      "title": "Trail&Tales Delight",
+      "description": "Embark on the journey with the fragrance of cherry blossoms and the ancient charm...",
+      "icon": {
+        "type": "item",
+        "value": "trailandtales_delight:pottery_cooking_pot"
+      },
+      "enabled": true
+    },
+    {
+      "id": "adventure/root",
+      "advancement_root": "minecraft:adventure/root",
+      "title": "Adventure",
+      "description": "Adventure, exploration and combat",
+      "icon": {
+        "type": "item",
+        "value": "minecraft:map"
+      },
+      "enabled": true
+    },
+    {
+      "id": "nether/root",
+      "advancement_root": "minecraft:nether/root",
+      "title": "Nether",
+      "description": "Bring summer clothes",
+      "icon": {
+        "type": "item",
+        "value": "minecraft:red_nether_bricks"
+      },
+      "enabled": true
+    },
+    {
+      "id": "husbandry/root",
+      "advancement_root": "minecraft:husbandry/root",
+      "title": "Husbandry",
+      "description": "The world is full of friends and food",
+      "icon": {
+        "type": "item",
+        "value": "minecraft:hay_block"
+      },
+      "enabled": true
+    },
+    {
+      "id": "story/root",
+      "advancement_root": "minecraft:story/root",
+      "title": "Minecraft",
+      "description": "The heart and story of the game",
+      "icon": {
+        "type": "item",
+        "value": "minecraft:grass_block"
+      },
+      "enabled": true
+    }
+  ]
+}

@@ -9,8 +9,7 @@
       "enabled": true,
       "icon": "refinedstorage:destructor",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "no_cables_required": {
@@ -19,8 +18,7 @@
       "enabled": true,
       "icon": "refinedstorage:network_transmitter",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "wireless": {
@@ -29,8 +27,7 @@
       "enabled": true,
       "icon": "refinedstorage:wireless_grid",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "interface_to_the_world": {
@@ -39,8 +36,7 @@
       "enabled": true,
       "icon": "refinedstorage:interface",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "upgrading": {
@@ -49,8 +45,7 @@
       "enabled": true,
       "icon": "refinedstorage:upgrade",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "conditional_connecting": {
@@ -59,8 +54,7 @@
       "enabled": true,
       "icon": "refinedstorage:relay",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "upgrading_your_grid": {
@@ -69,8 +63,7 @@
       "enabled": true,
       "icon": "refinedstorage:crafting_grid",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "managing_patterns": {
@@ -79,8 +72,7 @@
       "enabled": true,
       "icon": "refinedstorage:autocrafter_manager",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "wireless_monitoring": {
@@ -89,8 +81,7 @@
       "enabled": true,
       "icon": "refinedstorage:wireless_autocrafting_monitor",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "portable_storage": {
@@ -99,8 +90,7 @@
       "enabled": true,
       "icon": "refinedstorage:portable_grid",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "drives": {
@@ -109,8 +99,7 @@
       "enabled": true,
       "icon": "refinedstorage:disk_drive",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "storing_fluids": {
@@ -119,8 +108,7 @@
       "enabled": true,
       "icon": "refinedstorage:64b_fluid_storage_disk",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "storing_externally": {
@@ -129,8 +117,7 @@
       "enabled": true,
       "icon": "refinedstorage:external_storage",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "autocrafting_on_demand": {
@@ -139,8 +126,7 @@
       "enabled": true,
       "icon": "refinedstorage:autocrafting_upgrade",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "exporting": {
@@ -149,8 +135,7 @@
       "enabled": true,
       "icon": "refinedstorage:exporter",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "security": {
@@ -159,8 +144,7 @@
       "enabled": true,
       "icon": "refinedstorage:security_manager",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "autocrafting": {
@@ -169,8 +153,7 @@
       "enabled": true,
       "icon": "refinedstorage:autocrafter",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "detecting": {
@@ -179,8 +162,7 @@
       "enabled": true,
       "icon": "refinedstorage:detector",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "connecting": {
@@ -189,8 +171,7 @@
       "enabled": true,
       "icon": "refinedstorage:cable",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "storing_items": {
@@ -199,8 +180,7 @@
       "enabled": true,
       "icon": "refinedstorage:1k_storage_disk",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "root": {
@@ -209,8 +189,7 @@
       "enabled": true,
       "icon": "refinedstorage:creative_controller",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "better_than_a_barrel": {
@@ -219,8 +198,7 @@
       "enabled": true,
       "icon": "refinedstorage:storage_monitor",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "viewing_your_storage": {
@@ -229,8 +207,7 @@
       "enabled": true,
       "icon": "refinedstorage:grid",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "monitoring": {
@@ -239,8 +216,7 @@
       "enabled": true,
       "icon": "refinedstorage:autocrafting_monitor",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "importing": {
@@ -249,8 +225,7 @@
       "enabled": true,
       "icon": "refinedstorage:importer",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "interfacing_with_disks": {
@@ -259,8 +234,7 @@
       "enabled": true,
       "icon": "refinedstorage:disk_interface",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "construction": {
@@ -269,8 +243,7 @@
       "enabled": true,
       "icon": "refinedstorage:constructor",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     }
   }

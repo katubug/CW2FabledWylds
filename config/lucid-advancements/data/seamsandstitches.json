@@ -1,0 +1,16 @@
+{
+  "mod_id": "seamsandstitches",
+  "categories": [
+    {
+      "id": "root",
+      "advancement_root": "seamsandstitches:root",
+      "title": "Seams & Stitches",
+      "description": "Textiles, tanning, and tailoring",
+      "icon": {
+        "type": "item",
+        "value": "seamsandstitches:needle"
+      },
+      "enabled": true
+    }
+  ]
+}

@@ -9,8 +9,7 @@
       "enabled": true,
       "icon": "minecraft:water_bucket",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "is_this_legal": {
@@ -19,8 +18,7 @@
       "enabled": true,
       "icon": "numismatics:sun",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "questionable_investment": {
@@ -29,8 +27,7 @@
       "enabled": true,
       "icon": "numismatics:spur",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     }
   }

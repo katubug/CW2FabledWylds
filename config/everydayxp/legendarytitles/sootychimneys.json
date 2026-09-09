@@ -9,8 +9,7 @@
       "enabled": true,
       "icon": "sootychimneys:dirty_brick_chimney",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     }
   }

@@ -9,8 +9,7 @@
       "enabled": true,
       "icon": "luckyswardrobe:hat",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     }
   }

@@ -9,8 +9,7 @@
       "enabled": true,
       "icon": "minecraft:potion",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "suns_blessing": {
@@ -19,8 +18,7 @@
       "enabled": true,
       "icon": "mowziesmobs:grant_suns_blessing",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "kill_bluff": {
@@ -29,8 +27,7 @@
       "enabled": true,
       "icon": "mowziesmobs:bluff_rod",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "kill_umvuthana_raptor": {
@@ -39,8 +36,7 @@
       "enabled": true,
       "icon": "mowziesmobs:umvuthana_mask_fury",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "kill_grottol_silk_touch": {
@@ -49,8 +45,7 @@
       "enabled": true,
       "icon": "mowziesmobs:captured_grottol",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "kill_ferrous_wroughtnaut": {
@@ -59,8 +54,7 @@
       "enabled": true,
       "icon": "mowziesmobs:wrought_helmet",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "sculptor_challenge": {
@@ -69,8 +63,7 @@
       "enabled": true,
       "icon": "mowziesmobs:earthrend_gauntlet",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "kill_elokosa_howler": {
@@ -79,8 +72,7 @@
       "enabled": true,
       "icon": "mowziesmobs:elokosa_paw_full",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "sculptor_failure": {
@@ -89,8 +81,7 @@
       "enabled": true,
       "icon": "minecraft:beef",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "kill_umvuthi": {
@@ -99,8 +90,7 @@
       "enabled": true,
       "icon": "mowziesmobs:sol_visage",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "sneak_grove": {
@@ -109,8 +99,7 @@
       "enabled": true,
       "icon": "mowziesmobs:umvuthana_mask_fear",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "kill_naga": {
@@ -119,8 +108,7 @@
       "enabled": true,
       "icon": "mowziesmobs:naga_fang",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "kill_foliaath": {
@@ -129,8 +117,7 @@
       "enabled": true,
       "icon": "mowziesmobs:foliaath_seed",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "kill_grottol": {
@@ -139,8 +126,7 @@
       "enabled": true,
       "icon": "minecraft:diamond",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "kill_grottol_fortune": {
@@ -149,8 +135,7 @@
       "enabled": true,
       "icon": "minecraft:diamond_pickaxe",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "kill_frostmaw": {
@@ -159,8 +144,7 @@
       "enabled": true,
       "icon": "mowziesmobs:ice_crystal",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     }
   }

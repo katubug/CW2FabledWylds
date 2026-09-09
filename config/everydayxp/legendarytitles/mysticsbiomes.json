@@ -9,8 +9,7 @@
       "enabled": true,
       "icon": "mysticsbiomes:spring_bamboo",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "mysticsbiomes/obtain_cherries": {
@@ -19,8 +18,7 @@
       "enabled": true,
       "icon": "mysticsbiomes:cherries",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "mysticsbiomes/craft_neapolitan_cakes": {
@@ -29,8 +27,7 @@
       "enabled": true,
       "icon": "mysticsbiomes:vanilla_cake",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "mysticsbiomes/obtain_peach": {
@@ -39,8 +36,7 @@
       "enabled": true,
       "icon": "mysticsbiomes:peach",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "mysticsbiomes/obtain_sweet_strawberry": {
@@ -49,8 +45,7 @@
       "enabled": true,
       "icon": "mysticsbiomes:sweet_strawberry",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "mysticsbiomes/craft_rainbow_cakes": {
@@ -59,8 +54,7 @@
       "enabled": true,
       "icon": "mysticsbiomes:pink_frosted_cake",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     }
   }

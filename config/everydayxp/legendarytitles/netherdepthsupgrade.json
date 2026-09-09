@@ -9,8 +9,7 @@
       "enabled": true,
       "icon": "netherdepthsupgrade:eyeball_fish",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "main/turn_wet_lava_sponge": {
@@ -19,8 +18,7 @@
       "enabled": true,
       "icon": "netherdepthsupgrade:lava_sponge",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "main/lava_fishing_master": {
@@ -29,8 +27,7 @@
       "enabled": true,
       "icon": "netherdepthsupgrade:lava_pufferfish",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "main/craft_lava_fishing_rod": {
@@ -39,8 +36,7 @@
       "enabled": true,
       "icon": "netherdepthsupgrade:lava_fishing_rod",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "main/get_wet_lava_sponge": {
@@ -49,8 +45,7 @@
       "enabled": true,
       "icon": "netherdepthsupgrade:wet_lava_sponge",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "main/filled_soulsucker_bucket": {
@@ -59,8 +54,7 @@
       "enabled": true,
       "icon": "netherdepthsupgrade:soulsucker_bucket",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "main/place_lava_glass": {
@@ -69,8 +63,7 @@
       "enabled": true,
       "icon": "netherdepthsupgrade:lava_glass",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "main/abyssal_flora_expert": {
@@ -79,8 +72,7 @@
       "enabled": true,
       "icon": "netherdepthsupgrade:warped_kelp",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     }
   }

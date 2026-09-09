@@ -9,8 +9,7 @@
       "enabled": true,
       "icon": "serene_shrubbery:halloween_foxglove",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "foxy_florist": {
@@ -19,8 +18,7 @@
       "enabled": true,
       "icon": "serene_shrubbery:lavender_foxglove",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "gardeners_path": {
@@ -29,8 +27,7 @@
       "enabled": true,
       "icon": "serene_shrubbery:butterfly_bush",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "hybrid_flora": {
@@ -39,8 +36,7 @@
       "enabled": true,
       "icon": "serene_shrubbery:blue_frost_pansies",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "hydrangea_horticulturist": {
@@ -49,8 +45,7 @@
       "enabled": true,
       "icon": "serene_shrubbery:pink_hydrangea",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "lupine_lover": {
@@ -59,8 +54,7 @@
       "enabled": true,
       "icon": "serene_shrubbery:manhattan_lights_lupine",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "the_beauty_of_baskets": {
@@ -69,8 +63,7 @@
       "enabled": true,
       "icon": "serene_shrubbery:bloom_basket",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "pansy_planter": {
@@ -79,8 +72,7 @@
       "enabled": true,
       "icon": "serene_shrubbery:sunrise_pansies",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     }
   }

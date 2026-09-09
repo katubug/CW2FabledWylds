@@ -19,6 +19,15 @@
     },
     {
       "tag": "minecraft:logs"
+    },
+    {
+      "tag": "minecraft:leaves"
+    },
+    {
+      "tag": "minecraft:leaves"
+    },
+    {
+      "tag": "minecraft:logs"
     }
   ],
   "output": {

@@ -1,0 +1,16 @@
+{
+  "mod_id": "hexalia",
+  "categories": [
+    {
+      "id": "root",
+      "advancement_root": "hexalia:root",
+      "title": "Hexalia",
+      "description": "Step into the enchanting world of Hexalia!",
+      "icon": {
+        "type": "item",
+        "value": "hexalia:hex_focus"
+      },
+      "enabled": true
+    }
+  ]
+}

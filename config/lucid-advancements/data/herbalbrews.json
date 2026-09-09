@@ -1,0 +1,16 @@
+{
+  "mod_id": "herbalbrews",
+  "categories": [
+    {
+      "id": "main/root",
+      "advancement_root": "herbalbrews:main/root",
+      "title": "Welcome to HerbalBrews!",
+      "description": "Thank you for downloading HerbalBrews",
+      "icon": {
+        "type": "item",
+        "value": "herbalbrews:hibiscus_tea"
+      },
+      "enabled": true
+    }
+  ]
+}

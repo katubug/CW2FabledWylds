@@ -9,8 +9,7 @@
       "enabled": true,
       "icon": "tarotcards:tarot_deck",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     }
   }

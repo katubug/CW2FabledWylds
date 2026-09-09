@@ -1,0 +1,16 @@
+{
+  "mod_id": "delighto_flight",
+  "categories": [
+    {
+      "id": "main/root",
+      "advancement_root": "delighto_flight:main/root",
+      "title": "Delight o' Flight",
+      "description": "Earthly delicacies or heavenly feasts",
+      "icon": {
+        "type": "item",
+        "value": "delighto_flight:phantom_wing"
+      },
+      "enabled": true
+    }
+  ]
+}

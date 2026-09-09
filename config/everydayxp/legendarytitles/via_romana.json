@@ -9,8 +9,7 @@
       "enabled": true,
       "icon": "minecraft:iron_shovel",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "story/a_strand_type_game": {
@@ -19,8 +18,7 @@
       "enabled": true,
       "icon": "minecraft:oak_sign",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "story/i_just_felt_like_running": {
@@ -29,8 +27,7 @@
       "enabled": true,
       "icon": "minecraft:leather_boots",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     }
   }

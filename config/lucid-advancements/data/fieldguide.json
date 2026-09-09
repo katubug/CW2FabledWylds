@@ -1,0 +1,16 @@
+{
+  "mod_id": "fieldguide",
+  "categories": [
+    {
+      "id": "root",
+      "advancement_root": "fieldguide:root",
+      "title": "Field Guide",
+      "description": "Obtain a Spyglass to begin your journey",
+      "icon": {
+        "type": "item",
+        "value": "minecraft:spyglass"
+      },
+      "enabled": true
+    }
+  ]
+}

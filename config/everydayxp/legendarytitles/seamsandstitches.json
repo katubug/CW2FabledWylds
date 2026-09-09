@@ -9,8 +9,7 @@
       "enabled": true,
       "icon": "minecraft:rotten_flesh",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "tan_a_hide": {
@@ -19,8 +18,7 @@
       "enabled": true,
       "icon": "minecraft:leather",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "build_tanning_rack": {
@@ -29,8 +27,7 @@
       "enabled": true,
       "icon": "seamsandstitches:tanning_rack",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "lye_speedup": {
@@ -39,8 +36,7 @@
       "enabled": true,
       "icon": "seamsandstitches:lye",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "hide_and_seek": {
@@ -49,8 +45,7 @@
       "enabled": true,
       "icon": "seamsandstitches:cow_hide",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     }
   }

@@ -9,8 +9,7 @@
       "enabled": true,
       "icon": "the_bumblezone:essence_radiance",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "essence/essence_life": {
@@ -19,8 +18,7 @@
       "enabled": true,
       "icon": "the_bumblezone:essence_life",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "structures/enter_throne_pillar": {
@@ -29,8 +27,7 @@
       "enabled": true,
       "icon": "the_bumblezone:bee_queen_spawn_egg",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "honey_crystal_shield/obtain_maxed_honey_crystal_shield": {
@@ -39,8 +36,7 @@
       "enabled": true,
       "icon": "the_bumblezone:honey_crystal_shield",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "essence/essence_calming": {
@@ -49,8 +45,7 @@
       "enabled": true,
       "icon": "the_bumblezone:essence_calming",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "structures/enter_cell_maze": {
@@ -59,8 +54,7 @@
       "enabled": true,
       "icon": "minecraft:honeycomb",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "honey_bucket/drink_royal_jelly_bottle": {
@@ -69,8 +63,7 @@
       "enabled": true,
       "icon": "the_bumblezone:royal_jelly_bottle",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "essence/essence_continuity": {
@@ -79,8 +72,7 @@
       "enabled": true,
       "icon": "the_bumblezone:essence_continuity",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "rootmin/rootmin_rainbow_name": {
@@ -89,8 +81,7 @@
       "enabled": true,
       "icon": "the_bumblezone:rootmin_spawn_egg",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "essence/bee_essence_infusion": {
@@ -99,8 +90,7 @@
       "enabled": true,
       "icon": "the_bumblezone:essence_of_the_bees",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "bees/variant_bee_name": {
@@ -109,8 +99,7 @@
       "enabled": true,
       "icon": "the_bumblezone:variant_bee_spawn_egg",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "structures/enter_all_structures": {
@@ -119,8 +108,7 @@
       "enabled": true,
       "icon": "minecraft:filled_map",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "beehemoth/queen_beehemoth": {
@@ -129,8 +117,7 @@
       "enabled": true,
       "icon": "the_bumblezone:beehemoth_spawn_egg",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "effects/beenergized_maxed": {
@@ -139,8 +126,7 @@
       "enabled": true,
       "icon": "the_bumblezone:bee_bread",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "honey_slime/honey_slime_creation": {
@@ -149,8 +135,7 @@
       "enabled": true,
       "icon": "the_bumblezone:honey_slime_spawn_egg",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "effects/getting_protection": {
@@ -159,8 +144,7 @@
       "enabled": true,
       "icon": "the_bumblezone:honeycomb_brood_block",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "effects/brew_bee_stinger": {
@@ -169,8 +153,7 @@
       "enabled": true,
       "icon": "minecraft:potion",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "structures/enter_sempiternal_sanctum": {
@@ -179,8 +162,7 @@
       "enabled": true,
       "icon": "the_bumblezone:luminescent_wax_corner_white",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "dirt_pellet/dirt_pellet_return_to_sender": {
@@ -189,8 +171,7 @@
       "enabled": true,
       "icon": "the_bumblezone:dirt_pellet",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "music_discs/obtain_all_music_discs": {
@@ -199,8 +180,7 @@
       "enabled": true,
       "icon": "the_bumblezone:music_disc_honey_bee_rat_faced_boy",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "effects/consume_bee_soup": {
@@ -209,8 +189,7 @@
       "enabled": true,
       "icon": "the_bumblezone:bee_soup",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "candles/obtain_all_colored_super_candles": {
@@ -219,8 +198,7 @@
       "enabled": true,
       "icon": "the_bumblezone:super_candle",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "candles/multi_potion_potion_candle": {
@@ -229,8 +207,7 @@
       "enabled": true,
       "icon": "the_bumblezone:potion_candle",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "candles/projectile_light_instant_potion_candle": {
@@ -239,8 +216,7 @@
       "enabled": true,
       "icon": "the_bumblezone:potion_candle",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "bees/variant_bee_briefcase_capture": {
@@ -249,8 +225,7 @@
       "enabled": true,
       "icon": "the_bumblezone:variant_bee_spawn_egg",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "effects/brew_bee_soup": {
@@ -259,8 +234,7 @@
       "enabled": true,
       "icon": "minecraft:potion",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "armor/warrior_bee": {
@@ -269,8 +243,7 @@
       "enabled": true,
       "icon": "the_bumblezone:stingless_bee_helmet_1",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "honey_bucket/obtain_royal_jelly_bucket": {
@@ -279,8 +252,7 @@
       "enabled": true,
       "icon": "the_bumblezone:royal_jelly_bucket",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "crystalline_flower/enchant_crystalline_flower": {
@@ -289,8 +261,7 @@
       "enabled": true,
       "icon": "the_bumblezone:crystalline_flower",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "the_queens_desire/the_beginning": {
@@ -299,8 +270,7 @@
       "enabled": true,
       "icon": "the_bumblezone:bee_queen_spawn_egg",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "decor/obtain_all_string_curtains": {
@@ -309,8 +279,7 @@
       "enabled": true,
       "icon": "the_bumblezone:string_curtain_orange",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "rootmin/rootmin_flower_swap": {
@@ -319,8 +288,7 @@
       "enabled": true,
       "icon": "the_bumblezone:rootmin_spawn_egg",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "effects/brew_glistering_honey_crystal_block": {
@@ -329,8 +297,7 @@
       "enabled": true,
       "icon": "minecraft:potion",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "sentry_watcher/sentry_watcher_use_egg": {
@@ -339,8 +306,7 @@
       "enabled": true,
       "icon": "the_bumblezone:sentry_watcher_spawn_egg",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "dirt_pellet/dirt_pellet_kill_phantom": {
@@ -349,8 +315,7 @@
       "enabled": true,
       "icon": "the_bumblezone:dirt_pellet",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "decor/obtain_all_banner_patterns": {
@@ -359,8 +324,7 @@
       "enabled": true,
       "icon": "the_bumblezone:banner_pattern_bee",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "biomes/discover_all_biomes": {
@@ -369,8 +333,7 @@
       "enabled": true,
       "icon": "minecraft:spyglass",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "essence/essence_raging": {
@@ -379,8 +342,7 @@
       "enabled": true,
       "icon": "the_bumblezone:essence_raging",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "the_queens_desire/journeys_end": {
@@ -389,8 +351,7 @@
       "enabled": true,
       "icon": "the_bumblezone:essence_of_the_bees",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "essence/essence_knowing": {
@@ -399,8 +360,7 @@
       "enabled": true,
       "icon": "the_bumblezone:essence_knowing",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "structures/enter_garden": {
@@ -409,8 +369,7 @@
       "enabled": true,
       "icon": "the_bumblezone:crystalline_flower",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     }
   }

@@ -9,8 +9,7 @@
       "enabled": true,
       "icon": "tflostblocks:thorncutter_axe",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "find_thorncutter_axe": {
@@ -19,8 +18,7 @@
       "enabled": true,
       "icon": "tflostblocks:incomplete_thorncutter_axe",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     }
   }

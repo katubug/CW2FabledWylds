@@ -9,8 +9,7 @@
       "enabled": true,
       "icon": "lootr:suspicious_gravel",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "1chest": {
@@ -19,8 +18,7 @@
       "enabled": true,
       "icon": "lootr:lootr_chest",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "1shulker": {
@@ -29,8 +27,7 @@
       "enabled": true,
       "icon": "lootr:lootr_shulker",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "social": {
@@ -39,8 +36,7 @@
       "enabled": true,
       "icon": "minecraft:enchanted_golden_apple",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "trapped_chest": {
@@ -49,8 +45,7 @@
       "enabled": true,
       "icon": "minecraft:tnt",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "50loot": {
@@ -59,8 +54,7 @@
       "enabled": true,
       "icon": "minecraft:diamond_block",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "1frame": {
@@ -69,8 +63,7 @@
       "enabled": true,
       "icon": "minecraft:item_frame",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "10loot": {
@@ -79,8 +72,7 @@
       "enabled": true,
       "icon": "minecraft:gold_block",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "25loot": {
@@ -89,8 +81,7 @@
       "enabled": true,
       "icon": "minecraft:emerald_block",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "1barrel": {
@@ -99,8 +90,7 @@
       "enabled": true,
       "icon": "lootr:lootr_barrel",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "pot_opened": {
@@ -109,8 +99,7 @@
       "enabled": true,
       "icon": "lootr:decorated_pot",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "archaeologist": {
@@ -119,8 +108,7 @@
       "enabled": true,
       "icon": "minecraft:brush",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "1cart": {
@@ -129,8 +117,7 @@
       "enabled": true,
       "icon": "minecraft:chest_minecart",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "100loot": {
@@ -139,8 +126,16 @@
       "enabled": true,
       "icon": "minecraft:netherite_block",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
+      }
+    },
+    "emergency_escape_hatch": {
+      "display_name": "Emergency Escape Hatch!",
+      "original_name": "Emergency Escape Hatch!",
+      "icon": "minecraft:iron_trapdoor",
+      "enabled": true,
+      "rewards": {
+        "attributes": {}
       }
     }
   }

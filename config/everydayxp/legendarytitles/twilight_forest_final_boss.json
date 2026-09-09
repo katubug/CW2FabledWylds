@@ -9,8 +9,7 @@
       "enabled": true,
       "icon": "twilightforest:cube_of_annihilation",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "a_tussel_with_calamity": {
@@ -19,8 +18,7 @@
       "enabled": true,
       "icon": "twilightforest:cube_talisman",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     }
   }

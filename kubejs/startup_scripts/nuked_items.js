@@ -838,6 +838,7 @@ global.NUKED_ITEMS = [
     'mysticsbiomes:glass_jar',
     'mysticsbiomes:glass_jar_caterpillar',
     'mysticsbiomes:caterpillar_spawn_egg',
+    'mysticsbiomes:butterfly_nest',
     // relics
     'relics:experience_disperser'
 ]

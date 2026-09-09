@@ -9,8 +9,7 @@
       "enabled": true,
       "icon": "gildedsherds:minecraft/howl_pottery_sherd",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     }
   }

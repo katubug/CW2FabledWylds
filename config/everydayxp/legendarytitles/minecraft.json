@@ -9,13 +9,7 @@
       "enabled": true,
       "icon": "minecraft:crying_obsidian",
       "rewards": {
-        "attributes": {},
-        "items": [
-          {
-            "item": "minecraft:glowstone",
-            "count": 4
-          }
-        ]
+        "attributes": {}
       }
     },
     "husbandry/allay_deliver_item_to_player": {
@@ -24,13 +18,7 @@
       "enabled": true,
       "icon": "minecraft:cookie",
       "rewards": {
-        "attributes": {},
-        "items": [
-          {
-            "item": "minecraft:lead",
-            "count": 2
-          }
-        ]
+        "attributes": {}
       }
     },
     "husbandry/froglights": {
@@ -39,13 +27,7 @@
       "enabled": true,
       "icon": "minecraft:verdant_froglight",
       "rewards": {
-        "attributes": {},
-        "items": [
-          {
-            "item": "minecraft:shroomlight",
-            "count": 4
-          }
-        ]
+        "attributes": {}
       }
     },
     "nether/distract_piglin": {
@@ -54,13 +36,7 @@
       "enabled": true,
       "icon": "minecraft:gold_ingot",
       "rewards": {
-        "attributes": {},
-        "items": [
-          {
-            "item": "minecraft:gold_ingot",
-            "count": 18
-          }
-        ]
+        "attributes": {}
       }
     },
     "story/obtain_armor": {
@@ -69,13 +45,7 @@
       "enabled": true,
       "icon": "minecraft:iron_chestplate",
       "rewards": {
-        "attributes": {},
-        "items": [
-          {
-            "item": "minecraft:iron_ingot",
-            "count": 16
-          }
-        ]
+        "attributes": {}
       }
     },
     "adventure/trim_with_all_exclusive_armor_patterns": {
@@ -84,13 +54,7 @@
       "enabled": true,
       "icon": "minecraft:silence_armor_trim_smithing_template",
       "rewards": {
-        "attributes": {},
-        "items": [
-          {
-            "item": "minecraft:diamond",
-            "count": 64
-          }
-        ]
+        "attributes": {}
       }
     },
     "adventure/very_very_frightening": {
@@ -99,13 +63,7 @@
       "enabled": true,
       "icon": "minecraft:trident",
       "rewards": {
-        "attributes": {},
-        "items": [
-          {
-            "item": "minecraft:trident",
-            "count": 1
-          }
-        ]
+        "attributes": {}
       }
     },
     "story/lava_bucket": {
@@ -114,13 +72,7 @@
       "enabled": true,
       "icon": "minecraft:lava_bucket",
       "rewards": {
-        "attributes": {},
-        "items": [
-          {
-            "item": "minecraft:iron_ingot",
-            "count": 12
-          }
-        ]
+        "attributes": {}
       }
     },
     "husbandry/ride_a_boat_with_a_goat": {
@@ -129,13 +81,7 @@
       "enabled": true,
       "icon": "minecraft:oak_boat",
       "rewards": {
-        "attributes": {},
-        "items": [
-          {
-            "item": "minecraft:lead",
-            "count": 4
-          }
-        ]
+        "attributes": {}
       }
     },
     "end/kill_dragon": {
@@ -144,13 +90,7 @@
       "enabled": true,
       "icon": "minecraft:dragon_head",
       "rewards": {
-        "attributes": {},
-        "items": [
-          {
-            "item": "minecraft:dragon_breath",
-            "count": 16
-          }
-        ]
+        "attributes": {}
       }
     },
     "adventure/lightning_rod_with_villager_no_fire": {
@@ -159,13 +99,7 @@
       "enabled": true,
       "icon": "minecraft:lightning_rod",
       "rewards": {
-        "attributes": {},
-        "items": [
-          {
-            "item": "minecraft:copper_ingot",
-            "count": 32
-          }
-        ]
+        "attributes": {}
       }
     },
     "nether/all_potions": {
@@ -174,17 +108,7 @@
       "enabled": true,
       "icon": "minecraft:milk_bucket",
       "rewards": {
-        "attributes": {},
-        "items": [
-          {
-            "item": "minecraft:blaze_rod",
-            "count": 16
-          },
-          {
-            "item": "minecraft:glass_bottle",
-            "count": 64
-          }
-        ]
+        "attributes": {}
       }
     },
     "husbandry/tame_an_animal": {
@@ -193,13 +117,7 @@
       "enabled": true,
       "icon": "minecraft:lead",
       "rewards": {
-        "attributes": {},
-        "items": [
-          {
-            "item": "minecraft:bone",
-            "count": 16
-          }
-        ]
+        "attributes": {}
       }
     },
     "adventure/craft_decorated_pot_using_only_sherds": {
@@ -208,13 +126,7 @@
       "enabled": true,
       "icon": "minecraft:decorated_pot",
       "rewards": {
-        "attributes": {},
-        "items": [
-          {
-            "item": "minecraft:brush",
-            "count": 4
-          }
-        ]
+        "attributes": {}
       }
     },
     "husbandry/make_a_sign_glow": {
@@ -223,13 +135,7 @@
       "enabled": true,
       "icon": "minecraft:glow_ink_sac",
       "rewards": {
-        "attributes": {},
-        "items": [
-          {
-            "item": "minecraft:glow_ink_sac",
-            "count": 16
-          }
-        ]
+        "attributes": {}
       }
     },
     "nether/create_beacon": {
@@ -238,21 +144,7 @@
       "enabled": true,
       "icon": "minecraft:beacon",
       "rewards": {
-        "attributes": {},
-        "items": [
-          {
-            "item": "minecraft:iron_ingot",
-            "count": 64
-          },
-          {
-            "item": "minecraft:gold_ingot",
-            "count": 32
-          },
-          {
-            "item": "minecraft:emerald",
-            "count": 16
-          }
-        ]
+        "attributes": {}
       }
     },
     "story/deflect_arrow": {
@@ -261,13 +153,7 @@
       "enabled": true,
       "icon": "minecraft:shield",
       "rewards": {
-        "attributes": {},
-        "items": [
-          {
-            "item": "minecraft:arrow",
-            "count": 32
-          }
-        ]
+        "attributes": {}
       }
     },
     "husbandry/leash_all_frog_variants": {
@@ -276,13 +162,7 @@
       "enabled": true,
       "icon": "minecraft:lead",
       "rewards": {
-        "attributes": {},
-        "items": [
-          {
-            "item": "minecraft:slimeball",
-            "count": 16
-          }
-        ]
+        "attributes": {}
       }
     },
     "story/iron_tools": {
@@ -291,13 +171,7 @@
       "enabled": true,
       "icon": "minecraft:iron_pickaxe",
       "rewards": {
-        "attributes": {},
-        "items": [
-          {
-            "item": "minecraft:coal",
-            "count": 32
-          }
-        ]
+        "attributes": {}
       }
     },
     "nether/brew_potion": {
@@ -306,13 +180,7 @@
       "enabled": true,
       "icon": "minecraft:potion",
       "rewards": {
-        "attributes": {},
-        "items": [
-          {
-            "item": "minecraft:golden_carrot",
-            "count": 8
-          }
-        ]
+        "attributes": {}
       }
     },
     "end/dragon_egg": {
@@ -321,13 +189,7 @@
       "enabled": true,
       "icon": "minecraft:dragon_egg",
       "rewards": {
-        "attributes": {},
-        "items": [
-          {
-            "item": "minecraft:experience_bottle",
-            "count": 32
-          }
-        ]
+        "attributes": {}
       }
     },
     "adventure/kill_mob_near_sculk_catalyst": {
@@ -336,13 +198,7 @@
       "enabled": true,
       "icon": "minecraft:sculk_catalyst",
       "rewards": {
-        "attributes": {},
-        "items": [
-          {
-            "item": "minecraft:diamond_hoe",
-            "count": 1
-          }
-        ]
+        "attributes": {}
       }
     },
     "nether/explore_nether": {
@@ -351,17 +207,7 @@
       "enabled": true,
       "icon": "minecraft:netherite_boots",
       "rewards": {
-        "attributes": {},
-        "items": [
-          {
-            "item": "minecraft:fishing_rod",
-            "count": 1
-          },
-          {
-            "item": "minecraft:gold_nugget",
-            "count": 16
-          }
-        ]
+        "attributes": {}
       }
     },
     "adventure/fall_from_world_height": {
@@ -370,13 +216,7 @@
       "enabled": true,
       "icon": "minecraft:water_bucket",
       "rewards": {
-        "attributes": {},
-        "items": [
-          {
-            "item": "minecraft:slime_block",
-            "count": 4
-          }
-        ]
+        "attributes": {}
       }
     },
     "nether/ride_strider": {
@@ -385,13 +225,7 @@
       "enabled": true,
       "icon": "minecraft:warped_fungus_on_a_stick",
       "rewards": {
-        "attributes": {},
-        "items": [
-          {
-            "item": "minecraft:magma_cream",
-            "count": 8
-          }
-        ]
+        "attributes": {}
       }
     },
     "adventure/sniper_duel": {
@@ -400,17 +234,7 @@
       "enabled": true,
       "icon": "minecraft:arrow",
       "rewards": {
-        "attributes": {},
-        "items": [
-          {
-            "item": "minecraft:bow",
-            "count": 1
-          },
-          {
-            "item": "minecraft:arrow",
-            "count": 32
-          }
-        ]
+        "attributes": {}
       }
     },
     "end/levitate": {
@@ -419,13 +243,7 @@
       "enabled": true,
       "icon": "minecraft:shulker_shell",
       "rewards": {
-        "attributes": {},
-        "items": [
-          {
-            "item": "minecraft:shulker_shell",
-            "count": 4
-          }
-        ]
+        "attributes": {}
       }
     },
     "nether/all_effects": {
@@ -434,17 +252,7 @@
       "enabled": true,
       "icon": "minecraft:bucket",
       "rewards": {
-        "attributes": {},
-        "items": [
-          {
-            "item": "minecraft:netherite_ingot",
-            "count": 1
-          },
-          {
-            "item": "minecraft:golden_apple",
-            "count": 8
-          }
-        ]
+        "attributes": {}
       }
     },
     "adventure/bullseye": {
@@ -453,13 +261,7 @@
       "enabled": true,
       "icon": "minecraft:target",
       "rewards": {
-        "attributes": {},
-        "items": [
-          {
-            "item": "minecraft:arrow",
-            "count": 32
-          }
-        ]
+        "attributes": {}
       }
     },
     "nether/get_wither_skull": {
@@ -468,13 +270,7 @@
       "enabled": true,
       "icon": "minecraft:wither_skeleton_skull",
       "rewards": {
-        "attributes": {},
-        "items": [
-          {
-            "item": "minecraft:wither_skeleton_skull",
-            "count": 1
-          }
-        ]
+        "attributes": {}
       }
     },
     "husbandry/bred_all_animals": {
@@ -483,17 +279,7 @@
       "enabled": true,
       "icon": "minecraft:golden_carrot",
       "rewards": {
-        "attributes": {},
-        "items": [
-          {
-            "item": "minecraft:golden_carrot",
-            "count": 16
-          },
-          {
-            "item": "minecraft:lead",
-            "count": 8
-          }
-        ]
+        "attributes": {}
       }
     },
     "story/mine_stone": {
@@ -502,13 +288,7 @@
       "enabled": true,
       "icon": "minecraft:wooden_pickaxe",
       "rewards": {
-        "attributes": {},
-        "items": [
-          {
-            "item": "minecraft:coal",
-            "count": 16
-          }
-        ]
+        "attributes": {}
       }
     },
     "adventure/two_birds_one_arrow": {
@@ -517,17 +297,7 @@
       "enabled": true,
       "icon": "minecraft:crossbow",
       "rewards": {
-        "attributes": {},
-        "items": [
-          {
-            "item": "minecraft:crossbow",
-            "count": 1
-          },
-          {
-            "item": "minecraft:arrow",
-            "count": 24
-          }
-        ]
+        "attributes": {}
       }
     },
     "story/enter_the_nether": {
@@ -536,13 +306,7 @@
       "enabled": true,
       "icon": "minecraft:flint_and_steel",
       "rewards": {
-        "attributes": {},
-        "items": [
-          {
-            "item": "minecraft:gold_ingot",
-            "count": 24
-          }
-        ]
+        "attributes": {}
       }
     },
     "adventure/whos_the_pillager_now": {
@@ -551,13 +315,7 @@
       "enabled": true,
       "icon": "minecraft:crossbow",
       "rewards": {
-        "attributes": {},
-        "items": [
-          {
-            "item": "minecraft:crossbow",
-            "count": 1
-          }
-        ]
+        "attributes": {}
       }
     },
     "story/upgrade_tools": {
@@ -566,13 +324,7 @@
       "enabled": true,
       "icon": "minecraft:stone_pickaxe",
       "rewards": {
-        "attributes": {},
-        "items": [
-          {
-            "item": "minecraft:coal",
-            "count": 12
-          }
-        ]
+        "attributes": {}
       }
     },
     "adventure/walk_on_powder_snow_with_leather_boots": {
@@ -581,13 +333,7 @@
       "enabled": true,
       "icon": "minecraft:leather_boots",
       "rewards": {
-        "attributes": {},
-        "items": [
-          {
-            "item": "minecraft:torch",
-            "count": 32
-          }
-        ]
+        "attributes": {}
       }
     },
     "husbandry/tactical_fishing": {
@@ -596,13 +342,7 @@
       "enabled": true,
       "icon": "minecraft:pufferfish_bucket",
       "rewards": {
-        "attributes": {},
-        "items": [
-          {
-            "item": "minecraft:bucket",
-            "count": 2
-          }
-        ]
+        "attributes": {}
       }
     },
     "adventure/salvage_sherd": {
@@ -611,13 +351,7 @@
       "enabled": true,
       "icon": "minecraft:brush",
       "rewards": {
-        "attributes": {},
-        "items": [
-          {
-            "item": "minecraft:brush",
-            "count": 2
-          }
-        ]
+        "attributes": {}
       }
     },
     "story/cure_zombie_villager": {
@@ -626,13 +360,7 @@
       "enabled": true,
       "icon": "minecraft:golden_apple",
       "rewards": {
-        "attributes": {},
-        "items": [
-          {
-            "item": "minecraft:emerald",
-            "count": 32
-          }
-        ]
+        "attributes": {}
       }
     },
     "husbandry/feed_snifflet": {
@@ -641,13 +369,7 @@
       "enabled": true,
       "icon": "minecraft:torchflower_seeds",
       "rewards": {
-        "attributes": {},
-        "items": [
-          {
-            "item": "minecraft:torchflower_seeds",
-            "count": 8
-          }
-        ]
+        "attributes": {}
       }
     },
     "end/find_end_city": {
@@ -656,17 +378,7 @@
       "enabled": true,
       "icon": "minecraft:purpur_block",
       "rewards": {
-        "attributes": {},
-        "items": [
-          {
-            "item": "minecraft:ender_pearl",
-            "count": 16
-          },
-          {
-            "item": "minecraft:chorus_fruit",
-            "count": 16
-          }
-        ]
+        "attributes": {}
       }
     },
     "story/form_obsidian": {
@@ -675,13 +387,7 @@
       "enabled": true,
       "icon": "minecraft:obsidian",
       "rewards": {
-        "attributes": {},
-        "items": [
-          {
-            "item": "minecraft:flint_and_steel",
-            "count": 1
-          }
-        ]
+        "attributes": {}
       }
     },
     "end/enter_end_gateway": {
@@ -690,13 +396,7 @@
       "enabled": true,
       "icon": "minecraft:ender_pearl",
       "rewards": {
-        "attributes": {},
-        "items": [
-          {
-            "item": "minecraft:ender_pearl",
-            "count": 16
-          }
-        ]
+        "attributes": {}
       }
     },
     "nether/obtain_blaze_rod": {
@@ -705,13 +405,7 @@
       "enabled": true,
       "icon": "minecraft:blaze_rod",
       "rewards": {
-        "attributes": {},
-        "items": [
-          {
-            "item": "minecraft:blaze_rod",
-            "count": 8
-          }
-        ]
+        "attributes": {}
       }
     },
     "nether/loot_bastion": {
@@ -720,13 +414,7 @@
       "enabled": true,
       "icon": "minecraft:chest",
       "rewards": {
-        "attributes": {},
-        "items": [
-          {
-            "item": "minecraft:gold_block",
-            "count": 8
-          }
-        ]
+        "attributes": {}
       }
     },
     "adventure/shoot_arrow": {
@@ -735,13 +423,7 @@
       "enabled": true,
       "icon": "minecraft:bow",
       "rewards": {
-        "attributes": {},
-        "items": [
-          {
-            "item": "minecraft:arrow",
-            "count": 32
-          }
-        ]
+        "attributes": {}
       }
     },
     "husbandry/silk_touch_nest": {
@@ -750,13 +432,7 @@
       "enabled": true,
       "icon": "minecraft:bee_nest",
       "rewards": {
-        "attributes": {},
-        "items": [
-          {
-            "item": "minecraft:campfire",
-            "count": 4
-          }
-        ]
+        "attributes": {}
       }
     },
     "adventure/arbalistic": {
@@ -765,14 +441,7 @@
       "enabled": true,
       "icon": "minecraft:crossbow",
       "rewards": {
-        "attributes": {},
-        "items": [
-          {
-            "item": "minecraft:crossbow",
-            "count": 1,
-            "nbt": "{Enchantments:[{id:\"minecraft:piercing\",lvl:4s},{id:\"minecraft:quick_charge\",lvl:3s}]}"
-          }
-        ]
+        "attributes": {}
       }
     },
     "end/respawn_dragon": {
@@ -781,13 +450,7 @@
       "enabled": true,
       "icon": "minecraft:end_crystal",
       "rewards": {
-        "attributes": {},
-        "items": [
-          {
-            "item": "minecraft:dragon_breath",
-            "count": 16
-          }
-        ]
+        "attributes": {}
       }
     },
     "story/smelt_iron": {
@@ -796,13 +459,7 @@
       "enabled": true,
       "icon": "minecraft:iron_ingot",
       "rewards": {
-        "attributes": {},
-        "items": [
-          {
-            "item": "minecraft:iron_ingot",
-            "count": 6
-          }
-        ]
+        "attributes": {}
       }
     },
     "nether/charge_respawn_anchor": {
@@ -811,13 +468,7 @@
       "enabled": true,
       "icon": "minecraft:respawn_anchor",
       "rewards": {
-        "attributes": {},
-        "items": [
-          {
-            "item": "minecraft:glowstone",
-            "count": 16
-          }
-        ]
+        "attributes": {}
       }
     },
     "story/shiny_gear": {
@@ -826,13 +477,7 @@
       "enabled": true,
       "icon": "minecraft:diamond_chestplate",
       "rewards": {
-        "attributes": {},
-        "items": [
-          {
-            "item": "minecraft:diamond",
-            "count": 8
-          }
-        ]
+        "attributes": {}
       }
     },
     "end/elytra": {
@@ -841,17 +486,7 @@
       "enabled": true,
       "icon": "minecraft:elytra",
       "rewards": {
-        "attributes": {},
-        "items": [
-          {
-            "item": "minecraft:firework_rocket",
-            "count": 64
-          },
-          {
-            "item": "minecraft:phantom_membrane",
-            "count": 12
-          }
-        ]
+        "attributes": {}
       }
     },
     "husbandry/tadpole_in_a_bucket": {
@@ -860,13 +495,7 @@
       "enabled": true,
       "icon": "minecraft:tadpole_bucket",
       "rewards": {
-        "attributes": {},
-        "items": [
-          {
-            "item": "minecraft:slime_ball",
-            "count": 16
-          }
-        ]
+        "attributes": {}
       }
     },
     "husbandry/wax_off": {
@@ -875,13 +504,7 @@
       "enabled": true,
       "icon": "minecraft:stone_axe",
       "rewards": {
-        "attributes": {},
-        "items": [
-          {
-            "item": "minecraft:honeycomb",
-            "count": 8
-          }
-        ]
+        "attributes": {}
       }
     },
     "adventure/summon_iron_golem": {
@@ -890,13 +513,7 @@
       "enabled": true,
       "icon": "minecraft:carved_pumpkin",
       "rewards": {
-        "attributes": {},
-        "items": [
-          {
-            "item": "minecraft:bread",
-            "count": 16
-          }
-        ]
+        "attributes": {}
       }
     },
     "adventure/avoid_vibration": {
@@ -905,14 +522,7 @@
       "enabled": true,
       "icon": "minecraft:sculk_sensor",
       "rewards": {
-        "attributes": {},
-        "items": [
-          {
-            "item": "minecraft:potion",
-            "count": 2,
-            "nbt": "{Potion:\"minecraft:night_vision\"}"
-          }
-        ]
+        "attributes": {}
       }
     },
     "nether/return_to_sender": {
@@ -921,14 +531,7 @@
       "enabled": true,
       "icon": "minecraft:fire_charge",
       "rewards": {
-        "attributes": {},
-        "items": [
-          {
-            "item": "minecraft:potion",
-            "count": 1,
-            "nbt": "{Potion:\"minecraft:fire_resistance\"}"
-          }
-        ]
+        "attributes": {}
       }
     },
     "adventure/sleep_in_bed": {
@@ -937,13 +540,7 @@
       "enabled": true,
       "icon": "minecraft:red_bed",
       "rewards": {
-        "attributes": {},
-        "items": [
-          {
-            "item": "minecraft:cooked_beef",
-            "count": 18
-          }
-        ]
+        "attributes": {}
       }
     },
     "end/dragon_breath": {
@@ -952,13 +549,7 @@
       "enabled": true,
       "icon": "minecraft:dragon_breath",
       "rewards": {
-        "attributes": {},
-        "items": [
-          {
-            "item": "minecraft:glass_bottle",
-            "count": 6
-          }
-        ]
+        "attributes": {}
       }
     },
     "adventure/kill_all_mobs": {
@@ -967,21 +558,7 @@
       "enabled": true,
       "icon": "minecraft:diamond_sword",
       "rewards": {
-        "attributes": {},
-        "items": [
-          {
-            "item": "minecraft:totem_of_undying",
-            "count": 1
-          },
-          {
-            "item": "minecraft:netherite_scrap",
-            "count": 2
-          },
-          {
-            "item": "minecraft:golden_apple",
-            "count": 4
-          }
-        ]
+        "attributes": {}
       }
     },
     "story/enchant_item": {
@@ -990,13 +567,7 @@
       "enabled": true,
       "icon": "minecraft:enchanted_book",
       "rewards": {
-        "attributes": {},
-        "items": [
-          {
-            "item": "minecraft:lapis_lazuli",
-            "count": 12
-          }
-        ]
+        "attributes": {}
       }
     },
     "husbandry/obtain_sniffer_egg": {
@@ -1005,21 +576,7 @@
       "enabled": true,
       "icon": "minecraft:sniffer_egg",
       "rewards": {
-        "attributes": {},
-        "items": [
-          {
-            "item": "minecraft:torchflower_seeds",
-            "count": 6
-          },
-          {
-            "item": "minecraft:pitcher_pod",
-            "count": 4
-          },
-          {
-            "item": "minecraft:bone_meal",
-            "count": 16
-          }
-        ]
+        "attributes": {}
       }
     },
     "adventure/voluntary_exile": {
@@ -1028,17 +585,7 @@
       "enabled": true,
       "icon": "minecraft:white_banner",
       "rewards": {
-        "attributes": {},
-        "items": [
-          {
-            "item": "minecraft:emerald",
-            "count": 10
-          },
-          {
-            "item": "minecraft:shield",
-            "count": 1
-          }
-        ]
+        "attributes": {}
       }
     },
     "story/follow_ender_eye": {
@@ -1047,17 +594,7 @@
       "enabled": true,
       "icon": "minecraft:ender_eye",
       "rewards": {
-        "attributes": {},
-        "items": [
-          {
-            "item": "minecraft:ender_pearl",
-            "count": 4
-          },
-          {
-            "item": "minecraft:experience_bottle",
-            "count": 8
-          }
-        ]
+        "attributes": {}
       }
     },
     "adventure/spyglass_at_parrot": {
@@ -1066,17 +603,7 @@
       "enabled": true,
       "icon": "minecraft:spyglass",
       "rewards": {
-        "attributes": {},
-        "items": [
-          {
-            "item": "minecraft:cookie",
-            "count": 16
-          },
-          {
-            "item": "minecraft:feather",
-            "count": 8
-          }
-        ]
+        "attributes": {}
       }
     },
     "husbandry/obtain_netherite_hoe": {
@@ -1085,21 +612,7 @@
       "enabled": true,
       "icon": "minecraft:netherite_hoe",
       "rewards": {
-        "attributes": {},
-        "items": [
-          {
-            "item": "minecraft:netherite_ingot",
-            "count": 1
-          },
-          {
-            "item": "minecraft:hay_block",
-            "count": 16
-          },
-          {
-            "item": "minecraft:golden_carrot",
-            "count": 12
-          }
-        ]
+        "attributes": {}
       }
     },
     "adventure/totem_of_undying": {
@@ -1108,13 +621,7 @@
       "enabled": true,
       "icon": "minecraft:totem_of_undying",
       "rewards": {
-        "attributes": {},
-        "items": [
-          {
-            "item": "minecraft:golden_apple",
-            "count": 6
-          }
-        ]
+        "attributes": {}
       }
     },
     "adventure/kill_a_mob": {
@@ -1123,13 +630,7 @@
       "enabled": true,
       "icon": "minecraft:iron_sword",
       "rewards": {
-        "attributes": {},
-        "items": [
-          {
-            "item": "minecraft:cooked_beef",
-            "count": 16
-          }
-        ]
+        "attributes": {}
       }
     },
     "husbandry/plant_any_sniffer_seed": {
@@ -1138,13 +639,7 @@
       "enabled": true,
       "icon": "minecraft:pitcher_pod",
       "rewards": {
-        "attributes": {},
-        "items": [
-          {
-            "item": "minecraft:bread",
-            "count": 4
-          }
-        ]
+        "attributes": {}
       }
     },
     "adventure/adventuring_time": {
@@ -1153,17 +648,7 @@
       "enabled": true,
       "icon": "minecraft:diamond_boots",
       "rewards": {
-        "attributes": {},
-        "items": [
-          {
-            "item": "minecraft:elytra",
-            "count": 1
-          },
-          {
-            "item": "minecraft:firework_rocket",
-            "count": 32
-          }
-        ]
+        "attributes": {}
       }
     },
     "husbandry/plant_seed": {
@@ -1172,17 +657,7 @@
       "enabled": true,
       "icon": "minecraft:wheat",
       "rewards": {
-        "attributes": {},
-        "items": [
-          {
-            "item": "minecraft:torchflower_seeds",
-            "count": 4
-          },
-          {
-            "item": "minecraft:pitcher_pod",
-            "count": 4
-          }
-        ]
+        "attributes": {}
       }
     },
     "nether/find_bastion": {
@@ -1191,17 +666,7 @@
       "enabled": true,
       "icon": "minecraft:polished_blackstone_bricks",
       "rewards": {
-        "attributes": {},
-        "items": [
-          {
-            "item": "minecraft:gold_ingot",
-            "count": 10
-          },
-          {
-            "item": "minecraft:gilded_blackstone",
-            "count": 6
-          }
-        ]
+        "attributes": {}
       }
     },
     "husbandry/axolotl_in_a_bucket": {
@@ -1210,17 +675,7 @@
       "enabled": true,
       "icon": "minecraft:axolotl_bucket",
       "rewards": {
-        "attributes": {},
-        "items": [
-          {
-            "item": "minecraft:tropical_fish_bucket",
-            "count": 2
-          },
-          {
-            "item": "minecraft:sea_pickle",
-            "count": 6
-          }
-        ]
+        "attributes": {}
       }
     },
     "husbandry/allay_deliver_cake_to_note_block": {
@@ -1229,14 +684,7 @@
       "enabled": true,
       "icon": "minecraft:note_block",
       "rewards": {
-        "attributes": {},
-        "items": [
-          {
-            "item": "minecraft:potion",
-            "count": 1,
-            "nbt": "{Potion:\"minecraft:water_breathing\"}"
-          }
-        ]
+        "attributes": {}
       }
     },
     "adventure/spyglass_at_dragon": {
@@ -1245,14 +693,7 @@
       "enabled": true,
       "icon": "minecraft:spyglass",
       "rewards": {
-        "attributes": {},
-        "items": [
-          {
-            "item": "minecraft:potion",
-            "count": 1,
-            "nbt": "{Potion:\"minecraft:slow_falling\"}"
-          }
-        ]
+        "attributes": {}
       }
     },
     "nether/ride_strider_in_overworld_lava": {
@@ -1261,18 +702,7 @@
       "enabled": true,
       "icon": "minecraft:warped_fungus_on_a_stick",
       "rewards": {
-        "attributes": {},
-        "items": [
-          {
-            "item": "minecraft:fire_resistance",
-            "count": 1,
-            "nbt": "{Potion:\"minecraft:fire_resistance\"}"
-          },
-          {
-            "item": "minecraft:magma_cream",
-            "count": 8
-          }
-        ]
+        "attributes": {}
       }
     },
     "adventure/trade_at_world_height": {
@@ -1281,21 +711,7 @@
       "enabled": true,
       "icon": "minecraft:emerald",
       "rewards": {
-        "attributes": {},
-        "items": [
-          {
-            "item": "minecraft:ender_pearl",
-            "count": 12
-          },
-          {
-            "item": "minecraft:scaffolding",
-            "count": 32
-          },
-          {
-            "item": "minecraft:iron_block",
-            "count": 8
-          }
-        ]
+        "attributes": {}
       }
     },
     "husbandry/wax_on": {
@@ -1304,13 +720,7 @@
       "enabled": true,
       "icon": "minecraft:honeycomb",
       "rewards": {
-        "attributes": {},
-        "items": [
-          {
-            "item": "minecraft:copper_block",
-            "count": 4
-          }
-        ]
+        "attributes": {}
       }
     },
     "adventure/play_jukebox_in_meadows": {
@@ -1319,17 +729,7 @@
       "enabled": true,
       "icon": "minecraft:jukebox",
       "rewards": {
-        "attributes": {},
-        "items": [
-          {
-            "item": "minecraft:goat_horn",
-            "count": 1
-          },
-          {
-            "item": "minecraft:lead",
-            "count": 2
-          }
-        ]
+        "attributes": {}
       }
     },
     "adventure/hero_of_the_village": {
@@ -1338,21 +738,7 @@
       "enabled": true,
       "icon": "minecraft:white_banner",
       "rewards": {
-        "attributes": {},
-        "items": [
-          {
-            "item": "minecraft:emerald",
-            "count": 24
-          },
-          {
-            "item": "minecraft:iron_block",
-            "count": 6
-          },
-          {
-            "item": "minecraft:shield",
-            "count": 1
-          }
-        ]
+        "attributes": {}
       }
     },
     "nether/obtain_ancient_debris": {
@@ -1361,17 +747,7 @@
       "enabled": true,
       "icon": "minecraft:ancient_debris",
       "rewards": {
-        "attributes": {},
-        "items": [
-          {
-            "item": "minecraft:netherite_scrap",
-            "count": 1
-          },
-          {
-            "item": "minecraft:blast_furnace",
-            "count": 1
-          }
-        ]
+        "attributes": {}
       }
     },
     "nether/create_full_beacon": {
@@ -1380,21 +756,7 @@
       "enabled": true,
       "icon": "minecraft:beacon",
       "rewards": {
-        "attributes": {},
-        "items": [
-          {
-            "item": "minecraft:netherite_ingot",
-            "count": 1
-          },
-          {
-            "item": "minecraft:diamond_block",
-            "count": 4
-          },
-          {
-            "item": "minecraft:iron_block",
-            "count": 8
-          }
-        ]
+        "attributes": {}
       }
     },
     "nether/summon_wither": {
@@ -1403,23 +765,7 @@
       "enabled": true,
       "icon": "minecraft:nether_star",
       "rewards": {
-        "attributes": {},
-        "items": [
-          {
-            "item": "minecraft:diamond_sword",
-            "count": 1,
-            "nbt": "{display:{Name:\u0027{\"text\":\"Excalibur\",\"italic\":false}\u0027},Enchantments:[{id:\"minecraft:sharpness\",lvl:4s},{id:\"minecraft:unbreaking\",lvl:3s}]}"
-          },
-          {
-            "item": "minecraft:golden_apple",
-            "count": 4
-          },
-          {
-            "item": "minecraft:potion",
-            "count": 1,
-            "nbt": "{Potion:\"minecraft:strength\"}"
-          }
-        ]
+        "attributes": {}
       }
     },
     "husbandry/balanced_diet": {
@@ -1428,21 +774,7 @@
       "enabled": true,
       "icon": "minecraft:apple",
       "rewards": {
-        "attributes": {},
-        "items": [
-          {
-            "item": "minecraft:heart_of_the_sea",
-            "count": 1
-          },
-          {
-            "item": "minecraft:nautilus_shell",
-            "count": 4
-          },
-          {
-            "item": "minecraft:experience_bottle",
-            "count": 16
-          }
-        ]
+        "attributes": {}
       }
     },
     "nether/fast_travel": {
@@ -1451,21 +783,7 @@
       "enabled": true,
       "icon": "minecraft:map",
       "rewards": {
-        "attributes": {},
-        "items": [
-          {
-            "item": "minecraft:ender_pearl",
-            "count": 16
-          },
-          {
-            "item": "minecraft:firework_rocket",
-            "count": 32
-          },
-          {
-            "item": "minecraft:lodestone",
-            "count": 1
-          }
-        ]
+        "attributes": {}
       }
     },
     "adventure/read_power_of_chiseled_bookshelf": {
@@ -1474,17 +792,7 @@
       "enabled": true,
       "icon": "minecraft:chiseled_bookshelf",
       "rewards": {
-        "attributes": {},
-        "items": [
-          {
-            "item": "minecraft:redstone",
-            "count": 32
-          },
-          {
-            "item": "minecraft:sticky_piston",
-            "count": 4
-          }
-        ]
+        "attributes": {}
       }
     },
     "nether/use_lodestone": {
@@ -1493,13 +801,7 @@
       "enabled": true,
       "icon": "minecraft:lodestone",
       "rewards": {
-        "attributes": {},
-        "items": [
-          {
-            "item": "minecraft:compass",
-            "count": 2
-          }
-        ]
+        "attributes": {}
       }
     },
     "husbandry/safely_harvest_honey": {
@@ -1508,17 +810,7 @@
       "enabled": true,
       "icon": "minecraft:honey_bottle",
       "rewards": {
-        "attributes": {},
-        "items": [
-          {
-            "item": "minecraft:golden_carrot",
-            "count": 6
-          },
-          {
-            "item": "minecraft:flower_pot",
-            "count": 4
-          }
-        ]
+        "attributes": {}
       }
     },
     "adventure/trade": {
@@ -1527,13 +819,7 @@
       "enabled": true,
       "icon": "minecraft:emerald",
       "rewards": {
-        "attributes": {},
-        "items": [
-          {
-            "item": "minecraft:iron_ingot",
-            "count": 6
-          }
-        ]
+        "attributes": {}
       }
     },
     "adventure/spyglass_at_ghast": {
@@ -1542,14 +828,7 @@
       "enabled": true,
       "icon": "minecraft:spyglass",
       "rewards": {
-        "attributes": {},
-        "items": [
-          {
-            "item": "minecraft:potion",
-            "count": 1,
-            "nbt": "{Potion:\"minecraft:fire_resistance\"}"
-          }
-        ]
+        "attributes": {}
       }
     },
     "adventure/trim_with_any_armor_pattern": {
@@ -1558,17 +837,7 @@
       "enabled": true,
       "icon": "minecraft:dune_armor_trim_smithing_template",
       "rewards": {
-        "attributes": {},
-        "items": [
-          {
-            "item": "minecraft:amethyst_shard",
-            "count": 8
-          },
-          {
-            "item": "minecraft:diamond",
-            "count": 4
-          }
-        ]
+        "attributes": {}
       }
     },
     "nether/uneasy_alliance": {
@@ -1577,18 +846,7 @@
       "enabled": true,
       "icon": "minecraft:ghast_tear",
       "rewards": {
-        "attributes": {},
-        "items": [
-          {
-            "item": "minecraft:ghast_tear",
-            "count": 4
-          },
-          {
-            "item": "minecraft:potion",
-            "count": 1,
-            "nbt": "{Potion:\"minecraft:regeneration\"}"
-          }
-        ]
+        "attributes": {}
       }
     },
     "story/mine_diamond": {
@@ -1597,13 +855,7 @@
       "enabled": true,
       "icon": "minecraft:diamond",
       "rewards": {
-        "attributes": {},
-        "items": [
-          {
-            "item": "minecraft:diamond",
-            "count": 4
-          }
-        ]
+        "attributes": {}
       }
     },
     "husbandry/kill_axolotl_target": {
@@ -1612,18 +864,7 @@
       "enabled": true,
       "icon": "minecraft:tropical_fish_bucket",
       "rewards": {
-        "attributes": {},
-        "items": [
-          {
-            "item": "minecraft:potion",
-            "count": 1,
-            "nbt": "{Potion:\"minecraft:water_breathing\"}"
-          },
-          {
-            "item": "minecraft:prismarine_crystals",
-            "count": 8
-          }
-        ]
+        "attributes": {}
       }
     },
     "nether/find_fortress": {
@@ -1632,18 +873,7 @@
       "enabled": true,
       "icon": "minecraft:nether_bricks",
       "rewards": {
-        "attributes": {},
-        "items": [
-          {
-            "item": "minecraft:potion",
-            "count": 1,
-            "nbt": "{Potion:\"minecraft:fire_resistance\"}"
-          },
-          {
-            "item": "minecraft:blaze_rod",
-            "count": 4
-          }
-        ]
+        "attributes": {}
       }
     },
     "adventure/throw_trident": {
@@ -1652,17 +882,7 @@
       "enabled": true,
       "icon": "minecraft:trident",
       "rewards": {
-        "attributes": {},
-        "items": [
-          {
-            "item": "minecraft:trident",
-            "count": 1
-          },
-          {
-            "item": "minecraft:prismarine_shard",
-            "count": 8
-          }
-        ]
+        "attributes": {}
       }
     },
     "adventure/honey_block_slide": {
@@ -1671,17 +891,7 @@
       "enabled": true,
       "icon": "minecraft:honey_block",
       "rewards": {
-        "attributes": {},
-        "items": [
-          {
-            "item": "minecraft:honey_block",
-            "count": 4
-          },
-          {
-            "item": "minecraft:slime_block",
-            "count": 4
-          }
-        ]
+        "attributes": {}
       }
     },
     "adventure/ol_betsy": {
@@ -1690,13 +900,7 @@
       "enabled": true,
       "icon": "minecraft:crossbow",
       "rewards": {
-        "attributes": {},
-        "items": [
-          {
-            "item": "minecraft:crossbow",
-            "count": 1
-          }
-        ]
+        "attributes": {}
       }
     },
     "nether/netherite_armor": {
@@ -1705,17 +909,7 @@
       "enabled": true,
       "icon": "minecraft:netherite_chestplate",
       "rewards": {
-        "attributes": {},
-        "items": [
-          {
-            "item": "minecraft:netherite_scrap",
-            "count": 2
-          },
-          {
-            "item": "minecraft:diamond",
-            "count": 8
-          }
-        ]
+        "attributes": {}
       }
     },
     "story/enter_the_end": {
@@ -1724,18 +918,7 @@
       "enabled": true,
       "icon": "minecraft:end_stone",
       "rewards": {
-        "attributes": {},
-        "items": [
-          {
-            "item": "minecraft:ender_pearl",
-            "count": 8
-          },
-          {
-            "item": "minecraft:potion",
-            "count": 1,
-            "nbt": "{Potion:\"minecraft:slow_falling\"}"
-          }
-        ]
+        "attributes": {}
       }
     },
     "husbandry/breed_an_animal": {
@@ -1744,13 +927,7 @@
       "enabled": true,
       "icon": "minecraft:wheat",
       "rewards": {
-        "attributes": {},
-        "items": [
-          {
-            "item": "minecraft:wheat",
-            "count": 12
-          }
-        ]
+        "attributes": {}
       }
     },
     "husbandry/complete_catalogue": {
@@ -1759,21 +936,7 @@
       "enabled": true,
       "icon": "minecraft:cod",
       "rewards": {
-        "attributes": {},
-        "items": [
-          {
-            "item": "minecraft:cod",
-            "count": 8
-          },
-          {
-            "item": "minecraft:name_tag",
-            "count": 3
-          },
-          {
-            "item": "minecraft:lead",
-            "count": 3
-          }
-        ]
+        "attributes": {}
       }
     },
     "husbandry/fishy_business": {
@@ -1782,17 +945,7 @@
       "enabled": true,
       "icon": "minecraft:fishing_rod",
       "rewards": {
-        "attributes": {},
-        "items": [
-          {
-            "item": "minecraft:fishing_rod",
-            "count": 1
-          },
-          {
-            "item": "minecraft:emerald",
-            "count": 3
-          }
-        ]
+        "attributes": {}
       }
     },
     "adventure/minecraft_trials_edition": {
@@ -1801,17 +954,7 @@
       "enabled": true,
       "icon": "minecraft:chiseled_tuff",
       "rewards": {
-        "attributes": {},
-        "items": [
-          {
-            "item": "minecraft:emerald",
-            "count": 5
-          },
-          {
-            "item": "minecraft:experience_bottle",
-            "count": 16
-          }
-        ]
+        "attributes": {}
       }
     },
     "husbandry/whole_pack": {
@@ -1820,17 +963,7 @@
       "enabled": true,
       "icon": "minecraft:bone",
       "rewards": {
-        "attributes": {},
-        "items": [
-          {
-            "item": "minecraft:wolf_armor",
-            "count": 1
-          },
-          {
-            "item": "minecraft:beef",
-            "count": 32
-          }
-        ]
+        "attributes": {}
       }
     },
     "adventure/overoverkill": {
@@ -1841,13 +974,7 @@
       "rewards": {
         "attributes": {
           "minecraft:generic.attack_damage": 1.0
-        },
-        "items": [
-          {
-            "item": "minecraft:mace",
-            "count": 1
-          }
-        ]
+        }
       }
     },
     "adventure/under_lock_and_key": {
@@ -1856,17 +983,7 @@
       "enabled": true,
       "icon": "minecraft:trial_key",
       "rewards": {
-        "attributes": {},
-        "items": [
-          {
-            "item": "minecraft:trial_key",
-            "count": 1
-          },
-          {
-            "item": "minecraft:gold_ingot",
-            "count": 12
-          }
-        ]
+        "attributes": {}
       }
     },
     "adventure/revaulting": {
@@ -1875,17 +992,7 @@
       "enabled": true,
       "icon": "minecraft:ominous_trial_key",
       "rewards": {
-        "attributes": {},
-        "items": [
-          {
-            "item": "minecraft:ominous_trial_key",
-            "count": 1
-          },
-          {
-            "item": "minecraft:diamond",
-            "count": 4
-          }
-        ]
+        "attributes": {}
       }
     },
     "adventure/blowback": {
@@ -1894,13 +1001,7 @@
       "enabled": true,
       "icon": "minecraft:wind_charge",
       "rewards": {
-        "attributes": {},
-        "items": [
-          {
-            "item": "minecraft:wind_charge",
-            "count": 8
-          }
-        ]
+        "attributes": {}
       }
     },
     "husbandry/repair_wolf_armor": {
@@ -1909,13 +1010,7 @@
       "enabled": true,
       "icon": "minecraft:wolf_armor",
       "rewards": {
-        "attributes": {},
-        "items": [
-          {
-            "item": "minecraft:wolf_armor",
-            "count": 1
-          }
-        ]
+        "attributes": {}
       }
     },
     "husbandry/remove_wolf_armor": {
@@ -1924,17 +1019,7 @@
       "enabled": true,
       "icon": "minecraft:shears",
       "rewards": {
-        "attributes": {},
-        "items": [
-          {
-            "item": "minecraft:shears",
-            "count": 1
-          },
-          {
-            "item": "minecraft:iron_ingot",
-            "count": 8
-          }
-        ]
+        "attributes": {}
       }
     },
     "adventure/lighten_up": {
@@ -1943,17 +1028,7 @@
       "enabled": true,
       "icon": "minecraft:copper_bulb",
       "rewards": {
-        "attributes": {},
-        "items": [
-          {
-            "item": "minecraft:copper_bulb",
-            "count": 8
-          },
-          {
-            "item": "minecraft:redstone",
-            "count": 16
-          }
-        ]
+        "attributes": {}
       }
     },
     "adventure/brush_armadillo": {
@@ -1962,13 +1037,7 @@
       "enabled": true,
       "icon": "minecraft:armadillo_scute",
       "rewards": {
-        "attributes": {},
-        "items": [
-          {
-            "item": "minecraft:armadillo_scute",
-            "count": 6
-          }
-        ]
+        "attributes": {}
       }
     },
     "adventure/crafters_crafting_crafters": {
@@ -1977,17 +1046,7 @@
       "enabled": true,
       "icon": "minecraft:crafter",
       "rewards": {
-        "attributes": {},
-        "items": [
-          {
-            "item": "minecraft:crafter",
-            "count": 1
-          },
-          {
-            "item": "minecraft:redstone",
-            "count": 24
-          }
-        ]
+        "attributes": {}
       }
     },
     "adventure/who_needs_rockets": {
@@ -1996,13 +1055,7 @@
       "enabled": true,
       "icon": "minecraft:wind_charge",
       "rewards": {
-        "attributes": {},
-        "items": [
-          {
-            "item": "minecraft:wind_charge",
-            "count": 16
-          }
-        ]
+        "attributes": {}
       }
     },
     "trailandtales_delightmain/tat_delight": {
@@ -2011,8 +1064,7 @@
       "enabled": true,
       "icon": "trailandtales_delight:pottery_cooking_pot",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "husbandry/place_dried_ghast_in_water": {
@@ -2021,8 +1073,7 @@
       "enabled": true,
       "icon": "minecraft:dried_ghast",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "adventure/i_have_my_suspicions": {
@@ -2031,8 +1082,7 @@
       "enabled": true,
       "icon": "trailsandtalesplus:suspicious_moss_block",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "trailandtales_delightmain/pottery_bowl": {
@@ -2041,8 +1091,7 @@
       "enabled": true,
       "icon": "trailandtales_delight:pottery_bowl",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "trailandtales_delightmain/golden_lantern_fruit": {
@@ -2051,8 +1100,7 @@
       "enabled": true,
       "icon": "trailandtales_delight:golden_lantern_fruit",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "trailandtales_delightmain/sniffer_eggshell_knife": {
@@ -2061,8 +1109,7 @@
       "enabled": true,
       "icon": "trailandtales_delight:sniffer_eggshell_knife",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "trailandtales_delightmain/raw_bamboo_tube_rice": {
@@ -2071,8 +1118,7 @@
       "enabled": true,
       "icon": "trailandtales_delight:raw_bamboo_tube_rice",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "adventure/heart_transplanter": {
@@ -2081,8 +1127,7 @@
       "enabled": true,
       "icon": "minecraft:creaking_heart",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "trailandtales_delightmain/lantern_fruit_seeds": {
@@ -2091,8 +1136,7 @@
       "enabled": true,
       "icon": "trailandtales_delight:lantern_fruit_seeds",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "husbandry/glowing_with_delight": {
@@ -2101,8 +1145,7 @@
       "enabled": true,
       "icon": "trailsandtalesplus:glowing_torchflower",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "trailandtales_delightmain/pitcher_taro": {
@@ -2111,8 +1154,7 @@
       "enabled": true,
       "icon": "trailandtales_delight:pitcher_taro",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "husbandry/uh_oh": {
@@ -2121,8 +1163,7 @@
       "enabled": true,
       "icon": "minecraft:tnt",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     }
   }

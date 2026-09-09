@@ -1,10 +1,10 @@
 {
     "title": {
-      "text": "Witchy Tips",
-      "bold": true,
-      "color": "green"
+        "translate": "tips.titles.witchy",
+        "bold": true,
+        "color": "green"
     },
     "tip": {
-      "text": "You can mute any sound in the game with Extreme Sound Muffler. By default, press F6 to access its menu."
+        "translate": "tips.text.soundmuffler"
     }
-  }
+}

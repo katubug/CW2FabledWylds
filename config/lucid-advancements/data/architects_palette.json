@@ -1,0 +1,16 @@
+{
+  "mod_id": "architects_palette",
+  "categories": [
+    {
+      "id": "main/root",
+      "advancement_root": "architects_palette:main/root",
+      "title": "Architect's Palette",
+      "description": "Time to build with something new.",
+      "icon": {
+        "type": "item",
+        "value": "architects_palette:chiseled_abyssaline_bricks"
+      },
+      "enabled": true
+    }
+  ]
+}

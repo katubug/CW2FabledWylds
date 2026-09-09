@@ -1,10 +1,10 @@
 {
     "title": {
-      "text": "Witchy Tips",
-      "bold": true,
-      "color": "green"
+        "translate": "tips.titles.witchy",
+        "bold": true,
+        "color": "green"
     },
     "tip": {
-      "text": "Press the middle mouse button in an inventory to sort it."
+        "translate": "tips.text.inventorysort"
     }
-  }
+}

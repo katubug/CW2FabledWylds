@@ -323,6 +323,13 @@ ServerEvents.recipes((e) => {
 			}
 		}
 
+		// fixing betternether: uses <type>_stripped_log and _bark instead of stripped_<type>_log and _wood
+		else if (modID == "betternether:") {
+			stripped_log = modID + type + "_stripped_log";
+			wood = modID + type + "_bark";
+			stripped_wood = modID + type + "_stripped_bark";
+		}
+
 		// minecraft sign posts
 		else if (modID == "minecraft:") {
 			sign_post = "supplementaries:sign_post_" + type;
@@ -636,4 +643,5 @@ ServerEvents.recipes((e) => {
 	luphieRecipeBuild(glow);
 	luphieRecipeBuild(purple);
 	luphieRecipeBuild(floweringPurple);
+
 });

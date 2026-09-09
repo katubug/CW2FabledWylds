@@ -9,8 +9,7 @@
       "enabled": true,
       "icon": "minecraft:end_stone",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "all_professions_traded": {
@@ -19,8 +18,7 @@
       "enabled": true,
       "icon": "minecraft:experience_bottle",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "kill_villager": {
@@ -29,8 +27,7 @@
       "enabled": true,
       "icon": "minecraft:iron_sword",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "kill_babyvillager": {
@@ -39,8 +36,7 @@
       "enabled": true,
       "icon": "minecraft:iron_axe",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "nether_trade": {
@@ -49,8 +45,7 @@
       "enabled": true,
       "icon": "minecraft:netherrack",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "all_workstations_get": {
@@ -59,8 +54,7 @@
       "enabled": true,
       "icon": "minecraft:smithing_table",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "buy_map": {
@@ -69,8 +63,7 @@
       "enabled": true,
       "icon": "minecraft:compass",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "master_trade": {
@@ -79,8 +72,7 @@
       "enabled": true,
       "icon": "minecraft:diamond",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "first_village": {
@@ -89,8 +81,7 @@
       "enabled": true,
       "icon": "minecraft:map",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "tame_cat": {
@@ -99,8 +90,7 @@
       "enabled": true,
       "icon": "minecraft:cod",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "first_trade": {
@@ -109,8 +99,7 @@
       "enabled": true,
       "icon": "minecraft:emerald",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "all_villages": {
@@ -119,8 +108,7 @@
       "enabled": true,
       "icon": "minecraft:filled_map",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "map_endcity": {
@@ -129,8 +117,7 @@
       "enabled": true,
       "icon": "minecraft:purpur_block",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "map_bastion": {
@@ -139,8 +126,7 @@
       "enabled": true,
       "icon": "minecraft:polished_blackstone_bricks",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "first_workstation_get": {
@@ -149,8 +135,7 @@
       "enabled": true,
       "icon": "minecraft:stonecutter",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     }
   }

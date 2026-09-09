@@ -90,6 +90,28 @@
 			x: 5.5d
 			y: -2.0d
 		}
+		{
+			click_action: "none:"
+			height: 20.0d
+			id: "30B8C098334BC956"
+			image: "fabled_wylds:textures/questui/bookbgslg/blue_book_lg.png"
+			order: -5
+			rotation: 0.0d
+			width: 25.0d
+			x: 0.5d
+			y: 17.5d
+		}
+		{
+			click_action: "none:quest_enhance:text_v3:1.5:20:fabled_wylds:alagardHamsters"
+			color: 2062755
+			height: 0.4583333333333333d
+			id: "0066640A6E8E77D6"
+			image: ""
+			rotation: 0.0d
+			width: 3.6666666666666665d
+			x: -4.5d
+			y: 10.5d
+		}
 	]
 	order_index: 2
 	quest_enhance_decorative_lines: [ ]
@@ -1704,6 +1726,7 @@
 			y: -1.0d
 		}
 		{
+			dependencies: ["04FD578146464FA6"]
 			id: "5C59C06355C7DC77"
 			preset: "item"
 			tasks: [
@@ -1718,8 +1741,8 @@
 					type: "item"
 				}
 			]
-			x: -11.0d
-			y: 0.0d
+			x: -4.5d
+			y: 12.0d
 		}
 		{
 			id: "02000A977B04C84A"
@@ -1973,6 +1996,28 @@
 			}]
 			x: -4.5d
 			y: 0.5d
+		}
+		{
+			id: "04FD578146464FA6"
+			preset: "start"
+			rewards: [{
+				count: 5
+				id: "6405BDBEEFAFCC7E"
+				item: {
+					count: 1
+					id: "adorablehamsterpets:sliced_cucumber"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "adorablehamsterpets:hamster"
+				id: "6934A7F04069185A"
+				search_radius_blocks: 64
+				target_radius_blocks: 5
+				type: "find_entity"
+			}]
+			x: -7.0d
+			y: 12.0d
 		}
 	]
 }

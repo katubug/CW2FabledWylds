@@ -9,8 +9,7 @@
       "enabled": true,
       "icon": "wetland_whimsy:lemonstone_pillar",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "swamp_dungeon": {
@@ -19,8 +18,7 @@
       "enabled": true,
       "icon": "wetland_whimsy:lemonstone_brazier",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "dagger": {
@@ -29,8 +27,7 @@
       "enabled": true,
       "icon": "wetland_whimsy:dagger",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "ancient_pot": {
@@ -39,8 +36,7 @@
       "enabled": true,
       "icon": "wetland_whimsy:ancient_pot",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "high_quality": {
@@ -49,8 +45,7 @@
       "enabled": true,
       "icon": "wetland_whimsy:ancient_coin",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "ancient_brazier": {
@@ -59,8 +54,7 @@
       "enabled": true,
       "icon": "wetland_whimsy:ancient_brazier",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "incense": {
@@ -69,8 +63,7 @@
       "enabled": true,
       "icon": "wetland_whimsy:basic_incense",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     }
   }

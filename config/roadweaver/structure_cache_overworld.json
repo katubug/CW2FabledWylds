@@ -426,6 +426,11 @@
       "isVanilla": false
     },
     {
+      "id": "hearthandharvest:lilliput_lane",
+      "displayName": "Lilliput Lane",
+      "isVanilla": false
+    },
+    {
       "id": "hexerei:baba_yaga_hut",
       "displayName": "Baba Yaga Hut",
       "isVanilla": false

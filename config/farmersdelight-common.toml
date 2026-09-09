@@ -22,7 +22,7 @@
 
 [crafting]
 	#If enabled, the Cooking Pot will provide a Recipe Book on its interface, similar to the one on Crafting Tables and Furnaces.
-	enableCookingPotRecipeBook = true
+	enableCookingPotRecipeBook = false
 	#If enabled, storage crates (3x3) for vanilla crops (similar to Quark and Thermal Cultivation) will become craftable.
 	enableVanillaCropCrates = true
 	#How much (in decimal percentage) should each level of Fortune increase the odds of obtaining rare results on the Cutting Board? Set to 0.0 to disable.

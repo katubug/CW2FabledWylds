@@ -9,8 +9,7 @@
       "enabled": true,
       "icon": "bakery:chocolate_gateau",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "main/use_bread_on_wall_display": {
@@ -19,8 +18,7 @@
       "enabled": true,
       "icon": "bakery:wall_display",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "main/place_sign": {
@@ -29,8 +27,7 @@
       "enabled": true,
       "icon": "bakery:street_sign",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "main/place_cooking_pot": {
@@ -39,8 +36,7 @@
       "enabled": true,
       "icon": "bakery:small_cooking_pot",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "main/cut_strawberry_cake": {
@@ -49,8 +45,7 @@
       "enabled": true,
       "icon": "bakery:strawberry_cake",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "main/eat_sandwich": {
@@ -59,8 +54,7 @@
       "enabled": true,
       "icon": "bakery:sandwich",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "main/place_bread_crate": {
@@ -69,8 +63,7 @@
       "enabled": true,
       "icon": "bakery:bread_crate",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "main/get_yeast": {
@@ -79,8 +72,7 @@
       "enabled": true,
       "icon": "farm_and_charm:yeast",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "main/get_everything": {
@@ -89,8 +81,7 @@
       "enabled": true,
       "icon": "bakery:bundt_cake",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "main/get_all_jams": {
@@ -99,8 +90,7 @@
       "enabled": true,
       "icon": "bakery:jar",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "main/eat_pudding": {
@@ -109,8 +99,7 @@
       "enabled": true,
       "icon": "bakery:pudding_slice",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "main/place_baker_station": {
@@ -119,8 +108,7 @@
       "enabled": true,
       "icon": "bakery:baker_station",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "main/get_misslilitu_biscuit": {
@@ -129,8 +117,7 @@
       "enabled": true,
       "icon": "bakery:misslilitu_biscuit",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "main/get_all_caked_goods": {
@@ -139,8 +126,7 @@
       "enabled": true,
       "icon": "bakery:apple_cupcake",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "main/eat_bread": {
@@ -149,8 +135,7 @@
       "enabled": true,
       "icon": "bakery:bread",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "main/get_all_baked_goods": {
@@ -159,8 +144,7 @@
       "enabled": true,
       "icon": "bakery:crusty_bread",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     }
   }

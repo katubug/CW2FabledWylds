@@ -9,8 +9,7 @@
       "enabled": true,
       "icon": "architects_palette:placid_acacia_totem",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "main/place_entrails": {
@@ -19,8 +18,7 @@
       "enabled": true,
       "icon": "architects_palette:entrails",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     }
   }

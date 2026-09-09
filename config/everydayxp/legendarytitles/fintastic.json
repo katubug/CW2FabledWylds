@@ -9,8 +9,7 @@
       "enabled": true,
       "icon": "fintastic:small_catfish",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "fintastic/bad_feed": {
@@ -19,8 +18,7 @@
       "enabled": true,
       "icon": "fintastic:bad_feed",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "fintastic/premium_feed": {
@@ -29,8 +27,7 @@
       "enabled": true,
       "icon": "fintastic:premium_feed",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "fintastic/copepod": {
@@ -39,8 +36,7 @@
       "enabled": true,
       "icon": "fintastic:copepod",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "fintastic/deltarune": {
@@ -49,8 +45,7 @@
       "enabled": true,
       "icon": "fintastic:green_dwarf_froglight",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "fintastic/catfish": {
@@ -59,8 +54,7 @@
       "enabled": true,
       "icon": "fintastic:catfish",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "fintastic/fishnet": {
@@ -69,8 +63,7 @@
       "enabled": true,
       "icon": "fintastic:fishnet",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "fintastic/arapaima": {
@@ -79,8 +72,7 @@
       "enabled": true,
       "icon": "fintastic:arapaima",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "fintastic/moony": {
@@ -89,8 +81,7 @@
       "enabled": true,
       "icon": "fintastic:moony",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "fintastic/gourami": {
@@ -99,8 +90,7 @@
       "enabled": true,
       "icon": "fintastic:gourami",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "fintastic/normal_feed": {
@@ -109,8 +99,7 @@
       "enabled": true,
       "icon": "fintastic:regular_feed",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "fintastic/guppy": {
@@ -119,8 +108,7 @@
       "enabled": true,
       "icon": "fintastic:guppy",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "fintastic/aquarium_glass": {
@@ -129,8 +117,7 @@
       "enabled": true,
       "icon": "fintastic:aquarium_glass",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "fintastic/green_aquatic_thumb": {
@@ -139,8 +126,7 @@
       "enabled": true,
       "icon": "fintastic:lotus_pad",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "fintastic/pleco": {
@@ -149,8 +135,7 @@
       "enabled": true,
       "icon": "fintastic:pleco",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "fintastic/featherback": {
@@ -159,8 +144,7 @@
       "enabled": true,
       "icon": "fintastic:featherback",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "fintastic/insaniquarium": {
@@ -169,8 +153,7 @@
       "enabled": true,
       "icon": "fintastic:arapaima_fishnet",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "fintastic/daphnia": {
@@ -179,8 +162,7 @@
       "enabled": true,
       "icon": "fintastic:daphnia",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "fintastic/minnow": {
@@ -189,8 +171,7 @@
       "enabled": true,
       "icon": "fintastic:minnow",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "fintastic/sharkminnow": {
@@ -199,8 +180,7 @@
       "enabled": true,
       "icon": "fintastic:sharkminnow",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "fintastic/dwarf_frog": {
@@ -209,8 +189,7 @@
       "enabled": true,
       "icon": "fintastic:dwarf_frog",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "fintastic/coelacanth": {
@@ -219,8 +198,7 @@
       "enabled": true,
       "icon": "fintastic:coelacanth",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "fintastic/fishing_hat": {
@@ -229,8 +207,7 @@
       "enabled": true,
       "icon": "fintastic:fishing_hat",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     }
   }

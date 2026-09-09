@@ -1,0 +1,16 @@
+{
+  "mod_id": "numismatics",
+  "categories": [
+    {
+      "id": "root",
+      "advancement_root": "numismatics:root",
+      "title": "Welcome to Numismatics",
+      "description": "Here Be Riches",
+      "icon": {
+        "type": "item",
+        "value": "numismatics:crown"
+      },
+      "enabled": true
+    }
+  ]
+}

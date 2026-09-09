@@ -1,10 +1,10 @@
 {
     "title": {
-      "text": "Witchy Tips",
-      "bold": true,
-      "color": "green"
+        "translate": "tips.titles.witchy",
+        "bold": true,
+        "color": "green"
     },
     "tip": {
-      "text": "You can place candles on skulls to be ULTRA GOTH."
+        "translate": "tips.text.skulls"
     }
-  }
+}

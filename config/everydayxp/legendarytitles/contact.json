@@ -9,8 +9,7 @@
       "enabled": true,
       "icon": "contact:white_mailbox",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "receive_postcard": {
@@ -19,8 +18,7 @@
       "enabled": true,
       "icon": "contact:envelope",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "send_postcard": {
@@ -29,8 +27,7 @@
       "enabled": true,
       "icon": "contact:postcard",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "from_another_world": {
@@ -39,8 +36,7 @@
       "enabled": true,
       "icon": "contact:parcel",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "root": {
@@ -49,8 +45,7 @@
       "enabled": true,
       "icon": "contact:letter",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     }
   }

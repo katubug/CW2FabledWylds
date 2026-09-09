@@ -1,0 +1,16 @@
+{
+  "mod_id": "fabled_wylds",
+  "categories": [
+    {
+      "id": "root",
+      "advancement_root": "fabled_wylds:root",
+      "title": "Cottage Witch 2",
+      "description": "Advancements for the CW2 modpack!",
+      "icon": {
+        "type": "item",
+        "value": "reliquary:witch_hat"
+      },
+      "enabled": true
+    }
+  ]
+}

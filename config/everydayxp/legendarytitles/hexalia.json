@@ -9,8 +9,7 @@
       "enabled": true,
       "icon": "hexalia:hex_focus",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "pure_intentions": {
@@ -19,8 +18,7 @@
       "enabled": true,
       "icon": "hexalia:purity_idol",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "crush_course": {
@@ -29,8 +27,7 @@
       "enabled": true,
       "icon": "hexalia:mortar_and_pestle",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "essence_collector": {
@@ -39,8 +36,7 @@
       "enabled": true,
       "icon": "hexalia:water_node",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "silken_beginnings": {
@@ -49,8 +45,7 @@
       "enabled": true,
       "icon": "hexalia:silk_idol",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "salt_of_the_craft": {
@@ -59,8 +54,7 @@
       "enabled": true,
       "icon": "hexalia:salt",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "powder_and_pouch": {
@@ -69,8 +63,7 @@
       "enabled": true,
       "icon": "hexalia:foul_sac",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "knife_to_tree_you": {
@@ -79,8 +72,7 @@
       "enabled": true,
       "icon": "hexalia:athame",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "star_power": {
@@ -89,8 +81,7 @@
       "enabled": true,
       "icon": "hexalia:celestial_crystal",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "wise_investment": {
@@ -99,8 +90,7 @@
       "enabled": true,
       "icon": "hexalia:sage_pendant",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "kelp_yourself": {
@@ -109,8 +99,7 @@
       "enabled": true,
       "icon": "hexalia:kelpweave_blade",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "small_beginnings": {
@@ -119,8 +108,7 @@
       "enabled": true,
       "icon": "hexalia:small_cauldron",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "change_of_plans": {
@@ -129,8 +117,7 @@
       "enabled": true,
       "icon": "hexalia:mutavis",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "table_manners": {
@@ -139,8 +126,7 @@
       "enabled": true,
       "icon": "hexalia:ritual_table",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "brewbie_award": {
@@ -149,8 +135,7 @@
       "enabled": true,
       "icon": "hexalia:rustic_bottle",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "herb_nerd": {
@@ -159,8 +144,7 @@
       "enabled": true,
       "icon": "hexalia:spirit_bloom",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "master_or_not": {
@@ -169,8 +153,7 @@
       "enabled": true,
       "icon": "hexalia:tempest_idol",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "seasoned_farmer": {
@@ -179,8 +162,7 @@
       "enabled": true,
       "icon": "hexalia:mandrake",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "ring_of_change": {
@@ -189,8 +171,7 @@
       "enabled": true,
       "icon": "hexalia:morphora",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "brewed_awakening": {
@@ -199,8 +180,7 @@
       "enabled": true,
       "icon": "hexalia:brew_of_daybloom",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     }
   }

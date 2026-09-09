@@ -9,8 +9,7 @@
       "enabled": true,
       "icon": "minecraft:rabbit_foot",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "embrace_day": {
@@ -19,8 +18,7 @@
       "enabled": true,
       "icon": "twilightforest:fiddlehead",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "feed_moon_rabbit": {
@@ -29,8 +27,7 @@
       "enabled": true,
       "icon": "twilightforest:shika_senbei",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "twilight_sentinel": {
@@ -39,8 +36,7 @@
       "enabled": true,
       "icon": "minecraft:ender_eye",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "river_of_light": {
@@ -49,8 +45,7 @@
       "enabled": true,
       "icon": "minecraft:potion",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "hand_to_hand": {
@@ -59,8 +54,7 @@
       "enabled": true,
       "icon": "twilightmoonshine:secret_page",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "sunset_beetle_party": {
@@ -69,8 +63,7 @@
       "enabled": true,
       "icon": "twilightmoonshine:fire_beetle_icon",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "coolidge_family": {
@@ -79,8 +72,7 @@
       "enabled": true,
       "icon": "twilightmoonshine:moonshine",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     }
   }

@@ -1,0 +1,16 @@
+{
+  "mod_id": "contact",
+  "categories": [
+    {
+      "id": "root",
+      "advancement_root": "contact:root",
+      "title": "Postal Service",
+      "description": "The East Wind takes us all in the end",
+      "icon": {
+        "type": "item",
+        "value": "contact:letter"
+      },
+      "enabled": true
+    }
+  ]
+}

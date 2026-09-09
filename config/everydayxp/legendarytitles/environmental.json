@@ -9,8 +9,7 @@
       "enabled": true,
       "icon": "minecraft:carrot_on_a_stick",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "husbandry/saddle_pig": {
@@ -19,8 +18,7 @@
       "enabled": true,
       "icon": "minecraft:saddle",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "husbandry/shear_yak_with_pants": {
@@ -29,8 +27,7 @@
       "enabled": true,
       "icon": "environmental:yak_pants",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "husbandry/shear_cattail": {
@@ -39,8 +36,7 @@
       "enabled": true,
       "icon": "environmental:cattail_fluff",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "husbandry/truffle_shuffle": {
@@ -49,8 +45,7 @@
       "enabled": true,
       "icon": "minecraft:golden_carrot",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "husbandry/backpack_slabfish": {
@@ -59,8 +54,7 @@
       "enabled": true,
       "icon": "minecraft:chest",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "husbandry/feed_deer_flower": {
@@ -69,8 +63,7 @@
       "enabled": true,
       "icon": "minecraft:apple",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "husbandry/tame_all_slabfish": {
@@ -79,8 +72,7 @@
       "enabled": true,
       "icon": "minecraft:tropical_fish",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "husbandry/throw_mud_at_pig": {
@@ -89,8 +81,7 @@
       "enabled": true,
       "icon": "environmental:mud_ball",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "husbandry/place_koi_in_village": {
@@ -99,8 +90,7 @@
       "enabled": true,
       "icon": "environmental:koi_bucket",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "husbandry/plant_on_muddy_pig": {
@@ -109,8 +99,7 @@
       "enabled": true,
       "icon": "minecraft:red_tulip",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "husbandry/find_truffle": {
@@ -119,8 +108,7 @@
       "enabled": true,
       "icon": "environmental:truffle",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     }
   }

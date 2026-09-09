@@ -4,7 +4,7 @@ version = 0
 enableAutoGuidebookDelivery = false
 # If Auto Delivery is disabled (like in most modpacks), give the guidebook the first time the player actually spots a wild hamster from 10 blocks away. This will only trigger once, and only if the player has never received the guidebook before.
 enableAutoGuidebookDeliveryFallback = false
-# A list of usernames for players who have already seen the missing guidebook warning. Ensures that everyone sees this, but only once unless you delete your name from this list.
+# A list of players who have already seen the missing guidebook warning. This helps ensure that each player sees the warning only once. It was broken for a while, but it is fixed as of v3.7.0.
 playersWhoHaveSeenGuidebookWarning = [
     "HeyKatu"
 ]
@@ -34,6 +34,10 @@ showJadeBreedingOverlay = true
 showJadeEyeColor = true
 # Display whether the hamster is currently in Pacifist, Menace, or just Standard aggression mode.
 showJadeAggressionState = true
+# Show Severe, Recovering, or Nearly Cured while looking at a fevered hamster.
+showJadeRedstoneFeverRecovery = false
+# Show whether a hamster is Untrained, Learning, Responsive, or Attuned to the Acorn Flute. The more in sync, the faster the hamster will respond when you use the flute to call it to your shoulder.
+showJadeFluteTraining = false
 # Display the default Jade inventory contents so you can see what your hamster is hoarding.
 showJadeInventory = true
 # The duration (in ticks) that action bar messages stay on screen. Only affects your personal computer. Vanilla is 60 (3 seconds), which is barely enough time to realize you're reading. Crank this up to savor the text. (20 ticks = 1 second).

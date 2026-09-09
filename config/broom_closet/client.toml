@@ -44,3 +44,7 @@ ftbTextShadowOffsetX = 1
 # Default: 1
 # Range: -16 ~ 16
 ftbTextShadowOffsetY = 1
+#Disables FTB Chunks' automatic death waypoints (the red "Death #N" markers).
+#FTB Chunks has its own config for this, but it doesn't always stick.
+#This bypasses FTB's config entirely and cancels death waypoint creation at the source.
+disableDeathWaypoints = true

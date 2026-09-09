@@ -1,0 +1,16 @@
+{
+  "mod_id": "soulhome",
+  "categories": [
+    {
+      "id": "main/root",
+      "advancement_root": "soulhome:main/root",
+      "title": "SoulHome",
+      "description": "Welcome to SoulHome. The way to your inner soul.",
+      "icon": {
+        "type": "item",
+        "value": "soulhome:soulkey"
+      },
+      "enabled": true
+    }
+  ]
+}

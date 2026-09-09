@@ -295,10 +295,14 @@
 			preset: "start"
 			rewards: [{
 				exclude_from_claim_all: true
-				id: "6EC0CBB972522127"
+				id: "7F8FF7CA18138E91"
+				is_ender: false
+				is_team_reward: false
 				table_id: 6895470215093009548L
+				target_addressee: "QuestNPC"
 				team_reward: false
-				type: "random"
+				team_reward_multiplier: 1.0f
+				type: "contactquests:parcel_random"
 			}]
 			shape: "rsquare"
 			size: 2.0d
@@ -1301,6 +1305,34 @@
 				type: "custom"
 			}]
 			x: -2.5d
+			y: -2.5d
+		}
+		{
+			id: "21BCCEDD06A1C052"
+			rewards: [{
+				count: 16
+				exclude_from_claim_all: true
+				id: "7FA4D7B353374D3D"
+				is_ender: false
+				is_team_reward: false
+				item: {
+					count: 1
+					id: "minecraft:paper"
+				}
+				target_addressee: "QuestNPC"
+				team_reward: false
+				team_reward_multiplier: 1.0f
+				type: "contactquests:parcel"
+			}]
+			tasks: [{
+				icon: {
+					id: "minecraft:paper"
+				}
+				id: "4DE3FFC7902D0918"
+				tags: ["price_3"]
+				type: "custom"
+			}]
+			x: -1.5d
 			y: -2.5d
 		}
 	]

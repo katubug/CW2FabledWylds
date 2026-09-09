@@ -9,8 +9,7 @@
       "enabled": true,
       "icon": "create:track_signal",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "train_portal": {
@@ -19,8 +18,7 @@
       "enabled": true,
       "icon": "minecraft:amethyst_block",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "ejector_maxed": {
@@ -29,8 +27,7 @@
       "enabled": true,
       "icon": "create:weighted_ejector",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "hose_pulley_lava": {
@@ -39,8 +36,7 @@
       "enabled": true,
       "icon": "create:hose_pulley",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "train_crash": {
@@ -49,8 +45,7 @@
       "enabled": true,
       "icon": "create:incomplete_track",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "long_travel": {
@@ -59,8 +54,7 @@
       "enabled": true,
       "icon": "create:green_seat",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "clockwork_bearing": {
@@ -69,8 +63,7 @@
       "enabled": true,
       "icon": "create:clockwork_bearing",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "mechanical_arm": {
@@ -79,8 +72,7 @@
       "enabled": true,
       "icon": "create:mechanical_arm",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "windmill_maxed": {
@@ -89,8 +81,7 @@
       "enabled": true,
       "icon": "create:white_sail",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "pulley_maxed": {
@@ -99,8 +90,7 @@
       "enabled": true,
       "icon": "create:rope_pulley",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "fist_bump": {
@@ -109,8 +99,7 @@
       "enabled": true,
       "icon": "create:deployer",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "self_deploying": {
@@ -119,8 +108,7 @@
       "enabled": true,
       "icon": "minecraft:rail",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "musical_arm": {
@@ -129,8 +117,7 @@
       "enabled": true,
       "icon": "minecraft:jukebox",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "andesite_casing": {
@@ -139,8 +126,7 @@
       "enabled": true,
       "icon": "create:andesite_casing",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "steam_engine_maxed": {
@@ -149,8 +135,7 @@
       "enabled": true,
       "icon": "create:steam_engine",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "train_crash_backwards": {
@@ -159,8 +144,7 @@
       "enabled": true,
       "icon": "create:incomplete_track",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "diving_suit_lava": {
@@ -169,8 +153,7 @@
       "enabled": true,
       "icon": "create:netherite_diving_helmet",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "cuckoo_clock": {
@@ -179,8 +162,7 @@
       "enabled": true,
       "icon": "create:cuckoo_clock",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "anvil_plough": {
@@ -189,8 +171,7 @@
       "enabled": true,
       "icon": "minecraft:chipped_anvil",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "potato_cannon": {
@@ -199,8 +180,7 @@
       "enabled": true,
       "icon": "create:potato_cannon",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "train": {
@@ -209,8 +189,7 @@
       "enabled": true,
       "icon": "create:track_station",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "chained_drain": {
@@ -219,8 +198,7 @@
       "enabled": true,
       "icon": "create:item_drain",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "haunted_bell": {
@@ -229,8 +207,7 @@
       "enabled": true,
       "icon": "create:haunted_bell",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "crushing_wheel": {
@@ -239,8 +216,7 @@
       "enabled": true,
       "icon": "create:crushing_wheel",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "train_roadkill": {
@@ -249,8 +225,7 @@
       "enabled": true,
       "icon": "minecraft:diamond_sword",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "brass_casing": {
@@ -259,8 +234,7 @@
       "enabled": true,
       "icon": "create:brass_casing",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "hand_crank_000": {
@@ -269,8 +243,7 @@
       "enabled": true,
       "icon": "create:hand_crank",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "mechanical_press": {
@@ -279,8 +252,7 @@
       "enabled": true,
       "icon": "create:mechanical_press",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "cross_streams": {
@@ -289,8 +261,7 @@
       "enabled": true,
       "icon": "minecraft:cobblestone",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "package_chute_throw": {
@@ -299,8 +270,7 @@
       "enabled": true,
       "icon": "create:cardboard_package_12x12",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "stressometer_maxed": {
@@ -309,8 +279,7 @@
       "enabled": true,
       "icon": "create:stressometer",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "display_board_0": {
@@ -319,8 +288,7 @@
       "enabled": true,
       "icon": "create:display_board",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "extendo_grip_dual": {
@@ -329,8 +297,7 @@
       "enabled": true,
       "icon": "create:extendo_grip",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "crafter_lazy_000": {
@@ -339,8 +306,7 @@
       "enabled": true,
       "icon": "create:mechanical_crafter",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "foods": {
@@ -349,8 +315,7 @@
       "enabled": true,
       "icon": "create:chocolate_glazed_berries",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "pipe_organ": {
@@ -359,8 +324,7 @@
       "enabled": true,
       "icon": "create:steam_whistle",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "crusher_maxed_0000": {
@@ -369,8 +333,7 @@
       "enabled": true,
       "icon": "create:crushing_wheel",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "factory_gauge": {
@@ -379,8 +342,7 @@
       "enabled": true,
       "icon": "create:factory_gauge",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "stock_ticker": {
@@ -389,8 +351,7 @@
       "enabled": true,
       "icon": "create:stock_ticker",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "cart_pickup": {
@@ -399,8 +360,7 @@
       "enabled": true,
       "icon": "create:chest_minecart_contraption",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "potato_cannon_collide": {
@@ -409,8 +369,7 @@
       "enabled": true,
       "icon": "minecraft:carrot",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "precision_mechanism": {
@@ -419,8 +378,7 @@
       "enabled": true,
       "icon": "create:precision_mechanism",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "frogport": {
@@ -429,8 +387,7 @@
       "enabled": true,
       "icon": "create:package_frogport",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "track_crafting_factory": {
@@ -439,8 +396,7 @@
       "enabled": true,
       "icon": "create:mechanical_press",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "long_train": {
@@ -449,8 +405,7 @@
       "enabled": true,
       "icon": "minecraft:minecart",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "table_cloth_shop": {
@@ -459,8 +414,7 @@
       "enabled": true,
       "icon": "create:red_table_cloth",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "lava_wheel_00000": {
@@ -469,8 +423,7 @@
       "enabled": true,
       "icon": "create:water_wheel",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "belt_funnel_kiss": {
@@ -479,8 +432,7 @@
       "enabled": true,
       "icon": "create:brass_funnel",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "arm_many_targets": {
@@ -489,8 +441,7 @@
       "enabled": true,
       "icon": "create:mechanical_arm",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "cardboard_armor_trim": {
@@ -499,8 +450,7 @@
       "enabled": true,
       "icon": "create:cardboard_chestplate",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     }
   }

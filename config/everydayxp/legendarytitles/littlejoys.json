@@ -9,8 +9,7 @@
       "enabled": true,
       "icon": "minecraft:sweet_berries",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "littlejoys/fishing_spot": {
@@ -19,8 +18,7 @@
       "enabled": true,
       "icon": "minecraft:pufferfish",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "littlejoys/gold_rush": {
@@ -29,8 +27,7 @@
       "enabled": true,
       "icon": "minecraft:raw_gold",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "littlejoys/dig_spot": {
@@ -39,8 +36,7 @@
       "enabled": true,
       "icon": "minecraft:arms_up_pottery_sherd",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     }
   }

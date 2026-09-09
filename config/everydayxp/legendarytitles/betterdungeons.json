@@ -9,8 +9,7 @@
       "enabled": true,
       "icon": "minecraft:red_nether_bricks",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "zombie_dungeon": {
@@ -19,8 +18,7 @@
       "enabled": true,
       "icon": "minecraft:rotten_flesh",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "all_dungeons": {
@@ -29,8 +27,7 @@
       "enabled": true,
       "icon": "minecraft:diamond_sword",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "skeleton_dungeon": {
@@ -39,8 +36,7 @@
       "enabled": true,
       "icon": "minecraft:skeleton_skull",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "small_dungeon": {
@@ -49,8 +45,7 @@
       "enabled": true,
       "icon": "minecraft:spawner",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "spider_dungeon": {
@@ -59,8 +54,7 @@
       "enabled": true,
       "icon": "minecraft:string",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     }
   }

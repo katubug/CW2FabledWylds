@@ -1,10 +1,10 @@
 {
     "title": {
-      "text": "Witchy Tips",
-      "bold": true,
-      "color": "green"
+        "translate": "tips.titles.witchy",
+        "bold": true,
+        "color": "green"
     },
     "tip": {
-      "text": "You can use Hanging Signs as doggy doors! Tame animals can pass through them! However, beware of baby zombies..."
+        "translate": "tips.text.hangingsign"
     }
-  }
+}

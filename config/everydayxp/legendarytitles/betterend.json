@@ -9,8 +9,7 @@
       "enabled": true,
       "icon": "betterend:tool_assembly_smithing_template",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "terminite_tool": {
@@ -19,8 +18,7 @@
       "enabled": true,
       "icon": "betterend:terminite_pickaxe",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "portal_on": {
@@ -29,8 +27,7 @@
       "enabled": true,
       "icon": "betterend:eternal_crystal",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "infusion": {
@@ -39,8 +36,7 @@
       "enabled": true,
       "icon": "betterend:infusion_pedestal",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "thallasium_plate": {
@@ -49,8 +45,7 @@
       "enabled": true,
       "icon": "betterend:thallasium_forged_plate",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "terminite_plate": {
@@ -59,8 +54,7 @@
       "enabled": true,
       "icon": "betterend:terminite_forged_plate",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "all_elytras": {
@@ -69,8 +63,7 @@
       "enabled": true,
       "icon": "betterend:elytra_crystalite",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "aeternium_tool_head": {
@@ -79,8 +72,7 @@
       "enabled": true,
       "icon": "betterend:aeternium_pickaxe_head",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "thallasium_tool": {
@@ -89,8 +81,7 @@
       "enabled": true,
       "icon": "betterend:thallasium_pickaxe",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "aeternium_plate": {
@@ -99,8 +90,7 @@
       "enabled": true,
       "icon": "betterend:aeternium_forged_plate",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "hammer": {
@@ -109,8 +99,7 @@
       "enabled": true,
       "icon": "betterend:diamond_hammer",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "thallasium_tool_head": {
@@ -119,8 +108,7 @@
       "enabled": true,
       "icon": "betterend:thallasium_pickaxe_head",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "portal": {
@@ -129,8 +117,7 @@
       "enabled": true,
       "icon": "betterend:eternal_pedestal",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "terminite_armor": {
@@ -139,8 +126,7 @@
       "enabled": true,
       "icon": "betterend:terminite_chestplate",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "thallasium_anvil": {
@@ -149,8 +135,7 @@
       "enabled": true,
       "icon": "betterend:thallasium_anvil",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "thallasium_armor": {
@@ -159,8 +144,7 @@
       "enabled": true,
       "icon": "betterend:thallasium_chestplate",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "infusion_finished": {
@@ -169,8 +153,7 @@
       "enabled": true,
       "icon": "minecraft:ender_eye",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "enter_end": {
@@ -179,8 +162,7 @@
       "enabled": true,
       "icon": "betterend:cave_moss",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "village": {
@@ -189,8 +171,7 @@
       "enabled": true,
       "icon": "betterend:tenanea_door",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "aeternium_anvil": {
@@ -199,8 +180,7 @@
       "enabled": true,
       "icon": "betterend:aeternium_anvil",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "terminite_tool_head": {
@@ -209,8 +189,7 @@
       "enabled": true,
       "icon": "betterend:terminite_pickaxe_head",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "terminite_anvil": {
@@ -219,8 +198,7 @@
       "enabled": true,
       "icon": "betterend:terminite_anvil",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "all_the_biomes": {
@@ -229,8 +207,7 @@
       "enabled": true,
       "icon": "betterend:aeternium_boots",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "aeternium_armor": {
@@ -239,8 +216,7 @@
       "enabled": true,
       "icon": "betterend:aeternium_chestplate",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "aeternium_hammer_head": {
@@ -249,8 +225,7 @@
       "enabled": true,
       "icon": "betterend:aeternium_hammer_head",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "portal_travel": {
@@ -259,8 +234,7 @@
       "enabled": true,
       "icon": "minecraft:grass_block",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "aeternium_tool": {
@@ -269,8 +243,7 @@
       "enabled": true,
       "icon": "betterend:aeternium_pickaxe",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "aeternium_hammer": {
@@ -279,8 +252,7 @@
       "enabled": true,
       "icon": "betterend:aeternium_hammer",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     }
   }

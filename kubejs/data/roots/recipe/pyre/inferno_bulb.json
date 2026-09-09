@@ -19,6 +19,15 @@
     },
     {
       "item": "minecraft:brick"
+    },
+    {
+      "tag": "minecraft:coals"
+    },
+    {
+      "tag": "minecraft:coals"
+    },
+    {
+      "item": "minecraft:brick"
     }
   ],
   "output": {

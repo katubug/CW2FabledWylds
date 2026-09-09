@@ -9,8 +9,7 @@
       "enabled": true,
       "icon": "herbalbrews:tea_blossom",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "main/place_jug": {
@@ -19,8 +18,7 @@
       "enabled": true,
       "icon": "herbalbrews:jug",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "main/all_effects": {
@@ -29,8 +27,7 @@
       "enabled": true,
       "icon": "herbalbrews:flask",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "main/place_tea_kettle": {
@@ -39,8 +36,7 @@
       "enabled": true,
       "icon": "herbalbrews:copper_tea_kettle",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "main/find_lavender": {
@@ -49,8 +45,7 @@
       "enabled": true,
       "icon": "herbalbrews:lavender",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "main/let_it_dry": {
@@ -59,8 +54,7 @@
       "enabled": true,
       "icon": "herbalbrews:green_tea_leaf_block",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "main/drink_milk_coffee": {
@@ -69,8 +63,7 @@
       "enabled": true,
       "icon": "herbalbrews:milk_coffee",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "main/place_stove": {
@@ -79,8 +72,7 @@
       "enabled": true,
       "icon": "herbalbrews:stove",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "main/witching_time": {
@@ -89,8 +81,7 @@
       "enabled": true,
       "icon": "herbalbrews:witch_hat",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "main/let_it_dry_3": {
@@ -99,8 +90,7 @@
       "enabled": true,
       "icon": "herbalbrews:mixed_tea_leaf_block",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "main/let_it_dry_2": {
@@ -109,8 +99,7 @@
       "enabled": true,
       "icon": "herbalbrews:black_tea_leaf_block",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "main/place_cauldron": {
@@ -119,8 +108,7 @@
       "enabled": true,
       "icon": "herbalbrews:cauldron",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "main/craft_everything": {
@@ -129,8 +117,7 @@
       "enabled": true,
       "icon": "herbalbrews:herbalbrews_banner",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "main/get_a_flask": {
@@ -139,8 +126,7 @@
       "enabled": true,
       "icon": "herbalbrews:flask",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "main/drink_coffee": {
@@ -149,8 +135,7 @@
       "enabled": true,
       "icon": "herbalbrews:coffee",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     }
   }

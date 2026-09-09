@@ -1,0 +1,16 @@
+{
+  "mod_id": "farm_and_charm",
+  "categories": [
+    {
+      "id": "main/root",
+      "advancement_root": "farm_and_charm:main/root",
+      "title": "Welcome to Farm&Charm!",
+      "description": "Thank you for downloading Farm&Charm",
+      "icon": {
+        "type": "item",
+        "value": "farm_and_charm:scarecrow"
+      },
+      "enabled": true
+    }
+  ]
+}

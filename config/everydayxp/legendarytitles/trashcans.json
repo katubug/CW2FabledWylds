@@ -9,8 +9,7 @@
       "enabled": true,
       "icon": "trashcans:item_trash_can",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "ultimate_trash_can": {
@@ -19,8 +18,7 @@
       "enabled": true,
       "icon": "trashcans:ultimate_trash_can",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     }
   }

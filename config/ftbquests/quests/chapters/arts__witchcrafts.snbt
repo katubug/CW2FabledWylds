@@ -41,16 +41,6 @@
 		}
 		{
 			color: 2062755
-			height: 0.9d
-			id: "58A44C440A6056ED"
-			image: "fabled_wylds:textures/questui/flourishes/separator.png"
-			rotation: 0.0d
-			width: 8.0d
-			x: 4.8d
-			y: -0.7d
-		}
-		{
-			color: 2062755
 			height: 1.25d
 			id: "7471DD1791B0D67E"
 			image: "fabled_wylds:textures/questui/subtitles/painting.png"
@@ -88,6 +78,7 @@
 	quests: [
 		{
 			id: "2DB59F4A5BB3CE73"
+			preset: "start"
 			rewards: [{
 				id: "116FDD748DDC2466"
 				item: {
@@ -103,11 +94,12 @@
 				item: { count: 1, id: "esquissemod:sketchbook" }
 				type: "item"
 			}]
-			x: 4.5d
+			x: 5.0d
 			y: -3.75d
 		}
 		{
 			id: "153DBE782905BF62"
+			preset: "start"
 			rewards: [{
 				id: "3A58EA7E39E073B3"
 				item: {
@@ -129,10 +121,14 @@
 		{
 			dependencies: ["153DBE782905BF62"]
 			id: "762A6A61693A5BBA"
+			preset: "progression"
 			rewards: [
 				{
 					count: 2
-					id: "7CE32A22538D7495"
+					exclude_from_claim_all: true
+					id: "2760489A11614ABB"
+					is_ender: false
+					is_team_reward: false
 					item: {
 						components: {
 							"minecraft:potion_contents": {
@@ -142,11 +138,16 @@
 						count: 1
 						id: "minecraft:potion"
 					}
-					type: "item"
+					target_addressee: "QuestNPC"
+					team_reward_multiplier: 1.0f
+					type: "contactquests:parcel"
 				}
 				{
 					count: 2
-					id: "3E837ABBB28DD13F"
+					exclude_from_claim_all: true
+					id: "6196FF80FC993A30"
+					is_ender: false
+					is_team_reward: false
 					item: {
 						components: {
 							"minecraft:potion_contents": {
@@ -156,11 +157,16 @@
 						count: 1
 						id: "minecraft:potion"
 					}
-					type: "item"
+					target_addressee: "QuestNPC"
+					team_reward_multiplier: 1.0f
+					type: "contactquests:parcel"
 				}
 				{
 					count: 2
-					id: "372DCE7E25EB12ED"
+					exclude_from_claim_all: true
+					id: "031EB778B2487E18"
+					is_ender: false
+					is_team_reward: false
 					item: {
 						components: {
 							"minecraft:potion_contents": {
@@ -170,7 +176,9 @@
 						count: 1
 						id: "minecraft:potion"
 					}
-					type: "item"
+					target_addressee: "QuestNPC"
+					team_reward_multiplier: 1.0f
+					type: "contactquests:parcel"
 				}
 			]
 			tasks: [
@@ -190,57 +198,37 @@
 					type: "item"
 				}
 			]
-			x: -6.25d
-			y: 4.2d
+			x: -5.5d
+			y: 5.0d
 		}
 		{
 			dependencies: ["762A6A61693A5BBA"]
 			id: "573269BC454A499D"
+			preset: "progression"
 			rewards: [
 				{
-					count: 5
-					id: "059A5E5EACE82169"
-					item: {
-						count: 1
-						id: "minecraft:magenta_dye"
-					}
-					type: "item"
+					exclude_from_claim_all: true
+					id: "7F4C1060A7C66164"
+					is_ender: false
+					is_team_reward: false
+					table_id: 7328857662613080212L
+					target_addressee: "QuestNPC"
+					team_reward_multiplier: 1.0f
+					type: "contactquests:parcel_random"
 				}
 				{
-					count: 5
-					id: "22C6A8212719C3E7"
-					item: {
-						count: 1
-						id: "minecraft:black_dye"
-					}
-					type: "item"
-				}
-				{
-					count: 5
-					id: "201483B73DF0F814"
-					item: {
-						count: 1
-						id: "minecraft:yellow_dye"
-					}
-					type: "item"
-				}
-				{
-					count: 5
-					id: "56C9425B8338BE10"
-					item: {
-						count: 1
-						id: "minecraft:cyan_dye"
-					}
-					type: "item"
-				}
-				{
-					count: 3
-					id: "029BF629CD1FCDCC"
+					count: 4
+					exclude_from_claim_all: true
+					id: "51000B3007BA18C3"
+					is_ender: false
+					is_team_reward: false
 					item: {
 						count: 1
 						id: "minecraft:paper"
 					}
-					type: "item"
+					target_addressee: "QuestNPC"
+					team_reward_multiplier: 1.0f
+					type: "contactquests:parcel"
 				}
 			]
 			tasks: [{
@@ -248,11 +236,12 @@
 				item: { count: 1, id: "exposure:lightroom" }
 				type: "item"
 			}]
-			x: -4.0d
-			y: 4.2d
+			x: -3.5d
+			y: 5.0d
 		}
 		{
 			id: "076F2A55BD9D0BCA"
+			preset: "start"
 			rewards: [
 				{
 					exclude_from_claim_all: true
@@ -290,13 +279,19 @@
 		{
 			dependencies: ["153DBE782905BF62"]
 			id: "5BC2DC2C73F83B30"
+			preset: "progression"
 			rewards: [{
-				id: "25941D2FA3FBDAFA"
+				exclude_from_claim_all: true
+				id: "65820E8E95E9FCF2"
+				is_ender: false
+				is_team_reward: false
 				item: {
 					count: 1
 					id: "exposure:color_film"
 				}
-				type: "item"
+				target_addressee: "QuestNPC"
+				team_reward_multiplier: 1.0f
+				type: "contactquests:parcel"
 			}]
 			tasks: [{
 				id: "59EA11202D9F3D76"
@@ -308,11 +303,16 @@
 		{
 			dependencies: ["2DB59F4A5BB3CE73"]
 			id: "28ABA60CD070005E"
+			preset: "item"
 			rewards: [{
 				exclude_from_claim_all: true
-				id: "2BCBE4DF4C1D6666"
-				table_id: 987967038148964353L
-				type: "loot"
+				id: "6876B5C185885978"
+				is_ender: false
+				is_team_reward: false
+				table_id: 5770973074849872376L
+				target_addressee: "QuestNPC"
+				team_reward_multiplier: 1.0f
+				type: "contactquests:parcel_random"
 			}]
 			tasks: [
 				{
@@ -326,12 +326,23 @@
 					type: "item"
 				}
 			]
-			x: 6.5d
+			x: 7.5d
 			y: -2.5d
 		}
 		{
 			dependencies: ["2DB59F4A5BB3CE73"]
 			id: "414A7F60BF8F090A"
+			preset: "item"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "41A3DAEB85DF9F9D"
+				is_ender: false
+				is_team_reward: false
+				table_id: 5770973074849872376L
+				target_addressee: "QuestNPC"
+				team_reward_multiplier: 1.0f
+				type: "contactquests:parcel_random"
+			}]
 			tasks: [
 				{
 					id: "1B9F94CD47349D25"
@@ -350,6 +361,17 @@
 		{
 			dependencies: ["2DB59F4A5BB3CE73"]
 			id: "187EB99C04A3BE37"
+			preset: "item"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "302101C79D024BDE"
+				is_ender: false
+				is_team_reward: false
+				table_id: 5770973074849872376L
+				target_addressee: "QuestNPC"
+				team_reward_multiplier: 1.0f
+				type: "contactquests:parcel_random"
+			}]
 			tasks: [
 				{
 					id: "7DE74E92D47C605C"
@@ -368,6 +390,17 @@
 		{
 			dependencies: ["2DB59F4A5BB3CE73"]
 			id: "41FE37817AC6ACC6"
+			preset: "item"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "091F045D7D964F10"
+				is_ender: false
+				is_team_reward: false
+				table_id: 5770973074849872376L
+				target_addressee: "QuestNPC"
+				team_reward_multiplier: 1.0f
+				type: "contactquests:parcel_random"
+			}]
 			tasks: [
 				{
 					id: "519FD0F315ECFE29"
@@ -380,7 +413,7 @@
 					type: "item"
 				}
 			]
-			x: 6.5d
+			x: 7.5d
 			y: -4.0d
 		}
 		{
@@ -391,22 +424,25 @@
 				"41FE37817AC6ACC6"
 			]
 			id: "1539D3DAD97F8A1D"
+			preset: "completion"
 			rewards: [{
-				id: "6916F6D454BF3CAD"
+				exclude_from_claim_all: true
+				id: "54232E4D378B3D4A"
+				is_ender: false
+				is_team_reward: false
 				item: {
-					components: {
-						"minecraft:container": [ ]
-					}
 					count: 1
 					id: "esquissemod:pencil_case"
 				}
-				type: "item"
+				target_addressee: "QuestNPC"
+				team_reward_multiplier: 1.0f
+				type: "contactquests:parcel"
 			}]
 			tasks: [{
 				id: "2B35ABEE2A58DF6F"
 				type: "checkmark"
 			}]
-			x: 4.5d
+			x: 5.0d
 			y: -2.0d
 		}
 		{
@@ -420,7 +456,9 @@
 			y: 0.0d
 		}
 		{
+			dependencies: ["2249A1823E842BAB"]
 			id: "24993E3FC9E3BA2D"
+			preset: "progression"
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "16E6A43785A396AC"
@@ -512,43 +550,87 @@
 					type: "item"
 				}
 			]
-			x: -7.4d
-			y: -2.4d
+			x: -5.0d
+			y: -2.0d
 		}
 		{
 			dependencies: ["076F2A55BD9D0BCA"]
 			id: "7A5B3B02E109BCCA"
+			preset: "progression"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7C6EDA97686D6256"
+				is_ender: false
+				is_team_reward: false
+				table_id: 7328857662613080212L
+				target_addressee: "QuestNPC"
+				team_reward_multiplier: 1.0f
+				type: "contactquests:parcel_random"
+			}]
 			tasks: [{
 				id: "328297719A9969F2"
 				item: { components: { "xercapaint:palette_basic_colors": [B; 1b, 1b, 1b, 1b, 1b, 1b, 1b, 1b, 1b, 1b, 1b, 1b, 1b, 1b, 1b, 1b ] }, count: 1, id: "xercapaint:item_palette" }
 				type: "item"
 			}]
-			x: 6.8d
-			y: 1.8d
+			x: 7.0d
+			y: 1.5d
 		}
 		{
 			dependencies: ["7A5B3B02E109BCCA"]
 			id: "04D06CBCA0CB74BC"
+			preset: "progression"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2237AB06EB71C87A"
+				is_ender: false
+				is_team_reward: false
+				table_id: 5770973074849872376L
+				target_addressee: "QuestNPC"
+				team_reward_multiplier: 1.0f
+				type: "contactquests:parcel_random"
+			}]
 			tasks: [{
 				id: "353A61B41CFC11E3"
 				item: { components: { "ftbfiltersystem:filter": "or(item(xercapaint:item_canvas)item(xercapaint:item_canvas_long)item(xercapaint:item_canvas_tall)item(xercapaint:item_canvas_large))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
-			x: 2.9d
-			y: 3.7d
+			x: 3.0d
+			y: 3.5d
 		}
 		{
 			dependencies: ["04D06CBCA0CB74BC"]
 			id: "612B4F05F1E3636D"
+			preset: "progression"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1D7CF1386D727580"
+				is_ender: false
+				is_team_reward: false
+				table_id: 5770973074849872376L
+				target_addressee: "QuestNPC"
+				team_reward_multiplier: 1.0f
+				type: "contactquests:parcel_random"
+			}]
+			tasks: [{
+				hand_mode: "ANY"
+				id: "3790E77B2BB0C3EE"
+				item: { components: { "xercapaint:palette_basic_colors": [B; 1b, 1b, 1b, 1b, 1b, 1b, 1b, 1b, 1b, 1b, 1b, 1b, 1b, 1b, 1b, 1b ], "xercapaint:palette_custom_colors": [I; 662, 324, 378, 662, 3, 989, 749, 655, 995, 4, 757, 560, 151, 757, 3, 503, 471, 315, 509, 2, 1200, 932, 787, 1212, 5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 ] }, count: 1, id: "xercapaint:item_palette" }
+				type: "use_item"
+				value: 1L
+			}]
+			x: 7.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["612B4F05F1E3636D"]
+			id: "229F4C47C5A09466"
+			preset: "completion"
 			rewards: [
 				{
 					exclude_from_claim_all: true
-					id: "28B0940F8422E5D5"
-					table_id: 6895470215093009548L
-					type: "loot"
-				}
-				{
-					id: "5E21F9CD98DC007C"
+					id: "2B0068935BE9722F"
+					is_ender: false
+					is_team_reward: false
 					item: {
 						components: {
 							"xercapaint:canvas_author": "HeyKatu"
@@ -818,312 +900,86 @@
 						count: 1
 						id: "xercapaint:item_canvas"
 					}
-					type: "item"
+					target_addressee: "QuestNPC"
+					team_reward_multiplier: 1.0f
+					type: "contactquests:parcel"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0D342D63F69D75A1"
+					is_ender: false
+					is_team_reward: false
+					table_id: 6895470215093009548L
+					target_addressee: "QuestNPC"
+					team_reward_multiplier: 1.0f
+					type: "contactquests:parcel_random"
 				}
 			]
 			tasks: [{
-				hand_mode: "ANY"
-				id: "3790E77B2BB0C3EE"
-				item: { components: { "xercapaint:palette_basic_colors": [B; 1b, 1b, 1b, 1b, 1b, 1b, 1b, 1b, 1b, 1b, 1b, 1b, 1b, 1b, 1b, 1b ], "xercapaint:palette_custom_colors": [I; 662, 324, 378, 662, 3, 989, 749, 655, 995, 4, 757, 560, 151, 757, 3, 503, 471, 315, 509, 2, 1200, 932, 787, 1212, 5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 ] }, count: 1, id: "xercapaint:item_palette" }
-				type: "use_item"
-				value: 1L
-			}]
-			x: 6.9d
-			y: 4.7d
-		}
-		{
-			dependencies: ["612B4F05F1E3636D"]
-			id: "229F4C47C5A09466"
-			rewards: [{
-				id: "469BFA2D7943F371"
-				item: {
-					components: {
-						"xercapaint:canvas_author": "HeyKatu"
-						"xercapaint:canvas_generation": 1
-						"xercapaint:canvas_id": "e5e2b89d-3884-4190-8b69-97863eb95bc6_1782664801"
-						"xercapaint:canvas_pixels": [I;
-							-15295332
-							-15295332
-							-15295332
-							-15295332
-							-15295332
-							-15295332
-							-15295332
-							-15295332
-							-15295332
-							-15295332
-							-15295332
-							-15295332
-							-15295332
-							-15295332
-							-15295332
-							-15295332
-							-541789
-							-541789
-							-15295332
-							-15295332
-							-816214
-							-816214
-							-15295332
-							-15295332
-							-15295332
-							-15295332
-							-15295332
-							-15295332
-							-15295332
-							-15295332
-							-15295332
-							-15295332
-							-541789
-							-541789
-							-816214
-							-816214
-							-816214
-							-816214
-							-15295332
-							-15295332
-							-15295332
-							-15295332
-							-15295332
-							-15295332
-							-15295332
-							-15295332
-							-15295332
-							-15295332
-							-541789
-							-816214
-							-816214
-							-816214
-							-816214
-							-2331522
-							-15295332
-							-75715
-							-75715
-							-75715
-							-15295332
-							-15295332
-							-15295332
-							-541789
-							-15295332
-							-816214
-							-15295332
-							-816214
-							-816214
-							-816214
-							-2331522
-							-15295332
-							-75715
-							-75715
-							-75715
-							-75715
-							-75715
-							-15295332
-							-15295332
-							-541789
-							-816214
-							-2331522
-							-15295332
-							-15295332
-							-816214
-							-2331522
-							-15295332
-							-15295332
-							-14869215
-							-75715
-							-425955
-							-75715
-							-14869215
-							-15295332
-							-15295332
-							-15295332
-							-2331522
-							-15295332
-							-15295332
-							-15295332
-							-15295332
-							-15295332
-							-15295332
-							-75715
-							-75715
-							-75715
-							-75715
-							-75715
-							-75715
-							-75715
-							-15295332
-							-15295332
-							-15295332
-							-15295332
-							-15295332
-							-15295332
-							-15295332
-							-15295332
-							-75715
-							-267363
-							-75715
-							-75715
-							-75715
-							-75715
-							-214478
-							-75715
-							-75715
-							-15295332
-							-15295332
-							-15295332
-							-15295332
-							-15295332
-							-15295332
-							-75715
-							-267363
-							-214478
-							-75715
-							-75715
-							-75715
-							-267363
-							-75715
-							-214478
-							-75715
-							-75715
-							-15295332
-							-15295332
-							-15295332
-							-15295332
-							-15295332
-							-75715
-							-267363
-							-214478
-							-75715
-							-75715
-							-75715
-							-267363
-							-75715
-							-214478
-							-75715
-							-75715
-							-15295332
-							-15295332
-							-15295332
-							-15295332
-							-15295332
-							-75715
-							-75715
-							-214478
-							-267363
-							-75715
-							-75715
-							-75715
-							-75715
-							-267363
-							-214478
-							-75715
-							-15295332
-							-15295332
-							-15295332
-							-15295332
-							-15295332
-							-15295332
-							-75715
-							-214478
-							-75715
-							-75715
-							-75715
-							-75715
-							-75715
-							-75715
-							-267363
-							-15295332
-							-15295332
-							-15295332
-							-15295332
-							-541789
-							-15295332
-							-816214
-							-15295332
-							-15295332
-							-75715
-							-75715
-							-75715
-							-75715
-							-75715
-							-15295332
-							-15295332
-							-15295332
-							-15295332
-							-15295332
-							-15295332
-							-2331522
-							-816214
-							-2331522
-							-15295332
-							-15295332
-							-425955
-							-15295332
-							-15295332
-							-15295332
-							-425955
-							-15295332
-							-15295332
-							-15295332
-							-15295332
-							-15295332
-							-15295332
-							-15295332
-							-2331522
-							-15295332
-							-15295332
-							-425955
-							-15295332
-							-15295332
-							-15295332
-							-15295332
-							-15295332
-							-425955
-							-15295332
-							-15295332
-							-15295332
-							-15295332
-							-15295332
-							-15295332
-							-15295332
-							-15295332
-							-15295332
-							-15295332
-							-15295332
-							-15295332
-							-15295332
-							-15295332
-							-15295332
-							-15295332
-							-15295332
-							-15295332
-							-15295332
-							-15295332
-						]
-						"xercapaint:canvas_title": "Chicken"
-						"xercapaint:canvas_version": 113
-					}
-					count: 1
-					id: "xercapaint:item_canvas"
-				}
-				type: "item"
-			}]
-			tasks: [{
-				id: "0990A63A2D24AC54"
+				id: "1B4C8FEF104AD36C"
 				type: "checkmark"
 			}]
 			x: 4.8d
 			y: 5.3d
 		}
 		{
+			dependencies: ["2249A1823E842BAB"]
 			id: "7EF04ED51BC1C8D6"
+			preset: "item"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "0916A677E9AB59B9"
+					is_ender: false
+					is_team_reward: false
+					table_id: 5770973074849872376L
+					target_addressee: "QuestNPC"
+					team_reward_multiplier: 1.0f
+					type: "contactquests:parcel_random"
+				}
+				{
+					count: 4
+					exclude_from_claim_all: true
+					id: "17203D87465D7CEF"
+					is_ender: false
+					is_team_reward: false
+					item: {
+						count: 1
+						id: "minecraft:cyan_wool"
+					}
+					target_addressee: "QuestNPC"
+					team_reward_multiplier: 1.0f
+					type: "contactquests:parcel"
+				}
+			]
 			shape: "hexagon"
 			tasks: [{
 				id: "35B63D50399FB9E5"
 				item: { count: 1, id: "meadow:felting_needle" }
 				type: "item"
 			}]
+			x: -6.5d
+			y: 0.0d
+		}
+		{
+			id: "2249A1823E842BAB"
+			preset: "start"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1F4B88982D0B5120"
+				is_ender: false
+				is_team_reward: false
+				table_id: 6895470215093009548L
+				target_addressee: "QuestNPC"
+				team_reward_multiplier: 1.0f
+				type: "contactquests:parcel_random"
+			}]
+			tasks: [{
+				id: "6C5EEE6B30B2E00F"
+				type: "checkmark"
+			}]
 			x: -7.5d
-			y: -0.4d
+			y: -2.0d
 		}
 	]
 	tags: ["bluequests"]

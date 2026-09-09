@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "#AB",
+    "CDC",
+    "CDC"
+  ],
+  "key": {
+    "#": {
+      "item": "enchanted:breath_of_the_goddess"
+    },
+    "A": {
+      "tag": "minecraft:carpets"
+    },
+    "B": {
+      "item": "enchanted:exhale_of_the_horned_one"
+    },
+    "C": {
+      "item": "minecraft:stone_bricks"
+    },
+    "D": {
+      "tag": "fabled_wylds:magical_logs"
+    }
+  },
+  "result": {
+    "id": "enchanted:altar",
+    "count": 1
+  }
+}

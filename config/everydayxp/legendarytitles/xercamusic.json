@@ -1,0 +1,16 @@
+{
+  "enabled": true,
+  "mod_name": "Music Maker Mod",
+  "mod_id": "xercamusic",
+  "achievements": {
+    "achievements/become_musician": {
+      "display_name": "Musician",
+      "original_name": "Musician",
+      "icon": "xercamusic:music_sheet",
+      "enabled": true,
+      "rewards": {
+        "attributes": {}
+      }
+    }
+  }
+}

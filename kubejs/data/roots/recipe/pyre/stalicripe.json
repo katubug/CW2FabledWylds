@@ -19,6 +19,15 @@
     },
     {
       "tag": "c:raw_materials/iron"
+    },
+    {
+      "tag": "c:raw_materials/iron"
+    },
+    {
+      "tag": "c:raw_materials/iron"
+    },
+    {
+      "item": "minecraft:tuff"
     }
   ],
   "output": {

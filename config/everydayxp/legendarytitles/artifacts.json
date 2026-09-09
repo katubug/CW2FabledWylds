@@ -9,8 +9,7 @@
       "enabled": true,
       "icon": "artifacts:mimic_spawn_egg",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "adventurous_eater": {
@@ -19,8 +18,7 @@
       "enabled": true,
       "icon": "artifacts:onion_ring",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "amateur_archaeologist": {
@@ -29,8 +27,7 @@
       "enabled": true,
       "icon": "artifacts:flame_pendant",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     }
   }

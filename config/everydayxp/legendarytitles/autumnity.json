@@ -9,8 +9,7 @@
       "enabled": true,
       "icon": "autumnity:foul_berries",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "husbandry/sneaky_protection": {
@@ -19,8 +18,7 @@
       "enabled": true,
       "icon": "autumnity:snail_shell_chestplate",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "husbandry/fungivore_diet": {
@@ -29,8 +27,7 @@
       "enabled": true,
       "icon": "minecraft:crimson_fungus",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     }
   }

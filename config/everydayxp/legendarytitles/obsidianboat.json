@@ -9,8 +9,7 @@
       "enabled": true,
       "icon": "obsidianboat:obsidian_boat",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     }
   }

@@ -9,8 +9,7 @@
       "enabled": true,
       "icon": "minecraft:warden_spawn_egg",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "twilight_forest/snow_queen_fire": {
@@ -19,8 +18,7 @@
       "enabled": true,
       "icon": "minecraft:ice",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "misc/deviled_egg": {
@@ -29,8 +27,7 @@
       "enabled": true,
       "icon": "minecraft:egg",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "twilight_forest/photographed_lich": {
@@ -39,8 +36,7 @@
       "enabled": true,
       "icon": "twilightforest:lich_trophy",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "twilight_forest/thorns_yeti": {
@@ -49,8 +45,7 @@
       "enabled": true,
       "icon": "minecraft:rose_bush",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "wyldkeeper": {
@@ -59,8 +54,7 @@
       "enabled": true,
       "icon": "kubejs:wyldkeeper_hearth",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "misc/snowballs_chance": {
@@ -69,8 +63,7 @@
       "enabled": true,
       "icon": "minecraft:snowball",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "misc/extra_well_done_steak": {
@@ -79,8 +72,7 @@
       "enabled": true,
       "icon": "supplementaries:ash",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     }
   }

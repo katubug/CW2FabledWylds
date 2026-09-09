@@ -9,8 +9,7 @@
       "enabled": true,
       "icon": "minecraft:enchanted_golden_apple",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "husbandry/turn_table": {
@@ -19,8 +18,7 @@
       "enabled": true,
       "icon": "supplementaries:turn_table",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "nether/goblet": {
@@ -29,8 +27,7 @@
       "enabled": true,
       "icon": "supplementaries:goblet",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "husbandry/angry_birds": {
@@ -39,8 +36,7 @@
       "enabled": true,
       "icon": "supplementaries:slingshot",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "husbandry/soap": {
@@ -49,8 +45,7 @@
       "enabled": true,
       "icon": "supplementaries:soap",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "husbandry/wrench": {
@@ -59,8 +54,7 @@
       "enabled": true,
       "icon": "supplementaries:wrench",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "adventure/road_sign": {
@@ -69,8 +63,7 @@
       "enabled": true,
       "icon": "supplementaries:way_sign_oak",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "adventure/globe": {
@@ -79,8 +72,7 @@
       "enabled": true,
       "icon": "supplementaries:globe",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "husbandry/sus_stew": {
@@ -89,8 +81,7 @@
       "enabled": true,
       "icon": "minecraft:suspicious_stew",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     }
   }

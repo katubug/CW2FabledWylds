@@ -1,0 +1,16 @@
+{
+  "mod_id": "adorablehamsterpets",
+  "categories": [
+    {
+      "id": "husbandry/root",
+      "advancement_root": "adorablehamsterpets:husbandry/root",
+      "title": "The Hamster Life",
+      "description": "Welcome to your new life as a rodent enthusiast. I'm only slightly jealous.",
+      "icon": {
+        "type": "item",
+        "value": "adorablehamsterpets:hamster_spawn_egg"
+      },
+      "enabled": true
+    }
+  ]
+}

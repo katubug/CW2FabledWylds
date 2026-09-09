@@ -1,10 +1,10 @@
 {
     "title": {
-      "text": "Witchy Tips",
-      "bold": true,
-      "color": "green"
+        "translate": "tips.titles.witchy",
+        "bold": true,
+        "color": "green"
     },
     "tip": {
-      "text": "Mending and Frost Walker can't be bought from villagers - only Wandering Traders will have these rare books!"
+        "translate": "tips.text.trulytreasures"
     }
-  }
+}

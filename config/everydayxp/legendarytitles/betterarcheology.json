@@ -9,8 +9,7 @@
       "enabled": true,
       "icon": "betterarcheology:villager_fossil_head",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "unidentified_artifact": {
@@ -19,8 +18,7 @@
       "enabled": true,
       "icon": "betterarcheology:unidentified_artifact",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "used_bomb_item": {
@@ -29,8 +27,7 @@
       "enabled": true,
       "icon": "betterarcheology:bomb",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "loot_vase_broken": {
@@ -39,8 +36,7 @@
       "enabled": true,
       "icon": "betterarcheology:vase",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "all_fossils_found": {
@@ -49,8 +45,7 @@
       "enabled": true,
       "icon": "betterarcheology:sheep_fossil",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     }
   }

@@ -9,8 +9,7 @@
       "enabled": true,
       "icon": "farmersdelight:cooking_pot",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "main/get_rich_soil": {
@@ -19,8 +18,7 @@
       "enabled": true,
       "icon": "farmersdelight:rich_soil",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "main/obtain_netherite_knife": {
@@ -29,8 +27,7 @@
       "enabled": true,
       "icon": "farmersdelight:netherite_knife",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "main/master_chef": {
@@ -39,8 +36,7 @@
       "enabled": true,
       "icon": "farmersdelight:honey_glazed_ham",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "main/hit_raider_with_rotten_tomato": {
@@ -49,8 +45,7 @@
       "enabled": true,
       "icon": "farmersdelight:rotten_tomato",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "main/get_fd_seed": {
@@ -59,8 +54,7 @@
       "enabled": true,
       "icon": "farmersdelight:wild_onions",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "main/place_campfire": {
@@ -69,8 +63,7 @@
       "enabled": true,
       "icon": "minecraft:campfire",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "main/place_feast": {
@@ -79,8 +72,7 @@
       "enabled": true,
       "icon": "farmersdelight:roast_chicken_block",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "main/craft_knife": {
@@ -89,8 +81,7 @@
       "enabled": true,
       "icon": "farmersdelight:flint_knife",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "main/plant_all_crops": {
@@ -99,8 +90,7 @@
       "enabled": true,
       "icon": "farmersdelight:cabbage",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     }
   }

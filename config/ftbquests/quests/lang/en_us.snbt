@@ -204,6 +204,7 @@
 	quest.010A27B1AA0094CE.quest_subtitle: "{count:1,id:\"reliquary:bat_wing\"}"
 	quest.010B883FAFAC7C1F.quest_subtitle: "{components:{\"ae2:facade_item\":\"minecraft:amethyst_block\"},count:1,id:\"ae2:facade\"}"
 	quest.010C842973CEEE28.quest_subtitle: "{components:{\"minecraft:potion_contents\":{custom_effects:[{duration:100,id:\"minecraft:weakness\",\"neoforge:cures\":[\"protected_by_totem\",\"milk\"],show_icon:1b}]}},count:1,id:\"reliquary:magazines/neutral_magazine\"}"
+	quest.010D5F21ACF6C3D0.title: "Obtain a Spell"
 	quest.010DC73B2A480D3A.quest_subtitle: "{count:1,id:\"betternether:basalt_bricks_wall\"}"
 	quest.010DF348C68C65B7.quest_subtitle: "{components:{\"ae2:facade_item\":\"hearthandharvest:stripped_bamboo_trellis\"},count:1,id:\"ae2:facade\"}"
 	quest.010DF50112B02CCA.quest_subtitle: "{count:1,id:\"hexerei:wet_herb_enhanced_broom_brush\"}"
@@ -770,6 +771,12 @@
 	quest.041157FBFD8DF53B.quest_subtitle: "{count:1,id:\"quark:feeding_trough\"}"
 	quest.0412BE8DE43B0C55.quest_subtitle: "{count:1,id:\"thaumon:arcane_lantern\"}"
 	quest.041324ABA5F9ED6D.quest_subtitle: "{components:{\"sophisticatedstorage:wood_type\":\"oak\"},count:1,id:\"sophisticatedstorage:barrel\"}"
+	quest.041330E9AC7E1769.quest_desc: [
+		"The &cSwamp Dungeon&r is an ancient ruin filled with &eUndead&r, but home to &apotential treasures&r! You can find them, oddly enough, in &cSwamps&r, and you can of course use the &bExplorer's Compass&r to locate one!"
+		""
+		"And while you're in there... don't forget to &dcheck behind the stairs&r..."
+	]
+	quest.041330E9AC7E1769.title: "Find the Swamp Dungeon"
 	quest.04151F29F8B8A3B1.quest_subtitle: "{count:1,id:\"betterend:charnia_orange\"}"
 	quest.04189FDC7E3139B9.quest_subtitle: "{count:1,id:\"quark:lavender_blossom_leaves\"}"
 	quest.041B712280A6E650.quest_subtitle: "{count:1,id:\"tflostblocks:mossy_stone_tile_stairs\"}"
@@ -890,7 +897,11 @@
 	quest.04CB92D0283E8D17.quest_subtitle: "{components:{\"minecraft:suspicious_stew_effects\":[{duration:120,id:\"minecraft:fire_resistance\"}]},count:1,id:\"minecraft:suspicious_stew\"}"
 	quest.04CC20DDA1A5C248.quest_subtitle: "{count:1,id:\"quark:blue_shingles_stairs\"}"
 	quest.04CF259E0C951620.quest_subtitle: "{components:{\"enchanted:circle_magic_shape_map\":{\"enchanted:large_circle\":\"enchanted:ritual_chalk\"}},count:1,id:\"enchanted:circle_talisman\"}"
-	quest.04D06CBCA0CB74BC.quest_desc: ["Your &bCanvas&r is, well... your &bCanvas&r. It's where you paint your masterpiece!"]
+	quest.04D06CBCA0CB74BC.quest_desc: [
+		"Your &bCanvas&r is, well... your &bCanvas&r. It's where you paint your masterpiece!"
+		""
+		"Or, if you're me, your disasterpiece. It's okay. We'll get there someday."
+	]
 	quest.04D06CBCA0CB74BC.title: "Obtain Canvas"
 	quest.04D1552658D2100B.quest_subtitle: "{components:{\"ae2:facade_item\":\"twilightforest:stripped_canopy_wood\"},count:1,id:\"ae2:facade\"}"
 	quest.04D3F92BBD6AD656.quest_subtitle: "{count:1,id:\"decorativerailings:iron_diagonal_handrail_2\"}"
@@ -930,6 +941,16 @@
 	quest.04F79989405F6DF5.quest_subtitle: "{count:1,id:\"starcatcher:fisherman_hat_green\"}"
 	quest.04FA95058F50BD6E.quest_subtitle: "{count:1,id:\"create:piston_extension_pole\"}"
 	quest.04FC56D679E2019E.quest_subtitle: "{count:1,id:\"hearthandharvest:cocoa_bean_bag\"}"
+	quest.04FD578146464FA6.quest_desc: [
+		"The &eHamster&r is a surprisingly complex creature. You may think of them as small, brainless balls of fluff, and you're partly right. But did you know they are also &avicious warriors&r who will &aeat their own offspring if threatened&r? Pretty metal."
+		""
+		"Anyway, in nature as with witchcraft, there are many layers of nuance, but I am getting ahead of myself."
+		""
+		"Find a cute little &eHamster&r, and &6crouch, then approach it and right click with these &bCucumber Slices&r, and you'll make a little friend!"
+		""
+		"You can reference the &bHamster Guide&r in your &bEccentric Tome&r for more information!"
+	]
+	quest.04FD578146464FA6.quest_subtitle: "hampter"
 	quest.04FDAD7C6D20B35B.quest_subtitle: "{components:{\"ae2:facade_item\":\"cluttered:fluorescent_maple_leaves\"},count:1,id:\"ae2:facade\"}"
 	quest.04FDE4EB0DE74666.quest_subtitle: "{count:1,id:\"twilightforest:swarm_spider_spawn_egg\"}"
 	quest.0501376F54CC66D7.quest_subtitle: "{count:1,id:\"arts_and_crafts:cyan_plaster\"}"
@@ -1008,7 +1029,7 @@
 		"The Herb Jar label will &areflect what is stored inside of it&r, and can be named using an &bAnvil&r. When broken, the Herb Jar retains its inventory."
 		""
 		"&6Left click an &bHerb Jar to withdraw&r 1 item. &6Crouch and left click&r to remove a stack."
-		"&eFamiliar Crows&r will &agather and deposit harvested herbs&r if the button inside the jar (&6crouch right click&r to access) is pressed."
+		"&eFamiliar Ravens&r will &agather and deposit harvested herbs&r if the button inside the jar (&6crouch right click&r to access) is pressed."
 	]
 	quest.05772A2D60C9FF3D.quest_subtitle: "Totally herbaceous, dude"
 	quest.05772A2D60C9FF3D.title: "Obtain an Herb Jar"
@@ -2525,7 +2546,7 @@
 	quest.0D83EE6EB487EC3A.quest_subtitle: "{count:1,id:\"quark:sandstone_bricks_stairs\"}"
 	quest.0D88FA3A5A00DF3E.quest_subtitle: "{components:{\"quark:item_count\":640,\"quark:stored_item\":{stack:{count:1,id:\"regions_unexplored:mycotoxic_mushrooms\"}}},count:1,id:\"quark:seed_pouch\"}"
 	quest.0D8BFDD85601A802.quest_subtitle: "{count:1,id:\"colorfulazaleas:pitch_azalea_fence_gate\"}"
-	quest.0D8DA3376EF50A60.quest_desc: ["Equip your &eCrow&r with this &bAnkh&r to protect it from danger. It will grant it &aRegen&r while it's playing dead, and &aacts as a &bTotem of Undying&r in case the &eCrow&r dies."]
+	quest.0D8DA3376EF50A60.quest_desc: ["Equip your &eRaven&r with this &bAnkh&r to protect it from danger. It will grant it &aRegen&r while it's playing dead, and &aacts as a &bTotem of Undying&r in case the &eRaven&r dies."]
 	quest.0D8DAA9D0102AB82.quest_subtitle: "{components:{\"minecraft:potion_contents\":{potion:\"betterend:end_veil\"}},count:1,id:\"minecraft:lingering_potion\"}"
 	quest.0D8E9DFA03C4E2ED.quest_subtitle: "{count:1,id:\"twilightforest:kobold_spawn_egg\"}"
 	quest.0D915B2A001FBC1F.quest_subtitle: "{components:{\"ae2:facade_item\":\"colorfulazaleas:cyan_azalea_leaves\"},count:1,id:\"ae2:facade\"}"
@@ -4492,6 +4513,8 @@
 	quest.182C1C3812C31B0B.quest_desc: [
 		"One of the most important tools in a witch's bag is their &bLibrary&r, in which they learn about the magical world around them, and also record their knowledge and experience as they follow their path!"
 		""
+		"As it so happens, you &dalready own these books, they are in your &bEccentric Tome&r. &6Select each book, shift and press Q&r to eject them and get credit for this quest's tasks."
+		""
 		"There are several primary mods which grant you magical powers: &lHexerei&r, &lEnchanted&r, &lHexalia&r, and &lRoots&r. In this modpack, they are &awoven together to provide a cohesive experience&r, and as such may surprise you if you've played them before."
 		""
 		"&lHexerei's&r &bBook of Shadows&r will serve as a reference for the mechanics of that mod, and &lEnchanted's&r &bArt of Witchcraft&r - and the other volumes you'll discover as you go - will do the same for that mod. When the mechanics of the mods diverge from the guidebooks, &dthese quests will provide you the correct steps&r."
@@ -4542,6 +4565,7 @@
 	quest.1862A8B128BA8C18.quest_subtitle: "{count:1,id:\"reanimal:kiwi_egg\"}"
 	quest.1864F5B1CA0B1A07.quest_subtitle: "{count:1,id:\"tanukidecor:newtons_cradle\"}"
 	quest.1865DAFA48732C18.quest_subtitle: "{count:1,id:\"minecraft:fire_charge\"}"
+	quest.186783CBB755AC03.quest_desc: ["The &bWhiff of Magic&r is a very key fume, as it can be used to craft &bAttuned Stones&r, which are used in many other recipes."]
 	quest.18683EEF7DB3E8F0.quest_subtitle: "{count:1,id:\"regions_unexplored:spanish_moss\"}"
 	quest.18684A2B768970CC.quest_subtitle: "{count:1,id:\"betterfishtanks:tiny_branch_stripped_cherry_log\"}"
 	quest.18689320EEAD8E10.quest_subtitle: "{count:1,id:\"artifacts:universal_attractor\"}"
@@ -4658,7 +4682,7 @@
 	quest.18F7AA60C288DED7.quest_subtitle: "{count:1,id:\"the_bumblezone:super_candle_gray\"}"
 	quest.18F9925DE852429A.quest_subtitle: "{count:1,id:\"minecraft:diamond_chestplate\"}"
 	quest.18FA6234F8816ED2.quest_subtitle: "{count:1,id:\"bakery:bread_with_jam\"}"
-	quest.18FD7541912B5772.quest_desc: ["Create some &bMixed Seeds&r in order to tame &eWild Crows&r. Once you tame a Crow Familiar, they will help you with tasks around your hut!"]
+	quest.18FD7541912B5772.quest_desc: ["Create some &bMixed Seeds&r in order to tame &eWild Ravens&r. Once you tame a Raven Familiar, they will help you with tasks around your hut!"]
 	quest.18FD7541912B5772.quest_subtitle: "Squawk goals"
 	quest.18FD7541912B5772.title: "Mix some Seeds in your Mortar"
 	quest.1900D8C60C336E7E.quest_subtitle: "{components:{\"ae2:facade_item\":\"tfbr:respawn_ur_ghast\"},count:1,id:\"ae2:facade\"}"
@@ -6361,6 +6385,25 @@
 	quest.21B7E95E5232ED19.quest_subtitle: "{components:{\"ae2:facade_item\":\"minecraft:oxidized_chiseled_copper\"},count:1,id:\"ae2:facade\"}"
 	quest.21B8BE1262669EC3.quest_subtitle: "{count:1,id:\"sophisticatedstorage:iron_shulker_box\"}"
 	quest.21BCC6DCDFEA56F1.quest_subtitle: "{count:1,id:\"luckyswardrobe:savanna_pants\"}"
+	quest.21BCCEDD06A1C052.quest_desc: [
+		"Welcome to &zCrazy Joe's Paper Emporium&r - where we sell &bPaper&b at &zCRAZY PRICES&r!!"
+		""
+		"Yes, that's right, you can get &l16 whole Paper&r for only &b3 Spurs&r!!!!!one1!!! A price so low, you'd have to be CRAZY!!!"
+		""
+		""
+		""
+		""
+		""
+		""
+		""
+		""
+		""
+		""
+		""
+		""
+		"&8my wife left me and i'm so alone please buy my paper&r"
+	]
+	quest.21BCCEDD06A1C052.title: "16 Paper"
 	quest.21BD0D48A8CBD6D1.quest_subtitle: "{count:1,id:\"quark:light_blue_framed_glass\"}"
 	quest.21BD4E2F12DBD008.quest_subtitle: "{count:1,id:\"the_bumblezone:music_disc_bee_ware_of_the_temple\"}"
 	quest.21C4AD95E42BE261.quest_subtitle: "{count:1,id:\"regions_unexplored:green_bioshroom_stairs\"}"
@@ -6449,6 +6492,19 @@
 	quest.224208FA65743B58.quest_subtitle: "{components:{\"reliquary:entity_name\":\"minecraft:giant\"},count:1,id:\"reliquary:mob_charm\"}"
 	quest.224210917B760842.quest_subtitle: "{count:1,id:\"moresnifferflowers:bonwiltia_seeds\"}"
 	quest.22475C6C2936F008.quest_subtitle: "{components:{\"ae2:facade_item\":\"tfbr:respawn_hydra\"},count:1,id:\"ae2:facade\"}"
+	quest.2249A1823E842BAB.quest_desc: [
+		"Do you want to &abe an artist&r in addition to a practitioner? Well, I should warn you that it's a rigorous process! Not anyone can just waltz in and say they belong to the same category as the great masters!!"
+		""
+		"In order to become a &zReal Artist&r (TM), you must complete this list of tasks!!"
+		""
+		"1. Make some art"
+		""
+		"..."
+		""
+		"Yeah, that's all. You do not have to be good, you do not have to be prolific, you do not have to have experience. &dIf you make art, you are an artist, period&r."
+		""
+		"So with that in mind, take this reward and &ago do the other quests&r."
+	]
 	quest.224AE04BF9D60674.quest_subtitle: "{components:{\"ae2:facade_item\":\"regions_unexplored:glistering_nylium\"},count:1,id:\"ae2:facade\"}"
 	quest.224DD8EC045EDBEF.quest_subtitle: "{count:1,id:\"arts_and_crafts:cork_wood\"}"
 	quest.224F16429FBD7037.quest_subtitle: "{count:1,id:\"minecraft:chest_minecart\"}"
@@ -6908,7 +6964,7 @@
 	quest.24BE298685F123F5.quest_subtitle: "{count:1,id:\"arts_and_crafts:cut_marlot_pietraforte_stairs\"}"
 	quest.24C0CE1151B5CBB4.quest_subtitle: "{components:{\"ae2:facade_item\":\"minecraft:ochre_froglight\"},count:1,id:\"ae2:facade\"}"
 	quest.24C10A1C1888A4BB.quest_subtitle: "{count:1,id:\"enchanted:infinity_egg\"}"
-	quest.24C19E2033095FFA.quest_desc: ["The &bMortar and Pestle&r is a tool for grinding herbs. It will allow you to &amake &bSeed Mixture&r for taming &eCrows&r, craft &bmagical ingredients&r, and most importantly - &aconcoct new spells&r!"]
+	quest.24C19E2033095FFA.quest_desc: ["The &bMortar and Pestle&r is a tool for grinding herbs. It will allow you to &amake &bSeed Mixture&r for taming &eRavens&r, craft &bmagical ingredients&r, and most importantly - &aconcoct new spells&r!"]
 	quest.24C19E2033095FFA.quest_subtitle: "pester a mortal"
 	quest.24C19E2033095FFA.title: "Obtain a Pestle and Mortar"
 	quest.24C6DE9C5F53F20B.quest_subtitle: "{count:1,id:\"colorfulazaleas:pastoral_azalea_fence_gate\"}"
@@ -8374,9 +8430,11 @@
 	quest.2C7415C730F0BD86.quest_subtitle: "{components:{\"minecraft:block_state\":{level:\"1\"}},count:1,id:\"minecraft:light\"}"
 	quest.2C7455DD71A6A95B.quest_subtitle: "{count:1,id:\"supplementaries:mysticsbiomes/way_sign_sea_foam\"}"
 	quest.2C760E07C84C91F2.quest_desc: [
-		"Crows love music! If you ever lose track of them, you can instantly summon them using the &bCrow Flute&r. You'll need &bMahogany Wood&r and some &bDye&r in order to craft."
+		"Ravens love music! If you ever lose track of them, you can instantly summon them using the &bRaven Flute&r. You'll need &bMahogany Wood&r and some &bDye&r in order to craft."
+		""
 		"&6Right click while holding the Flute&r to play a tune to call your &eFamiliars&r."
-		"If you &6crouch and right click a Crow with the Flute&r, you can Select it with the &aSelect&r button. Then, you can select &aPerch&r, and &6crouch and right click a block/inventory item with the Flute&r in order to tell your Crow to perch there. Crows will bring items back to their perch when told to &aGather&r."
+		""
+		"If you &6crouch and right click a Raven with the Flute&r, you can Select it with the &aSelect&r button. Then, you can select &aPerch&r, and &6crouch and right click a block/inventory item with the Flute&r in order to tell your Raven to perch there. Ravens will bring items back to their perch when told to &aGather&r."
 	]
 	quest.2C760E07C84C91F2.quest_subtitle: "Utterly Charming"
 	quest.2C779198E84608B1.quest_subtitle: "{count:1,id:\"betterend:lutebus\"}"
@@ -8500,6 +8558,7 @@
 	quest.2D12AA7B347737FA.quest_subtitle: "{count:1,id:\"mcwfences:cathedral_metal_fence\"}"
 	quest.2D130A7E1CF42E7D.quest_subtitle: "{count:1,id:\"minecraft:white_wool\"}"
 	quest.2D13254DAD791935.quest_subtitle: "{count:1,id:\"minecraft:wayfinder_armor_trim_smithing_template\"}"
+	quest.2D137E6E0AD9F560.quest_desc: ["&eApple Cows&r are delightful creatures which grow &bApples&r upon their backs. You can &ashear them&r to obtain these tasty treats, but beware that &dthey do not regrow&r."]
 	quest.2D13E3B1F0943FF2.quest_subtitle: "{components:{\"minecraft:entity_data\":{id:\"minecraft:painting\",variant:\"minecraft:fighters\"}},count:1,id:\"minecraft:painting\"}"
 	quest.2D14499C5ED300BD.quest_subtitle: "{count:1,id:\"handcrafted:yellow_sheet\"}"
 	quest.2D148DB1E635B81F.quest_subtitle: "{count:1,id:\"regions_unexplored:magnolia_branch\"}"
@@ -8738,7 +8797,7 @@
 		""
 		"Having a &efamiliar&r will not only make you resistant to curses, but will strengthen your curse magic. More importantly, though, it's nice to have a companion. To tame a familiar, you will first need a &eCat&r. Tame it with your &bfish&r of choice, and guide it into a &bRitual Circle&r."
 		""
-		"Read &bArt of Witchcraft&r; the chapter on &asSummoning Familiars&r will give you instructions on how to perform the rite."
+		"Read &bArt of Witchcraft&r; the chapter on &aSummoning Familiars&r will give you instructions on how to perform the rite."
 		""
 		"{image:fabled_wylds:textures/questimages/ritual_circle.png width:200 height:200 align:center}"
 	]
@@ -8878,9 +8937,9 @@
 	quest.2EF7BB5D94D8716D.quest_subtitle: "{count:1,id:\"moresnifferflowers:tater_armor_trim_smithing_template\"}"
 	quest.2EF8B73AFF101951.quest_subtitle: "{count:1,id:\"minecraft:music_disc_ward\"}"
 	quest.2EF8BDE55E93F2B3.quest_subtitle: "{count:1,id:\"ae2:quartz_brick_wall\"}"
-	quest.2EF910B028DA06B7.quest_desc: ["You can breed two tamed &eCrows&r by gifting one of them a shiny &bGolden Nugget&r. It will then bring it to its potential mate, and the two will pair up!"]
+	quest.2EF910B028DA06B7.quest_desc: ["You can breed two tamed &eRavens&r by gifting one of them a shiny &bGolden Nugget&r. It will then bring it to its potential mate, and the two will pair up!"]
 	quest.2EF910B028DA06B7.quest_subtitle: "Oooh, shiny!"
-	quest.2EF910B028DA06B7.title: "Breeding Crows"
+	quest.2EF910B028DA06B7.title: "Breeding Ravens"
 	quest.2EFA78D0B0B8837E.quest_subtitle: "{components:{\"ae2:facade_item\":\"utilitarian:snad\"},count:1,id:\"ae2:facade\"}"
 	quest.2EFB0C3DF4590DBC.quest_subtitle: "{count:1,id:\"another_furniture:gray_tall_stool\"}"
 	quest.2EFB622148E5EE52.quest_subtitle: "{count:1,id:\"quark:polished_jasper\"}"
@@ -9003,15 +9062,19 @@
 	quest.2F8E9A9A0CAC0915.quest_subtitle: "{count:1,id:\"kubejs:carved_spruce_3\"}"
 	quest.2F906B844ED00730.quest_subtitle: "{count:1,id:\"tanukidecor:gorgeous_mini_drawer\"}"
 	quest.2F933DC876021A85.quest_desc: [
-		"Once you meet your first &eCrow&r, you're ready to tame. Bring lots of &bSeed Mixture&r because they can be hard to win over!"
-		"Once you have tamed the Crow Familiar, you can &6crouch and right click it&r to &aaccess its menu&r."
+		"Once you meet your first &eRaven&r, you're ready to tame. Bring lots of &bSeed Mixture&r because they can be hard to win over!"
+		""
+		"Once you have tamed the Raven Familiar, you can &6crouch and right click it&r to &aaccess its menu&r."
 		"If you &6right click without crouching&r, you will &achange its mode&r to Sit, Follow, and more. You can do that in the menu, as well. By default, it will Follow and sit on your shoulder, unless you crouch."
-		"&aCrows can be equipped with hats and weapons&r via the menu. It can wear most helmets and wield most melee weapons. "
+		""
+		"&aRavens can be equipped with hats and weapons&r via the menu. It can wear most helmets and wield most melee weapons. "
+		""
 		"{image:hexerei:textures/book/pictures/crow_gui.png width:100 height:100 align:1}"
+		""
 		"Through the menu, you can instruct your &eFamiliar&r to help you farm your crops, or to follow you in combat, or even to &apickpocket villagers&r."
 	]
 	quest.2F933DC876021A85.quest_subtitle: "You look oddly Familiar"
-	quest.2F933DC876021A85.title: "Meet a Crow"
+	quest.2F933DC876021A85.title: "Meet a Raven"
 	quest.2F93D4CFC66F0F9E.quest_subtitle: "{count:1,id:\"tanukidecor:antique_mirror\"}"
 	quest.2F95E2BF252959F9.quest_subtitle: "{count:1,id:\"meadow:pine_sofa_linen\"}"
 	quest.2F972E6F23CB24E9.quest_subtitle: "{components:{\"sophisticatedstorage:wood_type\":\"dark_oak\"},count:1,id:\"sophisticatedstorage:limited_diamond_barrel_1\"}"
@@ -12446,7 +12509,7 @@
 	quest.419FC736B61C1FD0.quest_subtitle: "{count:1,id:\"mysticsbiomes:vanilla_hanging_sign\"}"
 	quest.41A34B69B2EA270F.quest_subtitle: "{count:1,id:\"farm_and_charm:bacon\"}"
 	quest.41A361B4DEFCEFA6.quest_desc: [
-		"&bIncense&r is often used as part of spellcraft, and it also smells nice! This type of incense, however, primarily exists to &asummon waves of mobs&r at an &bAncient Brazier&r, found in &cAncient Ruins&r."
+		"&bIncense&r is often used as part of spellcraft, and it also smells nice! This type of incense, however, primarily exists to &asummon waves of mobs&r at an &bAncient Brazier&r, found in &cSwamp Dungeons&r."
 		""
 		"&bBasic Incense&r can be found by lighting &dnaturally spawning&r &bAncient Braziers&r and fighting the mobs that spawn."
 		""
@@ -24150,8 +24213,11 @@
 		"To begin with, you'll need a &bFelting Needle&r, and some &bWool&r. &6Hold the &bWool&6in your off hand and &6hold the &bNeedle&r in your main hand, then &6hold right click&r to &lSTAB THAT WOOL LIKE IT BETRAYE&r - eh, uh, ahaha. Sorry. Anyway."
 		""
 		"Not all wools will work with this process, but why not &atry several different kinds&r and see what you can come up with?"
+		""
+		"And remember to $dbe patient&r - you'll need to hold right click &afor a while&r."
 	]
 	quest.7EF04ED51BC1C8D6.quest_subtitle: "it's like therapy"
+	quest.7EF04ED51BC1C8D6.title: "Obtain a Felting Needle"
 	quest.7EF0AFD3D7EBF794.quest_subtitle: "{count:1,id:\"minecraft:cherry_stairs\"}"
 	quest.7EF50A56CAEB55BE.quest_subtitle: "{components:{\"ae2:facade_item\":\"regions_unexplored:wisteria_log\"},count:1,id:\"ae2:facade\"}"
 	quest.7EF7EE2181ECA4E9.quest_desc: ["Traverse all Nether biomes!"]
@@ -24404,7 +24470,6 @@
 	task.05C93FDCDA404989.title: "Any Hanging Sign"
 	task.07C2B6C5EA1F95F7.title: "Costs 5 Cogs"
 	task.0873F112CCF37124.title: "Costs 1 Cog"
-	task.0990A63A2D24AC54.title: "Finish a Painting"
 	task.0A21E2BB7F5F01BE.title: "Any #numismatics:coins"
 	task.0BB17E96106E9717.title: "Catalog 50 Plants"
 	task.0BDE86AF2F99E598.title: "Costs 2 Cogs"
@@ -24428,6 +24493,7 @@
 	task.19FF8778EE218898.title: "hoobe"
 	task.1A048F3381BC6882.title: "Playing with Friends"
 	task.1ADDD6FB306A3FA5.title: "Catalogue All Plants"
+	task.1B4C8FEF104AD36C.title: "Finish a Painting"
 	task.1C58CD7EBA09C386.title: "Any #c:flours/wheat"
 	task.1EF853C0F645A403.title: "Any #starcatcher:hooks"
 	task.1F3C1DB0060E68FA.title: "Costs 1 Crown"
@@ -24477,6 +24543,7 @@
 	task.462097D5B1746430.title: "hoobe"
 	task.46CE5319FC2CF31B.title: "Break Wild Barley"
 	task.474CE1AAC07815BD.title: "The Only Way to \"Fly\""
+	task.4814450078D3D847.title: "Any #fabled_wylds:roots_spells"
 	task.48389846ACBF5E2F.title: "Baby's First Death"
 	task.491F79BB8987D1C2.title: "Begin Witchification!"
 	task.49D99F0BAC2EFBA1.title: "hoobe"
@@ -24487,6 +24554,7 @@
 	task.4C295AEBDC55AA44.title: "Break Wild Green Grapes"
 	task.4C95BB438E558893.title: "Catacombs"
 	task.4D969F11A701F8AA.title: "I know how to find things now"
+	task.4DE3FFC7902D0918.title: "Costs 3 Spurs"
 	task.4E2FF7B49BA9BA6D.title: "Any #starcatcher:fishable"
 	task.4F0987E03DD1E00D.title: "Costs 1 Cog"
 	task.4F2FBE539DFDE88D.title: "Break Wild Corn"
@@ -24514,6 +24582,7 @@
 	task.65F6811A7FA63CCC.title: "Break Wild Potato"
 	task.6786877EA87F929C.title: "Break Wild Emmer"
 	task.6C5BC7D99F986162.title: "Catalogue 10 Plants"
+	task.6C5EEE6B30B2E00F.title: "Become an Artist"
 	task.6CDEC3D5AA9EAC42.title: "hoobe"
 	task.6CFA8867F65465D2.title: "Catalogue 5 Plants"
 	task.6EC3A1D0F373858B.title: "Costs 1 Cog"

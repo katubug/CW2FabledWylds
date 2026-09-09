@@ -9,8 +9,7 @@
       "enabled": true,
       "icon": "endrem:sculk_eye",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "main/nether_eye": {
@@ -19,8 +18,7 @@
       "enabled": true,
       "icon": "endrem:nether_eye",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "main/rogue_eye": {
@@ -29,8 +27,7 @@
       "enabled": true,
       "icon": "endrem:rogue_eye",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "main/fishing_eye": {
@@ -39,8 +36,7 @@
       "enabled": true,
       "icon": "endrem:fishing_eye",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "main/black_eye": {
@@ -49,8 +45,7 @@
       "enabled": true,
       "icon": "endrem:black_eye",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "main/cryptic_eye": {
@@ -59,8 +54,7 @@
       "enabled": true,
       "icon": "endrem:cryptic_eye",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "main/guardian_eye": {
@@ -69,8 +63,7 @@
       "enabled": true,
       "icon": "endrem:guardian_eye",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "main/exotic_eye": {
@@ -79,8 +72,7 @@
       "enabled": true,
       "icon": "endrem:exotic_eye",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "main/old_eye": {
@@ -89,8 +81,7 @@
       "enabled": true,
       "icon": "endrem:old_eye",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "main/evil_eye": {
@@ -99,8 +90,7 @@
       "enabled": true,
       "icon": "endrem:evil_eye",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "main/cold_eye": {
@@ -109,8 +99,7 @@
       "enabled": true,
       "icon": "endrem:cold_eye",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "main/corrupted_eye": {
@@ -119,8 +108,7 @@
       "enabled": true,
       "icon": "endrem:corrupted_eye",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "main/magical_eye": {
@@ -129,8 +117,7 @@
       "enabled": true,
       "icon": "endrem:magical_eye",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "main/trial_eye": {
@@ -139,8 +126,7 @@
       "enabled": true,
       "icon": "endrem:trial_eye",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "main/potato_eye": {
@@ -149,8 +135,7 @@
       "enabled": true,
       "icon": "endrem:potato_eye",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "main/undead_eye": {
@@ -159,8 +144,7 @@
       "enabled": true,
       "icon": "endrem:undead_eye",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "main/cursed_eye": {
@@ -169,8 +153,7 @@
       "enabled": true,
       "icon": "endrem:cursed_eye",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "main/witch_eye": {
@@ -179,8 +162,7 @@
       "enabled": true,
       "icon": "endrem:witch_eye",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "main/wither_eye": {
@@ -189,8 +171,7 @@
       "enabled": true,
       "icon": "endrem:wither_eye",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "main/lost_eye": {
@@ -199,8 +180,7 @@
       "enabled": true,
       "icon": "endrem:lost_eye",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     }
   }

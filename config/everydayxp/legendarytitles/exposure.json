@@ -9,8 +9,7 @@
       "enabled": true,
       "icon": "minecraft:end_stone_bricks",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "adventure/family_portrait": {
@@ -19,8 +18,7 @@
       "enabled": true,
       "icon": "exposure:camera_stand",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "adventure/spotlight": {
@@ -29,8 +27,7 @@
       "enabled": true,
       "icon": "minecraft:player_head",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "adventure/exposed_paparazzi": {
@@ -39,8 +36,7 @@
       "enabled": true,
       "icon": "minecraft:jack_o_lantern",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "adventure/exposure": {
@@ -49,8 +45,7 @@
       "enabled": true,
       "icon": "exposure:camera",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "adventure/spooky_silly_skeletons": {
@@ -59,8 +54,7 @@
       "enabled": true,
       "icon": "minecraft:bone",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "adventure/complex_composite_compound": {
@@ -69,8 +63,7 @@
       "enabled": true,
       "icon": "exposure:chromatic_sheet",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "adventure/unforeseen_consequences": {
@@ -79,8 +72,7 @@
       "enabled": true,
       "icon": "minecraft:ender_eye",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "adventure/piercing_gaze": {
@@ -89,8 +81,7 @@
       "enabled": true,
       "icon": "exposure:interplanar_projector",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "adventure/photos_of_spider_man": {
@@ -99,8 +90,7 @@
       "enabled": true,
       "icon": "minecraft:cobweb",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "adventure/splitting_the_photon": {
@@ -109,8 +99,7 @@
       "enabled": true,
       "icon": "minecraft:red_stained_glass_pane",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "adventure/wildlife_archivist": {
@@ -119,8 +108,7 @@
       "enabled": true,
       "icon": "minecraft:axolotl_bucket",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "adventure/lights_up": {
@@ -129,8 +117,7 @@
       "enabled": true,
       "icon": "minecraft:redstone_lamp",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "adventure/moment_in_time": {
@@ -139,8 +126,7 @@
       "enabled": true,
       "icon": "exposure:photograph",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     }
   }

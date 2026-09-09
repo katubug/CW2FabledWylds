@@ -50,6 +50,18 @@ ServerEvents.recipes(event => {
 		})
 	}
 
+	//acorns
+
+	event.replaceInput({},
+	'adorablehamsterpets:acorn',
+	'#fabled_wylds:acorns')
+
+	event.replaceInput({},
+	'crittersandcompanions:acorn',
+	'#fabled_wylds:acorns')
+
+	
+
 	//flour 2
 	event.replaceInput({
 			input: 'create:wheat_flour'

@@ -9,8 +9,7 @@
       "enabled": true,
       "icon": "exposure_polaroid:instant_camera",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     }
   }

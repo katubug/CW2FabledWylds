@@ -9,8 +9,7 @@
       "enabled": true,
       "icon": "delighto_flight:thunder_cloudshroom",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "main/get_lotus_flower_night": {
@@ -19,8 +18,7 @@
       "enabled": true,
       "icon": "delighto_flight:wild_lotus",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "main/get_thunder_fruit_seed": {
@@ -29,8 +27,7 @@
       "enabled": true,
       "icon": "delighto_flight:thunder_fruit",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     }
   }

@@ -1,0 +1,16 @@
+{
+  "mod_id": "fintastic",
+  "categories": [
+    {
+      "id": "fintastic/root",
+      "advancement_root": "fintastic:fintastic/root",
+      "title": "Yet Another Fish Mod...",
+      "description": "It's Fintastic!",
+      "icon": {
+        "type": "item",
+        "value": "fintastic:featherback"
+      },
+      "enabled": true
+    }
+  ]
+}

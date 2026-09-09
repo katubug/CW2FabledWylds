@@ -8,7 +8,7 @@
 	#If set to true, right-clicking the result slot in a crafting table will craft a full stack.
 	rightClickCraftsStack = true
 	#We both know JEI is much better. This option hides Vanilla's crafting book button instead of moving it.
-	hideVanillaCraftingGuide = false
+	hideVanillaCraftingGuide = true
 	#Offset from the right when repositioning the vanilla recipe book button.
 	vanillaCraftingGuideOffsetX = -25
 	#Offset from the top when repositioning the vanilla recipe book button.

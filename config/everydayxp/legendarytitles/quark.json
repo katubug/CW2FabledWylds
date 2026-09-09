@@ -9,8 +9,7 @@
       "enabled": true,
       "icon": "quark:diamond_heart",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "content/foxhound_speed_up_furnace": {
@@ -19,8 +18,7 @@
       "enabled": true,
       "icon": "minecraft:furnace",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "content/retreive_flamerang": {
@@ -29,8 +27,7 @@
       "enabled": true,
       "icon": "quark:flamerang",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "content/instamine_deepslate": {
@@ -39,8 +36,7 @@
       "enabled": true,
       "icon": "minecraft:deepslate",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "content/mine_fed_toretoise": {
@@ -49,8 +45,7 @@
       "enabled": true,
       "icon": "minecraft:glow_berries",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "content/get_diamond_heart": {
@@ -59,8 +54,7 @@
       "enabled": true,
       "icon": "quark:diamond_heart",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "content/redirect_beacon": {
@@ -69,8 +63,7 @@
       "enabled": true,
       "icon": "minecraft:beacon",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "content/watcher_center": {
@@ -79,8 +72,7 @@
       "enabled": true,
       "icon": "quark:ender_watcher",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "content/get_all_corundum": {
@@ -89,8 +81,7 @@
       "enabled": true,
       "icon": "quark:blue_corundum_cluster",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "content/shiba_help": {
@@ -99,8 +90,7 @@
       "enabled": true,
       "icon": "minecraft:torch",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "content/wear_full_rainbow": {
@@ -109,8 +99,7 @@
       "enabled": true,
       "icon": "quark:smithing_template_rune",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "content/apply_color_rune": {
@@ -119,8 +108,7 @@
       "enabled": true,
       "icon": "quark:smithing_template_rune",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "content/crab_in_a_bucket": {
@@ -129,8 +117,7 @@
       "enabled": true,
       "icon": "quark:crab_bucket",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "content/mine_toretoise": {
@@ -139,8 +126,7 @@
       "enabled": true,
       "icon": "minecraft:diamond_pickaxe",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "content/get_own_head": {
@@ -149,8 +135,7 @@
       "enabled": true,
       "icon": "minecraft:player_head",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "content/tatami_gaeshi": {
@@ -159,8 +144,7 @@
       "enabled": true,
       "icon": "quark:bamboo_mat_carpet",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "content/ancient_apple_overlevel": {
@@ -169,8 +153,7 @@
       "enabled": true,
       "icon": "quark:ancient_fruit",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "content/get_all_blossom_saplings": {
@@ -179,8 +162,7 @@
       "enabled": true,
       "icon": "quark:red_blossom_sapling",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "content/get_bottled_cloud": {
@@ -189,8 +171,7 @@
       "enabled": true,
       "icon": "quark:bottled_cloud",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "content/pathfinder_map_center": {
@@ -199,8 +180,7 @@
       "enabled": true,
       "icon": "minecraft:filled_map",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "content/throw_pickarang": {
@@ -209,8 +189,7 @@
       "enabled": true,
       "icon": "quark:pickarang",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "content/get_forgotten_hat": {
@@ -219,8 +198,7 @@
       "enabled": true,
       "icon": "quark:forgotten_hat",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "content/tame_foxhound": {
@@ -229,8 +207,7 @@
       "enabled": true,
       "icon": "minecraft:coal",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "content/overlevel_enchant": {
@@ -239,8 +216,7 @@
       "enabled": true,
       "icon": "quark:ancient_tome",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "content/throw_parrot_egg": {
@@ -249,8 +225,7 @@
       "enabled": true,
       "icon": "quark:egg_parrot_red_blue",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "content/use_viaduct": {
@@ -259,8 +234,7 @@
       "enabled": true,
       "icon": "quark:myalite_crystal",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     }
   }

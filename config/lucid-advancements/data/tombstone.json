@@ -1,0 +1,16 @@
+{
+  "mod_id": "tombstone",
+  "categories": [
+    {
+      "id": "adventure/root",
+      "advancement_root": "tombstone:adventure/root",
+      "title": "Tombstone Tutorial",
+      "description": "Tutorial to guide you in your discovery of Tombstone",
+      "icon": {
+        "type": "item",
+        "value": "tombstone:decorative_tombstone"
+      },
+      "enabled": true
+    }
+  ]
+}

@@ -9,8 +9,7 @@
       "enabled": true,
       "icon": "regions_unexplored:duskmelon_slice",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "spelunker": {
@@ -19,8 +18,7 @@
       "enabled": true,
       "icon": "regions_unexplored:dropleaf",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "ancient_specimens": {
@@ -29,8 +27,7 @@
       "enabled": true,
       "icon": "regions_unexplored:blue_bioshroom_stem",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "regions_explored": {
@@ -39,8 +36,7 @@
       "enabled": true,
       "icon": "minecraft:leather_boots",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "this_tree_bleeds_red": {
@@ -49,8 +45,7 @@
       "enabled": true,
       "icon": "regions_unexplored:socotra_log",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "eternal_expedition": {
@@ -59,8 +54,7 @@
       "enabled": true,
       "icon": "regions_unexplored:brimwood_sapling",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "pioneer": {
@@ -69,8 +63,7 @@
       "enabled": true,
       "icon": "regions_unexplored:hibiscus",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "from_the_tree_tops": {
@@ -79,8 +72,7 @@
       "enabled": true,
       "icon": "regions_unexplored:kapok_vines",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "downer": {
@@ -89,8 +81,7 @@
       "enabled": true,
       "icon": "regions_unexplored:dorcel",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "every_bit_of_the_rainbow": {
@@ -99,8 +90,7 @@
       "enabled": true,
       "icon": "regions_unexplored:white_snowbelle",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "light_snack": {
@@ -109,8 +99,7 @@
       "enabled": true,
       "icon": "regions_unexplored:hanging_earlight_fruit",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "light_as_a_frog": {
@@ -119,8 +108,7 @@
       "enabled": true,
       "icon": "regions_unexplored:flowering_lily_pad",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "rgbeacon": {
@@ -129,8 +117,7 @@
       "enabled": true,
       "icon": "regions_unexplored:prismaglass",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "mycologist": {
@@ -139,8 +126,7 @@
       "enabled": true,
       "icon": "regions_unexplored:blue_bioshroom",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "got_wood": {
@@ -149,8 +135,7 @@
       "enabled": true,
       "icon": "regions_unexplored:redwood_log",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     }
   }

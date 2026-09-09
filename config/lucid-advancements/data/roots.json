@@ -1,0 +1,16 @@
+{
+  "mod_id": "roots",
+  "categories": [
+    {
+      "id": "root",
+      "advancement_root": "roots:root",
+      "title": "Roots",
+      "description": "An introduction to the magic of the wilds.",
+      "icon": {
+        "type": "item",
+        "value": "roots:wildroot"
+      },
+      "enabled": true
+    }
+  ]
+}

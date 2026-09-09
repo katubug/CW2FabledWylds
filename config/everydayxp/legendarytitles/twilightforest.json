@@ -9,8 +9,7 @@
       "enabled": true,
       "icon": "twilightforest:fiery_sword",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "ore_map": {
@@ -19,8 +18,7 @@
       "enabled": true,
       "icon": "twilightforest:filled_ore_map",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "beanstalk": {
@@ -29,8 +27,7 @@
       "enabled": true,
       "icon": "twilightforest:huge_stalk",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "quest_ram": {
@@ -39,8 +36,7 @@
       "enabled": true,
       "icon": "twilightforest:quest_ram_trophy",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "progress_trophy_pedestal": {
@@ -49,8 +45,7 @@
       "enabled": true,
       "icon": "twilightforest:trophy_pedestal",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "twilight_hunter": {
@@ -59,8 +54,7 @@
       "enabled": true,
       "icon": "twilightforest:raven_feather",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "uncraft_uncrafting_table": {
@@ -69,8 +63,7 @@
       "enabled": true,
       "icon": "twilightforest:uncrafting_table",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "giants": {
@@ -79,8 +72,7 @@
       "enabled": true,
       "icon": "twilightforest:giant_pickaxe",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "progress_troll": {
@@ -89,8 +81,7 @@
       "enabled": true,
       "icon": "twilightforest:lamp_of_cinders",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "experiment_115_self_replenishing": {
@@ -99,8 +90,7 @@
       "enabled": true,
       "icon": "twilightforest:experiment_115",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "magic_map": {
@@ -109,8 +99,7 @@
       "enabled": true,
       "icon": "twilightforest:filled_magic_map",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "progress_merge": {
@@ -119,8 +108,7 @@
       "enabled": true,
       "icon": "twilightforest:uberous_soil",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "progress_knights": {
@@ -129,8 +117,7 @@
       "enabled": true,
       "icon": "twilightforest:knight_phantom_trophy",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "progress_labyrinth": {
@@ -139,8 +126,7 @@
       "enabled": true,
       "icon": "twilightforest:minotaur_labyrinth_miniature_structure",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "experiment_115": {
@@ -149,8 +135,7 @@
       "enabled": true,
       "icon": "twilightforest:experiment_115",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "arborist": {
@@ -159,8 +144,7 @@
       "enabled": true,
       "icon": "twilightforest:twilight_oak_fence",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "troll": {
@@ -169,8 +153,7 @@
       "enabled": true,
       "icon": "twilightforest:magic_beans",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "progress_hydra": {
@@ -179,8 +162,7 @@
       "enabled": true,
       "icon": "twilightforest:hydra_trophy",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "arctic_armor_dyed": {
@@ -189,8 +171,7 @@
       "enabled": true,
       "icon": "twilightforest:arctic_chestplate",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "twilight_dinner": {
@@ -199,8 +180,7 @@
       "enabled": true,
       "icon": "minecraft:bowl",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "magic_map_focus": {
@@ -209,8 +189,7 @@
       "enabled": true,
       "icon": "twilightforest:magic_map_focus",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "progress_yeti": {
@@ -219,8 +198,7 @@
       "enabled": true,
       "icon": "twilightforest:alpha_yeti_fur",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "progress_naga": {
@@ -229,8 +207,7 @@
       "enabled": true,
       "icon": "twilightforest:naga_courtyard_miniature_structure",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "lich_scepters": {
@@ -239,8 +216,7 @@
       "enabled": true,
       "icon": "twilightforest:zombie_scepter",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "naga_armors": {
@@ -249,8 +225,7 @@
       "enabled": true,
       "icon": "twilightforest:naga_chestplate",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "ghast_trap": {
@@ -259,8 +234,7 @@
       "enabled": true,
       "icon": "twilightforest:ghast_trap",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "progress_glacier": {
@@ -269,8 +243,7 @@
       "enabled": true,
       "icon": "twilightforest:snow_queen_trophy",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "experiment_115_115": {
@@ -279,8 +252,7 @@
       "enabled": true,
       "icon": "twilightforest:experiment_115",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "modify_travellers_gear": {
@@ -289,8 +261,7 @@
       "enabled": true,
       "icon": "twilightforest:travellers_boots",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "chicken_jerky": {
@@ -299,8 +270,7 @@
       "enabled": true,
       "icon": "twilightforest:chicken_jerky",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "maze_map": {
@@ -309,8 +279,7 @@
       "enabled": true,
       "icon": "twilightforest:filled_maze_map",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "full_mettle_alchemist": {
@@ -319,8 +288,7 @@
       "enabled": true,
       "icon": "twilightforest:brittle_potion_flask",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "progress_ur_ghast": {
@@ -329,8 +297,7 @@
       "enabled": true,
       "icon": "twilightforest:dark_tower_miniature_structure",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "break_glass_sword": {
@@ -339,8 +306,7 @@
       "enabled": true,
       "icon": "twilightforest:glass_sword",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "mazebreaker": {
@@ -349,8 +315,7 @@
       "enabled": true,
       "icon": "twilightforest:mazebreaker_pickaxe",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "hydra_chop": {
@@ -359,8 +324,7 @@
       "enabled": true,
       "icon": "twilightforest:hydra_chop",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "hill1": {
@@ -369,8 +333,7 @@
       "enabled": true,
       "icon": "minecraft:iron_boots",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "progress_lich": {
@@ -379,8 +342,7 @@
       "enabled": true,
       "icon": "twilightforest:lich_tower_miniature_structure",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "hill2": {
@@ -389,8 +351,7 @@
       "enabled": true,
       "icon": "twilightforest:ironwood_pickaxe",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "hill3": {
@@ -399,8 +360,7 @@
       "enabled": true,
       "icon": "minecraft:glowstone_dust",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "hedge": {
@@ -409,8 +369,7 @@
       "enabled": true,
       "icon": "twilightforest:hedge",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "craft_travellers_gear": {
@@ -419,8 +378,7 @@
       "enabled": true,
       "icon": "twilightforest:travellers_boots",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     }
   }

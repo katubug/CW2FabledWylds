@@ -1,0 +1,16 @@
+{
+  "mod_id": "refinedstorage",
+  "categories": [
+    {
+      "id": "root",
+      "advancement_root": "refinedstorage:root",
+      "title": "Refined Storage",
+      "description": "Use one or multiple Controllers in a storage network to provide your network with energy",
+      "icon": {
+        "type": "item",
+        "value": "refinedstorage:creative_controller"
+      },
+      "enabled": true
+    }
+  ]
+}

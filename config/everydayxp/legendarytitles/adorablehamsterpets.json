@@ -9,8 +9,7 @@
       "enabled": true,
       "icon": "adorablehamsterpets:sunflower_seeds",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "husbandry/collector_50": {
@@ -19,8 +18,7 @@
       "enabled": true,
       "icon": "minecraft:spyglass",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "husbandry/hardened_salad": {
@@ -29,8 +27,7 @@
       "enabled": true,
       "icon": "adorablehamsterpets:hamster_armor_acorn",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "husbandry/nose_for_treasure": {
@@ -39,8 +36,7 @@
       "enabled": true,
       "icon": "minecraft:diamond",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "husbandry/hamster_slept_in_bed": {
@@ -49,8 +45,7 @@
       "enabled": true,
       "icon": "minecraft:red_bed",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "husbandry/collector_10": {
@@ -59,8 +54,7 @@
       "enabled": true,
       "icon": "adorablehamsterpets:hamster_spawn_egg",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "husbandry/carat_confusion": {
@@ -69,8 +63,7 @@
       "enabled": true,
       "icon": "minecraft:raw_gold",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "husbandry/it_cant_be_true": {
@@ -79,8 +72,7 @@
       "enabled": true,
       "icon": "adorablehamsterpets:sunflower_block",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "husbandry/shoulder_hamster": {
@@ -89,8 +81,7 @@
       "enabled": true,
       "icon": "adorablehamsterpets:cheese",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "husbandry/tame_hamster": {
@@ -99,8 +90,7 @@
       "enabled": true,
       "icon": "adorablehamsterpets:hamster_spawn_egg",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "husbandry/cheeky_storage": {
@@ -109,8 +99,7 @@
       "enabled": true,
       "icon": "minecraft:bundle",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "husbandry/used_hamster_bedding": {
@@ -119,8 +108,7 @@
       "enabled": true,
       "icon": "minecraft:wind_charge",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "husbandry/load_bearing_human": {
@@ -129,8 +117,7 @@
       "enabled": true,
       "icon": "minecraft:anvil",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "husbandry/impending_doom_squeak": {
@@ -139,8 +126,7 @@
       "enabled": true,
       "icon": "minecraft:gunpowder",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "husbandry/tree_heist": {
@@ -149,8 +135,7 @@
       "enabled": true,
       "icon": "minecraft:oak_sapling",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "husbandry/dispensed_hamster_bedding": {
@@ -159,8 +144,7 @@
       "enabled": true,
       "icon": "minecraft:dispenser",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "husbandry/canine_aspirations": {
@@ -169,8 +153,7 @@
       "enabled": true,
       "icon": "minecraft:bone",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "husbandry/craft_all_hamster_beds": {
@@ -179,8 +162,7 @@
       "enabled": true,
       "icon": "adorablehamsterpets:hamster_bed_cherry",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "husbandry/collector_max": {
@@ -189,8 +171,7 @@
       "enabled": true,
       "icon": "minecraft:nether_star",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "husbandry/immovable_object": {
@@ -199,8 +180,7 @@
       "enabled": true,
       "icon": "adorablehamsterpets:hamster_armor_netherite",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "husbandry/supercharged_squeaker": {
@@ -209,8 +189,7 @@
       "enabled": true,
       "icon": "minecraft:potion",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "husbandry/pocket_paramedic": {
@@ -219,8 +198,7 @@
       "enabled": true,
       "icon": "adorablehamsterpets:hamster_food_mix",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "husbandry/squirrel_cosplay": {
@@ -229,8 +207,7 @@
       "enabled": true,
       "icon": "adorablehamsterpets:acorn_hat",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "husbandry/chipmunk_aspirations": {
@@ -239,8 +216,7 @@
       "enabled": true,
       "icon": "minecraft:bundle",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "husbandry/craft_hamster_bed": {
@@ -249,8 +225,7 @@
       "enabled": true,
       "icon": "adorablehamsterpets:hamster_bed_oak",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "husbandry/craft_bait": {
@@ -259,8 +234,7 @@
       "enabled": true,
       "icon": "adorablehamsterpets:sliced_cucumber",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "husbandry/breeder_1000000": {
@@ -269,8 +243,7 @@
       "enabled": true,
       "icon": "minecraft:dragon_egg",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "husbandry/return_on_investnut": {
@@ -279,8 +252,7 @@
       "enabled": true,
       "icon": "adorablehamsterpets:acorn",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "husbandry/green_bean_gardener": {
@@ -289,8 +261,7 @@
       "enabled": true,
       "icon": "adorablehamsterpets:green_bean_seeds",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "husbandry/breeder_1000": {
@@ -299,8 +270,7 @@
       "enabled": true,
       "icon": "minecraft:dragon_breath",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "husbandry/collector_100": {
@@ -309,8 +279,7 @@
       "enabled": true,
       "icon": "minecraft:compass",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "husbandry/craft_hamster_bedding": {
@@ -319,8 +288,7 @@
       "enabled": true,
       "icon": "adorablehamsterpets:hamster_bedding",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "husbandry/placed_bed_upside_down": {
@@ -329,8 +297,7 @@
       "enabled": true,
       "icon": "adorablehamsterpets:upside_down_hamster_bed_icon",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "husbandry/murderer": {
@@ -339,8 +306,7 @@
       "enabled": true,
       "icon": "minecraft:iron_sword",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "husbandry/industrial_nutcracking": {
@@ -349,8 +315,7 @@
       "enabled": true,
       "icon": "adorablehamsterpets:acorn_shard",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "husbandry/killed_by_hamster": {
@@ -359,8 +324,7 @@
       "enabled": true,
       "icon": "minecraft:skeleton_skull",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "husbandry/expensive_therapy": {
@@ -369,8 +333,7 @@
       "enabled": true,
       "icon": "adorablehamsterpets:hamster_armor_diamond",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "husbandry/breeder_100": {
@@ -379,8 +342,7 @@
       "enabled": true,
       "icon": "minecraft:potion",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "husbandry/petal_pusher": {
@@ -389,8 +351,7 @@
       "enabled": true,
       "icon": "minecraft:pink_petals",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "husbandry/collector_1000": {
@@ -399,8 +360,7 @@
       "enabled": true,
       "icon": "minecraft:filled_map",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "husbandry/ecological_menace": {
@@ -409,8 +369,7 @@
       "enabled": true,
       "icon": "minecraft:dead_bush",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "husbandry/throw_hamster": {
@@ -419,8 +378,7 @@
       "enabled": true,
       "icon": "minecraft:creeper_head",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "husbandry/seed_money": {
@@ -429,8 +387,7 @@
       "enabled": true,
       "icon": "adorablehamsterpets:cucumber_seeds",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "husbandry/seeing_red": {
@@ -439,8 +396,7 @@
       "enabled": true,
       "icon": "minecraft:spider_eye",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "husbandry/hamster_bed_linked": {
@@ -449,8 +405,7 @@
       "enabled": true,
       "icon": "minecraft:lead",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "husbandry/steamy_greens": {
@@ -459,8 +414,7 @@
       "enabled": true,
       "icon": "adorablehamsterpets:steamed_green_beans",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "husbandry/breeder_500": {
@@ -469,8 +423,7 @@
       "enabled": true,
       "icon": "minecraft:potion",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "husbandry/breeder_1": {
@@ -479,8 +432,7 @@
       "enabled": true,
       "icon": "adorablehamsterpets:hamster_spawn_egg",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "husbandry/craft_food_mix": {
@@ -489,8 +441,7 @@
       "enabled": true,
       "icon": "adorablehamsterpets:hamster_food_mix",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "husbandry/funky_beats": {
@@ -499,8 +450,7 @@
       "enabled": true,
       "icon": "adorablehamsterpets:music_disc_blue_cheese",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "husbandry/symphonic_cheese": {
@@ -509,8 +459,7 @@
       "enabled": true,
       "icon": "adorablehamsterpets:music_disc_parmesan",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "husbandry/moist_tones": {
@@ -519,8 +468,43 @@
       "enabled": true,
       "icon": "adorablehamsterpets:music_disc_cheese",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
+      }
+    },
+    "husbandry/hide_and_squeak": {
+      "display_name": "Hide and Squeak",
+      "original_name": "Hide and Squeak",
+      "icon": "minecraft:rabbit_hide",
+      "enabled": true,
+      "rewards": {
+        "attributes": {}
+      }
+    },
+    "husbandry/redstone_fever": {
+      "display_name": "Redstone Fever",
+      "original_name": "Redstone Fever",
+      "icon": "minecraft:redstone",
+      "enabled": true,
+      "rewards": {
+        "attributes": {}
+      }
+    },
+    "husbandry/acorn_music_disc": {
+      "display_name": "The Final Note",
+      "original_name": "The Final Note",
+      "icon": "adorablehamsterpets:music_disc_acorn",
+      "enabled": true,
+      "rewards": {
+        "attributes": {}
+      }
+    },
+    "husbandry/sunshine_curing": {
+      "display_name": "Flute-Assisted Recovery",
+      "original_name": "Flute-Assisted Recovery",
+      "icon": "adorablehamsterpets:acorn_flute_ember",
+      "enabled": true,
+      "rewards": {
+        "attributes": {}
       }
     }
   }

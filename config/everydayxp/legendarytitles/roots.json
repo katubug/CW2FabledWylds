@@ -9,8 +9,7 @@
       "enabled": true,
       "icon": "minecraft:cooked_beef",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     }
   }

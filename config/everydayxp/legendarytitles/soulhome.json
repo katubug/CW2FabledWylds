@@ -9,8 +9,7 @@
       "enabled": true,
       "icon": "soulhome:guide",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "main/entered_soul_dimension": {
@@ -19,8 +18,7 @@
       "enabled": true,
       "icon": "soulhome:guide",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "main/obtained_guide": {
@@ -29,8 +27,7 @@
       "enabled": true,
       "icon": "soulhome:guide",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     }
   }

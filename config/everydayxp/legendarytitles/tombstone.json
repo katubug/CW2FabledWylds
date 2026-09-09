@@ -9,8 +9,7 @@
       "enabled": true,
       "icon": "tombstone:scroll_of_mercy",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "adventure/use_frost_resistance": {
@@ -19,8 +18,7 @@
       "enabled": true,
       "icon": "tombstone:scroll_of_frost_resistance",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "event/trade_50_lollipop": {
@@ -29,8 +27,7 @@
       "enabled": true,
       "icon": "tombstone:lollipop",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "adventure/free_soul": {
@@ -39,8 +36,7 @@
       "enabled": true,
       "icon": "tombstone:receptacle_of_soul",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "adventure/ally_enhancer": {
@@ -49,8 +45,7 @@
       "enabled": true,
       "icon": "tombstone:magic_scroll",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "adventure/neighborhood_brawl": {
@@ -59,8 +54,7 @@
       "enabled": true,
       "icon": "minecraft:wooden_sword",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "adventure/impregnator": {
@@ -69,8 +63,7 @@
       "enabled": true,
       "icon": "tombstone:book_of_magic_impregnation",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "adventure/master_scribe": {
@@ -79,8 +72,7 @@
       "enabled": true,
       "icon": "tombstone:book_of_scribe",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "adventure/pray_of_protection": {
@@ -89,8 +81,7 @@
       "enabled": true,
       "icon": "tombstone:advancement_9",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "adventure/ancient_knowledge": {
@@ -99,8 +90,7 @@
       "enabled": true,
       "icon": "tombstone:advancement_5",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "event/springbloom_plant_50_seed": {
@@ -109,8 +99,7 @@
       "enabled": true,
       "icon": "minecraft:torchflower_seeds",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "adventure/stolen_magic": {
@@ -119,8 +108,7 @@
       "enabled": true,
       "icon": "minecraft:potion",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "adventure/use_assistance": {
@@ -129,8 +117,7 @@
       "enabled": true,
       "icon": "tombstone:tablet_of_assistance",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "adventure/mastery_2": {
@@ -139,8 +126,7 @@
       "enabled": true,
       "icon": "tombstone:impregnated_diamond",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "adventure/mastery_1": {
@@ -149,8 +135,7 @@
       "enabled": true,
       "icon": "tombstone:impregnated_diamond",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "adventure/soul_eater": {
@@ -159,8 +144,7 @@
       "enabled": true,
       "icon": "tombstone:advancement_5",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "event/trade_lollipop": {
@@ -169,8 +153,7 @@
       "enabled": true,
       "icon": "tombstone:lollipop",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "adventure/use_unstable_intangibility": {
@@ -179,8 +162,7 @@
       "enabled": true,
       "icon": "tombstone:scroll_of_unstable_intangibility",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "adventure/use_true_sight": {
@@ -189,8 +171,7 @@
       "enabled": true,
       "icon": "tombstone:scroll_of_true_sight",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "adventure/use_disenchantment": {
@@ -199,8 +180,7 @@
       "enabled": true,
       "icon": "tombstone:book_of_disenchantment",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "adventure/use_magic_impregnation": {
@@ -209,8 +189,7 @@
       "enabled": true,
       "icon": "tombstone:book_of_magic_impregnation",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "adventure/find_grave_dust": {
@@ -219,8 +198,7 @@
       "enabled": true,
       "icon": "tombstone:grave_dust",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "adventure/tomb_raider": {
@@ -229,8 +207,7 @@
       "enabled": true,
       "icon": "minecraft:iron_shovel",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "adventure/use_repairing": {
@@ -239,8 +216,7 @@
       "enabled": true,
       "icon": "tombstone:book_of_repairing",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "adventure/use_lightning_resistance": {
@@ -249,8 +225,7 @@
       "enabled": true,
       "icon": "tombstone:scroll_of_lightning_resistance",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "adventure/use_soulbound": {
@@ -259,8 +234,7 @@
       "enabled": true,
       "icon": "tombstone:book_of_soulbound",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "adventure/ancient_fishing_rod": {
@@ -269,8 +243,7 @@
       "enabled": true,
       "icon": "tombstone:fishing_rod_of_misadventure",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "adventure/guardian_of_eternity": {
@@ -279,8 +252,7 @@
       "enabled": true,
       "icon": "tombstone:decorative_grave_original",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "adventure/master_ally_enhancer": {
@@ -289,8 +261,7 @@
       "enabled": true,
       "icon": "tombstone:magic_scroll",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "event/springbloom_plant_1_seed": {
@@ -299,8 +270,7 @@
       "enabled": true,
       "icon": "minecraft:wheat_seeds",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "adventure/master_wololo": {
@@ -309,8 +279,7 @@
       "enabled": true,
       "icon": "minecraft:magenta_wool",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "event/drink_earthly_garden": {
@@ -319,8 +288,7 @@
       "enabled": true,
       "icon": "minecraft:potion",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "adventure/knowledge_wasted": {
@@ -329,8 +297,7 @@
       "enabled": true,
       "icon": "minecraft:writable_book",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "adventure/prevent_death_voodoo_poppet": {
@@ -339,8 +306,7 @@
       "enabled": true,
       "icon": "tombstone:voodoo_poppet",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "adventure/subterfuge_and_discretion": {
@@ -349,8 +315,7 @@
       "enabled": true,
       "icon": "tombstone:advancement_8",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "adventure/choose_knowledge": {
@@ -359,8 +324,7 @@
       "enabled": true,
       "icon": "minecraft:lantern",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "adventure/first_pray": {
@@ -369,8 +333,7 @@
       "enabled": true,
       "icon": "tombstone:advancement_3",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "adventure/command_undead_servant": {
@@ -379,8 +342,7 @@
       "enabled": true,
       "icon": "tombstone:bone_scepter",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "adventure/enchant_fishing_rod": {
@@ -389,8 +351,7 @@
       "enabled": true,
       "icon": "tombstone:fishing_rod_of_misadventure",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "event/eat_lollipop": {
@@ -399,8 +360,7 @@
       "enabled": true,
       "icon": "tombstone:lollipop",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "adventure/find_lost_tablet_exploration": {
@@ -409,8 +369,7 @@
       "enabled": true,
       "icon": "tombstone:lost_tablet",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "adventure/versatility": {
@@ -419,8 +378,7 @@
       "enabled": true,
       "icon": "minecraft:soul_lantern",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "event/mysterious_gift": {
@@ -429,8 +387,7 @@
       "enabled": true,
       "icon": "tombstone:christmas_gift",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "adventure/use_home": {
@@ -439,8 +396,7 @@
       "enabled": true,
       "icon": "tombstone:tablet_of_home",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "adventure/find_lost_tablet": {
@@ -449,8 +405,7 @@
       "enabled": true,
       "icon": "tombstone:lost_tablet",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "adventure/prayer_of_undead": {
@@ -459,8 +414,7 @@
       "enabled": true,
       "icon": "minecraft:wither_skeleton_skull",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "event/thornveil_spawn": {
@@ -469,8 +423,7 @@
       "enabled": true,
       "icon": "tombstone:decorative_grave_original",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "adventure/soul_magic": {
@@ -479,8 +432,7 @@
       "enabled": true,
       "icon": "tombstone:advancement_5",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "adventure/recycler": {
@@ -489,8 +441,7 @@
       "enabled": true,
       "icon": "tombstone:book_of_recycling",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "adventure/master_impregnator": {
@@ -499,8 +450,7 @@
       "enabled": true,
       "icon": "tombstone:book_of_magic_impregnation",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "adventure/great_protector": {
@@ -509,8 +459,7 @@
       "enabled": true,
       "icon": "tombstone:advancement_9",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "adventure/consume_soul": {
@@ -519,8 +468,7 @@
       "enabled": true,
       "icon": "tombstone:advancement_5",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "event/silent_ceremony": {
@@ -529,8 +477,7 @@
       "enabled": true,
       "icon": "tombstone:advancement_17",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "adventure/cancel_ghostly_shape": {
@@ -539,8 +486,7 @@
       "enabled": true,
       "icon": "tombstone:advancement_1",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "adventure/chain_death": {
@@ -549,8 +495,7 @@
       "enabled": true,
       "icon": "tombstone:decorative_grave_cross",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "adventure/strong_undead": {
@@ -559,8 +504,7 @@
       "enabled": true,
       "icon": "minecraft:wither_rose",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "adventure/fortuitous_militia": {
@@ -569,8 +513,7 @@
       "enabled": true,
       "icon": "minecraft:iron_axe",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "adventure/create_voodoo_poppet": {
@@ -579,8 +522,7 @@
       "enabled": true,
       "icon": "tombstone:voodoo_poppet",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "event/spring_bloom": {
@@ -589,8 +531,7 @@
       "enabled": true,
       "icon": "minecraft:peony",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "adventure/create_familiar_receptacle": {
@@ -599,8 +540,7 @@
       "enabled": true,
       "icon": "tombstone:receptacle_of_familiar",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "adventure/create_strange_scroll": {
@@ -609,8 +549,7 @@
       "enabled": true,
       "icon": "tombstone:strange_scroll",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "adventure/exorcism": {
@@ -619,8 +558,7 @@
       "enabled": true,
       "icon": "tombstone:advancement_4",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "adventure/first_knowledge": {
@@ -629,8 +567,7 @@
       "enabled": true,
       "icon": "tombstone:advancement_0",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "adventure/master_tomb_raider": {
@@ -639,8 +576,7 @@
       "enabled": true,
       "icon": "minecraft:golden_shovel",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "adventure/trade_grave_guardian": {
@@ -649,8 +585,7 @@
       "enabled": true,
       "icon": "tombstone:essence_of_undeath",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "adventure/mutual_aid": {
@@ -659,8 +594,7 @@
       "enabled": true,
       "icon": "tombstone:magic_scroll",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "adventure/master_of_zombify": {
@@ -669,8 +603,7 @@
       "enabled": true,
       "icon": "tombstone:advancement_4",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "adventure/create_magic_tablet": {
@@ -679,8 +612,7 @@
       "enabled": true,
       "icon": "tombstone:strange_tablet",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "adventure/repairer": {
@@ -689,8 +621,7 @@
       "enabled": true,
       "icon": "tombstone:book_of_repairing",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "adventure/master_siphoner": {
@@ -699,8 +630,7 @@
       "enabled": true,
       "icon": "minecraft:splash_potion",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "adventure/create_grave_marble": {
@@ -709,8 +639,7 @@
       "enabled": true,
       "icon": "tombstone:dark_marble",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "adventure/use_scribe": {
@@ -719,8 +648,7 @@
       "enabled": true,
       "icon": "tombstone:book_of_scribe",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "adventure/servant_of_rest": {
@@ -729,8 +657,7 @@
       "enabled": true,
       "icon": "tombstone:decorative_tombstone",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "adventure/talk_grave_guardian": {
@@ -739,8 +666,7 @@
       "enabled": true,
       "icon": "minecraft:skeleton_skull",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "adventure/capture_soul": {
@@ -749,8 +675,7 @@
       "enabled": true,
       "icon": "tombstone:receptacle_of_familiar",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "event/christmas": {
@@ -759,8 +684,7 @@
       "enabled": true,
       "icon": "tombstone:christmas_gift",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "adventure/master_of_escape": {
@@ -769,8 +693,7 @@
       "enabled": true,
       "icon": "tombstone:advancement_8",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "event/trade_10_lollipop": {
@@ -779,8 +702,7 @@
       "enabled": true,
       "icon": "tombstone:lollipop",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "adventure/prayer_of_empathy": {
@@ -789,8 +711,7 @@
       "enabled": true,
       "icon": "minecraft:cat_spawn_egg",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "adventure/impregnated_bone_needle": {
@@ -799,8 +720,7 @@
       "enabled": true,
       "icon": "tombstone:bone_needle",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "adventure/master_disenchanter": {
@@ -809,8 +729,7 @@
       "enabled": true,
       "icon": "tombstone:book_of_disenchantment",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "event/villager_gift": {
@@ -819,8 +738,7 @@
       "enabled": true,
       "icon": "tombstone:villager_gift",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "adventure/create_grave_plate": {
@@ -829,8 +747,7 @@
       "enabled": true,
       "icon": "tombstone:grave_plate",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "adventure/create_decorative_grave": {
@@ -839,8 +756,7 @@
       "enabled": true,
       "icon": "tombstone:decorative_grave_simple",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "adventure/vanishing": {
@@ -849,8 +765,7 @@
       "enabled": true,
       "icon": "tombstone:dust_of_vanishing",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "adventure/create_fishing_rod": {
@@ -859,8 +774,7 @@
       "enabled": true,
       "icon": "tombstone:fishing_rod_of_misadventure",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "adventure/use_recall": {
@@ -869,8 +783,7 @@
       "enabled": true,
       "icon": "tombstone:tablet_of_recall",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "adventure/color_smoke_ball": {
@@ -879,8 +792,7 @@
       "enabled": true,
       "icon": "tombstone:smoke_ball",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "event/springbloom_plant_10_seed": {
@@ -889,8 +801,7 @@
       "enabled": true,
       "icon": "minecraft:beetroot_seeds",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "adventure/disenchanter": {
@@ -899,8 +810,7 @@
       "enabled": true,
       "icon": "tombstone:book_of_disenchantment",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "adventure/ambush": {
@@ -909,8 +819,7 @@
       "enabled": true,
       "icon": "minecraft:wooden_axe",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "adventure/create_imbued_arrow": {
@@ -919,8 +828,7 @@
       "enabled": true,
       "icon": "minecraft:tipped_arrow",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "adventure/use_lost_tablet": {
@@ -929,8 +837,7 @@
       "enabled": true,
       "icon": "tombstone:lost_tablet",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "adventure/bone_crusher": {
@@ -939,8 +846,7 @@
       "enabled": true,
       "icon": "minecraft:skeleton_skull",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "adventure/first_grave": {
@@ -949,8 +855,7 @@
       "enabled": true,
       "icon": "tombstone:decorative_grave_normal",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "adventure/combine_in_inventory": {
@@ -959,8 +864,7 @@
       "enabled": true,
       "icon": "tombstone:advancement_13",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "adventure/use_recycling": {
@@ -969,8 +873,7 @@
       "enabled": true,
       "icon": "tombstone:book_of_recycling",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "adventure/village_defender": {
@@ -979,8 +882,7 @@
       "enabled": true,
       "icon": "minecraft:golden_axe",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "adventure/zombify": {
@@ -989,8 +891,7 @@
       "enabled": true,
       "icon": "tombstone:advancement_4",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "adventure/choose_grave_type": {
@@ -999,8 +900,7 @@
       "enabled": true,
       "icon": "tombstone:decorative_grave_cross",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "adventure/magic_siphoner": {
@@ -1009,8 +909,7 @@
       "enabled": true,
       "icon": "minecraft:lingering_potion",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "adventure/genocide": {
@@ -1019,8 +918,7 @@
       "enabled": true,
       "icon": "minecraft:golden_sword",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "adventure/almost_unkillable": {
@@ -1029,8 +927,7 @@
       "enabled": true,
       "icon": "tombstone:decorative_subaraki_grave",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "event/get_essence_from_thornveil": {
@@ -1039,8 +936,7 @@
       "enabled": true,
       "icon": "tombstone:essence_of_undeath",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "event/thorveil_awakens": {
@@ -1049,8 +945,7 @@
       "enabled": true,
       "icon": "tombstone:thornveil",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "adventure/find_ancient_tablet": {
@@ -1059,8 +954,7 @@
       "enabled": true,
       "icon": "tombstone:tablet_of_recall",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "adventure/find_lost_tablet_village": {
@@ -1069,8 +963,7 @@
       "enabled": true,
       "icon": "tombstone:lost_tablet",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "adventure/use_purification": {
@@ -1079,8 +972,7 @@
       "enabled": true,
       "icon": "tombstone:scroll_of_purification",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "adventure/master_of_exorcism": {
@@ -1089,8 +981,7 @@
       "enabled": true,
       "icon": "tombstone:advancement_4",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "adventure/engrave_grave_plate": {
@@ -1099,8 +990,7 @@
       "enabled": true,
       "icon": "minecraft:anvil",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "adventure/create_smoke_ball": {
@@ -1109,8 +999,7 @@
       "enabled": true,
       "icon": "tombstone:smoke_ball",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "event/candy_sick": {
@@ -1119,8 +1008,7 @@
       "enabled": true,
       "icon": "tombstone:lollipop",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "adventure/impregnated_receptacle": {
@@ -1129,8 +1017,7 @@
       "enabled": true,
       "icon": "tombstone:bone_needle",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "adventure/use_knowledge": {
@@ -1139,8 +1026,7 @@
       "enabled": true,
       "icon": "tombstone:scroll_of_knowledge",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "adventure/new_path": {
@@ -1149,8 +1035,7 @@
       "enabled": true,
       "icon": "tombstone:book_of_oblivion",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "adventure/wololo": {
@@ -1159,8 +1044,7 @@
       "enabled": true,
       "icon": "minecraft:white_wool",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "adventure/use_aquatic_life": {
@@ -1169,8 +1053,7 @@
       "enabled": true,
       "icon": "tombstone:scroll_of_aquatic_life",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "adventure/use_guard": {
@@ -1179,8 +1062,7 @@
       "enabled": true,
       "icon": "tombstone:tablet_of_guard",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "adventure/drink_potion_of_earthly_garden": {
@@ -1189,8 +1071,7 @@
       "enabled": true,
       "icon": "minecraft:potion",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "adventure/master_recycler": {
@@ -1199,8 +1080,7 @@
       "enabled": true,
       "icon": "tombstone:book_of_recycling",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "adventure/master_repairer": {
@@ -1209,8 +1089,7 @@
       "enabled": true,
       "icon": "tombstone:book_of_repairing",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "adventure/find_lost_tablet_treasure": {
@@ -1219,8 +1098,7 @@
       "enabled": true,
       "icon": "tombstone:lost_tablet",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "event/halloween": {
@@ -1229,8 +1107,7 @@
       "enabled": true,
       "icon": "tombstone:advancement_6",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "adventure/teleport_to_grave": {
@@ -1239,8 +1116,7 @@
       "enabled": true,
       "icon": "tombstone:advancement_2",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "adventure/crime_in_town": {
@@ -1249,8 +1125,7 @@
       "enabled": true,
       "icon": "minecraft:iron_sword",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "adventure/easy_opening": {
@@ -1259,8 +1134,7 @@
       "enabled": true,
       "icon": "tombstone:decorative_grave_simple",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "adventure/engrave_decorative_grave": {
@@ -1269,8 +1143,7 @@
       "enabled": true,
       "icon": "tombstone:grave_plate",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "adventure/strange_mount": {
@@ -1279,8 +1152,7 @@
       "enabled": true,
       "icon": "tombstone:advancement_10",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "adventure/create_spectral_potion": {
@@ -1289,8 +1161,7 @@
       "enabled": true,
       "icon": "minecraft:potion",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "adventure/use_reach": {
@@ -1299,8 +1170,7 @@
       "enabled": true,
       "icon": "tombstone:scroll_of_reach",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "adventure/revive_familiar": {
@@ -1309,8 +1179,7 @@
       "enabled": true,
       "icon": "tombstone:advancement_7",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "adventure/create_magic_scroll": {
@@ -1319,8 +1188,7 @@
       "enabled": true,
       "icon": "tombstone:strange_scroll",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "adventure/strong_or_careful": {
@@ -1329,8 +1197,7 @@
       "enabled": true,
       "icon": "tombstone:decorative_subaraki_grave",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "adventure/drink_me_eat_me": {
@@ -1339,8 +1206,7 @@
       "enabled": true,
       "icon": "minecraft:potion",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "event/expert_tasting": {
@@ -1349,8 +1215,7 @@
       "enabled": true,
       "icon": "tombstone:lollipop",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "adventure/discreet_search": {
@@ -1359,8 +1224,7 @@
       "enabled": true,
       "icon": "tombstone:decorative_grave_original",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "adventure/enchant_grave_key": {
@@ -1369,8 +1233,7 @@
       "enabled": true,
       "icon": "tombstone:grave_key",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "adventure/scribe": {
@@ -1379,8 +1242,7 @@
       "enabled": true,
       "icon": "tombstone:book_of_scribe",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "adventure/ashes_and_bones": {
@@ -1389,8 +1251,7 @@
       "enabled": true,
       "icon": "minecraft:bone",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "adventure/use_preservation": {
@@ -1399,8 +1260,7 @@
       "enabled": true,
       "icon": "tombstone:scroll_of_preservation",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "adventure/use_cupidity": {
@@ -1409,8 +1269,7 @@
       "enabled": true,
       "icon": "tombstone:tablet_of_cupidity",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "adventure/enchant_voodoo_poppet": {
@@ -1419,8 +1278,7 @@
       "enabled": true,
       "icon": "tombstone:voodoo_poppet",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "event/trade_lollipop_for_essence": {
@@ -1429,8 +1287,7 @@
       "enabled": true,
       "icon": "tombstone:essence_of_undeath",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "adventure/funeral_theft": {
@@ -1439,8 +1296,7 @@
       "enabled": true,
       "icon": "minecraft:wooden_shovel",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "adventure/create_strange_tablet": {
@@ -1449,8 +1305,7 @@
       "enabled": true,
       "icon": "tombstone:strange_tablet",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "event/floral_trading": {
@@ -1459,8 +1314,7 @@
       "enabled": true,
       "icon": "minecraft:flower_pot",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "adventure/use_feather_fall": {
@@ -1469,8 +1323,7 @@
       "enabled": true,
       "icon": "tombstone:scroll_of_feather_fall",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     }
   }

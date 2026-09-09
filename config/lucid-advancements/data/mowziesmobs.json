@@ -1,0 +1,16 @@
+{
+  "mod_id": "mowziesmobs",
+  "categories": [
+    {
+      "id": "root",
+      "advancement_root": "mowziesmobs:root",
+      "title": "Mowzie's Mobs",
+      "description": "Welcome to Mowzie's Mobs!",
+      "icon": {
+        "type": "item",
+        "value": "mowziesmobs:logo"
+      },
+      "enabled": true
+    }
+  ]
+}

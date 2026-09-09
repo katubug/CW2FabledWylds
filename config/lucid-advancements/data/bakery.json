@@ -1,0 +1,16 @@
+{
+  "mod_id": "bakery",
+  "categories": [
+    {
+      "id": "main/root",
+      "advancement_root": "bakery:main/root",
+      "title": "Welcome to Bakery",
+      "description": "Thank you for downloading and playing Bakery",
+      "icon": {
+        "type": "item",
+        "value": "bakery:cake_dough"
+      },
+      "enabled": true
+    }
+  ]
+}

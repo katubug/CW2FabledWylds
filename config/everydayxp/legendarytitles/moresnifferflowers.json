@@ -9,8 +9,7 @@
       "enabled": true,
       "icon": "moresnifferflowers:corrupted_bobling_core",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "cropressor": {
@@ -19,8 +18,7 @@
       "enabled": true,
       "icon": "moresnifferflowers:cropressed_beetroot",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "garbush": {
@@ -29,8 +27,7 @@
       "enabled": true,
       "icon": "moresnifferflowers:garbush_seeds",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "dyespria": {
@@ -39,8 +36,7 @@
       "enabled": true,
       "icon": "moresnifferflowers:caulorflower_seeds",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "beroot_cauldron": {
@@ -49,8 +45,7 @@
       "enabled": true,
       "icon": "moresnifferflowers:beroot_cauldron",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "cure": {
@@ -59,8 +54,7 @@
       "enabled": true,
       "icon": "moresnifferflowers:vivicus_antidote",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "negative_soup": {
@@ -69,8 +63,7 @@
       "enabled": true,
       "icon": "minecraft:poisonous_potato",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "dye_boat": {
@@ -79,8 +72,7 @@
       "enabled": true,
       "icon": "moresnifferflowers:vivicus_boat",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "dyespria_plant": {
@@ -89,8 +81,7 @@
       "enabled": true,
       "icon": "moresnifferflowers:dyespria",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "rebrew": {
@@ -99,8 +90,7 @@
       "enabled": true,
       "icon": "moresnifferflowers:rebrewing_stand",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "bonmeel": {
@@ -109,8 +99,7 @@
       "enabled": true,
       "icon": "moresnifferflowers:jar_of_bonmeel",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "positive_soup": {
@@ -119,8 +108,7 @@
       "enabled": true,
       "icon": "moresnifferflowers:rooted_soup",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "ambush": {
@@ -129,8 +117,7 @@
       "enabled": true,
       "icon": "moresnifferflowers:ambush_seeds",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "corruption": {
@@ -139,8 +126,7 @@
       "enabled": true,
       "icon": "moresnifferflowers:corrupted_slime_ball",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     }
   }

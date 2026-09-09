@@ -1,10 +1,10 @@
 {
     "title": {
-      "text": "Witchy Tips",
-      "bold": true,
-      "color": "green"
+        "translate": "tips.titles.witchy",
+        "bold": true,
+        "color": "green"
     },
     "tip": {
-      "text": "You can use Mob Lassos to transport animals and mobs between locations!"
+        "translate": "tips.text.lassos"
     }
-  }
+}

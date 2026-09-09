@@ -9,8 +9,7 @@
       "enabled": true,
       "icon": "betternether:gloomsculk_geode_crystal",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "ruby_gear": {
@@ -19,8 +18,7 @@
       "enabled": true,
       "icon": "betternether:nether_ruby_chestplate",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "cincinnasite_diamond": {
@@ -29,8 +27,7 @@
       "enabled": true,
       "icon": "betternether:cincinnasite_diamond_upgrade_smithing_template",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "cincinnasite_diamond_tools": {
@@ -39,8 +36,7 @@
       "enabled": true,
       "icon": "betternether:cincinnasite_pickaxe_diamond",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "obsidian_blocks": {
@@ -49,8 +45,7 @@
       "enabled": true,
       "icon": "betternether:blue_obsidian_bricks",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "ruby_ore": {
@@ -59,8 +54,7 @@
       "enabled": true,
       "icon": "betternether:nether_ruby",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "all_the_biomes": {
@@ -69,8 +63,7 @@
       "enabled": true,
       "icon": "betternether:nether_ruby_boots",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "cincinnasite_gear": {
@@ -79,8 +72,7 @@
       "enabled": true,
       "icon": "betternether:cincinnasite_chestplate",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "cincinnasite_ore": {
@@ -89,8 +81,7 @@
       "enabled": true,
       "icon": "betternether:cincinnasite_ingot",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "wisp_shed_experience": {
@@ -99,8 +90,7 @@
       "enabled": true,
       "icon": "minecraft:experience_bottle",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "make_crying": {
@@ -109,8 +99,7 @@
       "enabled": true,
       "icon": "betternether:blue_weeping_obsidian",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "flaming_tools": {
@@ -119,8 +108,7 @@
       "enabled": true,
       "icon": "betternether:flaming_ruby_pickaxe",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "enter_nether": {
@@ -129,8 +117,7 @@
       "enabled": true,
       "icon": "betternether:jungle_moss",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "cincinnasite_tools": {
@@ -139,8 +126,7 @@
       "enabled": true,
       "icon": "betternether:cincinnasite_pickaxe",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "blue_obsidian": {
@@ -149,8 +135,7 @@
       "enabled": true,
       "icon": "betternether:blue_obsidian",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "flaming_ruby": {
@@ -159,8 +144,7 @@
       "enabled": true,
       "icon": "betternether:flaming_ruby_upgrade_smithing_template",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "ruby_tools": {
@@ -169,8 +153,7 @@
       "enabled": true,
       "icon": "betternether:nether_ruby_pickaxe",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "disturbed_wisp": {
@@ -179,8 +162,7 @@
       "enabled": true,
       "icon": "betternether:gloomwisp_vine",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "cincinnasite_forge": {
@@ -189,8 +171,7 @@
       "enabled": true,
       "icon": "betternether:cincinnasite_forge",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "flaming_armor": {
@@ -199,8 +180,7 @@
       "enabled": true,
       "icon": "betternether:flaming_ruby_chestplate",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "nether_wood": {
@@ -209,8 +189,7 @@
       "enabled": true,
       "icon": "betternether:willow_log",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "city": {
@@ -219,8 +198,7 @@
       "enabled": true,
       "icon": "betternether:cincinnasite_carved",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     }
   }

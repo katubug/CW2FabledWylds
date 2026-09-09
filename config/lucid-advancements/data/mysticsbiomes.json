@@ -1,0 +1,16 @@
+{
+  "mod_id": "mysticsbiomes",
+  "categories": [
+    {
+      "id": "mysticsbiomes/root",
+      "advancement_root": "mysticsbiomes:mysticsbiomes/root",
+      "title": "Mystic's Biomes",
+      "description": "Explore the world!",
+      "icon": {
+        "type": "item",
+        "value": "mysticsbiomes:lavender_buds"
+      },
+      "enabled": true
+    }
+  ]
+}

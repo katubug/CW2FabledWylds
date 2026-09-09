@@ -1,10 +1,10 @@
 {
     "title": {
-      "text": "Witchy Tips",
-      "bold": true,
-      "color": "green"
+        "translate": "tips.titles.witchy",
+        "bold": true,
+        "color": "green"
     },
     "tip": {
-      "text": "You can pick up Villagers by holding shift and right clicking them!"
+        "translate": "tips.text.villagers"
     }
-  }
+}

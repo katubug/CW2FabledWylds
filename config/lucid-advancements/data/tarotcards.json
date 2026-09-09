@@ -1,0 +1,16 @@
+{
+  "mod_id": "tarotcards",
+  "categories": [
+    {
+      "id": "progression/root",
+      "advancement_root": "tarotcards:progression/root",
+      "title": "Deal with Fate",
+      "description": "The cards are drawn. Your destiny is no longer written in stone",
+      "icon": {
+        "type": "item",
+        "value": "tarotcards:the_fool"
+      },
+      "enabled": true
+    }
+  ]
+}

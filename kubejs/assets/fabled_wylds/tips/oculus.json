@@ -1,10 +1,10 @@
 {
     "title": {
-      "text": "Witchy Tips",
-      "bold": true,
-      "color": "green"
+        "translate": "tips.titles.witchy",
+        "bold": true,
+        "color": "green"
     },
     "tip": {
-      "text": "This modpack supports shaders by default, without using OptiFine! This is thanks to the Oculus mod. I recommend Complementary Reimagined!"
+        "translate": "tips.text.oculus"
     }
-  }
+}

@@ -502,6 +502,18 @@ clashingOverlayZones = [
     "CREAM",
     "DARK_GRAY"
 ]
+# Allows newly spawned wild hamsters underground to have a chance of starting with Redstone Fever. Hamsters created with spawn eggs are excluded so you don't jump scare yourself.
+enableNaturalRedstoneFeverSpawning = true
+# Percentage chance for an otherwise eligible wild cave hamster to spawn fevered. Default: 50%; range: 0–100%.
+redstoneFeverChance = 50
+# Highest Y coordinate where hamsters can become infected upon spawning. They must also be above this level before sunlight can cure them. The default is Y 16 because it's the highest point where you might find Redstone ore.
+maximumRedstoneFeverSpawnY = 16
+# When enabled, hamsters can only become infected upon spawning if they spawn in biomes that are included in this mod’s '#adorablehamsterpets:is_cave' tag. The other height, darkness, dimension and natural-spawn checks still apply.
+requireRedstoneFeverCaveBiomeTags = false
+# Dimension IDs or #dimension tags allowed to produce natural Redstone Fever cases. Just the overworld by default.
+allowedRedstoneFeverDimensions = [
+    "minecraft:overworld"
+]
 # The overall probability (0.0 to 1.0) that ANY wild hamster has stuffed something in its face. Set to 0.0 to enforce strict economic austerity.
 globalCheekLootChance = 0.5
 # The curated selection of pocket lint, seeds, and snacks that hamsters naturally forage. Edit this if you think hamsters should naturally forage for diamonds.
@@ -561,6 +573,8 @@ basicSmithingTemplateLootChance = 0.2
 advancedSmithingTemplateLootChance = 0.1
 # Chance (0.0 to 1.0) to find accessories in rare chests. Default is low.
 accessoryLootChance = 0.05
+# Chance (0.0 to 1.0) to find an Acorn Ring in uncommon chests. Rolled independently from armor and other accessories.
+acornRingLootChance = 0.05
 # Chance (0.0 to 1.0) for an Oak Leaf block to drop an Acorn when broken. Default is low, similar to Apples.
 oakLeavesAcornDropChance = 0.005
 # Higher = slower, lower = faster. Makes perfect sense.

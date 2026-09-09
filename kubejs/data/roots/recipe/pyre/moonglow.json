@@ -19,6 +19,15 @@
     },
     {
       "tag": "roots:herbs/grove_moss"
+    },
+    {
+      "tag": "c:nuggets/iron"
+    },
+    {
+      "tag": "c:nuggets/iron"
+    },
+    {
+      "tag": "c:nuggets/silver"
     }
   ],
   "output": {

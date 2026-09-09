@@ -9,8 +9,7 @@
       "enabled": true,
       "icon": "meadow:cookpot",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "main/cheese_collector": {
@@ -19,8 +18,7 @@
       "enabled": true,
       "icon": "meadow:buffalo_cheese_wheel",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "main/place_straw_bed": {
@@ -29,8 +27,7 @@
       "enabled": true,
       "icon": "meadow:straw_bed",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "main/fur_armor": {
@@ -39,8 +36,7 @@
       "enabled": true,
       "icon": "meadow:fur_helmet",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "main/milk_collector": {
@@ -49,8 +45,7 @@
       "enabled": true,
       "icon": "meadow:wooden_bucket",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "main/place_frame": {
@@ -59,8 +54,7 @@
       "enabled": true,
       "icon": "meadow:cooking_frame",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "main/get_cheese": {
@@ -69,8 +63,7 @@
       "enabled": true,
       "icon": "meadow:cheese_wheel",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "main/place_cheese_form": {
@@ -79,8 +72,7 @@
       "enabled": true,
       "icon": "meadow:cheese_form",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "main/wool_collector": {
@@ -89,8 +81,7 @@
       "enabled": true,
       "icon": "meadow:rustic_wool",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "main/find_meadow": {
@@ -99,8 +90,7 @@
       "enabled": true,
       "icon": "meadow:camera",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "main/get_salt": {
@@ -109,8 +99,7 @@
       "enabled": true,
       "icon": "meadow:alpine_salt",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "main/kill_buffalo": {
@@ -119,8 +108,7 @@
       "enabled": true,
       "icon": "meadow:raw_buffalo_meat",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     },
     "main/spyglass_at_buffalo": {
@@ -129,8 +117,7 @@
       "enabled": true,
       "icon": "minecraft:spyglass",
       "rewards": {
-        "attributes": {},
-        "items": []
+        "attributes": {}
       }
     }
   }

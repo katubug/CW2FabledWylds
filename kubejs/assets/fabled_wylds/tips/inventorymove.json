@@ -1,10 +1,10 @@
 {
     "title": {
-      "text": "Witchy Tips",
-      "bold": true,
-      "color": "green"
+        "translate": "tips.titles.witchy",
+        "bold": true,
+        "color": "green"
     },
     "tip": {
-      "text": "Hold shift and drag click to deposit multiple things quickly, or hold space and click to transfer an entire inventory back and forth."
+        "translate": "tips.text.inventorymove"
     }
-  }
+}
