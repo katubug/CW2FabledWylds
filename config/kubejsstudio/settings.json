@@ -27,7 +27,7 @@
   "idWarnings": true,
   "strictAnalysis": true,
   "diagDelayMs": 250,
-  "kubejs": true,
+  "kubejs": false,
   "reviewBeforeApply": true,
   "autoReloadAfterApply": true,
   "backupBeforeWrite": true,

@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "ABA",
+    "CDC"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:torch"
+    },
+    "A": {
+      "tag": "c:gems/diamond"
+    },
+    "B": {
+      "item": "hexerei:dried_sage_bundle"
+    },
+    "C": {
+      "tag": "c:storage_blocks/gold"
+    },
+    "D": {
+      "tag": "minecraft:logs"
+    }
+  },
+  "result": {
+    "id": "torchmaster:megatorch",
+    "count": 1
+  }
+}

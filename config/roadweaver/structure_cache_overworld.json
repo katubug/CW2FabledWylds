@@ -431,6 +431,11 @@
       "isVanilla": false
     },
     {
+      "id": "hexalia:herbalist_hut",
+      "displayName": "Herbalist Hut",
+      "isVanilla": false
+    },
+    {
       "id": "hexerei:baba_yaga_hut",
       "displayName": "Baba Yaga Hut",
       "isVanilla": false

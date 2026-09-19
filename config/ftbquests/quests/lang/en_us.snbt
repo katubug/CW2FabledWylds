@@ -32,7 +32,6 @@
 	chapter_group.691BD44222F33F05.title: "Miscellaneous"
 	chapter_group.6B4E114EC6CDE8EE.title: "Basics"
 	file.0000000000000001.title: "Fabled Wylds"
-	image.132A34091D59DA39.title: "Witch Hut"
 	image.3E5ED4E172944013.title: "Click here to join our Discord!"
 	image.4B4A1262804A76C5.title: "support the modpack and play with friends!"
 	image.7EE333354E93796B.title: "Click here to visit our Github Wiki!"
@@ -2519,6 +2518,8 @@
 	quest.0D4E01B7876CE64B.quest_subtitle: "{components:{\"sophisticatedstorage:wood_type\":\"birch\"},count:1,id:\"sophisticatedstorage:limited_netherite_barrel_4\"}"
 	quest.0D4E618FFD1CD7C8.quest_subtitle: "{components:{\"ae2:facade_item\":\"thaumon:ancient_stone_window\"},count:1,id:\"ae2:facade\"}"
 	quest.0D4FAD90D3141350.quest_subtitle: "{count:1,id:\"regions_unexplored:cypress_stairs\"}"
+	quest.0D51CFD77E404109.quest_desc: ["The &bAttuned Stone&r is a crafting ingredient used in many recipes, such as the &bPoppet Shelf&r and &bDistillery&r."]
+	quest.0D51CFD77E404109.title: "Obtain Attuned Stone"
 	quest.0D53A51E4B04C7F3.quest_subtitle: "{components:{\"ae2:facade_item\":\"regions_unexplored:glistering_wart\"},count:1,id:\"ae2:facade\"}"
 	quest.0D560FE26FAA0C0C.quest_subtitle: "{count:1,id:\"mcwfences:mangrove_pyramid_gate\"}"
 	quest.0D5734FA3F08D789.quest_subtitle: "{count:1,id:\"hexerei:medium_selenite_bud\"}"
@@ -4565,7 +4566,6 @@
 	quest.1862A8B128BA8C18.quest_subtitle: "{count:1,id:\"reanimal:kiwi_egg\"}"
 	quest.1864F5B1CA0B1A07.quest_subtitle: "{count:1,id:\"tanukidecor:newtons_cradle\"}"
 	quest.1865DAFA48732C18.quest_subtitle: "{count:1,id:\"minecraft:fire_charge\"}"
-	quest.186783CBB755AC03.quest_desc: ["The &bWhiff of Magic&r is a very key fume, as it can be used to craft &bAttuned Stones&r, which are used in many other recipes."]
 	quest.18683EEF7DB3E8F0.quest_subtitle: "{count:1,id:\"regions_unexplored:spanish_moss\"}"
 	quest.18684A2B768970CC.quest_subtitle: "{count:1,id:\"betterfishtanks:tiny_branch_stripped_cherry_log\"}"
 	quest.18689320EEAD8E10.quest_subtitle: "{count:1,id:\"artifacts:universal_attractor\"}"
@@ -4653,6 +4653,7 @@
 	quest.18D01F7F877AE4FD.quest_subtitle: "{count:1,id:\"twilightdelight:hydra_piece\"}"
 	quest.18D2CB3F9E4C2C33.quest_subtitle: "{count:1,id:\"handcrafted:acacia_counter\"}"
 	quest.18D369DF27C10C73.quest_subtitle: "{count:1,id:\"arts_and_crafts:red_decorated_pot\"}"
+	quest.18D433FB887CE31B.quest_desc: ["The &bPoppet Shelf&r is a place for you to safely store your &bPoppets&r while still having them &aprovide you effects while out in the world&r."]
 	quest.18D43F822D06024C.quest_subtitle: "{components:{\"ae2:facade_item\":\"cluttered:fluorescent_maple_log\"},count:1,id:\"ae2:facade\"}"
 	quest.18D475339D50086B.quest_subtitle: "{count:1,id:\"arts_and_crafts:cobbled_ivory_pietraforte_stairs\"}"
 	quest.18D4DBA674D99C8C.quest_subtitle: "{count:1,id:\"cluttered:sea_gem_lantern\"}"
@@ -9692,13 +9693,13 @@
 		""
 		"The &bMixing Cauldron&r is used to craft many useful items, and accepts &bWater&r, &bLava&r, and &bBlood&r as a base in which to work. More on that later."
 		""
-		"For now, why not pop over to the shop and pick yourself up a nice little &bMixing Cauldron&r?"
+		"For now, why not &6pop over to the shop&r and pick yourself up a nice little &bMixing Cauldron&r? You can also &acraft one&r, of course, if you're feeling clever."
 		""
 		""
 		"{\"text\":\"The Mixing Cauldron\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"64E8A8E1C9A939C9/1\"},\"underlined\":true,\"color\":\"aqua\"}"
 	]
 	quest.327D93798A7BE211.quest_subtitle: "A Cauldron that's just cauld-right!"
-	quest.327D93798A7BE211.title: "Buy a Mixing Cauldron"
+	quest.327D93798A7BE211.title: "Obtain a Mixing Cauldron"
 	quest.327F6B8E07530247.quest_subtitle: "{count:1,id:\"minecraft:wet_sponge\"}"
 	quest.32822BDF5826A2A1.quest_subtitle: "{count:1,id:\"minecraft:magma_cream\"}"
 	quest.32828D04D11D7D0C.quest_subtitle: "{count:1,id:\"framedblocks:framed_elevated_inner_sloped_prism\"}"
@@ -15588,6 +15589,8 @@
 		"The &bCandelabra&r is a decorative block which can be placed above or below blocks in order to light the surrounding area."
 		""
 		"It seamlessly connects to hanging &bChains&r."
+		""
+		"And, I should mention, you can use it to &aupgrade your altar&r!"
 	]
 	quest.512C813AEE3A5BCD.quest_subtitle: "Abracandelabra!"
 	quest.512C813AEE3A5BCD.title: "Obtain a Candelabra"
@@ -19632,6 +19635,8 @@
 	quest.660207F9862DFE34.quest_subtitle: "{count:1,id:\"colorfulazaleas:lethe_azalea_boat\"}"
 	quest.6603B66B4D8D980F.quest_subtitle: "{count:1,id:\"cluttered:diamond_wallpaper_brown_mushroom_bottom_brown\"}"
 	quest.6604F860E2B02FAD.quest_subtitle: "{count:1,id:\"another_furniture:green_lamp\"}"
+	quest.6605ED243F07A169.quest_desc: ["You can obtain &bGhost Gypsum&r by putting &bCalcite&r into a &bDistillery&r. Unlike naturally spawning Gypsum, which makes regular &bChalk&r, &bGhost Gypsum&r is used in making &bRitual Chalk&r."]
+	quest.6605ED243F07A169.title: "Obtain Ghost Gypsum"
 	quest.660C0ECD91D50E0D.quest_subtitle: "{count:1,id:\"tanukidecor:cabana_bed\"}"
 	quest.66107C9B75F18889.quest_subtitle: "{count:1,id:\"quark:white_corundum\"}"
 	quest.6610DA43C127558E.quest_subtitle: "{count:1,id:\"handcrafted:wood_bowl\"}"
@@ -20018,6 +20023,8 @@
 	quest.6830D877AD8FA0CA.quest_subtitle: "{count:1,id:\"mysticsbiomes:strawberry\"}"
 	quest.6834791D8D11C0FE.quest_subtitle: "{count:1,id:\"mysticsbiomes:lush_sand\"}"
 	quest.683480597DD36A97.quest_subtitle: "{count:1,id:\"starcatcher_delight:fish_and_chips_uncommon\"}"
+	quest.68360A5DB4102013.quest_desc: ["The &bWhiff of Magic&r is a very key item, as it is the pathway that leads to &bAttuned Stones&r."]
+	quest.68360A5DB4102013.quest_subtitle: "a wheEEf of magic"
 	quest.68384BD05CE51294.quest_subtitle: "{count:1,id:\"betterend:thallasium_bulb_lantern_blue\"}"
 	quest.68391009A7132251.quest_subtitle: "{count:1,id:\"betternether:blue_obsidian_glass_pane\"}"
 	quest.683DD6859C6A28C5.quest_subtitle: "{count:1,id:\"hexerei:gold_rings\"}"
@@ -20719,7 +20726,7 @@
 		""
 		"Anyway, where was I? Oh, yes."
 		""
-		"In addition to the chalk circles on the outside, every rite requires a &brune of Golden Chalk&r in the center, which should be &6right clicked with the &bGolden Chalk&r after the reagents are placed. This will &aactivate the ritual&r."
+		"In addition to the chalk circles on the outside, every rite requires a &brune of Golden Chalk&r in the center, which should be &6right clicked&r after the reagents are placed. This will &aactivate the ritual&r."
 		""
 		"A successful ritual will consume your reagents one by one and then provide the desired output. If at the end, your reagents are spat back out, then &dthe ritual has failed&r. Double check your &bingredients&r and that your &bAltar&r is &aclose enough and has enough Power&r."
 	]
@@ -22317,6 +22324,13 @@
 	quest.747AD2091482D422.quest_subtitle: "{count:1,id:\"supplementaries:wind_vane\"}"
 	quest.747B7A4312E627C2.quest_subtitle: "{count:1,id:\"mcwfences:acacia_horse_fence\"}"
 	quest.747D45CFED175546.quest_subtitle: "{count:1,id:\"betterend:helix_tree_planks\"}"
+	quest.747EC7F313519A0F.quest_desc: [
+		"Whether or not you're a consumer of adult beverages, a &bDistillery&r can be a very useful tool! In this case, what it distills is &bVapor&r, producing unique and advanced &bfumes&r for you to work with!"
+		""
+		"It accepts up to 3 inputs, one of which &dmust be a &bClay Jar&r."
+	]
+	quest.747EC7F313519A0F.quest_subtitle: "dis still is very neat"
+	quest.747EC7F313519A0F.title: "Obtain the Distillery"
 	quest.747F506A8FC006A7.quest_subtitle: "{count:1,id:\"colorfulazaleas:pitch_azalea_chest_boat\"}"
 	quest.74804DA8EF0F433D.quest_subtitle: "{count:1,id:\"minecraft:oak_log\"}"
 	quest.7482254ED525ADCA.quest_subtitle: "{count:1,id:\"oeuvre:artist_desk\"}"

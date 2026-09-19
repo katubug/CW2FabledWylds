@@ -314,29 +314,44 @@
 			rewards: [
 				{
 					count: 5
-					id: "3ABD251C45CEB3DB"
+					exclude_from_claim_all: true
+					id: "5D7F1BE98829C42E"
+					is_ender: false
+					is_team_reward: false
 					item: {
 						count: 1
 						id: "minecraft:bowl"
 					}
-					type: "item"
+					target_addressee: "QuestNPC"
+					team_reward_multiplier: 1.0f
+					type: "contactquests:parcel"
 				}
 				{
-					count: 5
-					id: "4E00071CF998F118"
+					count: 4
+					exclude_from_claim_all: true
+					id: "4286D53AF3FBF6E6"
+					is_ender: false
+					is_team_reward: false
 					item: {
 						count: 1
 						id: "minecraft:pumpkin"
 					}
-					type: "item"
+					target_addressee: "QuestNPC"
+					team_reward_multiplier: 1.0f
+					type: "contactquests:parcel"
 				}
 				{
-					id: "5DC14F4D16E09573"
+					exclude_from_claim_all: true
+					id: "38B3C5F7AD9FBB01"
+					is_ender: false
+					is_team_reward: false
 					item: {
 						count: 1
 						id: "minecraft:campfire"
 					}
-					type: "item"
+					target_addressee: "QuestNPC"
+					team_reward_multiplier: 1.0f
+					type: "contactquests:parcel"
 				}
 			]
 			shape: "rsquare"

@@ -1,0 +1,133 @@
+{
+  "enabled": true,
+  "mod_name": "Icys-better-horses",
+  "mod_id": "icys-better-horses",
+  "achievements": {
+    "hold_your_horses": {
+      "display_name": "Hold Your Horses",
+      "original_name": "Hold Your Horses",
+      "icon": "minecraft:saddle",
+      "enabled": true,
+      "rewards": {
+        "attributes": {}
+      }
+    },
+    "stable_reading": {
+      "display_name": "Stable Reading",
+      "original_name": "Stable Reading",
+      "icon": "modonomicon:modonomicon",
+      "enabled": true,
+      "rewards": {
+        "attributes": {}
+      }
+    },
+    "gotta_tame_em_all": {
+      "display_name": "Gotta Tame \u0027Em All",
+      "original_name": "Gotta Tame \u0027Em All",
+      "icon": "minecraft:diamond_horse_armor",
+      "enabled": true,
+      "rewards": {
+        "attributes": {}
+      }
+    },
+    "foal_play": {
+      "display_name": "Foal Play",
+      "original_name": "Foal Play",
+      "icon": "minecraft:golden_apple",
+      "enabled": true,
+      "rewards": {
+        "attributes": {}
+      }
+    },
+    "all_tacked_up": {
+      "display_name": "All Tacked Up",
+      "original_name": "All Tacked Up",
+      "icon": "icys-better-horses:upgraded_saddle",
+      "enabled": true,
+      "rewards": {
+        "attributes": {}
+      }
+    },
+    "ride_or_die": {
+      "display_name": "Ride or Die",
+      "original_name": "Ride or Die",
+      "icon": "minecraft:name_tag",
+      "enabled": true,
+      "rewards": {
+        "attributes": {}
+      }
+    },
+    "best_of_both_worlds": {
+      "display_name": "Best of Both Worlds",
+      "original_name": "Best of Both Worlds",
+      "icon": "minecraft:golden_carrot",
+      "enabled": true,
+      "rewards": {
+        "attributes": {}
+      }
+    },
+    "stable_genius": {
+      "display_name": "Stable Genius",
+      "original_name": "Stable Genius",
+      "icon": "minecraft:lead",
+      "enabled": true,
+      "rewards": {
+        "attributes": {}
+      }
+    },
+    "pegasus_sort_of": {
+      "display_name": "Pegasus, Sort Of",
+      "original_name": "Pegasus, Sort Of",
+      "icon": "icys-better-horses:horse_stabilizer_gear",
+      "enabled": true,
+      "rewards": {
+        "attributes": {}
+      }
+    },
+    "hell_on_hooves": {
+      "display_name": "Hell on Hooves",
+      "original_name": "Hell on Hooves",
+      "icon": "minecraft:netherrack",
+      "enabled": true,
+      "rewards": {
+        "attributes": {}
+      }
+    },
+    "pocket_dimension_four_legs": {
+      "display_name": "Pocket Dimension, Four Legs",
+      "original_name": "Pocket Dimension, Four Legs",
+      "icon": "minecraft:ender_chest",
+      "enabled": true,
+      "rewards": {
+        "attributes": {}
+      }
+    },
+    "built_different": {
+      "display_name": "Built Different",
+      "original_name": "Built Different",
+      "icon": "minecraft:elytra",
+      "enabled": true,
+      "rewards": {
+        "attributes": {}
+      }
+    },
+    "home_is_where_the_hay_is": {
+      "display_name": "Home Is Where the Hay Is",
+      "original_name": "Home Is Where the Hay Is",
+      "icon": "minecraft:hay_block",
+      "enabled": true,
+      "rewards": {
+        "attributes": {}
+      }
+    },
+    "second_chance": {
+      "display_name": "Second Chance",
+      "original_name": "Second Chance",
+      "icon": "minecraft:totem_of_undying",
+      "enabled": true,
+      "rewards": {
+        "attributes": {}
+      }
+    }
+  }
+}

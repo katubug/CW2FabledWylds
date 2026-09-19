@@ -30,66 +30,6 @@
 			y: -5.2d
 		}
 		{
-			click_action: "none:"
-			height: 5.0d
-			id: "766FA3158E84171E"
-			image: "gabrielequests-structure:kind=whole,id=delighto_flight:cloud_island,rot=237x11,view=0,markers=0"
-			rotation: 0.0d
-			width: 5.0d
-			x: 8.0d
-			y: 5.0d
-		}
-		{
-			click_action: "none:"
-			height: 5.0d
-			id: "427359CF95A3DB8D"
-			image: "gabrielequests-structure:kind=piece,id=mss:castle_tower,rot=225x30,view=0,markers=0"
-			rotation: 0.0d
-			width: 5.0d
-			x: 2.0d
-			y: 5.0d
-		}
-		{
-			click_action: "none:"
-			height: 5.0d
-			id: "132A34091D59DA39"
-			image: "gabrielequests-structure:kind=piece,id=epic:epic_witch_hut/witch_hut,rot=225x30,view=0,markers=0"
-			rotation: 0.0d
-			width: 5.0d
-			x: 8.0d
-			y: 1.0d
-		}
-		{
-			click_action: "none:"
-			height: 5.0d
-			id: "4C266B63362A5B51"
-			image: "gabrielequests-structure:kind=piece,id=epic:epic_jungle_temple/temple1_large,rot=225x30,view=0,markers=0"
-			rotation: 0.0d
-			width: 5.0d
-			x: 5.0d
-			y: -1.5d
-		}
-		{
-			click_action: "none:"
-			height: 5.0d
-			id: "5898AD60DA7869C7"
-			image: "gabrielequests-structure:kind=whole,id=ribbits:ribbit_village,rot=225x30,view=0,markers=0"
-			rotation: 0.0d
-			width: 5.0d
-			x: 7.5d
-			y: -4.5d
-		}
-		{
-			click_action: "none:"
-			height: 5.0d
-			id: "1810BBD9B7A85BE2"
-			image: "gabrielequests-structure:kind=whole,id=trek:overworld/rare/tower_island,rot=101x30,view=0,markers=0"
-			rotation: 0.0d
-			width: 5.0d
-			x: 5.0d
-			y: 3.0d
-		}
-		{
 			click_action: "none:quest_enhance:text_v3:1.5:20:fabled_wylds:alagardStructures"
 			color: 2017209
 			height: 0.4583333333333333d
@@ -131,6 +71,66 @@
 			width: 8.574097771345567d
 			x: -5.0d
 			y: 10.0d
+		}
+		{
+			click_action: "none:"
+			height: 2.5d
+			id: "5009F3DAC2BEAF21"
+			image: "quest_enhance:textures/ftb/clipboard_1789400102523.png"
+			rotation: 0.0d
+			width: 4.0d
+			x: 7.5d
+			y: -4.5d
+		}
+		{
+			click_action: "none:"
+			height: 5.0d
+			id: "042B75292431741D"
+			image: "quest_enhance:textures/ftb/clipboard_1789400164723.png"
+			rotation: 0.0d
+			width: 4.6d
+			x: 3.0d
+			y: -1.0d
+		}
+		{
+			click_action: "none:"
+			height: 4.0d
+			id: "19A897B6B9C6D11F"
+			image: "quest_enhance:textures/ftb/clipboard_1789400230950.png"
+			rotation: 0.0d
+			width: 3.0d
+			x: 7.5d
+			y: -1.5d
+		}
+		{
+			click_action: "none:"
+			height: 4.0d
+			id: "26D6CF22A76FB56B"
+			image: "quest_enhance:textures/ftb/clipboard_1789400249405.png"
+			rotation: 0.0d
+			width: 2.6d
+			x: 5.0d
+			y: 2.5d
+		}
+		{
+			click_action: "none:"
+			height: 4.0d
+			id: "7A545489AC7D3DAA"
+			image: "quest_enhance:textures/ftb/clipboard_1789400274059.png"
+			rotation: 0.0d
+			width: 2.4d
+			x: 2.5d
+			y: 4.0d
+		}
+		{
+			click_action: "none:"
+			height: 3.7d
+			id: "7571B76B53299388"
+			image: "quest_enhance:textures/ftb/clipboard_1789400301421.png"
+			rotation: 0.0d
+			width: 4.0d
+			x: 7.5d
+			y: 4.5d
 		}
 	]
 	order_index: 0
@@ -272,8 +272,8 @@
 				structure: "delighto_flight:cloud_island"
 				type: "structure"
 			}]
-			x: 6.5d
-			y: 4.0d
+			x: 8.5d
+			y: 3.0d
 		}
 		{
 			always_invisible: true
@@ -298,8 +298,8 @@
 				structure: "epic:witch_hut"
 				type: "structure"
 			}]
-			x: 7.0d
-			y: 0.5d
+			x: 6.5d
+			y: -1.5d
 		}
 		{
 			id: "6414EFB17FFD56CB"
@@ -331,7 +331,7 @@
 				type: "structure"
 			}]
 			x: 7.5d
-			y: -5.0d
+			y: -5.5d
 		}
 		{
 			id: "12BC0C79FE723230"
@@ -345,8 +345,8 @@
 				structure: "trek:overworld/rare/tower_island"
 				type: "structure"
 			}]
-			x: 5.5d
-			y: 4.0d
+			x: 6.0d
+			y: 2.0d
 		}
 		{
 			id: "6E5FC4F24E0EDAFE"
@@ -360,8 +360,8 @@
 				structure: "mss:castle_tower"
 				type: "structure"
 			}]
-			x: 3.0d
-			y: 4.0d
+			x: 3.5d
+			y: 5.0d
 		}
 		{
 			id: "647DD568BF30253E"
@@ -371,12 +371,22 @@
 				structure: "epic:epic_temple_large"
 				type: "structure"
 			}]
-			x: 6.0d
-			y: -2.5d
+			x: 2.0d
+			y: 0.0d
 		}
 		{
 			id: "292B26978E644D9F"
 			preset: "start"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "302B6B25A52BD032"
+				is_ender: false
+				is_team_reward: false
+				table_id: 5770973074849872376L
+				target_addressee: "QuestNPC"
+				team_reward_multiplier: 1.0f
+				type: "contactquests:parcel_random"
+			}]
 			shape: "hexagon"
 			tasks: [{
 				id: "628297917BCB66ED"
@@ -390,12 +400,17 @@
 			id: "13C0DC76BB0AD7CB"
 			preset: "advancement"
 			rewards: [{
-				id: "014A6853173CF7AD"
+				exclude_from_claim_all: true
+				id: "7BAB82C095E2138E"
+				is_ender: false
+				is_team_reward: false
 				item: {
 					count: 1
 					id: "minecraft:respawn_anchor"
 				}
-				type: "item"
+				target_addressee: "QuestNPC"
+				team_reward_multiplier: 1.0f
+				type: "contactquests:parcel"
 			}]
 			shape: "octagon"
 			tasks: [{
@@ -407,11 +422,12 @@
 				id: "107172A8EAD35796"
 				type: "advancement"
 			}]
-			x: -11.0d
-			y: 0.5d
+			x: -3.5d
+			y: 4.0d
 		}
 		{
 			id: "369DEAD83BD150DA"
+			preset: "advancement"
 			rewards: [
 				{
 					exclude_from_claim_all: true
@@ -433,13 +449,17 @@
 				id: "3DE48330EDF240D6"
 				type: "advancement"
 			}]
-			x: -11.0d
-			y: -1.0d
+			x: -6.5d
+			y: 4.0d
 		}
 		{
 			id: "4470E2B09DB2B676"
+			preset: "advancement"
 			rewards: [{
-				id: "777AFE620FA72194"
+				exclude_from_claim_all: true
+				id: "31C039323F4E1BF5"
+				is_ender: false
+				is_team_reward: false
 				item: {
 					components: {
 						"minecraft:potion_contents": {
@@ -449,7 +469,9 @@
 					count: 1
 					id: "minecraft:splash_potion"
 				}
-				type: "item"
+				target_addressee: "QuestNPC"
+				team_reward_multiplier: 1.0f
+				type: "contactquests:parcel"
 			}]
 			shape: "octagon"
 			tasks: [{
@@ -458,18 +480,24 @@
 				type: "stat"
 				value: 10
 			}]
-			x: -11.0d
-			y: 2.0d
+			x: -5.0d
+			y: 4.0d
 		}
 		{
 			id: "7EF7EE2181ECA4E9"
+			preset: "advancement"
 			rewards: [{
-				id: "2FE51B1FF80A35BD"
+				exclude_from_claim_all: true
+				id: "2AAF8115910CEBF8"
+				is_ender: false
+				is_team_reward: false
 				item: {
 					count: 1
 					id: "minecraft:ancient_debris"
 				}
-				type: "item"
+				target_addressee: "QuestNPC"
+				team_reward_multiplier: 1.0f
+				type: "contactquests:parcel"
 			}]
 			shape: "octagon"
 			tasks: [{
@@ -478,8 +506,8 @@
 				id: "2D416C15BC4F0576"
 				type: "advancement"
 			}]
-			x: -11.0d
-			y: -2.5d
+			x: -8.0d
+			y: 4.0d
 		}
 		{
 			id: "1F4569590B7666F5"

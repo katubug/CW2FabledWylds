@@ -300,12 +300,17 @@
 			preset: "progression"
 			rewards: [{
 				count: 4
-				id: "2C1696FA0F7DF012"
+				exclude_from_claim_all: true
+				id: "32B250B5AC16398B"
+				is_ender: false
+				is_team_reward: false
 				item: {
 					count: 1
 					id: "hexerei:mahogany_sapling"
 				}
-				type: "item"
+				target_addressee: "QuestNPC"
+				team_reward_multiplier: 1.0f
+				type: "contactquests:parcel"
 			}]
 			tasks: [
 				{
@@ -445,19 +450,20 @@
 			preset: "item"
 			rewards: [
 				{
-					count: 5
-					id: "69D122C374973D30"
-					item: {
-						count: 1
-						id: "hexerei:sage"
-					}
-					type: "item"
-				}
-				{
 					exclude_from_claim_all: true
 					id: "1D5043A8454E6425"
 					table_id: 578597190891487109L
 					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "307F03F67ED522EF"
+					is_ender: false
+					is_team_reward: false
+					table_id: 5770973074849872376L
+					target_addressee: "QuestNPC"
+					team_reward_multiplier: 1.0f
+					type: "contactquests:parcel_random"
 				}
 			]
 			tasks: [{
@@ -473,27 +479,31 @@
 			preset: "milestone"
 			rewards: [
 				{
-					id: "5D4390657530F67D"
+					exclude_from_claim_all: true
+					id: "388E05F272C19062"
+					is_ender: false
+					is_team_reward: false
 					item: {
 						count: 1
 						id: "minecraft:quartz"
 					}
-					type: "item"
+					target_addressee: "QuestNPC"
+					team_reward_multiplier: 1.0f
+					type: "contactquests:parcel"
 				}
 				{
 					count: 4
-					id: "3F84B3AB271E4BFD"
+					exclude_from_claim_all: true
+					id: "1F4862B44AD239D6"
+					is_ender: false
+					is_team_reward: false
 					item: {
 						count: 1
 						id: "minecraft:iron_ingot"
 					}
-					type: "item"
-				}
-				{
-					exclude_from_claim_all: true
-					id: "794564C03969619F"
-					table_id: 7328857662613080212L
-					type: "random"
+					target_addressee: "QuestNPC"
+					team_reward_multiplier: 1.0f
+					type: "contactquests:parcel"
 				}
 			]
 			size: 1.5d
@@ -511,25 +521,34 @@
 			preset: "milestone"
 			rewards: [
 				{
-					count: 3
-					id: "188B83FAAB1ABDC5"
-					item: {
-						count: 1
-						id: "minecraft:glass_bottle"
-					}
-					type: "item"
-				}
-				{
 					exclude_from_claim_all: true
 					id: "157E2B0466E51630"
 					table_id: 578597190891487109L
 					type: "choice"
 				}
 				{
+					count: 3
 					exclude_from_claim_all: true
-					id: "2A49DE7BF56E3B6D"
+					id: "0DAA91E22CF4B87B"
+					is_ender: false
+					is_team_reward: false
+					item: {
+						count: 1
+						id: "minecraft:glass_bottle"
+					}
+					target_addressee: "QuestNPC"
+					team_reward_multiplier: 1.0f
+					type: "contactquests:parcel"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "033B071A7271FC02"
+					is_ender: false
+					is_team_reward: false
 					table_id: 7328857662613080212L
-					type: "random"
+					target_addressee: "QuestNPC"
+					team_reward_multiplier: 1.0f
+					type: "contactquests:parcel_random"
 				}
 			]
 			size: 1.5d
@@ -844,18 +863,27 @@
 			preset: "item"
 			rewards: [
 				{
-					id: "6E1202E0A5E54FA6"
+					exclude_from_claim_all: true
+					id: "531905BAE3F0DFDF"
+					is_ender: false
+					is_team_reward: false
 					item: {
 						count: 1
 						id: "hexerei:dried_sage_bundle"
 					}
-					type: "item"
+					target_addressee: "QuestNPC"
+					team_reward_multiplier: 1.0f
+					type: "contactquests:parcel"
 				}
 				{
 					exclude_from_claim_all: true
-					id: "236B52D265956EFB"
+					id: "59F109D7494DB385"
+					is_ender: false
+					is_team_reward: false
 					table_id: 6895470215093009548L
-					type: "random"
+					target_addressee: "QuestNPC"
+					team_reward_multiplier: 1.0f
+					type: "contactquests:parcel_random"
 				}
 			]
 			tasks: [{
@@ -872,9 +900,13 @@
 			preset: "item"
 			rewards: [{
 				exclude_from_claim_all: true
-				id: "693DE0E90140900E"
+				id: "735B51D6040160AA"
+				is_ender: false
+				is_team_reward: false
 				table_id: 5770973074849872376L
-				type: "random"
+				target_addressee: "QuestNPC"
+				team_reward_multiplier: 1.0f
+				type: "contactquests:parcel_random"
 			}]
 			tasks: [{
 				id: "38F0D2AA68359BAC"
@@ -1065,28 +1097,42 @@
 			preset: "item"
 			rewards: [
 				{
+					exclude_from_claim_all: true
+					id: "44D7323C474B10BD"
+					is_ender: false
+					is_team_reward: false
+					table_id: 5770973074849872376L
+					target_addressee: "QuestNPC"
+					team_reward_multiplier: 1.0f
+					type: "contactquests:parcel_random"
+				}
+				{
 					count: 4
-					id: "161E8286B74205FA"
+					exclude_from_claim_all: true
+					id: "0730505C815C71B8"
+					is_ender: false
+					is_team_reward: false
 					item: {
 						count: 1
 						id: "minecraft:honeycomb"
 					}
-					type: "item"
+					target_addressee: "QuestNPC"
+					team_reward_multiplier: 1.0f
+					type: "contactquests:parcel"
 				}
 				{
-					count: 12
-					id: "033143791C152FFF"
+					count: 5
+					exclude_from_claim_all: true
+					id: "611949AE703F2D8C"
+					is_ender: false
+					is_team_reward: false
 					item: {
 						count: 1
 						id: "hexerei:animal_fat"
 					}
-					type: "item"
-				}
-				{
-					exclude_from_claim_all: true
-					id: "4E0F6DA42E97F240"
-					table_id: 5770973074849872376L
-					type: "random"
+					target_addressee: "QuestNPC"
+					team_reward_multiplier: 1.0f
+					type: "contactquests:parcel"
 				}
 			]
 			shape: "hexagon"
@@ -1104,15 +1150,6 @@
 			preset: "item"
 			rewards: [
 				{
-					count: 3
-					id: "34689BAE2847DE91"
-					item: {
-						count: 1
-						id: "minecraft:chain"
-					}
-					type: "item"
-				}
-				{
 					exclude_from_claim_all: true
 					id: "2C2DB4FD1A8ECFC0"
 					table_id: 578597190891487109L
@@ -1120,9 +1157,13 @@
 				}
 				{
 					exclude_from_claim_all: true
-					id: "580445F6652E0E31"
+					id: "3B4742DEAD736984"
+					is_ender: false
+					is_team_reward: false
 					table_id: 5770973074849872376L
-					type: "random"
+					target_addressee: "QuestNPC"
+					team_reward_multiplier: 1.0f
+					type: "contactquests:parcel_random"
 				}
 			]
 			shape: "hexagon"
@@ -1156,8 +1197,8 @@
 				item: { count: 1, id: "hexerei:witch_boots" }
 				type: "item"
 			}]
-			x: 2.5d
-			y: -1.5d
+			x: 2.0d
+			y: -1.0d
 		}
 		{
 			dependencies: [
@@ -1194,19 +1235,28 @@
 			preset: "item"
 			rewards: [
 				{
-					count: 24
-					id: "71A2895B8EF9F14B"
+					count: 20
+					exclude_from_claim_all: true
+					id: "2A59FF87CB18D15D"
+					is_ender: false
+					is_team_reward: false
 					item: {
 						count: 1
 						id: "hexerei:mahogany_planks"
 					}
-					type: "item"
+					target_addressee: "QuestNPC"
+					team_reward_multiplier: 1.0f
+					type: "contactquests:parcel"
 				}
 				{
 					exclude_from_claim_all: true
-					id: "0352ED13BB450EE9"
+					id: "3EAA3C82AA85A07F"
+					is_ender: false
+					is_team_reward: false
 					table_id: 5770973074849872376L
-					type: "random"
+					target_addressee: "QuestNPC"
+					team_reward_multiplier: 1.0f
+					type: "contactquests:parcel_random"
 				}
 			]
 			shape: "hexagon"
@@ -1310,9 +1360,13 @@
 			preset: "locate"
 			rewards: [{
 				exclude_from_claim_all: true
-				id: "7C60E49CF708390A"
+				id: "0059DC7F20ABA22C"
+				is_ender: false
+				is_team_reward: false
 				table_id: 5770973074849872376L
-				type: "random"
+				target_addressee: "QuestNPC"
+				team_reward_multiplier: 1.0f
+				type: "contactquests:parcel_random"
 			}]
 			shape: "octagon"
 			tasks: [{
@@ -1353,14 +1407,21 @@
 			y: -3.5d
 		}
 		{
-			dependencies: ["410FE13D777DE1C8"]
+			dependencies: [
+				"410FE13D777DE1C8"
+				"6605ED243F07A169"
+			]
 			id: "6BE389D26249D046"
 			preset: "milestone"
 			rewards: [{
 				exclude_from_claim_all: true
-				id: "5E215CAC211F83A9"
+				id: "7BDC144795A6B238"
+				is_ender: false
+				is_team_reward: false
 				table_id: 7328857662613080212L
-				type: "random"
+				target_addressee: "QuestNPC"
+				team_reward_multiplier: 1.0f
+				type: "contactquests:parcel_random"
 			}]
 			tasks: [
 				{
@@ -1374,8 +1435,8 @@
 					type: "item"
 				}
 			]
-			x: 10.0d
-			y: 5.25d
+			x: 12.75d
+			y: 3.75d
 		}
 		{
 			dependencies: ["4655801A35B3BAB2"]
@@ -1942,49 +2003,29 @@
 			y: 11.0d
 		}
 		{
-			dependencies: ["186783CBB755AC03"]
+			dependencies: ["0D51CFD77E404109"]
 			id: "18D433FB887CE31B"
 			preset: "progression"
-			tasks: [{
-				id: "7B032D53F9A9CACD"
-				item: { count: 1, id: "enchanted:poppet_shelf" }
-				type: "item"
-			}]
-			x: 7.0d
-			y: 7.0d
-		}
-		{
-			dependencies: ["2B1B9108FF7A3FB3"]
-			id: "186783CBB755AC03"
-			preset: "item"
 			rewards: [{
-				count: 2
 				exclude_from_claim_all: true
-				id: "17CB8426F29A0B49"
+				id: "36AF66BE62BDD49E"
 				is_ender: false
 				is_team_reward: false
 				item: {
 					count: 1
-					id: "enchanted:attuned_stone"
+					id: "enchanted:poppet"
 				}
 				target_addressee: "QuestNPC"
 				team_reward_multiplier: 1.0f
 				type: "contactquests:parcel"
 			}]
-			tasks: [
-				{
-					id: "6FB6CC467CEF17CF"
-					item: { count: 1, id: "enchanted:whiff_of_magic" }
-					type: "item"
-				}
-				{
-					id: "6E1AD0D483FC4883"
-					item: { count: 1, id: "enchanted:attuned_stone" }
-					type: "item"
-				}
-			]
-			x: 7.0d
-			y: 5.0d
+			tasks: [{
+				id: "7B032D53F9A9CACD"
+				item: { count: 1, id: "enchanted:poppet_shelf" }
+				type: "item"
+			}]
+			x: 10.0d
+			y: 4.5d
 		}
 		{
 			id: "041330E9AC7E1769"
@@ -2024,6 +2065,114 @@
 			}]
 			x: 1.5d
 			y: 12.0d
+		}
+		{
+			dependencies: ["68360A5DB4102013"]
+			id: "0D51CFD77E404109"
+			preset: "progression"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4B07008DC5E406F7"
+				is_ender: false
+				is_team_reward: false
+				item: {
+					count: 1
+					id: "enchanted:attuned_stone"
+				}
+				target_addressee: "QuestNPC"
+				team_reward_multiplier: 1.0f
+				type: "contactquests:parcel"
+			}]
+			tasks: [{
+				id: "38F67E51453E8CFD"
+				item: { count: 1, id: "enchanted:attuned_stone" }
+				type: "item"
+			}]
+			x: 8.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["2B1B9108FF7A3FB3"]
+			id: "68360A5DB4102013"
+			preset: "progression"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "76A649B2E744EEC3"
+				is_ender: false
+				is_team_reward: false
+				item: {
+					count: 1
+					id: "enchanted:whiff_of_magic"
+				}
+				target_addressee: "QuestNPC"
+				team_reward_multiplier: 1.0f
+				type: "contactquests:parcel"
+			}]
+			tasks: [{
+				id: "344B44C22933DF12"
+				item: { count: 1, id: "enchanted:whiff_of_magic" }
+				type: "item"
+			}]
+			x: 7.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["0D51CFD77E404109"]
+			id: "747EC7F313519A0F"
+			preset: "progression"
+			rewards: [{
+				count: 4
+				exclude_from_claim_all: true
+				id: "67BAD4A8E5326739"
+				is_ender: false
+				is_team_reward: false
+				item: {
+					count: 1
+					id: "enchanted:clay_jar"
+				}
+				target_addressee: "QuestNPC"
+				team_reward_multiplier: 1.0f
+				type: "contactquests:parcel"
+			}]
+			tasks: [{
+				id: "354228FDD640195B"
+				item: { count: 1, id: "enchanted:distillery" }
+				type: "item"
+			}]
+			x: 8.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["747EC7F313519A0F"]
+			id: "6605ED243F07A169"
+			preset: "progression"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "751759632B2D5D11"
+				is_ender: false
+				is_team_reward: false
+				item: {
+					count: 1
+					id: "enchanted:gypsum"
+				}
+				target_addressee: "QuestNPC"
+				team_reward_multiplier: 1.0f
+				type: "contactquests:parcel"
+			}]
+			tasks: [
+				{
+					id: "2A597827A495B647"
+					item: { count: 1, id: "minecraft:calcite" }
+					type: "item"
+				}
+				{
+					id: "4ABD6A3B716492B9"
+					item: { count: 1, id: "enchanted:gypsum" }
+					type: "item"
+				}
+			]
+			x: 12.5d
+			y: 7.0d
 		}
 	]
 }

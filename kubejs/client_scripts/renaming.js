@@ -87,5 +87,6 @@ ClientEvents.lang("en_us", event => {
 	event.renameItem('large_meals:potato_soup', 'Hearty Potato Soup')
 	event.renameItem('seamsandstitches:needle', 'Sewing Needle')
 	event.renameItem('tombstone:bone_needle', 'idk')
+	event.renameItem('enchanted:gypsum', 'Ghost Gypsum')
 
 })

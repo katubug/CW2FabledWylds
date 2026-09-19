@@ -840,5 +840,16 @@ global.NUKED_ITEMS = [
     'mysticsbiomes:caterpillar_spawn_egg',
     'mysticsbiomes:butterfly_nest',
     // relics
-    'relics:experience_disperser'
+    'relics:experience_disperser',
+    //Hollowmarch bookshelves
+    'hollowmarch:crimson_bookshelf',
+    'hollowmarch:warped_bookshelf',
+    'hollowmarch:spruce_bookshelf',
+    'hollowmarch:birch_bookshelf',
+    'hollowmarch:jungle_bookshelf',
+    'hollowmarch:acacia_bookshelf',
+    'hollowmarch:dark_oak_bookshelf',
+    'hollowmarch:mangrove_bookshelf',
+    'hollowmarch:cherry_bookshelf',
+    'hollowmarch:bamboo_bookshelf'
 ]
