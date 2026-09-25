@@ -1,10 +1,14 @@
 {
-  "type": "hexalia:mortar_and_pestle",
+  "type": "hexerei:pestle_and_mortar",
   "count": 2,
   "ingredients": [
     {
       "item": "minecraft:sugar_cane"
     }
   ],
-  "result": "minecraft:sugar"
+  "output": {
+    "id": "minecraft:sugar",
+    "count": 2
+  },
+  "grindingTime": 100
 }

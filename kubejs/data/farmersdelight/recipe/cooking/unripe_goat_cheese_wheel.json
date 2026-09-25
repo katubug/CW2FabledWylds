@@ -11,10 +11,10 @@
       "item": "hearthandharvest:goat_milk_bottle"
     },
     {
-      "item": "c:dusts/salt"
+      "tag": "c:dusts/salt"
     },
     {
-      "item": "c:dusts/salt"
+      "tag": "c:dusts/salt"
     }
   ],
   "recipe_book_tab": "meals",

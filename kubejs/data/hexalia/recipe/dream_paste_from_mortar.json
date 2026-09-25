@@ -6,7 +6,7 @@
     }
   ],
   "output": {
-    "item": "hexalia:dream_paste",
+    "id": "hexalia:dream_paste",
     "count": 1
   },
   "grindingTime": 100

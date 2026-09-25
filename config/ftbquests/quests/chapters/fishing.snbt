@@ -15,6 +15,7 @@
 			height: 5.0d
 			id: "087927853A45DAE7"
 			image: "fabled_wylds:textures/questui/illustrations/fishing_icon.png"
+			quest_enhance_exclude_from_box_selection: 0b
 			rotation: 0.0d
 			width: 5.0d
 			x: -3.5d
@@ -26,6 +27,7 @@
 			id: "69AB4242D47A097B"
 			image: "fabled_wylds:textures/questui/bookbgslg/blue_book_lg.png"
 			order: -5
+			quest_enhance_exclude_from_box_selection: 0b
 			rotation: 0.0d
 			width: 25.0d
 			x: -0.5d
@@ -37,6 +39,7 @@
 			height: 2.5d
 			id: "5FA903E72B60E11A"
 			image: "fabled_wylds:textures/questui/titles/fishing.png"
+			quest_enhance_exclude_from_box_selection: 0b
 			rotation: 0.0d
 			width: 9.0d
 			x: -5.5d
@@ -48,6 +51,7 @@
 			height: 0.4583333333333333d
 			id: "654CE9D1F77B7C2E"
 			image: ""
+			quest_enhance_exclude_from_box_selection: 0b
 			rotation: 0.0d
 			width: 3.6666666666666665d
 			x: -5.5d
@@ -59,6 +63,7 @@
 			height: 0.5201459360532256d
 			id: "400EF3B6520710FE"
 			image: ""
+			quest_enhance_exclude_from_box_selection: 0b
 			rotation: 0.0d
 			width: 3.5937355581859225d
 			x: 4.5d
@@ -74,6 +79,7 @@
 			dependencies: ["4B26B50D268DBA07"]
 			id: "05EFC8F18818E8DD"
 			preset: "item"
+			quest_enhance_disable_scroll_paging: false
 			rewards: [
 				{
 					exclude_from_claim_all: true
@@ -110,12 +116,16 @@
 		{
 			id: "4B26B50D268DBA07"
 			preset: "start"
+			quest_enhance_disable_scroll_paging: false
 			rewards: [
 				{
 					id: "63D695E3CE2809E2"
 					item: {
+						components: {
+							"ftbquests:missing_item": "starcatcher:starcatcher_twine"
+						}
 						count: 1
-						id: "starcatcher:starcatcher_twine"
+						id: "ftbquests:missing_item"
 					}
 					type: "item"
 				}
@@ -142,6 +152,7 @@
 			dependencies: ["4B26B50D268DBA07"]
 			id: "62F2784763AD1938"
 			preset: "progression"
+			quest_enhance_disable_scroll_paging: false
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "1AF6039DCB8815DD"
@@ -167,6 +178,7 @@
 			dependencies: ["62F2784763AD1938"]
 			id: "18E1F3797BC552D0"
 			preset: "item"
+			quest_enhance_disable_scroll_paging: false
 			rewards: [
 				{
 					exclude_from_claim_all: true
@@ -211,6 +223,7 @@
 			dependencies: ["4B26B50D268DBA07"]
 			id: "1FDD653A3C13DFDF"
 			preset: "advancement"
+			quest_enhance_disable_scroll_paging: false
 			rewards: [
 				{
 					id: "7E00EE2957DC82AA"
@@ -244,6 +257,7 @@
 		{
 			id: "104D0C28773A1DD4"
 			preset: "start"
+			quest_enhance_disable_scroll_paging: false
 			rewards: [
 				{
 					exclude_from_claim_all: true
@@ -278,6 +292,7 @@
 		{
 			dependencies: ["104D0C28773A1DD4"]
 			id: "0F5E5A0B0C05ACD2"
+			quest_enhance_disable_scroll_paging: false
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "50A47CBD7D4D38FA"
@@ -337,6 +352,7 @@
 		{
 			id: "7A31753911D1CCFC"
 			preset: "item"
+			quest_enhance_disable_scroll_paging: false
 			rewards: [
 				{
 					exclude_from_claim_all: true
@@ -381,6 +397,7 @@
 			dependencies: ["62F2784763AD1938"]
 			id: "2CAAC737A4D4FF60"
 			preset: "turnin"
+			quest_enhance_disable_scroll_paging: false
 			rewards: [
 				{
 					exclude_from_claim_all: true
@@ -409,6 +426,7 @@
 		{
 			always_invisible: true
 			id: "1F268F57DC20768A"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "0D354D7988E374CE"
 				item: { count: 1, id: "ftbquests:barrier" }
@@ -422,6 +440,7 @@
 			dependencies: ["62F2784763AD1938"]
 			id: "318C7124088632D3"
 			preset: "info"
+			quest_enhance_disable_scroll_paging: false
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "37DCE14046E0CEB8"
@@ -444,6 +463,7 @@
 			dependencies: ["4B26B50D268DBA07"]
 			id: "3A642C7C4A5C4334"
 			preset: "item"
+			quest_enhance_disable_scroll_paging: false
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "4B6FC48940DD072F"
@@ -466,6 +486,7 @@
 			dependencies: ["62F2784763AD1938"]
 			id: "0AD64024D055FF01"
 			preset: "info"
+			quest_enhance_disable_scroll_paging: false
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "6CAC0DA166AE238B"
@@ -487,6 +508,7 @@
 		{
 			id: "72337CD5CE36F9EF"
 			preset: "progression"
+			quest_enhance_disable_scroll_paging: false
 			rewards: [{
 				amount: 2.0d
 				attribute: "minecraft:generic.max_health"
@@ -510,6 +532,7 @@
 		{
 			id: "599033854681A3A1"
 			preset: "progression"
+			quest_enhance_disable_scroll_paging: false
 			rewards: [{
 				amount: 2.0d
 				attribute: "minecraft:generic.max_health"
@@ -532,6 +555,7 @@
 		{
 			id: "67367D2AE7B97029"
 			preset: "milestone"
+			quest_enhance_disable_scroll_paging: false
 			rewards: [{
 				amount: 2.0d
 				attribute: "minecraft:generic.max_health"
@@ -554,6 +578,7 @@
 		{
 			id: "220880D8B23EE821"
 			preset: "progression"
+			quest_enhance_disable_scroll_paging: false
 			rewards: [{
 				amount: 2.0d
 				attribute: "minecraft:generic.max_health"
@@ -576,6 +601,7 @@
 		{
 			id: "6FDDE832FB9A5FE5"
 			preset: "milestone"
+			quest_enhance_disable_scroll_paging: false
 			rewards: [{
 				amount: 2.0d
 				attribute: "minecraft:generic.max_health"
@@ -598,6 +624,7 @@
 		{
 			id: "156E91379EC11004"
 			preset: "completion"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "780C4B4A14ABF746"
 				item: { count: 1, id: "starcatcher:trophy_of_the_older_angler" }
@@ -609,6 +636,7 @@
 		{
 			id: "279947E4FB1A366F"
 			preset: "item"
+			quest_enhance_disable_scroll_paging: false
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "4C6899810FC9D51B"
@@ -667,6 +695,7 @@
 		{
 			id: "698D0D2656B94C43"
 			preset: "item"
+			quest_enhance_disable_scroll_paging: false
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "4FCF95FB5F85C2F5"
@@ -725,6 +754,7 @@
 		{
 			id: "0B131225FEDAA6AC"
 			preset: "item"
+			quest_enhance_disable_scroll_paging: false
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "397DD54AE5A05934"
@@ -803,6 +833,7 @@
 		{
 			id: "58AA2A38728EC475"
 			preset: "item"
+			quest_enhance_disable_scroll_paging: false
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "2002C3B01A04727D"
@@ -846,6 +877,7 @@
 		{
 			id: "4DEE27DAF79C58ED"
 			preset: "item"
+			quest_enhance_disable_scroll_paging: false
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "09B040298F6170A7"
@@ -894,6 +926,7 @@
 		{
 			id: "10AD8A01B9D0CD17"
 			preset: "item"
+			quest_enhance_disable_scroll_paging: false
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "660A05AC3E965A47"
@@ -942,6 +975,7 @@
 		{
 			id: "617540753B3AA2DD"
 			preset: "item"
+			quest_enhance_disable_scroll_paging: false
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "60B6584E1BBE6C96"
@@ -1005,6 +1039,7 @@
 		{
 			id: "2C2D6CE0A2EC3305"
 			preset: "item"
+			quest_enhance_disable_scroll_paging: false
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "25049CFA05B84F9F"
@@ -1058,6 +1093,7 @@
 		{
 			id: "401B7E57628C88F5"
 			preset: "item"
+			quest_enhance_disable_scroll_paging: false
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "36C9F3AE9EDF300F"
@@ -1106,6 +1142,7 @@
 		{
 			id: "31D3A29B73BE3ABA"
 			preset: "item"
+			quest_enhance_disable_scroll_paging: false
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "32CDC0EF901A8F3D"
@@ -1169,6 +1206,7 @@
 		{
 			id: "63B74A5A3FC47CAA"
 			preset: "item"
+			quest_enhance_disable_scroll_paging: false
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "5D6C34F588E48895"
@@ -1232,6 +1270,7 @@
 		{
 			id: "022A9FF2DA695F94"
 			preset: "item"
+			quest_enhance_disable_scroll_paging: false
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "5C57A71AF0D4B805"
@@ -1285,6 +1324,7 @@
 		{
 			id: "0FFEC186DEA6C730"
 			preset: "item"
+			quest_enhance_disable_scroll_paging: false
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "1CC13BFEE063B541"
@@ -1343,6 +1383,7 @@
 		{
 			id: "2C5A66D41574D508"
 			preset: "item"
+			quest_enhance_disable_scroll_paging: false
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "6504B7BF11BA0389"
@@ -1381,6 +1422,7 @@
 		{
 			id: "48FB2E853260CF25"
 			preset: "item"
+			quest_enhance_disable_scroll_paging: false
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "7C9F7B51943ACC9C"

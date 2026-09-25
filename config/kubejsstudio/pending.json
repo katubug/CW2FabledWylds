@@ -1,1 +1,1 @@
-[]
+[{"type":"RecipeJson","op":{"targetId":"hexalia:purity_idol","json":"{\n  \"type\": \"minecraft:crafting_shapeless\",\n  \"category\": \"equipment\",\n  \"ingredients\": [\n    {\n      \"item\": \"hexalia:silk_idol\"\n    },\n    {\n      \"item\": \"hexalia:water_node\"\n    },\n    {\n      \"item\": \"hexalia:lotus_blossom\"\n    },\n    {\n      \"tag\": \"c:dusts/salt\"\n    }\n  ],\n  \"result\": {\n    \"id\": \"hexalia:purity_idol\",\n    \"count\": 1\n  }\n}\n","override":true,"label":"shapeless -\u003e hexalia:purity_idol","backend":"DATAPACK"}}]

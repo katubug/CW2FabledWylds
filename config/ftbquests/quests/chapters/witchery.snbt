@@ -15,6 +15,7 @@
 			height: 2.5d
 			id: "5AACAA093BA65B8A"
 			image: "fabled_wylds:textures/questui/titles/witchery.png"
+			quest_enhance_exclude_from_box_selection: 0b
 			rotation: 0.0d
 			width: 9.0d
 			x: 0.0d
@@ -26,6 +27,7 @@
 			id: "0A4EE25E56172F31"
 			image: "fabled_wylds:textures/questui/bookbgslg/green_book_lg.png"
 			order: -5
+			quest_enhance_exclude_from_box_selection: 0b
 			rotation: 0.0d
 			width: 25.0d
 			x: 5.0d
@@ -37,6 +39,7 @@
 			height: 0.6111111111111112d
 			id: "2BC2E7291EF77A5D"
 			image: ""
+			quest_enhance_exclude_from_box_selection: 0b
 			rotation: 0.0d
 			width: 4.222222222222222d
 			x: 10.0d
@@ -48,6 +51,7 @@
 			height: 0.4583333333333333d
 			id: "11BF4686A055652B"
 			image: ""
+			quest_enhance_exclude_from_box_selection: 0b
 			rotation: 0.0d
 			width: 3.6666666666666665d
 			x: 0.0d
@@ -59,6 +63,7 @@
 			id: "6A006AE2115F9302"
 			image: "fabled_wylds:textures/questui/bookbgslg/green_book_lg.png"
 			order: -5
+			quest_enhance_exclude_from_box_selection: 0b
 			rotation: 0.0d
 			width: 25.0d
 			x: 5.0d
@@ -70,6 +75,7 @@
 			height: 0.6111111111111112d
 			id: "7FA5CFF34F3979F3"
 			image: ""
+			quest_enhance_exclude_from_box_selection: 0b
 			rotation: 0.0d
 			width: 4.222222222222222d
 			x: 10.0d
@@ -81,6 +87,7 @@
 			height: 0.6111111111111112d
 			id: "521ADB69D0C208FF"
 			image: ""
+			quest_enhance_exclude_from_box_selection: 0b
 			rotation: 0.0d
 			width: 4.222222222222222d
 			x: 10.0d
@@ -92,6 +99,7 @@
 			id: "5C7325A26E110BA8"
 			image: "fabled_wylds:textures/questui/bookbgslg/green_book_lg.png"
 			order: -5
+			quest_enhance_exclude_from_box_selection: 0b
 			rotation: 0.0d
 			width: 25.0d
 			x: 26.5d
@@ -103,6 +111,7 @@
 			height: 0.6111111111111112d
 			id: "34803E7BB0A6D120"
 			image: ""
+			quest_enhance_exclude_from_box_selection: 0b
 			rotation: 0.0d
 			width: 4.222222222222222d
 			x: 21.5d
@@ -114,9 +123,34 @@
 			height: 0.6111111111111112d
 			id: "711052853A937E9A"
 			image: ""
+			quest_enhance_exclude_from_box_selection: 0b
 			rotation: 0.0d
 			width: 4.222222222222222d
 			x: 0.0d
+			y: 11.0d
+		}
+		{
+			click_action: "none:quest_enhance:text_v3:1.5:20:fabled_wylds:alagardTaglocks & Poppets"
+			color: 6321408
+			height: 0.6111111111111112d
+			id: "055C4FAC32B10ACC"
+			image: ""
+			quest_enhance_exclude_from_box_selection: 0b
+			rotation: 0.0d
+			width: 4.222222222222222d
+			x: 31.5d
+			y: 4.0d
+		}
+		{
+			click_action: "none:quest_enhance:text_v3:1.5:20:fabled_wylds:alagardMethods of Travel"
+			color: 6321408
+			height: 0.6111111111111112d
+			id: "194BBD0DB3CF3764"
+			image: ""
+			quest_enhance_exclude_from_box_selection: 0b
+			rotation: 0.0d
+			width: 5.333333333333333d
+			x: 10.0d
 			y: 11.0d
 		}
 	]
@@ -144,6 +178,7 @@
 		{
 			id: "5688211768F55F90"
 			preset: "start"
+			quest_enhance_disable_scroll_paging: false
 			rewards: [
 				{
 					id: "1FB7B986F959CCE1"
@@ -175,6 +210,7 @@
 			dependencies: ["2B1B9108FF7A3FB3"]
 			id: "410FE13D777DE1C8"
 			preset: "milestone"
+			quest_enhance_disable_scroll_paging: false
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "04EC7303F5F3082C"
@@ -210,6 +246,7 @@
 		{
 			id: "2B1B9108FF7A3FB3"
 			preset: "start"
+			quest_enhance_disable_scroll_paging: false
 			rewards: [
 				{
 					count: 4
@@ -260,6 +297,7 @@
 			}
 			id: "6AF9BE2037D01B2A"
 			preset: "progression"
+			quest_enhance_disable_scroll_paging: false
 			rewards: [{
 				count: 3
 				exclude_from_claim_all: true
@@ -298,6 +336,7 @@
 			dependencies: ["5688211768F55F90"]
 			id: "182C1C3812C31B0B"
 			preset: "progression"
+			quest_enhance_disable_scroll_paging: false
 			rewards: [{
 				count: 4
 				exclude_from_claim_all: true
@@ -336,6 +375,7 @@
 			dependencies: ["182C1C3812C31B0B"]
 			id: "4655801A35B3BAB2"
 			preset: "milestone"
+			quest_enhance_disable_scroll_paging: false
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "5F613E6D3CFFE79F"
@@ -406,6 +446,7 @@
 		{
 			id: "2E3769733A0BFF69"
 			preset: "progression"
+			quest_enhance_disable_scroll_paging: false
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "465765F5E7ABC225"
@@ -428,6 +469,7 @@
 		{
 			id: "57CEB5677AF42CCB"
 			preset: "start"
+			quest_enhance_disable_scroll_paging: false
 			rewards: [{
 				id: "53BFBB8B989C6C65"
 				item: {
@@ -448,6 +490,7 @@
 			dependencies: ["182C1C3812C31B0B"]
 			id: "047370ADE354D8DB"
 			preset: "item"
+			quest_enhance_disable_scroll_paging: false
 			rewards: [
 				{
 					exclude_from_claim_all: true
@@ -477,6 +520,7 @@
 		{
 			id: "327D93798A7BE211"
 			preset: "milestone"
+			quest_enhance_disable_scroll_paging: false
 			rewards: [
 				{
 					exclude_from_claim_all: true
@@ -519,6 +563,7 @@
 			dependencies: ["327D93798A7BE211"]
 			id: "13B72F5C0CF9E9FB"
 			preset: "milestone"
+			quest_enhance_disable_scroll_paging: false
 			rewards: [
 				{
 					exclude_from_claim_all: true
@@ -564,6 +609,7 @@
 			dependencies: ["02CA3D4397E8BA25"]
 			id: "257F1DCDEC619664"
 			preset: "item"
+			quest_enhance_disable_scroll_paging: false
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "2F0E7DDB33A85463"
@@ -589,6 +635,7 @@
 			dependencies: ["1698226644682207"]
 			id: "02CA3D4397E8BA25"
 			preset: "progression"
+			quest_enhance_disable_scroll_paging: false
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "5877C584BCE1C36B"
@@ -614,6 +661,7 @@
 			dependencies: ["02CA3D4397E8BA25"]
 			id: "434E391D87C3EBD9"
 			preset: "item"
+			quest_enhance_disable_scroll_paging: false
 			rewards: [
 				{
 					exclude_from_claim_all: true
@@ -640,6 +688,7 @@
 			dependencies: ["02CA3D4397E8BA25"]
 			id: "7C899C8C278B0998"
 			preset: "item"
+			quest_enhance_disable_scroll_paging: false
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "49640B94F52CF28F"
@@ -663,6 +712,7 @@
 			dependencies: ["1698226644682207"]
 			id: "12C571F5FBC6B57C"
 			preset: "item"
+			quest_enhance_disable_scroll_paging: false
 			rewards: [
 				{
 					count: 5
@@ -702,6 +752,7 @@
 			dependencies: ["12C571F5FBC6B57C"]
 			id: "76A73E61526B9EE1"
 			preset: "item"
+			quest_enhance_disable_scroll_paging: false
 			rewards: [
 				{
 					exclude_from_claim_all: true
@@ -740,6 +791,7 @@
 			dependencies: ["1698226644682207"]
 			id: "7793743B2F9DE215"
 			preset: "progression"
+			quest_enhance_disable_scroll_paging: false
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "1E7AD284E76279E5"
@@ -762,6 +814,7 @@
 			dependencies: ["7793743B2F9DE215"]
 			id: "4014D768E23552B0"
 			preset: "item"
+			quest_enhance_disable_scroll_paging: false
 			rewards: [
 				{
 					id: "1CF8C4D2A0E18590"
@@ -795,6 +848,7 @@
 			dependencies: ["7793743B2F9DE215"]
 			id: "056F7888052BBEF2"
 			preset: "item"
+			quest_enhance_disable_scroll_paging: false
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "2F3D635931DAFEB5"
@@ -817,6 +871,7 @@
 			dependencies: ["57CEB5677AF42CCB"]
 			id: "1698226644682207"
 			preset: "milestone"
+			quest_enhance_disable_scroll_paging: false
 			rewards: [
 				{
 					exclude_from_claim_all: true
@@ -861,6 +916,7 @@
 			dependencies: ["34670D78DC22EC27"]
 			id: "2AABE6469023F950"
 			preset: "item"
+			quest_enhance_disable_scroll_paging: false
 			rewards: [
 				{
 					exclude_from_claim_all: true
@@ -898,6 +954,7 @@
 			dependencies: ["327D93798A7BE211"]
 			id: "34670D78DC22EC27"
 			preset: "item"
+			quest_enhance_disable_scroll_paging: false
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "735B51D6040160AA"
@@ -920,6 +977,7 @@
 			dependencies: ["4655801A35B3BAB2"]
 			id: "05772A2D60C9FF3D"
 			preset: "item"
+			quest_enhance_disable_scroll_paging: false
 			rewards: [{
 				count: 3
 				exclude_from_claim_all: true
@@ -946,6 +1004,7 @@
 		{
 			id: "18FD7541912B5772"
 			preset: "item"
+			quest_enhance_disable_scroll_paging: false
 			rewards: [{
 				count: 15
 				id: "4F09C97F9D1D8BDD"
@@ -965,9 +1024,10 @@
 			y: 5.5d
 		}
 		{
-			dependencies: ["184493C9F7227C64"]
+			dependencies: ["4655801A35B3BAB2"]
 			id: "24C19E2033095FFA"
 			preset: "milestone"
+			quest_enhance_disable_scroll_paging: false
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "7AECD6DA1B55653E"
@@ -999,6 +1059,7 @@
 			}
 			id: "2F933DC876021A85"
 			preset: "animal"
+			quest_enhance_disable_scroll_paging: false
 			rewards: [{
 				count: 10
 				id: "6E7B88E1BF0FA7E0"
@@ -1023,6 +1084,7 @@
 			dependencies: ["2F933DC876021A85"]
 			id: "2EF910B028DA06B7"
 			preset: "item"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "389497740C370A4A"
 				item: { count: 1, id: "minecraft:gold_nugget" }
@@ -1035,6 +1097,7 @@
 			dependencies: ["2F933DC876021A85"]
 			id: "2C760E07C84C91F2"
 			preset: "item"
+			quest_enhance_disable_scroll_paging: false
 			rewards: [
 				{
 					exclude_from_claim_all: true
@@ -1072,6 +1135,7 @@
 			dependencies: ["2F933DC876021A85"]
 			id: "0D8DA3376EF50A60"
 			preset: "item"
+			quest_enhance_disable_scroll_paging: false
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "44C2C506EF32D199"
@@ -1095,6 +1159,7 @@
 			dependencies: ["327D93798A7BE211"]
 			id: "0CE78F66E92FB026"
 			preset: "item"
+			quest_enhance_disable_scroll_paging: false
 			rewards: [
 				{
 					exclude_from_claim_all: true
@@ -1148,6 +1213,7 @@
 			dependencies: ["0CE78F66E92FB026"]
 			id: "512C813AEE3A5BCD"
 			preset: "item"
+			quest_enhance_disable_scroll_paging: false
 			rewards: [
 				{
 					exclude_from_claim_all: true
@@ -1179,6 +1245,7 @@
 			dependencies: ["427FD234857AEBE8"]
 			id: "593B80E42F663D6A"
 			preset: "item"
+			quest_enhance_disable_scroll_paging: false
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "724FFF24E6C97C1C"
@@ -1207,6 +1274,7 @@
 			]
 			id: "427FD234857AEBE8"
 			preset: "progression"
+			quest_enhance_disable_scroll_paging: false
 			rewards: [{
 				count: 10
 				exclude_from_claim_all: true
@@ -1233,6 +1301,7 @@
 			dependencies: ["327D93798A7BE211"]
 			id: "2E5DB4D84367E11B"
 			preset: "item"
+			quest_enhance_disable_scroll_paging: false
 			rewards: [
 				{
 					count: 20
@@ -1272,6 +1341,7 @@
 			dependencies: ["1698226644682207"]
 			id: "5FFDCF4E36648791"
 			preset: "item"
+			quest_enhance_disable_scroll_paging: false
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "39C5FB2595A62AA1"
@@ -1291,6 +1361,7 @@
 			dependencies: ["427FD234857AEBE8"]
 			id: "56D87707F4EA479B"
 			preset: "item"
+			quest_enhance_disable_scroll_paging: false
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "76EFCC1E6A4CF712"
@@ -1313,6 +1384,7 @@
 			dependencies: ["427FD234857AEBE8"]
 			id: "30CF344B2B4C22E8"
 			preset: "item"
+			quest_enhance_disable_scroll_paging: false
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "6F1384383DF4A5A1"
@@ -1335,6 +1407,7 @@
 			dependencies: ["30CF344B2B4C22E8"]
 			id: "12BD390D5D9BA40F"
 			preset: "item"
+			quest_enhance_disable_scroll_paging: false
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "1D815106D49B8CA1"
@@ -1358,6 +1431,7 @@
 			dependencies: ["182C1C3812C31B0B"]
 			id: "196ECF57CAC465DF"
 			preset: "locate"
+			quest_enhance_disable_scroll_paging: false
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "0059DC7F20ABA22C"
@@ -1384,6 +1458,7 @@
 			dependencies: ["4655801A35B3BAB2"]
 			id: "621ACA8319D6CB93"
 			preset: "item"
+			quest_enhance_disable_scroll_paging: false
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "1F9F846CA506CD0A"
@@ -1413,16 +1488,32 @@
 			]
 			id: "6BE389D26249D046"
 			preset: "milestone"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "7BDC144795A6B238"
-				is_ender: false
-				is_team_reward: false
-				table_id: 7328857662613080212L
-				target_addressee: "QuestNPC"
-				team_reward_multiplier: 1.0f
-				type: "contactquests:parcel_random"
-			}]
+			quest_enhance_disable_scroll_paging: false
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "7BDC144795A6B238"
+					is_ender: false
+					is_team_reward: false
+					table_id: 7328857662613080212L
+					target_addressee: "QuestNPC"
+					team_reward_multiplier: 1.0f
+					type: "contactquests:parcel_random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "43E43070C2F25E13"
+					is_ender: false
+					is_team_reward: false
+					item: {
+						count: 1
+						id: "enchanted:broom"
+					}
+					target_addressee: "QuestNPC"
+					team_reward_multiplier: 1.0f
+					type: "contactquests:parcel"
+				}
+			]
 			tasks: [
 				{
 					id: "7A616E24FCF406F6"
@@ -1435,13 +1526,14 @@
 					type: "item"
 				}
 			]
-			x: 12.75d
+			x: 12.0d
 			y: 3.75d
 		}
 		{
 			dependencies: ["4655801A35B3BAB2"]
 			id: "4183514EA291214A"
 			preset: "item"
+			quest_enhance_disable_scroll_paging: false
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "2BDC2384FCC94007"
@@ -1468,6 +1560,7 @@
 			dependencies: ["4655801A35B3BAB2"]
 			id: "37FCA731EEAB2C0D"
 			preset: "item"
+			quest_enhance_disable_scroll_paging: false
 			rewards: [
 				{
 					count: 4
@@ -1511,6 +1604,7 @@
 			dependencies: ["0C7EA86F283677BB"]
 			id: "794CACBA42AE1AB2"
 			preset: "progression"
+			quest_enhance_disable_scroll_paging: false
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "602A7DEAF89B29D7"
@@ -1537,6 +1631,7 @@
 			dependencies: ["182C1C3812C31B0B"]
 			id: "50DC32C40279EF48"
 			preset: "progression"
+			quest_enhance_disable_scroll_paging: false
 			rewards: [{
 				count: 4
 				id: "5537852B78F6DD29"
@@ -1557,6 +1652,7 @@
 		{
 			always_invisible: true
 			id: "61FE7F469313BD70"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "790177AAF707553D"
 				type: "custom"
@@ -1568,6 +1664,7 @@
 			dependencies: ["041330E9AC7E1769"]
 			id: "41A361B4DEFCEFA6"
 			preset: "item"
+			quest_enhance_disable_scroll_paging: false
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "71A485B8F4085D80"
@@ -1586,13 +1683,14 @@
 				item: { count: 1, id: "wetland_whimsy:basic_incense" }
 				type: "item"
 			}]
-			x: -6.5d
-			y: 17.0d
+			x: 30.5d
+			y: 15.5d
 		}
 		{
 			dependencies: ["0C7EA86F283677BB"]
 			id: "48D0F767CFD4070B"
 			preset: "progression"
+			quest_enhance_disable_scroll_paging: false
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "791A77FE729B20EC"
@@ -1615,6 +1713,7 @@
 			dependencies: ["33B84E3E74BE73B7"]
 			id: "0D9CF1E8881559EC"
 			preset: "progression"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "2EFBAA11B8EEB7E6"
 				item: { count: 1, id: "roots:runic_shears" }
@@ -1626,6 +1725,7 @@
 		{
 			id: "0C7EA86F283677BB"
 			preset: "start"
+			quest_enhance_disable_scroll_paging: false
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "1AF887FF364B1C77"
@@ -1644,6 +1744,7 @@
 			dependencies: ["0C7EA86F283677BB"]
 			id: "5B74E777CB3DF54B"
 			preset: "progression"
+			quest_enhance_disable_scroll_paging: false
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "40F661C10FFC7850"
@@ -1666,6 +1767,7 @@
 			dependencies: ["5B74E777CB3DF54B"]
 			id: "33B84E3E74BE73B7"
 			preset: "milestone"
+			quest_enhance_disable_scroll_paging: false
 			rewards: [{
 				count: 4
 				id: "6D1274044AB5ED47"
@@ -1694,6 +1796,7 @@
 			dependencies: ["5B74E777CB3DF54B"]
 			id: "37EB25189E81986C"
 			preset: "progression"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "3B453EE399A08E36"
 				item: { count: 1, id: "roots:pyre" }
@@ -1706,6 +1809,7 @@
 			dependencies: ["37EB25189E81986C"]
 			id: "3BA9CF40329DD0E4"
 			preset: "item"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [
 				{
 					id: "5AF9D8F1F0A06EF4"
@@ -1725,6 +1829,7 @@
 			dependencies: ["0D9CF1E8881559EC"]
 			id: "2FC90835997D3625"
 			preset: "item"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [
 				{
 					id: "442FD04084545FB8"
@@ -1744,6 +1849,7 @@
 			dependencies: ["37EB25189E81986C"]
 			id: "74CA9AD22F17F62E"
 			preset: "item"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [
 				{
 					id: "2EF4B0F63AF03A1B"
@@ -1770,26 +1876,10 @@
 			y: 18.0d
 		}
 		{
-			id: "2148B5338C91B771"
-			tasks: [
-				{
-					id: "58A0DF5DA46556EF"
-					item: { count: 1, id: "hexalia:spirit_bloom" }
-					type: "item"
-				}
-				{
-					id: "7B459B42054A68BE"
-					item: { count: 1, id: "hexalia:spirit_powder" }
-					type: "item"
-				}
-			]
-			x: -6.5d
-			y: 12.5d
-		}
-		{
 			dependencies: ["4655801A35B3BAB2"]
 			id: "184493C9F7227C64"
 			preset: "progression"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [
 				{
 					id: "5418C4A794CEAF75"
@@ -1849,6 +1939,7 @@
 			dependencies: ["24C19E2033095FFA"]
 			id: "0C72B71937E0F79F"
 			preset: "progression"
+			quest_enhance_disable_scroll_paging: false
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "0AA9731FF39D57DE"
@@ -1861,13 +1952,14 @@
 				item: { count: 1, id: "enchanted:mutandis" }
 				type: "item"
 			}]
-			x: 12.5d
+			x: 13.0d
 			y: -1.0d
 		}
 		{
 			dependencies: ["084BB53F414CF215"]
 			id: "232A634140B19B03"
 			preset: "milestone"
+			quest_enhance_disable_scroll_paging: false
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "0FD5DC9E4C376DE7"
@@ -1917,6 +2009,7 @@
 			dependencies: ["5B74E777CB3DF54B"]
 			id: "084BB53F414CF215"
 			preset: "progression"
+			quest_enhance_disable_scroll_paging: false
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "45CC765F07EA6393"
@@ -1933,18 +2026,20 @@
 		{
 			id: "61677A3CD82C15D6"
 			preset: "progression"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "39EF252560B620E3"
 				item: { count: 1, id: "enchanted:ember_moss" }
 				type: "item"
 			}]
-			x: -6.5d
-			y: 14.0d
+			x: 19.5d
+			y: 1.5d
 		}
 		{
 			dependencies: ["794CACBA42AE1AB2"]
 			id: "546DF8992DABB86A"
 			preset: "item"
+			quest_enhance_disable_scroll_paging: false
 			rewards: [
 				{
 					count: 3
@@ -1980,56 +2075,57 @@
 			y: 14.0d
 		}
 		{
-			dependencies: ["794CACBA42AE1AB2"]
+			dependencies: ["7C44602D8680B3BB"]
 			id: "25EF8B31172278DA"
 			preset: "progression"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "706367E4862D6700"
 				item: { count: 1, id: "hexalia:ritual_brazier" }
 				type: "item"
 			}]
-			x: 0.0d
-			y: 15.5d
+			x: 18.5d
+			y: -2.0d
 		}
 		{
 			id: "0E7E3853C02CE06C"
 			preset: "item"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "0372F22620A6684B"
 				item: { count: 1, id: "hexalia:censer" }
 				type: "item"
 			}]
-			x: -6.5d
-			y: 11.0d
+			x: 16.5d
+			y: 1.5d
 		}
 		{
-			dependencies: ["0D51CFD77E404109"]
+			dependencies: ["16E1276D35BDE7D5"]
 			id: "18D433FB887CE31B"
-			preset: "progression"
+			preset: "completion"
+			quest_enhance_disable_scroll_paging: false
 			rewards: [{
 				exclude_from_claim_all: true
-				id: "36AF66BE62BDD49E"
+				id: "454F017CE5F126CC"
 				is_ender: false
 				is_team_reward: false
-				item: {
-					count: 1
-					id: "enchanted:poppet"
-				}
+				table_id: 7328857662613080212L
 				target_addressee: "QuestNPC"
 				team_reward_multiplier: 1.0f
-				type: "contactquests:parcel"
+				type: "contactquests:parcel_random"
 			}]
 			tasks: [{
 				id: "7B032D53F9A9CACD"
 				item: { count: 1, id: "enchanted:poppet_shelf" }
 				type: "item"
 			}]
-			x: 10.0d
-			y: 4.5d
+			x: 34.0d
+			y: 8.0d
 		}
 		{
 			id: "041330E9AC7E1769"
 			preset: "locate"
+			quest_enhance_disable_scroll_paging: false
 			rewards: [{
 				count: 2
 				exclude_from_claim_all: true
@@ -2052,12 +2148,13 @@
 				structure: "wetland_whimsy:swamp_dungeon"
 				type: "structure"
 			}]
-			x: -6.5d
+			x: 29.0d
 			y: 15.5d
 		}
 		{
 			dependencies: ["48D0F767CFD4070B"]
 			id: "010D5F21ACF6C3D0"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "4814450078D3D847"
 				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(fabled_wylds:roots_spells)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
@@ -2070,6 +2167,7 @@
 			dependencies: ["68360A5DB4102013"]
 			id: "0D51CFD77E404109"
 			preset: "progression"
+			quest_enhance_disable_scroll_paging: false
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "4B07008DC5E406F7"
@@ -2095,6 +2193,7 @@
 			dependencies: ["2B1B9108FF7A3FB3"]
 			id: "68360A5DB4102013"
 			preset: "progression"
+			quest_enhance_disable_scroll_paging: false
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "76A649B2E744EEC3"
@@ -2120,6 +2219,7 @@
 			dependencies: ["0D51CFD77E404109"]
 			id: "747EC7F313519A0F"
 			preset: "progression"
+			quest_enhance_disable_scroll_paging: false
 			rewards: [{
 				count: 4
 				exclude_from_claim_all: true
@@ -2146,6 +2246,7 @@
 			dependencies: ["747EC7F313519A0F"]
 			id: "6605ED243F07A169"
 			preset: "progression"
+			quest_enhance_disable_scroll_paging: false
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "751759632B2D5D11"
@@ -2171,8 +2272,463 @@
 					type: "item"
 				}
 			]
-			x: 12.5d
+			x: 10.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["68360A5DB4102013"]
+			id: "0A8AD22B188FA65B"
+			preset: "item"
+			quest_enhance_disable_scroll_paging: false
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "7426E05F699BE20D"
+					is_ender: false
+					is_team_reward: false
+					table_id: 7328857662613080212L
+					target_addressee: "QuestNPC"
+					team_reward_multiplier: 1.0f
+					type: "contactquests:parcel_random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "735A66A0ED0443BA"
+					is_ender: false
+					is_team_reward: false
+					item: {
+						count: 1
+						id: "enchanted:fume_funnel"
+					}
+					target_addressee: "QuestNPC"
+					team_reward_multiplier: 1.0f
+					type: "contactquests:parcel"
+				}
+			]
+			tasks: [{
+				id: "36514B9081C104B7"
+				item: { count: 1, id: "enchanted:fume_funnel" }
+				type: "item"
+			}]
+			x: 7.0d
+			y: 6.0d
+		}
+		{
+			id: "7565DBC1E7DFF142"
+			preset: "start"
+			quest_enhance_disable_scroll_paging: false
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "6184CA504B54AE91"
+					is_ender: false
+					is_team_reward: false
+					item: {
+						count: 1
+						id: "enchanted:taglock_kit"
+					}
+					target_addressee: "QuestNPC"
+					team_reward_multiplier: 1.0f
+					type: "contactquests:parcel"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "48EC1AE645FE8ACE"
+					is_ender: false
+					is_team_reward: false
+					table_id: 5770973074849872376L
+					target_addressee: "QuestNPC"
+					team_reward_multiplier: 1.0f
+					type: "contactquests:parcel_random"
+				}
+			]
+			tasks: [{
+				id: "25BF67CDFE0991BD"
+				item: { count: 1, id: "enchanted:taglock_kit" }
+				type: "item"
+			}]
+			x: 29.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["7565DBC1E7DFF142"]
+			id: "7EE0905786616EA8"
+			preset: "progression"
+			quest_enhance_disable_scroll_paging: false
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "3ED510036FAE8634"
+					is_ender: false
+					is_team_reward: false
+					item: {
+						count: 1
+						id: "enchanted:poppet"
+					}
+					target_addressee: "QuestNPC"
+					team_reward_multiplier: 1.0f
+					type: "contactquests:parcel"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2534392CC8758D57"
+					is_ender: false
+					is_team_reward: false
+					item: {
+						count: 1
+						id: "enchanted:hint_of_rebirth"
+					}
+					target_addressee: "QuestNPC"
+					team_reward_multiplier: 1.0f
+					type: "contactquests:parcel"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "04315103E420FB4A"
+					is_ender: false
+					is_team_reward: false
+					table_id: 5770973074849872376L
+					target_addressee: "QuestNPC"
+					team_reward_multiplier: 1.0f
+					type: "contactquests:parcel_random"
+				}
+			]
+			tasks: [{
+				id: "343492F4CBC0C14F"
+				item: { count: 1, id: "enchanted:poppet" }
+				type: "item"
+			}]
+			x: 31.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["7565DBC1E7DFF142"]
+			id: "2AD594A3F740B338"
+			preset: "item"
+			quest_enhance_disable_scroll_paging: false
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "59E1B5AD2F1A606D"
+					is_ender: false
+					is_team_reward: false
+					item: {
+						count: 1
+						id: "hexalia:silk_idol"
+					}
+					target_addressee: "QuestNPC"
+					team_reward_multiplier: 1.0f
+					type: "contactquests:parcel"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "396563BEB1FDC0BA"
+					is_ender: false
+					is_team_reward: false
+					table_id: 5770973074849872376L
+					target_addressee: "QuestNPC"
+					team_reward_multiplier: 1.0f
+					type: "contactquests:parcel_random"
+				}
+			]
+			tasks: [{
+				id: "2A00552A7371D175"
+				item: { count: 1, id: "hexalia:silk_idol" }
+				type: "item"
+			}]
+			x: 29.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["7EE0905786616EA8"]
+			id: "4BD1E1D3ABC4BEE8"
+			preset: "progression"
+			quest_enhance_disable_scroll_paging: false
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "720B6043977E5FC3"
+				is_ender: false
+				is_team_reward: false
+				table_id: 5770973074849872376L
+				target_addressee: "QuestNPC"
+				team_reward_multiplier: 1.0f
+				type: "contactquests:parcel_random"
+			}]
+			tasks: [{
+				id: "34183DAE9A0AC0BD"
+				item: { count: 1, id: "enchanted:armour_poppet" }
+				type: "item"
+			}]
+			x: 32.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["4BD1E1D3ABC4BEE8"]
+			id: "16E1276D35BDE7D5"
+			preset: "progression"
+			quest_enhance_disable_scroll_paging: false
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "6561C3A15322CB2C"
+					is_ender: false
+					is_team_reward: false
+					item: {
+						count: 1
+						id: "minecraft:green_wool"
+					}
+					target_addressee: "QuestNPC"
+					team_reward_multiplier: 1.0f
+					type: "contactquests:parcel"
+				}
+				{
+					count: 4
+					exclude_from_claim_all: true
+					id: "284D3665821A1B84"
+					is_ender: false
+					is_team_reward: false
+					item: {
+						count: 1
+						id: "minecraft:dark_oak_planks"
+					}
+					target_addressee: "QuestNPC"
+					team_reward_multiplier: 1.0f
+					type: "contactquests:parcel"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "349B3C5BDD1434EB"
+					is_ender: false
+					is_team_reward: false
+					table_id: 5770973074849872376L
+					target_addressee: "QuestNPC"
+					team_reward_multiplier: 1.0f
+					type: "contactquests:parcel_random"
+				}
+			]
+			tasks: [{
+				hand_mode: "MAIN_HAND"
+				id: "1BAFBA0433BF27C2"
+				item: { count: 1, id: "enchanted:armour_poppet" }
+				type: "use_item"
+				value: 1L
+			}]
+			x: 34.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["4BD1E1D3ABC4BEE8"]
+			id: "717CF92CE4A34A5F"
+			preset: "item"
+			quest_enhance_disable_scroll_paging: false
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "00AB2EB0F199ADFF"
+				is_ender: false
+				is_team_reward: false
+				table_id: 7159471207534106979L
+				target_addressee: "QuestNPC"
+				team_reward_multiplier: 1.0f
+				type: "contactquests:parcel_random"
+			}]
+			tasks: [{
+				id: "0356CE41FCE38AA4"
+				item: { count: 1, id: "enchanted:voodoo_poppet" }
+				type: "item"
+			}]
+			x: 31.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["6BE389D26249D046"]
+			id: "38692155327FDE4B"
+			preset: "item"
+			quest_enhance_disable_scroll_paging: false
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1256CE65A76C6FC4"
+				is_ender: false
+				is_team_reward: false
+				item: {
+					count: 1
+					id: "enchanted:circle_talisman"
+				}
+				target_addressee: "QuestNPC"
+				team_reward_multiplier: 1.0f
+				type: "contactquests:parcel"
+			}]
+			tasks: [{
+				id: "119CAB4C97407A17"
+				item: { count: 1, id: "enchanted:circle_talisman" }
+				type: "item"
+			}]
+			x: 10.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["6BE389D26249D046"]
+			id: "238028A4423EAF3F"
+			preset: "progression"
+			quest_enhance_disable_scroll_paging: false
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5A07E55F8A88F100"
+				is_ender: false
+				is_team_reward: false
+				item: {
+					count: 1
+					id: "enchanted:nether_chalk"
+				}
+				target_addressee: "QuestNPC"
+				team_reward_multiplier: 1.0f
+				type: "contactquests:parcel"
+			}]
+			tasks: [{
+				id: "5F650FDFCEF6269E"
+				item: { count: 1, id: "enchanted:nether_chalk" }
+				type: "item"
+			}]
+			x: 13.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["6BE389D26249D046"]
+			id: "1641BFB24F43B94B"
+			preset: "progression"
+			quest_enhance_disable_scroll_paging: false
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "136D1359698CDBB7"
+				is_ender: false
+				is_team_reward: false
+				item: {
+					count: 1
+					id: "enchanted:otherwhere_chalk"
+				}
+				target_addressee: "QuestNPC"
+				team_reward_multiplier: 1.0f
+				type: "contactquests:parcel"
+			}]
+			tasks: [{
+				id: "429331C371BF15DD"
+				item: { count: 1, id: "enchanted:otherwhere_chalk" }
+				type: "item"
+			}]
+			x: 12.0d
 			y: 7.0d
+		}
+		{
+			id: "05B5DD9990917317"
+			quest_enhance_disable_scroll_paging: false
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "7CCFC33B3343B04D"
+					is_ender: false
+					is_team_reward: false
+					table_id: 6895470215093009548L
+					target_addressee: "QuestNPC"
+					team_reward_multiplier: 1.0f
+					type: "contactquests:parcel_random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "59201B3AF40C720F"
+					is_ender: false
+					is_team_reward: false
+					item: {
+						count: 1
+						id: "minecraft:ender_pearl"
+					}
+					target_addressee: "QuestNPC"
+					team_reward_multiplier: 1.0f
+					type: "contactquests:parcel"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "050AAC791F54D522"
+					is_ender: false
+					is_team_reward: false
+					item: {
+						count: 1
+						id: "minecraft:diamond"
+					}
+					target_addressee: "QuestNPC"
+					team_reward_multiplier: 1.0f
+					type: "contactquests:parcel"
+				}
+			]
+			tasks: [{
+				id: "5A515FC2E7ECF8DB"
+				item: { count: 1, id: "enchanted:waystone" }
+				type: "item"
+			}]
+			x: 7.0d
+			y: 12.5d
+		}
+		{
+			id: "7C44602D8680B3BB"
+			quest_enhance_disable_scroll_paging: false
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2163680013C58C98"
+				is_ender: false
+				is_team_reward: false
+				table_id: 7328857662613080212L
+				target_addressee: "QuestNPC"
+				team_reward_multiplier: 1.0f
+				type: "contactquests:parcel_random"
+			}]
+			tasks: [
+				{
+					id: "7638BD8052FF379A"
+					item: { count: 1, id: "hexalia:ritual_table" }
+					type: "item"
+				}
+				{
+					id: "05F414380E1A4143"
+					item: { count: 1, id: "hexalia:hex_focus" }
+					type: "item"
+				}
+			]
+			x: 17.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["25EF8B31172278DA"]
+			id: "2D0CDD91CFAA0937"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "2D7D178819E464DA"
+				item: { count: 1, id: "hexalia:fragrant_nectar" }
+				type: "item"
+			}]
+			x: 21.0d
+			y: -1.5d
+		}
+		{
+			id: "0C0EB5F8CF5970B2"
+			quest_enhance_disable_scroll_paging: false
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "34CE2D2449D9A832"
+				is_ender: false
+				is_team_reward: false
+				item: {
+					count: 1
+					id: "hexalia:heartseed"
+				}
+				target_addressee: "QuestNPC"
+				team_reward_multiplier: 1.0f
+				type: "contactquests:parcel"
+			}]
+			tasks: [{
+				id: "7A09C92D95A4D89F"
+				item: { count: 1, id: "hexalia:heartseed" }
+				type: "item"
+			}]
+			x: 21.0d
+			y: -3.5d
 		}
 	]
 }

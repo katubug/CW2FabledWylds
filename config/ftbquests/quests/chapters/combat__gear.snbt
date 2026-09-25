@@ -16,6 +16,7 @@
 			id: "4275D36ECD0AD521"
 			image: "fabled_wylds:textures/questui/bookbgslg/cyan_book_lg.png"
 			order: -5
+			quest_enhance_exclude_from_box_selection: 0b
 			rotation: 0.0d
 			width: 25.0d
 			x: 11.0d
@@ -27,6 +28,7 @@
 			height: 0.6509339450527075d
 			id: "22E9D8745A6BB704"
 			image: ""
+			quest_enhance_exclude_from_box_selection: 0b
 			rotation: 0.0d
 			width: 4.3198343626225135d
 			x: 6.0d
@@ -38,6 +40,7 @@
 			height: 0.6509339450527075d
 			id: "74E0D5F284083963"
 			image: ""
+			quest_enhance_exclude_from_box_selection: 0b
 			rotation: 0.0d
 			width: 4.3198343626225135d
 			x: 16.0d
@@ -49,6 +52,7 @@
 			height: 0.6509339450527075d
 			id: "6631975FAC9CF79E"
 			image: ""
+			quest_enhance_exclude_from_box_selection: 0b
 			rotation: 0.0d
 			width: 4.3198343626225135d
 			x: 6.0d
@@ -60,6 +64,7 @@
 			height: 0.6509339450527075d
 			id: "127FD4FE67E2CCE1"
 			image: ""
+			quest_enhance_exclude_from_box_selection: 0b
 			rotation: 0.0d
 			width: 4.3198343626225135d
 			x: 16.0d
@@ -74,6 +79,7 @@
 		{
 			id: "0AF3D2A62E51E5B2"
 			preset: "advancement"
+			quest_enhance_disable_scroll_paging: false
 			rewards: [{
 				count: 3
 				exclude_from_claim_all: true
@@ -101,6 +107,7 @@
 		{
 			id: "306EAF9F6F78ACC1"
 			preset: "item"
+			quest_enhance_disable_scroll_paging: false
 			rewards: [
 				{
 					exclude_from_claim_all: true
@@ -153,6 +160,7 @@
 		{
 			id: "6C413B091C8DBE2A"
 			preset: "item"
+			quest_enhance_disable_scroll_paging: false
 			rewards: [
 				{
 					exclude_from_claim_all: true
@@ -205,6 +213,7 @@
 		{
 			id: "78311C38AC02A32C"
 			preset: "item"
+			quest_enhance_disable_scroll_paging: false
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "136EB8BF33805067"
@@ -249,6 +258,7 @@
 		{
 			id: "3B1C91A3CD3EC221"
 			preset: "item"
+			quest_enhance_disable_scroll_paging: false
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "043BAFB961EC4E7B"
@@ -283,6 +293,7 @@
 		{
 			id: "29A6066615C12448"
 			preset: "item"
+			quest_enhance_disable_scroll_paging: false
 			rewards: [{
 				count: 4
 				id: "2E19F4E374E18EE9"
@@ -321,6 +332,7 @@
 		{
 			id: "66BFC51EB4E7FDFB"
 			preset: "item"
+			quest_enhance_disable_scroll_paging: false
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "4376A91073551C5E"
@@ -344,6 +356,7 @@
 			dependencies: ["66BFC51EB4E7FDFB"]
 			id: "5107C3DE453627D5"
 			preset: "item"
+			quest_enhance_disable_scroll_paging: false
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "1A2C05D1713D1D78"
@@ -367,6 +380,7 @@
 			always_invisible: true
 			id: "5161948053596F24"
 			invisible: true
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "66941885C2651754"
 				type: "custom"
@@ -377,6 +391,7 @@
 		{
 			id: "33CFB64E32F26FC0"
 			preset: "item"
+			quest_enhance_disable_scroll_paging: false
 			rewards: [
 				{
 					id: "49012E06BB1EB89C"
@@ -433,6 +448,7 @@
 		{
 			id: "2F6C2F4DD36AE5E7"
 			preset: "item"
+			quest_enhance_disable_scroll_paging: false
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "42CF761E4546C107"
@@ -466,6 +482,7 @@
 		{
 			id: "4918B7871C3246B4"
 			preset: "item"
+			quest_enhance_disable_scroll_paging: false
 			rewards: [
 				{
 					exclude_from_claim_all: true
@@ -510,6 +527,7 @@
 		{
 			id: "512561271D178D2D"
 			preset: "item"
+			quest_enhance_disable_scroll_paging: false
 			rewards: [
 				{
 					exclude_from_claim_all: true
@@ -553,6 +571,7 @@
 		{
 			id: "6CD94FF2310068FE"
 			preset: "item"
+			quest_enhance_disable_scroll_paging: false
 			shape: "hexagon"
 			tasks: [{
 				id: "25F5B0E3C7679E27"
@@ -565,6 +584,7 @@
 		{
 			id: "0323243BE6D015C7"
 			preset: "item"
+			quest_enhance_disable_scroll_paging: false
 			shape: "hexagon"
 			tasks: [{
 				id: "6669EF98E54CE5AD"
@@ -578,6 +598,7 @@
 			dependencies: ["0323243BE6D015C7"]
 			id: "230F870FB86A18B6"
 			preset: "item"
+			quest_enhance_disable_scroll_paging: false
 			shape: "hexagon"
 			tasks: [{
 				id: "663A12DFC8EE8F64"
@@ -591,6 +612,7 @@
 			dependencies: ["50DC32C40279EF48"]
 			id: "61101043D3A5BB43"
 			preset: "start"
+			quest_enhance_disable_scroll_paging: false
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "23C09DA6C028AC3D"
@@ -620,6 +642,7 @@
 		{
 			id: "7126D9210A7E072C"
 			preset: "item"
+			quest_enhance_disable_scroll_paging: false
 			rewards: [
 				{
 					count: 4

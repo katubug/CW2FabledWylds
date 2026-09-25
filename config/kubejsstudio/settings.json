@@ -31,7 +31,7 @@
   "reviewBeforeApply": true,
   "autoReloadAfterApply": true,
   "backupBeforeWrite": true,
-  "formatOnSave": false,
+  "formatOnSave": true,
   "previewTabs": true,
   "restoreSession": true,
   "keepWorkspace": true,

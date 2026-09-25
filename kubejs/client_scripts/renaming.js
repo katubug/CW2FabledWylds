@@ -88,5 +88,7 @@ ClientEvents.lang("en_us", event => {
 	event.renameItem('seamsandstitches:needle', 'Sewing Needle')
 	event.renameItem('tombstone:bone_needle', 'idk')
 	event.renameItem('enchanted:gypsum', 'Ghost Gypsum')
+	event.renameItem('enchanted:bone_needle', 'Simple Bone Needle')
+	event.renameItem('tombstone:bone_needle', 'Fancy Bone Needle')
 
 })

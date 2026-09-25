@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "minecraft:glass_bottle"
+    },
+    {
+      "tag": "fabled_wylds:bone_needles"
+    }
+  ],
+  "result": {
+    "id": "enchanted:taglock_kit",
+    "count": 1
+  }
+}

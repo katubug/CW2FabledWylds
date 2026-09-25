@@ -3,7 +3,7 @@
   "category": "equipment",
   "ingredients": [
     {
-      "item": "hearthandharvest:salt"
+      "tag": "c:dusts/salt"
     },
     {
       "item": "hexalia:lotus_blossom"

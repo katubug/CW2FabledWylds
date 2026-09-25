@@ -41,4 +41,7 @@ ServerEvents.tags('block', event => {
 		event.add('amendments:cauldron_heat_source', block);
 		event.add('hexerei:heat_sources', block);
 	}
+
+	//Waystones need a Netherite pickaxe to break
+	event.add('neoforge:needs_netherite_tool', '#waystones:waystones')
 })

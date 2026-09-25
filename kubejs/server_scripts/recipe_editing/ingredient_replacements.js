@@ -60,7 +60,6 @@ ServerEvents.recipes(event => {
 	'crittersandcompanions:acorn',
 	'#fabled_wylds:acorns')
 
-	
 
 	//flour 2
 	event.replaceInput({
@@ -179,6 +178,14 @@ ServerEvents.recipes(event => {
 		},
 		'#c:eggs',
 		'#c:cooking_eggs'
+	)
+
+	//salt
+	event.replaceInput({
+			input: '#hearthandharvest:salt'
+		},
+		'#hearthandharvest:salt',
+		'#c:dusts/salt'
 	)
 
 

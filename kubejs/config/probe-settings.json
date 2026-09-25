@@ -4,6 +4,11 @@
     "probejs.modHash": -7732770407472997379,
     "probejs.newGame": false,
     "probejs.hintsForLLM": true,
-    "probejs.fullScanMods": [],
+    "probejs.fullScanMods": [
+        "hexalia",
+        "enchanted",
+        "hexerei",
+        "roots"
+    ],
     "probejs.reset": true
 }

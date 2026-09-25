@@ -14,6 +14,7 @@
 			id: "3754ECC9942EEAC2"
 			image: "fabled_wylds:textures/questui/bookbgs/pink_book.png"
 			order: -1
+			quest_enhance_exclude_from_box_selection: 0b
 			rotation: 0.0d
 			width: 20.0d
 			x: 0.0d
@@ -24,6 +25,7 @@
 			height: 2.5d
 			id: "465DC4A6030DCBE3"
 			image: "fabled_wylds:textures/questui/titles/collections.png"
+			quest_enhance_exclude_from_box_selection: 0b
 			rotation: 0.0d
 			width: 9.0d
 			x: -3.8d
@@ -35,6 +37,7 @@
 			height: 0.4583333333333333d
 			id: "072E27DCA62A18F5"
 			image: ""
+			quest_enhance_exclude_from_box_selection: 0b
 			rotation: 0.0d
 			width: 3.6666666666666665d
 			x: 4.0d
@@ -49,6 +52,7 @@
 		{
 			id: "7C3C2D24D60C6C1F"
 			preset: "item"
+			quest_enhance_disable_scroll_paging: false
 			rewards: [
 				{
 					exclude_from_claim_all: true
@@ -147,6 +151,7 @@
 		{
 			id: "7E9C70F7B0CFD820"
 			preset: "item"
+			quest_enhance_disable_scroll_paging: false
 			rewards: [
 				{
 					id: "4F13530A54DDB6CB"
@@ -218,6 +223,7 @@
 		{
 			id: "1FD157BDA5AF3BE9"
 			preset: "item"
+			quest_enhance_disable_scroll_paging: false
 			rewards: [
 				{
 					id: "43F9EA89E7A7A7CA"
@@ -350,6 +356,7 @@
 		{
 			id: "40BBDD8D814A55C1"
 			preset: "item"
+			quest_enhance_disable_scroll_paging: false
 			rewards: [
 				{
 					id: "157334951D384948"
@@ -412,6 +419,7 @@
 		{
 			id: "56F3B965C1198BE9"
 			preset: "item"
+			quest_enhance_disable_scroll_paging: false
 			rewards: [
 				{
 					exclude_from_claim_all: true
@@ -450,6 +458,7 @@
 		{
 			id: "5435D7182F5A0C8D"
 			preset: "item"
+			quest_enhance_disable_scroll_paging: false
 			rewards: [
 				{
 					exclude_from_claim_all: true
@@ -553,6 +562,7 @@
 		{
 			id: "290D8441BBC918A1"
 			preset: "item"
+			quest_enhance_disable_scroll_paging: false
 			rewards: [
 				{
 					id: "7DA76ECFC213F2E1"
@@ -665,6 +675,7 @@
 		{
 			id: "692725454B955B4C"
 			preset: "item"
+			quest_enhance_disable_scroll_paging: false
 			rewards: [
 				{
 					id: "74684E8AE902E936"
@@ -782,6 +793,7 @@
 		{
 			id: "04973320B5F27BD7"
 			preset: "item"
+			quest_enhance_disable_scroll_paging: false
 			rewards: [
 				{
 					id: "181F0311EA162994"
@@ -899,6 +911,7 @@
 		{
 			id: "6B3AD3CDE8EC90F1"
 			preset: "item"
+			quest_enhance_disable_scroll_paging: false
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "7B1C167DD2407442"
@@ -1004,6 +1017,7 @@
 		{
 			id: "3F5F93D7191952F9"
 			preset: "item"
+			quest_enhance_disable_scroll_paging: false
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "3175F3B26083133C"
@@ -1099,6 +1113,7 @@
 		{
 			id: "75AD4BD901CEA061"
 			preset: "advancement"
+			quest_enhance_disable_scroll_paging: false
 			rewards: [
 				{
 					exclude_from_claim_all: true
@@ -1154,6 +1169,7 @@
 			id: "2DDA757CE80078C3"
 			invisible: true
 			progression_mode: "linear"
+			quest_enhance_disable_scroll_paging: false
 			rewards: [
 				{
 					id: "6D05B3B2A8A464A0"
@@ -1187,6 +1203,7 @@
 		{
 			id: "401E8078C11F8919"
 			preset: "advancement"
+			quest_enhance_disable_scroll_paging: false
 			rewards: [
 				{
 					exclude_from_claim_all: true
@@ -1220,6 +1237,7 @@
 		{
 			id: "3ADA19F1E7F84DD6"
 			invisible: true
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "338162A77BEB9EA3"
 				item: { count: 1, id: "ftbquests:barrier" }
@@ -1231,6 +1249,7 @@
 		{
 			id: "7DB8FFF48188EC9C"
 			preset: "item"
+			quest_enhance_disable_scroll_paging: false
 			shape: "hexagon"
 			tasks: [
 				{
@@ -1260,6 +1279,7 @@
 		{
 			id: "0191F41344B7250D"
 			preset: "item"
+			quest_enhance_disable_scroll_paging: false
 			rewards: [
 				{
 					exclude_from_claim_all: true
@@ -1380,6 +1400,7 @@
 		{
 			id: "755902F379AFB989"
 			preset: "item"
+			quest_enhance_disable_scroll_paging: false
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "6BBF980D24FA64BF"
@@ -1420,6 +1441,7 @@
 		{
 			id: "0DC28A267878E6E1"
 			preset: "item"
+			quest_enhance_disable_scroll_paging: false
 			rewards: [
 				{
 					id: "73556AE457A60D3C"

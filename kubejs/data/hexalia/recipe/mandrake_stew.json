@@ -1,7 +1,8 @@
 {
   "type": "farmersdelight:cooking",
   "container": {
-    "item": "minecraft:bowl"
+    "count": 1,
+    "id": "minecraft:bowl"
   },
   "cookingtime": 200,
   "experience": 0.1,
@@ -23,6 +24,6 @@
     }
   ],
   "result": {
-    "item": "hexalia:mandrake_stew"
+    "id": "hexalia:mandrake_stew"
   }
 }

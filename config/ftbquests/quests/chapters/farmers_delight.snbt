@@ -14,6 +14,7 @@
 			height: 20.0d
 			id: "5700CA918D4E3393"
 			image: "fabled_wylds:textures/questui/bookbgslg/green_book_lg.png"
+			quest_enhance_exclude_from_box_selection: 0b
 			rotation: 0.0d
 			width: 25.0d
 			x: 1.7763568394002505E-15d
@@ -24,6 +25,7 @@
 			height: 5.0d
 			id: "2BF4735B9CC34162"
 			image: "fabled_wylds:textures/questui/illustrations/farm_icon.png"
+			quest_enhance_exclude_from_box_selection: 0b
 			rotation: 0.0d
 			width: 5.0d
 			x: 7.300000000000001d
@@ -35,6 +37,7 @@
 			height: 2.5d
 			id: "6B8B8253E602A0F2"
 			image: "fabled_wylds:textures/questui/titles/farminggardening.png"
+			quest_enhance_exclude_from_box_selection: 0b
 			rotation: 0.0d
 			width: 9.0d
 			x: -5.0d
@@ -46,6 +49,7 @@
 			height: 0.4583333333333333d
 			id: "3B7A5D21B9324EAF"
 			image: ""
+			quest_enhance_exclude_from_box_selection: 0b
 			rotation: 0.0d
 			width: 3.6666666666666665d
 			x: -5.0d
@@ -57,6 +61,7 @@
 			height: 0.4583333333333333d
 			id: "7289DCC9A5656155"
 			image: ""
+			quest_enhance_exclude_from_box_selection: 0b
 			rotation: 0.0d
 			width: 3.5833333333333335d
 			x: 5.0d
@@ -68,6 +73,7 @@
 			height: 0.4583333333333333d
 			id: "4E9AAB20B90A7E75"
 			image: ""
+			quest_enhance_exclude_from_box_selection: 0b
 			rotation: 0.0d
 			width: 3.5833333333333335d
 			x: 5.5d
@@ -82,6 +88,7 @@
 		{
 			id: "4930ECD60EA9ED8D"
 			preset: "start"
+			quest_enhance_disable_scroll_paging: false
 			rewards: [{
 				count: 5
 				exclude_from_claim_all: true
@@ -110,6 +117,7 @@
 			dependencies: ["4930ECD60EA9ED8D"]
 			id: "435BD760D0F2E010"
 			preset: "item"
+			quest_enhance_disable_scroll_paging: false
 			rewards: [
 				{
 					id: "236914FF02083F47"
@@ -140,6 +148,7 @@
 		{
 			id: "3AE0F1C1159FBDDE"
 			preset: "item"
+			quest_enhance_disable_scroll_paging: false
 			rewards: [{
 				id: "66F2801F9DFA05AC"
 				item: {
@@ -161,6 +170,7 @@
 			dependencies: ["3AE0F1C1159FBDDE"]
 			id: "548376041885F6D1"
 			preset: "item"
+			quest_enhance_disable_scroll_paging: false
 			shape: "hexagon"
 			tasks: [{
 				id: "7B4B34EE649076A3"
@@ -174,6 +184,7 @@
 			dependencies: ["3AE0F1C1159FBDDE"]
 			id: "141887F26E89BAE8"
 			preset: "item"
+			quest_enhance_disable_scroll_paging: false
 			shape: "hexagon"
 			tasks: [{
 				id: "45328BF090DF76BC"
@@ -186,6 +197,7 @@
 		{
 			id: "0545DF70043D964A"
 			preset: "item"
+			quest_enhance_disable_scroll_paging: false
 			shape: "hexagon"
 			tasks: [
 				{
@@ -236,6 +248,7 @@
 			dependencies: ["4930ECD60EA9ED8D"]
 			id: "2CA80140F624D0AE"
 			preset: "progression"
+			quest_enhance_disable_scroll_paging: false
 			rewards: [
 				{
 					id: "736FE23D7911A48C"
@@ -293,6 +306,7 @@
 		{
 			id: "3D221ECD9106F792"
 			preset: "item"
+			quest_enhance_disable_scroll_paging: false
 			rewards: [{
 				count: 3
 				exclude_from_claim_all: true
@@ -319,6 +333,7 @@
 		{
 			id: "2186A6F69ADBE795"
 			preset: "advancement"
+			quest_enhance_disable_scroll_paging: false
 			rewards: [
 				{
 					exclude_from_claim_all: true
@@ -354,6 +369,7 @@
 			can_repeat: true
 			id: "6630D27FC9E3F285"
 			preset: "turnin"
+			quest_enhance_disable_scroll_paging: false
 			rewards: [
 				{
 					id: "4695B14C75D256F2"
@@ -437,6 +453,7 @@
 		{
 			id: "2973338AB622C5D6"
 			preset: "item"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [
 				{
 					id: "075F95D4BAE955E3"
@@ -465,6 +482,7 @@
 		{
 			id: "60445E736AE3B5B4"
 			preset: "item"
+			quest_enhance_disable_scroll_paging: false
 			rewards: [
 				{
 					exclude_from_claim_all: true
@@ -493,6 +511,7 @@
 		{
 			id: "7814F0DBA486B635"
 			invisible: true
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "396A910D8629D953"
 				item: { count: 1, id: "ftbquests:barrier" }
@@ -505,6 +524,7 @@
 			dependencies: ["2973338AB622C5D6"]
 			id: "148F84D7DB06E5D1"
 			preset: "completion"
+			quest_enhance_disable_scroll_paging: false
 			rewards: [
 				{
 					exclude_from_claim_all: true
@@ -529,6 +549,7 @@
 		{
 			id: "264135E887281098"
 			preset: "item"
+			quest_enhance_disable_scroll_paging: false
 			shape: "hexagon"
 			tasks: [{
 				id: "7C7F27E7BEBD63C6"
@@ -542,6 +563,7 @@
 			dependencies: ["4930ECD60EA9ED8D"]
 			id: "2093240CD42882CF"
 			preset: "progression"
+			quest_enhance_disable_scroll_paging: false
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "044C7CDE7FDADAE3"
@@ -663,6 +685,7 @@
 			dependencies: ["2093240CD42882CF"]
 			id: "3D99932B0EAFD2DA"
 			preset: "progression"
+			quest_enhance_disable_scroll_paging: false
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "1E3847E0B1E6D532"
@@ -691,6 +714,7 @@
 		{
 			id: "0C66306B20F7844C"
 			preset: "item"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [
 				{
 					id: "008EB7C7C7153543"
@@ -724,6 +748,7 @@
 		{
 			id: "0496A62983DE2ABB"
 			preset: "item"
+			quest_enhance_disable_scroll_paging: false
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "1B8BED2472A07B44"
@@ -767,6 +792,7 @@
 		{
 			id: "057C8372ED1CBDC0"
 			preset: "item"
+			quest_enhance_disable_scroll_paging: false
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "73A06ECDAEC48613"
@@ -815,6 +841,7 @@
 		{
 			id: "2A171EE16DA22152"
 			preset: "item"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [
 				{
 					id: "235A587BF876B440"
@@ -833,6 +860,7 @@
 		{
 			id: "3E8BB82A228A4727"
 			preset: "item"
+			quest_enhance_disable_scroll_paging: false
 			rewards: [
 				{
 					id: "630A1AF82F87897D"
@@ -885,6 +913,7 @@
 		{
 			id: "134ACEA76F0200AD"
 			preset: "item"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [
 				{
 					id: "78BF784BF40796CA"
@@ -934,6 +963,7 @@
 			dependencies: ["6857BD808A4B27C8"]
 			id: "17B0994740977E5A"
 			preset: "item"
+			quest_enhance_disable_scroll_paging: false
 			rewards: [
 				{
 					exclude_from_claim_all: true
@@ -971,6 +1001,7 @@
 			dependencies: ["18B7D6B02C97FF23"]
 			id: "396C5F4A97427E6C"
 			preset: "progression"
+			quest_enhance_disable_scroll_paging: false
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "123BF1947B12D9F3"
@@ -993,6 +1024,7 @@
 			dependencies: ["2CA80140F624D0AE"]
 			id: "18B7D6B02C97FF23"
 			preset: "item"
+			quest_enhance_disable_scroll_paging: false
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "3FBB4E8E34809094"
@@ -1022,6 +1054,7 @@
 			dependencies: ["18B7D6B02C97FF23"]
 			id: "6A89D2D688203ADF"
 			preset: "milestone"
+			quest_enhance_disable_scroll_paging: false
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "63C922397B257803"
@@ -1046,6 +1079,7 @@
 		{
 			id: "620B4CA9685DD24B"
 			preset: "animal"
+			quest_enhance_disable_scroll_paging: false
 			rewards: [{
 				count: 2
 				id: "1DBD54B729B99F39"
@@ -1068,6 +1102,7 @@
 		{
 			id: "13245319C62A99BE"
 			preset: "animal"
+			quest_enhance_disable_scroll_paging: false
 			rewards: [{
 				count: 2
 				id: "52605567C9DD28CA"
@@ -1090,6 +1125,7 @@
 		{
 			id: "6857BD808A4B27C8"
 			preset: "animal"
+			quest_enhance_disable_scroll_paging: false
 			rewards: [{
 				count: 2
 				id: "732E11FBFC838501"
@@ -1112,6 +1148,7 @@
 		{
 			id: "1047D4A39AC597A8"
 			preset: "animal"
+			quest_enhance_disable_scroll_paging: false
 			rewards: [{
 				count: 2
 				id: "3F7D2413E6FADC34"
@@ -1134,6 +1171,7 @@
 		{
 			id: "2D137E6E0AD9F560"
 			preset: "animal"
+			quest_enhance_disable_scroll_paging: false
 			rewards: [{
 				count: 2
 				id: "5F870546132CFD60"
@@ -1157,6 +1195,7 @@
 			dependencies: ["2D137E6E0AD9F560"]
 			id: "306F92E6F0BF8F41"
 			preset: "animal"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				entity: "apple_cows:golden_apple_cow"
 				id: "02E5B64368905049"
@@ -1171,6 +1210,7 @@
 			dependencies: ["306F92E6F0BF8F41"]
 			id: "09F65F48E63E7667"
 			preset: "animal"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				entity: "apple_cows:enchanted_golden_apple_cow"
 				id: "6C590CEE57013A7D"

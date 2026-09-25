@@ -14,6 +14,7 @@
 			height: 10.0d
 			id: "5ADF9EC3388CF0FD"
 			image: "fabled_wylds:textures/questui/bgnetherdelight.png"
+			quest_enhance_exclude_from_box_selection: 0b
 			rotation: 0.0d
 			width: 10.0d
 			x: 0.0d
@@ -23,6 +24,7 @@
 			height: 20.0d
 			id: "396F59B7682844D2"
 			image: "fabled_wylds:textures/questui/bookbgslg/yellow_book_lg.png"
+			quest_enhance_exclude_from_box_selection: 0b
 			rotation: 0.0d
 			width: 25.0d
 			x: 1.7763568394002505E-15d
@@ -33,6 +35,7 @@
 			height: 2.5d
 			id: "721814101AA850EE"
 			image: "fabled_wylds:textures/questui/titles/culinaryarts.png"
+			quest_enhance_exclude_from_box_selection: 0b
 			rotation: 0.0d
 			width: 9.0d
 			x: -4.799999999999999d
@@ -44,6 +47,7 @@
 			id: "10B8948A58B5C28E"
 			image: "fabled_wylds:textures/questui/subtitles/bakery.png"
 			order: 99
+			quest_enhance_exclude_from_box_selection: 0b
 			rotation: 0.0d
 			width: 8.0d
 			x: 4.299999999999997d
@@ -55,6 +59,7 @@
 			id: "23693391BF96C09B"
 			image: "fabled_wylds:textures/questui/subtitles/cheesemaking.png"
 			order: 99
+			quest_enhance_exclude_from_box_selection: 0b
 			rotation: 0.0d
 			width: 8.0d
 			x: -4.900000000000002d
@@ -64,6 +69,7 @@
 			height: 17.0d
 			id: "01C81AE343A3D4C0"
 			image: "fabled_wylds:textures/questui/bookbgs/yellow_book.png"
+			quest_enhance_exclude_from_box_selection: 0b
 			rotation: 0.0d
 			width: 24.0d
 			x: -0.3000000000000007d
@@ -74,6 +80,7 @@
 			height: 5.0d
 			id: "617109488C94D974"
 			image: "fabled_wylds:textures/questui/illustrations/bakery_icon.png"
+			quest_enhance_exclude_from_box_selection: 0b
 			rotation: 0.0d
 			width: 5.0d
 			x: 2.3999999999999986d
@@ -83,6 +90,7 @@
 			height: 0.4d
 			id: "791CBEF8482C7F08"
 			image: ""
+			quest_enhance_exclude_from_box_selection: 0b
 			rotation: 0.0d
 			width: 0.4d
 			x: 0.0d
@@ -92,6 +100,7 @@
 			height: 0.4d
 			id: "5A9A9305F650982D"
 			image: ""
+			quest_enhance_exclude_from_box_selection: 0b
 			rotation: 0.0d
 			width: 0.4d
 			x: 7.0d
@@ -103,6 +112,7 @@
 			id: "4B80A1B98AEA4DC6"
 			image: "fabled_wylds:textures/questui/subtitles/teasundry.png"
 			order: 99
+			quest_enhance_exclude_from_box_selection: 0b
 			rotation: 0.0d
 			width: 8.0d
 			x: 5.0d
@@ -114,6 +124,7 @@
 			height: 0.4583333333333333d
 			id: "7FEEF39DD2C5CDEE"
 			image: ""
+			quest_enhance_exclude_from_box_selection: 0b
 			rotation: 0.0d
 			width: 3.6666666666666665d
 			x: -5.0d
@@ -133,6 +144,7 @@
 		{
 			id: "6EFFB8ED37DC8A47"
 			preset: "start"
+			quest_enhance_disable_scroll_paging: false
 			rewards: [{
 				count: 6
 				exclude_from_claim_all: true
@@ -159,6 +171,7 @@
 		{
 			id: "644439D23D454629"
 			preset: "start"
+			quest_enhance_disable_scroll_paging: false
 			shape: "rsquare"
 			size: 2.0d
 			tasks: [{
@@ -172,6 +185,7 @@
 		{
 			dependencies: ["40C1DBE20E401EF9"]
 			id: "57742DD8F99DBAF1"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "52DB70F655735CDF"
 				item: { components: { "ftbfiltersystem:filter": "or(item(mynethersdelight:crimson_fungus_colony)item(mynethersdelight:warped_fungus_colony))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
@@ -182,6 +196,7 @@
 		}
 		{
 			id: "40C1DBE20E401EF9"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "0435061413649EF9"
 				item: { count: 1, id: "mynethersdelight:letios_compost" }
@@ -193,6 +208,7 @@
 		{
 			dependencies: ["773834D44C436587"]
 			id: "507ACD6D650DECA2"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "4B151F1AC477680B"
 				item: { count: 1, id: "mynethersdelight:hoglin_hide" }
@@ -203,6 +219,7 @@
 		}
 		{
 			id: "773834D44C436587"
+			quest_enhance_disable_scroll_paging: false
 			rewards: [{
 				count: 2
 				id: "5A69AEA5171C7940"
@@ -223,6 +240,7 @@
 		{
 			dependencies: ["773834D44C436587"]
 			id: "21A12DEE3432EF7F"
+			quest_enhance_disable_scroll_paging: false
 			rewards: [{
 				count: 5
 				id: "43C7DABCDDE0DE95"
@@ -244,6 +262,7 @@
 		{
 			dependencies: ["773834D44C436587"]
 			id: "236484A484723F55"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "239A64FBD2BF7FA4"
 				item: { count: 1, id: "mynethersdelight:roast_stuffed_hoglin" }
@@ -255,6 +274,7 @@
 		{
 			dependencies: ["236484A484723F55"]
 			id: "4FEE0688A44D8421"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [
 				{
 					id: "240C4B48A589ACFC"
@@ -280,6 +300,7 @@
 			dependency_requirement: "one_completed"
 			id: "4F8BE51C9D3C16A2"
 			preset: "item"
+			quest_enhance_disable_scroll_paging: false
 			rewards: [
 				{
 					count: 5
@@ -311,6 +332,7 @@
 		{
 			id: "2615CD06E32EC741"
 			preset: "start"
+			quest_enhance_disable_scroll_paging: false
 			rewards: [
 				{
 					count: 5
@@ -368,6 +390,7 @@
 			dependencies: ["2615CD06E32EC741"]
 			id: "492DDC880E65C534"
 			preset: "progression"
+			quest_enhance_disable_scroll_paging: false
 			rewards: [{
 				count: 6
 				id: "5598696BF6CA42B2"
@@ -389,6 +412,7 @@
 			dependencies: ["2615CD06E32EC741"]
 			id: "7557E8749BF869DF"
 			preset: "item"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "4F456D411C163AA8"
 				item: { count: 1, id: "farmersdelight:cutting_board" }
@@ -401,6 +425,7 @@
 			dependencies: ["4388413B656A4336"]
 			id: "0E2749D8FEEF0D49"
 			preset: "progression"
+			quest_enhance_disable_scroll_paging: false
 			shape: "hexagon"
 			tasks: [{
 				id: "172CAB10518E2360"
@@ -413,6 +438,7 @@
 		{
 			id: "6A71E1C275F02732"
 			preset: "item"
+			quest_enhance_disable_scroll_paging: false
 			rewards: [{
 				count: 2
 				id: "221F119891D4666B"
@@ -435,6 +461,7 @@
 			dependencies: ["0E2749D8FEEF0D49"]
 			id: "5F2C26D1C6302016"
 			preset: "progression"
+			quest_enhance_disable_scroll_paging: false
 			rewards: [
 				{
 					id: "06A907B51E284D8A"
@@ -463,6 +490,7 @@
 		{
 			id: "1F80DCFD23DD5592"
 			preset: "item"
+			quest_enhance_disable_scroll_paging: false
 			rewards: [
 				{
 					id: "4C46D6CF204B11E6"
@@ -507,6 +535,7 @@
 			dependencies: ["2615CD06E32EC741"]
 			id: "63A2968E78D4A9A7"
 			preset: "item"
+			quest_enhance_disable_scroll_paging: false
 			rewards: [{
 				id: "2D5BD742430FC34B"
 				item: {
@@ -527,6 +556,7 @@
 		{
 			id: "717B733896BBB2AA"
 			preset: "item"
+			quest_enhance_disable_scroll_paging: false
 			rewards: [{
 				id: "2B1743C30515E8AF"
 				item: {
@@ -547,6 +577,7 @@
 		{
 			id: "78A59A17FEDDE305"
 			preset: "advancement"
+			quest_enhance_disable_scroll_paging: false
 			shape: "octagon"
 			tasks: [{
 				id: "23C5964D9AF61295"
@@ -561,6 +592,7 @@
 			dependencies: ["4EAB1C3073616E17"]
 			id: "706D91D3C11487E5"
 			preset: "advancement"
+			quest_enhance_disable_scroll_paging: false
 			rewards: [
 				{
 					id: "3BF6493C6EF67C6A"
@@ -615,6 +647,7 @@
 			dependencies: ["2615CD06E32EC741"]
 			id: "7E532A89B21B20D1"
 			preset: "advancement"
+			quest_enhance_disable_scroll_paging: false
 			shape: "octagon"
 			tasks: [{
 				advancement: "farmersdelight:main/use_skillet"
@@ -628,6 +661,7 @@
 		{
 			id: "181F5C00C8DE417B"
 			preset: "item"
+			quest_enhance_disable_scroll_paging: false
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "3B15D12DBAFB6724"
@@ -679,6 +713,7 @@
 			dependencies: ["5F2C26D1C6302016"]
 			id: "6C75BE906A574DAE"
 			preset: "progression"
+			quest_enhance_disable_scroll_paging: false
 			shape: "hexagon"
 			tasks: [
 				{
@@ -717,6 +752,7 @@
 		}
 		{
 			id: "42DD1CCF09065C51"
+			quest_enhance_disable_scroll_paging: false
 			rewards: [
 				{
 					exclude_from_claim_all: true
@@ -811,6 +847,7 @@
 		{
 			id: "1649B81C8A139731"
 			invisible: true
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "1FA8CAD5BF7C06D1"
 				item: { count: 1, id: "ftbquests:barrier" }
@@ -821,6 +858,7 @@
 		}
 		{
 			id: "5D439CB08EE5A923"
+			quest_enhance_disable_scroll_paging: false
 			shape: "hexagon"
 			tasks: [
 				{
@@ -871,6 +909,7 @@
 			dependencies: ["43CC7A6F8C1284B5"]
 			id: "486FE1761F7E41E3"
 			preset: "progression"
+			quest_enhance_disable_scroll_paging: false
 			rewards: [
 				{
 					exclude_from_claim_all: true
@@ -899,6 +938,7 @@
 			dependencies: ["4449135F7D10724F"]
 			id: "43CC7A6F8C1284B5"
 			preset: "progression"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "10F24C6F606E244C"
 				item: { count: 1, id: "meadow:cheese_form" }
@@ -911,6 +951,7 @@
 			dependencies: ["684AF61973DB643F"]
 			id: "4449135F7D10724F"
 			preset: "progression"
+			quest_enhance_disable_scroll_paging: false
 			rewards: [{
 				count: 4
 				id: "543F2E1FFCFC80B3"
@@ -931,6 +972,7 @@
 		{
 			id: "4E4341D997F9AE98"
 			preset: "start"
+			quest_enhance_disable_scroll_paging: false
 			rewards: [{
 				id: "07D53CBD22C282A8"
 				item: {
@@ -953,6 +995,7 @@
 			dependencies: ["486FE1761F7E41E3"]
 			id: "561E0AC36A0C1DB4"
 			preset: "milestone"
+			quest_enhance_disable_scroll_paging: false
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "24DCD94F189AE26B"
@@ -975,6 +1018,7 @@
 			dependencies: ["4E4341D997F9AE98"]
 			id: "684AF61973DB643F"
 			preset: "progression"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "4194A437622706BD"
 				item: { components: { "ftbfiltersystem:filter": "or(item_tag(c:dusts/salt))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
@@ -987,6 +1031,7 @@
 			dependencies: ["4E4341D997F9AE98"]
 			id: "31CE923007EF1D03"
 			preset: "progression"
+			quest_enhance_disable_scroll_paging: false
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "7BDBA6DF75D59385"
@@ -1038,6 +1083,7 @@
 			dependencies: ["644439D23D454629"]
 			id: "34581095B797C667"
 			preset: "progression"
+			quest_enhance_disable_scroll_paging: false
 			rewards: [
 				{
 					count: 4
@@ -1106,6 +1152,7 @@
 			dependencies: ["34581095B797C667"]
 			id: "439BC18CF8CE9960"
 			preset: "item"
+			quest_enhance_disable_scroll_paging: false
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "7742C2C93894983F"
@@ -1141,6 +1188,7 @@
 			dependencies: ["34581095B797C667"]
 			id: "7B3D377F253BFF4A"
 			preset: "item"
+			quest_enhance_disable_scroll_paging: false
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "448C8F70A7508B5F"
@@ -1196,6 +1244,7 @@
 			dependencies: ["31CE923007EF1D03"]
 			id: "70B1F4C0D65D12D1"
 			preset: "completion"
+			quest_enhance_disable_scroll_paging: false
 			shape: "hexagon"
 			tasks: [
 				{
@@ -1236,6 +1285,7 @@
 			dependencies: ["2615CD06E32EC741"]
 			id: "3801F3578406768D"
 			preset: "item"
+			quest_enhance_disable_scroll_paging: false
 			rewards: [
 				{
 					count: 5
@@ -1278,6 +1328,7 @@
 			dependencies: ["4388413B656A4336"]
 			id: "4EAB1C3073616E17"
 			preset: "item"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "65EE14C0671388C0"
 				item: { count: 1, id: "bakery:kitchen_sink" }
@@ -1289,6 +1340,7 @@
 		{
 			id: "207C60DC8889AC0F"
 			preset: "start"
+			quest_enhance_disable_scroll_paging: false
 			shape: "rsquare"
 			size: 2.0d
 			tasks: [
@@ -1310,6 +1362,7 @@
 			dependencies: ["4D65AA1353AA0E1D"]
 			id: "52D7D562012B3B7C"
 			preset: "progression"
+			quest_enhance_disable_scroll_paging: false
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "691D193A5189C9FD"
@@ -1329,6 +1382,7 @@
 			dependencies: ["4D65AA1353AA0E1D"]
 			id: "740C9D783E4018EC"
 			preset: "progression"
+			quest_enhance_disable_scroll_paging: false
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "6C4257117DD1954A"
@@ -1347,6 +1401,7 @@
 			dependencies: ["338640D0D42E7EC4"]
 			id: "6E5DCE8167CB2932"
 			preset: "progression"
+			quest_enhance_disable_scroll_paging: false
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "5BBFA08CC707354F"
@@ -1366,6 +1421,7 @@
 			dependencies: ["338640D0D42E7EC4"]
 			id: "124F16ECDD4B26A2"
 			preset: "progression"
+			quest_enhance_disable_scroll_paging: false
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "662AD40291BD54E1"
@@ -1388,6 +1444,7 @@
 			]
 			id: "1BCBFB8A5AAE9E37"
 			preset: "progression"
+			quest_enhance_disable_scroll_paging: false
 			rewards: [
 				{
 					id: "171CB1572A0ACDB8"
@@ -1420,6 +1477,7 @@
 			]
 			id: "5D37E0A2F297C49E"
 			preset: "progression"
+			quest_enhance_disable_scroll_paging: false
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "641BDB2C202DFFC2"
@@ -1438,6 +1496,7 @@
 		{
 			id: "737B48AA3FE651BD"
 			preset: "item"
+			quest_enhance_disable_scroll_paging: false
 			rewards: [
 				{
 					id: "1B03BFA8D7C37647"
@@ -1484,6 +1543,7 @@
 			dependencies: ["207C60DC8889AC0F"]
 			id: "4D65AA1353AA0E1D"
 			preset: "progression"
+			quest_enhance_disable_scroll_paging: false
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "1A0B7F099CB6BFB7"
@@ -1501,6 +1561,7 @@
 		{
 			id: "73DC7CDFA4B7E09A"
 			preset: "item"
+			quest_enhance_disable_scroll_paging: false
 			rewards: [{
 				count: 4
 				id: "7BD4B5D198EC7F19"
@@ -1522,6 +1583,7 @@
 		{
 			id: "60E911F7FF96F190"
 			preset: "item"
+			quest_enhance_disable_scroll_paging: false
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "7C3C78784835B74D"
@@ -1541,6 +1603,7 @@
 			dependencies: ["492DDC880E65C534"]
 			id: "4388413B656A4336"
 			preset: "progression"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [
 				{
 					id: "15D389A6DFEF6348"
@@ -1565,6 +1628,7 @@
 			dependencies: ["207C60DC8889AC0F"]
 			id: "338640D0D42E7EC4"
 			preset: "progression"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "297B9B29B5C35C13"
 				item: { count: 1, id: "farm_and_charm:cooking_pot" }
@@ -1575,6 +1639,7 @@
 		}
 		{
 			id: "528CB844416DF0E7"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				advancement: "bakery:main/get_yeast"
 				criterion: ""
@@ -1586,6 +1651,7 @@
 		}
 		{
 			id: "064FD196C750D6DB"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "1C58CD7EBA09C386"
 				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(c:flours/wheat)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
@@ -1596,6 +1662,7 @@
 		}
 		{
 			id: "12EF12DE3866DA25"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "42497F16D74CB8FF"
 				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(c:butter)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
@@ -1608,6 +1675,7 @@
 			dependencies: ["5D37E0A2F297C49E"]
 			id: "50E72CE5ED450E23"
 			preset: "completion"
+			quest_enhance_disable_scroll_paging: false
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "36FDABDE0AA55D89"
@@ -1625,6 +1693,7 @@
 		}
 		{
 			id: "57B830324890E32C"
+			quest_enhance_disable_scroll_paging: false
 			rewards: [
 				{
 					count: 3
@@ -1672,6 +1741,7 @@
 			dependencies: ["6EFFB8ED37DC8A47"]
 			id: "634BC93E44B404C2"
 			preset: "item"
+			quest_enhance_disable_scroll_paging: false
 			rewards: [
 				{
 					exclude_from_claim_all: true
@@ -1710,6 +1780,7 @@
 			dependencies: ["2615CD06E32EC741"]
 			id: "6E90234166580EEB"
 			preset: "item"
+			quest_enhance_disable_scroll_paging: false
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "5A051A7E53F98793"
@@ -1732,6 +1803,7 @@
 			dependencies: ["34581095B797C667"]
 			id: "5490D2048FF6E2AB"
 			preset: "item"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [
 				{
 					id: "208517B4D56CF70F"

@@ -1084,6 +1084,17 @@
 	quest.05B25CAC22B4D766.quest_subtitle: "{count:1,id:\"twilightforest:canopy_drying_rack\"}"
 	quest.05B2DD390AFE61A6.quest_subtitle: "{components:{\"ae2:facade_item\":\"minecraft:oak_leaves\"},count:1,id:\"ae2:facade\"}"
 	quest.05B4932D9C37EACD.quest_subtitle: "{components:{\"minecraft:potion_contents\":{custom_effects:[{duration:1750,id:\"minecraft:resistance\",\"neoforge:cures\":[\"protected_by_totem\",\"milk\"],show_icon:1b}]}},count:1,id:\"reliquary:lingering_potion\"}"
+	quest.05B5DD9990917317.quest_desc: [
+		"The &bWaymaker&r is a spell focus which allows you to &ateleport to specific locations&r."
+		""
+		"Crafting the &bWaymaker&r is trivial - a &bBone Needle&r and a &bFlint&r. However, you'll then need to &abind it to a location&r."
+		""
+		"There are two rituals for this - one requires your &bAltar&r and 500 altar power, and the other requires &aslightly more ingredients&r, but you don't have to lug your &bAltar&r out into the field in order to cast it. Both rituals require plain &bRitual Chalk&r and &dsmall ritual circles&r. You'll need &bOtherwhere Chalk&r to use the finished product, however!"
+		""
+		"You'll need an &bEnder Pearl&r for some &bEnder Dew&r, and also a &bDiamond&r to craft into an &bAttuned Stone&r. Consider these a gift from me."
+	]
+	quest.05B5DD9990917317.quest_subtitle: "making my way downtown"
+	quest.05B5DD9990917317.title: "Traversal using Waymakers"
 	quest.05B6DD09F99DEB92.quest_subtitle: "{count:1,id:\"create:andesite_funnel\"}"
 	quest.05BE67FE2A86BD90.quest_subtitle: "{count:1,id:\"enchanted:rowan_sapling\"}"
 	quest.05BE9BF5E5EAAB49.quest_subtitle: "{count:1,id:\"betterend:pythadendron_wall\"}"
@@ -1395,7 +1406,7 @@
 	quest.076C49FD47AB7636.quest_subtitle: "{count:1,id:\"minecraft:crimson_roots\"}"
 	quest.076CB5B4AD47CF20.quest_subtitle: "{components:{\"ae2:facade_item\":\"create:small_veridium_bricks\"},count:1,id:\"ae2:facade\"}"
 	quest.076F2A55BD9D0BCA.quest_desc: [
-		"Are you an artist? Of course you are. Everyone has the ability to paint, to put pigment onto parchment. The simple act of creation is one of the most meditative pasttimes there is."
+		"Are you an artist? Of course you are. Everyone has the ability to paint, to put pigment onto parchment. The simple act of creation is one of the most meditative pastimes there is."
 		""
 		"To begin, you'll need an &bEasel&r, and a &bPalette&r. You'll also need &bCanvases&r to paint on."
 	]
@@ -1976,6 +1987,13 @@
 	quest.0A8689A5A9884FEF.quest_subtitle: "{count:1,id:\"hexalia:cottonwood_fence_gate\"}"
 	quest.0A88549F1A51EFCC.quest_subtitle: "{count:1,id:\"tide:saturn_cuttlefish_bucket\"}"
 	quest.0A88D2C509D1DE16.quest_subtitle: "{count:1,id:\"ae2:lime_smart_cable\"}"
+	quest.0A8AD22B188FA65B.quest_desc: [
+		"Are you tired of saplings &anot giving you &bFumes&r? Why not add a &bFume Funnel&r to either side of your &bWitch's Oven&r to increase your chances?"
+		""
+		"Read the &bArt of Witchcraft&r to learn more."
+	]
+	quest.0A8AD22B188FA65B.quest_subtitle: "im fuming mad"
+	quest.0A8AD22B188FA65B.title: "Obtain a Fume Funnel"
 	quest.0A8C8D34AB12CC3F.quest_subtitle: "{count:1,id:\"companions:book_ice_tornado\"}"
 	quest.0A8CAE01574FF9CC.quest_subtitle: "{count:1,id:\"betternether:quartz_glass_framed_white\"}"
 	quest.0A8D77B1F06F76FA.quest_subtitle: "{components:{\"minecraft:stored_enchantments\":{levels:{\"twilightforest:destruction\":3}}},count:1,id:\"minecraft:enchanted_book\"}"
@@ -2282,6 +2300,7 @@
 	quest.0C0D54AAF31A9579.quest_subtitle: "{components:{\"minecraft:potion_contents\":{potion:\"minecraft:strong_strength\"}},count:1,id:\"minecraft:tipped_arrow\"}"
 	quest.0C0E67685756E684.quest_subtitle: "{count:1,id:\"betternether:wart_trapdoor\"}"
 	quest.0C0E7D42FF759AB0.quest_subtitle: "{count:1,id:\"betterend:jellyshroom_composter\"}"
+	quest.0C0EB5F8CF5970B2.quest_desc: ["Need to tame something quickly? Why not &atame it instantly&r with the &bHeartseed&r!"]
 	quest.0C12249DF1A43B94.quest_subtitle: "{components:{\"minecraft:stored_enchantments\":{levels:{\"moblassos:holding\":3}}},count:1,id:\"minecraft:enchanted_book\"}"
 	quest.0C189B1174EBFA12.quest_subtitle: "{count:1,id:\"the_bumblezone:royal_jelly_bucket\"}"
 	quest.0C189D1C42A607D8.quest_subtitle: "{count:1,id:\"betterend:terminite_slab\"}"
@@ -4162,6 +4181,11 @@
 	quest.163B8725DC6B617B.quest_subtitle: "{count:1,id:\"autumnity:red_maple_sapling\"}"
 	quest.163D681FCE9157FA.quest_subtitle: "{count:1,id:\"regions_unexplored:golden_larch_shrub\"}"
 	quest.1640C95CCFA76ECA.quest_subtitle: "{components:{\"ae2:facade_item\":\"minecraft:coal_block\"},count:1,id:\"ae2:facade\"}"
+	quest.1641BFB24F43B94B.quest_desc: [
+		"&bOtherwhere Chalk&r contains the essence of &cThe End&r, and is used for spells such as &aTransposition&r of either person or items."
+		""
+		"It is also an ingredient for &bPoppets&r."
+	]
 	quest.1641FF97355D561A.quest_subtitle: "{count:1,id:\"unusual_furniture:wooden_barrier\"}"
 	quest.16425370429DDE1F.quest_subtitle: "{count:1,id:\"autumnity:red_maple_leaves\"}"
 	quest.1642731F70E5FB95.quest_subtitle: "{count:1,id:\"glassential:lime_glass_door\"}"
@@ -4276,6 +4300,14 @@
 	quest.16CDABDE38358736.quest_subtitle: "{count:1,id:\"ae2:fe_p2p_tunnel\"}"
 	quest.16D6ADD130CFA1B9.quest_subtitle: "{components:{\"minecraft:stored_enchantments\":{levels:{\"create:potato_recovery\":1}}},count:1,id:\"minecraft:enchanted_book\"}"
 	quest.16DA4781DB14E0BC.quest_subtitle: "{count:1,id:\"friendsandfoes:waxed_weathered_copper_button\"}"
+	quest.16E1276D35BDE7D5.quest_desc: [
+		"Now you take the thing, and the other thing, and you do the thing!"
+		""
+		"Which is to say, &6hold the &bPoppet&6 in your main hand&r and the &bTaglock Kit&6 in your offhand&r and &6hold right click&r until the two combine. Ta-da! Now you have a &bBound Poppet&r."
+		""
+		"In order to use this, the &bArmor Poppet&r needs to be either &ain your inventory or hotbar&r, or &aon a &bPoppet Shelf&r. Take these materials, they'll help you for the next step..."
+	]
+	quest.16E1276D35BDE7D5.title: "Advanced Poppetry"
 	quest.16E36B153EF4B45C.quest_subtitle: "{count:1,id:\"mysticsbiomes:maple_planks\"}"
 	quest.16E37FF02B50F157.quest_subtitle: "{count:1,id:\"minecraft:spruce_pressure_plate\"}"
 	quest.16E72CD3EC3410B7.quest_subtitle: "{count:1,id:\"comforts:sleeping_bag_pink\"}"
@@ -4653,7 +4685,13 @@
 	quest.18D01F7F877AE4FD.quest_subtitle: "{count:1,id:\"twilightdelight:hydra_piece\"}"
 	quest.18D2CB3F9E4C2C33.quest_subtitle: "{count:1,id:\"handcrafted:acacia_counter\"}"
 	quest.18D369DF27C10C73.quest_subtitle: "{count:1,id:\"arts_and_crafts:red_decorated_pot\"}"
-	quest.18D433FB887CE31B.quest_desc: ["The &bPoppet Shelf&r is a place for you to safely store your &bPoppets&r while still having them &aprovide you effects while out in the world&r."]
+	quest.18D433FB887CE31B.quest_desc: [
+		"The &bPoppet Shelf&r is a place for you to safely store your &bPoppets&r while still having them &aprovide their effects while out in the world&r."
+		""
+		"The exception to this is the &bVoodoo Poppet&r, which we'll cover elsewhere in the chapter."
+	]
+	quest.18D433FB887CE31B.quest_subtitle: "don't be shelf-ish"
+	quest.18D433FB887CE31B.title: "Obtain a Poppet Shelf"
 	quest.18D43F822D06024C.quest_subtitle: "{components:{\"ae2:facade_item\":\"cluttered:fluorescent_maple_log\"},count:1,id:\"ae2:facade\"}"
 	quest.18D475339D50086B.quest_subtitle: "{count:1,id:\"arts_and_crafts:cobbled_ivory_pietraforte_stairs\"}"
 	quest.18D4DBA674D99C8C.quest_subtitle: "{count:1,id:\"cluttered:sea_gem_lantern\"}"
@@ -5697,7 +5735,7 @@
 	quest.1E53C205AD76513E.quest_desc: [
 		"The &bBlackboard&r will allow you to draw a 16x16 black and white image. Perfect for creative signage!"
 		""
-		"It will &aretain it's image when broken&r, but can be crafted with a &bWater Bucket&r to clear it."
+		"It will &aretain its image when broken&r, but can be crafted with a &bWater Bucket&r to clear it."
 	]
 	quest.1E53C205AD76513E.quest_subtitle: "Finally, your schoolhouse will be complete"
 	quest.1E54C07072ADA607.quest_subtitle: "{count:1,id:\"arts_and_crafts:green_soapstone_brick_slab\"}"
@@ -6298,7 +6336,6 @@
 	quest.2143257AAC19A834.quest_subtitle: "{count:1,id:\"betterend:aeternium_sword_blade\"}"
 	quest.214537575338B7F5.quest_subtitle: "{components:{\"ae2:facade_item\":\"quark:polished_limestone\"},count:1,id:\"ae2:facade\"}"
 	quest.214669E76D2A1351.quest_subtitle: "{components:{\"ae2:facade_item\":\"hexerei:mahogany_window\"},count:1,id:\"ae2:facade\"}"
-	quest.2148B5338C91B771.quest_desc: ["spirit blooms can be found in swamps, and mangrove swamps"]
 	quest.21496EEB914410B7.quest_subtitle: "{count:1,id:\"cluttered:mini_flag_bi\"}"
 	quest.214D1EB927CA5624.quest_subtitle: "{count:1,id:\"hexerei:tallow_bottle\"}"
 	quest.2150F235488C31C6.quest_subtitle: "{count:1,id:\"betterend:sulphur_crystal\"}"
@@ -6750,6 +6787,7 @@
 	quest.237C8C8D3856AF10.quest_subtitle: "{count:1,id:\"framedblocks:framed_inv_double_corner_slope_panel\"}"
 	quest.237E3F28E826198B.quest_subtitle: "{count:1,id:\"cluttered:chalcedony_victorian_bracket_star\"}"
 	quest.237E753336B1A2B6.quest_subtitle: "{count:1,id:\"thaumon:engraved_eldritch_stone\"}"
+	quest.238028A4423EAF3F.quest_desc: ["&bNether Chalk&r is an advanced form of ritual chalk which calls upon &athe spirit of the Nether&r. It is used largely to cast &bCurses&r, or, if you like to make things very complicated, to &acook food&r. Beware burning it, however."]
 	quest.2380A1ECEFFAF8B7.quest_subtitle: "{count:1,id:\"tide:judgment_fish_spawn_egg\"}"
 	quest.238265DDD059C60D.quest_subtitle: "{count:1,id:\"create:polished_cut_ochrum\"}"
 	quest.2385E980B8D12F17.quest_subtitle: "{count:1,id:\"thaumon:empty_silverwood_bookshelf\"}"
@@ -8112,6 +8150,20 @@
 	quest.2ACD8E5F188BDAC0.quest_subtitle: "{count:1,id:\"cluttered:checkered_green_strawberry_wallpaper\"}"
 	quest.2AD3A4588F35C85A.quest_subtitle: "{components:{\"ae2:facade_item\":\"minecraft:polished_diorite\"},count:1,id:\"ae2:facade\"}"
 	quest.2AD549A5B30E2A4E.quest_subtitle: "{components:{\"ae2:facade_item\":\"cluttered:greenhouse_window_rounded\"},count:1,id:\"ae2:facade\"}"
+	quest.2AD594A3F740B338.quest_desc: [
+		"Although similar in form, &bIdols&r are different from &bPoppets&r in the effects that they have. Rather than &aacting as a stand-in for an entity&r, they are instead a &afocus for a certain spell&r, such as rainfall, clear skies, or banishing curses."
+		""
+		"To make one, &awrap a &bMandrake&r in &bSilk Thread&r, and then &ainfuse it with the elements&r of your desired outcome."
+		""
+		"&bRainfall Idol&r - summons a gentle rain"
+		"&bClarity Idol&r - clears the skies"
+		"&bTempest Idol&r - summons a thunderstorm"
+		"&bPurity Idol&r - upholds antiquated patriarchal notions of feminine - oh what? Not that kind of purity. Oh, that's right. Let me try again."
+		""
+		"&bPurity Idol&r - Removes &acurses&r from enchanted gear."
+	]
+	quest.2AD594A3F740B338.quest_subtitle: "idol hands are the devil's tools"
+	quest.2AD594A3F740B338.title: "Obtain a Silk Idol"
 	quest.2AD60B373912C5A4.quest_desc: ["The &bCage&r is similar to the &bCapture Cell&r, in that you can &6right click it on a small mob&r to pick it up and transport it. You can &6right click a block to release&r the mob, or you can &6shift right click&r to place the &bCage&r down and display your new friend in their enclosure!"]
 	quest.2AD60B373912C5A4.quest_subtitle: "Despite all my rage, I am still just a...oh you know"
 	quest.2AD6D82DC95DC6B2.quest_subtitle: "{count:1,id:\"regions_unexplored:dead_pine_shrub\"}"
@@ -8551,6 +8603,27 @@
 	quest.2D0A5D9CD0665E7B.quest_subtitle: "{count:1,id:\"minecraft:cherry_pressure_plate\"}"
 	quest.2D0B08CCB787FFDC.quest_subtitle: "{components:{\"ae2:facade_item\":\"cluttered:diamond_wallpaper_plum_bottom_white\"},count:1,id:\"ae2:facade\"}"
 	quest.2D0C01CDD2AD0C01.quest_subtitle: "{count:1,id:\"betterend:end_stone_brick_cracked_wall\"}"
+	quest.2D0CDD91CFAA0937.quest_desc: [
+		"Summoning a &eSilk Moth&r, if you cannot find one in the wild, will require a &asmall ritual&r and a teensy bit of &ablood sacrifice&r. Oh, don't worry, the blood can come from any old thing, including the &eZombie&r you'll get as a reward for this quest!"
+		""
+		"To summon the &eSilk Moth&r, you'll need &bRitual Braziers&r set up around a &bRitual Table&r - you have one of those, right? Make sure to &asalt the &bBraziers&r, and &agrow 8 crops to maturity&r as power for the spell!"
+		""
+		"Then, place on the &bRitual Table&r a &bFragrant Nectar&r - this will be the central focus. Surrounding the Table, place on the Braziers the following:"
+		""
+		"- &bString&r"
+		"- &bWhite Wool&r"
+		"- &bSpirit Powder&r"
+		"- &bCelestial Bloom&r"
+		"- &bGlowstone Dust&r"
+		"- &bWitchweed&r"
+		""
+		"{image:quest_enhance:textures/ftb/clipboard_1790374356249.png width:345 height:274 align:center fit:true}"
+		""
+		"Then &6click the &bRitual Table&r with your &bHex Focus&r, wait for the offerings to be accepted, and then &6slay a hostile creature within 8 blocks&r of the Ritual Table."
+		""
+		"Be aware that &dthe summoned entity will be wild&r - be prepared with a &bLasso&r or other way to contain it!"
+	]
+	quest.2D0CDD91CFAA0937.title: "To Summon Silk"
 	quest.2D0CFD329062E3CB.quest_subtitle: "{count:1,id:\"arts_and_crafts:blue_soapstone\"}"
 	quest.2D0E260438FC3F12.quest_subtitle: "{count:1,id:\"luckyswardrobe:hat\"}"
 	quest.2D10A4748BF4A160.quest_subtitle: "{count:1,id:\"betternether:taburet_cincinnasite\"}"
@@ -10793,6 +10866,12 @@
 	quest.3861B10356980587.quest_subtitle: "{count:1,id:\"minecraft:minecart\"}"
 	quest.3866FF3E7CDDF1D0.quest_subtitle: "{count:1,id:\"create:polished_cut_tuff_wall\"}"
 	quest.386761DB11D70592.quest_subtitle: "{count:1,id:\"ae2:gray_covered_cable\"}"
+	quest.38692155327FDE4B.quest_desc: [
+		"The &bCircle Talisman&r is an item which allows you to &astore your magic circles&r for later use. To use one, you'll need to &6place one &bRedstone&r and the &bTalisman&r inside your circle and &6perform the &bRite of Binding&r."
+		""
+		"This will store your circle inside the &bTalisman&r."
+	]
+	quest.38692155327FDE4B.title: "Storing your Circles"
 	quest.3869414C1C3DFC21.quest_subtitle: "{count:1,id:\"decorative_blocks:crimson_beam\"}"
 	quest.386B392E07819160.quest_subtitle: "{components:{\"ae2:facade_item\":\"ae2:flawless_budding_quartz\"},count:1,id:\"ae2:facade\"}"
 	quest.386C2C65DD30DC1F.quest_subtitle: "{count:1,id:\"handcrafted:birch_pillar_trim\"}"
@@ -12402,8 +12481,7 @@
 		""
 		"Place &b6 Altar Blocks&r in a 2x3 configuration, and they will combine and change appearance. This is where many of your workings will take place, as it will take on and focus the energy you raise. You can &6augment this space in multiple ways&r: by placing &bFoci&r on top of the Altar, and &bobjects of power&r within a 16-block radius of it. More on this in the next quest."
 		""
-		"You can &aview the power of your altar by &6shift + right clicking it&r with an empty hand."
-		""
+		"You can &aview the power of your altar by &6right clicking it&r with an empty hand."
 	]
 	quest.410FE13D777DE1C8.title: "Building an Altar"
 	quest.4110A15F659422D5.quest_desc: ["The &bTrowel&r will place a random block from your hotbar when you &6right click with it&r. Perfect for easily &arandomizing your build's palette&r."]
@@ -14453,6 +14531,14 @@
 	quest.4BCD0DEB1A059D2F.quest_subtitle: "{count:1,id:\"colorfulazaleas:earthen_azalea_fence\"}"
 	quest.4BCE37D56185C771.quest_subtitle: "{count:1,id:\"twilightforest:spruce_banister\"}"
 	quest.4BCF30AFC988983E.quest_subtitle: "{components:{\"sophisticatedstorage:wood_type\":\"dark_oak\"},count:1,id:\"sophisticatedstorage:copper_barrel\"}"
+	quest.4BD1E1D3ABC4BEE8.quest_desc: [
+		"To &acraft &bPoppets&r, you'll need a &bSpinning Wheel&r and &acertain other reagents&r, as well as a &bpowered Altar&r. Place the correct ingredients into the &bSpinning Wheel&r, and if it's within range of your &bAltar&r (and you have enough altar power), it will begin crafting! This process takes a while, so &dbe patient&r. I feel like I say that a lot. I suppose any craft requires patience, doesn't it?"
+		""
+		"An &bArmor Poppet&r (they say Armour, but bear with me) will &aprevent a piece of equipment from being lost when it's about to break&r. The &bPoppet&r will break instead, and the equipment will be left with &aone durability&r (so you'll want to take it off quickly)!"
+		""
+		"But in order for this to work, first you have to &abind it to yourself&r."
+	]
+	quest.4BD1E1D3ABC4BEE8.title: "Intermediate Poppetry"
 	quest.4BD2FDDB88BD5B07.quest_subtitle: "{count:1,id:\"handcrafted:magenta_cushion\"}"
 	quest.4BD3377F99740E65.quest_subtitle: "{count:1,id:\"cluttered:antique_standing_lamp\"}"
 	quest.4BD5F80965969C80.quest_subtitle: "{count:1,id:\"decorativerailings:spruce_wood_railing_20\"}"
@@ -20729,6 +20815,8 @@
 		"In addition to the chalk circles on the outside, every rite requires a &brune of Golden Chalk&r in the center, which should be &6right clicked&r after the reagents are placed. This will &aactivate the ritual&r."
 		""
 		"A successful ritual will consume your reagents one by one and then provide the desired output. If at the end, your reagents are spat back out, then &dthe ritual has failed&r. Double check your &bingredients&r and that your &bAltar&r is &aclose enough and has enough Power&r."
+		""
+		"Need to clean up your chalk? Take this &bBroom&r, it will remove the Chalk in one easy swipe! Disclaimer: this broom does not fly...yet."
 	]
 	quest.6BE389D26249D046.quest_subtitle: "equal rites"
 	quest.6BE389D26249D046.title: "Performing Rituals"
@@ -20773,7 +20861,7 @@
 	quest.6C25F07248AC8170.quest_desc: [
 		"Although the two are not commonly thought of together, &bwitchcraft&r and &barchaeology&r are actually well interwoven. Both revere the bones of our ancestors, both emphasize a respect for the natural world, and both are deeply interested in &aancient ways&r."
 		""
-		"Anthropology and archaeology are excellent fields of study for witches who want to uncover and deciper ancient mysteries. So why not get yourself started with a &bBrush&r?"
+		"Anthropology and archaeology are excellent fields of study for witches who want to uncover and decipher ancient mysteries. So why not get yourself started with a &bBrush&r?"
 	]
 	quest.6C25F07248AC8170.title: "Anthropology 101"
 	quest.6C26DB1940EAD9C3.quest_subtitle: "{count:1,id:\"cluttered:colosseo_wall_lantern\"}"
@@ -21744,6 +21832,17 @@
 		"The humbleburger, if you will. Hambumble? I don't know."
 	]
 	quest.717B733896BBB2AA.quest_subtitle: "Don't think too hard about the reward"
+	quest.717CF92CE4A34A5F.quest_desc: [
+		"If you're feeling a little mischievous, you might want to make a &bVoodoo Poppet&r to &aprank your server-mates (or yourself)&r!"
+		""
+		"You craft and bind a &bVoodoo Poppet&r similarly to other poppets, but its use is different. You'll &6hold the doll in your main hand&r and do the following:"
+		""
+		"- &6Prick the doll with a &bSimple Bone Needle&r or &bIcy Needle&r in your offhand. This causes 2 damage to your target."
+		"- &6Hold right click&r to push your target in the direction you're facing."
+		"- &6Throw the doll&r into Water, Fire, or Lava to cause drowning or fire damage."
+	]
+	quest.717CF92CE4A34A5F.quest_subtitle: "you remind me of the babe"
+	quest.717CF92CE4A34A5F.title: "Obtain a Voodoo Poppet"
 	quest.717D6A78911950C0.quest_subtitle: "{count:1,id:\"twilightforest:time_sign\"}"
 	quest.717E791359B5C19E.quest_subtitle: "{count:1,id:\"beautify:acacia_picture_frame\"}"
 	quest.717E99A301CF01ED.quest_subtitle: "{components:{\"minecraft:potion_contents\":{potion:\"netherdepthsupgrade:lava_vision\"}},count:1,id:\"minecraft:tipped_arrow\"}"
@@ -22500,6 +22599,19 @@
 	quest.75630A8DC183C1CF.quest_subtitle: "{count:1,id:\"endermanoverhaul:corrupted_shield\"}"
 	quest.7563A8502A2B9CFD.quest_subtitle: "{components:{\"minecraft:potion_contents\":{potion:\"the_bumblezone:long_neurotoxin\"}},count:1,id:\"supplementaries:bamboo_spikes_tipped\"}"
 	quest.75647A97C957DCBA.quest_subtitle: "{count:1,id:\"reliquary:frozen_core\"}"
+	quest.7565DBC1E7DFF142.quest_desc: [
+		"Some magic requires &aessences of your targets&r, known as &bTaglocks&r. Hair, blood, toenail clippings... anything that was very closely tied to the target of the spell can be used."
+		""
+		"To collect such things, you will need a &bTaglock Kit&r, which consists of a &bGlass Jar&r and a &bBone Needle&r."
+		""
+		"You can use a &bTaglock Kit&r on &eanother player directly&r, but it might be better to &6shift right click on their bed&r instead. If you are planning to target &ayourself&r, you can use &ayour own bed&r for this!"
+		""
+		"You can also collect &ablood&r from &bBlood Poppies&r which have been walked through."
+		""
+		"From there, you'll need a &bPoppet&r to infuse."
+	]
+	quest.7565DBC1E7DFF142.quest_subtitle: "she turned me into a newt!"
+	quest.7565DBC1E7DFF142.title: "Baneful (or Beneficial) Magic"
 	quest.7566E9BC4BCD7042.quest_subtitle: "{count:1,id:\"another_furniture:acacia_table\"}"
 	quest.7567139D4D4B0CA4.quest_subtitle: "{components:{\"sophisticatedstorage:wood_type\":\"mangrove\"},count:1,id:\"sophisticatedstorage:limited_iron_barrel_4\"}"
 	quest.7567DC85C5093CB5.quest_subtitle: "{components:{\"ae2:facade_item\":\"colorfulazaleas:bromelia_azalea_planks\"},count:1,id:\"ae2:facade\"}"
@@ -23703,6 +23815,16 @@
 	quest.7C41AD3785CCE5CF.quest_subtitle: "{count:1,id:\"cnb:yeti_spawn_egg\"}"
 	quest.7C422EAFB5910113.quest_subtitle: "{components:{\"sophisticatedstorage:wood_type\":\"warped\"},count:1,id:\"sophisticatedstorage:limited_netherite_barrel_3\"}"
 	quest.7C432A5DCEB4FE4C.quest_subtitle: "{count:1,id:\"sophisticatedstorage:advanced_compacting_upgrade\"}"
+	quest.7C44602D8680B3BB.quest_desc: [
+		"To perform miracles of nature, you'll be wanting a &bRitual Table&r. Yes, you may have already made a &bRitual Pedestal&r - we're very big on ritual around here. This is &odifferent&r - one is a &bRitual &lPedestal&r and one is a &bRitual &lTable&r. Totally different things!"
+		""
+		"Anyway, so &acraft a &bHex Focus&r and &6right click it on some &bDeepslate&r to transform it into the &bRitual &lTable&r."
+		""
+		""
+		"The &bRitual Table&r requires &b8 fully grown crops&r at &athe same Y level&r to surround it, in order to power your rites. Completing a rite &asacrifices these plants&r and resets them to seedlings."
+		""
+		"Place offerings on &bRitual Braziers&r that have been &aanointed with &bRitual Salt&r, and finally, &6click the &bRitual Table&6 with your &bHex Focus&r."
+	]
 	quest.7C47161393ACC4BE.quest_desc: [
 		"This advancement requires you to &6put all &eFrog&6 variants on a &bLead&r."
 		""
@@ -24202,6 +24324,17 @@
 	quest.7EDC83214E119655.quest_subtitle: "{count:1,id:\"minecraft:powder_snow_bucket\"}"
 	quest.7EDF0DCBD8B4A47A.quest_subtitle: "{count:1,id:\"cluttered:puzzle_piece_table_yellow\"}"
 	quest.7EDF82853B509452.quest_subtitle: "{count:1,id:\"mysticsbiomes:grassy_lush_sand\"}"
+	quest.7EE0905786616EA8.quest_desc: [
+		"&bPoppets&r are small dolls &asewn from &bStraw&r and &bThread&r, and are used to &arepresent a spell's target&r - either yourself, or another player. In order to function, they must be in &athe target's inventory&r or &aon a poppet shelf&r. The exception is &bVoodoo Poppets&r, but we'll cover that later."
+		""
+		"There are different types of &bPoppet&r, the first being &abasic&r, then &asturdy&r, then &ainfused&r. A &bBasic Poppet&r has a single use. A &bSturdy Poppet&r has two. And although an &bInfused Poppet&r is single-use, it grants &astronger effects&r."
+		""
+		"Now, it's important to note that you &dcan't bind a plain Poppet&r, including the plain Sturdy and Infused versions. You must craft a &apoppet with a purpose&r. A purpet, if you will. Oh, you won't? Oh well."
+		""
+		"Take this &bHint of Rebirth&r to help you in the next step."
+	]
+	quest.7EE0905786616EA8.quest_subtitle: "poppet. twist it. pull it."
+	quest.7EE0905786616EA8.title: "Beginning Poppetry"
 	quest.7EE23A13849AC307.quest_subtitle: "{count:1,id:\"minecraft:dispenser\"}"
 	quest.7EE47FB4B86B8FE1.quest_subtitle: "{count:1,id:\"hearthandharvest:cherry_jam\"}"
 	quest.7EE64C505390E9BC.quest_subtitle: "{count:1,id:\"quark:crimson_vertical_slab\"}"
@@ -24228,7 +24361,7 @@
 		""
 		"Not all wools will work with this process, but why not &atry several different kinds&r and see what you can come up with?"
 		""
-		"And remember to $dbe patient&r - you'll need to hold right click &afor a while&r."
+		"And remember to &dbe patient&r - you'll need to hold right click &afor a while&r."
 	]
 	quest.7EF04ED51BC1C8D6.quest_subtitle: "it's like therapy"
 	quest.7EF04ED51BC1C8D6.title: "Obtain a Felting Needle"

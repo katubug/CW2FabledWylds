@@ -851,5 +851,8 @@ global.NUKED_ITEMS = [
     'hollowmarch:dark_oak_bookshelf',
     'hollowmarch:mangrove_bookshelf',
     'hollowmarch:cherry_bookshelf',
-    'hollowmarch:bamboo_bookshelf'
+    'hollowmarch:bamboo_bookshelf',
+    //enchanted mandrake
+    'enchanted:mandrake_root',
+    'enchanted:mandrake_seeds'
 ]

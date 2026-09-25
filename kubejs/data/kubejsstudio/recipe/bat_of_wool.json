@@ -1,0 +1,19 @@
+{
+  "type": "farmersdelight:cutting",
+  "ingredients": [
+    {
+      "item": "reliquary:bat_wing"
+    }
+  ],
+  "tool": {
+    "item": "hexalia:athame"
+  },
+  "result": [
+    {
+      "item": {
+        "count": 2,
+        "id": "enchanted:wool_of_bat"
+      }
+    }
+  ]
+}

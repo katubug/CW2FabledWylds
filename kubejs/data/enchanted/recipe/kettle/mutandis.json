@@ -5,6 +5,9 @@
       "item": "hexalia:tree_resin"
     },
     {
+      "tag": "fabled_wylds:mutandis_ingredients"
+    },
+    {
       "item": "enchanted:exhale_of_the_horned_one"
     },
     {
@@ -15,7 +18,7 @@
     }
   ],
   "output": {
-    "id": "enchanted:mutavis",
+    "id": "enchanted:mutandis",
     "count": 8
   },
   "grindingTime": 100

@@ -14,6 +14,7 @@
 			height: 10.0d
 			id: "649689396F3F0D07"
 			image: "fabled_wylds:textures/questui/logo.png"
+			quest_enhance_exclude_from_box_selection: 0b
 			rotation: 0.0d
 			width: 10.0d
 			x: 0.1d
@@ -23,6 +24,7 @@
 			height: 20.0d
 			id: "6BFA195E3BC50932"
 			image: "fabled_wylds:textures/questui/bookbgslg/green_book_lg.png"
+			quest_enhance_exclude_from_box_selection: 0b
 			rotation: 0.0d
 			width: 25.0d
 			x: 0.1d
@@ -33,6 +35,7 @@
 			height: 2.5d
 			id: "2050AE4B843D0F69"
 			image: "fabled_wylds:textures/questui/titles/beginnings.png"
+			quest_enhance_exclude_from_box_selection: 0b
 			rotation: 0.0d
 			width: 8.0d
 			x: -4.8d
@@ -43,6 +46,7 @@
 			height: 1.25d
 			id: "52E827D6773B7B03"
 			image: "fabled_wylds:textures/questui/subtitles/artofdeath.png"
+			quest_enhance_exclude_from_box_selection: 0b
 			rotation: 0.0d
 			width: 8.0d
 			x: 5.3d
@@ -53,6 +57,7 @@
 			height: 1.25d
 			id: "3C001DF8F4350C3B"
 			image: "fabled_wylds:textures/questui/subtitles/gifts.png"
+			quest_enhance_exclude_from_box_selection: 0b
 			rotation: 0.0d
 			width: 8.0d
 			x: -4.8d
@@ -63,6 +68,7 @@
 			height: 5.0d
 			id: "33839B99B54B2725"
 			image: "fabled_wylds:textures/questui/illustrations/house_icon.png"
+			quest_enhance_exclude_from_box_selection: 0b
 			rotation: 0.0d
 			width: 5.0d
 			x: -2.8d
@@ -77,6 +83,7 @@
 		{
 			icon_scale: 0.8d
 			id: "0DCDAC4C7D4F9F0B"
+			quest_enhance_disable_scroll_paging: false
 			rewards: [
 				{
 					id: "34D717CF618C6DD9"
@@ -418,6 +425,7 @@
 		{
 			id: "293AFFA188D96753"
 			preset: "config"
+			quest_enhance_disable_scroll_paging: false
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "3E3409867078F388"
@@ -436,6 +444,7 @@
 		{
 			id: "0291249FFD51DD05"
 			preset: "info"
+			quest_enhance_disable_scroll_paging: false
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "74013795A506AD71"
@@ -455,6 +464,7 @@
 			dependencies: ["293AFFA188D96753"]
 			id: "289832F0B384ABA7"
 			preset: "config"
+			quest_enhance_disable_scroll_paging: false
 			rewards: [
 				{
 					blessing: "恭喜发财"
@@ -501,6 +511,7 @@
 		{
 			id: "4ABFB1778565B4B7"
 			preset: "config"
+			quest_enhance_disable_scroll_paging: false
 			rewards: [
 				{
 					command: "/give @p sophisticatedbackpacks:backpack"
@@ -566,6 +577,7 @@
 		{
 			id: "66B094500E40DA3D"
 			preset: "start"
+			quest_enhance_disable_scroll_paging: false
 			rewards: [{
 				id: "70D409B168184D56"
 				item: {
@@ -594,6 +606,7 @@
 			hide_text_until_complete: true
 			id: "4E4072E3AFBBB7E7"
 			invisible: true
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				disable_toast: true
 				id: "091AA60339A71555"
@@ -607,6 +620,7 @@
 			dependencies: ["66B094500E40DA3D"]
 			id: "3FAE926346F1E576"
 			preset: "progression"
+			quest_enhance_disable_scroll_paging: false
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "0417442E65BED9A3"
@@ -640,6 +654,7 @@
 			dependencies: ["66B094500E40DA3D"]
 			id: "112917940415A7B1"
 			preset: "progression"
+			quest_enhance_disable_scroll_paging: false
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "484A18BB06FFBE2E"
@@ -662,6 +677,7 @@
 			dependencies: ["3FAE926346F1E576"]
 			id: "76D5DB6E94816C80"
 			preset: "advancement"
+			quest_enhance_disable_scroll_paging: false
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "725C2D73F8E0BC4B"
@@ -685,6 +701,7 @@
 		{
 			id: "7232C9D413054886"
 			preset: "info"
+			quest_enhance_disable_scroll_paging: false
 			rewards: [
 				{
 					id: "15CE6688B6EFC508"
@@ -715,6 +732,7 @@
 			dependencies: ["66B094500E40DA3D"]
 			id: "7F52A3C01776886D"
 			preset: "info"
+			quest_enhance_disable_scroll_paging: false
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "440E616B5BFBD39E"
@@ -738,6 +756,7 @@
 		{
 			id: "4C4835404E2B4DA3"
 			preset: "item"
+			quest_enhance_disable_scroll_paging: false
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "6CC350B3295E1083"
@@ -756,6 +775,7 @@
 		{
 			id: "5842543AA1FF2F36"
 			preset: "info"
+			quest_enhance_disable_scroll_paging: false
 			rewards: [
 				{
 					exclude_from_claim_all: true
@@ -796,6 +816,7 @@
 			dependencies: ["66B094500E40DA3D"]
 			id: "439A33514ABCCEFA"
 			preset: "item"
+			quest_enhance_disable_scroll_paging: false
 			rewards: [
 				{
 					exclude_from_claim_all: true

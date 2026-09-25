@@ -9,7 +9,7 @@
     }
   ],
   "output": {
-    "item": "hexalia:spirit_powder",
+    "id": "hexalia:spirit_powder",
     "count": 3
   },
   "grindingTime": 300

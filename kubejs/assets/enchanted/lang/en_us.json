@@ -1,5 +1,8 @@
 {
     "rite.enchanted.infusion_witchhazel_broom_from_willow": "Rite of Broom Infusion",
     "rite.enchanted.infusion_mahogany_broom_from_witchhazel": "Rite of Broom Infusion",
-    "rite.enchanted.infusion_cauldron": "Rite of Cauldron Infusion"
+    "rite.enchanted.infusion_cauldron": "Rite of Cauldron Infusion",
+    "item.enchanted.blooded_waystone": "Blooded Waymaker",
+    "item.enchanted.bound_waystone": "Bound Waymaker",
+    "item.enchanted.waystone": "Waymaker"
 }

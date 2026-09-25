@@ -19,6 +19,7 @@
 			height: 20.0d
 			id: "02A7C7D37F29FDC6"
 			image: "fabled_wylds:textures/questui/bookbgslg/purple_book_lg.png"
+			quest_enhance_exclude_from_box_selection: 0b
 			rotation: 0.0d
 			width: 25.0d
 			x: 7.0d
@@ -29,6 +30,7 @@
 			height: 2.5d
 			id: "5659D28A0796EC76"
 			image: "fabled_wylds:textures/questui/titles/brewingenchanting.png"
+			quest_enhance_exclude_from_box_selection: 0b
 			rotation: 0.0d
 			width: 9.0d
 			x: 2.0d
@@ -40,6 +42,7 @@
 			height: 0.4583333333333333d
 			id: "7CADD35EFB4F0B7F"
 			image: ""
+			quest_enhance_exclude_from_box_selection: 0b
 			rotation: 0.0d
 			width: 3.6666666666666665d
 			x: 2.0d
@@ -53,6 +56,7 @@
 	quests: [
 		{
 			id: "6E1B07BEB8F423BC"
+			quest_enhance_disable_scroll_paging: false
 			rewards: [{
 				count: 3
 				id: "3855496E7A2AB629"
@@ -72,6 +76,7 @@
 		}
 		{
 			id: "54F9B41F96399DE6"
+			quest_enhance_disable_scroll_paging: false
 			shape: "rsquare"
 			size: 2.0d
 			tasks: [{
@@ -91,6 +96,7 @@
 		{
 			id: "30EA6BEFEEBF9650"
 			preset: "start"
+			quest_enhance_disable_scroll_paging: false
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "4A4D80D18DA14DBD"
@@ -116,6 +122,7 @@
 		}
 		{
 			id: "0BDF6D5ED0A22E48"
+			quest_enhance_disable_scroll_paging: false
 			rewards: [
 				{
 					count: 5
@@ -145,6 +152,7 @@
 		{
 			always_invisible: true
 			id: "41E35091BA940B6E"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "779E2893C37E22E0"
 				type: "custom"
@@ -154,6 +162,7 @@
 		}
 		{
 			id: "6C519AFAC9A8866F"
+			quest_enhance_disable_scroll_paging: false
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "3725CEF497016799"

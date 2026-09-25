@@ -9,7 +9,7 @@
       "item": "minecraft:torch"
     },
     "S": {
-      "tag": "hearthandharvest:salt"
+      "tag": "c:dusts/salt"
     }
   },
   "pattern": [

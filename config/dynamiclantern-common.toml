@@ -2,3 +2,4 @@
 enableLanternSlot = false
 #Log Cold Sweat Soulspring Lamp Curios compatibility diagnostics while the lamp is equipped.
 soulspringLampDebugLog = false
+equippableItems = []

@@ -11,7 +11,8 @@ ItemEvents.entityInteracted(event => {
 
 ServerEvents.tags('entity_type', event => {
 
-	event.add('forge:lasso_banned',
+	event.add('fabled_wylds:lasso_banned',
+		'#fabled_wylds:cage_banned',
 		'minecraft:ender_dragon',
 		'minecraft:wither',
 		"#forge:bosses",
@@ -25,6 +26,10 @@ ServerEvents.tags('entity_type', event => {
 		"twilightforest:snow_queen",
 		"twilightforest:plateau_boss",
 		"minecraft:warden",
-		"artifacts:mimic", )
+		"artifacts:mimic",
+		"#the_bumblezone:bosses",
+		"#fieldguide:bosses",
+		"#adorablehamsterpets:bosses",
+		"#roots:bosses")
 
 })

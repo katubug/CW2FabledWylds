@@ -14,6 +14,7 @@
 			height: 20.0d
 			id: "3EC74D47BDB8BF50"
 			image: "fabled_wylds:textures/questui/bookbgslg/yellow_book_lg.png"
+			quest_enhance_exclude_from_box_selection: 0b
 			rotation: 0.0d
 			width: 25.0d
 			x: 17.4d
@@ -24,6 +25,7 @@
 			height: 2.5d
 			id: "1DADBC76BB8B8E74"
 			image: "fabled_wylds:textures/questui/titles/beginnings.png"
+			quest_enhance_exclude_from_box_selection: 0b
 			rotation: 0.0d
 			width: 9.0d
 			x: 12.4d
@@ -35,6 +37,7 @@
 			height: 1.25d
 			id: "4C5FF644E6AF538D"
 			image: "fabled_wylds:textures/questui/subtitles/sketching.png"
+			quest_enhance_exclude_from_box_selection: 0b
 			rotation: 0.0d
 			width: 8.0d
 			x: 12.4d
@@ -45,6 +48,7 @@
 			height: 1.25d
 			id: "3E3D431A95FB9280"
 			image: "fabled_wylds:textures/questui/subtitles/gifts.png"
+			quest_enhance_exclude_from_box_selection: 0b
 			rotation: 0.0d
 			width: 8.0d
 			x: 12.2d
@@ -55,6 +59,7 @@
 			height: 0.9d
 			id: "4FFC225D2755D538"
 			image: "fabled_wylds:textures/questui/flourishes/separator.png"
+			quest_enhance_exclude_from_box_selection: 0b
 			rotation: 0.0d
 			width: 8.0d
 			x: 12.3d
@@ -65,6 +70,7 @@
 			height: 3.0d
 			id: "56C42A58FAA378B7"
 			image: "fabled_wylds:textures/questui/flourishes/vert_separator.png"
+			quest_enhance_exclude_from_box_selection: 0b
 			rotation: 0.0d
 			width: 0.5d
 			x: 15.7d
@@ -75,6 +81,7 @@
 			height: 1.25d
 			id: "43241A46A27E258A"
 			image: "fabled_wylds:textures/questui/subtitles/sketching.png"
+			quest_enhance_exclude_from_box_selection: 0b
 			rotation: 0.0d
 			width: 8.0d
 			x: 11.8d
@@ -85,6 +92,7 @@
 			height: 1.25d
 			id: "0D66A54D71C1351C"
 			image: "fabled_wylds:textures/questui/subtitles/sketching.png"
+			quest_enhance_exclude_from_box_selection: 0b
 			rotation: 0.0d
 			width: 8.0d
 			x: 12.0d
@@ -95,6 +103,7 @@
 			height: 1.25d
 			id: "1A6D1B59C0243C4E"
 			image: "fabled_wylds:textures/questui/subtitles/sketching.png"
+			quest_enhance_exclude_from_box_selection: 0b
 			rotation: 0.0d
 			width: 8.0d
 			x: 12.1d
@@ -106,6 +115,7 @@
 			id: "3F8B31BCDB244FD0"
 			image: "fabled_wylds:textures/questui/subtitles/bakery.png"
 			order: 99
+			quest_enhance_exclude_from_box_selection: 0b
 			rotation: 0.0d
 			width: 8.0d
 			x: 12.5d
@@ -116,6 +126,7 @@
 			height: 5.0d
 			id: "0BB6A13403682F02"
 			image: "fabled_wylds:textures/questui/illustrations/fishing_icon.png"
+			quest_enhance_exclude_from_box_selection: 0b
 			rotation: 0.0d
 			width: 5.0d
 			x: 22.4d
@@ -129,6 +140,7 @@
 	quests: [
 		{
 			id: "3DFB7EF14F053582"
+			quest_enhance_disable_scroll_paging: false
 			rewards: [
 				{
 					command: "/give @p carved_pumpkin{CustomModelData:1,display:{Name:'[{\"text\":\"Mushroom Hat\",\"italic\":false,\"color\":\"yellow\"}]',Lore:['[{\"text\":\"A sweet lil mushroom hat.\",\"italic\":false}]']}} 1"
@@ -160,6 +172,7 @@
 		}
 		{
 			id: "598D07A8C3ED765A"
+			quest_enhance_disable_scroll_paging: false
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "5A6458979F8FE84D"
@@ -175,6 +188,7 @@
 		}
 		{
 			id: "12A73F1D8D2EF16A"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "5D78E66BA41E5B6A"
 				type: "checkmark"
@@ -184,6 +198,7 @@
 		}
 		{
 			id: "7E9EE22FD2FC5B56"
+			quest_enhance_disable_scroll_paging: false
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "47406269FF4C500F"
@@ -199,6 +214,7 @@
 		}
 		{
 			id: "575009D97B0E8BCD"
+			quest_enhance_disable_scroll_paging: false
 			shape: "katu_diamond"
 			size: 1.0d
 			tasks: [{
@@ -210,6 +226,7 @@
 		}
 		{
 			id: "414874592FEA3F3B"
+			quest_enhance_disable_scroll_paging: false
 			shape: "katu_fancysquare"
 			size: 1.0d
 			tasks: [{
@@ -221,6 +238,7 @@
 		}
 		{
 			id: "5D7577EBF85AAB3C"
+			quest_enhance_disable_scroll_paging: false
 			shape: "katu_flower"
 			size: 1.0d
 			tasks: [{
@@ -232,6 +250,7 @@
 		}
 		{
 			id: "7A628F24DD84EB93"
+			quest_enhance_disable_scroll_paging: false
 			shape: "katu_circle"
 			size: 1.0d
 			tasks: [{
@@ -243,6 +262,7 @@
 		}
 		{
 			id: "29B12CE9C0810374"
+			quest_enhance_disable_scroll_paging: false
 			shape: "katu_brace"
 			size: 1.0d
 			tasks: [{
@@ -254,6 +274,7 @@
 		}
 		{
 			id: "246D47A545CE840A"
+			quest_enhance_disable_scroll_paging: false
 			shape: "katu_banner"
 			size: 1.0d
 			tasks: [{
@@ -265,6 +286,7 @@
 		}
 		{
 			id: "5AF3F1F141E58232"
+			quest_enhance_disable_scroll_paging: false
 			shape: "katu_frame"
 			size: 1.0d
 			tasks: [{
@@ -276,6 +298,7 @@
 		}
 		{
 			id: "6AB271717C91972A"
+			quest_enhance_disable_scroll_paging: false
 			shape: "katu_gear"
 			size: 1.0d
 			tasks: [{
@@ -287,6 +310,7 @@
 		}
 		{
 			id: "2E686B4225204783"
+			quest_enhance_disable_scroll_paging: false
 			shape: "katu_heart"
 			size: 1.0d
 			tasks: [{
@@ -298,6 +322,7 @@
 		}
 		{
 			id: "70C9E6420BFD9865"
+			quest_enhance_disable_scroll_paging: false
 			shape: "katu_nocorners"
 			size: 1.0d
 			tasks: [{
@@ -309,6 +334,7 @@
 		}
 		{
 			id: "3F26FADE5B0BA686"
+			quest_enhance_disable_scroll_paging: false
 			shape: "katu_shield"
 			size: 1.0d
 			tasks: [{
@@ -320,6 +346,7 @@
 		}
 		{
 			id: "27E3184CD4B04D3E"
+			quest_enhance_disable_scroll_paging: false
 			shape: "katu_squarecircle"
 			size: 1.0d
 			tasks: [{
@@ -331,6 +358,7 @@
 		}
 		{
 			id: "76E26D512CBDF799"
+			quest_enhance_disable_scroll_paging: false
 			shape: "katu_thought"
 			size: 1.0d
 			tasks: [{
@@ -342,6 +370,7 @@
 		}
 		{
 			id: "3A842CE1C30B69BA"
+			quest_enhance_disable_scroll_paging: false
 			shape: "katu_veryfancysquare"
 			size: 1.0d
 			tasks: [{
@@ -353,6 +382,7 @@
 		}
 		{
 			id: "6CD029862CF03EF0"
+			quest_enhance_disable_scroll_paging: false
 			shape: "katu_window"
 			size: 1.0d
 			tasks: [{

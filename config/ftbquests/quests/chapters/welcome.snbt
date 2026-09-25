@@ -13,6 +13,7 @@
 			height: 10.0d
 			id: "77E25C23C1CA2F1B"
 			image: "fabled_wylds:textures/questui/logo.png"
+			quest_enhance_exclude_from_box_selection: 0b
 			rotation: 0.0d
 			width: 10.0d
 			x: 0.0d
@@ -23,6 +24,7 @@
 			height: 2.5d
 			id: "4B4A1262804A76C5"
 			image: "fabled_wylds:textures/questui/aklizbanner.png"
+			quest_enhance_exclude_from_box_selection: 0b
 			rotation: 0.0d
 			width: 10.0d
 			x: 0.0d
@@ -32,6 +34,7 @@
 			height: 7.187759336099585d
 			id: "3DD2E739978DA908"
 			image: "fabled_wylds:textures/questui/questkey.png"
+			quest_enhance_exclude_from_box_selection: 0b
 			rotation: 0.0d
 			width: 13.0d
 			x: 0.0d
@@ -41,6 +44,7 @@
 			height: 11.25d
 			id: "33F6266F32285AE3"
 			image: "fabled_wylds:textures/questui/welcomebanner.png"
+			quest_enhance_exclude_from_box_selection: 0b
 			rotation: 0.0d
 			width: 20.0d
 			x: 0.0d
@@ -52,6 +56,7 @@
 			id: "3E5ED4E172944013"
 			image: "moonlight:textures/gui/sprites/media/discord.png"
 			order: 99
+			quest_enhance_exclude_from_box_selection: 0b
 			rotation: 0.0d
 			width: 1.0d
 			x: 4.5d
@@ -63,6 +68,7 @@
 			id: "7EE333354E93796B"
 			image: "moonlight:textures/gui/sprites/media/github.png"
 			order: 99
+			quest_enhance_exclude_from_box_selection: 0b
 			rotation: 0.0d
 			width: 1.0d
 			x: 3.0d
@@ -73,6 +79,7 @@
 			height: 7.0d
 			id: "2F33F2564A98C14A"
 			image: "gabrielequests-mannequin:head=hexerei:witch_helmet,chest=hexerei:witch_chestplate,legs=fantasy_armor:malenia_leggings,feet=hexerei:witch_boots,main=roots:staff,off=,rot=342x-10"
+			quest_enhance_exclude_from_box_selection: 0b
 			rotation: 0.0d
 			width: 1.0d
 			x: 9.5d
@@ -87,6 +94,7 @@
 		{
 			id: "226D1B09B2958EFC"
 			preset: "info"
+			quest_enhance_disable_scroll_paging: false
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "052140B59D778437"
@@ -112,6 +120,7 @@
 		{
 			id: "171D4EACF7B9F4D5"
 			preset: "info"
+			quest_enhance_disable_scroll_paging: false
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "687709C126CC3338"
@@ -137,6 +146,7 @@
 			id: "26D8EAD9D892805E"
 			min_width: 350
 			preset: "info"
+			quest_enhance_disable_scroll_paging: false
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "3802B98E4ECD5544"
@@ -163,6 +173,7 @@
 			dependencies: ["26D8EAD9D892805E"]
 			id: "20F9C02AF5CBE665"
 			preset: "info"
+			quest_enhance_disable_scroll_paging: false
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "44179D9055BDC806"
@@ -188,6 +199,7 @@
 			id: "51383D499E0DF0DA"
 			min_width: 350
 			preset: "info"
+			quest_enhance_disable_scroll_paging: false
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "6B23859A30A961C9"
@@ -214,6 +226,7 @@
 			dependencies: ["51383D499E0DF0DA"]
 			id: "1E43FCEBA416DCFF"
 			preset: "info"
+			quest_enhance_disable_scroll_paging: false
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "0418D3D08D8C082D"
@@ -239,6 +252,7 @@
 			disable_toast: true
 			id: "504E46F5A1DCF256"
 			invisible: true
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "3155708C4E3D8956"
 				item: { count: 1, id: "ftbquests:barrier" }
@@ -250,6 +264,7 @@
 		{
 			id: "5763626E3E3E440B"
 			preset: "info"
+			quest_enhance_disable_scroll_paging: false
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "2DB46143D07B94DF"
@@ -275,6 +290,7 @@
 		{
 			id: "4B09C2508E25AD2B"
 			preset: "info"
+			quest_enhance_disable_scroll_paging: false
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "1D8BBD8662B7BCA6"
@@ -299,6 +315,7 @@
 		{
 			id: "17348DDF7E369519"
 			preset: "info"
+			quest_enhance_disable_scroll_paging: false
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "6F1C666A6CDCCF30"

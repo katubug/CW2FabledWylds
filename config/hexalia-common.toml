@@ -3,7 +3,7 @@
 	# Default: 5.0
 	# Range: 1.0 ~ 32.0
 	mandrakeScreamRadius = 5.0
-	# Default: 6
+	# Default: 8
 	# Range: 1 ~ 60
 	mandrakeStunDuration = 6
 	# Default: 8

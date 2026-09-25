@@ -14,6 +14,7 @@
 			height: 20.0d
 			id: "5C7DF8823ED57678"
 			image: "fabled_wylds:textures/questui/bookbgslg/blue_book_lg.png"
+			quest_enhance_exclude_from_box_selection: 0b
 			rotation: 0.0d
 			width: 25.0d
 			x: -0.5d
@@ -25,6 +26,7 @@
 			height: 2.5d
 			id: "7BEE68A4305106E4"
 			image: "fabled_wylds:textures/questui/titles/twilightforest.png"
+			quest_enhance_exclude_from_box_selection: 0b
 			rotation: 0.0d
 			width: 9.0d
 			x: -5.5d
@@ -35,6 +37,7 @@
 			height: 5.0d
 			id: "553D8D195D32F582"
 			image: "gabrielequests-portal:id=twilightforest:twilight_portal,frame=minecraft:grass_block,shape=flat,size=2x1x2,axis=x,corners=1,lit=1,base=1,decor=1,eyes=0,view=0,rot=160x40"
+			quest_enhance_exclude_from_box_selection: 0b
 			rotation: 0.0d
 			width: 5.0d
 			x: -3.0d
@@ -53,6 +56,7 @@
 			}
 			id: "730964D8E1FD059F"
 			preset: "milestone"
+			quest_enhance_disable_scroll_paging: false
 			rewards: [{
 				id: "33E22D562AA8E674"
 				item: {
@@ -72,6 +76,7 @@
 		{
 			id: "399D55B3452588FF"
 			preset: "start"
+			quest_enhance_disable_scroll_paging: false
 			rewards: [
 				{
 					count: 3
@@ -119,6 +124,7 @@
 			id: "3B33F8C27B3361AC"
 			optional: true
 			preset: "progression"
+			quest_enhance_disable_scroll_paging: false
 			rewards: [{
 				id: "20CCE9FE42DB3136"
 				item: {
@@ -147,6 +153,7 @@
 		{
 			dependencies: ["3B33F8C27B3361AC"]
 			id: "0F55C73877E7FD90"
+			quest_enhance_disable_scroll_paging: false
 			rewards: [{
 				count: 5
 				id: "03F8A5DF08431675"
@@ -168,6 +175,7 @@
 		{
 			id: "03102B4CD0BE7031"
 			preset: "locate"
+			quest_enhance_disable_scroll_paging: false
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "0132451EADD279F3"
@@ -186,6 +194,7 @@
 		{
 			id: "5B5DB6950BD9BC15"
 			preset: "item"
+			quest_enhance_disable_scroll_paging: false
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "17794B6498BED455"
@@ -204,6 +213,7 @@
 		{
 			id: "6A5281FA52C785C6"
 			preset: "item"
+			quest_enhance_disable_scroll_paging: false
 			rewards: [
 				{
 					id: "6497B38870E2FDB2"
@@ -232,6 +242,7 @@
 		{
 			id: "2ACCE2B7760206C9"
 			preset: "item"
+			quest_enhance_disable_scroll_paging: false
 			rewards: [
 				{
 					id: "2AA5905FFDE223BA"
@@ -260,6 +271,7 @@
 		{
 			id: "62A0D663EF2B58C1"
 			preset: "item"
+			quest_enhance_disable_scroll_paging: false
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "5E839175F45C50CA"
@@ -278,6 +290,7 @@
 		{
 			id: "79B6B78157E7D32C"
 			preset: "item"
+			quest_enhance_disable_scroll_paging: false
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "26CECC24CF29FE88"
@@ -296,6 +309,7 @@
 		{
 			id: "7D15924C5AEAC669"
 			preset: "item"
+			quest_enhance_disable_scroll_paging: false
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "6D807F05865AC629"
@@ -318,6 +332,7 @@
 			}
 			id: "00B1A6C679547AF2"
 			preset: "locate"
+			quest_enhance_disable_scroll_paging: false
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "619D4896AF873873"
@@ -338,6 +353,7 @@
 			id: "14B45702F0F82689"
 			optional: true
 			preset: "turnin"
+			quest_enhance_disable_scroll_paging: false
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "7771E6330DD900F1"
@@ -359,6 +375,7 @@
 			dependencies: ["3A0205CA0568641F"]
 			id: "1B8E61A0872EEA1C"
 			preset: "locate"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				icon: {
 					id: "twilightforest:lich_tower_miniature_structure"
@@ -373,6 +390,7 @@
 		{
 			id: "6016A3D8B7FD7A14"
 			preset: "locate"
+			quest_enhance_disable_scroll_paging: false
 			rewards: [{
 				id: "00A454F3DD11BB05"
 				type: "xp_levels"
@@ -393,6 +411,7 @@
 			dependencies: ["169272849A588544"]
 			id: "3657239C35390F17"
 			preset: "locate"
+			quest_enhance_disable_scroll_paging: false
 			rewards: [{
 				count: 5
 				id: "0563B2194472DE74"
@@ -417,6 +436,7 @@
 			dependencies: ["6016A3D8B7FD7A14"]
 			id: "187BD92930BA8670"
 			preset: "item"
+			quest_enhance_disable_scroll_paging: false
 			rewards: [
 				{
 					count: 10
@@ -448,6 +468,7 @@
 			id: "23E5790A6CC6524C"
 			optional: true
 			preset: "turnin"
+			quest_enhance_disable_scroll_paging: false
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "41722F766C085C34"
@@ -468,6 +489,7 @@
 		{
 			id: "10C91592DCBC6FBD"
 			preset: "locate"
+			quest_enhance_disable_scroll_paging: false
 			rewards: [{
 				count: 5
 				id: "76B6287EE4098FC2"
@@ -492,6 +514,7 @@
 			dependencies: ["470A6825C49EEFAF"]
 			id: "5C463B10FDE8CEF2"
 			preset: "locate"
+			quest_enhance_disable_scroll_paging: false
 			rewards: [{
 				count: 32
 				id: "3E662212CD97B0B4"
@@ -515,6 +538,7 @@
 		{
 			id: "41CBB146259DAF34"
 			preset: "locate"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				icon: {
 					id: "twilightforest:alpha_yeti_trophy"
@@ -530,6 +554,7 @@
 			dependencies: ["2F267ADA86FA5503"]
 			id: "2C905E4DE5051CC5"
 			preset: "locate"
+			quest_enhance_disable_scroll_paging: false
 			rewards: [
 				{
 					count: 32
@@ -578,6 +603,7 @@
 			]
 			id: "2A52CFAE2D88AC1D"
 			preset: "progression"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				biome: "twilightforest:highlands"
 				icon: {
@@ -593,6 +619,7 @@
 			dependencies: ["2A52CFAE2D88AC1D"]
 			id: "2B8E1553C1487EBA"
 			preset: "milestone"
+			quest_enhance_disable_scroll_paging: false
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "40E93A2B2452F75B"
@@ -614,6 +641,7 @@
 			dependencies: ["00B1A6C679547AF2"]
 			id: "3A0205CA0568641F"
 			preset: "boss"
+			quest_enhance_disable_scroll_paging: false
 			rewards: [
 				{
 					id: "1F8FACBC9C53DC41"
@@ -645,6 +673,7 @@
 			dependencies: ["1B8E61A0872EEA1C"]
 			id: "62F755926795DBB6"
 			preset: "progression"
+			quest_enhance_disable_scroll_paging: false
 			rewards: [{
 				id: "1297B897EC9603F7"
 				item: {
@@ -669,6 +698,7 @@
 			dependencies: ["10C91592DCBC6FBD"]
 			id: "470A6825C49EEFAF"
 			preset: "boss"
+			quest_enhance_disable_scroll_paging: false
 			rewards: [{
 				id: "6E61129F3516D660"
 				item: {
@@ -690,6 +720,7 @@
 			dependencies: ["5C463B10FDE8CEF2"]
 			id: "761DD39F82235893"
 			preset: "boss"
+			quest_enhance_disable_scroll_paging: false
 			rewards: [{
 				id: "7A19C939ED75E268"
 				item: {
@@ -711,6 +742,7 @@
 			dependencies: ["6016A3D8B7FD7A14"]
 			id: "169272849A588544"
 			preset: "progression"
+			quest_enhance_disable_scroll_paging: false
 			rewards: [{
 				id: "570E54B773C478EA"
 				item: {
@@ -732,6 +764,7 @@
 			dependencies: ["3657239C35390F17"]
 			id: "54A57B37E1C04785"
 			preset: "boss"
+			quest_enhance_disable_scroll_paging: false
 			rewards: [{
 				id: "59B149EEE3F36F50"
 				item: {
@@ -753,6 +786,7 @@
 			dependencies: ["03C828F2F895A23C"]
 			id: "2F267ADA86FA5503"
 			preset: "boss"
+			quest_enhance_disable_scroll_paging: false
 			rewards: [{
 				id: "33CCF59E9F804766"
 				item: {
@@ -774,6 +808,7 @@
 			dependencies: ["2C905E4DE5051CC5"]
 			id: "27AFCBF70AA24760"
 			preset: "boss"
+			quest_enhance_disable_scroll_paging: false
 			rewards: [{
 				id: "59D69494D0E58D6B"
 				item: {
@@ -794,6 +829,7 @@
 		{
 			id: "4EAE4C40B444930A"
 			preset: "milestone"
+			quest_enhance_disable_scroll_paging: false
 			rewards: [
 				{
 					id: "315D065F86EA659A"
@@ -836,6 +872,7 @@
 			hide_dependent_lines: true
 			id: "25CB8D0869249D24"
 			preset: "start"
+			quest_enhance_disable_scroll_paging: false
 			rewards: [
 				{
 					id: "0D066AD26675EA61"
@@ -890,6 +927,7 @@
 			id: "723D12B934CAB46C"
 			invisible: true
 			optional: true
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "599A10FC4B6BB02E"
 				item: { count: 1, id: "ftbquests:barrier" }
@@ -902,6 +940,7 @@
 			dependencies: ["2B8E1553C1487EBA"]
 			id: "7C4B0608CCE37793"
 			preset: "boss"
+			quest_enhance_disable_scroll_paging: false
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "5569D16674F2FEF7"
@@ -928,6 +967,7 @@
 			dependencies: ["41CBB146259DAF34"]
 			id: "03C828F2F895A23C"
 			preset: "progression"
+			quest_enhance_disable_scroll_paging: false
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "7AF50B072062AAB4"
@@ -949,6 +989,7 @@
 			id: "286F4DD16E3755B0"
 			optional: true
 			preset: "turnin"
+			quest_enhance_disable_scroll_paging: false
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "038BF26AC6619904"

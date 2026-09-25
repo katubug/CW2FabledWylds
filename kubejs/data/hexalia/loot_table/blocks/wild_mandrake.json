@@ -1,5 +1,6 @@
 {
   "type": "minecraft:block",
+  "random_sequence": "hexalia:blocks/wild_mandrake",
   "pools": [
     {
       "bonus_rolls": 0.0,
@@ -8,14 +9,13 @@
           "condition": "minecraft:survives_explosion"
         }
       ],
+      "rolls": 1.0,
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "enchanted:mandrake_seeds"
+          "name": "hexalia:mandrake_seeds"
         }
-      ],
-      "rolls": 1.0
+      ]
     }
-  ],
-  "random_sequence": "hexalia:blocks/wild_mandrake"
+  ]
 }

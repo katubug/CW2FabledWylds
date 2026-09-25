@@ -14,10 +14,10 @@
       "item": "minecraft:potato"
     },
     {
-      "item": "c:dusts/salt"
+      "tag": "c:dusts/salt"
     },
     {
-      "item": "c:dusts/salt"
+      "tag": "c:dusts/salt"
     },
     {
       "tag": "forge:milk/milk_bottle"

@@ -16,6 +16,7 @@
 			height: 20.0d
 			id: "57887EF111402D96"
 			image: "fabled_wylds:textures/questui/shop/shopbg.png"
+			quest_enhance_exclude_from_box_selection: 0b
 			rotation: 0.0d
 			width: 15.0d
 			x: 1.0d
@@ -26,6 +27,7 @@
 			height: 4.0d
 			id: "634120AEE677C02E"
 			image: "fabled_wylds:textures/questui/shop/shopbgframe.png"
+			quest_enhance_exclude_from_box_selection: 0b
 			rotation: 0.0d
 			width: 7.0d
 			x: 16.5d
@@ -36,6 +38,7 @@
 			height: 4.0d
 			id: "04DBDF9304BB4CDF"
 			image: "fabled_wylds:textures/questui/shop/shopbgframe.png"
+			quest_enhance_exclude_from_box_selection: 0b
 			rotation: 0.0d
 			width: 7.0d
 			x: 3.5d
@@ -47,6 +50,7 @@
 			height: 0.4493400417865495d
 			id: "0794772FCA527F55"
 			image: ""
+			quest_enhance_exclude_from_box_selection: 0b
 			rotation: 0.0d
 			width: 2.5734929665956927d
 			x: -1.5d
@@ -58,6 +62,7 @@
 			height: 0.4493400417865495d
 			id: "52D68B4B33985359"
 			image: ""
+			quest_enhance_exclude_from_box_selection: 0b
 			rotation: 0.0d
 			width: 2.5734929665956927d
 			x: 16.5d
@@ -69,6 +74,7 @@
 			height: 0.4583333333333333d
 			id: "4526F88F931EBBF0"
 			image: ""
+			quest_enhance_exclude_from_box_selection: 0b
 			rotation: 0.0d
 			width: 2.1666666666666665d
 			x: 3.5d
@@ -79,6 +85,7 @@
 			height: 4.0d
 			id: "74264847FCD5BC0B"
 			image: "fabled_wylds:textures/questui/shop/shopbgframe.png"
+			quest_enhance_exclude_from_box_selection: 0b
 			rotation: 0.0d
 			width: 7.0d
 			x: -1.5d
@@ -89,6 +96,7 @@
 			height: 4.0d
 			id: "3404372640A4EF7B"
 			image: "fabled_wylds:textures/questui/shop/shopbgframe.png"
+			quest_enhance_exclude_from_box_selection: 0b
 			rotation: 0.0d
 			width: 7.0d
 			x: 3.5d
@@ -100,6 +108,7 @@
 			height: 0.4583333333333333d
 			id: "4F6F72F1A55B2950"
 			image: ""
+			quest_enhance_exclude_from_box_selection: 0b
 			rotation: 0.0d
 			width: 2.5833333333333335d
 			x: 3.5d
@@ -111,6 +120,7 @@
 			id: "0BBCC2CAE0222645"
 			image: "fabled_wylds:textures/questui/shop/shopbg.png"
 			order: -1
+			quest_enhance_exclude_from_box_selection: 0b
 			rotation: 0.0d
 			width: 15.0d
 			x: -12.0d
@@ -121,6 +131,7 @@
 			height: 5.0d
 			id: "584BE2F44EBF8F21"
 			image: "gabrielequests-mannequin:head=broom_closet:druid_horns,chest=,legs=,feet=,main=,off=,rot=30x-2"
+			quest_enhance_exclude_from_box_selection: 0b
 			rotation: 0.0d
 			width: 1.0d
 			x: -16.5d
@@ -132,6 +143,7 @@
 			height: 0.3611699787875964d
 			id: "7B43368ABACEFC3A"
 			image: ""
+			quest_enhance_exclude_from_box_selection: 0b
 			rotation: 0.0d
 			width: 1.7401826250675099d
 			x: -12.0d
@@ -143,6 +155,7 @@
 			id: "0DABDAA3B11570B9"
 			image: "fabled_wylds:textures/questui/shop/shopdivider.png"
 			order: 5
+			quest_enhance_exclude_from_box_selection: 0b
 			rotation: 0.0d
 			width: 13.0d
 			x: -12.0d
@@ -153,6 +166,7 @@
 			height: 5.0d
 			id: "4C126EB6F74B42BE"
 			image: "gabrielequests-mannequin:head=broom_closet:cat_ears,chest=,legs=,feet=,main=,off=,rot=346x0"
+			quest_enhance_exclude_from_box_selection: 0b
 			rotation: 0.0d
 			width: 1.0d
 			x: -8.0d
@@ -163,6 +177,7 @@
 			height: 5.0d
 			id: "36F6CD8E4DFD88E4"
 			image: "gabrielequests-mannequin:head=broom_closet:demon_horns,chest=,legs=,feet=,main=,off=,rot=0x0"
+			quest_enhance_exclude_from_box_selection: 0b
 			rotation: 0.0d
 			width: 1.0d
 			x: -12.0d
@@ -173,6 +188,7 @@
 			height: 5.0d
 			id: "1C62A1C21E801DEC"
 			image: "gabrielequests-mannequin:head=broom_closet:elf_ears,chest=,legs=,feet=,main=,off=,rot=30x-2"
+			quest_enhance_exclude_from_box_selection: 0b
 			rotation: 0.0d
 			width: 1.0d
 			x: -16.5d
@@ -183,6 +199,7 @@
 			height: 5.0d
 			id: "63404C2F8B909526"
 			image: "gabrielequests-mannequin:head=broom_closet:frog,chest=,legs=,feet=,main=,off=,rot=338x0"
+			quest_enhance_exclude_from_box_selection: 0b
 			rotation: 0.0d
 			width: 1.0d
 			x: -13.0d
@@ -193,6 +210,7 @@
 			height: 5.0d
 			id: "78EB3B274E36BCB2"
 			image: "gabrielequests-mannequin:head=broom_closet:frog_top_hat,chest=,legs=,feet=,main=,off=,rot=340x-12"
+			quest_enhance_exclude_from_box_selection: 0b
 			rotation: 0.0d
 			width: 1.0d
 			x: -8.0d
@@ -203,6 +221,7 @@
 			height: 5.0d
 			id: "6C5717D473144241"
 			image: "gabrielequests-mannequin:head=broom_closet:goblin_ears,chest=,legs=,feet=,main=,off=,rot=38x-4"
+			quest_enhance_exclude_from_box_selection: 0b
 			rotation: 0.0d
 			width: 1.0d
 			x: -14.5d
@@ -213,6 +232,7 @@
 			height: 5.0d
 			id: "1EDF8B138D70450D"
 			image: "gabrielequests-mannequin:head=broom_closet:antlers,chest=,legs=,feet=,main=,off=,rot=324x-2"
+			quest_enhance_exclude_from_box_selection: 0b
 			rotation: 0.0d
 			width: 1.0d
 			x: -10.0d
@@ -224,6 +244,7 @@
 			id: "245782A41F5C32BB"
 			image: "fabled_wylds:textures/questui/shop/shopbg.png"
 			order: -99
+			quest_enhance_exclude_from_box_selection: 0b
 			rotation: 0.0d
 			width: 15.0d
 			x: 14.0d
@@ -234,6 +255,7 @@
 			height: 4.0d
 			id: "40430C33C2C26DC4"
 			image: "fabled_wylds:textures/questui/shop/shopbgframe.png"
+			quest_enhance_exclude_from_box_selection: 0b
 			rotation: 0.0d
 			width: 7.0d
 			x: 11.5d
@@ -246,6 +268,7 @@
 			id: "46EC398808E919B3"
 			image: ""
 			order: 5
+			quest_enhance_exclude_from_box_selection: 0b
 			rotation: 0.0d
 			width: 3.87257502305519d
 			x: 11.5d
@@ -256,6 +279,7 @@
 			height: 4.0d
 			id: "7E285CDF1FABD999"
 			image: "fabled_wylds:textures/questui/shop/shopbgframe.png"
+			quest_enhance_exclude_from_box_selection: 0b
 			rotation: 0.0d
 			width: 7.0d
 			x: -1.5d
@@ -267,6 +291,7 @@
 			height: 0.4583333333333333d
 			id: "7ACBF1C12029950E"
 			image: ""
+			quest_enhance_exclude_from_box_selection: 0b
 			rotation: 0.0d
 			width: 3.4166666666666665d
 			x: -1.5d
@@ -278,6 +303,7 @@
 			height: 0.4583333333333333d
 			id: "114E631B4587024A"
 			image: ""
+			quest_enhance_exclude_from_box_selection: 0b
 			rotation: 0.0d
 			width: 3.6666666666666665d
 			x: 0.5d
@@ -293,6 +319,7 @@
 			can_repeat: false
 			id: "4971EB753FE0E6CC"
 			preset: "start"
+			quest_enhance_disable_scroll_paging: false
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "7F8FF7CA18138E91"
@@ -318,6 +345,7 @@
 				id: "hexalia:small_cauldron"
 			}
 			id: "130C66471B8C8E27"
+			quest_enhance_disable_scroll_paging: false
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "0C1F56151F685191"
@@ -348,6 +376,7 @@
 				id: "hexerei:mixing_cauldron"
 			}
 			id: "64E8A8E1C9A939C9"
+			quest_enhance_disable_scroll_paging: false
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "0CC4817B389E0111"
@@ -378,6 +407,7 @@
 				id: "cluttered:small_cauldron_set"
 			}
 			id: "7CB21D08253F62F6"
+			quest_enhance_disable_scroll_paging: false
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "6567DDB9ABD46732"
@@ -408,6 +438,7 @@
 				id: "moresnifferflowers:beroot_cauldron"
 			}
 			id: "57B6789EE4B210E9"
+			quest_enhance_disable_scroll_paging: false
 			rewards: [
 				{
 					exclude_from_claim_all: true
@@ -462,6 +493,7 @@
 				id: "reliquary:apothecary_cauldron"
 			}
 			id: "1D27E531CF01450E"
+			quest_enhance_disable_scroll_paging: false
 			rewards: [
 				{
 					exclude_from_claim_all: true
@@ -508,6 +540,7 @@
 				id: "farmersdelight:cooking_pot"
 			}
 			id: "55E84F0C46D17AF5"
+			quest_enhance_disable_scroll_paging: false
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "440EA7E19639F245"
@@ -538,6 +571,7 @@
 				id: "farm_and_charm:cooking_pot"
 			}
 			id: "5D02706F32B44B08"
+			quest_enhance_disable_scroll_paging: false
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "728407D5D0311F0F"
@@ -568,6 +602,7 @@
 				id: "meadow:cookpot"
 			}
 			id: "49EE2D61A0D4D01C"
+			quest_enhance_disable_scroll_paging: false
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "54E24F30D07F16F3"
@@ -598,6 +633,7 @@
 				id: "hexerei:pestle_and_mortar"
 			}
 			id: "0B0B5160EA821956"
+			quest_enhance_disable_scroll_paging: false
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "2A5B44BF1773921F"
@@ -628,6 +664,7 @@
 				id: "tarotcards:temperance"
 			}
 			id: "3F47F402ECEF06A3"
+			quest_enhance_disable_scroll_paging: false
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "04F9EB5B4BB38315"
@@ -651,6 +688,7 @@
 				id: "tarotcards:the_fool"
 			}
 			id: "20857C9F84A08F08"
+			quest_enhance_disable_scroll_paging: false
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "7D0D424296F5E7C8"
@@ -674,6 +712,7 @@
 				id: "tarotcards:justice"
 			}
 			id: "379BBBB45274DA68"
+			quest_enhance_disable_scroll_paging: false
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "2AC99A89B479D1D6"
@@ -697,6 +736,7 @@
 				id: "tarotcards:death"
 			}
 			id: "7B961AF6E8BF8EE0"
+			quest_enhance_disable_scroll_paging: false
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "3E9696D081DC7516"
@@ -720,6 +760,7 @@
 				id: "tarotcards:tarot_deck"
 			}
 			id: "7FFDEC31AD094335"
+			quest_enhance_disable_scroll_paging: false
 			rewards: [{
 				id: "69346B3E9B4AE166"
 				item: {
@@ -745,6 +786,7 @@
 				id: "exposure:black_and_white_film"
 			}
 			id: "0ADDED8D0A193EF8"
+			quest_enhance_disable_scroll_paging: false
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "1A04CFACA7952845"
@@ -772,6 +814,7 @@
 		}
 		{
 			id: "63984978A1AADF30"
+			quest_enhance_disable_scroll_paging: false
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "67FCFA2D1972869A"
@@ -802,6 +845,7 @@
 				id: "exposure:high_sensitivity_black_and_white_film"
 			}
 			id: "04EA0AA493E41274"
+			quest_enhance_disable_scroll_paging: false
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "7D3395243CBA5044"
@@ -829,6 +873,7 @@
 		}
 		{
 			id: "11A001C9B2413F91"
+			quest_enhance_disable_scroll_paging: false
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "6275D4806C5AE956"
@@ -859,6 +904,7 @@
 				id: "twilightforest:travellers_belt"
 			}
 			id: "2EAC1A939E22DF84"
+			quest_enhance_disable_scroll_paging: false
 			rewards: [{
 				command: "/curios add belt @p 1"
 				console: true
@@ -887,6 +933,7 @@
 				id: "minecraft:iron_chestplate"
 			}
 			id: "203C69CA13DFF734"
+			quest_enhance_disable_scroll_paging: false
 			rewards: [{
 				command: "/curios add body @p 1"
 				console: true
@@ -946,6 +993,7 @@
 				id: "artifacts:onion_ring"
 			}
 			id: "5F701DECF017C7BF"
+			quest_enhance_disable_scroll_paging: false
 			rewards: [{
 				command: "/curios add ring @p 1"
 				console: true
@@ -1030,6 +1078,7 @@
 				id: "minecraft:cow_spawn_egg"
 			}
 			id: "45964A10A11F9924"
+			quest_enhance_disable_scroll_paging: false
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "1E50617B0DBF4E47"
@@ -1053,6 +1102,7 @@
 				id: "broom_closet:cat_ears"
 			}
 			id: "50C0D0CE7E13EE91"
+			quest_enhance_disable_scroll_paging: false
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "5F01D06C48AD2D08"
@@ -1083,6 +1133,7 @@
 				id: "broom_closet:druid_horns"
 			}
 			id: "08FFDD3033FC7A9B"
+			quest_enhance_disable_scroll_paging: false
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "64DAA5E47077F595"
@@ -1113,6 +1164,7 @@
 				id: "broom_closet:demon_horns"
 			}
 			id: "7AE10F46E005B646"
+			quest_enhance_disable_scroll_paging: false
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "4B3ACFA7748D7E9A"
@@ -1142,6 +1194,7 @@
 				id: "broom_closet:elf_ears"
 			}
 			id: "29612C509F96B63D"
+			quest_enhance_disable_scroll_paging: false
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "2A2A5C16219EBA6F"
@@ -1172,6 +1225,7 @@
 				id: "broom_closet:frog"
 			}
 			id: "2A97D3E6C140611E"
+			quest_enhance_disable_scroll_paging: false
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "31B2EB35F1270108"
@@ -1202,6 +1256,7 @@
 				id: "broom_closet:frog_top_hat"
 			}
 			id: "2DC00391DC52D716"
+			quest_enhance_disable_scroll_paging: false
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "451B8710B9F03631"
@@ -1232,6 +1287,7 @@
 				id: "broom_closet:goblin_ears"
 			}
 			id: "106FDB5A3E89127E"
+			quest_enhance_disable_scroll_paging: false
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "47BE01FDDD4E6E90"
@@ -1262,6 +1318,7 @@
 				id: "broom_closet:antlers"
 			}
 			id: "303CFA0591015A89"
+			quest_enhance_disable_scroll_paging: false
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "3B95CB979E962045"
@@ -1289,6 +1346,7 @@
 		}
 		{
 			id: "7FDCB7F0C6C8EADA"
+			quest_enhance_disable_scroll_paging: false
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "7680E4CF79351FE2"
@@ -1309,6 +1367,7 @@
 		}
 		{
 			id: "21BCCEDD06A1C052"
+			quest_enhance_disable_scroll_paging: false
 			rewards: [{
 				count: 16
 				exclude_from_claim_all: true

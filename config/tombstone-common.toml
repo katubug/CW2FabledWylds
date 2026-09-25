@@ -11,7 +11,7 @@
 	#Prevents death outside the borders of the world [false/true|default:true]
 	prevent_death_outside_world_border = true
 	#Prevents death outside the build height [false/true|default:false]
-	prevent_death_outside_build_height = false
+	prevent_death_outside_build_height = true
 	#Allows to fill an existing grave instead of creating a new one [false/true|default:true]
 	allow_to_fill_existing_grave = true
 	#Caps the duration of Ghostly Shape effect to 10 seconds when teleporting with a Grave's Key [false/true|default:true]
@@ -27,7 +27,7 @@
 	#Percent of stolen experience by killing a player when PvP mode is enabled [0..100|default:30]
 	# Default: 30
 	# Range: 0 ~ 100
-	pvp_stolen_xp = 30
+	pvp_stolen_xp = 0
 	#The chance that some items are lost on death [0..100|default:0]
 	# Default: 0
 	# Range: 0 ~ 100
@@ -209,9 +209,9 @@
 #Allows to enable some features related to others mods
 [compatibility]
 	#Allows to auto-equip the slots from Curio mod [false/true|default:true]
-	curio_auto_equip = true
+	curio_auto_equip = false
 	#Keeps the cosmetic armor when you die [false/true|default:true]
-	keep_cosmetic_armor = true
+	keep_cosmetic_armor = false
 	#Ensure the potion effects to stay on the player after returning from end conquered [false/true|default:true]
 	preserve_effects_on_return_end_conquered = true
 

@@ -8,7 +8,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "enchanted:mandrake_seeds"
+          "name": "hexerei:mandrake_plant"
         }
       ]
     }

@@ -26,10 +26,10 @@
 		[beds.gameplay.tiers]
 			#Whether the time required to complete sleep changes with the bed tier.
 			#Other mods' beds are treated as Tier BASIC.
-			tieredSleepDurationEnabled = true
+			tieredSleepDurationEnabled = false
 			#Whether vanilla Minecraft beds use the Tier BASIC sleep-duration multiplier.
 			#When disabled, vanilla beds always keep vanilla's five-second sleep duration.
-			vanillaBedsUseTieredSleepDuration = true
+			vanillaBedsUseTieredSleepDuration = false
 			#Whether vanilla Minecraft beds use their resolved tier's respawn rule.
 			#With the default assignments and basic.setsSpawn=false, enabling this means vanilla beds do not set spawn.
 			#When disabled, vanilla beds always set spawn normally.
@@ -39,7 +39,7 @@
 
 			[beds.gameplay.tiers.basic]
 				#Whether beds in this tier set the player's respawn point.
-				setsSpawn = false
+				setsSpawn = true
 				#Multiplier applied to vanilla's five-second sleep duration.
 				# Default: 2.0
 				# Range: 0.1 ~ 10.0

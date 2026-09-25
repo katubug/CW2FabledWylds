@@ -3,7 +3,7 @@
   "global": {
     "enabled": true,
     "background_animation_duration": 300,
-    "blur_all_transparent_screens": true,
+    "blur_all_transparent_screens": false,
     "background_dimming_intensity": 0.2,
     "background_animation_easing": "ease_out_cubic",
     "element_profiles": {
@@ -108,11 +108,11 @@
       "custom_profiles": {}
     },
     "book_edit": {
-      "enabled": true,
+      "enabled": false,
       "custom_profiles": {}
     },
     "book_view": {
-      "enabled": true,
+      "enabled": false,
       "custom_profiles": {}
     },
     "smithing": {
