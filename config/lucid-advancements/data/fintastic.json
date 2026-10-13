@@ -4,13 +4,14 @@
     {
       "id": "fintastic/root",
       "advancement_root": "fintastic:fintastic/root",
-      "title": "Yet Another Fish Mod...",
-      "description": "It's Fintastic!",
+      "title": "advancements.fintastic.root.title",
+      "description": "advancements.fintastic.root.description",
       "icon": {
         "type": "item",
         "value": "fintastic:featherback"
       },
-      "enabled": true
+      "enabled": true,
+      "localized": true
     }
   ]
 }

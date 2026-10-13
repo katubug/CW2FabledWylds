@@ -1,0 +1,124 @@
+{
+  "enabled": true,
+  "mod_name": "[Let\u0027s Do] Furniture",
+  "mod_id": "furniture",
+  "achievements": {
+    "furniture/gramophone": {
+      "display_name": "Earworm",
+      "original_name": "Earworm",
+      "icon": "furniture:gramophone",
+      "enabled": true,
+      "rewards": {
+        "attributes": {}
+      }
+    },
+    "furniture/stargazer": {
+      "display_name": "Stargazer",
+      "original_name": "Stargazer",
+      "icon": "furniture:telescope",
+      "enabled": true,
+      "rewards": {
+        "attributes": {}
+      }
+    },
+    "furniture/grandfather_clock": {
+      "display_name": "Who Turned the Clock?",
+      "original_name": "Who Turned the Clock?",
+      "icon": "furniture:oak_grandfather_clock",
+      "enabled": true,
+      "rewards": {
+        "attributes": {}
+      }
+    },
+    "furniture/sit": {
+      "display_name": "Finally, Some Rest!",
+      "original_name": "Finally, Some Rest!",
+      "icon": "furniture:oak_desk_chair",
+      "enabled": true,
+      "rewards": {
+        "attributes": {}
+      }
+    },
+    "furniture/bin": {
+      "display_name": "Get Rid of It!",
+      "original_name": "Get Rid of It!",
+      "icon": "furniture:bin",
+      "enabled": true,
+      "rewards": {
+        "attributes": {}
+      }
+    },
+    "furniture/fish_tank": {
+      "display_name": "Finding Nemo",
+      "original_name": "Finding Nemo",
+      "icon": "minecraft:tropical_fish",
+      "enabled": true,
+      "rewards": {
+        "attributes": {}
+      }
+    },
+    "furniture/pells_wool": {
+      "display_name": "Cuddle Training",
+      "original_name": "Cuddle Training",
+      "icon": "minecraft:pink_wool",
+      "enabled": true,
+      "rewards": {
+        "attributes": {}
+      }
+    },
+    "furniture/interior_designer": {
+      "display_name": "Interior Designer",
+      "original_name": "Interior Designer",
+      "icon": "furniture:oak_dresser",
+      "enabled": true,
+      "rewards": {
+        "attributes": {}
+      }
+    },
+    "furniture/cash_register": {
+      "display_name": "Ka-Ching!",
+      "original_name": "Ka-Ching!",
+      "icon": "furniture:cash_register",
+      "enabled": true,
+      "rewards": {
+        "attributes": {}
+      }
+    },
+    "furniture/pells_broken": {
+      "display_name": "Not the Face!",
+      "original_name": "Not the Face!",
+      "icon": "furniture:pells",
+      "enabled": true,
+      "rewards": {
+        "attributes": {}
+      }
+    },
+    "furniture/wardrobe": {
+      "display_name": "Nothing to Wear",
+      "original_name": "Nothing to Wear",
+      "icon": "furniture:oak_wardrobe",
+      "enabled": true,
+      "rewards": {
+        "attributes": {}
+      }
+    },
+    "furniture/bin_flies": {
+      "display_name": "Unwanted Roommates",
+      "original_name": "Unwanted Roommates",
+      "icon": "furniture:trash_bag",
+      "enabled": true,
+      "rewards": {
+        "attributes": {}
+      }
+    },
+    "furniture/shooting_star": {
+      "display_name": "Make a Wish",
+      "original_name": "Make a Wish",
+      "icon": "furniture:telescope",
+      "enabled": true,
+      "rewards": {
+        "attributes": {}
+      }
+    }
+  }
+}

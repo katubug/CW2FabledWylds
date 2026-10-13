@@ -1,0 +1,17 @@
+{
+  "mod_id": "icys-better-horses",
+  "categories": [
+    {
+      "id": "hold_your_horses",
+      "advancement_root": "icys-better-horses:hold_your_horses",
+      "title": "advancements.icys-better-horses.hold_your_horses.title",
+      "description": "advancements.icys-better-horses.hold_your_horses.description",
+      "icon": {
+        "type": "item",
+        "value": "minecraft:saddle"
+      },
+      "enabled": true,
+      "localized": true
+    }
+  ]
+}

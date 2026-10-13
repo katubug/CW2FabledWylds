@@ -4,57 +4,62 @@
     {
       "id": "trailandtales_delightmain/tat_delight",
       "advancement_root": "minecraft:trailandtales_delightmain/tat_delight",
-      "title": "Trail&Tales Delight",
-      "description": "Embark on the journey with the fragrance of cherry blossoms and the ancient charm...",
+      "title": "advancements.tat_delight.title",
+      "description": "advancements.tat_delight.descr",
       "icon": {
         "type": "item",
         "value": "trailandtales_delight:pottery_cooking_pot"
       },
-      "enabled": true
+      "enabled": true,
+      "localized": true
     },
     {
       "id": "adventure/root",
       "advancement_root": "minecraft:adventure/root",
-      "title": "Adventure",
-      "description": "Adventure, exploration and combat",
+      "title": "advancements.adventure.root.title",
+      "description": "advancements.adventure.root.description",
       "icon": {
         "type": "item",
         "value": "minecraft:map"
       },
-      "enabled": true
+      "enabled": true,
+      "localized": true
     },
     {
       "id": "nether/root",
       "advancement_root": "minecraft:nether/root",
-      "title": "Nether",
-      "description": "Bring summer clothes",
+      "title": "advancements.nether.root.title",
+      "description": "advancements.nether.root.description",
       "icon": {
         "type": "item",
         "value": "minecraft:red_nether_bricks"
       },
-      "enabled": true
+      "enabled": true,
+      "localized": true
     },
     {
       "id": "husbandry/root",
       "advancement_root": "minecraft:husbandry/root",
-      "title": "Husbandry",
-      "description": "The world is full of friends and food",
+      "title": "advancements.husbandry.root.title",
+      "description": "advancements.husbandry.root.description",
       "icon": {
         "type": "item",
         "value": "minecraft:hay_block"
       },
-      "enabled": true
+      "enabled": true,
+      "localized": true
     },
     {
       "id": "story/root",
       "advancement_root": "minecraft:story/root",
-      "title": "Minecraft",
-      "description": "The heart and story of the game",
+      "title": "advancements.story.root.title",
+      "description": "advancements.story.root.description",
       "icon": {
         "type": "item",
         "value": "minecraft:grass_block"
       },
-      "enabled": true
+      "enabled": true,
+      "localized": true
     }
   ]
 }

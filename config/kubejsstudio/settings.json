@@ -16,6 +16,8 @@
   "autoCloseBrackets": true,
   "autoIndent": true,
   "currentLineHighlight": false,
+  "indentGuides": true,
+  "codeFolding": true,
   "tabSize": 2,
   "autocomplete": true,
   "completionRows": 8,
@@ -27,7 +29,8 @@
   "idWarnings": true,
   "strictAnalysis": true,
   "diagDelayMs": 250,
-  "kubejs": false,
+  "kubejs": true,
+  "recipeNamespace": "kubejsstudio",
   "reviewBeforeApply": true,
   "autoReloadAfterApply": true,
   "backupBeforeWrite": true,
@@ -35,5 +38,7 @@
   "previewTabs": true,
   "restoreSession": true,
   "keepWorkspace": true,
+  "popOut": false,
+  "windowScale": 0.0,
   "confirmDiscard": true
 }

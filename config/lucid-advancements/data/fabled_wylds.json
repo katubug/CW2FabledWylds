@@ -10,7 +10,8 @@
         "type": "item",
         "value": "reliquary:witch_hat"
       },
-      "enabled": true
+      "enabled": true,
+      "localized": true
     }
   ]
 }

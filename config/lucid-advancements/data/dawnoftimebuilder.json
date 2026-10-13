@@ -1,0 +1,17 @@
+{
+  "mod_id": "dawnoftimebuilder",
+  "categories": [
+    {
+      "id": "root",
+      "advancement_root": "dawnoftimebuilder:root",
+      "title": "advancement.dawnoftimebuilder.root.title",
+      "description": "advancement.dawnoftimebuilder.root.description",
+      "icon": {
+        "type": "item",
+        "value": "dawnoftimebuilder:dawn_of_time"
+      },
+      "enabled": true,
+      "localized": true
+    }
+  ]
+}

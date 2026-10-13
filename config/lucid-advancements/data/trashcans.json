@@ -4,13 +4,14 @@
     {
       "id": "trash_can",
       "advancement_root": "trashcans:trash_can",
-      "title": "Don't forget to recycle",
-      "description": "Craft a trash can",
+      "title": "trashcans.advancement.trash_can.title",
+      "description": "trashcans.advancement.trash_can.description",
       "icon": {
         "type": "item",
         "value": "trashcans:item_trash_can"
       },
-      "enabled": true
+      "enabled": true,
+      "localized": true
     }
   ]
 }

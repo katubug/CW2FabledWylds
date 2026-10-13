@@ -4,13 +4,14 @@
     {
       "id": "root",
       "advancement_root": "seamsandstitches:root",
-      "title": "Seams & Stitches",
-      "description": "Textiles, tanning, and tailoring",
+      "title": "advancements.seamsandstitches.root.title",
+      "description": "advancements.seamsandstitches.root.description",
       "icon": {
         "type": "item",
         "value": "seamsandstitches:needle"
       },
-      "enabled": true
+      "enabled": true,
+      "localized": true
     }
   ]
 }

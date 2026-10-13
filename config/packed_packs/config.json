@@ -8,6 +8,7 @@
     "replaceOriginal": true,
     "hideIncompatibleWarnings": true,
     "additionalFolders": [],
+    "foldersModuleByDefault": false,
     "rememberLastViewedProfile": true,
     "lastViewedProfile": "Recommended, Vanilla Spiders",
     "profileOrder": [
@@ -21,6 +22,7 @@
     "replaceOriginal": true,
     "hideIncompatibleWarnings": false,
     "additionalFolders": [],
+    "foldersModuleByDefault": false,
     "rememberLastViewedProfile": false,
     "profileOrder": []
   }

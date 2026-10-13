@@ -4,13 +4,14 @@
     {
       "id": "root",
       "advancement_root": "numismatics:root",
-      "title": "Welcome to Numismatics",
-      "description": "Here Be Riches",
+      "title": "advancement.numismatics.root",
+      "description": "advancement.numismatics.root.desc",
       "icon": {
         "type": "item",
         "value": "numismatics:crown"
       },
-      "enabled": true
+      "enabled": true,
+      "localized": true
     }
   ]
 }

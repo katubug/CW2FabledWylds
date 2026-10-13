@@ -4,13 +4,14 @@
     {
       "id": "root",
       "advancement_root": "roots:root",
-      "title": "Roots",
-      "description": "An introduction to the magic of the wilds.",
+      "title": "roots.advancements.root.title",
+      "description": "roots.advancements.root.description",
       "icon": {
         "type": "item",
         "value": "roots:wildroot"
       },
-      "enabled": true
+      "enabled": true,
+      "localized": true
     }
   ]
 }

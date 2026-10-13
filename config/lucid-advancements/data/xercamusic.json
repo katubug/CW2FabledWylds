@@ -1,0 +1,17 @@
+{
+  "mod_id": "xercamusic",
+  "categories": [
+    {
+      "id": "achievements/root",
+      "advancement_root": "xercamusic:achievements/root",
+      "title": "advancements.xercamusic.achievements.root.title",
+      "description": "advancements.xercamusic.achievements.root.description",
+      "icon": {
+        "type": "item",
+        "value": "xercamusic:guitar"
+      },
+      "enabled": true,
+      "localized": true
+    }
+  ]
+}

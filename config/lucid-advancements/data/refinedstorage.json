@@ -4,13 +4,14 @@
     {
       "id": "root",
       "advancement_root": "refinedstorage:root",
-      "title": "Refined Storage",
-      "description": "Use one or multiple Controllers in a storage network to provide your network with energy",
+      "title": "mod.refinedstorage",
+      "description": "advancements.refinedstorage.root.description",
       "icon": {
         "type": "item",
         "value": "refinedstorage:creative_controller"
       },
-      "enabled": true
+      "enabled": true,
+      "localized": true
     }
   ]
 }

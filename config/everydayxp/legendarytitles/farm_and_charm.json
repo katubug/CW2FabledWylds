@@ -155,6 +155,42 @@
       "rewards": {
         "attributes": {}
       }
+    },
+    "main/cleaver_kill": {
+      "display_name": "Heads Will Roll",
+      "original_name": "Heads Will Roll",
+      "icon": "minecraft:zombie_head",
+      "enabled": true,
+      "rewards": {
+        "attributes": {}
+      }
+    },
+    "main/campfire_meats": {
+      "display_name": "Campfire Cuisine",
+      "original_name": "Campfire Cuisine",
+      "icon": "farm_and_charm:cooked_minced_beef",
+      "enabled": true,
+      "rewards": {
+        "attributes": {}
+      }
+    },
+    "main/bake_everything": {
+      "display_name": "Baking Bonanza",
+      "original_name": "Baking Bonanza",
+      "icon": "farm_and_charm:baked_lamb_ham",
+      "enabled": true,
+      "rewards": {
+        "attributes": {}
+      }
+    },
+    "main/make_everything": {
+      "display_name": "Masterchef Manifest",
+      "original_name": "Masterchef Manifest",
+      "icon": "farm_and_charm:stuffed_chicken",
+      "enabled": true,
+      "rewards": {
+        "attributes": {}
+      }
     }
   }
 }

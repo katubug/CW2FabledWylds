@@ -4,13 +4,14 @@
     {
       "id": "husbandry/root",
       "advancement_root": "adorablehamsterpets:husbandry/root",
-      "title": "The Hamster Life",
-      "description": "Welcome to your new life as a rodent enthusiast. I'm only slightly jealous.",
+      "title": "advancements.adorablehamsterpets.husbandry.root.title",
+      "description": "advancements.adorablehamsterpets.husbandry.root.description",
       "icon": {
         "type": "item",
         "value": "adorablehamsterpets:hamster_spawn_egg"
       },
-      "enabled": true
+      "enabled": true,
+      "localized": true
     }
   ]
 }

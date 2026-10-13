@@ -4,13 +4,14 @@
     {
       "id": "main/root",
       "advancement_root": "soulhome:main/root",
-      "title": "SoulHome",
-      "description": "Welcome to SoulHome. The way to your inner soul.",
+      "title": "advancements.soulhome.main.title",
+      "description": "advancements.soulhome.main.description",
       "icon": {
         "type": "item",
         "value": "soulhome:soulkey"
       },
-      "enabled": true
+      "enabled": true,
+      "localized": true
     }
   ]
 }

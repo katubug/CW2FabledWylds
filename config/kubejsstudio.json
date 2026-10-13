@@ -9,6 +9,9 @@
   "apiBrowserCollapsed": false,
   "previewCollapsed": false,
   "filesFavoritesCollapsed": true,
+  "pickerInventoryCollapsed": false,
+  "pickerRecentCollapsed": false,
+  "pickerBookmarksCollapsed": false,
   "filesConsoleCollapsed": true,
   "filesFilterFolders": true,
   "filesExplorerW": 220,
@@ -35,11 +38,15 @@
   "tooltipEditH": 0,
   "tooltipSplit": 65,
   "dropdownH": 180,
+  "windowX": -2147483648,
+  "windowY": -2147483648,
+  "windowW": 1280,
+  "windowH": 800,
   "pinnedFiles": [],
   "pinnedFolders": [],
   "favorites": [],
   "recipesSelected": "hexalia:purity_idol",
-  "recipesSearch": "hexalia:purity_idol",
+  "recipesSearch": "burger",
   "tagsRegistry": "item",
   "tagsSelected": "fabled_wylds:bone_needles",
   "tagsSearch": "",
@@ -51,5 +58,10 @@
   "createSelected": "",
   "createSearch": "",
   "filesOpen": [],
+  "recentPicks": [
+    "item kubejs:cheeseburger",
+    "item farmersdelight:hamburger",
+    "item #c:cheese_slices"
+  ],
   "filesActive": -1
 }

@@ -4,13 +4,14 @@
     {
       "id": "main/root",
       "advancement_root": "architects_palette:main/root",
-      "title": "Architect's Palette",
-      "description": "Time to build with something new.",
+      "title": "architects_palette.advancement.root",
+      "description": "architects_palette.advancement.root.desc",
       "icon": {
         "type": "item",
         "value": "architects_palette:chiseled_abyssaline_bricks"
       },
-      "enabled": true
+      "enabled": true,
+      "localized": true
     }
   ]
 }

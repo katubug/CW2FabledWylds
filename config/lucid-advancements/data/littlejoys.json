@@ -4,13 +4,14 @@
     {
       "id": "littlejoys/root",
       "advancement_root": "littlejoys:littlejoys/root",
-      "title": "Little Joys",
-      "description": "Small surprises to lighten your day.",
+      "title": "advancements.littlejoys.root.title",
+      "description": "advancements.littlejoys.root.description",
       "icon": {
         "type": "item",
         "value": "minecraft:cookie"
       },
-      "enabled": true
+      "enabled": true,
+      "localized": true
     }
   ]
 }

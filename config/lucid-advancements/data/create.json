@@ -4,13 +4,14 @@
     {
       "id": "root",
       "advancement_root": "create:root",
-      "title": "Welcome to Create",
-      "description": "Here Be Contraptions",
+      "title": "advancement.create.root",
+      "description": "advancement.create.root.desc",
       "icon": {
         "type": "item",
         "value": "create:brass_hand"
       },
-      "enabled": true
+      "enabled": true,
+      "localized": true
     }
   ]
 }

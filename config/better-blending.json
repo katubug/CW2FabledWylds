@@ -1,0 +1,22 @@
+{
+  "enabled": true,
+  "vanilla_terrain_shader_enabled": true,
+  "texture_aligned_blending": true,
+  "blend_leaves": true,
+  "blending_style": "ISOLATED_BLOCKS",
+  "disabled_dimensions": [],
+  "excluded_blocks": [
+    "minecraft:melon",
+    "minecraft:pumpkin",
+    "minecraft:carved_pumpkin",
+    "minecraft:jack_o_lantern",
+    "minecraft:hay_block"
+  ],
+  "terrain_biome_blend_strength": 0.45,
+  "surface_shader_strength": 1.0,
+  "local_blend_strength": 1.0,
+  "surface_detail_strength": 1.0,
+  "surface_map_size": 256,
+  "surface_refresh_ticks": 20,
+  "sampling_budget_ms": 1.0
+}

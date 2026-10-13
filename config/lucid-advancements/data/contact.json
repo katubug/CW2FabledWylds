@@ -4,13 +4,14 @@
     {
       "id": "root",
       "advancement_root": "contact:root",
-      "title": "Postal Service",
-      "description": "The East Wind takes us all in the end",
+      "title": "advancements.contact.root.title",
+      "description": "advancements.contact.root.description",
       "icon": {
         "type": "item",
         "value": "contact:letter"
       },
-      "enabled": true
+      "enabled": true,
+      "localized": true
     }
   ]
 }

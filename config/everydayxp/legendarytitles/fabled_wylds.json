@@ -52,7 +52,7 @@
       "display_name": "Wyldkeeper",
       "original_name": "Wyldkeeper",
       "enabled": true,
-      "icon": "kubejs:wyldkeeper_hearth",
+      "icon": "kubejs:hestias_hearth",
       "rewards": {
         "attributes": {}
       }

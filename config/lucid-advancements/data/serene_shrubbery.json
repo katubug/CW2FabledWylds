@@ -4,13 +4,14 @@
     {
       "id": "gardeners_path",
       "advancement_root": "serene_shrubbery:gardeners_path",
-      "title": "Gardener's Path!",
-      "description": "Collect a wildflower from Serene Shrubbery!",
+      "title": "advancements.gardeners_path.title",
+      "description": "advancements.gardeners_path.descr",
       "icon": {
         "type": "item",
         "value": "serene_shrubbery:butterfly_bush"
       },
-      "enabled": true
+      "enabled": true,
+      "localized": true
     }
   ]
 }

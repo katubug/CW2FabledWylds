@@ -4,13 +4,14 @@
     {
       "id": "main/root",
       "advancement_root": "herbalbrews:main/root",
-      "title": "Welcome to HerbalBrews!",
-      "description": "Thank you for downloading HerbalBrews",
+      "title": "herbalbrews.advancement.root",
+      "description": "herbalbrews.advancement.root.desc",
       "icon": {
         "type": "item",
         "value": "herbalbrews:hibiscus_tea"
       },
-      "enabled": true
+      "enabled": true,
+      "localized": true
     }
   ]
 }

@@ -1,0 +1,17 @@
+{
+  "mod_id": "xercapaint",
+  "categories": [
+    {
+      "id": "root",
+      "advancement_root": "xercapaint:root",
+      "title": "advancements.xercapaint.root.title",
+      "description": "advancements.xercapaint.root.description",
+      "icon": {
+        "type": "item",
+        "value": "xercapaint:item_palette"
+      },
+      "enabled": true,
+      "localized": true
+    }
+  ]
+}

@@ -4,13 +4,14 @@
     {
       "id": "main/root",
       "advancement_root": "endrem:main/root",
-      "title": "The Beginning of An Adventure",
-      "description": "Get Your First Eye",
+      "title": "advancements.main.root.title",
+      "description": "advancements.main.root.description",
       "icon": {
         "type": "item",
         "value": "endrem:ancient_portal_frame"
       },
-      "enabled": true
+      "enabled": true,
+      "localized": true
     }
   ]
 }

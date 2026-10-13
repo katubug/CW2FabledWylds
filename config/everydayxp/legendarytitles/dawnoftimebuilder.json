@@ -1,0 +1,25 @@
+{
+  "enabled": true,
+  "mod_name": "Dawn Of Time",
+  "mod_id": "dawnoftimebuilder",
+  "achievements": {
+    "master_of_time": {
+      "display_name": "Master of Time",
+      "original_name": "Master of Time",
+      "icon": "dawnoftimebuilder:roman_emblem",
+      "enabled": true,
+      "rewards": {
+        "attributes": {}
+      }
+    },
+    "japanese/sake": {
+      "display_name": "What time is it? Hmmp..",
+      "original_name": "What time is it? Hmmp..",
+      "icon": "dawnoftimebuilder:sake_bottle",
+      "enabled": true,
+      "rewards": {
+        "attributes": {}
+      }
+    }
+  }
+}

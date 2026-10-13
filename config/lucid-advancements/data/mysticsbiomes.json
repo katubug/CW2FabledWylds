@@ -4,13 +4,14 @@
     {
       "id": "mysticsbiomes/root",
       "advancement_root": "mysticsbiomes:mysticsbiomes/root",
-      "title": "Mystic's Biomes",
-      "description": "Explore the world!",
+      "title": "advancements.mysticsbiomes.root.title",
+      "description": "advancements.mysticsbiomes.root.description",
       "icon": {
         "type": "item",
         "value": "mysticsbiomes:lavender_buds"
       },
-      "enabled": true
+      "enabled": true,
+      "localized": true
     }
   ]
 }

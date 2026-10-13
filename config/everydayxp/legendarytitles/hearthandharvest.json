@@ -1,0 +1,214 @@
+{
+  "enabled": true,
+  "mod_name": "Hearth and Harvest",
+  "mod_id": "hearthandharvest",
+  "achievements": {
+    "farming/hats_off": {
+      "display_name": "Hats Off",
+      "original_name": "Hats Off",
+      "icon": "hearthandharvest:farmers_hat",
+      "enabled": true,
+      "rewards": {
+        "attributes": {}
+      }
+    },
+    "kitchen/master_distiller": {
+      "display_name": "Master Distiller",
+      "original_name": "Master Distiller",
+      "icon": "hearthandharvest:mead",
+      "enabled": true,
+      "rewards": {
+        "attributes": {}
+      }
+    },
+    "kitchen/sommelier": {
+      "display_name": "Sommelier",
+      "original_name": "Sommelier",
+      "icon": "hearthandharvest:green_grape_wine",
+      "enabled": true,
+      "rewards": {
+        "attributes": {}
+      }
+    },
+    "farming/a_maize_ing": {
+      "display_name": "A-maize-ing",
+      "original_name": "A-maize-ing",
+      "icon": "hearthandharvest:corn_husk",
+      "enabled": true,
+      "rewards": {
+        "attributes": {}
+      }
+    },
+    "kitchen/a_lick_too_far": {
+      "display_name": "A Lick Too Far",
+      "original_name": "A Lick Too Far",
+      "icon": "hearthandharvest:heavily_licked_salt_block",
+      "enabled": true,
+      "rewards": {
+        "attributes": {}
+      }
+    },
+    "kitchen/reserve": {
+      "display_name": "Reserve",
+      "original_name": "Reserve",
+      "icon": "hearthandharvest:red_grape_wine",
+      "enabled": true,
+      "rewards": {
+        "attributes": {}
+      }
+    },
+    "kitchen/well_preserved": {
+      "display_name": "Well Preserved",
+      "original_name": "Well Preserved",
+      "icon": "hearthandharvest:sweet_berry_jam",
+      "enabled": true,
+      "rewards": {
+        "attributes": {}
+      }
+    },
+    "kitchen/big_stomper": {
+      "display_name": "Big Stomper",
+      "original_name": "Big Stomper",
+      "icon": "hearthandharvest:stomping_basin",
+      "enabled": true,
+      "rewards": {
+        "attributes": {}
+      }
+    },
+    "animals/fowl_flight": {
+      "display_name": "Fowl Flight",
+      "original_name": "Fowl Flight",
+      "icon": "minecraft:feather",
+      "enabled": true,
+      "rewards": {
+        "attributes": {}
+      }
+    },
+    "kitchen/sugaring_off": {
+      "display_name": "Sugaring Off",
+      "original_name": "Sugaring Off",
+      "icon": "hearthandharvest:syrup_bottle",
+      "enabled": true,
+      "rewards": {
+        "attributes": {}
+      }
+    },
+    "farming/hellscaping": {
+      "display_name": "Hellscaping",
+      "original_name": "Hellscaping",
+      "icon": "hearthandharvest:mulch",
+      "enabled": true,
+      "rewards": {
+        "attributes": {}
+      }
+    },
+    "farming/floriculture": {
+      "display_name": "Floriculture",
+      "original_name": "Floriculture",
+      "icon": "hearthandharvest:red_mum",
+      "enabled": true,
+      "rewards": {
+        "attributes": {}
+      }
+    },
+    "animals/bunny_boom": {
+      "display_name": "Bunny Boom",
+      "original_name": "Bunny Boom",
+      "icon": "minecraft:rabbit_foot",
+      "enabled": true,
+      "rewards": {
+        "attributes": {}
+      }
+    },
+    "kitchen/pie_chart": {
+      "display_name": "Pie Chart",
+      "original_name": "Pie Chart",
+      "icon": "hearthandharvest:blueberry_pie",
+      "enabled": true,
+      "rewards": {
+        "attributes": {}
+      }
+    },
+    "crows/caw_panion": {
+      "display_name": "Caw-panion",
+      "original_name": "Caw-panion",
+      "icon": "hearthandharvest:corn_kernels",
+      "enabled": true,
+      "rewards": {
+        "attributes": {}
+      }
+    },
+    "crows/special_delivery": {
+      "display_name": "Special Delivery",
+      "original_name": "Special Delivery",
+      "icon": "hearthandharvest:crow_feather",
+      "enabled": true,
+      "rewards": {
+        "attributes": {}
+      }
+    },
+    "animals/pied_piper": {
+      "display_name": "Pied Piper",
+      "original_name": "Pied Piper",
+      "icon": "minecraft:wheat",
+      "enabled": true,
+      "rewards": {
+        "attributes": {}
+      }
+    },
+    "kitchen/sweet_tooth": {
+      "display_name": "Sweet Tooth",
+      "original_name": "Sweet Tooth",
+      "icon": "hearthandharvest:cotton_candy",
+      "enabled": true,
+      "rewards": {
+        "attributes": {}
+      }
+    },
+    "kitchen/aged_to_perfection": {
+      "display_name": "Aged to Perfection",
+      "original_name": "Aged to Perfection",
+      "icon": "hearthandharvest:red_grape_wine",
+      "enabled": true,
+      "rewards": {
+        "attributes": {}
+      }
+    },
+    "crows/trust_fall": {
+      "display_name": "Trust Fall",
+      "original_name": "Trust Fall",
+      "icon": "hearthandharvest:corn_kernels",
+      "enabled": true,
+      "rewards": {
+        "attributes": {}
+      }
+    },
+    "kitchen/juice_bar": {
+      "display_name": "Juice Bar",
+      "original_name": "Juice Bar",
+      "icon": "hearthandharvest:green_grape_juice",
+      "enabled": true,
+      "rewards": {
+        "attributes": {}
+      }
+    },
+    "animals/pig_pile": {
+      "display_name": "Pig Pile",
+      "original_name": "Pig Pile",
+      "icon": "minecraft:porkchop",
+      "enabled": true,
+      "rewards": {
+        "attributes": {}
+      }
+    },
+    "crows/rickmurai_jack": {
+      "display_name": "Rickmurai Jack",
+      "original_name": "Rickmurai Jack",
+      "icon": "hearthandharvest:crow_feather",
+      "enabled": true,
+      "rewards": {
+        "attributes": {}
+      }
+    }
+  }
+}

@@ -4,13 +4,14 @@
     {
       "id": "main/root",
       "advancement_root": "farm_and_charm:main/root",
-      "title": "Welcome to Farm&Charm!",
-      "description": "Thank you for downloading Farm&Charm",
+      "title": "advancement.farm_and_charm.root",
+      "description": "advancement.farm_and_charm.root.desc",
       "icon": {
         "type": "item",
         "value": "farm_and_charm:scarecrow"
       },
-      "enabled": true
+      "enabled": true,
+      "localized": true
     }
   ]
 }

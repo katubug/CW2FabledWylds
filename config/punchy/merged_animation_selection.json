@@ -2,6 +2,16 @@
   "selected_animations": [
     {
       "kind": "item",
+      "definition": "SWORD",
+      "animations": {
+        "attack": "pack:punchy:punchy",
+        "mining_v2": "pack:punchy:punchy",
+        "inspect": "pack:punchy:punchy",
+        "triggerable": "pack:punchy:punchy"
+      }
+    },
+    {
+      "kind": "item",
       "definition": "SPEAR",
       "animations": {
         "attack": "pack:punchy:punchy",
@@ -33,16 +43,6 @@
       "animations": {
         "mining_v2": "pack:punchy:punchy",
         "attack": "pack:punchy:punchy"
-      }
-    },
-    {
-      "kind": "item",
-      "definition": "SWORD",
-      "animations": {
-        "attack": "pack:punchy:punchy",
-        "mining_v2": "pack:punchy:punchy",
-        "inspect": "pack:punchy:punchy",
-        "triggerable": "pack:punchy:punchy"
       }
     },
     {

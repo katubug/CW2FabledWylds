@@ -4,13 +4,14 @@
     {
       "id": "root",
       "advancement_root": "mowziesmobs:root",
-      "title": "Mowzie's Mobs",
-      "description": "Welcome to Mowzie's Mobs!",
+      "title": "advancements.mowziesmobs.root.title",
+      "description": "advancements.mowziesmobs.root.description",
       "icon": {
         "type": "item",
         "value": "mowziesmobs:logo"
       },
-      "enabled": true
+      "enabled": true,
+      "localized": true
     }
   ]
 }
