@@ -1,0 +1,4 @@
+#Show the quality tier and crafter lines in item tooltips.
+showQualityTooltip = true
+#Quality tier ids whose name is left out of item tooltips, e.g. ["quality_api:standard"].
+hiddenTooltipTiers = []

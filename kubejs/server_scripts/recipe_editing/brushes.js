@@ -7,9 +7,9 @@ ServerEvents.recipes(event => {
 			' B ',
 			' C '
 		], {
-			A: '#forge:feathers',
+			A: '#c:feathers',
 			B: 'minecraft:copper_ingot',
-			C: '#forge:rods/wooden'
+			C: '#c:rods/wooden'
 		}
 	)
 
@@ -20,9 +20,9 @@ ServerEvents.recipes(event => {
 			' B ',
 			' C '
 		], {
-			A: '#forge:feathers',
+			A: '#c:feathers',
 			B: 'minecraft:iron_ingot',
-			C: '#forge:rods/wooden'
+			C: '#c:rods/wooden'
 		}
 	)
 
@@ -33,9 +33,9 @@ ServerEvents.recipes(event => {
 			' B ',
 			' C '
 		], {
-			A: '#forge:feathers',
+			A: '#c:feathers',
 			B: 'minecraft:diamond',
-			C: '#forge:rods/wooden'
+			C: '#c:rods/wooden'
 		}
 	)
 })

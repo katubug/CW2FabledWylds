@@ -306,6 +306,8 @@
 		"Enable Lava Interaction" = true
 		"Allow Opening Shulker Boxes" = true
 		"Allow Rotating Bundles" = true
+		#Set this to true to use left clicks instead of right clicks for all Expanded Item Interactions. Some JEI hints may be incorrect if this is enabled
+		"Invert Clicks" = false
 
 	[management.hotbar_changer]
 		"Animation Time" = 7.0
@@ -840,7 +842,7 @@
 					"Is Blacklist" = true
 
 		[world.big_stone_clusters.limestone]
-			Enabled = true
+			Enabled = false
 			#Allowed values: [0,)
 			Rarity = 4
 			"Min Y Level" = 20
@@ -1152,7 +1154,7 @@
 			Dimensions = ["minecraft:the_nether"]
 
 	[world.new_stone_types]
-		"Enable Limestone" = true
+		"Enable Limestone" = false
 		"Enable Jasper" = true
 		"Enable Shale" = true
 		"Enable Myalite" = true

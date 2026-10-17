@@ -1,0 +1,11 @@
+{
+    "type": "tipsmod:simple",
+    "title": {
+        "translate": "tips.titles.letsdo",
+        "bold": true,
+        "color": "green"
+    },
+    "text": {
+        "translate": "tips.text.letsdo.chickencoop"
+    }
+}

@@ -1,0 +1,8 @@
+{
+  "add": [
+    {
+      "dimension": "twilightforest:twilight_forest",
+      "looks_like": "overworld"
+    }
+  ]
+}

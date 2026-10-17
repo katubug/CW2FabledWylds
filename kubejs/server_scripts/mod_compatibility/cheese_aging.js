@@ -6,7 +6,7 @@ BlockEvents.placed('kubejs:sheep_cheese_unripe', event => {
 	entity.getServer().scheduleInTicks(6000, () => { //6000 (300s * 20ticks)
 		//check if the unripe cheese still exists at this location, and update it
 		if (level.getBlock(event.block.pos).id == 'kubejs:sheep_cheese_unripe') {
-			event.block.set('meadow:sheep_cheese_block')
+			event.block.set('meadow:sheep_cheese_wheel', { facing: event.block.properties.get('facing') })
 		}
 	})
 })
@@ -19,7 +19,7 @@ BlockEvents.placed('kubejs:grain_cheese_unripe', event => {
 	entity.getServer().scheduleInTicks(6000, () => { //6000 (300s * 20ticks)
 		//check if the unripe cheese still exists at this location, and update it
 		if (level.getBlock(event.block.pos).id == 'kubejs:grain_cheese_unripe') {
-			event.block.set('meadow:grain_cheese_block')
+			event.block.set('meadow:grain_cheese_wheel', { facing: event.block.properties.get('facing') })
 		}
 	})
 })
@@ -32,7 +32,7 @@ BlockEvents.placed('kubejs:amethyst_cheese_unripe', event => {
 	entity.getServer().scheduleInTicks(6000, () => { //6000 (300s * 20ticks)
 		//check if the unripe cheese still exists at this location, and update it
 		if (level.getBlock(event.block.pos).id == 'kubejs:amethyst_cheese_unripe') {
-			event.block.set('meadow:amethyst_cheese_block')
+			event.block.set('meadow:amethyst_cheese_wheel', { facing: event.block.properties.get('facing') })
 		}
 	})
 })
@@ -45,7 +45,7 @@ BlockEvents.placed('kubejs:buffalo_cheese_unripe', event => {
 	entity.getServer().scheduleInTicks(6000, () => { //6000 (300s * 20ticks)
 		//check if the unripe cheese still exists at this location, and update it
 		if (level.getBlock(event.block.pos).id == 'kubejs:buffalo_cheese_unripe') {
-			event.block.set('meadow:buffalo_cheese_block')
+			event.block.set('meadow:buffalo_cheese_wheel', { facing: event.block.properties.get('facing') })
 		}
 	})
 })
@@ -58,7 +58,7 @@ BlockEvents.placed('kubejs:warped_cheese_unripe', event => {
 	entity.getServer().scheduleInTicks(6000, () => { //6000 (300s * 20ticks)
 		//check if the unripe cheese still exists at this location, and update it
 		if (level.getBlock(event.block.pos).id == 'kubejs:warped_cheese_unripe') {
-			event.block.set('meadow:warped_cheese_block')
+			event.block.set('meadow:warped_cheese_wheel', { facing: event.block.properties.get('facing') })
 		}
 	})
 })

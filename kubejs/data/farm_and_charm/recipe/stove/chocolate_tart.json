@@ -2,7 +2,7 @@
   "type": "farm_and_charm:stove",
   "ingredients": [
     {
-      "tag": "bakery:chocolate"
+      "tag": "c:chocolate"
     },
     {
       "item": "bakery:sweet_dough"

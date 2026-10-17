@@ -8,7 +8,8 @@ ServerEvents.generateData('after_mods', event => {
     event.json('kubejsstudio:recipe/black_tea_leaf_block', {"type":"minecraft:smoking","ingredient":{"item":"herbalbrews:oolong_tea_leaf_block"},"result":{"id":"herbalbrews:black_tea_leaf_block"},"experience":0.1,"cookingtime":100})
 })
 ServerEvents.recipes(event => {
-    event.shapeless('kubejs:silverwood_sapling', ['#minecraft:saplings', 'thaumon:mutagen']).id('kubejsstudio:silverwood_sapling')
-    event.shapeless('kubejs:greatwood_sapling', ['#minecraft:saplings', 'thaumon:mutagen']).id('kubejsstudio:greatwood_sapling')
+    event.shapeless('kubejs:silverwood_sapling', ['minecraft:birch_sapling', 'thaumon:mutagen']).id('kubejsstudio:silverwood_sapling')
+    event.shapeless('kubejs:greatwood_sapling', ['minecraft:dark_oak_sapling', 'thaumon:mutagen']).id('kubejsstudio:greatwood_sapling')
     event.shapeless('create:honeyed_apple', ['minecraft:apple', 'minecraft:honey_bottle']).id('kubejsstudio:honeyed_apple')
+    event.shapeless('kubejs:cheeseburger', ['#c:cheese_slices', 'farmersdelight:hamburger']).id('fabled_wylds:cheeseburger')
 })

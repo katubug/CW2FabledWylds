@@ -1,0 +1,8 @@
+{
+  "structure": "fabled_wylds:cozy_cove",
+  "screenshot": "fabled_wylds:textures/gui/soul_island/cozy_cove.png",
+  "name": "Cozy Cove",
+  "description": "A quaint little home with an underground pond.",
+  "order": 1,
+  "spawn": [14, 16, 17]
+}

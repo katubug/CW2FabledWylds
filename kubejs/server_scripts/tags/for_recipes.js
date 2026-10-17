@@ -18,7 +18,6 @@ ServerEvents.tags('item', event => {
 
 	event.add('c:dusts/salt',
 		'hearthandharvest:salt', 
-		'meadow:alpine_salt',
 		'hexalia:salt'
 	)
 
@@ -74,10 +73,6 @@ ServerEvents.tags('item', event => {
 		'regions_unexplored:silt_coarse_dirt',
 		'farm_and_charm:packed_dirt')
 
-	//Salmonberries
-	event.add('c:fruits/salmonberries',
-		'regions_unexplored:salmonberry'
-	)
 
 	//Jam Tagging
 	event.add('c:jams',
@@ -88,14 +83,34 @@ ServerEvents.tags('item', event => {
 		'hearthandharvest:cherry_jam'
 	)
 
+	//marble (dot marble is nuked)
+	event.add('fabled_wylds:marble',
+		'cluttered:raw_marble',
+		'cluttered:marble_polished',
+		'tombstone:white_marble',
+		'tombstone:blue_marble',
+		'tombstone:carmin_marble',
+		'tombstone:dark_marble',
+		'tombstone:green_marble'
+	)
+
+	event.add('fabled_wylds:marble_slabs',
+		'cluttered:marble_slab',
+		'tombstone:white_marble_slab',
+		'tombstone:blue_marble_slab',
+		'tombstone:carmin_marble_slab',
+		'tombstone:dark_marble_slab',
+		'tombstone:green_marble_slab'
+	)
+
 	//cheese wheels for fondue
-	event.add('meadow:item/cheese_wheels',
+	event.add('meadow:cheese_wheels',
 		'meadow:sheep_cheese_wheel',
 		'meadow:grain_cheese_wheel',
 		'meadow:amethyst_cheese_wheel',
 		'meadow:buffalo_cheese_wheel',
 		'meadow:warped_cheese_wheel',
-		'hearthandharvest:cheddar_cheese_wheel',
+		'hearthandharvest:cheese_wheel',
 		'hearthandharvest:goat_cheese_wheel'
 	)
 
@@ -168,41 +183,45 @@ ServerEvents.tags('item', event => {
 	)
 
 	event.add('c:cheese',
-		'hearthandharvest:cheddar_cheese_slice',
+		'hearthandharvest:cheese_slice',
 		'hearthandharvest:goat_cheese_slice'
 	)
 
 	event.add('c:cheese_slices',
-		'hearthandharvest:cheddar_cheese_slice',
+		'hearthandharvest:cheese_slice',
 		'hearthandharvest:goat_cheese_slice',
-		'meadow:piece_of_sheep_cheese',
-		'meadow:piece_of_grain_cheese',
-		'meadow:piece_of_amethyst_cheese',
-		'meadow:piece_of_buffalo_cheese',
-		'meadow:piece_of_warped_cheese'
+		'meadow:sheep_cheese_slice',
+		'meadow:grain_cheese_slice',
+		'meadow:amethyst_cheese_slice',
+		'meadow:buffalo_cheese_slice',
+		'meadow:warped_cheese_slice',
+		'trailandtales_delight:cheese_slice'
 	)
 
 	event.add('twilightforest:kobold_pacification_breads',
-		'delightful:cantaloupe_bread',
 		'bakery:braided_bread',
 		'bakery:crusty_bread',
 		'bakery:toast',
 		'bakery:baguette',
 		'bakery:bread',
 		'autumnity:pumpkin_bread',
-		'farmersrespite:nether_wart_sourdough',
+		'farmersrespite:nether_wart_sourdough'
 	)
 
 	event.add('c:bread_or_bun',
+		'minecraft:bread',
 		'bakery:braided_bread',
 		'bakery:crusty_bread',
 		'bakery:toast',
 		'bakery:baguette',
-		'bakery:bread',
+		'bakery:bread'
 	)
 
 	event.add('c:cooking_eggs',
 		'minecraft:egg',
+		'minecraft:blue_egg',
+		'minecraft:brown_egg',
+		'environmental:duck_egg',
 		'mysticsbiomes:pink_egg',
 		'mysticsbiomes:orange_egg',
 		'mysticsbiomes:yellow_egg',

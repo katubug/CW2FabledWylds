@@ -13,8 +13,8 @@ BlockEvents.rightClicked(event => {
 		if (block.id == 'bakery:chocolate_cake' && block.properties.cuts == '0') {
 			item.count--;
 			event.block.set('bakery:chocolate_gateau');
+			event.cancel();
 		}
-		event.cancel();
 		return;
 	}
 });

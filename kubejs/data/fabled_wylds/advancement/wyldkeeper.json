@@ -1,7 +1,7 @@
 {
     "display": {
         "icon": {
-            "id": "kubejs:wyldkeeper_hearth"
+            "id": "kubejs:hestias_hearth"
         },
         "title": {
             "translate": "advancement.wyldkeeper.title"

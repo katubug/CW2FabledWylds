@@ -6,8 +6,8 @@
     "farm_and_charm:wild_beetroots": "farmersdelight:wild_beetroots",
     "farm_and_charm:wild_carrots": "farmersdelight:wild_carrots",
     "enchanted:belladonna": "hexerei:belladonna_plant",
-    "hexerei:mandrake_plant": "hexalia:mandrake_plant",
-    "enchanted:mandrake": "hexalia:mandrake_plant",
+    "hexerei:mandrake_plant": "hexalia:wild_mandrake",
+    "enchanted:mandrake": "hexalia:wild_mandrake",
     "mysticsbiomes:butterfly_nest": "minecraft:flowering_azalea_leaves"
   }
 }

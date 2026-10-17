@@ -1,7 +1,8 @@
 {
   "type": "farmersdelight:cooking",
   "container": {
-    "item": "minecraft:glass_bottle"
+    "count": 1,
+    "id": "minecraft:glass_bottle"
   },
   "cookingtime": 200,
   "experience": 1.0,
@@ -18,7 +19,7 @@
   ],
   "recipe_book_tab": "misc",
   "result": {
-  "count": 1,
+    "count": 1,
     "id": "hearthandharvest:cherry_juice"
   }
 }

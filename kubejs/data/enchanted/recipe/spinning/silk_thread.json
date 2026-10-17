@@ -7,16 +7,16 @@
     },
     {
       "count": 1,
-      "id": "seamsandstitches:needle"
+      "id": "hexalia:silk_fiber"
     },
     {
       "count": 1,
-      "tag": "minecraft:stick"
+      "id": "hexalia:silk_fiber"
     }
   ],
   "power": 0,
   "result": {
-    "count": 5,
+    "count": 6,
     "id": "crittersandcompanions:silk"
   }
 }

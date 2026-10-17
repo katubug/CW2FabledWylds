@@ -1,0 +1,283 @@
+{
+	"credit": "Geometry from Let's Do Meadow (Satisfy); unripe textures for Cottage Witch",
+	"textures": {
+		"0": "kubejs:block/amethyst_cheese_unripe_bottom",
+		"1": "kubejs:block/amethyst_cheese_unripe_side",
+		"2": "kubejs:block/amethyst_cheese_unripe_top",
+		"particle": "kubejs:block/amethyst_cheese_unripe_bottom"
+	},
+	"elements": [
+		{
+			"from": [
+				2,
+				0,
+				2
+			],
+			"to": [
+				8,
+				6,
+				8
+			],
+			"faces": {
+				"north": {
+					"uv": [
+						8,
+						2,
+						14,
+						8
+					],
+					"texture": "#1"
+				},
+				"east": {
+					"uv": [
+						8,
+						8,
+						14,
+						14
+					],
+					"texture": "#1"
+				},
+				"south": {
+					"uv": [
+						2,
+						8,
+						8,
+						14
+					],
+					"texture": "#1"
+				},
+				"west": {
+					"uv": [
+						2,
+						2,
+						8,
+						8
+					],
+					"texture": "#1"
+				},
+				"up": {
+					"uv": [
+						14,
+						2,
+						8,
+						8
+					],
+					"texture": "#2"
+				},
+				"down": {
+					"uv": [
+						2,
+						8,
+						8,
+						14
+					],
+					"texture": "#0"
+				}
+			}
+		},
+		{
+			"from": [
+				2,
+				0,
+				8
+			],
+			"to": [
+				8,
+				6,
+				14
+			],
+			"faces": {
+				"north": {
+					"uv": [
+						8,
+						8,
+						14,
+						14
+					],
+					"texture": "#1"
+				},
+				"east": {
+					"uv": [
+						2,
+						8,
+						8,
+						14
+					],
+					"texture": "#1"
+				},
+				"south": {
+					"uv": [
+						2,
+						2,
+						8,
+						8
+					],
+					"texture": "#1"
+				},
+				"west": {
+					"uv": [
+						8,
+						2,
+						14,
+						8
+					],
+					"texture": "#1"
+				},
+				"up": {
+					"uv": [
+						2,
+						8,
+						8,
+						14
+					],
+					"texture": "#2"
+				},
+				"down": {
+					"uv": [
+						2,
+						2,
+						8,
+						8
+					],
+					"texture": "#0"
+				}
+			}
+		},
+		{
+			"from": [
+				8,
+				0,
+				8
+			],
+			"to": [
+				14,
+				6,
+				14
+			],
+			"faces": {
+				"north": {
+					"uv": [
+						2,
+						8,
+						8,
+						14
+					],
+					"texture": "#1"
+				},
+				"east": {
+					"uv": [
+						2,
+						2,
+						8,
+						8
+					],
+					"texture": "#1"
+				},
+				"south": {
+					"uv": [
+						8,
+						2,
+						14,
+						8
+					],
+					"texture": "#1"
+				},
+				"west": {
+					"uv": [
+						8,
+						8,
+						14,
+						14
+					],
+					"texture": "#1"
+				},
+				"up": {
+					"uv": [
+						8,
+						8,
+						14,
+						14
+					],
+					"texture": "#2"
+				},
+				"down": {
+					"uv": [
+						8,
+						2,
+						14,
+						8
+					],
+					"texture": "#0"
+				}
+			}
+		},
+		{
+			"from": [
+				8,
+				0,
+				2
+			],
+			"to": [
+				14,
+				6,
+				8
+			],
+			"faces": {
+				"north": {
+					"uv": [
+						2,
+						2,
+						8,
+						8
+					],
+					"texture": "#1"
+				},
+				"east": {
+					"uv": [
+						8,
+						2,
+						14,
+						8
+					],
+					"texture": "#1"
+				},
+				"south": {
+					"uv": [
+						8,
+						8,
+						14,
+						14
+					],
+					"texture": "#1"
+				},
+				"west": {
+					"uv": [
+						2,
+						8,
+						8,
+						14
+					],
+					"texture": "#1"
+				},
+				"up": {
+					"uv": [
+						8,
+						2,
+						14,
+						8
+					],
+					"texture": "#2"
+				},
+				"down": {
+					"uv": [
+						8,
+						8,
+						14,
+						14
+					],
+					"texture": "#0"
+				}
+			}
+		}
+	]
+}

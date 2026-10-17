@@ -1,0 +1,9 @@
+{
+  "tooltip": {
+    "text": "Sniffer Finds"
+  },
+  "icon": {
+    "id": "minecraft:sniffer_egg"
+  },
+  "sortIndex": 90
+}

@@ -370,6 +370,18 @@
           }
         ]
       }
+    },
+    "hearthandharvest:cooked_corn_on_the_cob": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "hearthandharvest:cooked_corn_on_the_cob"
+            ]
+          }
+        ]
+      }
     }
   },
   "requirements": [
@@ -431,7 +443,7 @@
       "farm_and_charm:oat_pancake"
     ],
     [
-      "farm_and_charm:roasted_corn"
+      "hearthandharvest:cooked_corn_on_the_cob"
     ],
     [
       "farm_and_charm:potato_with_roast_meat"

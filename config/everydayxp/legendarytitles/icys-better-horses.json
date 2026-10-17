@@ -128,6 +128,15 @@
       "rewards": {
         "attributes": {}
       }
+    },
+    "desperate_for_leather": {
+      "display_name": "Desperate for leather?",
+      "original_name": "Desperate for leather?",
+      "icon": "minecraft:leather",
+      "enabled": true,
+      "rewards": {
+        "attributes": {}
+      }
     }
   }
 }

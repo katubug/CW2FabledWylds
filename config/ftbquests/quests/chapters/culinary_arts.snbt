@@ -155,7 +155,7 @@
 					count: 1
 					id: "minecraft:iron_ingot"
 				}
-				target_addressee: "QuestNPC"
+				target_addressee: "Katu Starshine"
 				team_reward_multiplier: 1.0f
 				type: "contactquests:parcel"
 			}]
@@ -172,6 +172,20 @@
 			id: "644439D23D454629"
 			preset: "start"
 			quest_enhance_disable_scroll_paging: false
+			rewards: [{
+				count: 4
+				exclude_from_claim_all: true
+				id: "5BAD4FDB4FBD008B"
+				is_ender: false
+				is_team_reward: false
+				item: {
+					count: 1
+					id: "minecraft:glass_bottle"
+				}
+				target_addressee: "Katu Starshine"
+				team_reward_multiplier: 1.0f
+				type: "contactquests:parcel"
+			}]
 			shape: "rsquare"
 			size: 2.0d
 			tasks: [{
@@ -186,6 +200,16 @@
 			dependencies: ["40C1DBE20E401EF9"]
 			id: "57742DD8F99DBAF1"
 			quest_enhance_disable_scroll_paging: false
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "328EB5424A806DA0"
+				is_ender: false
+				is_team_reward: false
+				table_id: 5770973074849872376L
+				target_addressee: "Katu Starshine"
+				team_reward_multiplier: 1.0f
+				type: "contactquests:parcel_random"
+			}]
 			tasks: [{
 				id: "52DB70F655735CDF"
 				item: { components: { "ftbfiltersystem:filter": "or(item(mynethersdelight:crimson_fungus_colony)item(mynethersdelight:warped_fungus_colony))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
@@ -197,6 +221,16 @@
 		{
 			id: "40C1DBE20E401EF9"
 			quest_enhance_disable_scroll_paging: false
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1683D37137B54502"
+				is_ender: false
+				is_team_reward: false
+				table_id: 5770973074849872376L
+				target_addressee: "Katu Starshine"
+				team_reward_multiplier: 1.0f
+				type: "contactquests:parcel_random"
+			}]
 			tasks: [{
 				id: "0435061413649EF9"
 				item: { count: 1, id: "mynethersdelight:letios_compost" }
@@ -209,6 +243,20 @@
 			dependencies: ["773834D44C436587"]
 			id: "507ACD6D650DECA2"
 			quest_enhance_disable_scroll_paging: false
+			rewards: [{
+				count: 4
+				exclude_from_claim_all: true
+				id: "32C6CE2A76B6BF4F"
+				is_ender: false
+				is_team_reward: false
+				item: {
+					count: 1
+					id: "farmersdelight:ham"
+				}
+				target_addressee: "Katu Starshine"
+				team_reward_multiplier: 1.0f
+				type: "contactquests:parcel"
+			}]
 			tasks: [{
 				id: "4B151F1AC477680B"
 				item: { count: 1, id: "mynethersdelight:hoglin_hide" }
@@ -263,6 +311,16 @@
 			dependencies: ["773834D44C436587"]
 			id: "236484A484723F55"
 			quest_enhance_disable_scroll_paging: false
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1FE7A44D7B3499D1"
+				is_ender: false
+				is_team_reward: false
+				table_id: 7328857662613080212L
+				target_addressee: "Katu Starshine"
+				team_reward_multiplier: 1.0f
+				type: "contactquests:parcel_random"
+			}]
 			tasks: [{
 				id: "239A64FBD2BF7FA4"
 				item: { count: 1, id: "mynethersdelight:roast_stuffed_hoglin" }
@@ -275,6 +333,20 @@
 			dependencies: ["236484A484723F55"]
 			id: "4FEE0688A44D8421"
 			quest_enhance_disable_scroll_paging: false
+			rewards: [{
+				count: 8
+				exclude_from_claim_all: true
+				id: "355D6C858FDCD651"
+				is_ender: false
+				is_team_reward: false
+				item: {
+					count: 1
+					id: "minecraft:bowl"
+				}
+				target_addressee: "Katu Starshine"
+				team_reward_multiplier: 1.0f
+				type: "contactquests:parcel"
+			}]
 			tasks: [
 				{
 					id: "240C4B48A589ACFC"
@@ -344,7 +416,7 @@
 						count: 1
 						id: "minecraft:bowl"
 					}
-					target_addressee: "QuestNPC"
+					target_addressee: "Katu Starshine"
 					team_reward_multiplier: 1.0f
 					type: "contactquests:parcel"
 				}
@@ -358,7 +430,7 @@
 						count: 1
 						id: "minecraft:pumpkin"
 					}
-					target_addressee: "QuestNPC"
+					target_addressee: "Katu Starshine"
 					team_reward_multiplier: 1.0f
 					type: "contactquests:parcel"
 				}
@@ -371,7 +443,7 @@
 						count: 1
 						id: "minecraft:campfire"
 					}
-					target_addressee: "QuestNPC"
+					target_addressee: "Katu Starshine"
 					team_reward_multiplier: 1.0f
 					type: "contactquests:parcel"
 				}
@@ -413,6 +485,20 @@
 			id: "7557E8749BF869DF"
 			preset: "item"
 			quest_enhance_disable_scroll_paging: false
+			rewards: [{
+				count: 4
+				exclude_from_claim_all: true
+				id: "546062FB9289CB9D"
+				is_ender: false
+				is_team_reward: false
+				item: {
+					count: 1
+					id: "minecraft:porkchop"
+				}
+				target_addressee: "Katu Starshine"
+				team_reward_multiplier: 1.0f
+				type: "contactquests:parcel"
+			}]
 			tasks: [{
 				id: "4F456D411C163AA8"
 				item: { count: 1, id: "farmersdelight:cutting_board" }
@@ -426,6 +512,16 @@
 			id: "0E2749D8FEEF0D49"
 			preset: "progression"
 			quest_enhance_disable_scroll_paging: false
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "07A44D0729B89074"
+				is_ender: false
+				is_team_reward: false
+				table_id: 5770973074849872376L
+				target_addressee: "Katu Starshine"
+				team_reward_multiplier: 1.0f
+				type: "contactquests:parcel_random"
+			}]
 			shape: "hexagon"
 			tasks: [{
 				id: "172CAB10518E2360"
@@ -578,6 +674,31 @@
 			id: "78A59A17FEDDE305"
 			preset: "advancement"
 			quest_enhance_disable_scroll_paging: false
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "03C56FB2F3D404B5"
+					is_ender: false
+					is_team_reward: false
+					table_id: 5167086515396975209L
+					target_addressee: "Katu Starshine"
+					team_reward_multiplier: 1.0f
+					type: "contactquests:parcel_random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "171247338762A447"
+					is_ender: false
+					is_team_reward: false
+					item: {
+						count: 1
+						id: "minecraft:cake"
+					}
+					target_addressee: "Katu Starshine"
+					team_reward_multiplier: 1.0f
+					type: "contactquests:parcel"
+				}
+			]
 			shape: "octagon"
 			tasks: [{
 				id: "23C5964D9AF61295"
@@ -648,6 +769,20 @@
 			id: "7E532A89B21B20D1"
 			preset: "advancement"
 			quest_enhance_disable_scroll_paging: false
+			rewards: [{
+				count: 6
+				exclude_from_claim_all: true
+				id: "24F6EF7537E94ADC"
+				is_ender: false
+				is_team_reward: false
+				item: {
+					count: 1
+					id: "minecraft:egg"
+				}
+				target_addressee: "Katu Starshine"
+				team_reward_multiplier: 1.0f
+				type: "contactquests:parcel"
+			}]
 			shape: "octagon"
 			tasks: [{
 				advancement: "farmersdelight:main/use_skillet"
@@ -714,6 +849,16 @@
 			id: "6C75BE906A574DAE"
 			preset: "progression"
 			quest_enhance_disable_scroll_paging: false
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "222FF9D9E7EEEBF7"
+				is_ender: false
+				is_team_reward: false
+				table_id: 7328857662613080212L
+				target_addressee: "Katu Starshine"
+				team_reward_multiplier: 1.0f
+				type: "contactquests:parcel_random"
+			}]
 			shape: "hexagon"
 			tasks: [
 				{
@@ -760,7 +905,7 @@
 					is_ender: false
 					is_team_reward: false
 					table_id: 5167086515396975209L
-					target_addressee: "QuestNPC"
+					target_addressee: "Katu Starshine"
 					team_reward_multiplier: 1.0f
 					type: "contactquests:parcel_random"
 				}
@@ -773,7 +918,7 @@
 						count: 1
 						id: "relics:golden_tooth"
 					}
-					target_addressee: "QuestNPC"
+					target_addressee: "Katu Starshine"
 					team_reward_multiplier: 1.0f
 					type: "contactquests:parcel"
 				}
@@ -847,6 +992,7 @@
 		{
 			id: "1649B81C8A139731"
 			invisible: true
+			optional: true
 			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "1FA8CAD5BF7C06D1"
@@ -859,6 +1005,16 @@
 		{
 			id: "5D439CB08EE5A923"
 			quest_enhance_disable_scroll_paging: false
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "73A9EF34BD96CB74"
+				is_ender: false
+				is_team_reward: false
+				table_id: 7328857662613080212L
+				target_addressee: "Katu Starshine"
+				team_reward_multiplier: 1.0f
+				type: "contactquests:parcel_random"
+			}]
 			shape: "hexagon"
 			tasks: [
 				{
@@ -928,7 +1084,7 @@
 			]
 			tasks: [{
 				id: "7BEA76BB5675764A"
-				item: { components: { "ftbfiltersystem:filter": "or(item(hearthandharvest:unripe_cheddar_cheese_wheel)item(hearthandharvest:unripe_goat_cheese_wheel)item(trailandtales_delight:curd_block)item(kubejs:grain_cheese_unripe)item(kubejs:amethyst_cheese_unripe)item(kubejs:buffalo_cheese_unripe)item(kubejs:warped_cheese_unripe))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				item: { components: { "ftbfiltersystem:filter": "or(item(hearthandharvest:unripe_cheese_wheel)item(hearthandharvest:unripe_goat_cheese_wheel)item(trailandtales_delight:curd_block)item(kubejs:sheep_cheese_unripe)item(kubejs:grain_cheese_unripe)item(kubejs:amethyst_cheese_unripe)item(kubejs:buffalo_cheese_unripe)item(kubejs:warped_cheese_unripe))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
 			x: -2.700000000000003d
@@ -939,6 +1095,19 @@
 			id: "43CC7A6F8C1284B5"
 			preset: "progression"
 			quest_enhance_disable_scroll_paging: false
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "08B2D984E0A0B563"
+				is_ender: false
+				is_team_reward: false
+				item: {
+					count: 1
+					id: "meadow:wooden_milk_bucket"
+				}
+				target_addressee: "Katu Starshine"
+				team_reward_multiplier: 1.0f
+				type: "contactquests:parcel"
+			}]
 			tasks: [{
 				id: "10F24C6F606E244C"
 				item: { count: 1, id: "meadow:cheese_form" }
@@ -1002,7 +1171,7 @@
 				is_ender: false
 				is_team_reward: false
 				table_id: 7328857662613080212L
-				target_addressee: "QuestNPC"
+				target_addressee: "Katu Starshine"
 				team_reward_multiplier: 1.0f
 				type: "contactquests:parcel_random"
 			}]
@@ -1019,6 +1188,16 @@
 			id: "684AF61973DB643F"
 			preset: "progression"
 			quest_enhance_disable_scroll_paging: false
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "18F789D027E1141C"
+				is_ender: false
+				is_team_reward: false
+				table_id: 6895470215093009548L
+				target_addressee: "Katu Starshine"
+				team_reward_multiplier: 1.0f
+				type: "contactquests:parcel_random"
+			}]
 			tasks: [{
 				id: "4194A437622706BD"
 				item: { components: { "ftbfiltersystem:filter": "or(item_tag(c:dusts/salt))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
@@ -1095,7 +1274,7 @@
 						count: 1
 						id: "herbalbrews:dried_green_tea"
 					}
-					target_addressee: "QuestNPC"
+					target_addressee: "Katu Starshine"
 					team_reward_multiplier: 1.0f
 					type: "contactquests:parcel"
 				}
@@ -1109,7 +1288,7 @@
 						count: 1
 						id: "herbalbrews:dried_black_tea"
 					}
-					target_addressee: "QuestNPC"
+					target_addressee: "Katu Starshine"
 					team_reward_multiplier: 1.0f
 					type: "contactquests:parcel"
 				}
@@ -1123,7 +1302,7 @@
 						count: 1
 						id: "herbalbrews:dried_oolong_tea"
 					}
-					target_addressee: "QuestNPC"
+					target_addressee: "Katu Starshine"
 					team_reward_multiplier: 1.0f
 					type: "contactquests:parcel"
 				}
@@ -1159,7 +1338,7 @@
 				is_ender: false
 				is_team_reward: false
 				table_id: 7328857662613080212L
-				target_addressee: "QuestNPC"
+				target_addressee: "Katu Starshine"
 				team_reward_multiplier: 1.0f
 				type: "contactquests:parcel_random"
 			}]
@@ -1195,7 +1374,7 @@
 				is_ender: false
 				is_team_reward: false
 				table_id: 7328857662613080212L
-				target_addressee: "QuestNPC"
+				target_addressee: "Katu Starshine"
 				team_reward_multiplier: 1.0f
 				type: "contactquests:parcel_random"
 			}]
@@ -1245,6 +1424,16 @@
 			id: "70B1F4C0D65D12D1"
 			preset: "completion"
 			quest_enhance_disable_scroll_paging: false
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3D1A16040064E1C5"
+				is_ender: false
+				is_team_reward: false
+				table_id: 5167086515396975209L
+				target_addressee: "Katu Starshine"
+				team_reward_multiplier: 1.0f
+				type: "contactquests:parcel_random"
+			}]
 			shape: "hexagon"
 			tasks: [
 				{
@@ -1269,7 +1458,7 @@
 				}
 				{
 					id: "1C0C5475C0A854DB"
-					item: { count: 1, id: "meadow:goat_cheese_slice" }
+					item: { count: 1, id: "hearthandharvest:goat_cheese_slice" }
 					type: "item"
 				}
 				{
@@ -1329,6 +1518,16 @@
 			id: "4EAB1C3073616E17"
 			preset: "item"
 			quest_enhance_disable_scroll_paging: false
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3FFFCA7B6D4E52BD"
+				is_ender: false
+				is_team_reward: false
+				table_id: 6895470215093009548L
+				target_addressee: "Katu Starshine"
+				team_reward_multiplier: 1.0f
+				type: "contactquests:parcel_random"
+			}]
 			tasks: [{
 				id: "65EE14C0671388C0"
 				item: { count: 1, id: "bakery:kitchen_sink" }
@@ -1341,6 +1540,16 @@
 			id: "207C60DC8889AC0F"
 			preset: "start"
 			quest_enhance_disable_scroll_paging: false
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6C8D075145341994"
+				is_ender: false
+				is_team_reward: false
+				table_id: 5770973074849872376L
+				target_addressee: "Katu Starshine"
+				team_reward_multiplier: 1.0f
+				type: "contactquests:parcel_random"
+			}]
 			shape: "rsquare"
 			size: 2.0d
 			tasks: [
@@ -1604,6 +1813,16 @@
 			id: "4388413B656A4336"
 			preset: "progression"
 			quest_enhance_disable_scroll_paging: false
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "62AA1B388B76ABD5"
+				is_ender: false
+				is_team_reward: false
+				table_id: 5770973074849872376L
+				target_addressee: "Katu Starshine"
+				team_reward_multiplier: 1.0f
+				type: "contactquests:parcel_random"
+			}]
 			tasks: [
 				{
 					id: "15D389A6DFEF6348"
@@ -1629,6 +1848,16 @@
 			id: "338640D0D42E7EC4"
 			preset: "progression"
 			quest_enhance_disable_scroll_paging: false
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6E4CB0D2B3E334DE"
+				is_ender: false
+				is_team_reward: false
+				table_id: 6895470215093009548L
+				target_addressee: "Katu Starshine"
+				team_reward_multiplier: 1.0f
+				type: "contactquests:parcel_random"
+			}]
 			tasks: [{
 				id: "297B9B29B5C35C13"
 				item: { count: 1, id: "farm_and_charm:cooking_pot" }
@@ -1640,6 +1869,16 @@
 		{
 			id: "528CB844416DF0E7"
 			quest_enhance_disable_scroll_paging: false
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "00C80B42283126B9"
+				is_ender: false
+				is_team_reward: false
+				table_id: 6895470215093009548L
+				target_addressee: "Katu Starshine"
+				team_reward_multiplier: 1.0f
+				type: "contactquests:parcel_random"
+			}]
 			tasks: [{
 				advancement: "bakery:main/get_yeast"
 				criterion: ""
@@ -1652,6 +1891,16 @@
 		{
 			id: "064FD196C750D6DB"
 			quest_enhance_disable_scroll_paging: false
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "77F0E2319688B4B4"
+				is_ender: false
+				is_team_reward: false
+				table_id: 6895470215093009548L
+				target_addressee: "Katu Starshine"
+				team_reward_multiplier: 1.0f
+				type: "contactquests:parcel_random"
+			}]
 			tasks: [{
 				id: "1C58CD7EBA09C386"
 				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(c:flours/wheat)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
@@ -1663,6 +1912,16 @@
 		{
 			id: "12EF12DE3866DA25"
 			quest_enhance_disable_scroll_paging: false
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "71974CFA6E3242C0"
+				is_ender: false
+				is_team_reward: false
+				table_id: 6895470215093009548L
+				target_addressee: "Katu Starshine"
+				team_reward_multiplier: 1.0f
+				type: "contactquests:parcel_random"
+			}]
 			tasks: [{
 				id: "42497F16D74CB8FF"
 				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(c:butter)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
@@ -1752,7 +2011,7 @@
 						count: 1
 						id: "cluttered:picnic_basket_prepared"
 					}
-					target_addressee: "QuestNPC"
+					target_addressee: "Katu Starshine"
 					team_reward_multiplier: 1.0f
 					type: "contactquests:parcel"
 				}
@@ -1762,7 +2021,7 @@
 					is_ender: false
 					is_team_reward: false
 					table_id: 5770973074849872376L
-					target_addressee: "QuestNPC"
+					target_addressee: "Katu Starshine"
 					team_reward_multiplier: 1.0f
 					type: "contactquests:parcel_random"
 				}
@@ -1787,7 +2046,7 @@
 				is_ender: false
 				is_team_reward: false
 				table_id: 6895470215093009548L
-				target_addressee: "QuestNPC"
+				target_addressee: "Katu Starshine"
 				team_reward_multiplier: 1.0f
 				type: "contactquests:parcel_random"
 			}]
@@ -1804,6 +2063,16 @@
 			id: "5490D2048FF6E2AB"
 			preset: "item"
 			quest_enhance_disable_scroll_paging: false
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "012E4B3CBC09D8D7"
+				is_ender: false
+				is_team_reward: false
+				table_id: 7328857662613080212L
+				target_addressee: "Katu Starshine"
+				team_reward_multiplier: 1.0f
+				type: "contactquests:parcel_random"
+			}]
 			tasks: [
 				{
 					id: "208517B4D56CF70F"

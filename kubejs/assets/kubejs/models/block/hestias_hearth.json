@@ -1,0 +1,2243 @@
+{
+	"credit": "hestia's hearth, 2 wide (side half is hestias_hearth_side)",
+	"ambientocclusion": false,
+	"render_type": "minecraft:cutout",
+	"texture_size": [
+		16,
+		16
+	],
+	"textures": {
+		"stone": "kubejs:block/hestias_hearth/stone",
+		"soot": "kubejs:block/hestias_hearth/soot",
+		"mantel": "kubejs:block/hestias_hearth/mantel",
+		"flagstone": "kubejs:block/hestias_hearth/flagstone",
+		"keepsakes": "kubejs:block/hestias_hearth/keepsakes",
+		"fire": "minecraft:block/campfire_fire",
+		"log": "minecraft:block/campfire_log",
+		"lit_log": "minecraft:block/campfire_log_lit",
+		"particle": "kubejs:block/hestias_hearth/stone"
+	},
+	"elements": [
+		{
+			"name": "base_l",
+			"from": [
+				-16,
+				0,
+				0
+			],
+			"to": [
+				0,
+				2,
+				16
+			],
+			"faces": {
+				"north": {
+					"uv": [
+						0,
+						14,
+						16,
+						16
+					],
+					"texture": "#flagstone"
+				},
+				"south": {
+					"uv": [
+						0,
+						14,
+						16,
+						16
+					],
+					"texture": "#flagstone"
+				},
+				"west": {
+					"uv": [
+						0,
+						14,
+						16,
+						16
+					],
+					"texture": "#flagstone"
+				},
+				"up": {
+					"uv": [
+						0,
+						0,
+						16,
+						16
+					],
+					"texture": "#flagstone"
+				},
+				"down": {
+					"uv": [
+						0,
+						0,
+						16,
+						16
+					],
+					"texture": "#flagstone"
+				}
+			}
+		},
+		{
+			"name": "base_r",
+			"from": [
+				0,
+				0,
+				0
+			],
+			"to": [
+				16,
+				2,
+				16
+			],
+			"faces": {
+				"north": {
+					"uv": [
+						0,
+						14,
+						16,
+						16
+					],
+					"texture": "#flagstone"
+				},
+				"south": {
+					"uv": [
+						0,
+						14,
+						16,
+						16
+					],
+					"texture": "#flagstone"
+				},
+				"east": {
+					"uv": [
+						0,
+						14,
+						16,
+						16
+					],
+					"texture": "#flagstone"
+				},
+				"up": {
+					"uv": [
+						0,
+						0,
+						16,
+						16
+					],
+					"texture": "#flagstone"
+				},
+				"down": {
+					"uv": [
+						0,
+						0,
+						16,
+						16
+					],
+					"texture": "#flagstone"
+				}
+			}
+		},
+		{
+			"name": "pillar_left",
+			"from": [
+				-15,
+				2,
+				3
+			],
+			"to": [
+				-9,
+				13,
+				16
+			],
+			"faces": {
+				"north": {
+					"uv": [
+						9,
+						3,
+						15,
+						14
+					],
+					"texture": "#stone"
+				},
+				"east": {
+					"uv": [
+						0,
+						3,
+						13,
+						14
+					],
+					"texture": "#soot"
+				},
+				"west": {
+					"uv": [
+						3,
+						3,
+						16,
+						14
+					],
+					"texture": "#stone"
+				},
+				"south": {
+					"uv": [
+						1,
+						3,
+						7,
+						14
+					],
+					"texture": "#stone"
+				}
+			}
+		},
+		{
+			"name": "pillar_right",
+			"from": [
+				9,
+				2,
+				3
+			],
+			"to": [
+				15,
+				13,
+				16
+			],
+			"faces": {
+				"north": {
+					"uv": [
+						1,
+						3,
+						7,
+						14
+					],
+					"texture": "#stone"
+				},
+				"east": {
+					"uv": [
+						0,
+						3,
+						13,
+						14
+					],
+					"texture": "#stone"
+				},
+				"west": {
+					"uv": [
+						3,
+						3,
+						16,
+						14
+					],
+					"texture": "#soot"
+				},
+				"south": {
+					"uv": [
+						9,
+						3,
+						15,
+						14
+					],
+					"texture": "#stone"
+				}
+			}
+		},
+		{
+			"name": "firebox_back_l",
+			"from": [
+				-9,
+				2,
+				13
+			],
+			"to": [
+				0,
+				10,
+				16
+			],
+			"faces": {
+				"north": {
+					"uv": [
+						0,
+						6,
+						9,
+						14
+					],
+					"texture": "#soot"
+				},
+				"south": {
+					"uv": [
+						7,
+						6,
+						16,
+						14
+					],
+					"texture": "#stone"
+				}
+			}
+		},
+		{
+			"name": "firebox_back_r",
+			"from": [
+				0,
+				2,
+				13
+			],
+			"to": [
+				9,
+				10,
+				16
+			],
+			"faces": {
+				"north": {
+					"uv": [
+						7,
+						6,
+						16,
+						14
+					],
+					"texture": "#soot"
+				},
+				"south": {
+					"uv": [
+						0,
+						6,
+						9,
+						14
+					],
+					"texture": "#stone"
+				}
+			}
+		},
+		{
+			"name": "lintel_l",
+			"from": [
+				-9,
+				10,
+				3
+			],
+			"to": [
+				0,
+				13,
+				16
+			],
+			"faces": {
+				"north": {
+					"uv": [
+						0,
+						3,
+						9,
+						6
+					],
+					"texture": "#stone"
+				},
+				"south": {
+					"uv": [
+						7,
+						3,
+						16,
+						6
+					],
+					"texture": "#stone"
+				},
+				"down": {
+					"uv": [
+						7,
+						0,
+						16,
+						13
+					],
+					"texture": "#soot"
+				}
+			}
+		},
+		{
+			"name": "lintel_r",
+			"from": [
+				0,
+				10,
+				3
+			],
+			"to": [
+				9,
+				13,
+				16
+			],
+			"faces": {
+				"north": {
+					"uv": [
+						7,
+						3,
+						16,
+						6
+					],
+					"texture": "#stone"
+				},
+				"south": {
+					"uv": [
+						0,
+						3,
+						9,
+						6
+					],
+					"texture": "#stone"
+				},
+				"down": {
+					"uv": [
+						0,
+						0,
+						9,
+						13
+					],
+					"texture": "#soot"
+				}
+			}
+		},
+		{
+			"name": "arch_left",
+			"from": [
+				-9,
+				8,
+				3
+			],
+			"to": [
+				-7,
+				10,
+				13
+			],
+			"faces": {
+				"north": {
+					"uv": [
+						7,
+						6,
+						9,
+						8
+					],
+					"texture": "#stone"
+				},
+				"east": {
+					"uv": [
+						3,
+						6,
+						13,
+						8
+					],
+					"texture": "#soot"
+				},
+				"down": {
+					"uv": [
+						7,
+						3,
+						9,
+						13
+					],
+					"texture": "#soot"
+				}
+			}
+		},
+		{
+			"name": "arch_right",
+			"from": [
+				7,
+				8,
+				3
+			],
+			"to": [
+				9,
+				10,
+				13
+			],
+			"faces": {
+				"north": {
+					"uv": [
+						7,
+						6,
+						9,
+						8
+					],
+					"texture": "#stone"
+				},
+				"west": {
+					"uv": [
+						3,
+						6,
+						13,
+						8
+					],
+					"texture": "#soot"
+				},
+				"down": {
+					"uv": [
+						7,
+						3,
+						9,
+						13
+					],
+					"texture": "#soot"
+				}
+			}
+		},
+		{
+			"name": "mantel_l",
+			"from": [
+				-16,
+				13,
+				1
+			],
+			"to": [
+				0,
+				15,
+				16
+			],
+			"faces": {
+				"north": {
+					"uv": [
+						0,
+						1,
+						16,
+						3
+					],
+					"texture": "#mantel"
+				},
+				"south": {
+					"uv": [
+						0,
+						1,
+						16,
+						3
+					],
+					"texture": "#mantel"
+				},
+				"west": {
+					"uv": [
+						1,
+						1,
+						16,
+						3
+					],
+					"texture": "#mantel"
+				},
+				"up": {
+					"uv": [
+						0,
+						1,
+						16,
+						16
+					],
+					"texture": "#mantel"
+				},
+				"down": {
+					"uv": [
+						0,
+						0,
+						16,
+						15
+					],
+					"texture": "#mantel"
+				}
+			}
+		},
+		{
+			"name": "mantel_r",
+			"from": [
+				0,
+				13,
+				1
+			],
+			"to": [
+				16,
+				15,
+				16
+			],
+			"faces": {
+				"north": {
+					"uv": [
+						0,
+						1,
+						16,
+						3
+					],
+					"texture": "#mantel"
+				},
+				"south": {
+					"uv": [
+						0,
+						1,
+						16,
+						3
+					],
+					"texture": "#mantel"
+				},
+				"east": {
+					"uv": [
+						0,
+						1,
+						15,
+						3
+					],
+					"texture": "#mantel"
+				},
+				"up": {
+					"uv": [
+						0,
+						1,
+						16,
+						16
+					],
+					"texture": "#mantel"
+				},
+				"down": {
+					"uv": [
+						0,
+						0,
+						16,
+						15
+					],
+					"texture": "#mantel"
+				}
+			}
+		},
+		{
+			"name": "corbel_left",
+			"from": [
+				-15,
+				11,
+				1
+			],
+			"to": [
+				-13,
+				13,
+				3
+			],
+			"faces": {
+				"north": {
+					"uv": [
+						13,
+						3,
+						15,
+						5
+					],
+					"texture": "#mantel"
+				},
+				"east": {
+					"uv": [
+						13,
+						3,
+						15,
+						5
+					],
+					"texture": "#mantel"
+				},
+				"west": {
+					"uv": [
+						1,
+						3,
+						3,
+						5
+					],
+					"texture": "#mantel"
+				},
+				"down": {
+					"uv": [
+						1,
+						13,
+						3,
+						15
+					],
+					"texture": "#mantel"
+				}
+			}
+		},
+		{
+			"name": "corbel_right",
+			"from": [
+				13,
+				11,
+				1
+			],
+			"to": [
+				15,
+				13,
+				3
+			],
+			"faces": {
+				"north": {
+					"uv": [
+						1,
+						3,
+						3,
+						5
+					],
+					"texture": "#mantel"
+				},
+				"east": {
+					"uv": [
+						13,
+						3,
+						15,
+						5
+					],
+					"texture": "#mantel"
+				},
+				"west": {
+					"uv": [
+						1,
+						3,
+						3,
+						5
+					],
+					"texture": "#mantel"
+				},
+				"down": {
+					"uv": [
+						13,
+						13,
+						15,
+						15
+					],
+					"texture": "#mantel"
+				}
+			}
+		},
+		{
+			"name": "log_front",
+			"from": [
+				-6,
+				2,
+				7
+			],
+			"to": [
+				6,
+				4,
+				9
+			],
+			"faces": {
+				"north": {
+					"uv": [
+						0,
+						0,
+						12,
+						4
+					],
+					"texture": "#lit_log"
+				},
+				"south": {
+					"uv": [
+						0,
+						0,
+						12,
+						4
+					],
+					"texture": "#log"
+				},
+				"up": {
+					"uv": [
+						0,
+						0,
+						12,
+						4
+					],
+					"texture": "#log"
+				},
+				"east": {
+					"uv": [
+						0,
+						4,
+						4,
+						8
+					],
+					"texture": "#log"
+				},
+				"west": {
+					"uv": [
+						0,
+						4,
+						4,
+						8
+					],
+					"texture": "#log"
+				}
+			}
+		},
+		{
+			"name": "log_back",
+			"from": [
+				-5,
+				2,
+				10
+			],
+			"to": [
+				5,
+				4,
+				12
+			],
+			"faces": {
+				"north": {
+					"uv": [
+						0,
+						0,
+						10,
+						4
+					],
+					"texture": "#lit_log"
+				},
+				"south": {
+					"uv": [
+						0,
+						0,
+						10,
+						4
+					],
+					"texture": "#log"
+				},
+				"up": {
+					"uv": [
+						0,
+						0,
+						10,
+						4
+					],
+					"texture": "#log"
+				},
+				"east": {
+					"uv": [
+						0,
+						4,
+						4,
+						8
+					],
+					"texture": "#log"
+				},
+				"west": {
+					"uv": [
+						0,
+						4,
+						4,
+						8
+					],
+					"texture": "#log"
+				}
+			}
+		},
+		{
+			"name": "log_top",
+			"from": [
+				-4,
+				4,
+				8.5
+			],
+			"to": [
+				4,
+				6,
+				10.5
+			],
+			"faces": {
+				"north": {
+					"uv": [
+						0,
+						0,
+						8,
+						4
+					],
+					"texture": "#lit_log"
+				},
+				"south": {
+					"uv": [
+						0,
+						0,
+						8,
+						4
+					],
+					"texture": "#log"
+				},
+				"up": {
+					"uv": [
+						0,
+						0,
+						8,
+						4
+					],
+					"texture": "#log"
+				},
+				"east": {
+					"uv": [
+						0,
+						4,
+						4,
+						8
+					],
+					"texture": "#log"
+				},
+				"west": {
+					"uv": [
+						0,
+						4,
+						4,
+						8
+					],
+					"texture": "#log"
+				}
+			}
+		},
+		{
+			"name": "flame_45",
+			"from": [
+				-5,
+				2.5,
+				9.5
+			],
+			"to": [
+				5,
+				10,
+				9.5
+			],
+			"shade": false,
+			"rotation": {
+				"origin": [
+					0,
+					2.5,
+					9.5
+				],
+				"axis": "y",
+				"angle": 45,
+				"rescale": true
+			},
+			"faces": {
+				"north": {
+					"uv": [
+						0,
+						0,
+						16,
+						16
+					],
+					"texture": "#fire"
+				},
+				"south": {
+					"uv": [
+						0,
+						0,
+						16,
+						16
+					],
+					"texture": "#fire"
+				}
+			},
+			"neoforge_data": {
+				"block_light": 15,
+				"sky_light": 15
+			}
+		},
+		{
+			"name": "flame_-45",
+			"from": [
+				-5,
+				2.5,
+				9.5
+			],
+			"to": [
+				5,
+				10,
+				9.5
+			],
+			"shade": false,
+			"rotation": {
+				"origin": [
+					0,
+					2.5,
+					9.5
+				],
+				"axis": "y",
+				"angle": -45,
+				"rescale": true
+			},
+			"faces": {
+				"north": {
+					"uv": [
+						0,
+						0,
+						16,
+						16
+					],
+					"texture": "#fire"
+				},
+				"south": {
+					"uv": [
+						0,
+						0,
+						16,
+						16
+					],
+					"texture": "#fire"
+				}
+			},
+			"neoforge_data": {
+				"block_light": 15,
+				"sky_light": 15
+			}
+		},
+		{
+			"name": "keepsake_inkpot",
+			"from": [
+				-10,
+				15,
+				9
+			],
+			"to": [
+				-8,
+				16.5,
+				11
+			],
+			"faces": {
+				"north": {
+					"uv": [
+						11.1,
+						2.1,
+						11.9,
+						2.9
+					],
+					"texture": "#keepsakes"
+				},
+				"south": {
+					"uv": [
+						11.1,
+						0.1,
+						11.9,
+						0.9
+					],
+					"texture": "#keepsakes"
+				},
+				"east": {
+					"uv": [
+						11.1,
+						0.1,
+						11.9,
+						0.9
+					],
+					"texture": "#keepsakes"
+				},
+				"west": {
+					"uv": [
+						11.1,
+						0.1,
+						11.9,
+						0.9
+					],
+					"texture": "#keepsakes"
+				},
+				"up": {
+					"uv": [
+						11.1,
+						0.1,
+						11.9,
+						0.9
+					],
+					"texture": "#keepsakes"
+				}
+			}
+		},
+		{
+			"name": "keepsake_inkpot_neck",
+			"from": [
+				-9.5,
+				16.5,
+				9.5
+			],
+			"to": [
+				-8.5,
+				17,
+				10.5
+			],
+			"faces": {
+				"north": {
+					"uv": [
+						13.1,
+						2.1,
+						13.9,
+						2.9
+					],
+					"texture": "#keepsakes"
+				},
+				"south": {
+					"uv": [
+						13.1,
+						2.1,
+						13.9,
+						2.9
+					],
+					"texture": "#keepsakes"
+				},
+				"east": {
+					"uv": [
+						13.1,
+						2.1,
+						13.9,
+						2.9
+					],
+					"texture": "#keepsakes"
+				},
+				"west": {
+					"uv": [
+						13.1,
+						2.1,
+						13.9,
+						2.9
+					],
+					"texture": "#keepsakes"
+				},
+				"up": {
+					"uv": [
+						13.1,
+						2.1,
+						13.9,
+						2.9
+					],
+					"texture": "#keepsakes"
+				}
+			}
+		},
+		{
+			"name": "keepsake_quill",
+			"from": [
+				-9.5,
+				16.5,
+				10
+			],
+			"to": [
+				-7.5,
+				22.5,
+				10
+			],
+			"faces": {
+				"north": {
+					"uv": [
+						0,
+						0,
+						2,
+						6
+					],
+					"texture": "#keepsakes"
+				},
+				"south": {
+					"uv": [
+						2,
+						0,
+						0,
+						6
+					],
+					"texture": "#keepsakes"
+				}
+			},
+			"rotation": {
+				"origin": [
+					-9,
+					16.5,
+					10
+				],
+				"axis": "z",
+				"angle": -22.5
+			}
+		},
+		{
+			"name": "keepsake_book",
+			"from": [
+				-6,
+				15,
+				8.5
+			],
+			"to": [
+				-3,
+				19,
+				10
+			],
+			"faces": {
+				"north": {
+					"uv": [
+						2,
+						0,
+						5,
+						4
+					],
+					"texture": "#keepsakes"
+				},
+				"south": {
+					"uv": [
+						12.1,
+						0.1,
+						12.9,
+						0.9
+					],
+					"texture": "#keepsakes"
+				},
+				"east": {
+					"uv": [
+						13.1,
+						0.1,
+						13.9,
+						0.9
+					],
+					"texture": "#keepsakes"
+				},
+				"west": {
+					"uv": [
+						12.1,
+						2.1,
+						12.9,
+						2.9
+					],
+					"texture": "#keepsakes"
+				},
+				"up": {
+					"uv": [
+						13.1,
+						0.1,
+						13.9,
+						0.9
+					],
+					"texture": "#keepsakes"
+				}
+			}
+		},
+		{
+			"name": "keepsake_yarn_x",
+			"from": [
+				-1.5,
+				15.5,
+				8.5
+			],
+			"to": [
+				2.5,
+				17.5,
+				10.5
+			],
+			"faces": {
+				"north": {
+					"uv": [
+						5,
+						0,
+						8,
+						3
+					],
+					"texture": "#keepsakes"
+				},
+				"south": {
+					"uv": [
+						5,
+						0,
+						8,
+						3
+					],
+					"texture": "#keepsakes"
+				},
+				"east": {
+					"uv": [
+						5,
+						0,
+						8,
+						3
+					],
+					"texture": "#keepsakes"
+				},
+				"west": {
+					"uv": [
+						5,
+						0,
+						8,
+						3
+					],
+					"texture": "#keepsakes"
+				},
+				"up": {
+					"uv": [
+						5,
+						0,
+						8,
+						3
+					],
+					"texture": "#keepsakes"
+				}
+			}
+		},
+		{
+			"name": "keepsake_yarn_y",
+			"from": [
+				-0.5,
+				15,
+				8.5
+			],
+			"to": [
+				1.5,
+				18.5,
+				10.5
+			],
+			"faces": {
+				"north": {
+					"uv": [
+						5,
+						0,
+						8,
+						3
+					],
+					"texture": "#keepsakes"
+				},
+				"south": {
+					"uv": [
+						5,
+						0,
+						8,
+						3
+					],
+					"texture": "#keepsakes"
+				},
+				"east": {
+					"uv": [
+						5,
+						0,
+						8,
+						3
+					],
+					"texture": "#keepsakes"
+				},
+				"west": {
+					"uv": [
+						5,
+						0,
+						8,
+						3
+					],
+					"texture": "#keepsakes"
+				},
+				"up": {
+					"uv": [
+						5,
+						0,
+						8,
+						3
+					],
+					"texture": "#keepsakes"
+				}
+			}
+		},
+		{
+			"name": "keepsake_yarn_z",
+			"from": [
+				-0.5,
+				15.5,
+				7.5
+			],
+			"to": [
+				1.5,
+				17.5,
+				11.5
+			],
+			"faces": {
+				"north": {
+					"uv": [
+						5,
+						0,
+						8,
+						3
+					],
+					"texture": "#keepsakes"
+				},
+				"south": {
+					"uv": [
+						5,
+						0,
+						8,
+						3
+					],
+					"texture": "#keepsakes"
+				},
+				"east": {
+					"uv": [
+						5,
+						0,
+						8,
+						3
+					],
+					"texture": "#keepsakes"
+				},
+				"west": {
+					"uv": [
+						5,
+						0,
+						8,
+						3
+					],
+					"texture": "#keepsakes"
+				},
+				"up": {
+					"uv": [
+						5,
+						0,
+						8,
+						3
+					],
+					"texture": "#keepsakes"
+				}
+			}
+		},
+		{
+			"name": "keepsake_yarn_strand",
+			"from": [
+				2.5,
+				15,
+				9.25
+			],
+			"to": [
+				4.25,
+				15.25,
+				9.75
+			],
+			"faces": {
+				"north": {
+					"uv": [
+						15.1,
+						1.1,
+						15.9,
+						1.9
+					],
+					"texture": "#keepsakes"
+				},
+				"south": {
+					"uv": [
+						15.1,
+						1.1,
+						15.9,
+						1.9
+					],
+					"texture": "#keepsakes"
+				},
+				"east": {
+					"uv": [
+						15.1,
+						1.1,
+						15.9,
+						1.9
+					],
+					"texture": "#keepsakes"
+				},
+				"west": {
+					"uv": [
+						15.1,
+						1.1,
+						15.9,
+						1.9
+					],
+					"texture": "#keepsakes"
+				},
+				"up": {
+					"uv": [
+						15.1,
+						1.1,
+						15.9,
+						1.9
+					],
+					"texture": "#keepsakes"
+				}
+			}
+		},
+		{
+			"name": "keepsake_needle_a",
+			"from": [
+				0,
+				17,
+				9.3
+			],
+			"to": [
+				0.5,
+				20.5,
+				9.8
+			],
+			"faces": {
+				"north": {
+					"uv": [
+						14.1,
+						1.1,
+						14.9,
+						1.9
+					],
+					"texture": "#keepsakes"
+				},
+				"south": {
+					"uv": [
+						14.1,
+						1.1,
+						14.9,
+						1.9
+					],
+					"texture": "#keepsakes"
+				},
+				"east": {
+					"uv": [
+						14.1,
+						1.1,
+						14.9,
+						1.9
+					],
+					"texture": "#keepsakes"
+				},
+				"west": {
+					"uv": [
+						14.1,
+						1.1,
+						14.9,
+						1.9
+					],
+					"texture": "#keepsakes"
+				},
+				"up": {
+					"uv": [
+						14.1,
+						1.1,
+						14.9,
+						1.9
+					],
+					"texture": "#keepsakes"
+				}
+			},
+			"rotation": {
+				"origin": [
+					0.25,
+					17,
+					9.5
+				],
+				"axis": "z",
+				"angle": 22.5
+			}
+		},
+		{
+			"name": "keepsake_needle_b",
+			"from": [
+				0.5,
+				17,
+				9.8
+			],
+			"to": [
+				1,
+				20.5,
+				10.3
+			],
+			"faces": {
+				"north": {
+					"uv": [
+						14.1,
+						1.1,
+						14.9,
+						1.9
+					],
+					"texture": "#keepsakes"
+				},
+				"south": {
+					"uv": [
+						14.1,
+						1.1,
+						14.9,
+						1.9
+					],
+					"texture": "#keepsakes"
+				},
+				"east": {
+					"uv": [
+						14.1,
+						1.1,
+						14.9,
+						1.9
+					],
+					"texture": "#keepsakes"
+				},
+				"west": {
+					"uv": [
+						14.1,
+						1.1,
+						14.9,
+						1.9
+					],
+					"texture": "#keepsakes"
+				},
+				"up": {
+					"uv": [
+						14.1,
+						1.1,
+						14.9,
+						1.9
+					],
+					"texture": "#keepsakes"
+				}
+			},
+			"rotation": {
+				"origin": [
+					0.75,
+					17,
+					10
+				],
+				"axis": "z",
+				"angle": -22.5
+			}
+		},
+		{
+			"name": "keepsake_bottle",
+			"from": [
+				4,
+				15,
+				9
+			],
+			"to": [
+				7,
+				18,
+				12
+			],
+			"faces": {
+				"north": {
+					"uv": [
+						8,
+						0,
+						11,
+						3
+					],
+					"texture": "#keepsakes"
+				},
+				"south": {
+					"uv": [
+						8,
+						0,
+						11,
+						3
+					],
+					"texture": "#keepsakes"
+				},
+				"east": {
+					"uv": [
+						8,
+						0,
+						11,
+						3
+					],
+					"texture": "#keepsakes"
+				},
+				"west": {
+					"uv": [
+						8,
+						0,
+						11,
+						3
+					],
+					"texture": "#keepsakes"
+				},
+				"up": {
+					"uv": [
+						14.1,
+						0.1,
+						14.9,
+						0.9
+					],
+					"texture": "#keepsakes"
+				}
+			},
+			"neoforge_data": {
+				"block_light": 15,
+				"sky_light": 15
+			}
+		},
+		{
+			"name": "keepsake_bottle_neck",
+			"from": [
+				5,
+				18,
+				10
+			],
+			"to": [
+				6,
+				19.5,
+				11
+			],
+			"faces": {
+				"north": {
+					"uv": [
+						14.1,
+						0.1,
+						14.9,
+						0.9
+					],
+					"texture": "#keepsakes"
+				},
+				"south": {
+					"uv": [
+						14.1,
+						0.1,
+						14.9,
+						0.9
+					],
+					"texture": "#keepsakes"
+				},
+				"east": {
+					"uv": [
+						14.1,
+						0.1,
+						14.9,
+						0.9
+					],
+					"texture": "#keepsakes"
+				},
+				"west": {
+					"uv": [
+						14.1,
+						0.1,
+						14.9,
+						0.9
+					],
+					"texture": "#keepsakes"
+				},
+				"up": {
+					"uv": [
+						14.1,
+						0.1,
+						14.9,
+						0.9
+					],
+					"texture": "#keepsakes"
+				}
+			}
+		},
+		{
+			"name": "keepsake_bottle_cork",
+			"from": [
+				4.75,
+				19.5,
+				9.75
+			],
+			"to": [
+				6.25,
+				20.25,
+				11.25
+			],
+			"faces": {
+				"north": {
+					"uv": [
+						15.1,
+						0.1,
+						15.9,
+						0.9
+					],
+					"texture": "#keepsakes"
+				},
+				"south": {
+					"uv": [
+						15.1,
+						0.1,
+						15.9,
+						0.9
+					],
+					"texture": "#keepsakes"
+				},
+				"east": {
+					"uv": [
+						15.1,
+						0.1,
+						15.9,
+						0.9
+					],
+					"texture": "#keepsakes"
+				},
+				"west": {
+					"uv": [
+						15.1,
+						0.1,
+						15.9,
+						0.9
+					],
+					"texture": "#keepsakes"
+				},
+				"up": {
+					"uv": [
+						15.1,
+						0.1,
+						15.9,
+						0.9
+					],
+					"texture": "#keepsakes"
+				}
+			}
+		},
+		{
+			"name": "keepsake_collar_front",
+			"from": [
+				9,
+				15,
+				6
+			],
+			"to": [
+				14,
+				16,
+				7
+			],
+			"faces": {
+				"north": {
+					"uv": [
+						11.1,
+						1.1,
+						11.9,
+						1.9
+					],
+					"texture": "#keepsakes"
+				},
+				"south": {
+					"uv": [
+						11.1,
+						1.1,
+						11.9,
+						1.9
+					],
+					"texture": "#keepsakes"
+				},
+				"east": {
+					"uv": [
+						11.1,
+						1.1,
+						11.9,
+						1.9
+					],
+					"texture": "#keepsakes"
+				},
+				"west": {
+					"uv": [
+						11.1,
+						1.1,
+						11.9,
+						1.9
+					],
+					"texture": "#keepsakes"
+				},
+				"up": {
+					"uv": [
+						11.1,
+						1.1,
+						11.9,
+						1.9
+					],
+					"texture": "#keepsakes"
+				}
+			}
+		},
+		{
+			"name": "keepsake_collar_back",
+			"from": [
+				9,
+				15,
+				10
+			],
+			"to": [
+				14,
+				16,
+				11
+			],
+			"faces": {
+				"north": {
+					"uv": [
+						12.1,
+						1.1,
+						12.9,
+						1.9
+					],
+					"texture": "#keepsakes"
+				},
+				"south": {
+					"uv": [
+						12.1,
+						1.1,
+						12.9,
+						1.9
+					],
+					"texture": "#keepsakes"
+				},
+				"east": {
+					"uv": [
+						12.1,
+						1.1,
+						12.9,
+						1.9
+					],
+					"texture": "#keepsakes"
+				},
+				"west": {
+					"uv": [
+						12.1,
+						1.1,
+						12.9,
+						1.9
+					],
+					"texture": "#keepsakes"
+				},
+				"up": {
+					"uv": [
+						12.1,
+						1.1,
+						12.9,
+						1.9
+					],
+					"texture": "#keepsakes"
+				}
+			}
+		},
+		{
+			"name": "keepsake_collar_left",
+			"from": [
+				9,
+				15,
+				7
+			],
+			"to": [
+				10,
+				16,
+				10
+			],
+			"faces": {
+				"north": {
+					"uv": [
+						11.1,
+						1.1,
+						11.9,
+						1.9
+					],
+					"texture": "#keepsakes"
+				},
+				"south": {
+					"uv": [
+						11.1,
+						1.1,
+						11.9,
+						1.9
+					],
+					"texture": "#keepsakes"
+				},
+				"east": {
+					"uv": [
+						11.1,
+						1.1,
+						11.9,
+						1.9
+					],
+					"texture": "#keepsakes"
+				},
+				"west": {
+					"uv": [
+						11.1,
+						1.1,
+						11.9,
+						1.9
+					],
+					"texture": "#keepsakes"
+				},
+				"up": {
+					"uv": [
+						11.1,
+						1.1,
+						11.9,
+						1.9
+					],
+					"texture": "#keepsakes"
+				}
+			}
+		},
+		{
+			"name": "keepsake_collar_right",
+			"from": [
+				13,
+				15,
+				7
+			],
+			"to": [
+				14,
+				16,
+				10
+			],
+			"faces": {
+				"north": {
+					"uv": [
+						11.1,
+						1.1,
+						11.9,
+						1.9
+					],
+					"texture": "#keepsakes"
+				},
+				"south": {
+					"uv": [
+						11.1,
+						1.1,
+						11.9,
+						1.9
+					],
+					"texture": "#keepsakes"
+				},
+				"east": {
+					"uv": [
+						11.1,
+						1.1,
+						11.9,
+						1.9
+					],
+					"texture": "#keepsakes"
+				},
+				"west": {
+					"uv": [
+						11.1,
+						1.1,
+						11.9,
+						1.9
+					],
+					"texture": "#keepsakes"
+				},
+				"up": {
+					"uv": [
+						11.1,
+						1.1,
+						11.9,
+						1.9
+					],
+					"texture": "#keepsakes"
+				}
+			}
+		},
+		{
+			"name": "keepsake_collar_buckle",
+			"from": [
+				12.75,
+				15,
+				7.75
+			],
+			"to": [
+				14.25,
+				16.25,
+				9.25
+			],
+			"faces": {
+				"north": {
+					"uv": [
+						13.1,
+						1.1,
+						13.9,
+						1.9
+					],
+					"texture": "#keepsakes"
+				},
+				"south": {
+					"uv": [
+						13.1,
+						1.1,
+						13.9,
+						1.9
+					],
+					"texture": "#keepsakes"
+				},
+				"east": {
+					"uv": [
+						13.1,
+						1.1,
+						13.9,
+						1.9
+					],
+					"texture": "#keepsakes"
+				},
+				"west": {
+					"uv": [
+						13.1,
+						1.1,
+						13.9,
+						1.9
+					],
+					"texture": "#keepsakes"
+				},
+				"up": {
+					"uv": [
+						13.1,
+						1.1,
+						13.9,
+						1.9
+					],
+					"texture": "#keepsakes"
+				}
+			}
+		},
+		{
+			"name": "keepsake_collar_tag",
+			"from": [
+				11,
+				15,
+				5.5
+			],
+			"to": [
+				12,
+				16.5,
+				6
+			],
+			"faces": {
+				"north": {
+					"uv": [
+						13.1,
+						1.1,
+						13.9,
+						1.9
+					],
+					"texture": "#keepsakes"
+				},
+				"south": {
+					"uv": [
+						13.1,
+						1.1,
+						13.9,
+						1.9
+					],
+					"texture": "#keepsakes"
+				},
+				"east": {
+					"uv": [
+						13.1,
+						1.1,
+						13.9,
+						1.9
+					],
+					"texture": "#keepsakes"
+				},
+				"west": {
+					"uv": [
+						13.1,
+						1.1,
+						13.9,
+						1.9
+					],
+					"texture": "#keepsakes"
+				},
+				"up": {
+					"uv": [
+						13.1,
+						1.1,
+						13.9,
+						1.9
+					],
+					"texture": "#keepsakes"
+				}
+			}
+		},
+		{
+			"name": "keepsake_knot",
+			"from": [
+				-1,
+				9,
+				2.9
+			],
+			"to": [
+				2,
+				13,
+				2.9
+			],
+			"faces": {
+				"north": {
+					"uv": [
+						7,
+						6,
+						10,
+						10
+					],
+					"texture": "#keepsakes"
+				}
+			}
+		},
+		{
+			"name": "keepsake_ribbon",
+			"from": [
+				10,
+				9.5,
+				0.9
+			],
+			"to": [
+				13,
+				14.5,
+				0.9
+			],
+			"faces": {
+				"north": {
+					"uv": [
+						4,
+						6,
+						7,
+						11
+					],
+					"texture": "#keepsakes"
+				}
+			}
+		},
+		{
+			"name": "keepsake_quilt_flap",
+			"from": [
+				-15,
+				10,
+				0.9
+			],
+			"to": [
+				-11,
+				15,
+				0.9
+			],
+			"faces": {
+				"north": {
+					"uv": [
+						0,
+						6,
+						4,
+						11
+					],
+					"texture": "#keepsakes"
+				}
+			}
+		},
+		{
+			"name": "keepsake_quilt_top",
+			"from": [
+				-15,
+				15,
+				0.9
+			],
+			"to": [
+				-11,
+				15.3,
+				5
+			],
+			"faces": {
+				"up": {
+					"uv": [
+						0,
+						6,
+						4,
+						10
+					],
+					"texture": "#keepsakes"
+				},
+				"north": {
+					"uv": [
+						0,
+						6,
+						4,
+						7
+					],
+					"texture": "#keepsakes"
+				},
+				"east": {
+					"uv": [
+						3,
+						6,
+						4,
+						7
+					],
+					"texture": "#keepsakes"
+				},
+				"west": {
+					"uv": [
+						0,
+						6,
+						1,
+						7
+					],
+					"texture": "#keepsakes"
+				}
+			}
+		}
+	]
+}

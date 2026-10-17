@@ -1,0 +1,11 @@
+{
+    "type": "tipsmod:simple",
+    "title": {
+        "translate": "tips.titles.critterscompanions",
+        "bold": true,
+        "color": "green"
+    },
+    "text": {
+        "translate": "tips.text.critterscompanions.weevils"
+    }
+}

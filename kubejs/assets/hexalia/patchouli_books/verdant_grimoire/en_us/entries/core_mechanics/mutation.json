@@ -1,0 +1,136 @@
+{
+  "name": "Mutation",
+  "icon": "hexalia:mutavis",
+  "category": "hexalia:core_mechanics",
+  "sortnum": 4,
+  "pages": [
+    {
+      "type": "text",
+      "title": "Mutation",
+      "text": "$(item)Mutandis$() awakens hidden possibilities in certain plants and blocks. Use it on a compatible block and it transforms on the spot - no waiting required!"
+    },
+    {
+      "type": "text",
+      "title": "Using Mutandis",
+      "anchor": "usage",
+      "text": "Mutandis is ground in a $(item)Pestle and Mortar$() from $(thing)Hexerei$() (check JEI for the recipe). Hold it and use it on any block shown in the pages that follow. Each successful mutation uses up one Mutandis.$(br2)Mutandis Extremis works too."
+    },
+    {
+      "type": "text",
+      "title": "Area Mutation",
+      "anchor": "area",
+      "text": "Using Mutandis on a $(l:hexalia:core_mechanics/enchanted_plants#morphora)Morphora$(/l) mutates every compatible block in a 7x7 square around it, on the same level as the flower.$(br2)Only one Mutandis is used, no matter how many blocks change."
+    },
+    {
+      "type": "text",
+      "title": "Witchy Saplings",
+      "anchor": "enchanted",
+      "text": "Some plants follow different rules. $(item)Oak$(), $(item)Birch$() and $(item)Acacia Saplings$() mutate into Rowan, Hawthorn or Alder, but only with the right herbs growing nearby, and the change takes a little while.$(br2)$(thing)The Art of Witchcraft$() has the details."
+    },
+    {
+      "type": "hexalia:recipe_page",
+      "recipe_id": "hexalia:andesite_from_mutation",
+      "layout": "mutation"
+    },
+    {
+      "type": "hexalia:recipe_page",
+      "recipe_id": "hexalia:blackstone_from_mutation",
+      "layout": "mutation"
+    },
+    {
+      "type": "hexalia:recipe_page",
+      "recipe_id": "hexalia:blue_ice_from_mutation",
+      "layout": "mutation"
+    },
+    {
+      "type": "hexalia:recipe_page",
+      "recipe_id": "hexalia:celestial_bloom_from_mutation",
+      "layout": "mutation"
+    },
+    {
+      "type": "hexalia:recipe_page",
+      "recipe_id": "hexalia:cottonwood_sapling_from_mutation",
+      "layout": "mutation"
+    },
+    {
+      "type": "hexalia:recipe_page",
+      "recipe_id": "hexalia:diorite_from_mutation",
+      "layout": "mutation"
+    },
+    {
+      "type": "hexalia:recipe_page",
+      "recipe_id": "hexalia:dreamshroom_from_mutation",
+      "layout": "mutation"
+    },
+    {
+      "type": "hexalia:recipe_page",
+      "recipe_id": "hexalia:ghost_fern_from_mutation",
+      "layout": "mutation"
+    },
+    {
+      "type": "hexalia:recipe_page",
+      "recipe_id": "hexalia:granite_from_mutation",
+      "layout": "mutation"
+    },
+    {
+      "type": "hexalia:recipe_page",
+      "recipe_id": "hexalia:lotus_flower_from_mutation",
+      "layout": "mutation"
+    },
+    {
+      "type": "hexalia:recipe_page",
+      "recipe_id": "hexalia:mud_from_mutation",
+      "layout": "mutation"
+    },
+    {
+      "type": "hexalia:recipe_page",
+      "recipe_id": "hexalia:packed_ice_from_mutation",
+      "layout": "mutation"
+    },
+    {
+      "type": "hexalia:recipe_page",
+      "recipe_id": "hexalia:podzol_from_mutation",
+      "layout": "mutation"
+    },
+    {
+      "type": "hexalia:recipe_page",
+      "recipe_id": "hexalia:red_sand_from_mutation",
+      "layout": "mutation"
+    },
+    {
+      "type": "hexalia:recipe_page",
+      "recipe_id": "hexalia:rooted_dirt_from_mutation",
+      "layout": "mutation"
+    },
+    {
+      "type": "hexalia:recipe_page",
+      "recipe_id": "hexalia:saltsprout_from_mutation",
+      "layout": "mutation"
+    },
+    {
+      "type": "hexalia:recipe_page",
+      "recipe_id": "hexalia:siren_kelp_from_mutation",
+      "layout": "mutation"
+    },
+    {
+      "type": "hexalia:recipe_page",
+      "recipe_id": "hexalia:spirit_bloom_from_mutation",
+      "layout": "mutation"
+    },
+    {
+      "type": "hexalia:recipe_page",
+      "recipe_id": "hexalia:tuff_from_mutation",
+      "layout": "mutation"
+    },
+    {
+      "type": "hexalia:recipe_page",
+      "recipe_id": "hexalia:willow_sapling_from_mutation",
+      "layout": "mutation"
+    },
+    {
+      "type": "hexalia:recipe_page",
+      "recipe_id": "hexalia:witchweed_from_mutation",
+      "layout": "mutation"
+    }
+  ]
+}

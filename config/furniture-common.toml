@@ -80,10 +80,6 @@
 	# Default: 150
 	# Range: 10 ~ 1000
 	maxDurability = 150
-	#How much durability one wheat restores. A hay bale always repairs fully.
-	# Default: 15
-	# Range: 1 ~ 150
-	wheatRepair = 15
 
 #Bin and trash bag behaviour.
 [Bin]

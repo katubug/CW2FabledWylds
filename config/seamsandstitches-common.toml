@@ -91,12 +91,6 @@
 
 #General settings.
 [general]
-	#Global default for the minimum fraction of stitches (0.0–1.0) a player must hit
-	#to receive any item at all. Below this the craft fails completely.
-	#Individual recipes can override this with a 'poor' key inside 'quality_breakpoints'.
-	# Default: 0.25
-	# Range: 0.0 ~ 1.0
-	poorThreshold = 0.25
 	#When true, the Tailoring Bench and Tanning Rack UIs use the classic vanilla Minecraft gray style.
 	#When false (default), the modern dark UI is used.
 	vanillafyUI = true
@@ -109,7 +103,7 @@
 	#  - Press R in the sewing screen to clear the recorded coordinates.
 	#  - Press C in the sewing screen to copy the array to the clipboard.
 	#Useful when designing new seam paths for custom recipes.
-	debugOverlay = true
+	debugOverlay = false
 
 #Leather tanning settings.
 [leather_tanning]
@@ -178,3 +172,25 @@
 		# Default: 4
 		# Range: 1 ~ 64
 		hoglin_hide = 4
+
+#Project MMO integration. Ignored unless Project MMO is installed.
+[pmmo]
+	#If true, completing a sewing pattern awards the sewn item's Project MMO xp map (for the
+	#event named by tailoringXpEvent) to the tailor, scaled by the quality sewn (see
+	#tailoringXpMultiplierByQuality) and by how cleanly it was stitched (see
+	#tailoringXpMinigameBonus). Quick Craft on a mastered pattern pays the unscaled amount. Per-item
+	#xp values, and the skills they feed, live in the modpack's Project MMO data; this only scales them.
+	awardTailoringXp = true
+	#Project MMO event type whose item xp map a completed pattern pays out, e.g. CRAFT or SMELT.
+	#The tailoring bench never fires the event itself, so xp is only ever paid once, here.
+	tailoringXpEvent = "CRAFT"
+	#Multiplier applied to the item's Project MMO xp by the quality sewn, as level=multiplier
+	#points over QualityAPI tier levels (crude -1, standard 0, fine 1, superior 2, exquisite 3,
+	#masterwork 4). Levels between points are interpolated; beyond either end the nearest point
+	#holds. Items sewn with no quality count as level 0.
+	tailoringXpMultiplierByQuality = ["-1=0.75", "0=1.0", "1=1.5", "2=2.0", "3=5.0", "4=10.0"]
+	#Extra xp for clean stitching, on top of the quality multiplier: at 0.3 a pattern with every
+	#stitch inside the inner ring pays 30% more than one with none there.
+	# Default: 0.3
+	# Range: 0.0 ~ 5.0
+	tailoringXpMinigameBonus = 0.3

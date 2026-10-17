@@ -1,0 +1,49 @@
+{
+    "items": [
+        { "id": "minecraft:feather", "count": 1 },
+        { "id": "minecraft:egg", "count": 1 },
+        { "id": "minecraft:lava_bucket", "count": 1 },
+        { "id": "mynethersdelight:bullet_pepper", "count": 1 },
+        { "id": "minecraft:blaze_rod", "count": 1 },
+        { "id": "minecraft:diamond", "count": 1 }
+    ],
+    "shapes": {
+        "enchanted:small_circle": "enchanted:ritual_chalk",
+        "enchanted:medium_circle": "enchanted:nether_chalk"
+    },
+    "power": 4000,
+    "factory": {
+        "type": "enchanted:command",
+        "delay": 20,
+        "commands": [
+            [
+                "tag @e[tag=fw_lava_chicken] remove fw_lava_chicken",
+                "tag @e[type=minecraft:chicken,distance=..4.5,limit=1,sort=nearest] add fw_lava_chicken",
+                "execute unless entity @e[tag=fw_lava_chicken] run summon item ~ ~0.5 ~ {Item:{id:\"minecraft:feather\",count:1}}",
+                "execute unless entity @e[tag=fw_lava_chicken] run summon item ~ ~0.5 ~ {Item:{id:\"minecraft:egg\",count:1}}",
+                "execute unless entity @e[tag=fw_lava_chicken] run summon item ~ ~0.5 ~ {Item:{id:\"minecraft:lava_bucket\",count:1}}",
+                "execute unless entity @e[tag=fw_lava_chicken] run summon item ~ ~0.5 ~ {Item:{id:\"mynethersdelight:bullet_pepper\",count:1}}",
+                "execute unless entity @e[tag=fw_lava_chicken] run summon item ~ ~0.5 ~ {Item:{id:\"minecraft:blaze_rod\",count:1}}",
+                "execute unless entity @e[tag=fw_lava_chicken] run summon item ~ ~0.5 ~ {Item:{id:\"minecraft:diamond\",count:1}}",
+                "execute unless entity @e[tag=fw_lava_chicken] run tellraw @caster {\"text\":\"The rite fizzles out. Something feathery seems to be missing...\",\"color\":\"gold\",\"italic\":true}",
+                "execute at @e[tag=fw_lava_chicken,limit=1,sort=nearest] run playsound minecraft:entity.chicken.ambient neutral @a ~ ~ ~ 1 0.7",
+                "execute at @e[tag=fw_lava_chicken,limit=1,sort=nearest] run particle minecraft:flame ~ ~0.4 ~ 0.3 0.3 0.3 0.01 15"
+            ],
+            [
+                "execute at @e[tag=fw_lava_chicken,limit=1,sort=nearest] run playsound minecraft:block.lava.pop neutral @a ~ ~ ~ 1 1",
+                "execute at @e[tag=fw_lava_chicken,limit=1,sort=nearest] run particle minecraft:lava ~ ~0.5 ~ 0.2 0.2 0.2 0 8"
+            ],
+            [
+                "execute at @e[tag=fw_lava_chicken,limit=1,sort=nearest] run playsound minecraft:entity.chicken.ambient neutral @a ~ ~ ~ 1 1.4",
+                "execute at @e[tag=fw_lava_chicken,limit=1,sort=nearest] run particle minecraft:lava ~ ~0.5 ~ 0.3 0.3 0.3 0 15",
+                "execute at @e[tag=fw_lava_chicken,limit=1,sort=nearest] run particle minecraft:flame ~ ~0.4 ~ 0.4 0.4 0.4 0.02 25"
+            ],
+            [
+                "execute at @e[tag=fw_lava_chicken,limit=1,sort=nearest] run playsound minecraft:entity.chicken.egg neutral @a ~ ~ ~ 1 0.8",
+                "execute at @e[tag=fw_lava_chicken,limit=1,sort=nearest] run particle minecraft:flame ~ ~0.5 ~ 0.1 0.1 0.1 0.15 40",
+                "execute at @e[tag=fw_lava_chicken,limit=1,sort=nearest] run summon item ~ ~0.6 ~ {Item:{id:\"minecraft:music_disc_lava_chicken\",count:1},Motion:[0.0d,0.3d,0.0d],PickupDelay:10}",
+                "tag @e[tag=fw_lava_chicken] remove fw_lava_chicken"
+            ]
+        ]
+    }
+}

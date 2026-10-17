@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "III",
+    "BAB",
+    "BBB"
+  ],
+  "key": {
+    "B": {
+      "item": "minecraft:bricks"
+    },
+    "I": {
+      "tag": "minecraft:wooden_slabs"
+    },
+    "A": {
+      "item": "hearthandharvest:flour"
+    }
+  },
+  "result": {
+    "count": 1,
+    "id": "bakery:baker_station"
+  }
+}

@@ -110,7 +110,7 @@
 					type: "item"
 				}
 				{
-					id: "4A955E6E6FA2A21E"
+					id: "1D6D32CBCA15F3F8"
 					item: {
 						components: {
 							"eccentrictome:tome_data": {
@@ -122,7 +122,13 @@
 										count: 1
 										id: "adorablehamsterpets:hamster_guide_book"
 									}]
-									betterfishtanks: [ ]
+									buildinggadgets2: [{
+										components: {
+											"patchouli:book": "buildinggadgets2:buildinggadgets2book"
+										}
+										count: 1
+										id: "patchouli:guide_book"
+									}]
 									delighto_flight: [{
 										count: 1
 										id: "delighto_flight:cook_book"
@@ -138,249 +144,160 @@
 										count: 1
 										id: "fieldguide:field_guide"
 									}]
-									hexerei: [
-										{
-											components: {
-												"hexerei:book": {
-													book: "hexerei:book_of_shadows"
-													bookmarks: [
-														{
-															color: "white"
-															id: ""
-															index: 0
-														}
-														{
-															color: "white"
-															id: ""
-															index: 1
-														}
-														{
-															color: "white"
-															id: ""
-															index: 2
-														}
-														{
-															color: "white"
-															id: ""
-															index: 3
-														}
-														{
-															color: "white"
-															id: ""
-															index: 4
-														}
-														{
-															color: "white"
-															id: ""
-															index: 5
-														}
-														{
-															color: "white"
-															id: ""
-															index: 6
-														}
-														{
-															color: "white"
-															id: ""
-															index: 7
-														}
-														{
-															color: "white"
-															id: ""
-															index: 8
-														}
-														{
-															color: "white"
-															id: ""
-															index: 9
-														}
-														{
-															color: "white"
-															id: ""
-															index: 10
-														}
-														{
-															color: "white"
-															id: ""
-															index: 11
-														}
-														{
-															color: "white"
-															id: ""
-															index: 12
-														}
-														{
-															color: "white"
-															id: ""
-															index: 13
-														}
-														{
-															color: "white"
-															id: ""
-															index: 14
-														}
-														{
-															color: "white"
-															id: ""
-															index: 15
-														}
-														{
-															color: "white"
-															id: ""
-															index: 16
-														}
-														{
-															color: "white"
-															id: ""
-															index: 17
-														}
-														{
-															color: "white"
-															id: ""
-															index: 18
-														}
-														{
-															color: "white"
-															id: ""
-															index: 19
-														}
-													]
-													chapter: 0
-													opened: 0b
-													page: 0
-													uuid: [I;
-														1646542990
-														-1228977079
-														-1949683201
-														-693716329
-													]
-												}
+									ftbquests: [{
+										count: 1
+										id: "ftbquests:book"
+									}]
+									hexalia: [{
+										count: 1
+										id: "hexalia:verdant_grimoire"
+									}]
+									hexerei: [{
+										components: {
+											"hexerei:book": {
+												book: "hexerei:book_of_shadows"
+												bookmarks: [
+													{
+														color: "white"
+														id: ""
+														index: 0
+													}
+													{
+														color: "white"
+														id: ""
+														index: 1
+													}
+													{
+														color: "white"
+														id: ""
+														index: 2
+													}
+													{
+														color: "white"
+														id: ""
+														index: 3
+													}
+													{
+														color: "white"
+														id: ""
+														index: 4
+													}
+													{
+														color: "white"
+														id: ""
+														index: 5
+													}
+													{
+														color: "white"
+														id: ""
+														index: 6
+													}
+													{
+														color: "white"
+														id: ""
+														index: 7
+													}
+													{
+														color: "white"
+														id: ""
+														index: 8
+													}
+													{
+														color: "white"
+														id: ""
+														index: 9
+													}
+													{
+														color: "white"
+														id: ""
+														index: 10
+													}
+													{
+														color: "white"
+														id: ""
+														index: 11
+													}
+													{
+														color: "white"
+														id: ""
+														index: 12
+													}
+													{
+														color: "white"
+														id: ""
+														index: 13
+													}
+													{
+														color: "white"
+														id: ""
+														index: 14
+													}
+													{
+														color: "white"
+														id: ""
+														index: 15
+													}
+													{
+														color: "white"
+														id: ""
+														index: 16
+													}
+													{
+														color: "white"
+														id: ""
+														index: 17
+													}
+													{
+														color: "white"
+														id: ""
+														index: 18
+													}
+													{
+														color: "white"
+														id: ""
+														index: 19
+													}
+												]
+												chapter: 0
+												opened: 0b
+												page: 0
+												uuid: [I;
+													215013029
+													1945849428
+													-1770281934
+													-1408088263
+												]
 											}
-											count: 1
-											id: "hexerei:book_of_shadows"
 										}
-										{
-											components: {
-												"hexerei:book": {
-													book: "hexerei:notebook"
-													bookmarks: [
-														{
-															color: "white"
-															id: ""
-															index: 0
-														}
-														{
-															color: "white"
-															id: ""
-															index: 1
-														}
-														{
-															color: "white"
-															id: ""
-															index: 2
-														}
-														{
-															color: "white"
-															id: ""
-															index: 3
-														}
-														{
-															color: "white"
-															id: ""
-															index: 4
-														}
-														{
-															color: "white"
-															id: ""
-															index: 5
-														}
-														{
-															color: "white"
-															id: ""
-															index: 6
-														}
-														{
-															color: "white"
-															id: ""
-															index: 7
-														}
-														{
-															color: "white"
-															id: ""
-															index: 8
-														}
-														{
-															color: "white"
-															id: ""
-															index: 9
-														}
-														{
-															color: "white"
-															id: ""
-															index: 10
-														}
-														{
-															color: "white"
-															id: ""
-															index: 11
-														}
-														{
-															color: "white"
-															id: ""
-															index: 12
-														}
-														{
-															color: "white"
-															id: ""
-															index: 13
-														}
-														{
-															color: "white"
-															id: ""
-															index: 14
-														}
-														{
-															color: "white"
-															id: ""
-															index: 15
-														}
-														{
-															color: "white"
-															id: ""
-															index: 16
-														}
-														{
-															color: "white"
-															id: ""
-															index: 17
-														}
-														{
-															color: "white"
-															id: ""
-															index: 18
-														}
-														{
-															color: "white"
-															id: ""
-															index: 19
-														}
-													]
-													chapter: 0
-													opened: 0b
-													page: 0
-													uuid: [I;
-														1542975633
-														866796975
-														-1405809966
-														-67927855
-													]
-												}
-											}
-											count: 1
-											id: "hexerei:notebook"
+										count: 1
+										id: "hexerei:book_of_shadows"
+									}]
+									longwings: [{
+										count: 1
+										id: "longwings:butterfly_handbook"
+									}]
+									modonomicon: [{
+										components: {
+											"modonomicon:book_id": "icys-better-horses:stable_handbook"
 										}
-									]
-									solonion: [ ]
+										count: 1
+										id: "modonomicon:modonomicon"
+									}]
+									numismatics: [{
+										count: 1
+										id: "numismatics:banking_guide"
+									}]
+									refineddelight: [{
+										components: {
+											"patchouli:book": "refineddelight:guide"
+										}
+										count: 1
+										id: "patchouli:guide_book"
+									}]
+									solonion: [{
+										count: 1
+										id: "solonion:food_book"
+									}]
 									soulhome: [{
 										count: 1
 										id: "soulhome:guide"
@@ -397,7 +314,7 @@
 										id: "patchouli:guide_book"
 									}]
 								}
-								tome_id: "c2563271-c69f-4471-9a8e-aef43c5689af"
+								tome_id: "c4d06d21-951f-40a0-ba21-4873ce105977"
 							}
 						}
 						count: 1
@@ -467,18 +384,12 @@
 			quest_enhance_disable_scroll_paging: false
 			rewards: [
 				{
-					blessing: "恭喜发财"
-					exclude_from_claim_all: true
 					id: "7BCFE9F726E3AF53"
-					is_ender: false
-					is_team_reward: false
 					item: {
 						count: 1
 						id: "contactquests:team_binding_card"
 					}
-					target_addressee: "QuestNPC"
-					team_reward_multiplier: 1.0f
-					type: "contactquests:red_packet"
+					type: "item"
 				}
 				{
 					exclude_from_claim_all: true
@@ -494,7 +405,7 @@
 						count: 1
 						id: "kubejs:hearth_recall"
 					}
-					target_addressee: "Briar the Witch"
+					target_addressee: "Katu Starshine"
 					team_reward_multiplier: 1.0f
 					type: "contactquests:parcel"
 				}
@@ -535,7 +446,7 @@
 						count: 1
 						id: "travelertoolbelt:belt"
 					}
-					target_addressee: "QuestNPC"
+					target_addressee: "Katu Starshine"
 					team_reward_multiplier: 1.0f
 					type: "contactquests:parcel"
 				}
@@ -548,7 +459,7 @@
 						count: 1
 						id: "broom_closet:wishlist"
 					}
-					target_addressee: "QuestNPC"
+					target_addressee: "Katu Starshine"
 					team_reward_multiplier: 1.0f
 					type: "contactquests:parcel"
 				}
@@ -606,6 +517,7 @@
 			hide_text_until_complete: true
 			id: "4E4072E3AFBBB7E7"
 			invisible: true
+			optional: true
 			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				disable_toast: true
@@ -630,7 +542,7 @@
 					count: 1
 					id: "minecraft:totem_of_undying"
 				}
-				target_addressee: "QuestNPC"
+				target_addressee: "Katu Starshine"
 				team_reward_multiplier: 1.0f
 				type: "contactquests:parcel"
 			}]
@@ -684,7 +596,7 @@
 				is_ender: false
 				is_team_reward: false
 				table_id: 7328857662613080212L
-				target_addressee: "QuestNPC"
+				target_addressee: "Katu Starshine"
 				team_reward_multiplier: 1.0f
 				type: "contactquests:parcel_random"
 			}]
@@ -742,7 +654,7 @@
 					count: 1
 					id: "minecraft:experience_bottle"
 				}
-				target_addressee: "QuestNPC"
+				target_addressee: "Katu Starshine"
 				team_reward_multiplier: 1.0f
 				type: "contactquests:parcel"
 			}]
@@ -786,7 +698,7 @@
 						count: 1
 						id: "heartstone:heartstone"
 					}
-					target_addressee: "QuestNPC"
+					target_addressee: "Katu Starshine"
 					team_reward_multiplier: 1.0f
 					type: "contactquests:parcel"
 				}
@@ -800,7 +712,7 @@
 						count: 1
 						id: "waystones:twinbound_feather"
 					}
-					target_addressee: "QuestNPC"
+					target_addressee: "Katu Starshine"
 					team_reward_multiplier: 1.0f
 					type: "contactquests:parcel"
 				}
@@ -827,7 +739,7 @@
 						count: 1
 						id: "player_statues:player_statue"
 					}
-					target_addressee: "QuestNPC"
+					target_addressee: "Katu Starshine"
 					team_reward_multiplier: 1.0f
 					type: "contactquests:parcel"
 				}
@@ -843,7 +755,7 @@
 						count: 1
 						id: "tombstone:decorative_grave_simple"
 					}
-					target_addressee: "QuestNPC"
+					target_addressee: "Katu Starshine"
 					team_reward_multiplier: 1.0f
 					type: "contactquests:parcel"
 				}

@@ -1,0 +1,8 @@
+{
+  "structure": "fabled_wylds:tiny_tower",
+  "screenshot": "fabled_wylds:textures/gui/soul_island/tiny_tower.png",
+  "name": "Tiny Tower",
+  "description": "A rounded tower with room for a farm out back.",
+  "order": 2,
+  "spawn": [17, 8, 34]
+}

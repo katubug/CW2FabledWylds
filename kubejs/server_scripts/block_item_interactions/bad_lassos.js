@@ -5,7 +5,7 @@ ItemEvents.entityInteracted(event => {
 		target
 	} = event;
 
-	if (target.entityType.tags.anyMatch(tag => tag.location() == 'forge:lasso_banned'))
+	if (target.entityType.tags.anyMatch(tag => tag.location() == 'fabled_wylds:lasso_banned'))
 		event.cancel();
 })
 
@@ -15,7 +15,7 @@ ServerEvents.tags('entity_type', event => {
 		'#fabled_wylds:cage_banned',
 		'minecraft:ender_dragon',
 		'minecraft:wither',
-		"#forge:bosses",
+		"#c:bosses",
 		"twilightforest:naga",
 		"twilightforest:lich",
 		"twilightforest:minoshroom",

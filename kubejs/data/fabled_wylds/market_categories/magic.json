@@ -1,0 +1,9 @@
+{
+  "tooltip": {
+    "text": "Magic"
+  },
+  "icon": {
+    "id": "hexalia:celestial_crystal"
+  },
+  "sortIndex": 70
+}

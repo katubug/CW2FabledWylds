@@ -1,0 +1,9 @@
+{
+  "tooltip": {
+    "text": "The End"
+  },
+  "icon": {
+    "id": "betterend:crystal_shards"
+  },
+  "sortIndex": 60
+}

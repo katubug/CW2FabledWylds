@@ -187,7 +187,7 @@
 						count: 1
 						id: "exposure:black_and_white_film"
 					}
-					target_addressee: "QuestNPC"
+					target_addressee: "Katu Starshine"
 					team_reward_multiplier: 1.0f
 					type: "contactquests:parcel"
 				}
@@ -221,7 +221,7 @@
 						count: 1
 						id: "minecraft:cat_spawn_egg"
 					}
-					target_addressee: "QuestNPC"
+					target_addressee: "Katu Starshine"
 					team_reward_multiplier: 1.0f
 					type: "contactquests:parcel"
 				}
@@ -234,7 +234,7 @@
 						count: 1
 						id: "minecraft:goat_spawn_egg"
 					}
-					target_addressee: "QuestNPC"
+					target_addressee: "Katu Starshine"
 					team_reward_multiplier: 1.0f
 					type: "contactquests:parcel"
 				}
@@ -274,7 +274,7 @@
 						count: 1
 						id: "quark:bottled_cloud"
 					}
-					target_addressee: "QuestNPC"
+					target_addressee: "Katu Starshine"
 					team_reward_multiplier: 1.0f
 					type: "contactquests:parcel"
 				}
@@ -294,6 +294,7 @@
 		{
 			always_invisible: true
 			id: "741F84C68D32AFAB"
+			optional: true
 			quest_enhance_disable_scroll_paging: false
 			size: 0.5d
 			tasks: [{
@@ -307,6 +308,16 @@
 			id: "50DA655C90509B80"
 			preset: "locate"
 			quest_enhance_disable_scroll_paging: false
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7BDC35A7F1F8479E"
+				is_ender: false
+				is_team_reward: false
+				table_id: 7328857662613080212L
+				target_addressee: "Katu Starshine"
+				team_reward_multiplier: 1.0f
+				type: "contactquests:parcel_random"
+			}]
 			shape: "octagon"
 			tasks: [{
 				icon: {
@@ -356,6 +367,16 @@
 			id: "12BC0C79FE723230"
 			preset: "locate"
 			quest_enhance_disable_scroll_paging: false
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "06EF3C491FA6A49D"
+				is_ender: false
+				is_team_reward: false
+				table_id: 7328857662613080212L
+				target_addressee: "Katu Starshine"
+				team_reward_multiplier: 1.0f
+				type: "contactquests:parcel_random"
+			}]
 			shape: "octagon"
 			tasks: [{
 				icon: {
@@ -372,6 +393,16 @@
 			id: "6E5FC4F24E0EDAFE"
 			preset: "locate"
 			quest_enhance_disable_scroll_paging: false
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7570925D4AAAB8AA"
+				is_ender: false
+				is_team_reward: false
+				table_id: 7328857662613080212L
+				target_addressee: "Katu Starshine"
+				team_reward_multiplier: 1.0f
+				type: "contactquests:parcel_random"
+			}]
 			shape: "octagon"
 			tasks: [{
 				icon: {
@@ -388,6 +419,16 @@
 			id: "647DD568BF30253E"
 			preset: "locate"
 			quest_enhance_disable_scroll_paging: false
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "36616E7059599DB6"
+				is_ender: false
+				is_team_reward: false
+				table_id: 7328857662613080212L
+				target_addressee: "Katu Starshine"
+				team_reward_multiplier: 1.0f
+				type: "contactquests:parcel_random"
+			}]
 			tasks: [{
 				id: "59560628511DC68F"
 				structure: "epic:epic_temple_large"
@@ -406,7 +447,7 @@
 				is_ender: false
 				is_team_reward: false
 				table_id: 5770973074849872376L
-				target_addressee: "QuestNPC"
+				target_addressee: "Katu Starshine"
 				team_reward_multiplier: 1.0f
 				type: "contactquests:parcel_random"
 			}]
@@ -426,15 +467,11 @@
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "7BAB82C095E2138E"
-				is_ender: false
-				is_team_reward: false
 				item: {
 					count: 1
 					id: "minecraft:respawn_anchor"
 				}
-				target_addressee: "QuestNPC"
-				team_reward_multiplier: 1.0f
-				type: "contactquests:parcel"
+				type: "item"
 			}]
 			shape: "octagon"
 			tasks: [{
@@ -495,7 +532,7 @@
 					count: 1
 					id: "minecraft:splash_potion"
 				}
-				target_addressee: "QuestNPC"
+				target_addressee: "Katu Starshine"
 				team_reward_multiplier: 1.0f
 				type: "contactquests:parcel"
 			}]
@@ -522,7 +559,7 @@
 					count: 1
 					id: "minecraft:ancient_debris"
 				}
-				target_addressee: "QuestNPC"
+				target_addressee: "Katu Starshine"
 				team_reward_multiplier: 1.0f
 				type: "contactquests:parcel"
 			}]
@@ -575,7 +612,7 @@
 					count: 1
 					id: "minecraft:dark_oak_sign"
 				}
-				target_addressee: "QuestNPC"
+				target_addressee: "Katu Starshine"
 				team_reward_multiplier: 1.0f
 				type: "contactquests:parcel"
 			}]
@@ -724,7 +761,7 @@
 					count: 1
 					id: "large_meals:mushroom_pot_pie"
 				}
-				target_addressee: "QuestNPC"
+				target_addressee: "Katu Starshine"
 				team_reward_multiplier: 1.0f
 				type: "contactquests:parcel"
 			}]
@@ -764,6 +801,16 @@
 			id: "2E07A04D5589B674"
 			preset: "item"
 			quest_enhance_disable_scroll_paging: false
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4AF85B98498AB1F5"
+				is_ender: false
+				is_team_reward: false
+				table_id: 5770973074849872376L
+				target_addressee: "Katu Starshine"
+				team_reward_multiplier: 1.0f
+				type: "contactquests:parcel_random"
+			}]
 			shape: "hexagon"
 			tasks: [{
 				id: "29D966A14304361A"
@@ -777,6 +824,16 @@
 			id: "7B4772B066474C41"
 			preset: "item"
 			quest_enhance_disable_scroll_paging: false
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "14364AD4DCAA2665"
+				is_ender: false
+				is_team_reward: false
+				table_id: 5770973074849872376L
+				target_addressee: "Katu Starshine"
+				team_reward_multiplier: 1.0f
+				type: "contactquests:parcel_random"
+			}]
 			shape: "hexagon"
 			tasks: [{
 				id: "566F9027DE7E99B8"
@@ -790,6 +847,16 @@
 			id: "2E1A6A93F48AAF58"
 			preset: "item"
 			quest_enhance_disable_scroll_paging: false
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "57D20ED7D909826F"
+				is_ender: false
+				is_team_reward: false
+				table_id: 7328857662613080212L
+				target_addressee: "Katu Starshine"
+				team_reward_multiplier: 1.0f
+				type: "contactquests:parcel_random"
+			}]
 			shape: "hexagon"
 			tasks: [{
 				id: "3F0C026D8B39B9D4"
@@ -803,6 +870,20 @@
 			id: "7527E0A9EF5C3697"
 			preset: "item"
 			quest_enhance_disable_scroll_paging: false
+			rewards: [{
+				count: 2
+				exclude_from_claim_all: true
+				id: "4EAB9919B15E3054"
+				is_ender: false
+				is_team_reward: false
+				item: {
+					count: 1
+					id: "minecraft:ender_pearl"
+				}
+				target_addressee: "Katu Starshine"
+				team_reward_multiplier: 1.0f
+				type: "contactquests:parcel"
+			}]
 			shape: "hexagon"
 			tasks: [{
 				id: "7EC93F9307B30212"
@@ -825,7 +906,7 @@
 					count: 1
 					id: "waystones:warp_scroll"
 				}
-				target_addressee: "QuestNPC"
+				target_addressee: "Katu Starshine"
 				team_reward_multiplier: 1.0f
 				type: "contactquests:parcel"
 			}]

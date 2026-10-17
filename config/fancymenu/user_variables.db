@@ -1,2 +1,8 @@
 type = user_variables
 
+variable {
+  name = show_buddy
+  value = false
+  reset_on_launch = false
+}
+

@@ -1,0 +1,13 @@
+{
+  "type": "hexerei:pestle_and_mortar",
+  "ingredients": [
+    {
+      "tag": "roots:runestone"
+    }
+  ],
+  "output": {
+    "id": "roots:runic_dust",
+    "count": 1
+  },
+  "grindingTime": 200
+}

@@ -1,10 +1,11 @@
 {
+    "type": "tipsmod:simple",
     "title": {
         "translate": "tips.titles.witchy",
         "bold": true,
         "color": "green"
     },
-    "tip": {
+    "text": {
         "translate": "tips.text.signediting"
     }
 }

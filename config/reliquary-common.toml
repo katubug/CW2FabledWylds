@@ -72,7 +72,6 @@ mobDropsEnabled = true
 		"hexalia:brambleguard_salve=hexalia:brambleguard|12|0;minecraft:resistance|8|0;minecraft:health_boost|4|0",
 		"enchanted:belladonna_flower=minecraft:poison|4|0;minecraft:blindness|6|0;minecraft:nausea|2|0",
 		"enchanted:wolfsbane_flower=minecraft:poison|6|0;minecraft:weakness|6|0;hexalia:bleeding|4|0",
-		"enchanted:mandrake_root=minecraft:nausea|4|0;minecraft:strength|8|0;minecraft:weakness|4|0",
 		"enchanted:rowan_berries=minecraft:resistance|8|0;minecraft:luck|8|0;enchanted:magic_resistance|6|0",
 		"enchanted:garlic=minecraft:resistance|6|0;hexalia:brambleguard|6|0;reliquary:cure|1|0",
 		"enchanted:water_artichoke=minecraft:water_breathing|10|0;enchanted:drown_resistance|10|0;minecraft:slow_falling|4|0",

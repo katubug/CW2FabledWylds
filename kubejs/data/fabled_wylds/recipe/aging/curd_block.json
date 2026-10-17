@@ -1,0 +1,15 @@
+{
+  "type": "hearthandharvest:aging",
+  "cookingtime": 1200,
+  "experience": 1.0,
+  "ingredients": [
+    {
+      "item": "trailandtales_delight:curd_block"
+    }
+  ],
+  "recipe_book_tab": "meals",
+  "result": {
+    "count": 1,
+    "id": "trailandtales_delight:cheese_wheel"
+  }
+}

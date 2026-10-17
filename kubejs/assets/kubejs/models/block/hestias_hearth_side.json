@@ -1,0 +1,7 @@
+{
+	"credit": "invisible side half, main block draws it",
+	"textures": {
+		"particle": "kubejs:block/hestias_hearth/stone"
+	},
+	"elements": []
+}

@@ -29,12 +29,14 @@ event.create('ultimate_cheeseburger').food(food => {
 
 	// [id, display name, tooltip]
 	const keepsakes = [
+		['ravens_quill', "Raven's Quill", 'Keepsake for completing the Witchery chapter.'],
 		['pressed_herbarium', 'Pressed Herbarium', 'Keepsake for completing the Farming & Gardening chapter.'],
-		['blue_ribbon', 'Blue Ribbon', 'Keepsake for completing'],
-		['well_loved_collar', 'Well-Loved Collar', 'Keepsake for completing'],
-		['menagerie_census', 'Menagerie Census', 'Keepsake for completing'],
+		['rainbow_fleece', 'Tuft of Rainbow Fleece', 'Keepsake for completing the Twilight Forest chapter.'],
+		['bottled_starlight', 'Bottled Starlight', 'Keepsake for completing The End chapter.'],
+		['patchwork_quilt', 'Patchwork Quilt', 'Keepsake for completing the Arts & Witchcrafts chapter.'],
 		['wayfarers_knot', "Wayfarer's Knot", 'Keepsake for completing the Discovery chapter.'],
-		['curators_seal', "Curator's Seal", 'Keepsake for completing']
+		['well_loved_collar', 'Well-Loved Collar', 'Keepsake for completing the Wildlife chapter.'],
+		['blue_ribbon', 'Blue Ribbon', 'Keepsake for completing the Culinary Arts chapter.']
 	]
 
 	keepsakes.forEach(keepsake => {
@@ -53,8 +55,9 @@ event.create('ultimate_cheeseburger').food(food => {
 StartupEvents.registry('block', event => {
 
 
-		event.create('wyldkeeper_hearth')
-		.displayName("Wyldkeeper's Hearth")
+	// 2 wide, side half handled in server_scripts/new_mechanics/hestias_hearth.js
+		event.create('hestias_hearth', 'cardinal')
+		.displayName("Hestia's Hearth")
 		.soundType('stone')
 		.hardness(2)
 		.resistance(1200)
@@ -62,7 +65,8 @@ StartupEvents.registry('block', event => {
 		.fullBlock(false)
 		.notSolid()
 		.opaque(false)
-		.box(1, 0, 1, 15, 12, 15)
+		.box(0, 0, 0, 16, 2, 16)
+		.box(0, 2, 1, 16, 15, 16)
 		.tagBlock('minecraft:mineable/pickaxe')
 		.tagBlock('midnightthoughts:comfort_furniture')
 		.item(item => item
@@ -70,43 +74,57 @@ StartupEvents.registry('block', event => {
 			.glow(true)
 			.fireResistant())
 
+		event.create('hestias_hearth_side', 'cardinal')
+		.displayName("Hestia's Hearth")
+		.soundType('stone')
+		.hardness(2)
+		.resistance(1200)
+		.fullBlock(false)
+		.notSolid()
+		.opaque(false)
+		.box(0, 0, 0, 16, 2, 16)
+		.box(0, 2, 1, 16, 15, 16)
+		.tagBlock('minecraft:mineable/pickaxe')
+		.noItem()
+		.noDrops()
+
 			
 	//Cheeses?
 	
-	event.create('sheep_cheese_unripe')
+	event.create('sheep_cheese_unripe', 'cardinal')
 		.hardness(1)
 		.displayName('Unripe Sheep Cheese')
 		.fullBlock(false)
 		.notSolid()
 		.box(5, 0, 5, 11, 6, 11)
 
-	event.create('grain_cheese_unripe')
+	event.create('grain_cheese_unripe', 'cardinal')
 		.hardness(1)
 		.displayName('Unripe Grain Cheese')
 		.fullBlock(false)
 		.notSolid()
-		.box(5, 0, 5, 11, 6, 11)
+		.box(4, 0, 4, 12, 5, 12)
 
-	event.create('amethyst_cheese_unripe')
+	event.create('amethyst_cheese_unripe', 'cardinal')
 		.hardness(1)
 		.displayName('Unripe Amethyst Cheese')
 		.fullBlock(false)
 		.notSolid()
-		.box(5, 0, 5, 11, 6, 11)
+		.box(2, 0, 2, 14, 6, 14)
 
-	event.create('buffalo_cheese_unripe')
+	event.create('buffalo_cheese_unripe', 'cardinal')
 		.hardness(1)
 		.displayName('Unripe Buffalo Cheese')
 		.fullBlock(false)
 		.notSolid()
-		.box(5, 0, 5, 11, 6, 11)
+		.box(4, 0, 4, 12, 4, 12)
 
-	event.create('warped_cheese_unripe')
+	event.create('warped_cheese_unripe', 'cardinal')
 		.hardness(1)
 		.displayName('Unripe Warped Cheese')
 		.fullBlock(false)
 		.notSolid()
-		.box(5, 0, 5, 11, 6, 11)
+		.box(3, 0, 3, 13, 7, 13)
 		
 
 	//Emmu Blocks

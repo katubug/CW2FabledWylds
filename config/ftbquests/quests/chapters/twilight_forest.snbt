@@ -368,7 +368,7 @@
 				item: { count: 1, id: "twilightforest:naga_scale" }
 				type: "item"
 			}]
-			x: -7.0d
+			x: -8.0d
 			y: 2.5d
 		}
 		{
@@ -376,6 +376,16 @@
 			id: "1B8E61A0872EEA1C"
 			preset: "locate"
 			quest_enhance_disable_scroll_paging: false
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1DDD0F1BAB93315D"
+				is_ender: false
+				is_team_reward: false
+				table_id: 5770973074849872376L
+				target_addressee: "Katu Starshine"
+				team_reward_multiplier: 1.0f
+				type: "contactquests:parcel_random"
+			}]
 			tasks: [{
 				icon: {
 					id: "twilightforest:lich_tower_miniature_structure"
@@ -449,8 +459,13 @@
 				}
 				{
 					exclude_from_claim_all: true
-					id: "7B14E9612F4F61E6"
-					type: "loot"
+					id: "165EB5054D4C40D4"
+					is_ender: false
+					is_team_reward: false
+					table_id: 7328857662613080212L
+					target_addressee: "Katu Starshine"
+					team_reward_multiplier: 1.0f
+					type: "contactquests:parcel_random"
 				}
 			]
 			shape: "hexagon"
@@ -459,8 +474,8 @@
 				item: { count: 1, id: "twilightforest:mazebreaker_pickaxe" }
 				type: "item"
 			}]
-			x: 5.5d
-			y: -3.5d
+			x: 6.0d
+			y: -2.5d
 		}
 		{
 			can_repeat: true
@@ -483,8 +498,8 @@
 				item: { count: 1, id: "twilightforest:fiery_blood" }
 				type: "item"
 			}]
-			x: 5.5d
-			y: 3.5d
+			x: 6.0d
+			y: 2.5d
 		}
 		{
 			id: "10C91592DCBC6FBD"
@@ -539,6 +554,16 @@
 			id: "41CBB146259DAF34"
 			preset: "locate"
 			quest_enhance_disable_scroll_paging: false
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7A340C9CB11F90A7"
+				is_ender: false
+				is_team_reward: false
+				table_id: 5770973074849872376L
+				target_addressee: "Katu Starshine"
+				team_reward_multiplier: 1.0f
+				type: "contactquests:parcel_random"
+			}]
 			tasks: [{
 				icon: {
 					id: "twilightforest:alpha_yeti_trophy"
@@ -604,6 +629,16 @@
 			id: "2A52CFAE2D88AC1D"
 			preset: "progression"
 			quest_enhance_disable_scroll_paging: false
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "411C2334C5EF99C7"
+				is_ender: false
+				is_team_reward: false
+				table_id: 7159471207534106979L
+				target_addressee: "Katu Starshine"
+				team_reward_multiplier: 1.0f
+				type: "contactquests:parcel_random"
+			}]
 			tasks: [{
 				biome: "twilightforest:highlands"
 				icon: {
@@ -683,12 +718,9 @@
 				type: "item"
 			}]
 			tasks: [{
-				advancement: "fabled_wylds:photography/photographed_lich"
+				advancement: "fabled_wylds:twilight_forest/photographed_lich"
 				criterion: ""
-				icon: {
-					id: "exposure:photograph"
-				}
-				id: "23561E3733B66EFD"
+				id: "529AB2056859A06B"
 				type: "advancement"
 			}]
 			x: -6.0d
@@ -730,9 +762,9 @@
 				type: "item"
 			}]
 			tasks: [{
-				advancement: "minecraft:story/root"
+				advancement: "twilightforest:progress_ur_ghast"
 				criterion: ""
-				id: "68E22924E52442E1"
+				id: "06A1B36F072AF930"
 				type: "advancement"
 			}]
 			x: 7.0d
@@ -817,12 +849,20 @@
 				}
 				type: "item"
 			}]
-			tasks: [{
-				advancement: "twilightforest:progress_glacier"
-				criterion: ""
-				id: "77AEB177007F4630"
-				type: "advancement"
-			}]
+			tasks: [
+				{
+					advancement: "twilightforest:progress_glacier"
+					criterion: ""
+					id: "77AEB177007F4630"
+					type: "advancement"
+				}
+				{
+					advancement: "fabled_wylds:twilight_forest/snow_queen_fire"
+					criterion: ""
+					id: "38C16AFB2C209DDD"
+					type: "advancement"
+				}
+			]
 			x: 2.0d
 			y: 3.5d
 		}
@@ -1005,7 +1045,7 @@
 				type: "item"
 			}]
 			x: 3.0d
-			y: 0.0d
+			y: -1.0d
 		}
 	]
 }

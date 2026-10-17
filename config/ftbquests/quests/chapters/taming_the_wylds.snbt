@@ -1,0 +1,259 @@
+{
+	default_hide_dependency_lines: false
+	default_min_width: 350
+	default_quest_shape: ""
+	filename: "taming_the_wylds"
+	group: "6B4E114EC6CDE8EE"
+	id: "1E938731722C44F1"
+	images: [
+		{
+			click_action: "none:"
+			height: 15.0d
+			id: "21C641D8F55338B4"
+			image: "fabled_wylds:textures/questui/bookbgs/purple_book.png"
+			quest_enhance_exclude_from_box_selection: 0b
+			rotation: 0.0d
+			width: 17.0d
+			x: -1.5d
+			y: -0.5d
+		}
+		{
+			click_action: "none:quest_enhance:text_v3:1.5:20:fabled_wylds:alagardTaming the Wylds"
+			color: 11296702
+			height: 0.4583333333333333d
+			id: "7CF22405B4626686"
+			image: ""
+			quest_enhance_exclude_from_box_selection: 0b
+			rotation: 0.0d
+			width: 3.7916666666666665d
+			x: -4.5d
+			y: -5.5d
+		}
+	]
+	order_index: 4
+	quest_enhance_decorative_lines: [ ]
+	quest_enhance_hidden_dependency_lines: [ ]
+	quest_links: [ ]
+	quests: [
+		{
+			id: "47A3914CBE99E42D"
+			preset: "start"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "60539EB1975FB837"
+				type: "checkmark"
+			}]
+			x: -6.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["37F503706CE1D7D6"]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			id: "12FEBAA96A443199"
+			preset: "progression"
+			quest_enhance_disable_scroll_paging: false
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5B29A8A61348DE07"
+				is_ender: false
+				is_team_reward: false
+				item: {
+					count: 1
+					id: "kubejs:ravens_quill"
+				}
+				target_addressee: "Katu Starshine"
+				team_reward_multiplier: 1.0f
+				type: "contactquests:parcel"
+			}]
+			tasks: [{
+				id: "555C5CE64AB9754A"
+				type: "checkmark"
+			}]
+			x: -6.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["305A3D4D3A205E4A"]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			id: "37BD9102ACD4B8F1"
+			quest_enhance_disable_scroll_paging: false
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4CD3C3007835D9BC"
+				is_ender: false
+				is_team_reward: false
+				item: {
+					count: 1
+					id: "kubejs:blue_ribbon"
+				}
+				target_addressee: "Katu Starshine"
+				team_reward_multiplier: 1.0f
+				type: "contactquests:parcel"
+			}]
+			tasks: [{
+				id: "16BC6AB9EBCC7B05"
+				type: "checkmark"
+			}]
+			x: -3.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["4DB925317B421272"]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			id: "38DD348249319143"
+			quest_enhance_disable_scroll_paging: false
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5DC98C6A4F59B18A"
+				is_ender: false
+				is_team_reward: false
+				item: {
+					count: 1
+					id: "kubejs:well_loved_collar"
+				}
+				target_addressee: "Katu Starshine"
+				team_reward_multiplier: 1.0f
+				type: "contactquests:parcel"
+			}]
+			tasks: [{
+				id: "41526D10781321D7"
+				type: "checkmark"
+			}]
+			x: -3.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["7F553DB3A577011E"]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			id: "15EE845180912929"
+			quest_enhance_disable_scroll_paging: false
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2CEC022DF2F8D5AA"
+				is_ender: false
+				is_team_reward: false
+				item: {
+					count: 1
+					id: "kubejs:wayfarers_knot"
+				}
+				target_addressee: "Katu Starshine"
+				team_reward_multiplier: 1.0f
+				type: "contactquests:parcel"
+			}]
+			tasks: [{
+				id: "1EDEB9C2CAD1AEF6"
+				type: "checkmark"
+			}]
+			x: 0.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["1E6C7DB3D27545CE"]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			id: "70AD5009FFF90827"
+			quest_enhance_disable_scroll_paging: false
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "26B46EA082603A16"
+				is_ender: false
+				is_team_reward: false
+				item: {
+					count: 1
+					id: "kubejs:pressed_herbarium"
+				}
+				target_addressee: "Katu Starshine"
+				team_reward_multiplier: 1.0f
+				type: "contactquests:parcel"
+			}]
+			tasks: [{
+				id: "68E66B63ECD84769"
+				type: "checkmark"
+			}]
+			x: 3.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["23CEC5718927D582"]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			id: "64A320AB1B9E18CC"
+			quest_enhance_disable_scroll_paging: false
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "08F77D9E700C5B6D"
+				is_ender: false
+				is_team_reward: false
+				item: {
+					count: 1
+					id: "kubejs:rainbow_fleece"
+				}
+				target_addressee: "Katu Starshine"
+				team_reward_multiplier: 1.0f
+				type: "contactquests:parcel"
+			}]
+			tasks: [{
+				id: "6BBAADAD59610B56"
+				type: "checkmark"
+			}]
+			x: 0.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["5CD8650A590340E5"]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			id: "7A44191DEEF62AA7"
+			quest_enhance_disable_scroll_paging: false
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2794D46870E7D78A"
+				is_ender: false
+				is_team_reward: false
+				item: {
+					count: 1
+					id: "kubejs:bottled_starlight"
+				}
+				target_addressee: "Katu Starshine"
+				team_reward_multiplier: 1.0f
+				type: "contactquests:parcel"
+			}]
+			tasks: [{
+				id: "53773968F8C7ABD5"
+				type: "checkmark"
+			}]
+			x: 3.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["33D0BE0C8570F275"]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			id: "1A71F79049845E78"
+			quest_enhance_disable_scroll_paging: false
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "575574A5B935F6B2"
+				is_ender: false
+				is_team_reward: false
+				item: {
+					count: 1
+					id: "kubejs:patchwork_quilt"
+				}
+				target_addressee: "Katu Starshine"
+				team_reward_multiplier: 1.0f
+				type: "contactquests:parcel"
+			}]
+			tasks: [{
+				id: "53254B767AE641D6"
+				type: "checkmark"
+			}]
+			x: -6.0d
+			y: 0.0d
+		}
+	]
+}

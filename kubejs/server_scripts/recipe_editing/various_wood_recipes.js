@@ -226,8 +226,7 @@ ServerEvents.recipes((e) => {
 		sign = modID + type + "_sign";
 		trapdoor = modID + type + "_trapdoor";
 
-		board = "handcrafted:" + type + "_board"; // adding vanilla boards to woodcutting
-		sign_post = "supplementaries:" + getText(modID) + "/sign_post_" + type;
+		sign_post = "supplementaries:" + getText(modID) + "/way_sign_" + type;
 
 		// manual fixing certain mods that don't follow naming conventions
 		if (modID == "extendedmushrooms:") {
@@ -332,7 +331,7 @@ ServerEvents.recipes((e) => {
 
 		// minecraft sign posts
 		else if (modID == "minecraft:") {
-			sign_post = "supplementaries:sign_post_" + type;
+			sign_post = "supplementaries:way_sign_" + type;
 		}
 
 		// manual fixing specific block IDs
@@ -430,9 +429,6 @@ ServerEvents.recipes((e) => {
 		}
 
 		if (modID == "minecraft:") {
-			hexCut(board, 4, planks, 1);
-			hexCut(board, 2, slab, 1);
-
 			hexCut(sign_post, 2, planks, 1);
 			hexCut(sign_post, 1, slab, 1);
 			hexCut(sign_post, 2, sign, 1);
@@ -450,198 +446,7 @@ ServerEvents.recipes((e) => {
 
 	// embur has sign but no post, archwood has post but no sign, thorn and dark have sign but no post, cinnamon has post but no sign
 	hexCut("tflostblocks:thorn_sign", 1, "tflostblocks:thorn_planks", 1);
-	hexCut("twilightforest:dark_planks", 1, "twilightforest:darkwood_sign", 1);
+	hexCut("twilightforest:dark_planks", 1, "twilightforest:dark_sign", 1);
 	
-
-	// luphie:
-	const pink = [
-		"luphieclutteredmod:luphie_pink_planks",
-		"luphieclutteredmod:luphie_pink_stairs",
-		"luphieclutteredmod:luphie_pink_slab",
-		"luphieclutteredmod:luphie_pink_log",
-		"luphieclutteredmod:stripped_luphie_pink_log",
-		"luphieclutteredmod:luphie_pink_wood",
-		"luphieclutteredmod:stripped_luphie_pink_wood",
-		"luphieclutteredmod:luphie_pink_heart_door",
-		"luphieclutteredmod:luphie_pink_trapdoor",
-		"luphieclutteredmod:luphie_pink_fence",
-		"luphieclutteredmod:luphie_pink_fence_gate",
-		"luphieclutteredmod:luphie_pink_button",
-		"luphieclutteredmod:luphie_pink_pressure_plate",
-		"supplementaries:luphieclutteredmod/sign_post_luphie_pink",
-	];
-	const floweringPink = [
-		"luphieclutteredmod:luphie_flowering_pink_planks",
-		"luphieclutteredmod:luphie_flowering_pink_stairs",
-		"luphieclutteredmod:luphie_flowering_pink_slab",
-		"luphieclutteredmod:luphie_flowering_pink_log",
-		"luphieclutteredmod:stripped_luphie_flowering_pinklog",
-		"luphieclutteredmod:luphie_flowering_pink_wood",
-		"luphieclutteredmod:stripped_luphie_flowering_pink_wood",
-		"luphieclutteredmod:luphie_flowering_pink_heart_door",
-		"luphieclutteredmod:luphie_flowering_pink_trapdoor",
-		"luphieclutteredmod:luphie_flowering_pink_fence",
-		"luphieclutteredmod:luphie_flowering_pink_fence_gate",
-		"luphieclutteredmod:luphie_flowering_pink_button",
-		"luphieclutteredmod:luphie_flowering_pink_pressure_plate",
-		"supplementaries:luphieclutteredmod/sign_post_luphie_flowering_pink",
-	];
-	const yellow = [
-		"luphieclutteredmod:luphie_yellow_planks",
-		"luphieclutteredmod:luphie_yellow_stair_recipe",
-		"luphieclutteredmod:luphie_yellow_slab",
-		"luphieclutteredmod:luphie_yellow_log",
-		"luphieclutteredmod:stripped_luphie_yellow_log",
-		"luphieclutteredmod:luphie_yellow_wood",
-		"luphieclutteredmod:stripped_luphie_yellow_wood",
-		"luphieclutteredmod:luphie_yellow_door",
-		"luphieclutteredmod:luphie_yellow_trapdoor",
-		"luphieclutteredmod:luphie_yellow_fence",
-		"luphieclutteredmod:luphie_yellow_fence_gate",
-		"luphieclutteredmod:luphie_yellow_button",
-		"luphieclutteredmod:luphie_yellow_pressure_plate",
-		"supplementaries:luphieclutteredmod/sign_post_luphie_yellow",
-	];
-	const floweringYellow = [
-		"luphieclutteredmod:luphie_flowering_yellow_planks",
-		"luphieclutteredmod:luphie_flowering_yellow_stairs",
-		"luphieclutteredmod:luphie_flowering_yellow_slab",
-		"luphieclutteredmod:luphie_flowering_yellow_log",
-		"luphieclutteredmod:stripped_luphie_flowering_log",
-		"luphieclutteredmod:luphie_flowering_yellow_wood",
-		"luphieclutteredmod:stripped_luphie_flowering_wood",
-		"luphieclutteredmod:luphie_flowering_yellow_door",
-		"luphieclutteredmod:luphie_flowering_yellow_trapdoor",
-		"luphieclutteredmod:luphie_flowering_yellow_fence",
-		"luphieclutteredmod:luphie_flowering_yellow_fence_gate",
-		"luphieclutteredmod:luphie_flowering_yellow_button",
-		"luphieclutteredmod:luphie_flowering_yellow_pressure_plate",
-		"supplementaries:luphieclutteredmod/sign_post_luphie_flowering_yellow",
-	];
-	const green = [
-		"luphieclutteredmod:luphie_green_planks",
-		"luphieclutteredmod:luphie_green_stairs",
-		"luphieclutteredmod:luphie_green_slab",
-		"luphieclutteredmod:luphie_green_log",
-		"luphieclutteredmod:stripped_luphie_green_log",
-		"luphieclutteredmod:luphie_green_wood",
-		"luphieclutteredmod:stripped_luphie_green_wood",
-		"luphieclutteredmod:luphie_green_door",
-		"luphieclutteredmod:luphie_green_trapdoor",
-		"luphieclutteredmod:luphie_green_fence",
-		"luphieclutteredmod:luphie_green_fence_gate",
-		"luphieclutteredmod:luphie_green_button",
-		"luphieclutteredmod:luphie_green_pressure_plate",
-		"supplementaries:luphieclutteredmod/sign_post_luphie_green",
-	];
-	const glow = [
-		"luphieclutteredmod:luphie_glow_planks",
-		"luphieclutteredmod:luphie_glow_wood_set_stairs",
-		"luphieclutteredmod:luphie_glow_wood_set_slab",
-		"luphieclutteredmod:luphie_glow_log",
-		"luphieclutteredmod:stripped_luphie_glow_log",
-		"luphieclutteredmod:luphie_glow_wood",
-		"luphieclutteredmod:stripped_luphie_glow_wood",
-		"luphieclutteredmod:luphie_glow_door",
-		"luphieclutteredmod:luphie_glow_trapdoor",
-		"luphieclutteredmod:luphie_glow_wood_set_fence",
-		"luphieclutteredmod:luphie_glow_wood_set_fence_gate",
-		"luphieclutteredmod:luphie_glow_wood_set_button",
-		"luphieclutteredmod:luphie_glow_wood_set_pressure_plate",
-		"supplementaries:luphieclutteredmod/sign_post_luphie_glow",
-	];
-	const purple = [
-		"luphieclutteredmod:luphie_purple_planks",
-		"luphieclutteredmod:luphie_purple_plank_set_stairs",
-		"luphieclutteredmod:luphie_purple_plank_set_slab",
-		"luphieclutteredmod:luphie_purple_log",
-		"luphieclutteredmod:stripped_luphie_purple_log",
-		"luphieclutteredmod:luphie_purple_wood",
-		"luphieclutteredmod:stripped_luphie_purple_wood",
-		"luphieclutteredmod:luphie_purple_door",
-		"luphieclutteredmod:luphie_purple_trapdoor",
-		"luphieclutteredmod:luphie_purple_plank_set_fence",
-		"luphieclutteredmod:luphie_purple_plank_set_fence_gate",
-		"luphieclutteredmod:luphie_purple_plank_set_button",
-		"luphieclutteredmod:luphie_purple_plank_set_pressure_plate",
-		"supplementaries:luphieclutteredmod/sign_post_luphie_purple",
-	];
-	const floweringPurple = [
-		"luphieclutteredmod:luphie_flowering_purple_planks",
-		"luphieclutteredmod:luphie_flowering_purple_s_tairs",
-		"luphieclutteredmod:luphie_flowering_purple_slab",
-		"luphieclutteredmod:luphie_flowering_purple_log",
-		"luphieclutteredmod:stripped_luphie_flowering_purple_log",
-		"luphieclutteredmod:luphie_flowering_purple_wood",
-		"luphieclutteredmod:stripped_luphie_flowering_purple_wood",
-		"luphieclutteredmod:luphie_flowering_purple_door",
-		"luphieclutteredmod:luphie_flowering_purple_trapdoor",
-		"luphieclutteredmod:luphie_flowering_purple_fence",
-		"luphieclutteredmod:luphie_flowering_purple_fence_gate",
-		"luphieclutteredmod:luphie_flowering_purple_button",
-		"luphieclutteredmod:luphie_flowering_purple_pressure_plate",
-		"supplementaries:luphieclutteredmod/sign_post_luphie_flowering_purple",
-	];
-
-	let luphieRecipeBuild = ([
-		planks,
-		stairs,
-		slab,
-		log,
-		stripped_log,
-		wood,
-		stripped_wood,
-		door,
-		trapdoor,
-		fence,
-		fence_gate,
-		button,
-		pressure_plate,
-		sign_post,
-	]) => {
-		hexCut(button, 1, slab, 1);
-		hexCut(door, 1, slab, 4);
-		hexCut(fence, 1, slab, 2);
-		hexCut(fence_gate, 1, slab, 2);
-		hexCut(pressure_plate, 1, slab, 2);
-		hexCut(stairs, 1, slab, 2);
-		hexCut(trapdoor, 1, slab, 4);
-		hexCut(slab, 3, stairs, 2);
-		hexCut("minecraft:barrel", 1, slab, 6);
-		hexCut("minecraft:chest", 1, slab, 12);
-		hexCut("minecraft:crafting_table", 1, slab, 4);
-		hexCut(planks, 5, wood, 1);
-		hexCut(planks, 5, stripped_wood, 1);
-		hexCut(planks, 5, log, 1);
-		hexCut(planks, 5, stripped_log, 1);
-		hexCut(door, 1, planks, 2);
-		hexCut(fence, 1, planks, 1);
-		hexCut(fence_gate, 1, planks, 1);
-		hexCut(planks, 3, stairs, 4);
-		hexCut(planks, 1, slab, 2);
-		hexCut(slab, 2, planks, 1);
-		hexCut(stairs, 1, planks, 1);
-		hexCut(trapdoor, 1, planks, 2);
-		hexCut("minecraft:barrel", 1, planks, 3);
-		hexCut("minecraft:chest", 1, planks, 6);
-		hexCut("minecraft:crafting_table", 1, planks, 2);
-		hexCut(button, 2, planks, 1);
-		hexCut(pressure_plate, 1, planks, 1);
-		hexCut(sign_post, 2, planks, 1);
-		hexCut(sign_post, 1, slab, 1);
-
-		boardChop(planks, door);
-		boardChop(planks, trapdoor);
-		boardStrip(stripped_log, log);
-		boardStrip(stripped_wood, wood);
-	};
-	luphieRecipeBuild(pink);
-	luphieRecipeBuild(floweringPink);
-	luphieRecipeBuild(yellow);
-	luphieRecipeBuild(floweringYellow);
-	luphieRecipeBuild(green);
-	luphieRecipeBuild(glow);
-	luphieRecipeBuild(purple);
-	luphieRecipeBuild(floweringPurple);
 
 });

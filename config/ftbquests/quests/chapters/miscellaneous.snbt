@@ -168,7 +168,7 @@
 						count: 1
 						id: "easy_villagers:converter"
 					}
-					target_addressee: "QuestNPC"
+					target_addressee: "Katu Starshine"
 					team_reward_multiplier: 1.0f
 					type: "contactquests:parcel"
 				}
@@ -181,7 +181,7 @@
 						count: 1
 						id: "minecraft:enchanted_golden_apple"
 					}
-					target_addressee: "QuestNPC"
+					target_addressee: "Katu Starshine"
 					team_reward_multiplier: 1.0f
 					type: "contactquests:parcel"
 				}
@@ -194,7 +194,7 @@
 						count: 1
 						id: "plushie_buddies:plushie_zombie_villager"
 					}
-					target_addressee: "QuestNPC"
+					target_addressee: "Katu Starshine"
 					team_reward_multiplier: 1.0f
 					type: "contactquests:parcel"
 				}
@@ -241,7 +241,7 @@
 					is_ender: false
 					is_team_reward: false
 					table_id: 6895470215093009548L
-					target_addressee: "QuestNPC"
+					target_addressee: "Katu Starshine"
 					team_reward_multiplier: 1.0f
 					type: "contactquests:parcel_random"
 				}
@@ -255,7 +255,7 @@
 						count: 1
 						id: "minecraft:emerald"
 					}
-					target_addressee: "QuestNPC"
+					target_addressee: "Katu Starshine"
 					team_reward_multiplier: 1.0f
 					type: "contactquests:parcel"
 				}
@@ -285,7 +285,7 @@
 						count: 1
 						id: "plushie_buddies:plushie_llama"
 					}
-					target_addressee: "QuestNPC"
+					target_addressee: "Katu Starshine"
 					team_reward_multiplier: 1.0f
 					type: "contactquests:parcel"
 				}
@@ -295,7 +295,7 @@
 					is_ender: false
 					is_team_reward: false
 					table_id: 6895470215093009548L
-					target_addressee: "QuestNPC"
+					target_addressee: "Katu Starshine"
 					team_reward_multiplier: 1.0f
 					type: "contactquests:parcel_random"
 				}
@@ -493,6 +493,7 @@
 		{
 			id: "2BE44A5A7C52C52D"
 			invisible: true
+			optional: true
 			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "0FEED3BDD00222CD"
@@ -513,7 +514,7 @@
 				is_ender: false
 				is_team_reward: false
 				table_id: 5770973074849872376L
-				target_addressee: "QuestNPC"
+				target_addressee: "Katu Starshine"
 				team_reward_multiplier: 1.0f
 				type: "contactquests:parcel_random"
 			}]
@@ -642,7 +643,7 @@
 						count: 1
 						id: "plushie_buddies:plushie_villager"
 					}
-					target_addressee: "QuestNPC"
+					target_addressee: "Katu Starshine"
 					team_reward_multiplier: 1.0f
 					type: "contactquests:parcel"
 				}
@@ -655,7 +656,7 @@
 						count: 1
 						id: "easy_villagers:trader"
 					}
-					target_addressee: "QuestNPC"
+					target_addressee: "Katu Starshine"
 					team_reward_multiplier: 1.0f
 					type: "contactquests:parcel"
 				}
@@ -837,7 +838,7 @@
 					is_ender: false
 					is_team_reward: false
 					table_id: 5770973074849872376L
-					target_addressee: "QuestNPC"
+					target_addressee: "Katu Starshine"
 					team_reward_multiplier: 1.0f
 					type: "contactquests:parcel_random"
 				}
@@ -883,7 +884,7 @@
 					count: 1
 					id: "numismatics:bank_terminal"
 				}
-				target_addressee: "QuestNPC"
+				target_addressee: "Katu Starshine"
 				team_reward_multiplier: 1.0f
 				type: "contactquests:parcel"
 			}]
@@ -909,7 +910,7 @@
 					count: 1
 					id: "minecraft:experience_bottle"
 				}
-				target_addressee: "QuestNPC"
+				target_addressee: "Katu Starshine"
 				team_reward_multiplier: 1.0f
 				type: "contactquests:parcel"
 			}]
@@ -936,7 +937,7 @@
 					count: 1
 					id: "minecraft:emerald"
 				}
-				target_addressee: "QuestNPC"
+				target_addressee: "Katu Starshine"
 				team_reward_multiplier: 1.0f
 				type: "contactquests:parcel"
 			}]

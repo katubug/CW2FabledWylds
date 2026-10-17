@@ -115,6 +115,18 @@
           }
         ]
       }
+    },
+    "hearthandharvest:cooked_corn_on_the_cob": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "hearthandharvest:cooked_corn_on_the_cob"
+            ]
+          }
+        ]
+      }
     }
   },
   "requirements": [
@@ -143,7 +155,7 @@
       "farm_and_charm:stuffed_chicken"
     ],
     [
-      "farm_and_charm:roasted_corn"
+      "hearthandharvest:cooked_corn_on_the_cob"
     ]
   ]
 }

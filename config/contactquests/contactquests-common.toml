@@ -17,4 +17,4 @@
 	retry_interval = 10
 	#新创建的任务和奖励默认的收件人 (Default target addressee for new rewards)
 	#这将作为默认值填入，你可以随时在任务编辑器中修改它。
-	default_target_addressee = "QuestNPC"
+	default_target_addressee = "Katu Starshine"

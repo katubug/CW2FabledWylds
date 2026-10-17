@@ -7,7 +7,6 @@ ServerEvents.compostableRecipes(event=>{
     'meadow:enzian',
     'meadow:fire_lily',
     'meadow:eriophorum',
-    'meadow:eriophorum_tall',
     'meadow:alpine_poppy',
     'minecraft:dead_bush',
     'minecraft:bamboo',

@@ -7,6 +7,8 @@ const ChunkDimPos =
 EntityEvents.checkSpawn(event => {
 	const entity = event.entity
 	if (!entity.monster) return
+	// natural stuff only, leave spawners/eggs/tf bosses alone
+	if (!['NATURAL', 'CHUNK_GENERATION', 'PATROL'].includes(String(event.type))) return
 
 	const manager = ClaimedChunkManagerImpl.getInstance()
 

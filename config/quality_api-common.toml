@@ -1,0 +1,22 @@
+#How a crafted item's quality is derived from ingredients that carry quality.
+#HIGHEST/LOWEST pick that ingredient's tier, AVERAGE takes the mean level and rolls the fractional part up or down, NONE ignores ingredients.
+#Allowed Values: HIGHEST, LOWEST, AVERAGE, NONE
+craftInheritance = "AVERAGE"
+#Only crafted results with durability inherit quality from ingredients. Off lets planks, sticks and other stackables carry quality too.
+craftInheritanceDamageableOnly = true
+#Chance that an inherited or rolled crafting quality drops one tier.
+# Default: 0.0
+# Range: 0.0 ~ 1.0
+downgradeChance = 0.0
+#Roll a weighted random quality for damageable items crafted from ingredients without quality.
+rollOnCraft = false
+#Record the crafting player's name on items that receive a quality when crafted.
+recordCrafter = true
+#Quality items that reach zero durability become broken and unusable until repaired instead of being destroyed. Turning this off only affects future breaks: items already broken stay broken until repaired.
+brokenInsteadOfDestroyed = true
+#Chance that breaking drops the item one quality tier. A tier or item can override this with break_downgrade_chance.
+# Default: 0.75
+# Range: 0.0 ~ 1.0
+breakDowngradeChance = 0.75
+#Whether items of the highest quality tier can lose their tier when broken.
+highestTierCanDowngrade = true

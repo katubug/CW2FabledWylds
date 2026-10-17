@@ -1,10 +1,11 @@
+// priority: -100
+// loads last so tag scripts cant re-add nuked stuff
 // Item list is defined in startup_scripts/nuked_items.js
 
 // Remove all recipes that OUTPUT a nuked item
 ServerEvents.recipes(event => {
-    for (const item of global.NUKED_ITEMS) {
-        event.remove({ output: item })
-    }
+    // one pass instead of 800, skip ids from removed mods
+    event.remove({ output: global.NUKED_ITEMS.filter(id => Item.exists(id)) })
 
     // Edge cases
     event.remove({ id: 'farm_and_charm:seeds_corn' })

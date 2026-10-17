@@ -4,7 +4,7 @@
       "id": "minecraft:ice"
     },
     "title": "Warming Up to the Queen",
-    "description": "Cast Wildfire on the Snow Queen.",
+    "description": "Set the Snow Queen on fire. She looked a little chilly.",
     "show_toast": true,
     "announce_to_chat": true,
     "hidden": true

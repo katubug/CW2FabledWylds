@@ -1,36 +1,148 @@
 {
-  "QuestNPC": {
+  "Katu Starshine": {
     "deliveryTime": 0,
     "errorSolve": [
       {
         "count": 1,
-        "returnType": "NOW",
+        "returnType": "Save",
         "styleType": "Random",
         "style": "default",
         "isAllEnder": false,
         "message": [
           {
-            "text": "Hello World!",
+            "text": "Lovely to hear from you. I was a little surprised to receive your letter, as I don't get much mail. It delighted me so much I forgot that I already added honey to my tea, so now I am drinking what is essentially syrup. It's surprisingly nice. Hope to hear from you again!",
+            "style": "default",
+            "isEnder": false,
+            "weight": 1
+          },
+          {
+            "text": "Oh, a letter! I read it out loud to my cat, who was very impressed. Well, she yawned, but I've decided that counts. Things here are quiet - the garden is coming along nicely, though something keeps nibbling my sage. I have my suspicions. Write again soon!",
+            "style": "default",
+            "isEnder": false,
+            "weight": 1
+          },
+          {
+            "text": "Your letter arrived just as my kettle started whistling, which I'm choosing to take as a good omen. I've been reorganizing my herb shelves again. Alphabetical? By color? By how much they smell like feet? The jury is still out. Take care of yourself!",
+            "style": "default",
+            "isEnder": false,
+            "weight": 1
+          },
+          {
+            "text": "What a nice surprise! I was just about to start on a potion that I am almost certain will not explode. If you don't hear from me again, it exploded. Kidding! Mostly. Thank you for writing!",
+            "style": "default",
+            "isEnder": false,
+            "weight": 1
+          },
+          {
+            "text": "Hello there! I found your letter tucked between two very grumpy toads on my doorstep. I'm not sure how they got the job of mail carrier, but they seem to take it seriously. It was a pleasure to hear from you!",
+            "style": "default",
+            "isEnder": false,
+            "weight": 1
+          },
+          {
+            "text": "A letter, for me? How thoughtful. I've been out gathering mushrooms all morning and my boots are absolutely ruined. Worth it, though - I found a ring of them big enough to dance in. I didn't. Probably. Write again sometime!",
+            "style": "default",
+            "isEnder": false,
+            "weight": 1
+          },
+          {
+            "text": "Thank you for your letter! The moon was nearly full last night, so I stayed up far too late talking to the frogs. They don't say much, but they're excellent listeners. I hope you're getting more sleep than I am!",
             "style": "default",
             "isEnder": false,
             "weight": 1
           }
         ]
-      }
-    ]
-  },
-  "Briar the Witch": {
-    "deliveryTime": 0,
-    "errorSolve": [
+      },
       {
-        "count": 1,
-        "returnType": "NOW",
+        "count": 5,
+        "returnType": "Save",
         "styleType": "Random",
         "style": "default",
         "isAllEnder": false,
         "message": [
           {
-            "text": "Hello World!",
+            "text": "Well well, you again? Thank you for writing. I hope things have been going well with your exploration and/or base building! I am taking some time to rest for a while, a much-needed thing. My bones do get awfully tired, don't yours?",
+            "style": "default",
+            "isEnder": false,
+            "weight": 1
+          },
+          {
+            "text": "Another letter! At this rate I'll need a second mailbox. Not that I'm complaining. I spent the morning chasing a very rude crow out of my garden, so this is a nice change of pace. Do keep me posted on your adventures - I live vicariously, you know.",
+            "style": "default",
+            "isEnder": false,
+            "weight": 1
+          },
+          {
+            "text": "Thank you for thinking of me again. The weather here has been lovely, the kind that makes you want to nap in the grass and pretend you have no chores. I did exactly that. The chores are still there. Funny how that works! Hope you're well.",
+            "style": "default",
+            "isEnder": false,
+            "weight": 1
+          },
+          {
+            "text": "You're becoming quite the correspondent! I baked bread today and it came out shaped vaguely like a cat. I'm calling it intentional. How are things on your end? Found anything interesting lately?",
+            "style": "default",
+            "isEnder": false,
+            "weight": 1
+          },
+          {
+            "text": "Oh, it's you! I'd recognize that handwriting anywhere. Well, I'd recognize it in my mailbox, at least. The garden is overflowing right now, so I've been making jam until my kitchen looks like a crime scene. A sticky, delicious crime scene.",
+            "style": "default",
+            "isEnder": false,
+            "weight": 1
+          },
+          {
+            "text": "Another letter already? I've been meaning to tidy my cottage for weeks, and reading your mail is a wonderful excuse not to. Thank you for that. Do let me know how your adventures are going!",
+            "style": "default",
+            "isEnder": false,
+            "weight": 1
+          },
+          {
+            "text": "Thank you for writing again! It rained all day yesterday, so I curled up by the fire with a good book and a cup of chamomile. Somewhere outside, my broom is still drying off. It sulks when it gets wet. Don't ask.",
+            "style": "default",
+            "isEnder": false,
+            "weight": 1
+          }
+        ]
+      },
+      {
+        "count": 20,
+        "returnType": "Save",
+        "styleType": "Random",
+        "style": "default",
+        "isAllEnder": false,
+        "message": [
+          {
+            "text": "Thank you for the letter! No time to reply, busy busy busy! Please take this gift as a token of my thanks.<plush_gift>",
+            "style": "default",
+            "isEnder": false,
+            "weight": 1
+          },
+          {
+            "text": "My goodness, we really are pen pals now, aren't we? I've started keeping your letters in a little box by the window. Don't let it go to your head. Stay safe out there, and remember to eat something warm today!",
+            "style": "default",
+            "isEnder": false,
+            "weight": 1
+          },
+          {
+            "text": "Is it just me, or does the mail carrier look exhausted lately? I think it's all your letters. Don't stop, though - I've grown rather fond of them. The toads are sending their regards. Well, they croaked at me, and I'm choosing to interpret that as regards.",
+            "style": "default",
+            "isEnder": false,
+            "weight": 1
+          },
+          {
+            "text": "Dear friend (yes, I'm calling you that now, you've earned it), the cottage is cozy, the kettle is on, and the herbs are finally drying the way I like them. All that's missing is someone to share a cup with. Stop by sometime, won't you?",
+            "style": "default",
+            "isEnder": false,
+            "weight": 1
+          },
+          {
+            "text": "Your letters have become one of my favorite parts of the week. I've been telling the crows all about you. They seem unimpressed, but crows are like that. Keep exploring, keep building, and keep writing!",
+            "style": "default",
+            "isEnder": false,
+            "weight": 1
+          },
+          {
+            "text": "I tried to count how many letters you've sent me and lost track somewhere around the time my tea went cold. Again. I really must stop doing that. Anyway, thank you for thinking of an old witch. It means more than you know.",
             "style": "default",
             "isEnder": false,
             "weight": 1

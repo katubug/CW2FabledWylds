@@ -81,15 +81,11 @@
 				{
 					exclude_from_claim_all: true
 					id: "21C5D7DEE32E8716"
-					is_ender: false
-					is_team_reward: false
 					item: {
 						count: 1
 						id: "waystones:warp_scroll"
 					}
-					target_addressee: "QuestNPC"
-					team_reward_multiplier: 1.0f
-					type: "contactquests:parcel"
+					type: "item"
 				}
 				{
 					exclude_from_claim_all: true
@@ -100,7 +96,7 @@
 						count: 1
 						id: "minecraft:map"
 					}
-					target_addressee: "QuestNPC"
+					target_addressee: "Katu Starshine"
 					team_reward_multiplier: 1.0f
 					type: "contactquests:parcel"
 				}
@@ -127,7 +123,7 @@
 				is_ender: false
 				is_team_reward: false
 				table_id: 6895470215093009548L
-				target_addressee: "QuestNPC"
+				target_addressee: "Katu Starshine"
 				team_reward_multiplier: 1.0f
 				type: "contactquests:parcel_random"
 			}]
@@ -155,7 +151,7 @@
 					count: 1
 					id: "the_bumblezone:sugar_water_bottle"
 				}
-				target_addressee: "QuestNPC"
+				target_addressee: "Katu Starshine"
 				team_reward_multiplier: 1.0f
 				type: "contactquests:parcel"
 			}]
@@ -179,7 +175,7 @@
 				is_ender: false
 				is_team_reward: false
 				table_id: 5770973074849872376L
-				target_addressee: "QuestNPC"
+				target_addressee: "Katu Starshine"
 				team_reward_multiplier: 1.0f
 				type: "contactquests:parcel_random"
 			}]
@@ -196,6 +192,12 @@
 			id: "2602582F440361DB"
 			preset: "progression"
 			quest_enhance_disable_scroll_paging: false
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5AFC8499B22EE0DF"
+				table_id: 5651126569320430640L
+				type: "loot"
+			}]
 			tasks: [{
 				icon: {
 					id: "the_bumblezone:honey_cocoon"
@@ -218,13 +220,13 @@
 				is_ender: false
 				is_team_reward: false
 				table_id: 7328857662613080212L
-				target_addressee: "QuestNPC"
+				target_addressee: "Katu Starshine"
 				team_reward_multiplier: 1.0f
 				type: "contactquests:parcel_random"
 			}]
 			shape: "octagon"
 			tasks: [{
-				advancement: "the_bumblezone:tools/craft_honey_compass"
+				advancement: "the_bumblezone:tools/obtain_throne_honey_compass"
 				criterion: ""
 				id: "5756978204AA696C"
 				type: "advancement"
@@ -253,21 +255,17 @@
 					is_ender: false
 					is_team_reward: false
 					table_id: 7159471207534106979L
-					target_addressee: "QuestNPC"
+					target_addressee: "Katu Starshine"
 					team_reward_multiplier: 1.0f
 					type: "contactquests:parcel_random"
 				}
 			]
 			tasks: [{
-				icon: {
-					id: "the_bumblezone:stingless_bee_helmet_1"
-				}
-				id: "02E25F29BA7D2899"
-				observation_type: "block"
-				observe_type: 0
-				timer: 0L
-				to_observe: "the_bumblezone:bee_queen"
-				type: "observation"
+				entity: "the_bumblezone:bee_queen"
+				id: "5A385588925F84E5"
+				search_radius_blocks: 64
+				target_radius_blocks: 5
+				type: "find_entity"
 			}]
 			x: -3.0d
 			y: 2.0d
@@ -283,7 +281,7 @@
 				is_ender: false
 				is_team_reward: false
 				table_id: 5167086515396975209L
-				target_addressee: "QuestNPC"
+				target_addressee: "Katu Starshine"
 				team_reward_multiplier: 1.0f
 				type: "contactquests:parcel_random"
 			}]
@@ -311,7 +309,7 @@
 						count: 1
 						id: "minecraft:experience_bottle"
 					}
-					target_addressee: "QuestNPC"
+					target_addressee: "Katu Starshine"
 					team_reward_multiplier: 1.0f
 					type: "contactquests:parcel"
 				}
@@ -321,7 +319,7 @@
 					is_ender: false
 					is_team_reward: false
 					table_id: 7328857662613080212L
-					target_addressee: "QuestNPC"
+					target_addressee: "Katu Starshine"
 					team_reward_multiplier: 1.0f
 					type: "contactquests:parcel_random"
 				}
@@ -366,7 +364,7 @@
 						count: 1
 						id: "minecraft:experience_bottle"
 					}
-					target_addressee: "QuestNPC"
+					target_addressee: "Katu Starshine"
 					team_reward_multiplier: 1.0f
 					type: "contactquests:parcel"
 				}
@@ -376,7 +374,7 @@
 					is_ender: false
 					is_team_reward: false
 					table_id: 7328857662613080212L
-					target_addressee: "QuestNPC"
+					target_addressee: "Katu Starshine"
 					team_reward_multiplier: 1.0f
 					type: "contactquests:parcel_random"
 				}
@@ -466,7 +464,7 @@
 				is_ender: false
 				is_team_reward: false
 				table_id: 7159471207534106979L
-				target_addressee: "QuestNPC"
+				target_addressee: "Katu Starshine"
 				team_reward_multiplier: 1.0f
 				type: "contactquests:parcel_random"
 			}]
@@ -503,7 +501,7 @@
 				is_ender: false
 				is_team_reward: false
 				table_id: 7159471207534106979L
-				target_addressee: "QuestNPC"
+				target_addressee: "Katu Starshine"
 				team_reward_multiplier: 1.0f
 				type: "contactquests:parcel_random"
 			}]
@@ -574,6 +572,16 @@
 			dependencies: ["635FE9332FFCE4A7"]
 			id: "649CD989B90CED8A"
 			quest_enhance_disable_scroll_paging: false
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4565F442A23F7664"
+				is_ender: false
+				is_team_reward: false
+				table_id: 7159471207534106979L
+				target_addressee: "Katu Starshine"
+				team_reward_multiplier: 1.0f
+				type: "contactquests:parcel_random"
+			}]
 			shape: "katu_window"
 			size: 2.0d
 			tasks: [{
@@ -590,6 +598,7 @@
 		{
 			always_invisible: true
 			id: "30CC85F74EB4717A"
+			optional: true
 			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "26D10AD03CED6F5F"

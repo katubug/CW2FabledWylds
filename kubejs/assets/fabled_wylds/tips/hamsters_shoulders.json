@@ -1,0 +1,11 @@
+{
+    "type": "tipsmod:simple",
+    "title": {
+        "translate": "tips.titles.hamsters",
+        "bold": true,
+        "color": "green"
+    },
+    "text": {
+        "translate": "tips.text.hamsters.shoulders"
+    }
+}

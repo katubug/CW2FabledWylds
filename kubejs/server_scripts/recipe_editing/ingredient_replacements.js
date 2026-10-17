@@ -12,6 +12,9 @@ ServerEvents.recipes(event => {
 		{ from: 'farm_and_charm:lamb_ham',      to: 'farmersdelight:mutton_chops' },
 		{ from: 'farm_and_charm:minced_beef',   to: 'farmersdelight:minced_beef' },
 		{ from: 'farm_and_charm:raw_pasta',     to: 'farmersdelight:raw_pasta' },
+		{ from: 'farm_and_charm:flour',         to: 'hearthandharvest:flour' },
+		{ from: 'farm_and_charm:rotten_tomato', to: 'farmersdelight:rotten_tomato' },
+		{ from: 'farm_and_charm:dog_food',      to: 'farmersdelight:dog_food' },
 	]
 
 	const customRecipeTypes = [
@@ -21,6 +24,7 @@ ServerEvents.recipes(event => {
 		'farm_and_charm:pot_cooking',
 		'farm_and_charm:stove',
 		'meadow:cooking',
+		'farm_and_charm:cutting_board_assembly',
 	]
 
 	for (const type of customRecipeTypes) {
@@ -49,6 +53,42 @@ ServerEvents.recipes(event => {
 			}
 		})
 	}
+
+	// same deal but enchanted kettle/wheel use item stacks ({id, count}) instead of ingredients
+	const stackReplacements = [
+		{ from: 'enchanted:mandrake_root', to: 'hexalia:mandrake' },
+		{ from: 'enchanted:belladonna_flower', to: 'hexerei:belladonna_flowers' }, // replaceInput misses kettle stacks
+	]
+
+	for (const type of ['enchanted:kettle', 'enchanted:wheel']) {
+		event.forEachRecipe({ type }, r => {
+			const json = JSON.parse(r.json.toString())
+			let changed = false
+
+			for (let ing of (json.ingredients || [])) {
+				for (const rep of stackReplacements) {
+					if (ing.id === rep.from) {
+						ing.id = rep.to
+						changed = true
+						break
+					}
+				}
+			}
+
+			if (changed) {
+				event.remove({ id: r.getId() })
+				event.custom(json).id(r.getId())
+			}
+		})
+	}
+
+	//mandrake seeds (anointing paste)
+	event.replaceInput({
+			input: 'enchanted:mandrake_seeds'
+		},
+		'enchanted:mandrake_seeds',
+		'hexalia:mandrake_seeds'
+	)
 
 	//acorns
 
@@ -150,8 +190,9 @@ ServerEvents.recipes(event => {
 
 	//Cheese Slices
 	event.replaceInput({
-			input: 'trailandtales_delight:cheese_slice'
-		}, 
+			input: 'trailandtales_delight:cheese_slice',
+			not: { id: 'trailandtales_delight:cheese_wheel' } // or any 4 slices make a sweet wheel
+		},
 		'trailandtales_delight:cheese_slice', 
 		'#c:cheese_slices' 
 	)
@@ -164,14 +205,6 @@ ServerEvents.recipes(event => {
 		'#c:bread_or_bun' 
 	)
 
-	//cherries
-	event.replaceInput({
-			input: 'mysticsbiomes:cherries'
-		}, 
-		'mysticsbiomes:cherries', 
-		'hearthandharvest:cherry' 
-	)
-
 	//Eggs
 	event.replaceInput({
 			input: '#c:eggs'
@@ -180,12 +213,66 @@ ServerEvents.recipes(event => {
 		'#c:cooking_eggs'
 	)
 
-	//salt
+	//chocolate (h&h bar is nuked, mostly for the smore)
 	event.replaceInput({
-			input: '#hearthandharvest:salt'
+			input: 'hearthandharvest:chocolate_bar'
 		},
-		'#hearthandharvest:salt',
-		'#c:dusts/salt'
+		'hearthandharvest:chocolate_bar',
+		'#c:chocolate'
+	)
+
+	//syrup (pancake, pumpkin bread)
+	event.replaceInput({
+			input: 'autumnity:syrup_bottle'
+		},
+		'autumnity:syrup_bottle',
+		'hearthandharvest:syrup_bottle'
+	)
+
+	//roasted corn (farmer's breakfast)
+	event.replaceInput({
+			input: 'farm_and_charm:roasted_corn'
+		},
+		'farm_and_charm:roasted_corn',
+		'hearthandharvest:corn'
+	)
+
+	//dot marble -> any marble
+	event.replaceInput({
+			input: 'dawnoftimebuilder:marble'
+		},
+		'dawnoftimebuilder:marble',
+		'#fabled_wylds:marble'
+	)
+
+	event.replaceInput({
+			input: 'dawnoftimebuilder:marble_slab'
+		},
+		'dawnoftimebuilder:marble_slab',
+		'#fabled_wylds:marble_slabs'
+	)
+
+	//quark calcite bricks -> AP ones
+	event.replaceInput({
+			input: 'quark:calcite_bricks'
+		},
+		'quark:calcite_bricks',
+		'architects_palette:calcite_bricks'
+	)
+
+	event.replaceInput({
+			input: 'quark:calcite_bricks_slab'
+		},
+		'quark:calcite_bricks_slab',
+		'architects_palette:calcite_brick_slab'
+	)
+
+	//hamster cheese (cheese disc)
+	event.replaceInput({
+			input: 'adorablehamsterpets:cheese'
+		},
+		'adorablehamsterpets:cheese',
+		'#c:cheese_slices'
 	)
 
 

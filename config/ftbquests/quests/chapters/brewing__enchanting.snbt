@@ -77,6 +77,20 @@
 		{
 			id: "54F9B41F96399DE6"
 			quest_enhance_disable_scroll_paging: false
+			rewards: [{
+				count: 16
+				exclude_from_claim_all: true
+				id: "62B85242154FF9DC"
+				is_ender: false
+				is_team_reward: false
+				item: {
+					count: 1
+					id: "minecraft:lapis_lazuli"
+				}
+				target_addressee: "Katu Starshine"
+				team_reward_multiplier: 1.0f
+				type: "contactquests:parcel"
+			}]
 			shape: "rsquare"
 			size: 2.0d
 			tasks: [{
@@ -152,6 +166,7 @@
 		{
 			always_invisible: true
 			id: "41E35091BA940B6E"
+			optional: true
 			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "779E2893C37E22E0"

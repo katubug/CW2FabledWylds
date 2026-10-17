@@ -38,15 +38,17 @@ function find2x2Server(level, pos, blockId) {
 	return null
 }
 
-function hasObstructionsServer(level, placementPos, size) {
+// same rule as vanilla trees: air or #replaceable_by_trees, plus our own sapling
+function hasObstructionsServer(level, placementPos, size, saplingId) {
 	const BlockPos = Java.loadClass('net.minecraft.core.BlockPos')
 	for (let x = 0; x < size.x; x++) {
-		for (let y = 1; y < size.y; y++) {
+		for (let y = 0; y < size.y; y++) {
 			for (let z = 0; z < size.z; z++) {
-				const state = level.getBlockState(
-					new BlockPos(placementPos.x + x, placementPos.y + y, placementPos.z + z)
-				)
-				if (!state.isAir() && state.canOcclude()) return true
+				// let, not const - rhino freezes consts in loop bodies
+				let state = level.getBlockState(new BlockPos(placementPos.x + x, placementPos.y + y, placementPos.z + z))
+				if (state.isAir() || state.hasTag('minecraft:replaceable_by_trees')) continue
+				if (String(state.block.id) === saplingId) continue
+				return true
 			}
 		}
 	}
@@ -93,7 +95,10 @@ BlockEvents.rightClicked(event => {
 	const placementPos = new BlockPos(originX, pos.y, originZ)
 
 	// Abort if there are solid blocks in the way.
-	if (hasObstructionsServer(level, placementPos, size)) return
+	if (hasObstructionsServer(level, placementPos, size, String(blockId))) {
+		player.setStatusMessage(Text.of('Not enough room for this tree to grow').gray())
+		return
+	}
 
 	// Consume one fertilizer (unless creative)
 	if (!player.creative) {
@@ -117,7 +122,9 @@ BlockEvents.rightClicked(event => {
 	}
 
 	const StructurePlaceSettings = Java.loadClass('net.minecraft.world.level.levelgen.structure.templatesystem.StructurePlaceSettings')
-	const settings = new StructurePlaceSettings()
+	const BlockIgnoreProcessor = Java.loadClass('net.minecraft.world.level.levelgen.structure.templatesystem.BlockIgnoreProcessor')
+	// don't stamp the template's air over builds
+	const settings = new StructurePlaceSettings().addProcessor(BlockIgnoreProcessor.AIR)
 
 	template.placeInWorld(level, placementPos, placementPos, settings, level.random, 2)
 })

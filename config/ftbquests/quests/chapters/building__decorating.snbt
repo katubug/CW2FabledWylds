@@ -66,9 +66,18 @@
 			preset: "item"
 			quest_enhance_disable_scroll_paging: false
 			rewards: [{
+				count: 2
 				exclude_from_claim_all: true
-				id: "5C890C89C09D16DB"
-				type: "choice"
+				id: "0F0A0F64354BB470"
+				is_ender: false
+				is_team_reward: false
+				item: {
+					count: 1
+					id: "reliquary:pedestals/passive/white_passive_pedestal"
+				}
+				target_addressee: "Katu Starshine"
+				team_reward_multiplier: 1.0f
+				type: "contactquests:parcel"
 			}]
 			shape: "hexagon"
 			tasks: [{
@@ -106,17 +115,16 @@
 			id: "1184EA40A20DEB5D"
 			preset: "progression"
 			quest_enhance_disable_scroll_paging: false
-			rewards: [
-				{
-					id: "31D2BCCAA5AF5BA4"
-					type: "loot"
-				}
-				{
-					id: "2BF661D75FC4715C"
-					type: "xp_levels"
-					xp_levels: 2
-				}
-			]
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "200E4D0D3A3C334E"
+				is_ender: false
+				is_team_reward: false
+				table_id: 7328857662613080212L
+				target_addressee: "Katu Starshine"
+				team_reward_multiplier: 1.0f
+				type: "contactquests:parcel_random"
+			}]
 			tasks: [
 				{
 					id: "329EA864CDCD816B"
@@ -138,8 +146,14 @@
 			preset: "item"
 			quest_enhance_disable_scroll_paging: false
 			rewards: [{
-				id: "47CF7C0058F220DE"
-				type: "loot"
+				exclude_from_claim_all: true
+				id: "13BA46C496941C54"
+				is_ender: false
+				is_team_reward: false
+				table_id: 5770973074849872376L
+				target_addressee: "Katu Starshine"
+				team_reward_multiplier: 1.0f
+				type: "contactquests:parcel_random"
 			}]
 			shape: "hexagon"
 			tasks: [{
@@ -227,16 +241,19 @@
 			id: "3E509A27A92746F4"
 			preset: "item"
 			quest_enhance_disable_scroll_paging: false
-			rewards: [
-				{
-					id: "4B4F32018B536A56"
-					type: "loot"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7034BF0B27F7383D"
+				is_ender: false
+				is_team_reward: false
+				item: {
+					count: 1
+					id: "supplementaries:antique_ink"
 				}
-				{
-					id: "2ACFC13D9A34245B"
-					type: "loot"
-				}
-			]
+				target_addressee: "Katu Starshine"
+				team_reward_multiplier: 1.0f
+				type: "contactquests:parcel"
+			}]
 			shape: "hexagon"
 			tasks: [{
 				id: "480C6E3F2F44680E"
@@ -278,7 +295,7 @@
 				is_ender: false
 				is_team_reward: false
 				table_id: 5770973074849872376L
-				target_addressee: "QuestNPC"
+				target_addressee: "Katu Starshine"
 				team_reward_multiplier: 1.0f
 				type: "contactquests:parcel_random"
 			}]
@@ -296,8 +313,17 @@
 			preset: "item"
 			quest_enhance_disable_scroll_paging: false
 			rewards: [{
-				id: "5355BCF70B7F29BE"
-				type: "loot"
+				exclude_from_claim_all: true
+				id: "5BE367EA005F9889"
+				is_ender: false
+				is_team_reward: false
+				item: {
+					count: 1
+					id: "minecraft:compass"
+				}
+				target_addressee: "Katu Starshine"
+				team_reward_multiplier: 1.0f
+				type: "contactquests:parcel"
 			}]
 			shape: "hexagon"
 			tasks: [{
@@ -383,7 +409,7 @@
 				is_ender: false
 				is_team_reward: false
 				table_id: 5770973074849872376L
-				target_addressee: "QuestNPC"
+				target_addressee: "Katu Starshine"
 				team_reward_multiplier: 1.0f
 				type: "contactquests:parcel_random"
 			}]
@@ -436,6 +462,34 @@
 			id: "7D82FBD000D41F84"
 			preset: "start"
 			quest_enhance_disable_scroll_paging: false
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "7F9BED8D4CCB6CB5"
+					is_ender: false
+					is_team_reward: false
+					item: {
+						count: 1
+						id: "handcrafted:oak_chair"
+					}
+					target_addressee: "Katu Starshine"
+					team_reward_multiplier: 1.0f
+					type: "contactquests:parcel"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5364A73693F82A07"
+					is_ender: false
+					is_team_reward: false
+					item: {
+						count: 1
+						id: "handcrafted:oak_table"
+					}
+					target_addressee: "Katu Starshine"
+					team_reward_multiplier: 1.0f
+					type: "contactquests:parcel"
+				}
+			]
 			shape: "rsquare"
 			size: 2.0d
 			tasks: [{
@@ -490,6 +544,7 @@
 			hide_until_deps_visible: true
 			id: "3B14FB98F6CA73AA"
 			invisible: true
+			optional: true
 			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "6DAECCC0C5171527"
@@ -635,6 +690,20 @@
 			id: "39844F8340E6A438"
 			preset: "start"
 			quest_enhance_disable_scroll_paging: false
+			rewards: [{
+				count: 8
+				exclude_from_claim_all: true
+				id: "10C412E68E1C1EDB"
+				is_ender: false
+				is_team_reward: false
+				item: {
+					count: 1
+					id: "framedblocks:framed_cube"
+				}
+				target_addressee: "Katu Starshine"
+				team_reward_multiplier: 1.0f
+				type: "contactquests:parcel"
+			}]
 			shape: "rsquare"
 			size: 1.5d
 			tasks: [{
@@ -650,6 +719,16 @@
 			id: "0C3A4C2AADB4DCD8"
 			preset: "progression"
 			quest_enhance_disable_scroll_paging: false
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3368778E0ED6B4D9"
+				is_ender: false
+				is_team_reward: false
+				table_id: 5770973074849872376L
+				target_addressee: "Katu Starshine"
+				team_reward_multiplier: 1.0f
+				type: "contactquests:parcel_random"
+			}]
 			tasks: [{
 				id: "2C43AB1CC7A2DB59"
 				item: { count: 1, id: "framedblocks:framing_saw" }
@@ -663,6 +742,16 @@
 			id: "10522CDFCA586C03"
 			preset: "item"
 			quest_enhance_disable_scroll_paging: false
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "420077EB863A31B0"
+				is_ender: false
+				is_team_reward: false
+				table_id: 5770973074849872376L
+				target_addressee: "Katu Starshine"
+				team_reward_multiplier: 1.0f
+				type: "contactquests:parcel_random"
+			}]
 			shape: "hexagon"
 			tasks: [{
 				id: "3512D09881BBB55C"
@@ -677,6 +766,16 @@
 			id: "7A91474C948416AC"
 			preset: "item"
 			quest_enhance_disable_scroll_paging: false
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "25BF7A0EEA5E9822"
+				is_ender: false
+				is_team_reward: false
+				table_id: 5770973074849872376L
+				target_addressee: "Katu Starshine"
+				team_reward_multiplier: 1.0f
+				type: "contactquests:parcel_random"
+			}]
 			shape: "hexagon"
 			tasks: [{
 				id: "76157035E5314C9A"
@@ -693,8 +792,13 @@
 			quest_enhance_disable_scroll_paging: false
 			rewards: [{
 				exclude_from_claim_all: true
-				id: "7519735D4732FAFF"
-				type: "loot"
+				id: "381B007B45B87053"
+				is_ender: false
+				is_team_reward: false
+				table_id: 5770973074849872376L
+				target_addressee: "Katu Starshine"
+				team_reward_multiplier: 1.0f
+				type: "contactquests:parcel_random"
 			}]
 			shape: "hexagon"
 			tasks: [{
@@ -710,6 +814,16 @@
 			id: "0A6B50D21095E2AA"
 			preset: "item"
 			quest_enhance_disable_scroll_paging: false
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "55CD738B970FD789"
+				is_ender: false
+				is_team_reward: false
+				table_id: 5770973074849872376L
+				target_addressee: "Katu Starshine"
+				team_reward_multiplier: 1.0f
+				type: "contactquests:parcel_random"
+			}]
 			shape: "hexagon"
 			tasks: [{
 				id: "36C0181DF101D2D8"
@@ -724,6 +838,16 @@
 			id: "7C9FD049608453D0"
 			preset: "item"
 			quest_enhance_disable_scroll_paging: false
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "47568DDAA2B02D2F"
+				is_ender: false
+				is_team_reward: false
+				table_id: 5770973074849872376L
+				target_addressee: "Katu Starshine"
+				team_reward_multiplier: 1.0f
+				type: "contactquests:parcel_random"
+			}]
 			shape: "hexagon"
 			tasks: [{
 				id: "33560AB3BC07DCB1"
@@ -738,6 +862,16 @@
 			id: "1D28D1DF0BA0F0D6"
 			preset: "item"
 			quest_enhance_disable_scroll_paging: false
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "652F716F5DFEE721"
+				is_ender: false
+				is_team_reward: false
+				table_id: 5770973074849872376L
+				target_addressee: "Katu Starshine"
+				team_reward_multiplier: 1.0f
+				type: "contactquests:parcel_random"
+			}]
 			shape: "hexagon"
 			tasks: [{
 				id: "14E7B563E23795BE"
@@ -751,11 +885,50 @@
 			id: "4110A15F659422D5"
 			preset: "item"
 			quest_enhance_disable_scroll_paging: false
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "7DD7243213C5D605"
-				type: "choice"
-			}]
+			rewards: [
+				{
+					count: 6
+					exclude_from_claim_all: true
+					id: "2219B9E092B0E84F"
+					is_ender: false
+					is_team_reward: false
+					item: {
+						count: 1
+						id: "minecraft:stone_bricks"
+					}
+					target_addressee: "Katu Starshine"
+					team_reward_multiplier: 1.0f
+					type: "contactquests:parcel"
+				}
+				{
+					count: 6
+					exclude_from_claim_all: true
+					id: "17A14EE7F6657D0C"
+					is_ender: false
+					is_team_reward: false
+					item: {
+						count: 1
+						id: "minecraft:mossy_stone_bricks"
+					}
+					target_addressee: "Katu Starshine"
+					team_reward_multiplier: 1.0f
+					type: "contactquests:parcel"
+				}
+				{
+					count: 6
+					exclude_from_claim_all: true
+					id: "562770B0A842BDD0"
+					is_ender: false
+					is_team_reward: false
+					item: {
+						count: 1
+						id: "minecraft:cracked_stone_bricks"
+					}
+					target_addressee: "Katu Starshine"
+					team_reward_multiplier: 1.0f
+					type: "contactquests:parcel"
+				}
+			]
 			shape: "hexagon"
 			tasks: [{
 				id: "1BCDD73ACFB3A232"

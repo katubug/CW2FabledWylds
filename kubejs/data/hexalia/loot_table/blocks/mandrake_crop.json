@@ -12,17 +12,8 @@
       "rolls": 1.0,
       "entries": [
         {
-          "type": "minecraft:alternatives",
-          "children": [
-            {
-              "type": "minecraft:item",
-              "name": "hexalia:mandrake_seeds"
-            },
-            {
-              "type": "minecraft:item",
-              "name": "hexalia:mandrake"
-            }
-          ]
+          "type": "minecraft:item",
+          "name": "hexalia:mandrake_seeds"
         }
       ]
     },
@@ -42,14 +33,29 @@
         {
           "type": "minecraft:item",
           "name": "hexerei:mandrake_flowers"
+        }
+      ]
+    },
+    {
+      "bonus_rolls": 0.0,
+      "conditions": [
+        {
+          "block": "hexalia:mandrake_crop",
+          "condition": "minecraft:block_state_property",
+          "properties": {
+            "age": "3"
+          }
         },
+        {
+          "condition": "minecraft:random_chance",
+          "chance": 0.5
+        }
+      ],
+      "rolls": 1.0,
+      "entries": [
         {
           "type": "minecraft:item",
           "name": "hexalia:mandrake"
-        },
-        {
-          "type": "minecraft:item",
-          "name": "hexalia:mandrake_seeds"
         }
       ]
     }

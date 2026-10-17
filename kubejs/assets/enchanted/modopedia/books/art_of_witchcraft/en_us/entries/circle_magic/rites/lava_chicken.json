@@ -1,0 +1,29 @@
+{
+  "assigned_items": [
+    "minecraft:music_disc_lava_chicken"
+  ],
+  "icon": {
+    "count": 1,
+    "id": "minecraft:music_disc_lava_chicken"
+  },
+  "pages": [
+    {
+      "components": [
+        {
+          "header": "Lava Chicken",
+          "template": "modopedia:page/headered_text",
+          "text": "Coax a song out of a chicken with a bit of fire and spice. A $(b)live chicken$(/b) must be within the circle, and it walks away unharmed, if a little startled.\n\nWithout a feathered friend present, the rite fizzles and the offerings are returned. The power spent, sadly, is not."
+        }
+      ]
+    },
+    {
+      "components": [
+        {
+          "rite": "fabled_wylds:lava_chicken",
+          "template": "enchanted:page/rite"
+        }
+      ]
+    }
+  ],
+  "title": "Lava Chicken"
+}

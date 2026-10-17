@@ -1,0 +1,9 @@
+{
+  "tooltip": {
+    "text": "Nether"
+  },
+  "icon": {
+    "id": "betternether:nether_ruby"
+  },
+  "sortIndex": 50
+}

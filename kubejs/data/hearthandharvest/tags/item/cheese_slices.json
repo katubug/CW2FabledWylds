@@ -1,6 +1,6 @@
 {
   "values": [
-    "hearthandharvest:cheddar_cheese_slice",
+    "hearthandharvest:cheese_slice",
     "hearthandharvest:goat_cheese_slice",
     "meadow:grain_cheese_slice",
     "meadow:amethyst_cheese_slice",
@@ -9,6 +9,7 @@
     "meadow:warped_cheese_slice",
     "meadow:cheese_slice",
     "meadow:sheep_cheese_slice",
-    "trailandtales_delight:cherry_cheese_slice"
+    "trailandtales_delight:cherry_cheese_slice",
+    "trailandtales_delight:cheese_slice"
   ]
 }

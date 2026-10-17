@@ -66,7 +66,7 @@
 						count: 1
 						id: "minecraft:netherite_block"
 					}
-					target_addressee: "QuestNPC"
+					target_addressee: "Katu Starshine"
 					team_reward_multiplier: 1.0f
 					type: "contactquests:parcel"
 				}
@@ -76,7 +76,7 @@
 					is_ender: false
 					is_team_reward: false
 					table_id: 5167086515396975209L
-					target_addressee: "QuestNPC"
+					target_addressee: "Katu Starshine"
 					team_reward_multiplier: 1.0f
 					type: "contactquests:parcel_random"
 				}
@@ -137,7 +137,7 @@
 					count: 1
 					id: "minecraft:emerald"
 				}
-				target_addressee: "QuestNPC"
+				target_addressee: "Katu Starshine"
 				team_reward_multiplier: 1.0f
 				type: "contactquests:parcel"
 			}]
@@ -163,7 +163,7 @@
 					count: 1
 					id: "betterarcheology:archeology_table"
 				}
-				target_addressee: "QuestNPC"
+				target_addressee: "Katu Starshine"
 				team_reward_multiplier: 1.0f
 				type: "contactquests:parcel"
 			}]
@@ -186,7 +186,7 @@
 				is_ender: false
 				is_team_reward: false
 				table_id: 5770973074849872376L
-				target_addressee: "QuestNPC"
+				target_addressee: "Katu Starshine"
 				team_reward_multiplier: 1.0f
 				type: "contactquests:parcel_random"
 			}]
@@ -213,7 +213,7 @@
 					count: 1
 					id: "twilightdelight:plate_of_fiery_snakes"
 				}
-				target_addressee: "QuestNPC"
+				target_addressee: "Katu Starshine"
 				team_reward_multiplier: 1.0f
 				type: "contactquests:parcel"
 			}]
@@ -256,7 +256,7 @@
 				is_ender: false
 				is_team_reward: false
 				table_id: 5770973074849872376L
-				target_addressee: "QuestNPC"
+				target_addressee: "Katu Starshine"
 				team_reward_multiplier: 1.0f
 				type: "contactquests:parcel_random"
 			}]
@@ -285,7 +285,7 @@
 						count: 1
 						id: "minecraft:leather"
 					}
-					target_addressee: "QuestNPC"
+					target_addressee: "Katu Starshine"
 					team_reward_multiplier: 1.0f
 					type: "contactquests:parcel"
 				}
@@ -295,7 +295,7 @@
 					is_ender: false
 					is_team_reward: false
 					table_id: 7328857662613080212L
-					target_addressee: "QuestNPC"
+					target_addressee: "Katu Starshine"
 					team_reward_multiplier: 1.0f
 					type: "contactquests:parcel_random"
 				}
@@ -344,7 +344,7 @@
 					is_ender: false
 					is_team_reward: false
 					table_id: 5770973074849872376L
-					target_addressee: "QuestNPC"
+					target_addressee: "Katu Starshine"
 					team_reward_multiplier: 1.0f
 					type: "contactquests:parcel_random"
 				}
@@ -357,7 +357,7 @@
 						count: 1
 						id: "quark:forgotten_hat"
 					}
-					target_addressee: "QuestNPC"
+					target_addressee: "Katu Starshine"
 					team_reward_multiplier: 1.0f
 					type: "contactquests:parcel"
 				}
@@ -392,7 +392,7 @@
 					is_ender: false
 					is_team_reward: false
 					table_id: 7328857662613080212L
-					target_addressee: "QuestNPC"
+					target_addressee: "Katu Starshine"
 					team_reward_multiplier: 1.0f
 					type: "contactquests:parcel_random"
 				}
@@ -412,6 +412,7 @@
 		{
 			always_invisible: true
 			id: "3EA8305BE1FE9B75"
+			optional: true
 			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "4093E37E2FE96DFE"
@@ -437,7 +438,7 @@
 						count: 1
 						id: "minecraft:gold_nugget"
 					}
-					target_addressee: "QuestNPC"
+					target_addressee: "Katu Starshine"
 					team_reward_multiplier: 1.0f
 					type: "contactquests:parcel"
 				}
@@ -451,7 +452,7 @@
 						count: 1
 						id: "minecraft:brick"
 					}
-					target_addressee: "QuestNPC"
+					target_addressee: "Katu Starshine"
 					team_reward_multiplier: 1.0f
 					type: "contactquests:parcel"
 				}

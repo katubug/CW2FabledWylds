@@ -1,0 +1,34 @@
+{
+    "items": [
+        { "id": "kubejs:ravens_quill", "count": 1 },
+        { "id": "kubejs:pressed_herbarium", "count": 1 },
+        { "id": "kubejs:rainbow_fleece", "count": 1 },
+        { "id": "kubejs:bottled_starlight", "count": 1 },
+        { "id": "kubejs:patchwork_quilt", "count": 1 },
+        { "id": "kubejs:wayfarers_knot", "count": 1 },
+        { "id": "kubejs:well_loved_collar", "count": 1 },
+        { "id": "kubejs:blue_ribbon", "count": 1 }
+    ],
+    "shapes": {
+        "enchanted:small_circle": "enchanted:otherwhere_chalk",
+        "enchanted:medium_circle": "enchanted:nether_chalk",
+        "enchanted:large_circle": "enchanted:ritual_chalk"
+    },
+    "power": 10000,
+    "time": [13000, 23000],
+    "weather": "clear",
+    "factory": {
+        "type": "enchanted:command",
+        "commands": [
+            [
+                "title @caster times 20 100 40",
+                "title @caster subtitle {\"text\":\"The Wylds know your name.\",\"color\":\"gray\",\"italic\":true}",
+                "title @caster title {\"text\":\"Wyldkeeper\",\"color\":\"light_purple\",\"bold\":true}",
+                "playsound minecraft:block.beacon.activate player @caster ~ ~ ~ 0.35 1",
+                "playsound minecraft:entity.player.levelup player @caster ~ ~ ~ 0.25 1.4",
+                "advancement grant @caster only fabled_wylds:wyldkeeper",
+                "give @caster kubejs:hestias_hearth 1"
+            ]
+        ]
+    }
+}

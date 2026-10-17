@@ -13,8 +13,6 @@ ServerEvents.recipes(event => {
 		{ id: 'minecraft:bread' },
 		{ id: 'regions_unexplored:barley_smelting' },
 		{ id: 'regions_unexplored:barley_smoking' },
-		{ id: 'hexalia:string_from_mortar_and_pestle' },
-		{ id: 'conditional:farm_and_charm/mincer/alpine_salt_from_mincer' },
 		{ id: 'hexalia:leather_from_salt'},
 		{ output: 'broom_closet:cat_ears'},
 		{ output: 'broom_closet:demon_horns'},
@@ -30,7 +28,6 @@ ServerEvents.recipes(event => {
 		//Replaced Recipes
 		{ id: 'hexalia:athame'},
 		{ id: 'farmersdelight:wheat_dough_from_water' },
-		{ id: 'farmersdelight:wheat_dough_from_eggs' },
 		{ output: 'meadow:oil_lantern' },
 		{ output: 'beautify:hanging_pot' },
 		{ output: 'tarotcards:tarot_deck' },
@@ -42,9 +39,7 @@ ServerEvents.recipes(event => {
 		{ output: 'betterarcheology:diamond_brush' },
 		{ output: 'minecraft:cake' },
 		{ id: 'farm_and_charm:pot_cooking/nettle_tea' },
-		{ id: 'farm_and_charm:meadow/cooking/nettle_tea' },
 		//{ id: 'hexerei:leather_from_drying_rack' },
-		{ type: 'enchanted:witch_cauldron' },
 		{ id: 'hexerei:mahogany_broom_from_mixing_cauldron' },
 		{ id: 'hexerei:willow_broom_from_mixing_cauldron' },
 		{ id: 'hexerei:witch_hazel_broom_from_mixing_cauldron' },
@@ -53,7 +48,6 @@ ServerEvents.recipes(event => {
 		{ id: 'farmersdelight:cooking/unripe_cheddar_cheese_wheel' },
 		{ id: 'farmersdelight:cooking/unripe_goat_cheese_wheel' },
 		{ output: 'bakery:strawberry_cake' },
-		{ output: 'minecraft:cake' },
 		{ output: 'trailandtales_delight:cherry_cake' },
 		{ output: 'hearthandharvest:carrot_cake' },
 		{ output: 'mysticsbiomes:vanilla_cake' },
@@ -94,5 +88,4 @@ ServerEvents.recipes(event => {
 
 	event.remove({ output: 'minecraft:green_dye', type: 'minecraft:smoking' })
 
-	event.remove({ mod: 'roots', type: 'roots:spell' }) // TODO KATU: this doesn't work
 })

@@ -1,22 +1,316 @@
 {
-	"credit": "Made with Blockbench",
-	"texture_size": [32, 32],
+	"credit": "Geometry from Let's Do Meadow (Satisfy); unripe textures for Cottage Witch",
 	"textures": {
 		"0": "kubejs:block/sheep_cheese_unripe",
 		"particle": "kubejs:block/sheep_cheese_unripe"
 	},
 	"elements": [
 		{
-			"from": [5, 0, 5],
-			"to": [11, 6, 11],
-			"rotation": {"angle": 0, "axis": "y", "origin": [1, 0, 1]},
+			"from": [
+				5,
+				0,
+				5
+			],
+			"to": [
+				8,
+				6,
+				8
+			],
+			"rotation": {
+				"angle": 0,
+				"axis": "y",
+				"origin": [
+					5,
+					0,
+					5
+				]
+			},
 			"faces": {
-				"north": {"uv": [0, 0, 3, 3], "texture": "#0"},
-				"east": {"uv": [0, 3, 3, 6], "texture": "#0"},
-				"south": {"uv": [3, 0, 6, 3], "texture": "#0"},
-				"west": {"uv": [3, 3, 6, 6], "texture": "#0"},
-				"up": {"uv": [3, 9, 0, 6], "texture": "#0"},
-				"down": {"uv": [9, 0, 6, 3], "texture": "#0"}
+				"north": {
+					"uv": [
+						11,
+						8,
+						14,
+						14
+					],
+					"texture": "#0"
+				},
+				"east": {
+					"uv": [
+						11,
+						2,
+						14,
+						8
+					],
+					"texture": "#0"
+				},
+				"south": {
+					"uv": [
+						8,
+						2,
+						11,
+						8
+					],
+					"texture": "#0"
+				},
+				"west": {
+					"uv": [
+						8,
+						8,
+						11,
+						14
+					],
+					"texture": "#0"
+				},
+				"up": {
+					"uv": [
+						2,
+						8,
+						5,
+						11
+					],
+					"texture": "#0"
+				},
+				"down": {
+					"uv": [
+						5,
+						2,
+						8,
+						5
+					],
+					"texture": "#0"
+				}
+			}
+		},
+		{
+			"from": [
+				8,
+				0,
+				5
+			],
+			"to": [
+				11,
+				6,
+				8
+			],
+			"rotation": {
+				"angle": 0,
+				"axis": "y",
+				"origin": [
+					5,
+					0,
+					5
+				]
+			},
+			"faces": {
+				"north": {
+					"uv": [
+						8,
+						8,
+						11,
+						14
+					],
+					"texture": "#0"
+				},
+				"east": {
+					"uv": [
+						11,
+						8,
+						14,
+						14
+					],
+					"texture": "#0"
+				},
+				"south": {
+					"uv": [
+						11,
+						2,
+						14,
+						8
+					],
+					"texture": "#0"
+				},
+				"west": {
+					"uv": [
+						8,
+						2,
+						11,
+						8
+					],
+					"texture": "#0"
+				},
+				"up": {
+					"uv": [
+						2,
+						8,
+						5,
+						11
+					],
+					"texture": "#0"
+				},
+				"down": {
+					"uv": [
+						5,
+						5,
+						8,
+						8
+					],
+					"texture": "#0"
+				}
+			}
+		},
+		{
+			"from": [
+				8,
+				0,
+				8
+			],
+			"to": [
+				11,
+				6,
+				11
+			],
+			"rotation": {
+				"angle": 0,
+				"axis": "y",
+				"origin": [
+					5,
+					0,
+					5
+				]
+			},
+			"faces": {
+				"north": {
+					"uv": [
+						8,
+						2,
+						11,
+						8
+					],
+					"texture": "#0"
+				},
+				"east": {
+					"uv": [
+						8,
+						8,
+						11,
+						14
+					],
+					"texture": "#0"
+				},
+				"south": {
+					"uv": [
+						11,
+						8,
+						14,
+						14
+					],
+					"texture": "#0"
+				},
+				"west": {
+					"uv": [
+						11,
+						2,
+						14,
+						8
+					],
+					"texture": "#0"
+				},
+				"up": {
+					"uv": [
+						5,
+						11,
+						8,
+						14
+					],
+					"texture": "#0"
+				},
+				"down": {
+					"uv": [
+						2,
+						5,
+						5,
+						8
+					],
+					"texture": "#0"
+				}
+			}
+		},
+		{
+			"from": [
+				5,
+				0,
+				8
+			],
+			"to": [
+				8,
+				6,
+				11
+			],
+			"rotation": {
+				"angle": 0,
+				"axis": "y",
+				"origin": [
+					5,
+					0,
+					5
+				]
+			},
+			"faces": {
+				"north": {
+					"uv": [
+						11,
+						2,
+						14,
+						8
+					],
+					"texture": "#0"
+				},
+				"east": {
+					"uv": [
+						8,
+						2,
+						11,
+						8
+					],
+					"texture": "#0"
+				},
+				"south": {
+					"uv": [
+						8,
+						8,
+						11,
+						14
+					],
+					"texture": "#0"
+				},
+				"west": {
+					"uv": [
+						11,
+						8,
+						14,
+						14
+					],
+					"texture": "#0"
+				},
+				"up": {
+					"uv": [
+						5,
+						11,
+						8,
+						14
+					],
+					"texture": "#0"
+				},
+				"down": {
+					"uv": [
+						2,
+						2,
+						5,
+						5
+					],
+					"texture": "#0"
+				}
 			}
 		}
 	]

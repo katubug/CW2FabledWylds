@@ -1,0 +1,11 @@
+{
+    "type": "tipsmod:simple",
+    "title": {
+        "translate": "tips.titles.betterachaeology",
+        "bold": true,
+        "color": "green"
+    },
+    "text": {
+        "translate": "tips.text.betterarchaeology.enchantments"
+    }
+}

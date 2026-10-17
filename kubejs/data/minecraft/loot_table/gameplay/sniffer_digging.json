@@ -1,0 +1,52 @@
+{
+  "type": "minecraft:gift",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "rolls": 1.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:torchflower_seeds"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:pitcher_pod"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "trailsandtalesplus:glowing_torchflower_crop"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "trailsandtalesplus:pink_protea"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "trailsandtalesplus:orange_protea"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "trailsandtalesplus:red_rose"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "trailsandtalesplus:cyan_rose"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "trailsandtalesplus:lumeberry"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "trailandtales_delight:lantern_fruit_seeds"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "trailandtales_delight:crystal_crabapple_seeds"
+        }
+      ]
+    }
+  ],
+  "random_sequence": "minecraft:gameplay/sniffer_digging"
+}

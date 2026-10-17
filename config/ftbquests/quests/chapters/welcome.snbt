@@ -104,7 +104,7 @@
 					count: 1
 					id: "minecraft:experience_bottle"
 				}
-				target_addressee: "QuestNPC"
+				target_addressee: "Katu Starshine"
 				team_reward_multiplier: 1.0f
 				type: "contactquests:parcel"
 			}]
@@ -130,7 +130,7 @@
 					count: 1
 					id: "minecraft:experience_bottle"
 				}
-				target_addressee: "QuestNPC"
+				target_addressee: "Katu Starshine"
 				team_reward_multiplier: 1.0f
 				type: "contactquests:parcel"
 			}]
@@ -156,7 +156,7 @@
 					count: 1
 					id: "minecraft:experience_bottle"
 				}
-				target_addressee: "QuestNPC"
+				target_addressee: "Katu Starshine"
 				team_reward_multiplier: 1.0f
 				type: "contactquests:parcel"
 			}]
@@ -183,7 +183,7 @@
 					count: 1
 					id: "minecraft:experience_bottle"
 				}
-				target_addressee: "QuestNPC"
+				target_addressee: "Katu Starshine"
 				team_reward_multiplier: 1.0f
 				type: "contactquests:parcel"
 			}]
@@ -209,7 +209,7 @@
 					count: 1
 					id: "minecraft:experience_bottle"
 				}
-				target_addressee: "QuestNPC"
+				target_addressee: "Katu Starshine"
 				team_reward_multiplier: 1.0f
 				type: "contactquests:parcel"
 			}]
@@ -236,7 +236,7 @@
 					count: 1
 					id: "minecraft:experience_bottle"
 				}
-				target_addressee: "QuestNPC"
+				target_addressee: "Katu Starshine"
 				team_reward_multiplier: 1.0f
 				type: "contactquests:parcel"
 			}]
@@ -252,6 +252,7 @@
 			disable_toast: true
 			id: "504E46F5A1DCF256"
 			invisible: true
+			optional: true
 			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "3155708C4E3D8956"
@@ -274,7 +275,7 @@
 					count: 1
 					id: "minecraft:experience_bottle"
 				}
-				target_addressee: "QuestNPC"
+				target_addressee: "Katu Starshine"
 				team_reward_multiplier: 1.0f
 				type: "contactquests:parcel"
 			}]
@@ -300,7 +301,7 @@
 					count: 1
 					id: "minecraft:experience_bottle"
 				}
-				target_addressee: "QuestNPC"
+				target_addressee: "Katu Starshine"
 				team_reward_multiplier: 1.0f
 				type: "contactquests:parcel"
 			}]
@@ -325,7 +326,7 @@
 					count: 1
 					id: "minecraft:experience_bottle"
 				}
-				target_addressee: "QuestNPC"
+				target_addressee: "Katu Starshine"
 				team_reward_multiplier: 1.0f
 				type: "contactquests:parcel"
 			}]

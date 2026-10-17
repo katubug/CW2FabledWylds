@@ -155,7 +155,7 @@
 					is_ender: false
 					is_team_reward: false
 					table_id: 5770973074849872376L
-					target_addressee: "QuestNPC"
+					target_addressee: "Katu Starshine"
 					team_reward_multiplier: 1.0f
 					type: "contactquests:parcel_random"
 				}
@@ -406,6 +406,7 @@
 		{
 			id: "61F03A15727266F2"
 			invisible: true
+			optional: true
 			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "17716842171DA01E"
@@ -493,14 +494,19 @@
 			rewards: [
 				{
 					exclude_from_claim_all: true
-					id: "402204927BD6B243"
+					id: "0D9F58F6BCEF3611"
+					table_id: 7049021818423122779L
 					type: "choice"
 				}
 				{
 					exclude_from_claim_all: true
-					id: "0D9F58F6BCEF3611"
-					table_id: 7049021818423122779L
-					type: "choice"
+					id: "568CDB93A56F619D"
+					is_ender: false
+					is_team_reward: false
+					table_id: 5167086515396975209L
+					target_addressee: "Katu Starshine"
+					team_reward_multiplier: 1.0f
+					type: "contactquests:parcel_random"
 				}
 			]
 			shape: "square"
@@ -1064,7 +1070,7 @@
 				is_ender: false
 				is_team_reward: false
 				table_id: 5770973074849872376L
-				target_addressee: "QuestNPC"
+				target_addressee: "Katu Starshine"
 				team_reward_multiplier: 1.0f
 				type: "contactquests:parcel_random"
 			}]
@@ -1155,17 +1161,6 @@
 			preset: "item"
 			quest_enhance_disable_scroll_paging: false
 			rewards: [
-				{
-					id: "1F8B8C29CCFA1F21"
-					item: {
-						components: {
-							"ftbquests:missing_item": "plushies:axolotl_plushie"
-						}
-						count: 1
-						id: "ftbquests:missing_item"
-					}
-					type: "item"
-				}
 				{
 					id: "360E9B2A1CF33049"
 					item: {
@@ -1414,7 +1409,7 @@
 					count: 1
 					id: "plushie_buddies:plushie_allay"
 				}
-				target_addressee: "QuestNPC"
+				target_addressee: "Katu Starshine"
 				team_reward_multiplier: 1.0f
 				type: "contactquests:parcel"
 			}]
@@ -1442,7 +1437,7 @@
 					count: 1
 					id: "quark:diamond_heart"
 				}
-				target_addressee: "QuestNPC"
+				target_addressee: "Katu Starshine"
 				team_reward_multiplier: 1.0f
 				type: "contactquests:parcel"
 			}]
@@ -1783,6 +1778,16 @@
 			id: "5C59C06355C7DC77"
 			preset: "item"
 			quest_enhance_disable_scroll_paging: false
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4D6FF6FC1CB905E3"
+				is_ender: false
+				is_team_reward: false
+				table_id: 5770973074849872376L
+				target_addressee: "Katu Starshine"
+				team_reward_multiplier: 1.0f
+				type: "contactquests:parcel_random"
+			}]
 			tasks: [
 				{
 					id: "4A4A4533400ED7D0"
@@ -1839,7 +1844,7 @@
 				is_ender: false
 				is_team_reward: false
 				table_id: 5770973074849872376L
-				target_addressee: "QuestNPC"
+				target_addressee: "Katu Starshine"
 				team_reward_multiplier: 1.0f
 				type: "contactquests:parcel_random"
 			}]
@@ -1987,6 +1992,16 @@
 		{
 			id: "48AC182727639D93"
 			quest_enhance_disable_scroll_paging: false
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "13F2E7EEA48EDC71"
+				is_ender: false
+				is_team_reward: false
+				table_id: 5167086515396975209L
+				target_addressee: "Katu Starshine"
+				team_reward_multiplier: 1.0f
+				type: "contactquests:parcel_random"
+			}]
 			tasks: [{
 				icon: {
 					components: {
@@ -2003,6 +2018,16 @@
 		{
 			id: "23434C187A604663"
 			quest_enhance_disable_scroll_paging: false
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6BEEA8F590FAAC53"
+				is_ender: false
+				is_team_reward: false
+				table_id: 5167086515396975209L
+				target_addressee: "Katu Starshine"
+				team_reward_multiplier: 1.0f
+				type: "contactquests:parcel_random"
+			}]
 			tasks: [{
 				icon: {
 					components: {

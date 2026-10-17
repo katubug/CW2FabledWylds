@@ -53,8 +53,9 @@ const QUAD_OFFSETS = [
 function find2x2(level, pos, blockId) {
 	const BlockPos = Java.loadClass('net.minecraft.core.BlockPos')
 	for (let i = 0; i < QUAD_OFFSETS.length; i++) {
-		const swX = pos.x + QUAD_OFFSETS[i].cx
-		const swZ = pos.z + QUAD_OFFSETS[i].cz
+		// let, not const - rhino freezes consts in loop bodies
+		let swX = pos.x + QUAD_OFFSETS[i].cx
+		let swZ = pos.z + QUAD_OFFSETS[i].cz
 		let valid = true
 		for (let dx = 0; dx < 2 && valid; dx++) {
 			for (let dz = 0; dz < 2 && valid; dz++) {
@@ -70,17 +71,18 @@ function find2x2(level, pos, blockId) {
 
 /**
  * Checks if there's empty space.
- * Skips Y=0 (ground level) and allows air, leaves, plants, and other non-solid blocks.
+ * Same rule as vanilla trees: air or #replaceable_by_trees, plus our own sapling.
  */
-function hasObstructions(level, placementPos, size) {
+function hasObstructions(level, placementPos, size, saplingId) {
 	const BlockPos = Java.loadClass('net.minecraft.core.BlockPos')
 	for (let x = 0; x < size.x; x++) {
-		for (let y = 1; y < size.y; y++) {
+		for (let y = 0; y < size.y; y++) {
 			for (let z = 0; z < size.z; z++) {
-				const state = level.getBlockState(
-					new BlockPos(placementPos.x + x, placementPos.y + y, placementPos.z + z)
-				)
-				if (!state.isAir() && state.canOcclude()) return true
+				// let, not const - rhino freezes consts in loop bodies
+				let state = level.getBlockState(new BlockPos(placementPos.x + x, placementPos.y + y, placementPos.z + z))
+				if (state.isAir() || state.hasTag('minecraft:replaceable_by_trees')) continue
+				if (String(state.block.id) === saplingId) continue
+				return true
 			}
 		}
 	}
@@ -127,7 +129,7 @@ function growTree(event, saplingId) {
 	const placementPos = new BlockPos(originX, pos.y, originZ)
 
 	// Abort if there are solid blocks in the way.
-	if (hasObstructions(level, placementPos, size)) return
+	if (hasObstructions(level, placementPos, size, blockId)) return
 
 	// Clear all saplings before placing the tree.
 	if (cornerPos) {
@@ -143,7 +145,9 @@ function growTree(event, saplingId) {
 	}
 
 	const StructurePlaceSettings = Java.loadClass('net.minecraft.world.level.levelgen.structure.templatesystem.StructurePlaceSettings')
-	const settings = new StructurePlaceSettings()
+	const BlockIgnoreProcessor = Java.loadClass('net.minecraft.world.level.levelgen.structure.templatesystem.BlockIgnoreProcessor')
+	// don't stamp the template's air over builds
+	const settings = new StructurePlaceSettings().addProcessor(BlockIgnoreProcessor.AIR)
 
 	template.placeInWorld(level, placementPos, placementPos, settings, level.random, 2)
 }

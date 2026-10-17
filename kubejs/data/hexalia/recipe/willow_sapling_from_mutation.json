@@ -1,0 +1,7 @@
+{
+  "type": "hexalia:mutation",
+  "input": {
+    "item": "minecraft:mangrove_propagule"
+  },
+  "output": "hexalia:willow_sapling"
+}

@@ -4,7 +4,7 @@ ServerEvents.tags('block', event => {
 		'glassential:glass_lava_lamp_tinted',
 		'decorative_blocks:soul_brazier',
 		'glassential:glass_lava_lamp',
-		'mynethersdelight:nether_bricks_stove',
+		'mynethersdelight:nether_stove',
 		'cnb:cinder_furnace',
 		'betternether:cincinnasite_forge',
 		'minecraft:campfire',

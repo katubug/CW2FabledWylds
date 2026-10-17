@@ -87,7 +87,7 @@
 					is_ender: false
 					is_team_reward: false
 					table_id: 5770973074849872376L
-					target_addressee: "QuestNPC"
+					target_addressee: "Katu Starshine"
 					team_reward_multiplier: 1.0f
 					type: "contactquests:parcel_random"
 				}
@@ -100,7 +100,7 @@
 						count: 1
 						id: "minecraft:paper"
 					}
-					target_addressee: "QuestNPC"
+					target_addressee: "Katu Starshine"
 					team_reward_multiplier: 1.0f
 					type: "contactquests:parcel"
 				}
@@ -119,23 +119,30 @@
 			quest_enhance_disable_scroll_paging: false
 			rewards: [
 				{
-					id: "63D695E3CE2809E2"
+					exclude_from_claim_all: true
+					id: "73CFA6607BE21727"
+					is_ender: false
+					is_team_reward: false
 					item: {
-						components: {
-							"ftbquests:missing_item": "starcatcher:starcatcher_twine"
-						}
 						count: 1
-						id: "ftbquests:missing_item"
+						id: "starcatcher:hook"
 					}
-					type: "item"
+					target_addressee: "Katu Starshine"
+					team_reward_multiplier: 1.0f
+					type: "contactquests:parcel"
 				}
 				{
-					id: "41E56E58C1F1D098"
+					exclude_from_claim_all: true
+					id: "213ABC1A3D3A726D"
+					is_ender: false
+					is_team_reward: false
 					item: {
 						count: 1
-						id: "starcatcher:vanilla_bobber"
+						id: "starcatcher:bobber"
 					}
-					type: "item"
+					target_addressee: "Katu Starshine"
+					team_reward_multiplier: 1.0f
+					type: "contactquests:parcel"
 				}
 			]
 			shape: "rsquare"
@@ -155,14 +162,14 @@
 			quest_enhance_disable_scroll_paging: false
 			rewards: [{
 				exclude_from_claim_all: true
-				id: "1AF6039DCB8815DD"
+				id: "05809CBF38623D92"
 				is_ender: false
 				is_team_reward: false
 				item: {
 					count: 1
-					id: "starcatcher:stone_hook"
+					id: "starcatcher:vanilla_bobber"
 				}
-				target_addressee: "QuestNPC"
+				target_addressee: "Katu Starshine"
 				team_reward_multiplier: 1.0f
 				type: "contactquests:parcel"
 			}]
@@ -186,7 +193,7 @@
 					is_ender: false
 					is_team_reward: false
 					table_id: 7328857662613080212L
-					target_addressee: "QuestNPC"
+					target_addressee: "Katu Starshine"
 					team_reward_multiplier: 1.0f
 					type: "contactquests:parcel_random"
 				}
@@ -199,7 +206,7 @@
 						count: 1
 						id: "minecraft:gold_block"
 					}
-					target_addressee: "QuestNPC"
+					target_addressee: "Katu Starshine"
 					team_reward_multiplier: 1.0f
 					type: "contactquests:parcel"
 				}
@@ -265,7 +272,7 @@
 					is_ender: false
 					is_team_reward: false
 					table_id: 661030336235288770L
-					target_addressee: "QuestNPC"
+					target_addressee: "Katu Starshine"
 					team_reward_multiplier: 1.0f
 					type: "contactquests:parcel_random"
 				}
@@ -275,7 +282,7 @@
 					is_ender: false
 					is_team_reward: false
 					table_id: 5770973074849872376L
-					target_addressee: "QuestNPC"
+					target_addressee: "Katu Starshine"
 					team_reward_multiplier: 1.0f
 					type: "contactquests:parcel_random"
 				}
@@ -426,6 +433,7 @@
 		{
 			always_invisible: true
 			id: "1F268F57DC20768A"
+			optional: true
 			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "0D354D7988E374CE"
@@ -447,7 +455,7 @@
 				is_ender: false
 				is_team_reward: false
 				table_id: 5770973074849872376L
-				target_addressee: "QuestNPC"
+				target_addressee: "Katu Starshine"
 				team_reward_multiplier: 1.0f
 				type: "contactquests:parcel_random"
 			}]
@@ -470,7 +478,7 @@
 				is_ender: false
 				is_team_reward: false
 				table_id: 5770973074849872376L
-				target_addressee: "QuestNPC"
+				target_addressee: "Katu Starshine"
 				team_reward_multiplier: 1.0f
 				type: "contactquests:parcel_random"
 			}]
@@ -493,7 +501,7 @@
 				is_ender: false
 				is_team_reward: false
 				table_id: 5770973074849872376L
-				target_addressee: "QuestNPC"
+				target_addressee: "Katu Starshine"
 				team_reward_multiplier: 1.0f
 				type: "contactquests:parcel_random"
 			}]
@@ -625,6 +633,29 @@
 			id: "156E91379EC11004"
 			preset: "completion"
 			quest_enhance_disable_scroll_paging: false
+			rewards: [
+				{
+					amount: 2.0d
+					attribute: "minecraft:generic.max_health"
+					exclude_from_claim_all: true
+					icon: {
+						id: "artifacts:crystal_heart"
+					}
+					id: "729A0FACBFE96D2B"
+					operation: "ADD_VALUE"
+					type: "attribute"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "02A6C9DE520E07F3"
+					is_ender: false
+					is_team_reward: false
+					table_id: 5167086515396975209L
+					target_addressee: "Katu Starshine"
+					team_reward_multiplier: 1.0f
+					type: "contactquests:parcel_random"
+				}
+			]
 			tasks: [{
 				id: "780C4B4A14ABF746"
 				item: { count: 1, id: "starcatcher:trophy_of_the_older_angler" }
@@ -643,7 +674,7 @@
 				is_ender: false
 				is_team_reward: false
 				table_id: 5167086515396975209L
-				target_addressee: "QuestNPC"
+				target_addressee: "Katu Starshine"
 				team_reward_multiplier: 1.0f
 				type: "contactquests:parcel_random"
 			}]
@@ -702,7 +733,7 @@
 				is_ender: false
 				is_team_reward: false
 				table_id: 5167086515396975209L
-				target_addressee: "QuestNPC"
+				target_addressee: "Katu Starshine"
 				team_reward_multiplier: 1.0f
 				type: "contactquests:parcel_random"
 			}]
@@ -761,7 +792,7 @@
 				is_ender: false
 				is_team_reward: false
 				table_id: 5167086515396975209L
-				target_addressee: "QuestNPC"
+				target_addressee: "Katu Starshine"
 				team_reward_multiplier: 1.0f
 				type: "contactquests:parcel_random"
 			}]
@@ -840,7 +871,7 @@
 				is_ender: false
 				is_team_reward: false
 				table_id: 5167086515396975209L
-				target_addressee: "QuestNPC"
+				target_addressee: "Katu Starshine"
 				team_reward_multiplier: 1.0f
 				type: "contactquests:parcel_random"
 			}]
@@ -884,7 +915,7 @@
 				is_ender: false
 				is_team_reward: false
 				table_id: 5167086515396975209L
-				target_addressee: "QuestNPC"
+				target_addressee: "Katu Starshine"
 				team_reward_multiplier: 1.0f
 				type: "contactquests:parcel_random"
 			}]
@@ -933,7 +964,7 @@
 				is_ender: false
 				is_team_reward: false
 				table_id: 5167086515396975209L
-				target_addressee: "QuestNPC"
+				target_addressee: "Katu Starshine"
 				team_reward_multiplier: 1.0f
 				type: "contactquests:parcel_random"
 			}]
@@ -982,7 +1013,7 @@
 				is_ender: false
 				is_team_reward: false
 				table_id: 5167086515396975209L
-				target_addressee: "QuestNPC"
+				target_addressee: "Katu Starshine"
 				team_reward_multiplier: 1.0f
 				type: "contactquests:parcel_random"
 			}]
@@ -1046,7 +1077,7 @@
 				is_ender: false
 				is_team_reward: false
 				table_id: 5167086515396975209L
-				target_addressee: "QuestNPC"
+				target_addressee: "Katu Starshine"
 				team_reward_multiplier: 1.0f
 				type: "contactquests:parcel_random"
 			}]
@@ -1100,7 +1131,7 @@
 				is_ender: false
 				is_team_reward: false
 				table_id: 5167086515396975209L
-				target_addressee: "QuestNPC"
+				target_addressee: "Katu Starshine"
 				team_reward_multiplier: 1.0f
 				type: "contactquests:parcel_random"
 			}]
@@ -1149,7 +1180,7 @@
 				is_ender: false
 				is_team_reward: false
 				table_id: 5167086515396975209L
-				target_addressee: "QuestNPC"
+				target_addressee: "Katu Starshine"
 				team_reward_multiplier: 1.0f
 				type: "contactquests:parcel_random"
 			}]
@@ -1213,7 +1244,7 @@
 				is_ender: false
 				is_team_reward: false
 				table_id: 5167086515396975209L
-				target_addressee: "QuestNPC"
+				target_addressee: "Katu Starshine"
 				team_reward_multiplier: 1.0f
 				type: "contactquests:parcel_random"
 			}]
@@ -1277,7 +1308,7 @@
 				is_ender: false
 				is_team_reward: false
 				table_id: 5167086515396975209L
-				target_addressee: "QuestNPC"
+				target_addressee: "Katu Starshine"
 				team_reward_multiplier: 1.0f
 				type: "contactquests:parcel_random"
 			}]
@@ -1331,7 +1362,7 @@
 				is_ender: false
 				is_team_reward: false
 				table_id: 5167086515396975209L
-				target_addressee: "QuestNPC"
+				target_addressee: "Katu Starshine"
 				team_reward_multiplier: 1.0f
 				type: "contactquests:parcel_random"
 			}]
@@ -1390,7 +1421,7 @@
 				is_ender: false
 				is_team_reward: false
 				table_id: 7328857662613080212L
-				target_addressee: "QuestNPC"
+				target_addressee: "Katu Starshine"
 				team_reward_multiplier: 1.0f
 				type: "contactquests:parcel_random"
 			}]
@@ -1429,7 +1460,7 @@
 				is_ender: false
 				is_team_reward: false
 				table_id: 5167086515396975209L
-				target_addressee: "QuestNPC"
+				target_addressee: "Katu Starshine"
 				team_reward_multiplier: 1.0f
 				type: "contactquests:parcel_random"
 			}]

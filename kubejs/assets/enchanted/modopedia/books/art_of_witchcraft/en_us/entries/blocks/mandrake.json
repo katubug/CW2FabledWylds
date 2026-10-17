@@ -1,0 +1,31 @@
+{
+  "assigned_items": [
+    "hexalia:mandrake",
+    "hexalia:mandrake_seeds"
+  ],
+  "icon": {
+    "count": 1,
+    "id": "hexalia:mandrake"
+  },
+  "pages": [
+    {
+      "components": [
+        {
+          "header": "Mandrakes",
+          "template": "modopedia:page/headered_text",
+          "text": "Mandrakes are a group of perennial herbaceous plants with long, parsnip shaped roots.\n\nIf agitated, mandrakes will scream causing injury or even death. Pulling up a ripe mandrake is sure to wake it, so wear $(b)$(el:items/earmuffs)earmuffs$(/el)$(/b) to protect yourself."
+        }
+      ]
+    },
+    {
+      "components": [
+        {
+          "block": "hexalia:mandrake_crop[age=3]",
+          "template": "modopedia:page/block",
+          "text": "$(b)Procurement:$(/b)\nFound growing wild among flowers. Seeds are also dropped by tall and short grass"
+        }
+      ]
+    }
+  ],
+  "title": "Mandrakes"
+}

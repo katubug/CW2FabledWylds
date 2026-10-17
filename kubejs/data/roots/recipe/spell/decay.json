@@ -1,0 +1,25 @@
+{
+  "type": "hexerei:pestle_and_mortar",
+  "ingredients": [
+    {
+      "tag": "roots:rotten_flesh"
+    },
+    {
+      "tag": "c:bones"
+    },
+    {
+      "tag": "minecraft:coals"
+    },
+    {
+      "item": "minecraft:armadillo_scute"
+    },
+    {
+      "tag": "roots:crops/bafflecap"
+    }
+  ],
+  "output": {
+    "id": "roots:decay",
+    "count": 1
+  },
+  "grindingTime": 450
+}

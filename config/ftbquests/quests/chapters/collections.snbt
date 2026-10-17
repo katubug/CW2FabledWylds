@@ -154,14 +154,16 @@
 			quest_enhance_disable_scroll_paging: false
 			rewards: [
 				{
-					id: "4F13530A54DDB6CB"
-					type: "choice"
-				}
-				{
 					exclude_from_claim_all: true
 					id: "46DF311B5226DE81"
 					table_id: 5167086515396975209L
 					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "05E1EE4EBEB656BE"
+					table_id: 987967038148964353L
+					type: "choice"
 				}
 			]
 			shape: "hexagon"
@@ -358,10 +360,6 @@
 			preset: "item"
 			quest_enhance_disable_scroll_paging: false
 			rewards: [
-				{
-					id: "157334951D384948"
-					type: "choice"
-				}
 				{
 					exclude_from_claim_all: true
 					id: "6B64AD45AF355360"
@@ -565,10 +563,6 @@
 			quest_enhance_disable_scroll_paging: false
 			rewards: [
 				{
-					id: "7DA76ECFC213F2E1"
-					type: "choice"
-				}
-				{
 					exclude_from_claim_all: true
 					id: "4FF4BB30501FCB3D"
 					table_id: 987967038148964353L
@@ -677,10 +671,6 @@
 			preset: "item"
 			quest_enhance_disable_scroll_paging: false
 			rewards: [
-				{
-					id: "74684E8AE902E936"
-					type: "choice"
-				}
 				{
 					exclude_from_claim_all: true
 					id: "699D75572A615EA1"
@@ -795,10 +785,6 @@
 			preset: "item"
 			quest_enhance_disable_scroll_paging: false
 			rewards: [
-				{
-					id: "181F0311EA162994"
-					type: "choice"
-				}
 				{
 					exclude_from_claim_all: true
 					id: "406DB8401AF9656E"
@@ -1166,19 +1152,13 @@
 				"692725454B955B4C"
 			]
 			hide_dependency_lines: true
+			hide_dependent_lines: true
+			hide_details_until_startable: true
+			hide_until_deps_complete: true
 			id: "2DDA757CE80078C3"
-			invisible: true
 			progression_mode: "linear"
 			quest_enhance_disable_scroll_paging: false
 			rewards: [
-				{
-					id: "6D05B3B2A8A464A0"
-					item: {
-						count: 1
-						id: "minecraft:player_head"
-					}
-					type: "item"
-				}
 				{
 					exclude_from_claim_all: true
 					id: "4177C6F44B86C87A"
@@ -1237,6 +1217,7 @@
 		{
 			id: "3ADA19F1E7F84DD6"
 			invisible: true
+			optional: true
 			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "338162A77BEB9EA3"
@@ -1250,6 +1231,31 @@
 			id: "7DB8FFF48188EC9C"
 			preset: "item"
 			quest_enhance_disable_scroll_paging: false
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "0A368CEF4219285D"
+					is_ender: false
+					is_team_reward: false
+					table_id: 7328857662613080212L
+					target_addressee: "Katu Starshine"
+					team_reward_multiplier: 1.0f
+					type: "contactquests:parcel_random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "61AD8C9010A23F43"
+					is_ender: false
+					is_team_reward: false
+					item: {
+						count: 1
+						id: "minecraft:cake"
+					}
+					target_addressee: "Katu Starshine"
+					team_reward_multiplier: 1.0f
+					type: "contactquests:parcel"
+				}
+			]
 			shape: "hexagon"
 			tasks: [
 				{
@@ -1553,11 +1559,6 @@
 					type: "item"
 				}
 				{
-					id: "4FD19DDDDA41F95A"
-					item: { count: 1, id: "betterarcheology:music_disc_swings" }
-					type: "item"
-				}
-				{
 					id: "0BBC01BBC6142983"
 					item: { count: 1, id: "twilightforest:music_disc_superstitious" }
 					type: "item"
@@ -1590,11 +1591,6 @@
 				{
 					id: "65D3E6FEF833D708"
 					item: { count: 1, id: "twilightforest:music_disc_radiance" }
-					type: "item"
-				}
-				{
-					id: "3121D0ECF45D1FB6"
-					item: { count: 1, id: "betterarcheology:music_disc_swings" }
 					type: "item"
 				}
 				{

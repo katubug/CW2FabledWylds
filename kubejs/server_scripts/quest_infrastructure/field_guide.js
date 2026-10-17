@@ -27,42 +27,40 @@ TASKS_LIST.forEach(task => {
   })
 })
 
-ItemEvents.firstRightClicked('minecraft:stick', event => {
-  const { player } = event
-  completeTask(player, TASKS.plants_5)
+
+const PLANT_MILESTONES = [
+  [5, TASKS.plants_5],
+  [10, TASKS.plants_10],
+  [50, TASKS.plants_50],
+  [100, TASKS.plants_100],
+]
+
+const CATEGORY_TASKS = {
+  'fieldguide:animals': TASKS.all_animals,
+  'fieldguide:bosses': TASKS.all_bosses,
+  'fieldguide:monsters': TASKS.all_monsters,
+  'fieldguide:plants': TASKS.all_plants,
+}
+
+// >= not ==, so a count passed while the quest was still locked gets picked up later
+function checkPlants(player) {
+  let plants = FieldGuide.getUnlockedCountForCategory(player, 'fieldguide:plants')
+  PLANT_MILESTONES.forEach(m => {
+    if (plants >= m[0]) completeTask(player, m[1])
+  })
+}
+
+FieldGuideEvents.entryUnlocked(event => {
+  checkPlants(event.player)
 })
 
-
-FieldGuideEvents.entryUnlocked(event =>{
-    const { player } = event
-    var plants = FieldGuide.getUnlockedCountForCategory(event.player, 'fieldguide:plants')
-    
-switch (plants) {
-        case 5:
-            if (!event.player.stages.has('5plants')) {
-                completeTask(player, TASKS.plants_5)
-                event.player.stages.add('5plants')
-            }
-            break
-        case 10:
-            if (!event.player.stages.has('10plants')) {
-                completeTask(player, TASKS.plants_10)
-                event.player.stages.add('10plants')
-            }
-            break
-        case 50:
-            if (!event.player.stages.has('50plants')) {
-                completeTask(player, TASKS.plants_50)
-                event.player.stages.add('50plants')
-            }
-            break
-        case 100:
-            if (!event.player.stages.has('100plants')) {
-                completeTask(player, TASKS.plants_100)
-                event.player.stages.add('100plants')
-            }
-            break
-    }
+// catch up anything missed (locked quest, team swap etc)
+PlayerEvents.loggedIn(event => {
+  let player = event.player
+  checkPlants(player)
+  Object.keys(CATEGORY_TASKS).forEach(cat => {
+    if (FieldGuide.isCategoryCompleted(player, cat)) completeTask(player, CATEGORY_TASKS[cat])
+  })
 })
 
 

@@ -19,11 +19,10 @@ ItemEvents.entityInteracted('supplementaries:cage', event => {
 ServerEvents.tags('entity_type', event => {
 
 	event.add('fabled_wylds:cage_banned',
-		'enigmaticgraves:grave',
 		'lootr:lootr_minecart',
 		'minecraft:item_frame',
 		'minecraft:glow_item_frame',
-		'quark:glass_item_frame',
+		'quark:glass_frame',
 		'quark:dyed_item_frame',
 		'xercapaint:canvas',
 		'milotrader:cat_trader',

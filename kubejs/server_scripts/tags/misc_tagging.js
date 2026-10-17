@@ -1,5 +1,21 @@
 ServerEvents.tags('item', event => {
 
+	//all shears in both tags, snow golem quest uses the plural one
+	event.add('c:tools/shears',
+		'minecraft:shears',
+		'betternether:cincinnasite_shears',
+		'reliquary:shears_of_winter',
+		'roots:runic_shears',
+		'roots:wooden_shears'
+	)
+	event.add('c:tools/shear',
+		'minecraft:shears',
+		'betternether:cincinnasite_shears',
+		'reliquary:shears_of_winter',
+		'roots:runic_shears',
+		'roots:wooden_shears'
+	)
+
 	//acorns to tags
 	event.add('fabled_wylds:acorns',
 		'adorablehamsterpets:acorn',
@@ -26,9 +42,7 @@ ServerEvents.tags('item', event => {
 
 	// Golden Things for Tarot
 	event.add('tarotcards:golden',
-		'menethersdelight:golden_machete',
-		'farmersdelight:golden_knife',
-		'tide:golden_fishing_rod'
+		'farmersdelight:golden_knife'
 	)
 
 
@@ -41,13 +55,10 @@ ServerEvents.tags('item', event => {
 		'the_bumblezone:music_disc_honey_bee_rat_faced_boy',
 		'the_bumblezone:music_disc_flight_of_the_bumblebee_rimsky_korsakov',
 		'spawn:music_disc_rot',
-		'create_connected:music_disc_interlude',
-		'create_connected:music_disc_elevator',
 		'quark:music_disc_endermosh',
 		'the_bumblezone:music_disc_a_last_first_last',
 		'the_bumblezone:music_disc_life_renren',
-		'the_bumblezone:music_disc_radiance_renren',
-		'species:music_disc_dial'
+		'the_bumblezone:music_disc_radiance_renren'
 	)
 
 	//Spider Silk is String
@@ -58,8 +69,6 @@ ServerEvents.tags('item', event => {
 	//Candles!
 	event.add('minecraft:candles',
 		'hexerei:candle',
-		'fantasyfurniture:decorations/venthyr_candles',
-		'fantasyfurniture:decorations/bone_candles',
 		'supplementaries:candle_holder',
 		'supplementaries:candle_holder_white',
 		'supplementaries:candle_holder_green',
@@ -79,33 +88,7 @@ ServerEvents.tags('item', event => {
 		'supplementaries:candle_holder_pink'
 	)
 
-	//Stoves which can cook
-	event.add('forge:cooking_ovens',
-		'candlelight:basalt_stove', 
-		'candlelight:cobblestone_stove', 
-		'candlelight:stone_bricks_stove', 
-		'candlelight:deepslate_stove', 
-		'candlelight:granite_stove', 
-		'candlelight:end_stove', 
-		'candlelight:mud_stove', 
-		'candlelight:quartz_stove', 
-		'candlelight:red_nether_bricks_stove', 
-		'candlelight:basalt_stove', 
-		'candlelight:bamboo_stove', 
-		'farm_and_charm:stove', 
-		'candlelight:sandstone_stove'
-	)
 
-	//Valid Currencies
-	event.add('taverntokens:valid_currency',
-		'numismatics:crown', 
-		'numismatics:sun', 
-		'minecraft:emerald', 
-		'numismatics:spur', 
-		'numismatics:bevel', 
-		'numismatics:sprocket', 
-		'numismatics:cog'
-	)
 
 	//Salts
 	event.add('c:salts',

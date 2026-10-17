@@ -1,5 +1,7 @@
 #Show the developer manual in the book selector (disable for player modpacks)
 show_dev_manual = true
+#Force a specific theme and disable theme switching. Leave empty to allow switching.
+locked_theme = ""
 
 #Mob sound settings for the guide book
 [sounds]

@@ -254,7 +254,7 @@ ServerEvents.recipes(event => {
 		], {
 			A: 'bakery:sweet_dough',
 			B: 'twilightforest:torchberries',
-			C: '#fabled_wylds:sweetener'
+			C: '#fabled_wylds:sweeteners'
 		}
 	)
 	//Peanut Butter Cookie
@@ -266,7 +266,7 @@ ServerEvents.recipes(event => {
 		], {
 			A: 'bakery:sweet_dough',
 			B: 'hearthandharvest:peanut_butter',
-			C: '#fabled_wylds:sweetener'
+			C: '#fabled_wylds:sweeteners'
 		}
 	)
 	//Sweet Berry Cookie
@@ -278,7 +278,7 @@ ServerEvents.recipes(event => {
 		], {
 			A: 'bakery:cake_dough',
 			B: 'minecraft:sweet_berries',
-			C: '#fabled_wylds:sweetener'
+			C: '#fabled_wylds:sweeteners'
 		}
 	)
 

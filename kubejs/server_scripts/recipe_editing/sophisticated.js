@@ -14,6 +14,8 @@ ServerEvents.recipes(event => {
 		}
 	)
 
+	// ours replaces the stock one
+	event.remove({ id: 'sophisticatedbackpacks:feeding_upgrade' })
 	event.shaped(
 		Item.of('sophisticatedbackpacks:feeding_upgrade'),
 		[
@@ -24,7 +26,7 @@ ServerEvents.recipes(event => {
 			A: 'minecraft:golden_carrot',
 			B: 'minecraft:enchanted_golden_apple',
 			C: 'supplementaries:lunch_basket',
-			D: '#forge:ender_pearls',
+			D: '#c:ender_pearls',
 			E: 'minecraft:glistering_melon_slice'
 		}
 	)

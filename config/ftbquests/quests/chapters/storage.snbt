@@ -363,6 +363,7 @@
 		{
 			id: "1836D76FCA8240F3"
 			invisible: true
+			optional: true
 			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "3A3487FA6C3ED784"
@@ -411,7 +412,7 @@
 						count: 1
 						id: "sophisticatedstorage:basic_to_iron_tier_upgrade"
 					}
-					target_addressee: "QuestNPC"
+					target_addressee: "Katu Starshine"
 					team_reward_multiplier: 1.0f
 					type: "contactquests:parcel"
 				}
@@ -466,7 +467,7 @@
 					count: 1
 					id: "minecraft:experience_bottle"
 				}
-				target_addressee: "QuestNPC"
+				target_addressee: "Katu Starshine"
 				team_reward_multiplier: 1.0f
 				type: "contactquests:parcel"
 			}]
@@ -498,7 +499,7 @@
 						count: 1
 						id: "sophisticatedstorage:gold_to_diamond_tier_upgrade"
 					}
-					target_addressee: "QuestNPC"
+					target_addressee: "Katu Starshine"
 					team_reward_multiplier: 1.0f
 					type: "contactquests:parcel"
 				}
@@ -532,7 +533,7 @@
 						count: 1
 						id: "sophisticatedstorage:void_upgrade"
 					}
-					target_addressee: "QuestNPC"
+					target_addressee: "Katu Starshine"
 					team_reward_multiplier: 1.0f
 					type: "contactquests:parcel"
 				}
@@ -611,6 +612,20 @@
 			id: "04E69B80121E8192"
 			preset: "item"
 			quest_enhance_disable_scroll_paging: false
+			rewards: [{
+				count: 3
+				exclude_from_claim_all: true
+				id: "6A0A270F42839978"
+				is_ender: false
+				is_team_reward: false
+				item: {
+					count: 1
+					id: "sophisticatedstorage:storage_link"
+				}
+				target_addressee: "Katu Starshine"
+				team_reward_multiplier: 1.0f
+				type: "contactquests:parcel"
+			}]
 			shape: "hexagon"
 			tasks: [
 				{
@@ -632,6 +647,16 @@
 			id: "0A60EB3B10E89FE2"
 			preset: "item"
 			quest_enhance_disable_scroll_paging: false
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4AC7961B069DC004"
+				is_ender: false
+				is_team_reward: false
+				table_id: 5770973074849872376L
+				target_addressee: "Katu Starshine"
+				team_reward_multiplier: 1.0f
+				type: "contactquests:parcel_random"
+			}]
 			shape: "hexagon"
 			tasks: [{
 				id: "350D291765AE698A"
@@ -652,7 +677,7 @@
 				is_ender: false
 				is_team_reward: false
 				table_id: 5770973074849872376L
-				target_addressee: "QuestNPC"
+				target_addressee: "Katu Starshine"
 				team_reward_multiplier: 1.0f
 				type: "contactquests:parcel_random"
 			}]
@@ -721,8 +746,16 @@
 			quest_enhance_disable_scroll_paging: false
 			rewards: [{
 				exclude_from_claim_all: true
-				id: "6EF761B35FB6F797"
-				type: "choice"
+				id: "18B7E1DCF690568B"
+				is_ender: false
+				is_team_reward: false
+				item: {
+					count: 1
+					id: "minecraft:iron_block"
+				}
+				target_addressee: "Katu Starshine"
+				team_reward_multiplier: 1.0f
+				type: "contactquests:parcel"
 			}]
 			tasks: [{
 				id: "6C4F2E509C33E18E"

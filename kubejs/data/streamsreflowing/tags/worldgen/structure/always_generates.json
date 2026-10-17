@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    {"id": "#minecraft:village", "required": false},
+    {"id": "ribbits:ribbit_village", "required": false},
+    {"id": "lios_outlandish_villages:spiral_tower_village", "required": false},
+    {"id": "lios_outlandish_villages:spiral_tower_village_sea", "required": false},
+    {"id": "trek:overworld/medium/igloo_village", "required": false}
+  ]
+}
