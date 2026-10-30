@@ -36,10 +36,30 @@
 	quest_links: [ ]
 	quests: [
 		{
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "47A3914CBE99E42D"
 			preset: "start"
 			quest_enhance_disable_scroll_paging: false
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "60539EB1975FB837"
 				type: "checkmark"
 			}]
@@ -48,6 +68,15 @@
 		}
 		{
 			dependencies: ["37F503706CE1D7D6"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			hide_dependency_lines: true
 			hide_dependent_lines: true
 			id: "12FEBAA96A443199"
@@ -67,6 +96,17 @@
 				type: "contactquests:parcel"
 			}]
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "555C5CE64AB9754A"
 				type: "checkmark"
 			}]
@@ -75,6 +115,15 @@
 		}
 		{
 			dependencies: ["305A3D4D3A205E4A"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			hide_dependency_lines: true
 			hide_dependent_lines: true
 			id: "37BD9102ACD4B8F1"
@@ -93,6 +142,17 @@
 				type: "contactquests:parcel"
 			}]
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "16BC6AB9EBCC7B05"
 				type: "checkmark"
 			}]
@@ -101,6 +161,15 @@
 		}
 		{
 			dependencies: ["4DB925317B421272"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			hide_dependency_lines: true
 			hide_dependent_lines: true
 			id: "38DD348249319143"
@@ -119,6 +188,17 @@
 				type: "contactquests:parcel"
 			}]
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "41526D10781321D7"
 				type: "checkmark"
 			}]
@@ -127,6 +207,15 @@
 		}
 		{
 			dependencies: ["7F553DB3A577011E"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			hide_dependency_lines: true
 			hide_dependent_lines: true
 			id: "15EE845180912929"
@@ -145,6 +234,17 @@
 				type: "contactquests:parcel"
 			}]
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "1EDEB9C2CAD1AEF6"
 				type: "checkmark"
 			}]
@@ -153,6 +253,15 @@
 		}
 		{
 			dependencies: ["1E6C7DB3D27545CE"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			hide_dependency_lines: true
 			hide_dependent_lines: true
 			id: "70AD5009FFF90827"
@@ -171,6 +280,17 @@
 				type: "contactquests:parcel"
 			}]
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "68E66B63ECD84769"
 				type: "checkmark"
 			}]
@@ -179,6 +299,15 @@
 		}
 		{
 			dependencies: ["23CEC5718927D582"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			hide_dependency_lines: true
 			hide_dependent_lines: true
 			id: "64A320AB1B9E18CC"
@@ -197,6 +326,17 @@
 				type: "contactquests:parcel"
 			}]
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "6BBAADAD59610B56"
 				type: "checkmark"
 			}]
@@ -205,6 +345,15 @@
 		}
 		{
 			dependencies: ["5CD8650A590340E5"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			hide_dependency_lines: true
 			hide_dependent_lines: true
 			id: "7A44191DEEF62AA7"
@@ -223,6 +372,17 @@
 				type: "contactquests:parcel"
 			}]
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "53773968F8C7ABD5"
 				type: "checkmark"
 			}]
@@ -231,6 +391,15 @@
 		}
 		{
 			dependencies: ["33D0BE0C8570F275"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			hide_dependency_lines: true
 			hide_dependent_lines: true
 			id: "1A71F79049845E78"
@@ -249,6 +418,17 @@
 				type: "contactquests:parcel"
 			}]
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "53254B767AE641D6"
 				type: "checkmark"
 			}]

@@ -32,7 +32,8 @@
       "from mod copycats because",
       "CompostManager",
       "Could not apply pet overlays layer",
-      "Skipping invalid icon form"
+      "Skipping invalid icon form",
+      "resolved to unknown item"
     ],
     "regex": [
       "Disconnecting VANILLA connection attempt",

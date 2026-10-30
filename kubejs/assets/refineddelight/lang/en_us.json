@@ -1,0 +1,22 @@
+{
+  "block.refineddelight.wireless_cooking_pot": "Resonating Cooking Pot",
+  "tooltip.refineddelight.bound": "Bound to your storage system",
+  "tooltip.refineddelight.unbound": "Not bound to a system",
+  "config.jade.plugin_refineddelight.wireless_cooking_pot": "Resonating Cooking Pot",
+
+  "jei.refineddelight.wireless_cooking_pot.1": "A Farmer's Delight cooking pot that pulls its ingredients from your storage system. It still needs a heat source beneath it to cook.",
+  "jei.refineddelight.wireless_cooking_pot.2": "Bind it with sneak + right-click on any block of your system. A Resonating Beacon has to be in range for the pot to connect. Pick a recipe from the panel and the pot pulls everything it needs, from your inventory first and then the system.",
+  "jei.refineddelight.wireless_cooking_pot.3": "Meals stay in the pot until you give it serving containers, by hand or with the request button. Like the rest of your system, it needs no power.",
+
+  "book.refineddelight.guide.landing": "Farmer's Delight cooking, wired into your Magitech storage system. $(br2)Everything the regular cooking pot does, plus ingredients on tap from storage.",
+  "category.refineddelight.main.description": "The Resonating Cooking Pot: binding, cooking and serving.",
+  "entry.refineddelight.wireless_cooking_pot.name": "Resonating Cooking Pot",
+  "entry.refineddelight.wireless_cooking_pot.intro": "The $(item)Resonating Cooking Pot$() is a Farmer's Delight cooking pot that can reach into your storage system for its ingredients.$(br2)It is still a cooking pot: it needs a $(thing)heat source$() beneath it, and it cooks the same recipes at the same speed.",
+  "entry.refineddelight.wireless_cooking_pot.craft": "Crafted from a Cooking Pot, Illuminite, Ender Pearls and a Divine Runic Processor.",
+  "entry.refineddelight.wireless_cooking_pot.link": "Hold the pot and $(thing)sneak + right-click$() any block of your system, like a cable or a Glyphic Repository. That only tells the pot $(o)which system$() to use, so pick something that will stay put.$(br2)You must sneak: a plain right-click opens that block's own screen instead.$(br2)To actually connect, your system needs a $(thing)Resonating Beacon$() whose range covers the pot. Fit the Beacon with $(thing)Range Upgrades$() and the pot reaches exactly as far as your Resonating Console does.",
+  "entry.refineddelight.wireless_cooking_pot.cooking": "Load ingredients by hand and it behaves exactly like the regular pot.$(br2)Or open the $(thing)recipe panel$() and click a recipe: the pot pulls a single serving. $(thing)Shift-click$() pulls as many as it can hold at once.$(br2)Ingredients come from $(o)your inventory first$(), then the system.",
+  "entry.refineddelight.wireless_cooking_pot.serving": "Cooked meals collect inside the pot, up to $(thing)64$() no matter how small the meal's own stack size.$(br2)They only come out when the recipe's $(thing)serving container$() is provided: place bowls or bottles in the container slot, or press the $(thing)request$() button to pull them from the system.$(br2)Break the pot and any waiting meal travels inside it.",
+  "entry.refineddelight.wireless_cooking_pot.battery.title": "Power",
+  "entry.refineddelight.wireless_cooking_pot.battery": "Just like the rest of your system, the pot needs $(o)no power at all$(). The battery gauge on its screen is only for show and always reads full.$(br2)The binding and any waiting meal both survive breaking and replacing the pot.",
+  "tooltip.refineddelight.stored_energy": "No power needed"
+}

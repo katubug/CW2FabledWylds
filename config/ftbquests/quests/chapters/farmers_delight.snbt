@@ -86,6 +86,15 @@
 	quest_links: [ ]
 	quests: [
 		{
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "4930ECD60EA9ED8D"
 			preset: "start"
 			quest_enhance_disable_scroll_paging: false
@@ -106,6 +115,17 @@
 			shape: "rsquare"
 			size: 2.0d
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "38AE1B4A97072062"
 				item: { components: { "ftbfiltersystem:filter": "or(item_tag(c:seeds)item_tag(neoforge:seeds))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
@@ -115,6 +135,15 @@
 		}
 		{
 			dependencies: ["4930ECD60EA9ED8D"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "435BD760D0F2E010"
 			preset: "item"
 			quest_enhance_disable_scroll_paging: false
@@ -138,6 +167,17 @@
 			]
 			shape: "hexagon"
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "67A332A524039E38"
 				item: { components: { "ftbfiltersystem:filter": "or(item(farmersdelight:brown_mushroom_colony)item(farmersdelight:red_mushroom_colony))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
@@ -146,6 +186,15 @@
 			y: 4.0d
 		}
 		{
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "3AE0F1C1159FBDDE"
 			preset: "item"
 			quest_enhance_disable_scroll_paging: false
@@ -159,6 +208,17 @@
 			}]
 			shape: "hexagon"
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "55C6E492715281CF"
 				item: { count: 1, id: "farmersdelight:straw" }
 				type: "item"
@@ -168,6 +228,15 @@
 		}
 		{
 			dependencies: ["3AE0F1C1159FBDDE"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "548376041885F6D1"
 			preset: "item"
 			quest_enhance_disable_scroll_paging: false
@@ -183,6 +252,17 @@
 			}]
 			shape: "hexagon"
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "7B4B34EE649076A3"
 				item: { count: 1, id: "farmersdelight:canvas" }
 				type: "item"
@@ -192,6 +272,15 @@
 		}
 		{
 			dependencies: ["3AE0F1C1159FBDDE"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "141887F26E89BAE8"
 			preset: "item"
 			quest_enhance_disable_scroll_paging: false
@@ -211,6 +300,17 @@
 			}]
 			shape: "hexagon"
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "45328BF090DF76BC"
 				item: { count: 1, id: "farmersdelight:rope" }
 				type: "item"
@@ -219,6 +319,15 @@
 			y: 7.6d
 		}
 		{
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "0545DF70043D964A"
 			preset: "item"
 			quest_enhance_disable_scroll_paging: false
@@ -235,41 +344,129 @@
 			shape: "hexagon"
 			tasks: [
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "0B3D4A89F7573E0A"
 					item: { count: 1, id: "farmersdelight:rice_bag" }
 					type: "item"
 				}
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "0D4B4D9B040FC426"
 					item: { count: 1, id: "farmersdelight:onion_crate" }
 					type: "item"
 				}
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "264A58E9818E845A"
 					item: { count: 1, id: "farmersdelight:tomato_crate" }
 					type: "item"
 				}
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "3B1250578AA7B5FA"
 					item: { count: 1, id: "farmersdelight:cabbage_crate" }
 					type: "item"
 				}
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "3B35640DCCB3391D"
 					item: { count: 1, id: "farmersdelight:beetroot_crate" }
 					type: "item"
 				}
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "3B0EA9557B457B15"
 					item: { count: 1, id: "farmersdelight:potato_crate" }
 					type: "item"
 				}
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "00992514D9743E5A"
 					item: { count: 1, id: "farmersdelight:carrot_crate" }
 					type: "item"
 				}
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "3C7A0BF196038280"
 					item: { count: 1, id: "hearthandharvest:corn_crate" }
 					type: "item"
@@ -280,6 +477,15 @@
 		}
 		{
 			dependencies: ["4930ECD60EA9ED8D"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "2CA80140F624D0AE"
 			preset: "progression"
 			quest_enhance_disable_scroll_paging: false
@@ -304,31 +510,97 @@
 			shape: "hexagon"
 			tasks: [
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "7E1608CE39644619"
 					item: { count: 1, id: "farmersdelight:tomato" }
 					type: "item"
 				}
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "66FBA732EB969822"
 					item: { count: 1, id: "farmersdelight:onion" }
 					type: "item"
 				}
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "61BC6271FA074A75"
 					item: { count: 1, id: "farmersdelight:rice_panicle" }
 					type: "item"
 				}
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "6423E31169FF965C"
 					item: { count: 1, id: "farmersdelight:cabbage" }
 					type: "item"
 				}
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "4F9D7325DBD23437"
 					item: { count: 1, id: "farm_and_charm:lettuce" }
 					type: "item"
 				}
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "3A9BBF004833B2BF"
 					item: { count: 1, id: "hearthandharvest:corn" }
 					type: "item"
@@ -338,6 +610,15 @@
 			y: 3.0d
 		}
 		{
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "3D221ECD9106F792"
 			preset: "item"
 			quest_enhance_disable_scroll_paging: false
@@ -357,6 +638,17 @@
 			}]
 			shape: "hexagon"
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "1CF70C35261561CF"
 				item: { count: 1, id: "supplementaries:planter" }
 				type: "item"
@@ -365,6 +657,15 @@
 			y: 6.5d
 		}
 		{
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "2186A6F69ADBE795"
 			preset: "advancement"
 			quest_enhance_disable_scroll_paging: false
@@ -393,6 +694,17 @@
 			tasks: [{
 				advancement: "minecraft:husbandry/obtain_netherite_hoe"
 				criterion: ""
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "689FF833D614619E"
 				type: "advancement"
 			}]
@@ -401,6 +713,15 @@
 		}
 		{
 			can_repeat: true
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "6630D27FC9E3F285"
 			preset: "turnin"
 			quest_enhance_disable_scroll_paging: false
@@ -430,6 +751,17 @@
 				{
 					consume_items: true
 					count: 10L
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "421CB73C1AE799A5"
 					item: { count: 1, id: "farmersdelight:onion_crate" }
 					type: "item"
@@ -437,6 +769,17 @@
 				{
 					consume_items: true
 					count: 10L
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "55035A2527029547"
 					item: { count: 1, id: "farmersdelight:carrot_crate" }
 					type: "item"
@@ -444,6 +787,17 @@
 				{
 					consume_items: true
 					count: 10L
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "01215F6EE4B457A4"
 					item: { count: 1, id: "farmersdelight:potato_crate" }
 					type: "item"
@@ -451,6 +805,17 @@
 				{
 					consume_items: true
 					count: 10L
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "5CE060E19611C1DE"
 					item: { count: 1, id: "farmersdelight:cabbage_crate" }
 					type: "item"
@@ -458,24 +823,68 @@
 				{
 					consume_items: true
 					count: 10L
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "241C1EBB473D9D1B"
 					item: { count: 1, id: "farmersdelight:tomato_crate" }
 					type: "item"
 				}
 				{
 					count: 10L
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "28597237443B3B16"
 					item: { count: 1, id: "farmersdelight:rice_bag" }
 					type: "item"
 				}
 				{
 					count: 10L
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "1B06156C4AB3701F"
 					item: { count: 1, id: "farm_and_charm:strawberry_bag" }
 					type: "item"
 				}
 				{
 					count: 10L
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "0A7EF13547AA974E"
 					item: { count: 1, id: "hearthandharvest:corn_crate" }
 					type: "item"
@@ -485,6 +894,15 @@
 			y: 5.5d
 		}
 		{
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "2973338AB622C5D6"
 			preset: "item"
 			quest_enhance_disable_scroll_paging: false
@@ -500,21 +918,65 @@
 			}]
 			tasks: [
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "075F95D4BAE955E3"
 					item: { count: 1, id: "farm_and_charm:strawberry_bag" }
 					type: "item"
 				}
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "4BD1C48CA0328F27"
 					item: { count: 1, id: "quark:berry_sack" }
 					type: "item"
 				}
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "27C75695A4EDFF6D"
 					item: { count: 1, id: "quark:glowberry_sack" }
 					type: "item"
 				}
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "44AC41ACAE4AD335"
 					item: { count: 1, id: "hearthandharvest:corn_kernel_bag" }
 					type: "item"
@@ -524,6 +986,15 @@
 			y: 6.5d
 		}
 		{
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "60445E736AE3B5B4"
 			preset: "item"
 			quest_enhance_disable_scroll_paging: false
@@ -545,6 +1016,17 @@
 				}
 			]
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "50DDD53BA14186F2"
 				item: { count: 1, id: "mynethersdelight:letios_compost" }
 				type: "item"
@@ -553,11 +1035,31 @@
 			y: 8.0d
 		}
 		{
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "7814F0DBA486B635"
 			invisible: true
 			optional: true
 			quest_enhance_disable_scroll_paging: false
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "396A910D8629D953"
 				item: { count: 1, id: "ftbquests:barrier" }
 				type: "item"
@@ -567,6 +1069,15 @@
 		}
 		{
 			dependencies: ["2973338AB622C5D6"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "148F84D7DB06E5D1"
 			preset: "completion"
 			quest_enhance_disable_scroll_paging: false
@@ -585,6 +1096,17 @@
 				}
 			]
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "2E7A316EBC2BA46A"
 				type: "checkmark"
 			}]
@@ -592,6 +1114,15 @@
 			y: 9.0d
 		}
 		{
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "264135E887281098"
 			preset: "item"
 			quest_enhance_disable_scroll_paging: false
@@ -611,6 +1142,17 @@
 			}]
 			shape: "hexagon"
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "7C7F27E7BEBD63C6"
 				item: { count: 1, id: "farmingforblockheads:market" }
 				type: "item"
@@ -620,6 +1162,15 @@
 		}
 		{
 			dependencies: ["4930ECD60EA9ED8D"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "2093240CD42882CF"
 			preset: "progression"
 			quest_enhance_disable_scroll_paging: false
@@ -636,102 +1187,289 @@
 			tasks: [
 				{
 					block_item: { count: 1, id: "hearthandharvest:wild_red_grapes" }
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "7322E142A1A29576"
 					type: "break_block"
 					value: 1L
 				}
 				{
 					block_item: { count: 1, id: "hearthandharvest:wild_green_grapes" }
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "4C295AEBDC55AA44"
 					type: "break_block"
 					value: 1L
 				}
 				{
 					block_item: { count: 1, id: "hearthandharvest:wild_peanuts" }
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "0DE017CE06F6B0D2"
 					type: "break_block"
 					value: 1L
 				}
 				{
 					block_item: { count: 1, id: "farmersdelight:wild_cabbages" }
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "2244A5E60C4D60CC"
 					type: "break_block"
 					value: 1L
 				}
 				{
 					block_item: { count: 1, id: "farmersdelight:wild_onions" }
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "12F5988A702EECA7"
 					type: "break_block"
 					value: 1L
 				}
 				{
 					block_item: { count: 1, id: "farmersdelight:wild_carrots" }
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "0ECD10CC0F8EC456"
 					type: "break_block"
 					value: 1L
 				}
 				{
 					block_item: { count: 1, id: "farmersdelight:wild_potatoes" }
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "65F6811A7FA63CCC"
 					type: "break_block"
 					value: 1L
 				}
 				{
 					block_item: { count: 1, id: "farmersdelight:wild_rice" }
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "5FF8A041ABE1A591"
 					type: "break_block"
 					value: 1L
 				}
 				{
 					block_item: { count: 1, id: "farm_and_charm:wild_emmer" }
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "6786877EA87F929C"
 					type: "break_block"
 					value: 1L
 				}
 				{
 					block_item: { count: 1, id: "farm_and_charm:wild_beetroots" }
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "51120175C7043D83"
 					type: "break_block"
 					value: 1L
 				}
 				{
 					block_item: { count: 1, id: "farm_and_charm:wild_barley" }
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "46CE5319FC2CF31B"
 					type: "break_block"
 					value: 1L
 				}
 				{
 					block_item: { count: 1, id: "farm_and_charm:wild_corn" }
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "4F2FBE539DFDE88D"
 					type: "break_block"
 					value: 1L
 				}
 				{
 					block_item: { count: 1, id: "farm_and_charm:wild_oat" }
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "3FDFA4E6F598EBD6"
 					type: "break_block"
 					value: 1L
 				}
 				{
 					block_item: { count: 1, id: "farm_and_charm:wild_lettuce" }
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "7DA66657A797325B"
 					type: "break_block"
 					value: 1L
 				}
 				{
 					block_item: { count: 1, id: "farmersdelight:wild_tomatoes" }
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "3EA2A91B9185E0EB"
 					type: "break_block"
 					value: 1L
 				}
 				{
 					block_item: { count: 1, id: "adorablehamsterpets:wild_cucumber_bush" }
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "2B2D647BF242880B"
 					type: "break_block"
 					value: 1L
 				}
 				{
 					block_item: { count: 1, id: "adorablehamsterpets:wild_green_bean_bush" }
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "374F0E4575F009B8"
 					type: "break_block"
 					value: 1L
@@ -742,6 +1480,15 @@
 		}
 		{
 			dependencies: ["2093240CD42882CF"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "3D99932B0EAFD2DA"
 			preset: "progression"
 			quest_enhance_disable_scroll_paging: false
@@ -757,11 +1504,33 @@
 			}]
 			tasks: [
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "5CDFB8881FB905FE"
 					item: { count: 1, id: "farm_and_charm:strawberry" }
 					type: "item"
 				}
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "402F3A8BBCF17FE1"
 					item: { count: 1, id: "mysticsbiomes:cherries" }
 					type: "item"
@@ -771,6 +1540,15 @@
 			y: 1.0d
 		}
 		{
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "0C66306B20F7844C"
 			preset: "item"
 			quest_enhance_disable_scroll_paging: false
@@ -786,26 +1564,81 @@
 			}]
 			tasks: [
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "008EB7C7C7153543"
 					item: { count: 1, id: "hearthandharvest:blueberry_crate" }
 					type: "item"
 				}
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "22A3BC858AA2C503"
 					item: { count: 1, id: "quark:berry_sack" }
 					type: "item"
 				}
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "50B8AE6EB9285299"
 					item: { count: 1, id: "quark:glowberry_sack" }
 					type: "item"
 				}
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "4FED5DAE885DC59D"
 					item: { count: 1, id: "hearthandharvest:raspberry_crate" }
 					type: "item"
 				}
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "0B88C50C8425B6E2"
 					item: { count: 1, id: "farm_and_charm:strawberry_bag" }
 					type: "item"
@@ -815,6 +1648,15 @@
 			y: 6.5d
 		}
 		{
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "0496A62983DE2ABB"
 			preset: "item"
 			quest_enhance_disable_scroll_paging: false
@@ -830,31 +1672,97 @@
 			}]
 			tasks: [
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "4B2DFD36AB0FB73D"
 					item: { count: 1, id: "trailandtales_delight:lantern_fruit_crate" }
 					type: "item"
 				}
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "28AE9E9247E1D390"
 					item: { count: 1, id: "trailandtales_delight:pitcher_taro_crate" }
 					type: "item"
 				}
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "4CAA595C8323560F"
 					item: { count: 1, id: "hearthandharvest:golden_apple_crate" }
 					type: "item"
 				}
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "45954191112145C8"
 					item: { count: 1, id: "hearthandharvest:golden_carrot_crate" }
 					type: "item"
 				}
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "0AE446D0E61FB6CA"
 					item: { count: 1, id: "twilightdelight:torchberries_crate" }
 					type: "item"
 				}
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "71F5D2D6F9753BCC"
 					item: { count: 1, id: "quark:nether_wart_sack" }
 					type: "item"
@@ -864,6 +1772,15 @@
 			y: 6.5d
 		}
 		{
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "057C8372ED1CBDC0"
 			preset: "item"
 			quest_enhance_disable_scroll_paging: false
@@ -879,36 +1796,113 @@
 			}]
 			tasks: [
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "74B75D56E3E2E441"
 					item: { count: 1, id: "farmersdelight:tomato_crate" }
 					type: "item"
 				}
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "53FA3116D8141428"
 					item: { count: 1, id: "farmersdelight:onion_crate" }
 					type: "item"
 				}
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "302EAA4D72D5EB8A"
 					item: { count: 1, id: "farmersdelight:potato_crate" }
 					type: "item"
 				}
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "070CC395A26E9B9F"
 					item: { count: 1, id: "farmersdelight:carrot_crate" }
 					type: "item"
 				}
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "5ACD6C27B63B3EE1"
 					item: { count: 1, id: "farmersdelight:cabbage_crate" }
 					type: "item"
 				}
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "326D791099592719"
 					item: { count: 1, id: "farm_and_charm:lettuce_bag" }
 					type: "item"
 				}
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "2E67C1E7DD049DFA"
 					item: { count: 1, id: "farmersdelight:beetroot_crate" }
 					type: "item"
@@ -918,6 +1912,15 @@
 			y: 4.5d
 		}
 		{
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "2A171EE16DA22152"
 			preset: "item"
 			quest_enhance_disable_scroll_paging: false
@@ -933,11 +1936,33 @@
 			}]
 			tasks: [
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "235A587BF876B440"
 					item: { count: 1, id: "hearthandharvest:peanut_crate" }
 					type: "item"
 				}
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "773E3205F3642A8A"
 					item: { count: 1, id: "adorablehamsterpets:acorn_crate" }
 					type: "item"
@@ -947,6 +1972,15 @@
 			y: 5.5d
 		}
 		{
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "3E8BB82A228A4727"
 			preset: "item"
 			quest_enhance_disable_scroll_paging: false
@@ -980,21 +2014,65 @@
 			]
 			tasks: [
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "3E91A693E69007E6"
 					item: { count: 1, id: "hearthandharvest:brown_mushroom_crate" }
 					type: "item"
 				}
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "069F7B4E7342BE02"
 					item: { count: 1, id: "hearthandharvest:crimson_fungus_crate" }
 					type: "item"
 				}
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "560588FB24655C5A"
 					item: { count: 1, id: "hearthandharvest:warped_fungus_crate" }
 					type: "item"
 				}
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "6FA78D76B224FD08"
 					item: { count: 1, id: "hearthandharvest:red_mushroom_crate" }
 					type: "item"
@@ -1004,6 +2082,15 @@
 			y: 4.5d
 		}
 		{
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "134ACEA76F0200AD"
 			preset: "item"
 			quest_enhance_disable_scroll_paging: false
@@ -1019,41 +2106,129 @@
 			}]
 			tasks: [
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "78BF784BF40796CA"
 					item: { count: 1, id: "hearthandharvest:sugar_bag" }
 					type: "item"
 				}
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "4EE059419BE79FEA"
 					item: { count: 1, id: "hearthandharvest:cocoa_bean_bag" }
 					type: "item"
 				}
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "4D071F957ED2A15A"
 					item: { count: 1, id: "farm_and_charm:oat_ball" }
 					type: "item"
 				}
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "0792FCC59A70FD7F"
 					item: { count: 1, id: "farm_and_charm:barley_ball" }
 					type: "item"
 				}
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "18F6D770AC59AFB2"
 					item: { count: 1, id: "farmersdelight:rice_bag" }
 					type: "item"
 				}
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "590E32B5B63C757F"
 					item: { count: 1, id: "hearthandharvest:gunpowder_bag" }
 					type: "item"
 				}
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "7CDC15C9E18312B7"
 					item: { count: 1, id: "herbalbrews:tea_leaf_crate" }
 					type: "item"
 				}
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "1402E5BC8FC6076C"
 					item: { count: 1, id: "hearthandharvest:flour_bag" }
 					type: "item"
@@ -1064,6 +2239,15 @@
 		}
 		{
 			dependencies: ["6857BD808A4B27C8"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "17B0994740977E5A"
 			preset: "item"
 			quest_enhance_disable_scroll_paging: false
@@ -1093,6 +2277,17 @@
 				}
 			]
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "6B04E98837BD690F"
 				item: { count: 1, id: "farm_and_charm:chicken_coop" }
 				type: "item"
@@ -1102,6 +2297,15 @@
 		}
 		{
 			dependencies: ["18B7D6B02C97FF23"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "396C5F4A97427E6C"
 			preset: "progression"
 			quest_enhance_disable_scroll_paging: false
@@ -1116,6 +2320,17 @@
 				type: "contactquests:parcel_random"
 			}]
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "4EFCAF84817FCF62"
 				item: { components: { "hearthandharvest:bonemeal_level": 16, "hearthandharvest:fertilizer_item": "farm_and_charm:fertilizer", "hearthandharvest:water_level": 16 }, count: 1, id: "hearthandharvest:watering_can" }
 				type: "item"
@@ -1125,6 +2340,15 @@
 		}
 		{
 			dependencies: ["2CA80140F624D0AE"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "18B7D6B02C97FF23"
 			preset: "item"
 			quest_enhance_disable_scroll_paging: false
@@ -1140,11 +2364,33 @@
 			}]
 			tasks: [
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "5F022FA809242CF6"
 					item: { count: 1, id: "farm_and_charm:fertilizer" }
 					type: "item"
 				}
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "18469C0C1DD2C8F7"
 					item: { count: 1, id: "hearthandharvest:fertilizer_bag" }
 					type: "item"
@@ -1155,6 +2401,15 @@
 		}
 		{
 			dependencies: ["18B7D6B02C97FF23"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "6A89D2D688203ADF"
 			preset: "milestone"
 			quest_enhance_disable_scroll_paging: false
@@ -1166,11 +2421,33 @@
 			}]
 			tasks: [
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "5917D24F797DD173"
 					item: { count: 1, id: "roots:harvest" }
 					type: "item"
 				}
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "2566810ED0EDC30A"
 					item: { count: 1, id: "roots:growth_infusion" }
 					type: "item"
@@ -1180,6 +2457,15 @@
 			y: 6.75d
 		}
 		{
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "620B4CA9685DD24B"
 			preset: "animal"
 			quest_enhance_disable_scroll_paging: false
@@ -1194,6 +2480,17 @@
 			}]
 			tasks: [{
 				entity: "minecraft:cow"
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "125A47CD60CDF89F"
 				search_radius_blocks: 64
 				target_radius_blocks: 5
@@ -1203,6 +2500,15 @@
 			y: -1.5d
 		}
 		{
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "13245319C62A99BE"
 			preset: "animal"
 			quest_enhance_disable_scroll_paging: false
@@ -1217,6 +2523,17 @@
 			}]
 			tasks: [{
 				entity: "minecraft:pig"
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "577D873021C3F656"
 				search_radius_blocks: 64
 				target_radius_blocks: 5
@@ -1226,6 +2543,15 @@
 			y: -1.5d
 		}
 		{
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "6857BD808A4B27C8"
 			preset: "animal"
 			quest_enhance_disable_scroll_paging: false
@@ -1240,6 +2566,17 @@
 			}]
 			tasks: [{
 				entity: "minecraft:chicken"
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "3430F1B9F3CF955F"
 				search_radius_blocks: 64
 				target_radius_blocks: 5
@@ -1249,6 +2586,15 @@
 			y: -1.5d
 		}
 		{
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "1047D4A39AC597A8"
 			preset: "animal"
 			quest_enhance_disable_scroll_paging: false
@@ -1263,6 +2609,17 @@
 			}]
 			tasks: [{
 				entity: "autumnity:turkey"
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "2E7A4C9312F5A786"
 				search_radius_blocks: 64
 				target_radius_blocks: 5
@@ -1272,6 +2629,15 @@
 			y: -1.5d
 		}
 		{
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "2D137E6E0AD9F560"
 			preset: "animal"
 			quest_enhance_disable_scroll_paging: false
@@ -1286,6 +2652,17 @@
 			}]
 			tasks: [{
 				entity: "apple_cows:apple_cow"
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "442013DB69EF5C55"
 				search_radius_blocks: 64
 				target_radius_blocks: 5
@@ -1296,6 +2673,15 @@
 		}
 		{
 			dependencies: ["2D137E6E0AD9F560"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "306F92E6F0BF8F41"
 			preset: "animal"
 			quest_enhance_disable_scroll_paging: false
@@ -1311,6 +2697,17 @@
 			}]
 			tasks: [{
 				entity: "apple_cows:golden_apple_cow"
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "02E5B64368905049"
 				search_radius_blocks: 64
 				target_radius_blocks: 5
@@ -1321,6 +2718,15 @@
 		}
 		{
 			dependencies: ["306F92E6F0BF8F41"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "09F65F48E63E7667"
 			preset: "animal"
 			quest_enhance_disable_scroll_paging: false
@@ -1336,6 +2742,17 @@
 			}]
 			tasks: [{
 				entity: "apple_cows:enchanted_golden_apple_cow"
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "6C590CEE57013A7D"
 				search_radius_blocks: 64
 				target_radius_blocks: 5

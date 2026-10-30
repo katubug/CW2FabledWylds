@@ -1,0 +1,16 @@
+{
+  "enabled": true,
+  "mod_name": "Twilight Flavors \u0026 Delight",
+  "mod_id": "twilightdelight",
+  "achievements": {
+    "no_more_bugs": {
+      "display_name": "No More Bugs",
+      "original_name": "No More Bugs",
+      "icon": "twilightdelight:deadbug_stick",
+      "enabled": true,
+      "rewards": {
+        "attributes": {}
+      }
+    }
+  }
+}

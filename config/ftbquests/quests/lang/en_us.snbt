@@ -23,7 +23,6 @@
 	chapter.7F553DB3A577011E.title: "Discovery"
 	chapter_group.181D7A6A92948264.title: "Magic \\& The Arcane"
 	chapter_group.33A91E268D63CB12.title: "Agriculture"
-	chapter_group.46B2C8E3F123941F.title: "Hidden"
 	chapter_group.4C9D8F0D37347858.title: "Joyful Things"
 	chapter_group.4E9968A53CD6CA57.title: "Exploration"
 	chapter_group.691BD44222F33F05.title: "Miscellaneous"
@@ -122,6 +121,21 @@
 	]
 	quest.02CA3D4397E8BA25.quest_subtitle: "Portable storage"
 	quest.02CA3D4397E8BA25.title: "Obtain a Small Satchel"
+	quest.02F805F83A91C0DA.quest_desc: [
+		"The &bImporter&r and &bExporter&r are a must for a busy witch. Consider them to be &aupgradeable, filterable hoppers&r that can feed &adirectly into and out of your system&r. This is particularly helpful for unloading or loading &bShulker Boxes&r and &bBackpacks&r."
+		""
+		"The &bStone Manipulator&r is similar, but instead of interacting with external storage, it allows you to &atransfer items into and out of&r &bGlyphstones&r. &6Set the transfer mode to&r &aEmpty into system&r &6or&r &aFill from system&r and &6place your&r &bGlyphstone&r &6in an \"In\" slot&r. When the transfer is complete, your &bGlyphstone&r will be automatically &amoved to an \"Out\" slot&r."
+		""
+		"Turn to the next page to learn about &aupgrading your experience&r."
+		""
+		"{@pagebreak}"
+		""
+		"Consider &aadding upgrades&r for a smoother experience. The &bSpeed Upgrade&r will &aincrease the overall speed&r, while the &bStack Upgrade&r will cause the system to move &aentire stacks at a time&r instead of individual items."
+		""
+		"The &bRegulator Upgrade&r keeps things at an amount you choose. In an &bExporter&r, it will &akeep the connected inventory stocked&r with the items you specify. In an &bImporter&r, it will &aonly pull out the extras&r above that amount."
+	]
+	quest.02F805F83A91C0DA.quest_subtitle: "the ins and outs"
+	quest.02F805F83A91C0DA.title: "Moving Stuff Around"
 	quest.03102B4CD0BE7031.quest_desc: [
 		"One of the features in the Twilight Forest is the &aHedge Maze&r. It is a labyrinth filled with spawners and chests full of loot!"
 		""
@@ -137,6 +151,14 @@
 		"You can upgrade it to the &bFlamarang&r, and both versions can be Enchanted."
 	]
 	quest.03C828F2F895A23C.quest_desc: ["While you're fighting the &eAlpha Yeti&r, why not trip him up a little bit by &6casting &bRoses Thorns&r at his feet?"]
+	quest.03FE65A89FCCC2B2.quest_desc: [
+		"First things first, you'll need a repository for holding your things! The &bGlyphic Repository&r is a block that holds up to 8 &bGlyphstones&r, each capable of holding anywhere between &a1,000 and 64,000 items&r. You can connect as many Repositories to your system as you like, but let's start with the &bPrimal Glyphstone&r."
+		""
+		"To start storing things, &6craft&r a &bPrimal Storage Glyph&r and a protective &bStone Casing&r to house it, then craft the two together to make a &bGlyphstone&r. An empty &bGlyphstone&r can be &6right clicked in your hand&r to get its &bStorage Glyph&r back."
+		""
+		"Note: &dfluid storage is disabled&r for this mod. &bGlyphstones&r only hold items."
+	]
+	quest.03FE65A89FCCC2B2.quest_subtitle: "a place to keep your stuff"
 	quest.041330E9AC7E1769.quest_desc: [
 		"The &cSwamp Dungeon&r is an ancient ruin filled with &eUndead&r, but home to &apotential treasures&r! You can find them, oddly enough, in &cSwamps&r, and you can of course use the &bExplorer's Compass&r to locate one!"
 		""
@@ -778,6 +800,7 @@
 	]
 	quest.1B8E61A0872EEA1C.quest_subtitle: "Where my liches at?"
 	quest.1BCBFB8A5AAE9E37.quest_desc: ["A &bStrawberry Cupcake&r is one of many things you can make with &bSweet Dough&r, and also uses the delicious &bStrawberry Jam&r you made in the last quest!"]
+	quest.1BF856325EA17BDA.quest_desc: ["This quest shape indicates the &aend of a questline&r, if there is one."]
 	quest.1C37EDEA99A890EF.quest_desc: ["The &bDeed of Ownership&r is an item used in &amultiplayer&r. You can &6right click it on an animal&r and then give the &bDeed&r to a friend. When they use it, the pet will now be linked to them, &aas if they had tamed it themself&r."]
 	quest.1D27E531CF01450E.quest_desc: [
 		"The &bApothecary Cauldron&r is a unique and delightful alternative to traditional &apotion brewing&r. The modern witch is handy with a potion or two, but why not challenge yourself with some &afreeform potion making&r? Not only does the &bApothecary Cauldron&r allow you to brew more powerful effects (such as &abroomless flight&r!), but it also comes with a complimentary &bApothecary Mortar&r."
@@ -807,6 +830,7 @@
 		"It will &aretain its image when broken&r, but can be crafted with a &bWater Bucket&r to clear it."
 	]
 	quest.1E53C205AD76513E.quest_subtitle: "Finally, your schoolhouse will be complete"
+	quest.1F022D2B4DA9E861.quest_desc: ["Quests of this shape are asking you to &afind a location&r."]
 	quest.1F389C8E9F4CFB59.quest_desc: [
 		"Now that you've got your artifact, the next step is to &aidentify the spell&r! &6Right clicking your artifact&r on an &bArcheology Table&r will complete this quest - though to actually identify, just &6insert your new artifact&r into the &bTable&r along with a &bBrush&r, and all the hard work is done for you!"
 		""
@@ -843,6 +867,7 @@
 	quest.1FDD653A3C13DFDF.quest_desc: ["Wow, you've caught 999 fish? That's bonkers."]
 	quest.1FDD653A3C13DFDF.quest_subtitle: "so long and thanks for all the fish"
 	quest.1FDD653A3C13DFDF.title: "Catch Em All (and Then Some)"
+	quest.1FEFD20C6BE2E397.quest_desc: ["Quests of this shape are to defeat or interact with &ebosses&r."]
 	quest.203124368972BE74.quest_desc: ["Use your &bSpyglass&r to research 10 &bPlants&r!"]
 	quest.203C69CA13DFF734.quest_desc: ["Buy yourself a brand new &bBody Curios Slot&r!"]
 	quest.203C69CA13DFF734.title: "New Body Slot"
@@ -1113,7 +1138,7 @@
 		""
 		"The reward from this quest is a &bHearth Recall&r - a rune which, when activated, will &aallow you to either set your home or teleport there&r. In order to switch between Binding and Teleporting modes, &6shift right click&r the item."
 		""
-		"&dPlaying on a multiplayer team?&r This quest also gives you a &bTeam Binding Card&r, which you can &6crouch-click onto your mailbox&r to have your team's winnings sent there! Anything mailed before then will wait and arrive once it's bound. Lost the card? Grab another from the &6sidebar button&r in your questbook."
+		"&dHave an FTB Teams Team?&r This quest also gives you a &bTeam Binding Card&r, which you can &6crouch-click onto your mailbox&r to have your team's winnings sent there! Anything mailed before then will wait and arrive once it's bound. Lost the card? Grab another from the &6sidebar button&r in your questbook."
 	]
 	quest.289832F0B384ABA7.title: "Choose a Mailbox"
 	quest.28ABA60CD070005E.quest_desc: [
@@ -1293,6 +1318,7 @@
 		"To obtain this, you'll need to &6sneak up on the &eStoneling&r."
 	]
 	quest.2D8511D462DFF413.title: "Meet the Stoneling"
+	quest.2DA0F1D7BFF31E79.quest_desc: ["Quests of this shape indicate that the task is &aan advancement&r."]
 	quest.2DB59F4A5BB3CE73.quest_desc: [
 		"In addition to &apainting and photography&r, &asketching&r is a great way to capture the world around you! You will need a &bSketchbook&r and a &b Pencil&r to begin with, as well as an &bEraser&r to &aremove your mistakes&r."
 		""
@@ -1371,6 +1397,7 @@
 	]
 	quest.2F933DC876021A85.quest_subtitle: "You look oddly Familiar"
 	quest.2F933DC876021A85.title: "Meet a Raven"
+	quest.2FAC52F2A73A6732.quest_desc: ["This quest shape indicates the beginning of a questline."]
 	quest.2FC0EAD96E3C41D4.quest_desc: [
 		"&eTadpoles&r, otherwise known as \"the forbidden boba,\" are cute lil wiggly fellas who are particularly susceptible to &eAxolotls&r."
 		""
@@ -1426,6 +1453,16 @@
 	]
 	quest.318C7124088632D3.quest_subtitle: "bobbing for... fish?"
 	quest.318C7124088632D3.title: "Different Bobbers"
+	quest.31CA6F36C6A5BA0E.quest_desc: [
+		"Worried about your possessions being siphoned through the aether? Or maybe you want to be able to let your friend look at your vast supplies but not take anything. Regardless of what you're doing, the &bGuardian Ward&r is your go-to hub for &aprotecting&r and providing &acontrolled access&r to your &lRefined Storage&r."
+		""
+		"&dCareful!&r The moment a &bGuardian Ward&r is placed, it &dlocks everyone out of your system&r, including you. So get your &bWard Bypass&r ready first!"
+		""
+		"To set up permissions, &6right click your&r &bWard Bypass&r to &abind it to yourself&r and &atick the boxes you'd like to allow&r. It is &ostrongly recommended&r to give yourself &dall permissions for your own system&r. Then &6place your&r &bWard Bypass&r &6into the&r &bGuardian Ward&r. You can give other players &acontrolled access&r the same way - just have them &6bind their own&r &bWard Bypass&r &6and hand it to you&r."
+		""
+		"Anyone without a &bWard Bypass&r follows the rules of the &bGuest Bypass&r in the &bGuardian Ward&r's special slot."
+	]
+	quest.31CA6F36C6A5BA0E.quest_subtitle: "magical security"
 	quest.31CE923007EF1D03.quest_desc: [
 		"There are a bunch of different types of &bMilk&r, which can all be made into &aunique and tasty cheeses&r."
 		""
@@ -1456,6 +1493,25 @@
 		""
 		"You can assign it an inventory by &6right clicking it &lon the face of the block the &bPipe&6 connects to&r. It will not work if you do not select the correct face of the inventory."
 	]
+	quest.32BF13CC5325DC33.quest_desc: [
+		"You can easily connect external storage to your system using... the &bExternal Storage&r!"
+		""
+		"Simply &6place the&r &bExternal Storage&r &6against a storage block&r, like a chest, barrel or drawer, to connect it. Then &6connect the&r &bExternal Storage&r &6to your system&r with a &bCable&r, an &bAetheric Receptor&r, or &bany other &lRefined Storage&r block&r."
+		""
+		"You can &6right click on this block&r to access its menu, where you can &alimit how items flow into and out of your external storage&r with the &aAllowlist&r, &aBlocklist&r and &aAccess Mode&r settings on the left hand side."
+		""
+		"Note: once you start connecting multiple storages, you will want to start prioritizing them. &aSetting the Priority&r of your storage blocks tells your &bConsole&r &awhere to store items&r that you add into the system, as well as &awhere to take them from first&r. &6Click to the next page&r to learn about &aPriority&r."
+		""
+		"{@pagebreak}"
+		""
+		"Priority can be adjusted for each &bGlyphic Repository&r and &bExternal Storage&r. You'll find Priority especially helpful for &akeeping your storage tidy&r. You can even &aset separate priorities for putting things in and taking them out&r: &6ctrl + click&r the priority button for insert, or &6alt + click&r it for extract."
+		""
+		"&dHere's an example&r: you keep much of your storage in your &bGlyphic Repository&r. But you have a gold farm which feeds into a simple &lFunctional Storage&r &bdrawer&r setup. If you set a higher priority on the &bExternal Storage&r block connected to these drawers, any time you &aadd or remove gold from your Console&r, the system will &acheck the priority list&r and choose this location first."
+		""
+		"You can use the &aAllowlist and Blocklist&r to tell your system to skip over a high priority storage for specific items. You can also &aset a negative priority&r on any storages that you want to be the last option."
+	]
+	quest.32BF13CC5325DC33.quest_subtitle: "all under one umbrella"
+	quest.32BF13CC5325DC33.title: "Connecting Your Storage"
 	quest.32DCF4F0C230C940.quest_desc: [
 		"But beds aren't the only things that can &abenefit from &bSheets&r and &bCushions&r!"
 		""
@@ -1524,6 +1580,14 @@
 	quest.3571AAEB58389A64.quest_subtitle: "Let's get sophisticated"
 	quest.3571AAEB58389A64.title: "Upgrading Your Storage"
 	quest.358EB6DB33F203FE.title: "Scavenger Hunt: Powder Snow Bucket"
+	quest.3616B1DD943ADB00.quest_desc: [
+		"If you make an &aFTB Team&r, regardless of whether you're in singleplayer or multiplayer, you'll need to use a &bTeam Binding Card&r to claim your mailbox in order to receive your rewards. You can obtain one for free by clicking this button in the top right of your Quest Book:"
+		""
+		"{image:quest_enhance:textures/ftb/clipboard_1792621465828.png width:345 height:196 align:center fit:false}"
+		""
+		"Then, &6shift+right click this onto your &bMailbox&r to bind the mailbox to your team. This will ensure that you never miss out on quest rewards!"
+	]
+	quest.3616B1DD943ADB00.title: "Mailbox Intricacies"
 	quest.3657239C35390F17.quest_desc: [
 		"The &eHydra&r is a fearsome foe that is only weak in one place: within its fire-spewing maw!"
 		"It is best to take on this fight with &a Fire Resistance&r, and make sure you &aim attacks at the Hydra's open mouths&r! You can use a &branged weapon&r, or use a sword to &adeflect their bombs&r back at them."
@@ -1571,6 +1635,13 @@
 		"This will store your circle inside the &bTalisman&r."
 	]
 	quest.38692155327FDE4B.title: "Storing your Circles"
+	quest.389B11A75BD59576.quest_desc: [
+		"Nearly every part of your &lRefined Storage&r system can be colored simply by &6crafting it together with a dye&r!"
+		""
+		"Keep in mind that &bCables&r are picky: a colored &bCable&r &aonly connects to Cables of the same color&r, or to plain gray ones. Full blocks will happily connect to any color. This makes colors a handy way to &arun two separate systems right next to each other&r!"
+	]
+	quest.389B11A75BD59576.quest_subtitle: "obviously you want everything to match"
+	quest.389B11A75BD59576.title: "Aesthetics"
 	quest.393CF105AAFA6CF0.quest_desc: [
 		"Don't you get tired of having to &aopen your backpack to get things&r? Isn't it annoying to have to &aput food in your mouth&r every time you're hungry? Who has time to &aswitch between their axe and pickaxe&r when harvesting materials?"
 		""
@@ -2357,6 +2428,7 @@
 	quest.55E84F0C46D17AF5.title: "The Cooking Pot"
 	quest.561E0AC36A0C1DB4.quest_desc: ["To use the &bFondue Pot&r, you must first place it atop a &bStove&r, and then &6right click it with a &bCheese Wheel&r to fill it. Once filled, take some &bBread&r and &6dip it in&r - you can get up to &a3 servings&r of a highly nutritious food this way!"]
 	quest.561E0AC36A0C1DB4.quest_subtitle: "well that's a 'fon' how 'due' you do"
+	quest.5648463474C5146A.quest_desc: ["This quest shape is used when you must &ameet a certain entity&r."]
 	quest.5688211768F55F90.quest_desc: [
 		"Practicing witchcraft is just one aspect of actually being a witch, but it is arguably the most important - and the most fun!"
 		""
@@ -2420,10 +2492,18 @@
 	]
 	quest.57CEB5677AF42CCB.quest_subtitle: "cleanliness is next to goddessliness"
 	quest.57CEB5677AF42CCB.title: "The Importance of Brooms"
+	quest.582151165E82A058.quest_desc: [
+		"Having every block directly connected to another can become a bit bulky. Here are some local options for spreading it out a bit."
+		""
+		"The &bCable&r is extremely simple: use it to &aconnect various &lRefined Storage&r &ablocks across a distance&r."
+		""
+		"The &bRelay&r works just like the &bCable&r, except it can be &apowered on and off with redstone&r. It can also &achoose what passes through it&r, if you'd like to keep part of your system separate."
+	]
+	quest.582151165E82A058.title: "Extending the System"
 	quest.5842543AA1FF2F36.quest_desc: [
 		"If you're lucky enough to be playing with a friend, you can use a &bHeartstone&r to keep track of them. This item will allow you to &alink with another player&r and &6right click to locate them&r."
 		""
-		"Additionally, the &bTwinbound Feather&r will allow you to &ateleport to a matching player&r - if both players &6hold their &bFeathers&6, face one another, and hold right click&r, the &bTwinbound Feathers&r will link, and each player will become a &aWaystone Location&r for the other&r. The feathers can be &alinked to multiple people&r, and also &aequipped as a Curio&r. A player must have the item in their inventory or curio slot for the teleportation option to appear."
+		"Additionally, the &bTwinbound Feather&r will allow you to &ateleport to a matching player&r - if both players &6hold their &bFeathers&6, face one another, and hold right click&r, the &bTwinbound Feathers&r will link, and each player will become a &aWaystone Location&r for the other&r. The feathers can be &alinked to multiple people&r. A player must have the item in their inventory for the teleportation option to appear."
 	]
 	quest.5842543AA1FF2F36.title: "Keeping Track of One Another"
 	quest.58AA2A38728EC475.title: "Catch Cherry Blossom Fish"
@@ -2457,6 +2537,7 @@
 	quest.5B185B1B72278050.quest_desc: ["Winning a &aRaid&r can be a satisfying challenge. Even better, win a bunch of raids, and you'll get rewarded!"]
 	quest.5B185B1B72278050.quest_subtitle: "please can someone go healer"
 	quest.5B185B1B72278050.title: "Raid Master"
+	quest.5B1DEEF983A3812B.quest_desc: ["Quests of this shape indicate that the goal is &aan item&r, which may not necessarily be tied to progression, but which may benefit you to know about."]
 	quest.5B5DB6950BD9BC15.quest_desc: [
 		"The &bOre Magnet&r can sometimes be found inside &dHollow Hills&r, and when used, will &apull entire veins of ores from the ground&r! Simply &6hold right click while aiming at the ground&r and the ores will be moved up to you!"
 		""
@@ -2479,6 +2560,17 @@
 		"The Ur-Ghast is one of the 3 bosses you must defeat to access the &dHighlands&r."
 	]
 	quest.5C463B10FDE8CEF2.quest_subtitle: "I ain't afraid of no ghast"
+	quest.5C55D4ACE066CF50.quest_desc: [
+		"In this modpack, different colored text is meant to help you &aparse information quickly&r, so here is a key to how colors are used in these quests:"
+		""
+		"- &bBlue text&r is for items."
+		"- &aGreen text&r is for concepts."
+		"- &eYellow text&r is for entities."
+		"- &6Gold text&r is for instructions."
+		"- &dPink text&r is for warnings and hints."
+		"- &cRed text&r is for places."
+		"- &lBold text&r is for mod names."
+	]
 	quest.5C5768D4346FD3FE.quest_desc: [
 		"The &bVendor&r is a block which allows players to &atrade items for currency&r in multiplayer."
 		""
@@ -2521,6 +2613,15 @@
 		"Or, if you're so inclined, you could &aprogress to the next quest&r and &afind a way to &6display it&r! Actually, here, take these two &bCake Slices&r. That way you can &aeat your cake, and have it, too&r."
 		""
 		"Yes, I know that's now how the phrase goes. But if you think about it, it really makes more sense this way."
+	]
+	quest.5D39797C6BA3D475.quest_desc: [
+		"Hi there, Katu here!"
+		""
+		"This modpack is currently in beta. That means that it's playable, but it's not exactly complete. If you have feedback you'd like to offer, please join our discord and let me know your thoughts! For bugs and crashes, you can report over at GitHub and I'll respond as soon as I can."
+		""
+		"Please be patient with me, as many things may change in the first few months of CW2's lifetime. I am currently the sole developer of the pack, and I am both disabled and have a lot of other responsibilities, so I cannot make promises as far as quick updates or timely release out of beta. However, Cottage Witch is my passion project and I'm so thrilled to be sharing it with you lovely folks <3"
+		""
+		"Thanks for being here."
 	]
 	quest.5D439CB08EE5A923.quest_desc: [
 		"There are many types of pie, and by crafting them all, you have proven yourself a master piesmith."
@@ -2565,6 +2666,15 @@
 	quest.5F03012DC9E38D8D.quest_subtitle: "Kill one of each Creeper type"
 	quest.5F03012DC9E38D8D.title: "Creeper Collector"
 	quest.5F1A07D19C09FFE6.title: "Scavenger Hunt: Bell"
+	quest.5F285F1622FB6635.quest_desc: [
+		"For an elegant and low-impact storage option, you need more than just magic. Introducing &aMagitech&r, an unholy collaboration between computers and the arcane! This system is &acompatible with most storage options&r, but we &dcaution you against&r combining the power of &lSophisticated Storage&r with &lRefined Storage&r as it &dcan cause lag&r."
+		""
+		"To begin, familiarize yourself with the basic crafting ingredients of &lRefined Storage&r: &bRunic Binding&r, &bSmokey Quartz&r, and &bIlluminite&r. You will also be crafting a lot of &bRaw Runes&r - &6heat them in a furnace&r to fuse their Magitech."
+		""
+		"Best of all, a Magitech system &arequires no power at all&r. Just connect your blocks and go!"
+	]
+	quest.5F285F1622FB6635.quest_subtitle: "the ultimate storage solution"
+	quest.5F285F1622FB6635.title: "Magitech Refined Storage"
 	quest.5F2C26D1C6302016.quest_desc: [
 		"Some meals, like &bGlazed Ham&r or &bShepherd's Pie&r, need to be &6placed in world&r in order to eat them. They also make great decoration for your (visual) feasting pleasure!"
 		""
@@ -2801,6 +2911,15 @@
 	quest.684AF61973DB643F.quest_desc: ["&bSalt&r is an important ingredient in &bCheesemaking&r. It can be found in &cMeadow biomes&r, embedded in &bLimestone&r, as well as in &aOases&r and &aunderground&r."]
 	quest.684AF61973DB643F.quest_subtitle: "getting salty"
 	quest.684AF61973DB643F.title: "Obtain Salt"
+	quest.6863A909FC7B35EB.quest_desc: [
+		"Now you've got your storage, you just need a way to access it! Build yourself a &bRunic Console&r to be able to add and remove items from your &bRepository&r. Make sure it is connected to the storage. Remember: &aeverything must be touching&r another part of your system, or be linked to it with &bCable&r."
+		""
+		"If you'd like to be able to craft within your &bConsole&r, you can &6craft it together&r with a &bDivine Runic Processor&r and a &bCrafting Table&r."
+		""
+		"That's it - that's literally &aall you need to know&r for a basic setup. Everything else is a bonus! If you'd like to &alearn more&r or &aconnect up to your existing storage&r, check out the optional quests!"
+	]
+	quest.6863A909FC7B35EB.quest_subtitle: "portal to the storage dimension"
+	quest.6863A909FC7B35EB.title: "Runic Console"
 	quest.68F4901B115FF9E0.quest_desc: ["The &bFishing Eye&r is said to have once belonged to an &eAncient Mariner&r, who lost his eye in a fight with a fearsome sea serpent. He replaced his eye with this item, but upon his death, he was buried with it at sea. Perhaps you could be so lucky as to &afish it up&r."]
 	quest.692725454B955B4C.quest_desc: ["Collect one each of every flower in the game to earn rewards!"]
 	quest.692725454B955B4C.title: "Flower Picking: Pink"
@@ -3100,6 +3219,7 @@
 	quest.740C9D783E4018EC.quest_desc: ["&bSweet Dough&r is the basis for many delicious pastries. The aspiring Kitchen Witch would do well to familiarize themself with its recipe!"]
 	quest.740C9D783E4018EC.quest_subtitle: "sweet, dough!"
 	quest.74403CDD36E19E5B.title: "Scavenger Hunt: Honey"
+	quest.747E84D98E1C7493.quest_desc: ["Quests of this shape are &amilestones&r along your questline."]
 	quest.747EC7F313519A0F.quest_desc: [
 		"Whether or not you're a consumer of adult beverages, a &bDistillery&r can be a very useful tool! In this case, what it distills is &bVapor&r, producing unique and advanced &bfumes&r for you to work with!"
 		""
@@ -3142,6 +3262,17 @@
 	quest.75794697E256EFCC.title: "Combine Four Pottery Sherds"
 	quest.75A98C846E56A570.title: "Scavenger Hunt: Ink Sacs"
 	quest.75AD4BD901CEA061.quest_desc: ["Can you tame one of each type of cat in the game? There are eleven. Good luck!"]
+	quest.75C0BD3B2F2402E7.quest_desc: ["This shape indicates that the quest is asking you to &ahunt enemies&r."]
+	quest.760D1A66A80E8F51.quest_desc: [
+		"Maybe cables are too limited for what you want. You've got a farm or a second base... whether it's 1000 blocks away or &cin another dimension&r, an attuned messaging system will &aunite your storages&r and allow them to be accessed from the &bConsole&r."
+		""
+		"To set it up could not be simpler. The &bAetheric Messenger&r &amust be connected&r to your main system. The &bAetheric Receptor&r can be placed &awherever you want to connect&r, with your far-off storage attached to it."
+		""
+		"Use an &bAetheric Attuner&r to &aattune these blocks together&r across space and dimension. Simply &6shift + right click the&r &bAttuner&r &6onto the&r &bReceptor&r to lock in its coordinates, and then &6place that&r &bAttuner&r &6inside the&r &bMessenger&r. These items always come paired one-on-one; &dif you want to connect more storages,&r you will need a &aset of these items for each connection&r."
+		""
+		"Lastly, go into your &cFTB Chunks claim manager&r and &6force-load both&r the location of your &bAetheric Messenger&r and the location of your &bAetheric Receptor&r."
+	]
+	quest.760D1A66A80E8F51.title: "An Aetheric Connection"
 	quest.761DD39F82235893.title: "Defeat the Ur-Ghast"
 	quest.762A6A61693A5BBA.quest_desc: [
 		"In order to &aprint your photographs&r, you must first &adevelop the film&r."
@@ -3169,6 +3300,15 @@
 	quest.7793743B2F9DE215.quest_desc: ["As you use your Broom, the Brush will eventually lose durability and need replacing. Begin by making the standard &bWet Broom Brush&r, which can be either immediately upgraded to an &bEnhanced Broom Brush&r, or dried out for use on a &bDrying Rack&r."]
 	quest.7793743B2F9DE215.quest_subtitle: "Re-up your flight subscription"
 	quest.7793743B2F9DE215.title: "Obtain a Replacement Broom Brush"
+	quest.77CCB6AADE2F5679.quest_desc: [
+		"Though pricey, the &bultimate upgrade&r is the cherry on top for the most discerning witch's all-terrain, interdimensional, on-the-go, fully-loaded &bResonating Beacon&r."
+		""
+		"If you live in &ajust one dimension&r, may we recommend the &bInfinity Range Booster&r? This upgrade allows your &bResonating Console&r to &aaccess your storage from any distance&r."
+		""
+		"If you're a bit of a dimension hopper, it's worth shelling out for the &bDimension Card&r, which allows access &aanywhere, any time&r. To obtain the &bDimension Card&r, you'll need &aa little something from every dimension&r (the &cTwilight Forest&r, the &cBumblezone&r, the &cEnd&r and the &cNether&r)... combined into your &bInfinity Range Booster&r!"
+	]
+	quest.77CCB6AADE2F5679.quest_subtitle: "to infinity and beyond"
+	quest.77CCB6AADE2F5679.title: "The Cadillac of Upgrades"
 	quest.77CCC4FD3E93E79C.quest_desc: ["Hmm, this &bGravel&r (or &bSand&r) looks weird."]
 	quest.77CCC4FD3E93E79C.title: "Something is Suspicious..."
 	quest.77F821E672D8FE6B.title: "Scavenger Hunt: Sea Lantern"
@@ -3255,6 +3395,7 @@
 	quest.7B8261F4787E6EA7.quest_subtitle: "the color of secrets"
 	quest.7B8261F4787E6EA7.title: "Sempiternal Sanctum: Purple"
 	quest.7B961AF6E8BF8EE0.title: "Tarot Cards 3"
+	quest.7C3678CA1D1245BE.quest_desc: ["Quests of this shape indicate that you can &aturn in&r the tasks for a &areward&r. They are often repeatable."]
 	quest.7C3C2D24D60C6C1F.quest_desc: ["Collect one each of every flower in the game to earn rewards!"]
 	quest.7C3C2D24D60C6C1F.quest_subtitle: "Red for passion, love, blood"
 	quest.7C3C2D24D60C6C1F.title: "Flower Picking: Red"
@@ -3320,6 +3461,17 @@
 		"Collect &aone of each type of Candy&r to get a sweet reward!"
 	]
 	quest.7DB8FFF48188EC9C.title: "Sweet Tooth"
+	quest.7DD6F4241CB977F5.quest_desc: [
+		"A crafty witch knows that being able to &astore things in a convenient pocket dimension&r is a must."
+		""
+		"Placing a &bResonating Beacon&r anywhere on your system will &atransmit access to your storage&r within 16 blocks of the &bBeacon&r. You can use &bmultiple Beacons&r for a &awider range of coverage&r, and each &bRange Upgrade&r you give a &bBeacon&r adds &a8 more blocks&r."
+		""
+		"To make use of the &bBeacon&r, you will need to &6craft&r a &bResonating Console&r. Simply &6shift + right click&r the &bConsole&r &6on any block of your system&r to connect them."
+		""
+		"Note: the &bResonating Console&r can &aswitch between a regular and a crafting Console&r. &6Check your keybinds&r for the switch key!"
+	]
+	quest.7DD6F4241CB977F5.quest_subtitle: "it's like a Bag of Holding"
+	quest.7DD6F4241CB977F5.title: "Storage in Your Pocket"
 	quest.7DD918D36463CF71.quest_desc: [
 		"Did you know you can grind the enchantment off of the &bEnchanted Golden Apple&r?"
 		""
@@ -3429,6 +3581,7 @@
 	reward_table.37071950A2B77FCE.title: "Redstone"
 	reward_table.3CDC3F477C949E04.title: "Mailboxes"
 	reward_table.3F7C3C459521025B.title: "Roots Seeds"
+	reward_table.40E8667A4DA91342.title: "Refined Storage"
 	reward_table.47B52DCF31F29A69.title: "Currency - Grindy"
 	reward_table.4972AA871F691F6C.title: "Armor Trims"
 	reward_table.4CAFC1E4AA445442.title: "T3 Choice"
@@ -3449,6 +3602,7 @@
 	reward_table.76EA0B4BACF7D133.title: "Tarot T2"
 	reward_table.7B63ED97CCD936C8.title: "Tomes"
 	reward_table.7D60C2D8FE0CCADB.title: "Archaeology"
+	task.0050BAE052292C77.title: "Progression Quests"
 	task.00FA4819DEED3E83.title: "Costs 1 Cog"
 	task.035A455B33963FD7.title: "Hex yes to backpacks!"
 	task.0410516876EDD498.title: "Mob Charm Fragment"
@@ -3456,7 +3610,9 @@
 	task.07C2B6C5EA1F95F7.title: "Costs 5 Cogs"
 	task.0873F112CCF37124.title: "Costs 1 Cog"
 	task.0A21E2BB7F5F01BE.title: "Any #numismatics:coins"
+	task.0A66928C4981F4F9.title: "Any Aetheric Messenger"
 	task.0BB17E96106E9717.title: "Catalog 50 Plants"
+	task.0BC67F9B9EE8FE5E.title: "Advancement Quests"
 	task.0BDE86AF2F99E598.title: "Costs 2 Cogs"
 	task.0D0D7785460593EB.title: "Costs 1 Crown"
 	task.0DE017CE06F6B0D2.title: "Break Wild Peanuts"
@@ -3472,39 +3628,51 @@
 	task.161E3BFFC0B93E1F.title: "Costs 5 Spurs"
 	task.16BC6AB9EBCC7B05.title: "Cookery Completed"
 	task.176DC57B38F5B472.title: "Costs 1 Crown"
+	task.1820DF81DB7D6F0E.title: "Any Resonating Beacon"
 	task.1A048F3381BC6882.title: "Playing with Friends"
 	task.1ADDD6FB306A3FA5.title: "Catalogue All Plants"
 	task.1B4C8FEF104AD36C.title: "Finish a Painting"
 	task.1C58CD7EBA09C386.title: "Any #c:flours/wheat"
+	task.1D8C140F2EA2E291.title: "Config Quests"
+	task.1E05C5E515CB97EB.title: "Any Relay"
 	task.1EDEB9C2CAD1AEF6.title: "Discovery Charted"
 	task.1EF853C0F645A403.title: "Any #starcatcher:hooks"
 	task.1F3C1DB0060E68FA.title: "Costs 1 Crown"
 	task.20197D584CDFF2FB.title: "Customize Your Storage"
+	task.216EB9C1DCD141C1.title: "Any Importer"
 	task.21800782215F1EBF.title: "Find the Sempirternal Sanctum Purple"
 	task.2244A5E60C4D60CC.title: "Break Wild Cabbage"
 	task.22838BDA7DB3EA23.title: "Catalogue all Monsters"
 	task.23C5964D9AF61295.title: "Let Them Eat Cake"
 	task.24ADA1FE7305C9C6.title: "Find the Sempiternal Sanctum White"
 	task.25D7315ECE7566BF.title: "Costs 8 Spurs"
+	task.25D871E28365C84F.title: "Item Quests"
 	task.27224224B5A34F0A.title: "Mob Charm"
 	task.27302BB3BA0A0300.title: "Keybindings"
 	task.27B706D6109DC8A1.title: "Any #minecraft:candles"
+	task.28D62F7E33FDE4A3.title: "Mailbox Intricacies"
 	task.29D966A14304361A.title: "Any #waystones:sharestones"
 	task.2A957A338BE899C4.title: "Welcome to Ye Olde Shoppe"
 	task.2B2D647BF242880B.title: "Break Wild Cucumber"
 	task.2B35ABEE2A58DF6F.title: "Carrying Everything"
+	task.2B80E038B84E5D13.title: "Aesthetic"
+	task.2CB1D0CB71B4A43E.title: "Turn-In Quests"
 	task.2E65F74FAED6B7CD.title: "Resource Pack Application"
 	task.2E7A316EBC2BA46A.title: "Compact All The Crops!"
 	task.2F2E428375378803.title: "Costs 1 Crown"
 	task.2FED61F8E725D1D5.title: "Costs 5 Spurs"
 	task.2FFCBE1976CCD735.title: "Find a Hydra's Lair"
+	task.325F15EF0F21DBA0.title: "Any Stone Manipulator"
 	task.32C55E94D3799AF0.title: "Costs 1 Cog"
+	task.32CBA3C1C1A87CC4.title: "Any Guardian Ward"
 	task.35C29BB52572EFB3.title: "Costs 1 Crown"
+	task.3672747755D86551.title: "Starting Point Quests"
 	task.36E7B5B333FBD7EA.title: "Costs 3 Spurs"
 	task.37177297B282FBC7.title: "Check Your Enrichment"
 	task.374F0E4575F009B8.title: "Break Wild Green Bean Bush"
 	task.3790E77B2BB0C3EE.title: "Unknown type: use_item"
 	task.38AE1B4A97072062.title: "Any Seeds"
+	task.38F77CD6D98D0A0A.title: "Hunt Quests"
 	task.3A1CDFBCBFDAFF44.title: "Light Temple"
 	task.3A8E49C2219C6265.title: "Find the Knight Stronghold"
 	task.3B66FE756544A418.title: "Ultimate Flower Enthusiast"
@@ -3513,14 +3681,18 @@
 	task.3F776B899C478AFD.title: "Any #tarotcards:tarot_cards"
 	task.3FB69B6E90475B69.title: "Saving Experience"
 	task.3FDFA4E6F598EBD6.title: "Break Wild Oat"
+	task.402544C1CEBA1559.title: "Meet Entity Quests"
 	task.41526D10781321D7.title: "Wildlife Tamed"
 	task.42497F16D74CB8FF.title: "Any #c:butter"
+	task.4417CDA281BC8C8D.title: "Any Aetheric Receptor"
 	task.44C7FF9AB52D6788.title: "Costs 1 Crown"
 	task.45186AA69114C7B3.title: "Costs 1 Cog"
+	task.46923E795D9EF95A.title: "Milestone Quests"
 	task.46CE5319FC2CF31B.title: "Break Wild Barley"
 	task.474CE1AAC07815BD.title: "The Only Way to \"Fly\""
 	task.4814450078D3D847.title: "Any #fabled_wylds:roots_spells"
 	task.48389846ACBF5E2F.title: "Baby's First Death"
+	task.487BA7136BD0A933.title: "Any External Storage"
 	task.491F79BB8987D1C2.title: "Begin Witchification!"
 	task.4B1CE4FEE799E300.title: "Enter the Overworld"
 	task.4B25469609B1A60C.title: "Extreme Sound Muffler"
@@ -3546,23 +3718,28 @@
 	task.59BE1B27F161665D.title: "Research all Animals"
 	task.59EA11202D9F3D76.title: "take a selfie"
 	task.5BB17C6CE788EEB2.title: "Any Storage Drawer"
+	task.5C38CC3AC00671E9.title: "Completion Quests"
 	task.5D2FC3F7E82A27A3.title: "Adding Allies"
 	task.5E7E3CBE596D78D9.title: "Any #redomesticate:pet_beds"
 	task.5F248220494492C8.title: "Any #numismatics:cards"
 	task.5FF8A041ABE1A591.title: "Break Wild Rice"
 	task.60539EB1975FB837.title: "Completing Chapters"
 	task.61CD6FB33F9A4C16.title: "Costs 1 Crown"
+	task.622EAF6F71EEB2A7.title: "Location Quests"
 	task.645545C9890030EB.title: "I know about Upgrades now!"
 	task.657390DB5DD3BE8C.title: "Costs 4 Cogs"
 	task.65C18F6415665884.title: "Pin a Quest or Note"
 	task.65F6811A7FA63CCC.title: "Break Wild Potato"
+	task.66F5EEDFD6EF728C.title: "Info Quests"
 	task.6786877EA87F929C.title: "Break Wild Emmer"
+	task.6826FCCF1888C20C.title: "Any Runic Console"
 	task.68E66B63ECD84769.title: "Garden Nourished"
 	task.6BBAADAD59610B56.title: "Twilight Traversed"
 	task.6C5BC7D99F986162.title: "Catalogue 10 Plants"
 	task.6C5EEE6B30B2E00F.title: "Become an Artist"
 	task.6CFA8867F65465D2.title: "Catalogue 5 Plants"
 	task.6EC3A1D0F373858B.title: "Costs 1 Cog"
+	task.6F3C9F890655E1C4.title: "Color Formatting Key"
 	task.6F9F475D66C1EE83.title: "Find a Cloud Island"
 	task.704C112BD1566F08.title: "A Chalice or Goblet"
 	task.70BEC1A7AAC7CDF0.title: "Discover the Labyrinth"
@@ -3571,7 +3748,10 @@
 	task.71D8DB66FFBA29DA.title: "Upgrade Your Backpack"
 	task.72B0AB04DADAEDAD.title: "Costs 3 Spurs"
 	task.7322E142A1A29576.title: "Break Wild Red Grapes"
+	task.738AD02977D1375C.title: "Boss Quest"
 	task.74CC99CDD7A85AA2.title: "Any #c:eyes"
+	task.7549AF56D6AC058D.title: "Beta Status"
+	task.7549C9519A09C44D.title: "Any Exporter"
 	task.75D978C04D89D204.title: "Find the Aurora Palace"
 	task.79FA55CD653C94B5.title: "Catalog 100 Plants"
 	task.7A5F74FCC0FF28AD.title: "Skull or Head"

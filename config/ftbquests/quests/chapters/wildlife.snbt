@@ -128,6 +128,15 @@
 	quest_links: [ ]
 	quests: [
 		{
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			icon: {
 				components: {
 					"minecraft:custom_data": {
@@ -163,6 +172,17 @@
 			shape: "heart"
 			tasks: [{
 				entity: "snuffles:snuffle"
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "66B2D1D8862DB0CF"
 				search_radius_blocks: 64
 				target_radius_blocks: 5
@@ -172,6 +192,15 @@
 			y: -4.0d
 		}
 		{
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "20BAF307F1556BC5"
 			preset: "item"
 			quest_enhance_disable_scroll_paging: false
@@ -197,6 +226,17 @@
 			]
 			shape: "hexagon"
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "784E27A136920288"
 				item: { count: 1, id: "supplementaries:flute" }
 				type: "item"
@@ -205,6 +245,15 @@
 			y: 3.0d
 		}
 		{
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "52BC8196E858B238"
 			preset: "advancement"
 			quest_enhance_disable_scroll_paging: false
@@ -228,6 +277,17 @@
 			tasks: [{
 				advancement: "minecraft:husbandry/tame_an_animal"
 				criterion: ""
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "650E23F990D62E75"
 				type: "advancement"
 			}]
@@ -235,6 +295,15 @@
 			y: 5.5d
 		}
 		{
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "3C87581273ACB6A0"
 			preset: "advancement"
 			quest_enhance_disable_scroll_paging: false
@@ -271,6 +340,17 @@
 			tasks: [{
 				advancement: "minecraft:husbandry/breed_an_animal"
 				criterion: ""
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "24EAA163CD45072E"
 				type: "advancement"
 			}]
@@ -278,6 +358,15 @@
 			y: 5.5d
 		}
 		{
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "1661059D340835FC"
 			preset: "item"
 			quest_enhance_disable_scroll_paging: false
@@ -297,6 +386,17 @@
 			]
 			shape: "hexagon"
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "24CEB97FFB4951F1"
 				item: { count: 1, id: "redomesticate:drum" }
 				type: "item"
@@ -305,6 +405,15 @@
 			y: 3.0d
 		}
 		{
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "6B0E280BDBD4ACF5"
 			preset: "item"
 			quest_enhance_disable_scroll_paging: false
@@ -316,6 +425,17 @@
 			}]
 			shape: "hexagon"
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "5E7E3CBE596D78D9"
 				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(redomesticate:pet_beds)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
@@ -324,6 +444,15 @@
 			y: 3.0d
 		}
 		{
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "09827E9E92823643"
 			preset: "item"
 			quest_enhance_disable_scroll_paging: false
@@ -354,6 +483,17 @@
 			]
 			shape: "hexagon"
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "76BD2BD7012B9AA3"
 				item: { count: 1, id: "redomesticate:collar_tag" }
 				type: "item"
@@ -362,6 +502,15 @@
 			y: 4.0d
 		}
 		{
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "1C37EDEA99A890EF"
 			preset: "item"
 			quest_enhance_disable_scroll_paging: false
@@ -369,12 +518,23 @@
 				id: "7D8FC845A86B5AF0"
 				item: {
 					count: 1
-					id: "moblassos:golden_lasso"
+					id: "minecraft:diamond"
 				}
 				type: "item"
 			}]
 			shape: "hexagon"
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "73C0092330854F7E"
 				item: { count: 1, id: "redomesticate:deed_of_ownership" }
 				type: "item"
@@ -383,6 +543,15 @@
 			y: 4.0d
 		}
 		{
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "5DB08A394A7B8122"
 			preset: "item"
 			quest_enhance_disable_scroll_paging: false
@@ -396,6 +565,17 @@
 			}]
 			shape: "hexagon"
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "314E23C350D22B67"
 				item: { count: 1, id: "redomesticate:wayward_lantern" }
 				type: "item"
@@ -404,11 +584,31 @@
 			y: 4.0d
 		}
 		{
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "61F03A15727266F2"
 			invisible: true
 			optional: true
 			quest_enhance_disable_scroll_paging: false
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "17716842171DA01E"
 				item: { count: 1, id: "ftbquests:barrier" }
 				type: "item"
@@ -419,6 +619,15 @@
 		{
 			can_repeat: true
 			dependencies: ["43B3A6804B59565E"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			icon: {
 				components: {
 					"minecraft:custom_data": {
@@ -469,6 +678,17 @@
 			shape: "square"
 			tasks: [{
 				entity: "minecraft:skeleton"
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				icon: {
 					components: {
 						"!ftbquests:icon": { }
@@ -485,6 +705,15 @@
 		}
 		{
 			dependencies: ["43B3A6804B59565E"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			icon: {
 				id: "handcrafted:creeper_trophy"
 			}
@@ -513,90 +742,255 @@
 			tasks: [
 				{
 					entity: "creeperoverhaul:badlands_creeper"
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "148B4231D30E2A9C"
 					type: "kill"
 					value: 1L
 				}
 				{
 					entity: "creeperoverhaul:bamboo_creeper"
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "2F57370380F6849F"
 					type: "kill"
 					value: 1L
 				}
 				{
 					entity: "creeperoverhaul:beach_creeper"
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "498342403CB4E17A"
 					type: "kill"
 					value: 1L
 				}
 				{
 					entity: "creeperoverhaul:cave_creeper"
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "247406896BFA2CBF"
 					type: "kill"
 					value: 1L
 				}
 				{
 					entity: "creeperoverhaul:dark_oak_creeper"
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "4FCFFF2423D597EA"
 					type: "kill"
 					value: 1L
 				}
 				{
 					entity: "creeperoverhaul:desert_creeper"
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "27CFF5A89E252A25"
 					type: "kill"
 					value: 1L
 				}
 				{
 					entity: "creeperoverhaul:dripstone_creeper"
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "6BE030760A82D760"
 					type: "kill"
 					value: 1L
 				}
 				{
 					entity: "creeperoverhaul:hills_creeper"
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "3E4A28D5B5A84819"
 					type: "kill"
 					value: 1L
 				}
 				{
 					entity: "creeperoverhaul:jungle_creeper"
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "31AD3B6DD0B0D2E1"
 					type: "kill"
 					value: 1L
 				}
 				{
 					entity: "creeperoverhaul:mushroom_creeper"
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "6688C85A7EA1707D"
 					type: "kill"
 					value: 1L
 				}
 				{
 					entity: "creeperoverhaul:savannah_creeper"
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "77736E3FD3B0C165"
 					type: "kill"
 					value: 1L
 				}
 				{
 					entity: "creeperoverhaul:snowy_creeper"
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "158183796F59B405"
 					type: "kill"
 					value: 1L
 				}
 				{
 					entity: "creeperoverhaul:spruce_creeper"
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "3E78F3F494221E8B"
 					type: "kill"
 					value: 1L
 				}
 				{
 					entity: "creeperoverhaul:swamp_creeper"
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "2673798B82CD0866"
 					type: "kill"
 					value: 1L
 				}
 				{
 					entity: "minecraft:creeper"
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "50BCCA198B6D6B98"
 					type: "kill"
 					value: 1L
@@ -608,6 +1002,15 @@
 		{
 			can_repeat: true
 			dependencies: ["43B3A6804B59565E"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "7E36FAC9107093C2"
 			preset: "hunt"
 			quest_enhance_disable_scroll_paging: false
@@ -640,6 +1043,17 @@
 			]
 			tasks: [{
 				entity: "minecraft:creeper"
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "4765ECB455E0F3A3"
 				type: "kill"
 				value: 100L
@@ -651,6 +1065,15 @@
 			can_repeat: true
 			dependencies: ["7E36FAC9107093C2"]
 			dependency_requirement: "all_started"
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			icon: {
 				components: {
 					"minecraft:custom_data": {
@@ -683,6 +1106,17 @@
 			shape: "square"
 			tasks: [{
 				entity: "minecraft:creeper"
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				icon: {
 					components: {
 						"!ftbquests:icon": { }
@@ -700,6 +1134,15 @@
 		{
 			can_repeat: true
 			dependencies: ["43B3A6804B59565E"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			icon: {
 				components: {
 					"minecraft:custom_data": {
@@ -740,6 +1183,17 @@
 			shape: "square"
 			tasks: [{
 				entity: "minecraft:enderman"
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "1C574797484F95E7"
 				type: "kill"
 				value: 100L
@@ -751,6 +1205,15 @@
 			can_repeat: true
 			dependencies: ["43B3A6804B59565E"]
 			dependency_requirement: "one_started"
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			hide_dependency_lines: true
 			icon: {
 				components: {
@@ -792,6 +1255,17 @@
 			shape: "square"
 			tasks: [{
 				entity: "minecraft:wither_skeleton"
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				icon: {
 					components: {
 						"!ftbquests:icon": { }
@@ -809,6 +1283,15 @@
 		{
 			can_repeat: true
 			dependencies: ["43B3A6804B59565E"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			icon: {
 				components: {
 					"minecraft:custom_data": {
@@ -851,6 +1334,17 @@
 			shape: "square"
 			tasks: [{
 				entity: "minecraft:wither_skeleton"
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "0A6E74616F39F811"
 				type: "kill"
 				value: 15L
@@ -861,6 +1355,15 @@
 		{
 			can_repeat: true
 			dependencies: ["43B3A6804B59565E"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			icon: {
 				components: {
 					"minecraft:custom_data": {
@@ -902,6 +1405,17 @@
 			shape: "square"
 			tasks: [{
 				entity: "minecraft:pillager"
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "5DA4D69DEC4C8437"
 				type: "kill"
 				value: 100L
@@ -912,6 +1426,15 @@
 		{
 			can_repeat: true
 			dependencies: ["43B3A6804B59565E"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			icon: {
 				components: {
 					"minecraft:custom_data": {
@@ -953,6 +1476,17 @@
 			shape: "square"
 			tasks: [{
 				entity: "minecraft:drowned"
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				icon: {
 					components: {
 						"!ftbquests:icon": { }
@@ -968,6 +1502,15 @@
 			y: 2.5d
 		}
 		{
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "43B3A6804B59565E"
 			preset: "start"
 			quest_enhance_disable_scroll_paging: false
@@ -982,6 +1525,17 @@
 			tasks: [
 				{
 					entity: "minecraft:zombie"
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					icon: {
 						components: {
 							"!ftbquests:icon": { }
@@ -995,6 +1549,17 @@
 				}
 				{
 					entity: "minecraft:skeleton"
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					icon: {
 						components: {
 							"!ftbquests:icon": { }
@@ -1013,6 +1578,15 @@
 		{
 			can_repeat: true
 			dependencies: ["43B3A6804B59565E"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "3057155A3A2B5F47"
 			preset: "hunt"
 			quest_enhance_disable_scroll_paging: false
@@ -1046,6 +1620,17 @@
 			shape: "square"
 			tasks: [{
 				entity: "minecraft:guardian"
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				icon: {
 					components: {
 						"!ftbquests:icon": { }
@@ -1061,6 +1646,15 @@
 			y: 6.0d
 		}
 		{
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "6CD4F0A4650CBA2F"
 			preset: "animal"
 			quest_enhance_disable_scroll_paging: false
@@ -1077,6 +1671,17 @@
 			shape: "heart"
 			tasks: [{
 				entity: "minecraft:snow_golem"
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "1EF3488BE715A381"
 				search_radius_blocks: 64
 				target_radius_blocks: 5
@@ -1088,6 +1693,15 @@
 		{
 			can_repeat: true
 			dependencies: ["43B3A6804B59565E"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "22628C8DC1BB807F"
 			preset: "hunt"
 			quest_enhance_disable_scroll_paging: false
@@ -1112,6 +1726,17 @@
 			shape: "square"
 			tasks: [{
 				entity: "minecraft:spider"
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				icon: {
 					components: {
 						"!ftbquests:icon": { }
@@ -1127,6 +1752,15 @@
 			y: 6.5d
 		}
 		{
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "114EFE7EF75B22F3"
 			preset: "item"
 			quest_enhance_disable_scroll_paging: false
@@ -1150,6 +1784,17 @@
 			tasks: [{
 				advancement: "minecraft:husbandry/ride_a_boat_with_a_goat"
 				criterion: ""
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "5A01D74D65A58962"
 				type: "advancement"
 			}]
@@ -1157,6 +1802,15 @@
 			y: 4.0d
 		}
 		{
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "232A8F9F6388C377"
 			preset: "item"
 			quest_enhance_disable_scroll_paging: false
@@ -1182,6 +1836,17 @@
 			tasks: [{
 				advancement: "minecraft:husbandry/kill_axolotl_target"
 				criterion: ""
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "66A0BD4051C658F5"
 				type: "advancement"
 			}]
@@ -1189,6 +1854,15 @@
 			y: 3.0d
 		}
 		{
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "2FC0EAD96E3C41D4"
 			preset: "advancement"
 			quest_enhance_disable_scroll_paging: false
@@ -1213,6 +1887,17 @@
 			tasks: [{
 				advancement: "minecraft:husbandry/tadpole_in_a_bucket"
 				criterion: ""
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "7A90C9C915A28458"
 				type: "advancement"
 			}]
@@ -1220,6 +1905,15 @@
 			y: 6.0d
 		}
 		{
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "3556685D896ADA7C"
 			preset: "animal"
 			quest_enhance_disable_scroll_paging: false
@@ -1232,6 +1926,17 @@
 			shape: "heart"
 			tasks: [{
 				entity: "minecraft:goat"
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "5EC7270537C4DC9B"
 				search_radius_blocks: 64
 				target_radius_blocks: 5
@@ -1243,6 +1948,15 @@
 		{
 			can_repeat: true
 			dependencies: ["43B3A6804B59565E"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "2A930C9591A317A3"
 			preset: "hunt"
 			quest_enhance_disable_scroll_paging: false
@@ -1257,6 +1971,17 @@
 			shape: "square"
 			tasks: [{
 				entity: "quark:wraith"
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				icon: {
 					components: {
 						"!ftbquests:icon": { }
@@ -1274,6 +1999,15 @@
 		{
 			can_repeat: true
 			dependencies: ["43B3A6804B59565E"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			icon: {
 				components: {
 					"minecraft:custom_data": {
@@ -1307,6 +2041,17 @@
 			shape: "square"
 			tasks: [{
 				entity: "minecraft:guardian"
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				icon: {
 					id: "minecraft:sponge"
 				}
@@ -1318,6 +2063,15 @@
 			y: 5.0d
 		}
 		{
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "7E2641B15D6AF49E"
 			preset: "advancement"
 			quest_enhance_disable_scroll_paging: false
@@ -1329,12 +2083,34 @@
 			}]
 			tasks: [
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "16CAC410F6BBE772"
 					stat: "minecraft:pig_one_cm"
 					type: "stat"
 					value: 10000
 				}
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "4F6C803E22B3FF71"
 					item: { count: 1, id: "minecraft:carrot_on_a_stick" }
 					type: "item"
@@ -1345,6 +2121,15 @@
 		}
 		{
 			dependencies: ["407BBCE05BCE9039"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "001588EAB32E428A"
 			preset: "advancement"
 			quest_enhance_disable_scroll_paging: false
@@ -1360,6 +2145,17 @@
 			tasks: [{
 				advancement: "minecraft:husbandry/feed_snifflet"
 				criterion: ""
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "729D77D2C5B6DF21"
 				type: "advancement"
 			}]
@@ -1367,6 +2163,15 @@
 			y: 6.5d
 		}
 		{
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "407BBCE05BCE9039"
 			preset: "advancement"
 			quest_enhance_disable_scroll_paging: false
@@ -1390,6 +2195,17 @@
 			tasks: [{
 				advancement: "minecraft:husbandry/obtain_sniffer_egg"
 				criterion: ""
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "45106B8C35A3B6D9"
 				type: "advancement"
 			}]
@@ -1397,6 +2213,15 @@
 			y: 6.5d
 		}
 		{
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "4BE2F61081D4D690"
 			preset: "animal"
 			quest_enhance_disable_scroll_paging: false
@@ -1416,6 +2241,17 @@
 			shape: "heart"
 			tasks: [{
 				entity: "minecraft:allay"
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "44BC96F04140C22D"
 				search_radius_blocks: 64
 				target_radius_blocks: 5
@@ -1425,6 +2261,15 @@
 			y: -4.0d
 		}
 		{
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "2D8511D462DFF413"
 			preset: "animal"
 			quest_enhance_disable_scroll_paging: false
@@ -1444,6 +2289,17 @@
 			shape: "heart"
 			tasks: [{
 				entity: "quark:stoneling"
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "04248DE3EBB981D7"
 				search_radius_blocks: 64
 				target_radius_blocks: 5
@@ -1453,6 +2309,15 @@
 			y: -4.0d
 		}
 		{
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "72AEC02678301699"
 			preset: "advancement"
 			quest_enhance_disable_scroll_paging: false
@@ -1476,6 +2341,17 @@
 			tasks: [{
 				advancement: "fabled_wylds:misc/deviled_egg"
 				criterion: ""
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "56E0DF38123C4DE4"
 				type: "advancement"
 			}]
@@ -1483,6 +2359,15 @@
 			y: -0.5d
 		}
 		{
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "5D5261F404366454"
 			preset: "boss"
 			quest_enhance_disable_scroll_paging: false
@@ -1514,6 +2399,17 @@
 			shape: "diamond"
 			tasks: [{
 				entity: "minecraft:wither"
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				icon: {
 					components: {
 						"!ftbquests:icon": { }
@@ -1529,6 +2425,15 @@
 			y: -0.75d
 		}
 		{
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "7C47161393ACC4BE"
 			preset: "advancement"
 			quest_enhance_disable_scroll_paging: false
@@ -1552,6 +2457,17 @@
 			tasks: [{
 				advancement: "minecraft:husbandry/leash_all_frog_variants"
 				criterion: ""
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				icon: {
 					id: "plushie_buddies:plushie_frog"
 				}
@@ -1563,6 +2479,15 @@
 		}
 		{
 			dependencies: ["6CD4F0A4650CBA2F"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "4CEA87A9E500920A"
 			quest_enhance_disable_scroll_paging: false
 			rewards: [
@@ -1583,6 +2508,17 @@
 			]
 			tasks: [{
 				entity: "minecraft:snow_golem"
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				hand_mode: "ANY"
 				held_item_tag: "c:tools/shears"
 				id: "4F2D827D70648964"
@@ -1596,6 +2532,15 @@
 		{
 			can_repeat: true
 			dependencies: ["43B3A6804B59565E"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "3345FC1A378395B0"
 			preset: "hunt"
 			quest_enhance_disable_scroll_paging: false
@@ -1621,6 +2566,17 @@
 			shape: "square"
 			tasks: [{
 				entity: "minecraft:phantom"
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				icon: {
 					components: {
 						"!ftbquests:icon": { }
@@ -1638,6 +2594,15 @@
 		{
 			can_repeat: true
 			dependencies: ["43B3A6804B59565E"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			icon: {
 				components: {
 					"minecraft:custom_data": {
@@ -1660,6 +2625,17 @@
 			shape: "square"
 			tasks: [{
 				entity: "minecraft:stray"
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				icon: {
 					id: "plushie_buddies:plushie_stray"
 				}
@@ -1673,6 +2649,15 @@
 		{
 			can_repeat: true
 			dependencies: ["43B3A6804B59565E"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "4B0AA843233D3541"
 			preset: "hunt"
 			quest_enhance_disable_scroll_paging: false
@@ -1687,6 +2672,17 @@
 			shape: "square"
 			tasks: [{
 				entity: "minecraft:blaze"
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				icon: {
 					components: {
 						"!ftbquests:icon": { }
@@ -1702,6 +2698,15 @@
 			y: 4.0d
 		}
 		{
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "53AF5433A87A542B"
 			preset: "animal"
 			quest_enhance_disable_scroll_paging: false
@@ -1717,6 +2722,17 @@
 			shape: "heart"
 			tasks: [{
 				entity: "crittersandcompanions:ferret"
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "239EE4540D0409F4"
 				search_radius_blocks: 64
 				target_radius_blocks: 5
@@ -1726,6 +2742,15 @@
 			y: -1.0d
 		}
 		{
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "7E223824125871A6"
 			preset: "animal"
 			quest_enhance_disable_scroll_paging: false
@@ -1741,6 +2766,17 @@
 			shape: "heart"
 			tasks: [{
 				entity: "crittersandcompanions:shima_enaga"
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "3235F07CEE045C89"
 				search_radius_blocks: 64
 				target_radius_blocks: 5
@@ -1750,6 +2786,15 @@
 			y: -1.0d
 		}
 		{
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "07A746772D2FE875"
 			preset: "animal"
 			quest_enhance_disable_scroll_paging: false
@@ -1765,6 +2810,17 @@
 			shape: "heart"
 			tasks: [{
 				entity: "crittersandcompanions:jumping_spider"
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "00445D37DD00F64E"
 				search_radius_blocks: 64
 				target_radius_blocks: 5
@@ -1775,6 +2831,15 @@
 		}
 		{
 			dependencies: ["04FD578146464FA6"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "5C59C06355C7DC77"
 			preset: "item"
 			quest_enhance_disable_scroll_paging: false
@@ -1790,11 +2855,33 @@
 			}]
 			tasks: [
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "4A4A4533400ED7D0"
 					item: { count: 1, id: "adorablehamsterpets:acorn_hat" }
 					type: "item"
 				}
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "777DD40999ED2076"
 					item: { count: 1, id: "crittersandcompanions:acorn_hat" }
 					type: "item"
@@ -1804,6 +2891,15 @@
 			y: 12.0d
 		}
 		{
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "02000A977B04C84A"
 			preset: "boss"
 			quest_enhance_disable_scroll_paging: false
@@ -1815,6 +2911,17 @@
 			}]
 			tasks: [{
 				entity: "mowziesmobs:umvuthi"
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				icon: {
 					id: "mowziesmobs:umvuthana_mask_faith"
 				}
@@ -1827,6 +2934,15 @@
 			y: -0.75d
 		}
 		{
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			icon: {
 				components: {
 					"minecraft:custom_data": {
@@ -1851,6 +2967,17 @@
 			shape: "window"
 			tasks: [{
 				entity: "mowziesmobs:foliaath"
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				icon: {
 					id: "mowziesmobs:foliaath_seed"
 				}
@@ -1863,6 +2990,15 @@
 			y: 0.5d
 		}
 		{
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "5085CFDE1E14144D"
 			preset: "boss"
 			quest_enhance_disable_scroll_paging: false
@@ -1875,6 +3011,17 @@
 			shape: "diamond"
 			tasks: [{
 				entity: "mowziesmobs:ferrous_wroughtnaut"
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "75258C714037F2D3"
 				type: "kill"
 				value: 1L
@@ -1883,6 +3030,15 @@
 			y: -0.75d
 		}
 		{
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "732D5D711B04EA36"
 			preset: "boss"
 			quest_enhance_disable_scroll_paging: false
@@ -1893,6 +3049,17 @@
 				type: "random"
 			}]
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "4D5562BB10C6B788"
 				item: { count: 1, id: "mowziesmobs:ice_crystal" }
 				type: "item"
@@ -1901,6 +3068,15 @@
 			y: -0.75d
 		}
 		{
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "3A6AAE50897DE597"
 			preset: "item"
 			quest_enhance_disable_scroll_paging: false
@@ -1923,16 +3099,49 @@
 			shape: "hexagon"
 			tasks: [
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "394855991D625C6F"
 					item: { count: 1, id: "farmersdelight:dog_food" }
 					type: "item"
 				}
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "131B2886F1B7F2EC"
 					item: { count: 1, id: "farm_and_charm:horse_fodder" }
 					type: "item"
 				}
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "362F87E25A0D8B1C"
 					item: { count: 1, id: "farm_and_charm:cat_food" }
 					type: "item"
@@ -1943,6 +3152,15 @@
 		}
 		{
 			dependencies: ["02000A977B04C84A"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "10842BA380044BC5"
 			preset: "progression"
 			quest_enhance_disable_scroll_paging: false
@@ -1954,6 +3172,17 @@
 			}]
 			tasks: [{
 				entity: "mowziesmobs:umvuthi"
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				hand_mode: "ANY"
 				held_item: { count: 1, id: "minecraft:gold_block" }
 				icon: {
@@ -1968,6 +3197,15 @@
 			y: 0.5d
 		}
 		{
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "10B1302ACCCD9267"
 			quest_enhance_disable_scroll_paging: false
 			rewards: [{
@@ -1977,6 +3215,17 @@
 				type: "random"
 			}]
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				icon: {
 					components: {
 						"ftbquests:icon": "minecraft:item/cow_spawn_egg"
@@ -1990,6 +3239,15 @@
 			y: -2.5d
 		}
 		{
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "48AC182727639D93"
 			quest_enhance_disable_scroll_paging: false
 			rewards: [{
@@ -2003,6 +3261,17 @@
 				type: "contactquests:parcel_random"
 			}]
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				icon: {
 					components: {
 						"ftbquests:icon": "minecraft:item/skeleton_spawn_egg"
@@ -2016,6 +3285,15 @@
 			y: -2.5d
 		}
 		{
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "23434C187A604663"
 			quest_enhance_disable_scroll_paging: false
 			rewards: [{
@@ -2029,6 +3307,17 @@
 				type: "contactquests:parcel_random"
 			}]
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				icon: {
 					components: {
 						"ftbquests:icon": "twilightforest:textures/map/decorations/lich_tower.png"
@@ -2042,6 +3331,15 @@
 			y: -2.5d
 		}
 		{
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "152F190C5689B5C0"
 			preset: "animal"
 			quest_enhance_disable_scroll_paging: false
@@ -2056,6 +3354,17 @@
 			}]
 			tasks: [{
 				entity: "cnb:sporeling"
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "52C3F3877C1085AC"
 				search_radius_blocks: 64
 				target_radius_blocks: 5
@@ -2065,6 +3374,15 @@
 			y: -1.0d
 		}
 		{
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "2086E3E58435ED32"
 			preset: "animal"
 			quest_enhance_disable_scroll_paging: false
@@ -2079,6 +3397,17 @@
 			}]
 			tasks: [{
 				entity: "minecraft:cat"
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "0D0F597F01B3C94C"
 				search_radius_blocks: 64
 				target_radius_blocks: 5
@@ -2088,6 +3417,15 @@
 			y: 0.5d
 		}
 		{
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "04FD578146464FA6"
 			preset: "start"
 			quest_enhance_disable_scroll_paging: false
@@ -2102,6 +3440,17 @@
 			}]
 			tasks: [{
 				entity: "adorablehamsterpets:hamster"
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "6934A7F04069185A"
 				search_radius_blocks: 64
 				target_radius_blocks: 5

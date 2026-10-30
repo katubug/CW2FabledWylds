@@ -1,4 +1,16 @@
-#Show the quality tier and crafter lines in item tooltips.
+#Show the quality tier, crafter and food bonus lines in item tooltips, and the tier on mobs and players (see entityQualityDisplay).
 showQualityTooltip = true
-#Quality tier ids whose name is left out of item tooltips, e.g. ["quality_api:standard"].
+#Quality tier ids whose name is left out of item tooltips, slot markers and mob and player labels, e.g. ["quality_api:standard"].
 hiddenTooltipTiers = []
+#Draw a small star in the tier's colour in the top-left corner of every item with a quality, in inventories and the hotbar. Tiers in hiddenTooltipTiers get none.
+showQualityMarker = true
+#How an item's quality shows in tooltips: BOTH the tier name followed by stars, SYMBOLS the stars alone, or TEXT the name alone.
+#Stars are half a star per level above -2, at most five: crude is half a star, standard one star, masterwork three. Tiers at level -2 or below always show their name.
+#Allowed Values: BOTH, SYMBOLS, TEXT
+qualityTooltipStyle = "BOTH"
+#How a mob or player's quality shows, in the qualityTooltipStyle: NAMETAG looking at it shows its name and tier above its head,
+#INSPECT sneaking and right-clicking it with an empty main hand shows them above the hotbar, OFF neither.
+#Allowed Values: NAMETAG, INSPECT, OFF
+entityQualityDisplay = "NAMETAG"
+#Mobs and players whose tier sets a particle_color give off an occasional sparkle in that colour.
+showEntityQualityParticles = true

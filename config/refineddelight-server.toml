@@ -3,18 +3,18 @@
 	#source. The battery pays for network access, not for the heat that cooks the food.
 	# Default: 200000
 	# Range: 0 ~ 9223372036854775807
-	batteryCapacity = 200000
+	batteryCapacity = 1
 	#FE drained from the pot's battery for each ingredient pulled from the RS network.
 	#Set to 0 to make pulling free (heat is then the only cost of cooking).
 	# Default: 20
 	# Range: 0 ~ 9223372036854775807
-	drainPerIngredient = 20
+	drainPerIngredient = 0
 	#FE drained from the pot's battery every tick while it holds a live link to the network,
 	#even when idle — keeping the connection open is not free. When the battery can't pay, the
 	#pot drops offline until it is recharged. Set to 0 to make an open link free.
 	# Default: 1
 	# Range: 0 ~ 9223372036854775807
-	idleDrainPerTick = 1
+	idleDrainPerTick = 0
 	#If true, the recipe list shows every Farmer's Delight cooking recipe. If false, only
 	#recipes the player has unlocked are shown.
 	showAllRecipes = true

@@ -8,7 +8,7 @@ craftInheritanceDamageableOnly = true
 # Default: 0.0
 # Range: 0.0 ~ 1.0
 downgradeChance = 0.0
-#Roll a weighted random quality for damageable items crafted from ingredients without quality.
+#Roll a weighted random quality for results crafted from ingredients without quality (damageable results only while craftInheritanceDamageableOnly is on).
 rollOnCraft = false
 #Record the crafting player's name on items that receive a quality when crafted.
 recordCrafter = true
@@ -20,3 +20,10 @@ brokenInsteadOfDestroyed = true
 breakDowngradeChance = 0.75
 #Whether items of the highest quality tier can lose their tier when broken.
 highestTierCanDowngrade = true
+#Players keep their entity quality when they die and respawn. Off clears it on death. Mob conversions keep quality either way.
+keepPlayerQualityOnDeath = true
+#How a bred animal's quality is derived from its parents when at least one has quality. A parent without quality counts as level 0.
+#HIGHEST/LOWEST take that parent's level, AVERAGE takes the mean level and rolls the fractional part up or down, NONE leaves the baby plain.
+#QualityBreedEvent is posted either way, so another mod can set NONE here and decide the baby's quality itself.
+#Allowed Values: HIGHEST, LOWEST, AVERAGE, NONE
+breedInheritance = "AVERAGE"

@@ -6,8 +6,8 @@ entityDistanceScaling:0.75
 entityShadows:false
 forceUnicodeFont:false
 japaneseGlyphVariants:false
-fov:0.35
-fovEffectScale:1.0
+fov:0.325
+fovEffectScale:0.6055470144812537
 darknessEffectScale:1.0
 glintSpeed:0.5
 glintStrength:0.75
@@ -27,7 +27,7 @@ simulationDistance:8
 screenEffectScale:0.0880281690140845
 soundDevice:""
 autoJump:false
-operatorItemsTab:true
+operatorItemsTab:false
 autoSuggestions:true
 chatColors:true
 chatLinks:true
@@ -35,7 +35,7 @@ chatLinksPrompt:true
 discrete_mouse_scroll:false
 invertYMouse:false
 realmsNotifications:true
-showSubtitles:true
+showSubtitles:false
 directionalAudio:false
 touchscreen:false
 bobView:false
@@ -48,8 +48,8 @@ mouseSensitivity:0.5
 damageTiltStrength:1.0
 highContrast:false
 narratorHotkey:true
-resourcePacks:["mod/punchy:resourcepacks/punchy","vanilla","file/Icon Xaero\u0027s 1.22.zip","generated/fragmentum_layer","mod_resources","moonlight:merged_pack","quest_enhance","mod/atmosfera:resourcepacks/dungeons","file/FreshAnimations_v1.10.4-KatuEditNoSpiders - Copy.zip","file/FA+All_Extensions-v1.8.1-KatuEditNoSpiders.zip","vanillabackport:freshly_animated","file/-1.21.2 Fresh Moves v3.1 (With Animated Eyes).zip","file/Better-Leaves-9.5.zip","file/BetterEndCities-BetterEnd-1.21.zip","file/DWBushyLeaves.zip","file/EnderEyes_26.2_v3.1.zip","file/Fluffy Carpets v1.1.zip","file/LowOnFire 1.21.3.zip","file/Serified Font v1.2.zip","file/elysiapresents_lootr.zip","file/mod-descriptions-v11.1.zip","scholar:colored_books","scholar:chiseled_bookshelf_colored_books","mod/meadow:resourcepacks/betterleaves","mod/meadow:resourcepacks/connectedtexturesupport","file/R1.21.1_Olives_Garden_V01.00.zip","file/QuarkFACompat_v3_final.zip","file/Nether Depths - Re-Fleshed.zip","file/Icon Fresh 0.4.zip","file/Fresh Food 1.3.2.zip","file/FA+Emissive-v1.6.zip","file/FA+Details-v2.2.1.zip","file/Display Armor v1.0.0.1.zip","file/Create_Style_for_Refined_Storage.zip","file/waystones_1.21.1.zip","file/§eTorches§8-§eReimagined§0_§8[v1.8]§0.zip","file/ForgottenTides1.20x-1.21x_v2.0.zip","file/Beautiful Enchanted Books - MC 1.21.1 - 8.0.0.zip","file/BetterBetterX-v1.1-noStone.zip","file/ColdTom\u0027s backpack.zip","file/Enchantment Descriptions 1.2.zip","file/SmoothDrawers_1.21.1_v3.zip","file/Suren Sophisticated Storage v3.0 Universal.zip","file/The-RCP.zip","file/Cottagecore GUI v1.0.zip","file/Overgrown Flowery Hotbar.zip"]
-incompatibleResourcePacks:["file/BetterEndCities-BetterEnd-1.21.zip","file/elysiapresents_lootr.zip","file/Nether Depths - Re-Fleshed.zip","file/Fresh Food 1.3.2.zip","file/Enchantment Descriptions 1.2.zip","file/The-RCP.zip"]
+resourcePacks:["mod/punchy:resourcepacks/punchy","vanilla","file/Icon Xaero\u0027s 1.22.zip","generated/fragmentum_layer","mod_resources","moonlight:merged_pack","quest_enhance","mod/atmosfera:resourcepacks/dungeons","file/BetterEndCities-BetterEnd-1.21.zip","file/DWBushyLeaves.zip","file/Fluffy Carpets v1.1.zip","file/LowOnFire 1.21.3.zip","file/Serified Font v1.2.zip","file/elysiapresents_lootr.zip","file/mod-descriptions-v11.1.zip","scholar:colored_books","scholar:chiseled_bookshelf_colored_books","mod/meadow:resourcepacks/betterleaves","mod/meadow:resourcepacks/connectedtexturesupport","file/R1.21.1_Olives_Garden_V01.00.zip","file/Nether Depths - Re-Fleshed.zip","file/Fresh Food 1.3.2.zip","file/Display Armor v1.0.0.1.zip","file/Create_Style_for_Refined_Storage.zip","file/waystones_1.21.1.zip","file/Beautiful Enchanted Books - MC 1.21.1 - 8.0.0.zip","file/BetterBetterX-v1.1-noStone.zip","file/ColdTom\u0027s backpack.zip","file/SmoothDrawers_1.21.1_v3.zip","file/Suren Sophisticated Storage v3.0 Universal.zip","file/The-RCP.zip","file/Overgrown Flowery Hotbar.zip","file/Fantasy_Ores_v9.zip","file/Smooth Signs +Border.zip","file/Better-Leaves-9.6.zip","heartstone:heart_particles","file/[Compressed] Alternative Rain Sounds 1.21-1.21.1.zip","file/TwilightJAPPAPack-1.21.1-1.2.0.zip","file/ForgottenTides1.20x-1.21x_v2.1.zip","file/EnderEyes_26.3_v3.1.zip","file/Enchantment Descriptions Compat 1.4.zip","file/Cottagecore GUI v1.0.zip","file/FreshAnimations_v1.11.1_1.20-KatuEditNoSpiders.zip","file/FA+All_Extensions-v1.8.1-KatuEditNoSpiders.zip","file/FA+Details-v2.2.1.zip","file/FA+Emissive-v1.6.zip","vanillabackport:freshly_animated","file/Icon Fresh 1.3.zip","file/QuarkFACompat_v3_final.zip","file/-1.21.2 Fresh Moves v3.1 (With Animated Eyes).zip","file/Blues_Better_Witches.zip","file/MidoriRefreshed.zip","file/crops3d1.21.1.zip","file/§eTorches§8-§eReimagined§0_§8[v1.10]§0.zip"]
+incompatibleResourcePacks:["file/BetterEndCities-BetterEnd-1.21.zip","file/elysiapresents_lootr.zip","file/Nether Depths - Re-Fleshed.zip","file/Fresh Food 1.3.2.zip","file/The-RCP.zip","file/Fantasy_Ores_v9.zip","file/Smooth Signs +Border.zip","heartstone:heart_particles","file/Enchantment Descriptions Compat 1.4.zip","file/Blues_Better_Witches.zip"]
 lastServer:
 lang:en_us
 chatVisibility:0
@@ -75,7 +75,7 @@ tutorialStep:none
 mouseWheelSensitivity:1.0
 rawMouseInput:true
 glDebugVerbosity:1
-skipMultiplayerWarning:false
+skipMultiplayerWarning:true
 hideMatchedNames:true
 joinedFirstServer:false
 hideBundleTutorial:true
@@ -104,3 +104,5 @@ modelPart_right_sleeve:true
 modelPart_left_pants_leg:true
 modelPart_right_pants_leg:true
 modelPart_hat:true
+musicToast:"never"
+musicFrequency:"DEFAULT"

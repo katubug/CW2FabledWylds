@@ -9,6 +9,7 @@
     "imageOpacity": 0.6,
     "specialSlideChance": 0.05,
     "enableStarDust": true,
+    "enableSpaceObjects": true,
     "showSlideProgress": true,
     "enableOverlay": true,
     "enableImage": true,

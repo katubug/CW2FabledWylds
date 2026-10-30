@@ -1,6 +1,6 @@
 {
   "configVersion": 9,
-  "safeMode": true,
+  "safeMode": false,
   "renderNametagsThroughWalls": true,
   "blockEntityWhitelist": [
     "botania:flame_ring",

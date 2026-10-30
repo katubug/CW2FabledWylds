@@ -3,15 +3,6 @@
   "mod_name": "Refined Storage",
   "mod_id": "refinedstorage",
   "achievements": {
-    "destruction": {
-      "display_name": "Destruction",
-      "original_name": "Destruction",
-      "enabled": true,
-      "icon": "refinedstorage:destructor",
-      "rewards": {
-        "attributes": {}
-      }
-    },
     "no_cables_required": {
       "display_name": "No cables required",
       "original_name": "No cables required",
@@ -66,33 +57,6 @@
         "attributes": {}
       }
     },
-    "managing_patterns": {
-      "display_name": "Managing patterns",
-      "original_name": "Managing patterns",
-      "enabled": true,
-      "icon": "refinedstorage:autocrafter_manager",
-      "rewards": {
-        "attributes": {}
-      }
-    },
-    "wireless_monitoring": {
-      "display_name": "Wireless monitoring",
-      "original_name": "Wireless monitoring",
-      "enabled": true,
-      "icon": "refinedstorage:wireless_autocrafting_monitor",
-      "rewards": {
-        "attributes": {}
-      }
-    },
-    "portable_storage": {
-      "display_name": "Portable storage",
-      "original_name": "Portable storage",
-      "enabled": true,
-      "icon": "refinedstorage:portable_grid",
-      "rewards": {
-        "attributes": {}
-      }
-    },
     "drives": {
       "display_name": "Drives",
       "original_name": "Drives",
@@ -102,29 +66,11 @@
         "attributes": {}
       }
     },
-    "storing_fluids": {
-      "display_name": "Storing fluids",
-      "original_name": "Storing fluids",
-      "enabled": true,
-      "icon": "refinedstorage:64b_fluid_storage_disk",
-      "rewards": {
-        "attributes": {}
-      }
-    },
     "storing_externally": {
       "display_name": "Storing externally",
       "original_name": "Storing externally",
       "enabled": true,
       "icon": "refinedstorage:external_storage",
-      "rewards": {
-        "attributes": {}
-      }
-    },
-    "autocrafting_on_demand": {
-      "display_name": "Autocrafting on demand",
-      "original_name": "Autocrafting on demand",
-      "enabled": true,
-      "icon": "refinedstorage:autocrafting_upgrade",
       "rewards": {
         "attributes": {}
       }
@@ -143,24 +89,6 @@
       "original_name": "Security",
       "enabled": true,
       "icon": "refinedstorage:security_manager",
-      "rewards": {
-        "attributes": {}
-      }
-    },
-    "autocrafting": {
-      "display_name": "Autocrafting",
-      "original_name": "Autocrafting",
-      "enabled": true,
-      "icon": "refinedstorage:autocrafter",
-      "rewards": {
-        "attributes": {}
-      }
-    },
-    "detecting": {
-      "display_name": "Detecting",
-      "original_name": "Detecting",
-      "enabled": true,
-      "icon": "refinedstorage:detector",
       "rewards": {
         "attributes": {}
       }
@@ -192,29 +120,11 @@
         "attributes": {}
       }
     },
-    "better_than_a_barrel": {
-      "display_name": "Better than a barrel",
-      "original_name": "Better than a barrel",
-      "enabled": true,
-      "icon": "refinedstorage:storage_monitor",
-      "rewards": {
-        "attributes": {}
-      }
-    },
     "viewing_your_storage": {
       "display_name": "Viewing your storage",
       "original_name": "Viewing your storage",
       "enabled": true,
       "icon": "refinedstorage:grid",
-      "rewards": {
-        "attributes": {}
-      }
-    },
-    "monitoring": {
-      "display_name": "Monitoring",
-      "original_name": "Monitoring",
-      "enabled": true,
-      "icon": "refinedstorage:autocrafting_monitor",
       "rewards": {
         "attributes": {}
       }
@@ -233,15 +143,6 @@
       "original_name": "Interfacing with disks",
       "enabled": true,
       "icon": "refinedstorage:disk_interface",
-      "rewards": {
-        "attributes": {}
-      }
-    },
-    "construction": {
-      "display_name": "Construction",
-      "original_name": "Construction",
-      "enabled": true,
-      "icon": "refinedstorage:constructor",
       "rewards": {
         "attributes": {}
       }

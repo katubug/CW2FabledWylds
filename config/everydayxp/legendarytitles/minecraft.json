@@ -1165,6 +1165,15 @@
       "rewards": {
         "attributes": {}
       }
+    },
+    "adventure/spear_many_mobs": {
+      "display_name": "Mob Kabob",
+      "original_name": "Mob Kabob",
+      "icon": "minecraft:iron_spear",
+      "enabled": true,
+      "rewards": {
+        "attributes": {}
+      }
     }
   }
 }

@@ -1,0 +1,5 @@
+[soulbound]
+	#If true, a soulbound item that also carries Curse of Vanishing is kept through death like any
+	#other soulbound item. If false, the curse wins: the item is left in the inventory and vanilla
+	#destroys it on death.
+	keepVanishingCursedItems = false

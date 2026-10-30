@@ -8,6 +8,8 @@
   "transparent_horses": "yes",
   "gender_breeding": "yes",
   "cart_pickup": "yes",
+  "plough_foliage": "yes",
+  "plough_crops": "no",
   "leaf_passthrough": "yes",
   "hoof_dust": "yes",
   "rear_neigh": "yes",
@@ -74,13 +76,17 @@
     "spawn_group_max": 6,
     "spawn_probability_floor": 0.1,
     "revive_xp_levels": 10,
-    "revive_bond_loss": 20
+    "revive_bond_loss": 20,
+    "whistle_range": 0,
+    "dismount_command": "wander"
   },
   "hud": {
     "charge_meter_side": "right",
     "charge_meter_gap": 4,
     "harness_gauge_side": "left",
-    "harness_gauge_gap": 4
+    "harness_gauge_gap": 4,
+    "radial_style": "horseshoe",
+    "ability_banners": "yes"
   },
   "breeding_foods": [
     "minecraft:golden_carrot",

@@ -188,6 +188,15 @@
 	}]
 	quests: [
 		{
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "5688211768F55F90"
 			preset: "start"
 			quest_enhance_disable_scroll_paging: false
@@ -212,6 +221,17 @@
 			shape: "rsquare"
 			size: 2.0d
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "491F79BB8987D1C2"
 				type: "checkmark"
 			}]
@@ -220,6 +240,15 @@
 		}
 		{
 			dependencies: ["2B1B9108FF7A3FB3"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "410FE13D777DE1C8"
 			preset: "milestone"
 			quest_enhance_disable_scroll_paging: false
@@ -236,17 +265,50 @@
 			size: 1.5d
 			tasks: [
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "01FBD66CCFAB87A5"
 					item: { count: 1, id: "enchanted:exhale_of_the_horned_one" }
 					type: "item"
 				}
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "4C960CCB6A83F868"
 					item: { count: 1, id: "enchanted:breath_of_the_goddess" }
 					type: "item"
 				}
 				{
 					count: 6L
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "0CFBE280BEA4A23D"
 					item: { count: 1, id: "enchanted:altar" }
 					type: "item"
@@ -256,6 +318,15 @@
 			y: 2.25d
 		}
 		{
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "2B1B9108FF7A3FB3"
 			preset: "start"
 			quest_enhance_disable_scroll_paging: false
@@ -295,6 +366,17 @@
 				}
 			]
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "1BE0E534AB0AA619"
 				item: { count: 1, id: "enchanted:witch_oven" }
 				type: "item"
@@ -304,6 +386,15 @@
 		}
 		{
 			dependencies: ["410FE13D777DE1C8"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			icon: {
 				id: "minecraft:skeleton_skull"
 			}
@@ -326,16 +417,49 @@
 			}]
 			tasks: [
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "27B706D6109DC8A1"
 					item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(minecraft:candles)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 					type: "item"
 				}
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "7A5F74FCC0FF28AD"
 					item: { components: { "ftbfiltersystem:filter": "or(item(minecraft:skeleton_skull)item(minecraft:wither_skeleton_skull)item(minecraft:player_head))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 					type: "item"
 				}
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "704C112BD1566F08"
 					item: { components: { "ftbfiltersystem:filter": "or(item(enchanted:chalice)item(supplementaries:goblet))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 					type: "item"
@@ -346,6 +470,15 @@
 		}
 		{
 			dependencies: ["5688211768F55F90"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "182C1C3812C31B0B"
 			preset: "progression"
 			quest_enhance_disable_scroll_paging: false
@@ -365,16 +498,49 @@
 			}]
 			tasks: [
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "138FC408042D2352"
 					item: { count: 1, id: "hexerei:book_of_shadows" }
 					type: "item"
 				}
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "675ABB3F48E7C726"
 					item: { components: { "modopedia:book": "enchanted:art_of_witchcraft" }, count: 1, id: "modopedia:book" }
 					type: "item"
 				}
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "17762D57E632FADA"
 					item: { count: 1, id: "hexalia:verdant_grimoire" }
 					type: "item"
@@ -385,6 +551,15 @@
 		}
 		{
 			dependencies: ["182C1C3812C31B0B"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "4655801A35B3BAB2"
 			preset: "milestone"
 			quest_enhance_disable_scroll_paging: false
@@ -402,51 +577,161 @@
 			size: 1.5d
 			tasks: [
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "0FA4B1D348282685"
 					item: { count: 1, id: "hexerei:sage" }
 					type: "item"
 				}
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "5448C5E8993D7881"
 					item: { count: 1, id: "hexerei:belladonna_flowers" }
 					type: "item"
 				}
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "205CB9BC51733C21"
 					item: { count: 1, id: "enchanted:water_artichoke" }
 					type: "item"
 				}
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "272F57A18B787558"
 					item: { count: 1, id: "hexerei:yellow_dock_leaves" }
 					type: "item"
 				}
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "23D685539BC336A6"
 					item: { count: 1, id: "hexerei:mugwort_leaves" }
 					type: "item"
 				}
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "666E56694F5CC3E7"
 					item: { count: 1, id: "hexerei:mandrake_flowers" }
 					type: "item"
 				}
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "429D3C8D3CCE8971"
 					item: { count: 1, id: "hexalia:mandrake" }
 					type: "item"
 				}
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "05A8437EBCCDDFA2"
 					item: { count: 1, id: "enchanted:wolfsbane_flower" }
 					type: "item"
 				}
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "6052C7F703F92B48"
 					item: { count: 1, id: "roots:wildroot" }
 					type: "item"
 				}
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "0CEB90AC4D22905D"
 					item: { count: 1, id: "roots:grove_moss" }
 					type: "item"
@@ -456,6 +741,15 @@
 			y: -3.5d
 		}
 		{
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "2E3769733A0BFF69"
 			preset: "progression"
 			quest_enhance_disable_scroll_paging: false
@@ -471,6 +765,17 @@
 			}]
 			tasks: [{
 				entity: "minecraft:cat"
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "0FA0667964A6F377"
 				type: "tame_mob"
 				value: 1L
@@ -479,6 +784,15 @@
 			y: 14.0d
 		}
 		{
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "57CEB5677AF42CCB"
 			preset: "start"
 			quest_enhance_disable_scroll_paging: false
@@ -491,6 +805,17 @@
 				type: "item"
 			}]
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "4D4FA941F4C2B6D0"
 				item: { count: 1, id: "enchanted:broom" }
 				type: "item"
@@ -500,6 +825,15 @@
 		}
 		{
 			dependencies: ["182C1C3812C31B0B"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "047370ADE354D8DB"
 			preset: "item"
 			quest_enhance_disable_scroll_paging: false
@@ -522,6 +856,17 @@
 				}
 			]
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "6D8496FFCD25B7E8"
 				item: { count: 1, id: "hexerei:book_of_shadows_altar" }
 				type: "item"
@@ -530,6 +875,15 @@
 			y: 1.0d
 		}
 		{
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "327D93798A7BE211"
 			preset: "milestone"
 			quest_enhance_disable_scroll_paging: false
@@ -564,6 +918,17 @@
 			]
 			size: 1.5d
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "488C14AA07A91B92"
 				item: { count: 1, id: "hexerei:mixing_cauldron" }
 				type: "item"
@@ -573,6 +938,15 @@
 		}
 		{
 			dependencies: ["327D93798A7BE211"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "13B72F5C0CF9E9FB"
 			preset: "milestone"
 			quest_enhance_disable_scroll_paging: false
@@ -610,6 +984,17 @@
 			]
 			size: 1.5d
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "7B8E1B3F9BD5C829"
 				item: { count: 1, id: "hexerei:blood_sigil" }
 				type: "item"
@@ -619,6 +1004,15 @@
 		}
 		{
 			dependencies: ["02CA3D4397E8BA25"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "257F1DCDEC619664"
 			preset: "item"
 			quest_enhance_disable_scroll_paging: false
@@ -636,6 +1030,17 @@
 				type: "contactquests:parcel"
 			}]
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "724157BA3D048364"
 				item: { count: 1, id: "hexerei:replacer_satchel" }
 				type: "item"
@@ -645,6 +1050,15 @@
 		}
 		{
 			dependencies: ["1698226644682207"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "02CA3D4397E8BA25"
 			preset: "progression"
 			quest_enhance_disable_scroll_paging: false
@@ -662,6 +1076,17 @@
 				type: "contactquests:parcel"
 			}]
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "74C05E33A1A78FDF"
 				item: { count: 1, id: "hexerei:small_satchel" }
 				type: "item"
@@ -671,6 +1096,15 @@
 		}
 		{
 			dependencies: ["02CA3D4397E8BA25"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "434E391D87C3EBD9"
 			preset: "item"
 			quest_enhance_disable_scroll_paging: false
@@ -689,6 +1123,17 @@
 				}
 			]
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "42B39DD407E13292"
 				item: { count: 1, id: "hexerei:ender_satchel" }
 				type: "item"
@@ -698,6 +1143,15 @@
 		}
 		{
 			dependencies: ["02CA3D4397E8BA25"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "7C899C8C278B0998"
 			preset: "item"
 			quest_enhance_disable_scroll_paging: false
@@ -713,6 +1167,17 @@
 			}]
 			shape: "hexagon"
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "6165D82B71E9171E"
 				item: { count: 1, id: "hexerei:broom_seat" }
 				type: "item"
@@ -722,6 +1187,15 @@
 		}
 		{
 			dependencies: ["1698226644682207"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "12C571F5FBC6B57C"
 			preset: "item"
 			quest_enhance_disable_scroll_paging: false
@@ -753,6 +1227,17 @@
 			]
 			shape: "hexagon"
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "675DC589F6C9FEB6"
 				item: { count: 1, id: "hexerei:broom_waterproof_tip" }
 				type: "item"
@@ -762,6 +1247,15 @@
 		}
 		{
 			dependencies: ["12C571F5FBC6B57C"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "76A73E61526B9EE1"
 			preset: "item"
 			quest_enhance_disable_scroll_paging: false
@@ -792,6 +1286,17 @@
 			]
 			shape: "hexagon"
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "5159842F9DC7FD8C"
 				item: { count: 1, id: "hexerei:broom_netherite_tip" }
 				type: "item"
@@ -801,6 +1306,15 @@
 		}
 		{
 			dependencies: ["1698226644682207"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "7793743B2F9DE215"
 			preset: "progression"
 			quest_enhance_disable_scroll_paging: false
@@ -815,6 +1329,17 @@
 				type: "contactquests:parcel_random"
 			}]
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "78EC7021D87AB697"
 				item: { count: 1, id: "hexerei:wet_broom_brush" }
 				type: "item"
@@ -824,6 +1349,15 @@
 		}
 		{
 			dependencies: ["7793743B2F9DE215"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "4014D768E23552B0"
 			preset: "item"
 			quest_enhance_disable_scroll_paging: false
@@ -849,6 +1383,17 @@
 			]
 			shape: "hexagon"
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "187D49C855C6716B"
 				item: { count: 1, id: "hexerei:wet_moon_dust_brush" }
 				type: "item"
@@ -858,6 +1403,15 @@
 		}
 		{
 			dependencies: ["7793743B2F9DE215"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "056F7888052BBEF2"
 			preset: "item"
 			quest_enhance_disable_scroll_paging: false
@@ -872,6 +1426,17 @@
 				type: "contactquests:parcel_random"
 			}]
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "3B0F714724380504"
 				item: { count: 1, id: "hexerei:herb_enhanced_broom_brush" }
 				type: "item"
@@ -881,6 +1446,15 @@
 		}
 		{
 			dependencies: ["57CEB5677AF42CCB"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "1698226644682207"
 			preset: "milestone"
 			quest_enhance_disable_scroll_paging: false
@@ -911,11 +1485,33 @@
 			]
 			tasks: [
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "7DCEB8A6B4301FD3"
 					item: { count: 1, id: "hexerei:broom_whistle" }
 					type: "item"
 				}
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "2D31CA9398913D94"
 					item: { components: { "ftbfiltersystem:filter": "or(item(hexerei:mahogany_broom)item(hexerei:willow_broom)item(hexerei:witch_hazel_broom))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 					type: "item"
@@ -926,6 +1522,15 @@
 		}
 		{
 			dependencies: ["34670D78DC22EC27"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "2AABE6469023F950"
 			preset: "item"
 			quest_enhance_disable_scroll_paging: false
@@ -955,6 +1560,17 @@
 				}
 			]
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "6271D4424F4DE0CD"
 				item: { count: 1, id: "hexerei:sage_bundle" }
 				type: "item"
@@ -964,6 +1580,15 @@
 		}
 		{
 			dependencies: ["327D93798A7BE211"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "34670D78DC22EC27"
 			preset: "item"
 			quest_enhance_disable_scroll_paging: false
@@ -978,6 +1603,17 @@
 				type: "contactquests:parcel_random"
 			}]
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "38F0D2AA68359BAC"
 				item: { count: 1, id: "hexerei:sage_burning_plate" }
 				type: "item"
@@ -987,6 +1623,15 @@
 		}
 		{
 			dependencies: ["4655801A35B3BAB2"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "05772A2D60C9FF3D"
 			preset: "item"
 			quest_enhance_disable_scroll_paging: false
@@ -1006,6 +1651,17 @@
 			}]
 			shape: "hexagon"
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "436CB6E46B3B076B"
 				item: { count: 1, id: "hexerei:herb_jar" }
 				type: "item"
@@ -1014,6 +1670,15 @@
 			y: -1.5d
 		}
 		{
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "18FD7541912B5772"
 			preset: "item"
 			quest_enhance_disable_scroll_paging: false
@@ -1028,6 +1693,17 @@
 			}]
 			shape: "banner"
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "6BB279A5AA82F107"
 				item: { count: 1, id: "hexerei:seed_mixture" }
 				type: "item"
@@ -1037,6 +1713,15 @@
 		}
 		{
 			dependencies: ["4655801A35B3BAB2"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "24C19E2033095FFA"
 			preset: "milestone"
 			quest_enhance_disable_scroll_paging: false
@@ -1052,6 +1737,17 @@
 			}]
 			size: 1.5d
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "45ECD184E676ED09"
 				item: { count: 1, id: "hexerei:pestle_and_mortar" }
 				type: "item"
@@ -1061,6 +1757,15 @@
 		}
 		{
 			dependencies: ["18FD7541912B5772"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			icon: {
 				components: {
 					"minecraft:custom_data": {
@@ -1084,6 +1789,17 @@
 			shape: "heart"
 			tasks: [{
 				entity: "hexerei:crow"
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "3B83DF1429158CE6"
 				search_radius_blocks: 64
 				target_radius_blocks: 5
@@ -1094,6 +1810,15 @@
 		}
 		{
 			dependencies: ["2F933DC876021A85"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "2EF910B028DA06B7"
 			preset: "item"
 			quest_enhance_disable_scroll_paging: false
@@ -1112,6 +1837,17 @@
 				type: "contactquests:parcel"
 			}]
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "389497740C370A4A"
 				item: { count: 1, id: "minecraft:gold_nugget" }
 				type: "item"
@@ -1121,6 +1857,15 @@
 		}
 		{
 			dependencies: ["2F933DC876021A85"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "2C760E07C84C91F2"
 			preset: "item"
 			quest_enhance_disable_scroll_paging: false
@@ -1150,6 +1895,17 @@
 				}
 			]
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "01F04DAC0D910CBC"
 				item: { count: 1, id: "hexerei:crow_flute" }
 				type: "item"
@@ -1159,6 +1915,15 @@
 		}
 		{
 			dependencies: ["2F933DC876021A85"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "0D8DA3376EF50A60"
 			preset: "item"
 			quest_enhance_disable_scroll_paging: false
@@ -1174,6 +1939,17 @@
 			}]
 			shape: "hexagon"
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "2888E00FB1D4D3D5"
 				item: { count: 1, id: "hexerei:crow_ankh_amulet" }
 				type: "item"
@@ -1183,6 +1959,15 @@
 		}
 		{
 			dependencies: ["327D93798A7BE211"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "0CE78F66E92FB026"
 			preset: "item"
 			quest_enhance_disable_scroll_paging: false
@@ -1228,6 +2013,17 @@
 			]
 			shape: "hexagon"
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "7E7042B5D9EA5B06"
 				item: { count: 1, id: "hexerei:candle_dipper" }
 				type: "item"
@@ -1237,6 +2033,15 @@
 		}
 		{
 			dependencies: ["0CE78F66E92FB026"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "512C813AEE3A5BCD"
 			preset: "item"
 			quest_enhance_disable_scroll_paging: false
@@ -1260,6 +2065,17 @@
 			]
 			shape: "hexagon"
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "6D8F60A172E688C7"
 				item: { count: 1, id: "hexerei:candelabra" }
 				type: "item"
@@ -1269,6 +2085,15 @@
 		}
 		{
 			dependencies: ["427FD234857AEBE8"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "593B80E42F663D6A"
 			preset: "item"
 			quest_enhance_disable_scroll_paging: false
@@ -1286,6 +2111,17 @@
 				type: "contactquests:parcel"
 			}]
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "286AD377C5E2B47A"
 				item: { count: 1, id: "hexerei:witch_boots" }
 				type: "item"
@@ -1298,6 +2134,15 @@
 				"50DC32C40279EF48"
 				"61101043D3A5BB43"
 			]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "427FD234857AEBE8"
 			preset: "progression"
 			quest_enhance_disable_scroll_paging: false
@@ -1316,6 +2161,17 @@
 				type: "contactquests:parcel"
 			}]
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "76507BA19151F1B1"
 				item: { count: 1, id: "hexerei:infused_fabric" }
 				type: "item"
@@ -1325,6 +2181,15 @@
 		}
 		{
 			dependencies: ["327D93798A7BE211"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "2E5DB4D84367E11B"
 			preset: "item"
 			quest_enhance_disable_scroll_paging: false
@@ -1356,6 +2221,17 @@
 			]
 			shape: "hexagon"
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "15EC7F22F2909AA0"
 				item: { count: 1, id: "hexerei:coffer" }
 				type: "item"
@@ -1365,6 +2241,15 @@
 		}
 		{
 			dependencies: ["1698226644682207"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "5FFDCF4E36648791"
 			preset: "item"
 			quest_enhance_disable_scroll_paging: false
@@ -1376,6 +2261,17 @@
 			}]
 			shape: "hexagon"
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "185BC12ED3E5009E"
 				item: { count: 1, id: "hexerei:mahogany_broom_stand" }
 				type: "item"
@@ -1385,6 +2281,15 @@
 		}
 		{
 			dependencies: ["427FD234857AEBE8"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "56D87707F4EA479B"
 			preset: "item"
 			quest_enhance_disable_scroll_paging: false
@@ -1399,6 +2304,17 @@
 				type: "contactquests:parcel_random"
 			}]
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "530E75B6474DD630"
 				item: { count: 1, id: "hexerei:witch_chestplate" }
 				type: "item"
@@ -1408,6 +2324,15 @@
 		}
 		{
 			dependencies: ["427FD234857AEBE8"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "30CF344B2B4C22E8"
 			preset: "item"
 			quest_enhance_disable_scroll_paging: false
@@ -1422,6 +2347,17 @@
 				type: "contactquests:parcel_random"
 			}]
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "2E4DAE009735A9AE"
 				item: { count: 1, id: "hexerei:witch_helmet" }
 				type: "item"
@@ -1431,6 +2367,15 @@
 		}
 		{
 			dependencies: ["30CF344B2B4C22E8"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "12BD390D5D9BA40F"
 			preset: "item"
 			quest_enhance_disable_scroll_paging: false
@@ -1446,6 +2391,17 @@
 			}]
 			shape: "hexagon"
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "7BD71B4C57FB882C"
 				item: { count: 1, id: "hexerei:mushroom_witch_hat" }
 				type: "item"
@@ -1455,6 +2411,15 @@
 		}
 		{
 			dependencies: ["182C1C3812C31B0B"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "196ECF57CAC465DF"
 			preset: "locate"
 			quest_enhance_disable_scroll_paging: false
@@ -1470,6 +2435,17 @@
 			}]
 			shape: "octagon"
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				icon: {
 					id: "hexerei:crystal_ball"
 				}
@@ -1482,6 +2458,15 @@
 		}
 		{
 			dependencies: ["4655801A35B3BAB2"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "621ACA8319D6CB93"
 			preset: "item"
 			quest_enhance_disable_scroll_paging: false
@@ -1500,6 +2485,17 @@
 			}]
 			shape: "hexagon"
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "567219C6B62AB26E"
 				item: { count: 1, id: "hexerei:herb_drying_rack" }
 				type: "item"
@@ -1512,6 +2508,15 @@
 				"410FE13D777DE1C8"
 				"6605ED243F07A169"
 			]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "6BE389D26249D046"
 			preset: "milestone"
 			quest_enhance_disable_scroll_paging: false
@@ -1542,11 +2547,33 @@
 			]
 			tasks: [
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "7A616E24FCF406F6"
 					item: { count: 1, id: "enchanted:ritual_chalk" }
 					type: "item"
 				}
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "378FA8EFAF2E7AB4"
 					item: { count: 1, id: "enchanted:golden_chalk" }
 					type: "item"
@@ -1557,6 +2584,15 @@
 		}
 		{
 			dependencies: ["4655801A35B3BAB2"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "4183514EA291214A"
 			preset: "item"
 			quest_enhance_disable_scroll_paging: false
@@ -1575,6 +2611,17 @@
 			}]
 			shape: "hexagon"
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "64E8C35BE36ADC2B"
 				item: { count: 1, id: "hexalia:mandrake" }
 				type: "item"
@@ -1584,6 +2631,15 @@
 		}
 		{
 			dependencies: ["4655801A35B3BAB2"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "37FCA731EEAB2C0D"
 			preset: "item"
 			quest_enhance_disable_scroll_paging: false
@@ -1619,6 +2675,17 @@
 			]
 			shape: "hexagon"
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "1E9EAC77EF7DDC90"
 				item: { count: 1, id: "enchanted:tongue_of_dog" }
 				type: "item"
@@ -1628,6 +2695,15 @@
 		}
 		{
 			dependencies: ["0C7EA86F283677BB"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "794CACBA42AE1AB2"
 			preset: "progression"
 			quest_enhance_disable_scroll_paging: false
@@ -1646,6 +2722,17 @@
 			}]
 			shape: "hexagon"
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "47DEE495E01049F1"
 				item: { count: 1, id: "hexalia:athame" }
 				type: "item"
@@ -1655,6 +2742,15 @@
 		}
 		{
 			dependencies: ["182C1C3812C31B0B"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "50DC32C40279EF48"
 			preset: "progression"
 			quest_enhance_disable_scroll_paging: false
@@ -1668,6 +2764,17 @@
 				type: "item"
 			}]
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "0A7F711B6EF4D189"
 				item: { count: 1, id: "hexalia:silk_fiber" }
 				type: "item"
@@ -1677,10 +2784,30 @@
 		}
 		{
 			always_invisible: true
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "61FE7F469313BD70"
 			optional: true
 			quest_enhance_disable_scroll_paging: false
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "790177AAF707553D"
 				type: "custom"
 			}]
@@ -1689,6 +2816,15 @@
 		}
 		{
 			dependencies: ["041330E9AC7E1769"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "41A361B4DEFCEFA6"
 			preset: "item"
 			quest_enhance_disable_scroll_paging: false
@@ -1706,6 +2842,17 @@
 				type: "contactquests:parcel"
 			}]
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "5B59D8DA2B92BA4B"
 				item: { count: 1, id: "wetland_whimsy:basic_incense" }
 				type: "item"
@@ -1715,6 +2862,15 @@
 		}
 		{
 			dependencies: ["0C7EA86F283677BB"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "48D0F767CFD4070B"
 			preset: "progression"
 			quest_enhance_disable_scroll_paging: false
@@ -1729,6 +2885,17 @@
 				type: "contactquests:parcel_random"
 			}]
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "09C28DA63A54F36E"
 				item: { count: 1, id: "roots:staff" }
 				type: "item"
@@ -1738,6 +2905,15 @@
 		}
 		{
 			dependencies: ["33B84E3E74BE73B7"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "0D9CF1E8881559EC"
 			preset: "progression"
 			quest_enhance_disable_scroll_paging: false
@@ -1752,6 +2928,17 @@
 				type: "contactquests:parcel_random"
 			}]
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "2EFBAA11B8EEB7E6"
 				item: { count: 1, id: "roots:runic_shears" }
 				type: "item"
@@ -1760,6 +2947,15 @@
 			y: 21.0d
 		}
 		{
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "0C7EA86F283677BB"
 			preset: "start"
 			quest_enhance_disable_scroll_paging: false
@@ -1770,6 +2966,17 @@
 				type: "random"
 			}]
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "46AFA71E46B58AA3"
 				item: { count: 1, id: "roots:golden_knife" }
 				type: "item"
@@ -1779,6 +2986,15 @@
 		}
 		{
 			dependencies: ["0C7EA86F283677BB"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "5B74E777CB3DF54B"
 			preset: "progression"
 			quest_enhance_disable_scroll_paging: false
@@ -1793,6 +3009,17 @@
 				type: "contactquests:parcel_random"
 			}]
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "397970D55AFA9194"
 				item: { count: 1, id: "roots:runestone" }
 				type: "item"
@@ -1802,6 +3029,15 @@
 		}
 		{
 			dependencies: ["5B74E777CB3DF54B"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "33B84E3E74BE73B7"
 			preset: "milestone"
 			quest_enhance_disable_scroll_paging: false
@@ -1816,11 +3052,33 @@
 			}]
 			tasks: [
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "2BCFABE474A3579B"
 					item: { count: 1, id: "roots:grove_crafter" }
 					type: "item"
 				}
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "70557DFC455B6A0F"
 					item: { count: 1, id: "roots:wild_grove_stone" }
 					type: "item"
@@ -1831,6 +3089,15 @@
 		}
 		{
 			dependencies: ["5B74E777CB3DF54B"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "37EB25189E81986C"
 			preset: "progression"
 			quest_enhance_disable_scroll_paging: false
@@ -1845,6 +3112,17 @@
 				type: "contactquests:parcel_random"
 			}]
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "3B453EE399A08E36"
 				item: { count: 1, id: "roots:pyre" }
 				type: "item"
@@ -1854,6 +3132,15 @@
 		}
 		{
 			dependencies: ["37EB25189E81986C"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "3BA9CF40329DD0E4"
 			preset: "item"
 			quest_enhance_disable_scroll_paging: false
@@ -1865,11 +3152,33 @@
 			}]
 			tasks: [
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "5AF9D8F1F0A06EF4"
 					item: { count: 1, id: "roots:moonglow_seeds" }
 					type: "item"
 				}
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "0835F1EFDB099355"
 					item: { count: 1, id: "roots:bafflecap" }
 					type: "item"
@@ -1880,6 +3189,15 @@
 		}
 		{
 			dependencies: ["0D9CF1E8881559EC"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "2FC90835997D3625"
 			preset: "item"
 			quest_enhance_disable_scroll_paging: false
@@ -1891,11 +3209,33 @@
 			}]
 			tasks: [
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "442FD04084545FB8"
 					item: { count: 1, id: "roots:spiritleaf_seeds" }
 					type: "item"
 				}
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "1508C80D92AFC62C"
 					item: { count: 1, id: "roots:wildewheet_seeds" }
 					type: "item"
@@ -1906,6 +3246,15 @@
 		}
 		{
 			dependencies: ["37EB25189E81986C"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "74CA9AD22F17F62E"
 			preset: "item"
 			quest_enhance_disable_scroll_paging: false
@@ -1921,21 +3270,65 @@
 			}]
 			tasks: [
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "2EF4B0F63AF03A1B"
 					item: { count: 1, id: "roots:cloud_berry" }
 					type: "item"
 				}
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "3B8531A62B42CB96"
 					item: { count: 1, id: "roots:dewgonia" }
 					type: "item"
 				}
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "1380D40A37E723F2"
 					item: { count: 1, id: "roots:inferno_bulb" }
 					type: "item"
 				}
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "166AE860E963BFE5"
 					item: { count: 1, id: "roots:stalicripe" }
 					type: "item"
@@ -1946,6 +3339,15 @@
 		}
 		{
 			dependencies: ["4655801A35B3BAB2"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "184493C9F7227C64"
 			preset: "progression"
 			quest_enhance_disable_scroll_paging: false
@@ -1961,51 +3363,161 @@
 			}]
 			tasks: [
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "5418C4A794CEAF75"
 					item: { count: 1, id: "hexalia:spirit_bloom" }
 					type: "item"
 				}
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "76A3F24D6F09D984"
 					item: { count: 1, id: "hexalia:dreamshroom" }
 					type: "item"
 				}
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "2FA4C4A920441EAF"
 					item: { count: 1, id: "hexalia:siren_kelp" }
 					type: "item"
 				}
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "67D28543969D4D33"
 					item: { count: 1, id: "hexalia:ghost_fern" }
 					type: "item"
 				}
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "125D34D188B3A8B1"
 					item: { count: 1, id: "hexalia:celestial_bloom" }
 					type: "item"
 				}
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "10CDBA5B7D85F0FE"
 					item: { count: 1, id: "hexalia:witchweed" }
 					type: "item"
 				}
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "4706A7B9194EBAF6"
 					item: { count: 1, id: "hexalia:mandrake" }
 					type: "item"
 				}
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "70C04CA43C033536"
 					item: { count: 1, id: "hexalia:sunfire_tomato" }
 					type: "item"
 				}
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "09BF51A6BA2A74A2"
 					item: { count: 1, id: "hexalia:chillberries" }
 					type: "item"
 				}
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "2C8C473DB0DF1B84"
 					item: { count: 1, id: "hexalia:saltsprout" }
 					type: "item"
@@ -2016,6 +3528,15 @@
 		}
 		{
 			dependencies: ["24C19E2033095FFA"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "0C72B71937E0F79F"
 			preset: "progression"
 			quest_enhance_disable_scroll_paging: false
@@ -2027,6 +3548,17 @@
 			}]
 			shape: "square_innercircle"
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "42CDB69E38CE4AF7"
 				item: { count: 1, id: "enchanted:mutandis" }
 				type: "item"
@@ -2036,6 +3568,15 @@
 		}
 		{
 			dependencies: ["084BB53F414CF215"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "232A634140B19B03"
 			preset: "milestone"
 			quest_enhance_disable_scroll_paging: false
@@ -2051,31 +3592,97 @@
 			}]
 			tasks: [
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "7635AEBE3DA4B908"
 					item: { count: 1, id: "roots:primal_grove_stone" }
 					type: "item"
 				}
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "060C5DA2AE9AC5AE"
 					item: { count: 1, id: "roots:fairy_grove_stone" }
 					type: "item"
 				}
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "644932E0EAB78E42"
 					item: { count: 1, id: "roots:elemental_grove_stone" }
 					type: "item"
 				}
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "25BD71A862E47A46"
 					item: { count: 1, id: "roots:twilight_grove_stone" }
 					type: "item"
 				}
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "07AB2590002CD7B8"
 					item: { count: 1, id: "roots:fungal_grove_stone" }
 					type: "item"
 				}
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "04CDD3ACC2D67D1D"
 					item: { count: 1, id: "roots:cultivation_grove_stone" }
 					type: "item"
@@ -2086,6 +3693,15 @@
 		}
 		{
 			dependencies: ["5B74E777CB3DF54B"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "084BB53F414CF215"
 			preset: "progression"
 			quest_enhance_disable_scroll_paging: false
@@ -2096,6 +3712,17 @@
 				type: "random"
 			}]
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "3BD829D71C66750D"
 				type: "checkmark"
 			}]
@@ -2104,6 +3731,15 @@
 		}
 		{
 			dependencies: ["794CACBA42AE1AB2"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "546DF8992DABB86A"
 			preset: "item"
 			quest_enhance_disable_scroll_paging: false
@@ -2134,6 +3770,17 @@
 				}
 			]
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "1991308B0E0CC15F"
 				item: { count: 1, id: "hexalia:tree_resin" }
 				type: "item"
@@ -2143,6 +3790,15 @@
 		}
 		{
 			dependencies: ["7C44602D8680B3BB"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "25EF8B31172278DA"
 			preset: "progression"
 			quest_enhance_disable_scroll_paging: false
@@ -2177,6 +3833,17 @@
 				}
 			]
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "706367E4862D6700"
 				item: { count: 1, id: "hexalia:ritual_brazier" }
 				type: "item"
@@ -2185,6 +3852,15 @@
 			y: 5.5d
 		}
 		{
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "0E7E3853C02CE06C"
 			preset: "item"
 			quest_enhance_disable_scroll_paging: false
@@ -2217,6 +3893,17 @@
 				}
 			]
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "0372F22620A6684B"
 				item: { count: 1, id: "hexalia:censer" }
 				type: "item"
@@ -2226,6 +3913,15 @@
 		}
 		{
 			dependencies: ["16E1276D35BDE7D5"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "18D433FB887CE31B"
 			preset: "completion"
 			quest_enhance_disable_scroll_paging: false
@@ -2240,6 +3936,17 @@
 				type: "contactquests:parcel_random"
 			}]
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "7B032D53F9A9CACD"
 				item: { count: 1, id: "enchanted:poppet_shelf" }
 				type: "item"
@@ -2248,6 +3955,15 @@
 			y: 15.0d
 		}
 		{
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "041330E9AC7E1769"
 			preset: "locate"
 			quest_enhance_disable_scroll_paging: false
@@ -2266,6 +3982,17 @@
 				type: "contactquests:parcel"
 			}]
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				icon: {
 					id: "wetland_whimsy:filthy_bone"
 				}
@@ -2278,6 +4005,15 @@
 		}
 		{
 			dependencies: ["48D0F767CFD4070B"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "010D5F21ACF6C3D0"
 			quest_enhance_disable_scroll_paging: false
 			rewards: [{
@@ -2291,6 +4027,17 @@
 				type: "contactquests:parcel_random"
 			}]
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "4814450078D3D847"
 				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(fabled_wylds:roots_spells)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
@@ -2300,6 +4047,15 @@
 		}
 		{
 			dependencies: ["68360A5DB4102013"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "0D51CFD77E404109"
 			preset: "progression"
 			quest_enhance_disable_scroll_paging: false
@@ -2317,6 +4073,17 @@
 				type: "contactquests:parcel"
 			}]
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "38F67E51453E8CFD"
 				item: { count: 1, id: "enchanted:attuned_stone" }
 				type: "item"
@@ -2326,6 +4093,15 @@
 		}
 		{
 			dependencies: ["2B1B9108FF7A3FB3"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "68360A5DB4102013"
 			preset: "progression"
 			quest_enhance_disable_scroll_paging: false
@@ -2343,6 +4119,17 @@
 				type: "contactquests:parcel"
 			}]
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "344B44C22933DF12"
 				item: { count: 1, id: "enchanted:whiff_of_magic" }
 				type: "item"
@@ -2352,6 +4139,15 @@
 		}
 		{
 			dependencies: ["0D51CFD77E404109"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "747EC7F313519A0F"
 			preset: "progression"
 			quest_enhance_disable_scroll_paging: false
@@ -2370,6 +4166,17 @@
 				type: "contactquests:parcel"
 			}]
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "354228FDD640195B"
 				item: { count: 1, id: "enchanted:distillery" }
 				type: "item"
@@ -2379,6 +4186,15 @@
 		}
 		{
 			dependencies: ["747EC7F313519A0F"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "6605ED243F07A169"
 			preset: "progression"
 			quest_enhance_disable_scroll_paging: false
@@ -2397,11 +4213,33 @@
 			}]
 			tasks: [
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "2A597827A495B647"
 					item: { count: 1, id: "minecraft:calcite" }
 					type: "item"
 				}
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "4ABD6A3B716492B9"
 					item: { count: 1, id: "enchanted:gypsum" }
 					type: "item"
@@ -2412,6 +4250,15 @@
 		}
 		{
 			dependencies: ["68360A5DB4102013"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "0A8AD22B188FA65B"
 			preset: "item"
 			quest_enhance_disable_scroll_paging: false
@@ -2441,6 +4288,17 @@
 				}
 			]
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "36514B9081C104B7"
 				item: { count: 1, id: "enchanted:fume_funnel" }
 				type: "item"
@@ -2449,6 +4307,15 @@
 			y: 6.0d
 		}
 		{
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "7565DBC1E7DFF142"
 			preset: "start"
 			quest_enhance_disable_scroll_paging: false
@@ -2478,6 +4345,17 @@
 				}
 			]
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "25BF67CDFE0991BD"
 				item: { count: 1, id: "enchanted:taglock_kit" }
 				type: "item"
@@ -2487,6 +4365,15 @@
 		}
 		{
 			dependencies: ["7565DBC1E7DFF142"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "7EE0905786616EA8"
 			preset: "progression"
 			quest_enhance_disable_scroll_paging: false
@@ -2529,6 +4416,17 @@
 				}
 			]
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "343492F4CBC0C14F"
 				item: { count: 1, id: "enchanted:poppet" }
 				type: "item"
@@ -2538,6 +4436,15 @@
 		}
 		{
 			dependencies: ["7565DBC1E7DFF142"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "2AD594A3F740B338"
 			preset: "item"
 			quest_enhance_disable_scroll_paging: false
@@ -2567,6 +4474,17 @@
 				}
 			]
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "2A00552A7371D175"
 				item: { count: 1, id: "hexalia:silk_idol" }
 				type: "item"
@@ -2576,6 +4494,15 @@
 		}
 		{
 			dependencies: ["7EE0905786616EA8"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "4BD1E1D3ABC4BEE8"
 			preset: "progression"
 			quest_enhance_disable_scroll_paging: false
@@ -2590,6 +4517,17 @@
 				type: "contactquests:parcel_random"
 			}]
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "34183DAE9A0AC0BD"
 				item: { count: 1, id: "enchanted:armour_poppet" }
 				type: "item"
@@ -2599,6 +4537,15 @@
 		}
 		{
 			dependencies: ["4BD1E1D3ABC4BEE8"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "16E1276D35BDE7D5"
 			preset: "progression"
 			quest_enhance_disable_scroll_paging: false
@@ -2642,6 +4589,17 @@
 				}
 			]
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				hand_mode: "MAIN_HAND"
 				id: "1BAFBA0433BF27C2"
 				item: { count: 1, id: "enchanted:armour_poppet" }
@@ -2653,6 +4611,15 @@
 		}
 		{
 			dependencies: ["4BD1E1D3ABC4BEE8"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "717CF92CE4A34A5F"
 			preset: "item"
 			quest_enhance_disable_scroll_paging: false
@@ -2667,6 +4634,17 @@
 				type: "contactquests:parcel_random"
 			}]
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "0356CE41FCE38AA4"
 				item: { count: 1, id: "enchanted:voodoo_poppet" }
 				type: "item"
@@ -2676,6 +4654,15 @@
 		}
 		{
 			dependencies: ["6BE389D26249D046"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "38692155327FDE4B"
 			preset: "item"
 			quest_enhance_disable_scroll_paging: false
@@ -2693,6 +4680,17 @@
 				type: "contactquests:parcel"
 			}]
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "119CAB4C97407A17"
 				item: { count: 1, id: "enchanted:circle_talisman" }
 				type: "item"
@@ -2702,6 +4700,15 @@
 		}
 		{
 			dependencies: ["6BE389D26249D046"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "238028A4423EAF3F"
 			preset: "progression"
 			quest_enhance_disable_scroll_paging: false
@@ -2719,6 +4726,17 @@
 				type: "contactquests:parcel"
 			}]
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "5F650FDFCEF6269E"
 				item: { count: 1, id: "enchanted:nether_chalk" }
 				type: "item"
@@ -2728,6 +4746,15 @@
 		}
 		{
 			dependencies: ["6BE389D26249D046"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "1641BFB24F43B94B"
 			preset: "progression"
 			quest_enhance_disable_scroll_paging: false
@@ -2745,6 +4772,17 @@
 				type: "contactquests:parcel"
 			}]
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "429331C371BF15DD"
 				item: { count: 1, id: "enchanted:otherwhere_chalk" }
 				type: "item"
@@ -2753,6 +4791,15 @@
 			y: 7.0d
 		}
 		{
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "05B5DD9990917317"
 			preset: "item"
 			quest_enhance_disable_scroll_paging: false
@@ -2795,6 +4842,17 @@
 				}
 			]
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "5A515FC2E7ECF8DB"
 				item: { count: 1, id: "enchanted:waystone" }
 				type: "item"
@@ -2803,6 +4861,15 @@
 			y: 5.5d
 		}
 		{
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "7C44602D8680B3BB"
 			preset: "start"
 			quest_enhance_disable_scroll_paging: false
@@ -2818,11 +4885,33 @@
 			}]
 			tasks: [
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "7638BD8052FF379A"
 					item: { count: 1, id: "hexalia:ritual_table" }
 					type: "item"
 				}
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "05F414380E1A4143"
 					item: { count: 1, id: "hexalia:hex_focus" }
 					type: "item"
@@ -2833,6 +4922,15 @@
 		}
 		{
 			dependencies: ["25EF8B31172278DA"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "2D0CDD91CFAA0937"
 			preset: "progression"
 			quest_enhance_disable_scroll_paging: false
@@ -2845,6 +4943,17 @@
 				type: "item"
 			}]
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "2D7D178819E464DA"
 				item: { count: 1, id: "hexalia:fragrant_nectar" }
 				type: "item"
@@ -2853,6 +4962,15 @@
 			y: 5.5d
 		}
 		{
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "0C0EB5F8CF5970B2"
 			preset: "item"
 			quest_enhance_disable_scroll_paging: false
@@ -2870,6 +4988,17 @@
 				type: "contactquests:parcel"
 			}]
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "7A09C92D95A4D89F"
 				item: { count: 1, id: "hexalia:heartseed" }
 				type: "item"

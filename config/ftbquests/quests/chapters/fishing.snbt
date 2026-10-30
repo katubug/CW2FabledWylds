@@ -77,6 +77,15 @@
 	quests: [
 		{
 			dependencies: ["4B26B50D268DBA07"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "05EFC8F18818E8DD"
 			preset: "item"
 			quest_enhance_disable_scroll_paging: false
@@ -106,6 +115,17 @@
 				}
 			]
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "3D0DA06485460761"
 				item: { count: 1, id: "selling_bin:selling_bin" }
 				type: "item"
@@ -114,6 +134,15 @@
 			y: -8.5d
 		}
 		{
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "4B26B50D268DBA07"
 			preset: "start"
 			quest_enhance_disable_scroll_paging: false
@@ -148,6 +177,17 @@
 			shape: "rsquare"
 			size: 1.5d
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "0E99E2EBD7ECCBC3"
 				item: { count: 1, id: "minecraft:fishing_rod" }
 				type: "item"
@@ -157,6 +197,15 @@
 		}
 		{
 			dependencies: ["4B26B50D268DBA07"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "62F2784763AD1938"
 			preset: "progression"
 			quest_enhance_disable_scroll_paging: false
@@ -174,6 +223,17 @@
 				type: "contactquests:parcel"
 			}]
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "718922CA4F7192FF"
 				item: { count: 1, id: "starcatcher:starcatcher_rod" }
 				type: "item"
@@ -183,6 +243,15 @@
 		}
 		{
 			dependencies: ["62F2784763AD1938"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "18E1F3797BC552D0"
 			preset: "item"
 			quest_enhance_disable_scroll_paging: false
@@ -213,11 +282,33 @@
 			]
 			tasks: [
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "155971534A3ACDCD"
 					item: { count: 1, id: "starcatcher:gold_hook" }
 					type: "item"
 				}
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "3DDBFEE0CEF873F2"
 					item: { count: 1, id: "starcatcher:golden_bobber" }
 					type: "item"
@@ -228,6 +319,15 @@
 		}
 		{
 			dependencies: ["4B26B50D268DBA07"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "1FDD653A3C13DFDF"
 			preset: "advancement"
 			quest_enhance_disable_scroll_paging: false
@@ -250,6 +350,17 @@
 				}
 			]
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				icon: {
 					id: "minecraft:tropical_fish"
 				}
@@ -262,6 +373,15 @@
 			y: -12.5d
 		}
 		{
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "104D0C28773A1DD4"
 			preset: "start"
 			quest_enhance_disable_scroll_paging: false
@@ -289,6 +409,17 @@
 			]
 			shape: "circle"
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "4B09404FC3251283"
 				item: { count: 1, id: "netherdepthsupgrade:lava_fishing_rod" }
 				type: "item"
@@ -298,6 +429,15 @@
 		}
 		{
 			dependencies: ["104D0C28773A1DD4"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "0F5E5A0B0C05ACD2"
 			quest_enhance_disable_scroll_paging: false
 			rewards: [{
@@ -308,46 +448,145 @@
 			}]
 			tasks: [
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "798C459CD61F966A"
 					item: { count: 1, id: "netherdepthsupgrade:blazefish" }
 					type: "item"
 				}
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "6C782B0CFA8D3DEE"
 					item: { count: 1, id: "netherdepthsupgrade:magmacubefish" }
 					type: "item"
 				}
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "5F2C45F299657EFB"
 					item: { count: 1, id: "netherdepthsupgrade:glowdine" }
 					type: "item"
 				}
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "2F6245F84764D7B2"
 					item: { count: 1, id: "netherdepthsupgrade:soulsucker" }
 					type: "item"
 				}
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "5D30B99EE265108E"
 					item: { count: 1, id: "netherdepthsupgrade:lava_pufferfish" }
 					type: "item"
 				}
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "261478743CC10159"
 					item: { count: 1, id: "netherdepthsupgrade:searing_cod" }
 					type: "item"
 				}
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "5D981D87542D1FD9"
 					item: { count: 1, id: "netherdepthsupgrade:obsidianfish" }
 					type: "item"
 				}
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "143742BA7EEEE35E"
 					item: { count: 1, id: "netherdepthsupgrade:wither_bonefish" }
 					type: "item"
 				}
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "0606924590758073"
 					item: { count: 1, id: "netherdepthsupgrade:bonefish" }
 					type: "item"
@@ -357,6 +596,15 @@
 			y: -4.0d
 		}
 		{
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "7A31753911D1CCFC"
 			preset: "item"
 			quest_enhance_disable_scroll_paging: false
@@ -376,21 +624,65 @@
 			]
 			tasks: [
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "7B3E2CE57F6AE720"
 					item: { count: 1, id: "minecraft:cod" }
 					type: "item"
 				}
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "34E02D42248303DC"
 					item: { count: 1, id: "minecraft:salmon" }
 					type: "item"
 				}
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "6D78D10E94FF6422"
 					item: { count: 1, id: "minecraft:tropical_fish" }
 					type: "item"
 				}
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "29B930E5EE5F787D"
 					item: { count: 1, id: "minecraft:pufferfish" }
 					type: "item"
@@ -402,6 +694,15 @@
 		{
 			can_repeat: true
 			dependencies: ["62F2784763AD1938"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "2CAAC737A4D4FF60"
 			preset: "turnin"
 			quest_enhance_disable_scroll_paging: false
@@ -423,6 +724,17 @@
 			tasks: [{
 				consume_items: true
 				count: 32L
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "4E2FF7B49BA9BA6D"
 				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(starcatcher:fishable)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
@@ -432,10 +744,30 @@
 		}
 		{
 			always_invisible: true
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "1F268F57DC20768A"
 			optional: true
 			quest_enhance_disable_scroll_paging: false
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "0D354D7988E374CE"
 				item: { count: 1, id: "ftbquests:barrier" }
 				only_from_crafting: true
@@ -446,6 +778,15 @@
 		}
 		{
 			dependencies: ["62F2784763AD1938"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "318C7124088632D3"
 			preset: "info"
 			quest_enhance_disable_scroll_paging: false
@@ -460,6 +801,17 @@
 				type: "contactquests:parcel_random"
 			}]
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "1CD81C0EC0F600DA"
 				item: { components: { "ftbfiltersystem:filter": "or(item_tag(starcatcher:bobbers))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
@@ -469,6 +821,15 @@
 		}
 		{
 			dependencies: ["4B26B50D268DBA07"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "3A642C7C4A5C4334"
 			preset: "item"
 			quest_enhance_disable_scroll_paging: false
@@ -483,6 +844,17 @@
 				type: "contactquests:parcel_random"
 			}]
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "3323F4D57AAABABD"
 				item: { components: { "ftbfiltersystem:filter": "or(item(starcatcher:bottled_letter)item(starcatcher:message_in_a_bottle)item(starcatcher:broken_bottle))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
@@ -492,6 +864,15 @@
 		}
 		{
 			dependencies: ["62F2784763AD1938"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "0AD64024D055FF01"
 			preset: "info"
 			quest_enhance_disable_scroll_paging: false
@@ -506,6 +887,17 @@
 				type: "contactquests:parcel_random"
 			}]
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "1EF853C0F645A403"
 				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(starcatcher:hooks)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
@@ -514,6 +906,15 @@
 			y: -8.5d
 		}
 		{
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "72337CD5CE36F9EF"
 			preset: "progression"
 			quest_enhance_disable_scroll_paging: false
@@ -530,6 +931,17 @@
 				type: "attribute"
 			}]
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "101ADA4F1C48FE30"
 				item: { count: 1, id: "starcatcher:trophy_copper" }
 				type: "item"
@@ -538,6 +950,15 @@
 			y: -13.5d
 		}
 		{
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "599033854681A3A1"
 			preset: "progression"
 			quest_enhance_disable_scroll_paging: false
@@ -553,6 +974,17 @@
 				type: "attribute"
 			}]
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "39CBE46459E38670"
 				item: { count: 1, id: "starcatcher:trophy_iron" }
 				type: "item"
@@ -561,6 +993,15 @@
 			y: -13.5d
 		}
 		{
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "67367D2AE7B97029"
 			preset: "milestone"
 			quest_enhance_disable_scroll_paging: false
@@ -576,6 +1017,17 @@
 				type: "attribute"
 			}]
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "7B93957051B6BFDB"
 				item: { count: 1, id: "starcatcher:trophy_gold" }
 				type: "item"
@@ -584,6 +1036,15 @@
 			y: -13.5d
 		}
 		{
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "220880D8B23EE821"
 			preset: "progression"
 			quest_enhance_disable_scroll_paging: false
@@ -599,6 +1060,17 @@
 				type: "attribute"
 			}]
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "54E69F93635E9E63"
 				item: { count: 1, id: "starcatcher:trophy_emerald" }
 				type: "item"
@@ -607,6 +1079,15 @@
 			y: -13.5d
 		}
 		{
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "6FDDE832FB9A5FE5"
 			preset: "milestone"
 			quest_enhance_disable_scroll_paging: false
@@ -622,6 +1103,17 @@
 				type: "attribute"
 			}]
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "2FD7DD4C449E0E6C"
 				item: { count: 1, id: "starcatcher:trophy_diamond" }
 				type: "item"
@@ -630,6 +1122,15 @@
 			y: -13.5d
 		}
 		{
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "156E91379EC11004"
 			preset: "completion"
 			quest_enhance_disable_scroll_paging: false
@@ -657,6 +1158,17 @@
 				}
 			]
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "780C4B4A14ABF746"
 				item: { count: 1, id: "starcatcher:trophy_of_the_older_angler" }
 				type: "item"
@@ -665,6 +1177,15 @@
 			y: -12.0d
 		}
 		{
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "279947E4FB1A366F"
 			preset: "item"
 			quest_enhance_disable_scroll_paging: false
@@ -680,41 +1201,129 @@
 			}]
 			tasks: [
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "64EC6CDB9134D2E0"
 					item: { count: 1, id: "starcatcher:sea_bass" }
 					type: "item"
 				}
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "3E68357EEC01B9B9"
 					item: { count: 1, id: "starcatcher:deepjaw_herring" }
 					type: "item"
 				}
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "056B64809F4F5E67"
 					item: { count: 1, id: "starcatcher:dusktail_snapper" }
 					type: "item"
 				}
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "57C0DAFEA750BF1A"
 					item: { count: 1, id: "starcatcher:ironjaw_herring" }
 					type: "item"
 				}
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "0DDFCA9E0269058A"
 					item: { count: 1, id: "starcatcher:redscaled_tuna" }
 					type: "item"
 				}
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "2FC50CBA743A9151"
 					item: { count: 1, id: "starcatcher:blue_herring" }
 					type: "item"
 				}
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "33F553651C4A0ADA"
 					item: { count: 1, id: "starcatcher:bigeye_tuna" }
 					type: "item"
 				}
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "73DC1164FC342DCA"
 					item: { count: 1, id: "starcatcher:joel" }
 					type: "item"
@@ -724,6 +1333,15 @@
 			y: -7.0d
 		}
 		{
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "698D0D2656B94C43"
 			preset: "item"
 			quest_enhance_disable_scroll_paging: false
@@ -739,41 +1357,129 @@
 			}]
 			tasks: [
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "3568889E235F419B"
 					item: { count: 1, id: "starcatcher:drifting_bream" }
 					type: "item"
 				}
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "475F20006C5348EE"
 					item: { count: 1, id: "starcatcher:mistback_chub" }
 					type: "item"
 				}
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "677C13A725C8A7B9"
 					item: { count: 1, id: "starcatcher:hollowbelly_darter" }
 					type: "item"
 				}
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "569849252D308114"
 					item: { count: 1, id: "starcatcher:silverfin_pike" }
 					type: "item"
 				}
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "62B4D44DC70B04DB"
 					item: { count: 1, id: "starcatcher:downfall_bream" }
 					type: "item"
 				}
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "038B602FF789751A"
 					item: { count: 1, id: "starcatcher:bluegigi" }
 					type: "item"
 				}
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "58F16EC8EE84A370"
 					item: { count: 1, id: "starcatcher:carpenjoe" }
 					type: "item"
 				}
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "75337A41EBA4B9B6"
 					item: { count: 1, id: "starcatcher:willow_bream" }
 					type: "item"
@@ -783,6 +1489,15 @@
 			y: -8.0d
 		}
 		{
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "0B131225FEDAA6AC"
 			preset: "item"
 			quest_enhance_disable_scroll_paging: false
@@ -798,61 +1513,193 @@
 			}]
 			tasks: [
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "3BE2F9CD3DE5CFD9"
 					item: { count: 1, id: "starcatcher:frostjaw_trout" }
 					type: "item"
 				}
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "5F76B6A93B2A00C5"
 					item: { count: 1, id: "starcatcher:crystalback_sturgeon" }
 					type: "item"
 				}
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "5E0A28EA6C13263E"
 					item: { count: 1, id: "starcatcher:frostgill_chub" }
 					type: "item"
 				}
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "681744C9AE7D3558"
 					item: { count: 1, id: "starcatcher:crystalback_trout" }
 					type: "item"
 				}
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "25A23C5C074CF5F6"
 					item: { count: 1, id: "starcatcher:crystalback_minnow" }
 					type: "item"
 				}
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "08B350310E50D594"
 					item: { count: 1, id: "starcatcher:azure_crystalback_minnow" }
 					type: "item"
 				}
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "7DDC5E5F772E2D02"
 					item: { count: 1, id: "starcatcher:crystalback_boreal" }
 					type: "item"
 				}
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "5E26159801E9910A"
 					item: { count: 1, id: "starcatcher:wintery_pike" }
 					type: "item"
 				}
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "35C7349DAEDEB994"
 					item: { count: 1, id: "starcatcher:blue_crystal_fin" }
 					type: "item"
 				}
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "05BDF67444F592E2"
 					item: { count: 1, id: "starcatcher:blue_ice_pike" }
 					type: "item"
 				}
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "251ACD944862CE0E"
 					item: { count: 1, id: "starcatcher:aurora" }
 					type: "item"
 				}
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "1C7C6CF0D60858DF"
 					item: { count: 1, id: "starcatcher:boreal" }
 					type: "item"
@@ -862,6 +1709,15 @@
 			y: -8.0d
 		}
 		{
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "58AA2A38728EC475"
 			preset: "item"
 			quest_enhance_disable_scroll_paging: false
@@ -877,26 +1733,81 @@
 			}]
 			tasks: [
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "44369FD8C66E0ACA"
 					item: { count: 1, id: "starcatcher:pink_koi" }
 					type: "item"
 				}
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "3B028B4A884C5474"
 					item: { count: 1, id: "starcatcher:blossomfish" }
 					type: "item"
 				}
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "74FB8BBF028B907C"
 					item: { count: 1, id: "starcatcher:petaldrift_carp" }
 					type: "item"
 				}
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "4D9707CCA0892DB0"
 					item: { count: 1, id: "starcatcher:rose_siamese_fish" }
 					type: "item"
 				}
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "579CC53C5643EEAC"
 					item: { count: 1, id: "starcatcher:vesani" }
 					type: "item"
@@ -906,6 +1817,15 @@
 			y: -8.0d
 		}
 		{
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "4DEE27DAF79C58ED"
 			preset: "item"
 			quest_enhance_disable_scroll_paging: false
@@ -921,31 +1841,97 @@
 			}]
 			tasks: [
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "56DB0E1CFDC26D73"
 					item: { count: 1, id: "starcatcher:sandtail" }
 					type: "item"
 				}
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "48ABD6D4631E8D51"
 					item: { count: 1, id: "starcatcher:scorchfish" }
 					type: "item"
 				}
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "682B64C20EB7E6B3"
 					item: { count: 1, id: "starcatcher:mirage_carp" }
 					type: "item"
 				}
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "116EC09C4EFBD904"
 					item: { count: 1, id: "starcatcher:agave_bream" }
 					type: "item"
 				}
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "47A40AD4B55D4B31"
 					item: { count: 1, id: "starcatcher:cactifish" }
 					type: "item"
 				}
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "3579A2043AE53A61"
 					item: { count: 1, id: "starcatcher:oasis_sturgeon" }
 					type: "item"
@@ -955,6 +1941,15 @@
 			y: -6.0d
 		}
 		{
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "10AD8A01B9D0CD17"
 			preset: "item"
 			quest_enhance_disable_scroll_paging: false
@@ -970,31 +1965,97 @@
 			}]
 			tasks: [
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "65794E69E0329BED"
 					item: { count: 1, id: "starcatcher:pale_carp" }
 					type: "item"
 				}
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "4681FEDC76BEDBB2"
 					item: { count: 1, id: "starcatcher:sludge_catfish" }
 					type: "item"
 				}
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "64F30A636709D242"
 					item: { count: 1, id: "starcatcher:pinfish" }
 					type: "item"
 				}
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "3F793674F5766654"
 					item: { count: 1, id: "starcatcher:pale_pinfish" }
 					type: "item"
 				}
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "0F6816A942F195D1"
 					item: { count: 1, id: "starcatcher:lily_snapper" }
 					type: "item"
 				}
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "721B8325BDF0AF8E"
 					item: { count: 1, id: "starcatcher:sage_catfish" }
 					type: "item"
@@ -1004,6 +2065,15 @@
 			y: -7.0d
 		}
 		{
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "617540753B3AA2DD"
 			preset: "item"
 			quest_enhance_disable_scroll_paging: false
@@ -1019,46 +2089,145 @@
 			}]
 			tasks: [
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "1233456ABBBE84BA"
 					item: { count: 1, id: "starcatcher:dripfin" }
 					type: "item"
 				}
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "52253A180276F2C0"
 					item: { count: 1, id: "starcatcher:yellowstone_fish" }
 					type: "item"
 				}
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "4CEAD487424A0058"
 					item: { count: 1, id: "starcatcher:vivid_moss" }
 					type: "item"
 				}
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "319FE2F53DF2FE01"
 					item: { count: 1, id: "starcatcher:fossilized_angelfish" }
 					type: "item"
 				}
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "0FD0F5D8B6C6D3E0"
 					item: { count: 1, id: "starcatcher:the_quarrish" }
 					type: "item"
 				}
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "48043F051A91CA40"
 					item: { count: 1, id: "starcatcher:glowing_dark" }
 					type: "item"
 				}
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "5479395DE64C4AD2"
 					item: { count: 1, id: "starcatcher:lush_pike" }
 					type: "item"
 				}
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "16A83C259FFF0F27"
 					item: { count: 1, id: "starcatcher:sculkfish" }
 					type: "item"
 				}
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "1B1E2F5CB9A073E4"
 					item: { count: 1, id: "starcatcher:ward" }
 					type: "item"
@@ -1068,6 +2237,15 @@
 			y: -7.0d
 		}
 		{
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "2C2D6CE0A2EC3305"
 			preset: "item"
 			quest_enhance_disable_scroll_paging: false
@@ -1083,36 +2261,113 @@
 			}]
 			tasks: [
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "79EACC1004871315"
 					item: { count: 1, id: "starcatcher:aquamarine_pike" }
 					type: "item"
 				}
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "38986AB815764C4E"
 					item: { count: 1, id: "starcatcher:garnet_mackerel" }
 					type: "item"
 				}
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "1AAEF454B3580609"
 					item: { count: 1, id: "starcatcher:ghostly_pike" }
 					type: "item"
 				}
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "13EB228223380FB6"
 					item: { count: 1, id: "starcatcher:amethystback" }
 					type: "item"
 				}
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "73BA1DE256FBE032"
 					item: { count: 1, id: "starcatcher:bright_amethyst_snapper" }
 					type: "item"
 				}
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "3E022043C4F31035"
 					item: { count: 1, id: "starcatcher:dark_amethyst_snapper" }
 					type: "item"
 				}
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "3071E9C99FD36BBC"
 					item: { count: 1, id: "starcatcher:deepslatefish" }
 					type: "item"
@@ -1122,6 +2377,15 @@
 			y: -7.0d
 		}
 		{
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "401B7E57628C88F5"
 			preset: "item"
 			quest_enhance_disable_scroll_paging: false
@@ -1137,31 +2401,97 @@
 			}]
 			tasks: [
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "1C1F8E8CF35A4401"
 					item: { count: 1, id: "starcatcher:gold_fan" }
 					type: "item"
 				}
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "6933020D79A78678"
 					item: { count: 1, id: "starcatcher:whiteveil" }
 					type: "item"
 				}
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "1BDBD2C222D703EB"
 					item: { count: 1, id: "starcatcher:black_eel" }
 					type: "item"
 				}
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "03B43D0ED793B0C1"
 					item: { count: 1, id: "starcatcher:morganite" }
 					type: "item"
 				}
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "7442AEEAD7B6E441"
 					item: { count: 1, id: "starcatcher:geode_eel" }
 					type: "item"
 				}
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "7AFE933F32B338FC"
 					item: { count: 1, id: "starcatcher:stonefish" }
 					type: "item"
@@ -1171,6 +2501,15 @@
 			y: -7.0d
 		}
 		{
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "31D3A29B73BE3ABA"
 			preset: "item"
 			quest_enhance_disable_scroll_paging: false
@@ -1186,46 +2525,145 @@
 			}]
 			tasks: [
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "0EF12DADC99A6939"
 					item: { count: 1, id: "starcatcher:embergill" }
 					type: "item"
 				}
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "7417CFB33B44F41A"
 					item: { count: 1, id: "starcatcher:glowstone_seeker" }
 					type: "item"
 				}
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "48B69FABCD8FD37B"
 					item: { count: 1, id: "starcatcher:magma_fish" }
 					type: "item"
 				}
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "1B83180683B729A3"
 					item: { count: 1, id: "starcatcher:scalding_pike" }
 					type: "item"
 				}
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "221AD7C23204856E"
 					item: { count: 1, id: "starcatcher:willish" }
 					type: "item"
 				}
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "3D16C061CDFA21CA"
 					item: { count: 1, id: "starcatcher:glowstone_pufferfish" }
 					type: "item"
 				}
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "380377384C5B5DCE"
 					item: { count: 1, id: "starcatcher:cinder_squid" }
 					type: "item"
 				}
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "0B5CBFCCCD54282D"
 					item: { count: 1, id: "starcatcher:lava_crab" }
 					type: "item"
 				}
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "6837B1A8C5E42216"
 					item: { count: 1, id: "starcatcher:cerberay" }
 					type: "item"
@@ -1235,6 +2673,15 @@
 			y: -6.0d
 		}
 		{
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "63B74A5A3FC47CAA"
 			preset: "item"
 			quest_enhance_disable_scroll_paging: false
@@ -1250,46 +2697,145 @@
 			}]
 			tasks: [
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "5934229895945C2A"
 					item: { count: 1, id: "starcatcher:chorus_minnow" }
 					type: "item"
 				}
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "222734439D4D9EFC"
 					item: { count: 1, id: "starcatcher:end_glow" }
 					type: "item"
 				}
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "030CFB9B13A5B5C5"
 					item: { count: 1, id: "starcatcher:charfish" }
 					type: "item"
 				}
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "64E7B36B61ACEE9C"
 					item: { count: 1, id: "starcatcher:spacejelly" }
 					type: "item"
 				}
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "51E8BE870A3EC60C"
 					item: { count: 1, id: "starcatcher:chorus_crab" }
 					type: "item"
 				}
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "3BB2E8BEADB421A3"
 					item: { count: 1, id: "starcatcher:purple_carp" }
 					type: "item"
 				}
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "36B373E59EBCE75B"
 					item: { count: 1, id: "starcatcher:nebula_squid" }
 					type: "item"
 				}
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "44072672E64BBA1B"
 					item: { count: 1, id: "starcatcher:voidfin" }
 					type: "item"
 				}
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "3E62064C32C8615B"
 					item: { count: 1, id: "starcatcher:voidbiter" }
 					type: "item"
@@ -1299,6 +2845,15 @@
 			y: -6.0d
 		}
 		{
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "022A9FF2DA695F94"
 			preset: "item"
 			quest_enhance_disable_scroll_paging: false
@@ -1314,36 +2869,113 @@
 			}]
 			tasks: [
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "3D74E8CD03B137FF"
 					item: { count: 1, id: "starcatcher:pyrotrout" }
 					type: "item"
 				}
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "2FB33E68EA9C2289"
 					item: { count: 1, id: "starcatcher:molten_shrimp" }
 					type: "item"
 				}
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "2408C7920972BE20"
 					item: { count: 1, id: "starcatcher:suneater" }
 					type: "item"
 				}
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "08418436578056D8"
 					item: { count: 1, id: "starcatcher:obsidian_crab" }
 					type: "item"
 				}
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "57F19A53A820A6ED"
 					item: { count: 1, id: "starcatcher:molten_deepslate_crab" }
 					type: "item"
 				}
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "14A726090C8A72F1"
 					item: { count: 1, id: "starcatcher:scorched_bloodsucker" }
 					type: "item"
 				}
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "0F318626FA203E5C"
 					item: { count: 1, id: "starcatcher:obsidian_eel" }
 					type: "item"
@@ -1353,6 +2985,15 @@
 			y: -6.0d
 		}
 		{
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "0FFEC186DEA6C730"
 			preset: "item"
 			quest_enhance_disable_scroll_paging: false
@@ -1368,41 +3009,129 @@
 			}]
 			tasks: [
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "7177245D235D3185"
 					item: { count: 1, id: "starcatcher:rainfin" }
 					type: "item"
 				}
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "709DBB896B58B467"
 					item: { count: 1, id: "starcatcher:sunny_sturgeon" }
 					type: "item"
 				}
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "38E4A664E7E25E1A"
 					item: { count: 1, id: "starcatcher:elderscale" }
 					type: "item"
 				}
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "051FE16A3DCA5CAD"
 					item: { count: 1, id: "starcatcher:ripple_catfish" }
 					type: "item"
 				}
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "51BF9FE8CCAD7272"
 					item: { count: 1, id: "starcatcher:sun_seeking_carp" }
 					type: "item"
 				}
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "0ED73BA786C1DFAD"
 					item: { count: 1, id: "starcatcher:twilight_koi" }
 					type: "item"
 				}
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "1F7AA80775258335"
 					item: { count: 1, id: "starcatcher:lightning_bass" }
 					type: "item"
 				}
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "32A85A63B97D6248"
 					item: { count: 1, id: "starcatcher:thunder_bass" }
 					type: "item"
@@ -1412,6 +3141,15 @@
 			y: -6.0d
 		}
 		{
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "2C5A66D41574D508"
 			preset: "item"
 			quest_enhance_disable_scroll_paging: false
@@ -1427,21 +3165,65 @@
 			}]
 			tasks: [
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "637ED5785EBE06D7"
 					item: { count: 1, id: "starcatcher:driftfin" }
 					type: "item"
 				}
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "7E2E2625D90D6B71"
 					item: { count: 1, id: "starcatcher:rockgill" }
 					type: "item"
 				}
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "5B5BDF705C299D47"
 					item: { count: 1, id: "starcatcher:obidontiee" }
 					type: "item"
 				}
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "3C44E3644D837EC1"
 					item: { count: 1, id: "starcatcher:silverveil_perch" }
 					type: "item"
@@ -1451,6 +3233,15 @@
 			y: -8.0d
 		}
 		{
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "48FB2E853260CF25"
 			preset: "item"
 			quest_enhance_disable_scroll_paging: false
@@ -1466,36 +3257,113 @@
 			}]
 			tasks: [
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "6432D7FB0EB9E0DB"
 					item: { count: 1, id: "starcatcher:peakdweller" }
 					type: "item"
 				}
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "701B6AEC8E428671"
 					item: { count: 1, id: "starcatcher:petal_bass" }
 					type: "item"
 				}
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "41BB4265EDA91439"
 					item: { count: 1, id: "starcatcher:sunflower_carp" }
 					type: "item"
 				}
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "5237C10D0039F6CC"
 					item: { count: 1, id: "starcatcher:sporefish" }
 					type: "item"
 				}
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "4879CE0621C1DE4A"
 					item: { count: 1, id: "starcatcher:livid_bamboo" }
 					type: "item"
 				}
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "5B5CDDF25A4E882B"
 					item: { count: 1, id: "starcatcher:shroomfish" }
 					type: "item"
 				}
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "56FC80BD27CFD636"
 					item: { count: 1, id: "starcatcher:cloudfin" }
 					type: "item"

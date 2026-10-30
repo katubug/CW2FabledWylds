@@ -1,8 +1,10 @@
-// Zombies spawn plain: no leader health bonus, no speed boosts
+// Cap zombie max health at 20 HP and strip bonus movement speed.
+// Vanilla "leader zombies" can roll bonus health (up to 30+) and a
+// speed modifier on spawn. This clamps both back to defaults.
 
-const Attributes = Java.loadClass('net.minecraft.world.entity.ai.attributes.Attributes')
+const ZOMBIE_HEALTH_CAP = 20
 
-// Covers all zombie-family mobs
+// Covers all zombie-family mobs. Add/remove types as needed.
 const ZOMBIE_TYPES = [
 	'minecraft:zombie',
 	'minecraft:zombie_villager',
@@ -10,19 +12,21 @@ const ZOMBIE_TYPES = [
 	'minecraft:drowned'
 ]
 
-function stripModifiers(entity, attribute) {
-	let inst = entity.getAttribute(attribute)
-	if (!inst) return
-	// copy first, can't remove while iterating the live set
-	let mods = inst.getModifiers().toArray()
-	for (let i = 0; i < mods.length; i++) inst.removeModifier(mods[i].id())
-}
-
 ZOMBIE_TYPES.forEach(type => {
 	EntityEvents.spawned(type, event => {
 		let entity = event.entity
-		stripModifiers(entity, Attributes.MAX_HEALTH)
-		stripModifiers(entity, Attributes.MOVEMENT_SPEED)
-		if (entity.health > entity.maxHealth) entity.health = entity.maxHealth
+
+		// Cap health
+		if (entity.getMaxHealth() > ZOMBIE_HEALTH_CAP) {
+			entity.setMaxHealth(ZOMBIE_HEALTH_CAP)
+			entity.health = Math.min(entity.health, ZOMBIE_HEALTH_CAP)
+		}
+
+		// Strip bonus movement speed (leader zombie modifier)
+		let baseSpeed = entity.getDefaultMovementSpeed()
+		if (entity.getTotalMovementSpeed() > baseSpeed) {
+			entity.setDefaultMovementSpeedMultiplier(1.0)
+			entity.setMovementSpeedAddition(0.0)
+		}
 	})
 })

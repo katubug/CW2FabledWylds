@@ -1,0 +1,26 @@
+{
+  "display": {
+    "icon": {
+      "id": "refinedstorage:quartz_enriched_iron"
+    },
+    "title": {
+      "translate": "mod.refinedstorage"
+    },
+    "description": {
+      "translate": "advancements.refinedstorage.root.description"
+    },
+    "background": "refinedstorage:textures/gui/advancements.png"
+  },
+  "criteria": {
+    "illuminite_in_inventory": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "refinedstorage:quartz_enriched_iron"
+          }
+        ]
+      }
+    }
+  }
+}

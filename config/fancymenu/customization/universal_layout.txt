@@ -3,21 +3,21 @@ type = fancymenu_layout
 layout-meta {
   identifier = %fancymenu:universal_layout%
   render_custom_elements_behind_vanilla = false
-  last_edited_time = 1791511004590
+  last_edited_time = 1792613594894
   is_enabled = true
   randommode = false
   randomgroup = 1
   randomonlyfirsttime = false
   layout_index = 0
   universal_layout_blacklist = title_screen;
-  [loading_requirement_container_meta:8a15644c-e5ff-4b7b-84f5-b223cfc8a282-1791510968018] = [groups:][instances:]
+  [loading_requirement_container_meta:6dd57a04-fe42-4cc7-bb3c-db09749bdbef-1792613581533] = [groups:][instances:]
 }
 
 menu_background {
   instance_identifier = 45c8d894-9013-4c36-aff1-11064b71f56e-1791510526411
   background_type = color_fancymenu
-  show_background = false
-  color = #FFC800FF
+  show_background = true
+  color = #2A1541FF
 }
 
 menu_background {
@@ -30,9 +30,10 @@ menu_background {
   instance_identifier = 1f7e17cc-6ffa-4d3a-a8a3-e195791b0825-1791510526411
   background_type = image
   show_background = false
+  image_path = [source:local]/config/fancymenu/assets/loading.png
   slide = false
   repeat_texture = false
-  parallax = false
+  parallax = true
   parallax_intensity_x = 0.02
   parallax_intensity_y = 0.02
   invert_parallax = false
@@ -48,7 +49,7 @@ menu_background {
 menu_background {
   instance_identifier = df1cfd51-5946-4277-a85b-3a950a57dae8-1791510526411
   background_type = video
-  show_background = true
+  show_background = false
   source = [source:local]/config/fancymenu/assets/menu1.mp4
   loop = true
   volume = 0.0
@@ -326,7 +327,7 @@ decoration_overlay {
 
 customization {
   action = backgroundoptions
-  keepaspectratio = false
+  keepaspectratio = true
 }
 
 scroll_list_customization {
@@ -345,7 +346,7 @@ layout_action_executable_blocks {
 
 element {
   element_type = image
-  instance_identifier = 22f5faf3-979b-4c25-8331-c337fc39a128-1791510827238
+  instance_identifier = 3e39e0be-2f4f-4bec-9abc-c2a2bb4050aa-1792612567049
   appearance_delay = no_delay
   disappearance_delay = no_delay
   fade_in_v2 = no_fading
@@ -358,13 +359,13 @@ element {
   auto_sizing_base_gui_height = 450
   sticky_anchor = false
   anchor_point = top-centered
-  x = -196
-  y = 45
-  width = 391
-  height = 227
+  x = -135
+  y = 55
+  width = 274
+  height = 159
   stay_on_screen = true
-  element_loading_requirement_container_identifier = 7604be9d-8a5b-48eb-aded-c8c8c1a5880d-1791510827238
-  [loading_requirement_container_meta:7604be9d-8a5b-48eb-aded-c8c8c1a5880d-1791510827238] = [groups:][instances:]
+  element_loading_requirement_container_identifier = c8febefd-5b55-4b5e-8fe7-7e60b0600a96-1792612567049
+  [loading_requirement_container_meta:c8febefd-5b55-4b5e-8fe7-7e60b0600a96-1792612567049] = [groups:][instances:]
   enable_parallax = false
   invert_parallax = false
   animated_offset_x = 0

@@ -2,12 +2,12 @@
 const SAPLINGS = {
 	greatwood_sapling: {
 		name: 'Greatwood Sapling',
-		structures: ['fabled_wylds:corkscrew_greatwood', 'fabled_wylds:canopy_greatwood'],
+		structures: ['fabled_wylds:corkscrew_greatwood', 'fabled_wylds:canopy_greatwood', 'fabled_wylds:needle_greatwood'],
 		requires2x2: true
 	},
 	silverwood_sapling: {
 		name: 'Silverwood Sapling',
-		structures: ['fabled_wylds:thick_silverwood'],
+		structures: ['fabled_wylds:thick_silverwood', 'fabled_wylds:pronged_silverwood', 'fabled_wylds:pointy_silverwood'],
 		requires2x2: false
 	}
 }
@@ -46,10 +46,9 @@ const QUAD_OFFSETS = [
 	{ cx: -1, cz: -1 }  // NE corner
 ]
 
-/**
- * Finds a valid 2x2 quad of the given sapling block around pos.
- * Returns the SW corner BlockPos, or null if no quad exists.
- */
+//Finds a valid 2x2 quad of the given sapling block around pos.
+//Returns the SW corner BlockPos, or null if no quad exists.
+
 function find2x2(level, pos, blockId) {
 	const BlockPos = Java.loadClass('net.minecraft.core.BlockPos')
 	for (let i = 0; i < QUAD_OFFSETS.length; i++) {
@@ -69,10 +68,9 @@ function find2x2(level, pos, blockId) {
 	return null
 }
 
-/**
- * Checks if there's empty space.
- * Same rule as vanilla trees: air or #replaceable_by_trees, plus our own sapling.
- */
+//Checks if there's empty space.
+//Same rule as vanilla trees: air or #replaceable_by_trees, plus our own sapling.
+
 function hasObstructions(level, placementPos, size, saplingId) {
 	const BlockPos = Java.loadClass('net.minecraft.core.BlockPos')
 	for (let x = 0; x < size.x; x++) {

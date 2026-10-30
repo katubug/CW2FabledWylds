@@ -186,5 +186,27 @@
       "key": "ali:entity_loot",
       "icon": "minecraft:skeleton_skull"
     }
-  ]
+  ],
+  "spawnInfo": {
+    "entities": [],
+    "whitelist": false
+  },
+  "showCharts": true,
+  "tooltipColors": {
+    "branch": "dark_gray",
+    "secondary": "gray",
+    "levels": [
+      "green",
+      "yellow",
+      "light_purple",
+      "blue",
+      "red",
+      "gold"
+    ],
+    "text": "gold",
+    "value": "aqua",
+    "error": "red"
+  },
+  "showUnboundedGlobalLootModifiers": false,
+  "showEntitiesWithoutLoot": false
 }

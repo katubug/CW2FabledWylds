@@ -49,7 +49,7 @@
 		if (!player.persistentData.getBoolean('cw_tot_pail')) {
 			player.give(Item.of('minecraft:orange_bundle')
 				.withCustomName(Text.of('Trick or Treat Pail').italic(false))
-				.withLore([Text.of('A cute little Halloween pail for Trick or Treating. However, any Bundle will do in a pinch.').gold().italic(false)]))
+				.withLore([Text.of('A cute little Halloween pail for Trick or Treating. However, any Bundle will do in a pinch. Right click this on any entity during the week of Halloween to get goodies! ...Hopefully.').gold().italic(false)]))
 			player.persistentData.putBoolean('cw_tot_pail', true)
 		}
 	})

@@ -178,7 +178,7 @@
 	#If true, completing a sewing pattern awards the sewn item's Project MMO xp map (for the
 	#event named by tailoringXpEvent) to the tailor, scaled by the quality sewn (see
 	#tailoringXpMultiplierByQuality) and by how cleanly it was stitched (see
-	#tailoringXpMinigameBonus). Quick Craft on a mastered pattern pays the unscaled amount. Per-item
+	#tailoringXpMinigameBonus). Quick Craft on a mastered pattern is stamped standard and pays the standard rate. Per-item
 	#xp values, and the skills they feed, live in the modpack's Project MMO data; this only scales them.
 	awardTailoringXp = true
 	#Project MMO event type whose item xp map a completed pattern pays out, e.g. CRAFT or SMELT.

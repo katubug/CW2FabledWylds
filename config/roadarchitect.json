@@ -16,15 +16,15 @@
         "biomeSelectors": [],
         "palette": [
           {
-            "block": "minecraft:grass_block",
+            "block": "minecraft:stone_bricks",
             "weight": 3
           },
           {
-            "block": "minecraft:cobblestone",
+            "block": "minecraft:cracked_stone_bricks",
             "weight": 2
           },
           {
-            "block": "minecraft:mossy_cobblestone",
+            "block": "minecraft:mossy_stone_bricks",
             "weight": 1
           },
           {
@@ -40,11 +40,11 @@
         ],
         "palette": [
           {
-            "block": "minecraft:grass_block",
+            "block": "minecraft:mud_bricks",
             "weight": 4
           },
           {
-            "block": "minecraft:sand",
+            "block": "minecraft:mossy_stone_bricks",
             "weight": 1
           },
           {
@@ -65,11 +65,11 @@
         ],
         "palette": [
           {
-            "block": "minecraft:stone",
+            "block": "minecraft:cracked_stone_bricks",
             "weight": 7
           },
           {
-            "block": "minecraft:cobblestone",
+            "block": "minecraft:mossy_stone_bricks",
             "weight": 2
           },
           {
@@ -94,15 +94,15 @@
         ],
         "palette": [
           {
-            "block": "minecraft:sand",
+            "block": "arts_and_crafts:ochre_pietraforte_bricks",
             "weight": 7
           },
           {
-            "block": "minecraft:cobblestone",
+            "block": "architects_palette:calcite_bricks",
             "weight": 2
           },
           {
-            "block": "minecraft:mossy_cobblestone",
+            "block": "create:cut_diorite_bricks",
             "weight": 1
           },
           {
@@ -123,7 +123,7 @@
         ],
         "palette": [
           {
-            "block": "minecraft:podzol",
+            "block": "minecraft:mossy_stone_bricks",
             "weight": 7
           },
           {
@@ -160,7 +160,7 @@
         ],
         "palette": [
           {
-            "block": "minecraft:podzol",
+            "block": "minecraft:mossy_stone_bricks",
             "weight": 7
           },
           {
@@ -197,7 +197,7 @@
         ],
         "palette": [
           {
-            "block": "minecraft:grass_block",
+            "block": "minecraft:dirt_path",
             "weight": 4
           },
           {
@@ -397,7 +397,7 @@
         ],
         "palette": [
           {
-            "block": "minecraft:grass_block",
+            "block": "minecraft:dirt_path",
             "weight": 4
           },
           {
@@ -434,7 +434,7 @@
         ],
         "palette": [
           {
-            "block": "minecraft:mud",
+            "block": "minecraft:dirt_path",
             "weight": 7
           },
           {
@@ -471,7 +471,7 @@
         ],
         "palette": [
           {
-            "block": "minecraft:grass_block",
+            "block": "minecraft:dirt_path",
             "weight": 4
           },
           {
@@ -508,7 +508,7 @@
         ],
         "palette": [
           {
-            "block": "minecraft:grass_block",
+            "block": "minecraft:dirt_path",
             "weight": 4
           },
           {
@@ -545,7 +545,7 @@
         ],
         "palette": [
           {
-            "block": "minecraft:grass_block",
+            "block": "minecraft:dirt_path",
             "weight": 4
           },
           {
@@ -578,7 +578,7 @@
         ],
         "palette": [
           {
-            "block": "minecraft:grass_block",
+            "block": "minecraft:dirt_path",
             "weight": 4
           },
           {
@@ -1545,7 +1545,59 @@
     ]
   },
   "structureSelectors": [
-    "#minecraft:village"
+    "#minecraft:village",
+    "bakery:bakery",
+    "beautify:botanist_house_desert",
+    "beautify:botanist_house_plains",
+    "beautify:botanist_house_savanna",
+    "beautify:botanist_house_snowy",
+    "beautify:botanist_house_taiga",
+    "betterarcheology:archeologist_camp_grassy",
+    "betterarcheology:archeologist_camp_redsand",
+    "betterarcheology:archeologist_camp_sand",
+    "betterarcheology:light_temple",
+    "betterarcheology:stonehenge_grassy",
+    "betterarcheology:temple_jungle",
+    "environmental:log_cabin",
+    "epic:witch_hut",
+    "hexalia:herbalist_hut",
+    "hexerei:baba_yaga_hut",
+    "hexerei:dark_coven",
+    "hexerei:nature_coven",
+    "hexerei:owl_post_office",
+    "hexerei:witch_hut",
+    "hollowmarch:cursed_mansion",
+    "hollowmarch:lighthouse",
+    "hollowmarch:palm_haven",
+    "hollowmarch:raid_camp",
+    "hollowmarch:shell_house",
+    "hollowmarch:sultans_bazaar",
+    "hollowmarch:traveler_obelisk",
+    "hollowmarch:twin_keep",
+    "illagerstructures:herbalist_house",
+    "illagerstructures:herbalist_house",
+    "illagerstructures:illager_camp",
+    "illagerstructures:illager_fort",
+    "illagerstructures:illager_tower",
+    "illagerstructures:illager_tower2",
+    "illagerstructures:illager_tower3",
+    "illagerstructures:lone_house",
+    "illagerstructures:monastery",
+    "illagerstructures:monk_tower",
+    "illagerstructures:ruined_church",
+    "illagerstructures:tower_ruin",
+    "lios_outlandish_villages:spiral_tower_village",
+    "meadow:chalet",
+    "meadow:logging_camp",
+    "mowziesmobs:monastery",
+    "mowziesmobs:umvuthana_grove",
+    "mvs:wooden_wheat_farm",
+    "ribbits:ribbits_village",
+    "roots:standing_stones",
+    "roots:hut",
+    "roots:large_barrow",
+    "roots:ruined_hut",
+    "wetland_whimsy:witch_hut"
   ],
   "dimensionSelectors": [
     "minecraft:overworld"

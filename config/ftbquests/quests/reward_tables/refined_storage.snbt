@@ -1,0 +1,87 @@
+{
+	id: "40E8667A4DA91342"
+	loot_size: 1
+	order_index: 33
+	rewards: [
+		{
+			count: 10
+			id: "5FB0389CBCE83920"
+			item: {
+				count: 1
+				id: "refinedstorage:processor_binding"
+			}
+			weight: 15.0f
+		}
+		{
+			count: 5
+			id: "6BB2E7D365B494FF"
+			item: {
+				count: 1
+				id: "refinedstorage:basic_processor"
+			}
+			weight: 6.0f
+		}
+		{
+			count: 5
+			id: "47922AF238570639"
+			item: {
+				count: 1
+				id: "refinedstorage:improved_processor"
+			}
+			weight: 3.0f
+		}
+		{
+			count: 5
+			id: "5923B4B27D55B6E5"
+			item: {
+				count: 1
+				id: "refinedstorage:advanced_processor"
+			}
+			weight: 3.0f
+		}
+		{
+			count: 10
+			id: "5610E5C16EF2E678"
+			item: {
+				count: 1
+				id: "refinedstorage:silicon"
+			}
+			weight: 10.0f
+		}
+		{
+			id: "3D7B0DFB026E438C"
+			item: {
+				count: 1
+				id: "refinedstorage:1k_storage_part"
+			}
+			weight: 2.0f
+		}
+		{ id: "536732BA7E210A07", item: { count: 1, id: "refinedstorage:4k_storage_part" } }
+		{
+			id: "2AFF43993487A216"
+			item: {
+				count: 1
+				id: "refinedstorage:16k_storage_part"
+			}
+			weight: 0.5f
+		}
+		{
+			count: 9
+			id: "7C027D55CFD39154"
+			item: {
+				count: 1
+				id: "refinedstorage:quartz_enriched_iron"
+			}
+			weight: 15.0f
+		}
+		{
+			count: 5
+			id: "2BB235BD4A0A36EA"
+			item: {
+				count: 1
+				id: "glassential:glass_redstone"
+			}
+			weight: 8.0f
+		}
+	]
+}
