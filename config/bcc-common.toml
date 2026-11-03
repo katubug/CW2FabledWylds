@@ -7,7 +7,7 @@
 	#The name of the modpack
 	modpackName = "Cottage Witch 2: Fabled Wylds"
 	#The version of the modpack
-	modpackVersion = "0.2beta"
+	modpackVersion = "0.3beta"
 	#Use the metadata.json to determine the modpack version
 	#ONLY ENABLE THIS IF YOU KNOW WHAT YOU ARE DOING
 	useMetadata = false
