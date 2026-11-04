@@ -1,5 +1,5 @@
 {
-  "hide_server_script_errors": true,
+  "hide_server_script_errors": false,
   "server_only": false,
   "announce_reload": true,
   "packmode": "",
@@ -7,7 +7,7 @@
   "allow_async_streams": true,
   "match_json_recipes": true,
   "ignore_custom_unique_recipe_ids": false,
-  "startup_error_gui": false,
+  "startup_error_gui": true,
   "startup_error_report_url": "",
   "remove_slot_limit": false,
   "default_max_stack_size": 0,

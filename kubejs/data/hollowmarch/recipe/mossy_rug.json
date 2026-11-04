@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "M",
+    "R",
+    "M"
+  ],
+  "key": {
+    "M": {
+      "item": "minecraft:moss_carpet"
+    },
+    "R": {
+      "item": "minecraft:rabbit_hide"
+    }
+  },
+  "result": {
+    "count": 1,
+    "id": "hollowmarch:mossy_rug"
+  },
+  "show_notification": true
+}

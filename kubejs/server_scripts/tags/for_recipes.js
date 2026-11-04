@@ -17,8 +17,13 @@ ServerEvents.tags('item', event => {
 	)
 
 	event.add('c:dusts/salt',
-		'hearthandharvest:salt', 
+		'hearthandharvest:salt',
 		'hexalia:salt'
+	)
+
+	// only thing in here was nuked
+	event.add('c:flour',
+		'hearthandharvest:flour'
 	)
 
 	// Eyes tags for Enderman Overhaul recipes plus an FTB Filter system quest

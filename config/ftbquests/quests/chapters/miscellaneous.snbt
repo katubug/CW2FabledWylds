@@ -666,8 +666,8 @@
 				item: { components: { "easy_villagers:villager": { } }, count: 1, id: "easy_villagers:villager" }
 				type: "item"
 			}]
-			x: 5.0d
-			y: -5.5d
+			x: 7.0d
+			y: -1.0d
 		}
 		{
 			id: "063A5C650B0846FF"
@@ -921,35 +921,6 @@
 			}]
 			x: 6.0d
 			y: 2.5d
-		}
-		{
-			dependencies: ["70C4F17973F6492E"]
-			id: "3E4527C883908239"
-			preset: "animal"
-			quest_enhance_disable_scroll_paging: false
-			rewards: [{
-				count: 5
-				exclude_from_claim_all: true
-				id: "0C63E71D2658D2A0"
-				is_ender: false
-				is_team_reward: false
-				item: {
-					count: 1
-					id: "minecraft:emerald"
-				}
-				target_addressee: "Katu Starshine"
-				team_reward_multiplier: 1.0f
-				type: "contactquests:parcel"
-			}]
-			tasks: [{
-				entity: "milotrader:cat_trader"
-				id: "16275DDCBC90C262"
-				search_radius_blocks: 64
-				target_radius_blocks: 5
-				type: "find_entity"
-			}]
-			x: 7.0d
-			y: -1.0d
 		}
 	]
 }

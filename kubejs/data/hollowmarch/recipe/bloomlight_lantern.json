@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "III",
+    "ITI",
+    "III"
+  ],
+  "key": {
+    "I": {
+      "item": "minecraft:iron_nugget"
+    },
+    "T": {
+      "item": "minecraft:torchflower"
+    }
+  },
+  "result": {
+    "count": 1,
+    "id": "hollowmarch:bloomlight_lantern"
+  }
+}
