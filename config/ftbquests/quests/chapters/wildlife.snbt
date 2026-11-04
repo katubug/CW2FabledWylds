@@ -1382,9 +1382,13 @@
 				}
 				{
 					exclude_from_claim_all: true
-					id: "4B63F029602EB538"
+					id: "30D807B3F8A69D08"
+					is_ender: false
+					is_team_reward: false
 					table_id: 7328857662613080212L
-					type: "random"
+					target_addressee: "Katu Starshine"
+					team_reward_multiplier: 1.0f
+					type: "contactquests:parcel_random"
 				}
 			]
 			tasks: [{
@@ -1567,18 +1571,27 @@
 			quest_enhance_disable_scroll_paging: false
 			rewards: [
 				{
-					id: "4BFA7A444228DEDF"
+					exclude_from_claim_all: true
+					id: "77DA749295C79F53"
+					is_ender: false
+					is_team_reward: false
+					table_id: 6895470215093009548L
+					target_addressee: "Katu Starshine"
+					team_reward_multiplier: 1.0f
+					type: "contactquests:parcel_random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "08DDADDF73608619"
+					is_ender: false
+					is_team_reward: false
 					item: {
 						count: 1
 						id: "heads:snow_golem_head"
 					}
-					type: "item"
-				}
-				{
-					exclude_from_claim_all: true
-					id: "347A9D1A2CD2559F"
-					table_id: 6895470215093009548L
-					type: "random"
+					target_addressee: "Katu Starshine"
+					team_reward_multiplier: 1.0f
+					type: "contactquests:parcel"
 				}
 			]
 			tasks: [{
