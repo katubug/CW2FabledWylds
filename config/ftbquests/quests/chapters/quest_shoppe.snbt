@@ -317,15 +317,6 @@
 	quests: [
 		{
 			can_repeat: false
-			extraquests_calendar: {
-				active_quests: 3
-				enabled: 0b
-				pool: ""
-				reset_time: "06:00"
-				timezone: "UTC"
-				weekday: 1
-				weekly: 0b
-			}
 			id: "4971EB753FE0E6CC"
 			preset: "start"
 			quest_enhance_disable_scroll_paging: false
@@ -343,17 +334,6 @@
 			shape: "rsquare"
 			size: 2.0d
 			tasks: [{
-				extraquests_options: {
-					aggregation: "AUTO"
-					duration: 600L
-					minimum_contribution: 0L
-					reset_damage: 0b
-					reset_death: 1b
-					reset_logout: 0b
-					shared: 0b
-					timer_enabled: 0b
-					timer_start: "FIRST_PROGRESS"
-				}
 				id: "2A957A338BE899C4"
 				type: "checkmark"
 			}]
@@ -361,15 +341,6 @@
 			y: -4.0d
 		}
 		{
-			extraquests_calendar: {
-				active_quests: 3
-				enabled: 0b
-				pool: ""
-				reset_time: "06:00"
-				timezone: "UTC"
-				weekday: 1
-				weekly: 0b
-			}
 			icon: {
 				id: "hexalia:small_cauldron"
 			}
@@ -390,17 +361,6 @@
 				type: "contactquests:parcel"
 			}]
 			tasks: [{
-				extraquests_options: {
-					aggregation: "AUTO"
-					duration: 600L
-					minimum_contribution: 0L
-					reset_damage: 0b
-					reset_death: 1b
-					reset_logout: 0b
-					shared: 0b
-					timer_enabled: 0b
-					timer_start: "FIRST_PROGRESS"
-				}
 				icon: {
 					id: "hexalia:small_cauldron"
 				}
@@ -412,15 +372,6 @@
 			y: 0.5d
 		}
 		{
-			extraquests_calendar: {
-				active_quests: 3
-				enabled: 0b
-				pool: ""
-				reset_time: "06:00"
-				timezone: "UTC"
-				weekday: 1
-				weekly: 0b
-			}
 			icon: {
 				id: "hexerei:mixing_cauldron"
 			}
@@ -441,17 +392,6 @@
 				type: "contactquests:parcel"
 			}]
 			tasks: [{
-				extraquests_options: {
-					aggregation: "AUTO"
-					duration: 600L
-					minimum_contribution: 0L
-					reset_damage: 0b
-					reset_death: 1b
-					reset_logout: 0b
-					shared: 0b
-					timer_enabled: 0b
-					timer_start: "FIRST_PROGRESS"
-				}
 				icon: {
 					id: "hexerei:mixing_cauldron"
 				}
@@ -463,15 +403,6 @@
 			y: 0.5d
 		}
 		{
-			extraquests_calendar: {
-				active_quests: 3
-				enabled: 0b
-				pool: ""
-				reset_time: "06:00"
-				timezone: "UTC"
-				weekday: 1
-				weekly: 0b
-			}
 			icon: {
 				id: "cluttered:small_cauldron_set"
 			}
@@ -492,17 +423,6 @@
 				type: "contactquests:parcel"
 			}]
 			tasks: [{
-				extraquests_options: {
-					aggregation: "AUTO"
-					duration: 600L
-					minimum_contribution: 0L
-					reset_damage: 0b
-					reset_death: 1b
-					reset_logout: 0b
-					shared: 0b
-					timer_enabled: 0b
-					timer_start: "FIRST_PROGRESS"
-				}
 				icon: {
 					id: "cluttered:small_cauldron_set"
 				}
@@ -514,15 +434,6 @@
 			y: 0.5d
 		}
 		{
-			extraquests_calendar: {
-				active_quests: 3
-				enabled: 0b
-				pool: ""
-				reset_time: "06:00"
-				timezone: "UTC"
-				weekday: 1
-				weekly: 0b
-			}
 			icon: {
 				id: "moresnifferflowers:beroot_cauldron"
 			}
@@ -562,32 +473,10 @@
 				{
 					advancement: "minecraft:husbandry/feed_snifflet"
 					criterion: ""
-					extraquests_options: {
-						aggregation: "AUTO"
-						duration: 600L
-						minimum_contribution: 0L
-						reset_damage: 0b
-						reset_death: 1b
-						reset_logout: 0b
-						shared: 0b
-						timer_enabled: 0b
-						timer_start: "FIRST_PROGRESS"
-					}
 					id: "57ECC2F34AE8A5B6"
 					type: "advancement"
 				}
 				{
-					extraquests_options: {
-						aggregation: "AUTO"
-						duration: 600L
-						minimum_contribution: 0L
-						reset_damage: 0b
-						reset_death: 1b
-						reset_logout: 0b
-						shared: 0b
-						timer_enabled: 0b
-						timer_start: "FIRST_PROGRESS"
-					}
 					icon: {
 						id: "moresnifferflowers:beroot_cauldron"
 					}
@@ -600,15 +489,6 @@
 			y: 0.5d
 		}
 		{
-			extraquests_calendar: {
-				active_quests: 3
-				enabled: 0b
-				pool: ""
-				reset_time: "06:00"
-				timezone: "UTC"
-				weekday: 1
-				weekly: 0b
-			}
 			icon: {
 				id: "reliquary:apothecary_cauldron"
 			}
@@ -645,17 +525,6 @@
 				}
 			]
 			tasks: [{
-				extraquests_options: {
-					aggregation: "AUTO"
-					duration: 600L
-					minimum_contribution: 0L
-					reset_damage: 0b
-					reset_death: 1b
-					reset_logout: 0b
-					shared: 0b
-					timer_enabled: 0b
-					timer_start: "FIRST_PROGRESS"
-				}
 				icon: {
 					id: "reliquary:apothecary_cauldron"
 				}
@@ -667,15 +536,6 @@
 			y: 0.5d
 		}
 		{
-			extraquests_calendar: {
-				active_quests: 3
-				enabled: 0b
-				pool: ""
-				reset_time: "06:00"
-				timezone: "UTC"
-				weekday: 1
-				weekly: 0b
-			}
 			icon: {
 				id: "farmersdelight:cooking_pot"
 			}
@@ -696,17 +556,6 @@
 				type: "contactquests:parcel"
 			}]
 			tasks: [{
-				extraquests_options: {
-					aggregation: "AUTO"
-					duration: 600L
-					minimum_contribution: 0L
-					reset_damage: 0b
-					reset_death: 1b
-					reset_logout: 0b
-					shared: 0b
-					timer_enabled: 0b
-					timer_start: "FIRST_PROGRESS"
-				}
 				icon: {
 					id: "farmersdelight:cooking_pot"
 				}
@@ -718,15 +567,6 @@
 			y: -2.5d
 		}
 		{
-			extraquests_calendar: {
-				active_quests: 3
-				enabled: 0b
-				pool: ""
-				reset_time: "06:00"
-				timezone: "UTC"
-				weekday: 1
-				weekly: 0b
-			}
 			icon: {
 				id: "farm_and_charm:cooking_pot"
 			}
@@ -747,17 +587,6 @@
 				type: "contactquests:parcel"
 			}]
 			tasks: [{
-				extraquests_options: {
-					aggregation: "AUTO"
-					duration: 600L
-					minimum_contribution: 0L
-					reset_damage: 0b
-					reset_death: 1b
-					reset_logout: 0b
-					shared: 0b
-					timer_enabled: 0b
-					timer_start: "FIRST_PROGRESS"
-				}
 				icon: {
 					id: "farm_and_charm:cooking_pot"
 				}
@@ -769,15 +598,6 @@
 			y: -2.5d
 		}
 		{
-			extraquests_calendar: {
-				active_quests: 3
-				enabled: 0b
-				pool: ""
-				reset_time: "06:00"
-				timezone: "UTC"
-				weekday: 1
-				weekly: 0b
-			}
 			icon: {
 				id: "meadow:cookpot"
 			}
@@ -798,17 +618,6 @@
 				type: "contactquests:parcel"
 			}]
 			tasks: [{
-				extraquests_options: {
-					aggregation: "AUTO"
-					duration: 600L
-					minimum_contribution: 0L
-					reset_damage: 0b
-					reset_death: 1b
-					reset_logout: 0b
-					shared: 0b
-					timer_enabled: 0b
-					timer_start: "FIRST_PROGRESS"
-				}
 				icon: {
 					id: "meadow:cookpot"
 				}
@@ -820,15 +629,6 @@
 			y: -2.5d
 		}
 		{
-			extraquests_calendar: {
-				active_quests: 3
-				enabled: 0b
-				pool: ""
-				reset_time: "06:00"
-				timezone: "UTC"
-				weekday: 1
-				weekly: 0b
-			}
 			icon: {
 				id: "hexerei:pestle_and_mortar"
 			}
@@ -849,17 +649,6 @@
 				type: "contactquests:parcel"
 			}]
 			tasks: [{
-				extraquests_options: {
-					aggregation: "AUTO"
-					duration: 600L
-					minimum_contribution: 0L
-					reset_damage: 0b
-					reset_death: 1b
-					reset_logout: 0b
-					shared: 0b
-					timer_enabled: 0b
-					timer_start: "FIRST_PROGRESS"
-				}
 				icon: {
 					id: "hexerei:pestle_and_mortar"
 				}
@@ -871,15 +660,6 @@
 			y: 1.5d
 		}
 		{
-			extraquests_calendar: {
-				active_quests: 3
-				enabled: 0b
-				pool: ""
-				reset_time: "06:00"
-				timezone: "UTC"
-				weekday: 1
-				weekly: 0b
-			}
 			icon: {
 				id: "tarotcards:temperance"
 			}
@@ -893,17 +673,6 @@
 				type: "choice"
 			}]
 			tasks: [{
-				extraquests_options: {
-					aggregation: "AUTO"
-					duration: 600L
-					minimum_contribution: 0L
-					reset_damage: 0b
-					reset_death: 1b
-					reset_logout: 0b
-					shared: 0b
-					timer_enabled: 0b
-					timer_start: "FIRST_PROGRESS"
-				}
 				icon: {
 					id: "tarotcards:the_hanged_man"
 				}
@@ -915,15 +684,6 @@
 			y: 7.5d
 		}
 		{
-			extraquests_calendar: {
-				active_quests: 3
-				enabled: 0b
-				pool: ""
-				reset_time: "06:00"
-				timezone: "UTC"
-				weekday: 1
-				weekly: 0b
-			}
 			icon: {
 				id: "tarotcards:the_fool"
 			}
@@ -937,17 +697,6 @@
 				type: "choice"
 			}]
 			tasks: [{
-				extraquests_options: {
-					aggregation: "AUTO"
-					duration: 600L
-					minimum_contribution: 0L
-					reset_damage: 0b
-					reset_death: 1b
-					reset_logout: 0b
-					shared: 0b
-					timer_enabled: 0b
-					timer_start: "FIRST_PROGRESS"
-				}
 				icon: {
 					id: "tarotcards:the_fool"
 				}
@@ -959,15 +708,6 @@
 			y: 7.5d
 		}
 		{
-			extraquests_calendar: {
-				active_quests: 3
-				enabled: 0b
-				pool: ""
-				reset_time: "06:00"
-				timezone: "UTC"
-				weekday: 1
-				weekly: 0b
-			}
 			icon: {
 				id: "tarotcards:justice"
 			}
@@ -981,17 +721,6 @@
 				type: "choice"
 			}]
 			tasks: [{
-				extraquests_options: {
-					aggregation: "AUTO"
-					duration: 600L
-					minimum_contribution: 0L
-					reset_damage: 0b
-					reset_death: 1b
-					reset_logout: 0b
-					shared: 0b
-					timer_enabled: 0b
-					timer_start: "FIRST_PROGRESS"
-				}
 				icon: {
 					id: "tarotcards:justice"
 				}
@@ -1003,15 +732,6 @@
 			y: 7.5d
 		}
 		{
-			extraquests_calendar: {
-				active_quests: 3
-				enabled: 0b
-				pool: ""
-				reset_time: "06:00"
-				timezone: "UTC"
-				weekday: 1
-				weekly: 0b
-			}
 			icon: {
 				id: "tarotcards:death"
 			}
@@ -1025,17 +745,6 @@
 				type: "choice"
 			}]
 			tasks: [{
-				extraquests_options: {
-					aggregation: "AUTO"
-					duration: 600L
-					minimum_contribution: 0L
-					reset_damage: 0b
-					reset_death: 1b
-					reset_logout: 0b
-					shared: 0b
-					timer_enabled: 0b
-					timer_start: "FIRST_PROGRESS"
-				}
 				icon: {
 					id: "tarotcards:death"
 				}
@@ -1047,15 +756,6 @@
 			y: 7.5d
 		}
 		{
-			extraquests_calendar: {
-				active_quests: 3
-				enabled: 0b
-				pool: ""
-				reset_time: "06:00"
-				timezone: "UTC"
-				weekday: 1
-				weekly: 0b
-			}
 			icon: {
 				id: "tarotcards:tarot_deck"
 			}
@@ -1071,17 +771,6 @@
 				type: "item"
 			}]
 			tasks: [{
-				extraquests_options: {
-					aggregation: "AUTO"
-					duration: 600L
-					minimum_contribution: 0L
-					reset_damage: 0b
-					reset_death: 1b
-					reset_logout: 0b
-					shared: 0b
-					timer_enabled: 0b
-					timer_start: "FIRST_PROGRESS"
-				}
 				icon: {
 					id: "tarotcards:tarot_deck"
 				}
@@ -1093,15 +782,6 @@
 			y: 7.5d
 		}
 		{
-			extraquests_calendar: {
-				active_quests: 3
-				enabled: 0b
-				pool: ""
-				reset_time: "06:00"
-				timezone: "UTC"
-				weekday: 1
-				weekly: 0b
-			}
 			icon: {
 				id: "exposure:black_and_white_film"
 			}
@@ -1122,17 +802,6 @@
 				type: "contactquests:parcel"
 			}]
 			tasks: [{
-				extraquests_options: {
-					aggregation: "AUTO"
-					duration: 600L
-					minimum_contribution: 0L
-					reset_damage: 0b
-					reset_death: 1b
-					reset_logout: 0b
-					shared: 0b
-					timer_enabled: 0b
-					timer_start: "FIRST_PROGRESS"
-				}
 				icon: {
 					id: "exposure:black_and_white_film"
 				}
@@ -1144,15 +813,6 @@
 			y: 1.0d
 		}
 		{
-			extraquests_calendar: {
-				active_quests: 3
-				enabled: 0b
-				pool: ""
-				reset_time: "06:00"
-				timezone: "UTC"
-				weekday: 1
-				weekly: 0b
-			}
 			id: "63984978A1AADF30"
 			quest_enhance_disable_scroll_paging: false
 			rewards: [{
@@ -1170,17 +830,6 @@
 				type: "contactquests:parcel"
 			}]
 			tasks: [{
-				extraquests_options: {
-					aggregation: "AUTO"
-					duration: 600L
-					minimum_contribution: 0L
-					reset_damage: 0b
-					reset_death: 1b
-					reset_logout: 0b
-					shared: 0b
-					timer_enabled: 0b
-					timer_start: "FIRST_PROGRESS"
-				}
 				icon: {
 					id: "exposure:color_film"
 				}
@@ -1192,15 +841,6 @@
 			y: 1.5d
 		}
 		{
-			extraquests_calendar: {
-				active_quests: 3
-				enabled: 0b
-				pool: ""
-				reset_time: "06:00"
-				timezone: "UTC"
-				weekday: 1
-				weekly: 0b
-			}
 			icon: {
 				id: "exposure:high_sensitivity_black_and_white_film"
 			}
@@ -1221,17 +861,6 @@
 				type: "contactquests:parcel"
 			}]
 			tasks: [{
-				extraquests_options: {
-					aggregation: "AUTO"
-					duration: 600L
-					minimum_contribution: 0L
-					reset_damage: 0b
-					reset_death: 1b
-					reset_logout: 0b
-					shared: 0b
-					timer_enabled: 0b
-					timer_start: "FIRST_PROGRESS"
-				}
 				icon: {
 					id: "exposure:high_sensitivity_black_and_white_film"
 				}
@@ -1243,15 +872,6 @@
 			y: 1.5d
 		}
 		{
-			extraquests_calendar: {
-				active_quests: 3
-				enabled: 0b
-				pool: ""
-				reset_time: "06:00"
-				timezone: "UTC"
-				weekday: 1
-				weekly: 0b
-			}
 			id: "11A001C9B2413F91"
 			quest_enhance_disable_scroll_paging: false
 			rewards: [{
@@ -1269,17 +889,6 @@
 				type: "contactquests:parcel"
 			}]
 			tasks: [{
-				extraquests_options: {
-					aggregation: "AUTO"
-					duration: 600L
-					minimum_contribution: 0L
-					reset_damage: 0b
-					reset_death: 1b
-					reset_logout: 0b
-					shared: 0b
-					timer_enabled: 0b
-					timer_start: "FIRST_PROGRESS"
-				}
 				icon: {
 					id: "exposure:high_sensitivity_color_film"
 				}
@@ -1291,15 +900,6 @@
 			y: 1.0d
 		}
 		{
-			extraquests_calendar: {
-				active_quests: 3
-				enabled: 0b
-				pool: ""
-				reset_time: "06:00"
-				timezone: "UTC"
-				weekday: 1
-				weekly: 0b
-			}
 			icon: {
 				id: "twilightforest:travellers_belt"
 			}
@@ -1318,17 +918,6 @@
 				type: "command"
 			}]
 			tasks: [{
-				extraquests_options: {
-					aggregation: "AUTO"
-					duration: 600L
-					minimum_contribution: 0L
-					reset_damage: 0b
-					reset_death: 1b
-					reset_logout: 0b
-					shared: 0b
-					timer_enabled: 0b
-					timer_start: "FIRST_PROGRESS"
-				}
 				icon: {
 					id: "travelertoolbelt:belt"
 				}
@@ -1340,15 +929,6 @@
 			y: 4.0d
 		}
 		{
-			extraquests_calendar: {
-				active_quests: 3
-				enabled: 0b
-				pool: ""
-				reset_time: "06:00"
-				timezone: "UTC"
-				weekday: 1
-				weekly: 0b
-			}
 			icon: {
 				id: "minecraft:iron_chestplate"
 			}
@@ -1367,17 +947,6 @@
 				type: "command"
 			}]
 			tasks: [{
-				extraquests_options: {
-					aggregation: "AUTO"
-					duration: 600L
-					minimum_contribution: 0L
-					reset_damage: 0b
-					reset_death: 1b
-					reset_logout: 0b
-					shared: 0b
-					timer_enabled: 0b
-					timer_start: "FIRST_PROGRESS"
-				}
 				icon: {
 					id: "minecraft:iron_chestplate"
 				}
@@ -1389,15 +958,6 @@
 			y: 4.0d
 		}
 		{
-			extraquests_calendar: {
-				active_quests: 3
-				enabled: 0b
-				pool: ""
-				reset_time: "06:00"
-				timezone: "UTC"
-				weekday: 1
-				weekly: 0b
-			}
 			icon: {
 				components: {
 					"relics:data": {
@@ -1476,17 +1036,6 @@
 				type: "command"
 			}]
 			tasks: [{
-				extraquests_options: {
-					aggregation: "AUTO"
-					duration: 600L
-					minimum_contribution: 0L
-					reset_damage: 0b
-					reset_death: 1b
-					reset_logout: 0b
-					shared: 0b
-					timer_enabled: 0b
-					timer_start: "FIRST_PROGRESS"
-				}
 				icon: {
 					components: {
 						"relics:data": {
@@ -1525,15 +1074,6 @@
 			y: 4.0d
 		}
 		{
-			extraquests_calendar: {
-				active_quests: 3
-				enabled: 0b
-				pool: ""
-				reset_time: "06:00"
-				timezone: "UTC"
-				weekday: 1
-				weekly: 0b
-			}
 			icon: {
 				id: "minecraft:cow_spawn_egg"
 			}
@@ -1547,17 +1087,6 @@
 				type: "choice"
 			}]
 			tasks: [{
-				extraquests_options: {
-					aggregation: "AUTO"
-					duration: 600L
-					minimum_contribution: 0L
-					reset_damage: 0b
-					reset_death: 1b
-					reset_logout: 0b
-					shared: 0b
-					timer_enabled: 0b
-					timer_start: "FIRST_PROGRESS"
-				}
 				icon: {
 					id: "minecraft:cow_spawn_egg"
 				}
@@ -1569,15 +1098,6 @@
 			y: -2.5d
 		}
 		{
-			extraquests_calendar: {
-				active_quests: 3
-				enabled: 0b
-				pool: ""
-				reset_time: "06:00"
-				timezone: "UTC"
-				weekday: 1
-				weekly: 0b
-			}
 			icon: {
 				id: "broom_closet:cat_ears"
 			}
@@ -1598,17 +1118,6 @@
 				type: "contactquests:parcel"
 			}]
 			tasks: [{
-				extraquests_options: {
-					aggregation: "AUTO"
-					duration: 600L
-					minimum_contribution: 0L
-					reset_damage: 0b
-					reset_death: 1b
-					reset_logout: 0b
-					shared: 0b
-					timer_enabled: 0b
-					timer_start: "FIRST_PROGRESS"
-				}
 				icon: {
 					id: "numismatics:crown"
 				}
@@ -1620,15 +1129,6 @@
 			y: -3.0d
 		}
 		{
-			extraquests_calendar: {
-				active_quests: 3
-				enabled: 0b
-				pool: ""
-				reset_time: "06:00"
-				timezone: "UTC"
-				weekday: 1
-				weekly: 0b
-			}
 			icon: {
 				id: "broom_closet:druid_horns"
 			}
@@ -1649,17 +1149,6 @@
 				type: "contactquests:parcel"
 			}]
 			tasks: [{
-				extraquests_options: {
-					aggregation: "AUTO"
-					duration: 600L
-					minimum_contribution: 0L
-					reset_damage: 0b
-					reset_death: 1b
-					reset_logout: 0b
-					shared: 0b
-					timer_enabled: 0b
-					timer_start: "FIRST_PROGRESS"
-				}
 				icon: {
 					id: "broom_closet:druid_horns"
 				}
@@ -1671,15 +1160,6 @@
 			y: -3.0d
 		}
 		{
-			extraquests_calendar: {
-				active_quests: 3
-				enabled: 0b
-				pool: ""
-				reset_time: "06:00"
-				timezone: "UTC"
-				weekday: 1
-				weekly: 0b
-			}
 			icon: {
 				id: "broom_closet:demon_horns"
 			}
@@ -1699,17 +1179,6 @@
 				type: "contactquests:parcel"
 			}]
 			tasks: [{
-				extraquests_options: {
-					aggregation: "AUTO"
-					duration: 600L
-					minimum_contribution: 0L
-					reset_damage: 0b
-					reset_death: 1b
-					reset_logout: 0b
-					shared: 0b
-					timer_enabled: 0b
-					timer_start: "FIRST_PROGRESS"
-				}
 				icon: {
 					id: "broom_closet:demon_horns"
 				}
@@ -1721,15 +1190,6 @@
 			y: -3.5d
 		}
 		{
-			extraquests_calendar: {
-				active_quests: 3
-				enabled: 0b
-				pool: ""
-				reset_time: "06:00"
-				timezone: "UTC"
-				weekday: 1
-				weekly: 0b
-			}
 			icon: {
 				id: "broom_closet:elf_ears"
 			}
@@ -1750,17 +1210,6 @@
 				type: "contactquests:parcel"
 			}]
 			tasks: [{
-				extraquests_options: {
-					aggregation: "AUTO"
-					duration: 600L
-					minimum_contribution: 0L
-					reset_damage: 0b
-					reset_death: 1b
-					reset_logout: 0b
-					shared: 0b
-					timer_enabled: 0b
-					timer_start: "FIRST_PROGRESS"
-				}
 				icon: {
 					id: "broom_closet:elf_ears"
 				}
@@ -1772,15 +1221,6 @@
 			y: 1.5d
 		}
 		{
-			extraquests_calendar: {
-				active_quests: 3
-				enabled: 0b
-				pool: ""
-				reset_time: "06:00"
-				timezone: "UTC"
-				weekday: 1
-				weekly: 0b
-			}
 			icon: {
 				id: "broom_closet:frog"
 			}
@@ -1801,17 +1241,6 @@
 				type: "contactquests:parcel"
 			}]
 			tasks: [{
-				extraquests_options: {
-					aggregation: "AUTO"
-					duration: 600L
-					minimum_contribution: 0L
-					reset_damage: 0b
-					reset_death: 1b
-					reset_logout: 0b
-					shared: 0b
-					timer_enabled: 0b
-					timer_start: "FIRST_PROGRESS"
-				}
 				icon: {
 					id: "broom_closet:frog"
 				}
@@ -1823,15 +1252,6 @@
 			y: 1.5d
 		}
 		{
-			extraquests_calendar: {
-				active_quests: 3
-				enabled: 0b
-				pool: ""
-				reset_time: "06:00"
-				timezone: "UTC"
-				weekday: 1
-				weekly: 0b
-			}
 			icon: {
 				id: "broom_closet:frog_top_hat"
 			}
@@ -1852,17 +1272,6 @@
 				type: "contactquests:parcel"
 			}]
 			tasks: [{
-				extraquests_options: {
-					aggregation: "AUTO"
-					duration: 600L
-					minimum_contribution: 0L
-					reset_damage: 0b
-					reset_death: 1b
-					reset_logout: 0b
-					shared: 0b
-					timer_enabled: 0b
-					timer_start: "FIRST_PROGRESS"
-				}
 				icon: {
 					id: "broom_closet:frog_top_hat"
 				}
@@ -1874,15 +1283,6 @@
 			y: 1.5d
 		}
 		{
-			extraquests_calendar: {
-				active_quests: 3
-				enabled: 0b
-				pool: ""
-				reset_time: "06:00"
-				timezone: "UTC"
-				weekday: 1
-				weekly: 0b
-			}
 			icon: {
 				id: "broom_closet:goblin_ears"
 			}
@@ -1903,17 +1303,6 @@
 				type: "contactquests:parcel"
 			}]
 			tasks: [{
-				extraquests_options: {
-					aggregation: "AUTO"
-					duration: 600L
-					minimum_contribution: 0L
-					reset_damage: 0b
-					reset_death: 1b
-					reset_logout: 0b
-					shared: 0b
-					timer_enabled: 0b
-					timer_start: "FIRST_PROGRESS"
-				}
 				icon: {
 					id: "broom_closet:goblin_ears"
 				}
@@ -1925,15 +1314,6 @@
 			y: 7.5d
 		}
 		{
-			extraquests_calendar: {
-				active_quests: 3
-				enabled: 0b
-				pool: ""
-				reset_time: "06:00"
-				timezone: "UTC"
-				weekday: 1
-				weekly: 0b
-			}
 			icon: {
 				id: "broom_closet:antlers"
 			}
@@ -1954,17 +1334,6 @@
 				type: "contactquests:parcel"
 			}]
 			tasks: [{
-				extraquests_options: {
-					aggregation: "AUTO"
-					duration: 600L
-					minimum_contribution: 0L
-					reset_damage: 0b
-					reset_death: 1b
-					reset_logout: 0b
-					shared: 0b
-					timer_enabled: 0b
-					timer_start: "FIRST_PROGRESS"
-				}
 				icon: {
 					id: "broom_closet:antlers"
 				}
@@ -1976,15 +1345,6 @@
 			y: 7.5d
 		}
 		{
-			extraquests_calendar: {
-				active_quests: 3
-				enabled: 0b
-				pool: ""
-				reset_time: "06:00"
-				timezone: "UTC"
-				weekday: 1
-				weekly: 0b
-			}
 			id: "7FDCB7F0C6C8EADA"
 			quest_enhance_disable_scroll_paging: false
 			rewards: [{
@@ -1995,17 +1355,6 @@
 				type: "choice"
 			}]
 			tasks: [{
-				extraquests_options: {
-					aggregation: "AUTO"
-					duration: 600L
-					minimum_contribution: 0L
-					reset_damage: 0b
-					reset_death: 1b
-					reset_logout: 0b
-					shared: 0b
-					timer_enabled: 0b
-					timer_start: "FIRST_PROGRESS"
-				}
 				icon: {
 					id: "minecraft:red_dye"
 				}
@@ -2017,15 +1366,6 @@
 			y: -2.5d
 		}
 		{
-			extraquests_calendar: {
-				active_quests: 3
-				enabled: 0b
-				pool: ""
-				reset_time: "06:00"
-				timezone: "UTC"
-				weekday: 1
-				weekly: 0b
-			}
 			id: "21BCCEDD06A1C052"
 			quest_enhance_disable_scroll_paging: false
 			rewards: [{
@@ -2044,17 +1384,6 @@
 				type: "contactquests:parcel"
 			}]
 			tasks: [{
-				extraquests_options: {
-					aggregation: "AUTO"
-					duration: 600L
-					minimum_contribution: 0L
-					reset_damage: 0b
-					reset_death: 1b
-					reset_logout: 0b
-					shared: 0b
-					timer_enabled: 0b
-					timer_start: "FIRST_PROGRESS"
-				}
 				icon: {
 					id: "minecraft:paper"
 				}

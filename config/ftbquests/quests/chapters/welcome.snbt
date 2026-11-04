@@ -285,15 +285,6 @@
 	quest_links: [ ]
 	quests: [
 		{
-			extraquests_calendar: {
-				active_quests: 3
-				enabled: 0b
-				pool: ""
-				reset_time: "06:00"
-				timezone: "UTC"
-				weekday: 1
-				weekly: 0b
-			}
 			id: "226D1B09B2958EFC"
 			preset: "info"
 			quest_enhance_disable_scroll_paging: false
@@ -313,17 +304,6 @@
 			shape: "thought"
 			size: 1.0d
 			tasks: [{
-				extraquests_options: {
-					aggregation: "AUTO"
-					duration: 600L
-					minimum_contribution: 0L
-					reset_damage: 0b
-					reset_death: 1b
-					reset_logout: 0b
-					shared: 0b
-					timer_enabled: 0b
-					timer_start: "FIRST_PROGRESS"
-				}
 				id: "70ED8357EEA2ACA4"
 				type: "checkmark"
 			}]
@@ -331,15 +311,6 @@
 			y: -7.5d
 		}
 		{
-			extraquests_calendar: {
-				active_quests: 3
-				enabled: 0b
-				pool: ""
-				reset_time: "06:00"
-				timezone: "UTC"
-				weekday: 1
-				weekly: 0b
-			}
 			id: "171D4EACF7B9F4D5"
 			preset: "info"
 			quest_enhance_disable_scroll_paging: false
@@ -358,17 +329,6 @@
 			}]
 			shape: "thought"
 			tasks: [{
-				extraquests_options: {
-					aggregation: "AUTO"
-					duration: 600L
-					minimum_contribution: 0L
-					reset_damage: 0b
-					reset_death: 1b
-					reset_logout: 0b
-					shared: 0b
-					timer_enabled: 0b
-					timer_start: "FIRST_PROGRESS"
-				}
 				id: "4B25469609B1A60C"
 				type: "checkmark"
 			}]
@@ -376,15 +336,6 @@
 			y: -7.5d
 		}
 		{
-			extraquests_calendar: {
-				active_quests: 3
-				enabled: 0b
-				pool: ""
-				reset_time: "06:00"
-				timezone: "UTC"
-				weekday: 1
-				weekly: 0b
-			}
 			id: "26D8EAD9D892805E"
 			min_width: 350
 			preset: "info"
@@ -405,17 +356,6 @@
 			shape: "thought"
 			size: 1.0d
 			tasks: [{
-				extraquests_options: {
-					aggregation: "AUTO"
-					duration: 600L
-					minimum_contribution: 0L
-					reset_damage: 0b
-					reset_death: 1b
-					reset_logout: 0b
-					shared: 0b
-					timer_enabled: 0b
-					timer_start: "FIRST_PROGRESS"
-				}
 				id: "4FA4B92C6339251C"
 				type: "checkmark"
 			}]
@@ -424,15 +364,6 @@
 		}
 		{
 			dependencies: ["26D8EAD9D892805E"]
-			extraquests_calendar: {
-				active_quests: 3
-				enabled: 0b
-				pool: ""
-				reset_time: "06:00"
-				timezone: "UTC"
-				weekday: 1
-				weekly: 0b
-			}
 			id: "20F9C02AF5CBE665"
 			preset: "info"
 			quest_enhance_disable_scroll_paging: false
@@ -451,17 +382,6 @@
 			}]
 			shape: "thought"
 			tasks: [{
-				extraquests_options: {
-					aggregation: "AUTO"
-					duration: 600L
-					minimum_contribution: 0L
-					reset_damage: 0b
-					reset_death: 1b
-					reset_logout: 0b
-					shared: 0b
-					timer_enabled: 0b
-					timer_start: "FIRST_PROGRESS"
-				}
 				id: "5D2FC3F7E82A27A3"
 				type: "checkmark"
 			}]
@@ -469,15 +389,6 @@
 			y: -7.5d
 		}
 		{
-			extraquests_calendar: {
-				active_quests: 3
-				enabled: 0b
-				pool: ""
-				reset_time: "06:00"
-				timezone: "UTC"
-				weekday: 1
-				weekly: 0b
-			}
 			id: "51383D499E0DF0DA"
 			min_width: 350
 			preset: "info"
@@ -498,17 +409,6 @@
 			shape: "thought"
 			size: 1.0d
 			tasks: [{
-				extraquests_options: {
-					aggregation: "AUTO"
-					duration: 600L
-					minimum_contribution: 0L
-					reset_damage: 0b
-					reset_death: 1b
-					reset_logout: 0b
-					shared: 0b
-					timer_enabled: 0b
-					timer_start: "FIRST_PROGRESS"
-				}
 				id: "11A03582B84195D4"
 				type: "checkmark"
 			}]
@@ -517,15 +417,6 @@
 		}
 		{
 			dependencies: ["51383D499E0DF0DA"]
-			extraquests_calendar: {
-				active_quests: 3
-				enabled: 0b
-				pool: ""
-				reset_time: "06:00"
-				timezone: "UTC"
-				weekday: 1
-				weekly: 0b
-			}
 			id: "1E43FCEBA416DCFF"
 			preset: "info"
 			quest_enhance_disable_scroll_paging: false
@@ -544,17 +435,6 @@
 			}]
 			shape: "thought"
 			tasks: [{
-				extraquests_options: {
-					aggregation: "AUTO"
-					duration: 600L
-					minimum_contribution: 0L
-					reset_damage: 0b
-					reset_death: 1b
-					reset_logout: 0b
-					shared: 0b
-					timer_enabled: 0b
-					timer_start: "FIRST_PROGRESS"
-				}
 				id: "65C18F6415665884"
 				type: "checkmark"
 			}]
@@ -563,31 +443,11 @@
 		}
 		{
 			disable_toast: true
-			extraquests_calendar: {
-				active_quests: 3
-				enabled: 0b
-				pool: ""
-				reset_time: "06:00"
-				timezone: "UTC"
-				weekday: 1
-				weekly: 0b
-			}
 			id: "504E46F5A1DCF256"
 			invisible: true
 			optional: true
 			quest_enhance_disable_scroll_paging: false
 			tasks: [{
-				extraquests_options: {
-					aggregation: "AUTO"
-					duration: 600L
-					minimum_contribution: 0L
-					reset_damage: 0b
-					reset_death: 1b
-					reset_logout: 0b
-					shared: 0b
-					timer_enabled: 0b
-					timer_start: "FIRST_PROGRESS"
-				}
 				id: "3155708C4E3D8956"
 				item: { count: 1, id: "ftbquests:barrier" }
 				type: "item"
@@ -596,15 +456,6 @@
 			y: -9.5d
 		}
 		{
-			extraquests_calendar: {
-				active_quests: 3
-				enabled: 0b
-				pool: ""
-				reset_time: "06:00"
-				timezone: "UTC"
-				weekday: 1
-				weekly: 0b
-			}
 			id: "5763626E3E3E440B"
 			preset: "info"
 			quest_enhance_disable_scroll_paging: false
@@ -624,17 +475,6 @@
 			shape: "thought"
 			size: 1.0d
 			tasks: [{
-				extraquests_options: {
-					aggregation: "AUTO"
-					duration: 600L
-					minimum_contribution: 0L
-					reset_damage: 0b
-					reset_death: 1b
-					reset_logout: 0b
-					shared: 0b
-					timer_enabled: 0b
-					timer_start: "FIRST_PROGRESS"
-				}
 				id: "4D969F11A701F8AA"
 				type: "checkmark"
 			}]
@@ -642,15 +482,6 @@
 			y: -7.5d
 		}
 		{
-			extraquests_calendar: {
-				active_quests: 3
-				enabled: 0b
-				pool: ""
-				reset_time: "06:00"
-				timezone: "UTC"
-				weekday: 1
-				weekly: 0b
-			}
 			id: "4B09C2508E25AD2B"
 			preset: "info"
 			quest_enhance_disable_scroll_paging: false
@@ -669,17 +500,6 @@
 			}]
 			shape: "gear"
 			tasks: [{
-				extraquests_options: {
-					aggregation: "AUTO"
-					duration: 600L
-					minimum_contribution: 0L
-					reset_damage: 0b
-					reset_death: 1b
-					reset_logout: 0b
-					shared: 0b
-					timer_enabled: 0b
-					timer_start: "FIRST_PROGRESS"
-				}
 				id: "2E65F74FAED6B7CD"
 				type: "checkmark"
 			}]
@@ -687,15 +507,6 @@
 			y: -7.5d
 		}
 		{
-			extraquests_calendar: {
-				active_quests: 3
-				enabled: 0b
-				pool: ""
-				reset_time: "06:00"
-				timezone: "UTC"
-				weekday: 1
-				weekly: 0b
-			}
 			id: "17348DDF7E369519"
 			preset: "info"
 			quest_enhance_disable_scroll_paging: false
@@ -713,17 +524,6 @@
 				type: "contactquests:parcel"
 			}]
 			tasks: [{
-				extraquests_options: {
-					aggregation: "AUTO"
-					duration: 600L
-					minimum_contribution: 0L
-					reset_damage: 0b
-					reset_death: 1b
-					reset_logout: 0b
-					shared: 0b
-					timer_enabled: 0b
-					timer_start: "FIRST_PROGRESS"
-				}
 				id: "27302BB3BA0A0300"
 				type: "checkmark"
 			}]
@@ -732,15 +532,6 @@
 		}
 		{
 			dependencies: ["26D8EAD9D892805E"]
-			extraquests_calendar: {
-				active_quests: 3
-				enabled: 0b
-				pool: ""
-				reset_time: "06:00"
-				timezone: "UTC"
-				weekday: 1
-				weekly: 0b
-			}
 			id: "3616B1DD943ADB00"
 			preset: "info"
 			quest_enhance_disable_scroll_paging: false
@@ -759,17 +550,6 @@
 			}]
 			shape: "thought"
 			tasks: [{
-				extraquests_options: {
-					aggregation: "AUTO"
-					duration: 600L
-					minimum_contribution: 0L
-					reset_damage: 0b
-					reset_death: 1b
-					reset_logout: 0b
-					shared: 0b
-					timer_enabled: 0b
-					timer_start: "FIRST_PROGRESS"
-				}
 				id: "28D62F7E33FDE4A3"
 				type: "checkmark"
 			}]
@@ -777,30 +557,10 @@
 			y: -7.5d
 		}
 		{
-			extraquests_calendar: {
-				active_quests: 3
-				enabled: 0b
-				pool: ""
-				reset_time: "06:00"
-				timezone: "UTC"
-				weekday: 1
-				weekly: 0b
-			}
 			id: "1FEFD20C6BE2E397"
 			preset: "boss"
 			quest_enhance_disable_scroll_paging: false
 			tasks: [{
-				extraquests_options: {
-					aggregation: "AUTO"
-					duration: 600L
-					minimum_contribution: 0L
-					reset_damage: 0b
-					reset_death: 1b
-					reset_logout: 0b
-					shared: 0b
-					timer_enabled: 0b
-					timer_start: "FIRST_PROGRESS"
-				}
 				id: "738AD02977D1375C"
 				type: "checkmark"
 			}]
@@ -808,30 +568,10 @@
 			y: -1.5d
 		}
 		{
-			extraquests_calendar: {
-				active_quests: 3
-				enabled: 0b
-				pool: ""
-				reset_time: "06:00"
-				timezone: "UTC"
-				weekday: 1
-				weekly: 0b
-			}
 			id: "7C3678CA1D1245BE"
 			preset: "turnin"
 			quest_enhance_disable_scroll_paging: false
 			tasks: [{
-				extraquests_options: {
-					aggregation: "AUTO"
-					duration: 600L
-					minimum_contribution: 0L
-					reset_damage: 0b
-					reset_death: 1b
-					reset_logout: 0b
-					shared: 0b
-					timer_enabled: 0b
-					timer_start: "FIRST_PROGRESS"
-				}
 				id: "2CB1D0CB71B4A43E"
 				type: "checkmark"
 			}]
@@ -839,30 +579,10 @@
 			y: 4.5d
 		}
 		{
-			extraquests_calendar: {
-				active_quests: 3
-				enabled: 0b
-				pool: ""
-				reset_time: "06:00"
-				timezone: "UTC"
-				weekday: 1
-				weekly: 0b
-			}
 			id: "2DA0F1D7BFF31E79"
 			preset: "advancement"
 			quest_enhance_disable_scroll_paging: false
 			tasks: [{
-				extraquests_options: {
-					aggregation: "AUTO"
-					duration: 600L
-					minimum_contribution: 0L
-					reset_damage: 0b
-					reset_death: 1b
-					reset_logout: 0b
-					shared: 0b
-					timer_enabled: 0b
-					timer_start: "FIRST_PROGRESS"
-				}
 				id: "0BC67F9B9EE8FE5E"
 				type: "checkmark"
 			}]
@@ -870,30 +590,10 @@
 			y: 7.5d
 		}
 		{
-			extraquests_calendar: {
-				active_quests: 3
-				enabled: 0b
-				pool: ""
-				reset_time: "06:00"
-				timezone: "UTC"
-				weekday: 1
-				weekly: 0b
-			}
 			id: "2FAC52F2A73A6732"
 			preset: "start"
 			quest_enhance_disable_scroll_paging: false
 			tasks: [{
-				extraquests_options: {
-					aggregation: "AUTO"
-					duration: 600L
-					minimum_contribution: 0L
-					reset_damage: 0b
-					reset_death: 1b
-					reset_logout: 0b
-					shared: 0b
-					timer_enabled: 0b
-					timer_start: "FIRST_PROGRESS"
-				}
 				id: "3672747755D86551"
 				type: "checkmark"
 			}]
@@ -901,30 +601,10 @@
 			y: -3.0d
 		}
 		{
-			extraquests_calendar: {
-				active_quests: 3
-				enabled: 0b
-				pool: ""
-				reset_time: "06:00"
-				timezone: "UTC"
-				weekday: 1
-				weekly: 0b
-			}
 			id: "5B1DEEF983A3812B"
 			preset: "item"
 			quest_enhance_disable_scroll_paging: false
 			tasks: [{
-				extraquests_options: {
-					aggregation: "AUTO"
-					duration: 600L
-					minimum_contribution: 0L
-					reset_damage: 0b
-					reset_death: 1b
-					reset_logout: 0b
-					shared: 0b
-					timer_enabled: 0b
-					timer_start: "FIRST_PROGRESS"
-				}
 				id: "25D871E28365C84F"
 				type: "checkmark"
 			}]
@@ -932,30 +612,10 @@
 			y: 6.0d
 		}
 		{
-			extraquests_calendar: {
-				active_quests: 3
-				enabled: 0b
-				pool: ""
-				reset_time: "06:00"
-				timezone: "UTC"
-				weekday: 1
-				weekly: 0b
-			}
 			id: "319E2CCC5F80FEAB"
 			preset: "progression"
 			quest_enhance_disable_scroll_paging: false
 			tasks: [{
-				extraquests_options: {
-					aggregation: "AUTO"
-					duration: 600L
-					minimum_contribution: 0L
-					reset_damage: 0b
-					reset_death: 1b
-					reset_logout: 0b
-					shared: 0b
-					timer_enabled: 0b
-					timer_start: "FIRST_PROGRESS"
-				}
 				id: "0050BAE052292C77"
 				type: "checkmark"
 			}]
@@ -963,30 +623,10 @@
 			y: 3.0d
 		}
 		{
-			extraquests_calendar: {
-				active_quests: 3
-				enabled: 0b
-				pool: ""
-				reset_time: "06:00"
-				timezone: "UTC"
-				weekday: 1
-				weekly: 0b
-			}
 			id: "1BF856325EA17BDA"
 			preset: "completion"
 			quest_enhance_disable_scroll_paging: false
 			tasks: [{
-				extraquests_options: {
-					aggregation: "AUTO"
-					duration: 600L
-					minimum_contribution: 0L
-					reset_damage: 0b
-					reset_death: 1b
-					reset_logout: 0b
-					shared: 0b
-					timer_enabled: 0b
-					timer_start: "FIRST_PROGRESS"
-				}
 				id: "5C38CC3AC00671E9"
 				type: "checkmark"
 			}]
@@ -994,30 +634,10 @@
 			y: 1.0d
 		}
 		{
-			extraquests_calendar: {
-				active_quests: 3
-				enabled: 0b
-				pool: ""
-				reset_time: "06:00"
-				timezone: "UTC"
-				weekday: 1
-				weekly: 0b
-			}
 			id: "75C0BD3B2F2402E7"
 			preset: "hunt"
 			quest_enhance_disable_scroll_paging: false
 			tasks: [{
-				extraquests_options: {
-					aggregation: "AUTO"
-					duration: 600L
-					minimum_contribution: 0L
-					reset_damage: 0b
-					reset_death: 1b
-					reset_logout: 0b
-					shared: 0b
-					timer_enabled: 0b
-					timer_start: "FIRST_PROGRESS"
-				}
 				id: "38F77CD6D98D0A0A"
 				type: "checkmark"
 			}]
@@ -1025,30 +645,10 @@
 			y: -3.0d
 		}
 		{
-			extraquests_calendar: {
-				active_quests: 3
-				enabled: 0b
-				pool: ""
-				reset_time: "06:00"
-				timezone: "UTC"
-				weekday: 1
-				weekly: 0b
-			}
 			id: "1F022D2B4DA9E861"
 			preset: "locate"
 			quest_enhance_disable_scroll_paging: false
 			tasks: [{
-				extraquests_options: {
-					aggregation: "AUTO"
-					duration: 600L
-					minimum_contribution: 0L
-					reset_damage: 0b
-					reset_death: 1b
-					reset_logout: 0b
-					shared: 0b
-					timer_enabled: 0b
-					timer_start: "FIRST_PROGRESS"
-				}
 				id: "622EAF6F71EEB2A7"
 				type: "checkmark"
 			}]
@@ -1056,30 +656,10 @@
 			y: 0.0d
 		}
 		{
-			extraquests_calendar: {
-				active_quests: 3
-				enabled: 0b
-				pool: ""
-				reset_time: "06:00"
-				timezone: "UTC"
-				weekday: 1
-				weekly: 0b
-			}
 			id: "747E84D98E1C7493"
 			preset: "milestone"
 			quest_enhance_disable_scroll_paging: false
 			tasks: [{
-				extraquests_options: {
-					aggregation: "AUTO"
-					duration: 600L
-					minimum_contribution: 0L
-					reset_damage: 0b
-					reset_death: 1b
-					reset_logout: 0b
-					shared: 0b
-					timer_enabled: 0b
-					timer_start: "FIRST_PROGRESS"
-				}
 				id: "46923E795D9EF95A"
 				type: "checkmark"
 			}]
@@ -1087,30 +667,10 @@
 			y: -0.75d
 		}
 		{
-			extraquests_calendar: {
-				active_quests: 3
-				enabled: 0b
-				pool: ""
-				reset_time: "06:00"
-				timezone: "UTC"
-				weekday: 1
-				weekly: 0b
-			}
 			id: "5648463474C5146A"
 			preset: "animal"
 			quest_enhance_disable_scroll_paging: false
 			tasks: [{
-				extraquests_options: {
-					aggregation: "AUTO"
-					duration: 600L
-					minimum_contribution: 0L
-					reset_damage: 0b
-					reset_death: 1b
-					reset_logout: 0b
-					shared: 0b
-					timer_enabled: 0b
-					timer_start: "FIRST_PROGRESS"
-				}
 				id: "402544C1CEBA1559"
 				type: "checkmark"
 			}]
@@ -1118,30 +678,10 @@
 			y: 1.5d
 		}
 		{
-			extraquests_calendar: {
-				active_quests: 3
-				enabled: 0b
-				pool: ""
-				reset_time: "06:00"
-				timezone: "UTC"
-				weekday: 1
-				weekly: 0b
-			}
 			id: "441364144CADCDCE"
 			preset: "config"
 			quest_enhance_disable_scroll_paging: false
 			tasks: [{
-				extraquests_options: {
-					aggregation: "AUTO"
-					duration: 600L
-					minimum_contribution: 0L
-					reset_damage: 0b
-					reset_death: 1b
-					reset_logout: 0b
-					shared: 0b
-					timer_enabled: 0b
-					timer_start: "FIRST_PROGRESS"
-				}
 				id: "1D8C140F2EA2E291"
 				type: "checkmark"
 			}]
@@ -1149,30 +689,10 @@
 			y: 3.0d
 		}
 		{
-			extraquests_calendar: {
-				active_quests: 3
-				enabled: 0b
-				pool: ""
-				reset_time: "06:00"
-				timezone: "UTC"
-				weekday: 1
-				weekly: 0b
-			}
 			id: "2529E6301E614B1E"
 			preset: "info"
 			quest_enhance_disable_scroll_paging: false
 			tasks: [{
-				extraquests_options: {
-					aggregation: "AUTO"
-					duration: 600L
-					minimum_contribution: 0L
-					reset_damage: 0b
-					reset_death: 1b
-					reset_logout: 0b
-					shared: 0b
-					timer_enabled: 0b
-					timer_start: "FIRST_PROGRESS"
-				}
 				id: "66F5EEDFD6EF728C"
 				type: "checkmark"
 			}]
@@ -1180,31 +700,11 @@
 			y: 4.5d
 		}
 		{
-			extraquests_calendar: {
-				active_quests: 3
-				enabled: 0b
-				pool: ""
-				reset_time: "06:00"
-				timezone: "UTC"
-				weekday: 1
-				weekly: 0b
-			}
 			id: "5C55D4ACE066CF50"
 			quest_enhance_disable_scroll_paging: false
 			shape: "katu_thought"
 			size: 2.0d
 			tasks: [{
-				extraquests_options: {
-					aggregation: "AUTO"
-					duration: 600L
-					minimum_contribution: 0L
-					reset_damage: 0b
-					reset_death: 1b
-					reset_logout: 0b
-					shared: 0b
-					timer_enabled: 0b
-					timer_start: "FIRST_PROGRESS"
-				}
 				id: "6F3C9F890655E1C4"
 				type: "checkmark"
 			}]
@@ -1212,31 +712,11 @@
 			y: 7.0d
 		}
 		{
-			extraquests_calendar: {
-				active_quests: 3
-				enabled: 0b
-				pool: ""
-				reset_time: "06:00"
-				timezone: "UTC"
-				weekday: 1
-				weekly: 0b
-			}
 			id: "5D39797C6BA3D475"
 			quest_enhance_disable_scroll_paging: false
 			shape: "katu_thought"
 			size: 2.0d
 			tasks: [{
-				extraquests_options: {
-					aggregation: "AUTO"
-					duration: 600L
-					minimum_contribution: 0L
-					reset_damage: 0b
-					reset_death: 1b
-					reset_logout: 0b
-					shared: 0b
-					timer_enabled: 0b
-					timer_start: "FIRST_PROGRESS"
-				}
 				id: "7549AF56D6AC058D"
 				type: "checkmark"
 			}]

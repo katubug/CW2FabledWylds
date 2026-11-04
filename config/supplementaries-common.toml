@@ -821,7 +821,7 @@
 
 	[tweaks.clock_and_compass]
 		#Allow to right click with a clock to display current time in numerical form
-		clock_right_click = true
+		clock_right_click = false
 		#Allow to right click with a compass to display current coordinates in numerical form
 		compass_right_click = false
 		#Allow these features to work in dimensions like nether or end where normally clocks don't work

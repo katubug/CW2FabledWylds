@@ -17,7 +17,7 @@ maxBatchChunks = 64
 # Range: 1 ~ 4096
 maxCachedRegions = 128
 #Replace worldgen light with Lucis
-enableWorldgen = true
+enableWorldgen = false
 #Replace block update light with Lucis
 enableRuntime = true
 #Compute skylight in Lucis

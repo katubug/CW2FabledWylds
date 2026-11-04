@@ -45,15 +45,6 @@
 	quest_links: [ ]
 	quests: [
 		{
-			extraquests_calendar: {
-				active_quests: 3
-				enabled: 0b
-				pool: ""
-				reset_time: "06:00"
-				timezone: "UTC"
-				weekday: 1
-				weekly: 0b
-			}
 			id: "51F84C9F2CA50DA7"
 			preset: "start"
 			quest_enhance_disable_scroll_paging: false
@@ -68,17 +59,6 @@
 			shape: "rsquare"
 			size: 2.0d
 			tasks: [{
-				extraquests_options: {
-					aggregation: "AUTO"
-					duration: 600L
-					minimum_contribution: 0L
-					reset_damage: 0b
-					reset_death: 1b
-					reset_logout: 0b
-					shared: 0b
-					timer_enabled: 0b
-					timer_start: "FIRST_PROGRESS"
-				}
 				icon: {
 					id: "minecraft:bee_nest"
 				}
@@ -94,15 +74,6 @@
 		}
 		{
 			dependencies: ["51F84C9F2CA50DA7"]
-			extraquests_calendar: {
-				active_quests: 3
-				enabled: 0b
-				pool: ""
-				reset_time: "06:00"
-				timezone: "UTC"
-				weekday: 1
-				weekly: 0b
-			}
 			id: "1F8B3B9C1641187E"
 			preset: "progression"
 			quest_enhance_disable_scroll_paging: false
@@ -132,17 +103,6 @@
 			]
 			tasks: [{
 				dimension: "the_bumblezone:the_bumblezone"
-				extraquests_options: {
-					aggregation: "AUTO"
-					duration: 600L
-					minimum_contribution: 0L
-					reset_damage: 0b
-					reset_death: 1b
-					reset_logout: 0b
-					shared: 0b
-					timer_enabled: 0b
-					timer_start: "FIRST_PROGRESS"
-				}
 				icon: {
 					id: "minecraft:honeycomb"
 				}
@@ -154,15 +114,6 @@
 		}
 		{
 			dependencies: ["1F8B3B9C1641187E"]
-			extraquests_calendar: {
-				active_quests: 3
-				enabled: 0b
-				pool: ""
-				reset_time: "06:00"
-				timezone: "UTC"
-				weekday: 1
-				weekly: 0b
-			}
 			id: "6C3861D0B545A88F"
 			preset: "item"
 			quest_enhance_disable_scroll_paging: false
@@ -178,17 +129,6 @@
 			}]
 			shape: "hexagon"
 			tasks: [{
-				extraquests_options: {
-					aggregation: "AUTO"
-					duration: 600L
-					minimum_contribution: 0L
-					reset_damage: 0b
-					reset_death: 1b
-					reset_logout: 0b
-					shared: 0b
-					timer_enabled: 0b
-					timer_start: "FIRST_PROGRESS"
-				}
 				id: "3DF907434FE2ECAB"
 				item: { count: 1, id: "the_bumblezone:sugar_water_bottle" }
 				type: "item"
@@ -198,15 +138,6 @@
 		}
 		{
 			dependencies: ["1F8B3B9C1641187E"]
-			extraquests_calendar: {
-				active_quests: 3
-				enabled: 0b
-				pool: ""
-				reset_time: "06:00"
-				timezone: "UTC"
-				weekday: 1
-				weekly: 0b
-			}
 			id: "4D77214933327DFB"
 			preset: "advancement"
 			quest_enhance_disable_scroll_paging: false
@@ -227,17 +158,6 @@
 			tasks: [{
 				amplifier: -1
 				effect: "the_bumblezone:wrath_of_the_hive"
-				extraquests_options: {
-					aggregation: "AUTO"
-					duration: 600L
-					minimum_contribution: 0L
-					reset_damage: 0b
-					reset_death: 1b
-					reset_logout: 0b
-					shared: 0b
-					timer_enabled: 0b
-					timer_start: "FIRST_PROGRESS"
-				}
 				id: "3C322473C90CE16F"
 				type: "potion_effect"
 			}]
@@ -246,15 +166,6 @@
 		}
 		{
 			dependencies: ["1F8B3B9C1641187E"]
-			extraquests_calendar: {
-				active_quests: 3
-				enabled: 0b
-				pool: ""
-				reset_time: "06:00"
-				timezone: "UTC"
-				weekday: 1
-				weekly: 0b
-			}
 			id: "0ADE58E9E0DFD059"
 			preset: "progression"
 			quest_enhance_disable_scroll_paging: false
@@ -269,17 +180,6 @@
 				type: "contactquests:parcel_random"
 			}]
 			tasks: [{
-				extraquests_options: {
-					aggregation: "AUTO"
-					duration: 600L
-					minimum_contribution: 0L
-					reset_damage: 0b
-					reset_death: 1b
-					reset_logout: 0b
-					shared: 0b
-					timer_enabled: 0b
-					timer_start: "FIRST_PROGRESS"
-				}
 				id: "1DA350B7B461B3AC"
 				item: { count: 1, id: "the_bumblezone:honey_compass" }
 				type: "item"
@@ -289,15 +189,6 @@
 		}
 		{
 			dependencies: ["0ADE58E9E0DFD059"]
-			extraquests_calendar: {
-				active_quests: 3
-				enabled: 0b
-				pool: ""
-				reset_time: "06:00"
-				timezone: "UTC"
-				weekday: 1
-				weekly: 0b
-			}
 			id: "2602582F440361DB"
 			preset: "progression"
 			quest_enhance_disable_scroll_paging: false
@@ -308,17 +199,6 @@
 				type: "loot"
 			}]
 			tasks: [{
-				extraquests_options: {
-					aggregation: "AUTO"
-					duration: 600L
-					minimum_contribution: 0L
-					reset_damage: 0b
-					reset_death: 1b
-					reset_logout: 0b
-					shared: 0b
-					timer_enabled: 0b
-					timer_start: "FIRST_PROGRESS"
-				}
 				icon: {
 					id: "the_bumblezone:honey_cocoon"
 				}
@@ -331,15 +211,6 @@
 		}
 		{
 			dependencies: ["2602582F440361DB"]
-			extraquests_calendar: {
-				active_quests: 3
-				enabled: 0b
-				pool: ""
-				reset_time: "06:00"
-				timezone: "UTC"
-				weekday: 1
-				weekly: 0b
-			}
 			id: "4482909B2A137E38"
 			preset: "advancement"
 			quest_enhance_disable_scroll_paging: false
@@ -357,17 +228,6 @@
 			tasks: [{
 				advancement: "the_bumblezone:tools/obtain_throne_honey_compass"
 				criterion: ""
-				extraquests_options: {
-					aggregation: "AUTO"
-					duration: 600L
-					minimum_contribution: 0L
-					reset_damage: 0b
-					reset_death: 1b
-					reset_logout: 0b
-					shared: 0b
-					timer_enabled: 0b
-					timer_start: "FIRST_PROGRESS"
-				}
 				id: "5756978204AA696C"
 				type: "advancement"
 			}]
@@ -376,15 +236,6 @@
 		}
 		{
 			dependencies: ["4482909B2A137E38"]
-			extraquests_calendar: {
-				active_quests: 3
-				enabled: 0b
-				pool: ""
-				reset_time: "06:00"
-				timezone: "UTC"
-				weekday: 1
-				weekly: 0b
-			}
 			id: "4DFEEDE1DAACD8B7"
 			preset: "progression"
 			quest_enhance_disable_scroll_paging: false
@@ -411,17 +262,6 @@
 			]
 			tasks: [{
 				entity: "the_bumblezone:bee_queen"
-				extraquests_options: {
-					aggregation: "AUTO"
-					duration: 600L
-					minimum_contribution: 0L
-					reset_damage: 0b
-					reset_death: 1b
-					reset_logout: 0b
-					shared: 0b
-					timer_enabled: 0b
-					timer_start: "FIRST_PROGRESS"
-				}
 				id: "5A385588925F84E5"
 				search_radius_blocks: 64
 				target_radius_blocks: 5
@@ -432,15 +272,6 @@
 		}
 		{
 			dependencies: ["4DFEEDE1DAACD8B7"]
-			extraquests_calendar: {
-				active_quests: 3
-				enabled: 0b
-				pool: ""
-				reset_time: "06:00"
-				timezone: "UTC"
-				weekday: 1
-				weekly: 0b
-			}
 			id: "635FE9332FFCE4A7"
 			preset: "progression"
 			quest_enhance_disable_scroll_paging: false
@@ -456,17 +287,6 @@
 			}]
 			shape: "hexagon"
 			tasks: [{
-				extraquests_options: {
-					aggregation: "AUTO"
-					duration: 600L
-					minimum_contribution: 0L
-					reset_damage: 0b
-					reset_death: 1b
-					reset_logout: 0b
-					shared: 0b
-					timer_enabled: 0b
-					timer_start: "FIRST_PROGRESS"
-				}
 				id: "21E2DEAE71E6BBEE"
 				item: { count: 1, id: "the_bumblezone:essence_of_the_bees" }
 				type: "item"
@@ -476,15 +296,6 @@
 		}
 		{
 			dependencies: ["0ADE58E9E0DFD059"]
-			extraquests_calendar: {
-				active_quests: 3
-				enabled: 0b
-				pool: ""
-				reset_time: "06:00"
-				timezone: "UTC"
-				weekday: 1
-				weekly: 0b
-			}
 			id: "394A179160EB4AE8"
 			preset: "item"
 			quest_enhance_disable_scroll_paging: false
@@ -515,65 +326,21 @@
 			]
 			tasks: [
 				{
-					extraquests_options: {
-						aggregation: "AUTO"
-						duration: 600L
-						minimum_contribution: 0L
-						reset_damage: 0b
-						reset_death: 1b
-						reset_logout: 0b
-						shared: 0b
-						timer_enabled: 0b
-						timer_start: "FIRST_PROGRESS"
-					}
 					id: "2FB5AAC838A519BF"
 					item: { components: { "ftbfiltersystem:filter": "or(item_tag(the_bumblezone:armors/helmets))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 					type: "item"
 				}
 				{
-					extraquests_options: {
-						aggregation: "AUTO"
-						duration: 600L
-						minimum_contribution: 0L
-						reset_damage: 0b
-						reset_death: 1b
-						reset_logout: 0b
-						shared: 0b
-						timer_enabled: 0b
-						timer_start: "FIRST_PROGRESS"
-					}
 					id: "3BC5A17998DF840E"
 					item: { components: { "ftbfiltersystem:filter": "or(item_tag(the_bumblezone:armors/chestplates))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 					type: "item"
 				}
 				{
-					extraquests_options: {
-						aggregation: "AUTO"
-						duration: 600L
-						minimum_contribution: 0L
-						reset_damage: 0b
-						reset_death: 1b
-						reset_logout: 0b
-						shared: 0b
-						timer_enabled: 0b
-						timer_start: "FIRST_PROGRESS"
-					}
 					id: "6734739E1A6E6670"
 					item: { components: { "ftbfiltersystem:filter": "or(item_tag(the_bumblezone:armors/leggings))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 					type: "item"
 				}
 				{
-					extraquests_options: {
-						aggregation: "AUTO"
-						duration: 600L
-						minimum_contribution: 0L
-						reset_damage: 0b
-						reset_death: 1b
-						reset_logout: 0b
-						shared: 0b
-						timer_enabled: 0b
-						timer_start: "FIRST_PROGRESS"
-					}
 					id: "37DAA6F91FB526C8"
 					item: { components: { "ftbfiltersystem:filter": "or(item_tag(the_bumblezone:armors/boots))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 					type: "item"
@@ -584,15 +351,6 @@
 		}
 		{
 			dependencies: ["0ADE58E9E0DFD059"]
-			extraquests_calendar: {
-				active_quests: 3
-				enabled: 0b
-				pool: ""
-				reset_time: "06:00"
-				timezone: "UTC"
-				weekday: 1
-				weekly: 0b
-			}
 			id: "1ACFAAF917E5016A"
 			preset: "item"
 			quest_enhance_disable_scroll_paging: false
@@ -623,65 +381,21 @@
 			]
 			tasks: [
 				{
-					extraquests_options: {
-						aggregation: "AUTO"
-						duration: 600L
-						minimum_contribution: 0L
-						reset_damage: 0b
-						reset_death: 1b
-						reset_logout: 0b
-						shared: 0b
-						timer_enabled: 0b
-						timer_start: "FIRST_PROGRESS"
-					}
 					id: "119C263D70857316"
 					item: { count: 1, id: "the_bumblezone:bee_stinger" }
 					type: "item"
 				}
 				{
-					extraquests_options: {
-						aggregation: "AUTO"
-						duration: 600L
-						minimum_contribution: 0L
-						reset_damage: 0b
-						reset_death: 1b
-						reset_logout: 0b
-						shared: 0b
-						timer_enabled: 0b
-						timer_start: "FIRST_PROGRESS"
-					}
 					id: "4BCAF18A0B87E5F7"
 					item: { count: 1, id: "the_bumblezone:stinger_spear" }
 					type: "item"
 				}
 				{
-					extraquests_options: {
-						aggregation: "AUTO"
-						duration: 600L
-						minimum_contribution: 0L
-						reset_damage: 0b
-						reset_death: 1b
-						reset_logout: 0b
-						shared: 0b
-						timer_enabled: 0b
-						timer_start: "FIRST_PROGRESS"
-					}
 					id: "49FE029CAD2D437C"
 					item: { count: 1, id: "the_bumblezone:crystal_cannon" }
 					type: "item"
 				}
 				{
-					extraquests_options: {
-						aggregation: "AUTO"
-						duration: 600L
-						minimum_contribution: 0L
-						reset_damage: 0b
-						reset_death: 1b
-						reset_logout: 0b
-						shared: 0b
-						timer_enabled: 0b
-						timer_start: "FIRST_PROGRESS"
-					}
 					id: "73D16FF74DB5B2C9"
 					item: { count: 1, id: "the_bumblezone:honey_crystal_shield" }
 					type: "item"
@@ -692,15 +406,6 @@
 		}
 		{
 			dependencies: ["649CD989B90CED8A"]
-			extraquests_calendar: {
-				active_quests: 3
-				enabled: 0b
-				pool: ""
-				reset_time: "06:00"
-				timezone: "UTC"
-				weekday: 1
-				weekly: 0b
-			}
 			id: "7B8261F4787E6EA7"
 			preset: "locate"
 			quest_enhance_disable_scroll_paging: false
@@ -711,17 +416,6 @@
 				type: "choice"
 			}]
 			tasks: [{
-				extraquests_options: {
-					aggregation: "AUTO"
-					duration: 600L
-					minimum_contribution: 0L
-					reset_damage: 0b
-					reset_death: 1b
-					reset_logout: 0b
-					shared: 0b
-					timer_enabled: 0b
-					timer_start: "FIRST_PROGRESS"
-				}
 				icon: {
 					components: {
 						"the_bumblezone:knowing_essence_structure_data": {
@@ -739,15 +433,6 @@
 		}
 		{
 			dependencies: ["649CD989B90CED8A"]
-			extraquests_calendar: {
-				active_quests: 3
-				enabled: 0b
-				pool: ""
-				reset_time: "06:00"
-				timezone: "UTC"
-				weekday: 1
-				weekly: 0b
-			}
 			id: "42C94ED483CD4AB8"
 			preset: "locate"
 			quest_enhance_disable_scroll_paging: false
@@ -758,17 +443,6 @@
 				type: "choice"
 			}]
 			tasks: [{
-				extraquests_options: {
-					aggregation: "AUTO"
-					duration: 600L
-					minimum_contribution: 0L
-					reset_damage: 0b
-					reset_death: 1b
-					reset_logout: 0b
-					shared: 0b
-					timer_enabled: 0b
-					timer_start: "FIRST_PROGRESS"
-				}
 				icon: {
 					id: "the_bumblezone:essence_continuity"
 				}
@@ -781,15 +455,6 @@
 		}
 		{
 			dependencies: ["649CD989B90CED8A"]
-			extraquests_calendar: {
-				active_quests: 3
-				enabled: 0b
-				pool: ""
-				reset_time: "06:00"
-				timezone: "UTC"
-				weekday: 1
-				weekly: 0b
-			}
 			id: "45FE520AC009290F"
 			preset: "locate"
 			quest_enhance_disable_scroll_paging: false
@@ -804,17 +469,6 @@
 				type: "contactquests:parcel_random"
 			}]
 			tasks: [{
-				extraquests_options: {
-					aggregation: "AUTO"
-					duration: 600L
-					minimum_contribution: 0L
-					reset_damage: 0b
-					reset_death: 1b
-					reset_logout: 0b
-					shared: 0b
-					timer_enabled: 0b
-					timer_start: "FIRST_PROGRESS"
-				}
 				icon: {
 					components: {
 						"the_bumblezone:raging_essence_current_target_data": {
@@ -838,15 +492,6 @@
 		}
 		{
 			dependencies: ["649CD989B90CED8A"]
-			extraquests_calendar: {
-				active_quests: 3
-				enabled: 0b
-				pool: ""
-				reset_time: "06:00"
-				timezone: "UTC"
-				weekday: 1
-				weekly: 0b
-			}
 			id: "49EA7F3135E2CC74"
 			preset: "locate"
 			quest_enhance_disable_scroll_paging: false
@@ -861,17 +506,6 @@
 				type: "contactquests:parcel_random"
 			}]
 			tasks: [{
-				extraquests_options: {
-					aggregation: "AUTO"
-					duration: 600L
-					minimum_contribution: 0L
-					reset_damage: 0b
-					reset_death: 1b
-					reset_logout: 0b
-					shared: 0b
-					timer_enabled: 0b
-					timer_start: "FIRST_PROGRESS"
-				}
 				icon: {
 					id: "the_bumblezone:essence_calming"
 				}
@@ -884,15 +518,6 @@
 		}
 		{
 			dependencies: ["649CD989B90CED8A"]
-			extraquests_calendar: {
-				active_quests: 3
-				enabled: 0b
-				pool: ""
-				reset_time: "06:00"
-				timezone: "UTC"
-				weekday: 1
-				weekly: 0b
-			}
 			id: "6BADAB3BD0E50555"
 			preset: "locate"
 			quest_enhance_disable_scroll_paging: false
@@ -903,17 +528,6 @@
 				type: "choice"
 			}]
 			tasks: [{
-				extraquests_options: {
-					aggregation: "AUTO"
-					duration: 600L
-					minimum_contribution: 0L
-					reset_damage: 0b
-					reset_death: 1b
-					reset_logout: 0b
-					shared: 0b
-					timer_enabled: 0b
-					timer_start: "FIRST_PROGRESS"
-				}
 				icon: {
 					id: "the_bumblezone:essence_radiance"
 				}
@@ -926,15 +540,6 @@
 		}
 		{
 			dependencies: ["649CD989B90CED8A"]
-			extraquests_calendar: {
-				active_quests: 3
-				enabled: 0b
-				pool: ""
-				reset_time: "06:00"
-				timezone: "UTC"
-				weekday: 1
-				weekly: 0b
-			}
 			id: "54AAA9079FF8E65B"
 			preset: "locate"
 			quest_enhance_disable_scroll_paging: false
@@ -945,17 +550,6 @@
 				type: "choice"
 			}]
 			tasks: [{
-				extraquests_options: {
-					aggregation: "AUTO"
-					duration: 600L
-					minimum_contribution: 0L
-					reset_damage: 0b
-					reset_death: 1b
-					reset_logout: 0b
-					shared: 0b
-					timer_enabled: 0b
-					timer_start: "FIRST_PROGRESS"
-				}
 				icon: {
 					id: "the_bumblezone:essence_life"
 				}
@@ -976,15 +570,6 @@
 				]
 			}
 			dependencies: ["635FE9332FFCE4A7"]
-			extraquests_calendar: {
-				active_quests: 3
-				enabled: 0b
-				pool: ""
-				reset_time: "06:00"
-				timezone: "UTC"
-				weekday: 1
-				weekly: 0b
-			}
 			id: "649CD989B90CED8A"
 			quest_enhance_disable_scroll_paging: false
 			rewards: [{
@@ -1000,17 +585,6 @@
 			shape: "katu_window"
 			size: 2.0d
 			tasks: [{
-				extraquests_options: {
-					aggregation: "AUTO"
-					duration: 600L
-					minimum_contribution: 0L
-					reset_damage: 0b
-					reset_death: 1b
-					reset_logout: 0b
-					shared: 0b
-					timer_enabled: 0b
-					timer_start: "FIRST_PROGRESS"
-				}
 				icon: {
 					id: "minecraft:honeycomb_block"
 				}
@@ -1023,30 +597,10 @@
 		}
 		{
 			always_invisible: true
-			extraquests_calendar: {
-				active_quests: 3
-				enabled: 0b
-				pool: ""
-				reset_time: "06:00"
-				timezone: "UTC"
-				weekday: 1
-				weekly: 0b
-			}
 			id: "30CC85F74EB4717A"
 			optional: true
 			quest_enhance_disable_scroll_paging: false
 			tasks: [{
-				extraquests_options: {
-					aggregation: "AUTO"
-					duration: 600L
-					minimum_contribution: 0L
-					reset_damage: 0b
-					reset_death: 1b
-					reset_logout: 0b
-					shared: 0b
-					timer_enabled: 0b
-					timer_start: "FIRST_PROGRESS"
-				}
 				id: "26D10AD03CED6F5F"
 				item: { count: 1, id: "ftbquests:barrier" }
 				only_from_crafting: true

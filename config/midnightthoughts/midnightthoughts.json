@@ -272,6 +272,7 @@
     "theme": "classic",
     "wellRestedHudPosition": "left",
     "hideWellRestedHud": false,
-    "hideSleepingPlayersHud": false
+    "hideSleepingPlayersHud": false,
+    "summaryScale": 0
   }
 }

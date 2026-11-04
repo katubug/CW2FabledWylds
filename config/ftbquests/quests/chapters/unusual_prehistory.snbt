@@ -53,15 +53,6 @@
 	quest_links: [ ]
 	quests: [
 		{
-			extraquests_calendar: {
-				active_quests: 3
-				enabled: 0b
-				pool: ""
-				reset_time: "06:00"
-				timezone: "UTC"
-				weekday: 1
-				weekly: 0b
-			}
 			id: "22ECD917EB584573"
 			preset: "item"
 			quest_enhance_disable_scroll_paging: false
@@ -93,113 +84,36 @@
 			shape: "hexagon"
 			tasks: [
 				{
-					extraquests_options: {
-						aggregation: "AUTO"
-						duration: 600L
-						minimum_contribution: 0L
-						reset_damage: 0b
-						reset_death: 1b
-						reset_logout: 0b
-						shared: 0b
-						timer_enabled: 0b
-						timer_start: "FIRST_PROGRESS"
-					}
 					id: "4FC5DCD9DA8D7B5C"
 					item: { count: 1, id: "betterarcheology:creeper_fossil" }
 					type: "item"
 				}
 				{
-					extraquests_options: {
-						aggregation: "AUTO"
-						duration: 600L
-						minimum_contribution: 0L
-						reset_damage: 0b
-						reset_death: 1b
-						reset_logout: 0b
-						shared: 0b
-						timer_enabled: 0b
-						timer_start: "FIRST_PROGRESS"
-					}
 					id: "0ED795497B9BAB0C"
 					item: { count: 1, id: "betterarcheology:villager_fossil" }
 					type: "item"
 				}
 				{
-					extraquests_options: {
-						aggregation: "AUTO"
-						duration: 600L
-						minimum_contribution: 0L
-						reset_damage: 0b
-						reset_death: 1b
-						reset_logout: 0b
-						shared: 0b
-						timer_enabled: 0b
-						timer_start: "FIRST_PROGRESS"
-					}
 					id: "76FD289AA94C7715"
 					item: { count: 1, id: "betterarcheology:chicken_fossil" }
 					type: "item"
 				}
 				{
-					extraquests_options: {
-						aggregation: "AUTO"
-						duration: 600L
-						minimum_contribution: 0L
-						reset_damage: 0b
-						reset_death: 1b
-						reset_logout: 0b
-						shared: 0b
-						timer_enabled: 0b
-						timer_start: "FIRST_PROGRESS"
-					}
 					id: "17FAA674E19B940F"
 					item: { count: 1, id: "betterarcheology:sheep_fossil" }
 					type: "item"
 				}
 				{
-					extraquests_options: {
-						aggregation: "AUTO"
-						duration: 600L
-						minimum_contribution: 0L
-						reset_damage: 0b
-						reset_death: 1b
-						reset_logout: 0b
-						shared: 0b
-						timer_enabled: 0b
-						timer_start: "FIRST_PROGRESS"
-					}
 					id: "22A4F674E97A38E6"
 					item: { count: 1, id: "betterarcheology:ocelot_fossil" }
 					type: "item"
 				}
 				{
-					extraquests_options: {
-						aggregation: "AUTO"
-						duration: 600L
-						minimum_contribution: 0L
-						reset_damage: 0b
-						reset_death: 1b
-						reset_logout: 0b
-						shared: 0b
-						timer_enabled: 0b
-						timer_start: "FIRST_PROGRESS"
-					}
 					id: "2F056A5220CF74A4"
 					item: { count: 1, id: "betterarcheology:wolf_fossil" }
 					type: "item"
 				}
 				{
-					extraquests_options: {
-						aggregation: "AUTO"
-						duration: 600L
-						minimum_contribution: 0L
-						reset_damage: 0b
-						reset_death: 1b
-						reset_logout: 0b
-						shared: 0b
-						timer_enabled: 0b
-						timer_start: "FIRST_PROGRESS"
-					}
 					id: "5C5FF4D490227442"
 					item: { count: 1, id: "betterarcheology:guardian_fossil" }
 					type: "item"
@@ -210,15 +124,6 @@
 		}
 		{
 			dependencies: ["374F93068ED863F7"]
-			extraquests_calendar: {
-				active_quests: 3
-				enabled: 0b
-				pool: ""
-				reset_time: "06:00"
-				timezone: "UTC"
-				weekday: 1
-				weekly: 0b
-			}
 			id: "75794697E256EFCC"
 			preset: "item"
 			quest_enhance_disable_scroll_paging: false
@@ -237,17 +142,6 @@
 				type: "contactquests:parcel"
 			}]
 			tasks: [{
-				extraquests_options: {
-					aggregation: "AUTO"
-					duration: 600L
-					minimum_contribution: 0L
-					reset_damage: 0b
-					reset_death: 1b
-					reset_logout: 0b
-					shared: 0b
-					timer_enabled: 0b
-					timer_start: "FIRST_PROGRESS"
-				}
 				id: "3112D060075ED019"
 				item: { count: 1, id: "minecraft:decorated_pot" }
 				type: "item"
@@ -257,15 +151,6 @@
 		}
 		{
 			dependencies: ["6C25F07248AC8170"]
-			extraquests_calendar: {
-				active_quests: 3
-				enabled: 0b
-				pool: ""
-				reset_time: "06:00"
-				timezone: "UTC"
-				weekday: 1
-				weekly: 0b
-			}
 			id: "53AE00DAF3CD587F"
 			preset: "progression"
 			quest_enhance_disable_scroll_paging: false
@@ -283,17 +168,6 @@
 				type: "contactquests:parcel"
 			}]
 			tasks: [{
-				extraquests_options: {
-					aggregation: "AUTO"
-					duration: 600L
-					minimum_contribution: 0L
-					reset_damage: 0b
-					reset_death: 1b
-					reset_logout: 0b
-					shared: 0b
-					timer_enabled: 0b
-					timer_start: "FIRST_PROGRESS"
-				}
 				id: "0ACE9C5AA7473801"
 				item: { count: 1, id: "betterarcheology:artifact_shards" }
 				type: "item"
@@ -303,15 +177,6 @@
 		}
 		{
 			dependencies: ["53AE00DAF3CD587F"]
-			extraquests_calendar: {
-				active_quests: 3
-				enabled: 0b
-				pool: ""
-				reset_time: "06:00"
-				timezone: "UTC"
-				weekday: 1
-				weekly: 0b
-			}
 			id: "1F389C8E9F4CFB59"
 			preset: "progression"
 			quest_enhance_disable_scroll_paging: false
@@ -326,17 +191,6 @@
 				type: "contactquests:parcel_random"
 			}]
 			tasks: [{
-				extraquests_options: {
-					aggregation: "AUTO"
-					duration: 600L
-					minimum_contribution: 0L
-					reset_damage: 0b
-					reset_death: 1b
-					reset_logout: 0b
-					shared: 0b
-					timer_enabled: 0b
-					timer_start: "FIRST_PROGRESS"
-				}
 				hand_mode: "ANY"
 				id: "0575EDF81552881E"
 				item: { count: 1, id: "betterarcheology:unidentified_artifact" }
@@ -347,15 +201,6 @@
 			y: 0.0d
 		}
 		{
-			extraquests_calendar: {
-				active_quests: 3
-				enabled: 0b
-				pool: ""
-				reset_time: "06:00"
-				timezone: "UTC"
-				weekday: 1
-				weekly: 0b
-			}
 			id: "6246E8289C638CCE"
 			preset: "locate"
 			quest_enhance_disable_scroll_paging: false
@@ -374,17 +219,6 @@
 			}]
 			tasks: [
 				{
-					extraquests_options: {
-						aggregation: "AUTO"
-						duration: 600L
-						minimum_contribution: 0L
-						reset_damage: 0b
-						reset_death: 1b
-						reset_logout: 0b
-						shared: 0b
-						timer_enabled: 0b
-						timer_start: "FIRST_PROGRESS"
-					}
 					icon: {
 						id: "betterarcheology:vase_creeper"
 					}
@@ -393,17 +227,6 @@
 					type: "structure"
 				}
 				{
-					extraquests_options: {
-						aggregation: "AUTO"
-						duration: 600L
-						minimum_contribution: 0L
-						reset_damage: 0b
-						reset_death: 1b
-						reset_logout: 0b
-						shared: 0b
-						timer_enabled: 0b
-						timer_start: "FIRST_PROGRESS"
-					}
 					icon: {
 						id: "betterarcheology:vase"
 					}
@@ -412,17 +235,6 @@
 					type: "structure"
 				}
 				{
-					extraquests_options: {
-						aggregation: "AUTO"
-						duration: 600L
-						minimum_contribution: 0L
-						reset_damage: 0b
-						reset_death: 1b
-						reset_logout: 0b
-						shared: 0b
-						timer_enabled: 0b
-						timer_start: "FIRST_PROGRESS"
-					}
 					icon: {
 						id: "betterarcheology:vase_green"
 					}
@@ -435,15 +247,6 @@
 			y: 2.0d
 		}
 		{
-			extraquests_calendar: {
-				active_quests: 3
-				enabled: 0b
-				pool: ""
-				reset_time: "06:00"
-				timezone: "UTC"
-				weekday: 1
-				weekly: 0b
-			}
 			id: "79E6711262027491"
 			preset: "item"
 			quest_enhance_disable_scroll_paging: false
@@ -459,17 +262,6 @@
 			}]
 			shape: "hexagon"
 			tasks: [{
-				extraquests_options: {
-					aggregation: "AUTO"
-					duration: 600L
-					minimum_contribution: 0L
-					reset_damage: 0b
-					reset_death: 1b
-					reset_logout: 0b
-					shared: 0b
-					timer_enabled: 0b
-					timer_start: "FIRST_PROGRESS"
-				}
 				id: "0410516876EDD498"
 				item: { count: 1, id: "reliquary:mob_charm_fragment" }
 				type: "item"
@@ -479,15 +271,6 @@
 		}
 		{
 			dependencies: ["79E6711262027491"]
-			extraquests_calendar: {
-				active_quests: 3
-				enabled: 0b
-				pool: ""
-				reset_time: "06:00"
-				timezone: "UTC"
-				weekday: 1
-				weekly: 0b
-			}
 			id: "346AD14E27A84B57"
 			preset: "item"
 			quest_enhance_disable_scroll_paging: false
@@ -519,17 +302,6 @@
 			]
 			shape: "hexagon"
 			tasks: [{
-				extraquests_options: {
-					aggregation: "AUTO"
-					duration: 600L
-					minimum_contribution: 0L
-					reset_damage: 0b
-					reset_death: 1b
-					reset_logout: 0b
-					shared: 0b
-					timer_enabled: 0b
-					timer_start: "FIRST_PROGRESS"
-				}
 				id: "27224224B5A34F0A"
 				item: { count: 1, id: "reliquary:mob_charm" }
 				type: "item"
@@ -538,15 +310,6 @@
 			y: 2.0d
 		}
 		{
-			extraquests_calendar: {
-				active_quests: 3
-				enabled: 0b
-				pool: ""
-				reset_time: "06:00"
-				timezone: "UTC"
-				weekday: 1
-				weekly: 0b
-			}
 			id: "1109A266D4045ABD"
 			preset: "advancement"
 			quest_enhance_disable_scroll_paging: false
@@ -560,17 +323,6 @@
 			}]
 			shape: "octagon"
 			tasks: [{
-				extraquests_options: {
-					aggregation: "AUTO"
-					duration: 600L
-					minimum_contribution: 0L
-					reset_damage: 0b
-					reset_death: 1b
-					reset_logout: 0b
-					shared: 0b
-					timer_enabled: 0b
-					timer_start: "FIRST_PROGRESS"
-				}
 				icon: {
 					id: "easy_villagers:villager"
 				}
@@ -582,15 +334,6 @@
 			y: 0.5d
 		}
 		{
-			extraquests_calendar: {
-				active_quests: 3
-				enabled: 0b
-				pool: ""
-				reset_time: "06:00"
-				timezone: "UTC"
-				weekday: 1
-				weekly: 0b
-			}
 			id: "6C25F07248AC8170"
 			preset: "start"
 			quest_enhance_disable_scroll_paging: false
@@ -622,17 +365,6 @@
 			shape: "rsquare"
 			size: 2.0d
 			tasks: [{
-				extraquests_options: {
-					aggregation: "AUTO"
-					duration: 600L
-					minimum_contribution: 0L
-					reset_damage: 0b
-					reset_death: 1b
-					reset_logout: 0b
-					shared: 0b
-					timer_enabled: 0b
-					timer_start: "FIRST_PROGRESS"
-				}
 				id: "0CA40E6517731248"
 				item: { components: { "ftbfiltersystem:filter": "or(item(minecraft:brush)item(betterarcheology:iron_brush)item(betterarcheology:diamond_brush)item(betterarcheology:netherite_brush))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
@@ -641,15 +373,6 @@
 			y: -1.5d
 		}
 		{
-			extraquests_calendar: {
-				active_quests: 3
-				enabled: 0b
-				pool: ""
-				reset_time: "06:00"
-				timezone: "UTC"
-				weekday: 1
-				weekly: 0b
-			}
 			id: "58F9F0CC133CC7F7"
 			preset: "locate"
 			quest_enhance_disable_scroll_paging: false
@@ -676,17 +399,6 @@
 			]
 			shape: "octagon"
 			tasks: [{
-				extraquests_options: {
-					aggregation: "AUTO"
-					duration: 600L
-					minimum_contribution: 0L
-					reset_damage: 0b
-					reset_death: 1b
-					reset_logout: 0b
-					shared: 0b
-					timer_enabled: 0b
-					timer_start: "FIRST_PROGRESS"
-				}
 				icon: {
 					id: "minecraft:iron_bars"
 				}
@@ -699,30 +411,10 @@
 		}
 		{
 			always_invisible: true
-			extraquests_calendar: {
-				active_quests: 3
-				enabled: 0b
-				pool: ""
-				reset_time: "06:00"
-				timezone: "UTC"
-				weekday: 1
-				weekly: 0b
-			}
 			id: "3EA8305BE1FE9B75"
 			optional: true
 			quest_enhance_disable_scroll_paging: false
 			tasks: [{
-				extraquests_options: {
-					aggregation: "AUTO"
-					duration: 600L
-					minimum_contribution: 0L
-					reset_damage: 0b
-					reset_death: 1b
-					reset_logout: 0b
-					shared: 0b
-					timer_enabled: 0b
-					timer_start: "FIRST_PROGRESS"
-				}
 				id: "4093E37E2FE96DFE"
 				item: { count: 1, id: "ftbquests:barrier" }
 				only_from_crafting: true
@@ -733,15 +425,6 @@
 		}
 		{
 			dependencies: ["6C25F07248AC8170"]
-			extraquests_calendar: {
-				active_quests: 3
-				enabled: 0b
-				pool: ""
-				reset_time: "06:00"
-				timezone: "UTC"
-				weekday: 1
-				weekly: 0b
-			}
 			id: "374F93068ED863F7"
 			preset: "item"
 			quest_enhance_disable_scroll_paging: false
@@ -775,17 +458,6 @@
 				}
 			]
 			tasks: [{
-				extraquests_options: {
-					aggregation: "AUTO"
-					duration: 600L
-					minimum_contribution: 0L
-					reset_damage: 0b
-					reset_death: 1b
-					reset_logout: 0b
-					shared: 0b
-					timer_enabled: 0b
-					timer_start: "FIRST_PROGRESS"
-				}
 				id: "06CF8ADD820CC26A"
 				item: { components: { "ftbfiltersystem:filter": "or(item_tag(minecraft:decorated_pot_sherds))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
@@ -794,15 +466,6 @@
 			y: -1.5d
 		}
 		{
-			extraquests_calendar: {
-				active_quests: 3
-				enabled: 0b
-				pool: ""
-				reset_time: "06:00"
-				timezone: "UTC"
-				weekday: 1
-				weekly: 0b
-			}
 			id: "4F3616F8CE8F6F2B"
 			preset: "animal"
 			quest_enhance_disable_scroll_paging: false
@@ -816,17 +479,6 @@
 			}]
 			shape: "heart"
 			tasks: [{
-				extraquests_options: {
-					aggregation: "AUTO"
-					duration: 600L
-					minimum_contribution: 0L
-					reset_damage: 0b
-					reset_death: 1b
-					reset_logout: 0b
-					shared: 0b
-					timer_enabled: 0b
-					timer_start: "FIRST_PROGRESS"
-				}
 				icon: {
 					id: "plushie_buddies:plushie_sniffer"
 				}
@@ -841,15 +493,6 @@
 			y: 3.5d
 		}
 		{
-			extraquests_calendar: {
-				active_quests: 3
-				enabled: 0b
-				pool: ""
-				reset_time: "06:00"
-				timezone: "UTC"
-				weekday: 1
-				weekly: 0b
-			}
 			id: "77CCC4FD3E93E79C"
 			preset: "item"
 			quest_enhance_disable_scroll_paging: false
@@ -862,17 +505,6 @@
 				type: "item"
 			}]
 			tasks: [{
-				extraquests_options: {
-					aggregation: "AUTO"
-					duration: 600L
-					minimum_contribution: 0L
-					reset_damage: 0b
-					reset_death: 1b
-					reset_logout: 0b
-					shared: 0b
-					timer_enabled: 0b
-					timer_start: "FIRST_PROGRESS"
-				}
 				icon: {
 					id: "minecraft:suspicious_gravel"
 				}

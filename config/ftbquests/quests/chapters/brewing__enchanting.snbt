@@ -55,15 +55,6 @@
 	quest_links: [ ]
 	quests: [
 		{
-			extraquests_calendar: {
-				active_quests: 3
-				enabled: 0b
-				pool: ""
-				reset_time: "06:00"
-				timezone: "UTC"
-				weekday: 1
-				weekly: 0b
-			}
 			id: "6E1B07BEB8F423BC"
 			quest_enhance_disable_scroll_paging: false
 			rewards: [{
@@ -76,17 +67,6 @@
 				type: "item"
 			}]
 			tasks: [{
-				extraquests_options: {
-					aggregation: "AUTO"
-					duration: 600L
-					minimum_contribution: 0L
-					reset_damage: 0b
-					reset_death: 1b
-					reset_logout: 0b
-					shared: 0b
-					timer_enabled: 0b
-					timer_start: "FIRST_PROGRESS"
-				}
 				id: "460256459F27E160"
 				item: { count: 1, id: "minecraft:brewing_stand" }
 				type: "item"
@@ -95,15 +75,6 @@
 			y: -8.0d
 		}
 		{
-			extraquests_calendar: {
-				active_quests: 3
-				enabled: 0b
-				pool: ""
-				reset_time: "06:00"
-				timezone: "UTC"
-				weekday: 1
-				weekly: 0b
-			}
 			id: "54F9B41F96399DE6"
 			quest_enhance_disable_scroll_paging: false
 			rewards: [{
@@ -123,17 +94,6 @@
 			shape: "rsquare"
 			size: 2.0d
 			tasks: [{
-				extraquests_options: {
-					aggregation: "AUTO"
-					duration: 600L
-					minimum_contribution: 0L
-					reset_damage: 0b
-					reset_death: 1b
-					reset_logout: 0b
-					shared: 0b
-					timer_enabled: 0b
-					timer_start: "FIRST_PROGRESS"
-				}
 				icon: {
 					id: "minecraft:enchanting_table"
 				}
@@ -148,15 +108,6 @@
 			y: -4.0d
 		}
 		{
-			extraquests_calendar: {
-				active_quests: 3
-				enabled: 0b
-				pool: ""
-				reset_time: "06:00"
-				timezone: "UTC"
-				weekday: 1
-				weekly: 0b
-			}
 			id: "30EA6BEFEEBF9650"
 			preset: "start"
 			quest_enhance_disable_scroll_paging: false
@@ -170,33 +121,11 @@
 			size: 2.0d
 			tasks: [
 				{
-					extraquests_options: {
-						aggregation: "AUTO"
-						duration: 600L
-						minimum_contribution: 0L
-						reset_damage: 0b
-						reset_death: 1b
-						reset_logout: 0b
-						shared: 0b
-						timer_enabled: 0b
-						timer_start: "FIRST_PROGRESS"
-					}
 					id: "7AFE039986471228"
 					item: { count: 1, id: "reliquary:apothecary_cauldron" }
 					type: "item"
 				}
 				{
-					extraquests_options: {
-						aggregation: "AUTO"
-						duration: 600L
-						minimum_contribution: 0L
-						reset_damage: 0b
-						reset_death: 1b
-						reset_logout: 0b
-						shared: 0b
-						timer_enabled: 0b
-						timer_start: "FIRST_PROGRESS"
-					}
 					id: "282D4C412E84BB8D"
 					item: { count: 1, id: "reliquary:apothecary_mortar" }
 					type: "item"
@@ -206,15 +135,6 @@
 			y: -8.0d
 		}
 		{
-			extraquests_calendar: {
-				active_quests: 3
-				enabled: 0b
-				pool: ""
-				reset_time: "06:00"
-				timezone: "UTC"
-				weekday: 1
-				weekly: 0b
-			}
 			id: "0BDF6D5ED0A22E48"
 			quest_enhance_disable_scroll_paging: false
 			rewards: [
@@ -236,17 +156,6 @@
 			]
 			shape: "hexagon"
 			tasks: [{
-				extraquests_options: {
-					aggregation: "AUTO"
-					duration: 600L
-					minimum_contribution: 0L
-					reset_damage: 0b
-					reset_death: 1b
-					reset_logout: 0b
-					shared: 0b
-					timer_enabled: 0b
-					timer_start: "FIRST_PROGRESS"
-				}
 				id: "73B3EF341A02D904"
 				item: { count: 1, id: "disenchanting_table:disenchanting_table" }
 				type: "item"
@@ -256,30 +165,10 @@
 		}
 		{
 			always_invisible: true
-			extraquests_calendar: {
-				active_quests: 3
-				enabled: 0b
-				pool: ""
-				reset_time: "06:00"
-				timezone: "UTC"
-				weekday: 1
-				weekly: 0b
-			}
 			id: "41E35091BA940B6E"
 			optional: true
 			quest_enhance_disable_scroll_paging: false
 			tasks: [{
-				extraquests_options: {
-					aggregation: "AUTO"
-					duration: 600L
-					minimum_contribution: 0L
-					reset_damage: 0b
-					reset_death: 1b
-					reset_logout: 0b
-					shared: 0b
-					timer_enabled: 0b
-					timer_start: "FIRST_PROGRESS"
-				}
 				id: "779E2893C37E22E0"
 				type: "custom"
 			}]
@@ -287,15 +176,6 @@
 			y: -6.0d
 		}
 		{
-			extraquests_calendar: {
-				active_quests: 3
-				enabled: 0b
-				pool: ""
-				reset_time: "06:00"
-				timezone: "UTC"
-				weekday: 1
-				weekly: 0b
-			}
 			id: "6C519AFAC9A8866F"
 			quest_enhance_disable_scroll_paging: false
 			rewards: [{
@@ -305,17 +185,6 @@
 				type: "random"
 			}]
 			tasks: [{
-				extraquests_options: {
-					aggregation: "AUTO"
-					duration: 600L
-					minimum_contribution: 0L
-					reset_damage: 0b
-					reset_death: 1b
-					reset_logout: 0b
-					shared: 0b
-					timer_enabled: 0b
-					timer_start: "FIRST_PROGRESS"
-				}
 				id: "1B0CD29353BF5FD3"
 				item: { count: 1, id: "minecraft:cauldron" }
 				type: "item"

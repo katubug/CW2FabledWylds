@@ -51,15 +51,6 @@
 	quests: [
 		{
 			dependencies: ["399D55B3452588FF"]
-			extraquests_calendar: {
-				active_quests: 3
-				enabled: 0b
-				pool: ""
-				reset_time: "06:00"
-				timezone: "UTC"
-				weekday: 1
-				weekly: 0b
-			}
 			icon: {
 				id: "twilightforest:twilight_portal_miniature_structure"
 			}
@@ -76,17 +67,6 @@
 			}]
 			tasks: [{
 				dimension: "twilightforest:twilight_forest"
-				extraquests_options: {
-					aggregation: "AUTO"
-					duration: 600L
-					minimum_contribution: 0L
-					reset_damage: 0b
-					reset_death: 1b
-					reset_logout: 0b
-					shared: 0b
-					timer_enabled: 0b
-					timer_start: "FIRST_PROGRESS"
-				}
 				id: "2522694F96FD15CA"
 				type: "dimension"
 			}]
@@ -94,15 +74,6 @@
 			y: -0.75d
 		}
 		{
-			extraquests_calendar: {
-				active_quests: 3
-				enabled: 0b
-				pool: ""
-				reset_time: "06:00"
-				timezone: "UTC"
-				weekday: 1
-				weekly: 0b
-			}
 			id: "399D55B3452588FF"
 			preset: "start"
 			quest_enhance_disable_scroll_paging: false
@@ -138,17 +109,6 @@
 			shape: "rsquare"
 			size: 2.0d
 			tasks: [{
-				extraquests_options: {
-					aggregation: "AUTO"
-					duration: 600L
-					minimum_contribution: 0L
-					reset_damage: 0b
-					reset_death: 1b
-					reset_logout: 0b
-					shared: 0b
-					timer_enabled: 0b
-					timer_start: "FIRST_PROGRESS"
-				}
 				id: "546DCCE3B330C33A"
 				item: { count: 1, id: "minecraft:diamond" }
 				type: "item"
@@ -158,15 +118,6 @@
 		}
 		{
 			dependencies: ["730964D8E1FD059F"]
-			extraquests_calendar: {
-				active_quests: 3
-				enabled: 0b
-				pool: ""
-				reset_time: "06:00"
-				timezone: "UTC"
-				weekday: 1
-				weekly: 0b
-			}
 			icon: {
 				id: "twilightforest:raven_feather"
 			}
@@ -184,17 +135,6 @@
 			}]
 			tasks: [{
 				entity: "twilightforest:raven"
-				extraquests_options: {
-					aggregation: "AUTO"
-					duration: 600L
-					minimum_contribution: 0L
-					reset_damage: 0b
-					reset_death: 1b
-					reset_logout: 0b
-					shared: 0b
-					timer_enabled: 0b
-					timer_start: "FIRST_PROGRESS"
-				}
 				icon: {
 					components: {
 						"!ftbquests:icon": { }
@@ -212,15 +152,6 @@
 		}
 		{
 			dependencies: ["3B33F8C27B3361AC"]
-			extraquests_calendar: {
-				active_quests: 3
-				enabled: 0b
-				pool: ""
-				reset_time: "06:00"
-				timezone: "UTC"
-				weekday: 1
-				weekly: 0b
-			}
 			id: "0F55C73877E7FD90"
 			quest_enhance_disable_scroll_paging: false
 			rewards: [{
@@ -234,17 +165,6 @@
 			}]
 			shape: "hexagon"
 			tasks: [{
-				extraquests_options: {
-					aggregation: "AUTO"
-					duration: 600L
-					minimum_contribution: 0L
-					reset_damage: 0b
-					reset_death: 1b
-					reset_logout: 0b
-					shared: 0b
-					timer_enabled: 0b
-					timer_start: "FIRST_PROGRESS"
-				}
 				id: "5B111B023B93A0E1"
 				item: { count: 1, id: "twilightforest:magic_map_focus" }
 				type: "item"
@@ -253,15 +173,6 @@
 			y: -1.5d
 		}
 		{
-			extraquests_calendar: {
-				active_quests: 3
-				enabled: 0b
-				pool: ""
-				reset_time: "06:00"
-				timezone: "UTC"
-				weekday: 1
-				weekly: 0b
-			}
 			id: "03102B4CD0BE7031"
 			preset: "locate"
 			quest_enhance_disable_scroll_paging: false
@@ -273,17 +184,6 @@
 			}]
 			shape: "hexagon"
 			tasks: [{
-				extraquests_options: {
-					aggregation: "AUTO"
-					duration: 600L
-					minimum_contribution: 0L
-					reset_damage: 0b
-					reset_death: 1b
-					reset_logout: 0b
-					shared: 0b
-					timer_enabled: 0b
-					timer_start: "FIRST_PROGRESS"
-				}
 				id: "2AED38B113D31F29"
 				structure: "twilightforest:hedge_maze"
 				type: "structure"
@@ -292,15 +192,6 @@
 			y: 2.0d
 		}
 		{
-			extraquests_calendar: {
-				active_quests: 3
-				enabled: 0b
-				pool: ""
-				reset_time: "06:00"
-				timezone: "UTC"
-				weekday: 1
-				weekly: 0b
-			}
 			id: "5B5DB6950BD9BC15"
 			preset: "item"
 			quest_enhance_disable_scroll_paging: false
@@ -312,17 +203,6 @@
 			}]
 			shape: "hexagon"
 			tasks: [{
-				extraquests_options: {
-					aggregation: "AUTO"
-					duration: 600L
-					minimum_contribution: 0L
-					reset_damage: 0b
-					reset_death: 1b
-					reset_logout: 0b
-					shared: 0b
-					timer_enabled: 0b
-					timer_start: "FIRST_PROGRESS"
-				}
 				id: "37BFCF9F22551ED3"
 				item: { count: 1, id: "twilightforest:ore_magnet" }
 				type: "item"
@@ -331,15 +211,6 @@
 			y: 0.0d
 		}
 		{
-			extraquests_calendar: {
-				active_quests: 3
-				enabled: 0b
-				pool: ""
-				reset_time: "06:00"
-				timezone: "UTC"
-				weekday: 1
-				weekly: 0b
-			}
 			id: "6A5281FA52C785C6"
 			preset: "item"
 			quest_enhance_disable_scroll_paging: false
@@ -361,17 +232,6 @@
 			]
 			shape: "hexagon"
 			tasks: [{
-				extraquests_options: {
-					aggregation: "AUTO"
-					duration: 600L
-					minimum_contribution: 0L
-					reset_damage: 0b
-					reset_death: 1b
-					reset_logout: 0b
-					shared: 0b
-					timer_enabled: 0b
-					timer_start: "FIRST_PROGRESS"
-				}
 				id: "15FF51EB8323D171"
 				item: { count: 1, id: "twilightforest:steeleaf_ingot" }
 				type: "item"
@@ -380,15 +240,6 @@
 			y: 0.0d
 		}
 		{
-			extraquests_calendar: {
-				active_quests: 3
-				enabled: 0b
-				pool: ""
-				reset_time: "06:00"
-				timezone: "UTC"
-				weekday: 1
-				weekly: 0b
-			}
 			id: "2ACCE2B7760206C9"
 			preset: "item"
 			quest_enhance_disable_scroll_paging: false
@@ -410,17 +261,6 @@
 			]
 			shape: "hexagon"
 			tasks: [{
-				extraquests_options: {
-					aggregation: "AUTO"
-					duration: 600L
-					minimum_contribution: 0L
-					reset_damage: 0b
-					reset_death: 1b
-					reset_logout: 0b
-					shared: 0b
-					timer_enabled: 0b
-					timer_start: "FIRST_PROGRESS"
-				}
 				id: "7EC630320EED692D"
 				item: { count: 1, id: "twilightforest:liveroot" }
 				type: "item"
@@ -429,15 +269,6 @@
 			y: 1.0d
 		}
 		{
-			extraquests_calendar: {
-				active_quests: 3
-				enabled: 0b
-				pool: ""
-				reset_time: "06:00"
-				timezone: "UTC"
-				weekday: 1
-				weekly: 0b
-			}
 			id: "62A0D663EF2B58C1"
 			preset: "item"
 			quest_enhance_disable_scroll_paging: false
@@ -449,17 +280,6 @@
 			}]
 			shape: "hexagon"
 			tasks: [{
-				extraquests_options: {
-					aggregation: "AUTO"
-					duration: 600L
-					minimum_contribution: 0L
-					reset_damage: 0b
-					reset_death: 1b
-					reset_logout: 0b
-					shared: 0b
-					timer_enabled: 0b
-					timer_start: "FIRST_PROGRESS"
-				}
 				id: "6640CC33AA28C74F"
 				item: { count: 1, id: "twilightforest:peacock_feather_fan" }
 				type: "item"
@@ -468,15 +288,6 @@
 			y: 1.0d
 		}
 		{
-			extraquests_calendar: {
-				active_quests: 3
-				enabled: 0b
-				pool: ""
-				reset_time: "06:00"
-				timezone: "UTC"
-				weekday: 1
-				weekly: 0b
-			}
 			id: "79B6B78157E7D32C"
 			preset: "item"
 			quest_enhance_disable_scroll_paging: false
@@ -488,17 +299,6 @@
 			}]
 			shape: "hexagon"
 			tasks: [{
-				extraquests_options: {
-					aggregation: "AUTO"
-					duration: 600L
-					minimum_contribution: 0L
-					reset_damage: 0b
-					reset_death: 1b
-					reset_logout: 0b
-					shared: 0b
-					timer_enabled: 0b
-					timer_start: "FIRST_PROGRESS"
-				}
 				id: "36DCC9327A7A9CEB"
 				item: { count: 1, id: "twilightforest:moonworm_queen" }
 				type: "item"
@@ -507,15 +307,6 @@
 			y: 0.0d
 		}
 		{
-			extraquests_calendar: {
-				active_quests: 3
-				enabled: 0b
-				pool: ""
-				reset_time: "06:00"
-				timezone: "UTC"
-				weekday: 1
-				weekly: 0b
-			}
 			id: "7D15924C5AEAC669"
 			preset: "item"
 			quest_enhance_disable_scroll_paging: false
@@ -527,17 +318,6 @@
 			}]
 			shape: "hexagon"
 			tasks: [{
-				extraquests_options: {
-					aggregation: "AUTO"
-					duration: 600L
-					minimum_contribution: 0L
-					reset_damage: 0b
-					reset_death: 1b
-					reset_logout: 0b
-					shared: 0b
-					timer_enabled: 0b
-					timer_start: "FIRST_PROGRESS"
-				}
 				id: "4C765C9C13A943A9"
 				item: { count: 1, id: "twilightforest:uncrafting_table" }
 				type: "item"
@@ -547,15 +327,6 @@
 		}
 		{
 			dependencies: ["730964D8E1FD059F"]
-			extraquests_calendar: {
-				active_quests: 3
-				enabled: 0b
-				pool: ""
-				reset_time: "06:00"
-				timezone: "UTC"
-				weekday: 1
-				weekly: 0b
-			}
 			icon: {
 				id: "twilightforest:naga_trophy"
 			}
@@ -569,17 +340,6 @@
 				type: "random"
 			}]
 			tasks: [{
-				extraquests_options: {
-					aggregation: "AUTO"
-					duration: 600L
-					minimum_contribution: 0L
-					reset_damage: 0b
-					reset_death: 1b
-					reset_logout: 0b
-					shared: 0b
-					timer_enabled: 0b
-					timer_start: "FIRST_PROGRESS"
-				}
 				id: "5736708CDA636001"
 				structure: "twilightforest:naga_courtyard"
 				type: "structure"
@@ -590,15 +350,6 @@
 		{
 			can_repeat: true
 			dependencies: ["3A0205CA0568641F"]
-			extraquests_calendar: {
-				active_quests: 3
-				enabled: 0b
-				pool: ""
-				reset_time: "06:00"
-				timezone: "UTC"
-				weekday: 1
-				weekly: 0b
-			}
 			id: "14B45702F0F82689"
 			optional: true
 			preset: "turnin"
@@ -613,17 +364,6 @@
 			tasks: [{
 				consume_items: true
 				count: 20L
-				extraquests_options: {
-					aggregation: "AUTO"
-					duration: 600L
-					minimum_contribution: 0L
-					reset_damage: 0b
-					reset_death: 1b
-					reset_logout: 0b
-					shared: 0b
-					timer_enabled: 0b
-					timer_start: "FIRST_PROGRESS"
-				}
 				id: "292E38425879D005"
 				item: { count: 1, id: "twilightforest:naga_scale" }
 				type: "item"
@@ -633,15 +373,6 @@
 		}
 		{
 			dependencies: ["3A0205CA0568641F"]
-			extraquests_calendar: {
-				active_quests: 3
-				enabled: 0b
-				pool: ""
-				reset_time: "06:00"
-				timezone: "UTC"
-				weekday: 1
-				weekly: 0b
-			}
 			id: "1B8E61A0872EEA1C"
 			preset: "locate"
 			quest_enhance_disable_scroll_paging: false
@@ -656,17 +387,6 @@
 				type: "contactquests:parcel_random"
 			}]
 			tasks: [{
-				extraquests_options: {
-					aggregation: "AUTO"
-					duration: 600L
-					minimum_contribution: 0L
-					reset_damage: 0b
-					reset_death: 1b
-					reset_logout: 0b
-					shared: 0b
-					timer_enabled: 0b
-					timer_start: "FIRST_PROGRESS"
-				}
 				icon: {
 					id: "twilightforest:lich_tower_miniature_structure"
 				}
@@ -678,15 +398,6 @@
 			y: 4.0d
 		}
 		{
-			extraquests_calendar: {
-				active_quests: 3
-				enabled: 0b
-				pool: ""
-				reset_time: "06:00"
-				timezone: "UTC"
-				weekday: 1
-				weekly: 0b
-			}
 			id: "6016A3D8B7FD7A14"
 			preset: "locate"
 			quest_enhance_disable_scroll_paging: false
@@ -696,17 +407,6 @@
 				xp_levels: 5
 			}]
 			tasks: [{
-				extraquests_options: {
-					aggregation: "AUTO"
-					duration: 600L
-					minimum_contribution: 0L
-					reset_damage: 0b
-					reset_death: 1b
-					reset_logout: 0b
-					shared: 0b
-					timer_enabled: 0b
-					timer_start: "FIRST_PROGRESS"
-				}
 				icon: {
 					id: "twilightforest:minoshroom_trophy"
 				}
@@ -719,15 +419,6 @@
 		}
 		{
 			dependencies: ["169272849A588544"]
-			extraquests_calendar: {
-				active_quests: 3
-				enabled: 0b
-				pool: ""
-				reset_time: "06:00"
-				timezone: "UTC"
-				weekday: 1
-				weekly: 0b
-			}
 			id: "3657239C35390F17"
 			preset: "locate"
 			quest_enhance_disable_scroll_paging: false
@@ -741,17 +432,6 @@
 				type: "item"
 			}]
 			tasks: [{
-				extraquests_options: {
-					aggregation: "AUTO"
-					duration: 600L
-					minimum_contribution: 0L
-					reset_damage: 0b
-					reset_death: 1b
-					reset_logout: 0b
-					shared: 0b
-					timer_enabled: 0b
-					timer_start: "FIRST_PROGRESS"
-				}
 				icon: {
 					id: "twilightforest:hydra_trophy"
 				}
@@ -764,15 +444,6 @@
 		}
 		{
 			dependencies: ["6016A3D8B7FD7A14"]
-			extraquests_calendar: {
-				active_quests: 3
-				enabled: 0b
-				pool: ""
-				reset_time: "06:00"
-				timezone: "UTC"
-				weekday: 1
-				weekly: 0b
-			}
 			id: "187BD92930BA8670"
 			preset: "item"
 			quest_enhance_disable_scroll_paging: false
@@ -799,17 +470,6 @@
 			]
 			shape: "hexagon"
 			tasks: [{
-				extraquests_options: {
-					aggregation: "AUTO"
-					duration: 600L
-					minimum_contribution: 0L
-					reset_damage: 0b
-					reset_death: 1b
-					reset_logout: 0b
-					shared: 0b
-					timer_enabled: 0b
-					timer_start: "FIRST_PROGRESS"
-				}
 				id: "43F651AEFE00109D"
 				item: { count: 1, id: "twilightforest:mazebreaker_pickaxe" }
 				type: "item"
@@ -820,15 +480,6 @@
 		{
 			can_repeat: true
 			dependencies: ["54A57B37E1C04785"]
-			extraquests_calendar: {
-				active_quests: 3
-				enabled: 0b
-				pool: ""
-				reset_time: "06:00"
-				timezone: "UTC"
-				weekday: 1
-				weekly: 0b
-			}
 			id: "23E5790A6CC6524C"
 			optional: true
 			preset: "turnin"
@@ -843,17 +494,6 @@
 			tasks: [{
 				consume_items: true
 				count: 20L
-				extraquests_options: {
-					aggregation: "AUTO"
-					duration: 600L
-					minimum_contribution: 0L
-					reset_damage: 0b
-					reset_death: 1b
-					reset_logout: 0b
-					shared: 0b
-					timer_enabled: 0b
-					timer_start: "FIRST_PROGRESS"
-				}
 				id: "5172110E1EBECE10"
 				item: { count: 1, id: "twilightforest:fiery_blood" }
 				type: "item"
@@ -862,15 +502,6 @@
 			y: 2.5d
 		}
 		{
-			extraquests_calendar: {
-				active_quests: 3
-				enabled: 0b
-				pool: ""
-				reset_time: "06:00"
-				timezone: "UTC"
-				weekday: 1
-				weekly: 0b
-			}
 			id: "10C91592DCBC6FBD"
 			preset: "locate"
 			quest_enhance_disable_scroll_paging: false
@@ -884,17 +515,6 @@
 				type: "item"
 			}]
 			tasks: [{
-				extraquests_options: {
-					aggregation: "AUTO"
-					duration: 600L
-					minimum_contribution: 0L
-					reset_damage: 0b
-					reset_death: 1b
-					reset_logout: 0b
-					shared: 0b
-					timer_enabled: 0b
-					timer_start: "FIRST_PROGRESS"
-				}
 				icon: {
 					id: "twilightforest:knight_phantom_trophy"
 				}
@@ -907,15 +527,6 @@
 		}
 		{
 			dependencies: ["470A6825C49EEFAF"]
-			extraquests_calendar: {
-				active_quests: 3
-				enabled: 0b
-				pool: ""
-				reset_time: "06:00"
-				timezone: "UTC"
-				weekday: 1
-				weekly: 0b
-			}
 			id: "5C463B10FDE8CEF2"
 			preset: "locate"
 			quest_enhance_disable_scroll_paging: false
@@ -929,17 +540,6 @@
 				type: "item"
 			}]
 			tasks: [{
-				extraquests_options: {
-					aggregation: "AUTO"
-					duration: 600L
-					minimum_contribution: 0L
-					reset_damage: 0b
-					reset_death: 1b
-					reset_logout: 0b
-					shared: 0b
-					timer_enabled: 0b
-					timer_start: "FIRST_PROGRESS"
-				}
 				icon: {
 					id: "twilightforest:ur_ghast_trophy"
 				}
@@ -951,15 +551,6 @@
 			y: 1.5d
 		}
 		{
-			extraquests_calendar: {
-				active_quests: 3
-				enabled: 0b
-				pool: ""
-				reset_time: "06:00"
-				timezone: "UTC"
-				weekday: 1
-				weekly: 0b
-			}
 			id: "41CBB146259DAF34"
 			preset: "locate"
 			quest_enhance_disable_scroll_paging: false
@@ -974,17 +565,6 @@
 				type: "contactquests:parcel_random"
 			}]
 			tasks: [{
-				extraquests_options: {
-					aggregation: "AUTO"
-					duration: 600L
-					minimum_contribution: 0L
-					reset_damage: 0b
-					reset_death: 1b
-					reset_logout: 0b
-					shared: 0b
-					timer_enabled: 0b
-					timer_start: "FIRST_PROGRESS"
-				}
 				icon: {
 					id: "twilightforest:alpha_yeti_trophy"
 				}
@@ -997,15 +577,6 @@
 		}
 		{
 			dependencies: ["2F267ADA86FA5503"]
-			extraquests_calendar: {
-				active_quests: 3
-				enabled: 0b
-				pool: ""
-				reset_time: "06:00"
-				timezone: "UTC"
-				weekday: 1
-				weekly: 0b
-			}
 			id: "2C905E4DE5051CC5"
 			preset: "locate"
 			quest_enhance_disable_scroll_paging: false
@@ -1039,17 +610,6 @@
 				}
 			]
 			tasks: [{
-				extraquests_options: {
-					aggregation: "AUTO"
-					duration: 600L
-					minimum_contribution: 0L
-					reset_damage: 0b
-					reset_death: 1b
-					reset_logout: 0b
-					shared: 0b
-					timer_enabled: 0b
-					timer_start: "FIRST_PROGRESS"
-				}
 				icon: {
 					id: "twilightforest:snow_queen_trophy"
 				}
@@ -1066,15 +626,6 @@
 				"54A57B37E1C04785"
 				"761DD39F82235893"
 			]
-			extraquests_calendar: {
-				active_quests: 3
-				enabled: 0b
-				pool: ""
-				reset_time: "06:00"
-				timezone: "UTC"
-				weekday: 1
-				weekly: 0b
-			}
 			id: "2A52CFAE2D88AC1D"
 			preset: "progression"
 			quest_enhance_disable_scroll_paging: false
@@ -1090,17 +641,6 @@
 			}]
 			tasks: [{
 				biome: "twilightforest:highlands"
-				extraquests_options: {
-					aggregation: "AUTO"
-					duration: 600L
-					minimum_contribution: 0L
-					reset_damage: 0b
-					reset_death: 1b
-					reset_logout: 0b
-					shared: 0b
-					timer_enabled: 0b
-					timer_start: "FIRST_PROGRESS"
-				}
 				icon: {
 					id: "twilightforest:magic_beans"
 				}
@@ -1112,15 +652,6 @@
 		}
 		{
 			dependencies: ["2A52CFAE2D88AC1D"]
-			extraquests_calendar: {
-				active_quests: 3
-				enabled: 0b
-				pool: ""
-				reset_time: "06:00"
-				timezone: "UTC"
-				weekday: 1
-				weekly: 0b
-			}
 			id: "2B8E1553C1487EBA"
 			preset: "milestone"
 			quest_enhance_disable_scroll_paging: false
@@ -1131,17 +662,6 @@
 				type: "choice"
 			}]
 			tasks: [{
-				extraquests_options: {
-					aggregation: "AUTO"
-					duration: 600L
-					minimum_contribution: 0L
-					reset_damage: 0b
-					reset_death: 1b
-					reset_logout: 0b
-					shared: 0b
-					timer_enabled: 0b
-					timer_start: "FIRST_PROGRESS"
-				}
 				icon: {
 					id: "twilightforest:lamp_of_cinders"
 				}
@@ -1154,15 +674,6 @@
 		}
 		{
 			dependencies: ["00B1A6C679547AF2"]
-			extraquests_calendar: {
-				active_quests: 3
-				enabled: 0b
-				pool: ""
-				reset_time: "06:00"
-				timezone: "UTC"
-				weekday: 1
-				weekly: 0b
-			}
 			id: "3A0205CA0568641F"
 			preset: "boss"
 			quest_enhance_disable_scroll_paging: false
@@ -1187,17 +698,6 @@
 			tasks: [{
 				advancement: "twilightforest:progress_naga"
 				criterion: ""
-				extraquests_options: {
-					aggregation: "AUTO"
-					duration: 600L
-					minimum_contribution: 0L
-					reset_damage: 0b
-					reset_death: 1b
-					reset_logout: 0b
-					shared: 0b
-					timer_enabled: 0b
-					timer_start: "FIRST_PROGRESS"
-				}
 				id: "1D993E6DD7CC725A"
 				type: "advancement"
 			}]
@@ -1206,15 +706,6 @@
 		}
 		{
 			dependencies: ["1B8E61A0872EEA1C"]
-			extraquests_calendar: {
-				active_quests: 3
-				enabled: 0b
-				pool: ""
-				reset_time: "06:00"
-				timezone: "UTC"
-				weekday: 1
-				weekly: 0b
-			}
 			id: "62F755926795DBB6"
 			preset: "progression"
 			quest_enhance_disable_scroll_paging: false
@@ -1229,17 +720,6 @@
 			tasks: [{
 				advancement: "fabled_wylds:twilight_forest/photographed_lich"
 				criterion: ""
-				extraquests_options: {
-					aggregation: "AUTO"
-					duration: 600L
-					minimum_contribution: 0L
-					reset_damage: 0b
-					reset_death: 1b
-					reset_logout: 0b
-					shared: 0b
-					timer_enabled: 0b
-					timer_start: "FIRST_PROGRESS"
-				}
 				id: "529AB2056859A06B"
 				type: "advancement"
 			}]
@@ -1248,15 +728,6 @@
 		}
 		{
 			dependencies: ["10C91592DCBC6FBD"]
-			extraquests_calendar: {
-				active_quests: 3
-				enabled: 0b
-				pool: ""
-				reset_time: "06:00"
-				timezone: "UTC"
-				weekday: 1
-				weekly: 0b
-			}
 			id: "470A6825C49EEFAF"
 			preset: "boss"
 			quest_enhance_disable_scroll_paging: false
@@ -1271,17 +742,6 @@
 			tasks: [{
 				advancement: "twilightforest:progress_knights"
 				criterion: ""
-				extraquests_options: {
-					aggregation: "AUTO"
-					duration: 600L
-					minimum_contribution: 0L
-					reset_damage: 0b
-					reset_death: 1b
-					reset_logout: 0b
-					shared: 0b
-					timer_enabled: 0b
-					timer_start: "FIRST_PROGRESS"
-				}
 				id: "0BF937F4624FDA56"
 				type: "advancement"
 			}]
@@ -1290,15 +750,6 @@
 		}
 		{
 			dependencies: ["5C463B10FDE8CEF2"]
-			extraquests_calendar: {
-				active_quests: 3
-				enabled: 0b
-				pool: ""
-				reset_time: "06:00"
-				timezone: "UTC"
-				weekday: 1
-				weekly: 0b
-			}
 			id: "761DD39F82235893"
 			preset: "boss"
 			quest_enhance_disable_scroll_paging: false
@@ -1313,17 +764,6 @@
 			tasks: [{
 				advancement: "twilightforest:progress_ur_ghast"
 				criterion: ""
-				extraquests_options: {
-					aggregation: "AUTO"
-					duration: 600L
-					minimum_contribution: 0L
-					reset_damage: 0b
-					reset_death: 1b
-					reset_logout: 0b
-					shared: 0b
-					timer_enabled: 0b
-					timer_start: "FIRST_PROGRESS"
-				}
 				id: "06A1B36F072AF930"
 				type: "advancement"
 			}]
@@ -1332,15 +772,6 @@
 		}
 		{
 			dependencies: ["6016A3D8B7FD7A14"]
-			extraquests_calendar: {
-				active_quests: 3
-				enabled: 0b
-				pool: ""
-				reset_time: "06:00"
-				timezone: "UTC"
-				weekday: 1
-				weekly: 0b
-			}
 			id: "169272849A588544"
 			preset: "progression"
 			quest_enhance_disable_scroll_paging: false
@@ -1355,17 +786,6 @@
 			tasks: [{
 				advancement: "twilightforest:progress_labyrinth"
 				criterion: ""
-				extraquests_options: {
-					aggregation: "AUTO"
-					duration: 600L
-					minimum_contribution: 0L
-					reset_damage: 0b
-					reset_death: 1b
-					reset_logout: 0b
-					shared: 0b
-					timer_enabled: 0b
-					timer_start: "FIRST_PROGRESS"
-				}
 				id: "1D855A5D41C7624A"
 				type: "advancement"
 			}]
@@ -1374,15 +794,6 @@
 		}
 		{
 			dependencies: ["3657239C35390F17"]
-			extraquests_calendar: {
-				active_quests: 3
-				enabled: 0b
-				pool: ""
-				reset_time: "06:00"
-				timezone: "UTC"
-				weekday: 1
-				weekly: 0b
-			}
 			id: "54A57B37E1C04785"
 			preset: "boss"
 			quest_enhance_disable_scroll_paging: false
@@ -1397,17 +808,6 @@
 			tasks: [{
 				advancement: "twilightforest:progress_hydra"
 				criterion: ""
-				extraquests_options: {
-					aggregation: "AUTO"
-					duration: 600L
-					minimum_contribution: 0L
-					reset_damage: 0b
-					reset_death: 1b
-					reset_logout: 0b
-					shared: 0b
-					timer_enabled: 0b
-					timer_start: "FIRST_PROGRESS"
-				}
 				id: "176B52B1E8AD95EA"
 				type: "advancement"
 			}]
@@ -1416,15 +816,6 @@
 		}
 		{
 			dependencies: ["03C828F2F895A23C"]
-			extraquests_calendar: {
-				active_quests: 3
-				enabled: 0b
-				pool: ""
-				reset_time: "06:00"
-				timezone: "UTC"
-				weekday: 1
-				weekly: 0b
-			}
 			id: "2F267ADA86FA5503"
 			preset: "boss"
 			quest_enhance_disable_scroll_paging: false
@@ -1438,17 +829,6 @@
 			}]
 			tasks: [{
 				entity: "twilightforest:alpha_yeti"
-				extraquests_options: {
-					aggregation: "AUTO"
-					duration: 600L
-					minimum_contribution: 0L
-					reset_damage: 0b
-					reset_death: 1b
-					reset_logout: 0b
-					shared: 0b
-					timer_enabled: 0b
-					timer_start: "FIRST_PROGRESS"
-				}
 				id: "5F68902062C5E874"
 				type: "kill"
 				value: 1L
@@ -1458,15 +838,6 @@
 		}
 		{
 			dependencies: ["2C905E4DE5051CC5"]
-			extraquests_calendar: {
-				active_quests: 3
-				enabled: 0b
-				pool: ""
-				reset_time: "06:00"
-				timezone: "UTC"
-				weekday: 1
-				weekly: 0b
-			}
 			id: "27AFCBF70AA24760"
 			preset: "boss"
 			quest_enhance_disable_scroll_paging: false
@@ -1482,34 +853,12 @@
 				{
 					advancement: "twilightforest:progress_glacier"
 					criterion: ""
-					extraquests_options: {
-						aggregation: "AUTO"
-						duration: 600L
-						minimum_contribution: 0L
-						reset_damage: 0b
-						reset_death: 1b
-						reset_logout: 0b
-						shared: 0b
-						timer_enabled: 0b
-						timer_start: "FIRST_PROGRESS"
-					}
 					id: "77AEB177007F4630"
 					type: "advancement"
 				}
 				{
 					advancement: "fabled_wylds:twilight_forest/snow_queen_fire"
 					criterion: ""
-					extraquests_options: {
-						aggregation: "AUTO"
-						duration: 600L
-						minimum_contribution: 0L
-						reset_damage: 0b
-						reset_death: 1b
-						reset_logout: 0b
-						shared: 0b
-						timer_enabled: 0b
-						timer_start: "FIRST_PROGRESS"
-					}
 					id: "38C16AFB2C209DDD"
 					type: "advancement"
 				}
@@ -1518,15 +867,6 @@
 			y: 3.5d
 		}
 		{
-			extraquests_calendar: {
-				active_quests: 3
-				enabled: 0b
-				pool: ""
-				reset_time: "06:00"
-				timezone: "UTC"
-				weekday: 1
-				weekly: 0b
-			}
 			id: "4EAE4C40B444930A"
 			preset: "milestone"
 			quest_enhance_disable_scroll_paging: false
@@ -1553,17 +893,6 @@
 			tasks: [{
 				advancement: "twilightforest:quest_ram"
 				criterion: ""
-				extraquests_options: {
-					aggregation: "AUTO"
-					duration: 600L
-					minimum_contribution: 0L
-					reset_damage: 0b
-					reset_death: 1b
-					reset_logout: 0b
-					shared: 0b
-					timer_enabled: 0b
-					timer_start: "FIRST_PROGRESS"
-				}
 				id: "51CE926FD2497567"
 				type: "advancement"
 			}]
@@ -1579,15 +908,6 @@
 				"4EAE4C40B444930A"
 				"7C4B0608CCE37793"
 			]
-			extraquests_calendar: {
-				active_quests: 3
-				enabled: 0b
-				pool: ""
-				reset_time: "06:00"
-				timezone: "UTC"
-				weekday: 1
-				weekly: 0b
-			}
 			hide_dependency_lines: true
 			hide_dependent_lines: true
 			id: "25CB8D0869249D24"
@@ -1637,17 +957,6 @@
 			tasks: [{
 				advancement: "twilightforest:progress_troll"
 				criterion: ""
-				extraquests_options: {
-					aggregation: "AUTO"
-					duration: 600L
-					minimum_contribution: 0L
-					reset_damage: 0b
-					reset_death: 1b
-					reset_logout: 0b
-					shared: 0b
-					timer_enabled: 0b
-					timer_start: "FIRST_PROGRESS"
-				}
 				id: "22B4D8AF2A94AC3B"
 				type: "advancement"
 			}]
@@ -1655,31 +964,11 @@
 			y: 5.25d
 		}
 		{
-			extraquests_calendar: {
-				active_quests: 3
-				enabled: 0b
-				pool: ""
-				reset_time: "06:00"
-				timezone: "UTC"
-				weekday: 1
-				weekly: 0b
-			}
 			id: "723D12B934CAB46C"
 			invisible: true
 			optional: true
 			quest_enhance_disable_scroll_paging: false
 			tasks: [{
-				extraquests_options: {
-					aggregation: "AUTO"
-					duration: 600L
-					minimum_contribution: 0L
-					reset_damage: 0b
-					reset_death: 1b
-					reset_logout: 0b
-					shared: 0b
-					timer_enabled: 0b
-					timer_start: "FIRST_PROGRESS"
-				}
 				id: "599A10FC4B6BB02E"
 				item: { count: 1, id: "ftbquests:barrier" }
 				type: "item"
@@ -1689,15 +978,6 @@
 		}
 		{
 			dependencies: ["2B8E1553C1487EBA"]
-			extraquests_calendar: {
-				active_quests: 3
-				enabled: 0b
-				pool: ""
-				reset_time: "06:00"
-				timezone: "UTC"
-				weekday: 1
-				weekly: 0b
-			}
 			id: "7C4B0608CCE37793"
 			preset: "boss"
 			quest_enhance_disable_scroll_paging: false
@@ -1709,17 +989,6 @@
 			}]
 			tasks: [{
 				entity: "twilight_forest_final_boss:castle_keeper"
-				extraquests_options: {
-					aggregation: "AUTO"
-					duration: 600L
-					minimum_contribution: 0L
-					reset_damage: 0b
-					reset_death: 1b
-					reset_logout: 0b
-					shared: 0b
-					timer_enabled: 0b
-					timer_start: "FIRST_PROGRESS"
-				}
 				icon: {
 					components: {
 						"!ftbquests:icon": { }
@@ -1736,15 +1005,6 @@
 		}
 		{
 			dependencies: ["41CBB146259DAF34"]
-			extraquests_calendar: {
-				active_quests: 3
-				enabled: 0b
-				pool: ""
-				reset_time: "06:00"
-				timezone: "UTC"
-				weekday: 1
-				weekly: 0b
-			}
 			id: "03C828F2F895A23C"
 			preset: "progression"
 			quest_enhance_disable_scroll_paging: false
@@ -1757,17 +1017,6 @@
 			tasks: [{
 				advancement: "fabled_wylds:twilight_forest/thorns_yeti"
 				criterion: ""
-				extraquests_options: {
-					aggregation: "AUTO"
-					duration: 600L
-					minimum_contribution: 0L
-					reset_damage: 0b
-					reset_death: 1b
-					reset_logout: 0b
-					shared: 0b
-					timer_enabled: 0b
-					timer_start: "FIRST_PROGRESS"
-				}
 				id: "350738AFB1EA2D32"
 				type: "advancement"
 			}]
@@ -1777,15 +1026,6 @@
 		{
 			can_repeat: true
 			dependencies: ["2F267ADA86FA5503"]
-			extraquests_calendar: {
-				active_quests: 3
-				enabled: 0b
-				pool: ""
-				reset_time: "06:00"
-				timezone: "UTC"
-				weekday: 1
-				weekly: 0b
-			}
 			id: "286F4DD16E3755B0"
 			optional: true
 			preset: "turnin"
@@ -1799,17 +1039,6 @@
 			tasks: [{
 				consume_items: true
 				count: 5L
-				extraquests_options: {
-					aggregation: "AUTO"
-					duration: 600L
-					minimum_contribution: 0L
-					reset_damage: 0b
-					reset_death: 1b
-					reset_logout: 0b
-					shared: 0b
-					timer_enabled: 0b
-					timer_start: "FIRST_PROGRESS"
-				}
 				id: "1F9D252394196CE1"
 				item: { count: 1, id: "twilightforest:alpha_yeti_fur" }
 				optional_task: true
