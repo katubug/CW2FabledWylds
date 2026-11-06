@@ -8,6 +8,12 @@
     "enchanted:belladonna": "hexerei:belladonna_plant",
     "hexerei:mandrake_plant": "hexalia:wild_mandrake",
     "enchanted:mandrake": "hexalia:wild_mandrake",
-    "mysticsbiomes:butterfly_nest": "minecraft:flowering_azalea_leaves"
+    "mysticsbiomes:butterfly_nest": "minecraft:flowering_azalea_leaves",
+    "farm_and_charm:corn_bag": "hearthandharvest:corn_crate",
+    "farm_and_charm:onion_bag": "farmersdelight:onion_crate",
+    "farm_and_charm:tomato_bag": "farmersdelight:tomato_crate",
+    "farm_and_charm:carrot_bag": "farmersdelight:carrot_crate",
+    "farm_and_charm:potato_bag": "farmersdelight:potato_crate",
+    "farm_and_charm:beetroot_bag": "farmersdelight:beetroot_crate"
   }
 }

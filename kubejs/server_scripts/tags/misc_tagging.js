@@ -7,7 +7,8 @@ ServerEvents.tags('item', event => {
 		'reliquary:shears_of_winter',
 		'roots:runic_shears',
 		'roots:wooden_shears'
-	)
+	)
+
 	event.add('c:tools/shear',
 		'minecraft:shears',
 		'betternether:cincinnasite_shears',

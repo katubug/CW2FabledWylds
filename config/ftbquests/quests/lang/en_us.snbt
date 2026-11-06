@@ -1581,6 +1581,8 @@
 	quest.3571AAEB58389A64.title: "Upgrading Your Storage"
 	quest.358EB6DB33F203FE.title: "Scavenger Hunt: Powder Snow Bucket"
 	quest.3616B1DD943ADB00.quest_desc: [
+		"Many quest rewards will be sent to your &bMailbox&r, which you'll receive in the next chapter, so you'll need to place it in the world and claim it to receive your loot!"
+		""
 		"If you make an &aFTB Team&r, regardless of whether you're in singleplayer or multiplayer, you'll need to use a &bTeam Binding Card&r to claim your mailbox in order to receive your rewards. You can obtain one for free by clicking this button in the top right of your Quest Book:"
 		""
 		"{image:quest_enhance:textures/ftb/clipboard_1792621465828.png width:345 height:196 align:center fit:false}"

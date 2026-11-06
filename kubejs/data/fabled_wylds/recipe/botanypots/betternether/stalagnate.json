@@ -1,0 +1,31 @@
+{
+  "bookshelf:load_conditions": [
+    {
+      "type": "bookshelf:block_exists",
+      "values": [
+        "betternether:stalagnate_seed"
+      ]
+    }
+  ],
+  "type": "botanypots:block_derived_crop",
+  "block": "betternether:stalagnate_seed",
+  "grow_time": 2400,
+  "soil": {
+    "type": "bookshelf:either",
+    "ingredients": [
+      {
+        "type": "bookshelf:block_tag",
+        "tag": "minecraft:nylium"
+      },
+      {
+        "tag": "botanypots:soil/nether"
+      }
+    ]
+  },
+  "drops": [
+    {
+      "type": "botanypots:loot_table",
+      "table_id": "fabled_wylds:botanypots/betternether/stalagnate"
+    }
+  ]
+}

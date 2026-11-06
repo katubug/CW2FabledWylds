@@ -1,0 +1,22 @@
+{
+  "bookshelf:load_conditions": [
+    {
+      "type": "bookshelf:block_exists",
+      "values": [
+        "betterend:dragon_tree_sapling"
+      ]
+    }
+  ],
+  "type": "botanypots:block_derived_crop",
+  "block": "betterend:dragon_tree_sapling",
+  "grow_time": 2400,
+  "soil": {
+    "tag": "botanypots:soil/end"
+  },
+  "drops": [
+    {
+      "type": "botanypots:loot_table",
+      "table_id": "fabled_wylds:botanypots/betterend/dragon_tree"
+    }
+  ]
+}

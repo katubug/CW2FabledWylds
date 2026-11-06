@@ -1,0 +1,19 @@
+{
+  "bookshelf:load_conditions": [
+    {
+      "type": "bookshelf:block_exists",
+      "values": [
+        "dreamwoods:purple_shroom_sapling"
+      ]
+    }
+  ],
+  "type": "botanypots:block_derived_crop",
+  "block": "dreamwoods:purple_shroom_sapling",
+  "grow_time": 2400,
+  "drops": [
+    {
+      "type": "botanypots:loot_table",
+      "table_id": "fabled_wylds:botanypots/dreamwoods/purple_shroom"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "bookshelf:load_conditions": [
+    {
+      "type": "bookshelf:block_exists",
+      "values": [
+        "betterend:hydralux_sapling"
+      ]
+    }
+  ],
+  "type": "botanypots:block_derived_crop",
+  "block": "betterend:hydralux_sapling",
+  "grow_time": 2400,
+  "soil": {
+    "tag": "botanypots:soil/water"
+  },
+  "drops": [
+    {
+      "type": "botanypots:loot_table",
+      "table_id": "fabled_wylds:botanypots/betterend/hydralux"
+    }
+  ]
+}

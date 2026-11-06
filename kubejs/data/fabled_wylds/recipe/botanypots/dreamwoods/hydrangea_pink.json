@@ -1,0 +1,19 @@
+{
+  "bookshelf:load_conditions": [
+    {
+      "type": "bookshelf:block_exists",
+      "values": [
+        "dreamwoods:hydrangea_pink_sapling"
+      ]
+    }
+  ],
+  "type": "botanypots:block_derived_crop",
+  "block": "dreamwoods:hydrangea_pink_sapling",
+  "grow_time": 2400,
+  "drops": [
+    {
+      "type": "botanypots:loot_table",
+      "table_id": "fabled_wylds:botanypots/dreamwoods/hydrangea_pink"
+    }
+  ]
+}

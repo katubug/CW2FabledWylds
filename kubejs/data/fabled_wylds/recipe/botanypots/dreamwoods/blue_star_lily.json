@@ -1,0 +1,19 @@
+{
+  "bookshelf:load_conditions": [
+    {
+      "type": "bookshelf:block_exists",
+      "values": [
+        "dreamwoods:blue_star_lily_seedling"
+      ]
+    }
+  ],
+  "type": "botanypots:block_derived_crop",
+  "block": "dreamwoods:blue_star_lily_seedling",
+  "grow_time": 2400,
+  "drops": [
+    {
+      "type": "botanypots:loot_table",
+      "table_id": "fabled_wylds:botanypots/dreamwoods/blue_star_lily"
+    }
+  ]
+}

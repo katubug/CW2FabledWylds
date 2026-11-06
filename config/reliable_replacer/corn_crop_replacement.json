@@ -1,0 +1,41 @@
+ [
+   {
+     "_comment_description": "f&c field corn -> h&h stalk, same as wild corn rule",
+     "inputs": [
+       "farm_and_charm:corn_crop"
+     ],
+     "output": "hearthandharvest:corn_stalk",
+
+     "keep_states": true,
+     "retrogen": true,
+     "player_blocks": true,
+     "keep_nbt": true,
+
+     "output_state_properties": {
+         "age": 5
+     },
+
+     "additional_blocks": [
+       {
+         "output": "hearthandharvest:corn_stalk",
+         "x_offset": 0,
+         "y_offset": 1,
+         "z_offset": 0,
+         "output_state_properties": {
+             "section": "middle",
+             "age": 5
+         }
+       },
+       {
+         "output": "hearthandharvest:corn_stalk",
+         "x_offset": 0,
+         "y_offset": 2,
+         "z_offset": 0,
+         "output_state_properties": {
+             "section": "top",
+             "age": 5
+         }
+       }
+     ]
+   }
+ ]

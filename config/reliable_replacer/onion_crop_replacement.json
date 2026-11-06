@@ -1,0 +1,14 @@
+ [
+   {
+     "_comment_description": "f&c field onions -> fd onions. age 0-4 carries over (fd goes to 7)",
+     "inputs": [
+       "farm_and_charm:onion_crop"
+     ],
+     "output": "farmersdelight:onions",
+
+     "keep_states": true,
+     "retrogen": true,
+     "player_blocks": true,
+     "keep_nbt": true
+   }
+ ]

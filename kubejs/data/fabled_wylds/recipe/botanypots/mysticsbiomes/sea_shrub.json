@@ -1,0 +1,27 @@
+{
+  "bookshelf:load_conditions": [
+    {
+      "type": "bookshelf:block_exists",
+      "values": [
+        "mysticsbiomes:sea_shrub"
+      ]
+    }
+  ],
+  "type": "botanypots:block_derived_crop",
+  "block": "mysticsbiomes:sea_shrub",
+  "grow_time": 2400,
+  "soil": [
+    {
+      "tag": "botanypots:soil/dirt"
+    },
+    {
+      "tag": "botanypots:soil/sand"
+    }
+  ],
+  "drops": [
+    {
+      "type": "botanypots:loot_table",
+      "table_id": "fabled_wylds:botanypots/mysticsbiomes/sea_shrub"
+    }
+  ]
+}

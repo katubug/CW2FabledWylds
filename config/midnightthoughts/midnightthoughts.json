@@ -273,6 +273,7 @@
     "wellRestedHudPosition": "left",
     "hideWellRestedHud": false,
     "hideSleepingPlayersHud": false,
-    "summaryScale": 0
+    "summaryScale": 0,
+    "summaryStyle": "picture"
   }
 }

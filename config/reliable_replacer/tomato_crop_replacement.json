@@ -1,0 +1,14 @@
+ [
+   {
+     "_comment_description": "f&c field tomatoes -> fd budding tomatoes. both age 0-4",
+     "inputs": [
+       "farm_and_charm:tomato_crop"
+     ],
+     "output": "farmersdelight:budding_tomatoes",
+
+     "keep_states": true,
+     "retrogen": true,
+     "player_blocks": true,
+     "keep_nbt": true
+   }
+ ]

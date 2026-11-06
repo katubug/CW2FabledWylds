@@ -1,0 +1,22 @@
+{
+  "bookshelf:load_conditions": [
+    {
+      "type": "bookshelf:block_exists",
+      "values": [
+        "regions_unexplored:saguaro_cactus_flower"
+      ]
+    }
+  ],
+  "type": "botanypots:block_derived_crop",
+  "block": "regions_unexplored:saguaro_cactus_flower",
+  "grow_time": 2400,
+  "soil": {
+    "tag": "botanypots:soil/sand"
+  },
+  "drops": [
+    {
+      "type": "botanypots:loot_table",
+      "table_id": "fabled_wylds:botanypots/regions_unexplored/saguaro_cactus_flower"
+    }
+  ]
+}
