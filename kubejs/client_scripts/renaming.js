@@ -92,5 +92,6 @@ ClientEvents.lang("en_us", event => {
 	event.renameItem('trailandtales_delight:curd_block', 'Sweet Curd Block')
 	event.renameItem('trailandtales_delight:cheese_wheel', 'Sweet Cheese Wheel')
 	event.renameItem('trailandtales_delight:cheese_slice', 'Sweet Cheese Slice')
+	event.renameItem('mgn_witch_hat:witch_hat', "Grand Witch's Hat")
 
 })

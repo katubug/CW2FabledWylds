@@ -10,8 +10,18 @@
         "type": "item",
         "value": "tombstone:decorative_tombstone"
       },
-      "enabled": true,
-      "localized": true
+      "enabled": true
+    },
+    {
+      "id": "event/root",
+      "advancement_root": "tombstone:event/root",
+      "title": "tombstone.advancement.event.title",
+      "description": "tombstone.advancement.event.desc",
+      "icon": {
+        "type": "item",
+        "value": "tombstone:decorative_grave_original"
+      },
+      "enabled": true
     }
   ]
 }

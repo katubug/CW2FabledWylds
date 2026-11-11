@@ -38,7 +38,7 @@
 	#Requires a game restart or /reload to take effect after changing.
 	[dye_basin_overrides.vanilla]
 		#Re-enable vanilla shapeless dye recipe for armor dye
-		enable_shapeless_armor_dyeing = false
+		enable_shapeless_armor_dyeing = true
 		#Re-enable vanilla shapeless dye recipe for wool
 		enable_shapeless_wool_dyeing = false
 		#Re-enable vanilla shapeless dye recipe for bed

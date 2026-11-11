@@ -1253,6 +1253,14 @@
       "key": "key.keyboard.unknown",
       "modifier": "NONE"
     },
+    "key.rpgprefabhouses.open_catalogue": {
+      "key": "key.keyboard.k",
+      "modifier": "NONE"
+    },
+    "key.rpgprefabhouses.rotate": {
+      "key": "key.keyboard.r",
+      "modifier": "NONE"
+    },
     "key.saveToolbarActivator": {
       "key": "key.keyboard.unknown",
       "modifier": "NONE"
@@ -1719,6 +1727,30 @@
     },
     "tombstone.message.knowledge_of_death": {
       "key": "key.keyboard.unknown",
+      "modifier": "NONE"
+    },
+    "weaversparadise.keybind.down_minigame": {
+      "key": "key.keyboard.s",
+      "modifier": "NONE"
+    },
+    "weaversparadise.keybind.left_minigame": {
+      "key": "key.keyboard.a",
+      "modifier": "NONE"
+    },
+    "weaversparadise.keybind.open_upper_wear": {
+      "key": "key.keyboard.left.bracket",
+      "modifier": "NONE"
+    },
+    "weaversparadise.keybind.right_minigame": {
+      "key": "key.keyboard.d",
+      "modifier": "NONE"
+    },
+    "weaversparadise.keybind.trinket_sound": {
+      "key": "key.keyboard.x",
+      "modifier": "NONE"
+    },
+    "weaversparadise.keybind.up_minigame": {
+      "key": "key.keyboard.w",
       "modifier": "NONE"
     }
   }

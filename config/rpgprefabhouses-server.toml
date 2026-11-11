@@ -1,0 +1,83 @@
+[placement]
+	#Survival players must carry a Prefab House Catalogue to place a house.
+	requireCatalogue = true
+	#Consume the catalogue when a survival player places a house.
+	consumeCatalogue = false
+	#Operators, and a single-player world's owner with cheats on, place houses for free and need no
+	#catalogue or hammer. Set to false to make them follow the survival rules too; creative players are always free.
+	exemptOperators = true
+	#What survival players pay to place a medium-sized house, as item=count entries, e.g.
+	#["minecraft:emerald=16", "minecraft:gold_ingot=4"]. Empty: houses are free. Each count is multiplied by the
+	#multipliers below (rounded up) and undo gives it back.
+	placementCost = []
+	#Price multiplier by house size, as size=multiplier entries. A house's size is the floor area of its
+	#rooms above ground: tiny under 400 blocks, small under 650, medium under 1500, large under 2200, huge 2200 or more.
+	costBySize = ["tiny=0.5", "small=0.75", "medium=1", "large=1.5", "huge=2"]
+	#Price multiplier by genre, as genre=multiplier entries, e.g. ["wizard_tower=1.5", "fairy_hut=0.8"].
+	#Genres not listed cost 1x. Genres: medieval_manor, ranger_lodge, mountain_keep, village_homestead, alchemist_house, coastal_estate, desert_oasis, swamp_manor, nordic_longhouse, wizard_tower, storybook_manor, rustic_townhouse, fairy_hut, hillside_burrow, gothic_manor, dwarven_hall, eastern_house, greek_villa, treehouse, alpine_chalet.
+	costByGenre = []
+	#Price multiplier for a house with rooms below ground.
+	# Default: 1.25
+	# Range: 0.0 ~ 100.0
+	basementCostMultiplier = 1.25
+	#Price multiplier for a house with a deep mine (only while deepMines is on).
+	# Default: 1.25
+	# Range: 0.0 ~ 100.0
+	mineCostMultiplier = 1.25
+	#How long (minutes) a player can undo the last house they placed with /prefabhouse undo, as long as nothing
+	#of it has been broken and no chest in it used. 0 turns undo off.
+	# Default: 30
+	# Range: 0 ~ 1440
+	undoMinutes = 30
+	#Maximum distance (blocks) between the player and the house being placed.
+	# Default: 128
+	# Range: 16 ~ 512
+	maxPlacementDistance = 128
+	#How many player-built looking blocks (planks, glass, torches, rails...) may be
+	#overwritten before placement is refused. Containers and other block entities are never overwritten.
+	# Default: 6
+	# Range: 0 ~ 1000
+	protectedBlockTolerance = 6
+	#Refuse placement that overlaps a generated surface structure (villages, outposts...).
+	blockStructureOverlap = true
+	#Reshape the land around a placed house's lot into a gentle slope, so the lot meets the terrain instead
+	#ending in a dirt wall or a ledge. Only natural ground (tag rpgprefabhouses:blend_ground) and plants on it
+	#are touched, each column keeps its own surface block, and claimed land is left alone.
+	blendTerrain = true
+	#Width (blocks) of the blended ring around the lot.
+	# Default: 6
+	# Range: 1 ~ 12
+	blendWidth = 6
+	#Largest height difference (blocks) between the lot and the land that is blended; steeper
+	#terrain such as cliffs is left as it is.
+	# Default: 5
+	# Range: 1 ~ 12
+	blendMaxStep = 5
+	#Houses of the Varied architecture are laid into the land: the house stands at a height taken from the ground
+	#under it, the ground rises against its walls below the windows and falls away to show its plinth, the garden follows
+	#the terrain in terraces with retaining walls of the house's foundation stone, paths climb in walkable steps and carry
+	#on into the land, trees and water in the garden are kept, and a site that would need too much earthwork is refused.
+	#False places every house on a level lot, as houses of the Original architecture always are.
+	fitTerrain = true
+
+[generator]
+	#Allow players to place their own generated (customised) designs.
+	allowCustomHouses = true
+	#Maximum number of optional rooms a generated design may request.
+	# Default: 24
+	# Range: 0 ~ 40
+	maxOptionalRooms = 24
+
+[mines]
+	#Dig every house's mine down to the deepslate layer when the house is placed.
+	deepMines = true
+	#World height of the mine's bottom chamber floor (deepslate starts below y=0 in the overworld).
+	#Always kept above the bottom of the world and at least one flight below the house.
+	# Default: -32
+	# Range: -2032 ~ 2000
+	mineBottomY = -32
+	#What the recovery chests at the bottom of the mine contain. Only blocks the mine actually cleared
+	#are ever counted, each exactly once: DROPS = what hand-mining them with an iron pickaxe drops,
+	#BLOCKS = the blocks themselves (silk-touch style), NONE = nothing.
+	#Allowed Values: DROPS, BLOCKS, NONE
+	recovery = "DROPS"

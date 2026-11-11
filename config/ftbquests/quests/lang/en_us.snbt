@@ -1230,7 +1230,12 @@
 		"&aFume collection&r is done in a &bWitch's Oven&r, which is crafted with &bIron&r (to deter the fey)."
 		""
 		"It works similarly to a &bFurnace&r, but is limited in what it can cook, and it has additional slots which can accommodate &bClay Jars&r to &atrap the fumes&r. Take these &bSaplings&r - you may wish to plant them and obtain more before you continue - and fire these &bClay Jars&r when you get the chance."
+		""
+		"Be aware that &dobtaining Fumes isn't guaranteed&r - for each sapling burnt, there's a chance at obtaining the &bFumes&r. You can increase these odds by adding &bFume Funnels&r to the &bOven&r."
+		""
+		"[ { \"text\": \"More on Fume Funnels\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"0A8AD22B188FA65B\" } } ]"
 	]
+	quest.2B1B9108FF7A3FB3.quest_subtitle: "a witch's oven for a witch's coven"
 	quest.2B1B9108FF7A3FB3.title: "Happy Witch: Sacred Space"
 	quest.2B73F9B609ABE980.quest_desc: [
 		"The &bUltimate Upgrade&r gives you all the previous benefits, while also transporting &aone stack at a time&r, making it the fastest option."
@@ -1875,6 +1880,9 @@
 		"The &bMagnifying Glass&r helps you to &azoom into your drawing&r to ensure perfect pixel placement! It can be used with &bany other tool&r and can be &6stowed with right click&r."
 	]
 	quest.41FE37817AC6ACC6.title: "Drawing Assistance 2"
+	quest.425361C7DAB60239.quest_desc: ["Dyeing items in the crafting grid is &aso lame&r - instead, use a &bDye Basin&r! To do so is simple, "]
+	quest.425361C7DAB60239.quest_subtitle: "handbook for the recently colorful"
+	quest.425361C7DAB60239.title: "About Dyeing"
 	quest.427FD234857AEBE8.quest_desc: ["&bInfused Fabric&r is the basis for creating your very first set of &bWitch Robes&r. The warp and weft are perfectly balanced, giving this extra defense despite only being fabric."]
 	quest.427FD234857AEBE8.quest_subtitle: "Of course it's black"
 	quest.427FD234857AEBE8.title: "Obtain Infused Fabric"
@@ -3093,6 +3101,34 @@
 	quest.6E5FC4F24E0EDAFE.title: "Find the Castle Tower"
 	quest.6E90234166580EEB.quest_desc: ["The &bBig Wooden Spoon&r allows you to &acarve servings off of &bFeasts&r which would normally require a &bBowl&r to collect!"]
 	quest.6E90234166580EEB.quest_subtitle: "ursa majora is that you?"
+	quest.6ED2FB5E33D8ED42.quest_desc: [
+		"Although there are many types of Witch Hats (in this pack, and in general), there is one that rises above the others in terms of fashion: the &bGrand Witch's Hat&r."
+		""
+		"What makes it so grand? Why, you can &adecorate it to your heart's content&r!"
+		""
+		"Try combining the &bGrand Witch's Hat&r in a crafting grid with one of the following:"
+		""
+		"- A &bDye&r, to recolor the hat (do this at any time)"
+		"- Any &bWool&r, to widen the brim (do this just once, let's not go bonkers)"
+		"- A &bHat Band&r, to add a bit of flair"
+		"- &bIron or Gold Ingots&r, or a &bDiamond&r to change the buckle"
+		""
+		"These changes are permanent (although with dyeing and such, they can be replaced with different colors)."
+		""
+		"Then, for more ephemeral decorations, you can apply one of each of the following to your hat (recover them by &6shift+right clicking while holding the hat&r):"
+		""
+		"- Skulls"
+		"- Lanterns"
+		"- Small Flowers and Mushrooms"
+		"- Pumpkins/Jack o Lanterns"
+		"- Candles"
+		"- Feathers, such as the Raven's Feather or Chicken Feathers"
+		"- Ribbons"
+		"- Antlers"
+		"- Horns"
+	]
+	quest.6ED2FB5E33D8ED42.quest_subtitle: "every witch must have a hat"
+	quest.6ED2FB5E33D8ED42.title: "A Special Hat"
 	quest.6EEBE18A146001AC.quest_desc: ["The &bBank Card&r can be used to &afacilitate transactions without you carrying coinage&r! Once linked to your &bBank Terminal&r, you can use your &bCard&r to &abuy items at Shops&r and also to &aaccept money at a &bSelling Bin&r."]
 	quest.6EEBE18A146001AC.title: "Obtain a Bank Card"
 	quest.6EFFB8ED37DC8A47.quest_desc: [

@@ -1,0 +1,16 @@
+{
+  "mod_id": "hearthandharvest",
+  "categories": [
+    {
+      "id": "main/root",
+      "advancement_root": "hearthandharvest:main/root",
+      "title": "advancement.hearthandharvest.root",
+      "description": "advancement.hearthandharvest.root.desc",
+      "icon": {
+        "type": "item",
+        "value": "hearthandharvest:blueberries"
+      },
+      "enabled": true
+    }
+  ]
+}

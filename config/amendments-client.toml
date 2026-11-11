@@ -1,7 +1,7 @@
 [general]
 	tooltip_hints = true
 	#Makes dynamically generated assets depend on texture packs too and not just vanilla files
-	texture_pack_support = false
+	texture_pack_support = true
 	#Allowed Values: ALWAYS, CACHED, CACHED_ZIPPED, NEVER
 	dynamic_assets_generation_mode = "CACHED"
 
@@ -140,7 +140,7 @@
 		#Makes the selected hotbar slot slide to its new position. Higher is faster, 0 for vanilla behavior
 		# Default: 2.5
 		# Range: 0.0 ~ 5.0
-		speed = 2.5
+		speed = 0
 		#If the hotbar slot animation wraps around the edges
 		wrap = true
 		#What the animation does when the selection texture is opaque. NONE keeps it on top of the items, IN_BACKGROUND moves it behind them, TURNS_OFF disables the animation

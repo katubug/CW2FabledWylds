@@ -29,6 +29,33 @@
       "rewards": {
         "attributes": {}
       }
+    },
+    "main/get_cotton_candy_machine": {
+      "display_name": "A Thousand Spins",
+      "original_name": "A Thousand Spins",
+      "icon": "delighto_flight:cotton_candy_machine",
+      "enabled": true,
+      "rewards": {
+        "attributes": {}
+      }
+    },
+    "main/get_cloudwalking": {
+      "display_name": "Daylight Ascension",
+      "original_name": "Daylight Ascension",
+      "icon": "delighto_flight:sweet_berry_cotton_candy",
+      "enabled": true,
+      "rewards": {
+        "attributes": {}
+      }
+    },
+    "main/when_stars_fall_into_dreams": {
+      "display_name": "When Stars Fall into Dreams",
+      "original_name": "When Stars Fall into Dreams",
+      "icon": "delighto_flight:stardrop",
+      "enabled": true,
+      "rewards": {
+        "attributes": {}
+      }
     }
   }
 }

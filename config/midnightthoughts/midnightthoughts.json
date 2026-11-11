@@ -261,7 +261,7 @@
     },
     "nightmareThreshold": -1,
     "sleepBlockThreshold": -2,
-    "nightmareEnabled": true,
+    "nightmareEnabled": false,
     "sleepBlockEnabled": true
   },
   "server": {
@@ -269,11 +269,11 @@
     "suppressVanillaSleepMessages": true
   },
   "ui": {
-    "theme": "classic",
+    "theme": "magic",
     "wellRestedHudPosition": "left",
     "hideWellRestedHud": false,
     "hideSleepingPlayersHud": false,
-    "summaryScale": 0,
+    "summaryScale": 1,
     "summaryStyle": "picture"
   }
 }

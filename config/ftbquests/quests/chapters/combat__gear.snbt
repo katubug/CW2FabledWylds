@@ -720,5 +720,25 @@
 			x: 16.5d
 			y: -8.0d
 		}
+		{
+			id: "6ED2FB5E33D8ED42"
+			preset: "item"
+			quest_enhance_disable_scroll_paging: false
+			rewards: [{
+				id: "748D75BD27DAE5E1"
+				item: {
+					count: 1
+					id: "mgn_witch_hat:raven_feather"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "11755642C7242091"
+				item: { count: 1, id: "mgn_witch_hat:witch_hat" }
+				type: "item"
+			}]
+			x: 18.5d
+			y: -8.0d
+		}
 	]
 }

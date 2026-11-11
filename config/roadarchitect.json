@@ -1,19 +1,33 @@
 {
-  "initScanRadius": 125,
+  "initScanRadius": 32,
   "chunkGenerateScanRadius": 20,
   "maxConnectionDistance": 715,
-  "pipelineIntervalSeconds": 120,
+  "pipelineIntervalSeconds": 60,
   "lampInterval": 30,
-  "roadWidth": 3,
-  "sideDecorationInterval": 12,
-  "buoyInterval": 18,
+  "roadWidth": 4,
+  "sideDecorationInterval": 13,
+  "buoyInterval": 0,
   "maskErosion": 1,
   "deterministicDecorations": true,
   "roadStyles": {
     "enabled": true,
     "overrides": [
       {
-        "biomeSelectors": [],
+        "biomeSelectors": [
+          "minecraft:forest",
+          "minecraft:birch_forest",
+          "minecraft:old_growth_birch_forest",
+          "minecraft:dark_forest",
+          "minecraft:flower_forest",
+          "minecraft:jungle",
+          "minecraft:bamboo_jungle",
+          "minecraft:sparse_jungle",
+          "minecraft:old_growth_pine_taiga",
+          "minecraft:old_growth_spruce_taiga",
+          "minecraft:taiga",
+          "minecraft:windswept_forest",
+          "minecraft:lush_caves"
+        ],
         "palette": [
           {
             "block": "minecraft:stone_bricks",
@@ -1603,8 +1617,8 @@
     "minecraft:overworld"
   ],
   "terrainAnalyzer": {
-    "enabled": false,
-    "roughRadius": 12,
+    "enabled": true,
+    "roughRadius": 20,
     "roughStride": 3,
     "roughRangeThreshold": 12,
     "roughPenaltyScale": 15.0
@@ -1613,7 +1627,7 @@
     "runtimeBudgetMb": 128,
     "snapshotBudgetMb": 32,
     "persistedBudgetMb": 192,
-    "regionSizeChunks": 32,
+    "regionSizeChunks": 24,
     "enablePrefill": true,
     "prefillMaxChunks": 2048,
     "persistHeights": true,
@@ -1623,7 +1637,7 @@
   "pathfinding": {
     "preferLandOverWater": true,
     "waterStepPenalty": 200.0,
-    "coastAvoidBufferBlocks": 16,
+    "coastAvoidBufferBlocks": 0,
     "coastProximityPenalty": 180.0,
     "acceptHighProgressPartial": true,
     "partialProgressPercent": 80
@@ -1633,7 +1647,7 @@
       "#minecraft:is_ocean",
       "#minecraft:is_deep_ocean"
     ],
-    "bufferBlocks": 16,
+    "bufferBlocks": 0,
     "proximityPenalty": 500.0
   },
   "debug": {
@@ -1641,8 +1655,8 @@
     "enablePipelineProfiler": false,
     "enableCacheLogs": false,
     "showCacheStatsOverlay": false,
-    "showScanningBar": true,
+    "showScanningBar": false,
     "enableDebugMap": true,
-    "asyncThreads": 0
+    "asyncThreads": 2
   }
 }

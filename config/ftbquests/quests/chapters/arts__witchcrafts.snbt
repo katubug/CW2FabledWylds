@@ -1008,6 +1008,17 @@
 			x: -7.5d
 			y: -2.0d
 		}
+		{
+			id: "425361C7DAB60239"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "7F42E5CBBCCB4D5F"
+				item: { components: { "ftbfiltersystem:filter": "or(item_tag(c:dyes))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: -4.5d
+			y: 0.0d
+		}
 	]
 	tags: ["bluequests"]
 }
