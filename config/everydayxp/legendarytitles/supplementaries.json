@@ -83,6 +83,15 @@
       "rewards": {
         "attributes": {}
       }
+    },
+    "adventure/cannon": {
+      "display_name": "Up up and away",
+      "original_name": "Up up and away",
+      "icon": "supplementaries:cannon",
+      "enabled": true,
+      "rewards": {
+        "attributes": {}
+      }
     }
   }
 }

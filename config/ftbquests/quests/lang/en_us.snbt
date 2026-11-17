@@ -1294,18 +1294,11 @@
 	]
 	quest.2CAAC737A4D4FF60.title: "Deliver Fish"
 	quest.2D0CDD91CFAA0937.quest_desc: [
-		"Summoning a &eSilk Moth&r, if you cannot find one in the wild, will require a &asmall ritual&r and a teensy bit of &ablood sacrifice&r. Oh, don't worry, the blood can come from any old thing, including the &eZombie&r you'll get as a reward for this quest!"
+		"Summoning a &eSilk Moth&r, if you cannot find one in the wild, will require a &asmall ritual&r and a teensy bit of &ablood sacrifice&r with the &bAthame&r. Oh, don't worry, the blood can come from any &ehostile mob&r, including the &eZombie&r you'll get as a reward for this quest!"
 		""
 		"To summon the &eSilk Moth&r, you'll need &bRitual Braziers&r set up around a &bRitual Table&r - you have one of those, right? Make sure to &asalt the &bBraziers&r, and &agrow 8 crops to maturity&r as power for the spell!"
 		""
-		"Then, place on the &bRitual Table&r a &bFragrant Nectar&r - this will be the central focus. Surrounding the Table, place on the Braziers the following:"
-		""
-		"- &bString&r"
-		"- &bWhite Wool&r"
-		"- &bSpirit Powder&r"
-		"- &bCelestial Bloom&r"
-		"- &bGlowstone Dust&r"
-		"- &bWitchweed&r"
+		"Then, place on the &bRitual Table&r a &bFragrant Nectar&r - this will be the central focus. Surrounding the Table, place on the Braziers the ingredients mentioned in your &bVerdant Grimoire&r."
 		""
 		"{image:quest_enhance:textures/ftb/clipboard_1790374356249.png width:345 height:274 align:center fit:true}"
 		""
@@ -1880,7 +1873,11 @@
 		"The &bMagnifying Glass&r helps you to &azoom into your drawing&r to ensure perfect pixel placement! It can be used with &bany other tool&r and can be &6stowed with right click&r."
 	]
 	quest.41FE37817AC6ACC6.title: "Drawing Assistance 2"
-	quest.425361C7DAB60239.quest_desc: ["Dyeing items in the crafting grid is &aso lame&r - instead, use a &bDye Basin&r! To do so is simple, "]
+	quest.425361C7DAB60239.quest_desc: [
+		"Although you can still &adye Armor in the &bCrafting Table&r, you will need a &bDye Basin&r for most other dyeing! To use this item, &6fill it with Water&r and then &6right click a &bDye&r into it. This consumes the dye and &dadding another dye will overwrite the previous color - not add to it&r."
+		""
+		"Then &6right click your item into the &bDye Basin&r, and &6right click it repeatedly&r to work the dye into the object. This works on wool, carpets, beds, candles, glass, terracotta, concrete, banners, leather gear and backpacks!"
+	]
 	quest.425361C7DAB60239.quest_subtitle: "handbook for the recently colorful"
 	quest.425361C7DAB60239.title: "About Dyeing"
 	quest.427FD234857AEBE8.quest_desc: ["&bInfused Fabric&r is the basis for creating your very first set of &bWitch Robes&r. The warp and weft are perfectly balanced, giving this extra defense despite only being fabric."]
@@ -3386,7 +3383,7 @@
 		""
 		"For example, it is one of the best ways to obtain &bplushies&r."
 		""
-		"To use it, simply &6right click it with a valid currency&r (either &bDiamonds&r or &bSprockets&r). Here, have some pocket change. Good luck."
+		"To use it, simply &6right click it with a valid currency&r (either &bDiamonds&r or &bCogs&r). Here, have some pocket change. Good luck."
 	]
 	quest.7A31753911D1CCFC.quest_desc: ["Catch one each of the &abasic fish in vanilla&r!"]
 	quest.7A31753911D1CCFC.title: "Catch Basic Fish"

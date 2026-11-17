@@ -246,6 +246,11 @@
     "penaltyPerDeath": 30,
     "mvpWellRestedDurationMinutes": 21
   },
+  "experience": {
+    "enabled": true,
+    "experiencePerPoint": 0.03,
+    "maxExperiencePerSleep": 0
+  },
   "comfort": {
     "enabled": true,
     "scanRadius": 5,
@@ -275,5 +280,9 @@
     "hideSleepingPlayersHud": false,
     "summaryScale": 1,
     "summaryStyle": "picture"
+  },
+  "integrations": {
+    "sereneSeasons": true,
+    "eclipticSeasons": true
   }
 }

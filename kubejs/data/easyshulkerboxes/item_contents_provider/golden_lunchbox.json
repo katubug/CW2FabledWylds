@@ -1,0 +1,10 @@
+{
+  "type": "iteminteractions:container",
+  "disallowed_item_contents": "#fabled_wylds:not_in_lunchbags",
+  "equipment_slots": "any",
+  "filter_container_items": true,
+  "interaction_permissions": "always",
+  "inventory_height": 2,
+  "inventory_width": 7,
+  "supported_items": "solonion:golden_lunchbox"
+}

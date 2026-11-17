@@ -29,7 +29,7 @@
   "idWarnings": true,
   "strictAnalysis": true,
   "diagDelayMs": 250,
-  "kubejs": true,
+  "kubejs": false,
   "recipeNamespace": "kubejsstudio",
   "reviewBeforeApply": true,
   "autoReloadAfterApply": true,

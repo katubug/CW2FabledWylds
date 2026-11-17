@@ -27,3 +27,6 @@ keepPlayerQualityOnDeath = true
 #QualityBreedEvent is posted either way, so another mod can set NONE here and decide the baby's quality itself.
 #Allowed Values: HIGHEST, LOWEST, AVERAGE, NONE
 breedInheritance = "AVERAGE"
+#Only results with durability inherit quality in furnaces, smokers, blast furnaces, campfires and Farmer's Delight stations.
+#Off by default, so cooked food and smelted ingots carry the quality of what went in.
+stationInheritanceDamageableOnly = false

@@ -45,8 +45,8 @@
   "pinnedFiles": [],
   "pinnedFolders": [],
   "favorites": [],
-  "recipesSelected": "hexalia:purity_idol",
-  "recipesSearch": "burger",
+  "recipesSelected": "hearthandharvest:cooking/apple_jam",
+  "recipesSearch": "hearthandharvest:cooking/apple_jam",
   "tagsRegistry": "item",
   "tagsSelected": "fabled_wylds:bone_needles",
   "tagsSearch": "",
@@ -59,6 +59,7 @@
   "createSearch": "",
   "filesOpen": [],
   "recentPicks": [
+    "item minecraft:honey_bottle",
     "item kubejs:cheeseburger",
     "item farmersdelight:hamburger",
     "item #c:cheese_slices"

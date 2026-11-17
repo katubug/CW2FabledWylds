@@ -84,14 +84,15 @@
     "block_properties": false,
     "mod_name": true
   },
-  "redomesticate": {
-    "collar_tag": true
-  },
   "adorablehamsterpets": {
     "hamster_debug_info": true,
     "hamster_bed_info": true,
     "wild_bush_tooltips": true,
     "hamster_genetics": true
+  },
+  "redomesticate": {
+    "collar_tag": true,
+    "pet_owner": true
   },
   "delighto_flight": {
     "crop_progress": true
@@ -102,9 +103,6 @@
   "functionalstorage": {
     "armory": true,
     "drawer": true
-  },
-  "cloudworks_api": {
-    "durable_block_durability": true
   },
   "exposure": {
     "lightroom": true,

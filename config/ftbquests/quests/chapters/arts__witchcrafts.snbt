@@ -1010,7 +1010,21 @@
 		}
 		{
 			id: "425361C7DAB60239"
+			preset: "item"
 			quest_enhance_disable_scroll_paging: false
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3BC80B810A0CA645"
+				is_ender: false
+				is_team_reward: false
+				item: {
+					count: 1
+					id: "minecraft:water_bucket"
+				}
+				target_addressee: "Katu Starshine"
+				team_reward_multiplier: 1.0f
+				type: "contactquests:parcel"
+			}]
 			tasks: [{
 				id: "7F42E5CBBCCB4D5F"
 				item: { components: { "ftbfiltersystem:filter": "or(item_tag(c:dyes))" }, count: 1, id: "ftbfiltersystem:smart_filter" }

@@ -22,6 +22,12 @@
     },
     {
       "item": "enchanted:mutandis"
+    },
+    {
+      "item": "minecraft:blaze_powder"
+    },
+    {
+      "item": "minecraft:seeds"
     }
   ],
   "output": {
