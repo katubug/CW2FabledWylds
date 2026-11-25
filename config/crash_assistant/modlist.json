@@ -364,14 +364,6 @@
     "curseForgeHash": 2767968248,
     "modrinthHash": "e4c2e1af4e3082d68f7df75f7c8ce30116d71515"
   },
-  "Capsule-1.21.1-9.0.117.jar": {
-    "jarName": "Capsule-1.21.1-9.0.117.jar",
-    "modId": "capsule",
-    "name": "Capsule",
-    "version": "1.21.1-9.0.117",
-    "curseForgeHash": 3176737516,
-    "modrinthHash": "14159591022a0b737981792403a172f65a445aaf"
-  },
   "carrasconlib-neoforge-1.21.1-0.1.jar": {
     "jarName": "carrasconlib-neoforge-1.21.1-0.1.jar",
     "modId": "carrasconlib",
@@ -1252,13 +1244,13 @@
     "curseForgeHash": 1385959600,
     "modrinthHash": "c3cd7c2718583aa5a12e8502c6b92e050bad0c19"
   },
-  "fwa-1.21.1-neoforge-1.3.7.jar": {
-    "jarName": "fwa-1.21.1-neoforge-1.3.7.jar",
+  "fwa-1.21.1-neoforge-1.3.7-patch.2.jar": {
+    "jarName": "fwa-1.21.1-neoforge-1.3.7-patch.2.jar",
     "modId": "fwa",
     "name": "Fancy World Animations",
-    "version": "1.3.7",
-    "curseForgeHash": 1002904322,
-    "modrinthHash": "0c7e975b11b4fb94f52da8ca0be1dd4cd1880de0"
+    "version": "1.3.7-patch.2",
+    "curseForgeHash": 886223906,
+    "modrinthHash": "e646970e0d5fc23a78c2bc155e025819f2c56379"
   },
   "fzzy_config-0.7.7+fix1+1.21+neoforge.jar": {
     "jarName": "fzzy_config-0.7.7+fix1+1.21+neoforge.jar",
@@ -2542,13 +2534,13 @@
     "curseForgeHash": 2404631773,
     "modrinthHash": "adf717dbb032ccaf7d100c0ba71bdea0fb21755a"
   },
-  "reliable_replacer-1.8.2+1.21.1-neoforge.jar": {
-    "jarName": "reliable_replacer-1.8.2+1.21.1-neoforge.jar",
+  "reliable_replacer-1.8.3-1.21.1-neoforge.jar": {
+    "jarName": "reliable_replacer-1.8.3-1.21.1-neoforge.jar",
     "modId": "reliable_replacer",
     "name": "Reliable Replacer",
-    "version": "1.8.1+1.21.1",
-    "curseForgeHash": 4040374324,
-    "modrinthHash": "4ad3e0a4fd83f0100ead1277c3373b805bb464a9"
+    "version": "1.8.3+1.21.1",
+    "curseForgeHash": 3117365415,
+    "modrinthHash": "2d85a6da5e5f6f41c608f1068090bc20cc5b145b"
   },
   "relics-1.21.1-0.12.11.jar": {
     "jarName": "relics-1.21.1-0.12.11.jar",
@@ -2750,14 +2742,6 @@
     "curseForgeHash": 2952234645,
     "modrinthHash": "96d958fbd14713a3e50905b64d59d9fe31a26c63"
   },
-  "shulkerboxtooltip-neoforge-5.1.9+1.21.1.jar": {
-    "jarName": "shulkerboxtooltip-neoforge-5.1.9+1.21.1.jar",
-    "modId": "shulkerboxtooltip",
-    "name": "ShulkerBoxTooltip",
-    "version": "5.1.9+1.21.1",
-    "curseForgeHash": 23197171,
-    "modrinthHash": "bddbccd689529f7f7ab04479e62c5e09b0be6be5"
-  },
   "silver_lib-1.3.0.jar": {
     "jarName": "silver_lib-1.3.0.jar",
     "modId": "silver_lib",
@@ -2806,21 +2790,21 @@
     "curseForgeHash": 3284320391,
     "modrinthHash": "d8858c4135c4be4b8f9db7454bb0086b40ddae9f"
   },
-  "sophisticatedcore-1.21.1-1.5.37.2482.jar": {
-    "jarName": "sophisticatedcore-1.21.1-1.5.37.2482.jar",
+  "sophisticatedcore-1.21.1-1.5.38.2484.jar": {
+    "jarName": "sophisticatedcore-1.21.1-1.5.38.2484.jar",
     "modId": "sophisticatedcore",
     "name": "Sophisticated Core",
-    "version": "1.5.37",
-    "curseForgeHash": 1564359168,
-    "modrinthHash": "006d6206d7a0a76dd210f7db22f742726ec1cbc0"
+    "version": "1.5.38",
+    "curseForgeHash": 104050010,
+    "modrinthHash": "4df57272cd26190aede7b32da1d3f49f84e3fbdd"
   },
-  "sophisticatedstorage-1.21.1-1.6.18.2229.jar": {
-    "jarName": "sophisticatedstorage-1.21.1-1.6.18.2229.jar",
+  "sophisticatedstorage-1.21.1-1.6.19.2234.jar": {
+    "jarName": "sophisticatedstorage-1.21.1-1.6.19.2234.jar",
     "modId": "sophisticatedstorage",
     "name": "Sophisticated Storage",
-    "version": "1.6.18",
-    "curseForgeHash": 2735813534,
-    "modrinthHash": "7b6b98482d8f1f7d1f586c601eb4eae652b63bed"
+    "version": "1.6.19",
+    "curseForgeHash": 1255966147,
+    "modrinthHash": "93c87a68ef3550d2824baf416113c7b61406c165"
   },
   "SoulHome-Mod-1.21.1-21.1.172-b14.jar": {
     "jarName": "SoulHome-Mod-1.21.1-21.1.172-b14.jar",

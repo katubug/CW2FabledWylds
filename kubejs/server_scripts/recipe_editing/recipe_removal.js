@@ -78,7 +78,8 @@ ServerEvents.recipes(event => {
 		{ output: 'whimsy_deco:orange_froggy_chair' },
 		{ output: 'whimsy_deco:yellow_froggy_chair' },
 		{ output: 'whimsy_deco:blue_froggy_chair' },
-		{ output: 'whimsy_deco:pink_froggy_chair' }
+		{ output: 'whimsy_deco:pink_froggy_chair' },
+		{ id: 'hearthandharvest:fertilizer_bag' }
 
 	];
 

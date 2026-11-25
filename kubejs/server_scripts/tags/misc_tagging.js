@@ -1,5 +1,10 @@
 ServerEvents.tags('item', event => {
 
+	//hexerei sage seeds
+	event.add('c:seeds',
+		'hexerei:sage_seed'
+	)
+
 	//witch hat tagging
 	event.add('minecraft:small_flowers',
 		'betterend:small_amaranita_mushroom',
