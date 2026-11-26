@@ -36,6 +36,20 @@ ServerEvents.recipes(event => {
 		    ]
 		)
 		event.remove({id: 'numismatics:crafting/'+color+'_card'});
+
+        // Re-add concrete powder recipes missing due to Seams & Stitches
+        event.shaped(
+            Item.of('minecraft:'+color+'_concrete_powder', 8),
+            [
+                'ABB',
+                'BBC',
+                'CCC'
+            ], {
+                A: '#c:dyes/'+color,
+                B: '#c:sands',
+                C: '#c:gravels'
+            }
+        )
 	}
 
 })
