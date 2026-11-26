@@ -1,0 +1,96 @@
+{
+  "name": "item.hexerei.witch_hazel_broom",
+  "paragraphs": [
+    {
+      "paragraph_box": [
+        {
+          "x": 0,
+          "y": 0,
+          "height": 19,
+          "width": 32
+        }
+      ],
+      "passage_text": "To craft, you need to use Circle Magic and the items shown below"
+    }
+  ],
+  "items_and_fluids": [
+    {
+      "type": "item",
+      "x": 4,
+      "y": 1.25,
+      "item": {
+        "id": "enchanted:ritual_chalk"
+      }
+    },
+    {
+      "type": "item",
+      "x": 5,
+      "y": 1.25,
+      "item": {
+        "id": "enchanted:nether_chalk"
+      }
+    },
+    {
+      "type": "item",
+      "x": 2.3875,
+      "y": 3,
+      "item": {
+        "id": "hexerei:willow_broom"
+      }
+    },
+    {
+      "type": "item",
+      "x": 3.275,
+      "y": 3.875,
+      "item": {
+        "id": "hexalia:mandrake"
+      }
+    },
+    {
+      "type": "item",
+      "x": 1.5,
+      "y": 3.875,
+      "item": {
+        "id": "hexerei:witch_hazel_sapling",
+        "count": 2
+      }
+    },
+    {
+      "type": "item",
+      "x": 2.3875,
+      "y": 4.75,
+      "item": {
+        "id": "hexerei:blood_bottle",
+        "count": 2
+      }
+    }
+  ],
+  "images": [
+    {
+      "x": 3,
+      "y": 4.5,
+      "z": 2,
+      "u": 0,
+      "v": 0,
+      "width": 100,
+      "height": 100,
+      "imageWidth": 100,
+      "imageHeight": 100,
+      "scale": 1.75,
+      "texture": "enchanted:textures/gui/circle_magic_shapes/small_circle_nether_chalk.png"
+    },
+    {
+      "x": 3,
+      "y": 4.5,
+      "z": 2,
+      "u": 0,
+      "v": 0,
+      "width": 100,
+      "height": 100,
+      "imageWidth": 100,
+      "imageHeight": 100,
+      "scale": 1.75,
+      "texture": "enchanted:textures/gui/circle_magic_shapes/medium_circle_ritual_chalk.png"
+    }
+  ]
+}

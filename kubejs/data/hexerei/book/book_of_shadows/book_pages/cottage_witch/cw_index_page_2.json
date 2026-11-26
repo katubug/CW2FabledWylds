@@ -1,0 +1,125 @@
+{
+  "name": "Cottage Witch",
+  "paragraphs": [
+    {
+      "paragraph_box": [
+        {
+          "x": 7,
+          "y": -0.5,
+          "height": 2,
+          "width": 32,
+          "verticalAlign": "middle"
+        }
+      ],
+      "passage_text": "Concepts",
+      "align": "middle"
+    },
+    {
+      "paragraph_box": [
+        {
+          "x": 7,
+          "y": 7,
+          "height": 2,
+          "width": 32,
+          "verticalAlign": "middle"
+        }
+      ],
+      "passage_text": "Altered Recipes",
+      "align": "middle"
+    }
+  ],
+  "items_and_fluids": [
+    {
+      "type": "item",
+      "x": 0,
+      "y": 1,
+      "item": {
+        "id": "enchanted:ritual_chalk"
+      }
+    },
+    {
+      "type": "item",
+      "x": 0,
+      "y": 4,
+      "item": {
+      "id": "hexerei:willow_broom"
+        }
+    },
+    {
+      "type": "item",
+      "x": 1,
+      "y": 4,
+      "item": {
+        "id": "hexerei:witch_hazel_broom"
+      }
+    },
+    {
+      "type": "item",
+      "x": 2,
+      "y": 4,
+      "item": {
+        "id": "hexerei:mahogany_broom"
+      }
+    },
+    {
+      "type": "item",
+      "x": 3,
+      "y": 4,
+      "item": {
+        "id": "hexerei:wet_broom_brush"
+      }
+    },
+    {
+      "type": "item",
+      "x": 4,
+      "y": 4,
+      "item": {
+        "id": "hexerei:wet_herb_enhanced_broom_brush"
+      }
+    },
+    {
+      "type": "item",
+      "x": 5,
+      "y": 4,
+      "item": {
+        "id": "hexerei:wet_moon_dust_brush"
+      }
+    },
+    {
+      "type": "item",
+      "x": 0,
+      "y": 5,
+      "item": {
+        "id": "hexerei:mixing_cauldron"
+      }
+    }
+  ],
+  "images": [
+    {
+      "x": 2.5,
+      "y": -0.3,
+      "z": -4,
+      "u": 0,
+      "v": 0,
+      "width": 380,
+      "height": 74,
+      "imageWidth": 380,
+      "imageHeight": 74,
+      "scale": 0.3,
+      "texture": "hexerei:textures/book/chapter_header.png"
+    },
+    {
+      "x": 2.5,
+      "y": 2.7,
+      "z": -4,
+      "u": 0,
+      "v": 0,
+      "width": 380,
+      "height": 74,
+      "imageWidth": 380,
+      "imageHeight": 74,
+      "scale": 0.3,
+      "texture": "hexerei:textures/book/chapter_header.png"
+    }
+  ]
+}

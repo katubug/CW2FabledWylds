@@ -1,0 +1,44 @@
+{
+  "name": "Cottage Witch",
+  "paragraphs": [
+    {
+      "paragraph_box": [
+        {
+          "x": 7,
+          "y": -0.5,
+          "height": 2,
+          "width": 32,
+          "verticalAlign": "middle"
+        }
+      ],
+      "passage_text": "- Cottage Witch -",
+      "align": "middle"
+    },
+    {
+      "paragraph_box": [
+        {
+          "x": 0,
+          "y": 3,
+          "height": 18,
+          "width": 32
+        }
+      ],
+      "passage_text": "This chapter is all about the changes the Cottage Witch Development Team has made related to Hexerei. \n\n  Click an item on the following index pages, or anywhere you see an item displayed, to flip to the entry on that item."
+    }
+  ],
+  "images": [
+    {
+      "x": 2.5,
+      "y": -0.3,
+      "z": -4,
+      "u": 0,
+      "v": 0,
+      "width": 380,
+      "height": 74,
+      "imageWidth": 380,
+      "imageHeight": 74,
+      "scale": 0.3,
+      "texture": "hexerei:textures/book/chapter_header.png"
+    }
+  ]
+}

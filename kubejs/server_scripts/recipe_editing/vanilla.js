@@ -57,4 +57,18 @@ ServerEvents.recipes(event => {
 			'#minecraft:wool'
 		]
 	)
+
+	// Re-add white concrete powder recipe missing due to Seams & Stitches
+    event.shaped(
+        Item.of('minecraft:white_concrete_powder', 8),
+        [
+            'ABB',
+            'BBC',
+            'CCC'
+        ], {
+            A: '#c:dyes/white',
+            B: '#c:sands',
+            C: '#c:gravels'
+        }
+    )
 })
