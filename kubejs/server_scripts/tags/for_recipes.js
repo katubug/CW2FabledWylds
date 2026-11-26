@@ -253,4 +253,34 @@ ServerEvents.tags('item', event => {
 		'hearthandharvest:blueberry_jam', 
 		'hearthandharvest:raspberry_jam'
 	)
+
+	//Vanilla Beds
+	event.add('c:simple_beds',
+		'minecraft:white_bed',
+		'minecraft:light_gray_bed',
+		'minecraft:gray_bed',
+		'minecraft:black_bed',
+		'minecraft:brown_bed',
+		'minecraft:red_bed',
+		'minecraft:orange_bed',
+		'minecraft:yellow_bed',
+		'minecraft:lime_bed',
+		'minecraft:green_bed',
+		'minecraft:cyan_bed',
+		'minecraft:light_blue_bed',
+		'minecraft:blue_bed',
+		'minecraft:purple_bed',
+		'minecraft:magenta_bed',
+		'minecraft:pink_bed',
+		'delicate_dyes:coral_bed',
+		'delicate_dyes:umber_bed',
+		'delicate_dyes:canary_bed',
+		'delicate_dyes:wasabi_bed',
+		'delicate_dyes:sacramento_bed',
+		'delicate_dyes:sky_bed',
+		'delicate_dyes:blurple_bed',
+		'delicate_dyes:lavender_bed',
+		'delicate_dyes:sangria_bed',
+		'delicate_dyes:rose_bed'
+	)
 })
