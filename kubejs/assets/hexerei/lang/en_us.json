@@ -75,5 +75,7 @@
   "block.hexerei.willow_broom_stand": "Witch Willow Broom Stand",
   "block.hexerei.willow_broom_stand_wall": "Witch Willow Broom Wall Stand",
   "book.hexerei.items_willow_window_1.passage_1": "Witch Willow Window",
-  "book.hexerei.items_willow_window_pane_1.passage_1": "Witch Willow Window Pane"
+  "book.hexerei.items_willow_window_pane_1.passage_1": "Witch Willow Window Pane",
+  "book.hexerei.items_mandrake_root_1.passage_2": "  The root of the Mandrake Plant, once used as an essential part for building the broom brushes as well as crafting the broom itself. It seems it is no longer found in this world.\n\n  Disabled in Cottage Witch 2.",
+  "book.hexerei.items_dowsing_rod_1.passage_2" : "  The Dowsing Rod was once able to locate certain biomes containing the needed plants for the witch to begin their craft. Now another tool seems to do the same job... \n\n  Disabled in Cottage Witch 2."
 }

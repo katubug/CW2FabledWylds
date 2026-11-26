@@ -1,0 +1,44 @@
+{
+  "name": "Combined Circles",
+  "images": [
+    {
+      "x": 3.25,
+      "y": 4,
+      "z": 2,
+      "u": 0,
+      "v": 0,
+      "width": 100,
+      "height": 100,
+      "imageWidth": 100,
+      "imageHeight": 100,
+      "scale": 1.5,
+      "texture": "enchanted:textures/gui/circle_magic_shapes/small_circle_ritual_chalk.png"
+    },
+    {
+      "x": 3.25,
+      "y": 4,
+      "z": 2,
+      "u": 0,
+      "v": 0,
+      "width": 100,
+      "height": 100,
+      "imageWidth": 100,
+      "imageHeight": 100,
+      "scale": 1.5,
+      "texture": "enchanted:textures/gui/circle_magic_shapes/medium_circle_nether_chalk.png"
+    },
+    {
+      "x": 3.25,
+      "y": 4,
+      "z": 2,
+      "u": 0,
+      "v": 0,
+      "width": 100,
+      "height": 100,
+      "imageWidth": 100,
+      "imageHeight": 100,
+      "scale": 1.5,
+      "texture": "enchanted:textures/gui/circle_magic_shapes/large_circle_otherwhere_chalk.png"
+    }
+  ]
+}

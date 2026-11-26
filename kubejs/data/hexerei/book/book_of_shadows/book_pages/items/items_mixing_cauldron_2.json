@@ -1,0 +1,78 @@
+{
+  "name": "block.hexerei.mixing_cauldron",
+  "paragraphs": [
+    {
+      "paragraph_box": [
+        {
+          "x": 0,
+          "y": 0,
+          "height": 19,
+          "width": 32
+        }
+      ],
+      "passage_text": "To craft, you need to use Circle Magic and the items shown below"
+    },
+    {
+      "paragraph_box": [
+        {
+          "x": 7,
+          "y": 16,
+          "height": 19,
+          "width": 40
+        }
+      ],
+      "passage_text": "Items are to be dropped within the circle",
+      "align": "middle"
+    }
+  ],
+  "items_and_fluids": [
+    {
+      "type": "item",
+      "x": 5,
+      "y": 1.25,
+      "item": {
+        "id": "enchanted:ritual_chalk"
+      }
+    },
+    {
+      "type": "item",
+      "x": 2.25,
+      "y": 3.25,
+      "item": {
+        "id": "minecraft:cauldron"
+      }
+    },
+    {
+      "type": "item",
+      "x": 1.75,
+      "y": 4.25,
+      "item": {
+        "id": "minecraft:gold_ingot",
+        "count": 2
+      }
+    },
+    {
+      "type": "item",
+      "x": 2.75,
+      "y": 4.25,
+      "item": {
+        "id": "hexerei:mindful_trance_blend"
+      }
+    }
+  ],
+  "images": [
+    {
+      "x": 3,
+      "y": 4.5,
+      "z": 2,
+      "u": 0,
+      "v": 0,
+      "width": 100,
+      "height": 100,
+      "imageWidth": 100,
+      "imageHeight": 100,
+      "scale": 2,
+      "texture": "enchanted:textures/gui/circle_magic_shapes/small_circle_ritual_chalk.png"
+    }
+  ]
+}
